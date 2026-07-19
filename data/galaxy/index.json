@@ -160,7 +160,9 @@
  "side_margin": 0.05,
  "sides": {
   "apologetics": {
-   "anchor": "cross-examined",
+   "anchors": [
+    "cross-examined"
+   ],
    "creators": [
     "britt-hartley",
     "capturing-christianity",
@@ -175,7 +177,9 @@
    ]
   },
   "deconstruction": {
-   "anchor": "darante-lamar",
+   "anchors": [
+    "darante-lamar"
+   ],
    "creators": [
     "belief-it-or-not",
     "darante-lamar",

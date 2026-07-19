@@ -34,7 +34,7 @@
     "y": 0.0073
    },
    "pole": null,
-   "videos": 31,
+   "videos": 55,
    "words": 495082
   },
   "belief-it-or-not": {
@@ -258,7 +258,7 @@
     "y": 0.0005
    },
    "pole": null,
-   "videos": 25,
+   "videos": 50,
    "words": 135438
   },
   "jackie-hill-perry": {
@@ -343,7 +343,7 @@
     "y": -0.0047
    },
    "pole": null,
-   "videos": 24,
+   "videos": 49,
    "words": 230944
   },
   "marc-coley": {
@@ -821,10 +821,14 @@
  },
  "poles": {
   "apologetics": {
-   "anchor": "cross-examined"
+   "anchors": [
+    "cross-examined"
+   ]
   },
   "deconstruction": {
-   "anchor": "darante-lamar"
+   "anchors": [
+    "darante-lamar"
+   ]
   }
  }
 }

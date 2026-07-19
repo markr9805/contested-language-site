@@ -180,11 +180,12 @@ function renderPolar() {
   drawPoints($("polar-chart"), pts,
     { lo: -1, hi: 1, labels: [poleNames[0], poleNames[poleNames.length - 1]] });
   const anchors = Object.entries(state.views.poles)
-    .map(([community, p]) => `${name(p.anchor)} (${community})`).join(", ");
+    .map(([community, p]) =>
+      `${p.anchors.map(name).join(" + ")} (${community})`).join(", ");
   $("polar-caption").textContent =
     `Poles are data-derived from author-designated anchors: ${anchors}. ` +
     "Non-anchor positions come from computed affinity weights — linguistic " +
-    "proximity to each anchor — so this is the readable view; check it " +
+    "proximity to each pole's anchors — so this is the readable view; check it " +
     "against the organic view, which imposes no categories.";
   renderPending("polar-pending", "polar");
 }
