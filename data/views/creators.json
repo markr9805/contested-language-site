@@ -493,7 +493,16 @@
    "words": 0
   }
  },
- "distances": {},
+ "distances": {
+  "darante-lamar|mindshift": {
+   "js": 0.1202,
+   "terms": {
+    "evidence": 0.0338,
+    "love": 0.3255,
+    "truth": 0.0013
+   }
+  }
+ },
  "parameters": {
   "distance": "mean Jensen-Shannon divergence between per-term sense distributions over shared sufficient terms",
   "min_cell_n": 10,

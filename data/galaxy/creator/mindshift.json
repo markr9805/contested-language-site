@@ -1,0 +1,288 @@
+{
+ "audit_lines": {
+  "4612": {
+   "context": "I do not see enough evidence has become, I think Christianity is false. And I don't see that as arrogant or non skeptical anymore. That's simply following the evidence where it leads. And a quick timeout. Truly, this is me expressing these thoughts kind of for the first time. And it's something I have thought about a lot and I've differed on. And I'm willing to be wrong about these thoughts. So really, if you are an atheist or agnostic or someone who has left the religion or even a believer and you think differently here, you think that this is unfair.",
+   "occurrence_id": 4612,
+   "published_at": "2026-07-16T14:00:22Z",
+   "role": "host",
+   "sense": 0,
+   "surface": "evidence",
+   "t": 322.72,
+   "term": "evidence",
+   "title": "Are Atheists Too Confident?",
+   "video_id": "7FaK1UEh-xo"
+  },
+  "4613": {
+   "context": "You don't even need every claim to fail. That's thinking about it incorrectly, too. Well, Brandon, the Bible says this and it got that right. Okay, it goes into the equation, but it doesn't solve all the other things that it got wrong. And again, even the Bible is just one way of looking at the evidence. There's the external outside of the Bible, what Christians claim versus what happens in reality, what happened in history, what science has proven. Eventually, the cumulative case matters.",
+   "occurrence_id": 4613,
+   "published_at": "2026-07-16T14:00:22Z",
+   "role": "host",
+   "sense": 0,
+   "surface": "evidence",
+   "t": 462.08,
+   "term": "evidence",
+   "title": "Are Atheists Too Confident?",
+   "video_id": "7FaK1UEh-xo"
+  },
+  "4623": {
+   "context": "So really, if you are an atheist or agnostic or someone who has left the religion or even a believer and you think differently here, you think that this is unfair. I'd love to hear the counterarguments. But let me finish making my case. The next thing that's important, one of the most important parts of all of this is that we're talking about something that does make specific claims. Christianity makes specific claims. Not just specific, but testable.",
+   "occurrence_id": 4623,
+   "published_at": "2026-07-16T14:00:22Z",
+   "role": "host",
+   "sense": 1,
+   "surface": "love",
+   "t": 345.64,
+   "term": "love",
+   "title": "Are Atheists Too Confident?",
+   "video_id": "7FaK1UEh-xo"
+  },
+  "4624": {
+   "context": "These claims can be evaluated in two ways. Internal consistency, like when we do an internal critique, someone claims God is love, the Bible claims God is love, the Bible says what love is. Go to 1 Corinthians for that wonderful list. Compare that with the attributes of the character and nature of this God as described in the same canon, and see that he fails.",
+   "occurrence_id": 4624,
+   "published_at": "2026-07-16T14:00:22Z",
+   "role": "host",
+   "sense": 1,
+   "surface": "love",
+   "t": 404.68,
+   "term": "love",
+   "title": "Are Atheists Too Confident?",
+   "video_id": "7FaK1UEh-xo"
+  },
+  "4625": {
+   "context": "These claims can be evaluated in two ways. Internal consistency, like when we do an internal critique, someone claims God is love, the Bible claims God is love, the Bible says what love is. Go to 1 Corinthians for that wonderful list. Compare that with the attributes of the character and nature of this God as described in the same canon, and see that he fails.",
+   "occurrence_id": 4625,
+   "published_at": "2026-07-16T14:00:22Z",
+   "role": "host",
+   "sense": 1,
+   "surface": "love",
+   "t": 404.68,
+   "term": "love",
+   "title": "Are Atheists Too Confident?",
+   "video_id": "7FaK1UEh-xo"
+  }
+ },
+ "cell": "mindshift",
+ "edges": [
+  {
+   "a": "evidence|0",
+   "audit_pairs": [
+    {
+     "a_occ": 4612,
+     "b_occ": 4623,
+     "dist": 0.0891
+    },
+    {
+     "a_occ": 4613,
+     "b_occ": 4624,
+     "dist": 0.1446
+    },
+    {
+     "a_occ": 4613,
+     "b_occ": 4625,
+     "dist": 0.1446
+    }
+   ],
+   "b": "love|1",
+   "dist": 0.0925,
+   "same_term": false
+  }
+ ],
+ "grouping": "creator",
+ "nodes": {
+  "accountability|0": {
+   "file": "senses/accountability.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 0,
+   "status": "ghost",
+   "term": "accountability"
+  },
+  "accountability|1": {
+   "file": "senses/accountability.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 1,
+   "status": "ghost",
+   "term": "accountability"
+  },
+  "bridge-city|0": {
+   "file": "senses/bridge-city.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 0,
+   "status": "ghost",
+   "term": "bridge city"
+  },
+  "bridge-city|1": {
+   "file": "senses/bridge-city.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 1,
+   "status": "ghost",
+   "term": "bridge city"
+  },
+  "community|0": {
+   "file": "senses/community.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 0,
+   "status": "ghost",
+   "term": "community"
+  },
+  "community|1": {
+   "file": "senses/community.json",
+   "n": 2,
+   "reason": "2 < 10 occurrences in this cell",
+   "sense": 1,
+   "status": "ghost",
+   "term": "community"
+  },
+  "deconstruction|0": {
+   "file": "senses/deconstruction.json",
+   "n": 3,
+   "reason": "3 < 10 occurrences in this cell",
+   "sense": 0,
+   "status": "ghost",
+   "term": "deconstruction"
+  },
+  "deconstruction|1": {
+   "file": "senses/deconstruction.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 1,
+   "status": "ghost",
+   "term": "deconstruction"
+  },
+  "do-the-work|0": {
+   "file": "senses/do-the-work.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 0,
+   "status": "ghost",
+   "term": "do the work"
+  },
+  "do-the-work|1": {
+   "file": "senses/do-the-work.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 1,
+   "status": "ghost",
+   "term": "do the work"
+  },
+  "evidence|0": {
+   "file": "senses/evidence.json",
+   "n": 20,
+   "sense": 0,
+   "status": "ok",
+   "stress": 0.001,
+   "stress_abs": 0.0001,
+   "term": "evidence",
+   "xy": [
+    -0.0462,
+    0.0
+   ]
+  },
+  "evidence|1": {
+   "file": "senses/evidence.json",
+   "n": 6,
+   "reason": "6 < 10 occurrences in this cell",
+   "sense": 1,
+   "status": "ghost",
+   "term": "evidence"
+  },
+  "grace|0": {
+   "file": "senses/grace.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 0,
+   "status": "ghost",
+   "term": "grace"
+  },
+  "grace|1": {
+   "file": "senses/grace.json",
+   "n": 1,
+   "reason": "1 < 10 occurrences in this cell",
+   "sense": 1,
+   "status": "ghost",
+   "term": "grace"
+  },
+  "harm|0": {
+   "file": "senses/harm.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 0,
+   "status": "ghost",
+   "term": "harm"
+  },
+  "harm|1": {
+   "file": "senses/harm.json",
+   "n": 1,
+   "reason": "1 < 10 occurrences in this cell",
+   "sense": 1,
+   "status": "ghost",
+   "term": "harm"
+  },
+  "love|0": {
+   "file": "senses/love.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 0,
+   "status": "ghost",
+   "term": "love"
+  },
+  "love|1": {
+   "file": "senses/love.json",
+   "n": 11,
+   "sense": 1,
+   "status": "ok",
+   "stress": 0.001,
+   "stress_abs": 0.0001,
+   "term": "love",
+   "xy": [
+    0.0462,
+    0.0
+   ]
+  },
+  "purity-test|0": {
+   "file": "senses/purity-test.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 0,
+   "status": "ghost",
+   "term": "purity test"
+  },
+  "purity-test|1": {
+   "file": "senses/purity-test.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 1,
+   "status": "ghost",
+   "term": "purity test"
+  },
+  "purity-test|2": {
+   "file": "senses/purity-test.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 2,
+   "status": "ghost",
+   "term": "purity test"
+  },
+  "truth|0": {
+   "file": "senses/truth.json",
+   "n": 6,
+   "reason": "6 < 10 occurrences in this cell",
+   "sense": 0,
+   "status": "ghost",
+   "term": "truth"
+  },
+  "truth|1": {
+   "file": "senses/truth.json",
+   "n": 6,
+   "reason": "6 < 10 occurrences in this cell",
+   "sense": 1,
+   "status": "ghost",
+   "term": "truth"
+  }
+ },
+ "occurrences": 56
+}

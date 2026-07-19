@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Contested Language — concept galaxy</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='%232a78d6'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-head">
+  <div>
+    <h1>Contested Language <span class="badge-private">concept galaxy</span></h1>
+    <p class="corpus-stats" id="corpus-stats">loading…</p>
+  </div>
+  <nav class="head-nav">
+    <a href="index.html">← term explorer</a>
+    <a href="map.html">creator map →</a>
+  </nav>
+</header>
+
+<main class="main map-main">
+  <div id="provisional-banner" class="insufficient-note" hidden></div>
+
+  <section class="card">
+    <div class="card-head">
+      <h3>Side-by-side skies <span class="unit">senses as stars, cosine
+      proximity as nearness — one sky per grouping cell, recomputed from
+      only that cell's occurrences</span></h3>
+    </div>
+    <div class="galaxy-grid">
+      <div class="sky-panel" id="sky-0"></div>
+      <div class="sky-panel" id="sky-1"></div>
+    </div>
+    <p class="chart-caption" id="galaxy-caption"></p>
+  </section>
+
+  <section class="card" id="sense-card" hidden>
+    <div class="card-head"><h3 id="sense-title">Sense</h3></div>
+    <p class="evidence-note" id="sense-note"></p>
+    <div id="sense-neighbors"></div>
+    <div id="sense-exemplars"></div>
+  </section>
+
+  <section class="card" id="audit-card" hidden>
+    <div class="card-head"><h3 id="audit-title">Distance audit</h3></div>
+    <p class="evidence-note" id="audit-note"></p>
+    <div id="audit-pairs"></div>
+  </section>
+
+  <section class="card" id="suggestions-card" hidden>
+    <div class="card-head">
+      <h3>Watchlist suggestions <span class="unit">co-inhabitation
+      asymmetry between the two sides' skies — proposals for author review
+      only, never auto-added to the lexicon</span></h3>
+    </div>
+    <p class="evidence-note" id="suggestions-note"></p>
+    <table class="data-table" id="suggestions-table"></table>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <p>Stars are (term, sense) pairs — nothing new is induced; positions come
+  from classical MDS over centroid cosine distances, so the 2-D picture
+  distorts and per-star projection stress is disclosed (high-stress stars are
+  dash-ringed; claims belong to the distance matrix, not the picture). Senses
+  below the per-cell occurrence minimum render as unpositioned ghosts, never
+  as confident points. Every star clicks through to its concordance
+  exemplars; every nearness claim clicks through to a distance audit with the
+  quoted occurrence pairs behind it.</p>
+</footer>
+
+<script src="galaxy.js"></script>
+</body>
+</html>

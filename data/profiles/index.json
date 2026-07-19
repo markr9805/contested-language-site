@@ -33,7 +33,7 @@
   },
   "evidence": {
    "file": "evidence.json",
-   "profiles": 4,
+   "profiles": 5,
    "stale": 0
   },
   "grace": {
@@ -48,6 +48,11 @@
   },
   "love": {
    "file": "love.json",
+   "profiles": 5,
+   "stale": 0
+  },
+  "purity test": {
+   "file": "purity-test.json",
    "profiles": 4,
    "stale": 0
   },

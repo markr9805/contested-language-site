@@ -1,0 +1,158 @@
+{
+ "cells": {
+  "community": {
+   "apologetics": {
+    "file": "community/apologetics.json",
+    "nodes_ghost": 23,
+    "nodes_ok": 0,
+    "occurrences": 2
+   },
+   "deconstruction": {
+    "file": "community/deconstruction.json",
+    "nodes_ghost": 1,
+    "nodes_ok": 22,
+    "occurrences": 33660
+   }
+  },
+  "creator": {
+   "cross-examined": {
+    "file": "creator/cross-examined.json",
+    "nodes_ghost": 23,
+    "nodes_ok": 0,
+    "occurrences": 2
+   },
+   "darante-lamar": {
+    "file": "creator/darante-lamar.json",
+    "nodes_ghost": 1,
+    "nodes_ok": 22,
+    "occurrences": 33604
+   },
+   "mindshift": {
+    "file": "creator/mindshift.json",
+    "nodes_ghost": 21,
+    "nodes_ok": 2,
+    "occurrences": 56
+   }
+  },
+  "overall": {
+   "overall": {
+    "file": "overall/overall.json",
+    "nodes_ghost": 1,
+    "nodes_ok": 22,
+    "occurrences": 33662
+   }
+  },
+  "role": {
+   "host": {
+    "file": "role/host.json",
+    "nodes_ghost": 1,
+    "nodes_ok": 22,
+    "occurrences": 27610
+   },
+   "unattributed": {
+    "file": "role/unattributed.json",
+    "nodes_ghost": 9,
+    "nodes_ok": 14,
+    "occurrences": 1208
+   },
+   "unknown": {
+    "file": "role/unknown.json",
+    "nodes_ghost": 4,
+    "nodes_ok": 19,
+    "occurrences": 4844
+   }
+  },
+  "year": {
+   "2021": {
+    "file": "year/2021.json",
+    "nodes_ghost": 23,
+    "nodes_ok": 0,
+    "occurrences": 4
+   },
+   "2024": {
+    "file": "year/2024.json",
+    "nodes_ghost": 3,
+    "nodes_ok": 20,
+    "occurrences": 11704
+   },
+   "2025": {
+    "file": "year/2025.json",
+    "nodes_ghost": 3,
+    "nodes_ok": 20,
+    "occurrences": 13368
+   },
+   "2026": {
+    "file": "year/2026.json",
+    "nodes_ghost": 1,
+    "nodes_ok": 22,
+    "occurrences": 8578
+   }
+  }
+ },
+ "cross_side": {
+  "creators_with_data": {
+   "apologetics": [],
+   "deconstruction": [
+    "darante-lamar",
+    "mindshift"
+   ]
+  },
+  "provisional": true,
+  "status": "no-cross-side-data"
+ },
+ "excluded_terms": {
+  "moral supremism": {
+   "n": 3,
+   "status": "insufficient-data"
+  }
+ },
+ "model": "ollama:nomic-embed-text:0a109f422b47",
+ "parameters": {
+  "audit_pairs_per_edge": 3,
+  "audit_pool": 40,
+  "groupings": [
+   "overall",
+   "creator",
+   "role",
+   "year",
+   "community"
+  ],
+  "min_cell_n": 10,
+  "stress": "per node: mean |projected - true| distance to its top-k neighbors, relative to the mean true distance — claims belong to the distance matrix, not the picture",
+  "stress_high": 0.25,
+  "suggestions_max": 50,
+  "top_k": 8
+ },
+ "sides": {
+  "apologetics": {
+   "anchor": "cross-examined",
+   "creators": [
+    "capturing-christianity",
+    "counsel-of-trent",
+    "cross-examined",
+    "drcraigvideos",
+    "jackie-hill-perry",
+    "jude-3-project",
+    "mike-winger",
+    "reasonable-faith-org"
+   ]
+  },
+  "deconstruction": {
+   "anchor": "darante-lamar",
+   "creators": [
+    "apostate-aladdin",
+    "belief-it-or-not",
+    "britt-hartley",
+    "darante-lamar",
+    "genetically-modified-skeptic",
+    "lil-bill",
+    "marc-coley",
+    "mindshift",
+    "paulogia",
+    "prophet-of-zod",
+    "shannon-q"
+   ]
+  }
+ },
+ "suggestions_file": "suggestions.json"
+}
