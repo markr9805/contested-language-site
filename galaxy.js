@@ -103,9 +103,21 @@ function renderControls(i, wrap) {
   wrap.append(row);
 }
 
+function clearSelection() {
+  if (!state.sel) return;
+  state.sel = null;
+  $("sense-card").hidden = true;
+  $("audit-card").hidden = true;
+  renderSkies();
+}
+
 function drawSky(i, wrap, doc) {
   const W = 520, H = 400, PAD = 34;
   const svg = mk("svg", { viewBox: `0 0 ${W} ${H}`, role: "img" });
+  // clicking open sky (not a star or edge) drops the selection
+  svg.addEventListener("click", (ev) => {
+    if (ev.target === svg) clearSelection();
+  });
   // mirror mode: one shared whole-corpus frame positions every star in both
   // skies (the Stellarium move — same sky, different constellations); the
   // cell's own MDS otherwise. A star with no frame position stays a ghost.
@@ -383,7 +395,6 @@ async function showSense(i, key) {
       "`python3 -m contested export-site`"));
   }
   card.hidden = false;
-  card.scrollIntoView({ behavior: "smooth", block: "nearest" });
 }
 
 // ---- edge -> distance audit --------------------------------------------------
@@ -424,7 +435,6 @@ async function showAudit(i, edge) {
     wrap.append(box);
   }
   card.hidden = false;
-  card.scrollIntoView({ behavior: "smooth", block: "nearest" });
 }
 
 // ---- watchlist suggestions ---------------------------------------------------
@@ -506,6 +516,9 @@ async function init() {
       renderSkies();
     });
   }
+  document.addEventListener("keydown", (ev) => {
+    if (ev.key === "Escape") clearSelection();
+  });
   if (index.cross_side.provisional) {
     const b = $("provisional-banner");
     b.textContent =
