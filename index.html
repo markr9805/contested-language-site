@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Contested Language — evidence browser</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='%232a78d6'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-head">
+  <div>
+    <h1>Contested Language <span class="badge-private">private · Darante corpus</span></h1>
+    <p class="corpus-stats" id="corpus-stats">loading corpus…</p>
+  </div>
+  <nav class="head-nav"><a href="map.html">creator map →</a></nav>
+</header>
+
+<div class="layout">
+  <nav class="term-nav" aria-label="Lexicon terms">
+    <div id="term-list"></div>
+  </nav>
+
+  <main class="main" id="main">
+    <p class="placeholder" id="placeholder">Pick a term to see its rate over time,
+    collocation profiles, and the transcript lines behind every number.</p>
+
+    <div id="term-view" hidden>
+      <section class="term-head">
+        <h2 id="term-title"></h2>
+        <p class="term-variants" id="term-variants"></p>
+        <div class="stat-row" id="stat-row"></div>
+      </section>
+
+      <section class="card">
+        <div class="card-head">
+          <h3>Rate over time <span class="unit">occurrences per million words, by publish year</span></h3>
+          <button class="ghost-btn" id="chart-table-toggle" aria-pressed="false">Table</button>
+        </div>
+        <div class="chart-wrap" id="chart-wrap">
+          <svg id="rate-chart" role="img"></svg>
+          <div class="chart-tooltip" id="chart-tooltip" hidden></div>
+        </div>
+        <table class="data-table" id="chart-table" hidden></table>
+        <p class="chart-caption" id="chart-caption"></p>
+      </section>
+
+      <section class="card">
+        <div class="card-head"><h3>Rate by speaker role</h3></div>
+        <table class="data-table" id="role-table"></table>
+      </section>
+
+      <section class="card">
+        <div class="card-head">
+          <h3>Collocates <span class="unit">what keeps company with the term (log-Dice)</span></h3>
+        </div>
+        <div class="tab-row" id="grouping-tabs" role="tablist" aria-label="Grouping"></div>
+        <div class="tab-row tab-row-cells" id="cell-tabs" role="tablist" aria-label="Grouping cell"></div>
+        <div id="colloc-body"></div>
+      </section>
+
+      <section class="card" id="profiles-card" hidden>
+        <div class="card-head">
+          <h3>Sense profiles <span class="unit">LLM-written accounts of each induced sense — the model annotates evidence, it is never itself the evidence</span></h3>
+        </div>
+        <p class="evidence-note" id="profiles-provenance"></p>
+        <div id="profiles-body"></div>
+      </section>
+
+      <section class="card evidence-card" id="evidence-card" hidden>
+        <div class="card-head">
+          <h3 id="evidence-title">Concordance lines</h3>
+        </div>
+        <p class="evidence-note" id="evidence-note"></p>
+        <div id="evidence-lines"></div>
+      </section>
+    </div>
+  </main>
+</div>
+
+<footer class="site-foot">
+  <p>Every number on this page resolves to quotable transcript lines with a
+  timestamped source video — <em>no claim without clickable evidence</em>.
+  Derived artifacts regenerate deterministically from the canonical store.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

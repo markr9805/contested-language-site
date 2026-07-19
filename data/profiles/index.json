@@ -1,0 +1,60 @@
+{
+ "aspects": [
+  "function",
+  "valence",
+  "rhetorical-role"
+ ],
+ "prompt_version": "1",
+ "terms": {
+  "accountability": {
+   "file": "accountability.json",
+   "profiles": 4,
+   "stale": 0
+  },
+  "bridge city": {
+   "file": "bridge-city.json",
+   "profiles": 4,
+   "stale": 0
+  },
+  "community": {
+   "file": "community.json",
+   "profiles": 4,
+   "stale": 0
+  },
+  "deconstruction": {
+   "file": "deconstruction.json",
+   "profiles": 4,
+   "stale": 0
+  },
+  "do the work": {
+   "file": "do-the-work.json",
+   "profiles": 4,
+   "stale": 0
+  },
+  "evidence": {
+   "file": "evidence.json",
+   "profiles": 4,
+   "stale": 0
+  },
+  "grace": {
+   "file": "grace.json",
+   "profiles": 4,
+   "stale": 0
+  },
+  "harm": {
+   "file": "harm.json",
+   "profiles": 4,
+   "stale": 0
+  },
+  "love": {
+   "file": "love.json",
+   "profiles": 4,
+   "stale": 0
+  },
+  "truth": {
+   "file": "truth.json",
+   "profiles": 4,
+   "stale": 0
+  }
+ }
+}

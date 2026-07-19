@@ -1,0 +1,511 @@
+{
+ "creators": {
+  "apostate-aladdin": {
+   "affinities": {
+    "apologetics-critique": {
+     "source": "seed",
+     "weight": 0.75
+    },
+    "deconstruction": {
+     "source": "seed",
+     "weight": 0.5
+    }
+   },
+   "contact_facing": "dialogue-facing",
+   "corpus_status": "pending-data",
+   "display_name": "Apostate Aladdin",
+   "is_anchor": false,
+   "occurrences": 0,
+   "organic": {
+    "reason": "corpus below minimum (0 < 100,000 words)",
+    "status": "pending-data"
+   },
+   "polar": {
+    "reason": "corpus below minimum",
+    "status": "pending-data"
+   },
+   "pole": null,
+   "videos": 0,
+   "words": 0
+  },
+  "belief-it-or-not": {
+   "affinities": {
+    "deconstruction": {
+     "source": "seed",
+     "weight": 0.7
+    }
+   },
+   "contact_facing": null,
+   "corpus_status": "pending-data",
+   "display_name": "Belief It Or Not",
+   "is_anchor": false,
+   "occurrences": 0,
+   "organic": {
+    "reason": "corpus below minimum (0 < 100,000 words)",
+    "status": "pending-data"
+   },
+   "polar": {
+    "reason": "corpus below minimum",
+    "status": "pending-data"
+   },
+   "pole": null,
+   "videos": 0,
+   "words": 0
+  },
+  "britt-hartley": {
+   "affinities": {
+    "deconstruction": {
+     "source": "seed",
+     "weight": 0.85
+    }
+   },
+   "contact_facing": "internal-facing",
+   "corpus_status": "pending-data",
+   "display_name": "No Nonsense Spirituality (Britt Hartley)",
+   "is_anchor": false,
+   "occurrences": 0,
+   "organic": {
+    "reason": "corpus below minimum (0 < 100,000 words)",
+    "status": "pending-data"
+   },
+   "polar": {
+    "reason": "corpus below minimum",
+    "status": "pending-data"
+   },
+   "pole": null,
+   "videos": 0,
+   "words": 0
+  },
+  "capturing-christianity": {
+   "affinities": {
+    "apologetics": {
+     "source": "seed",
+     "weight": 0.85
+    }
+   },
+   "contact_facing": "dialogue-facing",
+   "corpus_status": "pending-data",
+   "display_name": "Capturing Christianity",
+   "is_anchor": false,
+   "occurrences": 0,
+   "organic": {
+    "reason": "corpus below minimum (0 < 100,000 words)",
+    "status": "pending-data"
+   },
+   "polar": {
+    "reason": "corpus below minimum",
+    "status": "pending-data"
+   },
+   "pole": null,
+   "videos": 0,
+   "words": 0
+  },
+  "counsel-of-trent": {
+   "affinities": {
+    "apologetics": {
+     "source": "seed",
+     "weight": 0.9
+    }
+   },
+   "contact_facing": "dialogue-facing",
+   "corpus_status": "pending-data",
+   "display_name": "The Counsel of Trent",
+   "is_anchor": false,
+   "occurrences": 0,
+   "organic": {
+    "reason": "corpus below minimum (0 < 100,000 words)",
+    "status": "pending-data"
+   },
+   "polar": {
+    "reason": "corpus below minimum",
+    "status": "pending-data"
+   },
+   "pole": null,
+   "videos": 0,
+   "words": 0
+  },
+  "cross-examined": {
+   "affinities": {
+    "apologetics": {
+     "source": "seed",
+     "weight": 1.0
+    }
+   },
+   "contact_facing": "dialogue-facing",
+   "corpus_status": "pending-data",
+   "display_name": "Cross Examined",
+   "is_anchor": true,
+   "occurrences": 2,
+   "organic": {
+    "reason": "corpus below minimum (531 < 100,000 words)",
+    "status": "pending-data"
+   },
+   "polar": {
+    "reason": "anchor corpus below minimum",
+    "source": "seed-anchor",
+    "status": "pending-data",
+    "x": -1.0,
+    "y": 0.0
+   },
+   "pole": "apologetics",
+   "videos": 2,
+   "words": 531
+  },
+  "darante-lamar": {
+   "affinities": {
+    "deconstruction": {
+     "source": "seed",
+     "weight": 1.0
+    }
+   },
+   "contact_facing": "dialogue-facing",
+   "corpus_status": "ok",
+   "display_name": "Darante' LaMar",
+   "is_anchor": true,
+   "occurrences": 33607,
+   "organic": {
+    "status": "ok",
+    "xy": [
+     0.0,
+     0.0
+    ]
+   },
+   "polar": {
+    "source": "seed-anchor",
+    "status": "ok",
+    "x": 1.0,
+    "y": 0.0
+   },
+   "pole": "deconstruction",
+   "videos": 1413,
+   "words": 6204720
+  },
+  "drcraigvideos": {
+   "affinities": {
+    "apologetics": {
+     "source": "seed",
+     "weight": 0.95
+    }
+   },
+   "contact_facing": "dialogue-facing",
+   "corpus_status": "pending-data",
+   "display_name": "drcraigvideos (William Lane Craig)",
+   "is_anchor": false,
+   "occurrences": 0,
+   "organic": {
+    "reason": "corpus below minimum (0 < 100,000 words)",
+    "status": "pending-data"
+   },
+   "polar": {
+    "reason": "corpus below minimum",
+    "status": "pending-data"
+   },
+   "pole": null,
+   "videos": 0,
+   "words": 0
+  },
+  "genetically-modified-skeptic": {
+   "affinities": {
+    "apologetics-critique": {
+     "source": "seed",
+     "weight": 0.5
+    },
+    "deconstruction": {
+     "source": "seed",
+     "weight": 0.8
+    }
+   },
+   "contact_facing": "internal-facing",
+   "corpus_status": "pending-data",
+   "display_name": "Genetically Modified Skeptic",
+   "is_anchor": false,
+   "occurrences": 0,
+   "organic": {
+    "reason": "corpus below minimum (0 < 100,000 words)",
+    "status": "pending-data"
+   },
+   "polar": {
+    "reason": "corpus below minimum",
+    "status": "pending-data"
+   },
+   "pole": null,
+   "videos": 0,
+   "words": 0
+  },
+  "jackie-hill-perry": {
+   "affinities": {
+    "apologetics": {
+     "source": "seed",
+     "weight": 0.7
+    }
+   },
+   "contact_facing": "internal-facing",
+   "corpus_status": "pending-data",
+   "display_name": "Jackie Hill Perry",
+   "is_anchor": false,
+   "occurrences": 0,
+   "organic": {
+    "reason": "corpus below minimum (0 < 100,000 words)",
+    "status": "pending-data"
+   },
+   "polar": {
+    "reason": "corpus below minimum",
+    "status": "pending-data"
+   },
+   "pole": null,
+   "videos": 0,
+   "words": 0
+  },
+  "jude-3-project": {
+   "affinities": {
+    "apologetics": {
+     "source": "seed",
+     "weight": 0.85
+    }
+   },
+   "contact_facing": "internal-facing",
+   "corpus_status": "pending-data",
+   "display_name": "Jude 3 Project",
+   "is_anchor": false,
+   "occurrences": 0,
+   "organic": {
+    "reason": "corpus below minimum (0 < 100,000 words)",
+    "status": "pending-data"
+   },
+   "polar": {
+    "reason": "corpus below minimum",
+    "status": "pending-data"
+   },
+   "pole": null,
+   "videos": 0,
+   "words": 0
+  },
+  "lil-bill": {
+   "affinities": {
+    "apologetics-critique": {
+     "source": "seed",
+     "weight": 0.6
+    },
+    "deconstruction": {
+     "source": "seed",
+     "weight": 0.6
+    }
+   },
+   "contact_facing": "dialogue-facing",
+   "corpus_status": "pending-data",
+   "display_name": "lil bill",
+   "is_anchor": false,
+   "occurrences": 0,
+   "organic": {
+    "reason": "corpus below minimum (0 < 100,000 words)",
+    "status": "pending-data"
+   },
+   "polar": {
+    "reason": "corpus below minimum",
+    "status": "pending-data"
+   },
+   "pole": null,
+   "videos": 0,
+   "words": 0
+  },
+  "marc-coley": {
+   "affinities": {
+    "deconstruction": {
+     "source": "seed",
+     "weight": 0.7
+    }
+   },
+   "contact_facing": null,
+   "corpus_status": "pending-data",
+   "display_name": "Marc Coley",
+   "is_anchor": false,
+   "occurrences": 0,
+   "organic": {
+    "reason": "corpus below minimum (0 < 100,000 words)",
+    "status": "pending-data"
+   },
+   "polar": {
+    "reason": "corpus below minimum",
+    "status": "pending-data"
+   },
+   "pole": null,
+   "videos": 0,
+   "words": 0
+  },
+  "mike-winger": {
+   "affinities": {
+    "apologetics": {
+     "source": "seed",
+     "weight": 0.8
+    }
+   },
+   "contact_facing": "internal-facing",
+   "corpus_status": "pending-data",
+   "display_name": "Mike Winger",
+   "is_anchor": false,
+   "occurrences": 0,
+   "organic": {
+    "reason": "corpus below minimum (0 < 100,000 words)",
+    "status": "pending-data"
+   },
+   "polar": {
+    "reason": "corpus below minimum",
+    "status": "pending-data"
+   },
+   "pole": null,
+   "videos": 0,
+   "words": 0
+  },
+  "mindshift": {
+   "affinities": {
+    "apologetics-critique": {
+     "source": "seed",
+     "weight": 0.7
+    },
+    "deconstruction": {
+     "source": "seed",
+     "weight": 0.9
+    }
+   },
+   "contact_facing": "dialogue-facing",
+   "corpus_status": "pending-data",
+   "display_name": "Mindshift (Brandon)",
+   "is_anchor": false,
+   "occurrences": 56,
+   "organic": {
+    "reason": "corpus below minimum (6,840 < 100,000 words)",
+    "status": "pending-data"
+   },
+   "polar": {
+    "reason": "corpus below minimum",
+    "status": "pending-data"
+   },
+   "pole": null,
+   "videos": 2,
+   "words": 6840
+  },
+  "paulogia": {
+   "affinities": {
+    "apologetics-critique": {
+     "source": "seed",
+     "weight": 0.95
+    },
+    "deconstruction": {
+     "source": "seed",
+     "weight": 0.6
+    }
+   },
+   "contact_facing": "dialogue-facing",
+   "corpus_status": "pending-data",
+   "display_name": "Paulogia",
+   "is_anchor": false,
+   "occurrences": 0,
+   "organic": {
+    "reason": "corpus below minimum (0 < 100,000 words)",
+    "status": "pending-data"
+   },
+   "polar": {
+    "reason": "corpus below minimum",
+    "status": "pending-data"
+   },
+   "pole": null,
+   "videos": 0,
+   "words": 0
+  },
+  "prophet-of-zod": {
+   "affinities": {
+    "apologetics-critique": {
+     "source": "seed",
+     "weight": 0.9
+    },
+    "deconstruction": {
+     "source": "seed",
+     "weight": 0.5
+    }
+   },
+   "contact_facing": "dialogue-facing",
+   "corpus_status": "pending-data",
+   "display_name": "Prophet of Zod",
+   "is_anchor": false,
+   "occurrences": 0,
+   "organic": {
+    "reason": "corpus below minimum (0 < 100,000 words)",
+    "status": "pending-data"
+   },
+   "polar": {
+    "reason": "corpus below minimum",
+    "status": "pending-data"
+   },
+   "pole": null,
+   "videos": 0,
+   "words": 0
+  },
+  "reasonable-faith-org": {
+   "affinities": {
+    "apologetics": {
+     "source": "seed",
+     "weight": 0.95
+    }
+   },
+   "contact_facing": "dialogue-facing",
+   "corpus_status": "pending-data",
+   "display_name": "ReasonableFaithOrg",
+   "is_anchor": false,
+   "occurrences": 0,
+   "organic": {
+    "reason": "corpus below minimum (0 < 100,000 words)",
+    "status": "pending-data"
+   },
+   "polar": {
+    "reason": "corpus below minimum",
+    "status": "pending-data"
+   },
+   "pole": null,
+   "videos": 0,
+   "words": 0
+  },
+  "shannon-q": {
+   "affinities": {
+    "apologetics-critique": {
+     "source": "seed",
+     "weight": 0.85
+    },
+    "deconstruction": {
+     "source": "seed",
+     "weight": 0.6
+    }
+   },
+   "contact_facing": "dialogue-facing",
+   "corpus_status": "pending-data",
+   "display_name": "Shannon Q",
+   "is_anchor": false,
+   "occurrences": 0,
+   "organic": {
+    "reason": "corpus below minimum (0 < 100,000 words)",
+    "status": "pending-data"
+   },
+   "polar": {
+    "reason": "corpus below minimum",
+    "status": "pending-data"
+   },
+   "pole": null,
+   "videos": 0,
+   "words": 0
+  }
+ },
+ "distances": {},
+ "parameters": {
+  "distance": "mean Jensen-Shannon divergence between per-term sense distributions over shared sufficient terms",
+  "min_cell_n": 10,
+  "min_creator_words": 100000,
+  "min_shared_terms": 3
+ },
+ "poles": {
+  "apologetics": {
+   "anchor": "cross-examined"
+  },
+  "deconstruction": {
+   "anchor": "darante-lamar"
+  }
+ }
+}

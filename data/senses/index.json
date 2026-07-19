@@ -1,0 +1,103 @@
+{
+ "groupings": [
+  "overall",
+  "creator",
+  "role",
+  "year"
+ ],
+ "model": "ollama:nomic-embed-text:0a109f422b47",
+ "parameters": {
+  "exemplars_per_sense": 5,
+  "k_range": [
+   2,
+   9
+  ],
+  "min_cell_n": 10,
+  "min_n": 30,
+  "seed": 0
+ },
+ "terms": {
+  "accountability": {
+   "file": "accountability.json",
+   "k": 2,
+   "n": 375,
+   "silhouette": 0.0719,
+   "status": "ok"
+  },
+  "bridge city": {
+   "file": "bridge-city.json",
+   "k": 2,
+   "n": 2943,
+   "silhouette": 0.0538,
+   "status": "ok"
+  },
+  "community": {
+   "file": "community.json",
+   "k": 2,
+   "n": 14282,
+   "silhouette": 0.0651,
+   "status": "ok"
+  },
+  "deconstruction": {
+   "file": "deconstruction.json",
+   "k": 2,
+   "n": 609,
+   "silhouette": 0.0687,
+   "status": "ok"
+  },
+  "do the work": {
+   "file": "do-the-work.json",
+   "k": 2,
+   "n": 551,
+   "silhouette": 0.0517,
+   "status": "ok"
+  },
+  "evidence": {
+   "file": "evidence.json",
+   "k": 2,
+   "n": 1883,
+   "silhouette": 0.0503,
+   "status": "ok"
+  },
+  "grace": {
+   "file": "grace.json",
+   "k": 2,
+   "n": 333,
+   "silhouette": 0.0713,
+   "status": "ok"
+  },
+  "harm": {
+   "file": "harm.json",
+   "k": 2,
+   "n": 1159,
+   "silhouette": 0.0529,
+   "status": "ok"
+  },
+  "love": {
+   "file": "love.json",
+   "k": 2,
+   "n": 8931,
+   "silhouette": 0.0608,
+   "status": "ok"
+  },
+  "moral supremism": {
+   "file": "moral-supremism.json",
+   "n": 3,
+   "status": "insufficient-data"
+  },
+  "purity test": {
+   "file": "purity-test.json",
+   "k": 3,
+   "n": 36,
+   "silhouette": 0.1856,
+   "status": "ok"
+  },
+  "truth": {
+   "file": "truth.json",
+   "k": 2,
+   "n": 2502,
+   "silhouette": 0.0533,
+   "status": "ok"
+  }
+ }
+}
