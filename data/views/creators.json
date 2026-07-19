@@ -2,36 +2,45 @@
  "creators": {
   "apostate-aladdin": {
    "affinities": {
+    "apologetics": {
+     "source": "computed",
+     "weight": 0.9779
+    },
     "apologetics-critique": {
      "source": "seed",
      "weight": 0.75
     },
     "deconstruction": {
-     "source": "seed",
+     "source": "manual",
      "weight": 0.5
     }
    },
    "contact_facing": "dialogue-facing",
-   "corpus_status": "pending-data",
+   "corpus_status": "ok",
    "display_name": "Apostate Aladdin",
    "is_anchor": false,
-   "occurrences": 0,
+   "occurrences": 840,
    "organic": {
-    "reason": "corpus below minimum (0 < 100,000 words)",
-    "status": "pending-data"
+    "status": "ok",
+    "xy": [
+     0.036,
+     0.0073
+    ]
    },
    "polar": {
-    "reason": "corpus below minimum",
-    "status": "pending-data"
+    "source": "computed",
+    "status": "ok",
+    "x": -0.0153,
+    "y": 0.0073
    },
    "pole": null,
-   "videos": 0,
-   "words": 0
+   "videos": 31,
+   "words": 495082
   },
   "belief-it-or-not": {
    "affinities": {
     "deconstruction": {
-     "source": "seed",
+     "source": "manual",
      "weight": 0.7
     }
    },
@@ -54,32 +63,41 @@
   },
   "britt-hartley": {
    "affinities": {
+    "apologetics": {
+     "source": "computed",
+     "weight": 0.9932
+    },
     "deconstruction": {
-     "source": "seed",
+     "source": "manual",
      "weight": 0.85
     }
    },
    "contact_facing": "internal-facing",
-   "corpus_status": "pending-data",
+   "corpus_status": "ok",
    "display_name": "No Nonsense Spirituality (Britt Hartley)",
    "is_anchor": false,
-   "occurrences": 0,
+   "occurrences": 366,
    "organic": {
-    "reason": "corpus below minimum (0 < 100,000 words)",
-    "status": "pending-data"
+    "status": "ok",
+    "xy": [
+     0.0172,
+     -0.0283
+    ]
    },
    "polar": {
-    "reason": "corpus below minimum",
-    "status": "pending-data"
+    "source": "computed",
+    "status": "ok",
+    "x": -0.0384,
+    "y": -0.0283
    },
    "pole": null,
-   "videos": 0,
-   "words": 0
+   "videos": 25,
+   "words": 111110
   },
   "capturing-christianity": {
    "affinities": {
     "apologetics": {
-     "source": "seed",
+     "source": "manual",
      "weight": 0.85
     }
    },
@@ -103,7 +121,7 @@
   "counsel-of-trent": {
    "affinities": {
     "apologetics": {
-     "source": "seed",
+     "source": "manual",
      "weight": 0.9
     }
    },
@@ -127,34 +145,36 @@
   "cross-examined": {
    "affinities": {
     "apologetics": {
-     "source": "seed",
+     "source": "manual",
      "weight": 1.0
     }
    },
    "contact_facing": "dialogue-facing",
-   "corpus_status": "pending-data",
+   "corpus_status": "ok",
    "display_name": "Cross Examined",
    "is_anchor": true,
-   "occurrences": 2,
+   "occurrences": 969,
    "organic": {
-    "reason": "corpus below minimum (531 < 100,000 words)",
-    "status": "pending-data"
+    "status": "ok",
+    "xy": [
+     0.0118,
+     -0.023
+    ]
    },
    "polar": {
-    "reason": "anchor corpus below minimum",
     "source": "seed-anchor",
-    "status": "pending-data",
+    "status": "ok",
     "x": -1.0,
     "y": 0.0
    },
    "pole": "apologetics",
-   "videos": 2,
-   "words": 531
+   "videos": 162,
+   "words": 282087
   },
   "darante-lamar": {
    "affinities": {
     "deconstruction": {
-     "source": "seed",
+     "source": "manual",
      "weight": 1.0
     }
    },
@@ -162,12 +182,12 @@
    "corpus_status": "ok",
    "display_name": "Darante' LaMar",
    "is_anchor": true,
-   "occurrences": 33607,
+   "occurrences": 34547,
    "organic": {
     "status": "ok",
     "xy": [
-     0.0,
-     0.0
+     -0.013,
+     0.046
     ]
    },
    "polar": {
@@ -177,13 +197,13 @@
     "y": 0.0
    },
    "pole": "deconstruction",
-   "videos": 1413,
-   "words": 6204720
+   "videos": 1463,
+   "words": 6346525
   },
   "drcraigvideos": {
    "affinities": {
     "apologetics": {
-     "source": "seed",
+     "source": "manual",
      "weight": 0.95
     }
    },
@@ -206,36 +226,45 @@
   },
   "genetically-modified-skeptic": {
    "affinities": {
+    "apologetics": {
+     "source": "computed",
+     "weight": 0.9771
+    },
     "apologetics-critique": {
      "source": "seed",
      "weight": 0.5
     },
     "deconstruction": {
-     "source": "seed",
+     "source": "manual",
      "weight": 0.8
     }
    },
    "contact_facing": "internal-facing",
-   "corpus_status": "pending-data",
+   "corpus_status": "ok",
    "display_name": "Genetically Modified Skeptic",
    "is_anchor": false,
-   "occurrences": 0,
+   "occurrences": 347,
    "organic": {
-    "reason": "corpus below minimum (0 < 100,000 words)",
-    "status": "pending-data"
+    "status": "ok",
+    "xy": [
+     -0.0047,
+     0.0005
+    ]
    },
    "polar": {
-    "reason": "corpus below minimum",
-    "status": "pending-data"
+    "source": "computed",
+    "status": "ok",
+    "x": -0.0081,
+    "y": 0.0005
    },
    "pole": null,
-   "videos": 0,
-   "words": 0
+   "videos": 25,
+   "words": 135438
   },
   "jackie-hill-perry": {
    "affinities": {
     "apologetics": {
-     "source": "seed",
+     "source": "manual",
      "weight": 0.7
     }
    },
@@ -259,7 +288,7 @@
   "jude-3-project": {
    "affinities": {
     "apologetics": {
-     "source": "seed",
+     "source": "manual",
      "weight": 0.85
     }
    },
@@ -282,36 +311,45 @@
   },
   "lil-bill": {
    "affinities": {
+    "apologetics": {
+     "source": "computed",
+     "weight": 0.8349
+    },
     "apologetics-critique": {
      "source": "seed",
      "weight": 0.6
     },
     "deconstruction": {
-     "source": "seed",
+     "source": "manual",
      "weight": 0.6
     }
    },
    "contact_facing": "dialogue-facing",
-   "corpus_status": "pending-data",
+   "corpus_status": "ok",
    "display_name": "lil bill",
    "is_anchor": false,
-   "occurrences": 0,
+   "occurrences": 283,
    "organic": {
-    "reason": "corpus below minimum (0 < 100,000 words)",
-    "status": "pending-data"
+    "status": "ok",
+    "xy": [
+     -0.1762,
+     -0.0047
+    ]
    },
    "polar": {
-    "reason": "corpus below minimum",
-    "status": "pending-data"
+    "source": "computed",
+    "status": "ok",
+    "x": 0.012,
+    "y": -0.0047
    },
    "pole": null,
-   "videos": 0,
-   "words": 0
+   "videos": 24,
+   "words": 230944
   },
   "marc-coley": {
    "affinities": {
     "deconstruction": {
-     "source": "seed",
+     "source": "manual",
      "weight": 0.7
     }
    },
@@ -319,9 +357,9 @@
    "corpus_status": "pending-data",
    "display_name": "Marc Coley",
    "is_anchor": false,
-   "occurrences": 0,
+   "occurrences": 183,
    "organic": {
-    "reason": "corpus below minimum (0 < 100,000 words)",
+    "reason": "corpus below minimum (55,616 < 100,000 words)",
     "status": "pending-data"
    },
    "polar": {
@@ -329,13 +367,13 @@
     "status": "pending-data"
    },
    "pole": null,
-   "videos": 0,
-   "words": 0
+   "videos": 24,
+   "words": 55616
   },
   "mike-winger": {
    "affinities": {
     "apologetics": {
-     "source": "seed",
+     "source": "manual",
      "weight": 0.8
     }
    },
@@ -358,31 +396,40 @@
   },
   "mindshift": {
    "affinities": {
+    "apologetics": {
+     "source": "computed",
+     "weight": 0.9755
+    },
     "apologetics-critique": {
      "source": "seed",
      "weight": 0.7
     },
     "deconstruction": {
-     "source": "seed",
+     "source": "manual",
      "weight": 0.9
     }
    },
    "contact_facing": "dialogue-facing",
-   "corpus_status": "pending-data",
+   "corpus_status": "ok",
    "display_name": "Mindshift (Brandon)",
    "is_anchor": false,
-   "occurrences": 56,
+   "occurrences": 655,
    "organic": {
-    "reason": "corpus below minimum (6,840 < 100,000 words)",
-    "status": "pending-data"
+    "status": "ok",
+    "xy": [
+     0.1289,
+     0.0021
+    ]
    },
    "polar": {
-    "reason": "corpus below minimum",
-    "status": "pending-data"
+    "source": "computed",
+    "status": "ok",
+    "x": -0.0366,
+    "y": 0.0021
    },
    "pole": null,
-   "videos": 2,
-   "words": 6840
+   "videos": 27,
+   "words": 126281
   },
   "paulogia": {
    "affinities": {
@@ -391,7 +438,7 @@
      "weight": 0.95
     },
     "deconstruction": {
-     "source": "seed",
+     "source": "manual",
      "weight": 0.6
     }
    },
@@ -419,7 +466,7 @@
      "weight": 0.9
     },
     "deconstruction": {
-     "source": "seed",
+     "source": "manual",
      "weight": 0.5
     }
    },
@@ -443,7 +490,7 @@
   "reasonable-faith-org": {
    "affinities": {
     "apologetics": {
-     "source": "seed",
+     "source": "manual",
      "weight": 0.95
     }
    },
@@ -471,7 +518,7 @@
      "weight": 0.85
     },
     "deconstruction": {
-     "source": "seed",
+     "source": "manual",
      "weight": 0.6
     }
    },
@@ -494,12 +541,275 @@
   }
  },
  "distances": {
-  "darante-lamar|mindshift": {
-   "js": 0.1202,
+  "apostate-aladdin|britt-hartley": {
+   "js": 0.0212,
    "terms": {
-    "evidence": 0.0338,
-    "love": 0.3255,
-    "truth": 0.0013
+    "community": 0.0863,
+    "evidence": 0.0042,
+    "harm": 0.0,
+    "love": 0.0003,
+    "truth": 0.0152
+   }
+  },
+  "apostate-aladdin|cross-examined": {
+   "js": 0.0221,
+   "terms": {
+    "community": 0.0341,
+    "evidence": 0.0271,
+    "love": 0.0005,
+    "truth": 0.0265
+   }
+  },
+  "apostate-aladdin|darante-lamar": {
+   "js": 0.0516,
+   "terms": {
+    "community": 0.0849,
+    "evidence": 0.008,
+    "harm": 0.0077,
+    "love": 0.1128,
+    "truth": 0.0447
+   }
+  },
+  "apostate-aladdin|genetically-modified-skeptic": {
+   "js": 0.0149,
+   "terms": {
+    "community": 0.0053,
+    "evidence": 0.0212,
+    "harm": 0.0036,
+    "love": 0.0443,
+    "truth": 0.0
+   }
+  },
+  "apostate-aladdin|lil-bill": {
+   "js": 0.2024,
+   "terms": {
+    "community": 0.008,
+    "evidence": 0.2157,
+    "harm": 0.275,
+    "love": 0.1668,
+    "truth": 0.3466
+   }
+  },
+  "apostate-aladdin|marc-coley": {
+   "js": 0.2799,
+   "terms": {
+    "community": 0.1943,
+    "love": 0.1959,
+    "truth": 0.4496
+   }
+  },
+  "apostate-aladdin|mindshift": {
+   "js": 0.0223,
+   "terms": {
+    "community": 0.0226,
+    "evidence": 0.0161,
+    "harm": 0.0332,
+    "love": 0.0272,
+    "truth": 0.0126
+   }
+  },
+  "britt-hartley|cross-examined": {
+   "js": 0.0068,
+   "terms": {
+    "community": 0.0143,
+    "evidence": 0.01,
+    "love": 0.0014,
+    "truth": 0.0016
+   }
+  },
+  "britt-hartley|darante-lamar": {
+   "js": 0.0803,
+   "terms": {
+    "community": 0.3092,
+    "deconstruction": 0.0534,
+    "evidence": 0.0006,
+    "harm": 0.008,
+    "love": 0.1029,
+    "truth": 0.0079
+   }
+  },
+  "britt-hartley|genetically-modified-skeptic": {
+   "js": 0.0227,
+   "terms": {
+    "community": 0.0515,
+    "evidence": 0.0065,
+    "harm": 0.0039,
+    "love": 0.0379,
+    "truth": 0.0137
+   }
+  },
+  "britt-hartley|lil-bill": {
+   "js": 0.1735,
+   "terms": {
+    "community": 0.0446,
+    "evidence": 0.1629,
+    "harm": 0.2768,
+    "love": 0.1549,
+    "truth": 0.2282
+   }
+  },
+  "britt-hartley|marc-coley": {
+   "js": 0.3257,
+   "terms": {
+    "community": 0.476,
+    "love": 0.1831,
+    "truth": 0.318
+   }
+  },
+  "britt-hartley|mindshift": {
+   "js": 0.0229,
+   "terms": {
+    "community": 0.0235,
+    "deconstruction": 0.0121,
+    "evidence": 0.0366,
+    "harm": 0.0325,
+    "love": 0.0326,
+    "truth": 0.0001
+   }
+  },
+  "cross-examined|darante-lamar": {
+   "js": 0.0731,
+   "terms": {
+    "community": 0.2144,
+    "evidence": 0.0057,
+    "grace": 0.016,
+    "love": 0.127,
+    "truth": 0.0024
+   }
+  },
+  "cross-examined|genetically-modified-skeptic": {
+   "js": 0.0229,
+   "terms": {
+    "community": 0.0129,
+    "evidence": 0.0004,
+    "love": 0.0536,
+    "truth": 0.0246
+   }
+  },
+  "cross-examined|lil-bill": {
+   "js": 0.1651,
+   "terms": {
+    "community": 0.0093,
+    "evidence": 0.0951,
+    "grace": 0.3436,
+    "love": 0.1835,
+    "truth": 0.1942
+   }
+  },
+  "cross-examined|marc-coley": {
+   "js": 0.2859,
+   "terms": {
+    "community": 0.3647,
+    "love": 0.2138,
+    "truth": 0.2792
+   }
+  },
+  "cross-examined|mindshift": {
+   "js": 0.0245,
+   "terms": {
+    "community": 0.0013,
+    "evidence": 0.0835,
+    "grace": 0.0143,
+    "love": 0.0207,
+    "truth": 0.0026
+   }
+  },
+  "darante-lamar|genetically-modified-skeptic": {
+   "js": 0.0386,
+   "terms": {
+    "community": 0.1299,
+    "evidence": 0.0032,
+    "harm": 0.0008,
+    "love": 0.0167,
+    "truth": 0.0422
+   }
+  },
+  "darante-lamar|lil-bill": {
+   "js": 0.1449,
+   "terms": {
+    "community": 0.1417,
+    "evidence": 0.1447,
+    "grace": 0.2238,
+    "harm": 0.1975,
+    "love": 0.0058,
+    "truth": 0.1558
+   }
+  },
+  "darante-lamar|marc-coley": {
+   "js": 0.0772,
+   "terms": {
+    "community": 0.0245,
+    "do the work": 0.0369,
+    "love": 0.0127,
+    "truth": 0.2346
+   }
+  },
+  "darante-lamar|mindshift": {
+   "js": 0.0934,
+   "terms": {
+    "accountability": 0.1228,
+    "community": 0.1869,
+    "deconstruction": 0.0152,
+    "evidence": 0.0464,
+    "grace": 0.0598,
+    "harm": 0.0718,
+    "love": 0.2343,
+    "truth": 0.01
+   }
+  },
+  "genetically-modified-skeptic|lil-bill": {
+   "js": 0.142,
+   "terms": {
+    "community": 0.0003,
+    "evidence": 0.1067,
+    "harm": 0.2206,
+    "love": 0.0419,
+    "truth": 0.3403
+   }
+  },
+  "genetically-modified-skeptic|marc-coley": {
+   "js": 0.2526,
+   "terms": {
+    "community": 0.257,
+    "love": 0.0579,
+    "truth": 0.4428
+   }
+  },
+  "genetically-modified-skeptic|mindshift": {
+   "js": 0.0565,
+   "terms": {
+    "community": 0.0062,
+    "evidence": 0.0731,
+    "harm": 0.0582,
+    "love": 0.1336,
+    "truth": 0.0113
+   }
+  },
+  "lil-bill|marc-coley": {
+   "js": 0.0949,
+   "terms": {
+    "community": 0.2726,
+    "love": 0.0013,
+    "truth": 0.0109
+   }
+  },
+  "lil-bill|mindshift": {
+   "js": 0.3041,
+   "terms": {
+    "community": 0.0038,
+    "evidence": 0.3355,
+    "grace": 0.4746,
+    "harm": 0.4674,
+    "love": 0.3052,
+    "truth": 0.2379
+   }
+  },
+  "marc-coley|mindshift": {
+   "js": 0.3338,
+   "terms": {
+    "community": 0.3307,
+    "love": 0.3418,
+    "truth": 0.329
    }
   }
  },

@@ -3,51 +3,81 @@
   "community": {
    "apologetics": {
     "file": "community/apologetics.json",
-    "nodes_ghost": 23,
-    "nodes_ok": 0,
-    "occurrences": 2
+    "nodes_ghost": 14,
+    "nodes_ok": 9,
+    "occurrences": 969
    },
    "deconstruction": {
     "file": "community/deconstruction.json",
-    "nodes_ghost": 1,
-    "nodes_ok": 22,
-    "occurrences": 33660
+    "nodes_ghost": 0,
+    "nodes_ok": 23,
+    "occurrences": 37218
    }
   },
   "creator": {
+   "apostate-aladdin": {
+    "file": "creator/apostate-aladdin.json",
+    "nodes_ghost": 13,
+    "nodes_ok": 10,
+    "occurrences": 840
+   },
+   "britt-hartley": {
+    "file": "creator/britt-hartley.json",
+    "nodes_ghost": 16,
+    "nodes_ok": 7,
+    "occurrences": 366
+   },
    "cross-examined": {
     "file": "creator/cross-examined.json",
-    "nodes_ghost": 23,
-    "nodes_ok": 0,
-    "occurrences": 2
+    "nodes_ghost": 14,
+    "nodes_ok": 9,
+    "occurrences": 969
    },
    "darante-lamar": {
     "file": "creator/darante-lamar.json",
-    "nodes_ghost": 1,
-    "nodes_ok": 22,
-    "occurrences": 33604
+    "nodes_ghost": 0,
+    "nodes_ok": 23,
+    "occurrences": 34544
+   },
+   "genetically-modified-skeptic": {
+    "file": "creator/genetically-modified-skeptic.json",
+    "nodes_ghost": 16,
+    "nodes_ok": 7,
+    "occurrences": 347
+   },
+   "lil-bill": {
+    "file": "creator/lil-bill.json",
+    "nodes_ghost": 15,
+    "nodes_ok": 8,
+    "occurrences": 283
+   },
+   "marc-coley": {
+    "file": "creator/marc-coley.json",
+    "nodes_ghost": 17,
+    "nodes_ok": 6,
+    "occurrences": 183
    },
    "mindshift": {
     "file": "creator/mindshift.json",
-    "nodes_ghost": 21,
-    "nodes_ok": 2,
-    "occurrences": 56
+    "nodes_ghost": 13,
+    "nodes_ok": 10,
+    "occurrences": 655
    }
   },
   "overall": {
    "overall": {
     "file": "overall/overall.json",
-    "nodes_ghost": 1,
-    "nodes_ok": 22,
-    "occurrences": 33662
+    "nodes_ghost": 0,
+    "nodes_ok": 23,
+    "occurrences": 38187
    }
   },
   "role": {
    "host": {
     "file": "role/host.json",
-    "nodes_ghost": 1,
-    "nodes_ok": 22,
-    "occurrences": 27610
+    "nodes_ghost": 0,
+    "nodes_ok": 23,
+    "occurrences": 32135
    },
    "unattributed": {
     "file": "role/unattributed.json",
@@ -79,26 +109,33 @@
     "file": "year/2025.json",
     "nodes_ghost": 3,
     "nodes_ok": 20,
-    "occurrences": 13368
+    "occurrences": 14502
    },
    "2026": {
     "file": "year/2026.json",
     "nodes_ghost": 1,
     "nodes_ok": 22,
-    "occurrences": 8578
+    "occurrences": 11969
    }
   }
  },
  "cross_side": {
   "creators_with_data": {
-   "apologetics": [],
+   "apologetics": [
+    "cross-examined"
+   ],
    "deconstruction": [
+    "apostate-aladdin",
+    "britt-hartley",
     "darante-lamar",
+    "genetically-modified-skeptic",
+    "lil-bill",
+    "marc-coley",
     "mindshift"
    ]
   },
   "provisional": true,
-  "status": "no-cross-side-data"
+  "status": "ok"
  },
  "excluded_terms": {
   "moral supremism": {
@@ -123,6 +160,7 @@
   "suggestions_max": 50,
   "top_k": 8
  },
+ "side_margin": 0.05,
  "sides": {
   "apologetics": {
    "anchor": "cross-examined",
@@ -154,5 +192,6 @@
    ]
   }
  },
- "suggestions_file": "suggestions.json"
+ "suggestions_file": "suggestions.json",
+ "unsided": {}
 }
