@@ -132,16 +132,39 @@ function drawPoints(svg, pts, axis) {
     }
   }
 
-  for (const p of pts) {
+  // label layout: creators cluster (the polar middle especially), so labels
+  // claim non-overlapping boxes — nudged up/down in growing steps, with a
+  // leader line once a label sits far from its dot
+  const placedBoxes = [];
+  const labelBox = (cx, dy, w) =>
+    ({ x1: cx - w / 2, x2: cx + w / 2, y1: dy - 13, y2: dy + 3 });
+  const collides = (b) => placedBoxes.some((o) =>
+    b.x1 < o.x2 && b.x2 > o.x1 && b.y1 < o.y2 && b.y2 > o.y1);
+
+  for (const p of [...pts].sort((a, b) => a.x - b.x)) {
     const cx = px(p.x), cy = axis ? H / 2 + (p.y * 60) : py(p.y);
     const g = mk("g", { tabindex: 0, role: "button" });
     g.style.cursor = "pointer";
     g.append(mk("circle", { cx, cy, r: p.anchor ? 8 : 6,
       fill: p.anchor ? C("--text-primary") : C("--series-1"),
       stroke: C("--surface-1"), "stroke-width": 2 }));
-    const label = mk("text", { x: cx, y: cy - 12, "text-anchor": "middle",
+    const text = name(p.slug) + (p.anchor ? " ⚓" : "");
+    const w = 7 * text.length + 6;                       // rough text width
+    const lx = Math.max(w / 2 + 4, Math.min(W - w / 2 - 4, cx));
+    let dy = cy - 12;
+    for (const step of [-12, -28, 18, -44, 34, -60, 50, -76, 66]) {
+      dy = cy + step;
+      if (!collides(labelBox(lx, dy, w))) break;
+    }
+    placedBoxes.push(labelBox(lx, dy, w));
+    if (Math.abs(dy - cy) > 20) {
+      g.append(mk("line", { x1: cx, y1: cy + (dy > cy ? 8 : -8),
+        x2: lx, y2: dy + (dy > cy ? -11 : 2),
+        stroke: C("--baseline"), "stroke-width": 1 }));
+    }
+    const label = mk("text", { x: lx, y: dy, "text-anchor": "middle",
       "font-size": 11.5, fill: C("--text-primary") });
-    label.textContent = name(p.slug) + (p.anchor ? " ⚓" : "");
+    label.textContent = text;
     g.append(label);
     const open = () => showDistances(p.slug);
     g.addEventListener("click", open);
