@@ -11,7 +11,8 @@
 
 const DATA = "data";
 const state = { index: null, suggestions: null, docs: {}, senses: {},
-                panels: [null, null], sel: null };
+                panels: [null, null], sel: null,
+                mirror: true, overallNodes: null };
 
 const $ = (id) => document.getElementById(id);
 const el = (tag, cls, text) => {
@@ -105,17 +106,39 @@ function renderControls(i, wrap) {
 function drawSky(i, wrap, doc) {
   const W = 520, H = 400, PAD = 34;
   const svg = mk("svg", { viewBox: `0 0 ${W} ${H}`, role: "img" });
-  const ok = Object.entries(doc.nodes).filter(([, n]) => n.status === "ok");
+  // mirror mode: one shared whole-corpus frame positions every star in both
+  // skies (the Stellarium move — same sky, different constellations); the
+  // cell's own MDS otherwise. A star with no frame position stays a ghost.
+  const mirror = state.mirror && state.overallNodes;
+  const frameXY = (key, n) => {
+    if (!mirror) return n.status === "ok" ? n.xy : null;
+    const ref = state.overallNodes[key];
+    return ref && ref.status === "ok" ? ref.xy : null;
+  };
+  const placed = Object.entries(doc.nodes)
+    .map(([key, n]) => [key, n, frameXY(key, n)])
+    .filter(([, , xy]) => xy);
+  const ok = placed.filter(([, n]) => n.status === "ok");
   const hues = termHues(doc);
-  if (ok.length) {
-    const xs = ok.map(([, n]) => n.xy[0]), ys = ok.map(([, n]) => n.xy[1]);
+  // focus & blur: with a star selected, only its neighborhood stays lit
+  const neighbors = new Set();
+  if (state.sel) {
+    neighbors.add(state.sel);
+    for (const e of doc.edges) {
+      if (e.a === state.sel) neighbors.add(e.b);
+      if (e.b === state.sel) neighbors.add(e.a);
+    }
+  }
+  if (placed.length) {
+    const xs = placed.map(([, , xy]) => xy[0]);
+    const ys = placed.map(([, , xy]) => xy[1]);
     const [xlo, xhi] = [Math.min(...xs), Math.max(...xs)];
     const [ylo, yhi] = [Math.min(...ys), Math.max(...ys)];
     const sx = (x) => PAD + ((x - xlo) / ((xhi - xlo) || 1)) * (W - 2 * PAD);
     const sy = (y) => (H - PAD) - ((y - ylo) / ((yhi - ylo) || 1)) * (H - 2 * PAD);
-    const maxN = Math.max(...ok.map(([, n]) => n.n));
+    const maxN = Math.max(...ok.map(([, n]) => n.n), 1);
     const pos = {};
-    for (const [key, n] of ok) pos[key] = [sx(n.xy[0]), sy(n.xy[1])];
+    for (const [key, , xy] of placed) pos[key] = [sx(xy[0]), sy(xy[1])];
 
     // selected star's neighborhood: its edges, drawn under the stars
     if (state.sel && pos[state.sel]) {
@@ -136,11 +159,28 @@ function drawSky(i, wrap, doc) {
       }
     }
 
-    for (const [key, n] of ok) {
+    for (const [key, n] of placed) {
       const [cx, cy] = pos[key];
-      const r = 4 + 9 * Math.sqrt(n.n / maxN);
+      const ghost = n.status !== "ok";
+      const r = ghost ? 4 : 4 + 9 * Math.sqrt(n.n / maxN);
       const g = mk("g", { tabindex: 0, role: "button" });
       g.style.cursor = "pointer";
+      if (state.sel && !neighbors.has(key)) g.setAttribute("opacity", 0.18);
+      if (ghost) {
+        // sense exists; this cell can't place it confidently — the shared
+        // frame lends a position, drawn hollow so it never reads as a claim
+        g.append(mk("circle", { cx, cy, r, fill: "none",
+          stroke: C("--text-muted"), "stroke-width": 1.2,
+          "stroke-dasharray": "2 2" }));
+        const t = mk("title", {});
+        t.textContent = `${n.term} · sense ${n.sense} — ghost here: ` +
+          `${n.reason}; position is the whole-corpus layout, not a claim`;
+        g.append(t);
+        const open = () => { state.sel = key; renderSkies(); showSense(i, key); };
+        g.addEventListener("click", open);
+        svg.append(g);
+        continue;
+      }
       if (n.stress > params().stress_high) {
         g.append(mk("circle", { cx, cy, r: r + 3.5, fill: "none",
           stroke: C("--text-muted"), "stroke-width": 1,
@@ -178,8 +218,16 @@ function drawSky(i, wrap, doc) {
   chart.append(svg);
   wrap.append(chart);
 
+  const placedKeys = new Set(
+    (state.mirror && state.overallNodes)
+      ? Object.keys(doc.nodes).filter((k) => {
+          const ref = state.overallNodes[k];
+          return ref && ref.status === "ok";
+        })
+      : Object.keys(doc.nodes).filter((k) => doc.nodes[k].status === "ok"));
   const ghosts = Object.entries(doc.nodes)
-    .filter(([, n]) => n.status === "ghost").sort();
+    .filter(([key, n]) => n.status === "ghost" && !placedKeys.has(key))
+    .sort();
   if (ghosts.length) {
     const strip = el("div", "ghost-strip");
     strip.append(el("span", "ghost-label",
@@ -207,15 +255,26 @@ async function renderSkies() {
     drawSky(i, wrap, await cellDoc(meta.file));
   }
   const high = params().stress_high;
-  $("galaxy-caption").textContent =
-    "Axes are unitless MDS space — only relative nearness means anything, " +
-    "and only within one sky; compare skies by which stars sit near which, " +
-    "not by coordinates. Dash-ringed stars have projection stress above " +
-    `${high} (mean top-k distance error relative to true distance): their ` +
-    "drawn position understates or overstates true distances — open the " +
-    "audit instead. Click a star for its senses and neighbors; click a " +
-    "connection or a neighbor row for the quoted evidence behind the " +
-    "nearness claim.";
+  const axes = "There are no axes: positions are a unitless MDS projection " +
+    "of centroid cosine distances, so only relative nearness carries " +
+    "meaning. ";
+  $("galaxy-caption").textContent = (state.mirror && state.overallNodes)
+    ? axes +
+      "Mirror mode: both skies share the whole-corpus layout — the same " +
+      "sense sits at the same spot, so what differs is each side's data: " +
+      "star size (occurrences in that cell), hollow dashed stars (below " +
+      "the cell minimum — lent a position, never a claim), and which " +
+      "neighborhood lights up when you select a star. Dash-ringed stars " +
+      `have projection stress above ${high}: trust the audit, not the ` +
+      "picture."
+    : axes +
+      "Per-cell layout: each sky is its own projection, so positions are " +
+      "NOT comparable across skies — compare which stars sit near which, " +
+      "not coordinates. Dash-ringed stars have projection stress above " +
+      `${high} (mean top-k distance error relative to true distance): ` +
+      "open the audit instead. Click a star for its senses and neighbors; " +
+      "click a connection or neighbor row for the quoted evidence behind " +
+      "the nearness claim.";
 }
 
 // ---- star -> sense panel (KWIC exemplars) ------------------------------------
@@ -438,6 +497,15 @@ async function init() {
     `${nCells} grouping cells · embedding model ${index.model} · ` +
     `top-k ${index.parameters.top_k} · min cell n ` +
     `${index.parameters.min_cell_n}`;
+  const ovMeta = (index.cells.overall || {}).overall;
+  if (ovMeta) state.overallNodes = (await cellDoc(ovMeta.file)).nodes;
+  const mt = $("mirror-toggle");
+  if (mt) {
+    mt.addEventListener("change", () => {
+      state.mirror = mt.checked;
+      renderSkies();
+    });
+  }
   if (index.cross_side.provisional) {
     const b = $("provisional-banner");
     b.textContent =

@@ -3,15 +3,15 @@
   "community": {
    "apologetics": {
     "file": "community/apologetics.json",
-    "nodes_ghost": 14,
-    "nodes_ok": 9,
-    "occurrences": 969
+    "nodes_ghost": 9,
+    "nodes_ok": 14,
+    "occurrences": 1990
    },
    "deconstruction": {
     "file": "community/deconstruction.json",
     "nodes_ghost": 0,
     "nodes_ok": 23,
-    "occurrences": 37218
+    "occurrences": 34727
    }
   },
   "creator": {
@@ -122,19 +122,16 @@
  "cross_side": {
   "creators_with_data": {
    "apologetics": [
-    "cross-examined"
+    "britt-hartley",
+    "cross-examined",
+    "mindshift"
    ],
    "deconstruction": [
-    "apostate-aladdin",
-    "britt-hartley",
     "darante-lamar",
-    "genetically-modified-skeptic",
-    "lil-bill",
-    "marc-coley",
-    "mindshift"
+    "marc-coley"
    ]
   },
-  "provisional": true,
+  "provisional": false,
   "status": "ok"
  },
  "excluded_terms": {
@@ -165,6 +162,7 @@
   "apologetics": {
    "anchor": "cross-examined",
    "creators": [
+    "britt-hartley",
     "capturing-christianity",
     "counsel-of-trent",
     "cross-examined",
@@ -172,20 +170,16 @@
     "jackie-hill-perry",
     "jude-3-project",
     "mike-winger",
+    "mindshift",
     "reasonable-faith-org"
    ]
   },
   "deconstruction": {
    "anchor": "darante-lamar",
    "creators": [
-    "apostate-aladdin",
     "belief-it-or-not",
-    "britt-hartley",
     "darante-lamar",
-    "genetically-modified-skeptic",
-    "lil-bill",
     "marc-coley",
-    "mindshift",
     "paulogia",
     "prophet-of-zod",
     "shannon-q"
@@ -193,5 +187,27 @@
   }
  },
  "suggestions_file": "suggestions.json",
- "unsided": {}
+ "unsided": {
+  "apostate-aladdin": {
+   "reason": "top pole weight leads by 0.0295 < margin 0.05",
+   "weights": {
+    "apologetics": 0.9779,
+    "deconstruction": 0.9484
+   }
+  },
+  "genetically-modified-skeptic": {
+   "reason": "top pole weight leads by 0.0157 < margin 0.05",
+   "weights": {
+    "apologetics": 0.9771,
+    "deconstruction": 0.9614
+   }
+  },
+  "lil-bill": {
+   "reason": "top pole weight leads by 0.0202 < margin 0.05",
+   "weights": {
+    "apologetics": 0.8349,
+    "deconstruction": 0.8551
+   }
+  }
+ }
 }

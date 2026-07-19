@@ -11,8 +11,8 @@
      "weight": 0.75
     },
     "deconstruction": {
-     "source": "manual",
-     "weight": 0.5
+     "source": "computed",
+     "weight": 0.9484
     }
    },
    "contact_facing": "dialogue-facing",
@@ -40,7 +40,7 @@
   "belief-it-or-not": {
    "affinities": {
     "deconstruction": {
-     "source": "manual",
+     "source": "seed",
      "weight": 0.7
     }
    },
@@ -68,8 +68,8 @@
      "weight": 0.9932
     },
     "deconstruction": {
-     "source": "manual",
-     "weight": 0.85
+     "source": "computed",
+     "weight": 0.9197
     }
    },
    "contact_facing": "internal-facing",
@@ -97,7 +97,7 @@
   "capturing-christianity": {
    "affinities": {
     "apologetics": {
-     "source": "manual",
+     "source": "seed",
      "weight": 0.85
     }
    },
@@ -121,7 +121,7 @@
   "counsel-of-trent": {
    "affinities": {
     "apologetics": {
-     "source": "manual",
+     "source": "seed",
      "weight": 0.9
     }
    },
@@ -145,7 +145,7 @@
   "cross-examined": {
    "affinities": {
     "apologetics": {
-     "source": "manual",
+     "source": "seed",
      "weight": 1.0
     }
    },
@@ -174,7 +174,7 @@
   "darante-lamar": {
    "affinities": {
     "deconstruction": {
-     "source": "manual",
+     "source": "seed",
      "weight": 1.0
     }
    },
@@ -197,13 +197,13 @@
     "y": 0.0
    },
    "pole": "deconstruction",
-   "videos": 1463,
+   "videos": 1484,
    "words": 6346525
   },
   "drcraigvideos": {
    "affinities": {
     "apologetics": {
-     "source": "manual",
+     "source": "seed",
      "weight": 0.95
     }
    },
@@ -235,8 +235,8 @@
      "weight": 0.5
     },
     "deconstruction": {
-     "source": "manual",
-     "weight": 0.8
+     "source": "computed",
+     "weight": 0.9614
     }
    },
    "contact_facing": "internal-facing",
@@ -264,7 +264,7 @@
   "jackie-hill-perry": {
    "affinities": {
     "apologetics": {
-     "source": "manual",
+     "source": "seed",
      "weight": 0.7
     }
    },
@@ -288,7 +288,7 @@
   "jude-3-project": {
    "affinities": {
     "apologetics": {
-     "source": "manual",
+     "source": "seed",
      "weight": 0.85
     }
    },
@@ -320,8 +320,8 @@
      "weight": 0.6
     },
     "deconstruction": {
-     "source": "manual",
-     "weight": 0.6
+     "source": "computed",
+     "weight": 0.8551
     }
    },
    "contact_facing": "dialogue-facing",
@@ -349,7 +349,7 @@
   "marc-coley": {
    "affinities": {
     "deconstruction": {
-     "source": "manual",
+     "source": "seed",
      "weight": 0.7
     }
    },
@@ -373,7 +373,7 @@
   "mike-winger": {
    "affinities": {
     "apologetics": {
-     "source": "manual",
+     "source": "seed",
      "weight": 0.8
     }
    },
@@ -405,8 +405,8 @@
      "weight": 0.7
     },
     "deconstruction": {
-     "source": "manual",
-     "weight": 0.9
+     "source": "computed",
+     "weight": 0.9066
     }
    },
    "contact_facing": "dialogue-facing",
@@ -438,7 +438,7 @@
      "weight": 0.95
     },
     "deconstruction": {
-     "source": "manual",
+     "source": "seed",
      "weight": 0.6
     }
    },
@@ -466,7 +466,7 @@
      "weight": 0.9
     },
     "deconstruction": {
-     "source": "manual",
+     "source": "seed",
      "weight": 0.5
     }
    },
@@ -490,7 +490,7 @@
   "reasonable-faith-org": {
    "affinities": {
     "apologetics": {
-     "source": "manual",
+     "source": "seed",
      "weight": 0.95
     }
    },
@@ -518,7 +518,7 @@
      "weight": 0.85
     },
     "deconstruction": {
-     "source": "manual",
+     "source": "seed",
      "weight": 0.6
     }
    },

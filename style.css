@@ -273,3 +273,6 @@ body {
 @media (max-width: 760px) { .audit-pair-grid { grid-template-columns: 1fr; } }
 .audit-pair-cell { min-width: 0; }
 .audit-pair-cell .kwic-line { border-bottom: 0; }
+.mode-toggle { display: block; margin: 0 0 10px; font-size: 12.5px;
+  color: var(--text-secondary); cursor: pointer; max-width: 60em; }
+.mode-toggle input { vertical-align: -1px; margin-right: 6px; }
