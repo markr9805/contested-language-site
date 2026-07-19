@@ -276,3 +276,31 @@ body {
 .mode-toggle { display: block; margin: 0 0 10px; font-size: 12.5px;
   color: var(--text-secondary); cursor: pointer; max-width: 60em; }
 .mode-toggle input { vertical-align: -1px; margin-right: 6px; }
+
+/* -- occurrence cloud -------------------------------------------------------- */
+
+.cloud-main { max-width: 1160px; }
+.cloud-controls { display: flex; flex-wrap: wrap; align-items: baseline;
+  gap: 14px; margin: 4px 0 8px; }
+.color-by-label { font-size: 13px; color: var(--text-secondary); }
+.count-line { font-size: 12.5px; color: var(--text-secondary);
+  font-variant-numeric: tabular-nums; }
+.filter-row { display: flex; flex-wrap: wrap; gap: 6px; align-items: baseline;
+  margin: 0 0 6px; }
+.filter-label { font-size: 11px; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--text-muted); min-width: 58px; }
+.filter-chip { font-size: 12.5px; color: var(--text-secondary);
+  border: 1px solid var(--border); border-radius: 999px; padding: 1px 10px;
+  cursor: pointer; user-select: none; }
+.filter-chip:hover { background: var(--accent-soft); }
+.filter-chip input { vertical-align: -1px; margin: 0 5px 0 0; }
+.cloud-chart { border: 1px solid var(--gridline); border-radius: 8px;
+  overflow: hidden; background: #0b0e1a; }
+#cloud { width: 100%; height: 600px; }
+.cloud-legend { position: absolute; left: 10px; bottom: 8px; z-index: 3;
+  display: flex; flex-wrap: wrap; gap: 4px 12px; max-width: 92%;
+  pointer-events: none; }
+.legend-item { font-size: 11.5px; color: #c3c2b7; white-space: nowrap; }
+.legend-dot { display: inline-block; width: 8px; height: 8px;
+  border-radius: 50%; margin-right: 5px; vertical-align: -1px; }
+@media (max-width: 760px) { #cloud { height: 420px; } }

@@ -1,0 +1,359 @@
+/* Contested Language occurrence cloud — every embedded occurrence as one
+   point over data/cloud/points.json, rendered by the vendored cosmos.gl
+   engine with the simulation OFF: positions are the exporter's fixed PCA
+   frame, never a per-load layout, so screenshots stay reproducible
+   evidence. Honesty rules from the design doc carried through: the
+   explained-variance caption discloses how little the 2-D plane holds;
+   per-side counts are printed while the corpus is unbalanced; filters dim
+   points instead of removing them (absences are half the signal); a
+   clicked point resolves through the published KWIC sample or says
+   plainly that it isn't in it. All text lands via textContent. */
+"use strict";
+
+const DATA = "data";
+const VISIBLE_ALPHA = 0.85;
+const DIM_ALPHA = 0.04;
+const POINT_SIZE = 2.2;
+const SEL_SIZE = 9;
+const SKY_BG = "#0b0e1a";   // fixed dark sky in both themes, like the pilot
+
+const state = {
+  doc: null,          // raw columnar artifact
+  n: 0,
+  graph: null,
+  colorBy: "term",
+  checked: {},        // dim -> Set of enum codes currently checked
+  sel: null,          // selected point index
+  sizes: null,
+  kwicIndex: null,    // phrase -> file
+  kwicDocs: {},
+};
+
+const FILTER_DIMS = ["side", "creator", "term"];   // the decided surface
+
+const $ = (id) => document.getElementById(id);
+const el = (tag, cls, text) => {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text !== undefined) e.textContent = text;
+  return e;
+};
+const fmt = (x) => x.toLocaleString("en-US");
+
+async function fetchJSON(path) {
+  const r = await fetch(`${DATA}/${path}`);
+  if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
+  return r.json();
+}
+
+// ---- colors -------------------------------------------------------------------
+
+function hslToRgb(h, s, l) {
+  s /= 100; l /= 100;
+  const k = (n) => (n + h / 30) % 12;
+  const a = s * Math.min(l, 1 - l);
+  const f = (n) => l - a * Math.max(-1, Math.min(k(n) - 3, Math.min(9 - k(n), 1)));
+  return [f(0), f(8), f(4)];
+}
+
+// same hue logic as the galaxy's termHues: terms sorted, hues spread evenly,
+// senses of one term share the hue at stepped lightness
+function termRgb(termCode, sense) {
+  const terms = state.doc.enums.term;
+  const hue = Math.round((360 * termCode) / terms.length);
+  return hslToRgb(hue, 62, Math.min(48 + sense * 10, 72));
+}
+
+const SIDE_RGB = {
+  "deconstruction": hslToRgb(214, 72, 58),   // the site's series blue
+  "apologetics": hslToRgb(32, 78, 58),       // warm counterpoint
+  "": hslToRgb(0, 0, 62),                    // unsided: neutral gray
+};
+
+function creatorRgb(code) {
+  const n = state.doc.enums.creator.length;
+  return hslToRgb(Math.round((360 * code) / n), 60, 60);
+}
+
+function pointRgb(i) {
+  const c = state.doc.columns;
+  if (state.colorBy === "side") {
+    return SIDE_RGB[state.doc.enums.side[c.side[i]]] || SIDE_RGB[""];
+  }
+  if (state.colorBy === "creator") return creatorRgb(c.creator[i]);
+  return termRgb(c.term[i], c.sense[i]);
+}
+
+function pointVisible(i) {
+  const c = state.doc.columns;
+  return FILTER_DIMS.every((dim) => state.checked[dim].has(c[dim][i]));
+}
+
+function recolor() {
+  const colors = new Float32Array(state.n * 4);
+  let shown = 0;
+  for (let i = 0; i < state.n; i++) {
+    const [r, g, b] = pointRgb(i);
+    const vis = pointVisible(i);
+    if (vis) shown += 1;
+    colors[4 * i] = r;
+    colors[4 * i + 1] = g;
+    colors[4 * i + 2] = b;
+    colors[4 * i + 3] = vis ? VISIBLE_ALPHA : DIM_ALPHA;
+  }
+  state.graph.setPointColors(colors);
+  state.graph.render(undefined, 0);
+  const anyFilter = FILTER_DIMS.some(
+    (dim) => state.checked[dim].size < state.doc.enums[dim].length);
+  $("count-line").textContent = anyFilter
+    ? `showing ${fmt(shown)} of ${fmt(state.n)} occurrences — ` +
+      "filtered-out points are dimmed, never removed"
+    : "";
+  renderLegend();
+}
+
+function resize() {
+  if (!state.sizes) state.sizes = new Float32Array(state.n).fill(POINT_SIZE);
+  const sizes = state.sizes;
+  sizes.fill(POINT_SIZE);
+  if (state.sel !== null) sizes[state.sel] = SEL_SIZE;
+  state.graph.setPointSizes(sizes);
+  state.graph.render(undefined, 0);
+}
+
+// ---- legend -------------------------------------------------------------------
+
+function renderLegend() {
+  const box = $("cloud-legend");
+  box.replaceChildren();
+  const entries = state.colorBy === "term"
+    ? state.doc.enums.term.map((t, i) => [t, termRgb(i, 0)])
+    : state.colorBy === "side"
+      ? state.doc.enums.side.map((s) => [s || "unsided", SIDE_RGB[s]])
+      : state.doc.enums.creator.map((cr, i) => [cr, creatorRgb(i)]);
+  for (const [label, [r, g, b]] of entries) {
+    const item = el("span", "legend-item");
+    const dot = el("span", "legend-dot");
+    dot.style.background =
+      `rgb(${Math.round(r * 255)} ${Math.round(g * 255)} ${Math.round(b * 255)})`;
+    item.append(dot, label);
+    box.append(item);
+  }
+}
+
+// ---- filters ------------------------------------------------------------------
+
+function renderFilters() {
+  const wrap = $("filter-groups");
+  wrap.replaceChildren();
+  for (const dim of FILTER_DIMS) {
+    const row = el("div", "filter-row");
+    row.append(el("span", "filter-label", dim));
+    state.doc.enums[dim].forEach((value, code) => {
+      const lab = el("label", "filter-chip");
+      const cb = document.createElement("input");
+      cb.type = "checkbox";
+      cb.checked = true;
+      cb.dataset.dim = dim;
+      cb.dataset.code = String(code);
+      cb.addEventListener("change", () => {
+        if (cb.checked) state.checked[dim].add(code);
+        else state.checked[dim].delete(code);
+        recolor();
+      });
+      lab.append(cb, value === "" ? "(unsided)" : value);
+      row.append(lab);
+    });
+    wrap.append(row);
+  }
+}
+
+// ---- tooltip ------------------------------------------------------------------
+
+function pointLabel(i) {
+  const c = state.doc.columns, e = state.doc.enums;
+  return {
+    node: `${e.term[c.term[i]]}|${c.sense[i]}`,
+    creator: e.creator[c.creator[i]],
+    side: e.side[c.side[i]] || "unsided",
+    role: e.role[c.role[i]],
+    year: c.year[i] === null ? "?" : String(c.year[i]),
+    occ: c.occurrence_id[i],
+  };
+}
+
+function showTooltip(i, ev) {
+  const tip = $("cloud-tooltip");
+  const p = pointLabel(i);
+  tip.replaceChildren(
+    el("div", "tt-value", p.node),
+    el("div", "tt-label", `${p.creator} · ${p.side} · ${p.role} · ${p.year}`));
+  const wrapRect = $("cloud-wrap").getBoundingClientRect();
+  const x = (ev && ev.clientX !== undefined) ? ev.clientX - wrapRect.left : 20;
+  const y = (ev && ev.clientY !== undefined) ? ev.clientY - wrapRect.top : 20;
+  tip.style.left = `${Math.min(x + 14, wrapRect.width - 170)}px`;
+  tip.style.top = `${y + 14}px`;
+  tip.hidden = false;
+}
+
+function hideTooltip() { $("cloud-tooltip").hidden = true; }
+
+// ---- selection -> evidence panel (no auto-scroll, ever) ------------------------
+
+function kwicBlock(line) {
+  const item = el("div", "kwic-line");
+  const meta = el("div", "kwic-meta");
+  const date = (line.published_at || "?").slice(0, 10);
+  const t = Math.round(line.t || 0);
+  const a = el("a", "", `${line.title} @ ${Math.floor(t / 60)}:` +
+                        `${String(t % 60).padStart(2, "0")}`);
+  a.href = `https://www.youtube.com/watch?v=${line.video_id}&t=${t}s`;
+  a.target = "_blank";
+  a.rel = "noopener";
+  meta.append(`[${date}] `, a, " ");
+  meta.append(el("span", "role-chip", line.role));
+  item.append(meta);
+  const ctx = el("p", "kwic-context");
+  const text = line.context || "";
+  const surf = (line.surface || "").toLowerCase();
+  const at = surf ? text.toLowerCase().indexOf(surf) : -1;
+  if (at >= 0) {
+    ctx.append(text.slice(0, at));
+    ctx.append(el("mark", "", text.slice(at, at + surf.length)));
+    ctx.append(text.slice(at + surf.length));
+  } else {
+    ctx.textContent = text;
+  }
+  item.append(ctx);
+  return item;
+}
+
+async function kwicDoc(phrase) {
+  const file = state.kwicIndex[phrase];
+  if (!file) return null;
+  if (!state.kwicDocs[file]) {
+    state.kwicDocs[file] = await fetchJSON(`kwic/${file}`);
+  }
+  return state.kwicDocs[file];
+}
+
+async function showPoint(i) {
+  state.sel = i;
+  resize();
+  const p = pointLabel(i);
+  const term = state.doc.enums.term[state.doc.columns.term[i]];
+  $("point-title").textContent = `${p.node} — occurrence #${p.occ}`;
+  $("point-attrs").textContent =
+    `term "${term}" · sense ${state.doc.columns.sense[i]} · ` +
+    `creator ${p.creator} · side ${p.side} · role ${p.role} · ` +
+    `year ${p.year}. Position is the shared whole-corpus PCA frame — ` +
+    "a projection, not a claim.";
+  const link = $("point-term-link");
+  link.href = `index.html#term=${encodeURIComponent(term)}` +
+              `&creator=${encodeURIComponent(p.creator)}`;
+  const box = $("point-evidence");
+  box.replaceChildren();
+  try {
+    const kd = await kwicDoc(term);
+    const line = kd && kd.lines[String(p.occ)];
+    if (line) {
+      box.append(el("p", "evidence-note",
+        "This occurrence is in the published concordance sample — the " +
+        "quoted line and watch link below are the full evidence chain."));
+      box.append(kwicBlock(line));
+    } else {
+      box.append(el("p", "insufficient-note",
+        "This occurrence is not in the published concordance sample — " +
+        "the term explorer holds the sampled evidence for this cell."));
+    }
+  } catch (e) {
+    box.append(el("p", "insufficient-note",
+      "concordance sample unavailable: " + e.message));
+  }
+  // evidence fills in below without moving the viewport — no scrollIntoView
+  $("point-card").hidden = false;
+}
+
+function deselect() {
+  if (state.sel === null) return;
+  state.sel = null;
+  resize();
+  $("point-card").hidden = true;
+}
+
+// ---- boot ---------------------------------------------------------------------
+
+async function init() {
+  const [doc, kwicIndex] = await Promise.all([
+    fetchJSON("cloud/points.json"), fetchJSON("kwic/index.json"),
+  ]);
+  state.doc = doc;
+  state.n = doc.n;
+  state.kwicIndex = kwicIndex;
+  for (const dim of FILTER_DIMS) {
+    state.checked[dim] = new Set(doc.enums[dim].map((_, code) => code));
+  }
+
+  // per-side counts: while the corpus is unbalanced, density must read as
+  // data volume, not semantics
+  const sideCounts = doc.enums.side.map(() => 0);
+  for (const s of doc.columns.side) sideCounts[s] += 1;
+  const sideLine = doc.enums.side
+    .map((s, i) => `${s || "unsided"} ${fmt(sideCounts[i])}`)
+    .join(" · ");
+
+  const evr = doc.projection.explained_variance_ratio;
+  const pctXY = ((evr[0] + evr[1]) * 100).toFixed(1);
+  $("corpus-stats").textContent =
+    `${fmt(doc.n)} embedded occurrences · ${doc.enums.term.length} terms · ` +
+    `${doc.enums.creator.length} creators · embedding model ` +
+    `${doc.generated_from}`;
+  $("cloud-caption").textContent =
+    `Positions are a 2-D PCA projection explaining ${pctXY}% of the ` +
+    "embedding space's variance — trust the audit lines, not the picture. " +
+    "Colors and filters change what is visible, never what exists. " +
+    `Per-side occurrence counts (the corpus is still unbalanced): ` +
+    `${sideLine}. Scroll to zoom, drag to pan, click a point for its ` +
+    "evidence; click empty sky or press Escape to deselect.";
+
+  const positions = new Float32Array(state.n * 2);
+  for (let i = 0; i < state.n; i++) {
+    positions[2 * i] = doc.columns.x[i];
+    positions[2 * i + 1] = doc.columns.y[i];
+  }
+
+  state.graph = new Cosmos.Graph($("cloud"), {
+    enableSimulation: false,        // the picture is the fixed artifact
+    backgroundColor: SKY_BG,
+    fitViewOnInit: true,
+    fitViewDelay: 150,
+    hoveredPointCursor: "pointer",
+    hoveredPointRingColor: "#ffffff",
+    renderHoveredPointRing: true,
+    onClick: (index) => {
+      if (index === undefined || index === null) deselect();
+      else showPoint(index);
+    },
+    onPointMouseOver: (index, pos, ev) => showTooltip(index, ev),
+    onPointMouseOut: () => hideTooltip(),
+  });
+  state.graph.setPointPositions(positions);
+  state.graph.render();
+  resize();
+
+  renderFilters();
+  recolor();
+
+  document.addEventListener("keydown", (ev) => {
+    if (ev.key === "Escape") deselect();
+  });
+  $("color-by").addEventListener("change", () => {
+    state.colorBy = $("color-by").value;
+    recolor();
+  });
+}
+
+init().catch((e) => {
+  $("corpus-stats").textContent = "failed to load artifacts: " + e.message +
+    " — regenerate with `python3 -m contested export-site` and serve over HTTP.";
+});

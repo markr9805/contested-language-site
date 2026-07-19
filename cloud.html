@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Contested Language — occurrence cloud</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='%232a78d6'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-head">
+  <div>
+    <h1>Contested Language <span class="badge-private">occurrence cloud</span></h1>
+    <p class="corpus-stats" id="corpus-stats">loading…</p>
+  </div>
+  <nav class="head-nav">
+    <a href="index.html">← term explorer</a>
+    <a href="galaxy.html">concept galaxy →</a>
+    <a href="map.html">creator map →</a>
+  </nav>
+</header>
+
+<main class="main map-main cloud-main">
+  <section class="card">
+    <div class="card-head">
+      <h3>Every embedded occurrence <span class="unit">one point per
+      occurrence, fixed PCA positions baked in at export time — never a
+      per-load layout. The galaxy shows centers; this shows spread, and
+      the dark regions are data too.</span></h3>
+    </div>
+    <div class="cloud-controls">
+      <label class="color-by-label">color by
+        <select id="color-by" class="sky-select">
+          <option value="term" selected>term</option>
+          <option value="side">side</option>
+          <option value="creator">creator</option>
+        </select>
+      </label>
+      <span class="count-line" id="count-line"></span>
+    </div>
+    <div id="filter-groups"></div>
+    <div class="chart-wrap cloud-chart" id="cloud-wrap">
+      <div id="cloud"></div>
+      <div class="chart-tooltip" id="cloud-tooltip" hidden></div>
+      <div class="cloud-legend" id="cloud-legend"></div>
+    </div>
+    <p class="chart-caption" id="cloud-caption"></p>
+  </section>
+
+  <section class="card evidence-card" id="point-card" hidden>
+    <div class="card-head"><h3 id="point-title">Occurrence</h3></div>
+    <p class="evidence-note" id="point-attrs"></p>
+    <div id="point-evidence"></div>
+    <a class="term-link" id="point-term-link" href="#">open in term explorer →</a>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <p>Each point is one occurrence of a tracked term, positioned by a
+  whole-corpus PCA projection of its context embedding — the same fixed
+  frame as the private research export, so screenshots are reproducible
+  evidence. The 2-D plane explains only a small, disclosed fraction of the
+  embedding space's variance: trust the audit lines, not the picture.
+  Filters dim points rather than remove them, because absences are half
+  the signal. Clicking a point resolves through the published concordance
+  sample; occurrences outside that sample say so honestly instead of
+  pretending to evidence the site doesn't publish.</p>
+</footer>
+
+<script src="vendor/cosmos.gl/3.3.0/index.min.js"></script>
+<script src="cloud.js"></script>
+</body>
+</html>
