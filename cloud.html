@@ -37,11 +37,15 @@
           <option value="creator">creator</option>
         </select>
       </label>
+      <label class="color-by-label">
+        <input type="checkbox" id="show-centers" checked> term centers
+      </label>
       <span class="count-line" id="count-line"></span>
     </div>
     <div id="filter-groups"></div>
     <div class="chart-wrap cloud-chart" id="cloud-wrap">
       <div id="cloud"></div>
+      <svg class="centroid-layer" id="centroid-layer"></svg>
       <div class="chart-tooltip" id="cloud-tooltip" hidden></div>
       <div class="cloud-legend" id="cloud-legend"></div>
     </div>

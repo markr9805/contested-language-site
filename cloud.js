@@ -141,6 +141,115 @@ function renderLegend() {
   }
 }
 
+// ---- term centers ---------------------------------------------------------------
+// Centroid of each term's FULL point set (never the filtered subset — filters
+// change what is visible, not what exists), drawn on an SVG overlay that
+// follows the camera. Labels reuse the creator map's collision rule: claim a
+// box, nudge in growing steps, leader-line back when pushed far.
+
+const SVG_NS = "http://www.w3.org/2000/svg";
+const mkSvg = (tag, attrs) => {
+  const n = document.createElementNS(SVG_NS, tag);
+  for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v);
+  return n;
+};
+
+function buildCentroids() {
+  const c = state.doc.columns;
+  const counts = state.doc.enums.term.map(() => 0);
+  for (let i = 0; i < state.n; i++) counts[c.term[i]] += 1;
+  const svg = $("centroid-layer");
+  state.centroids = counts
+    .map((n, code) => ({ code, term: state.doc.enums.term[code], n }))
+    .filter((cen) => cen.n > 0)
+    .sort((a, b) => b.n - a.n);          // big terms claim their spot first
+  for (const cen of state.centroids) {
+    const [r, g, b] = termRgb(cen.code, 2);
+    const rgb = `rgb(${Math.round(r * 255)} ${Math.round(g * 255)} ` +
+                `${Math.round(b * 255)})`;
+    cen.el = mkSvg("g", {});
+    cen.line = mkSvg("line", { stroke: "#8a8a97", "stroke-width": 1 });
+    cen.dot = mkSvg("circle", { r: 3.5, fill: rgb, stroke: "#0b0e1a",
+                                "stroke-width": 1.5 });
+    cen.text = mkSvg("text", { fill: rgb });
+    cen.text.textContent = cen.term;
+    cen.el.append(cen.line, cen.dot, cen.text);
+    svg.append(cen.el);
+  }
+}
+
+// cosmos rescales the input data into its internal space on upload;
+// spaceToScreenPosition speaks that space, so centroids are averaged over
+// getPointPositions() (the rescaled coordinates), not the raw data columns
+function computeCentroidSpace() {
+  const pos = state.graph.getPointPositions();
+  if (!pos || pos.length !== 2 * state.n) return false;
+  const t = state.doc.columns.term;
+  const m = state.doc.enums.term.length;
+  const ax = new Float64Array(m), ay = new Float64Array(m);
+  for (let i = 0; i < state.n; i++) {
+    ax[t[i]] += pos[2 * i];
+    ay[t[i]] += pos[2 * i + 1];
+  }
+  for (const cen of state.centroids) {
+    cen.x = ax[cen.code] / cen.n;
+    cen.y = ay[cen.code] / cen.n;
+  }
+  return true;
+}
+
+function layoutCentroids() {
+  const svg = $("centroid-layer");
+  if (svg.style.display === "none" || !state.centroids) return;
+  if (!state.centroidSpaceReady) {
+    if (!computeCentroidSpace()) return;
+    state.centroidSpaceReady = true;
+  }
+  const rect = $("cloud").getBoundingClientRect();
+  // touch the DOM only when the camera, size, or filter set actually changed
+  const t = state.graph.zoomInstance.eventTransform;
+  const stamp = `${t.k}|${t.x}|${t.y}|${rect.width}|${rect.height}|` +
+                [...state.checked.term].sort().join(",");
+  if (stamp === state.centroidStamp) return;
+  state.centroidStamp = stamp;
+  svg.setAttribute("viewBox", `0 0 ${rect.width} ${rect.height}`);
+  const placed = [];
+  const collides = (b) => placed.some((o) =>
+    b.x1 < o.x2 && b.x2 > o.x1 && b.y1 < o.y2 && b.y2 > o.y1);
+  for (const cen of state.centroids) {
+    const [sx, sy] = state.graph.spaceToScreenPosition([cen.x, cen.y]);
+    // camera transform is NaN for the first frames before fitViewOnInit runs
+    if (!Number.isFinite(sx) || !Number.isFinite(sy) ||
+        sx < -30 || sx > rect.width + 30 || sy < -30 || sy > rect.height + 30) {
+      cen.el.setAttribute("display", "none");
+      continue;
+    }
+    cen.el.removeAttribute("display");
+    // filtered-out terms dim like their points, never disappear
+    cen.el.setAttribute("opacity", state.checked.term.has(cen.code) ? 1 : 0.12);
+    const w = 7 * cen.term.length + 10;
+    const lx = Math.max(w / 2 + 2, Math.min(rect.width - w / 2 - 2, sx));
+    let ly = sy - 12;
+    for (const step of [-12, -28, 18, -44, 34, -60, 50, -76, 66]) {
+      ly = sy + step;
+      if (!collides({ x1: lx - w / 2, x2: lx + w / 2, y1: ly - 12, y2: ly + 4 })) break;
+    }
+    placed.push({ x1: lx - w / 2, x2: lx + w / 2, y1: ly - 12, y2: ly + 4 });
+    cen.dot.setAttribute("cx", sx);
+    cen.dot.setAttribute("cy", sy);
+    cen.text.setAttribute("x", lx);
+    cen.text.setAttribute("y", ly);
+    const far = Math.abs(ly - sy) > 20 || Math.abs(lx - sx) > w / 2;
+    cen.line.setAttribute("display", far ? "" : "none");
+    if (far) {
+      cen.line.setAttribute("x1", sx);
+      cen.line.setAttribute("y1", sy + (ly > sy ? 4 : -4));
+      cen.line.setAttribute("x2", lx);
+      cen.line.setAttribute("y2", ly + (ly > sy ? -11 : 3));
+    }
+  }
+}
+
 // ---- filters ------------------------------------------------------------------
 
 function renderFilters() {
@@ -314,7 +423,10 @@ async function init() {
     "Colors and filters change what is visible, never what exists. " +
     `Per-side occurrence counts (the corpus is still unbalanced): ` +
     `${sideLine}. Scroll to zoom, drag to pan, click a point for its ` +
-    "evidence; click empty sky or press Escape to deselect.";
+    "evidence; click empty sky or press Escape to deselect. Term-center " +
+    "markers are the centroid of each term's full point set — a summary " +
+    "laid over heavily overlapping clouds (the average term's spread is " +
+    "nearly as wide as the gaps between centers), not a cluster boundary.";
 
   const positions = new Float32Array(state.n * 2);
   for (let i = 0; i < state.n; i++) {
@@ -343,6 +455,16 @@ async function init() {
 
   renderFilters();
   recolor();
+
+  buildCentroids();
+  $("show-centers").addEventListener("change", () => {
+    $("centroid-layer").style.display =
+      $("show-centers").checked ? "" : "none";
+  });
+  (function tick() {
+    layoutCentroids();
+    requestAnimationFrame(tick);
+  })();
 
   document.addEventListener("keydown", (ev) => {
     if (ev.key === "Escape") deselect();
