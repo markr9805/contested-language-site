@@ -27,6 +27,9 @@ const state = {
   sizes: null,
   kwicIndex: null,    // phrase -> file
   kwicDocs: {},
+  evidenced: null,    // Uint8Array: 1 = resolves in the published KWIC sample
+  evidencedOnly: false,
+  suggestionsDone: false,
 };
 
 const FILTER_DIMS = ["side", "creator", "term"];   // the decided surface
@@ -86,6 +89,7 @@ function pointRgb(i) {
 
 function pointVisible(i) {
   const c = state.doc.columns;
+  if (state.evidencedOnly && state.evidenced && !state.evidenced[i]) return false;
   return FILTER_DIMS.every((dim) => state.checked[dim].has(c[dim][i]));
 }
 
@@ -103,7 +107,7 @@ function recolor() {
   }
   state.graph.setPointColors(colors);
   state.graph.render(undefined, 0);
-  const anyFilter = FILTER_DIMS.some(
+  const anyFilter = state.evidencedOnly || FILTER_DIMS.some(
     (dim) => state.checked[dim].size < state.doc.enums[dim].length);
   $("count-line").textContent = anyFilter
     ? `showing ${fmt(shown)} of ${fmt(state.n)} occurrences — ` +
@@ -379,15 +383,125 @@ async function showPoint(i) {
     box.append(el("p", "insufficient-note",
       "concordance sample unavailable: " + e.message));
   }
-  // evidence fills in below without moving the viewport — no scrollIntoView
-  $("point-card").hidden = false;
+  // the panel is pinned over the sky, so the response to a click is
+  // immediate and the viewport never moves — no scrollIntoView
+  $("point-overlay").hidden = false;
 }
 
 function deselect() {
   if (state.sel === null) return;
   state.sel = null;
   resize();
-  $("point-card").hidden = true;
+  $("point-overlay").hidden = true;
+}
+
+// ---- evidence flags + worth-a-look suggestions ----------------------------------
+
+async function loadEvidenceFlags() {
+  // one bit per point: does this occurrence resolve in the published
+  // concordance sample? Fetches every KWIC file once (the same files
+  // point-clicks resolve through; all cached in kwicDocs afterwards).
+  const byTerm = {};
+  for (const term of Object.keys(state.kwicIndex)) {
+    const kd = await kwicDoc(term);
+    if (kd) byTerm[term] = kd.lines;
+  }
+  const flags = new Uint8Array(state.n);
+  const c = state.doc.columns, terms = state.doc.enums.term;
+  for (let i = 0; i < state.n; i++) {
+    const lines = byTerm[terms[c.term[i]]];
+    if (lines && lines[String(c.occurrence_id[i])]) flags[i] = 1;
+  }
+  state.evidenced = flags;
+  let total = 0;
+  for (const v of flags) total += v;
+  const cb = $("evidenced-only");
+  cb.disabled = false;
+  $("evidenced-label").append(` (${fmt(total)})`);
+}
+
+function computeSuggestions() {
+  // Ranked starting points, evidenced occurrences only: (a) far from their
+  // term's center — unusual contexts for that word; (b) sided occurrences
+  // closer to the other side's region than their own — quoting, borrowing,
+  // debate register. Plain geometry on the projected plane; the strip's
+  // note discloses it. Space coords come from the engine (see centroids).
+  const pos = state.graph.getPointPositions();
+  const c = state.doc.columns, e = state.doc.enums;
+  const cenByCode = {};
+  for (const cen of state.centroids) cenByCode[cen.code] = cen;
+  const spreadSum = new Float64Array(e.term.length);
+  const sided = e.side.map((s) => s === "apologetics" || s === "deconstruction");
+  const sideAcc = {};
+  for (let i = 0; i < state.n; i++) {
+    const cen = cenByCode[c.term[i]];
+    spreadSum[c.term[i]] += Math.hypot(pos[2 * i] - cen.x, pos[2 * i + 1] - cen.y);
+    if (sided[c.side[i]]) {
+      const a = sideAcc[c.side[i]] || (sideAcc[c.side[i]] = { x: 0, y: 0, n: 0 });
+      a.x += pos[2 * i]; a.y += pos[2 * i + 1]; a.n += 1;
+    }
+  }
+  const sideCodes = Object.keys(sideAcc).map(Number);
+  for (const s of sideCodes) { sideAcc[s].x /= sideAcc[s].n; sideAcc[s].y /= sideAcc[s].n; }
+
+  const outliers = [], intruders = [];
+  for (let i = 0; i < state.n; i++) {
+    if (!state.evidenced[i]) continue;
+    const cen = cenByCode[c.term[i]];
+    const d = Math.hypot(pos[2 * i] - cen.x, pos[2 * i + 1] - cen.y);
+    outliers.push([i, d / (spreadSum[c.term[i]] / cen.n)]);
+    if (sideCodes.length === 2 && sided[c.side[i]]) {
+      const own = sideAcc[c.side[i]];
+      const other = sideAcc[sideCodes.find((s) => s !== c.side[i])];
+      const dOwn = Math.hypot(pos[2 * i] - own.x, pos[2 * i + 1] - own.y);
+      const dOther = Math.hypot(pos[2 * i] - other.x, pos[2 * i + 1] - other.y);
+      intruders.push([i, (dOwn - dOther) / (dOwn + dOther)]);
+    }
+  }
+  // diversity caps so one busy term or creator can't fill the strip
+  const pick = (arr, perKey, total, keyOf) => {
+    arr.sort((a, b) => b[1] - a[1]);
+    const used = {}, out = [];
+    for (const [i] of arr) {
+      const k = keyOf(i);
+      if ((used[k] || 0) >= perKey) continue;
+      used[k] = (used[k] || 0) + 1;
+      out.push(i);
+      if (out.length >= total) break;
+    }
+    return out;
+  };
+  const out = pick(outliers, 1, 5, (i) => c.term[i]);
+  const intr = pick(
+    intruders.filter(([i, v]) => v > 0 && !out.includes(i)),
+    1, 5, (i) => c.creator[i]);
+  return [...intr.map((i) => [i, "cross-side"]),
+          ...out.map((i) => [i, "unusual context"])];
+}
+
+function renderSuggestions() {
+  const strip = $("worth-strip");
+  const sug = computeSuggestions();
+  if (!sug.length) return;
+  strip.replaceChildren(el("span", "filter-label", "worth a look"));
+  const c = state.doc.columns, e = state.doc.enums;
+  for (const [i, why] of sug) {
+    const b = el("button", "worth-chip");
+    b.type = "button";
+    b.append(el("strong", "", e.term[c.term[i]]),
+      ` · ${e.creator[c.creator[i]]}` +
+      (c.year[i] ? ` ’${String(c.year[i]).slice(2)}` : "") + ` — ${why}`);
+    b.addEventListener("click", () => {
+      showPoint(i);
+      state.graph.zoomToPointByIndex(i, 700);
+    });
+    strip.append(b);
+  }
+  strip.append(el("span", "worth-note",
+    "ranked by plain geometry on the projected plane (far from the term's " +
+    "center; closer to the other side's region), evidenced occurrences " +
+    "only — starting points, not findings"));
+  strip.hidden = false;
 }
 
 // ---- boot ---------------------------------------------------------------------
@@ -426,7 +540,9 @@ async function init() {
     "evidence; click empty sky or press Escape to deselect. Term-center " +
     "markers are the centroid of each term's full point set — a summary " +
     "laid over heavily overlapping clouds (the average term's spread is " +
-    "nearly as wide as the gaps between centers), not a cluster boundary.";
+    "nearly as wide as the gaps between centers), not a cluster boundary. " +
+    "“Evidenced only” dims occurrences that don't resolve in the published " +
+    "concordance sample (most don't — the sample is bounded on purpose).";
 
   const positions = new Float32Array(state.n * 2);
   for (let i = 0; i < state.n; i++) {
@@ -461,8 +577,22 @@ async function init() {
     $("centroid-layer").style.display =
       $("show-centers").checked ? "" : "none";
   });
+  $("evidenced-only").addEventListener("change", () => {
+    state.evidencedOnly = $("evidenced-only").checked;
+    recolor();
+  });
+  $("overlay-close").addEventListener("click", deselect);
+  loadEvidenceFlags().catch((e) => {
+    $("evidenced-label").append(` (unavailable: ${e.message})`);
+  });
   (function tick() {
     layoutCentroids();
+    // suggestions need both the evidence flags and the engine-space
+    // centroids; whichever arrives last triggers the strip
+    if (state.evidenced && state.centroidSpaceReady && !state.suggestionsDone) {
+      state.suggestionsDone = true;
+      renderSuggestions();
+    }
     requestAnimationFrame(tick);
   })();
 

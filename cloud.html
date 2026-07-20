@@ -40,23 +40,28 @@
       <label class="color-by-label">
         <input type="checkbox" id="show-centers" checked> term centers
       </label>
+      <label class="color-by-label" id="evidenced-label">
+        <input type="checkbox" id="evidenced-only" disabled> evidenced only
+      </label>
       <span class="count-line" id="count-line"></span>
     </div>
     <div id="filter-groups"></div>
+    <div class="worth-strip" id="worth-strip" hidden></div>
     <div class="chart-wrap cloud-chart" id="cloud-wrap">
       <div id="cloud"></div>
       <svg class="centroid-layer" id="centroid-layer"></svg>
       <div class="chart-tooltip" id="cloud-tooltip" hidden></div>
       <div class="cloud-legend" id="cloud-legend"></div>
+      <div class="point-overlay" id="point-overlay" hidden>
+        <button class="overlay-close" id="overlay-close" type="button"
+                aria-label="close">×</button>
+        <h4 id="point-title">Occurrence</h4>
+        <p class="evidence-note" id="point-attrs"></p>
+        <div id="point-evidence"></div>
+        <a class="term-link" id="point-term-link" href="#">open in term explorer →</a>
+      </div>
     </div>
     <p class="chart-caption" id="cloud-caption"></p>
-  </section>
-
-  <section class="card evidence-card" id="point-card" hidden>
-    <div class="card-head"><h3 id="point-title">Occurrence</h3></div>
-    <p class="evidence-note" id="point-attrs"></p>
-    <div id="point-evidence"></div>
-    <a class="term-link" id="point-term-link" href="#">open in term explorer →</a>
   </section>
 </main>
 
