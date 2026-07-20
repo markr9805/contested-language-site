@@ -3,9 +3,9 @@
   "community": {
    "apologetics": {
     "file": "community/apologetics.json",
-    "nodes_ghost": 9,
-    "nodes_ok": 14,
-    "occurrences": 1990
+    "nodes_ghost": 8,
+    "nodes_ok": 15,
+    "occurrences": 3460
    },
    "deconstruction": {
     "file": "community/deconstruction.json",
@@ -122,8 +122,11 @@
  "cross_side": {
   "creators_with_data": {
    "apologetics": [
+    "apostate-aladdin",
     "britt-hartley",
     "cross-examined",
+    "genetically-modified-skeptic",
+    "lil-bill",
     "mindshift"
    ],
    "deconstruction": [
@@ -164,13 +167,16 @@
     "cross-examined"
    ],
    "creators": [
+    "apostate-aladdin",
     "britt-hartley",
     "capturing-christianity",
     "counsel-of-trent",
     "cross-examined",
     "drcraigvideos",
+    "genetically-modified-skeptic",
     "jackie-hill-perry",
     "jude-3-project",
+    "lil-bill",
     "mike-winger",
     "mindshift",
     "reasonable-faith-org"
@@ -191,27 +197,5 @@
   }
  },
  "suggestions_file": "suggestions.json",
- "unsided": {
-  "apostate-aladdin": {
-   "reason": "top pole weight leads by 0.0295 < margin 0.05",
-   "weights": {
-    "apologetics": 0.9779,
-    "deconstruction": 0.9484
-   }
-  },
-  "genetically-modified-skeptic": {
-   "reason": "top pole weight leads by 0.0157 < margin 0.05",
-   "weights": {
-    "apologetics": 0.9771,
-    "deconstruction": 0.9614
-   }
-  },
-  "lil-bill": {
-   "reason": "top pole weight leads by 0.0202 < margin 0.05",
-   "weights": {
-    "apologetics": 0.8349,
-    "deconstruction": 0.8551
-   }
-  }
- }
+ "unsided": {}
 }
