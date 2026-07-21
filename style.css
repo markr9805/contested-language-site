@@ -73,6 +73,16 @@ body {
   padding: 16px 12px 32px;
   background: var(--surface-1);
 }
+/* The nav list scrolls on its own: expanding a book and scrolling down to a
+   verse must not drag the reading pane on the right off-screen. */
+.term-nav > div {
+  position: sticky;
+  top: 16px;
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+}
 .term-group-label {
   font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase;
   color: var(--text-muted); margin: 14px 8px 6px;
@@ -211,6 +221,10 @@ body {
 @media (max-width: 760px) {
   .layout { grid-template-columns: 1fr; }
   .term-nav { border-right: 0; border-bottom: 1px solid var(--border); }
+  /* Single column on narrow screens — a sticky pane would eat the viewport. */
+  .term-nav > div {
+    position: static; max-height: none; overflow-y: visible;
+  }
 }
 
 /* -- Slice 7: creator map + Layer 4 profiles -------------------------------- */
