@@ -15,6 +15,8 @@
   --series-1-wash: rgba(42, 120, 214, 0.10);
   --accent-soft: rgba(42, 120, 214, 0.08);
   --highlight: rgba(237, 161, 0, 0.28);
+  --banner-bg: #fff7e6;
+  --banner-border: #e6c98a;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -31,6 +33,8 @@
     --series-1-wash: rgba(57, 135, 229, 0.12);
     --accent-soft: rgba(57, 135, 229, 0.12);
     --highlight: rgba(201, 133, 0, 0.35);
+    --banner-bg: #3a2e12;
+    --banner-border: #6b5220;
   }
 }
 
@@ -331,3 +335,28 @@ body {
 .legend-dot { display: inline-block; width: 8px; height: 8px;
   border-radius: 50%; margin-right: 5px; vertical-align: -1px; }
 @media (max-width: 760px) { #cloud { height: 420px; } }
+
+/* --- verse explorer (Slice 5) --- */
+.coverage-banner {
+  margin: 0 1.5rem 1rem; padding: .75rem 1rem; border-radius: 6px;
+  background: var(--banner-bg); border: 1px solid var(--banner-border);
+  color: var(--text-primary); font-size: .9rem; line-height: 1.5;
+}
+.book-group summary { cursor: pointer; padding: .3rem 0; font-weight: 600; }
+.verse-link {
+  display: flex; justify-content: space-between; gap: .5rem;
+  padding: .2rem .5rem; text-decoration: none; font-size: .88rem;
+}
+.verse-n { color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.verse-line { margin: .35rem 0; }
+.verse-tr {
+  display: inline-block; min-width: 3.2rem; font-weight: 600;
+  color: var(--text-secondary);
+}
+.method-badge {
+  display: inline-block; margin-right: .5rem; padding: .05rem .4rem;
+  border-radius: 3px; font-size: .75rem; font-weight: 600;
+}
+.method-explicit_citation { background: #d8ecd8; color: #1c5c1c; }
+.method-shingle_match { background: #dde6f5; color: #1c3c6c; }
+.method-embedding_match { background: #f5e6d8; color: #7a4a12; }
