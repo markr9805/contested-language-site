@@ -5,33 +5,70 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>Contested Language — verse explorer</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='%232a78d6'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='%233d7bfd'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script src="theme.js"></script>
 </head>
 <body>
-<header class="site-head">
-  <div>
-    <h1>Verse explorer <span class="badge-private">unlisted research preview</span></h1>
-    <p class="corpus-stats" id="corpus-stats">loading citations…</p>
+<header class="topbar">
+  <span class="wordmark">CONTESTED<em>/</em>LANGUAGE</span>
+  <p class="corpus-stats" id="corpus-stats">loading citations…</p>
+  <div class="topbar-right">
+    <span class="badge-private">unlisted research preview</span>
+    <div class="theme-seg" role="group" aria-label="Theme">
+      <button type="button" data-theme-btn="auto">Auto</button>
+      <button type="button" data-theme-btn="light">Light</button>
+      <button type="button" data-theme-btn="dark">Dark</button>
+    </div>
   </div>
-  <nav class="head-nav"><a href="index.html">← terms</a> · <a href="map.html">creator map →</a> · <a href="galaxy.html">concept galaxy →</a> · <a href="cloud.html">occurrence cloud →</a></nav>
 </header>
 
-<div class="coverage-banner" id="coverage-banner" role="note"></div>
-
-<div class="layout">
-  <nav class="term-nav" aria-label="Cited verses">
-    <div id="book-list"></div>
-  </nav>
+<div class="shell">
+  <div class="sidebar">
+    <nav class="side-nav" aria-label="Views">
+      <a href="index.html">Terms</a>
+      <a href="map.html">Creator map</a>
+      <a href="galaxy.html">Concept galaxy</a>
+      <a href="cloud.html">Occurrence cloud</a>
+      <a href="verses.html" aria-current="page">Verse explorer</a>
+    </nav>
+    <div class="side-search">
+      <input type="search" id="verse-search" placeholder="find a verse… (e.g. rom 8)" aria-label="Find a verse">
+    </div>
+    <nav class="side-scroll" aria-label="Cited verses">
+      <div id="book-list"></div>
+      <p style="font-size:11px;color:var(--text-muted);padding:10px 4px;line-height:1.55;margin:0"
+         id="book-footnote">Counts are shown but never sorted on — sorting by
+      count would lead with the coverage artifact.</p>
+    </nav>
+    <div class="filter-area">
+      <details>
+        <summary>Creator <span class="badge" id="creator-badge">all</span></summary>
+        <div class="chip-row" id="creator-chips"></div>
+      </details>
+      <details open>
+        <summary>Detection method <span class="badge" id="method-badge">all</span></summary>
+        <div class="chip-row" id="method-chips"></div>
+      </details>
+    </div>
+    <div class="side-foot">
+      <span><strong id="active-count">0</strong> <span id="active-word">filters</span> active</span>
+      <button type="button" id="clear-filters">Clear all</button>
+    </div>
+  </div>
 
   <main class="main" id="main">
+    <div class="coverage-banner" id="coverage-banner" role="note" style="margin:0 0 16px"></div>
+
     <p class="placeholder" id="placeholder">Pick a verse to see its reference
     text, who cites it, and every transcript line behind the count.</p>
 
     <div id="verse-view" hidden>
       <section class="term-head">
         <h2 id="verse-title"></h2>
-        <div id="verse-text"></div>
+        <div id="verse-text" style="margin:12px 0 16px"></div>
       </section>
 
       <section class="card">
@@ -39,6 +76,9 @@
           <h3>Who cites it <span class="unit">with each creator's transcription coverage — a count is not readable without it</span></h3>
         </div>
         <table class="data-table" id="creator-table"></table>
+        <p class="chart-caption">Creator filters dim rows and narrow the citation
+        list in the tray — they never delete a count. Shares are always of the
+        unfiltered total.</p>
       </section>
 
       <section class="card">
@@ -47,14 +87,21 @@
         </div>
         <div id="senses-body"></div>
       </section>
-
-      <section class="card evidence-card">
-        <div class="card-head"><h3 id="evidence-title">Citations</h3></div>
-        <p class="evidence-note" id="evidence-note"></p>
-        <div id="evidence-lines"></div>
-      </section>
     </div>
   </main>
+
+  <aside class="tray" aria-label="Citations">
+    <div class="tray-label">CITATIONS</div>
+    <h3 id="evidence-title">Citations</h3>
+    <p class="evidence-note" id="evidence-note">Pick a verse — every citation
+    behind its count lands here, each with its detection method and a
+    timestamped watch link.</p>
+    <div class="tray-scroll" id="evidence-lines"></div>
+    <div class="tray-foot"><span class="method-badge method-explicit_citation">explicit</span>
+    chapter-and-verse · <span class="method-badge method-shingle_match">shingle</span>
+    near-verbatim quote · <span class="method-badge method-embedding_match">embedding</span>
+    paraphrase — a weaker tier, never flattened into one confidence.</div>
+  </aside>
 </div>
 
 <footer class="site-foot">

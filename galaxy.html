@@ -5,78 +5,116 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>Contested Language — concept galaxy</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='%232a78d6'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='%233d7bfd'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script src="theme.js"></script>
 </head>
 <body>
-<header class="site-head">
-  <div>
-    <h1>Contested Language <span class="badge-private">concept galaxy</span></h1>
-    <p class="corpus-stats" id="corpus-stats">loading…</p>
+<header class="topbar">
+  <span class="wordmark">CONTESTED<em>/</em>LANGUAGE</span>
+  <p class="corpus-stats" id="corpus-stats">loading…</p>
+  <div class="topbar-right">
+    <span class="badge-private">unlisted research preview</span>
+    <div class="theme-seg" role="group" aria-label="Theme">
+      <button type="button" data-theme-btn="auto">Auto</button>
+      <button type="button" data-theme-btn="light">Light</button>
+      <button type="button" data-theme-btn="dark">Dark</button>
+    </div>
   </div>
-  <nav class="head-nav">
-    <a href="index.html">← term explorer</a>
-    <a href="map.html">creator map →</a>
-    <a href="cloud.html">occurrence cloud →</a>
-    <a href="verses.html">verse explorer →</a>
-  </nav>
 </header>
 
-<main class="main map-main">
-  <div id="provisional-banner" class="insufficient-note" hidden></div>
-
-  <section class="card">
-    <div class="card-head">
-      <h3>Side-by-side skies <span class="unit">senses as stars, cosine
-      proximity as nearness — one sky per grouping cell, recomputed from
-      only that cell's occurrences</span></h3>
+<div class="shell">
+  <div class="sidebar">
+    <nav class="side-nav" aria-label="Views">
+      <a href="index.html">Terms</a>
+      <a href="map.html">Creator map</a>
+      <a href="galaxy.html" aria-current="page">Concept galaxy</a>
+      <a href="cloud.html">Occurrence cloud</a>
+      <a href="verses.html">Verse explorer</a>
+    </nav>
+    <div class="filter-area" style="border-top:0">
+      <div style="padding:6px 4px;font-weight:600">Compare by</div>
+      <div class="sky-controls" id="grouping-wrap"></div>
+      <p style="font-size:11px;color:var(--text-muted);padding:4px;line-height:1.55;margin:0">One grouping applies to both skies — a true side-by-side; the cells below are what you tune per sky.</p>
+      <div style="padding:8px 4px 6px;font-weight:600">Left sky cell</div>
+      <div class="sky-controls" id="controls-0"></div>
+      <div style="padding:10px 4px 6px;font-weight:600">Right sky cell</div>
+      <div class="sky-controls" id="controls-1"></div>
+      <label class="mode-toggle" style="margin-top:12px">
+        <input type="checkbox" id="mirror-toggle" checked>
+        <strong>Mirror mode</strong> — both skies use one whole-corpus layout,
+        so the same sense sits at the same spot; only each side's
+        neighborhoods differ. Untick for each cell's own layout.
+      </label>
+      <button type="button" id="reset-zoom" class="ghost-btn" style="margin:8px 4px 0">Reset zoom</button>
+      <p style="font-size:11px;color:var(--text-muted);padding:6px 4px;line-height:1.55;margin:0">
+      Scroll to zoom, drag to pan — both skies move together, so relative
+      distances stay comparable. Senses below the per-cell occurrence minimum
+      render as unpositioned ghosts, never as confident points. Dash-ringed
+      stars have high projection stress — claims belong to the distance
+      matrix, not the picture. Esc deselects.</p>
     </div>
-    <label class="mode-toggle">
-      <input type="checkbox" id="mirror-toggle" checked>
-      shared star positions (mirror mode) — both skies use one whole-corpus
-      layout, so the same sense sits at the same spot; only each side's
-      neighborhoods differ. Untick for each cell's own layout.
-    </label>
-    <div class="galaxy-grid">
-      <div class="sky-panel" id="sky-0"></div>
-      <div class="sky-panel" id="sky-1"></div>
+  </div>
+
+  <main class="main" id="main">
+    <div id="provisional-banner" class="insufficient-note" hidden></div>
+
+    <section class="card">
+      <div class="card-head">
+        <h3>Side-by-side skies <span class="unit">senses as stars, cosine
+        proximity as nearness — one sky per grouping cell, recomputed from
+        only that cell's occurrences</span></h3>
+      </div>
+      <div class="galaxy-grid">
+        <div class="sky-panel" id="sky-0"></div>
+        <div class="sky-panel" id="sky-1"></div>
+      </div>
+      <p class="chart-caption" id="galaxy-caption"></p>
+    </section>
+
+    <section class="card" id="suggestions-card" hidden>
+      <div class="card-head">
+        <h3>Watchlist suggestions <span class="unit"><span class="tip" data-tip="Co-inhabitation asymmetry: how differently a cross-term pair is placed in the two sides' skies. High = the pair is near in one community's usage and far in the other's — a hint the vocabulary may be contested. Proposals only, never auto-added to the lexicon.">co-inhabitation
+        asymmetry</span> between the two sides' skies — proposals for author review
+        only, never auto-added to the lexicon</span></h3>
+      </div>
+      <p class="evidence-note" id="suggestions-note"></p>
+      <table class="data-table" id="suggestions-table"></table>
+    </section>
+  </main>
+
+  <aside class="tray" aria-label="Sense and audit">
+    <div class="tray-label">SENSE CARD</div>
+    <div class="tray-scroll">
+      <div id="sense-card" hidden>
+        <h3 id="sense-title">Sense</h3>
+        <p class="evidence-note" id="sense-note"></p>
+        <div id="sense-neighbors"></div>
+        <div id="sense-exemplars"></div>
+      </div>
+      <div id="audit-card" hidden>
+        <button type="button" id="audit-back" class="lines-btn" style="margin:0 0 6px">← back to sense card</button>
+        <h3 id="audit-title">Distance audit</h3>
+        <p class="evidence-note" id="audit-note"></p>
+        <div id="audit-pairs"></div>
+      </div>
+      <p class="evidence-note" id="tray-placeholder">Click a star for its
+      exemplar concordance lines and nearest neighbors; click a connection or
+      neighbor row for the quoted occurrence pairs behind the nearness claim.
+      Everything lands here without moving the page.</p>
     </div>
-    <p class="chart-caption" id="galaxy-caption"></p>
-  </section>
-
-  <section class="card" id="sense-card" hidden>
-    <div class="card-head"><h3 id="sense-title">Sense</h3></div>
-    <p class="evidence-note" id="sense-note"></p>
-    <div id="sense-neighbors"></div>
-    <div id="sense-exemplars"></div>
-  </section>
-
-  <section class="card" id="audit-card" hidden>
-    <div class="card-head"><h3 id="audit-title">Distance audit</h3></div>
-    <p class="evidence-note" id="audit-note"></p>
-    <div id="audit-pairs"></div>
-  </section>
-
-  <section class="card" id="suggestions-card" hidden>
-    <div class="card-head">
-      <h3>Watchlist suggestions <span class="unit">co-inhabitation
-      asymmetry between the two sides' skies — proposals for author review
-      only, never auto-added to the lexicon</span></h3>
-    </div>
-    <p class="evidence-note" id="suggestions-note"></p>
-    <table class="data-table" id="suggestions-table"></table>
-  </section>
-</main>
+    <div class="tray-foot">If the embeddings claim a distinction the quoted
+    lines don't show a reader, the embeddings are wrong.</div>
+  </aside>
+</div>
 
 <footer class="site-foot">
-  <p>Stars are (term, sense) pairs — nothing new is induced; positions come
-  from classical MDS over centroid cosine distances, so the 2-D picture
-  distorts and per-star projection stress is disclosed (high-stress stars are
-  dash-ringed; claims belong to the distance matrix, not the picture). Senses
-  below the per-cell occurrence minimum render as unpositioned ghosts, never
-  as confident points. Every star clicks through to its concordance
-  exemplars; every nearness claim clicks through to a distance audit with the
-  quoted occurrence pairs behind it.</p>
+  <p>Stars are (term, sense) pairs — positions come from classical MDS over
+  centroid cosine distances; the 2-D picture distorts and per-star projection
+  stress is disclosed. Every star clicks through to its concordance exemplars;
+  every nearness claim clicks through to a distance audit.</p>
 </footer>
 
 <script src="galaxy.js"></script>

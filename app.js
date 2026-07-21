@@ -1,8 +1,18 @@
-/* Contested Language evidence browser.
+/* Contested Language evidence browser — Atlas shell.
    Static site over derived JSON artifacts (see contested/analysis.py
-   export_analysis). Governing rule: every displayed number resolves to the
-   KWIC concordance lines behind it, each line timestamped into its source
-   video. All text is inserted via textContent — transcript data is data. */
+   export_analysis). Governing rule unchanged: every displayed number resolves
+   to the KWIC concordance lines behind it, each line timestamped into its
+   source video. All text is inserted via textContent — transcript data is data.
+
+   Changes from the pre-Atlas app.js:
+   - grouping pills render in the sidebar (#grouping-pills); cell tabs stay in
+     the collocates card (data-driven, unchanged).
+   - evidence renders into the persistent right-hand tray; no scrollIntoView.
+   - sidebar role/year chips FILTER THE DISPLAYED EVIDENCE LINES client-side
+     (they narrow the sample, never the corpus — the note says when they do);
+     active-filter count + Clear all in the sidebar footer.
+   - term search input filters the term nav.
+   - re-renders the chart on `themechange` so it picks up the new CSS vars. */
 "use strict";
 
 const DATA = "data";
@@ -12,6 +22,8 @@ const state = {
   profilesIndex: null,         // phrase -> {file, profiles, stale} (Layer 4)
   profilesCache: {},           // phrase -> {profiles, lines}
   term: null, grouping: "overall", cell: "overall",
+  fRoles: new Set(), fYears: new Set(),   // empty = no filter
+  lastEvidence: null,          // {title, note, lines, term, collocate}
 };
 
 const $ = (id) => document.getElementById(id);
@@ -24,8 +36,8 @@ const el = (tag, cls, text) => {
 const fmt = (x) => x.toLocaleString("en-US");
 const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
-const GROUPING_LABELS = { overall: "Whole corpus", year: "By year", role: "By speaker role" };
-const groupingLabel = (g) => GROUPING_LABELS[g] || ("By " + g);
+const GROUPING_LABELS = { overall: "whole corpus", year: "by year", role: "by role", creator: "by creator" };
+const groupingLabel = (g) => GROUPING_LABELS[g] || ("by " + g);
 const cellLabel = (c) => (c === "None" || c === null ? "undated" : c);
 
 function minN() { return state.meta.parameters.min_n; }
@@ -45,9 +57,8 @@ function collocRegex(token) {
   return new RegExp("\\b" + phraseRegex(token.split("_")) + "\\b", "gi");
 }
 
-/* Build a highlighted context: term matches bold-underlined, collocate
-   matches (if any) washed. Non-overlapping, term wins. Safe by construction:
-   only text nodes and <mark> wrappers. */
+/* Build a highlighted context: term matches bold, collocate matches washed.
+   Non-overlapping, term wins. Safe by construction: text nodes + <mark>. */
 function highlightContext(text, term, collocate) {
   const spans = [];
   const collect = (rx, cls) => {
@@ -66,8 +77,7 @@ function highlightContext(text, term, collocate) {
   for (const s of spans) {
     if (s.start < pos) continue;                      // overlap: first wins
     if (s.start > pos) p.append(text.slice(pos, s.start));
-    const mark = el("mark", s.cls === "collocate" ? "collocate" : "", text.slice(s.start, s.end));
-    p.append(mark);
+    p.append(el("mark", s.cls === "collocate" ? "collocate" : "", text.slice(s.start, s.end)));
     pos = s.end;
   }
   if (pos < text.length) p.append(text.slice(pos));
@@ -98,24 +108,86 @@ function overallCell(term) {
   return rateCells(term, "overall")[0];
 }
 
-// ---- term nav ----------------------------------------------------------------
+// ---- sidebar: term nav + search ------------------------------------------------
 
 function renderNav() {
   const wrap = $("term-list");
+  const q = $("term-search").value.trim().toLowerCase();
   wrap.replaceChildren();
   for (const [status, label] of [["active", "Curated lexicon"], ["watchlist", "Watchlist"]]) {
-    const terms = state.meta.terms.filter((t) => t.status === status);
+    const terms = state.meta.terms.filter((t) =>
+      t.status === status && (!q || t.phrase.toLowerCase().includes(q)));
     if (!terms.length) continue;
-    wrap.append(el("div", "term-group-label", label));
+    wrap.append(el("div", "term-group-label", label.toUpperCase()));
     for (const t of terms) {
       const b = el("button", "term-btn");
       b.type = "button";
       b.append(el("span", "", t.phrase), el("span", "n", fmt(overallCell(t.phrase).n)));
       b.dataset.term = t.phrase;
+      b.setAttribute("aria-current", String(t.phrase === state.term));
       b.addEventListener("click", () => selectTerm(t.phrase));
       wrap.append(b);
     }
   }
+}
+
+// ---- sidebar: evidence filters (role / year) -----------------------------------
+// These narrow which sampled concordance lines are DISPLAYED. They never touch
+// the counts, rates, or profiles — those always describe the whole cell.
+
+function evidenceFilterValues() {
+  const roles = [...new Set(state.rates.role.map((c) => c.group))].filter(Boolean).sort();
+  const years = [...new Set(state.rates.year.map((c) => c.group))].filter(Boolean).sort();
+  return { roles, years };
+}
+
+function renderFilterChips() {
+  const { roles, years } = evidenceFilterValues();
+  const build = (host, values, set) => {
+    const row = $(host);
+    row.replaceChildren();
+    for (const v of values) {
+      const b = el("button", "chip", cellLabel(v));
+      b.type = "button";
+      b.setAttribute("aria-pressed", String(set.has(v)));
+      b.addEventListener("click", () => {
+        set.has(v) ? set.delete(v) : set.add(v);
+        onFiltersChanged();
+      });
+      row.append(b);
+    }
+  };
+  build("role-chips", roles, state.fRoles);
+  build("year-chips", years, state.fYears);
+
+  const badge = (id, set) => {
+    const e = $(id);
+    e.textContent = set.size ? `${set.size} selected` : "all";
+    e.classList.toggle("on", set.size > 0);
+  };
+  badge("role-badge", state.fRoles);
+  badge("year-badge", state.fYears);
+
+  const n = (state.fRoles.size ? 1 : 0) + (state.fYears.size ? 1 : 0);
+  $("active-count").textContent = String(n);
+  $("active-word").textContent = n === 1 ? "filter" : "filters";
+}
+
+function onFiltersChanged() {
+  renderFilterChips();
+  if (state.lastEvidence) {
+    const { title, note, lines, term, collocate } = state.lastEvidence;
+    renderEvidence(title, note, lines, term, collocate);
+  }
+}
+
+function lineMatchesFilters(ln) {
+  if (state.fRoles.size && !state.fRoles.has(ln.role)) return false;
+  if (state.fYears.size) {
+    const y = ln.published_at ? ln.published_at.slice(0, 4) : null;
+    if (!y || !state.fYears.has(y)) return false;
+  }
+  return true;
 }
 
 // ---- term view ---------------------------------------------------------------
@@ -129,7 +201,6 @@ function selectTerm(term) {
   }
   $("placeholder").hidden = true;
   $("term-view").hidden = false;
-  $("evidence-card").hidden = true;
 
   $("term-title").textContent = term;
   const t = state.meta.terms.find((x) => x.phrase === term);
@@ -140,9 +211,10 @@ function selectTerm(term) {
   renderStatRow(term);
   renderChart(term);
   renderRoleTable(term);
-  renderGroupingTabs(term);
+  renderGroupingPills(term);
   renderCollocBody(term);
   renderProfiles(term);
+  showSampleEvidence(term, "overall", "overall");
 }
 
 // ---- Layer 4 sense profiles --------------------------------------------------
@@ -170,7 +242,7 @@ async function renderProfiles(term) {
     "before publication." +
     (stale ? ` ${stale} profile${stale === 1 ? " is" : "s are"} marked stale: ` +
              "the underlying data changed since generation — regenerate with " +
-             "`python3 -m contested generate-profiles`." : "");
+             "\`python3 -m contested generate-profiles\`." : "");
 
   const cells = [...new Set(doc.profiles.map((p) => p.cell))]
     .sort((a, b) => (a === "overall" ? -1 : b === "overall" ? 1 : a.localeCompare(b)));
@@ -224,11 +296,11 @@ function renderStatRow(term) {
   occ.type = "button";
   occ.append(el("span", "label", "Occurrences"),
              el("span", "value", fmt(o.n)),
-             el("span", "sub", "view concordance lines"));
+             el("span", "sub link", "view concordance →"));
   occ.addEventListener("click", () => showSampleEvidence(term, "overall", "overall"));
   row.append(occ);
 
-  const rate = el("div", "stat-tile static");
+  const rate = el("div", "stat-tile");
   if (o.status === "ok") {
     rate.append(el("span", "label", "Rate per million words"),
                 el("span", "value", o.rate_pmw.toFixed(1)),
@@ -241,7 +313,7 @@ function renderStatRow(term) {
   row.append(rate);
 }
 
-// ---- rate-over-time chart ----------------------------------------------------
+// ---- rate-over-time chart (unchanged logic; re-renders on theme change) --------
 
 function niceTicks(maxVal) {
   if (maxVal <= 0) return { max: 1, step: 1 };
@@ -277,7 +349,6 @@ function renderChart(term) {
     `Rate of “${term}” per million words by publish year. ` +
     ok.map((c) => `${c.group}: ${c.rate_pmw.toFixed(1)}`).join(", ") + ".");
 
-  // gridlines + y ticks
   for (let v = 0; v <= yMax; v += step) {
     svg.append(mk("line", { x1: L, x2: W - R, y1: y(v), y2: y(v),
       stroke: v === 0 ? C("--baseline") : C("--gridline"), "stroke-width": 1 }));
@@ -286,7 +357,6 @@ function renderChart(term) {
     lab.textContent = fmt(v);
     svg.append(lab);
   }
-  // x labels
   cells.forEach((c, i) => {
     const lab = mk("text", { x: x(i), y: bottom + 18, "text-anchor": "middle",
       "font-size": 11, fill: C("--text-muted") });
@@ -294,7 +364,6 @@ function renderChart(term) {
     svg.append(lab);
   });
 
-  // CI whiskers
   for (const c of ok) {
     const i = cells.indexOf(c), xi = x(i);
     svg.append(mk("line", { x1: xi, x2: xi, y1: y(c.ci_low_pmw), y2: y(c.ci_high_pmw),
@@ -305,7 +374,6 @@ function renderChart(term) {
     }
   }
 
-  // line through ok points
   if (ok.length > 1) {
     const d = ok.map((c, k) =>
       `${k ? "L" : "M"}${x(cells.indexOf(c))},${y(c.rate_pmw)}`).join("");
@@ -313,7 +381,6 @@ function renderChart(term) {
       "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" }));
   }
 
-  // markers: filled = ok, hollow-at-axis = insufficient (never a chart point)
   cells.forEach((c, i) => {
     let dot;
     if (c.status === "ok") {
@@ -338,7 +405,6 @@ function renderChart(term) {
     svg.append(dot);
   });
 
-  // direct label on the last ok point
   const last = ok[ok.length - 1];
   if (last) {
     const lab = mk("text", { x: x(cells.indexOf(last)) + 9, y: y(last.rate_pmw) - 8,
@@ -347,7 +413,6 @@ function renderChart(term) {
     svg.append(lab);
   }
 
-  // crosshair + hover/click layer
   const hair = mk("line", { y1: T, y2: bottom, stroke: C("--baseline"),
     "stroke-width": 1, visibility: "hidden" });
   svg.append(hair);
@@ -379,7 +444,6 @@ function renderChart(term) {
   });
   svg.append(hit);
 
-  // caption + insufficient summary
   const insuff = cells.filter((c) => c.status !== "ok");
   $("chart-caption").textContent =
     (insuff.length
@@ -429,8 +493,7 @@ function renderChartTable(term, cells) {
       tr.append(el("td", "num", c.rate_pmw.toFixed(1)));
       tr.append(el("td", "num", `${c.ci_low_pmw.toFixed(1)}–${c.ci_high_pmw.toFixed(1)}`));
     } else {
-      const td = el("td", "num insufficient", "insufficient");
-      tr.append(td, el("td", "num", "—"));
+      tr.append(el("td", "num insufficient", "insufficient"), el("td", "num", "—"));
     }
     tr.append(el("td", "num", fmt(c.words)));
     if (c.n > 0) tr.addEventListener("click", () => showSampleEvidence(term, "year", c.group));
@@ -474,20 +537,20 @@ function renderRoleTable(term) {
 
 // ---- collocates --------------------------------------------------------------
 
-function renderGroupingTabs(term) {
-  const row = $("grouping-tabs");
+function renderGroupingPills(term) {
+  const row = $("grouping-pills");
   row.replaceChildren();
   const available = state.meta.groupings.filter((g) => state.collocs[term][g]);
   for (const g of available) {
-    const b = el("button", "tab-btn", groupingLabel(g));
+    const b = el("button", "chip", groupingLabel(g));
     b.type = "button";
     b.setAttribute("role", "tab");
-    b.setAttribute("aria-selected", String(g === state.grouping));
+    b.setAttribute("aria-pressed", String(g === state.grouping));
     b.addEventListener("click", () => {
       state.grouping = g;
       const cells = Object.keys(state.collocs[term][g]);
       state.cell = defaultCell(term, g, cells);
-      renderGroupingTabs(term);
+      renderGroupingPills(term);
       renderCollocBody(term);
     });
     row.append(b);
@@ -524,7 +587,7 @@ function renderCollocBody(term) {
   const body = $("colloc-body");
   body.replaceChildren();
   const prof = profiles[state.cell];
-  const where = g === "overall" ? "whole corpus" : `${groupingLabel(g).toLowerCase()} · ${cellLabel(state.cell)}`;
+  const where = g === "overall" ? "whole corpus" : `${groupingLabel(g)} · ${cellLabel(state.cell)}`;
 
   if (prof.node_n < minN()) {
     const note = el("div", "insufficient-note");
@@ -545,8 +608,21 @@ function renderCollocBody(term) {
 
   const table = el("table", "data-table");
   const head = el("tr");
-  for (const [h, num] of [["Collocate", 0], ["log-Dice", 1], ["PMI", 1], ["co-occurrences", 1], ["evidence", 0]]) {
-    head.append(el("th", num ? "num" : "", h));
+  const ths = [
+    ["Collocate", 0, "A word that repeatedly appears near the term."],
+    ["log-Dice", 1, "Lexical association strength (0–14), comparable across corpus sizes. Above ~7 is a solid collocate."],
+    ["PMI", 1, "Pointwise mutual information: how much more often the pair co-occurs than chance. Favors rare pairs — read alongside co-occurrences."],
+    ["co-occurrences", 1, `Raw count within a ±${state.meta.parameters.window}-token window. Every count clicks through to its lines.`],
+    ["evidence", 0, null],
+  ];
+  for (const [h, num, tip] of ths) {
+    const th = el("th", num ? "num" : "");
+    if (tip) {
+      const s = el("span", "tip", h);
+      s.dataset.tip = tip;
+      th.append(s);
+    } else th.textContent = h;
+    head.append(th);
   }
   table.append(head);
   for (const r of prof.collocates) {
@@ -566,7 +642,7 @@ function renderCollocBody(term) {
   body.append(table);
 }
 
-// ---- evidence (KWIC) ---------------------------------------------------------
+// ---- evidence tray ---------------------------------------------------------
 
 function lineSorter(a, b) {
   return String(a.published_at || "").localeCompare(String(b.published_at || ""))
@@ -574,17 +650,22 @@ function lineSorter(a, b) {
 }
 
 function renderEvidence(title, note, lines, term, collocate) {
-  const card = $("evidence-card");
+  state.lastEvidence = { title, note, lines, term, collocate };
+  const shown = lines.filter(lineMatchesFilters);
   $("evidence-title").textContent = title;
-  $("evidence-note").textContent = note;
+  const filtered = shown.length < lines.length;
+  $("evidence-note").textContent = note + (filtered
+    ? ` Sidebar filters narrow the display to ${shown.length} of these ${lines.length} ` +
+      "sampled lines — they never change the counts above."
+    : "");
   const wrap = $("evidence-lines");
   wrap.replaceChildren();
-  for (const ln of lines) {
+  for (const ln of shown) {
     const div = el("div", "kwic-line");
     const meta = el("div", "kwic-meta");
     const date = ln.published_at ? ln.published_at.slice(0, 10) : "undated";
     meta.append(`${date} · ${ln.title || ln.video_id} · `);
-    const a = el("a", "", `watch @ ${tstamp(ln.t)}`);
+    const a = el("a", "", `watch @ ${tstamp(ln.t)} ↗`);
     a.href = `https://www.youtube.com/watch?v=${encodeURIComponent(ln.video_id)}&t=${Math.max(0, Math.floor(ln.t))}s`;
     a.target = "_blank";
     a.rel = "noopener";
@@ -594,8 +675,13 @@ function renderEvidence(title, note, lines, term, collocate) {
     div.append(highlightContext(ln.context, term, collocate));
     wrap.append(div);
   }
-  card.hidden = false;
-  card.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  if (!shown.length) {
+    const note2 = el("div", "insufficient-note",
+      "No sampled lines match the current role/year filters — filters narrow " +
+      "the display, never the corpus. Clear them to see all sampled lines.");
+    wrap.append(note2);
+  }
+  // The tray is persistent and visible — no scrolling, the page never moves.
 }
 
 function tstamp(t) {
@@ -649,6 +735,18 @@ async function init() {
     `${fmt(meta.videos)} videos · ${fmt(meta.words)} transcribed words · ` +
     `${meta.terms.length} lexicon terms · ${meta.duplicates_excluded} duplicate re-uploads excluded`;
   renderNav();
+  renderFilterChips();
+
+  $("term-search").addEventListener("input", renderNav);
+  $("clear-filters").addEventListener("click", () => {
+    state.fRoles.clear();
+    state.fYears.clear();
+    onFiltersChanged();
+  });
+  document.addEventListener("themechange", () => {
+    if (state.term) renderChart(state.term);
+  });
+
   // deep link from the creator map: #term=<phrase>&creator=<slug>
   const hash = new URLSearchParams(location.hash.slice(1));
   const linkedTerm = hash.get("term");

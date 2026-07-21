@@ -1,18 +1,21 @@
-/* Contested Language concept galaxy — Slice 8 over data/galaxy/ artifacts.
-   Two skies side by side (the cross-community comparison is the headline
-   interaction); stars are (term, sense) pairs sized by n and colored by
-   term with senses sharing a hue. Honesty rules carried through from the
-   exporter: ghosts are listed, never positioned; high-stress stars are
-   dash-ringed and the threshold disclosed; every star opens its KWIC
-   exemplars and every nearness claim opens a distance audit with the
-   quoted occurrence pairs behind it; cross-side claims are labeled
-   provisional while side two is thin. All text lands via textContent. */
+/* Contested Language concept galaxy — Atlas shell, rev 2.
+   Same artifacts and honesty rules. Changes in this rev:
+   - ONE grouping applies to both skies (a true side-by-side comparison);
+     the per-sky cell selects are the tuning knobs.
+   - Synchronized zoom/pan: scroll to zoom, drag to pan — one shared
+     transform drives both skies, so relative distances stay comparable.
+     Reset button in the sidebar.
+   - Opening a distance audit from the sense card now swaps the tray to the
+     audit (with a back link) instead of appending it out of view below.
+   All text lands via textContent. */
 "use strict";
 
 const DATA = "data";
 const state = { index: null, suggestions: null, docs: {}, senses: {},
                 panels: [null, null], sel: null,
-                mirror: true, overallNodes: null };
+                mirror: true, overallNodes: null,
+                zoom: { k: 1, x: 0, y: 0 }, zoomTargets: [null, null],
+                lastSense: null };
 
 const $ = (id) => document.getElementById(id);
 const el = (tag, cls, text) => {
@@ -66,41 +69,130 @@ function termHues(doc) {
 const starColor = (hue, sense) =>
   `hsl(${hue} 62% ${Math.min(42 + sense * 12, 70)}%)`;
 
-// ---- sky rendering -----------------------------------------------------------
+// ---- synchronized zoom/pan ------------------------------------------------------
+// One transform, two skies: zooming either sky moves both, so "these two
+// stars are closer here than there" survives magnification.
+
+const SKY_W = 520, SKY_H = 400;
+
+function zoomTransform() {
+  const z = state.zoom;
+  return `translate(${z.x} ${z.y}) scale(${z.k})`;
+}
+
+function applyZoom() {
+  for (const g of state.zoomTargets) {
+    if (g) g.setAttribute("transform", zoomTransform());
+  }
+}
+
+function resetZoom() {
+  state.zoom = { k: 1, x: 0, y: 0 };
+  applyZoom();
+}
+
+function attachZoom(svg) {
+  svg.style.touchAction = "none";
+  svg.addEventListener("wheel", (ev) => {
+    ev.preventDefault();
+    const z = state.zoom;
+    const rect = svg.getBoundingClientRect();
+    const px = (ev.clientX - rect.left) * (SKY_W / rect.width);
+    const py = (ev.clientY - rect.top) * (SKY_H / rect.height);
+    const k = Math.min(14, Math.max(1, z.k * (ev.deltaY < 0 ? 1.2 : 1 / 1.2)));
+    z.x = px - (k / z.k) * (px - z.x);
+    z.y = py - (k / z.k) * (py - z.y);
+    z.k = k;
+    if (k === 1) { z.x = 0; z.y = 0; }
+    applyZoom();
+  }, { passive: false });
+  let drag = null;
+  svg.addEventListener("pointerdown", (ev) => {
+    // no pointer capture yet — capturing here retargets the click away from
+    // the stars, which is exactly the bug that killed star selection
+    drag = { id: ev.pointerId, x: ev.clientX, y: ev.clientY,
+             zx: state.zoom.x, zy: state.zoom.y, moved: false };
+  });
+  svg.addEventListener("pointermove", (ev) => {
+    if (!drag || ev.pointerId !== drag.id) return;
+    const rect = svg.getBoundingClientRect();
+    const dx = (ev.clientX - drag.x) * (SKY_W / rect.width);
+    const dy = (ev.clientY - drag.y) * (SKY_H / rect.height);
+    if (!drag.moved && Math.abs(dx) + Math.abs(dy) > 4) {
+      drag.moved = true;
+      try { svg.setPointerCapture(ev.pointerId); } catch { /* older browsers */ }
+    }
+    if (!drag.moved) return;
+    state.zoom.x = drag.zx + dx;
+    state.zoom.y = drag.zy + dy;
+    applyZoom();
+  });
+  const end = (ev) => {
+    if (!drag) return;
+    svg._dragMoved = drag.moved;
+    if (drag.moved) {
+      try { svg.releasePointerCapture(ev.pointerId); } catch { /* ignore */ }
+    }
+    drag = null;
+    setTimeout(() => { svg._dragMoved = false; }, 0);
+  };
+  svg.addEventListener("pointerup", end);
+  svg.addEventListener("pointercancel", end);
+}
+
+// ---- sidebar controls: one grouping, two cells -----------------------------------
 
 function panelCellFile(p) {
   return state.index.cells[p.grouping][p.cell].file;
 }
 
-function renderControls(i, wrap) {
-  const p = state.panels[i];
-  const row = el("div", "sky-controls");
-  const selG = el("select", "sky-select");
+function renderGroupingControl() {
+  const wrap = $("grouping-wrap");
+  wrap.replaceChildren();
+  const sel = el("select", "sky-select");
+  sel.style.maxWidth = "100%";
+  sel.style.width = "100%";
   for (const g of Object.keys(state.index.cells).sort()) {
     const o = el("option", "", g);
     o.value = g;
-    o.selected = g === p.grouping;
-    selG.append(o);
+    o.selected = g === state.panels[0].grouping;
+    sel.append(o);
   }
-  const selC = el("select", "sky-select");
+  sel.addEventListener("change", () => {
+    const g = sel.value;
+    const cells = Object.keys(state.index.cells[g]).sort();
+    state.panels = [{ grouping: g, cell: cells[0] },
+                    { grouping: g, cell: cells[1] || cells[0] }];
+    renderAll();
+  });
+  wrap.append(sel);
+}
+
+function renderCellControl(i) {
+  const wrap = $(`controls-${i}`);
+  wrap.replaceChildren();
+  const p = state.panels[i];
+  const sel = el("select", "sky-select");
+  sel.style.maxWidth = "100%";
+  sel.style.width = "100%";
   for (const c of Object.keys(state.index.cells[p.grouping]).sort()) {
     const o = el("option", "", c);
     o.value = c;
     o.selected = c === p.cell;
-    selC.append(o);
+    sel.append(o);
   }
-  selG.addEventListener("change", () => {
-    const g = selG.value;
-    state.panels[i] = { grouping: g,
-                        cell: Object.keys(state.index.cells[g]).sort()[0] };
-    renderSkies();
+  sel.addEventListener("change", () => {
+    state.panels[i] = { grouping: p.grouping, cell: sel.value };
+    renderAll();
   });
-  selC.addEventListener("change", () => {
-    state.panels[i] = { grouping: p.grouping, cell: selC.value };
-    renderSkies();
-  });
-  row.append(selG, selC);
-  wrap.append(row);
+  wrap.append(sel);
+}
+
+function renderAll() {
+  renderGroupingControl();
+  renderCellControl(0);
+  renderCellControl(1);
+  renderSkies();
 }
 
 function clearSelection() {
@@ -108,19 +200,24 @@ function clearSelection() {
   state.sel = null;
   $("sense-card").hidden = true;
   $("audit-card").hidden = true;
+  $("tray-placeholder").hidden = false;
   renderSkies();
 }
 
+// ---- sky rendering ----------------------------------------------------------------
+
 function drawSky(i, wrap, doc) {
-  const W = 520, H = 400, PAD = 34;
+  const W = SKY_W, H = SKY_H, PAD = 34;
   const svg = mk("svg", { viewBox: `0 0 ${W} ${H}`, role: "img" });
-  // clicking open sky (not a star or edge) drops the selection
+  const view = mk("g", { transform: zoomTransform() });
+  state.zoomTargets[i] = view;
+  attachZoom(svg);
+  // clicking open sky (not a star or edge, not the end of a pan) deselects
   svg.addEventListener("click", (ev) => {
-    if (ev.target === svg) clearSelection();
+    if ((ev.target === svg || ev.target === view) && !svg._dragMoved) {
+      clearSelection();
+    }
   });
-  // mirror mode: one shared whole-corpus frame positions every star in both
-  // skies (the Stellarium move — same sky, different constellations); the
-  // cell's own MDS otherwise. A star with no frame position stays a ghost.
   const mirror = state.mirror && state.overallNodes;
   const frameXY = (key, n) => {
     if (!mirror) return n.status === "ok" ? n.xy : null;
@@ -132,7 +229,6 @@ function drawSky(i, wrap, doc) {
     .filter(([, , xy]) => xy);
   const ok = placed.filter(([, n]) => n.status === "ok");
   const hues = termHues(doc);
-  // focus & blur: with a star selected, only its neighborhood stays lit
   const neighbors = new Set();
   if (state.sel) {
     neighbors.add(state.sel);
@@ -152,7 +248,6 @@ function drawSky(i, wrap, doc) {
     const pos = {};
     for (const [key, , xy] of placed) pos[key] = [sx(xy[0]), sy(xy[1])];
 
-    // selected star's neighborhood: its edges, drawn under the stars
     if (state.sel && pos[state.sel]) {
       for (const e of doc.edges) {
         if (e.a !== state.sel && e.b !== state.sel) continue;
@@ -162,25 +257,23 @@ function drawSky(i, wrap, doc) {
         const line = mk("line", { x1, y1, x2, y2,
           stroke: C("--baseline"), "stroke-width": 1.5,
           opacity: Math.max(0.25, 1 - e.dist) });
-        svg.append(line);
+        view.append(line);
         const hit = mk("line", { x1, y1, x2, y2, stroke: "transparent",
           "stroke-width": 9 });
         hit.style.cursor = "pointer";
         hit.addEventListener("click", () => showAudit(i, e));
-        svg.append(hit);
+        view.append(hit);
       }
     }
 
     for (const [key, n] of placed) {
       const [cx, cy] = pos[key];
       const ghost = n.status !== "ok";
-      const r = ghost ? 4 : 4 + 9 * Math.sqrt(n.n / maxN);
+      const r = ghost ? 4.5 : 4.5 + 9 * Math.sqrt(n.n / maxN);
       const g = mk("g", { tabindex: 0, role: "button" });
       g.style.cursor = "pointer";
       if (state.sel && !neighbors.has(key)) g.setAttribute("opacity", 0.18);
       if (ghost) {
-        // sense exists; this cell can't place it confidently — the shared
-        // frame lends a position, drawn hollow so it never reads as a claim
         g.append(mk("circle", { cx, cy, r, fill: "none",
           stroke: C("--text-muted"), "stroke-width": 1.2,
           "stroke-dasharray": "2 2" }));
@@ -190,7 +283,7 @@ function drawSky(i, wrap, doc) {
         g.append(t);
         const open = () => { state.sel = key; renderSkies(); showSense(i, key); };
         g.addEventListener("click", open);
-        svg.append(g);
+        view.append(g);
         continue;
       }
       if (n.stress > params().stress_high) {
@@ -203,7 +296,7 @@ function drawSky(i, wrap, doc) {
         stroke: key === state.sel ? C("--text-primary") : C("--surface-1"),
         "stroke-width": key === state.sel ? 2.5 : 1.5 }));
       const label = mk("text", { x: cx, y: cy - r - 4,
-        "text-anchor": "middle", "font-size": 10,
+        "text-anchor": "middle", "font-size": 10.5,
         fill: C("--text-secondary") });
       label.textContent = nodeLabel(key);
       g.append(label);
@@ -218,15 +311,17 @@ function drawSky(i, wrap, doc) {
       g.addEventListener("keydown", (ev) => {
         if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); open(); }
       });
-      svg.append(g);
+      view.append(g);
     }
   } else {
     const t = mk("text", { x: W / 2, y: H / 2, "text-anchor": "middle",
       "font-size": 13, fill: C("--text-muted") });
     t.textContent = "no sense reaches the occurrence minimum in this cell";
-    svg.append(t);
+    view.append(t);
   }
+  svg.append(view);
   const chart = el("div", "chart-wrap sky-chart");
+  chart.style.overflow = "hidden";
   chart.append(svg);
   wrap.append(chart);
 
@@ -259,7 +354,6 @@ async function renderSkies() {
     const wrap = $(`sky-${i}`);
     wrap.replaceChildren();
     const p = state.panels[i];
-    renderControls(i, wrap);
     const meta = state.index.cells[p.grouping][p.cell];
     wrap.append(el("p", "sky-meta",
       `${p.grouping} · ${p.cell} — ${meta.nodes_ok} stars, ` +
@@ -269,7 +363,8 @@ async function renderSkies() {
   const high = params().stress_high;
   const axes = "There are no axes: positions are a unitless MDS projection " +
     "of centroid cosine distances, so only relative nearness carries " +
-    "meaning. ";
+    "meaning. Scroll to zoom, drag to pan — both skies move together, so " +
+    "relative distances stay comparable. ";
   $("galaxy-caption").textContent = (state.mirror && state.overallNodes)
     ? axes +
       "Mirror mode: both skies share the whole-corpus layout — the same " +
@@ -289,7 +384,7 @@ async function renderSkies() {
       "the nearness claim.";
 }
 
-// ---- star -> sense panel (KWIC exemplars) ------------------------------------
+// ---- star -> sense panel in the tray -------------------------------------------
 
 function kwicBlock(line) {
   const item = el("div", "kwic-line");
@@ -320,7 +415,9 @@ function kwicBlock(line) {
 }
 
 async function showSense(i, key) {
+  state.lastSense = [i, key];
   $("audit-card").hidden = true;
+  $("tray-placeholder").hidden = true;
   const card = $("sense-card");
   const p = state.panels[i];
   const doc = await cellDoc(panelCellFile(p));
@@ -345,34 +442,36 @@ async function showSense(i, key) {
   if (edges.length) {
     const other = state.panels[i === 0 ? 1 : 0];
     const otherDoc = await cellDoc(panelCellFile(other));
-    const table = el("table", "data-table");
-    const head = el("tr");
-    for (const [h, num] of [["Neighbor", 0], ["cosine dist", 1],
-                            [`in other sky (${other.grouping} · ${other.cell})`, 1],
-                            ["", 0]]) {
-      head.append(el("th", num ? "num" : "", h));
-    }
-    table.append(head);
-    for (const e of edges) {
-      const otherKey = e.a === key ? e.b : e.a;
-      const tr = el("tr", "clickable");
-      const td = el("td", "", nodeLabel(otherKey));
-      if (e.same_term) td.append(el("span", "same-term-chip",
-        "same term — within-term sense separation, a different claim"));
-      tr.append(td);
-      tr.append(el("td", "num", e.dist.toFixed(4)));
-      const oe = otherDoc.edges.find((x) => x.a === e.a && x.b === e.b);
-      tr.append(el("td", "num", oe ? oe.dist.toFixed(4) : "—"));
-      tr.append(el("td", "", "open audit →"));
-      tr.addEventListener("click", () => showAudit(i, e));
-      table.append(tr);
-    }
     nb.append(el("p", "evidence-note",
       "Nearest senses by centroid cosine distance in this cell (top-k " +
-      `${params().top_k}). The other-sky column is the cross-cell ` +
-      "comparison: a pair near here and far there is exactly the signal " +
-      "this layer exists to surface — click through to the audit before " +
-      "believing it."), table);
+      `${params().top_k}; 0 = identical contexts, 1 = unrelated). ` +
+      `"Other sky" is the same pair's distance in ${other.grouping} · ` +
+      `${other.cell} — a pair near here and far there is exactly the ` +
+      "signal this layer exists to surface. Click through to the audit " +
+      "before believing it."));
+    for (const e of edges) {
+      const otherKey = e.a === key ? e.b : e.a;
+      const block = el("div", "kwic-line");
+      block.style.cursor = "pointer";
+      const head = el("div", "kwic-meta");
+      head.append(el("strong", "", nodeLabel(otherKey)));
+      block.append(head);
+      const oe = otherDoc.edges.find((x) => x.a === e.a && x.b === e.b);
+      const row = el("div");
+      row.style.fontSize = "12px";
+      row.style.color = "var(--text-secondary)";
+      row.textContent = `cos ${e.dist.toFixed(4)} here · ` +
+        `${oe ? "cos " + oe.dist.toFixed(4) : "—"} in other sky`;
+      block.append(row);
+      if (e.same_term) {
+        block.append(el("div", "same-term-chip",
+          "same term — within-term sense separation, a different claim"));
+      }
+      const link = el("div", "lines-btn", "open audit →");
+      block.append(link);
+      block.addEventListener("click", () => showAudit(i, e));
+      nb.append(block);
+    }
   }
 
   const ex = $("sense-exemplars");
@@ -397,9 +496,13 @@ async function showSense(i, key) {
   card.hidden = false;
 }
 
-// ---- edge -> distance audit --------------------------------------------------
+// ---- edge -> distance audit in the tray ------------------------------------------
+// The audit REPLACES the sense card in the tray (the old page appended it
+// below, where it sat out of view); the back link restores the sense card.
 
 async function showAudit(i, edge) {
+  $("tray-placeholder").hidden = true;
+  $("sense-card").hidden = true;
   const card = $("audit-card");
   const p = state.panels[i];
   const doc = await cellDoc(panelCellFile(p));
@@ -421,7 +524,6 @@ async function showAudit(i, edge) {
     const box = el("div", "audit-pair");
     box.append(el("div", "audit-pair-head",
       `occurrence pair distance ${pair.dist.toFixed(4)}`));
-    const grid = el("div", "audit-pair-grid");
     for (const [occ, key] of [[pair.a_occ, edge.a], [pair.b_occ, edge.b]]) {
       const cellBox = el("div", "audit-pair-cell");
       cellBox.append(el("div", "kwic-meta", nodeLabel(key)));
@@ -429,15 +531,14 @@ async function showAudit(i, edge) {
       cellBox.append(line ? kwicBlock(line)
                           : el("p", "insufficient-note", `occurrence #${occ} ` +
                                "not found in this cell's audit lines"));
-      grid.append(cellBox);
+      box.append(cellBox);
     }
-    box.append(grid);
     wrap.append(box);
   }
   card.hidden = false;
 }
 
-// ---- watchlist suggestions ---------------------------------------------------
+// ---- watchlist suggestions (unchanged) ---------------------------------------------
 
 function renderSuggestions() {
   const s = state.suggestions;
@@ -481,19 +582,26 @@ function renderSuggestions() {
 // ---- boot --------------------------------------------------------------------
 
 function defaultPanels() {
+  // one grouping for both skies; prefer community (the headline comparison)
   const cells = state.index.cells;
   const communities = Object.keys(cells.community || {}).sort();
   if (communities.length >= 2) {
     return [{ grouping: "community", cell: communities[0] },
             { grouping: "community", cell: communities[1] }];
   }
-  const left = { grouping: "overall", cell: "overall" };
   if (communities.length === 1) {
-    return [left, { grouping: "community", cell: communities[0] }];
+    return [{ grouping: "community", cell: communities[0] },
+            { grouping: "community", cell: communities[0] }];
   }
-  const g = Object.keys(cells).sort().find((k) => k !== "overall");
-  const c = g ? Object.keys(cells[g]).sort()[0] : "overall";
-  return [left, g ? { grouping: g, cell: c } : left];
+  const g = Object.keys(cells).sort().find((k) => {
+    return k !== "overall" && Object.keys(cells[k]).length >= 2;
+  });
+  if (g) {
+    const cs = Object.keys(cells[g]).sort();
+    return [{ grouping: g, cell: cs[0] }, { grouping: g, cell: cs[1] }];
+  }
+  return [{ grouping: "overall", cell: "overall" },
+          { grouping: "overall", cell: "overall" }];
 }
 
 async function init() {
@@ -516,9 +624,15 @@ async function init() {
       renderSkies();
     });
   }
+  $("reset-zoom").addEventListener("click", resetZoom);
+  $("audit-back").addEventListener("click", () => {
+    $("audit-card").hidden = true;
+    if (state.lastSense) showSense(...state.lastSense);
+  });
   document.addEventListener("keydown", (ev) => {
     if (ev.key === "Escape") clearSelection();
   });
+  document.addEventListener("themechange", renderSkies);
   if (index.cross_side.provisional) {
     const b = $("provisional-banner");
     b.textContent =
@@ -530,6 +644,9 @@ async function init() {
     b.hidden = false;
   }
   state.panels = defaultPanels();
+  renderGroupingControl();
+  renderCellControl(0);
+  renderCellControl(1);
   await renderSkies();
   renderSuggestions();
 }

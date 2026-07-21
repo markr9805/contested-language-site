@@ -1,9 +1,9 @@
-/* Contested Language creator map — the three views of DESIGN.md §3 over
-   data/views/creators.json (+ rates.json for the isolated view). Honesty
-   rules carried through from the exporter: pending-data creators are listed
-   with their reason, never plotted as confident points; the polar view is
-   labeled as data-derived from author-designated anchors. All text lands
-   via textContent. */
+/* Contested Language creator map — Atlas shell.
+   Same three views and honesty rules as before (pending-data creators are
+   listed with reasons, never plotted; polar labeled data-derived). Changes:
+   view switcher renders as sidebar buttons; the distance audit renders into
+   the persistent right tray as stacked blocks (no scrollIntoView, the page
+   never moves); charts re-render on `themechange`. All text via textContent. */
 "use strict";
 
 const DATA = "data";
@@ -66,10 +66,11 @@ function renderPending(containerId, key) {
   wrap.append(note, table);
 }
 
-// ---- distance audit ---------------------------------------------------------
+// ---- distance audit → tray ----------------------------------------------------
+// The 340px tray can't hold the old three-column table; each pair renders as a
+// stacked block: other creator + mean JS, then the per-term values as rows.
 
 function showDistances(slug) {
-  const card = $("distance-card");
   const rows = Object.entries(state.views.distances)
     .filter(([pair]) => pair.split("|").includes(slug))
     .sort(([, a], [, b]) => a.js - b.js);
@@ -80,34 +81,42 @@ function showDistances(slug) {
       "explorer's concordance lines."
     : "No pairwise distances yet: no other creator shares enough " +
       "sufficient terms with this one.";
-  const table = $("distance-table");
-  table.replaceChildren();
-  if (rows.length) {
-    const head = el("tr");
-    for (const [h, num] of [["Other creator", 0], ["mean JS", 1], ["per term", 0]]) {
-      head.append(el("th", num ? "num" : "", h));
+  const body = $("distance-body");
+  body.replaceChildren();
+  for (const [pair, d] of rows) {
+    const other = pair.split("|").find((s) => s !== slug);
+    const block = el("div", "kwic-line");
+    const head = el("div", "kwic-meta");
+    head.append(el("strong", "", name(other)));
+    head.append(` · mean JS ${d.js.toFixed(4)}`);
+    block.append(head);
+    for (const [t, v] of Object.entries(d.terms).sort()) {
+      const row = el("div");
+      row.style.display = "flex";
+      row.style.alignItems = "center";
+      row.style.gap = "8px";
+      row.style.padding = "2px 0";
+      row.style.fontSize = "12px";
+      const a = el("a", "", t);
+      a.href = `index.html#term=${encodeURIComponent(t)}`;
+      a.style.minWidth = "110px";
+      const bar = el("span", "rate-bar");
+      bar.style.width = `${Math.round(v * 160)}px`;
+      const num = el("span", "", v.toFixed(3));
+      num.style.marginLeft = "auto";
+      num.style.color = "var(--text-secondary)";
+      num.style.fontVariantNumeric = "tabular-nums";
+      row.append(a, bar, num);
+      block.append(row);
     }
-    table.append(head);
-    for (const [pair, d] of rows) {
-      const other = pair.split("|").find((s) => s !== slug);
-      const tr = el("tr");
-      tr.append(el("td", "", name(other)));
-      tr.append(el("td", "num", d.js.toFixed(4)));
-      tr.append(el("td", "per-term",
-        Object.entries(d.terms).sort()
-          .map(([t, v]) => `${t} ${v.toFixed(3)}`).join(" · ")));
-      table.append(tr);
-    }
+    body.append(block);
   }
-  card.hidden = false;
-  card.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  // tray is persistent — no scrolling, the viewport never moves
 }
 
-// ---- scatter plumbing -------------------------------------------------------
+// ---- scatter plumbing (unchanged from pre-Atlas) --------------------------------
 
 function drawPoints(svg, pts, axis) {
-  // pts: [{slug, x, y, anchor, pole}] in data coords; axis: optional
-  // {lo, hi, labels: [left, right]} for the fixed polar x-domain
   svg.replaceChildren();
   const W = 760, H = 420, PAD = 56;
   svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
@@ -132,9 +141,6 @@ function drawPoints(svg, pts, axis) {
     }
   }
 
-  // label layout: creators cluster (the polar middle especially), so labels
-  // claim non-overlapping boxes — nudged up/down in growing steps, with a
-  // leader line once a label sits far from its dot
   const placedBoxes = [];
   const labelBox = (cx, dy, w) =>
     ({ x1: cx - w / 2, x2: cx + w / 2, y1: dy - 13, y2: dy + 3 });
@@ -149,7 +155,7 @@ function drawPoints(svg, pts, axis) {
       fill: p.anchor ? C("--text-primary") : C("--series-1"),
       stroke: C("--surface-1"), "stroke-width": 2 }));
     const text = name(p.slug) + (p.anchor ? " ⚓" : "");
-    const w = 7 * text.length + 6;                       // rough text width
+    const w = 7 * text.length + 6;
     const lx = Math.max(w / 2 + 4, Math.min(W - w / 2 - 4, cx));
     let dy = cy - 12;
     for (const step of [-12, -28, 18, -44, 34, -60, 50, -76, 66]) {
@@ -175,7 +181,7 @@ function drawPoints(svg, pts, axis) {
   }
 }
 
-// ---- views ------------------------------------------------------------------
+// ---- views (unchanged logic) -----------------------------------------------------
 
 function renderOrganic() {
   const pts = Object.entries(creators())
@@ -300,13 +306,12 @@ function renderIsolated() {
 
 function selectView(v) {
   state.view = v;
-  for (const b of document.querySelectorAll("#view-tabs .tab-btn")) {
+  for (const b of document.querySelectorAll("#view-tabs .view-btn")) {
     b.setAttribute("aria-selected", String(b.dataset.view === v));
   }
   for (const id of ["organic", "polar", "isolated"]) {
     $(`view-${id}`).hidden = id !== v;
   }
-  $("distance-card").hidden = true;
   ({ organic: renderOrganic, polar: renderPolar,
      isolated: renderIsolated })[v]();
 }
@@ -323,9 +328,10 @@ async function init() {
     `${cs.length} active creators · ${okOrganic} positioned · ` +
     `${cs.length - okOrganic} pending data · ` +
     `${fmt(cs.reduce((s, c) => s + c.words, 0))} transcribed words`;
-  for (const b of document.querySelectorAll("#view-tabs .tab-btn")) {
+  for (const b of document.querySelectorAll("#view-tabs .view-btn")) {
     b.addEventListener("click", () => selectView(b.dataset.view));
   }
+  document.addEventListener("themechange", () => selectView(state.view));
   selectView("organic");
 }
 

@@ -5,22 +5,58 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>Contested Language — evidence browser</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='%232a78d6'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='%233d7bfd'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script src="theme.js"></script>
 </head>
 <body>
-<header class="site-head">
-  <div>
-    <h1>Contested Language <span class="badge-private">unlisted research preview</span></h1>
-    <p class="corpus-stats" id="corpus-stats">loading corpus…</p>
+<header class="topbar">
+  <span class="wordmark">CONTESTED<em>/</em>LANGUAGE</span>
+  <p class="corpus-stats" id="corpus-stats">loading corpus…</p>
+  <div class="topbar-right">
+    <span class="badge-private">unlisted research preview</span>
+    <div class="theme-seg" role="group" aria-label="Theme">
+      <button type="button" data-theme-btn="auto">Auto</button>
+      <button type="button" data-theme-btn="light">Light</button>
+      <button type="button" data-theme-btn="dark">Dark</button>
+    </div>
   </div>
-  <nav class="head-nav"><a href="map.html">creator map →</a> · <a href="galaxy.html">concept galaxy →</a> · <a href="cloud.html">occurrence cloud →</a> · <a href="verses.html">verse explorer →</a></nav>
 </header>
 
-<div class="layout">
-  <nav class="term-nav" aria-label="Lexicon terms">
-    <div id="term-list"></div>
-  </nav>
+<div class="shell">
+  <div class="sidebar">
+    <nav class="side-nav" aria-label="Views">
+      <a href="index.html" aria-current="page">Terms</a>
+      <a href="map.html">Creator map</a>
+      <a href="galaxy.html">Concept galaxy</a>
+      <a href="cloud.html">Occurrence cloud</a>
+      <a href="verses.html">Verse explorer</a>
+    </nav>
+    <div class="side-search">
+      <input type="search" id="term-search" placeholder="filter terms…" aria-label="Filter terms">
+    </div>
+    <nav class="side-scroll" aria-label="Lexicon terms">
+      <div id="term-list"></div>
+    </nav>
+    <div class="filter-area">
+      <div style="padding:6px 4px;font-weight:600">Grouping</div>
+      <div class="chip-row" id="grouping-pills" role="tablist" aria-label="Grouping"></div>
+      <details open>
+        <summary>Speaker role <span class="badge" id="role-badge">all</span></summary>
+        <div class="chip-row" id="role-chips"></div>
+      </details>
+      <details>
+        <summary>Year <span class="badge" id="year-badge">all</span></summary>
+        <div class="chip-row" id="year-chips"></div>
+      </details>
+    </div>
+    <div class="side-foot">
+      <span><strong id="active-count">0</strong> <span id="active-word">filters</span> active</span>
+      <button type="button" id="clear-filters">Clear all</button>
+    </div>
+  </div>
 
   <main class="main" id="main">
     <p class="placeholder" id="placeholder">Pick a term to see its rate over time,
@@ -53,9 +89,8 @@
 
       <section class="card">
         <div class="card-head">
-          <h3>Collocates <span class="unit">what keeps company with the term (log-Dice)</span></h3>
+          <h3>Collocates <span class="unit"><span class="tip" data-tip="A word that repeatedly appears near the term — the company a word keeps is the classic signature of a contested meaning.">what keeps company with the term</span> (<span class="tip" data-tip="Lexical association strength on a 0–14 scale, adjusted so scores are comparable across corpus sizes. Above ~7 is a solid collocate; higher = more strongly attached to the term.">log-Dice</span>)</span></h3>
         </div>
-        <div class="tab-row" id="grouping-tabs" role="tablist" aria-label="Grouping"></div>
         <div class="tab-row tab-row-cells" id="cell-tabs" role="tablist" aria-label="Grouping cell"></div>
         <div id="colloc-body"></div>
       </section>
@@ -67,22 +102,23 @@
         <p class="evidence-note" id="profiles-provenance"></p>
         <div id="profiles-body"></div>
       </section>
-
-      <section class="card evidence-card" id="evidence-card" hidden>
-        <div class="card-head">
-          <h3 id="evidence-title">Concordance lines</h3>
-        </div>
-        <p class="evidence-note" id="evidence-note"></p>
-        <div id="evidence-lines"></div>
-      </section>
     </div>
   </main>
+
+  <aside class="tray" aria-label="Evidence">
+    <div class="tray-label">EVIDENCE TRAY</div>
+    <h3 id="evidence-title">Concordance lines</h3>
+    <p class="evidence-note" id="evidence-note">Click any number — a chart point, a
+    role row, a collocate — and the concordance lines behind it land here without
+    moving the page.</p>
+    <div class="tray-scroll" id="evidence-lines"></div>
+    <div class="tray-foot">Every number resolves to quotable transcript lines with
+    a timestamped source video — <em>no claim without clickable evidence</em>.</div>
+  </aside>
 </div>
 
 <footer class="site-foot">
-  <p>Every number on this page resolves to quotable transcript lines with a
-  timestamped source video — <em>no claim without clickable evidence</em>.
-  Derived artifacts regenerate deterministically from the canonical store.</p>
+  <p>Derived artifacts regenerate deterministically from the canonical store.</p>
 </footer>
 
 <script src="app.js"></script>

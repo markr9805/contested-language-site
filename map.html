@@ -5,64 +5,101 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>Contested Language — creator map</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='%232a78d6'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='%233d7bfd'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script src="theme.js"></script>
 </head>
 <body>
-<header class="site-head">
-  <div>
-    <h1>Contested Language <span class="badge-private">creator map</span></h1>
-    <p class="corpus-stats" id="corpus-stats">loading…</p>
+<header class="topbar">
+  <span class="wordmark">CONTESTED<em>/</em>LANGUAGE</span>
+  <p class="corpus-stats" id="corpus-stats">loading…</p>
+  <div class="topbar-right">
+    <span class="badge-private">unlisted research preview</span>
+    <div class="theme-seg" role="group" aria-label="Theme">
+      <button type="button" data-theme-btn="auto">Auto</button>
+      <button type="button" data-theme-btn="light">Light</button>
+      <button type="button" data-theme-btn="dark">Dark</button>
+    </div>
   </div>
-  <nav class="head-nav"><a href="index.html">← term explorer</a> · <a href="galaxy.html">concept galaxy →</a> · <a href="verses.html">verse explorer →</a></nav>
 </header>
 
-<main class="main map-main">
-  <div class="tab-row view-tabs" id="view-tabs" role="tablist" aria-label="Map view">
-    <button class="tab-btn" type="button" role="tab" data-view="organic">Organic proximity</button>
-    <button class="tab-btn" type="button" role="tab" data-view="polar">Polar boundary</button>
-    <button class="tab-btn" type="button" role="tab" data-view="isolated">Isolated creator</button>
+<div class="shell">
+  <div class="sidebar">
+    <nav class="side-nav" aria-label="Views">
+      <a href="index.html">Terms</a>
+      <a href="map.html" aria-current="page">Creator map</a>
+      <a href="galaxy.html">Concept galaxy</a>
+      <a href="cloud.html">Occurrence cloud</a>
+      <a href="verses.html">Verse explorer</a>
+    </nav>
+    <div class="filter-area" style="border-top:0">
+      <div style="padding:6px 4px;font-weight:600">View</div>
+      <div class="view-col" id="view-tabs" role="tablist" aria-label="Map view">
+        <button class="view-btn" type="button" role="tab" data-view="organic">
+          <strong>Organic proximity</strong>
+          <span>pure linguistic similarity — no categories imposed</span>
+        </button>
+        <button class="view-btn" type="button" role="tab" data-view="polar">
+          <strong>Polar boundary</strong>
+          <span>snapped to anchor poles via affinity weights</span>
+        </button>
+        <button class="view-btn" type="button" role="tab" data-view="isolated">
+          <strong>Isolated creator</strong>
+          <span>one creator's terms vs their own corpus only</span>
+        </button>
+      </div>
+      <p style="font-size:11px;color:var(--text-muted);padding:6px 4px;line-height:1.55;margin:0">
+      Creators below the minimum corpus size appear in the pending table,
+      never as confidently-placed points — the map improves automatically as
+      transcription fills the store.</p>
+    </div>
   </div>
 
-  <section class="card" id="view-organic" hidden>
-    <div class="card-head">
-      <h3>Organic proximity <span class="unit">creators positioned purely by linguistic similarity — no categories imposed</span></h3>
-    </div>
-    <div class="chart-wrap"><svg id="organic-chart" role="img"></svg></div>
-    <p class="chart-caption" id="organic-caption"></p>
-    <div id="organic-pending"></div>
-  </section>
+  <main class="main" id="main">
+    <section class="card" id="view-organic" hidden>
+      <div class="card-head">
+        <h3>Organic proximity <span class="unit">creators positioned purely by linguistic similarity — no categories imposed</span></h3>
+      </div>
+      <div class="chart-wrap"><svg id="organic-chart" role="img"></svg></div>
+      <p class="chart-caption" id="organic-caption"></p>
+      <div id="organic-pending"></div>
+    </section>
 
-  <section class="card" id="view-polar" hidden>
-    <div class="card-head">
-      <h3>Polar boundary <span class="unit">the same data snapped to declared poles via affinity weights — data-derived, anchors are author-designated</span></h3>
-    </div>
-    <div class="chart-wrap"><svg id="polar-chart" role="img"></svg></div>
-    <p class="chart-caption" id="polar-caption"></p>
-    <div id="polar-pending"></div>
-  </section>
+    <section class="card" id="view-polar" hidden>
+      <div class="card-head">
+        <h3>Polar boundary <span class="unit">the same data snapped to declared poles via affinity weights — data-derived, anchors are author-designated</span></h3>
+      </div>
+      <div class="chart-wrap"><svg id="polar-chart" role="img"></svg></div>
+      <p class="chart-caption" id="polar-caption"></p>
+      <div id="polar-pending"></div>
+    </section>
 
-  <section class="card" id="view-isolated" hidden>
-    <div class="card-head">
-      <h3>Isolated creator <span class="unit">one creator's term weightings against their own corpus only</span></h3>
-    </div>
-    <div class="tab-row" id="creator-tabs" role="tablist" aria-label="Creator"></div>
-    <div id="isolated-body"></div>
-  </section>
+    <section class="card" id="view-isolated" hidden>
+      <div class="card-head">
+        <h3>Isolated creator <span class="unit">one creator's term weightings against their own corpus only</span></h3>
+      </div>
+      <div class="tab-row" id="creator-tabs" role="tablist" aria-label="Creator"></div>
+      <div id="isolated-body"></div>
+    </section>
+  </main>
 
-  <section class="card" id="distance-card" hidden>
-    <div class="card-head"><h3 id="distance-title">Distance audit</h3></div>
-    <p class="evidence-note" id="distance-note"></p>
-    <table class="data-table" id="distance-table"></table>
-  </section>
-</main>
+  <aside class="tray" aria-label="Distance audit">
+    <div class="tray-label"><span class="tip" data-tip="Numbers are Jensen-Shannon divergence between two creators' sense distributions, averaged over shared sufficient terms: 0 = they use the terms with the same mix of senses, 1 = maximally different. Map positions derive from these distances.">DISTANCE AUDIT</span></div>
+    <h3 id="distance-title">Distances</h3>
+    <p class="evidence-note" id="distance-note">Click a creator point on the map —
+    its pairwise distances land here, term by term, without moving the page.</p>
+    <div class="tray-scroll" id="distance-body"></div>
+    <div class="tray-foot">Every distance is auditable term-by-term down to
+    concordance lines in the term explorer.</div>
+  </aside>
+</div>
 
 <footer class="site-foot">
   <p>Positions derive from per-term Jensen-Shannon divergence between sense
-  distributions — every distance is auditable term-by-term down to concordance
-  lines in the term explorer. Creators below the minimum corpus size appear as
-  <em>pending data</em>, never as confidently-placed points; the map improves
-  automatically as transcription fills the store.</p>
+  distributions. Creators below the minimum corpus size appear as
+  <em>pending data</em>, never as confidently-placed points.</p>
 </footer>
 
 <script src="map.js"></script>

@@ -1,19 +1,18 @@
-/* Contested Language occurrence cloud — every embedded occurrence as one
-   point over data/cloud/points.json, rendered by the vendored cosmos.gl
-   engine with the simulation OFF: positions are the exporter's fixed PCA
-   frame, never a per-load layout, so screenshots stay reproducible
-   evidence. Honesty rules from the design doc carried through: the
-   explained-variance caption discloses how little the 2-D plane holds;
-   per-side counts are printed while the corpus is unbalanced; filters dim
-   points instead of removing them (absences are half the signal); a
-   clicked point resolves through the published KWIC sample or says
-   plainly that it isn't in it. All text lands via textContent. */
+/* Contested Language occurrence cloud — Atlas shell.
+   Same engine and honesty rules as before (vendored cosmos.gl, simulation
+   OFF, fixed PCA positions; filters dim, never remove; per-side counts
+   printed while the corpus is unbalanced; clicked points resolve through
+   the published KWIC sample or say so). Changes: the filter checkbox walls
+   move into collapsible sidebar groups (term/side/creator) with "n of m"
+   badges, an always-visible active-filter count, and one Clear all. The sky
+   stays dark in both themes so density reads consistently.
+   All text lands via textContent. */
 "use strict";
 
 const DATA = "data";
 const VISIBLE_ALPHA = 0.85;
 const DIM_ALPHA = 0.04;
-const POINT_SIZE = 2.2;
+const POINT_SIZE = 3;
 const SEL_SIZE = 9;
 const SKY_BG = "#0b0e1a";   // fixed dark sky in both themes, like the pilot
 
@@ -113,6 +112,7 @@ function recolor() {
     ? `showing ${fmt(shown)} of ${fmt(state.n)} occurrences — ` +
       "filtered-out points are dimmed, never removed"
     : "";
+  updateFilterChrome();
   renderLegend();
 }
 
@@ -127,29 +127,45 @@ function resize() {
 
 // ---- legend -------------------------------------------------------------------
 
+// ---- legend (clickable — a second way to toggle the same filters) ---------------
+
 function renderLegend() {
   const box = $("cloud-legend");
   box.replaceChildren();
-  const entries = state.colorBy === "term"
+  const dim = state.colorBy;               // term | side | creator
+  const entries = dim === "term"
     ? state.doc.enums.term.map((t, i) => [t, termRgb(i, 0)])
-    : state.colorBy === "side"
+    : dim === "side"
       ? state.doc.enums.side.map((s) => [s || "unsided", SIDE_RGB[s]])
       : state.doc.enums.creator.map((cr, i) => [cr, creatorRgb(i)]);
-  for (const [label, [r, g, b]] of entries) {
-    const item = el("span", "legend-item");
+  entries.forEach(([label, [r, g, b]], code) => {
+    const item = el("button", "legend-item");
+    item.type = "button";
+    item.style.pointerEvents = "auto";     // container is pointer-events:none
+    item.style.cursor = "pointer";
+    item.style.background = "none";
+    item.style.border = "0";
+    item.style.padding = "0";
+    item.style.font = "inherit";
+    const on = state.checked[dim].has(code);
+    item.style.opacity = on ? "1" : "0.35";
+    item.title = (on ? "dim" : "undim") + ` ${label} — same as the sidebar chip`;
     const dot = el("span", "legend-dot");
     dot.style.background =
       `rgb(${Math.round(r * 255)} ${Math.round(g * 255)} ${Math.round(b * 255)})`;
     item.append(dot, label);
+    item.addEventListener("click", () => {
+      on ? state.checked[dim].delete(code) : state.checked[dim].add(code);
+      const chip = document.querySelector(
+        `.chip[data-dim="${dim}"][data-code="${code}"]`);
+      if (chip) chip.setAttribute("aria-pressed", String(!on));
+      recolor();
+    });
     box.append(item);
-  }
+  });
 }
 
 // ---- term centers ---------------------------------------------------------------
-// Centroid of each term's FULL point set (never the filtered subset — filters
-// change what is visible, not what exists), drawn on an SVG overlay that
-// follows the camera. Labels reuse the creator map's collision rule: claim a
-// box, nudge in growing steps, leader-line back when pushed far.
 
 const SVG_NS = "http://www.w3.org/2000/svg";
 const mkSvg = (tag, attrs) => {
@@ -210,7 +226,6 @@ function layoutCentroids() {
     state.centroidSpaceReady = true;
   }
   const rect = $("cloud").getBoundingClientRect();
-  // touch the DOM only when the camera, size, or filter set actually changed
   const t = state.graph.zoomInstance.eventTransform;
   const stamp = `${t.k}|${t.x}|${t.y}|${rect.width}|${rect.height}|` +
                 [...state.checked.term].sort().join(",");
@@ -222,14 +237,12 @@ function layoutCentroids() {
     b.x1 < o.x2 && b.x2 > o.x1 && b.y1 < o.y2 && b.y2 > o.y1);
   for (const cen of state.centroids) {
     const [sx, sy] = state.graph.spaceToScreenPosition([cen.x, cen.y]);
-    // camera transform is NaN for the first frames before fitViewOnInit runs
     if (!Number.isFinite(sx) || !Number.isFinite(sy) ||
         sx < -30 || sx > rect.width + 30 || sy < -30 || sy > rect.height + 30) {
       cen.el.setAttribute("display", "none");
       continue;
     }
     cen.el.removeAttribute("display");
-    // filtered-out terms dim like their points, never disappear
     cen.el.setAttribute("opacity", state.checked.term.has(cen.code) ? 1 : 0.12);
     const w = 7 * cen.term.length + 10;
     const lx = Math.max(w / 2 + 2, Math.min(rect.width - w / 2 - 2, sx));
@@ -254,31 +267,70 @@ function layoutCentroids() {
   }
 }
 
-// ---- filters ------------------------------------------------------------------
+// ---- sidebar filters ------------------------------------------------------------
+// The old full-width checkbox rows become collapsible groups with "n of m"
+// badges; chips toggle aria-pressed; the footer shows the active count.
 
 function renderFilters() {
   const wrap = $("filter-groups");
   wrap.replaceChildren();
   for (const dim of FILTER_DIMS) {
-    const row = el("div", "filter-row");
-    row.append(el("span", "filter-label", dim));
+    const details = document.createElement("details");
+    details.className = "filter-area";
+    details.style.borderTop = "0";
+    details.open = dim !== "creator";       // the longest list starts closed
+    const summary = el("summary");
+    summary.append(el("span", "", dim));
+    const badge = el("span", "badge", "all");
+    badge.dataset.dim = dim;
+    summary.append(badge);
+    details.append(summary);
+    const row = el("div", "chip-row");
     state.doc.enums[dim].forEach((value, code) => {
-      const lab = el("label", "filter-chip");
-      const cb = document.createElement("input");
-      cb.type = "checkbox";
-      cb.checked = true;
-      cb.dataset.dim = dim;
-      cb.dataset.code = String(code);
-      cb.addEventListener("change", () => {
-        if (cb.checked) state.checked[dim].add(code);
-        else state.checked[dim].delete(code);
+      const b = el("button", "chip soft", value === "" ? "(unsided)" : value);
+      b.type = "button";
+      b.dataset.dim = dim;
+      b.dataset.code = String(code);
+      b.setAttribute("aria-pressed", "true");
+      b.addEventListener("click", () => {
+        const on = state.checked[dim].has(code);
+        on ? state.checked[dim].delete(code) : state.checked[dim].add(code);
+        b.setAttribute("aria-pressed", String(!on));
         recolor();
       });
-      lab.append(cb, value === "" ? "(unsided)" : value);
-      row.append(lab);
+      row.append(b);
     });
-    wrap.append(row);
+    details.append(row);
+    wrap.append(details);
   }
+}
+
+function updateFilterChrome() {
+  let active = state.evidencedOnly ? 1 : 0;
+  for (const dim of FILTER_DIMS) {
+    const total = state.doc.enums[dim].length;
+    const on = state.checked[dim].size;
+    if (on < total) active += 1;
+    const badge = document.querySelector(`.badge[data-dim="${dim}"]`);
+    if (badge) {
+      badge.textContent = on < total ? `${on} of ${total}` : "all";
+      badge.classList.toggle("on", on < total);
+    }
+  }
+  $("active-count").textContent = String(active);
+  $("active-word").textContent = active === 1 ? "filter" : "filters";
+}
+
+function clearFilters() {
+  for (const dim of FILTER_DIMS) {
+    state.checked[dim] = new Set(state.doc.enums[dim].map((_, code) => code));
+  }
+  state.evidencedOnly = false;
+  $("evidenced-only").checked = false;
+  for (const b of document.querySelectorAll(".chip[data-dim]")) {
+    b.setAttribute("aria-pressed", "true");
+  }
+  recolor();
 }
 
 // ---- tooltip ------------------------------------------------------------------
@@ -398,9 +450,6 @@ function deselect() {
 // ---- evidence flags + worth-a-look suggestions ----------------------------------
 
 async function loadEvidenceFlags() {
-  // one bit per point: does this occurrence resolve in the published
-  // concordance sample? Fetches every KWIC file once (the same files
-  // point-clicks resolve through; all cached in kwicDocs afterwards).
   const byTerm = {};
   for (const term of Object.keys(state.kwicIndex)) {
     const kd = await kwicDoc(term);
@@ -421,11 +470,6 @@ async function loadEvidenceFlags() {
 }
 
 function computeSuggestions() {
-  // Ranked starting points, evidenced occurrences only: (a) far from their
-  // term's center — unusual contexts for that word; (b) sided occurrences
-  // closer to the other side's region than their own — quoting, borrowing,
-  // debate register. Plain geometry on the projected plane; the strip's
-  // note discloses it. Space coords come from the engine (see centroids).
   const pos = state.graph.getPointPositions();
   const c = state.doc.columns, e = state.doc.enums;
   const cenByCode = {};
@@ -458,7 +502,6 @@ function computeSuggestions() {
       intruders.push([i, (dOwn - dOther) / (dOwn + dOther)]);
     }
   }
-  // diversity caps so one busy term or creator can't fill the strip
   const pick = (arr, perKey, total, keyOf) => {
     arr.sort((a, b) => b[1] - a[1]);
     const used = {}, out = [];
@@ -517,8 +560,6 @@ async function init() {
     state.checked[dim] = new Set(doc.enums[dim].map((_, code) => code));
   }
 
-  // per-side counts: while the corpus is unbalanced, density must read as
-  // data volume, not semantics
   const sideCounts = doc.enums.side.map(() => 0);
   for (const s of doc.columns.side) sideCounts[s] += 1;
   const sideLine = doc.enums.side
@@ -539,10 +580,12 @@ async function init() {
     `${sideLine}. Scroll to zoom, drag to pan, click a point for its ` +
     "evidence; click empty sky or press Escape to deselect. Term-center " +
     "markers are the centroid of each term's full point set — a summary " +
-    "laid over heavily overlapping clouds (the average term's spread is " +
-    "nearly as wide as the gaps between centers), not a cluster boundary. " +
+    "laid over heavily overlapping clouds, not a cluster boundary. " +
     "“Evidenced only” dims occurrences that don't resolve in the published " +
-    "concordance sample (most don't — the sample is bounded on purpose).";
+    "concordance sample (most don't — the sample is bounded on purpose). " +
+    "The legend doubles as a filter: click an entry to dim or undim it, " +
+    "same as the sidebar chips. " +
+    "The sky stays dark in both themes so density reads consistently.";
 
   const positions = new Float32Array(state.n * 2);
   for (let i = 0; i < state.n; i++) {
@@ -552,6 +595,7 @@ async function init() {
 
   state.graph = new Cosmos.Graph($("cloud"), {
     enableSimulation: false,        // the picture is the fixed artifact
+    scalePointsOnZoom: true,        // points grow as you zoom — clickable detail
     backgroundColor: SKY_BG,
     fitViewOnInit: true,
     fitViewDelay: 150,
@@ -581,14 +625,13 @@ async function init() {
     state.evidencedOnly = $("evidenced-only").checked;
     recolor();
   });
+  $("clear-filters").addEventListener("click", clearFilters);
   $("overlay-close").addEventListener("click", deselect);
   loadEvidenceFlags().catch((e) => {
     $("evidenced-label").append(` (unavailable: ${e.message})`);
   });
   (function tick() {
     layoutCentroids();
-    // suggestions need both the evidence flags and the engine-space
-    // centroids; whichever arrives last triggers the strip
     if (state.evidenced && state.centroidSpaceReady && !state.suggestionsDone) {
       state.suggestionsDone = true;
       renderSuggestions();
