@@ -23,19 +23,19 @@
    "organic": {
     "status": "ok",
     "xy": [
-     0.036,
-     0.0073
+     0.0657,
+     0.0087
     ]
    },
    "polar": {
     "source": "computed",
     "status": "ok",
     "x": -0.0153,
-    "y": 0.0073
+    "y": 0.0087
    },
    "pole": null,
    "videos": 55,
-   "words": 495082
+   "words": 777738
   },
   "belief-it-or-not": {
    "affinities": {
@@ -50,7 +50,7 @@
    "is_anchor": false,
    "occurrences": 0,
    "organic": {
-    "reason": "corpus below minimum (0 < 100,000 words)",
+    "reason": "corpus below minimum (59,912 < 100,000 words)",
     "status": "pending-data"
    },
    "polar": {
@@ -59,7 +59,7 @@
    },
    "pole": null,
    "videos": 25,
-   "words": 0
+   "words": 59912
   },
   "britt-hartley": {
    "affinities": {
@@ -80,19 +80,19 @@
    "organic": {
     "status": "ok",
     "xy": [
-     0.0172,
-     -0.0283
+     0.0893,
+     -0.0523
     ]
    },
    "polar": {
     "source": "computed",
     "status": "ok",
     "x": -0.0384,
-    "y": -0.0283
+    "y": -0.0523
    },
    "pole": null,
    "videos": 49,
-   "words": 111110
+   "words": 284852
   },
   "capturing-christianity": {
    "affinities": {
@@ -157,8 +157,8 @@
    "organic": {
     "status": "ok",
     "xy": [
-     0.0118,
-     -0.023
+     0.0611,
+     -0.027
     ]
    },
    "polar": {
@@ -169,7 +169,7 @@
    },
    "pole": "apologetics",
    "videos": 210,
-   "words": 282087
+   "words": 431292
   },
   "darante-lamar": {
    "affinities": {
@@ -186,8 +186,8 @@
    "organic": {
     "status": "ok",
     "xy": [
-     -0.013,
-     0.046
+     -0.0361,
+     0.0585
     ]
    },
    "polar": {
@@ -198,7 +198,7 @@
    },
    "pole": "deconstruction",
    "videos": 1486,
-   "words": 6346525
+   "words": 6412428
   },
   "drcraigvideos": {
    "affinities": {
@@ -213,7 +213,7 @@
    "is_anchor": false,
    "occurrences": 0,
    "organic": {
-    "reason": "corpus below minimum (0 < 100,000 words)",
+    "reason": "corpus below minimum (4,071 < 100,000 words)",
     "status": "pending-data"
    },
    "polar": {
@@ -222,7 +222,7 @@
    },
    "pole": null,
    "videos": 25,
-   "words": 0
+   "words": 4071
   },
   "genetically-modified-skeptic": {
    "affinities": {
@@ -247,19 +247,19 @@
    "organic": {
     "status": "ok",
     "xy": [
-     -0.0047,
-     0.0005
+     0.0346,
+     -0.0173
     ]
    },
    "polar": {
     "source": "computed",
     "status": "ok",
     "x": -0.0081,
-    "y": 0.0005
+    "y": -0.0173
    },
    "pole": null,
    "videos": 50,
-   "words": 135438
+   "words": 251284
   },
   "jackie-hill-perry": {
    "affinities": {
@@ -332,43 +332,52 @@
    "organic": {
     "status": "ok",
     "xy": [
-     -0.1762,
-     -0.0047
+     -0.1306,
+     -0.092
     ]
    },
    "polar": {
     "source": "computed",
     "status": "ok",
     "x": 0.012,
-    "y": -0.0047
+    "y": -0.092
    },
    "pole": null,
    "videos": 49,
-   "words": 230944
+   "words": 459743
   },
   "marc-coley": {
    "affinities": {
+    "apologetics": {
+     "source": "computed",
+     "weight": 0.7141
+    },
     "deconstruction": {
-     "source": "seed",
-     "weight": 0.7
+     "source": "computed",
+     "weight": 0.9228
     }
    },
    "contact_facing": null,
-   "corpus_status": "pending-data",
+   "corpus_status": "ok",
    "display_name": "Marc Coley",
    "is_anchor": false,
    "occurrences": 183,
    "organic": {
-    "reason": "corpus below minimum (55,616 < 100,000 words)",
-    "status": "pending-data"
+    "status": "ok",
+    "xy": [
+     -0.219,
+     0.0563
+    ]
    },
    "polar": {
-    "reason": "corpus below minimum",
-    "status": "pending-data"
+    "source": "computed",
+    "status": "ok",
+    "x": 0.1275,
+    "y": 0.0563
    },
    "pole": null,
    "videos": 48,
-   "words": 55616
+   "words": 101562
   },
   "mike-winger": {
    "affinities": {
@@ -417,19 +426,19 @@
    "organic": {
     "status": "ok",
     "xy": [
-     0.1289,
-     0.0021
+     0.135,
+     0.065
     ]
    },
    "polar": {
     "source": "computed",
     "status": "ok",
     "x": -0.0366,
-    "y": 0.0021
+    "y": 0.065
    },
    "pole": null,
    "videos": 52,
-   "words": 126281
+   "words": 221184
   },
   "paulogia": {
    "affinities": {
@@ -443,21 +452,21 @@
     }
    },
    "contact_facing": "dialogue-facing",
-   "corpus_status": "pending-data",
+   "corpus_status": "ok",
    "display_name": "Paulogia",
    "is_anchor": false,
    "occurrences": 0,
    "organic": {
-    "reason": "corpus below minimum (0 < 100,000 words)",
+    "reason": "fewer than 3 sufficient terms shared with the mapped creators",
     "status": "pending-data"
    },
    "polar": {
-    "reason": "corpus below minimum",
+    "reason": "no computed proximity to every pole's anchor ensemble yet",
     "status": "pending-data"
    },
    "pole": null,
    "videos": 24,
-   "words": 0
+   "words": 243048
   },
   "prophet-of-zod": {
    "affinities": {
@@ -471,21 +480,21 @@
     }
    },
    "contact_facing": "dialogue-facing",
-   "corpus_status": "pending-data",
+   "corpus_status": "ok",
    "display_name": "Prophet of Zod",
    "is_anchor": false,
    "occurrences": 0,
    "organic": {
-    "reason": "corpus below minimum (0 < 100,000 words)",
+    "reason": "fewer than 3 sufficient terms shared with the mapped creators",
     "status": "pending-data"
    },
    "polar": {
-    "reason": "corpus below minimum",
+    "reason": "no computed proximity to every pole's anchor ensemble yet",
     "status": "pending-data"
    },
    "pole": null,
    "videos": 47,
-   "words": 0
+   "words": 284627
   },
   "reasonable-faith-org": {
    "affinities": {
@@ -500,7 +509,7 @@
    "is_anchor": false,
    "occurrences": 0,
    "organic": {
-    "reason": "corpus below minimum (0 < 100,000 words)",
+    "reason": "corpus below minimum (78,163 < 100,000 words)",
     "status": "pending-data"
    },
    "polar": {
@@ -509,7 +518,7 @@
    },
    "pole": null,
    "videos": 25,
-   "words": 0
+   "words": 78163
   },
   "shannon-q": {
    "affinities": {
@@ -523,21 +532,21 @@
     }
    },
    "contact_facing": "dialogue-facing",
-   "corpus_status": "pending-data",
+   "corpus_status": "ok",
    "display_name": "Shannon Q",
    "is_anchor": false,
    "occurrences": 0,
    "organic": {
-    "reason": "corpus below minimum (0 < 100,000 words)",
+    "reason": "fewer than 3 sufficient terms shared with the mapped creators",
     "status": "pending-data"
    },
    "polar": {
-    "reason": "corpus below minimum",
+    "reason": "no computed proximity to every pole's anchor ensemble yet",
     "status": "pending-data"
    },
    "pole": null,
    "videos": 38,
-   "words": 0
+   "words": 294171
   }
  },
  "distances": {
