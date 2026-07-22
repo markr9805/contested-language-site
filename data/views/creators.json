@@ -213,7 +213,7 @@
    "is_anchor": false,
    "occurrences": 0,
    "organic": {
-    "reason": "corpus below minimum (13,053 < 100,000 words)",
+    "reason": "corpus below minimum (17,959 < 100,000 words)",
     "status": "pending-data"
    },
    "polar": {
@@ -221,8 +221,8 @@
     "status": "pending-data"
    },
    "pole": null,
-   "videos": 75,
-   "words": 13053
+   "videos": 100,
+   "words": 17959
   },
   "genetically-modified-skeptic": {
    "affinities": {
@@ -298,7 +298,7 @@
    "is_anchor": false,
    "occurrences": 0,
    "organic": {
-    "reason": "corpus below minimum (14,827 < 100,000 words)",
+    "reason": "corpus below minimum (97,300 < 100,000 words)",
     "status": "pending-data"
    },
    "polar": {
@@ -306,8 +306,8 @@
     "status": "pending-data"
    },
    "pole": null,
-   "videos": 18,
-   "words": 14827
+   "videos": 43,
+   "words": 97300
   },
   "lil-bill": {
    "affinities": {
@@ -387,21 +387,21 @@
     }
    },
    "contact_facing": "internal-facing",
-   "corpus_status": "pending-data",
+   "corpus_status": "ok",
    "display_name": "Mike Winger",
    "is_anchor": false,
    "occurrences": 0,
    "organic": {
-    "reason": "corpus below minimum (23,477 < 100,000 words)",
+    "reason": "fewer than 3 sufficient terms shared with the mapped creators",
     "status": "pending-data"
    },
    "polar": {
-    "reason": "corpus below minimum",
+    "reason": "no computed proximity to every pole's anchor ensemble yet",
     "status": "pending-data"
    },
    "pole": null,
-   "videos": 25,
-   "words": 23477
+   "videos": 50,
+   "words": 204967
   },
   "mindshift": {
    "affinities": {
