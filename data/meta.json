@@ -6,6 +6,103 @@
   "role",
   "creator"
  ],
+ "non_host_exposure": {
+  "apostate-aladdin": {
+   "host_words": 1163587,
+   "non_host_fraction": 0.114,
+   "non_host_words": 149655
+  },
+  "belief-it-or-not": {
+   "host_words": 135514,
+   "non_host_fraction": 0.3881,
+   "non_host_words": 85946
+  },
+  "britt-hartley": {
+   "host_words": 287536,
+   "non_host_fraction": 0.0,
+   "non_host_words": 0
+  },
+  "capturing-christianity": {
+   "host_words": 235698,
+   "non_host_fraction": 0.4396,
+   "non_host_words": 184879
+  },
+  "counsel-of-trent": {
+   "host_words": 107541,
+   "non_host_fraction": 0.3905,
+   "non_host_words": 68888
+  },
+  "cross-examined": {
+   "host_words": 552873,
+   "non_host_fraction": 0.0568,
+   "non_host_words": 33288
+  },
+  "darante-lamar": {
+   "host_words": 5236491,
+   "non_host_fraction": 0.1845,
+   "non_host_words": 1184850
+  },
+  "drcraigvideos": {
+   "host_words": 74208,
+   "non_host_fraction": 0.1396,
+   "non_host_words": 12040
+  },
+  "genetically-modified-skeptic": {
+   "host_words": 354394,
+   "non_host_fraction": 0.126,
+   "non_host_words": 51074
+  },
+  "jackie-hill-perry": {
+   "host_words": 79551,
+   "non_host_fraction": 0.2326,
+   "non_host_words": 24112
+  },
+  "jude-3-project": {
+   "host_words": 74278,
+   "non_host_fraction": 0.3623,
+   "non_host_words": 42194
+  },
+  "lil-bill": {
+   "host_words": 484963,
+   "non_host_fraction": 0.0023,
+   "non_host_words": 1124
+  },
+  "marc-coley": {
+   "host_words": 107724,
+   "non_host_fraction": 0.0,
+   "non_host_words": 0
+  },
+  "mike-winger": {
+   "host_words": 161347,
+   "non_host_fraction": 0.2128,
+   "non_host_words": 43620
+  },
+  "mindshift": {
+   "host_words": 221184,
+   "non_host_fraction": 0.0,
+   "non_host_words": 0
+  },
+  "paulogia": {
+   "host_words": 248272,
+   "non_host_fraction": 0.0,
+   "non_host_words": 0
+  },
+  "prophet-of-zod": {
+   "host_words": 296964,
+   "non_host_fraction": 0.0,
+   "non_host_words": 0
+  },
+  "reasonable-faith-org": {
+   "host_words": 130083,
+   "non_host_fraction": 0.167,
+   "non_host_words": 26086
+  },
+  "shannon-q": {
+   "host_words": 294171,
+   "non_host_fraction": 0.0,
+   "non_host_words": 0
+  }
+ },
  "parameters": {
   "collocate_top": 30,
   "kwic_per_cell": 25,
@@ -16,6 +113,13 @@
  },
  "terms": [
   {
+   "dispersion": {
+    "creator_range": 19,
+    "dp": 0.3576,
+    "n_creators": 19,
+    "status": "ok",
+    "weighted": 881.8276
+   },
    "phrase": "community",
    "status": "active",
    "variants": [
@@ -23,11 +127,25 @@
    ]
   },
   {
+   "dispersion": {
+    "creator_range": 15,
+    "dp": 0.3174,
+    "n_creators": 19,
+    "status": "ok",
+    "weighted": 28.4533
+   },
    "phrase": "accountability",
    "status": "active",
    "variants": []
   },
   {
+   "dispersion": {
+    "creator_range": 10,
+    "dp": 0.364,
+    "n_creators": 19,
+    "status": "ok",
+    "weighted": 24.697
+   },
    "phrase": "deconstruction",
    "status": "active",
    "variants": [
@@ -35,11 +153,25 @@
    ]
   },
   {
+   "dispersion": {
+    "creator_range": 19,
+    "dp": 0.3659,
+    "n_creators": 19,
+    "status": "ok",
+    "weighted": 48.2702
+   },
    "phrase": "grace",
    "status": "active",
    "variants": []
   },
   {
+   "dispersion": {
+    "creator_range": 2,
+    "dp": 0.4595,
+    "n_creators": 19,
+    "status": "ok",
+    "weighted": 0.1888
+   },
    "phrase": "purity test",
    "status": "active",
    "variants": [
@@ -48,11 +180,25 @@
    ]
   },
   {
+   "dispersion": {
+    "creator_range": 1,
+    "dp": null,
+    "n_creators": 19,
+    "status": "too-concentrated",
+    "weighted": 0.0
+   },
    "phrase": "bridge city",
    "status": "active",
    "variants": []
   },
   {
+   "dispersion": {
+    "creator_range": 16,
+    "dp": 0.4149,
+    "n_creators": 19,
+    "status": "ok",
+    "weighted": 25.7277
+   },
    "phrase": "do the work",
    "status": "active",
    "variants": [
@@ -60,11 +206,25 @@
    ]
   },
   {
+   "dispersion": {
+    "creator_range": 1,
+    "dp": null,
+    "n_creators": 19,
+    "status": "too-concentrated",
+    "weighted": 0.0
+   },
    "phrase": "moral supremism",
    "status": "active",
    "variants": []
   },
   {
+   "dispersion": {
+    "creator_range": 19,
+    "dp": 0.1336,
+    "n_creators": 19,
+    "status": "ok",
+    "weighted": 406.058
+   },
    "phrase": "truth",
    "status": "watchlist",
    "variants": [
@@ -72,16 +232,37 @@
    ]
   },
   {
+   "dispersion": {
+    "creator_range": 19,
+    "dp": 0.2245,
+    "n_creators": 19,
+    "status": "ok",
+    "weighted": 339.7365
+   },
    "phrase": "evidence",
    "status": "watchlist",
    "variants": []
   },
   {
+   "dispersion": {
+    "creator_range": 19,
+    "dp": 0.1837,
+    "n_creators": 19,
+    "status": "ok",
+    "weighted": 856.3872
+   },
    "phrase": "love",
    "status": "watchlist",
    "variants": []
   },
   {
+   "dispersion": {
+    "creator_range": 18,
+    "dp": 0.1659,
+    "n_creators": 19,
+    "status": "ok",
+    "weighted": 140.6673
+   },
    "phrase": "harm",
    "status": "watchlist",
    "variants": [
@@ -89,6 +270,6 @@
    ]
   }
  ],
- "videos": 2528,
- "words": 11275420
+ "videos": 2953,
+ "words": 10246379
 }

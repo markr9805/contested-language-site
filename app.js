@@ -119,10 +119,22 @@ function renderNav() {
       t.status === status && (!q || t.phrase.toLowerCase().includes(q)));
     if (!terms.length) continue;
     wrap.append(el("div", "term-group-label", label.toUpperCase()));
+    terms.sort((a, b) =>
+      (b.dispersion?.weighted ?? 0) - (a.dispersion?.weighted ?? 0) ||
+      a.phrase.localeCompare(b.phrase));
     for (const t of terms) {
       const b = el("button", "term-btn");
       b.type = "button";
       b.append(el("span", "", t.phrase), el("span", "n", fmt(overallCell(t.phrase).n)));
+      const d = t.dispersion;
+      if (d) {
+        const badge = el("span", "range-badge",
+          `${d.creator_range}/${d.n_creators}`);
+        badge.title = d.status === "too-concentrated"
+          ? "used by too few creators to disperse — likely one creator's idiolect"
+          : `shared across ${d.creator_range} of ${d.n_creators} creators`;
+        b.append(badge);
+      }
       b.dataset.term = t.phrase;
       b.setAttribute("aria-current", String(t.phrase === state.term));
       b.addEventListener("click", () => selectTerm(t.phrase));
@@ -613,6 +625,7 @@ function renderCollocBody(term) {
     ["log-Dice", 1, "Lexical association strength (0–14), comparable across corpus sizes. Above ~7 is a solid collocate."],
     ["PMI", 1, "Pointwise mutual information: how much more often the pair co-occurs than chance. Favors rare pairs — read alongside co-occurrences."],
     ["co-occurrences", 1, `Raw count within a ±${state.meta.parameters.window}-token window. Every count clicks through to its lines.`],
+    ["range", 1, "How many creators keep the term's company here, out of those who use the term at all — high = broadly shared, low = one creator's idiolect."],
     ["evidence", 0, null],
   ];
   for (const [h, num, tip] of ths) {
@@ -625,12 +638,26 @@ function renderCollocBody(term) {
     head.append(th);
   }
   table.append(head);
-  for (const r of prof.collocates) {
+  let rows = prof.collocates;
+  if (g === "overall") {
+    rows = rows.slice().sort((a, b) =>
+      (b.weighted ?? 0) - (a.weighted ?? 0) || (b.logdice - a.logdice));
+  }
+  for (const r of rows) {
     const tr = el("tr", "clickable");
     tr.append(el("td", "", r.collocate.replace(/_/g, " ")));
     tr.append(el("td", "num", r.logdice.toFixed(2)));
     tr.append(el("td", "num", r.pmi.toFixed(2)));
     tr.append(el("td", "num", fmt(r.cooc)));
+    const hasDisp = r.creator_range !== undefined;
+    const rangeTd = el("td", "num", hasDisp ? `${r.creator_range}/${r.n_creators}` : "—");
+    if (hasDisp && r.dp === null) rangeTd.classList.add("muted");
+    rangeTd.title = !hasDisp
+      ? "dispersion is computed across the whole corpus (the overall view)"
+      : r.dp === null
+        ? "co-occurs in too few creators to disperse"
+        : `keeps the term's company across ${r.creator_range} of ${r.n_creators} creators`;
+    tr.append(rangeTd);
     const td = el("td");
     const b = el("button", "lines-btn", `${r.evidence.length} lines →`);
     b.type = "button";

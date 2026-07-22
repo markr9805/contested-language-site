@@ -1,8 +1,45 @@
 {
  "book": "Matthew",
  "verses": {
+  "Matthew 10:33": {
+   "citations": [
+    {
+     "confidence": 0.5333,
+     "context": "What I tell you in the dark, utter in the light, and what you hear whispered, proclaim upon the housetops, and do not fear those who kill the body, but cannot kill the soul. Rather fear him who can destroy both soul and body in hell. Everyone who acknowledges me before men, I also will acknowledge before my father who is in heaven. But whoever denies me before men, I also will deny before my father who is in heaven. The best public Christian witness will exemplify Christian virtue, but not shrink away from proclaiming Christian doctrine.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-27T13:00:38Z",
+     "role": "host",
+     "t": 136.2,
+     "title": "Who is the Best Christian Evangelist Today?",
+     "video_id": "Nn6tVDR5Uf8"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But whosoever shall deny me before men, him will I also deny before my Father which is in heaven.",
+    "WEB": "But whoever denies me before men, I will also deny him before my Father who is in heaven."
+   },
+   "truncated": false
+  },
   "Matthew 10:35": {
    "citations": [
+    {
+     "confidence": 0.52,
+     "context": "It's blessed by God to wage a just war against evil. And the Hamas and the people of Hamas are evil. So Israel is justified in going to the war. Israel is justified in destroying Hamas, and you need to right. He says, I have come to set a man against his father, a daughter against her mother, and a daughter in law against her mother in law. Your enemies will be right in your own household. If you love your father or mother more than you love me, you're not worthy of being mine.",
+     "creator": "belief-it-or-not",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-06-14T15:01:01Z",
+     "role": "unknown",
+     "t": 3530.12,
+     "title": "What Not To Do When Your Child Comes Out | Belief It Or Not",
+     "video_id": "XN53pbBM2hc"
+    },
     {
      "confidence": 0.68,
      "context": "Let's read: Do not think that I came to bring peace on the earth. I did not come to bring peace, but a sword. For I came to turn a man against his father, and a daughter against her mother, and a daughter-in-law against her mother-in-law. Damn, this done got deep. And a person's enemies will be the members of his household.",
@@ -29,9 +66,10 @@
     }
    ],
    "creators": {
+    "belief-it-or-not": 1,
     "darante-lamar": 2
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "For I am come to set a man at variance against his father, and the daughter against her mother, and the daughter in law against her mother in law.",
     "WEB": "For I came to set a man at odds against his father, and a daughter against her mother, and a daughter-in-law against her mother-in-law."
@@ -116,6 +154,18 @@
   "Matthew 10:6": {
    "citations": [
     {
+     "confidence": 0.806,
+     "context": "There's the quote from Jordan Peterson about the swimsuit model, where he's like, sorry, not beautiful, and no amount of authoritarian tolerance is going to change that. I was going to compare that with the story of Jesus and how he handles the Canaanite woman and is calling her a dog because she's different than the ideal image that Jesus was here for the lost sheep of the tribe of Israel. And then the conceding that both do to both groups, like again, pretty on point.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-07-09T14:00:21Z",
+     "role": "host",
+     "t": 996.28,
+     "title": "Jesus Was the First Jordan Peterson | Sacred Word Salad",
+     "video_id": "0mE4Bz2jsXY"
+    },
+    {
      "confidence": 0.75,
      "context": "So the law and the prophets were until John the Baptist, this Jesus says, but after that, it's the kingdom of God, namely compassion. And um, so the Q document is Jewish entirely. At the end, it says Jesus says, do not go to the Gentiles, do not go to the Samaritans, go only to the lost sheep of the house of Israel, which is what uh Ezekiel did uh in going to uh to the sheep of Israel.",
      "creator": "shannon-q",
@@ -179,18 +229,104 @@
    "creators": {
     "cross-examined": 1,
     "darante-lamar": 1,
-    "mindshift": 2,
+    "mindshift": 3,
     "shannon-q": 1
    },
-   "n": 5,
+   "n": 6,
    "text": {
     "KJV": "But go rather to the lost sheep of the house of Israel.",
     "WEB": "Rather, go to the lost sheep of the house of Israel."
    },
    "truncated": false
   },
+  "Matthew 11:10": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "says the Lord Almighty. Yep. So the messenger goes ahead to prepare for the Lord God, right? Yep. But uh, I'm gonna really get discombobulated because here it says, I, my me. I will send my messenger ahead of me, but then when Jesus quotes it, this is the one, Matthew 11:10, about whom it is written, I will send my messenger ahead of you. He changed the pronoun to you, will prepare your way before you. What is Jesus doing with the pronoun?",
+     "creator": "capturing-christianity",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2026-03-14T03:27:24Z",
+     "role": "host",
+     "t": 2153.76,
+     "title": "Exposing Jacob Hansen's Anti-Trinitarian Garbage (w/ Sam Shamoun)",
+     "video_id": "rS_-I5wXEsc"
+    },
+    {
+     "confidence": 1.0,
+     "context": "My messenger will prepare the way before me, and then the Lord will come to his temple. Jesus quotes this in Matthew 11 10 about John, Luke 7 27, and Mark 1 does. Now let's see who that messenger was. For this is he of whom it is written, Behold, I send my messenger before thy face, which shall prepare thy way before thee. So Jesus said.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-01-15T22:12:46Z",
+     "role": "host",
+     "t": 2765.84,
+     "title": "Shamoun vs. Captain Tasaryach | Is Jesus the Most High God?",
+     "video_id": "wpZH7ebqi6k"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "For this is he, of whom it is written, Behold, I send my messenger before thy face, which shall prepare thy way before thee.",
+    "WEB": "For this is he, of whom it is written, ‘Behold, I send my messenger before your face, who will prepare your way before you.’"
+   },
+   "truncated": false
+  },
+  "Matthew 11:27": {
+   "citations": [
+    {
+     "confidence": 0.5294,
+     "context": "So before I let you go, I want to just share this one, and I'm gonna ask you a question right after this. But here I want you to see the promise of our Lord. Matthew 11 27 30. All things have been handed over to me by my Father. Watch the beautiful words of Jesus. I dare any Muslim find me anything similar in the Quran. All things have been handed over to me by my Father. No one knows the Son except the Father, nor does anyone know the Father except the Son, and anyone to whom the Son wills to reveal him.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-01-30T16:19:06Z",
+     "role": "host",
+     "t": 881.92,
+     "title": "The Most Honest Muslim Caller We’ve Ever Had",
+     "video_id": "7xHpBHZnILs"
+    },
+    {
+     "confidence": 0.5294,
+     "context": "So before I let you go, I want to just share this one, and I'm gonna ask you a question right after this. But here I want you to see the promise of our Lord. Matthew 11, 27, 30. All things have been handed over to me by my Father. Watch the beautiful words of Jesus. I dare any Muslim find me anything similar in the Quran. All things have been handed over to me by my Father. No one knows the Son except the Father. Nor does anyone know the Father except the Son, and anyone to whom the Son wills to reveal him.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-01-30T03:39:10Z",
+     "role": "host",
+     "t": 5642.6,
+     "title": "Muslims Still Can't Defeat the Islamic Dilemma (feat. Shamoun and GodLogic)",
+     "video_id": "t3wrhq35W2o"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "All things are delivered unto me of my Father: and no man knoweth the Son, but the Father; neither knoweth any man the Father, save the Son, and he to whomsoever the Son will reveal him.",
+    "WEB": "All things have been delivered to me by my Father. No one knows the Son, except the Father; neither does anyone know the Father, except the Son and he to whom the Son desires to reveal him."
+   },
+   "truncated": false
+  },
   "Matthew 11:30": {
    "citations": [
+    {
+     "confidence": 1.0,
+     "context": "They found that the linen that was on his body was folded. So I'm basically connecting Jesus' resurrection and him folding the linen to John Lennon, who is a beet. And then I say easy the yoke, because we know that Jesus says, uh, to all who are weary and heavy laden, I will give you, uh, take my yoke upon you, for my yoke is easy and my burden is light. Easy the yoke, I am owning it. That's a phonetic device. So when you say yoke, I am owning, you hear yoko ono.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-11-07T17:00:07Z",
+     "role": "host",
+     "t": 1636.76,
+     "title": "Explaining the Lyrics Behind my Album Blameless",
+     "video_id": "3Htdc6QXT_Y"
+    },
     {
      "confidence": 1.0,
      "context": "I don't have to interpret love as attempting to change people, right? All of that, like when once that's lifted off of you, like it's this intense freedom. So Jesus says, right, or Jesus is recorded as having said, you know, take all you who are who are weary laden, all you who are, you know, heavy burdened, take my yoke upon you for my yoke is easy and my burden is light. And I know so many Christians who would say when they became a Christian, oh their burdens were were were were lightened, the load was lightened.",
@@ -202,15 +338,54 @@
      "t": 1055.64,
      "title": "Facing the music, the public deconversion of Phanatik in his own words",
      "video_id": "4GwwAWiwvWg"
+    },
+    {
+     "confidence": 0.5714,
+     "context": "I'm not cruel. I won't embarrass you. I won't humiliate you. We Christians may do that because we suck. So I am gentle and humble of heart. And here's this promise. You will, not maybe, you will find rest for your souls. For my yoke is easy and my burn is light. So I want to challenge you. Muhammad, first, have you cried out to Jesus yet? I I have on occasion. Yeah, recently. Uh, and then uh again, I've been following you guys for a long time from uh David Wood to Sam to God logic to all of you, and then um, but yeah, and uh you know I learned about the satanic verses, then I learned about the dilemma.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-01-30T16:19:06Z",
+     "role": "host",
+     "t": 967.0,
+     "title": "The Most Honest Muslim Caller We’ve Ever Had",
+     "video_id": "7xHpBHZnILs"
     }
    ],
    "creators": {
+    "capturing-christianity": 1,
+    "jackie-hill-perry": 1,
     "shannon-q": 1
    },
-   "n": 1,
+   "n": 3,
    "text": {
     "KJV": "For my yoke is easy, and my burden is light.",
     "WEB": "For my yoke is easy, and my burden is light.”"
+   },
+   "truncated": false
+  },
+  "Matthew 12:31": {
+   "citations": [
+    {
+     "confidence": 0.9067,
+     "context": "Jesus says blasphemy against the Holy Spirit can never have forgiveness and is guilty of an eternal sin, because the opponent said that he has an unclean spirit. Now Matthew chapter twelve, verse thirty-one through thirty-two says, Therefore I say to you, any sin and blasphemy shall be forgiven people, but blasphemy against the spirit shall not be forgiven. Whoever speaks a word against the Son of Man, it shall be forgiven him. But whoever speaks against the Holy Spirit, it shall not be forgiven him, either in this age or in the age to come.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-05-21T17:08:21Z",
+     "role": "host",
+     "t": 70.72,
+     "title": "The Unforgivable Sin Is Worse Than You Think",
+     "video_id": "1ZuqVd88z0w"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Wherefore I say unto you, All manner of sin and blasphemy shall be forgiven unto men: but the blasphemy against the Holy Ghost shall not be forgiven unto men.",
+    "WEB": "Therefore I tell you, every sin and blasphemy will be forgiven men, but the blasphemy against the Spirit will not be forgiven men."
    },
    "truncated": false
   },
@@ -236,6 +411,69 @@
    "text": {
     "KJV": "And whosoever speaketh a word against the Son of man, it shall be forgiven him: but whosoever speaketh against the Holy Ghost, it shall not be forgiven him, neither in this world, neither in the world to come.",
     "WEB": "Whoever speaks a word against the Son of Man, it will be forgiven him; but whoever speaks against the Holy Spirit, it will not be forgiven him, either in this age, or in that which is to come."
+   },
+   "truncated": false
+  },
+  "Matthew 12:35": {
+   "citations": [
+    {
+     "confidence": 0.5455,
+     "context": "How should Christians view cancel culture? Let's start with the words of our Lord in Matthew chapter 12. How can you speak good when you are evil? For out of the abundance of the heart, the mouth speaks. The good man out of his good treasure brings forth good, and the evil man out of his evil treasure brings forth evil. I tell you, on the day of judgment, men will render account for every careless word they utter. For by your words you will be justified, and by your words you will be condemned. Everyone agrees that there should be some consequences for the words we say, where we disagree as on what the consequences should be.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-16T16:45:01Z",
+     "role": "host",
+     "t": 9.36,
+     "title": "How should Christians view cancel culture?",
+     "video_id": "N-iNbw_tAvs"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "A good man out of the good treasure of the heart bringeth forth good things: and an evil man out of the evil treasure bringeth forth evil things.",
+    "WEB": "The good man out of his good treasure brings out good things, and the evil man out of his evil treasure brings out evil things."
+   },
+   "truncated": false
+  },
+  "Matthew 12:37": {
+   "citations": [
+    {
+     "confidence": 0.8042,
+     "context": "The word against means that something is you're you're in a fight. This is uh against me. It means family. By your words, you will be acquitted, and by your words you will be condemned. Acquitted is the opposite of condemned. Acquitted means to be set free, to have the charges dropped. It's legal language once again. We feel forsaken.",
+     "creator": "belief-it-or-not",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-04-23T14:00:00Z",
+     "role": "host",
+     "t": 1893.08,
+     "title": "Why Do Pastors Talk Like That? | Belief It Or Not",
+     "video_id": "-5TIx3NrIA8"
+    },
+    {
+     "confidence": 0.7692,
+     "context": "For out of the abundance of the heart, the mouth speaks. The good man out of his good treasure brings forth good, and the evil man out of his evil treasure brings forth evil. I tell you, on the day of judgment, men will render account for every careless word they utter. For by your words you will be justified, and by your words you will be condemned. Everyone agrees that there should be some consequences for the words we say, where we disagree as on what the consequences should be.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-16T16:45:01Z",
+     "role": "host",
+     "t": 20.16,
+     "title": "How should Christians view cancel culture?",
+     "video_id": "N-iNbw_tAvs"
+    }
+   ],
+   "creators": {
+    "belief-it-or-not": 1,
+    "counsel-of-trent": 1
+   },
+   "n": 2,
+   "text": {
+    "KJV": "For by thy words thou shalt be justified, and by thy words thou shalt be condemned.",
+    "WEB": "For by your words you will be justified, and by your words you will be condemned.”"
    },
    "truncated": false
   },
@@ -339,6 +577,156 @@
    },
    "truncated": false
   },
+  "Matthew 16:13": {
+   "citations": [
+    {
+     "confidence": 0.7826,
+     "context": "If memory serves, there's a um a uh a river that comes out of the rocks right there. And so what they did is they build a temple around it, and then they give credit to false gods, as if the gods are giving them that water. So that's the location where Jesus is. Maybe he was standing right before it when he asked his disciples the following question. When Jesus came into the region of Caesarea Philippi, he asked his disciples, saying, Who do men say that I, the Son of Man, am? Who do people say that I am, right? Who is Jesus? This is this is the question that Vivek was circling around in his response.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-01T21:56:56Z",
+     "role": "host",
+     "t": 726.8,
+     "title": "Vivek's Pagan Jesus Isn't Jesus: 10 Qs with Mike Winger (Ep 75)",
+     "video_id": "w4Es5-TAB-Q"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "When Jesus came into the coasts of Caesarea Philippi, he asked his disciples, saying, Whom do men say that I the Son of man am?",
+    "WEB": "Now when Jesus came into the parts of Caesarea Philippi, he asked his disciples, saying, “Who do men say that I, the Son of Man, am?”"
+   },
+   "truncated": false
+  },
+  "Matthew 16:14": {
+   "citations": [
+    {
+     "confidence": 0.7143,
+     "context": "When Jesus came into the region of Caesarea Philippi, he asked his disciples, saying, Who do men say that I, the Son of Man, am? Who do people say that I am, right? Who is Jesus? This is this is the question that Vivek was circling around in his response. So they said, Some say John the Baptist, some Elijah, and others Jeremiah or one of the prophets. He said to them, But who do you say that I am? Right? Because you can't just turn Jesus into whatever you want. Who he is actually matters. And actually, he's none of those things. So Simon Peter answered and said, You are the Christ, the Son, the not us, Son, the Son of the living God.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-01T21:56:56Z",
+     "role": "host",
+     "t": 744.48,
+     "title": "Vivek's Pagan Jesus Isn't Jesus: 10 Qs with Mike Winger (Ep 75)",
+     "video_id": "w4Es5-TAB-Q"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And they said, Some say that thou art John the Baptist: some, Elias; and others, Jeremias, or one of the prophets.",
+    "WEB": "They said, “Some say John the Baptizer, some, Elijah, and others, Jeremiah or one of the prophets.”"
+   },
+   "truncated": false
+  },
+  "Matthew 16:15": {
+   "citations": [
+    {
+     "confidence": 1.0,
+     "context": "So that's the location where Jesus is. Maybe he was standing right before it when he asked his disciples the following question. When Jesus came into the region of Caesarea Philippi, he asked his disciples, saying, Who do men say that I, the Son of Man, am? Who do people say that I am, right? Who is Jesus? This is this is the question that Vivek was circling around in his response. So they said, Some say John the Baptist, some Elijah, and others Jeremiah or one of the prophets. He said to them, But who do you say that I am?",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-01T21:56:56Z",
+     "role": "host",
+     "t": 738.08,
+     "title": "Vivek's Pagan Jesus Isn't Jesus: 10 Qs with Mike Winger (Ep 75)",
+     "video_id": "w4Es5-TAB-Q"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "He saith unto them, But whom say ye that I am?",
+    "WEB": "He said to them, “But who do you say that I am?”"
+   },
+   "truncated": false
+  },
+  "Matthew 16:16": {
+   "citations": [
+    {
+     "confidence": 0.5385,
+     "context": "So they said, Some say John the Baptist, some Elijah, and others Jeremiah or one of the prophets. He said to them, But who do you say that I am? Right? Because you can't just turn Jesus into whatever you want. Who he is actually matters. And actually, he's none of those things. So Simon Peter answered and said, You are the Christ, the Son, the not us, Son, the Son of the living God. Now, this is a two-part answer, and it's super important. Every time Jesus is called the Christ, we just let it wash over us, like we've heard it a million times.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-05-01T21:56:56Z",
+     "role": "host",
+     "t": 759.4,
+     "title": "Vivek's Pagan Jesus Isn't Jesus: 10 Qs with Mike Winger (Ep 75)",
+     "video_id": "w4Es5-TAB-Q"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And Simon Peter answered and said, Thou art the Christ, the Son of the living God.",
+    "WEB": "Simon Peter answered, “You are the Christ, the Son of the living God.”"
+   },
+   "truncated": false
+  },
+  "Matthew 16:17": {
+   "citations": [
+    {
+     "confidence": 0.5652,
+     "context": "And so this is this is this is key. This is important. And he does it where? In the midst of all these pagan idols, they're at least nearby, if not in not in view at the moment. So Jesus answered and said to him, Blessed are you, Simon Barjona, Simon Son of Jonah, for flesh and blood has not revealed this to you, but my father who's in heaven. That's the G that's Jesus, man. That's the real Jesus. And so Vivek, uh, if if you happen to see this, I would just encourage you. Um I would not be insulted personally or offended or something like that, or feel that my Christianity was at danger if you were to say, Yeah, I don't believe in Jesus.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-01T21:56:56Z",
+     "role": "host",
+     "t": 846.04,
+     "title": "Vivek's Pagan Jesus Isn't Jesus: 10 Qs with Mike Winger (Ep 75)",
+     "video_id": "w4Es5-TAB-Q"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And Jesus answered and said unto him, Blessed art thou, Simon Barjona: for flesh and blood hath not revealed it unto thee, but my Father which is in heaven.",
+    "WEB": "Jesus answered him, “Blessed are you, Simon Bar Jonah, for flesh and blood has not revealed this to you, but my Father who is in heaven."
+   },
+   "truncated": false
+  },
+  "Matthew 16:18": {
+   "citations": [
+    {
+     "confidence": 0.5385,
+     "context": "I like to think about things, and I've never thought about this one specifically. Um Matthew 16, 18. Jesus says, I tell you, Peter, I tell you, you are Peter, and on this rock, I will build my church, and the gates of hell shall not prevail against it. So it'd be difficult there in that passage to consider it a local church, wouldn't it?",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-05-22T21:56:39Z",
+     "role": "host",
+     "t": 3262.0,
+     "title": "Why You Won't Be Seeing Much of Me for a While: 10 Qs with Mike Winger (Ep 77)",
+     "video_id": "iVseC51ZwUM"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it.",
+    "WEB": "I also tell you that you are Peter, and on this rock I will build my assembly, and the gates of Hades will not prevail against it."
+   },
+   "truncated": false
+  },
   "Matthew 16:24": {
    "citations": [
     {
@@ -389,6 +777,56 @@
    },
    "truncated": false
   },
+  "Matthew 18:10": {
+   "citations": [
+    {
+     "confidence": 0.5556,
+     "context": "They stand in attendance. They hear him audibly. How do we know this? Sorry, I had to make this complex because he wanted to the answer, and then the people want to know what the objection is. Matthew 18, 10. See that you do not despise one of these little ones, for I say to you that in heaven, their angels always behold the face of my father who is in heaven. So we know angels are in heaven, so they behold God and his visible glory, something that's not true of us.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-19T04:36:43Z",
+     "role": "host",
+     "t": 7214.56,
+     "title": "Defending the Trinity (Major Crash Out at the End)",
+     "video_id": "qC-v7RCdHe8"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Take heed that ye despise not one of these little ones; for I say unto you, That in heaven their angels do always behold the face of my Father which is in heaven.",
+    "WEB": "See that you don’t despise one of these little ones, for I tell you that in heaven their angels always see the face of my Father who is in heaven."
+   },
+   "truncated": false
+  },
+  "Matthew 18:15": {
+   "citations": [
+    {
+     "confidence": 0.5833,
+     "context": "Let's look at it. There's more details I should probably cover. Best thing to do is just look at Matthew 18. Matthew 18 is one of the most abused passages of scripture when it comes to dealing with holding people actually accountable in the church. So if your brother sins against you, go and tell him his fault between you and him alone. If he listens to you, you've gained your brother. If he does not listen, take one or two others along with you that every charge may be established by the evidence of two or three witnesses. Okay. Step one, you go alone because he sinned against you.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-04-10T22:12:17Z",
+     "role": "host",
+     "t": 2823.52,
+     "title": "Are images of Jesus breaking the 2nd commandment? 10 Qs with Mike Winger (Ep 73)",
+     "video_id": "L5EMUvhV94s"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Moreover if thy brother shall trespass against thee, go and tell him his fault between thee and him alone: if he shall hear thee, thou hast gained thy brother.",
+    "WEB": "“If your brother sins against you, go, show him his fault between you and him alone. If he listens to you, you have gained back your brother."
+   },
+   "truncated": false
+  },
   "Matthew 18:5": {
    "citations": [
     {
@@ -411,6 +849,131 @@
    "text": {
     "KJV": "And whoso shall receive one such little child in my name receiveth me.",
     "WEB": "Whoever receives one such little child in my name receives me,"
+   },
+   "truncated": false
+  },
+  "Matthew 18:6": {
+   "citations": [
+    {
+     "confidence": 0.9552,
+     "context": "And I feel like when Jesus is saying that, it's like a sick, twisted joke that only he gets. You know, but he also, and this is a scripture that I remember, I remember this one because I was like, yes. He says, if anyone causes one of these little ones, those who believe in me to stumble, it would be better for them to have a large millstone hung around their neck and to be drowned in the depths of the sea.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-12-04T19:13:28Z",
+     "role": "host",
+     "t": 188.52,
+     "title": "Does God Love The Kids",
+     "video_id": "-T-pAnSk22E"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But whoso shall offend one of these little ones which believe in me, it were better for him that a millstone were hanged about his neck, and that he were drowned in the depth of the sea.",
+    "WEB": "but whoever causes one of these little ones who believe in me to stumble, it would be better for him if a huge millstone were hung around his neck and that he were sunk in the depths of the sea."
+   },
+   "truncated": false
+  },
+  "Matthew 18:8": {
+   "citations": [
+    {
+     "confidence": 0.8056,
+     "context": "But I say to you that everyone who looks at a woman with lust has already committed adultery with her in his heart. If your right eye causes you to sin, tear it out and throw it away. It is better for you to lose one of your members than your whole body to be thrown into hell. And if your right hand causes you to sin, cut it off and throw it away. It is better for you to lose one of your members than for your whole body to go into hell. These verses are fascinating, by the way. You get thought crime, you get the argument about if it's hyperbolic, you get Jesus talking about hell.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-07-09T14:00:21Z",
+     "role": "host",
+     "t": 492.56,
+     "title": "Jesus Was the First Jordan Peterson | Sacred Word Salad",
+     "video_id": "0mE4Bz2jsXY"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Wherefore if thy hand or thy foot offend thee, cut them off, and cast them from thee: it is better for thee to enter into life halt or maimed, rather than having two hands or two feet to be cast into everlasting fire.",
+    "WEB": "If your hand or your foot causes you to stumble, cut it off and cast it from you. It is better for you to enter into life maimed or crippled, rather than having two hands or two feet to be cast into the eternal fire."
+   },
+   "truncated": false
+  },
+  "Matthew 18:9": {
+   "citations": [
+    {
+     "confidence": 0.8033,
+     "context": "And it reminded me of this verse from Jesus, Matthew 5 27 through 30. You have heard that it was said, you shall not commit adultery. But I say to you that everyone who looks at a woman with lust has already committed adultery with her in his heart. If your right eye causes you to sin, tear it out and throw it away. It is better for you to lose one of your members than your whole body to be thrown into hell. And if your right hand causes you to sin, cut it off and throw it away. It is better for you to lose one of your members than for your whole body to go into hell.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-07-09T14:00:21Z",
+     "role": "host",
+     "t": 484.24,
+     "title": "Jesus Was the First Jordan Peterson | Sacred Word Salad",
+     "video_id": "0mE4Bz2jsXY"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And if thine eye offend thee, pluck it out, and cast it from thee: it is better for thee to enter into life with one eye, rather than having two eyes to be cast into hell fire.",
+    "WEB": "If your eye causes you to stumble, pluck it out and cast it from you. It is better for you to enter into life with one eye, rather than having two eyes to be cast into the Gehenna of fire."
+   },
+   "truncated": false
+  },
+  "Matthew 19:12": {
+   "citations": [
+    {
+     "confidence": 0.8608,
+     "context": "And so angels are supposed to be asexual. That's how the eternities are going to be for the faithful. Paul is saying, you know, we should um uh I wish that everybody were were like me. You have Matthew 19, where Jesus says, some people are born eunuchs, some people are made eunuchs by men, some people make themselves eunuch for the sakes for the sake of the kingdom of heaven, which would seem to indicate that uh asexuality would be the higher law, the priority.",
+     "creator": "genetically-modified-skeptic",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-07-03T15:48:37Z",
+     "role": "unknown",
+     "t": 4729.6,
+     "title": "I Took A Gay Conversion Class for Christian Teens. It Was Awful.",
+     "video_id": "-QnyYMEy3HA"
+    }
+   ],
+   "creators": {
+    "genetically-modified-skeptic": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For there are some eunuchs, which were so born from their mother's womb: and there are some eunuchs, which were made eunuchs of men: and there be eunuchs, which have made themselves eunuchs for the kingdom of heaven's sake. He that is able to receive it, let him receive it.",
+    "WEB": "For there are eunuchs who were born that way from their mother’s womb, and there are eunuchs who were made eunuchs by men; and there are eunuchs who made themselves eunuchs for the Kingdom of Heaven’s sake. He who is able to receive it, let him receive it.”"
+   },
+   "truncated": false
+  },
+  "Matthew 19:14": {
+   "citations": [
+    {
+     "confidence": 0.9149,
+     "context": "And I call them contradictions, but these are the things that we typically highlight as the character of God towards children. Um, and it's typically these verses we get from Jesus, um, such as him in Matthew chapter 19, where he says, Let the children come to me and do not hinder them, for the kingdom of heaven belongs to such as these, you know.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-12-04T19:13:28Z",
+     "role": "host",
+     "t": 158.2,
+     "title": "Does God Love The Kids",
+     "video_id": "-T-pAnSk22E"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But Jesus said, Suffer little children, and forbid them not, to come unto me: for of such is the kingdom of heaven.",
+    "WEB": "But Jesus said, “Allow the little children, and don’t forbid them to come to me; for the Kingdom of Heaven belongs to ones like these.”"
    },
    "truncated": false
   },
@@ -464,6 +1027,31 @@
    },
    "truncated": false
   },
+  "Matthew 19:26": {
+   "citations": [
+    {
+     "confidence": 0.6429,
+     "context": "And they say, well, then who can be saved for them? Surely the rich, the noble. These are the ones that enter the kingdom of God. And Jesus says, with men, this is impossible, but with God all things are possible. He's talking there about God's saving power, that God can save even the rich who are enamored with materialism and wealth, that they are not beyond the reach of God's mercy.",
+     "creator": "drcraigvideos",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-01-16T22:00:49Z",
+     "role": "host",
+     "t": 70.24,
+     "title": "Are ALL things possible with God?",
+     "video_id": "jtvkdzNARyA"
+    }
+   ],
+   "creators": {
+    "drcraigvideos": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But Jesus beheld them, and said unto them, With men this is impossible; but with God all things are possible.",
+    "WEB": "Looking at them, Jesus said, “With men this is impossible, but with God all things are possible.”"
+   },
+   "truncated": false
+  },
   "Matthew 19:29": {
    "citations": [
     {
@@ -489,8 +1077,107 @@
    },
    "truncated": false
   },
+  "Matthew 19:5": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "And this is exactly what Jesus taught. Jesus said, for this reason, a man will leave his father and mother and be joined to his wife, and the two shall become one flesh, quoting from Genesis 1, the creation order that God established right at the beginning. So this teaching isn't at all unique to Paul.",
+     "creator": "drcraigvideos",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-10-17T19:00:18Z",
+     "role": "host",
+     "t": 109.36,
+     "title": "What Does The Bible Say About Homosexuality? #Shorts",
+     "video_id": "DhzzvAy2kVY"
+    }
+   ],
+   "creators": {
+    "drcraigvideos": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And said, For this cause shall a man leave father and mother, and shall cleave to his wife: and they twain shall be one flesh?",
+    "WEB": "and said, ‘For this cause a man shall leave his father and mother, and shall be joined to his wife; and the two shall become one flesh’?"
+   },
+   "truncated": false
+  },
+  "Matthew 20:1": {
+   "citations": [
+    {
+     "confidence": 0.5385,
+     "context": "Let's look at the two parables. And let's understand what your uh dilemma is here for everybody to get on the same page. So Jesus, when he tells parables, if anybody's kind of new to this Christian stuff, Jesus uses stories to teach truths, you know, and he'll tell a story like this one. He goes, The kingdom of heaven is like a master of a house who went out early in the morning to hire laborers for his vineyard. Now, the idea here is that it's harvest time. Now, in farming communities, they know harvest time, you literally hire a ton of extra workers for a brief period of time, and you have like this little window to harvest all your harvesting.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-01T21:56:56Z",
+     "role": "host",
+     "t": 1493.92,
+     "title": "Vivek's Pagan Jesus Isn't Jesus: 10 Qs with Mike Winger (Ep 75)",
+     "video_id": "w4Es5-TAB-Q"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For the kingdom of heaven is like unto a man that is an householder, which went out early in the morning to hire labourers into his vineyard.",
+    "WEB": "“For the Kingdom of Heaven is like a man who was the master of a household, who went out early in the morning to hire laborers for his vineyard."
+   },
+   "truncated": false
+  },
+  "Matthew 20:2": {
+   "citations": [
+    {
+     "confidence": 0.5333,
+     "context": "Now, the idea here is that it's harvest time. Now, in farming communities, they know harvest time, you literally hire a ton of extra workers for a brief period of time, and you have like this little window to harvest all your harvesting. You know, it's like go time. So after agreeing with the laborers for a denarius a day, typical amount for a day at the time for them, he sent them into his vineyard. And going out about the third hour, he saw others standing idle in the marketplace. And to them he said, You go into the vineyard too, and whatever is right, I will give you.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-01T21:56:56Z",
+     "role": "host",
+     "t": 1514.48,
+     "title": "Vivek's Pagan Jesus Isn't Jesus: 10 Qs with Mike Winger (Ep 75)",
+     "video_id": "w4Es5-TAB-Q"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And when he had agreed with the labourers for a penny a day, he sent them into his vineyard.",
+    "WEB": "When he had agreed with the laborers for a denarius a day, he sent them into his vineyard."
+   },
+   "truncated": false
+  },
   "Matthew 20:28": {
    "citations": [
+    {
+     "confidence": 0.6667,
+     "context": "So it's true, uh, but so what? 1,993 years ago this Sunday, Jesus rose from the dead. So what? Well, the best news of all, someone actually did die for you. And as he said, the Son of Man did not come to be served but to serve and to give his life as a ransom for many. A ransom. What does that mean? He sacrificed his perfect self who had never sinned for us.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-04-01T02:32:11Z",
+     "role": "host",
+     "t": 4803.48,
+     "title": "'Change My Mind' LIVE Q&A from Ole Miss (Oxford, MS)",
+     "video_id": "2FBZ3gpea7I"
+    },
+    {
+     "confidence": 0.6667,
+     "context": "It's true, so what if it's true? So what if Christianity is true? Well, then your life really does have meaning. Your life really does have purpose. And the reason for which Jesus came, he told us, for even the Son of Man did not come to be served, but to serve and to give his life as a ransom for many. What's this business about a ransom? The ransom is the fact that since God is infinitely just and none of us have been infinitely just, the only way that God cannot punish us is if he punishes an innocent substitute in our place.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-04-08T03:13:35Z",
+     "role": "host",
+     "t": 5006.44,
+     "title": "'Change My Mind' LIVE Q&A from Louisiana Christian Univ. (Pineville, LA)",
+     "video_id": "GyUDIuTJmOs"
+    },
     {
      "confidence": 0.6667,
      "context": "Some of you the next few days it could be. I don't know. 50 years tops for some of you. So what do we do with that? The Son of Man did not come to be served, but to serve and to give his life as a ransom for many. Why a ransom? Because if God is infinitely just, and he is, he can't allow unjust people to go unpunished. And all of us have been unjust. Look, we've got two possibilities in the afterlife.",
@@ -517,12 +1204,37 @@
     }
    ],
    "creators": {
-    "cross-examined": 2
+    "cross-examined": 4
    },
-   "n": 2,
+   "n": 4,
    "text": {
     "KJV": "Even as the Son of man came not to be ministered unto, but to minister, and to give his life a ransom for many.",
     "WEB": "even as the Son of Man came not to be served, but to serve, and to give his life as a ransom for many.”"
+   },
+   "truncated": false
+  },
+  "Matthew 20:3": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "You know, it's like go time. So after agreeing with the laborers for a denarius a day, typical amount for a day at the time for them, he sent them into his vineyard. And going out about the third hour, he saw others standing idle in the marketplace. And to them he said, You go into the vineyard too, and whatever is right, I will give you. So he doesn't tell them how much he'll give him, he just says whatever's right. So they went out. So they went. Uh going out again about the sixth hour and the ninth hour, he did the same.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-01T21:56:56Z",
+     "role": "host",
+     "t": 1522.8,
+     "title": "Vivek's Pagan Jesus Isn't Jesus: 10 Qs with Mike Winger (Ep 75)",
+     "video_id": "w4Es5-TAB-Q"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And he went out about the third hour, and saw others standing idle in the marketplace,",
+    "WEB": "He went out about the third hour, and saw others standing idle in the marketplace."
    },
    "truncated": false
   },
@@ -560,6 +1272,43 @@
    "text": {
     "KJV": "For many are called, but few are chosen.",
     "WEB": "For many are called, but few chosen.”"
+   },
+   "truncated": false
+  },
+  "Matthew 22:30": {
+   "citations": [
+    {
+     "confidence": 0.8727,
+     "context": "Uh and when we get into the New Testament, the sexual sexuality is in Matthew and in Paul is derided. The kingdom of heaven is going to be asexual. You know, there will be no marrying, no giving in marriage, everybody will be as the angels of heaven. This is kind of a reflection of the Enochic notion of the angels committing this horrific sin by having sex with human women. And so angels are supposed to be asexual. That's how the eternities are going to be for the faithful.",
+     "creator": "genetically-modified-skeptic",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-07-03T15:48:37Z",
+     "role": "unknown",
+     "t": 4706.64,
+     "title": "I Took A Gay Conversion Class for Christian Teens. It Was Awful.",
+     "video_id": "-QnyYMEy3HA"
+    },
+    {
+     "confidence": 0.5,
+     "context": "Jesus also spoke of both the dead and the living being given new bodies at the end of time. In Mark, Matthew, and Luke, Jesus speaks on what people will do with their resurrection bodies, specifically in relation to marriage. For in the resurrection, people neither marry nor are given in marriage, but are like angels of God in heaven. Like the angels in heaven. Huh. Do these angels get married? No. Do they have sex?",
+     "creator": "genetically-modified-skeptic",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-10-28T14:48:54Z",
+     "role": "host",
+     "t": 966.68,
+     "title": "Ancient Christian Beliefs About Sex Were WILD",
+     "video_id": "F5KcB-Q7niU"
+    }
+   ],
+   "creators": {
+    "genetically-modified-skeptic": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "For in the resurrection they neither marry, nor are given in marriage, but are as the angels of God in heaven.",
+    "WEB": "For in the resurrection they neither marry nor are given in marriage, but are like God’s angels in heaven."
    },
    "truncated": false
   },
@@ -651,6 +1400,167 @@
    },
    "truncated": false
   },
+  "Matthew 22:41": {
+   "citations": [
+    {
+     "confidence": 1.0,
+     "context": "Have some fun. Have some fun, Sam. I am shoot, man, shoot. You know I'm having fun. This is a psalm that Jesus applies to himself. Matthew 22, 41 to 46. Now, while the Pharisees were gathered together, Jesus asked them a question, saying, What do you think about the Christ? Whose son is he? They said to him, the son of David. And he said to them, Then how does David in the Spirit call him Lord? saying, The Lord said to my Lord, sit at my right hand until I put your enemies beneath your feet.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-03-14T03:27:24Z",
+     "role": "host",
+     "t": 2598.08,
+     "title": "Exposing Jacob Hansen's Anti-Trinitarian Garbage (w/ Sam Shamoun)",
+     "video_id": "rS_-I5wXEsc"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "While the Pharisees were gathered together, Jesus asked them,",
+    "WEB": "Now while the Pharisees were gathered together, Jesus asked them a question,"
+   },
+   "truncated": false
+  },
+  "Matthew 22:42": {
+   "citations": [
+    {
+     "confidence": 0.6,
+     "context": "Have some fun. Have some fun, Sam. I am shoot, man, shoot. You know I'm having fun. This is a psalm that Jesus applies to himself. Matthew 22, 41 to 46. Now, while the Pharisees were gathered together, Jesus asked them a question, saying, What do you think about the Christ? Whose son is he? They said to him, the son of David. And he said to them, Then how does David in the Spirit call him Lord? saying, The Lord said to my Lord, sit at my right hand until I put your enemies beneath your feet.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-03-14T03:27:24Z",
+     "role": "host",
+     "t": 2598.08,
+     "title": "Exposing Jacob Hansen's Anti-Trinitarian Garbage (w/ Sam Shamoun)",
+     "video_id": "rS_-I5wXEsc"
+    },
+    {
+     "confidence": 1.0,
+     "context": "That's what the root means. What did Christ excuse me? What did David say in Psalms 110? When he saw in the spirit, he said, The Lord one said unto my Lord, too. So even Christ in spirit saw, excuse me, even David in spirit saw Christ, which is echo in Matthew's 22nd chapter, when Christ asked the disciples in Matthew 22 and starting at 41, when Christ said, verse 42, saying, What think ye of Christ, whose son is he?",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-01-15T22:12:46Z",
+     "role": "unknown",
+     "t": 2091.08,
+     "title": "Shamoun vs. Captain Tasaryach | Is Jesus the Most High God?",
+     "video_id": "wpZH7ebqi6k"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "Saying, What think ye of Christ? whose son is he? They say unto him, The son of David.",
+    "WEB": "saying, “What do you think of the Christ? Whose son is he?” They said to him, “Of David.”"
+   },
+   "truncated": false
+  },
+  "Matthew 22:43": {
+   "citations": [
+    {
+     "confidence": 0.5833,
+     "context": "Matthew 22, 41 to 46. Now, while the Pharisees were gathered together, Jesus asked them a question, saying, What do you think about the Christ? Whose son is he? They said to him, the son of David. And he said to them, Then how does David in the Spirit call him Lord? saying, The Lord said to my Lord, sit at my right hand until I put your enemies beneath your feet. Therefore, David calls him Lord. How is he a son? And no one is able to answer him a word, nor did anyone dare from that day on to ask him another question now.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-03-14T03:27:24Z",
+     "role": "host",
+     "t": 2607.36,
+     "title": "Exposing Jacob Hansen's Anti-Trinitarian Garbage (w/ Sam Shamoun)",
+     "video_id": "rS_-I5wXEsc"
+    },
+    {
+     "confidence": 1.0,
+     "context": "They say unto him, the son of David. He saith unto them, How then doth David in spirit call him Lord, saying, The Lord said unto my Lord, sit thou in the right hand until I make thine enemies thy footstool. So even in David's prophecy about Christ, which is his root, he still saw the Father or the Most High, and then he saw another Lord, which is Christ.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-01-15T22:12:46Z",
+     "role": "unknown",
+     "t": 2113.64,
+     "title": "Shamoun vs. Captain Tasaryach | Is Jesus the Most High God?",
+     "video_id": "wpZH7ebqi6k"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "He saith unto them, How then doth David in spirit call him Lord, saying,",
+    "WEB": "He said to them, “How then does David in the Spirit call him Lord, saying,"
+   },
+   "truncated": false
+  },
+  "Matthew 22:44": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "They say unto him, the son of David. He saith unto them, How then doth David in spirit call him Lord, saying, The Lord said unto my Lord, sit thou in the right hand until I make thine enemies thy footstool. So even in David's prophecy about Christ, which is his root, he still saw the Father or the Most High, and then he saw another Lord, which is Christ.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-01-15T22:12:46Z",
+     "role": "unknown",
+     "t": 2113.64,
+     "title": "Shamoun vs. Captain Tasaryach | Is Jesus the Most High God?",
+     "video_id": "wpZH7ebqi6k"
+    },
+    {
+     "confidence": 0.75,
+     "context": "Because even the passage that you cite, it's the Son who's going to destroy all things and subject it to the Father. So if I follow your logic, the Father is inferior to the Son. In the Psalms 11 that you quoted, does it not say the Lord said unto my Lord, sit thou at my right hand till I make thine enemies thy footstool? Yes or no? Sure. Now can I expand on that? Oh, yeah, yeah. Yeah, I told you you can answer however you want.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-01-15T22:12:46Z",
+     "role": "unknown",
+     "t": 5915.36,
+     "title": "Shamoun vs. Captain Tasaryach | Is Jesus the Most High God?",
+     "video_id": "wpZH7ebqi6k"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "The LORD said unto my Lord, Sit thou on my right hand, till I make thine enemies thy footstool?",
+    "WEB": "‘The Lord said to my Lord, sit on my right hand, until I make your enemies a footstool for your feet’?"
+   },
+   "truncated": false
+  },
+  "Matthew 22:45": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "Whose son is he? They said to him, the son of David. And he said to them, Then how does David in the Spirit call him Lord? saying, The Lord said to my Lord, sit at my right hand until I put your enemies beneath your feet. Therefore, David calls him Lord. How is he a son? And no one is able to answer him a word, nor did anyone dare from that day on to ask him another question now. Now pay attention. Christ says this is about the Christ. David, by the Spirit, uttered these words and wrote these words about the Christ.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-03-14T03:27:24Z",
+     "role": "host",
+     "t": 2615.52,
+     "title": "Exposing Jacob Hansen's Anti-Trinitarian Garbage (w/ Sam Shamoun)",
+     "video_id": "rS_-I5wXEsc"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "If David then call him Lord, how is he his son?",
+    "WEB": "“If then David calls him Lord, how is he his son?”"
+   },
+   "truncated": false
+  },
   "Matthew 23:24": {
    "citations": [
     {
@@ -683,6 +1593,18 @@
      "creator": "cross-examined",
      "detection_method": "shingle_match",
      "matched_translation": "WEB",
+     "published_at": "2026-04-08T03:13:35Z",
+     "role": "host",
+     "t": 6010.92,
+     "title": "'Change My Mind' LIVE Q&A from Louisiana Christian Univ. (Pineville, LA)",
+     "video_id": "GyUDIuTJmOs"
+    },
+    {
+     "confidence": 0.5556,
+     "context": "Never try that with a sibling, by the way. I mean, Jesus was tough. And then just read Matthew chapter 23. Woe to you, scribes and Pharisees, you hypocrites. You strain out a gnat and swallow a camel. Oh, you look great on the outside. You're whitewashed tombs, but on the inside, you're full of dead men's bones. You go a mile to make a convert, and then once you make them a convert, you make them twice as much a son of hell as you are. How will you avoid being condemned to hell?",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
      "published_at": "2026-06-10T22:00:11Z",
      "role": "host",
      "t": 110.0,
@@ -691,12 +1613,137 @@
     }
    ],
    "creators": {
-    "cross-examined": 3
+    "cross-examined": 4
    },
-   "n": 3,
+   "n": 4,
    "text": {
     "KJV": "Ye blind guides, which strain at a gnat, and swallow a camel.",
     "WEB": "You blind guides, who strain out a gnat, and swallow a camel!"
+   },
+   "truncated": false
+  },
+  "Matthew 23:25": {
+   "citations": [
+    {
+     "confidence": 0.8207,
+     "context": "You know that Jesus was betrayed by one of his best friends? By one of his best friends? It's best friend. Not best friend. By one of his best friends? Hypocrites, for you were so careful to clean the outside of the cup and dish, but inside you were filthy for the cup and dish. The classic cup and dish. Can you pass me the cup and dish? The cup and dish from Cavendish. Oh, yeah, the Cavendish cup and dish? The cup and dish. He also pronounces his name really strangely.",
+     "creator": "belief-it-or-not",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-04-23T14:00:00Z",
+     "role": "host",
+     "t": 2132.08,
+     "title": "Why Do Pastors Talk Like That? | Belief It Or Not",
+     "video_id": "-5TIx3NrIA8"
+    }
+   ],
+   "creators": {
+    "belief-it-or-not": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Woe unto you, scribes and Pharisees, hypocrites! for ye make clean the outside of the cup and of the platter, but within they are full of extortion and excess.",
+    "WEB": "“Woe to you, scribes and Pharisees, hypocrites! For you clean the outside of the cup and of the platter, but within they are full of extortion and unrighteousness."
+   },
+   "truncated": false
+  },
+  "Matthew 23:26": {
+   "citations": [
+    {
+     "confidence": 0.824,
+     "context": "You know that Jesus was betrayed by one of his best friends? By one of his best friends? It's best friend. Not best friend. By one of his best friends? Hypocrites, for you were so careful to clean the outside of the cup and dish, but inside you were filthy for the cup and dish. The classic cup and dish. Can you pass me the cup and dish? The cup and dish from Cavendish. Oh, yeah, the Cavendish cup and dish? The cup and dish. He also pronounces his name really strangely.",
+     "creator": "belief-it-or-not",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-04-23T14:00:00Z",
+     "role": "host",
+     "t": 2132.08,
+     "title": "Why Do Pastors Talk Like That? | Belief It Or Not",
+     "video_id": "-5TIx3NrIA8"
+    }
+   ],
+   "creators": {
+    "belief-it-or-not": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Thou blind Pharisee, cleanse first that which is within the cup and platter, that the outside of them may be clean also.",
+    "WEB": "You blind Pharisee, first clean the inside of the cup and of the platter, that its outside may become clean also."
+   },
+   "truncated": false
+  },
+  "Matthew 24:13": {
+   "citations": [
+    {
+     "confidence": 1.0,
+     "context": "But he who endures to the end will be saved. But when you see the desolating sacrilege set up where it ought not to be, let the reader understand. Then let those who are in Judea flee to the mountains.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-07-19T15:55:55Z",
+     "role": "host",
+     "t": 708.8,
+     "title": "NEW SECTION || Doctrine of The Last Things Part 1: The Return of Christ || Defenders LIVE!",
+     "video_id": "C-jXn8puJDI"
+    },
+    {
+     "confidence": 0.8571,
+     "context": "Jesus even warns people who claim they will be saved because they call on his name or trusted him, but engaged in grave sin. He says in Matthew 7, 21: Not everyone who says to me, Lord, Lord, shall enter the kingdom of heaven, but he who does the will of my Father who is in heaven. And in Matthew 10, 22, he who endures to the end will be saved, not merely he who trusts in Christ. John 3 36 even says, He who does not obey the Son shall not see life, but the wrath of God rests upon him. Saying, I trust in Christ, so I'll be saved is like saying, I trust my wife, so our marriage is healthy.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-07-01T13:00:13Z",
+     "role": "host",
+     "t": 113.36,
+     "title": "DEBATE: Can a Christian Lose Salvation? (with NeedGod.net)",
+     "video_id": "vH3DbAjsNcs"
+    },
+    {
+     "confidence": 0.7143,
+     "context": "These warning passages are real warnings that keep the true believer, the sheep, from uh either abandoning the faith or uh not controlling his body. And so therefore, that none of these passages support Trent's view in this debate. Now he mentioned the one who endures to the end will be saved, Matthew 10. I agree. We got to endure in faith to the end. So that's not supporting his position. Uh John 3 36, he who does not obey the Son. Um, now the first part of that verse that's interesting, it says, Whoever believes in the Son has eternal life.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-07-01T13:00:13Z",
+     "role": "unknown",
+     "t": 2588.64,
+     "title": "DEBATE: Can a Christian Lose Salvation? (with NeedGod.net)",
+     "video_id": "vH3DbAjsNcs"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 2,
+    "reasonable-faith-org": 1
+   },
+   "n": 3,
+   "text": {
+    "KJV": "But he that shall endure unto the end, the same shall be saved.",
+    "WEB": "But he who endures to the end will be saved."
+   },
+   "truncated": false
+  },
+  "Matthew 24:16": {
+   "citations": [
+    {
+     "confidence": 1.0,
+     "context": "But he who endures to the end will be saved. But when you see the desolating sacrilege set up where it ought not to be, let the reader understand. Then let those who are in Judea flee to the mountains. Let him who is on the housetop not go down and enter his house, nor take anything away. Let him who is in the field not turn back to take his mantle, and alas for those who are with child, and for those who give suck in those days, pray that it might not happen in winter.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-07-19T15:55:55Z",
+     "role": "host",
+     "t": 722.48,
+     "title": "NEW SECTION || Doctrine of The Last Things Part 1: The Return of Christ || Defenders LIVE!",
+     "video_id": "C-jXn8puJDI"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Then let them which be in Judaea flee into the mountains:",
+    "WEB": "then let those who are in Judea flee to the mountains."
    },
    "truncated": false
   },
@@ -774,6 +1821,181 @@
    },
    "truncated": false
   },
+  "Matthew 24:35": {
+   "citations": [
+    {
+     "confidence": 1.0,
+     "context": "As soon as its branch becomes tender and puts forth its leaves, you know that summer is near. So also, when you see these things taking place, you know that he is near at the very gates. Truly, I say to you, this generation will not pass away before all these things take place. Heaven and earth will pass away, but my words will not pass away. But of that day or that hour, no one knows, not even the angels in heaven, nor the Son, but only the Father.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-07-19T15:55:55Z",
+     "role": "host",
+     "t": 855.76,
+     "title": "NEW SECTION || Doctrine of The Last Things Part 1: The Return of Christ || Defenders LIVE!",
+     "video_id": "C-jXn8puJDI"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Heaven and earth shall pass away, but my words shall not pass away.",
+    "WEB": "Heaven and earth will pass away, but my words will not pass away."
+   },
+   "truncated": false
+  },
+  "Matthew 24:5": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "And what will be the sign when these things are all to be accomplished? And Jesus began to say to them, Take heed that no one leads you astray. Many will come in my name, saying, I am He, and they will lead many astray. And when you hear of wars and rumors of wars, do not be alarmed. This must take place, but the end is not yet.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-07-19T15:55:55Z",
+     "role": "host",
+     "t": 623.8,
+     "title": "NEW SECTION || Doctrine of The Last Things Part 1: The Return of Christ || Defenders LIVE!",
+     "video_id": "C-jXn8puJDI"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For many shall come in my name, saying, I am Christ; and shall deceive many.",
+    "WEB": "For many will come in my name, saying, ‘I am the Christ,’ and will lead many astray."
+   },
+   "truncated": false
+  },
+  "Matthew 24:7": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "And when you hear of wars and rumors of wars, do not be alarmed. This must take place, but the end is not yet. For nation will rise against nation and kingdom against kingdom. There will be earthquakes in various places. There will be famines. This is but the beginning of earth pangs. But take heed to yourselves, for they will deliver you up to counsels, and you will be beaten in synagogues, and you will stand before governors and kings for my sake to bear testimony before them.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-07-19T15:55:55Z",
+     "role": "host",
+     "t": 640.44,
+     "title": "NEW SECTION || Doctrine of The Last Things Part 1: The Return of Christ || Defenders LIVE!",
+     "video_id": "C-jXn8puJDI"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For nation shall rise against nation, and kingdom against kingdom: and there shall be famines, and pestilences, and earthquakes, in divers places.",
+    "WEB": "For nation will rise against nation, and kingdom against kingdom; and there will be famines, plagues, and earthquakes in various places."
+   },
+   "truncated": false
+  },
+  "Matthew 25:19": {
+   "citations": [
+    {
+     "confidence": 0.6923,
+     "context": "So he doubled it over the course of the investment. So also he who had two talents made two talents more. But he who had received the one talent went and dug in the ground and hid his master's money. Now, after a long time, the master of those servants came and settled accounts with them. And he who had received the five talents came forward, bringing five talents more, saying, Master, you delivered to me five talents. Here I have made five talents more. His master said to him, Well done, good and faithful servant.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-01T21:56:56Z",
+     "role": "host",
+     "t": 1731.28,
+     "title": "Vivek's Pagan Jesus Isn't Jesus: 10 Qs with Mike Winger (Ep 75)",
+     "video_id": "w4Es5-TAB-Q"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "After a long time the lord of those servants cometh, and reckoneth with them.",
+    "WEB": "“Now after a long time the lord of those servants came, and settled accounts with them."
+   },
+   "truncated": false
+  },
+  "Matthew 25:26": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "So I was afraid and went. I went and hid your talent in the ground. He buried the money. Here you have what is yours, right? It's untouched. I didn't waste it, I didn't spit. I just, I just hid it. There it is. But his master answered him, You wicked and slothful servant, you knew that I reap where I have not sown and gather where I've not where I scattered no seed. Then you ought to have invested my money with the bankers. And at my coming, I should have received what was my own with interest. As in there was a safe investment he could have made.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-01T21:56:56Z",
+     "role": "host",
+     "t": 1791.84,
+     "title": "Vivek's Pagan Jesus Isn't Jesus: 10 Qs with Mike Winger (Ep 75)",
+     "video_id": "w4Es5-TAB-Q"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "His lord answered and said unto him, Thou wicked and slothful servant, thou knewest that I reap where I sowed not, and gather where I have not strawed:",
+    "WEB": "“But his lord answered him, ‘You wicked and slothful servant. You knew that I reap where I didn’t sow, and gather where I didn’t scatter."
+   },
+   "truncated": false
+  },
+  "Matthew 25:27": {
+   "citations": [
+    {
+     "confidence": 0.5238,
+     "context": "It's untouched. I didn't waste it, I didn't spit. I just, I just hid it. There it is. But his master answered him, You wicked and slothful servant, you knew that I reap where I have not sown and gather where I've not where I scattered no seed. Then you ought to have invested my money with the bankers. And at my coming, I should have received what was my own with interest. As in there was a safe investment he could have made. There was something else going on. He was wicked and slothful. His excuses aren't real. The truth is he was scared of responsibility, or he was otherwise just what the master says, wicked and slothful.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-01T21:56:56Z",
+     "role": "host",
+     "t": 1801.32,
+     "title": "Vivek's Pagan Jesus Isn't Jesus: 10 Qs with Mike Winger (Ep 75)",
+     "video_id": "w4Es5-TAB-Q"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Thou oughtest therefore to have put my money to the exchangers, and then at my coming I should have received mine own with usury.",
+    "WEB": "You ought therefore to have deposited my money with the bankers, and at my coming I should have received back my own with interest."
+   },
+   "truncated": false
+  },
+  "Matthew 25:28": {
+   "citations": [
+    {
+     "confidence": 0.7143,
+     "context": "Um and you had an excuse in your head. Like Proverbs says, uh the lazy man says, There's a lion in the street. In other words, he exaggerates how hard things are, so he doesn't have to do them. Then you ought to have invested my money with the bankers, and I am my coming, I should have received what was my own with interest. So take the talent from him and give it to him who has the has the ten talents, the most successful guy. For to everyone who has uh, excuse me, for to everyone who has will more be given, and he will have an abundance. But from the one who has not, even what he has will be taken away, and cast the worthless servant into outer darkness.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-01T21:56:56Z",
+     "role": "host",
+     "t": 1838.44,
+     "title": "Vivek's Pagan Jesus Isn't Jesus: 10 Qs with Mike Winger (Ep 75)",
+     "video_id": "w4Es5-TAB-Q"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Take therefore the talent from him, and give it unto him which hath ten talents.",
+    "WEB": "Take away therefore the talent from him and give it to him who has the ten talents."
+   },
+   "truncated": false
+  },
   "Matthew 25:46": {
    "citations": [
     {
@@ -809,6 +2031,81 @@
    "text": {
     "KJV": "And these shall go away into everlasting punishment: but the righteous into life eternal.",
     "WEB": "These will go away into eternal punishment, but the righteous into eternal life.”"
+   },
+   "truncated": false
+  },
+  "Matthew 27:45": {
+   "citations": [
+    {
+     "confidence": 1.0,
+     "context": "I'm asking people to donate $10 a month, become a $10 patron to help support keep this ministry going. All right, let's dive in to Matthew. All right, here is Matthew's gospel, chapter 27, starting in verse 45. Now, from the sixth hour there was darkness over all the land until the ninth hour. And about the ninth hour, Jesus cried out with a loud voice, saying, Eli Eli, Lemasa Bachhani, that is, my God, my God, why have you forsaken me? And some of the bystanders hearing it said, This man is calling Elijah.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-28T03:56:29Z",
+     "role": "host",
+     "t": 108.16,
+     "title": "Scientists CONFIRM the Earthquake at the Crucifixion?!",
+     "video_id": "fmLf5MWs7IQ"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Now from the sixth hour there was darkness over all the land unto the ninth hour.",
+    "WEB": "Now from the sixth hour there was darkness over all the land until the ninth hour."
+   },
+   "truncated": false
+  },
+  "Matthew 27:46": {
+   "citations": [
+    {
+     "confidence": 0.6522,
+     "context": "All right, let's dive in to Matthew. All right, here is Matthew's gospel, chapter 27, starting in verse 45. Now, from the sixth hour there was darkness over all the land until the ninth hour. And about the ninth hour, Jesus cried out with a loud voice, saying, Eli Eli, Lemasa Bachhani, that is, my God, my God, why have you forsaken me? And some of the bystanders hearing it said, This man is calling Elijah. And one of them at once ran and took a sponge, filled it with sour wine, and put it on a reed and gave it to him to drink.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-28T03:56:29Z",
+     "role": "host",
+     "t": 113.12,
+     "title": "Scientists CONFIRM the Earthquake at the Crucifixion?!",
+     "video_id": "fmLf5MWs7IQ"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And about the ninth hour Jesus cried with a loud voice, saying, Eli, Eli, lama sabachthani? that is to say, My God, my God, why hast thou forsaken me?",
+    "WEB": "About the ninth hour Jesus cried with a loud voice, saying, “Eli, Eli, lima sabachthani?” That is, “My God, my God, why have you forsaken me?”"
+   },
+   "truncated": false
+  },
+  "Matthew 27:50": {
+   "citations": [
+    {
+     "confidence": 0.7778,
+     "context": "And one of them at once ran and took a sponge, filled it with sour wine, and put it on a reed and gave it to him to drink. But the other said, Wait, let us see whether Elijah will come and save him. And Jesus cried out again with a loud voice and yielded up his spirit. And behold, the curtain of the temple was torn in two from top to bottom, and the earth shook, and the rocks were split. The tombs were also opened, and many bodies of the saints who had fallen asleep were raised.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-28T03:56:29Z",
+     "role": "host",
+     "t": 138.2,
+     "title": "Scientists CONFIRM the Earthquake at the Crucifixion?!",
+     "video_id": "fmLf5MWs7IQ"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Jesus, when he had cried again with a loud voice, yielded up the ghost.",
+    "WEB": "Jesus cried again with a loud voice, and yielded up his spirit."
    },
    "truncated": false
   },
@@ -863,6 +2160,18 @@
      "video_id": "_Hle4lxIHQg"
     },
     {
+     "confidence": 0.7692,
+     "context": "And Jesus cried out again with a loud voice and yielded up his spirit. And behold, the curtain of the temple was torn in two from top to bottom, and the earth shook, and the rocks were split. The tombs were also opened, and many bodies of the saints who had fallen asleep were raised. And coming out of the tombs after his resurrection, they went into the holy city and appeared to many. When the centurion and those who were with him, keeping watch over Jesus saw the earthquake and what took place, they were filled with awe and said, Truly, this is the Son of God.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-28T03:56:29Z",
+     "role": "host",
+     "t": 150.04,
+     "title": "Scientists CONFIRM the Earthquake at the Crucifixion?!",
+     "video_id": "fmLf5MWs7IQ"
+    },
+    {
      "confidence": 1.0,
      "context": "The tombs were opened, and many bodies of the saints who had fallen asleep were raised. And coming out of the tombs after his resurrection, they entered the holy city and appeared to many. Now, Matthew reports that at the moment of Jesus' death and in connection with his resurrection, a cascade of extraordinary events occurred simultaneously.",
      "creator": "darante-lamar",
@@ -900,9 +2209,10 @@
     }
    ],
    "creators": {
+    "capturing-christianity": 1,
     "darante-lamar": 7
    },
-   "n": 7,
+   "n": 8,
    "text": {
     "KJV": "And the graves were opened; and many bodies of the saints which slept arose,",
     "WEB": "The tombs were opened, and many bodies of the saints who had fallen asleep were raised;"
@@ -949,6 +2259,18 @@
     },
     {
      "confidence": 0.75,
+     "context": "And behold, the curtain of the temple was torn in two from top to bottom, and the earth shook, and the rocks were split. The tombs were also opened, and many bodies of the saints who had fallen asleep were raised. And coming out of the tombs after his resurrection, they went into the holy city and appeared to many. When the centurion and those who were with him, keeping watch over Jesus saw the earthquake and what took place, they were filled with awe and said, Truly, this is the Son of God.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-28T03:56:29Z",
+     "role": "host",
+     "t": 155.88,
+     "title": "Scientists CONFIRM the Earthquake at the Crucifixion?!",
+     "video_id": "fmLf5MWs7IQ"
+    },
+    {
+     "confidence": 0.75,
      "context": "The tombs were opened, and many bodies of the saints who had fallen asleep were raised. And coming out of the tombs after his resurrection, they entered the holy city and appeared to many. Now, Matthew reports that at the moment of Jesus' death and in connection with his resurrection, a cascade of extraordinary events occurred simultaneously.",
      "creator": "darante-lamar",
      "detection_method": "shingle_match",
@@ -973,9 +2295,10 @@
     }
    ],
    "creators": {
+    "capturing-christianity": 1,
     "darante-lamar": 5
    },
-   "n": 5,
+   "n": 6,
    "text": {
     "KJV": "And came out of the graves after his resurrection, and went into the holy city, and appeared unto many.",
     "WEB": "and coming out of the tombs after his resurrection, they entered into the holy city and appeared to many."
@@ -1047,6 +2370,18 @@
      "video_id": "GDnI6W1EcCU"
     },
     {
+     "confidence": 0.5714,
+     "context": "I see reality as it is. So I turn and I walk forward towards Christ, who all he has for me in Christ is no more condemnation, but only love and forgiveness. And once you come to him, please don't be surprised when he sets you on mission, when he fills you with his spirit and tells you now, go therefore and make disciples of all nations, baptizing them in the name of the Father and the Son and the Holy Spirit, teaching them to obey all that I have commanded, and don't be afraid, because I will be with you until the end of the age.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-04-04T23:16:58Z",
+     "role": "host",
+     "t": 640.92,
+     "title": "Jackie Hill Perry preaches the gospel at Clemson University….",
+     "video_id": "Gq0oXeDT10M"
+    },
+    {
      "confidence": 0.619,
      "context": "No, because everyone already knows God exists. And so our job, we've been given the great commission. You know, all authority on heaven and on earth has been given to God. Therefore, go and make disciples of all nations, baptizing them in the name of the Father and the Son and the Holy Spirit. I think this idea that we gotta be going and we gotta be preaching the gospel. As much as we want to come up with great arguments and great antidotes.",
      "creator": "prophet-of-zod",
@@ -1057,6 +2392,18 @@
      "t": 560.2,
      "title": "The Christian Says in his Heart, \"There is no Atheist\"",
      "video_id": "JHLmWumIRpc"
+    },
+    {
+     "confidence": 0.9524,
+     "context": "On the one hand, evangelism isn't a popularity contest. If you share the faith with even one person, and that helps that person come to have eternal life, then you've helped bring about an infinite amount of goodness in the world. On the other hand, it's not bad to be able to share the Christian faith with large numbers of people, since this fulfills the Great Commission where Jesus said to the disciples, and by extension, you and me, go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-27T13:00:38Z",
+     "role": "host",
+     "t": 177.16,
+     "title": "Who is the Best Christian Evangelist Today?",
+     "video_id": "Nn6tVDR5Uf8"
     },
     {
      "confidence": 1.0,
@@ -1084,10 +2431,12 @@
     }
    ],
    "creators": {
+    "counsel-of-trent": 1,
     "darante-lamar": 3,
+    "jackie-hill-perry": 1,
     "prophet-of-zod": 1
    },
-   "n": 4,
+   "n": 6,
    "text": {
     "KJV": "Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost:",
     "WEB": "Go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit,"
@@ -1144,8 +2493,220 @@
    },
    "truncated": false
   },
+  "Matthew 2:15": {
+   "citations": [
+    {
+     "confidence": 0.8338,
+     "context": "I mean, read Matthew. It's all across so many times where the author says, this thing happened to fulfill what was said in X Old Testament book. One example I'll give you is in Matthew 2.15, it says just that, and then quotes, out of Egypt I called my son, which is a reference, one of those brilliant cross-references back to Hosea 11 1. The problem is that's not a messianic prophecy, like Christians try to make it.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-03-10T14:00:01Z",
+     "role": "host",
+     "t": 798.04,
+     "title": "I’m So Sick of This Viral Bible Diagram Argument",
+     "video_id": "-vYde4p4BZE"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And was there until the death of Herod: that it might be fulfilled which was spoken of the Lord by the prophet, saying, Out of Egypt have I called my son.",
+    "WEB": "and was there until the death of Herod, that it might be fulfilled which was spoken by the Lord through the prophet, saying, “Out of Egypt I called my son.”"
+   },
+   "truncated": false
+  },
+  "Matthew 3:1": {
+   "citations": [
+    {
+     "confidence": 0.6364,
+     "context": "Oh. Oh, he got us there, brother. Shoot. I was about to become Mormon right after this. All right. Shoot. Right here. Who is John the Baptist? Matthew 3 1 to 6. Now in those days, John the Baptist came preaching in the wilderness of Judea, saying, Repent, for the kingdom of heaven is at hand. For this is the one referred to by Isaiah the prophet saying. Now notice Mark and Mark 1, all the way to verse 6, Luke 3, verses 1 to 6, and 15 to 17, John 1, verses 14 and 15, John 1, 19 to 36, and Acts 19 4.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-03-14T03:27:24Z",
+     "role": "host",
+     "t": 2697.4,
+     "title": "Exposing Jacob Hansen's Anti-Trinitarian Garbage (w/ Sam Shamoun)",
+     "video_id": "rS_-I5wXEsc"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "In those days came John the Baptist, preaching in the wilderness of Judaea,",
+    "WEB": "In those days, John the Baptizer came, preaching in the wilderness of Judea, saying,"
+   },
+   "truncated": false
+  },
+  "Matthew 3:13": {
+   "citations": [
+    {
+     "confidence": 1.0,
+     "context": "And there went out to him all the country of Judea and all the people of Jerusalem, and they were baptized by him in the Jordan River, confessing their sins. So, right at the beginning of Jesus' ministry, you have this enigmatic figure of John the Baptist calling people to the Jordan to repentance and baptism for sin.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-03T15:52:47Z",
+     "role": "host",
+     "t": 100.96,
+     "title": "// Defenders LIVE! //",
+     "video_id": "GDbQx_mEcBM"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Then cometh Jesus from Galilee to Jordan unto John, to be baptized of him.",
+    "WEB": "Then Jesus came from Galilee to the Jordan to John, to be baptized by him."
+   },
+   "truncated": false
+  },
+  "Matthew 3:14": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "Matthew chapter three, verses thirteen to seventeen record. Then Jesus came from Galilee to the Jordan to John to be baptized by him. John would have prevented him, saying, I need to be baptized by you, and do you come to me?",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-03T15:52:47Z",
+     "role": "host",
+     "t": 139.0,
+     "title": "// Defenders LIVE! //",
+     "video_id": "GDbQx_mEcBM"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But John forbad him, saying, I have need to be baptized of thee, and comest thou to me?",
+    "WEB": "But John would have hindered him, saying, “I need to be baptized by you, and you come to me?”"
+   },
+   "truncated": false
+  },
+  "Matthew 3:17": {
+   "citations": [
+    {
+     "confidence": 0.7333,
+     "context": "And lo, a voice from heaven saying, This is my beloved Son with whom I am well pleased. So Jesus himself submitted to John's baptism before the commencement of his own ministry.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-05-03T15:52:47Z",
+     "role": "host",
+     "t": 182.04,
+     "title": "// Defenders LIVE! //",
+     "video_id": "GDbQx_mEcBM"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And lo a voice from heaven, saying, This is my beloved Son, in whom I am well pleased.",
+    "WEB": "Behold, a voice out of the heavens said, “This is my beloved Son, with whom I am well pleased.”"
+   },
+   "truncated": false
+  },
+  "Matthew 3:2": {
+   "citations": [
+    {
+     "confidence": 1.0,
+     "context": "Oh. Oh, he got us there, brother. Shoot. I was about to become Mormon right after this. All right. Shoot. Right here. Who is John the Baptist? Matthew 3 1 to 6. Now in those days, John the Baptist came preaching in the wilderness of Judea, saying, Repent, for the kingdom of heaven is at hand. For this is the one referred to by Isaiah the prophet saying. Now notice Mark and Mark 1, all the way to verse 6, Luke 3, verses 1 to 6, and 15 to 17, John 1, verses 14 and 15, John 1, 19 to 36, and Acts 19 4.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-03-14T03:27:24Z",
+     "role": "host",
+     "t": 2697.4,
+     "title": "Exposing Jacob Hansen's Anti-Trinitarian Garbage (w/ Sam Shamoun)",
+     "video_id": "rS_-I5wXEsc"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And saying, Repent ye: for the kingdom of heaven is at hand.",
+    "WEB": "“Repent, for the Kingdom of Heaven is at hand!”"
+   },
+   "truncated": false
+  },
+  "Matthew 3:6": {
+   "citations": [
+    {
+     "confidence": 0.625,
+     "context": "Mark writes, John the Baptizer appeared in the wilderness, preaching a baptism of repentance for the forgiveness of sins. And there went out to him all the country of Judea and all the people of Jerusalem, and they were baptized by him in the Jordan River, confessing their sins. So, right at the beginning of Jesus' ministry, you have this enigmatic figure of John the Baptist calling people to the Jordan to repentance and baptism for sin.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-03T15:52:47Z",
+     "role": "host",
+     "t": 87.6,
+     "title": "// Defenders LIVE! //",
+     "video_id": "GDbQx_mEcBM"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And were baptized of him in Jordan, confessing their sins.",
+    "WEB": "They were baptized by him in the Jordan, confessing their sins."
+   },
+   "truncated": false
+  },
+  "Matthew 5:12": {
+   "citations": [
+    {
+     "confidence": 0.7895,
+     "context": "But watch this. Rejoice and be exceedingly glad, for great is your reward in heaven. For so persecuted they the prophets which were before you. As Christians, we need to rebuke the evil forces which persecute us, but then rejoice because our persecution means we're threatening the kingdom of the enemy, just like the prophets before us.",
+     "creator": "genetically-modified-skeptic",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-03-22T13:30:16Z",
+     "role": "host",
+     "t": 1037.8,
+     "title": "This TikTok “Prophet” Needs to Stop",
+     "video_id": "d60LdwNJnAA"
+    }
+   ],
+   "creators": {
+    "genetically-modified-skeptic": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Rejoice, and be exceeding glad: for great is your reward in heaven: for so persecuted they the prophets which were before you.",
+    "WEB": "Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted the prophets who were before you."
+   },
+   "truncated": false
+  },
   "Matthew 5:27": {
    "citations": [
+    {
+     "confidence": 1.0,
+     "context": "If the end of a desire is in line with God's moral standard, then that desire is good. If the object and action of a desire breaks God's moral standard, then that desire is sinful. In Matthew 5, verses 27 and 28, Jesus teaches, you have heard that it was said, you shall not commit adultery. But I say to you that everyone who looks at a woman with lust for her has already committed adultery with her in his heart.",
+     "creator": "genetically-modified-skeptic",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-07-03T15:48:37Z",
+     "role": "unknown",
+     "t": 3208.56,
+     "title": "I Took A Gay Conversion Class for Christian Teens. It Was Awful.",
+     "video_id": "-QnyYMEy3HA"
+    },
     {
      "confidence": 1.0,
      "context": "And really it's in a response to the fact that he doesn't believe men and women can work in the workplace together without sexual harassment. And it reminded me of this verse from Jesus, Matthew 5 27 through 30. You have heard that it was said, you shall not commit adultery. But I say to you that everyone who looks at a woman with lust has already committed adultery with her in his heart. If your right eye causes you to sin, tear it out and throw it away. It is better for you to lose one of your members than your whole body to be thrown into hell.",
@@ -1185,12 +2746,76 @@
    ],
    "creators": {
     "darante-lamar": 1,
+    "genetically-modified-skeptic": 1,
     "mindshift": 2
    },
-   "n": 3,
+   "n": 4,
    "text": {
     "KJV": "Ye have heard that it was said by them of old time, Thou shalt not commit adultery:",
     "WEB": "“You have heard that it was said, ‘You shall not commit adultery;’"
+   },
+   "truncated": false
+  },
+  "Matthew 5:28": {
+   "citations": [
+    {
+     "confidence": 0.9249,
+     "context": "In Matthew 5, verses 27 and 28, Jesus teaches, you have heard that it was said, you shall not commit adultery. But I say to you that everyone who looks at a woman with lust for her has already committed adultery with her in his heart. The Greek word translated into lust literally means desire. In other words, everyone who looks at a woman with desire for her has already committed adultery.",
+     "creator": "genetically-modified-skeptic",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-07-03T15:48:37Z",
+     "role": "unknown",
+     "t": 3218.88,
+     "title": "I Took A Gay Conversion Class for Christian Teens. It Was Awful.",
+     "video_id": "-QnyYMEy3HA"
+    },
+    {
+     "confidence": 0.922,
+     "context": "And it reminded me of this verse from Jesus, Matthew 5 27 through 30. You have heard that it was said, you shall not commit adultery. But I say to you that everyone who looks at a woman with lust has already committed adultery with her in his heart. If your right eye causes you to sin, tear it out and throw it away. It is better for you to lose one of your members than your whole body to be thrown into hell. And if your right hand causes you to sin, cut it off and throw it away.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-07-09T14:00:21Z",
+     "role": "host",
+     "t": 478.32,
+     "title": "Jesus Was the First Jordan Peterson | Sacred Word Salad",
+     "video_id": "0mE4Bz2jsXY"
+    }
+   ],
+   "creators": {
+    "genetically-modified-skeptic": 1,
+    "mindshift": 1
+   },
+   "n": 2,
+   "text": {
+    "KJV": "But I say unto you, That whosoever looketh on a woman to lust after her hath committed adultery with her already in his heart.",
+    "WEB": "but I tell you that everyone who gazes at a woman to lust after her has committed adultery with her already in his heart."
+   },
+   "truncated": false
+  },
+  "Matthew 5:29": {
+   "citations": [
+    {
+     "confidence": 0.8812,
+     "context": "And it reminded me of this verse from Jesus, Matthew 5 27 through 30. You have heard that it was said, you shall not commit adultery. But I say to you that everyone who looks at a woman with lust has already committed adultery with her in his heart. If your right eye causes you to sin, tear it out and throw it away. It is better for you to lose one of your members than your whole body to be thrown into hell. And if your right hand causes you to sin, cut it off and throw it away. It is better for you to lose one of your members than for your whole body to go into hell.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-07-09T14:00:21Z",
+     "role": "host",
+     "t": 484.24,
+     "title": "Jesus Was the First Jordan Peterson | Sacred Word Salad",
+     "video_id": "0mE4Bz2jsXY"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And if thy right eye offend thee, pluck it out, and cast it from thee: for it is profitable for thee that one of thy members should perish, and not that thy whole body should be cast into hell.",
+    "WEB": "If your right eye causes you to stumble, pluck it out and throw it away from you. For it is more profitable for you that one of your members should perish than for your whole body to be cast into Gehenna."
    },
    "truncated": false
   },
@@ -1240,6 +2865,31 @@
    "text": {
     "KJV": "Blessed are the poor in spirit: for theirs is the kingdom of heaven.",
     "WEB": "“Blessed are the poor in spirit, for theirs is the Kingdom of Heaven."
+   },
+   "truncated": false
+  },
+  "Matthew 5:30": {
+   "citations": [
+    {
+     "confidence": 0.8861,
+     "context": "You have heard that it was said, you shall not commit adultery. But I say to you that everyone who looks at a woman with lust has already committed adultery with her in his heart. If your right eye causes you to sin, tear it out and throw it away. It is better for you to lose one of your members than your whole body to be thrown into hell. And if your right hand causes you to sin, cut it off and throw it away. It is better for you to lose one of your members than for your whole body to go into hell. These verses are fascinating, by the way.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-07-09T14:00:21Z",
+     "role": "host",
+     "t": 488.16,
+     "title": "Jesus Was the First Jordan Peterson | Sacred Word Salad",
+     "video_id": "0mE4Bz2jsXY"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And if thy right hand offend thee, cut it off, and cast it from thee: for it is profitable for thee that one of thy members should perish, and not that thy whole body should be cast into hell.",
+    "WEB": "If your right hand causes you to stumble, cut it off, and throw it away from you. For it is more profitable for you that one of your members should perish, than for your whole body to be cast into Gehenna."
    },
    "truncated": false
   },
@@ -1395,6 +3045,18 @@
   "Matthew 6:10": {
    "citations": [
     {
+     "confidence": 0.6154,
+     "context": "And many of their sayings talk about the kingdom of God as something future, something coming. For example, Jesus taught his disciples to pray. Uh, our Father who art in heaven, uh, hallowed be thy name, thy kingdom come, uh, thy will be done on earth as it is in heaven. So many times talking about the kingdom of God, it is something future, but they also talk about the kingdom of God as having already dawned in the person and ministry of Jesus, just as you said.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-03-24T21:21:30Z",
+     "role": "host",
+     "t": 2069.56,
+     "title": "Was Paul a Failed Apocalyptic Prophet?",
+     "video_id": "q4gmI2Yaqt0"
+    },
+    {
      "confidence": 0.6364,
      "context": "You know, I'm not trying to say it's useless. You know, but like my purpose when when I was in the kingdom of God, you know, was to, you know, to do kingdom things, you know, and to to lay hands on like we use big language. The language big, you know, as the as the uh thy kingdom come, thy will be done on earth as it is in heaven. We'll we're operating in the kingdom, we're operating in kingdom authority. This is big language, but like the kingdom authority language really just kept us in church a lot, you know, and ultimately made us bystanders of what was happening uh geopolitically, of what was happening economically, even in the local cities that we were a part of, we often became bystanders in in the world around us.",
      "creator": "darante-lamar",
@@ -1408,9 +3070,10 @@
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "darante-lamar": 1,
+    "reasonable-faith-org": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Thy kingdom come, Thy will be done in earth, as it is in heaven.",
     "WEB": "Let your Kingdom come. Let your will be done on earth as it is in heaven."
@@ -1439,6 +3102,31 @@
    "text": {
     "KJV": "For if ye forgive men their trespasses, your heavenly Father will also forgive you:",
     "WEB": "“For if you forgive men their trespasses, your heavenly Father will also forgive you."
+   },
+   "truncated": false
+  },
+  "Matthew 6:15": {
+   "citations": [
+    {
+     "confidence": 0.6667,
+     "context": "The king threw the servant in jail. And Jesus told his audience, So also my heavenly Father will do to every one of you if you do not forgive your brother from your heart. In Matthew 6 15, Jesus makes the teaching even plainer. But if you do not forgive men their trespasses, neither will your father forgive your trespasses. Notice that the servant's debt is first forgiven by the king, and then when he refuses to forgive his fellow servant, the king revokes his forgiveness. We can be forgiven by God and then become unforgiven, losing our salvation, possibly permanently, if we don't repent of our sin and return to God.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-07-01T13:00:13Z",
+     "role": "host",
+     "t": 231.12,
+     "title": "DEBATE: Can a Christian Lose Salvation? (with NeedGod.net)",
+     "video_id": "vH3DbAjsNcs"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But if ye forgive not men their trespasses, neither will your Father forgive your trespasses.",
+    "WEB": "But if you don’t forgive men their trespasses, neither will your Father forgive your trespasses."
    },
    "truncated": false
   },
@@ -1480,15 +3168,91 @@
      "t": 964.68,
      "title": "How Losing God Saved My Life: A Deconstruction of Damaging Scriptures",
      "video_id": "9Y0vt3wAp8c"
+    },
+    {
+     "confidence": 0.5294,
+     "context": "He hasn't promised me that I'm gonna have some decent career. I'll be able to like own a home or or just provide. Um and I will say that the one promise we can hold on to, and I have absolutely held on to this, Matthew 63. Seek first the kingdom of God and his righteousness, and all these things will be added to you. I held on to that big time. That's why I'm in ministry. I remember I was at this crossroads where I was like, either I need to go get a normal job and get like starting a career path, or I'm gonna keep pursuing ministry, but I have no, I don't see a career there.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-05-22T21:56:39Z",
+     "role": "host",
+     "t": 1783.92,
+     "title": "Why You Won't Be Seeing Much of Me for a While: 10 Qs with Mike Winger (Ep 77)",
+     "video_id": "iVseC51ZwUM"
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "darante-lamar": 1,
+    "mike-winger": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you.",
     "WEB": "But seek first God’s Kingdom and his righteousness; and all these things will be given to you as well."
+   },
+   "truncated": false
+  },
+  "Matthew 7:15": {
+   "citations": [
+    {
+     "confidence": 0.8462,
+     "context": "And again, I'm gonna try to have one video that comes out. If I can swing it, that's gonna be hard to get it done in time, but I'm gonna try. All right, Matthew 7 15. He says, Beware of false prophets who come to you in sheep's clothing, but inwardly are ravenous wolves. You will recognize them by their fruits. What am I supposed to recognize about them? That they are actually ravenous wolves. So when I see them uh doing things to enrich themselves, right?",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-22T21:56:39Z",
+     "role": "host",
+     "t": 2059.64,
+     "title": "Why You Won't Be Seeing Much of Me for a While: 10 Qs with Mike Winger (Ep 77)",
+     "video_id": "iVseC51ZwUM"
+    },
+    {
+     "confidence": 0.7692,
+     "context": "Y'all there. Matthew chapter 7, verse 15, talking about false prophets. Because we judge false prophets by their fruit, which reveals the nature of the tree. Verse 15, beware of false prophets who come to you in sheep's clothing, but inwardly their nature, who they are in real life. They are ravenous wolves, meaning they're greedy, they're not satisfied. You will recognize them by their fruit.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-06-11T02:26:27Z",
+     "role": "host",
+     "t": 4991.24,
+     "title": "How to Test Prophets and Prophecy (IG Live)",
+     "video_id": "rTbZlbLeeC4"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1,
+    "mike-winger": 1
+   },
+   "n": 2,
+   "text": {
+    "KJV": "Beware of false prophets, which come to you in sheep's clothing, but inwardly they are ravening wolves.",
+    "WEB": "“Beware of false prophets, who come to you in sheep’s clothing, but inwardly are ravening wolves."
+   },
+   "truncated": false
+  },
+  "Matthew 7:19": {
+   "citations": [
+    {
+     "confidence": 0.5833,
+     "context": "Are grapes gathered from thornbushes or figs from thistles? So every healthy tree bears good fruit, but diseased tree, uh the diseased tree bears bad fruit. A healthy tree cannot bear bad fruit, nor can a diseased tree bear good fruit. Every tree that does not bear good fruit is cut down and thrown into the fire, thus you will recognize them by their fruits. Now, here's where some people get a little off. I want to say this, I think, my opinion. Um the uh the bad prophets, the fal false prophets, the abusive leaders, that kind of thing, they tend to actually bring sometimes good fruit into the lives of the people who follow them.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-22T21:56:39Z",
+     "role": "host",
+     "t": 2175.84,
+     "title": "Why You Won't Be Seeing Much of Me for a While: 10 Qs with Mike Winger (Ep 77)",
+     "video_id": "iVseC51ZwUM"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Every tree that bringeth not forth good fruit is hewn down, and cast into the fire.",
+    "WEB": "Every tree that doesn’t grow good fruit is cut down and thrown into the fire."
    },
    "truncated": false
   },
@@ -1514,6 +3278,81 @@
    "text": {
     "KJV": "Wherefore by their fruits ye shall know them.",
     "WEB": "Therefore by their fruits you will know them."
+   },
+   "truncated": false
+  },
+  "Matthew 7:21": {
+   "citations": [
+    {
+     "confidence": 0.76,
+     "context": "And if you don't paddle hard enough, that proves you weren't saved in the first place. Second, the Bible clearly teaches that our salvation depends on things we do, and it is possible for saved Christians to not do them. In the Sermon on the Mount, Jesus said this: Not everyone who says to me, Lord, Lord, shall enter the kingdom of heaven, but he who does the will of my Father who is in heaven. On that day, many will say to me, Lord, Lord, did we not prophesy on your name and cast out demons in your name and do mighty works in your name?",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-20T13:00:24Z",
+     "role": "host",
+     "t": 657.92,
+     "title": "Answering NeedGod.Net's Criticism of Me",
+     "video_id": "Ag2sJ_fS_NM"
+    },
+    {
+     "confidence": 0.76,
+     "context": "He goes, 'cause they came with a list of what they did. And the truth is, whatever I do here is not even worth it. I feel so sad that George got the exact wrong lesson about Matthew chapter seven, verses twenty-one through twenty-three. Here are the verses. Jesus says this Not everyone who says to me, Lord, Lord, shall enter the kingdom of heaven, but he who does the will of my father who is in heaven. On that day, many will say to me, Lord, Lord, do we not prophesy in your name and cast out demons in your name and do many mighty works in your name?",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-15T18:15:06Z",
+     "role": "host",
+     "t": 57.6,
+     "title": "He got this teaching ALL WRONG...",
+     "video_id": "YKK8Z4QkQww"
+    },
+    {
+     "confidence": 0.52,
+     "context": "He laid his life down. Jesus laid his life down. Um, some would some would try to say Joseph Smith laid his life down. We're like, no, he was killed. He didn't lay his life down. There's a difference. Um, so yeah, you look at the fruits. So verse 21, it says here, not everyone who says to me, Lord, Lord will enter the kingdom of heaven, but the one who does the will of my father who's in heaven. On that day, many will say to me, Lord, Lord, did we not prophesy in your name and cast out demons in your name and do many mighty works in your name? And then I will declare to them, I never knew you depart from me, you workers of lawlessness.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-22T21:56:39Z",
+     "role": "host",
+     "t": 2373.84,
+     "title": "Why You Won't Be Seeing Much of Me for a While: 10 Qs with Mike Winger (Ep 77)",
+     "video_id": "iVseC51ZwUM"
+    },
+    {
+     "confidence": 0.68,
+     "context": "They are ravenous wolves, meaning they're greedy, they're not satisfied. You will recognize them by their fruit. Go to verse 21. Not everyone who says to me, Lord, Lord, will enter the kingdom of heaven, but the one who does the will of my father who is in heaven. On that day, many will say to me, Lord, Lord, did we not prophesy in your name?",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-06-11T02:26:27Z",
+     "role": "host",
+     "t": 5008.84,
+     "title": "How to Test Prophets and Prophecy (IG Live)",
+     "video_id": "rTbZlbLeeC4"
+    },
+    {
+     "confidence": 0.76,
+     "context": "He's talking about true believers that at some point fail to remain connected to him and are damned as a result. Jesus even warns people who claim they will be saved because they call on his name or trusted him, but engaged in grave sin. He says in Matthew 7, 21: Not everyone who says to me, Lord, Lord, shall enter the kingdom of heaven, but he who does the will of my Father who is in heaven. And in Matthew 10, 22, he who endures to the end will be saved, not merely he who trusts in Christ. John 3 36 even says, He who does not obey the Son shall not see life, but the wrath of God rests upon him.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-07-01T13:00:13Z",
+     "role": "host",
+     "t": 105.84,
+     "title": "DEBATE: Can a Christian Lose Salvation? (with NeedGod.net)",
+     "video_id": "vH3DbAjsNcs"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 3,
+    "jackie-hill-perry": 1,
+    "mike-winger": 1
+   },
+   "n": 5,
+   "text": {
+    "KJV": "Not every one that saith unto me, Lord, Lord, shall enter into the kingdom of heaven; but he that doeth the will of my Father which is in heaven.",
+    "WEB": "“Not everyone who says to me, ‘Lord, Lord,’ will enter into the Kingdom of Heaven, but he who does the will of my Father who is in heaven."
    },
    "truncated": false
   },

@@ -1,8 +1,95 @@
 {
  "book": "1 Thessalonians",
  "verses": {
+  "1 Thessalonians 3:11": {
+   "citations": [
+    {
+     "confidence": 1.0,
+     "context": "Now may our Lord, I'm sorry, skip this part. I'm supposed to go here. That's why I got confused. I'm saying fourth and fifth examples. Hold on a second. Okay, sorry. Yeah, see, that's why I said hold on. Let's go here. Now may our God and Father Himself and our Lord Jesus Christ direct our way to you. Don't take my word for it. Now, Cameron, my eyes don't blind deceive me, right? He's praying to two. Mm-hmm. But the verb direct is singular. May he direct our way to you. Katuf Tine.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-03-14T03:27:24Z",
+     "role": "host",
+     "t": 1891.72,
+     "title": "Exposing Jacob Hansen's Anti-Trinitarian Garbage (w/ Sam Shamoun)",
+     "video_id": "rS_-I5wXEsc"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Now God himself and our Father, and our Lord Jesus Christ, direct our way unto you.",
+    "WEB": "Now may our God and Father himself, and our Lord Jesus Christ, direct our way to you."
+   },
+   "truncated": false
+  },
+  "1 Thessalonians 5:12": {
+   "citations": [
+    {
+     "confidence": 0.7513,
+     "context": "Uh, but then it gets to insight, where you can now you it's more than just connecting the dots, but it's actually being able to know where points of contact are. You know, like you you begin to know, like we say in the church, know those who labor among you. You know what you have among you. So, like if you look at these two yellow, I'm pointing like you can see my fingers like that. How slow am I? I I've literally been pointing to each one of these like y'all can see my fingers.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-04-14T19:21:40Z",
+     "role": "host",
+     "t": 5707.76,
+     "title": "Sunday Sessions // Building Community w/out Superstition",
+     "video_id": "09Y9uDUzvuA"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And we beseech you, brethren, to know them which labour among you, and are over you in the Lord, and admonish you;",
+    "WEB": "But we beg you, brothers, to know those who labor among you, and are over you in the Lord and admonish you,"
+   },
+   "truncated": false
+  },
+  "1 Thessalonians 5:21": {
+   "citations": [
+    {
+     "confidence": 0.8333,
+     "context": "Is it drawing me closer to Jesus in genuineness, or is it having a harmful impact on me? In which case you would at least question whether or not this is something that's from the Lord. Um, at least ask that question. Uh, those are some thoughts I've got. The scripture says, uh, you know, test all things, hold fast that which is good, do not believe every spirit. But when you are the one struggling with it internally, um well, let's look at the prophecy. You know, it says um in the Bible about prophecy in first Corinthians tells us uh let two or three prophets speak and let the others judge, let the rest judge.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-05-08T21:33:55Z",
+     "role": "host",
+     "t": 3081.48,
+     "title": "The dangerous trend of fake prophets on YouTube: 10 Qs with Mike Winger (Ep 76)",
+     "video_id": "U_Dw0lcpwAI"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Prove all things; hold fast that which is good.",
+    "WEB": "Test all things, and hold firmly that which is good."
+   },
+   "truncated": false
+  },
   "1 Thessalonians 5:26": {
    "citations": [
+    {
+     "confidence": 0.6,
+     "context": "Like, for example, in some cultures, when you greet people, you greet them with a handshake, others with a hug, others with a kiss. Great, greet the brothers with a holy kiss, says Paul, right? The relative part of that is how to do it, but the fact you ought to greet people is consistent. All right. And we cut we unpack this a lot, and I don't have enough faith to be an atheist. C. S. Lewis did some amazing work in his small book called The Abolition of Man, where he points out that regardless of what culture you're talking about, that cultures agree at their core on certain moral principles.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-04-01T02:32:11Z",
+     "role": "host",
+     "t": 5521.52,
+     "title": "'Change My Mind' LIVE Q&A from Ole Miss (Oxford, MS)",
+     "video_id": "2FBZ3gpea7I"
+    },
     {
      "confidence": 0.6,
      "context": "Like, for example, in some cultures, when you greet people, you greet them with a handshake, others with a hug, others with a kiss. Great greet the brothers with a holy kiss, says Paul, right? The relative part of that is how to do it, but the fact you ought to greet people is consistent. All right. And we cut we unpack this a lot, and I don't have enough faith to be an atheist. C. S. Lewis did some amazing work in his small book called The Abolition of Man, where he points out that regardless of what culture you're talking about, that cultures agree at their core on certain moral principles.",
@@ -17,9 +104,9 @@
     }
    ],
    "creators": {
-    "cross-examined": 1
+    "cross-examined": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Greet all the brethren with an holy kiss.",
     "WEB": "Greet all the brothers with a holy kiss."

@@ -1,26 +1,59 @@
 {
  "lines": {
-  "16740": {
-   "context": "Um, recent archaeological discoveries have shed light on the possible use of cannabis and other psychoactive plants in ancient Israelite worship. Um, this conversation explores the evidence suggesting that substances like cannabis were used in biblical times, particularly focusing on findings from Telarod and examine and examines how these practices might have influenced religious experiences and perceptions of the divine, you know.",
-   "creator": "darante-lamar",
-   "occurrence_id": 16740,
-   "published_at": "2024-11-19T20:23:23Z",
+  "28260": {
+   "context": "Whatever evidence shows he was alive in the first place should be good enough to show that the defendant killed him. This absolutely does not follow. Alex asked for clarification on this. Trent said earlier at the very beginning of this debate, he said, you know, the evidence uh that Jesus was alive after his death is as good as the evidence that he was alive before his death. I don't know if if if that was if that's what you believe or if it just sort of came out that way.",
+   "creator": "paulogia",
+   "occurrence_id": 28260,
+   "published_at": "2026-05-12T13:30:27Z",
    "role": "host",
    "surface": "evidence",
-   "t": 568.92,
-   "title": "How High is The Most High",
-   "video_id": "P_mIx7JcObI"
+   "t": 227.2,
+   "title": "The Hidden Flaw in Every Resurrection Argument (Alex O'Connor vs Trent Horn response)",
+   "video_id": "ZpoAMmA6IMs"
+  },
+  "28275": {
+   "context": "This alternative requires only that Paul was who his letters say he was. What in your mind is the kind of the strongest piece of evidence for the resurrection of Jesus? I think the strongest piece of evidence is the uniqueness of the proclamation itself, that uh you would have an NT Wright talks about this in his book on Jesus, that if the apostles merely said, um, I've seen Jesus in heaven, they might say, Of course, he's he's in Abraham's bosom, he's with all the righteous waiting in heaven.",
+   "creator": "paulogia",
+   "occurrence_id": 28275,
+   "published_at": "2026-05-12T13:30:27Z",
+   "role": "host",
+   "surface": "evidence",
+   "t": 2500.36,
+   "title": "The Hidden Flaw in Every Resurrection Argument (Alex O'Connor vs Trent Horn response)",
+   "video_id": "ZpoAMmA6IMs"
+  },
+  "32400": {
+   "context": "And there's no easy way around this. This is going to be tricky. There's a lot of thoughts swirling around in there. And the more sincere the Christian is, the less aware they're going to be of it. And thus the more you and they might step on each other's toes without even understanding why. So in the long run, I think there is some benefit to trying to understand how and when and to what extent Christians are relying on faith, what it really means to them when they bring up apologetics, and also how evidence can kind of just bleed into these general internal intuitions.",
+   "creator": "prophet-of-zod",
+   "occurrence_id": 32400,
+   "published_at": "2024-01-11T21:00:09Z",
+   "role": "host",
+   "surface": "evidence",
+   "t": 1409.64,
+   "title": "Arguments for God are Just an Excuse for BLIND FAITH (according to a Christian)",
+   "video_id": "faGd89jvTvM"
   },
   "33397": {
-   "context": "Oh my goodness, we love quotes in the South. Oh, a good quote, a good saying, and the saying becomes rules to live by. You know, just good old country folk wisdom. You know? And so I had to look at my life and it's like, oh man, how many places am I approaching my life based off of anecdotes and not evidence? Because it's not just my religion. It can't be. I mean, it could be, but the probability of it being is not very, you know, is actually very low.",
+   "context": "Many people were not raised to experience questioning as a normal part of learning. They were trained to experience questioning as disrespect. So when they become adults, the argument doesn't land on a neutral mind. It lands on a conditioned nervous system. The adult hears what evidence supports this claim, but the child inside them hears, who do you think you are? That's the emotional trap. The appeal to authority doesn't merely just say trust the experts. It says trust people who formed you or risk becoming a traitor to your own story.",
    "creator": "darante-lamar",
    "occurrence_id": 33397,
-   "published_at": "2026-02-04T20:39:16Z",
+   "published_at": "2026-06-25T17:27:41Z",
    "role": "host",
    "surface": "evidence",
-   "t": 1511.36,
-   "title": "The 7 Questions I Had To Face After Faith",
-   "video_id": "rdJtcdIGH1s"
+   "t": 339.72,
+   "title": "5 Christian Arguments That Hijack Your Childhood Fear",
+   "video_id": "gdPVDdMT5fY"
+  },
+  "34228": {
+   "context": "And when it comes to reconstructing the evolutionary tree of life, there are acrimonious disputes among evolutionary biologists about how this is to be done. So I think it's entirely consistent with the evidence to say that God has supervised the evolutionary process and perhaps even miraculously guided it.",
+   "creator": "reasonable-faith-org",
+   "occurrence_id": 34228,
+   "published_at": "2026-05-18T19:41:34Z",
+   "role": "host",
+   "surface": "evidence",
+   "t": 3267.16,
+   "title": "Q&A: Is God the Best Explanation for the Origin of the Universe?",
+   "video_id": "hMF6oDVxUZs"
   }
  },
  "profiles": [
@@ -28,6 +61,13 @@
    "aspects_missing": [],
    "cell": "creator=darante-lamar",
    "claims": [
+    {
+     "aspect": "rhetorical-role",
+     "evidence": [
+      28275
+     ],
+     "text": "The term is used to challenge the foundational claims of certain religions, demanding objective proof for concepts like Allah's existence or divine prophecies (L13)."
+    },
     {
      "aspect": "function",
      "evidence": [
@@ -67,42 +107,84 @@
   },
   {
    "aspects_missing": [],
+   "cell": "creator=darante-lamar",
+   "claims": [
+    {
+     "aspect": "function",
+     "evidence": [
+      28260,
+      32400
+     ],
+     "text": "The term 'evidence' is used as a standard against which beliefs and worldviews are measured for intellectual integrity (L13). It also functions as a necessary component of critical thinking, requiring the ability to evaluate it and revise beliefs (L15)."
+    }
+   ],
+   "data_hash": "69040435637bf6ff4e1085f4",
+   "dropped_claims": 0,
+   "generated_at": "2026-07-19T14:30:22Z",
+   "k": 2,
+   "model": "ollama:gemma4:e4b:c6eb396dbd59",
+   "n": 816,
+   "prompt_version": "1",
+   "sampled": [
+    10952,
+    10953,
+    260,
+    261,
+    11605,
+    11606,
+    10933,
+    10950,
+    2885,
+    28643,
+    9995,
+    21454,
+    28260,
+    30613,
+    32400,
+    28683
+   ],
+   "sense": 1,
+   "stale": true,
+   "term": "evidence"
+  },
+  {
+   "aspects_missing": [],
    "cell": "overall",
    "claims": [
     {
-     "aspect": "valence",
+     "aspect": "function",
      "evidence": [
-      16740
+      28260
      ],
-     "text": "When used in the context of religion, the lack of evidence is presented as a point of weakness that undermines belief systems."
+     "text": "The term 'evidence' is used as a standard against which beliefs and worldviews are measured for intellectual integrity (L13). It also functions as a necessary component for critical thinking, allowing individuals to revise their understanding when new information becomes available (L2, L8)."
     }
    ],
-   "data_hash": "ea40597fe300df9432c3e44a",
+   "data_hash": "35353ab32030581e9f78e936",
    "dropped_claims": 0,
-   "generated_at": "2026-07-19T14:31:15Z",
+   "generated_at": "2026-07-19T14:31:39Z",
    "k": 2,
    "model": "ollama:gemma4:e4b:c6eb396dbd59",
-   "n": 1088,
+   "n": 822,
    "prompt_version": "1",
    "sampled": [
-    4608,
-    20852,
-    22549,
-    7419,
-    6611,
-    31578,
-    16740,
-    6612,
-    17147,
-    34889,
-    2165,
-    3235,
-    28286,
-    55,
-    31023,
-    22995
+    10952,
+    10953,
+    260,
+    261,
+    11605,
+    11606,
+    10933,
+    10950,
+    2885,
+    28643,
+    9995,
+    21454,
+    28260,
+    30613,
+    32400,
+    28683
    ],
-   "sense": 0,
+   "sense": 1,
    "stale": true,
    "term": "evidence"
   }

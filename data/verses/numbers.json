@@ -51,6 +51,31 @@
    },
    "truncated": false
   },
+  "Numbers 21:8": {
+   "citations": [
+    {
+     "confidence": 0.5385,
+     "context": "Numbers 21 verse 8, and we want to submit ourselves to scripture, right? And scripture does interpret scripture, scripture shows us what God means when he says things because he says something and he does something, and you put it together and you go, Ah, I get I get what you mean. And Numbers 21, eight says, and the Lord said to Moses, make a fiery serpent and set it on a pole, and everyone who is bitten when he sees it shall live. So Moses made a bronze serpent and set it on a pole, and if a serpent bit anyone, he would look at the bronze serpent and live.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-04-10T22:12:17Z",
+     "role": "host",
+     "t": 820.36,
+     "title": "Are images of Jesus breaking the 2nd commandment? 10 Qs with Mike Winger (Ep 73)",
+     "video_id": "L5EMUvhV94s"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And the LORD said unto Moses, Make thee a fiery serpent, and set it upon a pole: and it shall come to pass, that every one that is bitten, when he looketh upon it, shall live.",
+    "WEB": "The LORD said to Moses, “Make a venomous snake, and set it on a pole. It shall happen that everyone who is bitten, when he sees it, shall live.”"
+   },
+   "truncated": false
+  },
   "Numbers 33:9": {
    "citations": [
     {
@@ -89,15 +114,66 @@
      "t": 119.84,
      "title": "Doctrine of the Church pt 7: Believer's Baptism || Defenders LIVE!",
      "video_id": "1vdZQkGY288"
+    },
+    {
+     "confidence": 1.0,
+     "context": "Monsignor, it's been so great to spend some time with you today. Thanks for joining. Cameron, God bless you in your ministry. God bless all. Let me give you all a blessing. The response to each one is Amen. May the Lord bless you and keep you. Amen. May his face shine upon you and be gracious to you. Amen. May the Lord look upon you with a kindness and give you his peace. Amen. May Almighty God bless you all and give you God's joy and peace, Father, Son, Holy Spirit.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-01-23T22:31:30Z",
+     "role": "host",
+     "t": 3438.32,
+     "title": "This Exorcist Showed Me Photos That Defy Explanation",
+     "video_id": "QkD-ZpuqqcE"
+    },
+    {
+     "confidence": 0.75,
+     "context": "I've got like a little over a week. I've got like, I don't know, how many days have I have? I have not enough days. Today's the 22nd. So I'm gonna try. Lord bless you and keep you. Thank you guys so much for the encouragement, the support you've done towards me in ministry. I know there's people praying for me every day, all the time. I am amazed by that. Um, and I'm I'm grateful, and I know that God has answered those prayers in so many ways. So thank you.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-05-22T21:56:39Z",
+     "role": "host",
+     "t": 4875.2,
+     "title": "Why You Won't Be Seeing Much of Me for a While: 10 Qs with Mike Winger (Ep 77)",
+     "video_id": "iVseC51ZwUM"
     }
    ],
    "creators": {
+    "capturing-christianity": 1,
+    "mike-winger": 1,
     "reasonable-faith-org": 1
    },
-   "n": 1,
+   "n": 3,
    "text": {
     "KJV": "The LORD bless thee, and keep thee:",
     "WEB": "‘The LORD bless you, and keep you."
+   },
+   "truncated": false
+  },
+  "Numbers 6:25": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "Thanks for joining. Cameron, God bless you in your ministry. God bless all. Let me give you all a blessing. The response to each one is Amen. May the Lord bless you and keep you. Amen. May his face shine upon you and be gracious to you. Amen. May the Lord look upon you with a kindness and give you his peace. Amen. May Almighty God bless you all and give you God's joy and peace, Father, Son, Holy Spirit. Amen. Amen.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-01-23T22:31:30Z",
+     "role": "host",
+     "t": 3442.24,
+     "title": "This Exorcist Showed Me Photos That Defy Explanation",
+     "video_id": "QkD-ZpuqqcE"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "The LORD make his face shine upon thee, and be gracious unto thee:",
+    "WEB": "The LORD make his face to shine on you, and be gracious to you."
    },
    "truncated": false
   },

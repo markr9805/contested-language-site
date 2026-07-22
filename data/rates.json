@@ -1,126 +1,138 @@
 {
  "creator": [
   {
-   "ci_high_pmw": 106.066,
-   "ci_low_pmw": 73.642,
+   "ci_high_pmw": 457.5,
+   "ci_low_pmw": 383.004,
    "group": "apostate-aladdin",
    "group_by": "creator",
-   "n": 118,
-   "rate_pmw": 89.854,
+   "n": 489,
+   "rate_pmw": 420.252,
    "status": "ok",
    "term": "community",
-   "words": 1313242
+   "words": 1163587
   },
   {
+   "ci_high_pmw": 316.033,
+   "ci_low_pmw": 149.364,
    "group": "belief-it-or-not",
    "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 30,
+   "rate_pmw": 221.379,
+   "status": "ok",
    "term": "community",
-   "words": 59912
+   "words": 135514
   },
   {
-   "ci_high_pmw": 403.889,
-   "ci_low_pmw": 267.308,
+   "ci_high_pmw": 1051.018,
+   "ci_low_pmw": 827.008,
    "group": "britt-hartley",
    "group_by": "creator",
-   "n": 95,
-   "rate_pmw": 330.393,
+   "n": 270,
+   "rate_pmw": 939.013,
    "status": "ok",
    "term": "community",
    "words": 287536
   },
   {
+   "ci_high_pmw": 115.481,
+   "ci_low_pmw": 42.016,
    "group": "capturing-christianity",
    "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 17,
+   "rate_pmw": 72.126,
+   "status": "ok",
    "term": "community",
-   "words": 22745
+   "words": 235698
   },
   {
    "group": "counsel-of-trent",
    "group_by": "creator",
-   "n": 0,
+   "n": 5,
    "status": "insufficient-data",
    "term": "community",
-   "words": 71338
+   "words": 107541
   },
   {
-   "ci_high_pmw": 87.006,
-   "ci_low_pmw": 44.444,
+   "ci_high_pmw": 143.76,
+   "ci_low_pmw": 85.978,
    "group": "cross-examined",
    "group_by": "creator",
-   "n": 37,
-   "rate_pmw": 63.123,
+   "n": 62,
+   "rate_pmw": 112.141,
    "status": "ok",
    "term": "community",
-   "words": 586161
+   "words": 552873
   },
   {
-   "ci_high_pmw": 2315.573,
-   "ci_low_pmw": 2241.731,
+   "ci_high_pmw": 2374.807,
+   "ci_low_pmw": 2292.059,
    "group": "darante-lamar",
    "group_by": "creator",
-   "n": 14632,
-   "rate_pmw": 2278.652,
+   "n": 12219,
+   "rate_pmw": 2333.433,
    "status": "ok",
    "term": "community",
-   "words": 6421341
+   "words": 5236491
   },
   {
    "group": "drcraigvideos",
    "group_by": "creator",
-   "n": 0,
+   "n": 3,
    "status": "insufficient-data",
    "term": "community",
-   "words": 17959
+   "words": 74208
   },
   {
-   "ci_high_pmw": 471.683,
-   "ci_low_pmw": 347.124,
+   "ci_high_pmw": 978.064,
+   "ci_low_pmw": 782.689,
    "group": "genetically-modified-skeptic",
    "group_by": "creator",
-   "n": 166,
-   "rate_pmw": 409.403,
+   "n": 312,
+   "rate_pmw": 880.376,
    "status": "ok",
    "term": "community",
-   "words": 405468
+   "words": 354394
   },
   {
+   "ci_high_pmw": 433.826,
+   "ci_low_pmw": 183.279,
    "group": "jackie-hill-perry",
    "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "community",
-   "words": 54886
-  },
-  {
-   "group": "jude-3-project",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "community",
-   "words": 97300
-  },
-  {
-   "ci_high_pmw": 229.852,
-   "ci_low_pmw": 150.729,
-   "group": "lil-bill",
-   "group_by": "creator",
-   "n": 91,
-   "rate_pmw": 187.209,
+   "n": 23,
+   "rate_pmw": 289.123,
    "status": "ok",
    "term": "community",
-   "words": 486087
+   "words": 79551
   },
   {
-   "ci_high_pmw": 537.677,
-   "ci_low_pmw": 288.88,
+   "ci_high_pmw": 480.763,
+   "ci_low_pmw": 207.023,
+   "group": "jude-3-project",
+   "group_by": "creator",
+   "n": 24,
+   "rate_pmw": 323.11,
+   "status": "ok",
+   "term": "community",
+   "words": 74278
+  },
+  {
+   "ci_high_pmw": 561.878,
+   "ci_low_pmw": 436.137,
+   "group": "lil-bill",
+   "group_by": "creator",
+   "n": 242,
+   "rate_pmw": 499.007,
+   "status": "ok",
+   "term": "community",
+   "words": 484963
+  },
+  {
+   "ci_high_pmw": 1057.622,
+   "ci_low_pmw": 696.809,
    "group": "marc-coley",
    "group_by": "creator",
-   "n": 43,
-   "rate_pmw": 399.168,
+   "n": 93,
+   "rate_pmw": 863.317,
    "status": "ok",
    "term": "community",
    "words": 107724
@@ -128,10 +140,192 @@
   {
    "group": "mike-winger",
    "group_by": "creator",
-   "n": 0,
+   "n": 9,
    "status": "insufficient-data",
    "term": "community",
-   "words": 204967
+   "words": 161347
+  },
+  {
+   "ci_high_pmw": 251.47,
+   "ci_low_pmw": 133.022,
+   "group": "mindshift",
+   "group_by": "creator",
+   "n": 41,
+   "rate_pmw": 185.366,
+   "status": "ok",
+   "term": "community",
+   "words": 221184
+  },
+  {
+   "ci_high_pmw": 329.182,
+   "ci_low_pmw": 198.523,
+   "group": "paulogia",
+   "group_by": "creator",
+   "n": 64,
+   "rate_pmw": 257.782,
+   "status": "ok",
+   "term": "community",
+   "words": 248272
+  },
+  {
+   "ci_high_pmw": 218.143,
+   "ci_low_pmw": 122.07,
+   "group": "prophet-of-zod",
+   "group_by": "creator",
+   "n": 49,
+   "rate_pmw": 165.003,
+   "status": "ok",
+   "term": "community",
+   "words": 296964
+  },
+  {
+   "ci_high_pmw": 151.304,
+   "ci_low_pmw": 42.213,
+   "group": "reasonable-faith-org",
+   "group_by": "creator",
+   "n": 11,
+   "rate_pmw": 84.561,
+   "status": "ok",
+   "term": "community",
+   "words": 130083
+  },
+  {
+   "ci_high_pmw": 417.755,
+   "ci_low_pmw": 282.518,
+   "group": "shannon-q",
+   "group_by": "creator",
+   "n": 103,
+   "rate_pmw": 350.136,
+   "status": "ok",
+   "term": "community",
+   "words": 294171
+  },
+  {
+   "group": "apostate-aladdin",
+   "group_by": "creator",
+   "n": 6,
+   "status": "insufficient-data",
+   "term": "accountability",
+   "words": 1163587
+  },
+  {
+   "group": "belief-it-or-not",
+   "group_by": "creator",
+   "n": 7,
+   "status": "insufficient-data",
+   "term": "accountability",
+   "words": 135514
+  },
+  {
+   "group": "britt-hartley",
+   "group_by": "creator",
+   "n": 9,
+   "status": "insufficient-data",
+   "term": "accountability",
+   "words": 287536
+  },
+  {
+   "group": "capturing-christianity",
+   "group_by": "creator",
+   "n": 1,
+   "status": "insufficient-data",
+   "term": "accountability",
+   "words": 235698
+  },
+  {
+   "group": "counsel-of-trent",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "accountability",
+   "words": 107541
+  },
+  {
+   "ci_high_pmw": 37.914,
+   "ci_low_pmw": 11.215,
+   "group": "cross-examined",
+   "group_by": "creator",
+   "n": 12,
+   "rate_pmw": 21.705,
+   "status": "ok",
+   "term": "accountability",
+   "words": 552873
+  },
+  {
+   "ci_high_pmw": 75.047,
+   "ci_low_pmw": 60.922,
+   "group": "darante-lamar",
+   "group_by": "creator",
+   "n": 356,
+   "rate_pmw": 67.984,
+   "status": "ok",
+   "term": "accountability",
+   "words": 5236491
+  },
+  {
+   "group": "drcraigvideos",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "accountability",
+   "words": 74208
+  },
+  {
+   "group": "genetically-modified-skeptic",
+   "group_by": "creator",
+   "n": 8,
+   "status": "insufficient-data",
+   "term": "accountability",
+   "words": 354394
+  },
+  {
+   "group": "jackie-hill-perry",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "accountability",
+   "words": 79551
+  },
+  {
+   "ci_high_pmw": 247.588,
+   "ci_low_pmw": 64.56,
+   "group": "jude-3-project",
+   "group_by": "creator",
+   "n": 10,
+   "rate_pmw": 134.629,
+   "status": "ok",
+   "term": "accountability",
+   "words": 74278
+  },
+  {
+   "group": "lil-bill",
+   "group_by": "creator",
+   "n": 6,
+   "status": "insufficient-data",
+   "term": "accountability",
+   "words": 484963
+  },
+  {
+   "ci_high_pmw": 297.991,
+   "ci_low_pmw": 120.673,
+   "group": "marc-coley",
+   "group_by": "creator",
+   "n": 21,
+   "rate_pmw": 194.943,
+   "status": "ok",
+   "term": "accountability",
+   "words": 107724
+  },
+  {
+   "ci_high_pmw": 561.969,
+   "ci_low_pmw": 349.158,
+   "group": "mike-winger",
+   "group_by": "creator",
+   "n": 72,
+   "rate_pmw": 446.243,
+   "status": "ok",
+   "term": "accountability",
+   "words": 161347
   },
   {
    "ci_high_pmw": 134.146,
@@ -141,23 +335,23 @@
    "n": 19,
    "rate_pmw": 85.901,
    "status": "ok",
-   "term": "community",
+   "term": "accountability",
    "words": 221184
   },
   {
    "group": "paulogia",
    "group_by": "creator",
-   "n": 0,
+   "n": 6,
    "status": "insufficient-data",
-   "term": "community",
+   "term": "accountability",
    "words": 248272
   },
   {
    "group": "prophet-of-zod",
    "group_by": "creator",
-   "n": 0,
+   "n": 2,
    "status": "insufficient-data",
-   "term": "community",
+   "term": "accountability",
    "words": 296964
   },
   {
@@ -165,39 +359,45 @@
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
-   "term": "community",
-   "words": 78163
+   "term": "accountability",
+   "words": 130083
   },
   {
    "group": "shannon-q",
    "group_by": "creator",
-   "n": 0,
+   "n": 6,
    "status": "insufficient-data",
-   "term": "community",
+   "term": "accountability",
    "words": 294171
   },
   {
+   "ci_high_pmw": 21.262,
+   "ci_low_pmw": 7.215,
    "group": "apostate-aladdin",
    "group_by": "creator",
-   "n": 2,
-   "status": "insufficient-data",
-   "term": "accountability",
-   "words": 1313242
+   "n": 15,
+   "rate_pmw": 12.891,
+   "status": "ok",
+   "term": "deconstruction",
+   "words": 1163587
   },
   {
    "group": "belief-it-or-not",
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
-   "term": "accountability",
-   "words": 59912
+   "term": "deconstruction",
+   "words": 135514
   },
   {
+   "ci_high_pmw": 361.686,
+   "ci_low_pmw": 233.02,
    "group": "britt-hartley",
    "group_by": "creator",
-   "n": 5,
-   "status": "insufficient-data",
-   "term": "accountability",
+   "n": 84,
+   "rate_pmw": 292.137,
+   "status": "ok",
+   "term": "deconstruction",
    "words": 287536
   },
   {
@@ -205,236 +405,75 @@
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
-   "term": "accountability",
-   "words": 22745
+   "term": "deconstruction",
+   "words": 235698
   },
   {
    "group": "counsel-of-trent",
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
-   "term": "accountability",
-   "words": 71338
+   "term": "deconstruction",
+   "words": 107541
   },
   {
    "group": "cross-examined",
    "group_by": "creator",
    "n": 3,
    "status": "insufficient-data",
-   "term": "accountability",
-   "words": 586161
+   "term": "deconstruction",
+   "words": 552873
   },
   {
-   "ci_high_pmw": 64.8,
-   "ci_low_pmw": 52.932,
+   "ci_high_pmw": 113.81,
+   "ci_low_pmw": 96.254,
    "group": "darante-lamar",
    "group_by": "creator",
-   "n": 378,
-   "rate_pmw": 58.866,
+   "n": 550,
+   "rate_pmw": 105.032,
    "status": "ok",
-   "term": "accountability",
-   "words": 6421341
+   "term": "deconstruction",
+   "words": 5236491
   },
   {
    "group": "drcraigvideos",
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
-   "term": "accountability",
-   "words": 17959
+   "term": "deconstruction",
+   "words": 74208
   },
   {
    "group": "genetically-modified-skeptic",
    "group_by": "creator",
    "n": 6,
    "status": "insufficient-data",
-   "term": "accountability",
-   "words": 405468
+   "term": "deconstruction",
+   "words": 354394
   },
   {
    "group": "jackie-hill-perry",
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
-   "term": "accountability",
-   "words": 54886
+   "term": "deconstruction",
+   "words": 79551
   },
   {
    "group": "jude-3-project",
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
-   "term": "accountability",
-   "words": 97300
+   "term": "deconstruction",
+   "words": 74278
   },
   {
    "group": "lil-bill",
-   "group_by": "creator",
-   "n": 2,
-   "status": "insufficient-data",
-   "term": "accountability",
-   "words": 486087
-  },
-  {
-   "group": "marc-coley",
-   "group_by": "creator",
-   "n": 9,
-   "status": "insufficient-data",
-   "term": "accountability",
-   "words": 107724
-  },
-  {
-   "group": "mike-winger",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "accountability",
-   "words": 204967
-  },
-  {
-   "ci_high_pmw": 88.985,
-   "ci_low_pmw": 24.826,
-   "group": "mindshift",
-   "group_by": "creator",
-   "n": 11,
-   "rate_pmw": 49.732,
-   "status": "ok",
-   "term": "accountability",
-   "words": 221184
-  },
-  {
-   "group": "paulogia",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "accountability",
-   "words": 248272
-  },
-  {
-   "group": "prophet-of-zod",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "accountability",
-   "words": 296964
-  },
-  {
-   "group": "reasonable-faith-org",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "accountability",
-   "words": 78163
-  },
-  {
-   "group": "shannon-q",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "accountability",
-   "words": 294171
-  },
-  {
-   "group": "apostate-aladdin",
-   "group_by": "creator",
-   "n": 4,
-   "status": "insufficient-data",
-   "term": "deconstruction",
-   "words": 1313242
-  },
-  {
-   "group": "belief-it-or-not",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "deconstruction",
-   "words": 59912
-  },
-  {
-   "ci_high_pmw": 205.428,
-   "ci_low_pmw": 111.188,
-   "group": "britt-hartley",
-   "group_by": "creator",
-   "n": 44,
-   "rate_pmw": 153.024,
-   "status": "ok",
-   "term": "deconstruction",
-   "words": 287536
-  },
-  {
-   "group": "capturing-christianity",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "deconstruction",
-   "words": 22745
-  },
-  {
-   "group": "counsel-of-trent",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "deconstruction",
-   "words": 71338
-  },
-  {
-   "group": "cross-examined",
    "group_by": "creator",
    "n": 1,
    "status": "insufficient-data",
    "term": "deconstruction",
-   "words": 586161
-  },
-  {
-   "ci_high_pmw": 107.551,
-   "ci_low_pmw": 92.096,
-   "group": "darante-lamar",
-   "group_by": "creator",
-   "n": 641,
-   "rate_pmw": 99.823,
-   "status": "ok",
-   "term": "deconstruction",
-   "words": 6421341
-  },
-  {
-   "group": "drcraigvideos",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "deconstruction",
-   "words": 17959
-  },
-  {
-   "group": "genetically-modified-skeptic",
-   "group_by": "creator",
-   "n": 4,
-   "status": "insufficient-data",
-   "term": "deconstruction",
-   "words": 405468
-  },
-  {
-   "group": "jackie-hill-perry",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "deconstruction",
-   "words": 54886
-  },
-  {
-   "group": "jude-3-project",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "deconstruction",
-   "words": 97300
-  },
-  {
-   "group": "lil-bill",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "deconstruction",
-   "words": 486087
+   "words": 484963
   },
   {
    "group": "marc-coley",
@@ -450,15 +489,15 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "deconstruction",
-   "words": 204967
+   "words": 161347
   },
   {
-   "ci_high_pmw": 161.45,
-   "ci_low_pmw": 69.522,
+   "ci_high_pmw": 220.073,
+   "ci_low_pmw": 110.219,
    "group": "mindshift",
    "group_by": "creator",
-   "n": 24,
-   "rate_pmw": 108.507,
+   "n": 35,
+   "rate_pmw": 158.239,
    "status": "ok",
    "term": "deconstruction",
    "words": 221184
@@ -466,16 +505,19 @@
   {
    "group": "paulogia",
    "group_by": "creator",
-   "n": 0,
+   "n": 4,
    "status": "insufficient-data",
    "term": "deconstruction",
    "words": 248272
   },
   {
+   "ci_high_pmw": 229.627,
+   "ci_low_pmw": 130.777,
    "group": "prophet-of-zod",
    "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 52,
+   "rate_pmw": 175.105,
+   "status": "ok",
    "term": "deconstruction",
    "words": 296964
   },
@@ -485,31 +527,34 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "deconstruction",
-   "words": 78163
+   "words": 130083
   },
   {
    "group": "shannon-q",
    "group_by": "creator",
-   "n": 0,
+   "n": 6,
    "status": "insufficient-data",
    "term": "deconstruction",
    "words": 294171
   },
   {
+   "ci_high_pmw": 20.187,
+   "ci_low_pmw": 6.578,
    "group": "apostate-aladdin",
    "group_by": "creator",
-   "n": 8,
-   "status": "insufficient-data",
+   "n": 14,
+   "rate_pmw": 12.032,
+   "status": "ok",
    "term": "grace",
-   "words": 1313242
+   "words": 1163587
   },
   {
    "group": "belief-it-or-not",
    "group_by": "creator",
-   "n": 0,
+   "n": 8,
    "status": "insufficient-data",
    "term": "grace",
-   "words": 59912
+   "words": 135514
   },
   {
    "group": "britt-hartley",
@@ -520,1318 +565,194 @@
    "words": 287536
   },
   {
+   "ci_high_pmw": 156.577,
+   "ci_low_pmw": 68.642,
    "group": "capturing-christianity",
    "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 25,
+   "rate_pmw": 106.068,
+   "status": "ok",
    "term": "grace",
-   "words": 22745
+   "words": 235698
   },
   {
+   "ci_high_pmw": 967.052,
+   "ci_low_pmw": 623.034,
    "group": "counsel-of-trent",
    "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 84,
+   "rate_pmw": 781.097,
+   "status": "ok",
    "term": "grace",
-   "words": 71338
+   "words": 107541
   },
   {
-   "ci_high_pmw": 81.056,
-   "ci_low_pmw": 40.17,
+   "ci_high_pmw": 178.084,
+   "ci_low_pmw": 113.127,
    "group": "cross-examined",
    "group_by": "creator",
-   "n": 34,
-   "rate_pmw": 58.005,
+   "n": 79,
+   "rate_pmw": 142.89,
    "status": "ok",
    "term": "grace",
-   "words": 586161
+   "words": 552873
   },
   {
-   "ci_high_pmw": 58.084,
-   "ci_low_pmw": 46.878,
+   "ci_high_pmw": 58.521,
+   "ci_low_pmw": 46.13,
    "group": "darante-lamar",
    "group_by": "creator",
-   "n": 337,
-   "rate_pmw": 52.481,
+   "n": 274,
+   "rate_pmw": 52.325,
    "status": "ok",
    "term": "grace",
-   "words": 6421341
+   "words": 5236491
   },
   {
+   "ci_high_pmw": 671.615,
+   "ci_low_pmw": 339.774,
    "group": "drcraigvideos",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "grace",
-   "words": 17959
-  },
-  {
-   "group": "genetically-modified-skeptic",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "grace",
-   "words": 405468
-  },
-  {
-   "group": "jackie-hill-perry",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "grace",
-   "words": 54886
-  },
-  {
-   "group": "jude-3-project",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "grace",
-   "words": 97300
-  },
-  {
-   "ci_high_pmw": 61.04,
-   "ci_low_pmw": 23.533,
-   "group": "lil-bill",
-   "group_by": "creator",
-   "n": 19,
-   "rate_pmw": 39.088,
-   "status": "ok",
-   "term": "grace",
-   "words": 486087
-  },
-  {
-   "group": "marc-coley",
-   "group_by": "creator",
-   "n": 3,
-   "status": "insufficient-data",
-   "term": "grace",
-   "words": 107724
-  },
-  {
-   "group": "mike-winger",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "grace",
-   "words": 204967
-  },
-  {
-   "ci_high_pmw": 83.145,
-   "ci_low_pmw": 21.681,
-   "group": "mindshift",
-   "group_by": "creator",
-   "n": 10,
-   "rate_pmw": 45.211,
-   "status": "ok",
-   "term": "grace",
-   "words": 221184
-  },
-  {
-   "group": "paulogia",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "grace",
-   "words": 248272
-  },
-  {
-   "group": "prophet-of-zod",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "grace",
-   "words": 296964
-  },
-  {
-   "group": "reasonable-faith-org",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "grace",
-   "words": 78163
-  },
-  {
-   "group": "shannon-q",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "grace",
-   "words": 294171
-  },
-  {
-   "group": "apostate-aladdin",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "purity test",
-   "words": 1313242
-  },
-  {
-   "group": "belief-it-or-not",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "purity test",
-   "words": 59912
-  },
-  {
-   "group": "britt-hartley",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "purity test",
-   "words": 287536
-  },
-  {
-   "group": "capturing-christianity",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "purity test",
-   "words": 22745
-  },
-  {
-   "group": "counsel-of-trent",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "purity test",
-   "words": 71338
-  },
-  {
-   "group": "cross-examined",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "purity test",
-   "words": 586161
-  },
-  {
-   "ci_high_pmw": 7.761,
-   "ci_low_pmw": 3.927,
-   "group": "darante-lamar",
    "group_by": "creator",
    "n": 36,
-   "rate_pmw": 5.606,
+   "rate_pmw": 485.123,
    "status": "ok",
-   "term": "purity test",
-   "words": 6421341
+   "term": "grace",
+   "words": 74208
   },
   {
-   "group": "drcraigvideos",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "purity test",
-   "words": 17959
-  },
-  {
+   "ci_high_pmw": 73.317,
+   "ci_low_pmw": 25.806,
    "group": "genetically-modified-skeptic",
    "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "purity test",
-   "words": 405468
+   "n": 16,
+   "rate_pmw": 45.147,
+   "status": "ok",
+   "term": "grace",
+   "words": 354394
   },
   {
+   "ci_high_pmw": 295.278,
+   "ci_low_pmw": 96.214,
    "group": "jackie-hill-perry",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "purity test",
-   "words": 54886
-  },
-  {
-   "group": "jude-3-project",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "purity test",
-   "words": 97300
-  },
-  {
-   "group": "lil-bill",
-   "group_by": "creator",
-   "n": 1,
-   "status": "insufficient-data",
-   "term": "purity test",
-   "words": 486087
-  },
-  {
-   "group": "marc-coley",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "purity test",
-   "words": 107724
-  },
-  {
-   "group": "mike-winger",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "purity test",
-   "words": 204967
-  },
-  {
-   "group": "mindshift",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "purity test",
-   "words": 221184
-  },
-  {
-   "group": "paulogia",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "purity test",
-   "words": 248272
-  },
-  {
-   "group": "prophet-of-zod",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "purity test",
-   "words": 296964
-  },
-  {
-   "group": "reasonable-faith-org",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "purity test",
-   "words": 78163
-  },
-  {
-   "group": "shannon-q",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "purity test",
-   "words": 294171
-  },
-  {
-   "group": "apostate-aladdin",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "bridge city",
-   "words": 1313242
-  },
-  {
-   "group": "belief-it-or-not",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "bridge city",
-   "words": 59912
-  },
-  {
-   "group": "britt-hartley",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "bridge city",
-   "words": 287536
-  },
-  {
-   "group": "capturing-christianity",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "bridge city",
-   "words": 22745
-  },
-  {
-   "group": "counsel-of-trent",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "bridge city",
-   "words": 71338
-  },
-  {
-   "group": "cross-examined",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "bridge city",
-   "words": 586161
-  },
-  {
-   "ci_high_pmw": 496.431,
-   "ci_low_pmw": 462.558,
-   "group": "darante-lamar",
-   "group_by": "creator",
-   "n": 3079,
-   "rate_pmw": 479.495,
-   "status": "ok",
-   "term": "bridge city",
-   "words": 6421341
-  },
-  {
-   "group": "drcraigvideos",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "bridge city",
-   "words": 17959
-  },
-  {
-   "group": "genetically-modified-skeptic",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "bridge city",
-   "words": 405468
-  },
-  {
-   "group": "jackie-hill-perry",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "bridge city",
-   "words": 54886
-  },
-  {
-   "group": "jude-3-project",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "bridge city",
-   "words": 97300
-  },
-  {
-   "group": "lil-bill",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "bridge city",
-   "words": 486087
-  },
-  {
-   "group": "marc-coley",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "bridge city",
-   "words": 107724
-  },
-  {
-   "group": "mike-winger",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "bridge city",
-   "words": 204967
-  },
-  {
-   "group": "mindshift",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "bridge city",
-   "words": 221184
-  },
-  {
-   "group": "paulogia",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "bridge city",
-   "words": 248272
-  },
-  {
-   "group": "prophet-of-zod",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "bridge city",
-   "words": 296964
-  },
-  {
-   "group": "reasonable-faith-org",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "bridge city",
-   "words": 78163
-  },
-  {
-   "group": "shannon-q",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "bridge city",
-   "words": 294171
-  },
-  {
-   "group": "apostate-aladdin",
-   "group_by": "creator",
-   "n": 1,
-   "status": "insufficient-data",
-   "term": "do the work",
-   "words": 1313242
-  },
-  {
-   "group": "belief-it-or-not",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "do the work",
-   "words": 59912
-  },
-  {
-   "group": "britt-hartley",
-   "group_by": "creator",
-   "n": 1,
-   "status": "insufficient-data",
-   "term": "do the work",
-   "words": 287536
-  },
-  {
-   "group": "capturing-christianity",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "do the work",
-   "words": 22745
-  },
-  {
-   "group": "counsel-of-trent",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "do the work",
-   "words": 71338
-  },
-  {
-   "group": "cross-examined",
-   "group_by": "creator",
-   "n": 3,
-   "status": "insufficient-data",
-   "term": "do the work",
-   "words": 586161
-  },
-  {
-   "ci_high_pmw": 94.594,
-   "ci_low_pmw": 80.136,
-   "group": "darante-lamar",
-   "group_by": "creator",
-   "n": 561,
-   "rate_pmw": 87.365,
-   "status": "ok",
-   "term": "do the work",
-   "words": 6421341
-  },
-  {
-   "group": "drcraigvideos",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "do the work",
-   "words": 17959
-  },
-  {
-   "group": "genetically-modified-skeptic",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "do the work",
-   "words": 405468
-  },
-  {
-   "group": "jackie-hill-perry",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "do the work",
-   "words": 54886
-  },
-  {
-   "group": "jude-3-project",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "do the work",
-   "words": 97300
-  },
-  {
-   "group": "lil-bill",
-   "group_by": "creator",
-   "n": 3,
-   "status": "insufficient-data",
-   "term": "do the work",
-   "words": 486087
-  },
-  {
-   "ci_high_pmw": 264.08,
-   "ci_low_pmw": 99.03,
-   "group": "marc-coley",
-   "group_by": "creator",
-   "n": 18,
-   "rate_pmw": 167.094,
-   "status": "ok",
-   "term": "do the work",
-   "words": 107724
-  },
-  {
-   "group": "mike-winger",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "do the work",
-   "words": 204967
-  },
-  {
-   "group": "mindshift",
-   "group_by": "creator",
-   "n": 1,
-   "status": "insufficient-data",
-   "term": "do the work",
-   "words": 221184
-  },
-  {
-   "group": "paulogia",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "do the work",
-   "words": 248272
-  },
-  {
-   "group": "prophet-of-zod",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "do the work",
-   "words": 296964
-  },
-  {
-   "group": "reasonable-faith-org",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "do the work",
-   "words": 78163
-  },
-  {
-   "group": "shannon-q",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "do the work",
-   "words": 294171
-  },
-  {
-   "group": "apostate-aladdin",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "moral supremism",
-   "words": 1313242
-  },
-  {
-   "group": "belief-it-or-not",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "moral supremism",
-   "words": 59912
-  },
-  {
-   "group": "britt-hartley",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "moral supremism",
-   "words": 287536
-  },
-  {
-   "group": "capturing-christianity",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "moral supremism",
-   "words": 22745
-  },
-  {
-   "group": "counsel-of-trent",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "moral supremism",
-   "words": 71338
-  },
-  {
-   "group": "cross-examined",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "moral supremism",
-   "words": 586161
-  },
-  {
-   "group": "darante-lamar",
-   "group_by": "creator",
-   "n": 3,
-   "status": "insufficient-data",
-   "term": "moral supremism",
-   "words": 6421341
-  },
-  {
-   "group": "drcraigvideos",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "moral supremism",
-   "words": 17959
-  },
-  {
-   "group": "genetically-modified-skeptic",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "moral supremism",
-   "words": 405468
-  },
-  {
-   "group": "jackie-hill-perry",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "moral supremism",
-   "words": 54886
-  },
-  {
-   "group": "jude-3-project",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "moral supremism",
-   "words": 97300
-  },
-  {
-   "group": "lil-bill",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "moral supremism",
-   "words": 486087
-  },
-  {
-   "group": "marc-coley",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "moral supremism",
-   "words": 107724
-  },
-  {
-   "group": "mike-winger",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "moral supremism",
-   "words": 204967
-  },
-  {
-   "group": "mindshift",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "moral supremism",
-   "words": 221184
-  },
-  {
-   "group": "paulogia",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "moral supremism",
-   "words": 248272
-  },
-  {
-   "group": "prophet-of-zod",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "moral supremism",
-   "words": 296964
-  },
-  {
-   "group": "reasonable-faith-org",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "moral supremism",
-   "words": 78163
-  },
-  {
-   "group": "shannon-q",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "moral supremism",
-   "words": 294171
-  },
-  {
-   "ci_high_pmw": 177.471,
-   "ci_low_pmw": 134.733,
-   "group": "apostate-aladdin",
-   "group_by": "creator",
-   "n": 205,
-   "rate_pmw": 156.102,
-   "status": "ok",
-   "term": "truth",
-   "words": 1313242
-  },
-  {
-   "group": "belief-it-or-not",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "truth",
-   "words": 59912
-  },
-  {
-   "ci_high_pmw": 315.342,
-   "ci_low_pmw": 195.925,
-   "group": "britt-hartley",
-   "group_by": "creator",
-   "n": 72,
-   "rate_pmw": 250.403,
-   "status": "ok",
-   "term": "truth",
-   "words": 287536
-  },
-  {
-   "group": "capturing-christianity",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "truth",
-   "words": 22745
-  },
-  {
-   "group": "counsel-of-trent",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "truth",
-   "words": 71338
-  },
-  {
-   "ci_high_pmw": 444.91,
-   "ci_low_pmw": 343.269,
-   "group": "cross-examined",
-   "group_by": "creator",
-   "n": 231,
-   "rate_pmw": 394.09,
-   "status": "ok",
-   "term": "truth",
-   "words": 586161
-  },
-  {
-   "ci_high_pmw": 412.844,
-   "ci_low_pmw": 382.006,
-   "group": "darante-lamar",
-   "group_by": "creator",
-   "n": 2552,
-   "rate_pmw": 397.425,
-   "status": "ok",
-   "term": "truth",
-   "words": 6421341
-  },
-  {
-   "group": "drcraigvideos",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "truth",
-   "words": 17959
-  },
-  {
-   "ci_high_pmw": 117.177,
-   "ci_low_pmw": 58.071,
-   "group": "genetically-modified-skeptic",
-   "group_by": "creator",
-   "n": 34,
-   "rate_pmw": 83.854,
-   "status": "ok",
-   "term": "truth",
-   "words": 405468
-  },
-  {
-   "group": "jackie-hill-perry",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "truth",
-   "words": 54886
-  },
-  {
-   "group": "jude-3-project",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "truth",
-   "words": 97300
-  },
-  {
-   "ci_high_pmw": 121.517,
-   "ci_low_pmw": 65.771,
-   "group": "lil-bill",
-   "group_by": "creator",
-   "n": 44,
-   "rate_pmw": 90.519,
-   "status": "ok",
-   "term": "truth",
-   "words": 486087
-  },
-  {
-   "ci_high_pmw": 297.991,
-   "ci_low_pmw": 120.673,
-   "group": "marc-coley",
-   "group_by": "creator",
-   "n": 21,
-   "rate_pmw": 194.943,
-   "status": "ok",
-   "term": "truth",
-   "words": 107724
-  },
-  {
-   "group": "mike-winger",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "truth",
-   "words": 204967
-  },
-  {
-   "ci_high_pmw": 1005.359,
-   "ci_low_pmw": 757.878,
-   "group": "mindshift",
-   "group_by": "creator",
-   "n": 195,
-   "rate_pmw": 881.619,
-   "status": "ok",
-   "term": "truth",
-   "words": 221184
-  },
-  {
-   "group": "paulogia",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "truth",
-   "words": 248272
-  },
-  {
-   "group": "prophet-of-zod",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "truth",
-   "words": 296964
-  },
-  {
-   "group": "reasonable-faith-org",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "truth",
-   "words": 78163
-  },
-  {
-   "group": "shannon-q",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "truth",
-   "words": 294171
-  },
-  {
-   "ci_high_pmw": 205.065,
-   "ci_low_pmw": 158.919,
-   "group": "apostate-aladdin",
-   "group_by": "creator",
-   "n": 239,
-   "rate_pmw": 181.992,
-   "status": "ok",
-   "term": "evidence",
-   "words": 1313242
-  },
-  {
-   "group": "belief-it-or-not",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "evidence",
-   "words": 59912
-  },
-  {
-   "ci_high_pmw": 120.024,
-   "ci_low_pmw": 50.707,
-   "group": "britt-hartley",
-   "group_by": "creator",
-   "n": 23,
-   "rate_pmw": 79.99,
-   "status": "ok",
-   "term": "evidence",
-   "words": 287536
-  },
-  {
-   "group": "capturing-christianity",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "evidence",
-   "words": 22745
-  },
-  {
-   "group": "counsel-of-trent",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "evidence",
-   "words": 71338
-  },
-  {
-   "ci_high_pmw": 691.958,
-   "ci_low_pmw": 563.67,
-   "group": "cross-examined",
-   "group_by": "creator",
-   "n": 368,
-   "rate_pmw": 627.814,
-   "status": "ok",
-   "term": "evidence",
-   "words": 586161
-  },
-  {
-   "ci_high_pmw": 311.74,
-   "ci_low_pmw": 285.02,
-   "group": "darante-lamar",
-   "group_by": "creator",
-   "n": 1916,
-   "rate_pmw": 298.38,
-   "status": "ok",
-   "term": "evidence",
-   "words": 6421341
-  },
-  {
-   "group": "drcraigvideos",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "evidence",
-   "words": 17959
-  },
-  {
-   "ci_high_pmw": 120.05,
-   "ci_low_pmw": 60.125,
-   "group": "genetically-modified-skeptic",
-   "group_by": "creator",
-   "n": 35,
-   "rate_pmw": 86.32,
-   "status": "ok",
-   "term": "evidence",
-   "words": 405468
-  },
-  {
-   "group": "jackie-hill-perry",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "evidence",
-   "words": 54886
-  },
-  {
-   "group": "jude-3-project",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "evidence",
-   "words": 97300
-  },
-  {
-   "ci_high_pmw": 61.04,
-   "ci_low_pmw": 23.533,
-   "group": "lil-bill",
-   "group_by": "creator",
-   "n": 19,
-   "rate_pmw": 39.088,
-   "status": "ok",
-   "term": "evidence",
-   "words": 486087
-  },
-  {
-   "group": "marc-coley",
-   "group_by": "creator",
-   "n": 1,
-   "status": "insufficient-data",
-   "term": "evidence",
-   "words": 107724
-  },
-  {
-   "group": "mike-winger",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "evidence",
-   "words": 204967
-  },
-  {
-   "ci_high_pmw": 649.453,
-   "ci_low_pmw": 453.701,
-   "group": "mindshift",
-   "group_by": "creator",
-   "n": 122,
-   "rate_pmw": 551.577,
-   "status": "ok",
-   "term": "evidence",
-   "words": 221184
-  },
-  {
-   "group": "paulogia",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "evidence",
-   "words": 248272
-  },
-  {
-   "group": "prophet-of-zod",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "evidence",
-   "words": 296964
-  },
-  {
-   "group": "reasonable-faith-org",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "evidence",
-   "words": 78163
-  },
-  {
-   "group": "shannon-q",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "evidence",
-   "words": 294171
-  },
-  {
-   "ci_high_pmw": 172.587,
-   "ci_low_pmw": 130.48,
-   "group": "apostate-aladdin",
-   "group_by": "creator",
-   "n": 199,
-   "rate_pmw": 151.533,
-   "status": "ok",
-   "term": "love",
-   "words": 1313242
-  },
-  {
-   "group": "belief-it-or-not",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "love",
-   "words": 59912
-  },
-  {
-   "ci_high_pmw": 435.019,
-   "ci_low_pmw": 295.324,
-   "group": "britt-hartley",
-   "group_by": "creator",
-   "n": 105,
-   "rate_pmw": 365.172,
-   "status": "ok",
-   "term": "love",
-   "words": 287536
-  },
-  {
-   "group": "capturing-christianity",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "love",
-   "words": 22745
-  },
-  {
-   "group": "counsel-of-trent",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "love",
-   "words": 71338
-  },
-  {
-   "ci_high_pmw": 546.273,
-   "ci_low_pmw": 432.98,
-   "group": "cross-examined",
-   "group_by": "creator",
-   "n": 287,
-   "rate_pmw": 489.627,
-   "status": "ok",
-   "term": "love",
-   "words": 586161
-  },
-  {
-   "ci_high_pmw": 1464.201,
-   "ci_low_pmw": 1405.604,
-   "group": "darante-lamar",
-   "group_by": "creator",
-   "n": 9214,
-   "rate_pmw": 1434.903,
-   "status": "ok",
-   "term": "love",
-   "words": 6421341
-  },
-  {
-   "group": "drcraigvideos",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "love",
-   "words": 17959
-  },
-  {
-   "ci_high_pmw": 267.391,
-   "ci_low_pmw": 174.067,
-   "group": "genetically-modified-skeptic",
-   "group_by": "creator",
-   "n": 88,
-   "rate_pmw": 217.033,
-   "status": "ok",
-   "term": "love",
-   "words": 405468
-  },
-  {
-   "group": "jackie-hill-perry",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "love",
-   "words": 54886
-  },
-  {
-   "group": "jude-3-project",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "love",
-   "words": 97300
-  },
-  {
-   "ci_high_pmw": 229.852,
-   "ci_low_pmw": 150.729,
-   "group": "lil-bill",
-   "group_by": "creator",
-   "n": 91,
-   "rate_pmw": 187.209,
-   "status": "ok",
-   "term": "love",
-   "words": 486087
-  },
-  {
-   "ci_high_pmw": 996.196,
-   "ci_low_pmw": 646.87,
-   "group": "marc-coley",
-   "group_by": "creator",
-   "n": 87,
-   "rate_pmw": 807.619,
-   "status": "ok",
-   "term": "love",
-   "words": 107724
-  },
-  {
-   "group": "mike-winger",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "love",
-   "words": 204967
-  },
-  {
-   "ci_high_pmw": 1212.732,
-   "ci_low_pmw": 939.323,
-   "group": "mindshift",
-   "group_by": "creator",
-   "n": 238,
-   "rate_pmw": 1076.027,
-   "status": "ok",
-   "term": "love",
-   "words": 221184
-  },
-  {
-   "group": "paulogia",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "love",
-   "words": 248272
-  },
-  {
-   "group": "prophet-of-zod",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "love",
-   "words": 296964
-  },
-  {
-   "group": "reasonable-faith-org",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "love",
-   "words": 78163
-  },
-  {
-   "group": "shannon-q",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "love",
-   "words": 294171
-  },
-  {
-   "ci_high_pmw": 62.233,
-   "ci_low_pmw": 37.531,
-   "group": "apostate-aladdin",
-   "group_by": "creator",
-   "n": 64,
-   "rate_pmw": 48.734,
-   "status": "ok",
-   "term": "harm",
-   "words": 1313242
-  },
-  {
-   "group": "belief-it-or-not",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "harm",
-   "words": 59912
-  },
-  {
-   "ci_high_pmw": 81.693,
-   "ci_low_pmw": 26.619,
-   "group": "britt-hartley",
    "group_by": "creator",
    "n": 14,
-   "rate_pmw": 48.69,
+   "rate_pmw": 175.988,
    "status": "ok",
-   "term": "harm",
+   "term": "grace",
+   "words": 79551
+  },
+  {
+   "ci_high_pmw": 480.763,
+   "ci_low_pmw": 207.023,
+   "group": "jude-3-project",
+   "group_by": "creator",
+   "n": 24,
+   "rate_pmw": 323.11,
+   "status": "ok",
+   "term": "grace",
+   "words": 74278
+  },
+  {
+   "ci_high_pmw": 76.098,
+   "ci_low_pmw": 33.361,
+   "group": "lil-bill",
+   "group_by": "creator",
+   "n": 25,
+   "rate_pmw": 51.55,
+   "status": "ok",
+   "term": "grace",
+   "words": 484963
+  },
+  {
+   "group": "marc-coley",
+   "group_by": "creator",
+   "n": 6,
+   "status": "insufficient-data",
+   "term": "grace",
+   "words": 107724
+  },
+  {
+   "ci_high_pmw": 308.894,
+   "ci_low_pmw": 156.272,
+   "group": "mike-winger",
+   "group_by": "creator",
+   "n": 36,
+   "rate_pmw": 223.122,
+   "status": "ok",
+   "term": "grace",
+   "words": 161347
+  },
+  {
+   "ci_high_pmw": 134.146,
+   "ci_low_pmw": 51.718,
+   "group": "mindshift",
+   "group_by": "creator",
+   "n": 19,
+   "rate_pmw": 85.901,
+   "status": "ok",
+   "term": "grace",
+   "words": 221184
+  },
+  {
+   "ci_high_pmw": 89.54,
+   "ci_low_pmw": 27.881,
+   "group": "paulogia",
+   "group_by": "creator",
+   "n": 13,
+   "rate_pmw": 52.362,
+   "status": "ok",
+   "term": "grace",
+   "words": 248272
+  },
+  {
+   "group": "prophet-of-zod",
+   "group_by": "creator",
+   "n": 4,
+   "status": "insufficient-data",
+   "term": "grace",
+   "words": 296964
+  },
+  {
+   "ci_high_pmw": 875.835,
+   "ci_low_pmw": 577.039,
+   "group": "reasonable-faith-org",
+   "group_by": "creator",
+   "n": 93,
+   "rate_pmw": 714.928,
+   "status": "ok",
+   "term": "grace",
+   "words": 130083
+  },
+  {
+   "group": "shannon-q",
+   "group_by": "creator",
+   "n": 3,
+   "status": "insufficient-data",
+   "term": "grace",
+   "words": 294171
+  },
+  {
+   "group": "apostate-aladdin",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "purity test",
+   "words": 1163587
+  },
+  {
+   "group": "belief-it-or-not",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "purity test",
+   "words": 135514
+  },
+  {
+   "group": "britt-hartley",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "purity test",
    "words": 287536
   },
   {
@@ -1839,219 +760,1484 @@
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
-   "term": "harm",
-   "words": 22745
+   "term": "purity test",
+   "words": 235698
   },
   {
    "group": "counsel-of-trent",
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
-   "term": "harm",
-   "words": 71338
+   "term": "purity test",
+   "words": 107541
   },
   {
    "group": "cross-examined",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "purity test",
+   "words": 552873
+  },
+  {
+   "ci_high_pmw": 8.85,
+   "ci_low_pmw": 4.338,
+   "group": "darante-lamar",
+   "group_by": "creator",
+   "n": 33,
+   "rate_pmw": 6.302,
+   "status": "ok",
+   "term": "purity test",
+   "words": 5236491
+  },
+  {
+   "group": "drcraigvideos",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "purity test",
+   "words": 74208
+  },
+  {
+   "group": "genetically-modified-skeptic",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "purity test",
+   "words": 354394
+  },
+  {
+   "group": "jackie-hill-perry",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "purity test",
+   "words": 79551
+  },
+  {
+   "group": "jude-3-project",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "purity test",
+   "words": 74278
+  },
+  {
+   "group": "lil-bill",
+   "group_by": "creator",
+   "n": 1,
+   "status": "insufficient-data",
+   "term": "purity test",
+   "words": 484963
+  },
+  {
+   "group": "marc-coley",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "purity test",
+   "words": 107724
+  },
+  {
+   "group": "mike-winger",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "purity test",
+   "words": 161347
+  },
+  {
+   "group": "mindshift",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "purity test",
+   "words": 221184
+  },
+  {
+   "group": "paulogia",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "purity test",
+   "words": 248272
+  },
+  {
+   "group": "prophet-of-zod",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "purity test",
+   "words": 296964
+  },
+  {
+   "group": "reasonable-faith-org",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "purity test",
+   "words": 130083
+  },
+  {
+   "group": "shannon-q",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "purity test",
+   "words": 294171
+  },
+  {
+   "group": "apostate-aladdin",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "bridge city",
+   "words": 1163587
+  },
+  {
+   "group": "belief-it-or-not",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "bridge city",
+   "words": 135514
+  },
+  {
+   "group": "britt-hartley",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "bridge city",
+   "words": 287536
+  },
+  {
+   "group": "capturing-christianity",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "bridge city",
+   "words": 235698
+  },
+  {
+   "group": "counsel-of-trent",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "bridge city",
+   "words": 107541
+  },
+  {
+   "group": "cross-examined",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "bridge city",
+   "words": 552873
+  },
+  {
+   "ci_high_pmw": 498.275,
+   "ci_low_pmw": 460.764,
+   "group": "darante-lamar",
+   "group_by": "creator",
+   "n": 2511,
+   "rate_pmw": 479.52,
+   "status": "ok",
+   "term": "bridge city",
+   "words": 5236491
+  },
+  {
+   "group": "drcraigvideos",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "bridge city",
+   "words": 74208
+  },
+  {
+   "group": "genetically-modified-skeptic",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "bridge city",
+   "words": 354394
+  },
+  {
+   "group": "jackie-hill-perry",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "bridge city",
+   "words": 79551
+  },
+  {
+   "group": "jude-3-project",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "bridge city",
+   "words": 74278
+  },
+  {
+   "group": "lil-bill",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "bridge city",
+   "words": 484963
+  },
+  {
+   "group": "marc-coley",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "bridge city",
+   "words": 107724
+  },
+  {
+   "group": "mike-winger",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "bridge city",
+   "words": 161347
+  },
+  {
+   "group": "mindshift",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "bridge city",
+   "words": 221184
+  },
+  {
+   "group": "paulogia",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "bridge city",
+   "words": 248272
+  },
+  {
+   "group": "prophet-of-zod",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "bridge city",
+   "words": 296964
+  },
+  {
+   "group": "reasonable-faith-org",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "bridge city",
+   "words": 130083
+  },
+  {
+   "group": "shannon-q",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "bridge city",
+   "words": 294171
+  },
+  {
+   "group": "apostate-aladdin",
+   "group_by": "creator",
+   "n": 5,
+   "status": "insufficient-data",
+   "term": "do the work",
+   "words": 1163587
+  },
+  {
+   "group": "belief-it-or-not",
+   "group_by": "creator",
+   "n": 2,
+   "status": "insufficient-data",
+   "term": "do the work",
+   "words": 135514
+  },
+  {
+   "group": "britt-hartley",
+   "group_by": "creator",
+   "n": 2,
+   "status": "insufficient-data",
+   "term": "do the work",
+   "words": 287536
+  },
+  {
+   "group": "capturing-christianity",
+   "group_by": "creator",
+   "n": 2,
+   "status": "insufficient-data",
+   "term": "do the work",
+   "words": 235698
+  },
+  {
+   "group": "counsel-of-trent",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "do the work",
+   "words": 107541
+  },
+  {
+   "group": "cross-examined",
+   "group_by": "creator",
+   "n": 3,
+   "status": "insufficient-data",
+   "term": "do the work",
+   "words": 552873
+  },
+  {
+   "ci_high_pmw": 98.867,
+   "ci_low_pmw": 82.552,
+   "group": "darante-lamar",
+   "group_by": "creator",
+   "n": 475,
+   "rate_pmw": 90.71,
+   "status": "ok",
+   "term": "do the work",
+   "words": 5236491
+  },
+  {
+   "group": "drcraigvideos",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "do the work",
+   "words": 74208
+  },
+  {
+   "group": "genetically-modified-skeptic",
+   "group_by": "creator",
+   "n": 2,
+   "status": "insufficient-data",
+   "term": "do the work",
+   "words": 354394
+  },
+  {
+   "group": "jackie-hill-perry",
+   "group_by": "creator",
+   "n": 4,
+   "status": "insufficient-data",
+   "term": "do the work",
+   "words": 79551
+  },
+  {
+   "group": "jude-3-project",
+   "group_by": "creator",
+   "n": 1,
+   "status": "insufficient-data",
+   "term": "do the work",
+   "words": 74278
+  },
+  {
+   "group": "lil-bill",
+   "group_by": "creator",
+   "n": 3,
+   "status": "insufficient-data",
+   "term": "do the work",
+   "words": 484963
+  },
+  {
+   "ci_high_pmw": 353.645,
+   "ci_low_pmw": 157.663,
+   "group": "marc-coley",
+   "group_by": "creator",
+   "n": 26,
+   "rate_pmw": 241.358,
+   "status": "ok",
+   "term": "do the work",
+   "words": 107724
+  },
+  {
+   "group": "mike-winger",
+   "group_by": "creator",
+   "n": 1,
+   "status": "insufficient-data",
+   "term": "do the work",
+   "words": 161347
+  },
+  {
+   "group": "mindshift",
+   "group_by": "creator",
+   "n": 4,
+   "status": "insufficient-data",
+   "term": "do the work",
+   "words": 221184
+  },
+  {
+   "group": "paulogia",
+   "group_by": "creator",
+   "n": 1,
+   "status": "insufficient-data",
+   "term": "do the work",
+   "words": 248272
+  },
+  {
+   "group": "prophet-of-zod",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "do the work",
+   "words": 296964
+  },
+  {
+   "group": "reasonable-faith-org",
+   "group_by": "creator",
+   "n": 1,
+   "status": "insufficient-data",
+   "term": "do the work",
+   "words": 130083
+  },
+  {
+   "group": "shannon-q",
+   "group_by": "creator",
+   "n": 3,
+   "status": "insufficient-data",
+   "term": "do the work",
+   "words": 294171
+  },
+  {
+   "group": "apostate-aladdin",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "moral supremism",
+   "words": 1163587
+  },
+  {
+   "group": "belief-it-or-not",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "moral supremism",
+   "words": 135514
+  },
+  {
+   "group": "britt-hartley",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "moral supremism",
+   "words": 287536
+  },
+  {
+   "group": "capturing-christianity",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "moral supremism",
+   "words": 235698
+  },
+  {
+   "group": "counsel-of-trent",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "moral supremism",
+   "words": 107541
+  },
+  {
+   "group": "cross-examined",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "moral supremism",
+   "words": 552873
+  },
+  {
+   "group": "darante-lamar",
+   "group_by": "creator",
+   "n": 3,
+   "status": "insufficient-data",
+   "term": "moral supremism",
+   "words": 5236491
+  },
+  {
+   "group": "drcraigvideos",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "moral supremism",
+   "words": 74208
+  },
+  {
+   "group": "genetically-modified-skeptic",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "moral supremism",
+   "words": 354394
+  },
+  {
+   "group": "jackie-hill-perry",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "moral supremism",
+   "words": 79551
+  },
+  {
+   "group": "jude-3-project",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "moral supremism",
+   "words": 74278
+  },
+  {
+   "group": "lil-bill",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "moral supremism",
+   "words": 484963
+  },
+  {
+   "group": "marc-coley",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "moral supremism",
+   "words": 107724
+  },
+  {
+   "group": "mike-winger",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "moral supremism",
+   "words": 161347
+  },
+  {
+   "group": "mindshift",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "moral supremism",
+   "words": 221184
+  },
+  {
+   "group": "paulogia",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "moral supremism",
+   "words": 248272
+  },
+  {
+   "group": "prophet-of-zod",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "moral supremism",
+   "words": 296964
+  },
+  {
+   "group": "reasonable-faith-org",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "moral supremism",
+   "words": 130083
+  },
+  {
+   "group": "shannon-q",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "moral supremism",
+   "words": 294171
+  },
+  {
+   "ci_high_pmw": 381.96,
+   "ci_low_pmw": 314.163,
+   "group": "apostate-aladdin",
+   "group_by": "creator",
+   "n": 405,
+   "rate_pmw": 348.062,
+   "status": "ok",
+   "term": "truth",
+   "words": 1163587
+  },
+  {
+   "ci_high_pmw": 553.289,
+   "ci_low_pmw": 324.998,
+   "group": "belief-it-or-not",
+   "group_by": "creator",
+   "n": 58,
+   "rate_pmw": 428.0,
+   "status": "ok",
+   "term": "truth",
+   "words": 135514
+  },
+  {
+   "ci_high_pmw": 747.293,
+   "ci_low_pmw": 560.369,
+   "group": "britt-hartley",
+   "group_by": "creator",
+   "n": 188,
+   "rate_pmw": 653.831,
+   "status": "ok",
+   "term": "truth",
+   "words": 287536
+  },
+  {
+   "ci_high_pmw": 464.672,
+   "ci_low_pmw": 303.245,
+   "group": "capturing-christianity",
+   "group_by": "creator",
+   "n": 89,
+   "rate_pmw": 377.602,
+   "status": "ok",
+   "term": "truth",
+   "words": 235698
+  },
+  {
+   "ci_high_pmw": 430.945,
+   "ci_low_pmw": 211.228,
+   "group": "counsel-of-trent",
+   "group_by": "creator",
+   "n": 33,
+   "rate_pmw": 306.86,
+   "status": "ok",
+   "term": "truth",
+   "words": 107541
+  },
+  {
+   "ci_high_pmw": 1098.666,
+   "ci_low_pmw": 930.733,
+   "group": "cross-examined",
+   "group_by": "creator",
+   "n": 561,
+   "rate_pmw": 1014.7,
+   "status": "ok",
+   "term": "truth",
+   "words": 552873
+  },
+  {
+   "ci_high_pmw": 463.411,
+   "ci_low_pmw": 427.262,
+   "group": "darante-lamar",
+   "group_by": "creator",
+   "n": 2332,
+   "rate_pmw": 445.336,
+   "status": "ok",
+   "term": "truth",
+   "words": 5236491
+  },
+  {
+   "ci_high_pmw": 1206.835,
+   "ci_low_pmw": 747.245,
+   "group": "drcraigvideos",
+   "group_by": "creator",
+   "n": 71,
+   "rate_pmw": 956.77,
+   "status": "ok",
+   "term": "truth",
+   "words": 74208
+  },
+  {
+   "ci_high_pmw": 324.588,
+   "ci_low_pmw": 214.342,
+   "group": "genetically-modified-skeptic",
+   "group_by": "creator",
+   "n": 94,
+   "rate_pmw": 265.242,
+   "status": "ok",
+   "term": "truth",
+   "words": 354394
+  },
+  {
+   "ci_high_pmw": 742.517,
+   "ci_low_pmw": 401.886,
+   "group": "jackie-hill-perry",
+   "group_by": "creator",
+   "n": 44,
+   "rate_pmw": 553.104,
+   "status": "ok",
+   "term": "truth",
+   "words": 79551
+  },
+  {
+   "ci_high_pmw": 748.824,
+   "ci_low_pmw": 396.111,
+   "group": "jude-3-project",
+   "group_by": "creator",
+   "n": 41,
+   "rate_pmw": 551.98,
+   "status": "ok",
+   "term": "truth",
+   "words": 74278
+  },
+  {
+   "ci_high_pmw": 216.725,
+   "ci_low_pmw": 140.0,
+   "group": "lil-bill",
+   "group_by": "creator",
+   "n": 85,
+   "rate_pmw": 175.271,
+   "status": "ok",
+   "term": "truth",
+   "words": 484963
+  },
+  {
+   "ci_high_pmw": 643.546,
+   "ci_low_pmw": 368.54,
+   "group": "marc-coley",
+   "group_by": "creator",
+   "n": 53,
+   "rate_pmw": 491.998,
+   "status": "ok",
+   "term": "truth",
+   "words": 107724
+  },
+  {
+   "ci_high_pmw": 665.114,
+   "ci_low_pmw": 431.886,
+   "group": "mike-winger",
+   "group_by": "creator",
+   "n": 87,
+   "rate_pmw": 539.211,
+   "status": "ok",
+   "term": "truth",
+   "words": 161347
+  },
+  {
+   "ci_high_pmw": 1452.464,
+   "ci_low_pmw": 1151.703,
+   "group": "mindshift",
+   "group_by": "creator",
+   "n": 288,
+   "rate_pmw": 1302.083,
+   "status": "ok",
+   "term": "truth",
+   "words": 221184
+  },
+  {
+   "ci_high_pmw": 387.626,
+   "ci_low_pmw": 244.761,
+   "group": "paulogia",
+   "group_by": "creator",
+   "n": 77,
+   "rate_pmw": 310.144,
+   "status": "ok",
+   "term": "truth",
+   "words": 248272
+  },
+  {
+   "ci_high_pmw": 585.945,
+   "ci_low_pmw": 424.279,
+   "group": "prophet-of-zod",
+   "group_by": "creator",
+   "n": 150,
+   "rate_pmw": 505.112,
+   "status": "ok",
+   "term": "truth",
+   "words": 296964
+  },
+  {
+   "ci_high_pmw": 841.941,
+   "ci_low_pmw": 549.452,
+   "group": "reasonable-faith-org",
+   "group_by": "creator",
+   "n": 89,
+   "rate_pmw": 684.179,
+   "status": "ok",
+   "term": "truth",
+   "words": 130083
+  },
+  {
+   "ci_high_pmw": 251.045,
+   "ci_low_pmw": 146.756,
+   "group": "shannon-q",
+   "group_by": "creator",
+   "n": 57,
+   "rate_pmw": 193.765,
+   "status": "ok",
+   "term": "truth",
+   "words": 294171
+  },
+  {
+   "ci_high_pmw": 345.866,
+   "ci_low_pmw": 281.504,
+   "group": "apostate-aladdin",
+   "group_by": "creator",
+   "n": 365,
+   "rate_pmw": 313.685,
+   "status": "ok",
+   "term": "evidence",
+   "words": 1163587
+  },
+  {
+   "ci_high_pmw": 410.446,
+   "ci_low_pmw": 217.116,
+   "group": "belief-it-or-not",
+   "group_by": "creator",
+   "n": 41,
+   "rate_pmw": 302.552,
+   "status": "ok",
+   "term": "evidence",
+   "words": 135514
+  },
+  {
+   "ci_high_pmw": 193.441,
+   "ci_low_pmw": 102.326,
+   "group": "britt-hartley",
+   "group_by": "creator",
+   "n": 41,
+   "rate_pmw": 142.591,
+   "status": "ok",
+   "term": "evidence",
+   "words": 287536
+  },
+  {
+   "ci_high_pmw": 511.37,
+   "ci_low_pmw": 341.379,
+   "group": "capturing-christianity",
+   "group_by": "creator",
+   "n": 99,
+   "rate_pmw": 420.029,
+   "status": "ok",
+   "term": "evidence",
+   "words": 235698
+  },
+  {
+   "ci_high_pmw": 686.716,
+   "ci_low_pmw": 401.44,
+   "group": "counsel-of-trent",
+   "group_by": "creator",
+   "n": 57,
+   "rate_pmw": 530.03,
+   "status": "ok",
+   "term": "evidence",
+   "words": 107541
+  },
+  {
+   "ci_high_pmw": 1311.121,
+   "ci_low_pmw": 1127.052,
+   "group": "cross-examined",
+   "group_by": "creator",
+   "n": 674,
+   "rate_pmw": 1219.086,
+   "status": "ok",
+   "term": "evidence",
+   "words": 552873
+  },
+  {
+   "ci_high_pmw": 370.365,
+   "ci_low_pmw": 338.124,
+   "group": "darante-lamar",
+   "group_by": "creator",
+   "n": 1855,
+   "rate_pmw": 354.245,
+   "status": "ok",
+   "term": "evidence",
+   "words": 5236491
+  },
+  {
+   "ci_high_pmw": 1416.341,
+   "ci_low_pmw": 914.928,
+   "group": "drcraigvideos",
+   "group_by": "creator",
+   "n": 85,
+   "rate_pmw": 1145.429,
+   "status": "ok",
+   "term": "evidence",
+   "words": 74208
+  },
+  {
+   "ci_high_pmw": 478.796,
+   "ci_low_pmw": 345.146,
+   "group": "genetically-modified-skeptic",
+   "group_by": "creator",
+   "n": 146,
+   "rate_pmw": 411.971,
+   "status": "ok",
+   "term": "evidence",
+   "words": 354394
+  },
+  {
+   "group": "jackie-hill-perry",
+   "group_by": "creator",
+   "n": 5,
+   "status": "insufficient-data",
+   "term": "evidence",
+   "words": 79551
+  },
+  {
+   "group": "jude-3-project",
+   "group_by": "creator",
+   "n": 3,
+   "status": "insufficient-data",
+   "term": "evidence",
+   "words": 74278
+  },
+  {
+   "ci_high_pmw": 114.691,
+   "ci_low_pmw": 60.669,
+   "group": "lil-bill",
+   "group_by": "creator",
+   "n": 41,
+   "rate_pmw": 84.543,
+   "status": "ok",
+   "term": "evidence",
+   "words": 484963
+  },
+  {
+   "group": "marc-coley",
+   "group_by": "creator",
+   "n": 6,
+   "status": "insufficient-data",
+   "term": "evidence",
+   "words": 107724
+  },
+  {
+   "ci_high_pmw": 1271.933,
+   "ci_low_pmw": 946.888,
+   "group": "mike-winger",
+   "group_by": "creator",
+   "n": 179,
+   "rate_pmw": 1109.41,
+   "status": "ok",
+   "term": "evidence",
+   "words": 161347
+  },
+  {
+   "ci_high_pmw": 864.675,
+   "ci_low_pmw": 636.337,
+   "group": "mindshift",
+   "group_by": "creator",
+   "n": 166,
+   "rate_pmw": 750.506,
+   "status": "ok",
+   "term": "evidence",
+   "words": 221184
+  },
+  {
+   "ci_high_pmw": 1574.388,
+   "ci_low_pmw": 1277.323,
+   "group": "paulogia",
+   "group_by": "creator",
+   "n": 354,
+   "rate_pmw": 1425.856,
+   "status": "ok",
+   "term": "evidence",
+   "words": 248272
+  },
+  {
+   "ci_high_pmw": 391.066,
+   "ci_low_pmw": 258.822,
+   "group": "prophet-of-zod",
+   "group_by": "creator",
+   "n": 95,
+   "rate_pmw": 319.904,
+   "status": "ok",
+   "term": "evidence",
+   "words": 296964
+  },
+  {
+   "ci_high_pmw": 1237.859,
+   "ci_low_pmw": 883.864,
+   "group": "reasonable-faith-org",
+   "group_by": "creator",
+   "n": 138,
+   "rate_pmw": 1060.861,
+   "status": "ok",
+   "term": "evidence",
+   "words": 130083
+  },
+  {
+   "ci_high_pmw": 551.066,
+   "ci_low_pmw": 393.963,
+   "group": "shannon-q",
+   "group_by": "creator",
+   "n": 139,
+   "rate_pmw": 472.514,
+   "status": "ok",
+   "term": "evidence",
+   "words": 294171
+  },
+  {
+   "ci_high_pmw": 405.376,
+   "ci_low_pmw": 335.437,
+   "group": "apostate-aladdin",
+   "group_by": "creator",
+   "n": 431,
+   "rate_pmw": 370.406,
+   "status": "ok",
+   "term": "love",
+   "words": 1163587
+  },
+  {
+   "ci_high_pmw": 1506.48,
+   "ci_low_pmw": 1120.554,
+   "group": "belief-it-or-not",
+   "group_by": "creator",
+   "n": 178,
+   "rate_pmw": 1313.517,
+   "status": "ok",
+   "term": "love",
+   "words": 135514
+  },
+  {
+   "ci_high_pmw": 1076.805,
+   "ci_low_pmw": 849.91,
+   "group": "britt-hartley",
+   "group_by": "creator",
+   "n": 277,
+   "rate_pmw": 963.358,
+   "status": "ok",
+   "term": "love",
+   "words": 287536
+  },
+  {
+   "ci_high_pmw": 646.365,
+   "ci_low_pmw": 456.741,
+   "group": "capturing-christianity",
+   "group_by": "creator",
+   "n": 130,
+   "rate_pmw": 551.553,
+   "status": "ok",
+   "term": "love",
+   "words": 235698
+  },
+  {
+   "ci_high_pmw": 1090.118,
+   "ci_low_pmw": 723.076,
+   "group": "counsel-of-trent",
+   "group_by": "creator",
+   "n": 96,
+   "rate_pmw": 892.683,
+   "status": "ok",
+   "term": "love",
+   "words": 107541
+  },
+  {
+   "ci_high_pmw": 1072.289,
+   "ci_low_pmw": 906.466,
+   "group": "cross-examined",
+   "group_by": "creator",
+   "n": 547,
+   "rate_pmw": 989.377,
+   "status": "ok",
+   "term": "love",
+   "words": 552873
+  },
+  {
+   "ci_high_pmw": 1404.022,
+   "ci_low_pmw": 1340.564,
+   "group": "darante-lamar",
+   "group_by": "creator",
+   "n": 7186,
+   "rate_pmw": 1372.293,
+   "status": "ok",
+   "term": "love",
+   "words": 5236491
+  },
+  {
+   "ci_high_pmw": 1906.403,
+   "ci_low_pmw": 1327.75,
+   "group": "drcraigvideos",
+   "group_by": "creator",
+   "n": 120,
+   "rate_pmw": 1617.076,
+   "status": "ok",
+   "term": "love",
+   "words": 74208
+  },
+  {
+   "ci_high_pmw": 663.665,
+   "ci_low_pmw": 504.526,
+   "group": "genetically-modified-skeptic",
+   "group_by": "creator",
+   "n": 207,
+   "rate_pmw": 584.096,
+   "status": "ok",
+   "term": "love",
+   "words": 354394
+  },
+  {
+   "ci_high_pmw": 2795.306,
+   "ci_low_pmw": 2107.209,
+   "group": "jackie-hill-perry",
+   "group_by": "creator",
+   "n": 195,
+   "rate_pmw": 2451.258,
+   "status": "ok",
+   "term": "love",
+   "words": 79551
+  },
+  {
+   "ci_high_pmw": 1250.71,
+   "ci_low_pmw": 782.276,
+   "group": "jude-3-project",
+   "group_by": "creator",
+   "n": 74,
+   "rate_pmw": 996.257,
+   "status": "ok",
+   "term": "love",
+   "words": 74278
+  },
+  {
+   "ci_high_pmw": 575.024,
+   "ci_low_pmw": 447.734,
+   "group": "lil-bill",
+   "group_by": "creator",
+   "n": 248,
+   "rate_pmw": 511.379,
+   "status": "ok",
+   "term": "love",
+   "words": 484963
+  },
+  {
+   "ci_high_pmw": 1383.978,
+   "ci_low_pmw": 973.899,
+   "group": "marc-coley",
+   "group_by": "creator",
+   "n": 127,
+   "rate_pmw": 1178.939,
+   "status": "ok",
+   "term": "love",
+   "words": 107724
+  },
+  {
+   "ci_high_pmw": 747.017,
+   "ci_low_pmw": 498.691,
+   "group": "mike-winger",
+   "group_by": "creator",
+   "n": 99,
+   "rate_pmw": 613.584,
+   "status": "ok",
+   "term": "love",
+   "words": 161347
+  },
+  {
+   "ci_high_pmw": 1557.566,
+   "ci_low_pmw": 1245.53,
+   "group": "mindshift",
+   "group_by": "creator",
+   "n": 310,
+   "rate_pmw": 1401.548,
+   "status": "ok",
+   "term": "love",
+   "words": 221184
+  },
+  {
+   "ci_high_pmw": 351.727,
+   "ci_low_pmw": 216.239,
+   "group": "paulogia",
+   "group_by": "creator",
+   "n": 69,
+   "rate_pmw": 277.921,
+   "status": "ok",
+   "term": "love",
+   "words": 248272
+  },
+  {
+   "ci_high_pmw": 658.514,
+   "ci_low_pmw": 486.406,
+   "group": "prophet-of-zod",
+   "group_by": "creator",
+   "n": 170,
+   "rate_pmw": 572.46,
+   "status": "ok",
+   "term": "love",
+   "words": 296964
+  },
+  {
+   "ci_high_pmw": 497.994,
+   "ci_low_pmw": 278.672,
+   "group": "reasonable-faith-org",
+   "group_by": "creator",
+   "n": 49,
+   "rate_pmw": 376.683,
+   "status": "ok",
+   "term": "love",
+   "words": 130083
+  },
+  {
+   "ci_high_pmw": 904.608,
+   "ci_low_pmw": 699.901,
+   "group": "shannon-q",
+   "group_by": "creator",
+   "n": 236,
+   "rate_pmw": 802.254,
+   "status": "ok",
+   "term": "love",
+   "words": 294171
+  },
+  {
+   "ci_high_pmw": 211.305,
+   "ci_low_pmw": 161.679,
+   "group": "apostate-aladdin",
+   "group_by": "creator",
+   "n": 217,
+   "rate_pmw": 186.492,
+   "status": "ok",
+   "term": "harm",
+   "words": 1163587
+  },
+  {
+   "ci_high_pmw": 350.603,
+   "ci_low_pmw": 173.753,
+   "group": "belief-it-or-not",
+   "group_by": "creator",
+   "n": 34,
+   "rate_pmw": 250.897,
+   "status": "ok",
+   "term": "harm",
+   "words": 135514
+  },
+  {
+   "ci_high_pmw": 357.837,
+   "ci_low_pmw": 229.916,
+   "group": "britt-hartley",
+   "group_by": "creator",
+   "n": 83,
+   "rate_pmw": 288.66,
+   "status": "ok",
+   "term": "harm",
+   "words": 287536
+  },
+  {
+   "group": "capturing-christianity",
+   "group_by": "creator",
+   "n": 2,
+   "status": "insufficient-data",
+   "term": "harm",
+   "words": 235698
+  },
+  {
+   "ci_high_pmw": 183.019,
+   "ci_low_pmw": 51.061,
+   "group": "counsel-of-trent",
+   "group_by": "creator",
+   "n": 11,
+   "rate_pmw": 102.287,
+   "status": "ok",
+   "term": "harm",
+   "words": 107541
+  },
+  {
+   "ci_high_pmw": 42.486,
+   "ci_low_pmw": 13.844,
+   "group": "cross-examined",
+   "group_by": "creator",
+   "n": 14,
+   "rate_pmw": 25.322,
+   "status": "ok",
+   "term": "harm",
+   "words": 552873
+  },
+  {
+   "ci_high_pmw": 229.751,
+   "ci_low_pmw": 204.509,
+   "group": "darante-lamar",
+   "group_by": "creator",
+   "n": 1137,
+   "rate_pmw": 217.13,
+   "status": "ok",
+   "term": "harm",
+   "words": 5236491
+  },
+  {
+   "group": "drcraigvideos",
+   "group_by": "creator",
+   "n": 1,
+   "status": "insufficient-data",
+   "term": "harm",
+   "words": 74208
+  },
+  {
+   "ci_high_pmw": 176.357,
+   "ci_low_pmw": 97.445,
+   "group": "genetically-modified-skeptic",
+   "group_by": "creator",
+   "n": 47,
+   "rate_pmw": 132.621,
+   "status": "ok",
+   "term": "harm",
+   "words": 354394
+  },
+  {
+   "group": "jackie-hill-perry",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "harm",
+   "words": 79551
+  },
+  {
+   "ci_high_pmw": 316.239,
+   "ci_low_pmw": 103.044,
+   "group": "jude-3-project",
+   "group_by": "creator",
+   "n": 14,
+   "rate_pmw": 188.481,
+   "status": "ok",
+   "term": "harm",
+   "words": 74278
+  },
+  {
+   "ci_high_pmw": 107.55,
+   "ci_low_pmw": 55.45,
+   "group": "lil-bill",
+   "group_by": "creator",
+   "n": 38,
+   "rate_pmw": 78.356,
+   "status": "ok",
+   "term": "harm",
+   "words": 484963
+  },
+  {
+   "group": "marc-coley",
+   "group_by": "creator",
+   "n": 1,
+   "status": "insufficient-data",
+   "term": "harm",
+   "words": 107724
+  },
+  {
+   "group": "mike-winger",
+   "group_by": "creator",
+   "n": 7,
+   "status": "insufficient-data",
+   "term": "harm",
+   "words": 161347
+  },
+  {
+   "ci_high_pmw": 450.154,
+   "ci_low_pmw": 286.798,
+   "group": "mindshift",
+   "group_by": "creator",
+   "n": 80,
+   "rate_pmw": 361.69,
+   "status": "ok",
+   "term": "harm",
+   "words": 221184
+  },
+  {
+   "ci_high_pmw": 260.926,
+   "ci_low_pmw": 146.011,
+   "group": "paulogia",
+   "group_by": "creator",
+   "n": 49,
+   "rate_pmw": 197.364,
+   "status": "ok",
+   "term": "harm",
+   "words": 248272
+  },
+  {
+   "ci_high_pmw": 183.418,
+   "ci_low_pmw": 96.229,
+   "group": "prophet-of-zod",
+   "group_by": "creator",
+   "n": 40,
+   "rate_pmw": 134.696,
+   "status": "ok",
+   "term": "harm",
+   "words": 296964
+  },
+  {
+   "group": "reasonable-faith-org",
    "group_by": "creator",
    "n": 5,
    "status": "insufficient-data",
    "term": "harm",
-   "words": 586161
+   "words": 130083
   },
   {
-   "ci_high_pmw": 197.13,
-   "ci_low_pmw": 176.001,
-   "group": "darante-lamar",
-   "group_by": "creator",
-   "n": 1198,
-   "rate_pmw": 186.565,
-   "status": "ok",
-   "term": "harm",
-   "words": 6421341
-  },
-  {
-   "group": "drcraigvideos",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "harm",
-   "words": 17959
-  },
-  {
-   "ci_high_pmw": 57.932,
-   "ci_low_pmw": 18.877,
-   "group": "genetically-modified-skeptic",
-   "group_by": "creator",
-   "n": 14,
-   "rate_pmw": 34.528,
-   "status": "ok",
-   "term": "harm",
-   "words": 405468
-  },
-  {
-   "group": "jackie-hill-perry",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "harm",
-   "words": 54886
-  },
-  {
-   "group": "jude-3-project",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "harm",
-   "words": 97300
-  },
-  {
-   "ci_high_pmw": 45.733,
-   "ci_low_pmw": 14.24,
-   "group": "lil-bill",
-   "group_by": "creator",
-   "n": 13,
-   "rate_pmw": 26.744,
-   "status": "ok",
-   "term": "harm",
-   "words": 486087
-  },
-  {
-   "group": "marc-coley",
-   "group_by": "creator",
-   "n": 1,
-   "status": "insufficient-data",
-   "term": "harm",
-   "words": 107724
-  },
-  {
-   "group": "mike-winger",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "harm",
-   "words": 204967
-  },
-  {
-   "ci_high_pmw": 220.073,
-   "ci_low_pmw": 110.219,
-   "group": "mindshift",
-   "group_by": "creator",
-   "n": 35,
-   "rate_pmw": 158.239,
-   "status": "ok",
-   "term": "harm",
-   "words": 221184
-  },
-  {
-   "group": "paulogia",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "harm",
-   "words": 248272
-  },
-  {
-   "group": "prophet-of-zod",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "harm",
-   "words": 296964
-  },
-  {
-   "group": "reasonable-faith-org",
-   "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "harm",
-   "words": 78163
-  },
-  {
+   "ci_high_pmw": 200.795,
+   "ci_low_pmw": 108.68,
    "group": "shannon-q",
    "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 44,
+   "rate_pmw": 149.573,
+   "status": "ok",
    "term": "harm",
    "words": 294171
   }
  ],
  "overall": [
   {
-   "ci_high_pmw": 1369.585,
-   "ci_low_pmw": 1326.722,
+   "ci_high_pmw": 1395.464,
+   "ci_low_pmw": 1350.091,
    "group": "overall",
    "group_by": "overall",
-   "n": 15201,
-   "rate_pmw": 1348.154,
+   "n": 14066,
+   "rate_pmw": 1372.778,
    "status": "ok",
    "term": "community",
-   "words": 11275420
+   "words": 10246379
   },
   {
-   "ci_high_pmw": 40.44,
-   "ci_low_pmw": 33.349,
+   "ci_high_pmw": 57.248,
+   "ci_low_pmw": 48.35,
    "group": "overall",
    "group_by": "overall",
-   "n": 416,
-   "rate_pmw": 36.894,
+   "n": 541,
+   "rate_pmw": 52.799,
    "status": "ok",
    "term": "accountability",
-   "words": 11275420
+   "words": 10246379
   },
   {
-   "ci_high_pmw": 68.336,
-   "ci_low_pmw": 59.021,
+   "ci_high_pmw": 79.042,
+   "ci_low_pmw": 68.523,
    "group": "overall",
    "group_by": "overall",
-   "n": 718,
-   "rate_pmw": 63.678,
+   "n": 756,
+   "rate_pmw": 73.782,
    "status": "ok",
    "term": "deconstruction",
-   "words": 11275420
+   "words": 10246379
   },
   {
-   "ci_high_pmw": 40.626,
-   "ci_low_pmw": 33.518,
+   "ci_high_pmw": 81.467,
+   "ci_low_pmw": 70.782,
    "group": "overall",
    "group_by": "overall",
-   "n": 418,
-   "rate_pmw": 37.072,
+   "n": 780,
+   "rate_pmw": 76.124,
    "status": "ok",
    "term": "grace",
-   "words": 11275420
+   "words": 10246379
   },
   {
-   "ci_high_pmw": 4.523,
-   "ci_low_pmw": 2.31,
+   "ci_high_pmw": 4.637,
+   "ci_low_pmw": 2.298,
    "group": "overall",
    "group_by": "overall",
-   "n": 37,
-   "rate_pmw": 3.281,
+   "n": 34,
+   "rate_pmw": 3.318,
    "status": "ok",
    "term": "purity test",
-   "words": 11275420
+   "words": 10246379
   },
   {
-   "ci_high_pmw": 282.717,
-   "ci_low_pmw": 263.426,
+   "ci_high_pmw": 254.647,
+   "ci_low_pmw": 235.477,
    "group": "overall",
    "group_by": "overall",
-   "n": 3079,
-   "rate_pmw": 273.072,
+   "n": 2511,
+   "rate_pmw": 245.062,
    "status": "ok",
    "term": "bridge city",
-   "words": 11275420
+   "words": 10246379
   },
   {
-   "ci_high_pmw": 56.364,
-   "ci_low_pmw": 47.934,
+   "ci_high_pmw": 56.638,
+   "ci_low_pmw": 47.789,
    "group": "overall",
    "group_by": "overall",
-   "n": 588,
-   "rate_pmw": 52.149,
+   "n": 535,
+   "rate_pmw": 52.214,
    "status": "ok",
    "term": "do the work",
-   "words": 11275420
+   "words": 10246379
   },
   {
    "group": "overall",
@@ -2059,196 +2245,196 @@
    "n": 3,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 11275420
+   "words": 10246379
   },
   {
-   "ci_high_pmw": 307.528,
-   "ci_low_pmw": 287.394,
+   "ci_high_pmw": 481.909,
+   "ci_low_pmw": 455.398,
    "group": "overall",
    "group_by": "overall",
-   "n": 3354,
-   "rate_pmw": 297.461,
+   "n": 4802,
+   "rate_pmw": 468.653,
    "status": "ok",
    "term": "truth",
-   "words": 11275420
+   "words": 10246379
   },
   {
-   "ci_high_pmw": 250.569,
-   "ci_low_pmw": 232.428,
+   "ci_high_pmw": 450.922,
+   "ci_low_pmw": 425.29,
    "group": "overall",
    "group_by": "overall",
-   "n": 2723,
-   "rate_pmw": 241.499,
+   "n": 4489,
+   "rate_pmw": 438.106,
    "status": "ok",
    "term": "evidence",
-   "words": 11275420
+   "words": 10246379
   },
   {
-   "ci_high_pmw": 931.939,
-   "ci_low_pmw": 896.641,
+   "ci_high_pmw": 1068.885,
+   "ci_low_pmw": 1029.222,
    "group": "overall",
    "group_by": "overall",
-   "n": 10309,
-   "rate_pmw": 914.29,
+   "n": 10749,
+   "rate_pmw": 1049.054,
    "status": "ok",
    "term": "love",
-   "words": 11275420
+   "words": 10246379
   },
   {
-   "ci_high_pmw": 125.57,
-   "ci_low_pmw": 112.825,
+   "ci_high_pmw": 186.184,
+   "ci_low_pmw": 169.845,
    "group": "overall",
    "group_by": "overall",
-   "n": 1344,
-   "rate_pmw": 119.197,
+   "n": 1824,
+   "rate_pmw": 178.014,
    "status": "ok",
    "term": "harm",
-   "words": 11275420
+   "words": 10246379
   }
  ],
  "role": [
   {
-   "ci_high_pmw": 1320.507,
-   "ci_low_pmw": 1275.201,
+   "ci_high_pmw": 1395.464,
+   "ci_low_pmw": 1350.091,
    "group": "host",
    "group_by": "role",
-   "n": 12609,
-   "rate_pmw": 1297.854,
+   "n": 14066,
+   "rate_pmw": 1372.778,
    "status": "ok",
    "term": "community",
-   "words": 9715268
+   "words": 10246379
   },
   {
-   "ci_high_pmw": 2186.778,
-   "ci_low_pmw": 1853.075,
+   "ci_high_pmw": 2013.051,
+   "ci_low_pmw": 1709.326,
    "group": "unattributed",
    "group_by": "role",
-   "n": 563,
-   "rate_pmw": 2019.927,
+   "n": 577,
+   "rate_pmw": 1861.188,
    "status": "ok",
    "term": "community",
-   "words": 278723
+   "words": 310017
   },
   {
-   "ci_high_pmw": 1652.285,
-   "ci_low_pmw": 1514.492,
+   "ci_high_pmw": 1463.873,
+   "ci_low_pmw": 1347.6,
    "group": "unknown",
    "group_by": "role",
-   "n": 2029,
-   "rate_pmw": 1583.389,
+   "n": 2246,
+   "rate_pmw": 1405.736,
    "status": "ok",
    "term": "community",
-   "words": 1281429
+   "words": 1597739
   },
   {
-   "ci_high_pmw": 43.911,
-   "ci_low_pmw": 35.963,
+   "ci_high_pmw": 57.248,
+   "ci_low_pmw": 48.35,
    "group": "host",
    "group_by": "role",
-   "n": 388,
-   "rate_pmw": 39.937,
+   "n": 541,
+   "rate_pmw": 52.799,
    "status": "ok",
    "term": "accountability",
-   "words": 9715268
+   "words": 10246379
   },
   {
-   "ci_high_pmw": 65.981,
-   "ci_low_pmw": 17.205,
+   "ci_high_pmw": 71.707,
+   "ci_low_pmw": 22.328,
    "group": "unattributed",
    "group_by": "role",
-   "n": 10,
-   "rate_pmw": 35.878,
+   "n": 13,
+   "rate_pmw": 41.933,
    "status": "ok",
    "term": "accountability",
-   "words": 278723
+   "words": 310017
   },
   {
-   "ci_high_pmw": 22.2,
-   "ci_low_pmw": 8.325,
+   "ci_high_pmw": 27.54,
+   "ci_low_pmw": 13.183,
    "group": "unknown",
    "group_by": "role",
-   "n": 18,
-   "rate_pmw": 14.047,
+   "n": 31,
+   "rate_pmw": 19.402,
    "status": "ok",
    "term": "accountability",
-   "words": 1281429
+   "words": 1597739
   },
   {
-   "ci_high_pmw": 69.054,
-   "ci_low_pmw": 58.992,
+   "ci_high_pmw": 79.042,
+   "ci_low_pmw": 68.523,
    "group": "host",
    "group_by": "role",
-   "n": 622,
-   "rate_pmw": 64.023,
+   "n": 756,
+   "rate_pmw": 73.782,
    "status": "ok",
    "term": "deconstruction",
-   "words": 9715268
+   "words": 10246379
   },
   {
-   "ci_high_pmw": 128.12,
-   "ci_low_pmw": 55.17,
+   "ci_high_pmw": 115.188,
+   "ci_low_pmw": 49.601,
    "group": "unattributed",
    "group_by": "role",
    "n": 24,
-   "rate_pmw": 86.107,
+   "rate_pmw": 77.415,
    "status": "ok",
    "term": "deconstruction",
-   "words": 278723
+   "words": 310017
   },
   {
-   "ci_high_pmw": 70.759,
-   "ci_low_pmw": 43.963,
+   "ci_high_pmw": 56.75,
+   "ci_low_pmw": 35.26,
    "group": "unknown",
    "group_by": "role",
    "n": 72,
-   "rate_pmw": 56.187,
+   "rate_pmw": 45.064,
    "status": "ok",
    "term": "deconstruction",
-   "words": 1281429
+   "words": 1597739
   },
   {
-   "ci_high_pmw": 40.233,
-   "ci_low_pmw": 32.642,
+   "ci_high_pmw": 81.467,
+   "ci_low_pmw": 70.782,
    "group": "host",
    "group_by": "role",
-   "n": 354,
-   "rate_pmw": 36.437,
+   "n": 780,
+   "rate_pmw": 76.124,
    "status": "ok",
    "term": "grace",
-   "words": 9715268
+   "words": 10246379
   },
   {
-   "ci_high_pmw": 93.222,
-   "ci_low_pmw": 32.812,
+   "ci_high_pmw": 157.012,
+   "ci_low_pmw": 78.637,
    "group": "unattributed",
    "group_by": "role",
-   "n": 16,
-   "rate_pmw": 57.405,
+   "n": 35,
+   "rate_pmw": 112.897,
    "status": "ok",
    "term": "grace",
-   "words": 278723
+   "words": 310017
   },
   {
-   "ci_high_pmw": 49.664,
-   "ci_low_pmw": 27.619,
+   "ci_high_pmw": 96.031,
+   "ci_low_pmw": 67.951,
    "group": "unknown",
    "group_by": "role",
-   "n": 48,
-   "rate_pmw": 37.458,
+   "n": 131,
+   "rate_pmw": 81.991,
    "status": "ok",
    "term": "grace",
-   "words": 1281429
+   "words": 1597739
   },
   {
-   "ci_high_pmw": 4.89,
-   "ci_low_pmw": 2.424,
+   "ci_high_pmw": 4.637,
+   "ci_low_pmw": 2.298,
    "group": "host",
    "group_by": "role",
    "n": 34,
-   "rate_pmw": 3.5,
+   "rate_pmw": 3.318,
    "status": "ok",
    "term": "purity test",
-   "words": 9715268
+   "words": 10246379
   },
   {
    "group": "unattributed",
@@ -2256,7 +2442,7 @@
    "n": 1,
    "status": "insufficient-data",
    "term": "purity test",
-   "words": 278723
+   "words": 310017
   },
   {
    "group": "unknown",
@@ -2264,73 +2450,73 @@
    "n": 2,
    "status": "insufficient-data",
    "term": "purity test",
-   "words": 1281429
+   "words": 1597739
   },
   {
-   "ci_high_pmw": 258.492,
-   "ci_low_pmw": 238.664,
+   "ci_high_pmw": 254.647,
+   "ci_low_pmw": 235.477,
    "group": "host",
    "group_by": "role",
-   "n": 2415,
-   "rate_pmw": 248.578,
+   "n": 2511,
+   "rate_pmw": 245.062,
    "status": "ok",
    "term": "bridge city",
-   "words": 9715268
+   "words": 10246379
   },
   {
-   "ci_high_pmw": 412.712,
-   "ci_low_pmw": 272.534,
+   "ci_high_pmw": 371.051,
+   "ci_low_pmw": 245.024,
    "group": "unattributed",
    "group_by": "role",
    "n": 94,
-   "rate_pmw": 337.252,
+   "rate_pmw": 303.209,
    "status": "ok",
    "term": "bridge city",
-   "words": 278723
+   "words": 310017
   },
   {
-   "ci_high_pmw": 481.333,
-   "ci_low_pmw": 408.299,
+   "ci_high_pmw": 386.041,
+   "ci_low_pmw": 327.467,
    "group": "unknown",
    "group_by": "role",
    "n": 570,
-   "rate_pmw": 444.816,
+   "rate_pmw": 356.754,
    "status": "ok",
    "term": "bridge city",
-   "words": 1281429
+   "words": 1597739
   },
   {
-   "ci_high_pmw": 55.654,
-   "ci_low_pmw": 46.659,
+   "ci_high_pmw": 56.638,
+   "ci_low_pmw": 47.789,
    "group": "host",
    "group_by": "role",
-   "n": 497,
-   "rate_pmw": 51.157,
+   "n": 535,
+   "rate_pmw": 52.214,
    "status": "ok",
    "term": "do the work",
-   "words": 9715268
+   "words": 10246379
   },
   {
-   "ci_high_pmw": 106.453,
-   "ci_low_pmw": 41.042,
+   "ci_high_pmw": 107.44,
+   "ci_low_pmw": 44.473,
    "group": "unattributed",
    "group_by": "role",
-   "n": 19,
-   "rate_pmw": 68.168,
+   "n": 22,
+   "rate_pmw": 70.964,
    "status": "ok",
    "term": "do the work",
-   "words": 278723
+   "words": 310017
   },
   {
-   "ci_high_pmw": 70.759,
-   "ci_low_pmw": 43.963,
+   "ci_high_pmw": 60.928,
+   "ci_low_pmw": 38.589,
    "group": "unknown",
    "group_by": "role",
-   "n": 72,
-   "rate_pmw": 56.187,
+   "n": 78,
+   "rate_pmw": 48.819,
    "status": "ok",
    "term": "do the work",
-   "words": 1281429
+   "words": 1597739
   },
   {
    "group": "host",
@@ -2338,7 +2524,7 @@
    "n": 3,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 9715268
+   "words": 10246379
   },
   {
    "group": "unattributed",
@@ -2346,7 +2532,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 278723
+   "words": 310017
   },
   {
    "group": "unknown",
@@ -2354,139 +2540,139 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 1281429
+   "words": 1597739
   },
   {
-   "ci_high_pmw": 330.318,
-   "ci_low_pmw": 307.853,
+   "ci_high_pmw": 481.909,
+   "ci_low_pmw": 455.398,
    "group": "host",
    "group_by": "role",
-   "n": 3100,
-   "rate_pmw": 319.085,
+   "n": 4802,
+   "rate_pmw": 468.653,
    "status": "ok",
    "term": "truth",
-   "words": 9715268
+   "words": 10246379
   },
   {
-   "ci_high_pmw": 353.245,
-   "ci_low_pmw": 224.399,
+   "ci_high_pmw": 421.126,
+   "ci_low_pmw": 288.512,
    "group": "unattributed",
    "group_by": "role",
-   "n": 79,
-   "rate_pmw": 283.436,
+   "n": 110,
+   "rate_pmw": 354.819,
    "status": "ok",
    "term": "truth",
-   "words": 278723
+   "words": 310017
   },
   {
-   "ci_high_pmw": 156.8,
-   "ci_low_pmw": 116.333,
+   "ci_high_pmw": 289.979,
+   "ci_low_pmw": 239.519,
    "group": "unknown",
    "group_by": "role",
-   "n": 175,
-   "rate_pmw": 136.566,
+   "n": 423,
+   "rate_pmw": 264.749,
    "status": "ok",
    "term": "truth",
-   "words": 1281429
+   "words": 1597739
   },
   {
-   "ci_high_pmw": 282.942,
-   "ci_low_pmw": 262.179,
+   "ci_high_pmw": 450.922,
+   "ci_low_pmw": 425.29,
    "group": "host",
    "group_by": "role",
-   "n": 2648,
-   "rate_pmw": 272.561,
+   "n": 4489,
+   "rate_pmw": 438.106,
    "status": "ok",
    "term": "evidence",
-   "words": 9715268
+   "words": 10246379
   },
   {
-   "ci_high_pmw": 102.065,
-   "ci_low_pmw": 38.274,
+   "ci_high_pmw": 260.0,
+   "ci_low_pmw": 156.156,
    "group": "unattributed",
    "group_by": "role",
-   "n": 18,
-   "rate_pmw": 64.58,
+   "n": 63,
+   "rate_pmw": 203.215,
    "status": "ok",
    "term": "evidence",
-   "words": 278723
+   "words": 310017
   },
   {
-   "ci_high_pmw": 57.631,
-   "ci_low_pmw": 33.69,
+   "ci_high_pmw": 261.092,
+   "ci_low_pmw": 213.329,
    "group": "unknown",
    "group_by": "role",
-   "n": 57,
-   "rate_pmw": 44.482,
+   "n": 379,
+   "rate_pmw": 237.21,
    "status": "ok",
    "term": "evidence",
-   "words": 1281429
+   "words": 1597739
   },
   {
-   "ci_high_pmw": 862.717,
-   "ci_low_pmw": 826.171,
+   "ci_high_pmw": 1068.885,
+   "ci_low_pmw": 1029.222,
    "group": "host",
    "group_by": "role",
-   "n": 8204,
-   "rate_pmw": 844.444,
+   "n": 10749,
+   "rate_pmw": 1049.054,
    "status": "ok",
    "term": "love",
-   "words": 9715268
+   "words": 10246379
   },
   {
-   "ci_high_pmw": 1413.706,
-   "ci_low_pmw": 1147.977,
+   "ci_high_pmw": 1433.61,
+   "ci_low_pmw": 1179.15,
    "group": "unattributed",
    "group_by": "role",
-   "n": 357,
-   "rate_pmw": 1280.842,
+   "n": 405,
+   "rate_pmw": 1306.38,
    "status": "ok",
    "term": "love",
-   "words": 278723
+   "words": 310017
   },
   {
-   "ci_high_pmw": 1428.05,
-   "ci_low_pmw": 1300.155,
+   "ci_high_pmw": 1472.177,
+   "ci_low_pmw": 1355.569,
    "group": "unknown",
    "group_by": "role",
-   "n": 1748,
-   "rate_pmw": 1364.102,
+   "n": 2259,
+   "rate_pmw": 1413.873,
    "status": "ok",
    "term": "love",
-   "words": 1281429
+   "words": 1597739
   },
   {
-   "ci_high_pmw": 137.277,
-   "ci_low_pmw": 122.932,
+   "ci_high_pmw": 186.184,
+   "ci_low_pmw": 169.845,
    "group": "host",
    "group_by": "role",
-   "n": 1264,
-   "rate_pmw": 130.104,
+   "n": 1824,
+   "rate_pmw": 178.014,
    "status": "ok",
    "term": "harm",
-   "words": 9715268
+   "words": 10246379
   },
   {
-   "ci_high_pmw": 140.941,
-   "ci_low_pmw": 63.838,
+   "ci_high_pmw": 153.255,
+   "ci_low_pmw": 75.951,
    "group": "unattributed",
    "group_by": "role",
-   "n": 27,
-   "rate_pmw": 96.87,
+   "n": 34,
+   "rate_pmw": 109.671,
    "status": "ok",
    "term": "harm",
-   "words": 278723
+   "words": 310017
   },
   {
-   "ci_high_pmw": 54.1,
-   "ci_low_pmw": 30.982,
+   "ci_high_pmw": 83.765,
+   "ci_low_pmw": 57.685,
    "group": "unknown",
    "group_by": "role",
-   "n": 53,
-   "rate_pmw": 41.36,
+   "n": 113,
+   "rate_pmw": 70.725,
    "status": "ok",
    "term": "harm",
-   "words": 1281429
+   "words": 1597739
   }
  ],
  "year": [
@@ -2499,61 +2685,70 @@
    "words": 3664
   },
   {
+   "ci_high_pmw": 538.886,
+   "ci_low_pmw": 323.654,
    "group": "2022",
    "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 63,
+   "rate_pmw": 421.191,
+   "status": "ok",
    "term": "community",
-   "words": 150126
+   "words": 149576
   },
   {
+   "ci_high_pmw": 591.712,
+   "ci_low_pmw": 438.236,
    "group": "2023",
    "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 173,
+   "rate_pmw": 514.974,
+   "status": "ok",
    "term": "community",
-   "words": 366987
+   "words": 335939
   },
   {
-   "ci_high_pmw": 1636.419,
-   "ci_low_pmw": 1555.059,
+   "ci_high_pmw": 1812.873,
+   "ci_low_pmw": 1718.115,
    "group": "2024",
    "group_by": "year",
-   "n": 5911,
-   "rate_pmw": 1595.739,
+   "n": 5334,
+   "rate_pmw": 1765.494,
    "status": "ok",
    "term": "community",
-   "words": 3704239
+   "words": 3021251
   },
   {
-   "ci_high_pmw": 1700.181,
-   "ci_low_pmw": 1613.432,
+   "ci_high_pmw": 1693.959,
+   "ci_low_pmw": 1602.948,
    "group": "2025",
    "group_by": "year",
-   "n": 5605,
-   "rate_pmw": 1656.807,
+   "n": 5041,
+   "rate_pmw": 1648.453,
    "status": "ok",
    "term": "community",
-   "words": 3383014
+   "words": 3058018
   },
   {
-   "ci_high_pmw": 1038.86,
-   "ci_low_pmw": 973.84,
+   "ci_high_pmw": 967.989,
+   "ci_low_pmw": 905.351,
    "group": "2026",
    "group_by": "year",
-   "n": 3681,
-   "rate_pmw": 1006.35,
+   "n": 3436,
+   "rate_pmw": 936.67,
    "status": "ok",
    "term": "community",
-   "words": 3657773
+   "words": 3668315
   },
   {
+   "ci_high_pmw": 3085.571,
+   "ci_low_pmw": 1189.605,
    "group": null,
    "group_by": "year",
-   "n": 4,
-   "status": "insufficient-data",
+   "n": 19,
+   "rate_pmw": 1975.874,
+   "status": "ok",
    "term": "community",
-   "words": 9617
+   "words": 9616
   },
   {
    "group": "2021",
@@ -2565,241 +2760,241 @@
   },
   {
    "group": "2022",
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "accountability",
-   "words": 150126
-  },
-  {
-   "group": "2023",
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "accountability",
-   "words": 366987
-  },
-  {
-   "ci_high_pmw": 24.177,
-   "ci_low_pmw": 14.97,
-   "group": "2024",
-   "group_by": "year",
-   "n": 71,
-   "rate_pmw": 19.167,
-   "status": "ok",
-   "term": "accountability",
-   "words": 3704239
-  },
-  {
-   "ci_high_pmw": 56.533,
-   "ci_low_pmw": 41.604,
-   "group": "2025",
-   "group_by": "year",
-   "n": 166,
-   "rate_pmw": 49.069,
-   "status": "ok",
-   "term": "accountability",
-   "words": 3383014
-  },
-  {
-   "ci_high_pmw": 55.812,
-   "ci_low_pmw": 41.515,
-   "group": "2026",
-   "group_by": "year",
-   "n": 178,
-   "rate_pmw": 48.663,
-   "status": "ok",
-   "term": "accountability",
-   "words": 3657773
-  },
-  {
-   "group": null,
-   "group_by": "year",
-   "n": 1,
-   "status": "insufficient-data",
-   "term": "accountability",
-   "words": 9617
-  },
-  {
-   "group": "2021",
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "deconstruction",
-   "words": 3664
-  },
-  {
-   "group": "2022",
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "deconstruction",
-   "words": 150126
-  },
-  {
-   "group": "2023",
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "deconstruction",
-   "words": 366987
-  },
-  {
-   "ci_high_pmw": 52.792,
-   "ci_low_pmw": 38.995,
-   "group": "2024",
-   "group_by": "year",
-   "n": 170,
-   "rate_pmw": 45.893,
-   "status": "ok",
-   "term": "deconstruction",
-   "words": 3704239
-  },
-  {
-   "ci_high_pmw": 70.47,
-   "ci_low_pmw": 53.679,
-   "group": "2025",
-   "group_by": "year",
-   "n": 210,
-   "rate_pmw": 62.075,
-   "status": "ok",
-   "term": "deconstruction",
-   "words": 3383014
-  },
-  {
-   "ci_high_pmw": 102.257,
-   "ci_low_pmw": 82.555,
-   "group": "2026",
-   "group_by": "year",
-   "n": 338,
-   "rate_pmw": 92.406,
-   "status": "ok",
-   "term": "deconstruction",
-   "words": 3657773
-  },
-  {
-   "group": null,
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "deconstruction",
-   "words": 9617
-  },
-  {
-   "group": "2021",
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "grace",
-   "words": 3664
-  },
-  {
-   "group": "2022",
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "grace",
-   "words": 150126
-  },
-  {
-   "group": "2023",
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "grace",
-   "words": 366987
-  },
-  {
-   "ci_high_pmw": 35.245,
-   "ci_low_pmw": 24.146,
-   "group": "2024",
-   "group_by": "year",
-   "n": 110,
-   "rate_pmw": 29.696,
-   "status": "ok",
-   "term": "grace",
-   "words": 3704239
-  },
-  {
-   "ci_high_pmw": 64.149,
-   "ci_low_pmw": 48.177,
-   "group": "2025",
-   "group_by": "year",
-   "n": 190,
-   "rate_pmw": 56.163,
-   "status": "ok",
-   "term": "grace",
-   "words": 3383014
-  },
-  {
-   "ci_high_pmw": 38.081,
-   "ci_low_pmw": 26.439,
-   "group": "2026",
-   "group_by": "year",
-   "n": 118,
-   "rate_pmw": 32.26,
-   "status": "ok",
-   "term": "grace",
-   "words": 3657773
-  },
-  {
-   "group": null,
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "grace",
-   "words": 9617
-  },
-  {
-   "group": "2021",
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "purity test",
-   "words": 3664
-  },
-  {
-   "group": "2022",
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "purity test",
-   "words": 150126
-  },
-  {
-   "group": "2023",
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "purity test",
-   "words": 366987
-  },
-  {
-   "group": "2024",
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "purity test",
-   "words": 3704239
-  },
-  {
-   "group": "2025",
    "group_by": "year",
    "n": 6,
    "status": "insufficient-data",
-   "term": "purity test",
-   "words": 3383014
+   "term": "accountability",
+   "words": 149576
   },
   {
-   "ci_high_pmw": 12.03,
-   "ci_low_pmw": 5.758,
+   "group": "2023",
+   "group_by": "year",
+   "n": 4,
+   "status": "insufficient-data",
+   "term": "accountability",
+   "words": 335939
+  },
+  {
+   "ci_high_pmw": 27.051,
+   "ci_low_pmw": 16.314,
+   "group": "2024",
+   "group_by": "year",
+   "n": 64,
+   "rate_pmw": 21.183,
+   "status": "ok",
+   "term": "accountability",
+   "words": 3021251
+  },
+  {
+   "ci_high_pmw": 65.354,
+   "ci_low_pmw": 48.445,
+   "group": "2025",
+   "group_by": "year",
+   "n": 174,
+   "rate_pmw": 56.9,
+   "status": "ok",
+   "term": "accountability",
+   "words": 3058018
+  },
+  {
+   "ci_high_pmw": 88.442,
+   "ci_low_pmw": 70.214,
    "group": "2026",
    "group_by": "year",
-   "n": 31,
-   "rate_pmw": 8.475,
+   "n": 291,
+   "rate_pmw": 79.328,
+   "status": "ok",
+   "term": "accountability",
+   "words": 3668315
+  },
+  {
+   "group": null,
+   "group_by": "year",
+   "n": 2,
+   "status": "insufficient-data",
+   "term": "accountability",
+   "words": 9616
+  },
+  {
+   "group": "2021",
+   "group_by": "year",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "deconstruction",
+   "words": 3664
+  },
+  {
+   "group": "2022",
+   "group_by": "year",
+   "n": 4,
+   "status": "insufficient-data",
+   "term": "deconstruction",
+   "words": 149576
+  },
+  {
+   "group": "2023",
+   "group_by": "year",
+   "n": 2,
+   "status": "insufficient-data",
+   "term": "deconstruction",
+   "words": 335939
+  },
+  {
+   "ci_high_pmw": 76.434,
+   "ci_low_pmw": 57.948,
+   "group": "2024",
+   "group_by": "year",
+   "n": 203,
+   "rate_pmw": 67.191,
+   "status": "ok",
+   "term": "deconstruction",
+   "words": 3021251
+  },
+  {
+   "ci_high_pmw": 70.966,
+   "ci_low_pmw": 53.297,
+   "group": "2025",
+   "group_by": "year",
+   "n": 190,
+   "rate_pmw": 62.132,
+   "status": "ok",
+   "term": "deconstruction",
+   "words": 3058018
+  },
+  {
+   "ci_high_pmw": 107.415,
+   "ci_low_pmw": 87.225,
+   "group": "2026",
+   "group_by": "year",
+   "n": 357,
+   "rate_pmw": 97.32,
+   "status": "ok",
+   "term": "deconstruction",
+   "words": 3668315
+  },
+  {
+   "group": null,
+   "group_by": "year",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "deconstruction",
+   "words": 9616
+  },
+  {
+   "group": "2021",
+   "group_by": "year",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "grace",
+   "words": 3664
+  },
+  {
+   "group": "2022",
+   "group_by": "year",
+   "n": 4,
+   "status": "insufficient-data",
+   "term": "grace",
+   "words": 149576
+  },
+  {
+   "group": "2023",
+   "group_by": "year",
+   "n": 6,
+   "status": "insufficient-data",
+   "term": "grace",
+   "words": 335939
+  },
+  {
+   "ci_high_pmw": 41.764,
+   "ci_low_pmw": 28.406,
+   "group": "2024",
+   "group_by": "year",
+   "n": 106,
+   "rate_pmw": 35.085,
+   "status": "ok",
+   "term": "grace",
+   "words": 3021251
+  },
+  {
+   "ci_high_pmw": 77.96,
+   "ci_low_pmw": 59.384,
+   "group": "2025",
+   "group_by": "year",
+   "n": 210,
+   "rate_pmw": 68.672,
+   "status": "ok",
+   "term": "grace",
+   "words": 3058018
+  },
+  {
+   "ci_high_pmw": 135.147,
+   "ci_low_pmw": 112.378,
+   "group": "2026",
+   "group_by": "year",
+   "n": 454,
+   "rate_pmw": 123.763,
+   "status": "ok",
+   "term": "grace",
+   "words": 3668315
+  },
+  {
+   "group": null,
+   "group_by": "year",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "grace",
+   "words": 9616
+  },
+  {
+   "group": "2021",
+   "group_by": "year",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "purity test",
+   "words": 3664
+  },
+  {
+   "group": "2022",
+   "group_by": "year",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "purity test",
+   "words": 149576
+  },
+  {
+   "group": "2023",
+   "group_by": "year",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "purity test",
+   "words": 335939
+  },
+  {
+   "group": "2024",
+   "group_by": "year",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "purity test",
+   "words": 3021251
+  },
+  {
+   "group": "2025",
+   "group_by": "year",
+   "n": 5,
+   "status": "insufficient-data",
+   "term": "purity test",
+   "words": 3058018
+  },
+  {
+   "ci_high_pmw": 11.354,
+   "ci_low_pmw": 5.294,
+   "group": "2026",
+   "group_by": "year",
+   "n": 29,
+   "rate_pmw": 7.906,
    "status": "ok",
    "term": "purity test",
-   "words": 3657773
+   "words": 3668315
   },
   {
    "group": null,
@@ -2807,7 +3002,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "purity test",
-   "words": 9617
+   "words": 9616
   },
   {
    "group": "2021",
@@ -2823,7 +3018,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "bridge city",
-   "words": 150126
+   "words": 149576
   },
   {
    "group": "2023",
@@ -2831,48 +3026,51 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "bridge city",
-   "words": 366987
+   "words": 335939
   },
   {
-   "ci_high_pmw": 80.153,
-   "ci_low_pmw": 62.926,
+   "ci_high_pmw": 78.909,
+   "ci_low_pmw": 60.107,
    "group": "2024",
    "group_by": "year",
-   "n": 265,
-   "rate_pmw": 71.54,
+   "n": 210,
+   "rate_pmw": 69.508,
    "status": "ok",
    "term": "bridge city",
-   "words": 3704239
+   "words": 3021251
   },
   {
-   "ci_high_pmw": 471.285,
-   "ci_low_pmw": 426.14,
+   "ci_high_pmw": 445.198,
+   "ci_low_pmw": 399.14,
    "group": "2025",
    "group_by": "year",
-   "n": 1518,
-   "rate_pmw": 448.712,
+   "n": 1291,
+   "rate_pmw": 422.169,
    "status": "ok",
    "term": "bridge city",
-   "words": 3383014
+   "words": 3058018
   },
   {
-   "ci_high_pmw": 373.604,
-   "ci_low_pmw": 335.024,
+   "ci_high_pmw": 280.505,
+   "ci_low_pmw": 247.258,
    "group": "2026",
    "group_by": "year",
-   "n": 1296,
-   "rate_pmw": 354.314,
+   "n": 968,
+   "rate_pmw": 263.881,
    "status": "ok",
    "term": "bridge city",
-   "words": 3657773
+   "words": 3668315
   },
   {
+   "ci_high_pmw": 5903.889,
+   "ci_low_pmw": 3147.869,
    "group": null,
    "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 42,
+   "rate_pmw": 4367.72,
+   "status": "ok",
    "term": "bridge city",
-   "words": 9617
+   "words": 9616
   },
   {
    "group": "2021",
@@ -2888,48 +3086,48 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "do the work",
-   "words": 150126
+   "words": 149576
   },
   {
    "group": "2023",
    "group_by": "year",
-   "n": 0,
+   "n": 3,
    "status": "insufficient-data",
    "term": "do the work",
-   "words": 366987
+   "words": 335939
   },
   {
-   "ci_high_pmw": 93.004,
-   "ci_low_pmw": 74.372,
+   "ci_high_pmw": 97.571,
+   "ci_low_pmw": 76.529,
    "group": "2024",
    "group_by": "year",
-   "n": 310,
-   "rate_pmw": 83.688,
+   "n": 263,
+   "rate_pmw": 87.05,
    "status": "ok",
    "term": "do the work",
-   "words": 3704239
+   "words": 3021251
   },
   {
-   "ci_high_pmw": 52.073,
-   "ci_low_pmw": 37.788,
+   "ci_high_pmw": 54.427,
+   "ci_low_pmw": 39.098,
    "group": "2025",
    "group_by": "year",
-   "n": 152,
-   "rate_pmw": 44.93,
+   "n": 143,
+   "rate_pmw": 46.762,
    "status": "ok",
    "term": "do the work",
-   "words": 3383014
+   "words": 3058018
   },
   {
-   "ci_high_pmw": 40.462,
-   "ci_low_pmw": 28.432,
+   "ci_high_pmw": 40.346,
+   "ci_low_pmw": 28.351,
    "group": "2026",
    "group_by": "year",
    "n": 126,
-   "rate_pmw": 34.447,
+   "rate_pmw": 34.348,
    "status": "ok",
    "term": "do the work",
-   "words": 3657773
+   "words": 3668315
   },
   {
    "group": null,
@@ -2937,7 +3135,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "do the work",
-   "words": 9617
+   "words": 9616
   },
   {
    "group": "2021",
@@ -2953,7 +3151,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 150126
+   "words": 149576
   },
   {
    "group": "2023",
@@ -2961,7 +3159,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 366987
+   "words": 335939
   },
   {
    "group": "2024",
@@ -2969,7 +3167,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 3704239
+   "words": 3021251
   },
   {
    "group": "2025",
@@ -2977,7 +3175,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 3383014
+   "words": 3058018
   },
   {
    "group": "2026",
@@ -2985,7 +3183,7 @@
    "n": 3,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 3657773
+   "words": 3668315
   },
   {
    "group": null,
@@ -2993,7 +3191,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 9617
+   "words": 9616
   },
   {
    "group": "2021",
@@ -3004,53 +3202,59 @@
    "words": 3664
   },
   {
+   "ci_high_pmw": 294.178,
+   "ci_low_pmw": 140.818,
    "group": "2022",
    "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 31,
+   "rate_pmw": 207.253,
+   "status": "ok",
    "term": "truth",
-   "words": 150126
+   "words": 149576
   },
   {
+   "ci_high_pmw": 378.861,
+   "ci_low_pmw": 258.16,
    "group": "2023",
    "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 107,
+   "rate_pmw": 318.51,
+   "status": "ok",
    "term": "truth",
-   "words": 366987
+   "words": 335939
   },
   {
-   "ci_high_pmw": 244.614,
-   "ci_low_pmw": 213.78,
+   "ci_high_pmw": 344.336,
+   "ci_low_pmw": 303.74,
    "group": "2024",
    "group_by": "year",
-   "n": 849,
-   "rate_pmw": 229.197,
+   "n": 979,
+   "rate_pmw": 324.038,
    "status": "ok",
    "term": "truth",
-   "words": 3704239
+   "words": 3021251
   },
   {
-   "ci_high_pmw": 383.596,
-   "ci_low_pmw": 342.975,
+   "ci_high_pmw": 486.492,
+   "ci_low_pmw": 438.29,
    "group": "2025",
    "group_by": "year",
-   "n": 1229,
-   "rate_pmw": 363.286,
+   "n": 1414,
+   "rate_pmw": 462.391,
    "status": "ok",
    "term": "truth",
-   "words": 3383014
+   "words": 3058018
   },
   {
-   "ci_high_pmw": 367.706,
-   "ci_low_pmw": 329.44,
+   "ci_high_pmw": 644.269,
+   "ci_low_pmw": 593.356,
    "group": "2026",
    "group_by": "year",
-   "n": 1275,
-   "rate_pmw": 348.573,
+   "n": 2270,
+   "rate_pmw": 618.813,
    "status": "ok",
    "term": "truth",
-   "words": 3657773
+   "words": 3668315
   },
   {
    "group": null,
@@ -3058,7 +3262,7 @@
    "n": 1,
    "status": "insufficient-data",
    "term": "truth",
-   "words": 9617
+   "words": 9616
   },
   {
    "group": "2021",
@@ -3069,53 +3273,59 @@
    "words": 3664
   },
   {
+   "ci_high_pmw": 238.742,
+   "ci_low_pmw": 102.806,
    "group": "2022",
    "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 24,
+   "rate_pmw": 160.454,
+   "status": "ok",
    "term": "evidence",
-   "words": 150126
+   "words": 149576
   },
   {
+   "ci_high_pmw": 385.375,
+   "ci_low_pmw": 263.552,
    "group": "2023",
    "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 109,
+   "rate_pmw": 324.464,
+   "status": "ok",
    "term": "evidence",
-   "words": 366987
+   "words": 335939
   },
   {
-   "ci_high_pmw": 186.441,
-   "ci_low_pmw": 159.649,
+   "ci_high_pmw": 287.249,
+   "ci_low_pmw": 250.277,
    "group": "2024",
    "group_by": "year",
-   "n": 641,
-   "rate_pmw": 173.045,
+   "n": 812,
+   "rate_pmw": 268.763,
    "status": "ok",
    "term": "evidence",
-   "words": 3704239
+   "words": 3021251
   },
   {
-   "ci_high_pmw": 305.38,
-   "ci_low_pmw": 269.255,
+   "ci_high_pmw": 399.478,
+   "ci_low_pmw": 355.914,
    "group": "2025",
    "group_by": "year",
-   "n": 972,
-   "rate_pmw": 287.318,
+   "n": 1155,
+   "rate_pmw": 377.696,
    "status": "ok",
    "term": "evidence",
-   "words": 3383014
+   "words": 3058018
   },
   {
-   "ci_high_pmw": 320.753,
-   "ci_low_pmw": 285.08,
+   "ci_high_pmw": 676.812,
+   "ci_low_pmw": 624.603,
    "group": "2026",
    "group_by": "year",
-   "n": 1108,
-   "rate_pmw": 302.917,
+   "n": 2387,
+   "rate_pmw": 650.707,
    "status": "ok",
    "term": "evidence",
-   "words": 3657773
+   "words": 3668315
   },
   {
    "group": null,
@@ -3123,7 +3333,7 @@
    "n": 2,
    "status": "insufficient-data",
    "term": "evidence",
-   "words": 9617
+   "words": 9616
   },
   {
    "group": "2021",
@@ -3134,61 +3344,67 @@
    "words": 3664
   },
   {
+   "ci_high_pmw": 858.216,
+   "ci_low_pmw": 585.866,
    "group": "2022",
    "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 108,
+   "rate_pmw": 722.041,
+   "status": "ok",
    "term": "love",
-   "words": 150126
+   "words": 149576
   },
   {
+   "ci_high_pmw": 716.015,
+   "ci_low_pmw": 546.118,
    "group": "2023",
    "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 212,
+   "rate_pmw": 631.067,
+   "status": "ok",
    "term": "love",
-   "words": 366987
+   "words": 335939
   },
   {
-   "ci_high_pmw": 877.052,
-   "ci_low_pmw": 817.763,
+   "ci_high_pmw": 943.564,
+   "ci_low_pmw": 875.55,
    "group": "2024",
    "group_by": "year",
-   "n": 3139,
-   "rate_pmw": 847.408,
+   "n": 2748,
+   "rate_pmw": 909.557,
    "status": "ok",
    "term": "love",
-   "words": 3704239
+   "words": 3021251
   },
   {
-   "ci_high_pmw": 1247.833,
-   "ci_low_pmw": 1173.676,
+   "ci_high_pmw": 1292.442,
+   "ci_low_pmw": 1213.102,
    "group": "2025",
    "group_by": "year",
-   "n": 4096,
-   "rate_pmw": 1210.755,
+   "n": 3831,
+   "rate_pmw": 1252.772,
    "status": "ok",
    "term": "love",
-   "words": 3383014
+   "words": 3058018
   },
   {
-   "ci_high_pmw": 868.998,
-   "ci_low_pmw": 809.619,
+   "ci_high_pmw": 1079.911,
+   "ci_low_pmw": 1013.693,
    "group": "2026",
    "group_by": "year",
-   "n": 3070,
-   "rate_pmw": 839.309,
+   "n": 3840,
+   "rate_pmw": 1046.802,
    "status": "ok",
    "term": "love",
-   "words": 3657773
+   "words": 3668315
   },
   {
    "group": null,
    "group_by": "year",
-   "n": 0,
+   "n": 6,
    "status": "insufficient-data",
    "term": "love",
-   "words": 9617
+   "words": 9616
   },
   {
    "group": "2021",
@@ -3199,53 +3415,59 @@
    "words": 3664
   },
   {
+   "ci_high_pmw": 254.693,
+   "ci_low_pmw": 113.548,
    "group": "2022",
    "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 26,
+   "rate_pmw": 173.825,
+   "status": "ok",
    "term": "harm",
-   "words": 150126
+   "words": 149576
   },
   {
+   "ci_high_pmw": 155.26,
+   "ci_low_pmw": 80.047,
    "group": "2023",
    "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 38,
+   "rate_pmw": 113.116,
+   "status": "ok",
    "term": "harm",
-   "words": 366987
+   "words": 335939
   },
   {
-   "ci_high_pmw": 72.413,
-   "ci_low_pmw": 56.088,
+   "ci_high_pmw": 145.37,
+   "ci_low_pmw": 119.421,
    "group": "2024",
    "group_by": "year",
-   "n": 238,
-   "rate_pmw": 64.251,
+   "n": 400,
+   "rate_pmw": 132.395,
    "status": "ok",
    "term": "harm",
-   "words": 3704239
+   "words": 3021251
   },
   {
-   "ci_high_pmw": 116.785,
-   "ci_low_pmw": 94.861,
+   "ci_high_pmw": 142.936,
+   "ci_low_pmw": 117.363,
    "group": "2025",
    "group_by": "year",
-   "n": 358,
-   "rate_pmw": 105.823,
+   "n": 398,
+   "rate_pmw": 130.15,
    "status": "ok",
    "term": "harm",
-   "words": 3383014
+   "words": 3058018
   },
   {
-   "ci_high_pmw": 219.151,
-   "ci_low_pmw": 189.841,
+   "ci_high_pmw": 278.818,
+   "ci_low_pmw": 245.674,
    "group": "2026",
    "group_by": "year",
-   "n": 748,
-   "rate_pmw": 204.496,
+   "n": 962,
+   "rate_pmw": 262.246,
    "status": "ok",
    "term": "harm",
-   "words": 3657773
+   "words": 3668315
   },
   {
    "group": null,
@@ -3253,7 +3475,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "harm",
-   "words": 9617
+   "words": 9616
   }
  ]
 }
