@@ -2,21 +2,21 @@
  "books": [
   {
    "book": "Genesis",
-   "citations": 490,
+   "citations": 514,
    "slug": "genesis",
-   "verses": 417
+   "verses": 407
   },
   {
    "book": "Exodus",
-   "citations": 434,
+   "citations": 403,
    "slug": "exodus",
-   "verses": 384
+   "verses": 338
   },
   {
    "book": "Leviticus",
-   "citations": 112,
+   "citations": 110,
    "slug": "leviticus",
-   "verses": 103
+   "verses": 102
   },
   {
    "book": "Numbers",
@@ -26,27 +26,21 @@
   },
   {
    "book": "Deuteronomy",
-   "citations": 43,
+   "citations": 65,
    "slug": "deuteronomy",
-   "verses": 30
-  },
-  {
-   "book": "Joshua",
-   "citations": 3,
-   "slug": "joshua",
-   "verses": 3
+   "verses": 41
   },
   {
    "book": "Judges",
-   "citations": 3,
+   "citations": 1,
    "slug": "judges",
-   "verses": 3
+   "verses": 1
   },
   {
    "book": "1 Samuel",
-   "citations": 11,
+   "citations": 38,
    "slug": "1-samuel",
-   "verses": 10
+   "verses": 22
   },
   {
    "book": "2 Samuel",
@@ -56,9 +50,9 @@
   },
   {
    "book": "1 Kings",
-   "citations": 9,
+   "citations": 5,
    "slug": "1-kings",
-   "verses": 9
+   "verses": 5
   },
   {
    "book": "2 Kings",
@@ -68,92 +62,68 @@
   },
   {
    "book": "1 Chronicles",
-   "citations": 8,
+   "citations": 7,
    "slug": "1-chronicles",
-   "verses": 7
+   "verses": 6
   },
   {
    "book": "2 Chronicles",
-   "citations": 9,
+   "citations": 2,
    "slug": "2-chronicles",
-   "verses": 8
-  },
-  {
-   "book": "Nehemiah",
-   "citations": 1,
-   "slug": "nehemiah",
    "verses": 1
   },
   {
    "book": "Job",
-   "citations": 7,
+   "citations": 4,
    "slug": "job",
-   "verses": 6
+   "verses": 3
   },
   {
    "book": "Psalms",
-   "citations": 87,
+   "citations": 80,
    "slug": "psalms",
-   "verses": 69
+   "verses": 62
   },
   {
    "book": "Proverbs",
-   "citations": 32,
+   "citations": 29,
    "slug": "proverbs",
-   "verses": 24
-  },
-  {
-   "book": "Ecclesiastes",
-   "citations": 1,
-   "slug": "ecclesiastes",
-   "verses": 1
+   "verses": 21
   },
   {
    "book": "Song of Solomon",
-   "citations": 6,
+   "citations": 3,
    "slug": "song-of-solomon",
-   "verses": 6
+   "verses": 3
   },
   {
    "book": "Isaiah",
-   "citations": 47,
+   "citations": 46,
    "slug": "isaiah",
-   "verses": 39
+   "verses": 34
   },
   {
    "book": "Jeremiah",
-   "citations": 12,
+   "citations": 6,
    "slug": "jeremiah",
-   "verses": 10
+   "verses": 4
   },
   {
    "book": "Ezekiel",
-   "citations": 9,
+   "citations": 5,
    "slug": "ezekiel",
-   "verses": 9
+   "verses": 5
   },
   {
    "book": "Daniel",
-   "citations": 7,
+   "citations": 6,
    "slug": "daniel",
-   "verses": 6
+   "verses": 5
   },
   {
    "book": "Hosea",
    "citations": 1,
    "slug": "hosea",
-   "verses": 1
-  },
-  {
-   "book": "Amos",
-   "citations": 1,
-   "slug": "amos",
-   "verses": 1
-  },
-  {
-   "book": "Micah",
-   "citations": 1,
-   "slug": "micah",
    "verses": 1
   },
   {
@@ -164,9 +134,9 @@
   },
   {
    "book": "Zechariah",
-   "citations": 3,
+   "citations": 2,
    "slug": "zechariah",
-   "verses": 2
+   "verses": 1
   },
   {
    "book": "Malachi",
@@ -176,75 +146,75 @@
   },
   {
    "book": "Matthew",
-   "citations": 167,
+   "citations": 162,
    "slug": "matthew",
-   "verses": 104
+   "verses": 95
   },
   {
    "book": "Mark",
-   "citations": 82,
+   "citations": 69,
    "slug": "mark",
-   "verses": 52
-  },
-  {
-   "book": "Luke",
-   "citations": 59,
-   "slug": "luke",
-   "verses": 44
-  },
-  {
-   "book": "John",
-   "citations": 161,
-   "slug": "john",
-   "verses": 94
-  },
-  {
-   "book": "Acts",
-   "citations": 60,
-   "slug": "acts",
    "verses": 43
   },
   {
-   "book": "Romans",
-   "citations": 72,
-   "slug": "romans",
-   "verses": 50
+   "book": "Luke",
+   "citations": 69,
+   "slug": "luke",
+   "verses": 49
   },
   {
-   "book": "1 Corinthians",
-   "citations": 59,
-   "slug": "1-corinthians",
+   "book": "John",
+   "citations": 190,
+   "slug": "john",
+   "verses": 109
+  },
+  {
+   "book": "Acts",
+   "citations": 50,
+   "slug": "acts",
+   "verses": 36
+  },
+  {
+   "book": "Romans",
+   "citations": 65,
+   "slug": "romans",
    "verses": 45
   },
   {
+   "book": "1 Corinthians",
+   "citations": 60,
+   "slug": "1-corinthians",
+   "verses": 47
+  },
+  {
    "book": "2 Corinthians",
-   "citations": 16,
+   "citations": 11,
    "slug": "2-corinthians",
-   "verses": 10
+   "verses": 5
   },
   {
    "book": "Galatians",
-   "citations": 19,
+   "citations": 16,
    "slug": "galatians",
-   "verses": 12
+   "verses": 10
   },
   {
    "book": "Ephesians",
-   "citations": 36,
+   "citations": 33,
    "slug": "ephesians",
-   "verses": 23
+   "verses": 19
   },
   {
    "book": "Philippians",
-   "citations": 28,
+   "citations": 27,
    "slug": "philippians",
-   "verses": 12
+   "verses": 11
   },
   {
    "book": "Colossians",
-   "citations": 14,
+   "citations": 13,
    "slug": "colossians",
-   "verses": 10
+   "verses": 8
   },
   {
    "book": "1 Thessalonians",
@@ -254,39 +224,39 @@
   },
   {
    "book": "2 Thessalonians",
-   "citations": 5,
+   "citations": 4,
    "slug": "2-thessalonians",
-   "verses": 5
+   "verses": 4
   },
   {
    "book": "1 Timothy",
-   "citations": 5,
+   "citations": 2,
    "slug": "1-timothy",
-   "verses": 5
+   "verses": 2
   },
   {
    "book": "2 Timothy",
-   "citations": 10,
+   "citations": 11,
    "slug": "2-timothy",
    "verses": 8
   },
   {
    "book": "Titus",
-   "citations": 3,
+   "citations": 2,
    "slug": "titus",
-   "verses": 3
+   "verses": 2
   },
   {
    "book": "Hebrews",
-   "citations": 34,
+   "citations": 37,
    "slug": "hebrews",
-   "verses": 23
+   "verses": 24
   },
   {
    "book": "James",
-   "citations": 12,
+   "citations": 21,
    "slug": "james",
-   "verses": 10
+   "verses": 14
   },
   {
    "book": "1 Peter",
@@ -302,9 +272,9 @@
   },
   {
    "book": "1 John",
-   "citations": 20,
+   "citations": 23,
    "slug": "1-john",
-   "verses": 16
+   "verses": 15
   },
   {
    "book": "Revelation",
@@ -316,21 +286,21 @@
  "coverage": {
   "creators": [
    {
-    "citations": 9,
+    "citations": 4,
     "coverage": 0.3548,
     "slug": "apostate-aladdin",
     "transcribed": 99,
     "videos": 279
    },
    {
-    "citations": 29,
+    "citations": 17,
     "coverage": 0.1524,
     "slug": "belief-it-or-not",
     "transcribed": 50,
     "videos": 328
    },
    {
-    "citations": 3,
+    "citations": 2,
     "coverage": 0.2475,
     "slug": "britt-hartley",
     "transcribed": 50,
@@ -344,56 +314,56 @@
     "videos": 892
    },
    {
-    "citations": 54,
-    "coverage": 0.0645,
+    "citations": 64,
+    "coverage": 0.0861,
     "slug": "counsel-of-trent",
-    "transcribed": 75,
+    "transcribed": 100,
     "videos": 1162
    },
    {
-    "citations": 56,
+    "citations": 50,
     "coverage": 0.0721,
     "slug": "cross-examined",
     "transcribed": 257,
     "videos": 3564
    },
    {
-    "citations": 1257,
+    "citations": 1090,
     "coverage": 0.9987,
     "slug": "darante-lamar",
     "transcribed": 1500,
     "videos": 1502
    },
    {
-    "citations": 37,
-    "coverage": 0.1532,
+    "citations": 39,
+    "coverage": 0.2518,
     "slug": "drcraigvideos",
-    "transcribed": 350,
+    "transcribed": 575,
     "videos": 2284
    },
    {
-    "citations": 38,
+    "citations": 20,
     "coverage": 0.3049,
     "slug": "genetically-modified-skeptic",
     "transcribed": 75,
     "videos": 246
    },
    {
-    "citations": 36,
-    "coverage": 0.3429,
+    "citations": 264,
+    "coverage": 0.8571,
     "slug": "jackie-hill-perry",
-    "transcribed": 48,
+    "transcribed": 120,
     "videos": 140
    },
    {
-    "citations": 17,
-    "coverage": 0.0928,
+    "citations": 25,
+    "coverage": 0.161,
     "slug": "jude-3-project",
-    "transcribed": 68,
+    "transcribed": 118,
     "videos": 733
    },
    {
-    "citations": 8,
+    "citations": 7,
     "coverage": 0.803,
     "slug": "lil-bill",
     "transcribed": 53,
@@ -401,9 +371,9 @@
    },
    {
     "citations": 0,
-    "coverage": 0.8929,
+    "coverage": 0.9821,
     "slug": "marc-coley",
-    "transcribed": 50,
+    "transcribed": 55,
     "videos": 56
    },
    {
@@ -414,28 +384,28 @@
     "videos": 1287
    },
    {
-    "citations": 111,
+    "citations": 78,
     "coverage": 0.0951,
     "slug": "mindshift",
     "transcribed": 52,
     "videos": 547
    },
    {
-    "citations": 41,
+    "citations": 40,
     "coverage": 0.034,
     "slug": "paulogia",
     "transcribed": 25,
     "videos": 736
    },
    {
-    "citations": 26,
+    "citations": 21,
     "coverage": 0.211,
     "slug": "prophet-of-zod",
     "transcribed": 50,
     "videos": 237
    },
    {
-    "citations": 163,
+    "citations": 157,
     "coverage": 0.0322,
     "slug": "reasonable-faith-org",
     "transcribed": 50,
@@ -450,12 +420,12 @@
    }
   ],
   "totals": {
-   "citations": 2264,
+   "citations": 2257,
    "creators_untranscribed": 0,
-   "singletons": 1481,
-   "top_creator_share": 0.5552,
-   "transcribed": 2966,
-   "verse_refs": 1772,
+   "singletons": 1315,
+   "top_creator_share": 0.4829,
+   "transcribed": 3343,
+   "verse_refs": 1661,
    "videos": 16000
   }
  },
@@ -466,17 +436,6 @@
   "verse_sense_min_n": 10
  },
  "verses": {
-  "1 Chronicles 16:22": {
-   "book": "1 Chronicles",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "1 Chronicles 17:3": {
    "book": "1 Chronicles",
    "creators": 1,
@@ -543,11 +502,22 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "1 Corinthians 10:13": {
+  "1 Corinthians 10:1": {
    "book": "1 Corinthians",
    "creators": 1,
    "methods": {
-    "embedding_match": 1
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "1 Corinthians 10:14": {
+   "book": "1 Corinthians",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -556,23 +526,44 @@
   },
   "1 Corinthians 10:19": {
    "book": "1 Corinthians",
-   "creators": 2,
+   "creators": 1,
    "methods": {
-    "embedding_match": 1,
     "shingle_match": 1
    },
-   "n": 2,
+   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 0.5
+   "top_creator_share": 1.0
   },
-  "1 Corinthians 10:26": {
+  "1 Corinthians 10:2": {
    "book": "1 Corinthians",
    "creators": 1,
    "methods": {
-    "shingle_match": 2
+    "shingle_match": 1
    },
-   "n": 2,
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "1 Corinthians 10:26": {
+   "book": "1 Corinthians",
+   "creators": 2,
+   "methods": {
+    "shingle_match": 3
+   },
+   "n": 3,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.6667
+  },
+  "1 Corinthians 10:3": {
+   "book": "1 Corinthians",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -687,17 +678,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "1 Corinthians 13:11": {
-   "book": "1 Corinthians",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 2
-   },
-   "n": 2,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "1 Corinthians 13:2": {
    "book": "1 Corinthians",
    "creators": 2,
@@ -720,25 +700,13 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "1 Corinthians 14:18": {
-   "book": "1 Corinthians",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "1 Corinthians 14:33": {
    "book": "1 Corinthians",
    "creators": 1,
    "methods": {
-    "embedding_match": 1,
     "shingle_match": 1
    },
-   "n": 2,
+   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -908,13 +876,35 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "1 Corinthians 2:14": {
+  "1 Corinthians 1:20": {
    "book": "1 Corinthians",
    "creators": 1,
    "methods": {
-    "embedding_match": 1
+    "shingle_match": 1
    },
    "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "1 Corinthians 1:23": {
+   "book": "1 Corinthians",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "1 Corinthians 1:24": {
+   "book": "1 Corinthians",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -946,17 +936,6 @@
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "1 Corinthians 6:16": {
-   "book": "1 Corinthians",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -1051,18 +1030,29 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "1 John 1:7": {
+  "1 John 1:10": {
    "book": "1 John",
    "creators": 1,
    "methods": {
-    "embedding_match": 1
+    "shingle_match": 2
    },
-   "n": 1,
+   "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
   "1 John 1:8": {
+   "book": "1 John",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 3
+   },
+   "n": 3,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "1 John 1:9": {
    "book": "1 John",
    "creators": 1,
    "methods": {
@@ -1099,9 +1089,9 @@
    "book": "1 John",
    "creators": 1,
    "methods": {
-    "shingle_match": 1
+    "shingle_match": 2
    },
-   "n": 1,
+   "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -1110,10 +1100,9 @@
    "book": "1 John",
    "creators": 1,
    "methods": {
-    "embedding_match": 1,
     "shingle_match": 3
    },
-   "n": 4,
+   "n": 3,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -1122,9 +1111,9 @@
    "book": "1 John",
    "creators": 1,
    "methods": {
-    "shingle_match": 1
+    "shingle_match": 2
    },
-   "n": 1,
+   "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -1162,33 +1151,11 @@
    "status": "insufficient-data",
    "top_creator_share": 0.5
   },
-  "1 John 4:10": {
-   "book": "1 John",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "1 John 4:18": {
    "book": "1 John",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "1 John 4:9": {
-   "book": "1 John",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -1217,55 +1184,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "1 Kings 1:12": {
-   "book": "1 Kings",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "1 Kings 22:19": {
-   "book": "1 Kings",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "1 Kings 22:20": {
    "book": "1 Kings",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "1 Kings 22:21": {
-   "book": "1 Kings",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "1 Kings 22:22": {
-   "book": "1 Kings",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -1316,44 +1239,33 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "1 Peter 1:2": {
+  "1 Peter 1:16": {
    "book": "1 Peter",
    "creators": 1,
    "methods": {
-    "embedding_match": 1
+    "shingle_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "1 Peter 1:9": {
+  "1 Peter 2:9": {
    "book": "1 Peter",
    "creators": 1,
    "methods": {
-    "embedding_match": 1
+    "shingle_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "1 Peter 3:21": {
+  "1 Peter 5:7": {
    "book": "1 Peter",
    "creators": 1,
    "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "1 Samuel 15:3": {
-   "book": "1 Samuel",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
+    "shingle_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -1371,7 +1283,7 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "1 Samuel 17:43": {
+  "1 Samuel 17:10": {
    "book": "1 Samuel",
    "creators": 1,
    "methods": {
@@ -1382,11 +1294,154 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "1 Samuel 19:9": {
+  "1 Samuel 17:11": {
    "book": "1 Samuel",
    "creators": 1,
    "methods": {
-    "embedding_match": 1
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "1 Samuel 17:24": {
+   "book": "1 Samuel",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "1 Samuel 17:26": {
+   "book": "1 Samuel",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "1 Samuel 17:27": {
+   "book": "1 Samuel",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "1 Samuel 17:32": {
+   "book": "1 Samuel",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "1 Samuel 17:33": {
+   "book": "1 Samuel",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "1 Samuel 17:42": {
+   "book": "1 Samuel",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "1 Samuel 17:43": {
+   "book": "1 Samuel",
+   "creators": 2,
+   "methods": {
+    "shingle_match": 3
+   },
+   "n": 3,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.6667
+  },
+  "1 Samuel 17:44": {
+   "book": "1 Samuel",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "1 Samuel 17:45": {
+   "book": "1 Samuel",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 4
+   },
+   "n": 4,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "1 Samuel 17:47": {
+   "book": "1 Samuel",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "1 Samuel 17:49": {
+   "book": "1 Samuel",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "1 Samuel 17:50": {
+   "book": "1 Samuel",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "1 Samuel 17:9": {
+   "book": "1 Samuel",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -1397,9 +1452,9 @@
    "book": "1 Samuel",
    "creators": 1,
    "methods": {
-    "shingle_match": 2
+    "shingle_match": 3
    },
-   "n": 2,
+   "n": 3,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -1470,11 +1525,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "1 Thessalonians 5:12": {
+  "1 Thessalonians 4:3": {
    "book": "1 Thessalonians",
    "creators": 1,
    "methods": {
-    "embedding_match": 1
+    "shingle_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -1503,17 +1558,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "1 Timothy 1:9": {
-   "book": "1 Timothy",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "1 Timothy 2:13": {
    "book": "1 Timothy",
    "creators": 1,
@@ -1536,83 +1580,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "1 Timothy 3:2": {
-   "book": "1 Timothy",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "1 Timothy 5:18": {
-   "book": "1 Timothy",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "2 Chronicles 18:18": {
-   "book": "2 Chronicles",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "2 Chronicles 18:19": {
-   "book": "2 Chronicles",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "2 Chronicles 18:20": {
-   "book": "2 Chronicles",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "2 Chronicles 18:21": {
-   "book": "2 Chronicles",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "2 Chronicles 20:20": {
-   "book": "2 Chronicles",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "2 Chronicles 7:14": {
    "book": "2 Chronicles",
    "creators": 2,
@@ -1623,28 +1590,6 @@
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 0.5
-  },
-  "2 Chronicles 9:1": {
-   "book": "2 Chronicles",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "2 Chronicles 9:3": {
-   "book": "2 Chronicles",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
   },
   "2 Corinthians 10:3": {
    "book": "2 Corinthians",
@@ -1668,33 +1613,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "2 Corinthians 11:14": {
-   "book": "2 Corinthians",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "2 Corinthians 11:33": {
    "book": "2 Corinthians",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "2 Corinthians 12:9": {
-   "book": "2 Corinthians",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -1722,39 +1645,6 @@
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 0.8333
-  },
-  "2 Corinthians 5:8": {
-   "book": "2 Corinthians",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "2 Corinthians 6:17": {
-   "book": "2 Corinthians",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "2 Corinthians 6:2": {
-   "book": "2 Corinthians",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
   },
   "2 Kings 7:3": {
    "book": "2 Kings",
@@ -1910,17 +1800,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "2 Thessalonians 2:11": {
-   "book": "2 Thessalonians",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "2 Thessalonians 2:16": {
    "book": "2 Thessalonians",
    "creators": 1,
@@ -1967,14 +1846,15 @@
   },
   "2 Timothy 1:7": {
    "book": "2 Timothy",
-   "creators": 1,
+   "creators": 2,
    "methods": {
-    "explicit_citation": 1
+    "explicit_citation": 1,
+    "shingle_match": 1
    },
-   "n": 1,
+   "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 1.0
+   "top_creator_share": 0.5
   },
   "2 Timothy 1:9": {
    "book": "2 Timothy",
@@ -2053,50 +1933,16 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Acts 13:10": {
-   "book": "Acts",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Acts 15:19": {
-   "book": "Acts",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Acts 15:8": {
-   "book": "Acts",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Acts 16:18": {
    "book": "Acts",
-   "creators": 2,
+   "creators": 1,
    "methods": {
-    "embedding_match": 1,
     "shingle_match": 1
    },
-   "n": 2,
+   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 0.5
+   "top_creator_share": 1.0
   },
   "Acts 16:31": {
    "book": "Acts",
@@ -2119,17 +1965,6 @@
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 0.5
-  },
-  "Acts 17:26": {
-   "book": "Acts",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
   },
   "Acts 18:25": {
    "book": "Acts",
@@ -2199,15 +2034,14 @@
   },
   "Acts 19:6": {
    "book": "Acts",
-   "creators": 3,
+   "creators": 2,
    "methods": {
-    "embedding_match": 1,
     "shingle_match": 2
    },
-   "n": 3,
+   "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 0.3333
+   "top_creator_share": 0.5
   },
   "Acts 19:7": {
    "book": "Acts",
@@ -2247,17 +2081,6 @@
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Acts 20:16": {
-   "book": "Acts",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -2308,11 +2131,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Acts 2:19": {
+  "Acts 2:16": {
    "book": "Acts",
    "creators": 1,
    "methods": {
-    "embedding_match": 1
+    "shingle_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -2334,13 +2157,12 @@
    "book": "Acts",
    "creators": 2,
    "methods": {
-    "embedding_match": 1,
     "shingle_match": 4
    },
-   "n": 5,
+   "n": 4,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 0.6
+   "top_creator_share": 0.5
   },
   "Acts 2:41": {
    "book": "Acts",
@@ -2358,17 +2180,6 @@
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Acts 4:13": {
-   "book": "Acts",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -2404,17 +2215,6 @@
     "shingle_match": 2
    },
    "n": 2,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Acts 7:51": {
-   "book": "Acts",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -2507,27 +2307,16 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Amos 3:3": {
-   "book": "Amos",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Colossians 1:15": {
    "book": "Colossians",
-   "creators": 1,
+   "creators": 2,
    "methods": {
-    "shingle_match": 2
+    "shingle_match": 3
    },
-   "n": 2,
+   "n": 3,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 1.0
+   "top_creator_share": 0.6667
   },
   "Colossians 1:16": {
    "book": "Colossians",
@@ -2556,17 +2345,6 @@
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Colossians 2:11": {
-   "book": "Colossians",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -2606,17 +2384,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Colossians 3:15": {
-   "book": "Colossians",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Colossians 3:3": {
    "book": "Colossians",
    "creators": 1,
@@ -2633,17 +2400,6 @@
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Daniel 2:28": {
-   "book": "Daniel",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -2804,6 +2560,17 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
+  "Deuteronomy 15:15": {
+   "book": "Deuteronomy",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
   "Deuteronomy 19:21": {
    "book": "Deuteronomy",
    "creators": 2,
@@ -2815,22 +2582,11 @@
    "status": "insufficient-data",
    "top_creator_share": 0.5
   },
-  "Deuteronomy 21:18": {
+  "Deuteronomy 24:22": {
    "book": "Deuteronomy",
    "creators": 1,
    "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Deuteronomy 21:21": {
-   "book": "Deuteronomy",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
+    "shingle_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -2853,28 +2609,6 @@
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Deuteronomy 28:32": {
-   "book": "Deuteronomy",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Deuteronomy 30:19": {
-   "book": "Deuteronomy",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -2938,6 +2672,17 @@
   },
   "Deuteronomy 5:10": {
    "book": "Deuteronomy",
+   "creators": 3,
+   "methods": {
+    "shingle_match": 3
+   },
+   "n": 3,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.3333
+  },
+  "Deuteronomy 5:11": {
+   "book": "Deuteronomy",
    "creators": 2,
    "methods": {
     "shingle_match": 2
@@ -2947,7 +2692,7 @@
    "status": "insufficient-data",
    "top_creator_share": 0.5
   },
-  "Deuteronomy 5:11": {
+  "Deuteronomy 5:12": {
    "book": "Deuteronomy",
    "creators": 1,
    "methods": {
@@ -2958,11 +2703,132 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Deuteronomy 5:14": {
+  "Deuteronomy 5:15": {
    "book": "Deuteronomy",
    "creators": 1,
    "methods": {
-    "embedding_match": 1
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Deuteronomy 5:16": {
+   "book": "Deuteronomy",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Deuteronomy 5:2": {
+   "book": "Deuteronomy",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Deuteronomy 5:20": {
+   "book": "Deuteronomy",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Deuteronomy 5:21": {
+   "book": "Deuteronomy",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Deuteronomy 5:23": {
+   "book": "Deuteronomy",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Deuteronomy 5:25": {
+   "book": "Deuteronomy",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Deuteronomy 5:26": {
+   "book": "Deuteronomy",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 3
+   },
+   "n": 3,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Deuteronomy 5:28": {
+   "book": "Deuteronomy",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Deuteronomy 5:30": {
+   "book": "Deuteronomy",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Deuteronomy 5:32": {
+   "book": "Deuteronomy",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Deuteronomy 5:33": {
+   "book": "Deuteronomy",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -2971,21 +2837,20 @@
   },
   "Deuteronomy 5:7": {
    "book": "Deuteronomy",
-   "creators": 2,
+   "creators": 3,
    "methods": {
-    "shingle_match": 4
+    "shingle_match": 6
    },
-   "n": 4,
+   "n": 6,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 0.5
+   "top_creator_share": 0.3333
   },
   "Deuteronomy 5:9": {
    "book": "Deuteronomy",
    "creators": 2,
    "methods": {
-    "embedding_match": 1,
-    "shingle_match": 1
+    "shingle_match": 2
    },
    "n": 2,
    "senses_status": "insufficient-data",
@@ -2999,6 +2864,17 @@
     "shingle_match": 1
    },
    "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Deuteronomy 6:2": {
+   "book": "Deuteronomy",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -3025,33 +2901,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Ecclesiastes 10:3": {
-   "book": "Ecclesiastes",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Ephesians 1:23": {
    "book": "Ephesians",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Ephesians 2:10": {
-   "book": "Ephesians",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -3083,31 +2937,20 @@
   },
   "Ephesians 3:20": {
    "book": "Ephesians",
-   "creators": 1,
+   "creators": 2,
    "methods": {
-    "shingle_match": 1
+    "shingle_match": 2
    },
-   "n": 1,
+   "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 1.0
+   "top_creator_share": 0.5
   },
   "Ephesians 4:13": {
    "book": "Ephesians",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Ephesians 4:14": {
-   "book": "Ephesians",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -3152,17 +2995,6 @@
    "creators": 1,
    "methods": {
     "explicit_citation": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Ephesians 5:31": {
-   "book": "Ephesians",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -3263,17 +3095,6 @@
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Ephesians 6:19": {
-   "book": "Ephesians",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -3830,17 +3651,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Exodus 15:26": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Exodus 15:27": {
    "book": "Exodus",
    "creators": 1,
@@ -3885,17 +3695,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Exodus 16:13": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Exodus 16:15": {
    "book": "Exodus",
    "creators": 1,
@@ -3907,33 +3706,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Exodus 16:18": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Exodus 16:19": {
    "book": "Exodus",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 16:22": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -4017,77 +3794,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Exodus 16:33": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 16:4": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 16:6": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 16:8": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 17:11": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Exodus 17:13": {
    "book": "Exodus",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 17:14": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -4107,31 +3818,20 @@
   },
   "Exodus 17:2": {
    "book": "Exodus",
+   "creators": 2,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.5
+  },
+  "Exodus 17:4": {
+   "book": "Exodus",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 17:3": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 17:5": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -4142,7 +3842,7 @@
    "book": "Exodus",
    "creators": 1,
    "methods": {
-    "embedding_match": 1
+    "shingle_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -4165,17 +3865,6 @@
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 18:10": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -4237,17 +3926,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Exodus 18:25": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Exodus 18:27": {
    "book": "Exodus",
    "creators": 1,
@@ -4264,17 +3942,6 @@
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 18:5": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -4303,17 +3970,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Exodus 19:12": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Exodus 19:14": {
    "book": "Exodus",
    "creators": 1,
@@ -4325,44 +3981,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Exodus 19:16": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 19:18": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Exodus 19:20": {
    "book": "Exodus",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 19:23": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -4391,44 +4014,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Exodus 19:5": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 19:7": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Exodus 19:8": {
    "book": "Exodus",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 19:9": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -4512,17 +4102,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Exodus 20:10": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Exodus 20:11": {
    "book": "Exodus",
    "creators": 1,
@@ -4545,56 +4124,44 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Exodus 20:20": {
+  "Exodus 20:16": {
    "book": "Exodus",
    "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 20:24": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 20:3": {
-   "book": "Exodus",
-   "creators": 2,
-   "methods": {
-    "shingle_match": 4
-   },
-   "n": 4,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 0.5
-  },
-  "Exodus 20:4": {
-   "book": "Exodus",
-   "creators": 2,
    "methods": {
     "shingle_match": 2
    },
    "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 0.5
+   "top_creator_share": 1.0
+  },
+  "Exodus 20:3": {
+   "book": "Exodus",
+   "creators": 3,
+   "methods": {
+    "shingle_match": 6
+   },
+   "n": 6,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.3333
+  },
+  "Exodus 20:4": {
+   "book": "Exodus",
+   "creators": 3,
+   "methods": {
+    "shingle_match": 3
+   },
+   "n": 3,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.3333
   },
   "Exodus 20:5": {
    "book": "Exodus",
    "creators": 2,
    "methods": {
-    "embedding_match": 1,
-    "shingle_match": 1
+    "shingle_match": 2
    },
    "n": 2,
    "senses_status": "insufficient-data",
@@ -4603,6 +4170,17 @@
   },
   "Exodus 20:6": {
    "book": "Exodus",
+   "creators": 3,
+   "methods": {
+    "shingle_match": 3
+   },
+   "n": 3,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.3333
+  },
+  "Exodus 20:7": {
+   "book": "Exodus",
    "creators": 2,
    "methods": {
     "shingle_match": 2
@@ -4612,7 +4190,7 @@
    "status": "insufficient-data",
    "top_creator_share": 0.5
   },
-  "Exodus 20:7": {
+  "Exodus 20:8": {
    "book": "Exodus",
    "creators": 1,
    "methods": {
@@ -5074,94 +4652,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Exodus 27:10": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 27:11": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 27:12": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 27:13": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 27:14": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 27:16": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 27:17": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 27:18": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Exodus 27:2": {
    "book": "Exodus",
    "creators": 1,
@@ -5169,61 +4659,6 @@
     "shingle_match": 2
    },
    "n": 2,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 27:20": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 27:21": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 27:3": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 27:4": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 27:5": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -5261,55 +4696,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Exodus 28:11": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 28:12": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Exodus 28:13": {
    "book": "Exodus",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 28:14": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 28:17": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -5338,83 +4729,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Exodus 28:23": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 28:26": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 28:27": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 28:28": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 28:29": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 28:3": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 28:30": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Exodus 28:31": {
    "book": "Exodus",
    "creators": 1,
@@ -5426,77 +4740,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Exodus 28:34": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 28:35": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Exodus 28:36": {
    "book": "Exodus",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 28:38": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 28:39": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 28:41": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 28:6": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -5747,14 +4995,14 @@
   },
   "Exodus 2:24": {
    "book": "Exodus",
-   "creators": 1,
+   "creators": 2,
    "methods": {
-    "shingle_match": 1
+    "shingle_match": 2
    },
-   "n": 1,
+   "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 1.0
+   "top_creator_share": 0.5
   },
   "Exodus 2:6": {
    "book": "Exodus",
@@ -5846,14 +5094,14 @@
   },
   "Exodus 32:1": {
    "book": "Exodus",
-   "creators": 1,
+   "creators": 2,
    "methods": {
-    "shingle_match": 1
+    "shingle_match": 2
    },
-   "n": 1,
+   "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 1.0
+   "top_creator_share": 0.5
   },
   "Exodus 32:11": {
    "book": "Exodus",
@@ -5866,7 +5114,7 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Exodus 32:16": {
+  "Exodus 32:15": {
    "book": "Exodus",
    "creators": 1,
    "methods": {
@@ -5877,7 +5125,29 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
+  "Exodus 32:16": {
+   "book": "Exodus",
+   "creators": 2,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.5
+  },
   "Exodus 32:17": {
+   "book": "Exodus",
+   "creators": 2,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.5
+  },
+  "Exodus 32:20": {
    "book": "Exodus",
    "creators": 1,
    "methods": {
@@ -5932,6 +5202,17 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
+  "Exodus 32:3": {
+   "book": "Exodus",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
   "Exodus 32:30": {
    "book": "Exodus",
    "creators": 1,
@@ -5955,6 +5236,39 @@
    "top_creator_share": 1.0
   },
   "Exodus 32:5": {
+   "book": "Exodus",
+   "creators": 2,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.5
+  },
+  "Exodus 32:6": {
+   "book": "Exodus",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Exodus 32:7": {
+   "book": "Exodus",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Exodus 32:9": {
    "book": "Exodus",
    "creators": 1,
    "methods": {
@@ -6460,33 +5774,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Exodus 38:11": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Exodus 38:16": {
    "book": "Exodus",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Exodus 38:18": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -6570,17 +5862,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Exodus 39:20": {
-   "book": "Exodus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Exodus 39:30": {
    "book": "Exodus",
    "creators": 1,
@@ -6647,7 +5928,7 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Exodus 3:4": {
+  "Exodus 3:2": {
    "book": "Exodus",
    "creators": 1,
    "methods": {
@@ -6658,7 +5939,7 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Exodus 3:6": {
+  "Exodus 3:21": {
    "book": "Exodus",
    "creators": 1,
    "methods": {
@@ -6668,6 +5949,39 @@
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
+  },
+  "Exodus 3:3": {
+   "book": "Exodus",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Exodus 3:4": {
+   "book": "Exodus",
+   "creators": 2,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.5
+  },
+  "Exodus 3:6": {
+   "book": "Exodus",
+   "creators": 2,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.5
   },
   "Exodus 3:9": {
    "book": "Exodus",
@@ -7527,28 +6841,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Ezekiel 18:2": {
-   "book": "Ezekiel",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Ezekiel 20:12": {
-   "book": "Ezekiel",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Ezekiel 20:25": {
    "book": "Ezekiel",
    "creators": 1,
@@ -7560,33 +6852,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Ezekiel 20:26": {
-   "book": "Ezekiel",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Ezekiel 26:4": {
    "book": "Ezekiel",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Ezekiel 28:2": {
-   "book": "Ezekiel",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -7633,28 +6903,6 @@
     "shingle_match": 1
    },
    "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Galatians 2:17": {
-   "book": "Galatians",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Galatians 2:20": {
-   "book": "Galatians",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 2
-   },
-   "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -7770,28 +7018,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Genesis 11:7": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Genesis 11:9": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Genesis 12:12": {
    "book": "Genesis",
    "creators": 1,
@@ -7804,6 +7030,17 @@
    "top_creator_share": 1.0
   },
   "Genesis 12:15": {
+   "book": "Genesis",
+   "creators": 2,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.5
+  },
+  "Genesis 12:16": {
    "book": "Genesis",
    "creators": 1,
    "methods": {
@@ -8067,7 +7304,40 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
+  "Genesis 16:11": {
+   "book": "Genesis",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
   "Genesis 16:13": {
+   "book": "Genesis",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Genesis 16:3": {
+   "book": "Genesis",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Genesis 16:9": {
    "book": "Genesis",
    "creators": 1,
    "methods": {
@@ -8345,16 +7615,15 @@
   },
   "Genesis 1:1": {
    "book": "Genesis",
-   "creators": 9,
+   "creators": 8,
    "methods": {
-    "embedding_match": 1,
-    "explicit_citation": 1,
-    "shingle_match": 27
+    "explicit_citation": 2,
+    "shingle_match": 33
    },
-   "n": 29,
+   "n": 35,
    "senses_status": "ok",
    "status": "ok",
-   "top_creator_share": 0.4138
+   "top_creator_share": 0.3429
   },
   "Genesis 1:2": {
    "book": "Genesis",
@@ -8382,10 +7651,9 @@
    "book": "Genesis",
    "creators": 1,
    "methods": {
-    "embedding_match": 1,
     "shingle_match": 1
    },
-   "n": 2,
+   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -8566,6 +7834,17 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
+  "Genesis 21:1": {
+   "book": "Genesis",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
   "Genesis 21:19": {
    "book": "Genesis",
    "creators": 1,
@@ -8577,7 +7856,29 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
+  "Genesis 21:2": {
+   "book": "Genesis",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
   "Genesis 21:22": {
+   "book": "Genesis",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Genesis 21:3": {
    "book": "Genesis",
    "creators": 1,
    "methods": {
@@ -8623,6 +7924,17 @@
   },
   "Genesis 22:1": {
    "book": "Genesis",
+   "creators": 2,
+   "methods": {
+    "shingle_match": 3
+   },
+   "n": 3,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.6667
+  },
+  "Genesis 22:10": {
+   "book": "Genesis",
    "creators": 1,
    "methods": {
     "shingle_match": 1
@@ -8634,11 +7946,33 @@
   },
   "Genesis 22:12": {
    "book": "Genesis",
+   "creators": 2,
+   "methods": {
+    "shingle_match": 3
+   },
+   "n": 3,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.6667
+  },
+  "Genesis 22:13": {
+   "book": "Genesis",
    "creators": 1,
    "methods": {
-    "shingle_match": 1
+    "shingle_match": 2
    },
-   "n": 1,
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Genesis 22:14": {
+   "book": "Genesis",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -8654,7 +7988,73 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
+  "Genesis 22:2": {
+   "book": "Genesis",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
   "Genesis 22:3": {
+   "book": "Genesis",
+   "creators": 2,
+   "methods": {
+    "shingle_match": 3
+   },
+   "n": 3,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.6667
+  },
+  "Genesis 22:4": {
+   "book": "Genesis",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Genesis 22:6": {
+   "book": "Genesis",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Genesis 22:7": {
+   "book": "Genesis",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Genesis 22:8": {
+   "book": "Genesis",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Genesis 22:9": {
    "book": "Genesis",
    "creators": 1,
    "methods": {
@@ -8841,28 +8241,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Genesis 25:1": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Genesis 25:10": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Genesis 25:11": {
    "book": "Genesis",
    "creators": 1,
@@ -8885,55 +8263,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Genesis 25:13": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Genesis 25:16": {
    "book": "Genesis",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Genesis 25:17": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Genesis 25:21": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Genesis 25:22": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -8951,44 +8285,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Genesis 25:24": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Genesis 25:25": {
    "book": "Genesis",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Genesis 25:26": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Genesis 25:27": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -9006,44 +8307,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Genesis 25:3": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Genesis 25:30": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Genesis 25:31": {
    "book": "Genesis",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Genesis 25:34": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -9061,66 +8329,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Genesis 25:6": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Genesis 25:8": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Genesis 25:9": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Genesis 26:1": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Genesis 26:10": {
    "book": "Genesis",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Genesis 26:11": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -9160,28 +8373,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Genesis 26:17": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Genesis 26:18": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Genesis 26:19": {
    "book": "Genesis",
    "creators": 1,
@@ -9193,55 +8384,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Genesis 26:2": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Genesis 26:20": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Genesis 26:22": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Genesis 26:23": {
    "book": "Genesis",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Genesis 26:24": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -9264,17 +8411,6 @@
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Genesis 26:28": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -9314,66 +8450,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Genesis 26:31": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Genesis 26:32": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Genesis 26:33": {
    "book": "Genesis",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Genesis 26:34": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Genesis 26:6": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Genesis 26:8": {
-   "book": "Genesis",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -9739,6 +8820,17 @@
     "shingle_match": 2
    },
    "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Genesis 2:17": {
+   "book": "Genesis",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -10931,6 +10023,17 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
+  "Genesis 3:2": {
+   "book": "Genesis",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 3
+   },
+   "n": 3,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
   "Genesis 3:22": {
    "book": "Genesis",
    "creators": 1,
@@ -10955,47 +10058,80 @@
   },
   "Genesis 3:3": {
    "book": "Genesis",
+   "creators": 2,
+   "methods": {
+    "shingle_match": 4
+   },
+   "n": 4,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.75
+  },
+  "Genesis 3:4": {
+   "book": "Genesis",
+   "creators": 2,
+   "methods": {
+    "shingle_match": 4
+   },
+   "n": 4,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.75
+  },
+  "Genesis 3:5": {
+   "book": "Genesis",
    "creators": 1,
    "methods": {
-    "shingle_match": 1
+    "shingle_match": 3
    },
-   "n": 1,
+   "n": 3,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Genesis 3:4": {
+  "Genesis 3:6": {
    "book": "Genesis",
    "creators": 1,
    "methods": {
-    "shingle_match": 1
+    "shingle_match": 3
    },
-   "n": 1,
+   "n": 3,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Genesis 3:7": {
+   "book": "Genesis",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 3
+   },
+   "n": 3,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
   "Genesis 3:8": {
    "book": "Genesis",
-   "creators": 1,
+   "creators": 2,
    "methods": {
-    "shingle_match": 1
+    "shingle_match": 2
    },
-   "n": 1,
+   "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 1.0
+   "top_creator_share": 0.5
   },
   "Genesis 3:9": {
    "book": "Genesis",
-   "creators": 1,
+   "creators": 2,
    "methods": {
-    "shingle_match": 1
+    "shingle_match": 2
    },
-   "n": 1,
+   "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 1.0
+   "top_creator_share": 0.5
   },
   "Genesis 40:12": {
    "book": "Genesis",
@@ -12022,15 +11158,14 @@
   },
   "Genesis 50:20": {
    "book": "Genesis",
-   "creators": 3,
+   "creators": 2,
    "methods": {
-    "embedding_match": 1,
     "shingle_match": 2
    },
-   "n": 3,
+   "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 0.3333
+   "top_creator_share": 0.5
   },
   "Genesis 50:6": {
    "book": "Genesis",
@@ -12091,10 +11226,9 @@
    "book": "Genesis",
    "creators": 1,
    "methods": {
-    "embedding_match": 1,
     "shingle_match": 1
    },
-   "n": 2,
+   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -12365,14 +11499,14 @@
   },
   "Hebrews 10:31": {
    "book": "Hebrews",
-   "creators": 1,
+   "creators": 2,
    "methods": {
-    "shingle_match": 2
+    "shingle_match": 4
    },
-   "n": 2,
+   "n": 4,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 1.0
+   "top_creator_share": 0.5
   },
   "Hebrews 11:1": {
    "book": "Hebrews",
@@ -12408,6 +11542,28 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
+  "Hebrews 12:22": {
+   "book": "Hebrews",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Hebrews 12:26": {
+   "book": "Hebrews",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
   "Hebrews 12:28": {
    "book": "Hebrews",
    "creators": 1,
@@ -12421,14 +11577,14 @@
   },
   "Hebrews 12:29": {
    "book": "Hebrews",
-   "creators": 2,
+   "creators": 3,
    "methods": {
-    "shingle_match": 2
+    "shingle_match": 3
    },
-   "n": 2,
+   "n": 3,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 0.5
+   "top_creator_share": 0.3333
   },
   "Hebrews 13:10": {
    "book": "Hebrews",
@@ -12496,28 +11652,16 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Hebrews 4:12": {
+  "Hebrews 4:13": {
    "book": "Hebrews",
    "creators": 1,
    "methods": {
-    "embedding_match": 1
+    "shingle_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
-  },
-  "Hebrews 4:13": {
-   "book": "Hebrews",
-   "creators": 2,
-   "methods": {
-    "embedding_match": 1,
-    "shingle_match": 1
-   },
-   "n": 2,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 0.5
   },
   "Hebrews 5:6": {
    "book": "Hebrews",
@@ -12695,50 +11839,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Isaiah 19:11": {
-   "book": "Isaiah",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Isaiah 19:12": {
-   "book": "Isaiah",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Isaiah 19:13": {
-   "book": "Isaiah",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Isaiah 26:18": {
-   "book": "Isaiah",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Isaiah 37:20": {
    "book": "Isaiah",
    "creators": 1,
@@ -12871,17 +11971,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Isaiah 46:10": {
-   "book": "Isaiah",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Isaiah 46:9": {
    "book": "Isaiah",
    "creators": 1,
@@ -12937,17 +12026,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Isaiah 54:7": {
-   "book": "Isaiah",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Isaiah 55:8": {
    "book": "Isaiah",
    "creators": 1,
@@ -12996,14 +12074,14 @@
    "book": "Isaiah",
    "creators": 3,
    "methods": {
-    "shingle_match": 3
+    "shingle_match": 6
    },
-   "n": 3,
+   "n": 6,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 0.3333
+   "top_creator_share": 0.6667
   },
-  "Isaiah 6:5": {
+  "Isaiah 6:4": {
    "book": "Isaiah",
    "creators": 1,
    "methods": {
@@ -13013,6 +12091,17 @@
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
+  },
+  "Isaiah 6:5": {
+   "book": "Isaiah",
+   "creators": 2,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.5
   },
   "Isaiah 6:8": {
    "book": "Isaiah",
@@ -13058,6 +12147,17 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
+  "James 1:3": {
+   "book": "James",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
   "James 1:8": {
    "book": "James",
    "creators": 1,
@@ -13080,6 +12180,17 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
+  "James 3:10": {
+   "book": "James",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 3
+   },
+   "n": 3,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
   "James 3:16": {
    "book": "James",
    "creators": 1,
@@ -13091,14 +12202,35 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
+  "James 3:8": {
+   "book": "James",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "James 3:9": {
+   "book": "James",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
   "James 4:4": {
    "book": "James",
    "creators": 1,
    "methods": {
-    "embedding_match": 1,
     "shingle_match": 1
    },
-   "n": 2,
+   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -13129,9 +12261,9 @@
    "book": "James",
    "creators": 1,
    "methods": {
-    "shingle_match": 1
+    "shingle_match": 2
    },
-   "n": 1,
+   "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -13140,9 +12272,9 @@
    "book": "James",
    "creators": 1,
    "methods": {
-    "shingle_match": 1
+    "shingle_match": 2
    },
-   "n": 1,
+   "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -13152,50 +12284,6 @@
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Jeremiah 17:9": {
-   "book": "Jeremiah",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Jeremiah 18:12": {
-   "book": "Jeremiah",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Jeremiah 20:9": {
-   "book": "Jeremiah",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Jeremiah 29:11": {
-   "book": "Jeremiah",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -13213,33 +12301,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Jeremiah 29:8": {
-   "book": "Jeremiah",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Jeremiah 31:29": {
    "book": "Jeremiah",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Jeremiah 5:1": {
-   "book": "Jeremiah",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -13268,17 +12334,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Job 10:19": {
-   "book": "Job",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Job 1:6": {
    "book": "Job",
    "creators": 1,
@@ -13295,28 +12350,6 @@
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Job 36:12": {
-   "book": "Job",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Job 42:3": {
-   "book": "Job",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -13744,14 +12777,14 @@
   },
   "John 1:1": {
    "book": "John",
-   "creators": 6,
+   "creators": 7,
    "methods": {
-    "shingle_match": 15
+    "shingle_match": 17
    },
-   "n": 15,
+   "n": 17,
    "senses_status": "ok",
    "status": "ok",
-   "top_creator_share": 0.4667
+   "top_creator_share": 0.4118
   },
   "John 1:10": {
    "book": "John",
@@ -13760,17 +12793,6 @@
     "shingle_match": 2
    },
    "n": 2,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "John 1:12": {
-   "book": "John",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -13799,14 +12821,14 @@
   },
   "John 1:2": {
    "book": "John",
-   "creators": 2,
+   "creators": 3,
    "methods": {
-    "shingle_match": 3
+    "shingle_match": 4
    },
-   "n": 3,
+   "n": 4,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 0.6667
+   "top_creator_share": 0.5
   },
   "John 1:20": {
    "book": "John",
@@ -14019,14 +13041,47 @@
   },
   "John 20:31": {
    "book": "John",
-   "creators": 2,
+   "creators": 3,
    "methods": {
-    "shingle_match": 3
+    "shingle_match": 4
    },
-   "n": 3,
+   "n": 4,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 0.6667
+   "top_creator_share": 0.5
+  },
+  "John 21:15": {
+   "book": "John",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "John 21:16": {
+   "book": "John",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "John 21:18": {
+   "book": "John",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
   },
   "John 2:19": {
    "book": "John",
@@ -14050,28 +13105,39 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "John 3:15": {
+  "John 2:24": {
    "book": "John",
-   "creators": 2,
+   "creators": 1,
    "methods": {
-    "shingle_match": 2
+    "shingle_match": 1
    },
-   "n": 2,
+   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 0.5
+   "top_creator_share": 1.0
+  },
+  "John 3:15": {
+   "book": "John",
+   "creators": 3,
+   "methods": {
+    "shingle_match": 3
+   },
+   "n": 3,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.3333
   },
   "John 3:16": {
    "book": "John",
-   "creators": 4,
+   "creators": 6,
    "methods": {
-    "embedding_match": 1,
-    "shingle_match": 10
+    "explicit_citation": 1,
+    "shingle_match": 12
    },
-   "n": 11,
+   "n": 13,
    "senses_status": "ok",
-   "status": "single-creator-concentration",
-   "top_creator_share": 0.7273
+   "status": "ok",
+   "top_creator_share": 0.5385
   },
   "John 3:30": {
    "book": "John",
@@ -14097,6 +13163,17 @@
   },
   "John 4:1": {
    "book": "John",
+   "creators": 2,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.5
+  },
+  "John 4:10": {
+   "book": "John",
    "creators": 1,
    "methods": {
     "shingle_match": 1
@@ -14108,6 +13185,72 @@
   },
   "John 4:11": {
    "book": "John",
+   "creators": 2,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.5
+  },
+  "John 4:12": {
+   "book": "John",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "John 4:13": {
+   "book": "John",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "John 4:16": {
+   "book": "John",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "John 4:19": {
+   "book": "John",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "John 4:20": {
+   "book": "John",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "John 4:21": {
+   "book": "John",
    "creators": 1,
    "methods": {
     "shingle_match": 1
@@ -14118,6 +13261,17 @@
    "top_creator_share": 1.0
   },
   "John 4:3": {
+   "book": "John",
+   "creators": 2,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.5
+  },
+  "John 4:30": {
    "book": "John",
    "creators": 1,
    "methods": {
@@ -14135,6 +13289,72 @@
     "shingle_match": 1
    },
    "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "John 4:40": {
+   "book": "John",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "John 4:41": {
+   "book": "John",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "John 4:7": {
+   "book": "John",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "John 4:8": {
+   "book": "John",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "John 4:9": {
+   "book": "John",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "John 5:39": {
+   "book": "John",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -14185,14 +13405,14 @@
   },
   "John 6:48": {
    "book": "John",
-   "creators": 2,
+   "creators": 3,
    "methods": {
-    "shingle_match": 2
+    "shingle_match": 3
    },
-   "n": 2,
+   "n": 3,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 0.5
+   "top_creator_share": 0.3333
   },
   "John 6:49": {
    "book": "John",
@@ -14326,17 +13546,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "John 7:38": {
-   "book": "John",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "John 7:5": {
    "book": "John",
    "creators": 1,
@@ -14353,72 +13562,6 @@
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "John 9:4": {
-   "book": "John",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Joshua 1:9": {
-   "book": "Joshua",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Joshua 24:15": {
-   "book": "Joshua",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Joshua 24:21": {
-   "book": "Joshua",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Judges 11:31": {
-   "book": "Judges",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Judges 11:34": {
-   "book": "Judges",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -14733,17 +13876,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Leviticus 18:22": {
-   "book": "Leviticus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Leviticus 19:18": {
    "book": "Leviticus",
    "creators": 1,
@@ -14935,10 +14067,9 @@
    "book": "Leviticus",
    "creators": 1,
    "methods": {
-    "embedding_match": 1,
     "shingle_match": 1
    },
-   "n": 2,
+   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -15592,11 +14723,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Luke 11:39": {
+  "Luke 10:41": {
    "book": "Luke",
    "creators": 1,
    "methods": {
-    "embedding_match": 1
+    "shingle_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -15616,25 +14747,25 @@
   },
   "Luke 12:29": {
    "book": "Luke",
-   "creators": 1,
+   "creators": 2,
    "methods": {
-    "shingle_match": 3
+    "shingle_match": 4
    },
-   "n": 3,
+   "n": 4,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 1.0
+   "top_creator_share": 0.75
   },
   "Luke 12:31": {
    "book": "Luke",
-   "creators": 1,
+   "creators": 2,
    "methods": {
-    "shingle_match": 1
+    "shingle_match": 2
    },
-   "n": 1,
+   "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 1.0
+   "top_creator_share": 0.5
   },
   "Luke 12:4": {
    "book": "Luke",
@@ -15696,28 +14827,6 @@
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Luke 17:21": {
-   "book": "Luke",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Luke 18:16": {
-   "book": "Luke",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -15860,6 +14969,17 @@
    "book": "Luke",
    "creators": 1,
    "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Luke 22:55": {
+   "book": "Luke",
+   "creators": 1,
+   "methods": {
     "shingle_match": 1
    },
    "n": 1,
@@ -15867,11 +14987,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Luke 22:67": {
+  "Luke 22:62": {
    "book": "Luke",
    "creators": 1,
    "methods": {
-    "embedding_match": 1
+    "shingle_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -15922,18 +15042,62 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Luke 24:29": {
+  "Luke 2:1": {
    "book": "Luke",
    "creators": 1,
    "methods": {
-    "embedding_match": 1
+    "shingle_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Luke 2:1": {
+  "Luke 2:11": {
+   "book": "Luke",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Luke 2:13": {
+   "book": "Luke",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Luke 2:14": {
+   "book": "Luke",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Luke 2:15": {
+   "book": "Luke",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Luke 2:16": {
    "book": "Luke",
    "creators": 1,
    "methods": {
@@ -15946,16 +15110,38 @@
   },
   "Luke 2:30": {
    "book": "Luke",
-   "creators": 3,
+   "creators": 4,
    "methods": {
-    "shingle_match": 3
+    "shingle_match": 4
    },
-   "n": 3,
+   "n": 4,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 0.3333
+   "top_creator_share": 0.25
   },
   "Luke 2:4": {
+   "book": "Luke",
+   "creators": 2,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.5
+  },
+  "Luke 2:7": {
+   "book": "Luke",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Luke 2:9": {
    "book": "Luke",
    "creators": 1,
    "methods": {
@@ -15988,7 +15174,7 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Luke 7:27": {
+  "Luke 4:36": {
    "book": "Luke",
    "creators": 1,
    "methods": {
@@ -15999,11 +15185,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Luke 8:10": {
+  "Luke 7:27": {
    "book": "Luke",
    "creators": 1,
    "methods": {
-    "embedding_match": 2
+    "shingle_match": 2
    },
    "n": 2,
    "senses_status": "insufficient-data",
@@ -16077,25 +15263,13 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Mark 10:14": {
-   "book": "Mark",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Mark 10:16": {
    "book": "Mark",
    "creators": 1,
    "methods": {
-    "embedding_match": 1,
     "shingle_match": 1
    },
-   "n": 2,
+   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -16107,17 +15281,6 @@
     "shingle_match": 2
    },
    "n": 2,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Mark 10:21": {
-   "book": "Mark",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -16151,17 +15314,6 @@
     "shingle_match": 2
    },
    "n": 2,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Mark 10:8": {
-   "book": "Mark",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -16364,17 +15516,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Mark 16:7": {
-   "book": "Mark",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Mark 1:12": {
    "book": "Mark",
    "creators": 1,
@@ -16463,28 +15604,16 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Mark 3:28": {
+  "Mark 3:29": {
    "book": "Mark",
    "creators": 1,
    "methods": {
-    "embedding_match": 1
+    "shingle_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
-  },
-  "Mark 3:29": {
-   "book": "Mark",
-   "creators": 2,
-   "methods": {
-    "embedding_match": 1,
-    "shingle_match": 1
-   },
-   "n": 2,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 0.5
   },
   "Mark 3:30": {
    "book": "Mark",
@@ -16504,28 +15633,6 @@
     "shingle_match": 2
    },
    "n": 2,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Mark 4:11": {
-   "book": "Mark",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 2
-   },
-   "n": 2,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Mark 4:12": {
-   "book": "Mark",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -16585,28 +15692,16 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Mark 9:42": {
+  "Mark 9:43": {
    "book": "Mark",
    "creators": 1,
    "methods": {
-    "embedding_match": 1
+    "shingle_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
-  },
-  "Mark 9:43": {
-   "book": "Mark",
-   "creators": 2,
-   "methods": {
-    "embedding_match": 1,
-    "shingle_match": 1
-   },
-   "n": 2,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 0.5
   },
   "Mark 9:44": {
    "book": "Mark",
@@ -16626,17 +15721,6 @@
     "shingle_match": 2
    },
    "n": 2,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Mark 9:47": {
-   "book": "Mark",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -16711,13 +15795,12 @@
    "book": "Matthew",
    "creators": 4,
    "methods": {
-    "embedding_match": 1,
     "shingle_match": 5
    },
-   "n": 6,
+   "n": 5,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 0.5
+   "top_creator_share": 0.4
   },
   "Matthew 11:10": {
    "book": "Matthew",
@@ -16753,17 +15836,6 @@
    "status": "insufficient-data",
    "top_creator_share": 0.3333
   },
-  "Matthew 12:31": {
-   "book": "Matthew",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Matthew 12:32": {
    "book": "Matthew",
    "creators": 1,
@@ -16788,15 +15860,14 @@
   },
   "Matthew 12:37": {
    "book": "Matthew",
-   "creators": 2,
+   "creators": 1,
    "methods": {
-    "embedding_match": 1,
     "shingle_match": 1
    },
-   "n": 2,
+   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 0.5
+   "top_creator_share": 1.0
   },
   "Matthew 12:50": {
    "book": "Matthew",
@@ -16910,14 +15981,14 @@
   },
   "Matthew 16:24": {
    "book": "Matthew",
-   "creators": 1,
+   "creators": 2,
    "methods": {
-    "shingle_match": 1
+    "shingle_match": 2
    },
-   "n": 1,
+   "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 1.0
+   "top_creator_share": 0.5
   },
   "Matthew 18:1": {
    "book": "Matthew",
@@ -16963,71 +16034,16 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Matthew 18:6": {
-   "book": "Matthew",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Matthew 18:8": {
-   "book": "Matthew",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Matthew 18:9": {
-   "book": "Matthew",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Matthew 19:12": {
-   "book": "Matthew",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Matthew 19:14": {
-   "book": "Matthew",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Matthew 19:18": {
    "book": "Matthew",
-   "creators": 1,
+   "creators": 2,
    "methods": {
-    "shingle_match": 1
+    "shingle_match": 2
    },
-   "n": 1,
+   "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 1.0
+   "top_creator_share": 0.5
   },
   "Matthew 19:24": {
    "book": "Matthew",
@@ -17132,10 +16148,9 @@
    "book": "Matthew",
    "creators": 1,
    "methods": {
-    "embedding_match": 1,
     "shingle_match": 1
    },
-   "n": 2,
+   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -17228,6 +16243,17 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
+  "Matthew 23:11": {
+   "book": "Matthew",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
   "Matthew 23:24": {
    "book": "Matthew",
    "creators": 1,
@@ -17235,28 +16261,6 @@
     "shingle_match": 4
    },
    "n": 4,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Matthew 23:25": {
-   "book": "Matthew",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Matthew 23:26": {
-   "book": "Matthew",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -17463,11 +16467,11 @@
    "book": "Matthew",
    "creators": 4,
    "methods": {
-    "shingle_match": 6
+    "shingle_match": 10
    },
-   "n": 6,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
+   "n": 10,
+   "senses_status": "ok",
+   "status": "ok",
    "top_creator_share": 0.5
   },
   "Matthew 28:2": {
@@ -17486,17 +16490,6 @@
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Matthew 2:15": {
-   "book": "Matthew",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -17591,28 +16584,6 @@
    "status": "insufficient-data",
    "top_creator_share": 0.5
   },
-  "Matthew 5:28": {
-   "book": "Matthew",
-   "creators": 2,
-   "methods": {
-    "embedding_match": 2
-   },
-   "n": 2,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 0.5
-  },
-  "Matthew 5:29": {
-   "book": "Matthew",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Matthew 5:3": {
    "book": "Matthew",
    "creators": 1,
@@ -17620,17 +16591,6 @@
     "shingle_match": 3
    },
    "n": 3,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Matthew 5:30": {
-   "book": "Matthew",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -17701,6 +16661,17 @@
    "status": "insufficient-data",
    "top_creator_share": 0.5
   },
+  "Matthew 6:11": {
+   "book": "Matthew",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 2
+   },
+   "n": 2,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
   "Matthew 6:14": {
    "book": "Matthew",
    "creators": 1,
@@ -17734,16 +16705,27 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Matthew 6:33": {
+  "Matthew 6:25": {
    "book": "Matthew",
-   "creators": 2,
+   "creators": 1,
    "methods": {
-    "shingle_match": 2
+    "shingle_match": 1
    },
-   "n": 2,
+   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 0.5
+   "top_creator_share": 1.0
+  },
+  "Matthew 6:33": {
+   "book": "Matthew",
+   "creators": 3,
+   "methods": {
+    "shingle_match": 3
+   },
+   "n": 3,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 0.3333
   },
   "Matthew 7:15": {
    "book": "Matthew",
@@ -17794,28 +16776,6 @@
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Micah 3:7": {
-   "book": "Micah",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Nehemiah 4:14": {
-   "book": "Nehemiah",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -18020,17 +16980,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Philippians 4:7": {
-   "book": "Philippians",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Proverbs 11:22": {
    "book": "Proverbs",
    "creators": 1,
@@ -18044,15 +16993,14 @@
   },
   "Proverbs 13:24": {
    "book": "Proverbs",
-   "creators": 2,
+   "creators": 1,
    "methods": {
-    "embedding_match": 1,
     "shingle_match": 1
    },
-   "n": 2,
+   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 0.5
+   "top_creator_share": 1.0
   },
   "Proverbs 1:25": {
    "book": "Proverbs",
@@ -18089,14 +17037,14 @@
   },
   "Proverbs 1:7": {
    "book": "Proverbs",
-   "creators": 1,
+   "creators": 2,
    "methods": {
-    "shingle_match": 1
+    "shingle_match": 3
    },
-   "n": 1,
+   "n": 3,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 1.0
+   "top_creator_share": 0.6667
   },
   "Proverbs 21:5": {
    "book": "Proverbs",
@@ -18111,15 +17059,14 @@
   },
   "Proverbs 22:15": {
    "book": "Proverbs",
-   "creators": 2,
+   "creators": 1,
    "methods": {
-    "embedding_match": 1,
     "shingle_match": 2
    },
-   "n": 3,
+   "n": 2,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 0.6667
+   "top_creator_share": 1.0
   },
   "Proverbs 22:6": {
    "book": "Proverbs",
@@ -18176,28 +17123,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Proverbs 30:16": {
-   "book": "Proverbs",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Proverbs 30:18": {
-   "book": "Proverbs",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Proverbs 3:5": {
    "book": "Proverbs",
    "creators": 2,
@@ -18217,17 +17142,6 @@
     "shingle_match": 3
    },
    "n": 3,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Proverbs 5:21": {
-   "book": "Proverbs",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -18331,28 +17245,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Psalms 104:33": {
-   "book": "Psalms",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Psalms 105:15": {
-   "book": "Psalms",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Psalms 107:13": {
    "book": "Psalms",
    "creators": 1,
@@ -18385,17 +17277,6 @@
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 0.6667
-  },
-  "Psalms 110:4": {
-   "book": "Psalms",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
   },
   "Psalms 110:5": {
    "book": "Psalms",
@@ -18430,17 +17311,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Psalms 116:1": {
-   "book": "Psalms",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Psalms 116:15": {
    "book": "Psalms",
    "creators": 1,
@@ -18463,7 +17333,7 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Psalms 122:1": {
+  "Psalms 119:15": {
    "book": "Psalms",
    "creators": 1,
    "methods": {
@@ -18474,11 +17344,22 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Psalms 127:2": {
+  "Psalms 119:16": {
    "book": "Psalms",
    "creators": 1,
    "methods": {
-    "embedding_match": 1
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Psalms 122:1": {
+   "book": "Psalms",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -18507,66 +17388,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Psalms 139:1": {
-   "book": "Psalms",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Psalms 139:14": {
-   "book": "Psalms",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Psalms 139:2": {
-   "book": "Psalms",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Psalms 139:3": {
    "book": "Psalms",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Psalms 139:4": {
-   "book": "Psalms",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Psalms 139:5": {
-   "book": "Psalms",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -18607,6 +17433,17 @@
    "top_creator_share": 1.0
   },
   "Psalms 145:3": {
+   "book": "Psalms",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Psalms 147:11": {
    "book": "Psalms",
    "creators": 1,
    "methods": {
@@ -18673,6 +17510,17 @@
    "top_creator_share": 0.8
   },
   "Psalms 23:4": {
+   "book": "Psalms",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Psalms 24:8": {
    "book": "Psalms",
    "creators": 1,
    "methods": {
@@ -18881,33 +17729,33 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Psalms 55:23": {
-   "book": "Psalms",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Psalms 56:4": {
-   "book": "Psalms",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Psalms 67:7": {
    "book": "Psalms",
    "creators": 1,
    "methods": {
     "explicit_citation": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Psalms 73:25": {
+   "book": "Psalms",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
+   },
+   "n": 1,
+   "senses_status": "insufficient-data",
+   "status": "insufficient-data",
+   "top_creator_share": 1.0
+  },
+  "Psalms 73:26": {
+   "book": "Psalms",
+   "creators": 1,
+   "methods": {
+    "shingle_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -19018,17 +17866,6 @@
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Psalms 94:11": {
-   "book": "Psalms",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -19465,17 +18302,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Romans 12:3": {
-   "book": "Romans",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Romans 12:5": {
    "book": "Romans",
    "creators": 1,
@@ -19589,27 +18415,25 @@
   },
   "Romans 3:10": {
    "book": "Romans",
-   "creators": 2,
+   "creators": 1,
    "methods": {
-    "embedding_match": 1,
     "shingle_match": 1
    },
-   "n": 2,
+   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 0.5
+   "top_creator_share": 1.0
   },
   "Romans 3:18": {
    "book": "Romans",
-   "creators": 2,
+   "creators": 1,
    "methods": {
-    "embedding_match": 1,
     "shingle_match": 1
    },
-   "n": 2,
+   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
-   "top_creator_share": 0.5
+   "top_creator_share": 1.0
   },
   "Romans 3:22": {
    "book": "Romans",
@@ -19632,28 +18456,6 @@
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 0.4
-  },
-  "Romans 3:3": {
-   "book": "Romans",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Romans 4:24": {
-   "book": "Romans",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
   },
   "Romans 4:25": {
    "book": "Romans",
@@ -19756,17 +18558,6 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Romans 8:13": {
-   "book": "Romans",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Romans 8:14": {
    "book": "Romans",
    "creators": 1,
@@ -19785,17 +18576,6 @@
     "shingle_match": 2
    },
    "n": 2,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Romans 8:27": {
-   "book": "Romans",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
    "senses_status": "insufficient-data",
    "status": "insufficient-data",
    "top_creator_share": 1.0
@@ -19899,55 +18679,11 @@
    "status": "insufficient-data",
    "top_creator_share": 1.0
   },
-  "Song of Solomon 2:7": {
-   "book": "Song of Solomon",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Song of Solomon 3:5": {
-   "book": "Song of Solomon",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
   "Song of Solomon 7:10": {
    "book": "Song of Solomon",
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Song of Solomon 8:4": {
-   "book": "Song of Solomon",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Titus 1:14": {
-   "book": "Titus",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",
@@ -19970,17 +18706,6 @@
    "creators": 1,
    "methods": {
     "shingle_match": 1
-   },
-   "n": 1,
-   "senses_status": "insufficient-data",
-   "status": "insufficient-data",
-   "top_creator_share": 1.0
-  },
-  "Zechariah 10:12": {
-   "book": "Zechariah",
-   "creators": 1,
-   "methods": {
-    "embedding_match": 1
    },
    "n": 1,
    "senses_status": "insufficient-data",

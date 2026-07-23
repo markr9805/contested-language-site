@@ -1,0 +1,300 @@
+{
+ "audit_lines": {
+  "21407": {
+   "context": "Can't you see that his kindness is intended to turn you from sin? God's patience with you is the evidence that he is waiting for you to tell him where you are. God doesn't tell us to confess because he doesn't know the truth, we're trying to keep to ourselves. We confess so that we can be forgiven. The Bible says, if we confess our sins, he is faithful and just to forgive us of our sins and cleanse us from all unrighteousness.",
+   "occurrence_id": 21407,
+   "published_at": "2019-12-26T16:02:55Z",
+   "role": "host",
+   "sense": 0,
+   "surface": "truth",
+   "t": 2241.88,
+   "term": "truth",
+   "title": "How Adam and Eve jacked up everything. (Genesis 1-3)",
+   "video_id": "QWqAdElTf9k"
+  },
+  "21409": {
+   "context": "He is the He is the blood on the doorpost that causes death to pass over us in eternal life to abide. He is the one that stands between the creature and the creator, absorbing the judgment of God and revealing the love of God. So even though we have all sinned and fallen short of the glory of God, we are now able, through repentance and faith, to stop hiding from the truth of who we are as sinners and instead run to his throne of grace for mercy.",
+   "occurrence_id": 21409,
+   "published_at": "2019-12-26T16:02:55Z",
+   "role": "host",
+   "sense": 0,
+   "surface": "truth",
+   "t": 2546.24,
+   "term": "truth",
+   "title": "How Adam and Eve jacked up everything. (Genesis 1-3)",
+   "video_id": "QWqAdElTf9k"
+  },
+  "21428": {
+   "context": "I think one reason, or perhaps it's difficult for us to confess is that we forget who God is. Remember when I said that some people want God to be love and not judge? I think some of us have difficulty with confession because we remember that God is judged, but we forget that he's love. The thing is, God is not surprised by your sinfulness.",
+   "occurrence_id": 21428,
+   "published_at": "2019-12-26T16:02:55Z",
+   "role": "host",
+   "sense": 0,
+   "surface": "love",
+   "t": 2175.44,
+   "term": "love",
+   "title": "How Adam and Eve jacked up everything. (Genesis 1-3)",
+   "video_id": "QWqAdElTf9k"
+  },
+  "21430": {
+   "context": "Jesus, by becoming a curse on a tree, is the mediator between man and God. He is the cleft that we hide behind. He is the He is the blood on the doorpost that causes death to pass over us in eternal life to abide. He is the one that stands between the creature and the creator, absorbing the judgment of God and revealing the love of God. So even though we have all sinned and fallen short of the glory of God, we are now able, through repentance and faith, to stop hiding from the truth of who we are as sinners and instead run to his throne of grace for mercy.",
+   "occurrence_id": 21430,
+   "published_at": "2019-12-26T16:02:55Z",
+   "role": "host",
+   "sense": 0,
+   "surface": "love",
+   "t": 2534.68,
+   "term": "love",
+   "title": "How Adam and Eve jacked up everything. (Genesis 1-3)",
+   "video_id": "QWqAdElTf9k"
+  },
+  "9397": {
+   "context": "Titus 1 6 says that there are people who will profess, have words that they know God, but by their works, they deny him. Words don't ensure commitment. And anybody who has had any experience with a man who has more self-control over his words than he does his body recognizes that this is the truth. Someone might say, well, out of the abundance of the heart, the mouth speaks. So could it have been that Peter's words are just the evidence of his great love for God?",
+   "occurrence_id": 9397,
+   "published_at": "2019-05-29T19:58:05Z",
+   "role": "host",
+   "sense": 0,
+   "surface": "truth",
+   "t": 286.96,
+   "term": "truth",
+   "title": "The Gospel for The Fallen",
+   "video_id": "AW0Yg61TWWA"
+  },
+  "9407": {
+   "context": "And anybody who has had any experience with a man who has more self-control over his words than he does his body recognizes that this is the truth. Someone might say, well, out of the abundance of the heart, the mouth speaks. So could it have been that Peter's words are just the evidence of his great love for God? And I would respond by saying this listen to his words again. He says, though they all fall away because of you, I will never fall away.",
+   "occurrence_id": 9407,
+   "published_at": "2019-05-29T19:58:05Z",
+   "role": "host",
+   "sense": 0,
+   "surface": "love",
+   "t": 299.68,
+   "term": "love",
+   "title": "The Gospel for The Fallen",
+   "video_id": "AW0Yg61TWWA"
+  }
+ },
+ "cell": "2019",
+ "edges": [
+  {
+   "a": "love|0",
+   "audit_pairs": [
+    {
+     "a_occ": 9407,
+     "b_occ": 9397,
+     "dist": 0.0946
+    },
+    {
+     "a_occ": 21430,
+     "b_occ": 21409,
+     "dist": 0.0997
+    },
+    {
+     "a_occ": 21428,
+     "b_occ": 21407,
+     "dist": 0.1124
+    }
+   ],
+   "b": "truth|0",
+   "dist": 0.038,
+   "same_term": false
+  }
+ ],
+ "grouping": "year",
+ "nodes": {
+  "accountability|0": {
+   "file": "senses/accountability.json",
+   "n": 1,
+   "reason": "1 < 10 occurrences in this cell",
+   "sense": 0,
+   "status": "ghost",
+   "term": "accountability"
+  },
+  "accountability|1": {
+   "file": "senses/accountability.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 1,
+   "status": "ghost",
+   "term": "accountability"
+  },
+  "bridge-city|0": {
+   "file": "senses/bridge-city.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 0,
+   "status": "ghost",
+   "term": "bridge city"
+  },
+  "bridge-city|1": {
+   "file": "senses/bridge-city.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 1,
+   "status": "ghost",
+   "term": "bridge city"
+  },
+  "community|0": {
+   "file": "senses/community.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 0,
+   "status": "ghost",
+   "term": "community"
+  },
+  "community|1": {
+   "file": "senses/community.json",
+   "n": 6,
+   "reason": "6 < 10 occurrences in this cell",
+   "sense": 1,
+   "status": "ghost",
+   "term": "community"
+  },
+  "deconstruction|0": {
+   "file": "senses/deconstruction.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 0,
+   "status": "ghost",
+   "term": "deconstruction"
+  },
+  "deconstruction|1": {
+   "file": "senses/deconstruction.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 1,
+   "status": "ghost",
+   "term": "deconstruction"
+  },
+  "do-the-work|0": {
+   "file": "senses/do-the-work.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 0,
+   "status": "ghost",
+   "term": "do the work"
+  },
+  "do-the-work|1": {
+   "file": "senses/do-the-work.json",
+   "n": 1,
+   "reason": "1 < 10 occurrences in this cell",
+   "sense": 1,
+   "status": "ghost",
+   "term": "do the work"
+  },
+  "evidence|0": {
+   "file": "senses/evidence.json",
+   "n": 2,
+   "reason": "2 < 10 occurrences in this cell",
+   "sense": 0,
+   "status": "ghost",
+   "term": "evidence"
+  },
+  "evidence|1": {
+   "file": "senses/evidence.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 1,
+   "status": "ghost",
+   "term": "evidence"
+  },
+  "grace|0": {
+   "file": "senses/grace.json",
+   "n": 8,
+   "reason": "8 < 10 occurrences in this cell",
+   "sense": 0,
+   "status": "ghost",
+   "term": "grace"
+  },
+  "grace|1": {
+   "file": "senses/grace.json",
+   "n": 2,
+   "reason": "2 < 10 occurrences in this cell",
+   "sense": 1,
+   "status": "ghost",
+   "term": "grace"
+  },
+  "harm|0": {
+   "file": "senses/harm.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 0,
+   "status": "ghost",
+   "term": "harm"
+  },
+  "harm|1": {
+   "file": "senses/harm.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 1,
+   "status": "ghost",
+   "term": "harm"
+  },
+  "love|0": {
+   "file": "senses/love.json",
+   "n": 68,
+   "sense": 0,
+   "status": "ok",
+   "stress": 0.0008,
+   "stress_abs": 0.0,
+   "term": "love",
+   "xy": [
+    -0.019,
+    0.0
+   ]
+  },
+  "love|1": {
+   "file": "senses/love.json",
+   "n": 2,
+   "reason": "2 < 10 occurrences in this cell",
+   "sense": 1,
+   "status": "ghost",
+   "term": "love"
+  },
+  "purity-test|0": {
+   "file": "senses/purity-test.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 0,
+   "status": "ghost",
+   "term": "purity test"
+  },
+  "purity-test|1": {
+   "file": "senses/purity-test.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 1,
+   "status": "ghost",
+   "term": "purity test"
+  },
+  "purity-test|2": {
+   "file": "senses/purity-test.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 2,
+   "status": "ghost",
+   "term": "purity test"
+  },
+  "truth|0": {
+   "file": "senses/truth.json",
+   "n": 19,
+   "sense": 0,
+   "status": "ok",
+   "stress": 0.0008,
+   "stress_abs": 0.0,
+   "term": "truth",
+   "xy": [
+    0.019,
+    0.0
+   ]
+  },
+  "truth|1": {
+   "file": "senses/truth.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 1,
+   "status": "ghost",
+   "term": "truth"
+  }
+ },
+ "occurrences": 109
+}

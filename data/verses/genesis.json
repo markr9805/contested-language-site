@@ -63,56 +63,6 @@
    },
    "truncated": false
   },
-  "Genesis 11:7": {
-   "citations": [
-    {
-     "confidence": 0.8437,
-     "context": "And you know the stories. I don't have to get into the details here. But I will let you hear it from the Bible itself, so it's not just me. So I'll just read you these two parts and we'll wrap up. You have Genesis 11 7. Come, let us go down and confuse their language there so that they will not understand one another's speech. Therefore, it was called Babel, because there the Lord confused the language of all the earth. And you know how this goes.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2026-07-05T14:00:16Z",
-     "role": "host",
-     "t": 1223.64,
-     "title": "God’s Favorite Weapon Is Confusion",
-     "video_id": "1mQN3dAT0KA"
-    }
-   ],
-   "creators": {
-    "mindshift": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Go to, let us go down, and there confound their language, that they may not understand one another's speech.",
-    "WEB": "Come, let’s go down, and there confuse their language, that they may not understand one another’s speech.”"
-   },
-   "truncated": false
-  },
-  "Genesis 11:9": {
-   "citations": [
-    {
-     "confidence": 0.9197,
-     "context": "But I will let you hear it from the Bible itself, so it's not just me. So I'll just read you these two parts and we'll wrap up. You have Genesis 11 7. Come, let us go down and confuse their language there so that they will not understand one another's speech. Therefore, it was called Babel, because there the Lord confused the language of all the earth. And you know how this goes. Assuming this is the actual story for how we get the different races and languages and things of this nature. Think about every war, all the harm, all the slavery, all the racism, everything that has ever happened that has ever at all been based off the differences of man, even if it was just in part.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2026-07-05T14:00:16Z",
-     "role": "host",
-     "t": 1230.92,
-     "title": "God’s Favorite Weapon Is Confusion",
-     "video_id": "1mQN3dAT0KA"
-    }
-   ],
-   "creators": {
-    "mindshift": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Therefore is the name of it called Babel; because the LORD did there confound the language of all the earth: and from thence did the LORD scatter them abroad upon the face of all the earth.",
-    "WEB": "Therefore its name was called Babel, because there the LORD confused the language of all the earth. From there, the LORD scattered them abroad on the surface of all the earth."
-   },
-   "truncated": false
-  },
   "Genesis 12:12": {
    "citations": [
     {
@@ -151,15 +101,53 @@
      "t": 2445.4,
      "title": "The STDs of Abraham // Bible Study with an Ex-Pastor",
      "video_id": "TWLCWpan6cg"
+    },
+    {
+     "confidence": 0.5625,
+     "context": "Say you are my sister, that it may go well with me because of you, and that my life may be spared for your sake. Interesting. When Abram entered Egypt, the Egyptians saw that the woman was very beautiful. And when the princes of Pharaoh saw her, they praised her to Pharaoh. And the woman was taken to Pharaoh's house, and for her sake, he he dealt well with Abram, and he had sheep, oxen, male donkeys, male servants, female servants, female donkeys, and camels.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-11-28T21:09:22Z",
+     "role": "host",
+     "t": 1456.04,
+     "title": "Hagar: The Suffering Servant (Genesis 16)",
+     "video_id": "Xn2nc78Dftg"
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "darante-lamar": 1,
+    "jackie-hill-perry": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "The princes also of Pharaoh saw her, and commended her before Pharaoh: and the woman was taken into Pharaoh's house.",
     "WEB": "The princes of Pharaoh saw her, and praised her to Pharaoh; and the woman was taken into Pharaoh’s house."
+   },
+   "truncated": false
+  },
+  "Genesis 12:16": {
+   "citations": [
+    {
+     "confidence": 0.5263,
+     "context": "Interesting. When Abram entered Egypt, the Egyptians saw that the woman was very beautiful. And when the princes of Pharaoh saw her, they praised her to Pharaoh. And the woman was taken to Pharaoh's house, and for her sake, he he dealt well with Abram, and he had sheep, oxen, male donkeys, male servants, female servants, female donkeys, and camels. Let's back up. A famine happens.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-11-28T21:09:22Z",
+     "role": "host",
+     "t": 1459.64,
+     "title": "Hagar: The Suffering Servant (Genesis 16)",
+     "video_id": "Xn2nc78Dftg"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And he entreated Abram well for her sake: and he had sheep, and oxen, and he asses, and menservants, and maidservants, and she asses, and camels.",
+    "WEB": "He dealt well with Abram for her sake. He had sheep, cattle, male donkeys, male servants, female servants, female donkeys, and camels."
    },
    "truncated": false
   },
@@ -750,6 +738,43 @@
    },
    "truncated": false
   },
+  "Genesis 16:11": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "The angel of the Lord said to her, Return to your mistress and submit to her. The angel of the Lord also said to her, I will surely multiply your offspring so that they cannot be numbered for multitude. And the angel of the Lord said to her, Behold, you are pregnant, and shall bear a son. You shall call his name Ishmael, because the Lord has listened to your affliction. He shall be a wild donkey of a man, his hand against everyone, and everyone's hand against him, and he shall dwell over against all his kinsmen.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-11-28T21:09:22Z",
+     "role": "host",
+     "t": 406.12,
+     "title": "Hagar: The Suffering Servant (Genesis 16)",
+     "video_id": "Xn2nc78Dftg"
+    },
+    {
+     "confidence": 0.5,
+     "context": "Verse 10. The angel of the Lord also said to her, I will surely multiply your offspring so that they cannot be numbered for multitude. And the angel of the Lord said to her, Behold, you are pregnant and shall bear a son. You shall call his name Ishmael because the Lord has listened to your affliction. Yes. The Lord tells Hagar to go back and to submit to Sarai.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-11-28T21:09:22Z",
+     "role": "host",
+     "t": 3072.6,
+     "title": "Hagar: The Suffering Servant (Genesis 16)",
+     "video_id": "Xn2nc78Dftg"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "And the angel of the LORD said unto her, Behold, thou art with child and shalt bear a son, and shalt call his name Ishmael; because the LORD hath heard thy affliction.",
+    "WEB": "The LORD’s angel said to her, “Behold, you are with child, and will bear a son. You shall call his name Ishmael, because the LORD has heard your affliction."
+   },
+   "truncated": false
+  },
   "Genesis 16:13": {
    "citations": [
     {
@@ -772,6 +797,68 @@
    "text": {
     "KJV": "And she called the name of the LORD that spake unto her, Thou God seest me: for she said, Have I also here looked after him that seeth me?",
     "WEB": "She called the name of the LORD who spoke to her, “You are a God who sees,” for she said, “Have I even stayed alive after seeing him?”"
+   },
+   "truncated": false
+  },
+  "Genesis 16:3": {
+   "citations": [
+    {
+     "confidence": 0.6429,
+     "context": "And Sarai said to Abram, Behold, now, the Lord has prevented me from bearing children. Go into my servant. It may be that I shall obtain children by her. And Abram listened to the voice of Sarai. So after Abram had lived ten years in the land of Canaan, Sarai, Abram's wife, took Hagar the Egyptian, her servant, and gave her to Abram her husband as a wife. And he went into Hagar and she conceived. And when she saw that she had conceived, she looked with contempt on her mistress.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-11-28T21:09:22Z",
+     "role": "host",
+     "t": 334.68,
+     "title": "Hagar: The Suffering Servant (Genesis 16)",
+     "video_id": "Xn2nc78Dftg"
+    },
+    {
+     "confidence": 0.5,
+     "context": "It's the same language. Abram, Adam listened to the voice of his wife, meaning the word sin isn't in the text, but this is a textual clue that sin is in the room. Look at verse 3. So after Abram had lived 10 years in the land of Canaan, Sarai, Abram's wife, took Hagar the Egyptian, her servant, and gave her to Abram, her husband as a wife. And he went into Hagar and she conceived. We are introduced to Hagar in verses 1 and 3, and we are given a description of Hagar.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-11-28T21:09:22Z",
+     "role": "host",
+     "t": 1292.4,
+     "title": "Hagar: The Suffering Servant (Genesis 16)",
+     "video_id": "Xn2nc78Dftg"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "And Sarai Abram's wife took Hagar her maid the Egyptian, after Abram had dwelt ten years in the land of Canaan, and gave her to her husband Abram to be his wife.",
+    "WEB": "Sarai, Abram’s wife, took Hagar the Egyptian, her servant, after Abram had lived ten years in the land of Canaan, and gave her to Abram her husband to be his wife."
+   },
+   "truncated": false
+  },
+  "Genesis 16:9": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "And he said, Hagar, servant of Sarai, where have you come from? And where are you going? She said, I am fleeing from my mistress Sarai. The angel of the Lord said to her, Return to your mistress and submit to her. The angel of the Lord also said to her, I will surely multiply your offspring so that they cannot be numbered for multitude. And the angel of the Lord said to her, Behold, you are pregnant, and shall bear a son.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-11-28T21:09:22Z",
+     "role": "host",
+     "t": 394.84,
+     "title": "Hagar: The Suffering Servant (Genesis 16)",
+     "video_id": "Xn2nc78Dftg"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And the angel of the LORD said unto her, Return to thy mistress, and submit thyself under her hands.",
+    "WEB": "The LORD’s angel said to her, “Return to your mistress, and submit yourself under her hands.”"
    },
    "truncated": false
   },
@@ -1416,18 +1503,6 @@
   "Genesis 1:1": {
    "citations": [
     {
-     "confidence": 0.7943,
-     "context": "When I was a fundamentalist, I was taught to argue against evolution using a snappy comeback. See, here's the difference between you evolutionists and myself as a creationist. I believe in the beginning God, and you believe in the beginning dirt. This convinced no one I ever argued with, but it kept a teenage Drew believing that the issue was so simple that I couldn't be mistaken in what I thought was true, even though I didn't actually know much about the topic yet.",
-     "creator": "genetically-modified-skeptic",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-07-03T15:48:37Z",
-     "role": "host",
-     "t": 1937.44,
-     "title": "I Took A Gay Conversion Class for Christian Teens. It Was Awful.",
-     "video_id": "-QnyYMEy3HA"
-    },
-    {
      "confidence": 1.0,
      "context": "It just so happens it lines up this year. Now, how about our miracles possible? What's the greatest miracle in the Bible? Yeah, the greatest miracle in the Bible is not the resurrection. The greatest miracle in the Bible is the first verse. In the beginning, God created the heavens and the earth. If that verse is true, every other verse is at least possible. I mean, if it's true that God created space, time and matter out of nothing, can he do whatever he wants that's not logically impossible inside of space, time and matter?",
      "creator": "cross-examined",
@@ -1450,6 +1525,18 @@
      "t": 2213.6,
      "title": "'Change My Mind' LIVE Q&A from Ole Miss (Oxford, MS)",
      "video_id": "2FBZ3gpea7I"
+    },
+    {
+     "confidence": 1.0,
+     "context": "Number one, then the origin of the universe. One of the main doctrines of the Christian faith is that God created the universe out of nothing a finite time ago. The Bible begins with the words, in the beginning, God created the heavens and the earth. The Bible thus teaches that the universe had a beginning. This doctrine was repudiated both by ancient Greek philosophy as well as modern atheism.",
+     "creator": "drcraigvideos",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-04-18T21:39:54Z",
+     "role": "host",
+     "t": 20.72,
+     "title": "The Origin of the Universe Brings Physicist Back to God!",
+     "video_id": "4hmJLyyyKMA"
     },
     {
      "confidence": 1.0,
@@ -1632,6 +1719,18 @@
      "video_id": "QfPj1Boad_Q"
     },
     {
+     "confidence": 1.0,
+     "context": "One of the main doctrines of the Christian faith is that God created the universe out of nothing a finite time ago. The Bible begins with the words, in the beginning, God created the heavens and the earth. The Bible thus teaches that the universe had a beginning. This doctrine was repudiated both by ancient Greek philosophy as well as modern atheism.",
+     "creator": "drcraigvideos",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-04-22T17:17:28Z",
+     "role": "host",
+     "t": 9.76,
+     "title": "Science Confirms Genesis 1:1! #Shorts",
+     "video_id": "RVps8i-XHP4"
+    },
+    {
      "confidence": 0.7143,
      "context": "In Hebrew, they did not have a word for the universe. When the ancient Jew wanted to speak of everything there is, he would say the heavens and the earth. So Genesis 1 1 is about the creation of the universe. In the beginning, God created the universe. And it's only beginning with verse 2 that the focus dramatically narrows to the earth.",
      "creator": "drcraigvideos",
@@ -1642,6 +1741,18 @@
      "t": 5.84,
      "title": "How Does the Bible Begin? #Shorts",
      "video_id": "TchNf3UbtVA"
+    },
+    {
+     "confidence": 0.5714,
+     "context": "Sarai doesn't say God Elohim prevented me from bearing children, which would have been true. God as God means that He is the source. Genesis 1 1. In the beginning, God Elohim created the heavens and the earth, but that's not the word she uses. She says, the Lord prevented me from bearing children, which is the covenantal name of God that we just got done singing, Yahweh. In Exodus 33, Moses asked God to see his glory.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-11-28T21:09:22Z",
+     "role": "host",
+     "t": 838.52,
+     "title": "Hagar: The Suffering Servant (Genesis 16)",
+     "video_id": "Xn2nc78Dftg"
     },
     {
      "confidence": 1.0,
@@ -1704,6 +1815,30 @@
      "video_id": "c7sa6okbO6E"
     },
     {
+     "confidence": 1.0,
+     "context": "And what she meant by that is that the words have the power to create things, people, experiences, art, etc. Her intention wasn't to appeal to the Christian worldview as the source of her claim, but I will, because when I open up my Bible, on the first page, I am told that in the beginning, God created the heavens and the earth, and that it didn't use his hands as if he had them.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2021-09-09T16:15:49Z",
+     "role": "host",
+     "t": 60.16,
+     "title": "Watch Your Mouth (James 3:1-12)",
+     "video_id": "hBFg6ijZspA"
+    },
+    {
+     "confidence": 1.0,
+     "context": "Now, these worldviews or perspectives, I think are both antithetical to theism, which is taught in the Judeo Christian tradition. We saw that the Bible begins with the words, in the beginning, God created the heavens and the earth. For God to create the material universe out of himself, he would himself have to be material.",
+     "creator": "drcraigvideos",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-05-17T18:00:31Z",
+     "role": "host",
+     "t": 137.56,
+     "title": "Pantheism, Panentheism, & the God of the Hebrew Bible!",
+     "video_id": "jp_8tRIFQbU"
+    },
+    {
      "confidence": 0.5714,
      "context": "I loved it so much that I used it in a few sermons. And I think the movie that that was from EZA, that's what that was. Okay, so back to regularly scheduled programming. Many of the answers uh that that I didn't have before. So even uh before, when I was a believer and I believed that God created the heavens and the earth, there was no account in scripture that talks about how God created the heavens. And so even if I believe that the heavens were to be translated to mean the entire universe, which it would be hard for me to take that uh meaning because it'd be very weird to say, you know, God created the entire universe and the earth as opposed to God created the entire universe and several earths or several planets or several rocky balls of fire, whatever.",
      "creator": "darante-lamar",
@@ -1726,6 +1861,30 @@
      "t": 86.0,
      "title": "Does Science Prove The Existence Of God?",
      "video_id": "ll3HczLfDq4"
+    },
+    {
+     "confidence": null,
+     "context": "I think that Genesis 1:1 uh implies logically creatio ex nihilo, that is to say, the doctrine that God created the universe, but not out of any kind of material uh substratum.",
+     "creator": "drcraigvideos",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-06-24T20:00:15Z",
+     "role": "host",
+     "t": 23.2,
+     "title": "Creation From Nothing & Scientific Confirmation of the Biblical Creation Narrative!",
+     "video_id": "mcKjmcHPnDo"
+    },
+    {
+     "confidence": 1.0,
+     "context": "Uh, the initial verse of Genesis says, in the beginning, God created the heavens and the earth. And the word there, baraf or created, is a word that has only God as its subject and does not require any sort of material substratum.",
+     "creator": "drcraigvideos",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-06-24T20:00:15Z",
+     "role": "host",
+     "t": 39.28,
+     "title": "Creation From Nothing & Scientific Confirmation of the Biblical Creation Narrative!",
+     "video_id": "mcKjmcHPnDo"
     },
     {
      "confidence": 1.0,
@@ -1768,14 +1927,13 @@
     "capturing-christianity": 1,
     "cross-examined": 6,
     "darante-lamar": 12,
-    "drcraigvideos": 3,
-    "genetically-modified-skeptic": 1,
-    "jackie-hill-perry": 1,
+    "drcraigvideos": 8,
+    "jackie-hill-perry": 3,
     "jude-3-project": 3,
     "mike-winger": 1,
     "paulogia": 1
    },
-   "n": 29,
+   "n": 35,
    "text": {
     "KJV": "In the beginning God created the heaven and the earth.",
     "WEB": "In the beginning, God created the heavens and the earth."
@@ -1882,24 +2040,12 @@
      "t": 2557.04,
      "title": "I Took A Gay Conversion Class for Christian Teens. It Was Awful.",
      "video_id": "-QnyYMEy3HA"
-    },
-    {
-     "confidence": 0.7244,
-     "context": "And so you have to try and prayerfully see if you can help them address that. And approve of them as a person because they're made in the image of God and valuable just like anybody else. Christ died for everyone. So just because you may disagree on their behavior and what they're doing doesn't mean you can't love them.",
-     "creator": "genetically-modified-skeptic",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-03-13T14:54:46Z",
-     "role": "unknown",
-     "t": 764.04,
-     "title": "Calmly Destroying Christian Apologists with Science for an Hour",
-     "video_id": "22W7I3yV-NY"
     }
    ],
    "creators": {
-    "genetically-modified-skeptic": 2
+    "genetically-modified-skeptic": 1
    },
-   "n": 2,
+   "n": 1,
    "text": {
     "KJV": "So God created man in his own image, in the image of God created he him; male and female created he them.",
     "WEB": "God created man in his own image. In God’s image he created him; male and female he created them."
@@ -2419,6 +2565,43 @@
    },
    "truncated": false
   },
+  "Genesis 21:1": {
+   "citations": [
+    {
+     "confidence": 0.8667,
+     "context": "Is there anything too hard for the Lord? In Genesis 21, verses 1 through 7, the impossible happens. Text says, The Lord visited Sarah. You ever thought about birth like that? The Lord visited Sarah as he had said. And the Lord did to Sarah as he had promised.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 1101.36,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
+    },
+    {
+     "confidence": 0.6,
+     "context": "Abraham called the name of his son who was born to him, whom Sarah bore him Isaac, which means laughter. I love this verse. The Lord visited Sarah as he had said. The Lord did to Sarah as he had promised. God is not a liar. So we needed some context. By establishing this, I think we see a few things.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 1132.4,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "And the LORD visited Sarah as he had said, and the LORD did unto Sarah as he had spoken.",
+    "WEB": "The LORD visited Sarah as he had said, and the LORD did to Sarah as he had spoken."
+   },
+   "truncated": false
+  },
   "Genesis 21:19": {
    "citations": [
     {
@@ -2444,6 +2627,31 @@
    },
    "truncated": false
   },
+  "Genesis 21:2": {
+   "citations": [
+    {
+     "confidence": 0.7895,
+     "context": "You ever thought about birth like that? The Lord visited Sarah as he had said. And the Lord did to Sarah as he had promised. And Sarah conceived and bore Abraham a son in his old age at the time of which God had spoken to him. Abraham called the name of his son who was born to him, whom Sarah bore him Isaac, which means laughter. I love this verse.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 1117.04,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For Sarah conceived, and bare Abraham a son in his old age, at the set time of which God had spoken to him.",
+    "WEB": "Sarah conceived, and bore Abraham a son in his old age, at the set time of which God had spoken to him."
+   },
+   "truncated": false
+  },
   "Genesis 21:22": {
    "citations": [
     {
@@ -2466,6 +2674,31 @@
    "text": {
     "KJV": "And it came to pass at that time, that Abimelech and Phichol the chief captain of his host spake unto Abraham, saying, God is with thee in all that thou doest:",
     "WEB": "At that time, Abimelech and Phicol the captain of his army spoke to Abraham, saying, “God is with you in all that you do."
+   },
+   "truncated": false
+  },
+  "Genesis 21:3": {
+   "citations": [
+    {
+     "confidence": 0.5833,
+     "context": "And the Lord did to Sarah as he had promised. And Sarah conceived and bore Abraham a son in his old age at the time of which God had spoken to him. Abraham called the name of his son who was born to him, whom Sarah bore him Isaac, which means laughter. I love this verse. The Lord visited Sarah as he had said. The Lord did to Sarah as he had promised.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 1124.24,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And Abraham called the name of his son that was born unto him, whom Sarah bare to him, Isaac.",
+    "WEB": "Abraham called his son who was born to him, whom Sarah bore to him, Isaac."
    },
    "truncated": false
   },
@@ -2557,15 +2790,65 @@
      "t": 432.92,
      "title": "The Children Deserve Better Than This // Bible Study w/ an Ex Pastor",
      "video_id": "SZxQ8ajCBgY"
+    },
+    {
+     "confidence": 0.7692,
+     "context": "After these things, God tested Abraham and said to him, Abraham, and he said, Here I am. He said, Take your son, your only son Isaac, whom you love, and go to the land of Moriah and offer him there as a burnt offering on one of the mountains of which I shall tell you.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 282.96,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
+    },
+    {
+     "confidence": 0.7692,
+     "context": "And that God will do this through his seed, Isaac. Say amen if you got it. Now, with that in mind, when we get to Genesis 22, having that as a context, the first two verses should be shocking. It says, after these things, God tested Abraham and said to him, Abraham, and he said, Here I am. He said, Take your son, your only son Isaac, whom you love, and go to the land of Moriah and offer him there as a burnt offering on one of the mountains of which I shall tell you.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 1177.64,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "darante-lamar": 1,
+    "jackie-hill-perry": 2
    },
-   "n": 1,
+   "n": 3,
    "text": {
     "KJV": "And it came to pass after these things, that God did tempt Abraham, and said unto him, Abraham: and he said, Behold, here I am.",
     "WEB": "After these things, God tested Abraham, and said to him, “Abraham!” He said, “Here I am.”"
+   },
+   "truncated": false
+  },
+  "Genesis 22:10": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "So they went both of them together. When they came to the place of which God had told him, Abraham built the altar there and laid the wood in order and bound Isaac his son and laid him on the altar on top of the wood. Then Abraham reached out his hand and took the knife to slaughter his son. But the angel of the Lord called to him from heaven and said, Abraham, Abraham, and he said, Here I am. He said, Do not lay your hand on the boy or do anything to him, for now I know that you fear God, seeing you have not withheld your son, your only son, from me.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 366.44,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And Abraham stretched forth his hand, and took the knife to slay his son.",
+    "WEB": "Abraham stretched out his hand, and took the knife to kill his son."
    },
    "truncated": false
   },
@@ -2582,15 +2865,114 @@
      "t": 1631.16,
      "title": "The Children Deserve Better Than This // Bible Study w/ an Ex Pastor",
      "video_id": "SZxQ8ajCBgY"
+    },
+    {
+     "confidence": 0.7742,
+     "context": "Then Abraham reached out his hand and took the knife to slaughter his son. But the angel of the Lord called to him from heaven and said, Abraham, Abraham, and he said, Here I am. He said, Do not lay your hand on the boy or do anything to him, for now I know that you fear God, seeing you have not withheld your son, your only son, from me. And Abraham lifted up his eyes and looked, and behold, behind him was a ram, caught in a thicket by his horns.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 378.04,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
+    },
+    {
+     "confidence": 0.7742,
+     "context": "And then out of nowhere, he hears his name. Verse 11. Abraham. Abraham. And he said, Here I am. He said, Do not lay your hand on the boy or do anything to him, for now I know that you fear God. Seeing you have not withheld your son, your only son from me. If there was any doubt who Abraham's God was, this moment made it clear.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 2381.04,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "darante-lamar": 1,
+    "jackie-hill-perry": 2
    },
-   "n": 1,
+   "n": 3,
    "text": {
     "KJV": "And he said, Lay not thine hand upon the lad, neither do thou any thing unto him: for now I know that thou fearest God, seeing thou hast not withheld thy son, thine only son from me.",
     "WEB": "He said, “Don’t lay your hand on the boy or do anything to him. For now I know that you fear God, since you have not withheld your son, your only son, from me.”"
+   },
+   "truncated": false
+  },
+  "Genesis 22:13": {
+   "citations": [
+    {
+     "confidence": 0.6154,
+     "context": "He said, Do not lay your hand on the boy or do anything to him, for now I know that you fear God, seeing you have not withheld your son, your only son, from me. And Abraham lifted up his eyes and looked, and behold, behind him was a ram, caught in a thicket by his horns. And Abraham went and took the ram and offered it up as a burnt offering instead of his son. So Abraham called the name of that place, Jehovah Jirah, the Lord will provide.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 389.48,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
+    },
+    {
+     "confidence": 0.6154,
+     "context": "Verse 13. And Abraham lifted up his eyes and looked, and behold, behind him was a ram caught in a thicket by his horns. And Abraham went and took the ram and offered it up as a burnt offering instead of his son.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 2539.28,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "And Abraham lifted up his eyes, and looked, and behold behind him a ram caught in a thicket by his horns: and Abraham went and took the ram, and offered him up for a burnt offering in the stead of his son.",
+    "WEB": "Abraham lifted up his eyes, and looked, and saw that behind him was a ram caught in the thicket by his horns. Abraham went and took the ram, and offered him up for a burnt offering instead of his son."
+   },
+   "truncated": false
+  },
+  "Genesis 22:14": {
+   "citations": [
+    {
+     "confidence": 0.6087,
+     "context": "And Abraham lifted up his eyes and looked, and behold, behind him was a ram, caught in a thicket by his horns. And Abraham went and took the ram and offered it up as a burnt offering instead of his son. So Abraham called the name of that place, Jehovah Jirah, the Lord will provide. As it is said to this day, on the mount of the Lord, it shall be provided. Lord, we thank you for this Bible. This God breathed word, this inspired text that is, that is profitable, that is, that is useful, that has the power to equip, that has the power to break things, that has the power to renew our minds, that has the grace to give us to love our neighbor and to enjoy our lives and to submit our bodies as a living sacrifice, holy and acceptable unto you.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 403.56,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
+    },
+    {
+     "confidence": 0.7391,
+     "context": "And Abraham went and took the ram and offered it up as a burnt offering instead of his son. So Abraham called the name of that place, the Lord will provide, as it is said to this day, on the mount of the Lord, it shall be provided. This moment right here is an act of what we call substitutionary atonement.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 2555.2,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "And Abraham called the name of that place Jehovahjireh: as it is said to this day, In the mount of the LORD it shall be seen.",
+    "WEB": "Abraham called the name of that place “The LORD Will Provide”. As it is said to this day, “On the LORD’s mountain, it will be provided.”"
    },
    "truncated": false
   },
@@ -2619,6 +3001,43 @@
    },
    "truncated": false
   },
+  "Genesis 22:2": {
+   "citations": [
+    {
+     "confidence": 0.5429,
+     "context": "After these things, God tested Abraham and said to him, Abraham, and he said, Here I am. He said, Take your son, your only son Isaac, whom you love, and go to the land of Moriah and offer him there as a burnt offering on one of the mountains of which I shall tell you. So Abraham rose early in the morning, saddled his donkey, and took two of his young men with him and his son Isaac.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 291.84,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
+    },
+    {
+     "confidence": 0.5429,
+     "context": "It says, after these things, God tested Abraham and said to him, Abraham, and he said, Here I am. He said, Take your son, your only son Isaac, whom you love, and go to the land of Moriah and offer him there as a burnt offering on one of the mountains of which I shall tell you. If you're like me, the first time I read this passage, I was troubled.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 1192.04,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "And he said, Take now thy son, thine only son Isaac, whom thou lovest, and get thee into the land of Moriah; and offer him there for a burnt offering upon one of the mountains which I will tell thee of.",
+    "WEB": "He said, “Now take your son, your only son, Isaac, whom you love, and go into the land of Moriah. Offer him there as a burnt offering on one of the mountains which I will tell you of.”"
+   },
+   "truncated": false
+  },
   "Genesis 22:3": {
    "citations": [
     {
@@ -2632,15 +3051,189 @@
      "t": 1054.36,
      "title": "The Children Deserve Better Than This // Bible Study w/ an Ex Pastor",
      "video_id": "SZxQ8ajCBgY"
+    },
+    {
+     "confidence": 0.5952,
+     "context": "He said, Take your son, your only son Isaac, whom you love, and go to the land of Moriah and offer him there as a burnt offering on one of the mountains of which I shall tell you. So Abraham rose early in the morning, saddled his donkey, and took two of his young men with him and his son Isaac. And he cut the wood for the burnt offering and arose and went to the place of which God had told him. On the third day, Abraham lifted up his eyes and saw the place from afar.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 302.72,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
+    },
+    {
+     "confidence": 0.5952,
+     "context": "It's because he's been practicing. Verse 3 Abraham rose early in the morning, saddled his donkey, and took two of his young men with him and his son Isaac. And he cut the wood for the burnt offering and arose and went to the place of which God had told him. Abraham obeyed immediately.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 1571.68,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "darante-lamar": 1,
+    "jackie-hill-perry": 2
    },
-   "n": 1,
+   "n": 3,
    "text": {
     "KJV": "And Abraham rose up early in the morning, and saddled his ass, and took two of his young men with him, and Isaac his son, and clave the wood for the burnt offering, and rose up, and went unto the place of which God had told him.",
     "WEB": "Abraham rose early in the morning, and saddled his donkey; and took two of his young men with him, and Isaac his son. He split the wood for the burnt offering, and rose up, and went to the place of which God had told him."
+   },
+   "truncated": false
+  },
+  "Genesis 22:4": {
+   "citations": [
+    {
+     "confidence": 0.8333,
+     "context": "So Abraham rose early in the morning, saddled his donkey, and took two of his young men with him and his son Isaac. And he cut the wood for the burnt offering and arose and went to the place of which God had told him. On the third day, Abraham lifted up his eyes and saw the place from afar. Then Abraham said to his young men, Stay here with the donkey. I and the boy will go over there and worship and come again to you. And Abraham took the wood of the burnt offering and laid it on Isaac his son.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 315.04,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
+    },
+    {
+     "confidence": 0.8333,
+     "context": "That he would sacrifice his son on him, went to the place that God told him to go. Then in verse 5 and 6, you finally get an idea of what's actually happening in Abraham's mind and how faith is influencing him. Look at it. It says, On the third day, Abraham lifted up his eyes and saw the place from afar. Then Abraham said to his young men, stay here with the donkey, I and the boy will go over there and worship and come again to you.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 1691.24,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "Then on the third day Abraham lifted up his eyes, and saw the place afar off.",
+    "WEB": "On the third day Abraham lifted up his eyes, and saw the place far off."
+   },
+   "truncated": false
+  },
+  "Genesis 22:6": {
+   "citations": [
+    {
+     "confidence": 0.7308,
+     "context": "On the third day, Abraham lifted up his eyes and saw the place from afar. Then Abraham said to his young men, Stay here with the donkey. I and the boy will go over there and worship and come again to you. And Abraham took the wood of the burnt offering and laid it on Isaac his son. And he took in his hand the fire and the knife. So they went both of them together. And Isaac said to his father, Abraham, my father. And he said, Here I am, my son.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 327.12,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
+    },
+    {
+     "confidence": 0.6154,
+     "context": "Because Abraham has faith in his God, he is more than willing to sacrifice his son. Verse 6. And Abraham took the wood of the burnt offering and laid it on Isaac, his son. And he took in his hand the fire in the knife. So they both went, or they went both of them together. And Isaac said to his father, Abraham, my father.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 2096.2,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "And Abraham took the wood of the burnt offering, and laid it upon Isaac his son; and he took the fire in his hand, and a knife; and they went both of them together.",
+    "WEB": "Abraham took the wood of the burnt offering and laid it on Isaac his son. He took in his hand the fire and the knife. They both went together."
+   },
+   "truncated": false
+  },
+  "Genesis 22:7": {
+   "citations": [
+    {
+     "confidence": 0.5312,
+     "context": "Then Abraham said to his young men, Stay here with the donkey. I and the boy will go over there and worship and come again to you. And Abraham took the wood of the burnt offering and laid it on Isaac his son. And he took in his hand the fire and the knife. So they went both of them together. And Isaac said to his father, Abraham, my father. And he said, Here I am, my son. He said, Behold the fire and the wood, but where is the lamb for a burnt offering?",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 331.08,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And Isaac spake unto Abraham his father, and said, My father: and he said, Here am I, my son. And he said, Behold the fire and the wood: but where is the lamb for a burnt offering?",
+    "WEB": "Isaac spoke to Abraham his father, and said, “My father?” He said, “Here I am, my son.” He said, “Here is the fire and the wood, but where is the lamb for a burnt offering?”"
+   },
+   "truncated": false
+  },
+  "Genesis 22:8": {
+   "citations": [
+    {
+     "confidence": 0.625,
+     "context": "And he took in his hand the fire and the knife. So they went both of them together. And Isaac said to his father, Abraham, my father. And he said, Here I am, my son. He said, Behold the fire and the wood, but where is the lamb for a burnt offering? Abraham said, God will provide for himself the lamb for a burnt offering, my son. So they went both of them together. When they came to the place of which God had told him, Abraham built the altar there and laid the wood in order and bound Isaac his son and laid him on the altar on top of the wood.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 342.76,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And Abraham said, My son, God will provide himself a lamb for a burnt offering: so they went both of them together.",
+    "WEB": "Abraham said, “God will provide himself the lamb for a burnt offering, my son.” So they both went together."
+   },
+   "truncated": false
+  },
+  "Genesis 22:9": {
+   "citations": [
+    {
+     "confidence": 0.625,
+     "context": "He said, Behold the fire and the wood, but where is the lamb for a burnt offering? Abraham said, God will provide for himself the lamb for a burnt offering, my son. So they went both of them together. When they came to the place of which God had told him, Abraham built the altar there and laid the wood in order and bound Isaac his son and laid him on the altar on top of the wood. Then Abraham reached out his hand and took the knife to slaughter his son. But the angel of the Lord called to him from heaven and said, Abraham, Abraham, and he said, Here I am.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-01T16:14:41Z",
+     "role": "host",
+     "t": 357.64,
+     "title": "Abraham & Issac: The test and the sacrifice of love (Glory Conference)",
+     "video_id": "z9SI3KybN4s"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And they came to the place which God had told him of; and Abraham built an altar there, and laid the wood in order, and bound Isaac his son, and laid him on the altar upon the wood.",
+    "WEB": "They came to the place which God had told him of. Abraham built the altar there, and laid the wood in order, bound Isaac his son, and laid him on the altar, on the wood."
    },
    "truncated": false
   },
@@ -3080,56 +3673,6 @@
    },
    "truncated": false
   },
-  "Genesis 25:1": {
-   "citations": [
-    {
-     "confidence": 0.9457,
-     "context": "Um, I guess the whole old testament is kind of Abraham's family, right? Right, isn't that how it's supposed to be? Um, but so Genesis chapter 25, verse 1. This starts with Abraham's death. Now, well, or this section is called Abraham's death here. Um, so now Abraham took another wife whose name was Keturah, which I actually knew a young lady named Keturah. Well, I call her a young lady, she was older than me. Um, but she bore to him Zimron, Juksem, Midon, Midian, Ishbok, and Shua.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 177.4,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Then again Abraham took a wife, and her name was Keturah.",
-    "WEB": "Abraham took another wife, and her name was Keturah."
-   },
-   "truncated": false
-  },
-  "Genesis 25:10": {
-   "citations": [
-    {
-     "confidence": 0.9256,
-     "context": "Um, that reminds me of a Barney song. I don't know why. Maybe I'll remember it. Um, so and they buried him in the cave, you know. There's that cave thing. The field which Abraham purchased from the sons of Heth, there Abraham was buried with his wife Sarah. Yep. That was the um the field that he got that steep discount off of by pretending to be broke when he was rich. You know, Abraham, say he's not a good guy. Like, he's not a good guy.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 794.44,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "The field which Abraham purchased of the sons of Heth: there was Abraham buried, and Sarah his wife.",
-    "WEB": "the field which Abraham purchased from the children of Heth. Abraham was buried there with Sarah, his wife."
-   },
-   "truncated": false
-  },
   "Genesis 25:11": {
    "citations": [
     {
@@ -3192,31 +3735,6 @@
    },
    "truncated": false
   },
-  "Genesis 25:13": {
-   "citations": [
-    {
-     "confidence": 0.9165,
-     "context": "They were fully related. Ooh, I can't wait to watch that, by the way. Alright, so Dunem Dunim. Alright, and these are the names of the sons of Ishmael by their names in order of their birth. Nabooth, the firstborn of Ishmael, Kidar. That is a that is a place name. How do you know that's a place name? Because later on in the book of Solomon, I believe, uh, in the songs of Solomon, I believe, there is a moment where they reference the tense of Kidar.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 913.92,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And these are the names of the sons of Ishmael, by their names, according to their generations: the firstborn of Ishmael, Nebajoth; and Kedar, and Adbeel, and Mibsam,",
-    "WEB": "These are the names of the sons of Ishmael, by their names, according to the order of their birth: the firstborn of Ishmael, Nebaioth, then Kedar, Adbeel, Mibsam,"
-   },
-   "truncated": false
-  },
   "Genesis 25:16": {
    "citations": [
     {
@@ -3239,81 +3757,6 @@
    "text": {
     "KJV": "These are the sons of Ishmael, and these are their names, by their towns, and by their castles; twelve princes according to their nations.",
     "WEB": "These are the sons of Ishmael, and these are their names, by their villages, and by their encampments: twelve princes, according to their nations."
-   },
-   "truncated": false
-  },
-  "Genesis 25:17": {
-   "citations": [
-    {
-     "confidence": 0.936,
-     "context": "But you know, like that's fiction. Like, yikes, how do we not? How did we not see that? Like, no, nothing who has exactly 12 friends. Come on now. All right, so these are the sons of Ishmael, yeah. These are the years of the life of Ishmael, 137 years, yeah, and he breathed his last and died. Thankfully, it's about time, right? I like I feel like everybody over there just breathed, like, yes, the psychopath is gone.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 1003.96,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And these are the years of the life of Ishmael, an hundred and thirty and seven years: and he gave up the ghost and died; and was gathered unto his people.",
-    "WEB": "These are the years of the life of Ishmael: one hundred thirty-seven years. He gave up his spirit and died, and was gathered to his people."
-   },
-   "truncated": false
-  },
-  "Genesis 25:21": {
-   "citations": [
-    {
-     "confidence": 0.9255,
-     "context": "You see how they word that? Like, what? Just took her, huh? Took Rebecca, the daughter of Bethleel, the the Aramean of Padon Aram, the sister of Laban. Man, they give me a lot of information. Isaac prayed to the Lord on behalf of his wife because she was unable to have children, and the Lord answered him, and his wife Rebecca conceived. But the children struggled together with her, and she said, If it is so, why am I in this condition? So she went to inquire of the Lord, and the Lord said to her, Two nations are in your womb, and two people will be separated from your body, and one people will be stronger than the other, and the older will serve the younger.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 1239.72,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And Isaac entreated the LORD for his wife, because she was barren: and the LORD was entreated of him, and Rebekah his wife conceived.",
-    "WEB": "Isaac entreated the LORD for his wife, because she was barren. The LORD was entreated by him, and Rebekah his wife conceived."
-   },
-   "truncated": false
-  },
-  "Genesis 25:22": {
-   "citations": [
-    {
-     "confidence": 0.9407,
-     "context": "Man, they give me a lot of information. Isaac prayed to the Lord on behalf of his wife because she was unable to have children, and the Lord answered him, and his wife Rebecca conceived. But the children struggled together with her, and she said, If it is so, why am I in this condition? So she went to inquire of the Lord, and the Lord said to her, Two nations are in your womb, and two people will be separated from your body, and one people will be stronger than the other, and the older will serve the younger.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 1246.84,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And the children struggled together within her; and she said, If it be so, why am I thus? And she went to inquire of the LORD.",
-    "WEB": "The children struggled together within her. She said, “If it is like this, why do I live?” She went to inquire of the LORD."
    },
    "truncated": false
   },
@@ -3342,31 +3785,6 @@
    },
    "truncated": false
   },
-  "Genesis 25:24": {
-   "citations": [
-    {
-     "confidence": 0.943,
-     "context": "Because that is, that is one of one of the one of the potential side effects of close incest, infertility. Okay. Hmm. Yeah, yeah. It's very very interesting. Alright, so so when her day, when her days leading to the delivery were at an end, behold, there were twins in her womb. I bet you she was so relieved. It's just two. Okay, it's just two people, not two nations. So you ain't got to pull nobody else out of there.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 1480.36,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And when her days to be delivered were fulfilled, behold, there were twins in her womb.",
-    "WEB": "When her days to be delivered were fulfilled, behold, there were twins in her womb."
-   },
-   "truncated": false
-  },
   "Genesis 25:25": {
    "citations": [
     {
@@ -3389,56 +3807,6 @@
    "text": {
     "KJV": "And the first came out red, all over like an hairy garment; and they called his name Esau.",
     "WEB": "The first came out red all over, like a hairy garment. They named him Esau."
-   },
-   "truncated": false
-  },
-  "Genesis 25:26": {
-   "citations": [
-    {
-     "confidence": 0.9739,
-     "context": "I don't know this dude. Right? Just want to make that clear. I don't know the man. Quoting Peter there, for those of you who caught it. Alright. So afterward, his brother came out with his hand holding on to Esau's heels, so he was named Jacob, and Isaac was 60 years old when he gave birth to them. Wow. I'm not trying to be an ageist, but I did grow up in a in a in a small city where I've seen what happens when old men have kids.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 1634.36,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And after that came his brother out, and his hand took hold on Esau's heel; and his name was called Jacob: and Isaac was threescore years old when she bare them.",
-    "WEB": "After that, his brother came out, and his hand had hold on Esau’s heel. He was named Jacob. Isaac was sixty years old when she bore them."
-   },
-   "truncated": false
-  },
-  "Genesis 25:27": {
-   "citations": [
-    {
-     "confidence": 0.9193,
-     "context": "And it's probably why Jacob had hip problems so early. You know. So when the boys grew up, Esau became a skillful hunter, a man of the field, but Jacob was a civilized man living in tents. What? That can't be what that word says. Like, wait a minute.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 1675.56,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And the boys grew: and Esau was a cunning hunter, a man of the field; and Jacob was a plain man, dwelling in tents.",
-    "WEB": "The boys grew. Esau was a skillful hunter, a man of the field. Jacob was a quiet man, living in tents."
    },
    "truncated": false
   },
@@ -3467,56 +3835,6 @@
    },
    "truncated": false
   },
-  "Genesis 25:3": {
-   "citations": [
-    {
-     "confidence": 0.9241,
-     "context": "Well, I call her a young lady, she was older than me. Um, but she bore to him Zimron, Juksem, Midon, Midian, Ishbok, and Shua. Jokshin fathered Sheba in Daan, and the sons of Dedan were Ashuram, Letishim, and Lwimim. The sons of Nidion were Ephaf, Efer, which that that that that name is repeated quite a bit.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "unattributed",
-     "t": 193.32,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And Jokshan begat Sheba, and Dedan. And the sons of Dedan were Asshurim, and Letushim, and Leummim.",
-    "WEB": "Jokshan became the father of Sheba, and Dedan. The sons of Dedan were Asshurim, Letushim, and Leummim."
-   },
-   "truncated": false
-  },
-  "Genesis 25:30": {
-   "citations": [
-    {
-     "confidence": 0.9585,
-     "context": "Okay. Okay. We already see signs of these two people not being great parents. You know. When Jacob had cooked the stew one day, Eesop came in from the field and he was exhausted. And Esau said to Jacob, please let me have a mouthful of that red stuff there, for I am exhausted. Therefore, he was called Edom by name. That's where the Edomites are very important to the Hebrew Israelites for whatever reason.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 1889.16,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And Esau said to Jacob, Feed me, I pray thee, with that same red pottage; for I am faint: therefore was his name called Edom.",
-    "WEB": "Esau said to Jacob, “Please feed me with some of that red stew, for I am famished.” Therefore his name was called Edom."
-   },
-   "truncated": false
-  },
   "Genesis 25:31": {
    "citations": [
     {
@@ -3539,31 +3857,6 @@
    "text": {
     "KJV": "And Jacob said, Sell me this day thy birthright.",
     "WEB": "Jacob said, “First, sell me your birthright.”"
-   },
-   "truncated": false
-  },
-  "Genesis 25:34": {
-   "citations": [
-    {
-     "confidence": 0.975,
-     "context": "Boy, god dang. And Jacob said, first swear to me. So he swore an oath to him and sold his birthright to Jacob. Then Jacob gave Esau bread and lentil stew, and he ate and drank and got up and went on his way. So Esau despised his birthright. Now, I did just see something in that based off of some narratives that were very popular when I was young.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 2056.679,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Then Jacob gave Esau bread and pottage of lentils; and he did eat and drink, and rose up, and went his way: thus Esau despised his birthright.",
-    "WEB": "Jacob gave Esau bread and lentil stew. He ate and drank, rose up, and went his way. So Esau despised his birthright."
    },
    "truncated": false
   },
@@ -3604,106 +3897,6 @@
    },
    "truncated": false
   },
-  "Genesis 25:6": {
-   "citations": [
-    {
-     "confidence": 0.9799,
-     "context": "Ephra is uh Hanok, Abidah, and Elda. All of these were the sons of Keturah. Now, Abraham gave all that he had to Isaac, but to the sons of his concubines, Abraham gave gifts while he was still living and sent them away from his son Isaac eastward to the land of the east.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 220.28,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "But unto the sons of the concubines, which Abraham had, Abraham gave gifts, and sent them away from Isaac his son, while he yet lived, eastward, unto the east country.",
-    "WEB": "but Abraham gave gifts to the sons of Abraham’s concubines. While he still lived, he sent them away from Isaac his son, eastward, to the east country."
-   },
-   "truncated": false
-  },
-  "Genesis 25:8": {
-   "citations": [
-    {
-     "confidence": 0.9495,
-     "context": "And that was really what he was trying to get. Abraham was out here just trying to get concubines. Like much other than men of his time. He was just trying to get booty. Alright, so these are all the years of Abraham's life that he lived. 175 years. Abraham breathed his last and died at a good old age, an old man and satisfied with life, and he was gathered to his people. I bet he was satisfied, sick son of a bitch. I bet he was. Yeah, I'm not a fan of Abraham.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 699.2,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Then Abraham gave up the ghost, and died in a good old age, an old man, and full of years; and was gathered to his people.",
-    "WEB": "Abraham gave up his spirit, and died at a good old age, an old man, and full of years, and was gathered to his people."
-   },
-   "truncated": false
-  },
-  "Genesis 25:9": {
-   "citations": [
-    {
-     "confidence": 0.9471,
-     "context": "Yeah, I'm not a fan of Abraham. I I am not a fan of Abraham. I don't like the way he treats his kids. I don't like the way he treats his women. I don't like the way he treats strangers. Like, this is not a good guy. Like, what? Um, so then his sons Isaac and Ishmael buried him in the cave of Macfelah in the field of Ephraim, the son of Zohar, the Hittite facing Mamre. And so I'm guessing, because we all saw when he sent uh when he sent Ishmael away.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 726.32,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And his sons Isaac and Ishmael buried him in the cave of Machpelah, in the field of Ephron the son of Zohar the Hittite, which is before Mamre;",
-    "WEB": "Isaac and Ishmael, his sons, buried him in the cave of Machpelah, in the field of Ephron, the son of Zohar the Hittite, which is near Mamre,"
-   },
-   "truncated": false
-  },
-  "Genesis 26:1": {
-   "citations": [
-    {
-     "confidence": 0.957,
-     "context": "I know. I know. Now let me stop. All right, let's go to the next chapter. Isaac settles in Gerar. Oh man. Okay, and I okay, so let's let's jump. Now there was a famine in the land besides the previous famine that had occurred in the days of Abraham. So Isaac went to Gerard to Abimelech, king of the Philistines. Alright. I want to point this out. There's a famine in the land. And it besides the previous famine in the land.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 2372.72,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And there was a famine in the land, beside the first famine that was in the days of Abraham. And Isaac went unto Abimelech king of the Philistines unto Gerar.",
-    "WEB": "There was a famine in the land, in addition to the first famine that was in the days of Abraham. Isaac went to Abimelech king of the Philistines, to Gerar."
-   },
-   "truncated": false
-  },
   "Genesis 26:10": {
    "citations": [
     {
@@ -3726,31 +3919,6 @@
    "text": {
     "KJV": "And Abimelech said, What is this thou hast done unto us? one of the people might lightly have lien with thy wife, and thou shouldest have brought guiltiness upon us.",
     "WEB": "Abimelech said, “What is this you have done to us? One of the people might easily have lain with your wife, and you would have brought guilt on us!”"
-   },
-   "truncated": false
-  },
-  "Genesis 26:11": {
-   "citations": [
-    {
-     "confidence": 0.9327,
-     "context": "Oh, I knew that your God would be mad if you did this to me, and your God talked to me. And it's like, how your God talked to, you know, I'm I'm just, oh God. It's aggravating at this point. So, so Abimelech says, commanded all the people, he who touches this man or his wife will certainly be put to death. What? Like, so this man comes into your place and lies, and according to you, puts everybody in danger.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 2804.8,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And Abimelech charged all his people, saying, He that toucheth this man or his wife shall surely be put to death.",
-    "WEB": "Abimelech commanded all the people, saying, “He who touches this man or his wife will surely be put to death.”"
    },
    "truncated": false
   },
@@ -3829,56 +3997,6 @@
    },
    "truncated": false
   },
-  "Genesis 26:17": {
-   "citations": [
-    {
-     "confidence": 0.96,
-     "context": "He's too strong for us. You remember that thing I tell you, you can kind of tell when someone's exaggerating exaggerating their own story? Going on, go away from us, you're too powerful, you know. So Isaac departed from there and camped in the valley of Gerar and settled there. Wait a minute. So Isaac lived in Gerar. Y'all see that, right? That's verse 26. Isaac lived in Gurar. Yeah.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 3770.36,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And Isaac departed thence, and pitched his tent in the valley of Gerar, and dwelt there.",
-    "WEB": "Isaac departed from there, encamped in the valley of Gerar, and lived there."
-   },
-   "truncated": false
-  },
-  "Genesis 26:18": {
-   "citations": [
-    {
-     "confidence": 0.9894,
-     "context": "Oh, yeah, it's close to here. And so then Isaac leaves there and goes to Gerar. What? Maybe it's just me. So then Isaac dug again the wells of water which had been dug in the days of his father Abraham. For the Philistines had stopped them up after the death of Abraham, and he gave them the same names which his father had given them. Now this was preachworthy.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 3811.92,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And Isaac digged again the wells of water, which they had digged in the days of Abraham his father; for the Philistines had stopped them after the death of Abraham: and he called their names after the names by which his father had called them.",
-    "WEB": "Isaac dug again the wells of water, which they had dug in the days of Abraham his father, for the Philistines had stopped them after the death of Abraham. He called their names after the names by which his father had called them."
-   },
-   "truncated": false
-  },
   "Genesis 26:19": {
    "citations": [
     {
@@ -3904,81 +4022,6 @@
    },
    "truncated": false
   },
-  "Genesis 26:2": {
-   "citations": [
-    {
-     "confidence": 0.9125,
-     "context": "The first one. Like, and then all of a sudden, they give, they give Joseph credit for everything in Egypt, as if Egypt wasn't there before his ass. Isn't that crazy? From the biblical story. But we'll we'll get there. So, so there's famine. Uh and the Lord appeared to him and said, Do not go down to Egypt. Stay in the land of which I shall tell you. Stay in the land. Okay, yeah. So live for a time in this land, and I will be with you and bless you. For for to you and to your descendants I will give all these lands.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 2436.44,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And the LORD appeared unto him, and said, Go not down into Egypt; dwell in the land which I shall tell thee of:",
-    "WEB": "The LORD appeared to him, and said, “Don’t go down into Egypt. Live in the land I will tell you about."
-   },
-   "truncated": false
-  },
-  "Genesis 26:20": {
-   "citations": [
-    {
-     "confidence": 0.9232,
-     "context": "Like completely. It's a character that I can do with whatever the fuck I want because it doesn't exist. That felt good to say it that way, too. All right, so Isaac digs again, but when Isaac's servants dug in the valley and found there a well of flowing water, the herdsmen of Gerar quarreled with the herdsmen of Isaac, saying, The water is ours. So he named the well Esek because they argued with him.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 4169.24,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And the herdmen of Gerar did strive with Isaac's herdmen, saying, The water is ours: and he called the name of the well Esek; because they strove with him.",
-    "WEB": "The herdsmen of Gerar argued with Isaac’s herdsmen, saying, “The water is ours.” So he called the name of the well Esek, because they contended with him."
-   },
-   "truncated": false
-  },
-  "Genesis 26:22": {
-   "citations": [
-    {
-     "confidence": 0.9534,
-     "context": "And I've preached this as an atheist. I think that was that to be 2015. Um, then they dug another well, they quarreled over it, so they named it Sitna. Oh, yeah, this is about Rehoboth. Then he moved away from there and dug another well, and they did not quarrel over it, so he named it Rehoboth, for he said, At last the Lord has made room for us, and we will be fruitful in this land. This whole story is troubling.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 4206.2,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And he removed from thence, and digged another well; and for that they strove not: and he called the name of it Rehoboth; and he said, For now the LORD hath made room for us, and we shall be fruitful in the land.",
-    "WEB": "He left that place, and dug another well. They didn’t argue over that one. So he called it Rehoboth. He said, “For now the LORD has made room for us, and we will be fruitful in the land.”"
-   },
-   "truncated": false
-  },
   "Genesis 26:23": {
    "citations": [
     {
@@ -4001,31 +4044,6 @@
    "text": {
     "KJV": "And he went up from thence to Beersheba.",
     "WEB": "He went up from there to Beersheba."
-   },
-   "truncated": false
-  },
-  "Genesis 26:24": {
-   "citations": [
-    {
-     "confidence": 0.9337,
-     "context": "Other people, you should be empathetic towards that. I couldn't be empathetic towards that and not change. No. This stuff is disgusting to me. So yeah, that was Rehoboth. And he went up, he went up from there to Beersheba, and the Lord appeared to him that the same night and said, I am the God of your father, Abraham, do not fear, for I am with you. He's already talked to God. We remember we talked about that in the last chapter because I was like, why are you telling me what you've already told my dad?",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 4497.36,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And the LORD appeared unto him the same night, and said, I am the God of Abraham thy father: fear not, for I am with thee, and will bless thee, and multiply thy seed for my servant Abraham's sake.",
-    "WEB": "The LORD appeared to him the same night, and said, “I am the God of Abraham your father. Don’t be afraid, for I am with you, and will bless you, and multiply your offspring for my servant Abraham’s sake.”"
    },
    "truncated": false
   },
@@ -4076,31 +4094,6 @@
    "text": {
     "KJV": "And Isaac said unto them, Wherefore come ye to me, seeing ye hate me, and have sent me away from you?",
     "WEB": "Isaac said to them, “Why have you come to me, since you hate me, and have sent me away from you?”"
-   },
-   "truncated": false
-  },
-  "Genesis 26:28": {
-   "citations": [
-    {
-     "confidence": 0.9248,
-     "context": "What the fuck is going on here? Isaac said to them, Why have you come to me since you hate me and is uh and have sent me away from you? They said, We've seen plainly that the Lord has been with you, so we said an oath must now be to taken by us, that is, by you and us. So let's make a covenant with you that you will do us no harm, just as we have not touched you, and have done nothing but good, and have sent you away in peace.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 4626.92,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And they said, We saw certainly that the LORD was with thee: and we said, Let there be now an oath betwixt us, even betwixt us and thee, and let us make a covenant with thee;",
-    "WEB": "They said, “We saw plainly that the LORD was with you. We said, ‘Let there now be an oath between us, even between us and you, and let’s make a covenant with you,"
    },
    "truncated": false
   },
@@ -4179,56 +4172,6 @@
    },
    "truncated": false
   },
-  "Genesis 26:31": {
-   "citations": [
-    {
-     "confidence": 0.939,
-     "context": "So let's make a covenant with you that you will do us no harm, just as we have not touched you, and have done nothing but good, and have sent you away in peace. You are now the blessed of the Lord. Then he made them a feast and they ate and drink. In the morning they got up early and exchanged an oath. Then Isaac sent them away and left them in peace. This story makes no sense. They had already sent you away in peace. And literally, he just says it said, Just as we have done nothing to you, and we sent you away in peace. Like, what are we doing here? This this is what?",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 4649.2,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And they rose up betimes in the morning, and sware one to another: and Isaac sent them away, and they departed from him in peace.",
-    "WEB": "They rose up some time in the morning, and swore an oath to one another. Isaac sent them away, and they departed from him in peace."
-   },
-   "truncated": false
-  },
-  "Genesis 26:32": {
-   "citations": [
-    {
-     "confidence": 0.976,
-     "context": "Like, what are we doing here? This this is what? What? Oh God. I I hate it these days of reading these kind of stories. Now it came about on that same day that Isaac's servants came in and told him about the well which they had dug and sell it to him, we have found water. So they called it Sheba. Therefore, the name of the city is Beersheba to this day. Now that is interesting.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 4672.64,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And it came to pass the same day, that Isaac's servants came, and told him concerning the well which they had digged, and said unto him, We have found water.",
-    "WEB": "The same day, Isaac’s servants came, and told him concerning the well which they had dug, and said to him, “We have found water.”"
-   },
-   "truncated": false
-  },
   "Genesis 26:33": {
    "citations": [
     {
@@ -4251,81 +4194,6 @@
    "text": {
     "KJV": "And he called it Shebah: therefore the name of the city is Beersheba unto this day.",
     "WEB": "He called it “Shibah”. Therefore the name of the city is “Beersheba” to this day."
-   },
-   "truncated": false
-  },
-  "Genesis 26:34": {
-   "citations": [
-    {
-     "confidence": 0.9393,
-     "context": "So they called it Sheba. Therefore, the name of the city is Beersheba to this day. Now that is interesting. When Esau was 40 years old, he married Judith, the daughter of Biri the Hittite, and Basamat, the daughter of Elon the Hittite, and they brought grief to Isaac and Rebecca. Do you see that?",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 4688.48,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And Esau was forty years old when he took to wife Judith the daughter of Beeri the Hittite, and Bashemath the daughter of Elon the Hittite:",
-    "WEB": "When Esau was forty years old, he took as wife Judith, the daughter of Beeri the Hittite, and Basemath, the daughter of Elon the Hittite."
-   },
-   "truncated": false
-  },
-  "Genesis 26:6": {
-   "citations": [
-    {
-     "confidence": 0.9182,
-     "context": "Going on, go away from us, you're too powerful, you know. So Isaac departed from there and camped in the valley of Gerar and settled there. Wait a minute. So Isaac lived in Gerar. Y'all see that, right? That's verse 26. Isaac lived in Gurar. Yeah. So Isaac went to Gara. Verse 1. So, verse 1, Isaac goes to Garar. Verse 6, Isaac leaves in Gerar.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 3778.84,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And Isaac dwelt in Gerar:",
-    "WEB": "Isaac lived in Gerar."
-   },
-   "truncated": false
-  },
-  "Genesis 26:8": {
-   "citations": [
-    {
-     "confidence": 0.9772,
-     "context": "Yeah. Otherwise, it's an unsubstantiated fear. And we're, you know, surely the patriarchs of the faith wouldn't have unsubstantiated fears. So when the men of the place, okay, so she is beautiful. Now it came about when he had been there a long time that Abimelech, this used to be my dude, king of the Philistines, looked down through out a window and saw them, and behold, Isaac was caressing his wife Rebekah. Then Abimelech called Isaac and said, Behold, she certainly is your wife.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-04-11T18:00:06Z",
-     "role": "host",
-     "t": 2685.0,
-     "title": "Its Always Brother Against Brother // Bible Study w/ an Ex Pastor",
-     "video_id": "-3rHdnJezZ0"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And it came to pass, when he had been there a long time, that Abimelech king of the Philistines looked out at a window, and saw, and, behold, Isaac was sporting with Rebekah his wife.",
-    "WEB": "When he had been there a long time, Abimelech king of the Philistines looked out at a window, and saw, and, behold, Isaac was caressing Rebekah, his wife."
    },
    "truncated": false
   },
@@ -5199,6 +5067,31 @@
    "text": {
     "KJV": "And the LORD God commanded the man, saying, Of every tree of the garden thou mayest freely eat:",
     "WEB": "The LORD God commanded the man, saying, “You may freely eat of every tree of the garden;"
+   },
+   "truncated": false
+  },
+  "Genesis 2:17": {
+   "citations": [
+    {
+     "confidence": 0.52,
+     "context": "Just Isa Jesus. Anywho. When they got into the garden, God told Adam in Genesis 2, verse 16 that he can eat, has the freedom to eat from any tree in the garden, but there is one tree that he cannot eat from, and that's the tree of the knowledge of good and evil. And God says, For in the day that you eat of it, you shall surely die.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-12-26T16:02:55Z",
+     "role": "host",
+     "t": 465.52,
+     "title": "How Adam and Eve jacked up everything. (Genesis 1-3)",
+     "video_id": "QWqAdElTf9k"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But of the tree of the knowledge of good and evil, thou shalt not eat of it: for in the day that thou eatest thereof thou shalt surely die.",
+    "WEB": "but you shall not eat of the tree of the knowledge of good and evil; for in the day that you eat of it, you will surely die.”"
    },
    "truncated": false
   },
@@ -8052,6 +7945,55 @@
    },
    "truncated": false
   },
+  "Genesis 3:2": {
+   "citations": [
+    {
+     "confidence": 0.5625,
+     "context": "Now the serpent was more crafty than any other beast of the field that the Lord God had made. He said to the woman, Did God actually say, You shall not eat of any tree in the garden? And the woman said to the serpent, We may eat of the fruit of the trees in the garden, but God said, You shall not eat of the fruit of the tree that is in the midst of the garden, neither shall you touch it lest you die. But the serpent said to the woman, You will not surely die, for God knows that when you eat of it, your eyes will be opened, and you will be like God, knowing good and evil.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2019-12-26T16:02:55Z",
+     "role": "host",
+     "t": 363.96,
+     "title": "How Adam and Eve jacked up everything. (Genesis 1-3)",
+     "video_id": "QWqAdElTf9k"
+    },
+    {
+     "confidence": 0.5625,
+     "context": "It was what the question implied. It implied that there was a possibility that what God was saying wasn't a true thing. And what does Eve say back? She clearly doesn't rebuke him. Let's read, verse 2. It says. And the woman said to the serpent, We may eat of the fruit of the trees in the garden, but God said, You shall not eat of the fruit of the tree that is in the midst of the garden, neither shall you touch it lest you die. Don't have a conversation with the devil. That's just one plain application. But anyway, do you know what's interesting about Eve's response?",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2019-12-26T16:02:55Z",
+     "role": "host",
+     "t": 675.2,
+     "title": "How Adam and Eve jacked up everything. (Genesis 1-3)",
+     "video_id": "QWqAdElTf9k"
+    },
+    {
+     "confidence": 0.5625,
+     "context": "Now the serpent was more crafty than any other beast of the field that the Lord God had made. I love that maid thing. He said to the woman that God actually say, You shall not eat of any tree in the garden. And the woman said to the serpent, We may eat of the fruit of the trees in the garden. But God said, You shall not eat of the fruit of the tree that is in the midst of the garden, neither shall you touch it lest you die. But the serpent said to the woman, You will not surely die, for God knows that when you eat of it, your eyes will be open and you will be like God, knowing good and evil.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2019-01-26T16:27:52Z",
+     "role": "host",
+     "t": 1524.24,
+     "title": "Sexuality and Identity",
+     "video_id": "u-6a6kiRgYg"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 3
+   },
+   "n": 3,
+   "text": {
+    "KJV": "And the woman said unto the serpent, We may eat of the fruit of the trees of the garden:",
+    "WEB": "The woman said to the serpent, “We may eat fruit from the trees of the garden,"
+   },
+   "truncated": false
+  },
   "Genesis 3:22": {
    "citations": [
     {
@@ -8105,6 +8047,30 @@
   "Genesis 3:3": {
    "citations": [
     {
+     "confidence": 0.5172,
+     "context": "I'll start reading verse one. Now the serpent was more crafty than any other beast of the field that the Lord God had made. He said to the woman, Did God actually say, You shall not eat of any tree in the garden? And the woman said to the serpent, We may eat of the fruit of the trees in the garden, but God said, You shall not eat of the fruit of the tree that is in the midst of the garden, neither shall you touch it lest you die. But the serpent said to the woman, You will not surely die, for God knows that when you eat of it, your eyes will be opened, and you will be like God, knowing good and evil.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2019-12-26T16:02:55Z",
+     "role": "host",
+     "t": 358.84,
+     "title": "How Adam and Eve jacked up everything. (Genesis 1-3)",
+     "video_id": "QWqAdElTf9k"
+    },
+    {
+     "confidence": 0.5172,
+     "context": "It was what the question implied. It implied that there was a possibility that what God was saying wasn't a true thing. And what does Eve say back? She clearly doesn't rebuke him. Let's read, verse 2. It says. And the woman said to the serpent, We may eat of the fruit of the trees in the garden, but God said, You shall not eat of the fruit of the tree that is in the midst of the garden, neither shall you touch it lest you die. Don't have a conversation with the devil. That's just one plain application. But anyway, do you know what's interesting about Eve's response?",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2019-12-26T16:02:55Z",
+     "role": "host",
+     "t": 675.2,
+     "title": "How Adam and Eve jacked up everything. (Genesis 1-3)",
+     "video_id": "QWqAdElTf9k"
+    },
+    {
      "confidence": 0.5862,
      "context": "Uh, it has this conversation with Adam. He does not have this conversation with Eve. So then the serpent is asking Eve, I know Adam told you that God didn't uh didn't want you all to eat from that tree. But did God really say that? And then the woman said uh to the serpent, from the tree, from the fruit of the trees of the garden, you know, we may eat. Uh, but from the uh this is moving way too fast. Let me just do it this way. But from the tree of the but from the fruit of the tree which is in the middle of the garden, God has said, you shall not eat from it or touch it, or you would die.",
      "creator": "darante-lamar",
@@ -8115,12 +8081,25 @@
      "t": 2153.92,
      "title": "Trouble in Paradise // Bible Study With An Ex Pastor",
      "video_id": "jONAYlnk4Jc"
+    },
+    {
+     "confidence": 0.5172,
+     "context": "In Genesis 3, let's read it, verse 1. Now the serpent was more crafty than any other beast of the field that the Lord God had made. I love that maid thing. He said to the woman that God actually say, You shall not eat of any tree in the garden. And the woman said to the serpent, We may eat of the fruit of the trees in the garden. But God said, You shall not eat of the fruit of the tree that is in the midst of the garden, neither shall you touch it lest you die.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2019-01-26T16:27:52Z",
+     "role": "host",
+     "t": 1518.72,
+     "title": "Sexuality and Identity",
+     "video_id": "u-6a6kiRgYg"
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "darante-lamar": 1,
+    "jackie-hill-perry": 3
    },
-   "n": 1,
+   "n": 4,
    "text": {
     "KJV": "But of the fruit of the tree which is in the midst of the garden, God hath said, Ye shall not eat of it, neither shall ye touch it, lest ye die.",
     "WEB": "but not the fruit of the tree which is in the middle of the garden. God has said, ‘You shall not eat of it. You shall not touch it, lest you die.’”"
@@ -8129,6 +8108,30 @@
   },
   "Genesis 3:4": {
    "citations": [
+    {
+     "confidence": 0.5714,
+     "context": "He said to the woman, Did God actually say, You shall not eat of any tree in the garden? And the woman said to the serpent, We may eat of the fruit of the trees in the garden, but God said, You shall not eat of the fruit of the tree that is in the midst of the garden, neither shall you touch it lest you die. But the serpent said to the woman, You will not surely die, for God knows that when you eat of it, your eyes will be opened, and you will be like God, knowing good and evil. So when the woman saw that the tree was good for food, and that it was a delight to the eyes, and that the tree was to be desired to make one wise, she took of its fruit and ate.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-12-26T16:02:55Z",
+     "role": "host",
+     "t": 373.4,
+     "title": "How Adam and Eve jacked up everything. (Genesis 1-3)",
+     "video_id": "QWqAdElTf9k"
+    },
+    {
+     "confidence": 0.5714,
+     "context": "This conversation was really a manipulative, manipulative means for him to turn her heart away from God. Satan begins this whole situation being very subtle, but when we get to verse 4, he gets straight to the point. He says, But the serpent said to the woman, you will not surely die. But God knows that when you eat of it, your eyes will be opened, and you will be like God, knowing good and evil. Satan is a liar. Saints always clap on that.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-12-26T16:02:55Z",
+     "role": "host",
+     "t": 772.2,
+     "title": "How Adam and Eve jacked up everything. (Genesis 1-3)",
+     "video_id": "QWqAdElTf9k"
+    },
     {
      "confidence": 0.5714,
      "context": "Let me just do it this way. But from the tree of the but from the fruit of the tree which is in the middle of the garden, God has said, you shall not eat from it or touch it, or you would die. And out of all places to put the thing you don't want nobody to touch, you put it in the middle. Just makes no sense. So then the serpent said to the woman, you certainly will not die. Okay, so now let's kind of rephrase this. So maybe the the maybe, so I gave this presentation of, you know, okay, maybe God has this conversation with Adam. Adam then, excuse me.",
@@ -8140,20 +8143,192 @@
      "t": 2179.28,
      "title": "Trouble in Paradise // Bible Study With An Ex Pastor",
      "video_id": "jONAYlnk4Jc"
+    },
+    {
+     "confidence": 0.5714,
+     "context": "And the woman said to the serpent, We may eat of the fruit of the trees in the garden. But God said, You shall not eat of the fruit of the tree that is in the midst of the garden, neither shall you touch it lest you die. But the serpent said to the woman, You will not surely die, for God knows that when you eat of it, your eyes will be open and you will be like God, knowing good and evil. So when the woman saw that the tree was good for food, and that it was a delight to the eyes, and that the tree was to be desired to make one wise, she took of its fruit and ate, and she also gave some to her husband who was with her, and he ate.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-01-26T16:27:52Z",
+     "role": "host",
+     "t": 1534.32,
+     "title": "Sexuality and Identity",
+     "video_id": "u-6a6kiRgYg"
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "darante-lamar": 1,
+    "jackie-hill-perry": 3
    },
-   "n": 1,
+   "n": 4,
    "text": {
     "KJV": "And the serpent said unto the woman, Ye shall not surely die:",
     "WEB": "The serpent said to the woman, “You won’t really die,"
    },
    "truncated": false
   },
+  "Genesis 3:5": {
+   "citations": [
+    {
+     "confidence": 0.6364,
+     "context": "He said to the woman, Did God actually say, You shall not eat of any tree in the garden? And the woman said to the serpent, We may eat of the fruit of the trees in the garden, but God said, You shall not eat of the fruit of the tree that is in the midst of the garden, neither shall you touch it lest you die. But the serpent said to the woman, You will not surely die, for God knows that when you eat of it, your eyes will be opened, and you will be like God, knowing good and evil. So when the woman saw that the tree was good for food, and that it was a delight to the eyes, and that the tree was to be desired to make one wise, she took of its fruit and ate.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-12-26T16:02:55Z",
+     "role": "host",
+     "t": 373.4,
+     "title": "How Adam and Eve jacked up everything. (Genesis 1-3)",
+     "video_id": "QWqAdElTf9k"
+    },
+    {
+     "confidence": 0.5909,
+     "context": "Satan begins this whole situation being very subtle, but when we get to verse 4, he gets straight to the point. He says, But the serpent said to the woman, you will not surely die. But God knows that when you eat of it, your eyes will be opened, and you will be like God, knowing good and evil. Satan is a liar. Saints always clap on that. Yes, he is. He is a lie.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-12-26T16:02:55Z",
+     "role": "host",
+     "t": 777.48,
+     "title": "How Adam and Eve jacked up everything. (Genesis 1-3)",
+     "video_id": "QWqAdElTf9k"
+    },
+    {
+     "confidence": 0.6364,
+     "context": "I really do. The last lie that Satan told Eve is that her sin would deify her. Let me read it in verse four and five. It says, For God knows that when you eat of it, your eyes will be opened and you will be like God, knowing good and evil. What an intoxicating thought. That by just eating fruit from a tree, that she could become like the creator of the tree, that she would be like the one who made her from a rib, that she could become like the one who made her husband from the ground.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-12-26T16:02:55Z",
+     "role": "host",
+     "t": 1146.96,
+     "title": "How Adam and Eve jacked up everything. (Genesis 1-3)",
+     "video_id": "QWqAdElTf9k"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 3
+   },
+   "n": 3,
+   "text": {
+    "KJV": "For God doth know that in the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil.",
+    "WEB": "for God knows that in the day you eat it, your eyes will be opened, and you will be like God, knowing good and evil.”"
+   },
+   "truncated": false
+  },
+  "Genesis 3:6": {
+   "citations": [
+    {
+     "confidence": 0.7059,
+     "context": "But the serpent said to the woman, You will not surely die, for God knows that when you eat of it, your eyes will be opened, and you will be like God, knowing good and evil. So when the woman saw that the tree was good for food, and that it was a delight to the eyes, and that the tree was to be desired to make one wise, she took of its fruit and ate. And she also gave some to her husband who was with her, and he ate. Then the eyes of both were opened, and they knew they were naked, and they sewed fig leaves together and made themselves loincloths.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-12-26T16:02:55Z",
+     "role": "host",
+     "t": 381.88,
+     "title": "How Adam and Eve jacked up everything. (Genesis 1-3)",
+     "video_id": "QWqAdElTf9k"
+    },
+    {
+     "confidence": 0.5686,
+     "context": "And after hearing all of this, what does Eve do? Let's read verse 6. It says, So when the woman saw that the tree was good for food, that it was a delight to the eyes, and that the tree was to be desired to make one wise. She took up its fruit and ate, and she also gave some to her husband who was with her, doing what? We don't know. And he ate.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-12-26T16:02:55Z",
+     "role": "host",
+     "t": 1463.4,
+     "title": "How Adam and Eve jacked up everything. (Genesis 1-3)",
+     "video_id": "QWqAdElTf9k"
+    },
+    {
+     "confidence": 0.7059,
+     "context": "But the serpent said to the woman, You will not surely die, for God knows that when you eat of it, your eyes will be open and you will be like God, knowing good and evil. So when the woman saw that the tree was good for food, and that it was a delight to the eyes, and that the tree was to be desired to make one wise, she took of its fruit and ate, and she also gave some to her husband who was with her, and he ate.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-01-26T16:27:52Z",
+     "role": "host",
+     "t": 1544.64,
+     "title": "Sexuality and Identity",
+     "video_id": "u-6a6kiRgYg"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 3
+   },
+   "n": 3,
+   "text": {
+    "KJV": "And when the woman saw that the tree was good for food, and that it was pleasant to the eyes, and a tree to be desired to make one wise, she took of the fruit thereof, and did eat, and gave also unto her husband with her; and he did eat.",
+    "WEB": "When the woman saw that the tree was good for food, and that it was a delight to the eyes, and that the tree was to be desired to make one wise, she took some of its fruit, and ate. Then she gave some to her husband with her, and he ate it, too."
+   },
+   "truncated": false
+  },
+  "Genesis 3:7": {
+   "citations": [
+    {
+     "confidence": 0.5455,
+     "context": "So when the woman saw that the tree was good for food, and that it was a delight to the eyes, and that the tree was to be desired to make one wise, she took of its fruit and ate. And she also gave some to her husband who was with her, and he ate. Then the eyes of both were opened, and they knew they were naked, and they sewed fig leaves together and made themselves loincloths. I love this passage. Before the serpent showed up, God had done some big things, like make the world for one.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2019-12-26T16:02:55Z",
+     "role": "host",
+     "t": 393.56,
+     "title": "How Adam and Eve jacked up everything. (Genesis 1-3)",
+     "video_id": "QWqAdElTf9k"
+    },
+    {
+     "confidence": 0.7273,
+     "context": "She took up its fruit and ate, and she also gave some to her husband who was with her, doing what? We don't know. And he ate. Was he cutting the grass? I don't know. Was he talking to the monkeys? Hey, monkey, I named you. What's up? Um. Then the eyes of both were opened, and they knew that they were naked, and they sewed fig leaves together and made themselves loincloths. Eve was deceived, and because of her deception, she chose to believe a lie. The ultimate lie being that a created thing had more to offer than God Himself.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2019-12-26T16:02:55Z",
+     "role": "host",
+     "t": 1486.96,
+     "title": "How Adam and Eve jacked up everything. (Genesis 1-3)",
+     "video_id": "QWqAdElTf9k"
+    },
+    {
+     "confidence": 0.5,
+     "context": "That's the serpent. Eve, she eats the fruit, gives to some to her husband, and he eats. And it says that the eyes of both of them were opened, and they knew they were naked. And they sewed fig leaves together and made themselves loincloths. In the garden, you see the entry of arrogance, this kind of deification of ourselves, but you also see the entry of shame.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-11-28T21:09:22Z",
+     "role": "host",
+     "t": 4332.52,
+     "title": "Hagar: The Suffering Servant (Genesis 16)",
+     "video_id": "Xn2nc78Dftg"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 3
+   },
+   "n": 3,
+   "text": {
+    "KJV": "And the eyes of them both were opened, and they knew that they were naked; and they sewed fig leaves together, and made themselves aprons.",
+    "WEB": "Their eyes were opened, and they both knew that they were naked. They sewed fig leaves together, and made coverings for themselves."
+   },
+   "truncated": false
+  },
   "Genesis 3:8": {
    "citations": [
+    {
+     "confidence": 0.6389,
+     "context": "After Adam ate the fruit, something interesting happened between him and Eve. There was an immediate impact on Adam and Eve's relationship with each other. Let's read verse 8. It says, And they heard the sound of the Lord God walking in the garden in the cool of the day. And the man and his wife hid themselves from the presence of the Lord. Oh, this is my favorite part among the trees of the garden. But the Lord God called to the man and said to him, Where are you?",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2019-12-26T16:02:55Z",
+     "role": "host",
+     "t": 1683.56,
+     "title": "How Adam and Eve jacked up everything. (Genesis 1-3)",
+     "video_id": "QWqAdElTf9k"
+    },
     {
      "confidence": 0.6765,
      "context": "Uh I don't know how that process has worked, if things have gotten bigger or smaller. That's a whole nother conversation. So um, so they heard the Lord walking um in the in the garden in the cool of the day. And I've always I did like that. And and the man and his wife hid themselves from the presence of the Lord among the trees of the garden. Now again, so far we're in the third chapter, nowhere in any of these chapters is God introduced as omniscient or omnipresent or omnipotent, right?",
@@ -8168,9 +8343,10 @@
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "darante-lamar": 1,
+    "jackie-hill-perry": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "And they heard the voice of the LORD God walking in the garden in the cool of the day: and Adam and his wife hid themselves from the presence of the LORD God amongst the trees of the garden.",
     "WEB": "They heard the LORD God’s voice walking in the garden in the cool of the day, and the man and his wife hid themselves from the presence of the LORD God among the trees of the garden."
@@ -8179,6 +8355,18 @@
   },
   "Genesis 3:9": {
    "citations": [
+    {
+     "confidence": 1.0,
+     "context": "Let's read verse 8. It says, And they heard the sound of the Lord God walking in the garden in the cool of the day. And the man and his wife hid themselves from the presence of the Lord. Oh, this is my favorite part among the trees of the garden. But the Lord God called to the man and said to him, Where are you? I love when God asks questions because He's playing with us. It's like you know. I don't even know why you're doing that. Your mama used to do that to you.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-12-26T16:02:55Z",
+     "role": "host",
+     "t": 1695.84,
+     "title": "How Adam and Eve jacked up everything. (Genesis 1-3)",
+     "video_id": "QWqAdElTf9k"
+    },
     {
      "confidence": 0.8182,
      "context": "Like if you're if you're always present, where did you come from? Where did you go? Where did you come from? Cottonatch. Okay. So uh trees of the garden, all that good stuff. Then the Lord called to the man and said to him, Where are you? Again, God, the text does not say that God is omniscient, but that was definitely what I thought, and so I'm like, why does God not know? How's how does God not know his own people at He created, He created this garden?",
@@ -8193,9 +8381,10 @@
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "darante-lamar": 1,
+    "jackie-hill-perry": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "And the LORD God called unto Adam, and said unto him, Where art thou?",
     "WEB": "The LORD God called to the man, and said to him, “Where are you?”"
@@ -10555,18 +10744,6 @@
   "Genesis 50:20": {
    "citations": [
     {
-     "confidence": 0.9327,
-     "context": "You meant it for evil, but God meant it for good, the saving of many lives that's going on right now. God can bring good from even the evil that we do and other and unbelievers do. And so God can bring good even from evil. Yeah, I guess. And that explanation works fine for a God of limited power who had to squeeze good results out of bad situations that already existed.",
-     "creator": "prophet-of-zod",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2023-10-19T20:00:09Z",
-     "role": "host",
-     "t": 831.08,
-     "title": "Why Christians Can't Explain Free Will",
-     "video_id": "1pNd_sb-PIE"
-    },
-    {
      "confidence": 0.55,
      "context": "And I think it was the king, the KJV that might have said, KJV or N I V that may have read this, am I not, am I in the place of God? Or am I not in the place of God? Um, and this this is this little popular, this little ending segment became very popular, especially in urban churches, because he says, As for you, you meant evil against me, but God meant it for good in order to bring about this present result to keep many people alive.",
      "creator": "darante-lamar",
@@ -10593,10 +10770,9 @@
    ],
    "creators": {
     "capturing-christianity": 1,
-    "darante-lamar": 1,
-    "prophet-of-zod": 1
+    "darante-lamar": 1
    },
-   "n": 3,
+   "n": 2,
    "text": {
     "KJV": "But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive.",
     "WEB": "As for you, you meant evil against me, but God meant it for good, to save many people alive, as is happening today."
@@ -10731,18 +10907,6 @@
   "Genesis 6:4": {
    "citations": [
     {
-     "confidence": 0.8732,
-     "context": "And this was a situation after the sons of God came down and had an entanglement with the daughters of men. Mm-hmm. And they had children, and you know, so it was like, oh man. And in my mind, as a child, you know, uh, and it and it's funny how how how we can do that sometimes because you know, we still I still do it as an adult at times too.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-08-06T19:27:17Z",
-     "role": "host",
-     "t": 143.8,
-     "title": "Whose God Is It Anyway",
-     "video_id": "1UvlFt8tM1s"
-    },
-    {
      "confidence": 0.5143,
      "context": "But that would be very interesting because Yahweh would be one of those fallen ones. That's another story. Um, so actually, L would also be another one of the fallen ones. But so when the Sun Gods uh the Nephilim was off the uh the Nephilim were on the earth in those days, and also afterward, when the sons of God came into the daughter of mankind and they bore children to them, those were the mighty men who were of old, men of renown.",
      "creator": "darante-lamar",
@@ -10756,9 +10920,9 @@
     }
    ],
    "creators": {
-    "darante-lamar": 2
+    "darante-lamar": 1
    },
-   "n": 2,
+   "n": 1,
    "text": {
     "KJV": "There were giants in the earth in those days; and also after that, when the sons of God came in unto the daughters of men, and they bare children to them, the same became mighty men which were of old, men of renown.",
     "WEB": "The Nephilim were on the earth in those days, and also after that, when God’s sons came in to men’s daughters and had children with them. Those were the mighty men who were of old, men of renown."

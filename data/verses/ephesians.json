@@ -26,31 +26,6 @@
    },
    "truncated": false
   },
-  "Ephesians 2:10": {
-   "citations": [
-    {
-     "confidence": 0.9038,
-     "context": "Here's a perfect example of what I'm talking about, okay? Ephesians chapter two, verse ten says, For we are God's workmanship, created in Christ Jesus for good works, which God prepared beforehand that we should walk in them. What do you think is entailed in good works?",
-     "creator": "prophet-of-zod",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2022-12-01T20:00:08Z",
-     "role": "host",
-     "t": 1138.72,
-     "title": "Why Christians Will Never be Able to Explain Prayer",
-     "video_id": "1owkI8GsKpU"
-    }
-   ],
-   "creators": {
-    "prophet-of-zod": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "For we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them.",
-    "WEB": "For we are his workmanship, created in Christ Jesus for good works, which God prepared before that we would walk in them."
-   },
-   "truncated": false
-  },
   "Ephesians 2:8": {
    "citations": [
     {
@@ -166,12 +141,25 @@
      "t": 728.8,
      "title": "Can Atheists Be Spiritual…Let’s Talk About It",
      "video_id": "0H4D9xfo00k"
+    },
+    {
+     "confidence": 0.5,
+     "context": "Lord, I pray, God, that we would have the strength to comprehend you. How deep and how long and how wide and how high your love is for us, and we can pray this with full confidence, because you are able to do exceedingly and abundantly above all that we ever ask or think, according to the power that works in us.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-02-01T13:34:47Z",
+     "role": "host",
+     "t": 1180.92,
+     "title": "Idolatry (Glory Session Two)",
+     "video_id": "gRuISsuU8mw"
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "darante-lamar": 1,
+    "jackie-hill-perry": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Now unto him that is able to do exceeding abundantly above all that we ask or think, according to the power that worketh in us,",
     "WEB": "Now to him who is able to do exceedingly abundantly above all that we ask or think, according to the power that works in us,"
@@ -200,31 +188,6 @@
    "text": {
     "KJV": "Till we all come in the unity of the faith, and of the knowledge of the Son of God, unto a perfect man, unto the measure of the stature of the fulness of Christ:",
     "WEB": "until we all attain to the unity of the faith and of the knowledge of the Son of God, to a full grown man, to the measure of the stature of the fullness of Christ,"
-   },
-   "truncated": false
-  },
-  "Ephesians 4:14": {
-   "citations": [
-    {
-     "confidence": 0.7411,
-     "context": "This is how we have to investigate our history. This is how we have to investigate our present. This is how we have to interrogate our future with eyes wide open. Not just being tossed to and fro with, you know, by the waves of sensationalism. We need to, we need to realize that we are many times victims to our emotions. That if something sounds really good, we want to believe it.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-09-10T20:00:10Z",
-     "role": "host",
-     "t": 1314.24,
-     "title": "Let's Talk About Harriet Tubman",
-     "video_id": "0XC6VNTusww"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "That we henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine, by the sleight of men, and cunning craftiness, whereby they lie in wait to deceive;",
-    "WEB": "that we may no longer be children, tossed back and forth and carried about with every wind of doctrine, by the trickery of men, in craftiness, after the wiles of error;"
    },
    "truncated": false
   },
@@ -363,31 +326,6 @@
    "text": {
     "KJV": "And have no fellowship with the unfruitful works of darkness, but rather reprove them.",
     "WEB": "Have no fellowship with the unfruitful deeds of darkness, but rather even reprove them."
-   },
-   "truncated": false
-  },
-  "Ephesians 5:31": {
-   "citations": [
-    {
-     "confidence": 0.7827,
-     "context": "Paul says in 1 Corinthians 6, verses 16 and 17, or do you not know that he who is joined to a prostitute becomes one body with her? For as it is written, the two will become one flesh. But he who is joined to the Lord becomes one spirit with him. Paul mentions body, flesh and spirit in these two verses to show that sexual immorality has both physical and spiritual implications.",
-     "creator": "genetically-modified-skeptic",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-07-03T15:48:37Z",
-     "role": "unknown",
-     "t": 5853.32,
-     "title": "I Took A Gay Conversion Class for Christian Teens. It Was Awful.",
-     "video_id": "-QnyYMEy3HA"
-    }
-   ],
-   "creators": {
-    "genetically-modified-skeptic": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "For this cause shall a man leave his father and mother, and shall be joined unto his wife, and they two shall be one flesh.",
-    "WEB": "“For this cause a man will leave his father and mother and will be joined to his wife. Then the two will become one flesh.”"
    },
    "truncated": false
   },
@@ -689,31 +627,6 @@
    "text": {
     "KJV": "Praying always with all prayer and supplication in the Spirit, and watching thereunto with all perseverance and supplication for all saints;",
     "WEB": "with all prayer and requests, praying at all times in the Spirit, and being watchful to this end in all perseverance and requests for all the saints."
-   },
-   "truncated": false
-  },
-  "Ephesians 6:19": {
-   "citations": [
-    {
-     "confidence": 0.7251,
-     "context": "And then they start singing it to each other, and the exact same type of hi, shaadaboshidiada sandi, or book hosadia, that same type of stuff started happening. It was there. And for me, that was just like confirmation of like, yeah, these are all human experiences. No God needed. No God needed. I was actually in a smoke session in a in a studio recording session a few years ago. This had to be like 2015. Um, and I just wanted to see.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-09-19T00:15:02Z",
-     "role": "host",
-     "t": 5754.48,
-     "title": "Let's Talk About Moses // Bible Study w/ an X-Pastor",
-     "video_id": "-WFXlGe0jW8"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And for me, that utterance may be given unto me, that I may open my mouth boldly, to make known the mystery of the gospel,",
-    "WEB": "Pray for me, that utterance may be given to me in opening my mouth, to make known with boldness the mystery of the Good News,"
    },
    "truncated": false
   },

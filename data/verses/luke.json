@@ -64,28 +64,28 @@
    },
    "truncated": false
   },
-  "Luke 11:39": {
+  "Luke 10:41": {
    "citations": [
     {
-     "confidence": 0.8058,
-     "context": "You know that Jesus was betrayed by one of his best friends? By one of his best friends? It's best friend. Not best friend. By one of his best friends? Hypocrites, for you were so careful to clean the outside of the cup and dish, but inside you were filthy for the cup and dish. The classic cup and dish. Can you pass me the cup and dish? The cup and dish from Cavendish. Oh, yeah, the Cavendish cup and dish? The cup and dish. He also pronounces his name really strangely.",
-     "creator": "belief-it-or-not",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2026-04-23T14:00:00Z",
+     "confidence": 0.7,
+     "context": "Simon Simon, behold, Satan has demanded to have you that he might sift you like wheat, but I have prayed for you that your faith may not fail. Martha, Martha, you are anxious and troubled about many things, but one thing is necessary. So knowing that that God is calling Moses' name twice out of affection. Do you then find it strange that God tells him not to come near?",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2020-12-21T00:41:14Z",
      "role": "host",
-     "t": 2132.08,
-     "title": "Why Do Pastors Talk Like That? | Belief It Or Not",
-     "video_id": "-5TIx3NrIA8"
+     "t": 588.6,
+     "title": "Oh Holy Night",
+     "video_id": "5ALRUMILjZ8"
     }
    ],
    "creators": {
-    "belief-it-or-not": 1
+    "jackie-hill-perry": 1
    },
    "n": 1,
    "text": {
-    "KJV": "And the Lord said unto him, Now do ye Pharisees make clean the outside of the cup and the platter; but your inward part is full of ravening and wickedness.",
-    "WEB": "The Lord said to him, “Now you Pharisees cleanse the outside of the cup and of the platter, but your inward part is full of extortion and wickedness."
+    "KJV": "And Jesus answered and said unto her, Martha, Martha, thou art careful and troubled about many things:",
+    "WEB": "Jesus answered her, “Martha, Martha, you are anxious and troubled about many things,"
    },
    "truncated": false
   },
@@ -142,6 +142,18 @@
     },
     {
      "confidence": 0.5455,
+     "context": "And if God is spiritual, not material, then our focus in life ought to be spiritual and not material. This is why Jesus said, do not be anxious about your life, what you will eat, or what you will drink, nor about your body, what you will put on. Is not life more than food and the body more than clothing?",
+     "creator": "drcraigvideos",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-01-12T20:00:13Z",
+     "role": "host",
+     "t": 647.68,
+     "title": "God Is Spirit",
+     "video_id": "I5zIA8TOD7w"
+    },
+    {
+     "confidence": 0.5455,
      "context": "So much hypocrisy from the supposed religion of truth. But let's go on to the next grade where we get into Matthew 6. Those famous words from Jesus don't worry about your life. Don't worry about what you will eat or what you will drink or what you will wear. Look at the birds, look at the lilies. Does not God take care of them? No. I've covered this before too. I can't remember in which video, but I went through the stats about how many birds we know of die from starvation.",
      "creator": "mindshift",
      "detection_method": "shingle_match",
@@ -166,9 +178,10 @@
     }
    ],
    "creators": {
+    "drcraigvideos": 1,
     "mindshift": 3
    },
-   "n": 3,
+   "n": 4,
    "text": {
     "KJV": "And seek not ye what ye shall eat, or what ye shall drink, neither be ye of doubtful mind.",
     "WEB": "“Don’t seek what you will eat or what you will drink; neither be anxious."
@@ -177,6 +190,18 @@
   },
   "Luke 12:31": {
    "citations": [
+    {
+     "confidence": 0.6,
+     "context": "Is not life more than food and the body more than clothing? Seek first the kingdom of God and his righteousness, and all these things will be added to you.",
+     "creator": "drcraigvideos",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-01-12T20:00:13Z",
+     "role": "host",
+     "t": 663.44,
+     "title": "God Is Spirit",
+     "video_id": "I5zIA8TOD7w"
+    },
     {
      "confidence": 0.6,
      "context": "He hasn't promised me that I'm gonna have some decent career. I'll be able to like own a home or or just provide. Um and I will say that the one promise we can hold on to, and I have absolutely held on to this, Matthew 63. Seek first the kingdom of God and his righteousness, and all these things will be added to you. I held on to that big time. That's why I'm in ministry. I remember I was at this crossroads where I was like, either I need to go get a normal job and get like starting a career path, or I'm gonna keep pursuing ministry, but I have no, I don't see a career there.",
@@ -191,9 +216,10 @@
     }
    ],
    "creators": {
+    "drcraigvideos": 1,
     "mike-winger": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "But rather seek ye the kingdom of God; and all these things shall be added unto you.",
     "WEB": "But seek God’s Kingdom, and all these things will be added to you."
@@ -359,56 +385,6 @@
    "text": {
     "KJV": "And he cried and said, Father Abraham, have mercy on me, and send Lazarus, that he may dip the tip of his finger in water, and cool my tongue; for I am tormented in this flame.",
     "WEB": "He cried and said, ‘Father Abraham, have mercy on me, and send Lazarus, that he may dip the tip of his finger in water and cool my tongue! For I am in anguish in this flame.’"
-   },
-   "truncated": false
-  },
-  "Luke 17:21": {
-   "citations": [
-    {
-     "confidence": 0.7919,
-     "context": "Um, you know, but okay, so getting back into this aspect, because I like getting I like this subject of dealing, helping people see themselves and go within, seek within. I think there was an old ancient proverb that said, uh, the kingdom of God is within, seek within. Um, yeah, so a part of that, what I love about that is because I think what causes people so much fucking trauma is that they are constantly judging their lives through the lens of other folk.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-06-01T19:21:46Z",
-     "role": "host",
-     "t": 5283.28,
-     "title": "How We Change The World with X-Pastors Kyle Butler & Derrick Day // Sunday Sessions",
-     "video_id": "2A0rYiND9zY"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Neither shall they say, Lo here! or, lo there! for, behold, the kingdom of God is within you.",
-    "WEB": "neither will they say, ‘Look, here!’ or, ‘Look, there!’ for behold, God’s Kingdom is within you.”"
-   },
-   "truncated": false
-  },
-  "Luke 18:16": {
-   "citations": [
-    {
-     "confidence": 0.8806,
-     "context": "And I call them contradictions, but these are the things that we typically highlight as the character of God towards children. Um, and it's typically these verses we get from Jesus, um, such as him in Matthew chapter 19, where he says, Let the children come to me and do not hinder them, for the kingdom of heaven belongs to such as these, you know.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-12-04T19:13:28Z",
-     "role": "host",
-     "t": 158.2,
-     "title": "Does God Love The Kids",
-     "video_id": "-T-pAnSk22E"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "But Jesus called them unto him, and said, Suffer little children to come unto me, and forbid them not: for of such is the kingdom of God.",
-    "WEB": "Jesus summoned them, saying, “Allow the little children to come to me, and don’t hinder them, for God’s Kingdom belongs to such as these."
    },
    "truncated": false
   },
@@ -775,6 +751,18 @@
   "Luke 22:42": {
    "citations": [
     {
+     "confidence": 0.9375,
+     "context": "And in that moment, he used his words to speak something to the Father. He said, Father, if you are willing, remove this cup from me. Nevertheless, not my will but yours be done.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-01-17T17:38:57Z",
+     "role": "host",
+     "t": 176.6,
+     "title": "How did Jesus use His words?",
+     "video_id": "oevPzRVdsZk"
+    },
+    {
      "confidence": 0.8125,
      "context": "And the disciples followed him. And when he came to the place, he said to them, pray that you may not enter into temptation. And he withdrew for them about a stone's throw and knelt down and prayed, saying, Father, if you are willing, remove this cup from me. It's getting hard, Dad.",
      "creator": "jackie-hill-perry",
@@ -788,37 +776,62 @@
     }
    ],
    "creators": {
-    "jackie-hill-perry": 1
+    "jackie-hill-perry": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Saying, Father, if thou be willing, remove this cup from me: nevertheless not my will, but thine, be done.",
     "WEB": "saying, “Father, if you are willing, remove this cup from me. Nevertheless, not my will, but yours, be done.”"
    },
    "truncated": false
   },
-  "Luke 22:67": {
+  "Luke 22:55": {
    "citations": [
     {
-     "confidence": 0.8891,
-     "context": "Tell me if these lines from Jesus doesn't sound just like Jordan Peterson. So Luke 22, 67 through 70, they said, if you are the Messiah, tell us. He replied, if I tell you, you will not believe. And if I question you, you will not answer. But from now on, the Son of Man will be seated at the right hand of the power of God. All of them asked, Are you then the Son of God?",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2026-07-09T14:00:21Z",
+     "confidence": 0.5,
+     "context": "Let me read what follows. This is in Luke 22. You ain't even got to turn to it. I'll read it for you. Then they seized him, talking about Jesus, and led him away, bringing him into the high priest's house, and Peter was following at a distance. And when they had kindled a fire in the middle of the courtyard and sat down together, Peter sat down among them. Then the servant girl, seeing him as he sat in the light and looked closely at him, said, This man was also with him. But he denied it, saying, Woman, I do not know him.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2019-05-29T19:58:05Z",
      "role": "host",
-     "t": 164.04,
-     "title": "Jesus Was the First Jordan Peterson | Sacred Word Salad",
-     "video_id": "0mE4Bz2jsXY"
+     "t": 442.08,
+     "title": "The Gospel for The Fallen",
+     "video_id": "AW0Yg61TWWA"
     }
    ],
    "creators": {
-    "mindshift": 1
+    "jackie-hill-perry": 1
    },
    "n": 1,
    "text": {
-    "KJV": "Art thou the Christ? tell us. And he said unto them, If I tell you, ye will not believe:",
-    "WEB": "“If you are the Christ, tell us.” But he said to them, “If I tell you, you won’t believe,"
+    "KJV": "And when they had kindled a fire in the midst of the hall, and were set down together, Peter sat down among them.",
+    "WEB": "When they had kindled a fire in the middle of the courtyard and had sat down together, Peter sat among them."
+   },
+   "truncated": false
+  },
+  "Luke 22:62": {
+   "citations": [
+    {
+     "confidence": 1.0,
+     "context": "And Peter remembered the saying of the Lord, how he had said to him before the rooster crows today, you will deny me three times. And he went out and wept bitterly. Jesus always knows what he's talking about. Peter did what Jesus said he would do. He'd been with Jesus for three years now, but when confronted and questioned about his allegiance, he denies that he even knows him.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-05-29T19:58:05Z",
+     "role": "host",
+     "t": 495.44,
+     "title": "The Gospel for The Fallen",
+     "video_id": "AW0Yg61TWWA"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And Peter went out, and wept bitterly.",
+    "WEB": "He went out, and wept bitterly."
    },
    "truncated": false
   },
@@ -922,31 +935,6 @@
    },
    "truncated": false
   },
-  "Luke 24:29": {
-   "citations": [
-    {
-     "confidence": 0.8114,
-     "context": "That's that's a new saying. But no. Um, so I went, we we talked. He flattered me, and he said, Man, if you ever need anything, I said, you know, we're actually thinking about leaving Alabama. Um he said, well, you ever need anything, man? Y'all can definitely come stay with us for for a while, a year or so while you're getting on your feet. I'm like, okay, cool. So a few months later, I'm going through my divorce, and I reach out to him. He says, You can't come here. Oh, okay.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-11-18T18:06:36Z",
-     "role": "host",
-     "t": 4193.64,
-     "title": "The Black Nonbeliever Next Door Is Me",
-     "video_id": "122UVG9yQe8"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "But they constrained him, saying, Abide with us: for it is toward evening, and the day is far spent. And he went in to tarry with them.",
-    "WEB": "They urged him, saying, “Stay with us, for it is almost evening, and the day is almost over.” He went in to stay with them."
-   },
-   "truncated": false
-  },
   "Luke 2:1": {
    "citations": [
     {
@@ -969,6 +957,131 @@
    "text": {
     "KJV": "And it came to pass in those days, that there went out a decree from Caesar Augustus that all the world should be taxed.",
     "WEB": "Now in those days, a decree went out from Caesar Augustus that all the world should be enrolled."
+   },
+   "truncated": false
+  },
+  "Luke 2:11": {
+   "citations": [
+    {
+     "confidence": 0.6875,
+     "context": "And an angel of the Lord appeared to them, and the glory of the Lord shone around them, and they were filled with fear. And the angel said to them, Fear not, for behold, I bring you good news of great joy that will be for all people. For unto you is born this day in the city of David a Savior, who is Christ the Lord. And this will be a sign for you. You will find a baby wrapped in swaddling clothes and lying in a manger. And suddenly there was with the angel a multitude of the heavenly host praising God and saying, Glory to God in the highest, and on earth peace among those with whom he is pleased.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2020-12-21T00:41:14Z",
+     "role": "host",
+     "t": 1007.48,
+     "title": "Oh Holy Night",
+     "video_id": "5ALRUMILjZ8"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For unto you is born this day in the city of David a Saviour, which is Christ the Lord.",
+    "WEB": "For there is born to you today, in David’s city, a Savior, who is Christ the Lord."
+   },
+   "truncated": false
+  },
+  "Luke 2:13": {
+   "citations": [
+    {
+     "confidence": 1.0,
+     "context": "For unto you is born this day in the city of David a Savior, who is Christ the Lord. And this will be a sign for you. You will find a baby wrapped in swaddling clothes and lying in a manger. And suddenly there was with the angel a multitude of the heavenly host praising God and saying, Glory to God in the highest, and on earth peace among those with whom he is pleased. When the angels went away from them into heaven, the shepherds said to one another, Let us go over to Bethlehem and see this thing that has happened which the Lord has made known to us.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2020-12-21T00:41:14Z",
+     "role": "host",
+     "t": 1022.2,
+     "title": "Oh Holy Night",
+     "video_id": "5ALRUMILjZ8"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And suddenly there was with the angel a multitude of the heavenly host praising God, and saying,",
+    "WEB": "Suddenly, there was with the angel a multitude of the heavenly army praising God and saying,"
+   },
+   "truncated": false
+  },
+  "Luke 2:14": {
+   "citations": [
+    {
+     "confidence": 0.6364,
+     "context": "For unto you is born this day in the city of David a Savior, who is Christ the Lord. And this will be a sign for you. You will find a baby wrapped in swaddling clothes and lying in a manger. And suddenly there was with the angel a multitude of the heavenly host praising God and saying, Glory to God in the highest, and on earth peace among those with whom he is pleased. When the angels went away from them into heaven, the shepherds said to one another, Let us go over to Bethlehem and see this thing that has happened which the Lord has made known to us.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2020-12-21T00:41:14Z",
+     "role": "host",
+     "t": 1022.2,
+     "title": "Oh Holy Night",
+     "video_id": "5ALRUMILjZ8"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Glory to God in the highest, and on earth peace, good will toward men.",
+    "WEB": "“Glory to God in the highest, on earth peace, good will toward men.”"
+   },
+   "truncated": false
+  },
+  "Luke 2:15": {
+   "citations": [
+    {
+     "confidence": 0.6061,
+     "context": "And suddenly there was with the angel a multitude of the heavenly host praising God and saying, Glory to God in the highest, and on earth peace among those with whom he is pleased. When the angels went away from them into heaven, the shepherds said to one another, Let us go over to Bethlehem and see this thing that has happened which the Lord has made known to us. And they went with haste and found Mary and Joseph and the baby lying in a manger, and when they saw it, they made known the saying that had been told them concerning this child.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2020-12-21T00:41:14Z",
+     "role": "host",
+     "t": 1033.96,
+     "title": "Oh Holy Night",
+     "video_id": "5ALRUMILjZ8"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And it came to pass, as the angels were gone away from them into heaven, the shepherds said one to another, Let us now go even unto Bethlehem, and see this thing which is come to pass, which the Lord hath made known unto us.",
+    "WEB": "When the angels went away from them into the sky, the shepherds said to one another, “Let’s go to Bethlehem, now, and see this thing that has happened, which the Lord has made known to us.”"
+   },
+   "truncated": false
+  },
+  "Luke 2:16": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "When the angels went away from them into heaven, the shepherds said to one another, Let us go over to Bethlehem and see this thing that has happened which the Lord has made known to us. And they went with haste and found Mary and Joseph and the baby lying in a manger, and when they saw it, they made known the saying that had been told them concerning this child. And all who heard it wondered at what the shepherds told them. But Mary, Mary treasured up all these things, pondering them her in her heart, and the shepherds returned, glorifying and praising God for all they had heard and seen.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2020-12-21T00:41:14Z",
+     "role": "host",
+     "t": 1044.44,
+     "title": "Oh Holy Night",
+     "video_id": "5ALRUMILjZ8"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And they came with haste, and found Mary, and Joseph, and the babe lying in a manger.",
+    "WEB": "They came with haste and found both Mary and Joseph, and the baby was lying in the feeding trough."
    },
    "truncated": false
   },
@@ -1009,14 +1122,27 @@
      "t": 7986.84,
      "title": "Exposing Jacob Hansen's Anti-Trinitarian Garbage (w/ Sam Shamoun)",
      "video_id": "rS_-I5wXEsc"
+    },
+    {
+     "confidence": 0.5,
+     "context": "The whole earth is full of his glory. And the foundations of the threshold shook at the voice of him who called. And the house was filled with smoke. And I said, Woe is me, for I am lost, for I am a man of unclean lips, and I dwell in the midst of a people of unclean lips, for my eyes have seen the king, the Lord of hosts. Then one of the seraphim flew to me, having in his hand a burning coal that he had taken with tongues from the altar.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-02-02T12:01:33Z",
+     "role": "host",
+     "t": 1187.8,
+     "title": "The Holy, Holy, Holy God (Glory Session One)",
+     "video_id": "ylWFJxM1ig0"
     }
    ],
    "creators": {
     "capturing-christianity": 1,
     "drcraigvideos": 1,
+    "jackie-hill-perry": 1,
     "mike-winger": 1
    },
-   "n": 3,
+   "n": 4,
    "text": {
     "KJV": "For mine eyes have seen thy salvation,",
     "WEB": "for my eyes have seen your salvation,"
@@ -1025,6 +1151,18 @@
   },
   "Luke 2:4": {
    "citations": [
+    {
+     "confidence": 0.6129,
+     "context": "Turn in your Bibles to Luke chapter 2. Starting at verse 4. It says, And Joseph also went up from Galilee from the town of Nazareth to Judea to the city of David, which is called Bethlehem, because he was of the house and lineage of David, to be registered with Mary, his betrothed, who was with child.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2020-12-21T00:41:14Z",
+     "role": "host",
+     "t": 956.0,
+     "title": "Oh Holy Night",
+     "video_id": "5ALRUMILjZ8"
+    },
     {
      "confidence": 0.6129,
      "context": "In those days, a decree went out from Caesar Augustus that all the world should be taxed. This was the first census taken while Corinius was governor of Syria. All went to be enrolled, each to his own city. And Joseph went up from Galilee out of the town of Nazareth to Judea to the city of David, which is called Bethlehem, because he was of the house and lineage of David. I have detailed videos on this, but the census in Luke 2 doesn't fit Roman history, Roman administration, or Roman chronology.",
@@ -1039,12 +1177,63 @@
     }
    ],
    "creators": {
+    "jackie-hill-perry": 1,
     "paulogia": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "And Joseph also went up from Galilee, out of the city of Nazareth, into Judaea, unto the city of David, which is called Bethlehem; (because he was of the house and lineage of David:)",
     "WEB": "Joseph also went up from Galilee, out of the city of Nazareth, into Judea, to David’s city, which is called Bethlehem, because he was of the house and family of David,"
+   },
+   "truncated": false
+  },
+  "Luke 2:7": {
+   "citations": [
+    {
+     "confidence": 0.6154,
+     "context": "And while they were there, the time came for her to give birth. And she gave birth to her firstborn son and wrapped him in swaddling clothes, and laid him in a manger, because there was no place in the room, a place for him in the inn. And in the same region there were shepherds out in the field, keeping watch over their flocks by night.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2020-12-21T00:41:14Z",
+     "role": "host",
+     "t": 976.2,
+     "title": "Oh Holy Night",
+     "video_id": "5ALRUMILjZ8"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And she brought forth her firstborn son, and wrapped him in swaddling clothes, and laid him in a manger; because there was no room for them in the inn.",
+    "WEB": "She gave birth to her firstborn son. She wrapped him in bands of cloth and laid him in a feeding trough, because there was no room for them in the inn."
+   },
+   "truncated": false
+  },
+  "Luke 2:9": {
+   "citations": [
+    {
+     "confidence": 0.6316,
+     "context": "And in the same region there were shepherds out in the field, keeping watch over their flocks by night. And an angel of the Lord appeared to them, and the glory of the Lord shone around them, and they were filled with fear. And the angel said to them, Fear not, for behold, I bring you good news of great joy that will be for all people. For unto you is born this day in the city of David a Savior, who is Christ the Lord.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2020-12-21T00:41:14Z",
+     "role": "host",
+     "t": 994.68,
+     "title": "Oh Holy Night",
+     "video_id": "5ALRUMILjZ8"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And, lo, the angel of the Lord came upon them, and the glory of the Lord shone round about them: and they were sore afraid.",
+    "WEB": "Behold, an angel of the Lord stood by them, and the glory of the Lord shone around them, and they were terrified."
    },
    "truncated": false
   },
@@ -1098,6 +1287,43 @@
    },
    "truncated": false
   },
+  "Luke 4:36": {
+   "citations": [
+    {
+     "confidence": 0.5556,
+     "context": "Jesus used God's words. When a man possessed by a demon came out of a synagogue, Jesus spoke directly to the demon, uh, commanded it to come out, to which the spirit obeyed. The onlookers said among themselves, What is this word? For with authority and power, he commands the unclean spirits and they come out. Jesus used liberating words. One day, while while Jesus was asleep inside of a boat, the wind and the waves started to break against it, filling the boat with water.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2021-09-09T16:15:49Z",
+     "role": "host",
+     "t": 1545.36,
+     "title": "Watch Your Mouth (James 3:1-12)",
+     "video_id": "hBFg6ijZspA"
+    },
+    {
+     "confidence": 0.5556,
+     "context": "Jesus used God's words. When a man possessed by a demon came out of a synagogue, Jesus spoke directly to the demon, uh, commanded it to come out, to which the spirit obeyed. The onlookers said among themselves, What is this word? For with authority and power, he commands the unclean spirits and they come out. Jesus used liberating words. One day, while while Jesus was asleep inside of a boat, the wind and the waves started to break against it, filling the boat with water.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-01-17T17:38:57Z",
+     "role": "host",
+     "t": 55.92,
+     "title": "How did Jesus use His words?",
+     "video_id": "oevPzRVdsZk"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "And they were all amazed, and spake among themselves, saying, What a word is this! for with authority and power he commandeth the unclean spirits, and they come out.",
+    "WEB": "Amazement came on all and they spoke together, one with another, saying, “What is this word? For with authority and power he commands the unclean spirits, and they come out!”"
+   },
+   "truncated": false
+  },
   "Luke 7:27": {
    "citations": [
     {
@@ -1132,43 +1358,6 @@
    "text": {
     "KJV": "This is he, of whom it is written, Behold, I send my messenger before thy face, which shall prepare thy way before thee.",
     "WEB": "This is he of whom it is written, ‘Behold, I send my messenger before your face, who will prepare your way before you.’"
-   },
-   "truncated": false
-  },
-  "Luke 8:10": {
-   "citations": [
-    {
-     "confidence": 0.9271,
-     "context": "That really tickled me. So which verse do we have to compare with this? Let me read to you from Mark 4 10 through 12. We actually covered this pretty recently. It says, when he was alone, those who were around him with the twelve asked him about the parables, and he said to them, To you has been given the secret of the kingdom of God, but for those outside, everything comes in parables, in order that they may indeed look but not perceive, they may indeed hear but not understand, so that they may not turn again and be forgiven.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2026-07-09T14:00:21Z",
-     "role": "host",
-     "t": 769.48,
-     "title": "Jesus Was the First Jordan Peterson | Sacred Word Salad",
-     "video_id": "0mE4Bz2jsXY"
-    },
-    {
-     "confidence": 0.8974,
-     "context": "In which case, we'll end with this verse, which, by the way, is found in three of the four gospels. I'll read to you from Mark though. Mark 4, 10 through 12. When he was alone, those who were around him with the twelve asked him about the parables, and he said to them, To you has been given the secret of the kingdom of God. But for those outside, everything comes in parables, in order that so hold on.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2026-07-05T14:00:16Z",
-     "role": "host",
-     "t": 1290.4,
-     "title": "God’s Favorite Weapon Is Confusion",
-     "video_id": "1mQN3dAT0KA"
-    }
-   ],
-   "creators": {
-    "mindshift": 2
-   },
-   "n": 2,
-   "text": {
-    "KJV": "And he said, Unto you it is given to know the mysteries of the kingdom of God: but to others in parables; that seeing they might not see, and hearing they might not understand.",
-    "WEB": "He said, “To you it is given to know the mysteries of God’s Kingdom, but to the rest it is given in parables, that ‘seeing they may not see, and hearing they may not understand.’"
    },
    "truncated": false
   },

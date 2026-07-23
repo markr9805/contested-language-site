@@ -29,6 +29,11 @@
   --m-exp: #d8ecd8; --m-exp-ink: #1c5c1c;
   --m-shi: #dde6f5; --m-shi-ink: #1c3c6c;
   --m-emb: #f5e6d8; --m-emb-ink: #7a4a12;
+  --v-contested: #f5d8d8; --v-contested-ink: #7a1c1c;
+  --v-mixed: #f5ecd8; --v-mixed-ink: #7a5a12;
+  --v-convergent: #d8ecd8; --v-convergent-ink: #1c5c1c;
+  --v-insufficient: #eceef2; --v-insufficient-ink: #585d6b;
+  --v-pending: #dde6f5; --v-pending-ink: #1c3c6c;
 }
 [data-theme="dark"] {
   color-scheme: dark;
@@ -55,6 +60,11 @@
   --m-exp: #173217; --m-exp-ink: #8fd08f;
   --m-shi: #16233a; --m-shi-ink: #9bb8e8;
   --m-emb: #3a2a17; --m-emb-ink: #e0b280;
+  --v-contested: #3a1717; --v-contested-ink: #e89b9b;
+  --v-mixed: #3a2f17; --v-mixed-ink: #e0c280;
+  --v-convergent: #173217; --v-convergent-ink: #8fd08f;
+  --v-insufficient: #232730; --v-insufficient-ink: #b4b9c4;
+  --v-pending: #16233a; --v-pending-ink: #9bb8e8;
 }
 /* no-JS fallback: follow the OS */
 @media (prefers-color-scheme: dark) {
@@ -69,6 +79,11 @@
     --highlight: rgba(255,196,0,0.25);
     --banner-bg: #33290f; --banner-border: #6b5220;
     --bar: #0a0c0f; --bar-ink: #eceef2; --bar-sub: #787e8b;
+    --v-contested: #3a1717; --v-contested-ink: #e89b9b;
+    --v-mixed: #3a2f17; --v-mixed-ink: #e0c280;
+    --v-convergent: #173217; --v-convergent-ink: #8fd08f;
+    --v-insufficient: #232730; --v-insufficient-ink: #b4b9c4;
+    --v-pending: #16233a; --v-pending-ink: #9bb8e8;
   }
 }
 
@@ -325,6 +340,40 @@ button.stat-tile:hover { border-color: var(--series-1); }
 }
 .tip:hover::after { opacity: 1; visibility: visible; }
 .tip-r::after { left: auto; right: 0; }
+
+/* ---- contestation view: verdict badges + framing split ---- */
+.verdict {
+  display: inline-block; font: 600 11.5px "IBM Plex Mono", ui-monospace, monospace;
+  text-transform: uppercase; letter-spacing: 0.06em;
+  border-radius: 999px; padding: 3px 12px; margin-top: 4px;
+}
+.verdict.tip { border-bottom: none; }
+.verdict.contested { background: var(--v-contested); color: var(--v-contested-ink); }
+.verdict.mixed { background: var(--v-mixed); color: var(--v-mixed-ink); }
+.verdict.convergent { background: var(--v-convergent); color: var(--v-convergent-ink); }
+.verdict.insufficient { background: var(--v-insufficient); color: var(--v-insufficient-ink); }
+.verdict.pending { background: var(--v-pending); color: var(--v-pending-ink); }
+
+.framing-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.framing-col {
+  background: var(--surface-1); border: 1px solid var(--border); border-radius: 14px;
+  padding: 14px 16px; min-width: 0;
+}
+.framing-col h4 {
+  margin: 0 0 8px; font-size: 12px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.05em; color: var(--text-muted);
+}
+.framing-col p { margin: 0; font-size: 13.5px; line-height: 1.55; color: var(--text-primary); }
+.framing-col.empty p { color: var(--text-secondary); font-style: italic; }
+
+/* ---- contestation view: candidate sidebar list ---- */
+#candidate-area { display: flex; flex-direction: column; min-height: 0; max-height: 34vh; }
+#candidate-scroll { overflow-y: auto; min-height: 0; padding: 0 4px 8px; }
+
+/* ---- contestation view: cited-quote tray items ---- */
+.quote { padding: 8px 0; border-bottom: 1px solid var(--gridline); font-size: 12.5px; line-height: 1.5; color: var(--text-primary); }
+.quote:last-child { border-bottom: 0; }
+.quote-cite { margin: 4px 0 0; font-size: 11px; color: var(--text-muted); }
 
 /* ---- footer ---- */
 .site-foot { border-top: 1px solid var(--border); padding: 14px 24px; color: var(--text-muted); font-size: 12px; }

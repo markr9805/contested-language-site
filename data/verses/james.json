@@ -26,6 +26,31 @@
    },
    "truncated": false
   },
+  "James 1:3": {
+   "citations": [
+    {
+     "confidence": 0.6667,
+     "context": "This is like something that is has been around for generations. So I think just this deep dependence on Jesus and knowing that I am not the center of that, but God is. And I think the other things, one a scripture that we all all love, especially when we're dealing with trials and tribulations in James 1, where it says, consider it prayer joy, brothers and sisters, whenever you face trials of many kinds, because you know that the testing of your faith produces perseverance.",
+     "creator": "jude-3-project",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-01-13T14:00:05Z",
+     "role": "unknown",
+     "t": 4750.44,
+     "title": "Power: How Can I Take Control & Find Freedom From Pain? | Courageous Conversations 2024",
+     "video_id": "KlW_S2elDos"
+    }
+   ],
+   "creators": {
+    "jude-3-project": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Knowing this, that the trying of your faith worketh patience.",
+    "WEB": "knowing that the testing of your faith produces endurance."
+   },
+   "truncated": false
+  },
   "James 1:8": {
    "citations": [
     {
@@ -88,6 +113,55 @@
    },
    "truncated": false
   },
+  "James 3:10": {
+   "citations": [
+    {
+     "confidence": 0.6,
+     "context": "It is a restless evil, full of deadly poison. With it we bless our Lord and Father, and with it we curse people who are made in the likeness of God. From the same mouth come blessing and cursing. My brothers, these things ought not to be so. Does a spring pour forth from the same opening, both fresh and salt water? Can a fig tree, my brothers, bear olives or a grapevine produce figs?",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2021-09-09T16:15:49Z",
+     "role": "host",
+     "t": 358.76,
+     "title": "Watch Your Mouth (James 3:1-12)",
+     "video_id": "hBFg6ijZspA"
+    },
+    {
+     "confidence": 0.6,
+     "context": "From the same mouth come blessing and cursing. My brothers, these things ought not to be so. If there is any verse in this entire passage that challenges me most, it's this one.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2021-09-09T16:15:49Z",
+     "role": "host",
+     "t": 1152.48,
+     "title": "Watch Your Mouth (James 3:1-12)",
+     "video_id": "hBFg6ijZspA"
+    },
+    {
+     "confidence": 0.6,
+     "context": "Scripture says that out of the abundance of the heart, the mouth speaks, our words reveal what our heart hides. James speaks to this. In verses 10 through 12, he says, From the same mouth come blessing and cursing, my brothers, these things ought not to be so. Does a spring pour forth from the same opening, but both fresh and salt water? Can a fig tree, my brothers, bear olives or a grapevine produce figs, neither can a salt salt pond yield fresh water.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2021-09-09T16:15:49Z",
+     "role": "host",
+     "t": 1296.96,
+     "title": "Watch Your Mouth (James 3:1-12)",
+     "video_id": "hBFg6ijZspA"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 3
+   },
+   "n": 3,
+   "text": {
+    "KJV": "Out of the same mouth proceedeth blessing and cursing. My brethren, these things ought not so to be.",
+    "WEB": "Out of the same mouth comes blessing and cursing. My brothers, these things ought not to be so."
+   },
+   "truncated": false
+  },
   "James 3:16": {
    "citations": [
     {
@@ -113,20 +187,82 @@
    },
    "truncated": false
   },
-  "James 4:4": {
+  "James 3:8": {
    "citations": [
     {
-     "confidence": 0.79,
-     "context": "There is no Christian doctrine that teaches love for everybody. Especially not in the New Testament. The New Testament is very clear about that you must hate the world. And that love for the world is enmity with God. I don't know what book y'all have been reading. You know, I mean, it's there. It's there. Come out. Be ye separate. Come out from among them. Hmm. Yeah, yeah. I don't know what book y'all been reading.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-12-04T19:13:28Z",
+     "confidence": 0.8333,
+     "context": "And the tongue is a fire, a world of unrighteousness. The tongue is set among our members, staining the whole body, setting on fire the entire course of life and set on fire by hell. For every kind of beast and bird of reptile and sea creature can be tamed and has been tamed by mankind, but no human being can tame the tongue. It is a restless evil, full of deadly poison.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2021-09-09T16:15:49Z",
      "role": "host",
-     "t": 245.44,
-     "title": "Does God Love The Kids",
-     "video_id": "-T-pAnSk22E"
+     "t": 335.48,
+     "title": "Watch Your Mouth (James 3:1-12)",
+     "video_id": "hBFg6ijZspA"
     },
+    {
+     "confidence": 0.8333,
+     "context": "But that is easier said than done. And James knows this. Look at verse 7. For every kind of beast and bird of reptile and sea creature can be tamed and has been tamed by mankind, but no human being can tame the tongue. It is a restless evil full of deadly poison.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2021-09-09T16:15:49Z",
+     "role": "host",
+     "t": 974.12,
+     "title": "Watch Your Mouth (James 3:1-12)",
+     "video_id": "hBFg6ijZspA"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "But the tongue can no man tame; it is an unruly evil, full of deadly poison.",
+    "WEB": "but nobody can tame the tongue. It is a restless evil, full of deadly poison."
+   },
+   "truncated": false
+  },
+  "James 3:9": {
+   "citations": [
+    {
+     "confidence": 0.6316,
+     "context": "It is a restless evil, full of deadly poison. With it we bless our Lord and Father, and with it we curse people who are made in the likeness of God. From the same mouth come blessing and cursing. My brothers, these things ought not to be so. Does a spring pour forth from the same opening, both fresh and salt water?",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2021-09-09T16:15:49Z",
+     "role": "host",
+     "t": 351.08,
+     "title": "Watch Your Mouth (James 3:1-12)",
+     "video_id": "hBFg6ijZspA"
+    },
+    {
+     "confidence": 0.6316,
+     "context": "Genesis 9, when God is talking to Noah, he says, whoever sheds the blood of man by man shall his blood be shed. For God made man in his own image. When you fast forward to James 3, when he's talking about taming the tongue, he says, with it we bless our Lord and Father, and with it we curse people who are made in the likeness of God. The value of human life is so high that human beings will be judged based on their treatment of human beings.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-01-26T16:27:52Z",
+     "role": "host",
+     "t": 1031.88,
+     "title": "Sexuality and Identity",
+     "video_id": "u-6a6kiRgYg"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "Therewith bless we God, even the Father; and therewith curse we men, which are made after the similitude of God.",
+    "WEB": "With it we bless our God and Father, and with it we curse men who are made in the image of God."
+   },
+   "truncated": false
+  },
+  "James 4:4": {
+   "citations": [
     {
      "confidence": 0.5862,
      "context": "Let's go further. Let's go further. James, James says, and you know, this is the one that some people believe was the brother of Jesus. James says, you adulterers, do you not know that friendship with the world is hostility toward God? Therefore, whoever wishes to be a friend of the world makes himself an enemy of God.",
@@ -141,9 +277,9 @@
     }
    ],
    "creators": {
-    "darante-lamar": 2
+    "darante-lamar": 1
    },
-   "n": 2,
+   "n": 1,
    "text": {
     "KJV": "Ye adulterers and adulteresses, know ye not that the friendship of the world is enmity with God? whosoever therefore will be a friend of the world is the enemy of God.",
     "WEB": "You adulterers and adulteresses, don’t you know that friendship with the world is hostility toward God? Whoever therefore wants to be a friend of the world makes himself an enemy of God."
@@ -204,6 +340,18 @@
    "citations": [
     {
      "confidence": 0.5,
+     "context": "In the context, James is referring to the elders, the presbyteroi, from which we get the English word priest, those who anoint the sick also. James says in verse 15, the prayer of faith will save the sick man, and the Lord will raise him up, and if he has committed sins, he will be forgiven. Notice this is joined with the conjunction therefore, or in Greek, un. This places the confession of sins to one another in the context of seeking out the church's presbyters, or the church's priests who anoint people with oil that results in the forgiveness of sins.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-04-22T13:01:31Z",
+     "role": "host",
+     "t": 573.08,
+     "title": "Debating Confession with Gavin Ortlund and Ruslan",
+     "video_id": "i5UG90KTs-U"
+    },
+    {
+     "confidence": 0.5,
      "context": "In the context, James is referring to the elders, the presbyteroi, from which we get the English word priest, those who anoint the sick also. James says in verse 15, the prayer of faith will save the sick man, and the Lord will raise him up, and if he has committed sins, he will be forgiven. Notice this is joined with the conjunction therefore, or in Greek, un. This places the confession of sins to one another in the context of seeking out the church's presbyters or the church's priests who anoint people with oil that results in the forgiveness of sins.",
      "creator": "counsel-of-trent",
      "detection_method": "shingle_match",
@@ -216,9 +364,9 @@
     }
    ],
    "creators": {
-    "counsel-of-trent": 1
+    "counsel-of-trent": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "And the prayer of faith shall save the sick, and the Lord shall raise him up; and if he have committed sins, they shall be forgiven him.",
     "WEB": "and the prayer of faith will heal him who is sick, and the Lord will raise him up. If he has committed sins, he will be forgiven."
@@ -227,6 +375,18 @@
   },
   "James 5:16": {
    "citations": [
+    {
+     "confidence": 0.5652,
+     "context": "But Irenaeus doesn't say anything about confessing to the entire congregation, as opposed to publicly revealing sins to a priest rather than privately confessing them in prayer at the church. The only place where confession of sins is mentioned in Scripture is James 5 16, which says, Therefore, confess your sins to one another, and pray for one another, that you may be healed. In the context, James is referring to the elders, the presbyteroi, from which we get the English word priest, those who anoint the sick also.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-04-22T13:01:31Z",
+     "role": "host",
+     "t": 553.32,
+     "title": "Debating Confession with Gavin Ortlund and Ruslan",
+     "video_id": "i5UG90KTs-U"
+    },
     {
      "confidence": 0.5652,
      "context": "The only place where confession of sins is mentioned in Scripture is James 5 16, which says, Therefore, confess your sins to one another and pray for one another, that you may be healed. In the context, James is referring to the elders, the presbyteroi, from which we get the English word priest, those who anoint the sick also.",
@@ -241,9 +401,9 @@
     }
    ],
    "creators": {
-    "counsel-of-trent": 1
+    "counsel-of-trent": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Confess your faults one to another, and pray one for another, that ye may be healed. The effectual fervent prayer of a righteous man availeth much.",
     "WEB": "Confess your sins to one another and pray for one another, that you may be healed. The insistent prayer of a righteous person is powerfully effective."

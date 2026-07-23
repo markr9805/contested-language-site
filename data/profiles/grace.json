@@ -1,26 +1,26 @@
 {
  "lines": {
-  "19732": {
-   "context": "Again, I'm talking about, you know, the women that y'all call on the carpet for whatever goofy reason. That's the thing, fellas. Black women have But honestly, that's kind of the point that I'm trying to get at here. Why should you, not as a man, but just as a human being, desire someone who won't extend the same kind of grace that you're willing to offer? Like, why does your supposed desirability have to qualify your worthiness as a human?",
-   "creator": "lil-bill",
-   "occurrence_id": 19732,
-   "published_at": "2023-08-06T18:15:11Z",
-   "role": "host",
+  "33032": {
+   "context": "They need someone who is going to love them and protect them and nourish them, not someone who is going to see them as someone who has to get the evil expelled from them. Your home is a collection of sinners saved by real grace. You must all, all of you, everybody in your home must look to Christ, because doing so is absolutely necessary. But you're not going to look to Christ. The good news is not going to make any sense unless you have internalized the bad news.",
+   "creator": "belief-it-or-not",
+   "occurrence_id": 33032,
+   "published_at": "2025-09-04T15:01:13Z",
+   "role": "unknown",
    "surface": "grace",
-   "t": 4638.08,
-   "title": "everything in this thumbnail is problematic...including me",
-   "video_id": "OpN1WiJ66ho"
+   "t": 1942.56,
+   "title": "The Worst Christian Parenting Advice | Belief It Or Not",
+   "video_id": "fYVXJEtmc1M"
   },
-  "9243": {
-   "context": "You see what I'm saying? It's easy as that. Exactly. Like that, that's on them. And then honestly, honestly, like I I even I give them a little grace, right? I give them a little grace because I say, like, everybody don't have to live at my speed. Everybody out here ain't gotta be trying to do the stuff that I'm trying to do. And I'm very careful not to not to lift up my nose or look down my nose, however the fuck they say that shit.",
-   "creator": "darante-lamar",
-   "occurrence_id": 9243,
-   "published_at": "2025-01-18T09:52:14Z",
+  "34130": {
+   "context": "I use the label apostate to take back its ownership, because apostate or murted are often used against us as insults. Whatever work I do to take back that label, I have to first undo all the harm that he's done to tarnish it. And that's really unfortunate, because he started off by helping so many people, so it's sad to see him fall from grace like that. Like I said, this isn't exclusively an AP problem, but he's the most prominent example. The way I see it, the underlying problem is hate, and I'm not validating the false accusation that we're inundated with, that critics of Islam do it because they're hateful.",
+   "creator": "apostate-aladdin",
+   "occurrence_id": 34130,
+   "published_at": "2024-03-08T08:01:08Z",
    "role": "host",
    "surface": "grace",
-   "t": 1916.0,
-   "title": "What’s Wrong With The Bible’s Best Advice",
-   "video_id": "AgzRmf388AQ"
+   "t": 1400.76,
+   "title": "The DARK side of anti-Islam YouTube",
+   "video_id": "gbH54Ar3z1Y"
   }
  },
  "profiles": [
@@ -31,9 +31,9 @@
     {
      "aspect": "rhetorical-role",
      "evidence": [
-      9243
+      33032
      ],
-     "text": "Grace is identified as a theological structure that can maintain moral inconsistency and keep individuals stuck in shame rather than guiding them toward truth (L15)."
+     "text": "Grace is presented as a mechanism that can de-energize individuals, making them feel they have no hope of changing, which the speaker identifies as an 'excuse' (L6)."
     }
    ],
    "data_hash": "8626ec706bb67a7535e4ded2",
@@ -70,46 +70,39 @@
    "cell": "overall",
    "claims": [
     {
-     "aspect": "valence",
-     "evidence": [
-      9243
-     ],
-     "text": "In some instances, 'grace' is presented as a mechanism that can keep individuals from achieving personal growth by maintaining a sense of perpetual need or shame (L15)."
-    },
-    {
      "aspect": "rhetorical-role",
      "evidence": [
-      19732
+      34130
      ],
-     "text": "The term is used to describe a protective social identity or narrative ('shield identity') that deflects criticism and manages public perception (L16)."
+     "text": "The term suggests finding acceptance and understanding within life's mistakes or mishaps (L6)."
     }
    ],
-   "data_hash": "8626ec706bb67a7535e4ded2",
+   "data_hash": "7100e5f413dbcbfb196537a2",
    "dropped_claims": 0,
-   "generated_at": "2026-07-19T14:20:56Z",
+   "generated_at": "2026-07-19T14:21:24Z",
    "k": 2,
    "model": "ollama:gemma4:e4b:c6eb396dbd59",
-   "n": 185,
+   "n": 149,
    "prompt_version": "1",
    "sampled": [
-    14590,
-    14589,
-    14591,
-    14592,
-    16965,
-    33032,
-    8827,
-    8828,
-    601,
-    4673,
-    1311,
-    2204,
-    35031,
-    10420,
-    9243,
-    19732
+    15599,
+    4444,
+    33768,
+    21726,
+    19772,
+    34130,
+    30294,
+    4445,
+    27379,
+    32316,
+    11121,
+    2434,
+    10327,
+    30013,
+    29752,
+    7438
    ],
-   "sense": 0,
+   "sense": 1,
    "stale": true,
    "term": "grace"
   }

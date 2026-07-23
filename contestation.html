@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Contested Language — contestation view</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='%233d7bfd'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="theme.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <span class="wordmark">CONTESTED<em>/</em>LANGUAGE</span>
+  <p class="corpus-stats" id="corpus-stats">loading corpus…</p>
+  <div class="topbar-right">
+    <span class="badge-private">unlisted research preview</span>
+    <div class="theme-seg" role="group" aria-label="Theme">
+      <button type="button" data-theme-btn="auto">Auto</button>
+      <button type="button" data-theme-btn="light">Light</button>
+      <button type="button" data-theme-btn="dark">Dark</button>
+    </div>
+  </div>
+</header>
+
+<div class="shell">
+  <div class="sidebar">
+    <nav class="side-nav" aria-label="Views">
+      <a href="index.html">Terms</a>
+      <a href="map.html">Creator map</a>
+      <a href="galaxy.html">Concept galaxy</a>
+      <a href="cloud.html">Occurrence cloud</a>
+      <a href="verses.html">Verse explorer</a>
+      <a href="contestation.html" aria-current="page">Contestation</a>
+    </nav>
+    <nav class="side-scroll" aria-label="Terms by verdict">
+      <div id="verdict-groups"></div>
+    </nav>
+    <div class="filter-area" id="candidate-area">
+      <div style="padding:6px 4px;font-weight:600">Layer-2 candidates
+        <span class="unit tip" data-tip="Surfaced automatically by dispersion + divergence ranking, not yet pinned into the lexicon. No Layer-4 framing exists for these — they show scores, never a two-sided reading.">unpinned pool</span>
+      </div>
+      <div class="side-scroll" id="candidate-scroll">
+        <div id="candidate-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <main class="main" id="main">
+    <div class="coverage-banner" id="caveat" role="note"></div>
+
+    <p class="placeholder" id="placeholder">Pick a term on the left to see how
+    apologetics and deconstruction voices frame it against each other, or open
+    a Layer-2 candidate to see the scores behind why it's in the watchlist pool.</p>
+
+    <div id="framing-view" hidden>
+      <section class="term-head">
+        <h2 id="framing-title"></h2>
+        <p class="term-variants">
+          <span class="verdict tip" id="verdict-badge" data-tip="an LLM's reading of the cited quotes, not a verdict of record"></span>
+        </p>
+      </section>
+      <div class="framing-cols" id="framing-cols">
+        <div class="framing-col" id="apol-col">
+          <h4>Apologetics</h4>
+          <p id="apol-text"></p>
+        </div>
+        <div class="framing-col" id="decon-col">
+          <h4>Deconstruction</h4>
+          <p id="decon-text"></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="candidate-view" hidden>
+      <section class="term-head">
+        <h2 id="candidate-title"></h2>
+        <p class="term-variants">Layer-2 candidate — not yet pinned to the lexicon</p>
+      </section>
+      <section class="card">
+        <div class="card-head"><h3>Ranking scores</h3></div>
+        <table class="data-table" id="candidate-table"></table>
+        <p class="insufficient-note">Layer-2 candidate — pin it in lexicon.json
+        to get a Layer-4 framing.</p>
+      </section>
+    </div>
+  </main>
+
+  <aside class="tray" aria-label="Evidence">
+    <div class="tray-label">EVIDENCE TRAY</div>
+    <h3 id="evidence-title">Cited quotes</h3>
+    <p class="evidence-note" id="evidence-note">Pick a term or candidate — the
+    quotes its framing was drawn from land here without moving the page.</p>
+    <div class="tray-scroll" id="evidence-quotes"></div>
+    <div class="tray-foot">Every framing cites the quotes behind it — the
+    model annotates evidence, it is never itself the evidence.</div>
+  </aside>
+</div>
+
+<footer class="site-foot">
+  <p>Derived artifacts regenerate deterministically from the canonical store.</p>
+</footer>
+
+<script src="contestation.js"></script>
+</body>
+</html>
