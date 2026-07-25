@@ -194,6 +194,21 @@ a:hover { color: var(--series-1-deep); text-decoration: underline; }
 .side-foot strong { color: var(--series-1); }
 .side-foot button { border: 0; background: none; color: var(--series-1); font: 600 12px Archivo, sans-serif; cursor: pointer; }
 
+/* ---- discovered/pinned toggle -------------------------------------------------- */
+.toggle-row { padding: 8px 12px 4px; border-top: 1px solid var(--border); }
+.discovered-toggle {
+  display: flex; align-items: center; gap: 6px; cursor: pointer;
+  font-size: 12.5px; color: var(--text-secondary);
+}
+.discovered-toggle input { cursor: pointer; accent-color: var(--series-1); }
+.discovered-badge {
+  display: inline-block; font: 600 9.5px "IBM Plex Mono", ui-monospace, monospace;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  background: var(--m-emb); color: var(--m-emb-ink);
+  border-radius: 999px; padding: 1px 7px; margin-left: 6px; vertical-align: 1px;
+}
+.term-btn.discovered { font-style: italic; }
+
 /* ---- main -------------------------------------------------------------------- */
 .main { padding: 20px 24px; min-width: 0; }
 .placeholder { color: var(--text-secondary); max-width: 46em; }
@@ -374,6 +389,39 @@ button.stat-tile:hover { border-color: var(--series-1); }
 .quote { padding: 8px 0; border-bottom: 1px solid var(--gridline); font-size: 12.5px; line-height: 1.5; color: var(--text-primary); }
 .quote:last-child { border-bottom: 0; }
 .quote-cite { margin: 4px 0 0; font-size: 11px; color: var(--text-muted); }
+
+/* ---- creator concepts view: creator picker + concept/entity rows ---- */
+.creator-item {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 8px;
+  width: 100%; text-align: left; border: 0; cursor: pointer; font: inherit;
+  font-size: 13px; padding: 5px 8px; border-radius: 7px; background: none;
+  color: var(--text-primary);
+}
+.creator-item:hover { background: var(--accent-soft); }
+.creator-item[aria-current="true"] { background: var(--accent-soft); color: var(--series-1-deep); font-weight: 600; }
+.creator-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.creator-meta { flex: none; color: var(--text-muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+
+.concept-row {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px;
+  padding: 6px 4px; border-bottom: 1px solid var(--gridline); font-size: 13px;
+}
+.concept-row:last-child { border-bottom: 0; }
+.concept-row.is-signal { background: var(--accent-soft); border-radius: 8px; padding-left: 8px; padding-right: 8px; }
+.concept-surface { color: var(--text-primary); }
+.concept-dist { margin-left: auto; color: var(--text-muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+.signal-flag {
+  flex: none; font: 600 11px Archivo, sans-serif; color: var(--series-1-deep);
+  background: var(--surface-1); border: 1px solid var(--series-1);
+  border-radius: 999px; padding: 2px 10px; cursor: pointer; white-space: nowrap;
+}
+.signal-flag:hover { background: var(--series-1); color: #fff; }
+.evidence-quote {
+  margin: 0; padding: 8px 0; border-bottom: 1px solid var(--gridline);
+  font-size: 12.5px; line-height: 1.5; color: var(--text-primary);
+}
+.evidence-quote:last-child { border-bottom: 0; }
+.filter-note { margin: 6px 4px 0; font-size: 11px; color: var(--text-muted); }
 
 /* ---- footer ---- */
 .site-foot { border-top: 1px solid var(--border); padding: 14px 24px; color: var(--text-muted); font-size: 12px; }

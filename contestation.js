@@ -1,7 +1,9 @@
 /* Contested Language — contestation view.
    Static site over site/data/contestation.json (Layer-4 framings for pinned
-   terms + the Layer-2 candidate pool). Governing rule unchanged: every
-   framing cites the quotes it was read from, and the model annotates
+   terms + the Layer-2 candidate pool), plus the optional Plan-2 LLM concept
+   layer's site/data/discovered.json (machine-DISCOVERED framings, not yet
+   pinned into the lexicon — DESIGN.md §8/§9). Governing rule unchanged:
+   every framing cites the quotes it was read from, and the model annotates
    evidence — it is never itself the evidence (DESIGN.md §3 claims
    discipline). All text is inserted via textContent; evidence renders into
    the persistent right-hand tray, never scrollIntoView. */
@@ -9,11 +11,14 @@
 
 const DATA = "data";
 const VERDICT_ORDER = ["contested", "mixed", "convergent", "insufficient", "pending"];
+const DISC_PREFIX = "disc:";
 
 const state = {
   meta: null,
   terms: [],
   candidates: [],
+  discovered: [],      // adapted discovered concepts, term-shaped (see adaptDiscovered)
+  showDiscovered: false,
   term: null,       // selected term object, or null
   candidate: null,  // selected candidate object, or null
 };
@@ -33,6 +38,47 @@ async function fetchJSON(path) {
   return r.json();
 }
 
+// ---- discovered concepts (Plan-2 LLM layer, not pinned) ------------------------
+//
+// discovered.json shape (export_concepts): {meta:{model,generated_at,note},
+// concepts:[{surface, verdict, apologetics:{text,quotes:[string,...]},
+// deconstruction:{...}, apol, decon, keyness}]}. Adapted here into the same
+// term shape selectTerm/renderFramingCol/renderTermEvidence already expect —
+// {phrase, verdict, apologetics:{text,quotes:[{context,creator}]}, ...} —
+// with a `discovered: true` flag and no per-quote creator (the export cites
+// context only, so `creator` reads as "unattributed").
+
+function adaptSide(side) {
+  if (!side || !side.text) return null;
+  const quotes = (side.quotes || []).map((q) => ({ context: q, creator: "unattributed — discovered" }));
+  return { text: side.text, quotes };
+}
+
+function adaptDiscovered(concepts) {
+  return (concepts || []).map((c) => ({
+    phrase: c.surface,
+    verdict: c.verdict,
+    discovered: true,
+    apologetics: adaptSide(c.apologetics),
+    deconstruction: adaptSide(c.deconstruction),
+  }));
+}
+
+// A discovered concept's surface can collide with a pinned term's phrase
+// (e.g. both could be "deconstruction"); key discovered lookups under a
+// distinct namespace so selection never resolves to the wrong one.
+function keyFor(term) {
+  return term.discovered ? DISC_PREFIX + term.phrase : term.phrase;
+}
+
+function findTermByKey(key) {
+  if (key.startsWith(DISC_PREFIX)) {
+    const surface = key.slice(DISC_PREFIX.length);
+    return state.discovered.find((t) => t.phrase === surface);
+  }
+  return state.terms.find((t) => t.phrase === key);
+}
+
 // ---- sidebar: verdict groups --------------------------------------------------
 
 function renderVerdictGroups() {
@@ -40,9 +86,15 @@ function renderVerdictGroups() {
   wrap.replaceChildren();
   for (const verdict of VERDICT_ORDER) {
     const terms = state.terms.filter((t) => t.verdict === verdict);
+    const discovered = state.showDiscovered
+      ? state.discovered.filter((t) => t.verdict === verdict)
+      : [];
     const details = el("details");
     if (verdict === "contested") details.open = true;
-    const summary = el("summary", "", `${verdict} (${terms.length})`);
+    const count = discovered.length
+      ? `${terms.length} + ${discovered.length} discovered`
+      : `${terms.length}`;
+    const summary = el("summary", "", `${verdict} (${count})`);
     details.append(summary);
     const body = el("div", "chip-row");
     body.style.flexDirection = "column";
@@ -50,13 +102,28 @@ function renderVerdictGroups() {
     for (const t of terms) {
       const b = el("button", "term-btn", t.phrase);
       b.type = "button";
-      b.dataset.term = t.phrase;
+      b.dataset.term = keyFor(t);
       b.setAttribute("aria-current", "false");
-      b.addEventListener("click", () => selectTerm(t.phrase));
+      b.addEventListener("click", () => selectTerm(keyFor(t)));
+      body.append(b);
+    }
+    for (const t of discovered) {
+      const b = el("button", "term-btn discovered");
+      b.type = "button";
+      b.append(el("span", "", t.phrase), el("span", "discovered-badge", "discovered"));
+      b.dataset.term = keyFor(t);
+      b.setAttribute("aria-current", "false");
+      b.addEventListener("click", () => selectTerm(keyFor(t)));
       body.append(b);
     }
     details.append(body);
     wrap.append(details);
+  }
+  // re-render loses all button nodes — restore the current selection's
+  // highlight (if it's still visible under the current toggle state).
+  if (state.term) {
+    const btn = document.querySelector(`.term-btn[data-term="${CSS.escape(keyFor(state.term))}"]`);
+    if (btn) btn.setAttribute("aria-current", "true");
   }
 }
 
@@ -83,6 +150,24 @@ function clearSelectionButtons() {
   }
 }
 
+// Reset to the same "nothing selected" state the page boots into: placeholder
+// shown, both detail views hidden, tray back to its default note. Used when
+// the discovered toggle turns off while a discovered concept is selected, so
+// the main panel/tray never show a discovered concept with no visible
+// selected button.
+function clearSelection() {
+  state.term = null;
+  state.candidate = null;
+  clearSelectionButtons();
+  $("placeholder").hidden = false;
+  $("framing-view").hidden = true;
+  $("candidate-view").hidden = true;
+  $("evidence-title").textContent = "Cited quotes";
+  $("evidence-note").textContent =
+    "Pick a term or candidate — the quotes its framing was drawn from land here without moving the page.";
+  $("evidence-quotes").replaceChildren();
+}
+
 // ---- verdict badge --------------------------------------------------------------
 
 function sideNote(term) {
@@ -97,14 +182,14 @@ function sideNote(term) {
 
 // ---- term (framing) view --------------------------------------------------------
 
-function selectTerm(phrase) {
-  const term = state.terms.find((t) => t.phrase === phrase);
+function selectTerm(key) {
+  const term = findTermByKey(key);
   if (!term) return;
   state.term = term;
   state.candidate = null;
 
   clearSelectionButtons();
-  const btn = document.querySelector(`.term-btn[data-term="${CSS.escape(phrase)}"]`);
+  const btn = document.querySelector(`.term-btn[data-term="${CSS.escape(key)}"]`);
   if (btn) btn.setAttribute("aria-current", "true");
 
   $("placeholder").hidden = true;
@@ -116,6 +201,15 @@ function selectTerm(phrase) {
   badge.className = `verdict tip ${term.verdict}`;
   badge.textContent = term.verdict;
   badge.dataset.tip = "an LLM's reading of the cited quotes, not a verdict of record";
+  const variants = badge.parentElement;
+
+  const oldDisc = variants.querySelector(".discovered-badge");
+  if (oldDisc) oldDisc.remove();
+  if (term.discovered) {
+    const disc = el("span", "discovered-badge tip", "discovered");
+    disc.dataset.tip = "machine-DISCOVERED — proposed by an LLM from distinctive-word statistics, not pinned into the lexicon";
+    variants.append(disc);
+  }
 
   renderFramingCol("apol-col", "apol-text", term.apologetics, term);
   renderFramingCol("decon-col", "decon-text", term.deconstruction, term);
@@ -243,12 +337,34 @@ async function init() {
   state.terms = data.terms;
   state.candidates = data.candidates;
 
+  // discovered.json is optional — the Plan-2 LLM concept layer may not have
+  // been run. Its absence is not a page failure: the toggle just shows
+  // nothing (house ethic: an absent artifact is disclosed, not faked, and
+  // here disclosure is simply an empty list rather than a broken page).
+  try {
+    const disc = await fetchJSON("discovered.json");
+    state.discovered = adaptDiscovered(disc.concepts);
+  } catch (e) {
+    state.discovered = [];
+    console.warn("discovered.json not available — discovered-concept toggle will show nothing:", e.message);
+  }
+
   $("corpus-stats").textContent =
     `${fmt(state.meta.corpus_host_words)} host words · Layer-4 framings + Layer-2 pool`;
 
   renderCaveat();
   renderVerdictGroups();
   renderCandidateList();
+
+  const toggle = $("toggle-discovered");
+  toggle.checked = state.showDiscovered;
+  toggle.addEventListener("change", () => {
+    state.showDiscovered = toggle.checked;
+    if (!state.showDiscovered && state.term && state.term.discovered) {
+      clearSelection();
+    }
+    renderVerdictGroups();
+  });
 
   document.addEventListener("themechange", () => {});
 }

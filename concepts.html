@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Contested Language — creator concepts</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='%233d7bfd'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<script src="theme.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <span class="wordmark">CONTESTED<em>/</em>LANGUAGE</span>
+  <p class="corpus-stats" id="corpus-stats">creator concepts — discovered, not pinned</p>
+  <div class="topbar-right">
+    <span class="badge-private">unlisted research preview</span>
+    <div class="theme-seg" role="group" aria-label="Theme">
+      <button type="button" data-theme-btn="auto">Auto</button>
+      <button type="button" data-theme-btn="light">Light</button>
+      <button type="button" data-theme-btn="dark">Dark</button>
+    </div>
+  </div>
+</header>
+
+<div class="shell">
+  <div class="sidebar">
+    <nav class="side-nav" aria-label="Views">
+      <a href="index.html">Terms</a>
+      <a href="map.html">Creator map</a>
+      <a href="galaxy.html">Concept galaxy</a>
+      <a href="cloud.html">Occurrence cloud</a>
+      <a href="verses.html">Verse explorer</a>
+      <a href="contestation.html">Contestation</a>
+      <a href="concepts.html" aria-current="page">Creator concepts</a>
+    </nav>
+    <div class="toggle-row">
+      <span class="unit tip" data-tip="Machine-DISCOVERED per-creator vocabulary — an LLM's typing of distinctive phrases from that creator's own transcripts, not pinned into the lexicon (DESIGN.md §8).">discovered — not pinned</span>
+    </div>
+    <div style="padding:6px 4px;font-weight:600">Creators</div>
+    <nav class="side-scroll" aria-label="Creators"><div id="creator-list"></div></nav>
+    <div class="filter-area">
+      <div style="padding:6px 4px;font-weight:600">Show</div>
+      <label><input type="checkbox" id="f-concepts" checked> Concepts</label>
+      <label><input type="checkbox" id="f-entities" checked> Entities</label>
+      <label><input type="checkbox" id="f-signal"> Signal only</label>
+      <div class="filter-note" id="filter-note"></div>
+    </div>
+  </div>
+
+  <main class="main" id="main">
+    <div class="coverage-banner" id="coverage" role="note" hidden></div>
+    <p class="placeholder" id="placeholder">Pick a creator to see their distinctive
+    typed vocabulary — concepts, signal-flagged positioning labels (with cited
+    quotes), and entities — qualified by how much of their corpus we've ingested.</p>
+    <section id="creator-view" hidden>
+      <h2 id="creator-title"></h2>
+      <p class="term-variants"><a id="isolated-link" href="map.html">See this creator in the isolated map view →</a></p>
+      <section class="card" id="concepts-card">
+        <div class="card-head"><h3>Concepts <span class="unit tip" data-tip="Distinctive multi-word ideas from this creator's own transcripts, ranked by within-corpus distinctiveness.">distinctiveness-ranked</span></h3></div>
+        <div id="concepts-list"></div>
+      </section>
+      <section class="card" id="entities-card">
+        <div class="card-head"><h3>Entities <span class="unit tip" data-tip="Proper nouns (people, places, works) this creator coins or repeats.">names</span></h3></div>
+        <div id="entities-list"></div>
+      </section>
+    </section>
+  </main>
+
+  <aside class="tray" aria-label="Evidence">
+    <div class="tray-label">EVIDENCE TRAY</div>
+    <h3 id="evidence-title">Cited quotes</h3>
+    <p class="evidence-note" id="evidence-note">Click a signal-flagged phrase (⚑) —
+    the host quotes behind the reading land here without moving the page.</p>
+    <div class="tray-scroll" id="evidence-quotes"></div>
+    <div class="tray-foot">The model annotates cited evidence; it is never itself
+    the evidence (DESIGN.md §3).</div>
+  </aside>
+</div>
+
+<footer class="site-foot">
+  <p>Discovered per-creator concepts — proposed, never pinned. Coverage disclosed per creator.</p>
+</footer>
+<script src="concepts.js"></script>
+</body>
+</html>

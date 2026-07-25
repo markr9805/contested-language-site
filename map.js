@@ -332,7 +332,23 @@ async function init() {
     b.addEventListener("click", () => selectView(b.dataset.view));
   }
   document.addEventListener("themechange", () => selectView(state.view));
-  selectView("organic");
+  // A cross-link (e.g. from the creator concepts view) may land here as
+  // map.html#<slug> — if the slug names a real creator, open straight on
+  // the isolated view for them instead of the default organic scatter.
+  // A malformed fragment (e.g. "#%") throws URIError on decode -- treat that
+  // as no hash so it falls through to the default organic view below, rather
+  // than surfacing as the generic "failed to load artifacts" error and
+  // taking down the whole map view.
+  let hashSlug = "";
+  try {
+    hashSlug = decodeURIComponent(location.hash.slice(1));
+  } catch { /* malformed hash -> no hash */ }
+  if (hashSlug && views.creators[hashSlug]) {
+    state.creator = hashSlug;
+    selectView("isolated");
+  } else {
+    selectView("organic");
+  }
 }
 
 init().catch((e) => {
