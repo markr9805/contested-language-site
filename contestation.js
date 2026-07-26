@@ -121,6 +121,59 @@ function barChip(bar) {
   return chip;
 }
 
+// The corpus a bar was measured against, beside the bar itself.
+//
+// A p-value is a statement about a body of evidence and is only checkable
+// alongside that body. Both lanes used to publish one without the other: the
+// number was there, what it described was not. The pinned lane could be worse
+// than merely undated — its bar is computed from every line of a term's
+// evidence while the only cache key covers the ~32 lines the annotator read, so
+// a bar could describe a body of evidence that no longer existed and nothing
+// said so. `current: false` is that case, and the chip states it in its LABEL
+// rather than only in a tooltip, because a reader who never hovers is exactly
+// the reader who needs it.
+//
+// Both lanes ship the same shape (see concepts._bar_corpus), so there is no
+// branch here on which lane a term came from. The discovered lane carries one
+// vintage for the whole set — its q values are frozen against a floor run, not
+// against per-term lines — so it is read off the shared meta.
+function vintageOf(term) {
+  if (term.bar_corpus) return term.bar_corpus;
+  if (term.discovered && state.discMeta) return state.discMeta.bar_corpus || null;
+  return null;
+}
+
+function vintageChip(term) {
+  const v = vintageOf(term);
+  if (!v) return null;
+
+  if (v.frozen === false) {
+    const chip = el("span", "vintage-chip stale tip", "undated");
+    chip.dataset.tip = v.note ||
+      "this figure predates the profile freeze, so what it was measured " +
+      "against was never recorded and cannot be recovered";
+    return chip;
+  }
+
+  const videos = (v.corpus || {}).videos;
+  const stale = v.current === false;
+  const chip = el("span", `vintage-chip tip${stale ? " stale" : ""}`,
+    stale ? "measured on older evidence"
+          : videos ? `on ${fmt(videos)} videos` : "dated");
+  const detail = [];
+  if (videos) detail.push(`Measured against a corpus of ${fmt(videos)} videos`);
+  if (v.measured_at) detail.push(`on ${v.measured_at}`);
+  const lines = v.lines;
+  if (lines) {
+    detail.push(
+      `— ${fmt(lines.apologetics || 0)} apologetics and ` +
+      `${fmt(lines.deconstruction || 0)} deconstruction lines`);
+  }
+  if ((v.corpus || {}).fingerprint) detail.push(`(${v.corpus.fingerprint})`);
+  chip.dataset.tip = `${detail.join(" ")}. ${stale ? v.stale_note || "" : v.note || ""}`.trim();
+  return chip;
+}
+
 // A discovered concept's surface can collide with a pinned term's phrase
 // (e.g. both could be "deconstruction"); key discovered lookups under a
 // distinct namespace so selection never resolves to the wrong one.
@@ -264,6 +317,8 @@ function selectTerm(key) {
   if (oldDisc) oldDisc.remove();
   const oldBar = variants.querySelector(".bar-chip");
   if (oldBar) oldBar.remove();
+  const oldVintage = variants.querySelector(".vintage-chip");
+  if (oldVintage) oldVintage.remove();
   if (term.discovered) {
     const disc = el("span", "discovered-badge tip", "discovered");
     disc.dataset.tip = "machine-DISCOVERED — proposed by an LLM from distinctive-word statistics, not pinned into the lexicon";
@@ -271,6 +326,8 @@ function selectTerm(key) {
   }
   const chip = barChip(term.bar);
   if (chip) variants.append(chip);
+  const vintage = vintageChip(term);
+  if (vintage) variants.append(vintage);
 
   renderFramingCol("apol-col", "apol-text", term.apologetics, term);
   renderFramingCol("decon-col", "decon-text", term.deconstruction, term);

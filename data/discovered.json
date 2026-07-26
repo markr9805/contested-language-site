@@ -1,14 +1,16 @@
 {
   "meta": {
     "model": "openai:mlx-community/gpt-oss-20b-MXFP4-Q8:v2",
-    "generated_at": "2026-07-26T20:22:00Z",
+    "generated_at": "2026-07-26T20:37:49Z",
     "note": "machine-DISCOVERED framings \u2014 proposed, not pinned",
     "bar_corpus": {
       "floor_run": 6,
       "frozen": true,
-      "scanned_at": "2026-07-26T18:51:18Z",
-      "videos": 5146,
-      "fingerprint": "sha256:dfd8b49d33f3b3e3f3ae80d49697b57d",
+      "measured_at": "2026-07-26T18:51:18Z",
+      "corpus": {
+        "fingerprint": "sha256:dfd8b49d33f3b3e3f3ae80d49697b57d",
+        "videos": 5146
+      },
       "params": {
         "asr_source": "parakeet",
         "include_duplicates": false,

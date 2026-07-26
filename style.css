@@ -34,6 +34,7 @@
   --v-convergent: #d8ecd8; --v-convergent-ink: #1c5c1c;
   --v-insufficient: #eceef2; --v-insufficient-ink: #585d6b;
   --v-pending: #dde6f5; --v-pending-ink: #1c3c6c;
+  --caution: #9a6700;
 }
 [data-theme="dark"] {
   color-scheme: dark;
@@ -65,6 +66,7 @@
   --v-convergent: #173217; --v-convergent-ink: #8fd08f;
   --v-insufficient: #232730; --v-insufficient-ink: #b4b9c4;
   --v-pending: #16233a; --v-pending-ink: #9bb8e8;
+  --caution: #e0b64d;
 }
 /* no-JS fallback: follow the OS */
 @media (prefers-color-scheme: dark) {
@@ -84,6 +86,7 @@
     --v-convergent: #173217; --v-convergent-ink: #8fd08f;
     --v-insufficient: #232730; --v-insufficient-ink: #b4b9c4;
     --v-pending: #16233a; --v-pending-ink: #9bb8e8;
+    --caution: #e0b64d;
   }
 }
 
@@ -324,13 +327,25 @@ button.stat-tile:hover { border-color: var(--series-1); }
 .disc-selection { margin: 4px 0 0; font-size: 11px; color: var(--text-muted); }
 .bar-chip { font-size: 10.5px; border: 1px solid currentColor; border-radius: 999px; padding: 1px 8px; margin-left: 6px; text-transform: uppercase; letter-spacing: 0.03em; }
 .bar-chip.passes { color: var(--series-1-deep); }
-.bar-chip.provisional { color: #9a6700; }
+.bar-chip.provisional { color: var(--caution); }
 .bar-chip.unmeasured { color: var(--text-muted); }
+/* What corpus a bar was measured against. A p is only checkable alongside the
+   body of evidence it describes, so the vintage sits beside the value rather
+   than in a footnote. `.stale` is a disclosure, not decoration: it fires when
+   the evidence has moved since the bar was measured, and the LABEL carries the
+   warning so it does not depend on hovering. */
+.vintage-chip {
+  font-size: 10.5px; color: var(--text-muted);
+  border: 1px solid currentColor; border-radius: 999px;
+  padding: 1px 8px; margin-left: 6px;
+  text-transform: uppercase; letter-spacing: 0.03em;
+}
+.vintage-chip.stale { color: var(--caution); font-weight: 600; }
 .profile-block { border: 1px solid var(--gridline); border-radius: 10px; padding: 10px 12px; margin: 8px 0; }
 .profile-head { display: flex; gap: 10px; align-items: baseline; margin-bottom: 6px; }
 .profile-sense { font-weight: 650; font-size: 13.5px; }
 .profile-n { color: var(--text-muted); font-size: 12px; }
-.stale-chip { font-size: 11px; color: #9a6700; border: 1px solid currentColor; border-radius: 999px; padding: 1px 8px; }
+.stale-chip { font-size: 11px; color: var(--caution); border: 1px solid currentColor; border-radius: 999px; padding: 1px 8px; }
 .claim-row { display: flex; gap: 8px; align-items: baseline; padding: 4px 0; }
 .claim-text { flex: 1; }
 .aspect-chip { flex: none; font-size: 10.5px; color: var(--text-secondary); border: 1px solid var(--hairline); border-radius: 999px; padding: 1px 8px; text-transform: uppercase; letter-spacing: 0.03em; }
