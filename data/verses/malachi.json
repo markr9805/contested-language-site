@@ -1,6 +1,31 @@
 {
  "book": "Malachi",
  "verses": {
+  "Malachi 2:11": {
+   "citations": [
+    {
+     "confidence": 0.625,
+     "context": "We also have is it I might have the verse wrong. I'm trying to remember now. Um yeah, here it is. Malachi 2 11. It says, Judah has been faithless, an abomination has been committed in Israel and in Jerusalem, for Judah has profaned the sanctuary of the Lord, which he loves, and has married the daughter of a foreign god. It's not just the idea, this there's a lot going on in this passage here, but it's not just the idea of um intermarriage, it's inter interfaith marriage, is actually what's being forbidden here.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-01-10T04:19:15Z",
+     "role": "host",
+     "t": 379.16,
+     "title": "Are Mixed-Race Marriages Biblical? 10 Qs with Mike Winger (Ep 68)",
+     "video_id": "eTTvjQeMTiY"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Judah hath dealt treacherously, and an abomination is committed in Israel and in Jerusalem; for Judah hath profaned the holiness of the LORD which he loved, and hath married the daughter of a strange god.",
+    "WEB": "Judah has dealt treacherously, and an abomination is committed in Israel and in Jerusalem; for Judah has profaned the holiness of the LORD which he loves, and has married the daughter of a foreign god."
+   },
+   "truncated": false
+  },
   "Malachi 3:1": {
    "citations": [
     {
@@ -47,6 +72,31 @@
    "text": {
     "KJV": "Behold, I will send my messenger, and he shall prepare the way before me: and the LORD, whom ye seek, shall suddenly come to his temple, even the messenger of the covenant, whom ye delight in: behold, he shall come, saith the LORD of hosts.",
     "WEB": "“Behold, I send my messenger, and he will prepare the way before me! The Lord, whom you seek, will suddenly come to his temple. Behold, the messenger of the covenant, whom you desire, is coming!” says the LORD of Armies."
+   },
+   "truncated": false
+  },
+  "Malachi 3:10": {
+   "citations": [
+    {
+     "confidence": 0.7946,
+     "context": "If you're tithe, you're gonna be healed. If you're tithe, you're going to be blessed and prosperous, and God is gonna give it back to you. Press down, shaken together, running over, shall men give into your bosom. God is gonna open the windows of heaven and pour out a blessing that you won't have room enough to receive. Now, that shit I didn't like. Um, it's hard for me to not like it because it's biblical, because they pulled that right from Malachi. They just read the scripture. So I can't, which is why I typically attack the belief, not the behavior.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-10-07T00:39:48Z",
+     "role": "host",
+     "t": 5308.16,
+     "title": "Don't Waste Your Life // The X-Pastor Call-In Show 1.4",
+     "video_id": "534nQOnwT78"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Bring ye all the tithes into the storehouse, that there may be meat in mine house, and prove me now herewith, saith the LORD of hosts, if I will not open you the windows of heaven, and pour you out a blessing, that there shall not be room enough to receive it.",
+    "WEB": "Bring the whole tithe into the storehouse, that there may be food in my house, and test me now in this,” says the LORD of Armies, “if I will not open you the windows of heaven, and pour you out a blessing, that there will not be enough room for."
    },
    "truncated": false
   },

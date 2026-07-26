@@ -1,0 +1,955 @@
+{
+  "meta": {
+    "model": "openai:mlx-community/gpt-oss-20b-MXFP4-Q8:v2",
+    "generated_at": "2026-07-26T19:51:06Z",
+    "note": "machine-DISCOVERED framings \u2014 proposed, not pinned",
+    "bar_corpus": {
+      "floor_run": 6,
+      "frozen": true,
+      "scanned_at": "2026-07-26T18:51:18Z",
+      "videos": 5146,
+      "fingerprint": "sha256:dfd8b49d33f3b3e3f3ae80d49697b57d",
+      "params": {
+        "asr_source": "parakeet",
+        "include_duplicates": false,
+        "max_vocab": 200,
+        "min_balance": 0.25,
+        "min_side": 8,
+        "min_side_creators": 2,
+        "pool": 300
+      },
+      "note": "the per-creator collocate profiles the bar was computed from are stored with the floor run, so re-running the permutation pass reproduces these p and q values exactly even after the corpus has grown"
+    },
+    "selection": {
+      "pool": 5367,
+      "published": 29,
+      "ranked_by": "keyness (log-likelihood vs an external reference corpus)",
+      "multiplicity_correction": "Benjamini-Hochberg FDR across the run's terms (gate only)",
+      "note": "Two different things, and only one is corrected. Terms are ADMITTED by a Benjamini-Hochberg-corrected significance gate, but ORDERED by keyness, which carries no correction \u2014 so a high rank reflects distinctiveness and selection, not a stronger result. Treat the ordering as a reading order, not a ranking of confidence."
+    },
+    "bar_note": "Each concept carries the DESIGN \u00a73 significance bar: a cross-side difference in how a term is USED counts as a community difference only if it exceeds what a random split of the same creators produces. Every concept here cleared it \u2014 the lane annotates only terms that do, because reading thousands of candidates with an LLM is not feasible. Terms that did not clear the bar are not deleted: they remain in the candidate pool with their statistics, unannotated."
+  },
+  "concepts": [
+    {
+      "surface": "gaslighting",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "at the end of the day gaslighting is a psychological disorder where someone...",
+        "quotes": [
+          "...at the end of the day [gaslighting] is a psychological disorder where someone..."
+        ]
+      },
+      "deconstruction": {
+        "text": "ministry that is that is just gaslighting...",
+        "quotes": [
+          "...ministry that is that is just [gaslighting] that's what it is it's so..."
+        ]
+      },
+      "apol": 17,
+      "decon": 162,
+      "keyness": 6.627236899043531,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.00197136884443386,
+        "q": 0.026403802147509238,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "afterlife",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "\u2026of christ and that in the [afterlife] we will enjoy what the bible\u2026",
+        "quotes": [
+          "...of christ and that in the [afterlife] we will enjoy what the bible..."
+        ]
+      },
+      "deconstruction": {
+        "text": "\u2026little delusional to believe in an [afterlife] no no rainwood the question the\u2026",
+        "quotes": [
+          "...little delusional to believe in an [afterlife] no no rainwood the question the..."
+        ]
+      },
+      "apol": 79,
+      "decon": 529,
+      "keyness": 6.5670861845352135,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0023815194093831865,
+        "q": 0.02747907010826754,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "supernatural",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "They view supernatural as divine power enabling miracles.",
+        "quotes": [
+          "...is a power that only the [supernatural] power of god has to break..."
+        ]
+      },
+      "deconstruction": {
+        "text": "They treat supernatural as a concept to be questioned or critiqued.",
+        "quotes": [
+          "...sense to say well there's a [supernatural] monster that's making the world like..."
+        ]
+      },
+      "apol": 142,
+      "decon": 1198,
+      "keyness": 5.77967702909882,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0012304516948479797,
+        "q": 0.02307096927839962,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "god",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "Apologetics portrays \"god\" as an omnipotent, omniscient, omnibenevolent creator who is central to morality, salvation, and divine justice.",
+        "quotes": [
+          "...it's impossible to have morality without [god] setting aside questions of ontological existence...",
+          "...by god's love and justice only [god] could pay what man owed but..."
+        ]
+      },
+      "deconstruction": {
+        "text": "Deconstruction treats \"god\" as a contested, often negative or ambiguous figure, questioning divine justice and existence.",
+        "quotes": [
+          "...eh but yeah so somebody saying [god] wants you rich i don't see...",
+          "...thought i had was being monitored [god] was always ready to judge and..."
+        ]
+      },
+      "apol": 18339,
+      "decon": 28432,
+      "keyness": 5.714965131954846,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 6.615331692731073e-05,
+        "q": 0.004961498769548305,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "belief",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "belief in Christ as the revelation of...",
+        "quotes": [
+          "...it is certainly enough to justify [belief] in christ as the revelation of..."
+        ]
+      },
+      "deconstruction": {
+        "text": "delusional belief isn't the moral...",
+        "quotes": [
+          "...okay so you know maybe teaching [belief] especially delusional belief isn't the moral..."
+        ]
+      },
+      "apol": 830,
+      "decon": 6774,
+      "keyness": 5.472187155621759,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0003836892381784023,
+        "q": 0.015876796062554578,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "honestly",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "...test theories fairly and report results [honestly] yeah and interesting that's clearly not...",
+        "quotes": [
+          "...test theories fairly and report results [honestly] yeah and interesting that's clearly not..."
+        ]
+      },
+      "deconstruction": {
+        "text": "...his and his teaching um but [honestly] i couldn't tell you much about...",
+        "quotes": [
+          "...his and his teaching um but [honestly] i couldn't tell you much about..."
+        ]
+      },
+      "apol": 172,
+      "decon": 1600,
+      "keyness": 5.347597824789324,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0019052155275065491,
+        "q": 0.026403802147509238,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "christian",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "i don't want us to be [christians] that are content with sitting on...",
+        "quotes": [
+          "...i don't want us to be [christians] that are content with sitting on..."
+        ]
+      },
+      "deconstruction": {
+        "text": "atheists accept [christian] morality but deny the religion's foundational...",
+        "quotes": [
+          "...remind me again please atheists accept [christian] morality but deny the religion's foundational..."
+        ]
+      },
+      "apol": 6537,
+      "decon": 17228,
+      "keyness": 5.210849803344421,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0015612182794845335,
+        "q": 0.024650814939229476,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "moral",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "moral is framed as a divine, objective standard of right and wrong, tied to God\u2019s commands and moral law",
+        "quotes": [
+          "...the [moral] argument is we're not making the...",
+          "...rather they arise from the essential [moral] perfection of god god is both..."
+        ]
+      },
+      "deconstruction": {
+        "text": "moral is critiqued as socially constructed, dangerous, and nuanced, often questioned in religious contexts",
+        "quotes": [
+          "...i'm wrong but you've conceptualized your [morality] in terms of religion right and...",
+          "...belief especially delusional belief isn't the [moral] value we should be teaching with..."
+        ]
+      },
+      "apol": 1839,
+      "decon": 5186,
+      "keyness": 5.191654087767527,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0025667486967796567,
+        "q": 0.02851942996421841,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "divine",
+      "verdict": "mixed",
+      "apologetics": {
+        "text": "had a human nature and a divine nature to come and save you",
+        "quotes": [
+          "...had a human nature and a [divine] nature to come and save you..."
+        ]
+      },
+      "deconstruction": {
+        "text": "love and you wanna claim some divine uh power get fucked yeah yeah",
+        "quotes": [
+          "...love and you wanna claim some [divine] uh power get fucked yeah yeah..."
+        ]
+      },
+      "apol": 1330,
+      "decon": 2286,
+      "keyness": 5.07117790601198,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 5.292265354184859e-05,
+        "q": 0.004961498769548305,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "literally",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "space time and matter [literally] came into existence out of nothing",
+        "quotes": [
+          "...data that space time and matter [literally] came into existence out of nothing..."
+        ]
+      },
+      "deconstruction": {
+        "text": "wow [literally] kill people it removes actual education",
+        "quotes": [
+          "...these kids someone always dies wow [literally] kill people it removes actual education..."
+        ]
+      },
+      "apol": 700,
+      "decon": 3786,
+      "keyness": 4.8129074972911665,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0036648937577730147,
+        "q": 0.03791269404592774,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "narrative",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "Apologetics frames \"narrative\" as the biblical or overarching story that informs faith.",
+        "quotes": [
+          "...scripture every single book every single [narrative] every single psalm every single parable...",
+          "...view that there is no meta [narrative] there is no overarching story there..."
+        ]
+      },
+      "deconstruction": {
+        "text": "Deconstruction sees \"narrative\" as a constructed, often false story used to manipulate or control.",
+        "quotes": [
+          "...gonna happen but that's a false [narrative] specifically designed to make sure people...",
+          "...so they needed to control your [narrative] for you yep and i just..."
+        ]
+      },
+      "apol": 283,
+      "decon": 1937,
+      "keyness": 4.734428415643849,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0008467624566695774,
+        "q": 0.0221141088014153,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "whoa",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "The term \u201cwhoa\u201d is used as an interjection to express surprise or pause in casual speech.",
+        "quotes": [
+          "...no purpose for us being here [whoa] it gets worse if god does...",
+          "...every time you do a shotgun [whoa] whoa whoa first of all it's..."
+        ]
+      },
+      "deconstruction": {
+        "text": "The term \u201cwhoa\u201d is also used as an interjection to express surprise or pause in casual speech.",
+        "quotes": [
+          "...the deferral of immediate gratification oh [whoa] hold on i thought we were...",
+          "...and everything and i was like [whoa] this is dope so i have..."
+        ]
+      },
+      "apol": 48,
+      "decon": 285,
+      "keyness": 4.707851689404097,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0020242914979757085,
+        "q": 0.026403802147509238,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "faith",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "from your sin and put your faith back in the one who died...",
+        "quotes": [
+          "...from your sin and put your [faith] back in the one who died..."
+        ]
+      },
+      "deconstruction": {
+        "text": "attitude when i was deconstructing my faith when i was trying to talk...",
+        "quotes": [
+          "...attitude when i was deconstructing my [faith] when i was trying to talk..."
+        ]
+      },
+      "apol": 3087,
+      "decon": 5879,
+      "keyness": 4.68399924300297,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0012039903680770554,
+        "q": 0.02307096927839962,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "problematic",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "Apologetics uses \"problematic\" to describe aspects of theology, church practice, or behavior that are seen as problematic or problematic for the church.",
+        "quotes": [
+          "...right i mean there's something particularly [problematic] about a view on which mathematical...",
+          "...exhibited such behaviors would be very [problematic] because first it is implausible to..."
+        ]
+      },
+      "deconstruction": {
+        "text": "Deconstruction uses \"problematic\" to highlight contradictions, problematic aspects of faith, or problematic for people or specific groups.",
+        "quotes": [
+          "...all sorts of things that are [problematic] for faith but this was the...",
+          "...which is just way too fundamentally [problematic] for christians but i guess if..."
+        ]
+      },
+      "apol": 76,
+      "decon": 600,
+      "keyness": 4.663325242569944,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0034399724802201583,
+        "q": 0.03685684800235884,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "believe",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "Apologetics uses \"believe\" to affirm faith in God, scripture, and Christian doctrines, framing it as a positive, trusting act.",
+        "quotes": [
+          "...are loved by god and i [believe] the text gives us some lessons...",
+          "...things basically so that you may [believe] in christ and in believing in..."
+        ]
+      },
+      "deconstruction": {
+        "text": "Deconstruction uses \"believe\" to question or critique faith, often highlighting doubt, skepticism, or the need to examine claims.",
+        "quotes": [
+          "...i wouldn't even allow myself to [believe] that there was a such thing...",
+          "...french deists for example didn't really [believe] in the christian god and so..."
+        ]
+      },
+      "apol": 5011,
+      "decon": 17576,
+      "keyness": 4.647898071234076,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 5.292265354184859e-05,
+        "q": 0.004961498769548305,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "religious",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "In apologetics, \"religious\" is used as a neutral adjective to describe people, experiences, beliefs, and institutions related to faith.",
+        "quotes": [
+          "...you realize that christianity is a [religious] worldview you can investigate and discover...",
+          "...problem lots of protestants and other [religious] people can find themselves going through..."
+        ]
+      },
+      "deconstruction": {
+        "text": "In deconstruction, \"religious\" is similarly used as a neutral adjective to refer to people, beliefs, and groups, often in discussions of faith and identity.",
+        "quotes": [
+          "...spirit stuff like that's not exactly [religious] right but come on haven't you...",
+          "...wife for another rabbi for a [religious] teacher um if she has uh..."
+        ]
+      },
+      "apol": 499,
+      "decon": 6453,
+      "keyness": 4.530767679958646,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0009526077637532746,
+        "q": 0.0221141088014153,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "condescending",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "...invisible god visible he who once [condescended] on a mountain in fire came...",
+        "quotes": [
+          "...invisible god visible he who once [condescended] on a mountain in fire came..."
+        ]
+      },
+      "deconstruction": {
+        "text": "...that i was getting is extremely [condescending] and dismissive and perhaps he spoke...",
+        "quotes": [
+          "...that i was getting is extremely [condescending] and dismissive and perhaps he spoke..."
+        ]
+      },
+      "apol": 13,
+      "decon": 73,
+      "keyness": 4.485381450999185,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0008599931200550396,
+        "q": 0.0221141088014153,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "pray",
+      "verdict": "mixed",
+      "apologetics": {
+        "text": "Apologetics frames \"pray\" as a religious act directed to God, often with positive expectation of divine intervention, but also sometimes critiquing it as meaningless.",
+        "quotes": [
+          "...in john chapter 17 when he's [praying] for us to the father he...",
+          "...it a meaningless ritual if someone [prayed] this psalm with heartfelt intent just..."
+        ]
+      },
+      "deconstruction": {
+        "text": "Deconstruction frames \"pray\" as a personal or communal act, sometimes directed to God or the universe, with both positive and questioning or negative connotations.",
+        "quotes": [
+          "...that's even less control you can't [pray] to the universe i mean i...",
+          "...way whatsoever unless you're trying to [pray] to that god but if you're..."
+        ]
+      },
+      "apol": 1223,
+      "decon": 1583,
+      "keyness": 4.4642111982892585,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0010319917440660474,
+        "q": 0.0221141088014153,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "guilt",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "guilt is a moral burden or sin that can be absolved and is central to personal responsibility.",
+        "quotes": [
+          "...deal with the central problem of [guilt] uh it is a theory to...",
+          "...to her her shame and her [guilt] was removed and she went off..."
+        ]
+      },
+      "deconstruction": {
+        "text": "guilt is employed as a tool of manipulation, shame, and social control, often manifesting as white guilt or guilt by association.",
+        "quotes": [
+          "...wife and you would have brought [guilt] upon us what the fuck is...",
+          "...seven and welcome everybody to the [guilt] and shame part of the show..."
+        ]
+      },
+      "apol": 120,
+      "decon": 648,
+      "keyness": 4.4408518881033165,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0004630732184911752,
+        "q": 0.015876796062554578,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "maybe",
+      "verdict": "mixed",
+      "apologetics": {
+        "text": "Apologetics uses \"maybe\" to express tentative acceptance or possibility within a faith context, e.g., \"to harmonize this by saying well [maybe] jesus cleansed the temple twice once...\"",
+        "quotes": [
+          "...to harmonize this by saying well [maybe] jesus cleansed the temple twice once..."
+        ]
+      },
+      "deconstruction": {
+        "text": "Deconstruction uses \"maybe\" to express doubt or critique, e.g., \"to challenge your faith to say [maybe] you're doing it wrong maybe that's...\"",
+        "quotes": [
+          "...to challenge your faith to say [maybe] you're doing it wrong maybe that's..."
+        ]
+      },
+      "apol": 1871,
+      "decon": 7836,
+      "keyness": 4.410443146130074,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0022095207853721787,
+        "q": 0.026514249424466146,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "uncomfortable",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "They use \"uncomfortable\" to describe personal unease with theological ideas or situations.",
+        "quotes": [
+          "...even though that is a very [uncomfortable] fit but i think that view...",
+          "...and unsafe scenarios we just mean [uncomfortable] or i don't like it or..."
+        ]
+      },
+      "deconstruction": {
+        "text": "They use \"uncomfortable\" to describe unease with social or existential situations.",
+        "quotes": [
+          "...just a way to cope with [uncomfortable] situations or to be diplomatic coveting...",
+          "...language relating to death because it's [uncomfortable] because there's a finality in it..."
+        ]
+      },
+      "apol": 47,
+      "decon": 617,
+      "keyness": 4.400130866295301,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0004763038818766373,
+        "q": 0.015876796062554578,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "ideology",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "of political correctness otherwise you're allowing [ideology] to drive historical studies",
+        "quotes": [
+          "...of political correctness otherwise you're allowing [ideology] to drive historical studies and that's..."
+        ]
+      },
+      "deconstruction": {
+        "text": "we do we can't fight woke [ideology] if we can't defend the civilization",
+        "quotes": [
+          "...we do we can't fight woke [ideology] if we can't defend the civilization..."
+        ]
+      },
+      "apol": 124,
+      "decon": 1048,
+      "keyness": 4.335051566786473,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0038104310550130982,
+        "q": 0.038104310550130985,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "eternal",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "your feelings so that you have [eternal] life here and now if god...",
+        "quotes": [
+          "...your feelings so that you have [eternal] life here and now if god..."
+        ]
+      },
+      "deconstruction": {
+        "text": "...achieving that suggests the universe is [eternal] i mean what scientist much less...",
+        "quotes": [
+          "...achieving that suggests the universe is [eternal] i mean what scientist much less..."
+        ]
+      },
+      "apol": 803,
+      "decon": 1047,
+      "keyness": 4.330379546809588,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.00035722791140747797,
+        "q": 0.015876796062554578,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "gotcha",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "...i'm gonna do that don't lie [gotcha] don't steal",
+        "quotes": [
+          "...i'm gonna do that don't lie [gotcha] don't steal gotcha don't lust or..."
+        ]
+      },
+      "deconstruction": {
+        "text": "...think these dumb questions aren't the [gotcha] apologists think they are instead they...",
+        "quotes": [
+          "...think these dumb questions aren't the [gotcha] apologists think they are instead they..."
+        ]
+      },
+      "apol": 18,
+      "decon": 92,
+      "keyness": 4.284503820398621,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0014289116456299119,
+        "q": 0.023815194093831864,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "shame",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "Shame is used as a moral corrective that admonishes wrongdoing.",
+        "quotes": [
+          "...a a scandal and a great [shame] we need to help our young..."
+        ]
+      },
+      "deconstruction": {
+        "text": "Shame is portrayed as a tool of control and oppression within a culture of shame.",
+        "quotes": [
+          "...to participate in a culture of [shame] that says it's not okay to..."
+        ]
+      },
+      "apol": 169,
+      "decon": 1317,
+      "keyness": 4.246317749284749,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0010187610806805852,
+        "q": 0.0221141088014153,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "sacrifice",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "on the cross as the only [sacrifice] for sin whereby people could be...",
+        "quotes": [
+          "...on the cross as the only [sacrifice] for sin whereby people could be..."
+        ]
+      },
+      "deconstruction": {
+        "text": "their salvation rests on a human [sacrifice] oh wow so there's purity culture...",
+        "quotes": [
+          "...their salvation rests on a human [sacrifice] oh wow so there's purity culture..."
+        ]
+      },
+      "apol": 493,
+      "decon": 725,
+      "keyness": 4.219005600578256,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0021433674684448677,
+        "q": 0.026514249424466146,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "whatever",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "...whatever is dignified whatever is right [whatever] is pure whatever is lovely whatever...",
+        "quotes": [
+          "...whatever is dignified whatever is right [whatever] is pure whatever is lovely whatever..."
+        ]
+      },
+      "deconstruction": {
+        "text": "...train i was like eh whatever [whatever] you guys keep suffering and who...",
+        "quotes": [
+          "...train i was like eh whatever [whatever] you guys keep suffering and who..."
+        ]
+      },
+      "apol": 874,
+      "decon": 4335,
+      "keyness": 4.191245441258436,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.00037045857479294013,
+        "q": 0.015876796062554578,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "harm",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "Apologetics uses \"harm\" to refer to negative impact on individuals, including self\u2011harm and harm caused by policies.",
+        "quotes": [
+          "...unfeasible or some cases impossible without [harming] them notice also that there is...",
+          "...violent criminals being released only to [harm] other innocent people venerable fulton sheen..."
+        ]
+      },
+      "deconstruction": {
+        "text": "Deconstruction uses \"harm\" to describe negative effects of beliefs, policies, and actions on people.",
+        "quotes": [
+          "...that you will do us no [harm] just as we have not touched...",
+          "...they they don't maybe see the [harm] in it the same way we..."
+        ]
+      },
+      "apol": 236,
+      "decon": 2945,
+      "keyness": 4.18271425738289,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0013230663385462146,
+        "q": 0.02334822950375673,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "anymore",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "...much that it doesn't move us [anymore] like did you know that the...",
+        "quotes": [
+          "...much that it doesn't move us [anymore] like did you know that the..."
+        ]
+      },
+      "deconstruction": {
+        "text": "...uh not add to the list [anymore] and um so you won't appear...",
+        "quotes": [
+          "...uh not add to the list [anymore] and um so you won't appear..."
+        ]
+      },
+      "apol": 239,
+      "decon": 1610,
+      "keyness": 4.174448804450806,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0018787542007356248,
+        "q": 0.026403802147509238,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    }
+  ]
+}

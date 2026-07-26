@@ -231,6 +231,59 @@ function selectTerm(term) {
 
 // ---- Layer 4 sense profiles --------------------------------------------------
 
+// Every claim on this card is computed from HOST speech only. That guard is
+// silent by default, so a creator can truthfully say a large share of their
+// words was discarded before anyone characterised them (DESIGN §7.6 —
+// interpretive exposure). This states the share alongside the claims.
+//
+// Returns null when the share was never measured. An absent measurement must
+// never render as a measured zero: 'we did not look' and 'nothing was
+// excluded' are different claims, and only one of them is honest.
+function cellExposure(cell) {
+  const exp = (state.meta || {}).non_host_exposure;
+  if (!exp) return null;
+  let host = 0;
+  let nonHost = 0;
+  if (cell === "overall") {
+    for (const v of Object.values(exp)) {
+      host += v.host_words;
+      nonHost += v.non_host_words;
+    }
+    // meta.words is the host-only corpus total, so it is an exact check that
+    // the exposure map covers every creator. If it does not, summing the map
+    // and calling the result "the whole corpus" would understate the excluded
+    // share by however many creators are missing — a partial figure presented
+    // as a complete one. Say nothing rather than say that.
+    if (host !== state.meta.words) return null;
+  } else {
+    const v = exp[cell.split("=", 2)[1]];
+    if (!v) return null;
+    host = v.host_words;
+    nonHost = v.non_host_words;
+  }
+  const total = host + nonHost;
+  if (!total) return null;
+
+  const row = el("p", "profile-exposure");
+  const pct = el("span", "tip",
+    `${((nonHost / total) * 100).toFixed(1)}% of transcribed words excluded as non-host`);
+  // analysis.non_host_exposure buckets every role that is not exactly 'host'
+  // into non_host, so unresolved attribution lands here too. That makes the
+  // number an UPPER bound on other people's speech, not an exact measure --
+  // say so, rather than implying a precision the guard does not have.
+  pct.setAttribute("data-tip",
+    "Every figure on this card counts host speech only. This is the share of " +
+    "transcribed words not positively attributed to the channel host — guests, " +
+    "embedded clips and debate opponents, but also speech whose speaker " +
+    "attribution is still unresolved. It is therefore an upper bound on other " +
+    "people's speech: a high figure on a solo channel means attribution needs " +
+    "work, not that the channel is full of guests.");
+  row.append(pct);
+  row.append(el("span", "profile-exposure-n",
+    ` · ${fmt(nonHost)} of ${fmt(total)} words`));
+  return row;
+}
+
 async function renderProfiles(term) {
   const card = $("profiles-card");
   const entry = (state.profilesIndex || {})[term];
@@ -262,6 +315,8 @@ async function renderProfiles(term) {
     const cellLabelTxt = cell === "overall"
       ? "Whole corpus" : "Creator: " + cell.split("=", 2)[1];
     body.append(el("h4", "profile-cell-head", cellLabelTxt));
+    const exposure = cellExposure(cell);
+    if (exposure) body.append(exposure);
     for (const p of doc.profiles.filter((x) => x.cell === cell)) {
       const block = el("div", "profile-block");
       const head = el("div", "profile-head");
@@ -759,7 +814,11 @@ async function init() {
     state.profilesIndex = (await fetchJSON("profiles/index.json")).terms;
   } catch { state.profilesIndex = {}; }   // Layer 4 not exported yet
   $("corpus-stats").textContent =
-    `${fmt(meta.videos)} videos · ${fmt(meta.words)} transcribed words · ` +
+    // meta.words counts HOST speech only (analysis._word_totals applies
+    // HOST_ONLY), so "transcribed words" overstated what it measures by the
+    // ~2.0M non-host words it excludes — and disagreed with map.js, which sums
+    // creators.json words with no role filter and is correctly labelled.
+    `${fmt(meta.videos)} videos · ${fmt(meta.words)} words of host speech · ` +
     `${meta.terms.length} lexicon terms · ${meta.duplicates_excluded} duplicate re-uploads excluded`;
   renderNav();
   renderFilterChips();

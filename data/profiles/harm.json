@@ -1,15 +1,15 @@
 {
  "lines": {
-  "31445": {
-   "context": "We got to learn our lessons. Understanding that bias is a default should not lead us to a place where people are able to avoid accountability for the specific harm that biases cause. What I'm saying is that bias is a given, but responsibility is a requirement.",
-   "creator": "darante-lamar",
-   "occurrence_id": 31445,
-   "published_at": "2026-06-11T06:56:46Z",
+  "31127": {
+   "context": "Like sometimes if they find was it salt sprinkled somewhere or some remnant of something that's part of the ritual outside their doorstep, they know that they've been tagged, you know, for that kind of harm. So part of it is maybe you know, don't use this dark stuff that will harm other people. Exactly. And I think an element of it is that if you do it, then you're opening this door that will bring in more darkness and more harm, then it's out of your control. Yeah.",
+   "creator": "apostate-aladdin",
+   "occurrence_id": 31127,
+   "published_at": "2025-10-31T09:05:24Z",
    "role": "host",
    "surface": "harm",
-   "t": 4488.48,
-   "title": "Why Are We So Biased",
-   "video_id": "dKY_Q4IrtNw"
+   "t": 4058.88,
+   "title": "Ex-Muslim Halloween Special: The Jinn Stories That Haunted Our Childhoods",
+   "video_id": "VpI7PgxotRI"
   }
  },
  "profiles": [
@@ -20,37 +20,40 @@
     {
      "aspect": "rhetorical-role",
      "evidence": [
-      31445
+      31127
      ],
-     "text": "The speaker uses 'harm' to establish a pattern of behavior, noting how people shift away from standards like justice and well-being when certain figures are framed as necessary (L2). It serves as a central concept for defining the negative consequences of systems that prioritize loyalty or authority over ethical consideration (L14, L16). The discussion around 'harm' is presented as an ongoing area of investigation, suggesting its importance in understanding complex social dynamics (L5)."
+     "text": "The speaker frames the desire to decrease harm and increase well-being as a central motivation for their work and community efforts (L14, L15)."
     }
    ],
-   "data_hash": "7bb99f4c08dbb2f235537d48",
+   "composition": {
+    "apostate-aladdin": 1
+   },
+   "data_hash": "dc485ab3ad78ebef0ccfd34a",
    "dropped_claims": 0,
-   "generated_at": "2026-07-19T14:34:33Z",
+   "generated_at": "2026-07-19T14:35:02Z",
    "k": 2,
    "model": "ollama:gemma4:e4b:c6eb396dbd59",
-   "n": 631,
+   "n": 528,
    "prompt_version": "1",
    "sampled": [
-    20170,
-    697,
-    8253,
-    11832,
-    31445,
-    4979,
-    20164,
-    33093,
-    19447,
-    24987,
-    13718,
-    22450,
-    5132,
-    18669,
-    10647,
-    20173
+    15619,
+    14803,
+    26354,
+    857,
+    26355,
+    20174,
+    20175,
+    15620,
+    19815,
+    34339,
+    12026,
+    2052,
+    7738,
+    30389,
+    31127,
+    27265
    ],
-   "sense": 0,
+   "sense": 1,
    "stale": true,
    "term": "harm"
   },
@@ -59,39 +62,42 @@
    "cell": "overall",
    "claims": [
     {
-     "aspect": "valence",
+     "aspect": "rhetorical-role",
      "evidence": [
-      31445
+      31127
      ],
-     "text": "The speaker suggests that the focus on 'harm' is necessary because it represents a comprehensive search for injustice, which can be difficult to maintain while building community (L5)."
+     "text": "The speaker frames the desire to decrease harm and increase well-being as a central motivation for their work and community efforts (L14, L15)."
     }
    ],
-   "data_hash": "7bb99f4c08dbb2f235537d48",
+   "composition": {
+    "apostate-aladdin": 1
+   },
+   "data_hash": "f493fc513c4c1289f346f5d2",
    "dropped_claims": 0,
-   "generated_at": "2026-07-19T14:35:43Z",
+   "generated_at": "2026-07-19T14:36:23Z",
    "k": 2,
    "model": "ollama:gemma4:e4b:c6eb396dbd59",
-   "n": 631,
+   "n": 529,
    "prompt_version": "1",
    "sampled": [
-    20170,
-    697,
-    8253,
-    11832,
-    31445,
-    4979,
-    20164,
-    33093,
-    19447,
-    24987,
-    13718,
-    22450,
-    5132,
-    18669,
-    10647,
-    20173
+    15619,
+    14803,
+    26354,
+    857,
+    26355,
+    20174,
+    20175,
+    15620,
+    19815,
+    34339,
+    12026,
+    2052,
+    7738,
+    30389,
+    31127,
+    27265
    ],
-   "sense": 0,
+   "sense": 1,
    "stale": true,
    "term": "harm"
   }

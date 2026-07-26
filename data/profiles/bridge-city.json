@@ -1,48 +1,15 @@
 {
  "lines": {
-  "17290": {
-   "context": "I do want to introduce y'all to Ashley because I think this is Ashley's first time that I actually have you on the channel. You're you're in all of our meetings in the in the backdrop, but y'all have heard me talk about Ashley for probably about two months of Sundays now. Ashley is our head of community for Bridge City Global and DLDD World Group, and so she's wearing like 15 and a half hats right now. Yeah. Um, but she she's come in like a ball of fire. I gotta choose a new a new uh a new word. I I feel so offensive.",
+  "25687": {
+   "context": "And then a hero comes along. I need to talk to somebody out there. Where's Mariah Carey when you need it? No. Hmm. One keeps the past at the center, the other puts the future in view. And that is what we're trying to do here. Bridge City is not just a place where people come to name what they lost. It's a place where people come to build what they wish existed.",
    "creator": "darante-lamar",
-   "occurrence_id": 17290,
-   "published_at": "2025-12-01T03:06:30Z",
-   "role": "unattributed",
-   "surface": "bridge city",
-   "t": 1305.44,
-   "title": "Open House Week Kick-Off",
-   "video_id": "LbRC0k7ulOw"
-  },
-  "17314": {
-   "context": "Because we start at connecting better better, right? But then what as we're connecting, we want to build better, and the whole purpose of building better is so that people can live better. So one of the things that I want to be very like concrete at Bridge City is that that's the thing that I want our leadership always challenging ourselves with. How are we helping people live better? I I love it. We had some fun, I love it. We we bashed some things or whatever, but how are we making how are we helping people live better?",
-   "creator": "darante-lamar",
-   "occurrence_id": 17314,
-   "published_at": "2025-12-01T03:06:30Z",
-   "role": "unknown",
-   "surface": "bridge city",
-   "t": 4493.12,
-   "title": "Open House Week Kick-Off",
-   "video_id": "LbRC0k7ulOw"
-  },
-  "29299": {
-   "context": "Like don't don't, you know, and and we had those things started as low as three to five hours a week. Uh clearly defined boundaries. Uh y'all mofos don't like to read, and that's the problem. I do a lot of writing. Uh like we have a lot of guides if you go through our Discord that we've made for our bridge city community. People don't always like to read that stuff, and I'm like, that that's where you're losing your power at. You need to read that stuff. Um, because that that's where you're finding out that, oh yeah, they're making sure that I draw that that we have clear boundaries so that I don't over exert myself.",
-   "creator": "darante-lamar",
-   "occurrence_id": 29299,
-   "published_at": "2025-04-10T10:57:44Z",
+   "occurrence_id": 25687,
+   "published_at": "2026-04-14T00:31:58Z",
    "role": "host",
    "surface": "bridge city",
-   "t": 2756.96,
-   "title": "Community Nuggets from Numbers 1-20 Recap| Bible Study w/ an X-Pastor",
-   "video_id": "bhklb4FnxPo"
-  },
-  "29300": {
-   "context": "You know, leadership rotates or forms based on uh task, uh task or project. Celebrations and debriefs include everyone. That's what we're trying to get to now. This is why we slowed down on some of the community infrastructure for Bridge City, is just because there wasn't enough people participating in the meetings, and so then I'm announcing stuff and I'm teaching stuff and I'm training stuff, but it's not going to enough people. And at that moment, as large as a community as we are now, unfortunately, that would create a click culture, and that's just not something your boy is about.",
-   "creator": "darante-lamar",
-   "occurrence_id": 29300,
-   "published_at": "2025-04-10T10:57:44Z",
-   "role": "host",
-   "surface": "bridge city",
-   "t": 2796.96,
-   "title": "Community Nuggets from Numbers 1-20 Recap| Bible Study w/ an X-Pastor",
-   "video_id": "bhklb4FnxPo"
+   "t": 107.44,
+   "title": "Growing Beyond Past Hurts",
+   "video_id": "PXz6zXWnQKQ"
   }
  },
  "profiles": [
@@ -53,39 +20,40 @@
     {
      "aspect": "valence",
      "evidence": [
-      17314,
-      29299,
-      29300
+      25687
      ],
-     "text": "It carries a positive valence, suggesting growth, improvement, and connection ('building better,' 'global campus') (L3, L6, L7, L8, L11)."
+     "text": "The community is presented positively as an alternative to previous religious structures, which are characterized by 'doctrinal gatekeeping' or being 'stuck' in online chaos (L1, L2, L4). It is described as a life-affirming and forward-thinking space that allows members to belong without needing to fit into rigid labels (L3, L8)."
     }
    ],
-   "data_hash": "3a1f1b37215a2fe93b106c8b",
+   "composition": {
+    "darante-lamar": 1
+   },
+   "data_hash": "2ae22ad11957bd38ee4a5e2e",
    "dropped_claims": 0,
-   "generated_at": "2026-07-19T14:23:34Z",
+   "generated_at": "2026-07-19T14:23:58Z",
    "k": 2,
    "model": "ollama:gemma4:e4b:c6eb396dbd59",
-   "n": 1490,
+   "n": 1453,
    "prompt_version": "1",
    "sampled": [
-    16318,
-    16317,
-    17314,
-    18952,
-    2438,
-    29299,
-    29300,
-    34222,
-    17201,
-    25231,
-    16063,
-    23288,
-    21081,
-    17290,
-    30309,
-    25527
+    16977,
+    16976,
+    108,
+    16975,
+    27222,
+    14767,
+    30697,
+    25687,
+    637,
+    13640,
+    5564,
+    4361,
+    660,
+    28827,
+    21947,
+    31994
    ],
-   "sense": 0,
+   "sense": 1,
    "stale": true,
    "term": "bridge city"
   },
@@ -94,54 +62,42 @@
    "cell": "overall",
    "claims": [
     {
-     "aspect": "function",
-     "evidence": [
-      17314
-     ],
-     "text": "The term is used to name a community or organization that provides resources for involvement and development (L1, L2, L5). It also functions as a descriptor for a growing global campus with various activities like events and clubs (L3, L4, L16)."
-    },
-    {
      "aspect": "valence",
      "evidence": [
-      17314,
-      29299
+      25687
      ],
-     "text": "The term carries positive valence, suggesting growth, improvement, and a sense of belonging (L16). It is associated with building something better and providing opportunities for connection (L3, L6)."
-    },
-    {
-     "aspect": "rhetorical-role",
-     "evidence": [
-      29299
-     ],
-     "text": "It serves as the central subject of discussion when promoting membership or participation in various local chapters and global initiatives (L4, L15). It is used to draw people into a structured learning environment through specific courses (L6, L7)."
+     "text": "The community is presented positively as an alternative to previous religious structures, offering a 'better way' of life (L2). It is characterized as forward-thinking and life-affirming for people globally (L3). The organization aims to provide belonging without forcing members into restrictive labels or rigid belief systems (L8)."
     }
    ],
-   "data_hash": "3a1f1b37215a2fe93b106c8b",
+   "composition": {
+    "darante-lamar": 1
+   },
+   "data_hash": "2ae22ad11957bd38ee4a5e2e",
    "dropped_claims": 0,
-   "generated_at": "2026-07-19T14:24:22Z",
+   "generated_at": "2026-07-19T14:24:46Z",
    "k": 2,
    "model": "ollama:gemma4:e4b:c6eb396dbd59",
-   "n": 1490,
+   "n": 1453,
    "prompt_version": "1",
    "sampled": [
-    16318,
-    16317,
-    17314,
-    18952,
-    2438,
-    29299,
-    29300,
-    34222,
-    17201,
-    25231,
-    16063,
-    23288,
-    21081,
-    17290,
-    30309,
-    25527
+    16977,
+    16976,
+    108,
+    16975,
+    27222,
+    14767,
+    30697,
+    25687,
+    637,
+    13640,
+    5564,
+    4361,
+    660,
+    28827,
+    21947,
+    31994
    ],
-   "sense": 0,
+   "sense": 1,
    "stale": true,
    "term": "bridge city"
   }

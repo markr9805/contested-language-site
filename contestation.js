@@ -59,9 +59,66 @@ function adaptDiscovered(concepts) {
     phrase: c.surface,
     verdict: c.verdict,
     discovered: true,
+    bar: c.bar || null,
     apologetics: adaptSide(c.apologetics),
     deconstruction: adaptSide(c.deconstruction),
   }));
+}
+
+// DESIGN §3: a verdict is a community claim, so it must show the significance
+// bar its evidence rests on. An unmeasured bar reads as unmeasured, never as a
+// cleared one.
+//
+// The PROVISIONAL state is reachable on the pinned lane, which annotates every
+// curated term regardless of its bar. The discovered lane selects on the bar
+// before annotating (reading thousands of candidates with an LLM is not
+// feasible), so its chips only ever read as cleared — which is why the chip
+// leads with the q value rather than a pass/fail verdict that cannot vary.
+// B1: a discovered term's rank is a selection from a pool of thousands, ranked
+// by a significance-flavoured statistic with no multiplicity correction on the
+// ranking itself. The reliability gate is corrected (FDR); the ORDERING is not.
+// Saying so is cheaper and more honest than implying the top of the list is the
+// strongest signal rather than partly the luckiest draw.
+function renderDiscoveredSelection() {
+  const host = $("toggle-discovered")?.closest("label")?.parentElement;
+  const sel = state.discMeta && state.discMeta.selection;
+  if (!host || !sel) return;
+  const old = host.querySelector(".disc-selection");
+  if (old) old.remove();
+  const p = el("p", "disc-selection tip",
+    `${sel.published} of ${fmt(sel.pool)} candidates · ranked by ${sel.ranked_by}`);
+  p.dataset.tip = sel.note || "";
+  host.append(p);
+}
+
+function barChip(bar) {
+  if (!bar) return null;
+  if (bar.status !== "ok") {
+    const chip = el("span", "bar-chip unmeasured tip", "bar: unmeasured");
+    chip.dataset.tip = bar.reason || "the significance bar was not computed for this term";
+    return chip;
+  }
+  const passes = !!bar.passes;
+  // Lead with the measurement, not a verdict. In the discovered lane the gate
+  // selects on q BEFORE annotation, so a pass/fail label there could only ever
+  // read "clears the bar" — decorative. The number is what carries information
+  // and it is comparable across terms; colour still encodes the verdict for
+  // the pinned lane, which is not gated and can genuinely fail.
+  const value = bar.corrected
+    ? `FDR q=${Number(bar.q).toPrecision(2)}`
+    : `p=${Number(bar.p).toPrecision(2)}`;
+  const chip = el("span", `bar-chip ${passes ? "passes" : "provisional"} tip`, value);
+  chip.dataset.tip =
+    (bar.corrected
+      ? "Benjamini-Hochberg false-discovery rate across this run's terms. "
+      : "Uncorrected: this is a curated term, not selected from a ranking, so there is no selection effect to correct. ") +
+    `Exhaustive permutation over all ${Number(bar.assignments || 0).toLocaleString("en-US")} ` +
+    "ways of splitting these creators into the observed group sizes — how often " +
+    "does a random split produce a cross-side gap this large? " +
+    (passes
+      ? "Below threshold: creator-level variation does not explain a gap this size."
+      : "PROVISIONAL — creator-level variation explains a gap this size, so this is a proposal, not a community difference.");
+  return chip;
 }
 
 // A discovered concept's surface can collide with a pinned term's phrase
@@ -205,11 +262,15 @@ function selectTerm(key) {
 
   const oldDisc = variants.querySelector(".discovered-badge");
   if (oldDisc) oldDisc.remove();
+  const oldBar = variants.querySelector(".bar-chip");
+  if (oldBar) oldBar.remove();
   if (term.discovered) {
     const disc = el("span", "discovered-badge tip", "discovered");
     disc.dataset.tip = "machine-DISCOVERED — proposed by an LLM from distinctive-word statistics, not pinned into the lexicon";
     variants.append(disc);
   }
+  const chip = barChip(term.bar);
+  if (chip) variants.append(chip);
 
   renderFramingCol("apol-col", "apol-text", term.apologetics, term);
   renderFramingCol("decon-col", "decon-text", term.deconstruction, term);
@@ -344,8 +405,10 @@ async function init() {
   try {
     const disc = await fetchJSON("discovered.json");
     state.discovered = adaptDiscovered(disc.concepts);
+    state.discMeta = disc.meta || null;
   } catch (e) {
     state.discovered = [];
+    state.discMeta = null;
     console.warn("discovered.json not available — discovered-concept toggle will show nothing:", e.message);
   }
 
@@ -355,6 +418,8 @@ async function init() {
   renderCaveat();
   renderVerdictGroups();
   renderCandidateList();
+
+  renderDiscoveredSelection();
 
   const toggle = $("toggle-discovered");
   toggle.checked = state.showDiscovered;

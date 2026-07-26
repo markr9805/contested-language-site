@@ -4,8 +4,13 @@
   "valence",
   "rhetorical-role"
  ],
- "prompt_version": "1",
+ "prompt_version": "2",
  "terms": {
+  "bridge city": {
+   "file": "bridge-city.json",
+   "profiles": 2,
+   "stale": 2
+  },
   "community": {
    "file": "community.json",
    "profiles": 4,
@@ -13,13 +18,13 @@
   },
   "evidence": {
    "file": "evidence.json",
-   "profiles": 5,
-   "stale": 5
+   "profiles": 2,
+   "stale": 2
   },
   "grace": {
    "file": "grace.json",
-   "profiles": 2,
-   "stale": 2
+   "profiles": 3,
+   "stale": 3
   },
   "harm": {
    "file": "harm.json",

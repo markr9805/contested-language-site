@@ -1,26 +1,26 @@
 {
  "lines": {
-  "33032": {
-   "context": "They need someone who is going to love them and protect them and nourish them, not someone who is going to see them as someone who has to get the evil expelled from them. Your home is a collection of sinners saved by real grace. You must all, all of you, everybody in your home must look to Christ, because doing so is absolutely necessary. But you're not going to look to Christ. The good news is not going to make any sense unless you have internalized the bad news.",
-   "creator": "belief-it-or-not",
-   "occurrence_id": 33032,
-   "published_at": "2025-09-04T15:01:13Z",
-   "role": "unknown",
-   "surface": "grace",
-   "t": 1942.56,
-   "title": "The Worst Christian Parenting Advice | Belief It Or Not",
-   "video_id": "fYVXJEtmc1M"
-  },
-  "34130": {
-   "context": "I use the label apostate to take back its ownership, because apostate or murted are often used against us as insults. Whatever work I do to take back that label, I have to first undo all the harm that he's done to tarnish it. And that's really unfortunate, because he started off by helping so many people, so it's sad to see him fall from grace like that. Like I said, this isn't exclusively an AP problem, but he's the most prominent example. The way I see it, the underlying problem is hate, and I'm not validating the false accusation that we're inundated with, that critics of Islam do it because they're hateful.",
-   "creator": "apostate-aladdin",
-   "occurrence_id": 34130,
-   "published_at": "2024-03-08T08:01:08Z",
+  "33768": {
+   "context": "You go to God and say, God, I can't live a sinless life without you. I need your help. I come to you, poor, destitute, naked. Give me the grace to live a holy life that is pleasing to you. Grace will then be given to you by God in response to your free petition.",
+   "creator": "reasonable-faith-org",
+   "occurrence_id": 33768,
+   "published_at": "2025-10-19T15:46:15Z",
    "role": "host",
    "surface": "grace",
-   "t": 1400.76,
-   "title": "The DARK side of anti-Islam YouTube",
-   "video_id": "gbH54Ar3z1Y"
+   "t": 132.04,
+   "title": "Doctrine of Man Part 23: Views of Original Sin || Defenders LIVE!",
+   "video_id": "YFCrcaRSAEQ"
+  },
+  "9243": {
+   "context": "Seriously, this is a weird prop, and it wasn't placed directly over a character's shoulder in this scene by accident. Of course, these parents' sociopathic detachment from the death of one child and the emotional well-being of another is immediately contrasted by how a Christian looks after family as we switch to our hero Grace doting over her grandpa and making sure he has a good healthy breakfast before she grades papers and goes to school.",
+   "creator": "prophet-of-zod",
+   "occurrence_id": 9243,
+   "published_at": "2021-07-22T17:30:11Z",
+   "role": "host",
+   "surface": "grace",
+   "t": 456.88,
+   "title": "How God's Not Dead 2 Crafted an Elaborate Deception",
+   "video_id": "7tw3Und-fXM"
   }
  },
  "profiles": [
@@ -31,11 +31,14 @@
     {
      "aspect": "rhetorical-role",
      "evidence": [
-      33032
+      9243
      ],
-     "text": "Grace is presented as a mechanism that can de-energize individuals, making them feel they have no hope of changing, which the speaker identifies as an 'excuse' (L6)."
+     "text": "Grace is identified as a theological structure that can maintain moral inconsistency and keep individuals stuck in shame rather than guiding them toward truth (L15)."
     }
    ],
+   "composition": {
+    "prophet-of-zod": 1
+   },
    "data_hash": "8626ec706bb67a7535e4ded2",
    "dropped_claims": 0,
    "generated_at": "2026-07-19T14:19:52Z",
@@ -70,13 +73,60 @@
    "cell": "overall",
    "claims": [
     {
-     "aspect": "rhetorical-role",
+     "aspect": "valence",
      "evidence": [
-      34130
+      9243
      ],
-     "text": "The term suggests finding acceptance and understanding within life's mistakes or mishaps (L6)."
+     "text": "In some instances, 'grace' is presented as a mechanism that can keep individuals from achieving personal growth by maintaining a sense of perpetual need or shame (L15)."
     }
    ],
+   "composition": {
+    "prophet-of-zod": 1
+   },
+   "data_hash": "8626ec706bb67a7535e4ded2",
+   "dropped_claims": 0,
+   "generated_at": "2026-07-19T14:20:56Z",
+   "k": 2,
+   "model": "ollama:gemma4:e4b:c6eb396dbd59",
+   "n": 185,
+   "prompt_version": "1",
+   "sampled": [
+    14590,
+    14589,
+    14591,
+    14592,
+    16965,
+    33032,
+    8827,
+    8828,
+    601,
+    4673,
+    1311,
+    2204,
+    35031,
+    10420,
+    9243,
+    19732
+   ],
+   "sense": 0,
+   "stale": true,
+   "term": "grace"
+  },
+  {
+   "aspects_missing": [],
+   "cell": "overall",
+   "claims": [
+    {
+     "aspect": "valence",
+     "evidence": [
+      33768
+     ],
+     "text": "It functions as a means of self-correction or compassion, particularly when the speaker acknowledges being harder on themselves than others (L3)."
+    }
+   ],
+   "composition": {
+    "reasonable-faith-org": 1
+   },
    "data_hash": "7100e5f413dbcbfb196537a2",
    "dropped_claims": 0,
    "generated_at": "2026-07-19T14:21:24Z",
