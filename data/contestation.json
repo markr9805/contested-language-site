@@ -4,7 +4,7 @@
     "model": "openai:mlx-community/gpt-oss-20b-MXFP4-Q8:v2",
     "ranking_version": "concept-floor-v1",
     "corpus_host_words": 13528229,
-    "generated_at": "2026-07-26T19:51:06Z"
+    "generated_at": "2026-07-26T20:22:00Z"
   },
   "terms": [
     {
@@ -13,7 +13,7 @@
       "bar": {
         "status": "ok",
         "passes": false,
-        "p": 0.08921436320817126,
+        "p": 0.08799714217670875,
         "q": null,
         "corrected": false,
         "max_q": 0.05,
@@ -21,6 +21,26 @@
         "statistic": "divergence",
         "method": "exhaustive permutation of collocate divergence over all side assignments, uncorrected",
         "reason": "the cross-side difference is not reliable across creators at p<0.05 (uncorrected: a curated term, not selected from a ranking) \u2014 reported as a provisional community claim"
+      },
+      "bar_corpus": {
+        "measured_at": "2026-07-26T20:18:04Z",
+        "bar_hash": "3d5eaca4bec6a0bf98e276d9",
+        "corpus": {
+          "videos": 5146,
+          "fingerprint": "sha256:dfd8b49d33f3b3e3f3ae80d49697b57d"
+        },
+        "lines": {
+          "apologetics": 249,
+          "deconstruction": 500
+        },
+        "params": {
+          "max_vocab": 200,
+          "max_q": 0.05,
+          "include_duplicates": false
+        },
+        "note": "the per-creator collocate profiles this bar was computed from are frozen alongside it, so the p reproduces exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's evidence, which is a new measurement under a new vintage.",
+        "frozen": true,
+        "current": true
       },
       "apologetics": {
         "text": "They frame accountability as a scripturally grounded moral responsibility essential for personal and communal growth, emphasizing age of accountability and a ledger\u2011style moral ledger.",
@@ -53,6 +73,7 @@
       "phrase": "bridge city",
       "verdict": "insufficient",
       "bar": null,
+      "bar_corpus": null,
       "apologetics": null,
       "deconstruction": null
     },
@@ -62,7 +83,7 @@
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.006787330316742082,
+        "p": 0.006509486385647376,
         "q": null,
         "corrected": false,
         "max_q": 0.05,
@@ -70,6 +91,26 @@
         "statistic": "divergence",
         "method": "exhaustive permutation of collocate divergence over all side assignments, uncorrected",
         "reason": null
+      },
+      "bar_corpus": {
+        "measured_at": "2026-07-26T20:18:04Z",
+        "bar_hash": "3cf9cb81304db86b8e7b14ee",
+        "corpus": {
+          "videos": 5146,
+          "fingerprint": "sha256:dfd8b49d33f3b3e3f3ae80d49697b57d"
+        },
+        "lines": {
+          "apologetics": 563,
+          "deconstruction": 14350
+        },
+        "params": {
+          "max_vocab": 200,
+          "max_q": 0.05,
+          "include_duplicates": false
+        },
+        "note": "the per-creator collocate profiles this bar was computed from are frozen alongside it, so the p reproduces exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's evidence, which is a new measurement under a new vintage.",
+        "frozen": true,
+        "current": true
       },
       "apologetics": {
         "text": "In the apologetics lines, 'community' is used primarily as a positive, supportive group of believers or social network, emphasizing belonging and fellowship.",
@@ -129,6 +170,26 @@
         "method": "exhaustive permutation of collocate divergence over all side assignments, uncorrected",
         "reason": null
       },
+      "bar_corpus": {
+        "measured_at": "2026-07-26T20:18:04Z",
+        "bar_hash": "8fc4c9f764c2ab5f28ced546",
+        "corpus": {
+          "videos": 5146,
+          "fingerprint": "sha256:dfd8b49d33f3b3e3f3ae80d49697b57d"
+        },
+        "lines": {
+          "apologetics": 12,
+          "deconstruction": 830
+        },
+        "params": {
+          "max_vocab": 200,
+          "max_q": 0.05,
+          "include_duplicates": false
+        },
+        "note": "the per-creator collocate profiles this bar was computed from are frozen alongside it, so the p reproduces exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's evidence, which is a new measurement under a new vintage.",
+        "frozen": true,
+        "current": true
+      },
       "apologetics": {
         "text": "Apologetics lines use \"deconstruction\" to describe dismantling or rejecting faith, framing it as a negative or destructive process.",
         "quotes": [
@@ -170,7 +231,7 @@
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.019634304464025826,
+        "p": 0.021671826625386997,
         "q": null,
         "corrected": false,
         "max_q": 0.05,
@@ -178,6 +239,26 @@
         "statistic": "divergence",
         "method": "exhaustive permutation of collocate divergence over all side assignments, uncorrected",
         "reason": null
+      },
+      "bar_corpus": {
+        "measured_at": "2026-07-26T20:18:05Z",
+        "bar_hash": "d673f7ac3f46edaf56815a1a",
+        "corpus": {
+          "videos": 5146,
+          "fingerprint": "sha256:dfd8b49d33f3b3e3f3ae80d49697b57d"
+        },
+        "lines": {
+          "apologetics": 32,
+          "deconstruction": 537
+        },
+        "params": {
+          "max_vocab": 200,
+          "max_q": 0.05,
+          "include_duplicates": false
+        },
+        "note": "the per-creator collocate profiles this bar was computed from are frozen alongside it, so the p reproduces exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's evidence, which is a new measurement under a new vintage.",
+        "frozen": true,
+        "current": true
       },
       "apologetics": {
         "text": "Apologetics lines use 'do the work' as a positive exhortation to perform ministry or spiritual duties, framing it as a necessary religious task.",
@@ -232,7 +313,7 @@
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.01903892461168003,
+        "p": 0.02101029345611389,
         "q": null,
         "corrected": false,
         "max_q": 0.05,
@@ -240,6 +321,26 @@
         "statistic": "divergence",
         "method": "exhaustive permutation of collocate divergence over all side assignments, uncorrected",
         "reason": null
+      },
+      "bar_corpus": {
+        "measured_at": "2026-07-26T20:18:08Z",
+        "bar_hash": "5e0779ce4a07a63915186eda",
+        "corpus": {
+          "videos": 5146,
+          "fingerprint": "sha256:dfd8b49d33f3b3e3f3ae80d49697b57d"
+        },
+        "lines": {
+          "apologetics": 2508,
+          "deconstruction": 4076
+        },
+        "params": {
+          "max_vocab": 200,
+          "max_q": 0.05,
+          "include_duplicates": false
+        },
+        "note": "the per-creator collocate profiles this bar was computed from are frozen alongside it, so the p reproduces exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's evidence, which is a new measurement under a new vintage.",
+        "frozen": true,
+        "current": true
       },
       "apologetics": {
         "text": "Apologetics lines use 'evidence' as a positive support for religious claims, presenting it as proof of God's existence, Jesus' historicity, or divine providence.",
@@ -274,7 +375,7 @@
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.012622052869730888,
+        "p": 0.011947289037072319,
         "q": null,
         "corrected": false,
         "max_q": 0.05,
@@ -282,6 +383,26 @@
         "statistic": "divergence",
         "method": "exhaustive permutation of collocate divergence over all side assignments, uncorrected",
         "reason": null
+      },
+      "bar_corpus": {
+        "measured_at": "2026-07-26T20:18:05Z",
+        "bar_hash": "3ee540d8f3f98805f26d03a1",
+        "corpus": {
+          "videos": 5146,
+          "fingerprint": "sha256:dfd8b49d33f3b3e3f3ae80d49697b57d"
+        },
+        "lines": {
+          "apologetics": 953,
+          "deconstruction": 482
+        },
+        "params": {
+          "max_vocab": 200,
+          "max_q": 0.05,
+          "include_duplicates": false
+        },
+        "note": "the per-creator collocate profiles this bar was computed from are frozen alongside it, so the p reproduces exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's evidence, which is a new measurement under a new vintage.",
+        "frozen": true,
+        "current": true
       },
       "apologetics": {
         "text": "Apologetics lines use \"grace\" as a theological concept of divine, unearned salvation and divine favor.",
@@ -344,6 +465,26 @@
         "statistic": "divergence",
         "method": "exhaustive permutation of collocate divergence over all side assignments, uncorrected",
         "reason": "the cross-side difference is not reliable across creators at p<0.05 (uncorrected: a curated term, not selected from a ranking) \u2014 reported as a provisional community claim"
+      },
+      "bar_corpus": {
+        "measured_at": "2026-07-26T20:18:11Z",
+        "bar_hash": "5d68b1572258b9c47f5c92fc",
+        "corpus": {
+          "videos": 5146,
+          "fingerprint": "sha256:dfd8b49d33f3b3e3f3ae80d49697b57d"
+        },
+        "lines": {
+          "apologetics": 182,
+          "deconstruction": 1981
+        },
+        "params": {
+          "max_vocab": 200,
+          "max_q": 0.05,
+          "include_duplicates": false
+        },
+        "note": "the per-creator collocate profiles this bar was computed from are frozen alongside it, so the p reproduces exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's evidence, which is a new measurement under a new vintage.",
+        "frozen": true,
+        "current": true
       },
       "apologetics": {
         "text": "Apologetics lines use 'harm' to denote negative effects or risks to people, God, or texts, emphasizing potential damage or danger.",
@@ -463,6 +604,26 @@
         "method": "exhaustive permutation of collocate divergence over all side assignments, uncorrected",
         "reason": null
       },
+      "bar_corpus": {
+        "measured_at": "2026-07-26T20:18:10Z",
+        "bar_hash": "47f35eabf6f03cb14a229a0b",
+        "corpus": {
+          "videos": 5146,
+          "fingerprint": "sha256:dfd8b49d33f3b3e3f3ae80d49697b57d"
+        },
+        "lines": {
+          "apologetics": 2911,
+          "deconstruction": 10281
+        },
+        "params": {
+          "max_vocab": 200,
+          "max_q": 0.05,
+          "include_duplicates": false
+        },
+        "note": "the per-creator collocate profiles this bar was computed from are frozen alongside it, so the p reproduces exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's evidence, which is a new measurement under a new vintage.",
+        "frozen": true,
+        "current": true
+      },
       "apologetics": {
         "text": "Apologetics lines employ \"love\" as a divine, moral imperative, emphasizing God\u2019s love for humanity and the command to love one\u2019s neighbor.",
         "quotes": [
@@ -534,6 +695,7 @@
       "phrase": "moral supremism",
       "verdict": "insufficient",
       "bar": null,
+      "bar_corpus": null,
       "apologetics": null,
       "deconstruction": null
     },
@@ -541,6 +703,7 @@
       "phrase": "purity test",
       "verdict": "insufficient",
       "bar": null,
+      "bar_corpus": null,
       "apologetics": null,
       "deconstruction": null
     },
@@ -558,6 +721,26 @@
         "statistic": "divergence",
         "method": "exhaustive permutation of collocate divergence over all side assignments, uncorrected",
         "reason": null
+      },
+      "bar_corpus": {
+        "measured_at": "2026-07-26T20:18:06Z",
+        "bar_hash": "a33d21be3b25b527c8337806",
+        "corpus": {
+          "videos": 5146,
+          "fingerprint": "sha256:dfd8b49d33f3b3e3f3ae80d49697b57d"
+        },
+        "lines": {
+          "apologetics": 2534,
+          "deconstruction": 4312
+        },
+        "params": {
+          "max_vocab": 200,
+          "max_q": 0.05,
+          "include_duplicates": false
+        },
+        "note": "the per-creator collocate profiles this bar was computed from are frozen alongside it, so the p reproduces exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's evidence, which is a new measurement under a new vintage.",
+        "frozen": true,
+        "current": true
       },
       "apologetics": {
         "text": "Apologetics lines frame \"truth\" as an objective, scriptural, and central authority that validates Christian belief and moral certainty.",
