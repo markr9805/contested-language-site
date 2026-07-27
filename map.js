@@ -41,8 +41,11 @@ const name = (slug) => creators()[slug].display_name;
 function renderPending(containerId, key) {
   const wrap = $(containerId);
   wrap.replaceChildren();
+  // "cannot-say" is a measurement refusal, not an ingestion delay. Sweeping it
+  // in here would tell the reader a creator is awaiting transcription when its
+  // corpus is fine and the axis simply cannot separate it.
   const pending = Object.entries(creators())
-    .filter(([, c]) => c[key].status !== "ok")
+    .filter(([, c]) => c[key].status !== "ok" && c[key].status !== "cannot-say")
     .sort(([a], [b]) => a.localeCompare(b));
   if (!pending.length) return;
   const note = el("div", "insufficient-note");
@@ -217,6 +220,7 @@ function renderPolar() {
     "proximity to each pole's anchors — so this is the readable view; check it " +
     "against the organic view, which imposes no categories.";
   renderAnchorCaveat();
+  renderCannotSay();
   renderPending("polar-pending", "polar");
 }
 
@@ -245,6 +249,45 @@ function occupancy(s) {
          ` ${o.within_0_05_of_midline} of them sit within 0.05 of the midline.` +
          ` For those, which side of the line they fall on carries little` +
          ` information.`;
+}
+
+// DESIGN §3 disclose-never-drop: these creators ARE measured, and the
+// measurement is that their side does not survive dropping one anchor. Showing
+// them with their range is the honest rendering; omitting them from the chart
+// silently would be the drop the discipline forbids, and filing them under
+// "pending data" would misattribute a refusal to an ingestion delay.
+function renderCannotSay() {
+  const host = $("polar-cannot-say");
+  if (!host) return;
+  host.replaceChildren();
+  const rows = Object.entries(creators())
+    .filter(([, c]) => c.polar && c.polar.status === "cannot-say")
+    .sort(([a], [b]) => a.localeCompare(b));
+  if (!rows.length) return;
+
+  const note = el("div", "insufficient-note");
+  note.append(el("strong", "", `Side not stated (${rows.length}): `));
+  note.append(
+    "these creators are placed on the axis, but their side flips when any " +
+    "one anchor is dropped from a pole — so which side of the line they fall " +
+    "on is a property of the anchors chosen, not of the creator. Their " +
+    "position is shown; the side is not claimed.");
+  const table = el("table", "data-table pending-table");
+  const head = el("tr");
+  for (const [h, num] of [["Creator", 0], ["x", 1], ["range under anchor swap", 1]]) {
+    head.append(el("th", num ? "num" : "", h));
+  }
+  table.append(head);
+  for (const [, c] of rows) {
+    const tr = el("tr");
+    tr.append(el("td", "", c.display_name));
+    tr.append(el("td", "num", c.polar.x.toFixed(4)));
+    const r = c.polar.x_range;
+    tr.append(el("td", "num", r ? `${r[0].toFixed(4)} to ${r[1].toFixed(4)}` : "—"));
+    table.append(tr);
+  }
+  note.append(table);
+  host.append(note);
 }
 
 function renderAnchorCaveat() {

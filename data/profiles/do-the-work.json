@@ -1,15 +1,26 @@
 {
  "lines": {
-  "18216": {
-   "context": "Where are the doers? Do I gotta go back to my days as a pastor? Not hearers only, you know, like I love that right here. If you build it, they will come. That's right. Oh my goodness. You got it. Do the work, do it. Do it right. Come on now. You got it. I love it. So when we look at social class, that is another uh grand determinant in shaping the identity and feelings of work as well, and people born into higher um social classes or other uh um or those they've of success.",
-   "creator": "darante-lamar",
-   "occurrence_id": 18216,
-   "published_at": "2025-03-02T20:37:42Z",
+  "10160": {
+   "context": "I mean, that's that's something that I think that we we discount in our uh very like naturalistic sort of understanding of the world as like modern Western people, is a deep encounter with the uh you know, with a God who is doing the work of transforming people.",
+   "creator": "jude-3-project",
+   "occurrence_id": 10160,
+   "published_at": "2025-05-06T13:00:26Z",
    "role": "host",
-   "surface": "do the work",
-   "t": 4596.92,
-   "title": "Mirror Madness: How Your Worldview Shapes Your Self-Perception | Through The Looking Glass",
-   "video_id": "GLx92Ds9daI"
+   "surface": "doing the work",
+   "t": 423.4,
+   "title": "A History of Black Christianity in the USA | Dr. Walter Strickland",
+   "video_id": "8P8gV0mrSCc"
+  },
+  "10161": {
+   "context": "Uh those sorts of organizers shouldn't despise their their not being in the limelight, but they're the ones who are sort of upholding and doing the work for serving that broader sort of institution, populace or environment so that they can actually do what they need to do.",
+   "creator": "jude-3-project",
+   "occurrence_id": 10161,
+   "published_at": "2025-05-06T13:00:26Z",
+   "role": "host",
+   "surface": "doing the work",
+   "t": 1808.04,
+   "title": "A History of Black Christianity in the USA | Dr. Walter Strickland",
+   "video_id": "8P8gV0mrSCc"
   }
  },
  "profiles": [
@@ -18,42 +29,42 @@
    "cell": "creator=darante-lamar",
    "claims": [
     {
-     "aspect": "rhetorical-role",
+     "aspect": "valence",
      "evidence": [
-      18216
+      10160
      ],
-     "text": "It serves as a recurring motivational call to action, urging listeners to commit their energy and effort toward collective goals (L5, L16)."
+     "text": "The phrase 'do the work' carries a positive valence when associated with self-improvement, such as making life better for oneself (L1). Conversely, it can be used in contrast to institutional or religious efforts that are seen as superficial or manipulative (L2, L5, L6)."
     }
    ],
    "composition": {
-    "darante-lamar": 1
+    "jude-3-project": 2
    },
-   "data_hash": "6d7db3f9d6d6ce4a3c60a1a2",
+   "data_hash": "6a6060933e1f05b8099ad50d",
    "dropped_claims": 0,
-   "generated_at": "2026-07-19T14:25:24Z",
+   "generated_at": "2026-07-19T14:26:01Z",
    "k": 2,
    "model": "ollama:gemma4:e4b:c6eb396dbd59",
-   "n": 297,
+   "n": 254,
    "prompt_version": "1",
    "sampled": [
-    22705,
-    22706,
-    22707,
-    22695,
-    18216,
-    22708,
-    14344,
-    8559,
-    27380,
-    8188,
-    25877,
-    14334,
-    18225,
-    32568,
-    26532,
-    12968
+    15030,
+    716,
+    26310,
+    33167,
+    8556,
+    10160,
+    10161,
+    5569,
+    25597,
+    32185,
+    8190,
+    20481,
+    18981,
+    4775,
+    29844,
+    11757
    ],
-   "sense": 0,
+   "sense": 1,
    "stale": true,
    "term": "do the work"
   },
@@ -64,40 +75,40 @@
     {
      "aspect": "valence",
      "evidence": [
-      18216
+      10160
      ],
-     "text": "The concept of 'doing the work' is consistently associated with positive outcomes, such as building community and making sure that a community is enjoyable (L1, L2, L6). It implies active commitment and effort, which are necessary for growth and change (L5, L11, L13, L16)."
+     "text": "The phrase can carry a positive valence when it refers to personal action that leads to positive outcomes, such as creating a gravitational pull around oneself (L1). Conversely, the concept of 'doing the work' is sometimes presented in contrast to institutional belief systems or theology (L2, L5, L6)."
     }
    ],
    "composition": {
-    "darante-lamar": 1
+    "jude-3-project": 2
    },
-   "data_hash": "6d7db3f9d6d6ce4a3c60a1a2",
+   "data_hash": "6a6060933e1f05b8099ad50d",
    "dropped_claims": 0,
-   "generated_at": "2026-07-19T14:26:33Z",
+   "generated_at": "2026-07-19T14:27:02Z",
    "k": 2,
    "model": "ollama:gemma4:e4b:c6eb396dbd59",
-   "n": 297,
+   "n": 254,
    "prompt_version": "1",
    "sampled": [
-    22705,
-    22706,
-    22707,
-    22695,
-    18216,
-    22708,
-    14344,
-    8559,
-    27380,
-    8188,
-    25877,
-    14334,
-    18225,
-    32568,
-    26532,
-    12968
+    15030,
+    716,
+    26310,
+    33167,
+    8556,
+    10160,
+    10161,
+    5569,
+    25597,
+    32185,
+    8190,
+    20481,
+    18981,
+    4775,
+    29844,
+    11757
    ],
-   "sense": 0,
+   "sense": 1,
    "stale": true,
    "term": "do the work"
   }

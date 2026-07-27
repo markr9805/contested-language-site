@@ -5,7 +5,7 @@
     "file": "community/apologetics.json",
     "nodes_ghost": 6,
     "nodes_ok": 18,
-    "occurrences": 13094
+    "occurrences": 13378
    },
    "deconstruction": {
     "file": "community/deconstruction.json",
@@ -43,13 +43,13 @@
     "file": "creator/counsel-of-trent.json",
     "nodes_ghost": 13,
     "nodes_ok": 11,
-    "occurrences": 1433
+    "occurrences": 1512
    },
    "cross-examined": {
     "file": "creator/cross-examined.json",
-    "nodes_ghost": 13,
-    "nodes_ok": 11,
-    "occurrences": 4012
+    "nodes_ghost": 11,
+    "nodes_ok": 13,
+    "occurrences": 4185
    },
    "darante-lamar": {
     "file": "creator/darante-lamar.json",
@@ -61,7 +61,7 @@
     "file": "creator/drcraigvideos.json",
     "nodes_ghost": 16,
     "nodes_ok": 8,
-    "occurrences": 1344
+    "occurrences": 1376
    },
    "genetically-modified-skeptic": {
     "file": "creator/genetically-modified-skeptic.json",
@@ -135,7 +135,7 @@
     "file": "overall/overall.json",
     "nodes_ghost": 1,
     "nodes_ok": 23,
-    "occurrences": 64639
+    "occurrences": 64923
    }
   },
   "role": {
@@ -143,19 +143,19 @@
     "file": "role/host.json",
     "nodes_ghost": 1,
     "nodes_ok": 23,
-    "occurrences": 51732
+    "occurrences": 51920
    },
    "unattributed": {
     "file": "role/unattributed.json",
     "nodes_ghost": 4,
     "nodes_ok": 20,
-    "occurrences": 2767
+    "occurrences": 2773
    },
    "unknown": {
     "file": "role/unknown.json",
     "nodes_ghost": 3,
     "nodes_ok": 21,
-    "occurrences": 10140
+    "occurrences": 10230
    }
   },
   "year": {
@@ -173,9 +173,9 @@
    },
    "2013": {
     "file": "year/2013.json",
-    "nodes_ghost": 23,
-    "nodes_ok": 1,
-    "occurrences": 39
+    "nodes_ghost": 22,
+    "nodes_ok": 2,
+    "occurrences": 71
    },
    "2014": {
     "file": "year/2014.json",
@@ -247,13 +247,13 @@
     "file": "year/2025.json",
     "nodes_ghost": 3,
     "nodes_ok": 21,
-    "occurrences": 23830
+    "occurrences": 23909
    },
    "2026": {
     "file": "year/2026.json",
     "nodes_ghost": 1,
     "nodes_ok": 23,
-    "occurrences": 22231
+    "occurrences": 22404
    }
   }
  },
@@ -336,15 +336,15 @@
   "apostate-aladdin": {
    "reason": "top pole weight leads by 0.0350 < margin 0.05",
    "weights": {
-    "apologetics": 0.9436,
-    "deconstruction": 0.9786
+    "apologetics": 0.9438,
+    "deconstruction": 0.9788
    }
   },
   "belief-it-or-not": {
-   "reason": "top pole weight leads by 0.0068 < margin 0.05",
+   "reason": "top pole weight leads by 0.0057 < margin 0.05",
    "weights": {
-    "apologetics": 0.9454,
-    "deconstruction": 0.9522
+    "apologetics": 0.9461,
+    "deconstruction": 0.9518
    }
   },
   "britt-hartley": {
@@ -362,45 +362,45 @@
    }
   },
   "jackie-hill-perry": {
-   "reason": "top pole weight leads by 0.0051 < margin 0.05",
+   "reason": "top pole weight leads by 0.0038 < margin 0.05",
    "weights": {
-    "apologetics": 0.9145,
-    "deconstruction": 0.9196
+    "apologetics": 0.9142,
+    "deconstruction": 0.918
    }
   },
   "jude-3-project": {
    "reason": "top pole weight leads by 0.0148 < margin 0.05",
    "weights": {
-    "apologetics": 0.9318,
-    "deconstruction": 0.9466
+    "apologetics": 0.9309,
+    "deconstruction": 0.9457
    }
   },
   "mike-winger": {
-   "reason": "top pole weight leads by 0.0094 < margin 0.05",
+   "reason": "top pole weight leads by 0.0086 < margin 0.05",
    "weights": {
-    "apologetics": 0.9004,
-    "deconstruction": 0.891
+    "apologetics": 0.9006,
+    "deconstruction": 0.892
    }
   },
   "paulogia": {
-   "reason": "top pole weight leads by 0.0497 < margin 0.05",
+   "reason": "top pole weight leads by 0.0470 < margin 0.05",
    "weights": {
-    "apologetics": 0.9777,
-    "deconstruction": 0.928
+    "apologetics": 0.9784,
+    "deconstruction": 0.9314
    }
   },
   "prophet-of-zod": {
-   "reason": "top pole weight leads by 0.0007 < margin 0.05",
+   "reason": "top pole weight leads by 0.0018 < margin 0.05",
    "weights": {
-    "apologetics": 0.9481,
-    "deconstruction": 0.9474
+    "apologetics": 0.949,
+    "deconstruction": 0.9472
    }
   },
   "shannon-q": {
-   "reason": "top pole weight leads by 0.0178 < margin 0.05",
+   "reason": "top pole weight leads by 0.0157 < margin 0.05",
    "weights": {
-    "apologetics": 0.9342,
-    "deconstruction": 0.952
+    "apologetics": 0.9382,
+    "deconstruction": 0.9539
    }
   }
  }

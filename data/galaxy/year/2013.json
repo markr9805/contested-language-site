@@ -1,7 +1,80 @@
 {
- "audit_lines": {},
+ "audit_lines": {
+  "40404": {
+   "context": "Like some people don't have that, and I wanted this vlog to be just a reminder that you actually have more than that, you know what I'm saying? And um, it's like we hear about the love of God so much that it's become a theory to us, it's become more conceptual than reality. It's like, you know, the person in a city where murder never happens, it's like, oh my god, somebody died.",
+   "occurrence_id": 40404,
+   "published_at": "2013-02-14T15:18:59Z",
+   "role": "host",
+   "sense": 0,
+   "surface": "love",
+   "t": 80.4,
+   "term": "love",
+   "title": "V-Day Vlog: Have You Found True Love Yet ?? @jackiehillperry",
+   "video_id": "cCNNRGmflkw"
+  },
+  "7006": {
+   "context": "This person's um I guess might have asking a question. A person rising from the dead would be extraordinary, if they say. Wouldn't extraordinary claims require extraordinary evidence? Would you like to respond to fewer? Oh boy, I could go on at length about this one. A couple of minutes. Okay. That l that aphorism, which is beloved in the free thought community, extraordinary events require extraordinary evidence, is in fact demonstrably false.",
+   "occurrence_id": 7006,
+   "published_at": "2013-10-18T23:01:06Z",
+   "role": "unknown",
+   "sense": 1,
+   "surface": "evidence",
+   "t": 14.24,
+   "term": "evidence",
+   "title": "Don't Extraordinary Claims Need Extraordinary Evidence?",
+   "video_id": "5HgRWvqf-wM"
+  },
+  "7007": {
+   "context": "A person rising from the dead would be extraordinary, if they say. Wouldn't extraordinary claims require extraordinary evidence? Would you like to respond to fewer? Oh boy, I could go on at length about this one. A couple of minutes. Okay. That l that aphorism, which is beloved in the free thought community, extraordinary events require extraordinary evidence, is in fact demonstrably false. It is demonstrably false. It fails to understand all of the factors that play into assessing the probability of an event.",
+   "occurrence_id": 7007,
+   "published_at": "2013-10-18T23:01:06Z",
+   "role": "unknown",
+   "sense": 1,
+   "surface": "evidence",
+   "t": 22.8,
+   "term": "evidence",
+   "title": "Don't Extraordinary Claims Need Extraordinary Evidence?",
+   "video_id": "5HgRWvqf-wM"
+  },
+  "9688": {
+   "context": "Um I've often met a lot of people, uh smart people who aren't historians, who just say it's yeah, it's better than the evidence for anything else, but it's still not good evidence. Um and they just sort of have this sort of agnosticism regarding anything that happened more than a few hundred years ago.",
+   "occurrence_id": 9688,
+   "published_at": "2013-10-28T22:11:38Z",
+   "role": "unknown",
+   "sense": 1,
+   "surface": "evidence",
+   "t": 26.88,
+   "term": "evidence",
+   "title": "Is the Evidence for Jesus Good?",
+   "video_id": "7zsteOpcIZs"
+  }
+ },
  "cell": "2013",
- "edges": [],
+ "edges": [
+  {
+   "a": "evidence|1",
+   "audit_pairs": [
+    {
+     "a_occ": 7006,
+     "b_occ": 40404,
+     "dist": 0.264
+    },
+    {
+     "a_occ": 7007,
+     "b_occ": 40404,
+     "dist": 0.2681
+    },
+    {
+     "a_occ": 9688,
+     "b_occ": 40404,
+     "dist": 0.3006
+    }
+   ],
+   "b": "love|0",
+   "dist": 0.2131,
+   "same_term": false
+  }
+ ],
  "grouping": "year",
  "nodes": {
   "accountability|0": {
@@ -54,8 +127,8 @@
   },
   "community|1": {
    "file": "senses/community.json",
-   "n": 0,
-   "reason": "0 < 10 occurrences in this cell",
+   "n": 1,
+   "reason": "1 < 10 occurrences in this cell",
    "sense": 1,
    "status": "ghost",
    "term": "community"
@@ -94,19 +167,24 @@
   },
   "evidence|0": {
    "file": "senses/evidence.json",
-   "n": 0,
-   "reason": "0 < 10 occurrences in this cell",
+   "n": 8,
+   "reason": "8 < 10 occurrences in this cell",
    "sense": 0,
    "status": "ghost",
    "term": "evidence"
   },
   "evidence|1": {
    "file": "senses/evidence.json",
-   "n": 3,
-   "reason": "3 < 10 occurrences in this cell",
+   "n": 14,
    "sense": 1,
-   "status": "ghost",
-   "term": "evidence"
+   "status": "ok",
+   "stress": 0.0003,
+   "stress_abs": 0.0001,
+   "term": "evidence",
+   "xy": [
+    -0.1066,
+    0.0
+   ]
   },
   "grace|0": {
    "file": "senses/grace.json",
@@ -142,14 +220,14 @@
   },
   "love|0": {
    "file": "senses/love.json",
-   "n": 22,
+   "n": 24,
    "sense": 0,
    "status": "ok",
-   "stress": 0.0,
-   "stress_abs": 0.0,
+   "stress": 0.0003,
+   "stress_abs": 0.0001,
    "term": "love",
    "xy": [
-    0.0,
+    0.1066,
     0.0
    ]
   },
@@ -187,20 +265,20 @@
   },
   "truth|0": {
    "file": "senses/truth.json",
-   "n": 3,
-   "reason": "3 < 10 occurrences in this cell",
+   "n": 8,
+   "reason": "8 < 10 occurrences in this cell",
    "sense": 0,
    "status": "ghost",
    "term": "truth"
   },
   "truth|1": {
    "file": "senses/truth.json",
-   "n": 1,
-   "reason": "1 < 10 occurrences in this cell",
+   "n": 6,
+   "reason": "6 < 10 occurrences in this cell",
    "sense": 1,
    "status": "ghost",
    "term": "truth"
   }
  },
- "occurrences": 39
+ "occurrences": 71
 }

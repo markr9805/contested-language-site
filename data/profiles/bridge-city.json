@@ -1,15 +1,15 @@
 {
  "lines": {
-  "25687": {
-   "context": "And then a hero comes along. I need to talk to somebody out there. Where's Mariah Carey when you need it? No. Hmm. One keeps the past at the center, the other puts the future in view. And that is what we're trying to do here. Bridge City is not just a place where people come to name what they lost. It's a place where people come to build what they wish existed.",
+  "30309": {
+   "context": "If God brought us together, then God has to fix it. If you're just the one, if you're just the soulmate, then there is nothing to fix. We just got to deal with what we got, you know. So Bridge City is taking a different approach to that. Doing doing relationships beyond superstition means acknowledging that agency is the engine. It's not a mystery why a relationship works or fails.",
    "creator": "darante-lamar",
-   "occurrence_id": 25687,
-   "published_at": "2026-04-14T00:31:58Z",
+   "occurrence_id": 30309,
+   "published_at": "2026-02-16T08:14:38Z",
    "role": "host",
    "surface": "bridge city",
-   "t": 107.44,
-   "title": "Growing Beyond Past Hurts",
-   "video_id": "PXz6zXWnQKQ"
+   "t": 1523.76,
+   "title": "Sharing Is Caring // Falling In Love With Reason",
+   "video_id": "SUG8YIz6T9Q"
   }
  },
  "profiles": [
@@ -18,42 +18,42 @@
    "cell": "creator=darante-lamar",
    "claims": [
     {
-     "aspect": "valence",
+     "aspect": "rhetorical-role",
      "evidence": [
-      25687
+      30309
      ],
-     "text": "The community is presented positively as an alternative to previous religious structures, which are characterized by 'doctrinal gatekeeping' or being 'stuck' in online chaos (L1, L2, L4). It is described as a life-affirming and forward-thinking space that allows members to belong without needing to fit into rigid labels (L3, L8)."
+     "text": "It functions as a central concept or brand name for an expanding network of local chapters and global initiatives (L4, L15)."
     }
    ],
    "composition": {
     "darante-lamar": 1
    },
-   "data_hash": "2ae22ad11957bd38ee4a5e2e",
+   "data_hash": "3a1f1b37215a2fe93b106c8b",
    "dropped_claims": 0,
-   "generated_at": "2026-07-19T14:23:58Z",
+   "generated_at": "2026-07-19T14:23:34Z",
    "k": 2,
    "model": "ollama:gemma4:e4b:c6eb396dbd59",
-   "n": 1453,
+   "n": 1490,
    "prompt_version": "1",
    "sampled": [
-    16977,
-    16976,
-    108,
-    16975,
-    27222,
-    14767,
-    30697,
-    25687,
-    637,
-    13640,
-    5564,
-    4361,
-    660,
-    28827,
-    21947,
-    31994
+    16318,
+    16317,
+    17314,
+    18952,
+    2438,
+    29299,
+    29300,
+    34222,
+    17201,
+    25231,
+    16063,
+    23288,
+    21081,
+    17290,
+    30309,
+    25527
    ],
-   "sense": 1,
+   "sense": 0,
    "stale": true,
    "term": "bridge city"
   },
@@ -62,42 +62,42 @@
    "cell": "overall",
    "claims": [
     {
-     "aspect": "valence",
+     "aspect": "rhetorical-role",
      "evidence": [
-      25687
+      30309
      ],
-     "text": "The community is presented positively as an alternative to previous religious structures, offering a 'better way' of life (L2). It is characterized as forward-thinking and life-affirming for people globally (L3). The organization aims to provide belonging without forcing members into restrictive labels or rigid belief systems (L8)."
+     "text": "It serves as the central subject of discussion when promoting membership or participation in various local chapters and global initiatives (L4, L15). It is used to draw people into a structured learning environment through specific courses (L6, L7)."
     }
    ],
    "composition": {
     "darante-lamar": 1
    },
-   "data_hash": "2ae22ad11957bd38ee4a5e2e",
+   "data_hash": "3a1f1b37215a2fe93b106c8b",
    "dropped_claims": 0,
-   "generated_at": "2026-07-19T14:24:46Z",
+   "generated_at": "2026-07-19T14:24:22Z",
    "k": 2,
    "model": "ollama:gemma4:e4b:c6eb396dbd59",
-   "n": 1453,
+   "n": 1490,
    "prompt_version": "1",
    "sampled": [
-    16977,
-    16976,
-    108,
-    16975,
-    27222,
-    14767,
-    30697,
-    25687,
-    637,
-    13640,
-    5564,
-    4361,
-    660,
-    28827,
-    21947,
-    31994
+    16318,
+    16317,
+    17314,
+    18952,
+    2438,
+    29299,
+    29300,
+    34222,
+    17201,
+    25231,
+    16063,
+    23288,
+    21081,
+    17290,
+    30309,
+    25527
    ],
-   "sense": 1,
+   "sense": 0,
    "stale": true,
    "term": "bridge city"
   }
