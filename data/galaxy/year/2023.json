@@ -1164,6 +1164,18 @@
    "title": "Is divine hiddenness a reasonable argument?",
    "video_id": "Un1YnobHbf0"
   },
+  "3445": {
+   "context": "Let me know your thoughts in the comments. Thank you for watching. I've been Drew of Genetically Modified Skeptic. A thank you to my patrons for their constant love and support. If you want to hear more from me, then subscribe. As always, if you are an apostate in need, there are resources linked in the description to help you find community and mental health support. Remember to be kind to each other in the comments, regardless of where you're from or what your religion is. And until next time, stay skeptical.",
+   "occurrence_id": 3445,
+   "published_at": "2023-12-03T16:33:34Z",
+   "role": "host",
+   "sense": 1,
+   "surface": "community",
+   "t": 823.4,
+   "term": "community",
+   "title": "Surprising Statistics About Gen Z’s Religious Views",
+   "video_id": "2SdJRY3me2A"
+  },
   "35160": {
    "context": "Name Hagar. This is this is what you call grace. This is grace. It is not just that God sees you. It is that God allows Himself to be seen. Joni Erickson Tata was 17 when she dove into the Chesapeake Bay.",
    "occurrence_id": 35160,
@@ -1571,18 +1583,6 @@
    "term": "grace",
    "title": "Does JJ McCullough Believe In God?",
    "video_id": "fAJktHHkujM"
-  },
-  "45611": {
-   "context": "A huge thank you to John Perry for collaborating with me on this. I couldn't have done this without you, man, so thank you. You guys should definitely subscribe to both of his channels. Another thank you to my patrons for their constant love and support. If you want to hear more from me, then subscribe. As always, if you are an apostate in need, there are resources linked in the description to help you find community and mental health support. Remember to be kind to others in the comments, and until next time, stay skeptical.",
-   "occurrence_id": 45611,
-   "published_at": "2023-08-10T15:00:01Z",
-   "role": "host",
-   "sense": 0,
-   "surface": "community",
-   "t": 1974.8,
-   "term": "community",
-   "title": "Creationist Makes Terrible Arguments on JRE (A Response)",
-   "video_id": "gs924jt2FeI"
   },
   "45613": {
    "context": "This enables the person to enter a spiritually blind state where they are unable to recognize that the real reason they disbelieve is their own moral failure. Or put more simply, there are some people out there who genuinely don't believe God exists because they've suppressed the truth so long that God has given up to their own desires and they're at the end of Romans 1 rather than the beginning. They've lost the capacity to recognize God exists because God knows they're never coming back and he has given them up.",
@@ -2095,23 +2095,23 @@
    "a": "community|0",
    "audit_pairs": [
     {
-     "a_occ": 45611,
-     "b_occ": 63696,
-     "dist": 0.1007
-    },
-    {
      "a_occ": 29232,
      "b_occ": 63696,
      "dist": 0.1118
     },
     {
-     "a_occ": 45611,
-     "b_occ": 22911,
-     "dist": 0.1177
+     "a_occ": 29232,
+     "b_occ": 3445,
+     "dist": 0.1323
+    },
+    {
+     "a_occ": 29232,
+     "b_occ": 40383,
+     "dist": 0.1344
     }
    ],
    "b": "community|1",
-   "dist": 0.0724,
+   "dist": 0.073,
    "same_term": true
   },
   {
@@ -2134,7 +2134,7 @@
     }
    ],
    "b": "evidence|1",
-   "dist": 0.1275,
+   "dist": 0.1283,
    "same_term": false
   },
   {
@@ -2157,7 +2157,7 @@
     }
    ],
    "b": "grace|1",
-   "dist": 0.135,
+   "dist": 0.1364,
    "same_term": false
   },
   {
@@ -2180,7 +2180,7 @@
     }
    ],
    "b": "harm|1",
-   "dist": 0.1292,
+   "dist": 0.1296,
    "same_term": false
   },
   {
@@ -2203,7 +2203,7 @@
     }
    ],
    "b": "love|0",
-   "dist": 0.1268,
+   "dist": 0.129,
    "same_term": false
   },
   {
@@ -2226,7 +2226,7 @@
     }
    ],
    "b": "love|1",
-   "dist": 0.0492,
+   "dist": 0.0513,
    "same_term": false
   },
   {
@@ -2249,7 +2249,7 @@
     }
    ],
    "b": "truth|0",
-   "dist": 0.16,
+   "dist": 0.1629,
    "same_term": false
   },
   {
@@ -2272,7 +2272,7 @@
     }
    ],
    "b": "truth|1",
-   "dist": 0.1309,
+   "dist": 0.1316,
    "same_term": false
   },
   {
@@ -2295,7 +2295,7 @@
     }
    ],
    "b": "evidence|0",
-   "dist": 0.0734,
+   "dist": 0.0733,
    "same_term": false
   },
   {
@@ -2318,7 +2318,7 @@
     }
    ],
    "b": "evidence|1",
-   "dist": 0.0596,
+   "dist": 0.0597,
    "same_term": false
   },
   {
@@ -2364,7 +2364,7 @@
     }
    ],
    "b": "grace|1",
-   "dist": 0.0901,
+   "dist": 0.0899,
    "same_term": false
   },
   {
@@ -2387,7 +2387,7 @@
     }
    ],
    "b": "harm|0",
-   "dist": 0.0661,
+   "dist": 0.066,
    "same_term": false
   },
   {
@@ -2410,7 +2410,7 @@
     }
    ],
    "b": "harm|1",
-   "dist": 0.0576,
+   "dist": 0.0577,
    "same_term": false
   },
   {
@@ -2433,7 +2433,7 @@
     }
    ],
    "b": "love|0",
-   "dist": 0.0519,
+   "dist": 0.0517,
    "same_term": false
   },
   {
@@ -2456,7 +2456,7 @@
     }
    ],
    "b": "love|1",
-   "dist": 0.0463,
+   "dist": 0.0459,
    "same_term": false
   },
   {
@@ -2479,7 +2479,7 @@
     }
    ],
    "b": "truth|0",
-   "dist": 0.067,
+   "dist": 0.0669,
    "same_term": false
   },
   {
@@ -3447,28 +3447,28 @@
   },
   "community|0": {
    "file": "senses/community.json",
-   "n": 31,
+   "n": 30,
    "sense": 0,
    "status": "ok",
-   "stress": 0.1118,
-   "stress_abs": 0.013,
+   "stress": 0.1096,
+   "stress_abs": 0.0129,
    "term": "community",
    "xy": [
-    0.1111,
-    0.0203
+    0.1138,
+    0.0195
    ]
   },
   "community|1": {
    "file": "senses/community.json",
-   "n": 246,
+   "n": 247,
    "sense": 1,
    "status": "ok",
-   "stress": 0.2344,
-   "stress_abs": 0.014,
+   "stress": 0.2425,
+   "stress_abs": 0.0145,
    "term": "community",
    "xy": [
-    0.0227,
-    -0.0002
+    0.0228,
+    -0.0001
    ]
   },
   "deconstruction|0": {
@@ -3508,12 +3508,12 @@
    "n": 119,
    "sense": 0,
    "status": "ok",
-   "stress": 0.1861,
-   "stress_abs": 0.0124,
+   "stress": 0.187,
+   "stress_abs": 0.0125,
    "term": "evidence",
    "xy": [
-    -0.0523,
-    -0.0417
+    -0.0527,
+    -0.0418
    ]
   },
   "evidence|1": {
@@ -3521,12 +3521,12 @@
    "n": 88,
    "sense": 1,
    "status": "ok",
-   "stress": 0.1803,
-   "stress_abs": 0.0134,
+   "stress": 0.1794,
+   "stress_abs": 0.0133,
    "term": "evidence",
    "xy": [
-    0.0169,
-    -0.0657
+    0.0167,
+    -0.0656
    ]
   },
   "grace|0": {
@@ -3534,12 +3534,12 @@
    "n": 14,
    "sense": 0,
    "status": "ok",
-   "stress": 0.0742,
-   "stress_abs": 0.0059,
+   "stress": 0.077,
+   "stress_abs": 0.0061,
    "term": "grace",
    "xy": [
-    -0.0671,
-    0.0477
+    -0.0675,
+    0.0478
    ]
   },
   "grace|1": {
@@ -3547,12 +3547,12 @@
    "n": 10,
    "sense": 1,
    "status": "ok",
-   "stress": 0.0468,
-   "stress_abs": 0.0045,
+   "stress": 0.0482,
+   "stress_abs": 0.0046,
    "term": "grace",
    "xy": [
-    -0.0096,
-    0.078
+    -0.0093,
+    0.0781
    ]
   },
   "harm|0": {
@@ -3560,12 +3560,12 @@
    "n": 34,
    "sense": 0,
    "status": "ok",
-   "stress": 0.229,
-   "stress_abs": 0.0163,
+   "stress": 0.227,
+   "stress_abs": 0.0162,
    "term": "harm",
    "xy": [
-    -0.0504,
-    -0.01
+    -0.0511,
+    -0.0099
    ]
   },
   "harm|1": {
@@ -3573,12 +3573,12 @@
    "n": 29,
    "sense": 1,
    "status": "ok",
-   "stress": 0.3924,
+   "stress": 0.3919,
    "stress_abs": 0.0389,
    "term": "harm",
    "xy": [
-    0.0428,
-    -0.0039
+    0.0423,
+    -0.0036
    ]
   },
   "love|0": {
@@ -3586,11 +3586,11 @@
    "n": 240,
    "sense": 0,
    "status": "ok",
-   "stress": 0.131,
+   "stress": 0.1309,
    "stress_abs": 0.0071,
    "term": "love",
    "xy": [
-    -0.019,
+    -0.0191,
     0.0212
    ]
   },
@@ -3599,12 +3599,12 @@
    "n": 102,
    "sense": 1,
    "status": "ok",
-   "stress": 0.2447,
-   "stress_abs": 0.0177,
+   "stress": 0.2464,
+   "stress_abs": 0.0179,
    "term": "love",
    "xy": [
-    0.0497,
-    0.0058
+    0.0494,
+    0.0056
    ]
   },
   "purity-test|0": {
@@ -3636,12 +3636,12 @@
    "n": 126,
    "sense": 0,
    "status": "ok",
-   "stress": 0.2055,
-   "stress_abs": 0.0114,
+   "stress": 0.21,
+   "stress_abs": 0.0117,
    "term": "truth",
    "xy": [
-    -0.0485,
-    -0.0113
+    -0.049,
+    -0.0114
    ]
   },
   "truth|1": {
@@ -3649,12 +3649,12 @@
    "n": 67,
    "sense": 1,
    "status": "ok",
-   "stress": 0.2399,
-   "stress_abs": 0.0162,
+   "stress": 0.2403,
+   "stress_abs": 0.0163,
    "term": "truth",
    "xy": [
-    0.0038,
-    -0.04
+    0.0039,
+    -0.0399
    ]
   }
  },

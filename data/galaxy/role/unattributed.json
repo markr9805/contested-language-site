@@ -3311,7 +3311,7 @@
     }
    ],
    "b": "community|1",
-   "dist": 0.0533,
+   "dist": 0.0534,
    "same_term": false
   },
   {
@@ -3518,7 +3518,7 @@
     }
    ],
    "b": "community|0",
-   "dist": 0.099,
+   "dist": 0.0992,
    "same_term": false
   },
   {
@@ -3541,7 +3541,7 @@
     }
    ],
    "b": "community|1",
-   "dist": 0.0996,
+   "dist": 0.0994,
    "same_term": false
   },
   {
@@ -3725,7 +3725,7 @@
     }
    ],
    "b": "community|0",
-   "dist": 0.0497,
+   "dist": 0.0496,
    "same_term": false
   },
   {
@@ -3748,7 +3748,7 @@
     }
    ],
    "b": "community|1",
-   "dist": 0.1268,
+   "dist": 0.1267,
    "same_term": false
   },
   {
@@ -3863,7 +3863,7 @@
     }
    ],
    "b": "community|0",
-   "dist": 0.0704,
+   "dist": 0.0705,
    "same_term": false
   },
   {
@@ -3886,7 +3886,7 @@
     }
    ],
    "b": "community|1",
-   "dist": 0.0837,
+   "dist": 0.0835,
    "same_term": false
   },
   {
@@ -4047,7 +4047,7 @@
     }
    ],
    "b": "deconstruction|1",
-   "dist": 0.0773,
+   "dist": 0.0774,
    "same_term": false
   },
   {
@@ -4070,7 +4070,7 @@
     }
    ],
    "b": "do-the-work|0",
-   "dist": 0.0349,
+   "dist": 0.0351,
    "same_term": false
   },
   {
@@ -4093,7 +4093,7 @@
     }
    ],
    "b": "grace|1",
-   "dist": 0.0764,
+   "dist": 0.0765,
    "same_term": false
   },
   {
@@ -4139,7 +4139,7 @@
     }
    ],
    "b": "deconstruction|0",
-   "dist": 0.044,
+   "dist": 0.0441,
    "same_term": false
   },
   {
@@ -4162,7 +4162,7 @@
     }
    ],
    "b": "deconstruction|1",
-   "dist": 0.0885,
+   "dist": 0.0884,
    "same_term": false
   },
   {
@@ -4185,7 +4185,7 @@
     }
    ],
    "b": "do-the-work|0",
-   "dist": 0.0964,
+   "dist": 0.096,
    "same_term": false
   },
   {
@@ -4277,7 +4277,7 @@
     }
    ],
    "b": "harm|1",
-   "dist": 0.0674,
+   "dist": 0.0672,
    "same_term": false
   },
   {
@@ -4300,7 +4300,7 @@
     }
    ],
    "b": "love|0",
-   "dist": 0.0434,
+   "dist": 0.0435,
    "same_term": false
   },
   {
@@ -4323,7 +4323,7 @@
     }
    ],
    "b": "love|1",
-   "dist": 0.0572,
+   "dist": 0.0571,
    "same_term": false
   },
   {
@@ -4346,7 +4346,7 @@
     }
    ],
    "b": "truth|0",
-   "dist": 0.0439,
+   "dist": 0.044,
    "same_term": false
   },
   {
@@ -5691,7 +5691,7 @@
    "n": 33,
    "sense": 0,
    "status": "ok",
-   "stress": 0.3103,
+   "stress": 0.3102,
    "stress_abs": 0.0148,
    "term": "accountability",
    "xy": [
@@ -5704,7 +5704,7 @@
    "n": 10,
    "sense": 1,
    "status": "ok",
-   "stress": 0.1608,
+   "stress": 0.1606,
    "stress_abs": 0.0147,
    "term": "accountability",
    "xy": [
@@ -5725,7 +5725,7 @@
    "n": 61,
    "sense": 0,
    "status": "ok",
-   "stress": 0.1912,
+   "stress": 0.1913,
    "stress_abs": 0.0184,
    "term": "bridge city",
    "xy": [
@@ -5738,7 +5738,7 @@
    "n": 33,
    "sense": 1,
    "status": "ok",
-   "stress": 0.1717,
+   "stress": 0.1718,
    "stress_abs": 0.0152,
    "term": "bridge city",
    "xy": [
@@ -5748,28 +5748,28 @@
   },
   "community|0": {
    "file": "senses/community.json",
-   "n": 397,
+   "n": 396,
    "sense": 0,
    "status": "ok",
    "stress": 0.2375,
-   "stress_abs": 0.0151,
+   "stress_abs": 0.0152,
    "term": "community",
    "xy": [
-    -0.0897,
+    -0.0899,
     0.0027
    ]
   },
   "community|1": {
    "file": "senses/community.json",
-   "n": 311,
+   "n": 312,
    "sense": 1,
    "status": "ok",
-   "stress": 0.3492,
+   "stress": 0.3494,
    "stress_abs": 0.0149,
    "term": "community",
    "xy": [
-    -0.0008,
-    -0.0242
+    -0.0009,
+    -0.024
    ]
   },
   "deconstruction|0": {
@@ -5777,7 +5777,7 @@
    "n": 46,
    "sense": 0,
    "status": "ok",
-   "stress": 0.2715,
+   "stress": 0.2717,
    "stress_abs": 0.0118,
    "term": "deconstruction",
    "xy": [
@@ -5790,7 +5790,7 @@
    "n": 26,
    "sense": 1,
    "status": "ok",
-   "stress": 0.3908,
+   "stress": 0.3906,
    "stress_abs": 0.0304,
    "term": "deconstruction",
    "xy": [
@@ -5803,7 +5803,7 @@
    "n": 13,
    "sense": 0,
    "status": "ok",
-   "stress": 0.1776,
+   "stress": 0.1777,
    "stress_abs": 0.0136,
    "term": "do the work",
    "xy": [
@@ -5816,7 +5816,7 @@
    "n": 11,
    "sense": 1,
    "status": "ok",
-   "stress": 0.1841,
+   "stress": 0.1838,
    "stress_abs": 0.0081,
    "term": "do the work",
    "xy": [
@@ -5829,7 +5829,7 @@
    "n": 203,
    "sense": 0,
    "status": "ok",
-   "stress": 0.3312,
+   "stress": 0.3311,
    "stress_abs": 0.0143,
    "term": "evidence",
    "xy": [
@@ -5842,11 +5842,11 @@
    "n": 109,
    "sense": 1,
    "status": "ok",
-   "stress": 0.3286,
+   "stress": 0.3283,
    "stress_abs": 0.0232,
    "term": "evidence",
    "xy": [
-    0.0433,
+    0.0434,
     0.0439
    ]
   },
@@ -5868,7 +5868,7 @@
    "n": 36,
    "sense": 1,
    "status": "ok",
-   "stress": 0.2795,
+   "stress": 0.28,
    "stress_abs": 0.0122,
    "term": "grace",
    "xy": [
@@ -5881,7 +5881,7 @@
    "n": 137,
    "sense": 0,
    "status": "ok",
-   "stress": 0.3396,
+   "stress": 0.3394,
    "stress_abs": 0.0114,
    "term": "harm",
    "xy": [
@@ -5894,12 +5894,12 @@
    "n": 44,
    "sense": 1,
    "status": "ok",
-   "stress": 0.2586,
-   "stress_abs": 0.0175,
+   "stress": 0.2597,
+   "stress_abs": 0.0176,
    "term": "harm",
    "xy": [
     0.0146,
-    0.0362
+    0.0361
    ]
   },
   "love|0": {
@@ -5907,7 +5907,7 @@
    "n": 444,
    "sense": 0,
    "status": "ok",
-   "stress": 0.3067,
+   "stress": 0.3065,
    "stress_abs": 0.011,
    "term": "love",
    "xy": [
@@ -5920,7 +5920,7 @@
    "n": 326,
    "sense": 1,
    "status": "ok",
-   "stress": 0.266,
+   "stress": 0.267,
    "stress_abs": 0.0142,
    "term": "love",
    "xy": [
@@ -5957,7 +5957,7 @@
    "n": 315,
    "sense": 0,
    "status": "ok",
-   "stress": 0.3515,
+   "stress": 0.3507,
    "stress_abs": 0.0115,
    "term": "truth",
    "xy": [
@@ -5970,11 +5970,11 @@
    "n": 159,
    "sense": 1,
    "status": "ok",
-   "stress": 0.2987,
+   "stress": 0.2993,
    "stress_abs": 0.0165,
    "term": "truth",
    "xy": [
-    0.0115,
+    0.0116,
     0.0268
    ]
   }

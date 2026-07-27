@@ -45,7 +45,7 @@ function renderPending(containerId, key) {
   // in here would tell the reader a creator is awaiting transcription when its
   // corpus is fine and the axis simply cannot separate it.
   const pending = Object.entries(creators())
-    .filter(([, c]) => c[key].status !== "ok" && c[key].status !== "cannot-say")
+    .filter(([, c]) => c[key].status !== "ok" && c[key].status !== "provisional")
     .sort(([a], [b]) => a.localeCompare(b));
   if (!pending.length) return;
   const note = el("div", "insufficient-note");
@@ -220,7 +220,7 @@ function renderPolar() {
     "proximity to each pole's anchors — so this is the readable view; check it " +
     "against the organic view, which imposes no categories.";
   renderAnchorCaveat();
-  renderCannotSay();
+  renderProvisionalSides();
   renderPending("polar-pending", "polar");
 }
 
@@ -252,29 +252,29 @@ function occupancy(s) {
 }
 
 // DESIGN §3 disclose-never-drop: these creators ARE measured, and the
-// measurement is that their side does not survive dropping one anchor. Showing
+// measurement is what share of defensible anchor ensembles agree. Showing
 // them with their range is the honest rendering; omitting them from the chart
 // silently would be the drop the discipline forbids, and filing them under
 // "pending data" would misattribute a refusal to an ingestion delay.
-function renderCannotSay() {
-  const host = $("polar-cannot-say");
+function renderProvisionalSides() {
+  const host = $("polar-provisional");
   if (!host) return;
   host.replaceChildren();
   const rows = Object.entries(creators())
-    .filter(([, c]) => c.polar && c.polar.status === "cannot-say")
+    .filter(([, c]) => c.polar && c.polar.status === "provisional")
     .sort(([a], [b]) => a.localeCompare(b));
   if (!rows.length) return;
 
   const note = el("div", "insufficient-note");
-  note.append(el("strong", "", `Side not stated (${rows.length}): `));
+  note.append(el("strong", "", `Side provisional (${rows.length}): `));
   note.append(
-    "these creators are placed on the axis, but their side flips when any " +
-    "one anchor is dropped from a pole — so which side of the line they fall " +
-    "on is a property of the anchors chosen, not of the creator. Their " +
-    "position is shown; the side is not claimed.");
+    "these creators are placed, but their side does not survive the choice of " +
+    "anchors. The figure is the share of every equally defensible anchor " +
+    "ensemble that agrees with the side shown — below 50% the published side " +
+    "is the minority view. Position is shown; the side is not claimed.");
   const table = el("table", "data-table pending-table");
   const head = el("tr");
-  for (const [h, num] of [["Creator", 0], ["x", 1], ["range under anchor swap", 1]]) {
+  for (const [h, num] of [["Creator", 0], ["x", 1], ["anchor ensembles agreeing", 1]]) {
     head.append(el("th", num ? "num" : "", h));
   }
   table.append(head);
@@ -282,8 +282,9 @@ function renderCannotSay() {
     const tr = el("tr");
     tr.append(el("td", "", c.display_name));
     tr.append(el("td", "num", c.polar.x.toFixed(4)));
-    const r = c.polar.x_range;
-    tr.append(el("td", "num", r ? `${r[0].toFixed(4)} to ${r[1].toFixed(4)}` : "—"));
+    const a = c.polar.anchor_agreement;
+    tr.append(el("td", "num", a === undefined ? "—"
+      : `${(a * 100).toFixed(1)}%${a < 0.5 ? " (minority)" : ""}`));
     table.append(tr);
   }
   note.append(table);

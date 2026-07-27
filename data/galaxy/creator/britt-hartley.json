@@ -2846,7 +2846,7 @@
     }
    ],
    "b": "community|1",
-   "dist": 0.0654,
+   "dist": 0.0668,
    "same_term": true
   },
   {
@@ -2869,7 +2869,7 @@
     }
    ],
    "b": "deconstruction|0",
-   "dist": 0.0991,
+   "dist": 0.1008,
    "same_term": false
   },
   {
@@ -2892,7 +2892,7 @@
     }
    ],
    "b": "deconstruction|1",
-   "dist": 0.0694,
+   "dist": 0.0705,
    "same_term": false
   },
   {
@@ -2915,7 +2915,7 @@
     }
    ],
    "b": "do-the-work|1",
-   "dist": 0.0992,
+   "dist": 0.1006,
    "same_term": false
   },
   {
@@ -2938,7 +2938,7 @@
     }
    ],
    "b": "grace|1",
-   "dist": 0.1004,
+   "dist": 0.102,
    "same_term": false
   },
   {
@@ -2961,7 +2961,7 @@
     }
    ],
    "b": "harm|1",
-   "dist": 0.1001,
+   "dist": 0.102,
    "same_term": false
   },
   {
@@ -2984,7 +2984,7 @@
     }
    ],
    "b": "love|1",
-   "dist": 0.0503,
+   "dist": 0.0513,
    "same_term": false
   },
   {
@@ -3007,7 +3007,7 @@
     }
    ],
    "b": "truth|1",
-   "dist": 0.0965,
+   "dist": 0.0978,
    "same_term": false
   },
   {
@@ -3053,7 +3053,7 @@
     }
    ],
    "b": "deconstruction|1",
-   "dist": 0.0577,
+   "dist": 0.0576,
    "same_term": false
   },
   {
@@ -3099,7 +3099,7 @@
     }
    ],
    "b": "evidence|0",
-   "dist": 0.0454,
+   "dist": 0.0455,
    "same_term": false
   },
   {
@@ -3122,7 +3122,7 @@
     }
    ],
    "b": "evidence|1",
-   "dist": 0.063,
+   "dist": 0.0629,
    "same_term": false
   },
   {
@@ -3145,7 +3145,7 @@
     }
    ],
    "b": "grace|1",
-   "dist": 0.0513,
+   "dist": 0.0512,
    "same_term": false
   },
   {
@@ -3191,7 +3191,7 @@
     }
    ],
    "b": "harm|1",
-   "dist": 0.0625,
+   "dist": 0.0624,
    "same_term": false
   },
   {
@@ -3237,7 +3237,7 @@
     }
    ],
    "b": "love|1",
-   "dist": 0.0543,
+   "dist": 0.0542,
    "same_term": false
   },
   {
@@ -3283,7 +3283,7 @@
     }
    ],
    "b": "truth|1",
-   "dist": 0.0551,
+   "dist": 0.055,
    "same_term": false
   },
   {
@@ -4375,12 +4375,12 @@
    "n": 22,
    "sense": 0,
    "status": "ok",
-   "stress": 0.4204,
+   "stress": 0.4209,
    "stress_abs": 0.0178,
    "term": "accountability",
    "xy": [
-    0.0325,
-    0.0115
+    0.0326,
+    0.0118
    ]
   },
   "accountability|1": {
@@ -4417,28 +4417,28 @@
   },
   "community|0": {
    "file": "senses/community.json",
-   "n": 42,
+   "n": 41,
    "sense": 0,
    "status": "ok",
-   "stress": 0.1017,
-   "stress_abs": 0.0086,
+   "stress": 0.0974,
+   "stress_abs": 0.0084,
    "term": "community",
    "xy": [
-    -0.0886,
-    0.0132
+    -0.0906,
+    0.0133
    ]
   },
   "community|1": {
    "file": "senses/community.json",
-   "n": 483,
+   "n": 484,
    "sense": 1,
    "status": "ok",
-   "stress": 0.5647,
-   "stress_abs": 0.0194,
+   "stress": 0.5726,
+   "stress_abs": 0.0197,
    "term": "community",
    "xy": [
-    -0.0023,
-    0.0176
+    -0.0027,
+    0.0178
    ]
   },
   "deconstruction|0": {
@@ -4446,12 +4446,12 @@
    "n": 108,
    "sense": 0,
    "status": "ok",
-   "stress": 0.476,
-   "stress_abs": 0.0168,
+   "stress": 0.4751,
+   "stress_abs": 0.0167,
    "term": "deconstruction",
    "xy": [
-    0.0069,
-    0.0158
+    0.007,
+    0.0156
    ]
   },
   "deconstruction|1": {
@@ -4459,12 +4459,12 @@
    "n": 38,
    "sense": 1,
    "status": "ok",
-   "stress": 0.2691,
-   "stress_abs": 0.0145,
+   "stress": 0.2713,
+   "stress_abs": 0.0147,
    "term": "deconstruction",
    "xy": [
-    -0.0403,
-    0.0028
+    -0.0401,
+    0.0022
    ]
   },
   "do-the-work|0": {
@@ -4480,11 +4480,11 @@
    "n": 12,
    "sense": 1,
    "status": "ok",
-   "stress": 0.443,
-   "stress_abs": 0.0224,
+   "stress": 0.4416,
+   "stress_abs": 0.0223,
    "term": "do the work",
    "xy": [
-    0.0048,
+    0.0046,
     0.0287
    ]
   },
@@ -4493,12 +4493,12 @@
    "n": 36,
    "sense": 0,
    "status": "ok",
-   "stress": 0.2665,
-   "stress_abs": 0.0119,
+   "stress": 0.2695,
+   "stress_abs": 0.012,
    "term": "evidence",
    "xy": [
-    0.0658,
-    -0.0038
+    0.0661,
+    -0.0034
    ]
   },
   "evidence|1": {
@@ -4506,12 +4506,12 @@
    "n": 52,
    "sense": 1,
    "status": "ok",
-   "stress": 0.2295,
-   "stress_abs": 0.0126,
+   "stress": 0.2275,
+   "stress_abs": 0.0125,
    "term": "evidence",
    "xy": [
-    0.0035,
-    -0.0361
+    0.0041,
+    -0.0362
    ]
   },
   "grace|0": {
@@ -4527,12 +4527,12 @@
    "n": 11,
    "sense": 1,
    "status": "ok",
-   "stress": 0.4886,
-   "stress_abs": 0.0264,
+   "stress": 0.4924,
+   "stress_abs": 0.0266,
    "term": "grace",
    "xy": [
-    -0.0056,
-    0.019
+    -0.0053,
+    0.0187
    ]
   },
   "harm|0": {
@@ -4540,12 +4540,12 @@
    "n": 68,
    "sense": 0,
    "status": "ok",
-   "stress": 0.3047,
+   "stress": 0.3043,
    "stress_abs": 0.0106,
    "term": "harm",
    "xy": [
-    0.0328,
-    0.0016
+    0.0331,
+    0.0018
    ]
   },
   "harm|1": {
@@ -4553,11 +4553,11 @@
    "n": 53,
    "sense": 1,
    "status": "ok",
-   "stress": 0.2063,
-   "stress_abs": 0.0126,
+   "stress": 0.2082,
+   "stress_abs": 0.0127,
    "term": "harm",
    "xy": [
-    -0.0083,
+    -0.0078,
     -0.0478
    ]
   },
@@ -4566,11 +4566,11 @@
    "n": 331,
    "sense": 0,
    "status": "ok",
-   "stress": 0.3519,
+   "stress": 0.3518,
    "stress_abs": 0.0132,
    "term": "love",
    "xy": [
-    0.0103,
+    0.0102,
     -0.0001
    ]
   },
@@ -4579,12 +4579,12 @@
    "n": 243,
    "sense": 1,
    "status": "ok",
-   "stress": 0.1227,
-   "stress_abs": 0.0059,
+   "stress": 0.1245,
+   "stress_abs": 0.006,
    "term": "love",
    "xy": [
-    -0.0425,
-    -0.0096
+    -0.0424,
+    -0.01
    ]
   },
   "purity-test|0": {
@@ -4616,12 +4616,12 @@
    "n": 197,
    "sense": 0,
    "status": "ok",
-   "stress": 0.4299,
+   "stress": 0.4307,
    "stress_abs": 0.013,
    "term": "truth",
    "xy": [
-    0.0313,
-    0.0101
+    0.0315,
+    0.0103
    ]
   },
   "truth|1": {
@@ -4629,11 +4629,11 @@
    "n": 195,
    "sense": 1,
    "status": "ok",
-   "stress": 0.3038,
-   "stress_abs": 0.0143,
+   "stress": 0.3055,
+   "stress_abs": 0.0144,
    "term": "truth",
    "xy": [
-    -0.0002,
+    -0.0001,
     -0.0227
    ]
   }
