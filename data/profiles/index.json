@@ -6,8 +6,8 @@
  ],
  "prompt_version": "2",
  "terms": {
-  "bridge city": {
-   "file": "bridge-city.json",
+  "accountability": {
+   "file": "accountability.json",
    "profiles": 2,
    "stale": 2
   },
@@ -16,30 +16,25 @@
    "profiles": 4,
    "stale": 4
   },
+  "deconstruction": {
+   "file": "deconstruction.json",
+   "profiles": 4,
+   "stale": 4
+  },
   "evidence": {
    "file": "evidence.json",
    "profiles": 2,
    "stale": 2
   },
-  "grace": {
-   "file": "grace.json",
+  "love": {
+   "file": "love.json",
    "profiles": 3,
    "stale": 3
   },
-  "harm": {
-   "file": "harm.json",
-   "profiles": 2,
-   "stale": 2
-  },
-  "love": {
-   "file": "love.json",
-   "profiles": 4,
-   "stale": 4
-  },
   "truth": {
    "file": "truth.json",
-   "profiles": 4,
-   "stale": 4
+   "profiles": 2,
+   "stale": 2
   }
  }
 }

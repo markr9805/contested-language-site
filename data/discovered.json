@@ -1,7 +1,7 @@
 {
   "meta": {
     "model": "openai:mlx-community/gpt-oss-20b-MXFP4-Q8:v2",
-    "generated_at": "2026-07-26T20:37:49Z",
+    "generated_at": "2026-07-27T00:41:23Z",
     "note": "machine-DISCOVERED framings \u2014 proposed, not pinned",
     "bar_corpus": {
       "floor_run": 6,
@@ -24,7 +24,13 @@
     },
     "selection": {
       "pool": 5367,
-      "published": 29,
+      "funnel": {
+        "occurrence_floor": 5367,
+        "creator_gated": 5323,
+        "bar_cleared": 30,
+        "published": 28
+      },
+      "published": 28,
       "ranked_by": "keyness (log-likelihood vs an external reference corpus)",
       "multiplicity_correction": "Benjamini-Hochberg FDR across the run's terms (gate only)",
       "note": "Two different things, and only one is corrected. Terms are ADMITTED by a Benjamini-Hochberg-corrected significance gate, but ORDERED by keyness, which carries no correction \u2014 so a high rank reflects distinctiveness and selection, not a stronger result. Treat the ordering as a reading order, not a ranking of confidence."
@@ -36,13 +42,13 @@
       "surface": "gaslighting",
       "verdict": "convergent",
       "apologetics": {
-        "text": "at the end of the day gaslighting is a psychological disorder where someone...",
+        "text": "gaslighting is a psychological disorder where someone...",
         "quotes": [
           "...at the end of the day [gaslighting] is a psychological disorder where someone..."
         ]
       },
       "deconstruction": {
-        "text": "ministry that is that is just gaslighting...",
+        "text": "just gaslighting that's what it is it's so...",
         "quotes": [
           "...ministry that is that is just [gaslighting] that's what it is it's so..."
         ]
@@ -67,15 +73,17 @@
       "surface": "afterlife",
       "verdict": "contested",
       "apologetics": {
-        "text": "\u2026of christ and that in the [afterlife] we will enjoy what the bible\u2026",
+        "text": "beatific vision of god in the afterlife",
         "quotes": [
-          "...of christ and that in the [afterlife] we will enjoy what the bible..."
+          "...is no god there is no [afterlife] there is no judgment there is...",
+          "...beatific vision of god in the [afterlife] i think however that this isn't..."
         ]
       },
       "deconstruction": {
-        "text": "\u2026little delusional to believe in an [afterlife] no no rainwood the question the\u2026",
+        "text": "like a timeshare scheme for the afterlife",
         "quotes": [
-          "...little delusional to believe in an [afterlife] no no rainwood the question the..."
+          "...other hand if there is no [afterlife] and this is all we get...",
+          "...it comes with baggage about the [afterlife] sure but it it could still..."
         ]
       },
       "apol": 79,
@@ -98,15 +106,17 @@
       "surface": "supernatural",
       "verdict": "contested",
       "apologetics": {
-        "text": "They view supernatural as divine power enabling miracles.",
+        "text": "Apologetics frames the supernatural as a positive, divine work or gift\u2014evidence of God\u2019s power and ministry.",
         "quotes": [
-          "...is a power that only the [supernatural] power of god has to break..."
+          "...holy spirit and living out this [supernatural] lifestyle in the power of his...",
+          "...it is really the [supernatural] work of the spirit i had..."
         ]
       },
       "deconstruction": {
-        "text": "They treat supernatural as a concept to be questioned or critiqued.",
+        "text": "Deconstruction treats the supernatural as a cultural or psychological phenomenon, often critiquing or analyzing its role in belief systems.",
         "quotes": [
-          "...sense to say well there's a [supernatural] monster that's making the world like..."
+          "...is if it doesn't have some [supernatural] element some element of worship of...",
+          "...become sort of quasi possessed by [supernatural] beings and all kinds of things..."
         ]
       },
       "apol": 142,
@@ -129,17 +139,17 @@
       "surface": "god",
       "verdict": "contested",
       "apologetics": {
-        "text": "Apologetics portrays \"god\" as an omnipotent, omniscient, omnibenevolent creator who is central to morality, salvation, and divine justice.",
+        "text": "god is an eternal, loving, just deity who provides moral framework and salvation.",
         "quotes": [
-          "...it's impossible to have morality without [god] setting aside questions of ontological existence...",
-          "...by god's love and justice only [god] could pay what man owed but..."
+          "...by god's love and justice only [god] could pay what man owed but...",
+          "...with the promise of salvation so [god] desires that all be saved and..."
         ]
       },
       "deconstruction": {
-        "text": "Deconstruction treats \"god\" as a contested, often negative or ambiguous figure, questioning divine justice and existence.",
+        "text": "god is a figure that can bless, judge, allow events, but is also questioned, critiqued, or used as a tool of control.",
         "quotes": [
-          "...eh but yeah so somebody saying [god] wants you rich i don't see...",
-          "...thought i had was being monitored [god] was always ready to judge and..."
+          "...thought i had was being monitored [god] was always ready to judge and...",
+          "...if i asked what why did [god] allow this thing to happen and..."
         ]
       },
       "apol": 18339,
@@ -162,15 +172,15 @@
       "surface": "belief",
       "verdict": "contested",
       "apologetics": {
-        "text": "belief in Christ as the revelation of...",
+        "text": "...it is certainly enough to justify [belief] in christ as the revelation of...",
         "quotes": [
           "...it is certainly enough to justify [belief] in christ as the revelation of..."
         ]
       },
       "deconstruction": {
-        "text": "delusional belief isn't the moral...",
+        "text": "...new atheism is simply lack of [belief] in god and so i've seen...",
         "quotes": [
-          "...okay so you know maybe teaching [belief] especially delusional belief isn't the moral..."
+          "...new atheism is simply lack of [belief] in god and so i've seen..."
         ]
       },
       "apol": 830,
@@ -193,15 +203,17 @@
       "surface": "honestly",
       "verdict": "convergent",
       "apologetics": {
-        "text": "...test theories fairly and report results [honestly] yeah and interesting that's clearly not...",
+        "text": "honestly is used to preface personal opinions and statements about religious topics",
         "quotes": [
-          "...test theories fairly and report results [honestly] yeah and interesting that's clearly not..."
+          "...if you investigate these four questions [honestly] i think you'll realize that the...",
+          "...in today's episode i'm gonna [honestly] rank every single book i've ever..."
         ]
       },
       "deconstruction": {
-        "text": "...his and his teaching um but [honestly] i couldn't tell you much about...",
+        "text": "honestly is used to preface personal experiences and candid statements",
         "quotes": [
-          "...his and his teaching um but [honestly] i couldn't tell you much about..."
+          "...his and his teaching um but [honestly] i couldn't tell you much about...",
+          "...it with my kids i i [honestly] skip it every time then at..."
         ]
       },
       "apol": 172,
@@ -224,15 +236,15 @@
       "surface": "christian",
       "verdict": "contested",
       "apologetics": {
-        "text": "i don't want us to be [christians] that are content with sitting on...",
+        "text": "...a christian philosopher and apologist who denies the...",
         "quotes": [
-          "...i don't want us to be [christians] that are content with sitting on..."
+          "...william lane craig is a [christian] philosopher and apologist who denies the..."
         ]
       },
       "deconstruction": {
-        "text": "atheists accept [christian] morality but deny the religion's foundational...",
+        "text": "...and [christianity] is still blood cult today they...",
         "quotes": [
-          "...remind me again please atheists accept [christian] morality but deny the religion's foundational..."
+          "...without spot or blemish yep and [christianity] is still blood cult today they..."
         ]
       },
       "apol": 6537,
@@ -255,17 +267,17 @@
       "surface": "moral",
       "verdict": "contested",
       "apologetics": {
-        "text": "moral is framed as a divine, objective standard of right and wrong, tied to God\u2019s commands and moral law",
+        "text": "moral is used to refer to objective standards derived from God, such as the moral perfection of God and moral realism",
         "quotes": [
-          "...the [moral] argument is we're not making the...",
-          "...rather they arise from the essential [moral] perfection of god god is both..."
+          "...rather they arise from the essential [moral] perfection of god god is both...",
+          "...defining objective morality clip number three [moral] realism's basic claim is that some..."
         ]
       },
       "deconstruction": {
-        "text": "moral is critiqued as socially constructed, dangerous, and nuanced, often questioned in religious contexts",
+        "text": "moral is used to critique or question moral standards, highlighting their subjectivity and potential danger",
         "quotes": [
           "...i'm wrong but you've conceptualized your [morality] in terms of religion right and...",
-          "...belief especially delusional belief isn't the [moral] value we should be teaching with..."
+          "...two about it but there's a [moral] danger in that kind of belief..."
         ]
       },
       "apol": 1839,
@@ -286,17 +298,19 @@
     },
     {
       "surface": "divine",
-      "verdict": "mixed",
+      "verdict": "contested",
       "apologetics": {
-        "text": "had a human nature and a divine nature to come and save you",
+        "text": "Apologetics uses \"divine\" to describe positive attributes of God\u2014nature, love, life, authority, and revelation.",
         "quotes": [
-          "...had a human nature and a [divine] nature to come and save you..."
+          "...had a human nature and a [divine] nature to come and save you...",
+          "...human standard or is this a [divine] gift that contributes to my human..."
         ]
       },
       "deconstruction": {
-        "text": "love and you wanna claim some divine uh power get fucked yeah yeah",
+        "text": "Deconstruction uses \"divine\" in both positive and critical contexts, framing it as a source of authority, silence, or intervention, sometimes questioning its role.",
         "quotes": [
-          "...love and you wanna claim some [divine] uh power get fucked yeah yeah..."
+          "...and then went on to yale [divinity] school where i got my master...",
+          "...goes what this story implicates is [divine] silence not at any point does..."
         ]
       },
       "apol": 1330,
@@ -317,17 +331,17 @@
     },
     {
       "surface": "literally",
-      "verdict": "contested",
+      "verdict": "mixed",
       "apologetics": {
-        "text": "space time and matter [literally] came into existence out of nothing",
+        "text": "she's [literally] going to get her child murdered...",
         "quotes": [
-          "...data that space time and matter [literally] came into existence out of nothing..."
+          "...is wicked the woman evil she's [literally] going to get her child murdered..."
         ]
       },
       "deconstruction": {
-        "text": "wow [literally] kill people it removes actual education",
+        "text": "molokoi [literally] means soft and it's a derogatory...",
         "quotes": [
-          "...these kids someone always dies wow [literally] kill people it removes actual education..."
+          "...it says molokoi arsenokoite so molokoi [literally] means soft and it's a derogatory..."
         ]
       },
       "apol": 700,
@@ -350,17 +364,15 @@
       "surface": "narrative",
       "verdict": "contested",
       "apologetics": {
-        "text": "Apologetics frames \"narrative\" as the biblical or overarching story that informs faith.",
+        "text": "the bible put forth an oppressive [narrative] on women",
         "quotes": [
-          "...scripture every single book every single [narrative] every single psalm every single parable...",
-          "...view that there is no meta [narrative] there is no overarching story there..."
+          "...the bible put forth an oppressive [narrative] on women i think the bible..."
         ]
       },
       "deconstruction": {
-        "text": "Deconstruction sees \"narrative\" as a constructed, often false story used to manipulate or control.",
+        "text": "that's a false [narrative] specifically designed to make sure people",
         "quotes": [
-          "...gonna happen but that's a false [narrative] specifically designed to make sure people...",
-          "...so they needed to control your [narrative] for you yep and i just..."
+          "...gonna happen but that's a false [narrative] specifically designed to make sure people..."
         ]
       },
       "apol": 283,
@@ -380,51 +392,18 @@
       }
     },
     {
-      "surface": "whoa",
-      "verdict": "convergent",
-      "apologetics": {
-        "text": "The term \u201cwhoa\u201d is used as an interjection to express surprise or pause in casual speech.",
-        "quotes": [
-          "...no purpose for us being here [whoa] it gets worse if god does...",
-          "...every time you do a shotgun [whoa] whoa whoa first of all it's..."
-        ]
-      },
-      "deconstruction": {
-        "text": "The term \u201cwhoa\u201d is also used as an interjection to express surprise or pause in casual speech.",
-        "quotes": [
-          "...the deferral of immediate gratification oh [whoa] hold on i thought we were...",
-          "...and everything and i was like [whoa] this is dope so i have..."
-        ]
-      },
-      "apol": 48,
-      "decon": 285,
-      "keyness": 4.707851689404097,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0020242914979757085,
-        "q": 0.026403802147509238,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
       "surface": "faith",
       "verdict": "contested",
       "apologetics": {
-        "text": "from your sin and put your faith back in the one who died...",
+        "text": "never gives up love never loses faith because he who was loved never...",
         "quotes": [
-          "...from your sin and put your [faith] back in the one who died..."
+          "...never gives up love never loses [faith] because he who was loved never..."
         ]
       },
       "deconstruction": {
-        "text": "attitude when i was deconstructing my faith when i was trying to talk...",
+        "text": "around our necks because we have faith that vampires don't exist we've just...",
         "quotes": [
-          "...attitude when i was deconstructing my [faith] when i was trying to talk..."
+          "...around our necks because we have [faith] that vampires don't exist we've just..."
         ]
       },
       "apol": 3087,
@@ -447,17 +426,15 @@
       "surface": "problematic",
       "verdict": "convergent",
       "apologetics": {
-        "text": "Apologetics uses \"problematic\" to describe aspects of theology, church practice, or behavior that are seen as problematic or problematic for the church.",
+        "text": "something particularly problematic about a view",
         "quotes": [
-          "...right i mean there's something particularly [problematic] about a view on which mathematical...",
-          "...exhibited such behaviors would be very [problematic] because first it is implausible to..."
+          "...right i mean there's something particularly [problematic] about a view on which mathematical..."
         ]
       },
       "deconstruction": {
-        "text": "Deconstruction uses \"problematic\" to highlight contradictions, problematic aspects of faith, or problematic for people or specific groups.",
+        "text": "can sound problematic if you're not clear about what",
         "quotes": [
-          "...all sorts of things that are [problematic] for faith but this was the...",
-          "...which is just way too fundamentally [problematic] for christians but i guess if..."
+          "...justice thus rejecting judgment can sound [problematic] if you're not clear about what..."
         ]
       },
       "apol": 76,
@@ -478,18 +455,18 @@
     },
     {
       "surface": "believe",
-      "verdict": "contested",
+      "verdict": "convergent",
       "apologetics": {
-        "text": "Apologetics uses \"believe\" to affirm faith in God, scripture, and Christian doctrines, framing it as a positive, trusting act.",
+        "text": "\u2018believe\u2019 is used to affirm faith in God, Christ, and divine truth.",
         "quotes": [
-          "...are loved by god and i [believe] the text gives us some lessons...",
-          "...things basically so that you may [believe] in christ and in believing in..."
+          "...as part of their case for [believing] in god...",
+          "...are loved by god and i [believe] the text gives us some lessons..."
         ]
       },
       "deconstruction": {
-        "text": "Deconstruction uses \"believe\" to question or critique faith, often highlighting doubt, skepticism, or the need to examine claims.",
+        "text": "\u2018believe\u2019 is used to discuss acceptance of scripture, God, or narratives, sometimes with skepticism.",
         "quotes": [
-          "...i wouldn't even allow myself to [believe] that there was a such thing...",
+          "...being washed in blood they still [believe] that their salvation rests on a...",
           "...french deists for example didn't really [believe] in the christian god and so..."
         ]
       },
@@ -511,19 +488,19 @@
     },
     {
       "surface": "religious",
-      "verdict": "convergent",
+      "verdict": "contested",
       "apologetics": {
-        "text": "In apologetics, \"religious\" is used as a neutral adjective to describe people, experiences, beliefs, and institutions related to faith.",
+        "text": "Uses 'religious' to describe experiences, life, people, orders, and freedom, often neutrally or positively, but also sometimes negatively.",
         "quotes": [
           "...you realize that christianity is a [religious] worldview you can investigate and discover...",
-          "...problem lots of protestants and other [religious] people can find themselves going through..."
+          "...those who challenge it are either [religious] kooks or ignoramuses on the level..."
         ]
       },
       "deconstruction": {
-        "text": "In deconstruction, \"religious\" is similarly used as a neutral adjective to refer to people, beliefs, and groups, often in discussions of faith and identity.",
+        "text": "Uses 'religious' in a critical or skeptical context, labeling people or practices as problematic.",
         "quotes": [
-          "...spirit stuff like that's not exactly [religious] right but come on haven't you...",
-          "...wife for another rabbi for a [religious] teacher um if she has uh..."
+          "...i hate this movie as a [religious] deconstruction coach it is gaslighting bullshit...",
+          "...you know military you know slash [religious] coercion uh and that uh you..."
         ]
       },
       "apol": 499,
@@ -544,17 +521,17 @@
     },
     {
       "surface": "condescending",
-      "verdict": "contested",
+      "verdict": "convergent",
       "apologetics": {
-        "text": "...invisible god visible he who once [condescended] on a mountain in fire came...",
+        "text": "...of creation is that god would [condescend] to create a world of finite...",
         "quotes": [
-          "...invisible god visible he who once [condescended] on a mountain in fire came..."
+          "...of creation is that god would [condescend] to create a world of finite..."
         ]
       },
       "deconstruction": {
-        "text": "...that i was getting is extremely [condescending] and dismissive and perhaps he spoke...",
+        "text": "...god [condescended] to humanity meeting them where they...",
         "quotes": [
-          "...that i was getting is extremely [condescending] and dismissive and perhaps he spoke..."
+          "...egregious as these others but god [condescended] to humanity meeting them where they..."
         ]
       },
       "apol": 13,
@@ -577,17 +554,17 @@
       "surface": "pray",
       "verdict": "mixed",
       "apologetics": {
-        "text": "Apologetics frames \"pray\" as a religious act directed to God, often with positive expectation of divine intervention, but also sometimes critiquing it as meaningless.",
+        "text": "Prayer is presented as a positive, central act of worship to God.",
         "quotes": [
           "...in john chapter 17 when he's [praying] for us to the father he...",
-          "...it a meaningless ritual if someone [prayed] this psalm with heartfelt intent just..."
+          "...they hold but you do i [pray] that you would speak a word..."
         ]
       },
       "deconstruction": {
-        "text": "Deconstruction frames \"pray\" as a personal or communal act, sometimes directed to God or the universe, with both positive and questioning or negative connotations.",
+        "text": "Prayer is sometimes framed as a personal struggle or critique of religious practice.",
         "quotes": [
           "...that's even less control you can't [pray] to the universe i mean i...",
-          "...way whatsoever unless you're trying to [pray] to that god but if you're..."
+          "...value but i didn't want to [pray] to god anymore so now my..."
         ]
       },
       "apol": 1223,
@@ -610,17 +587,17 @@
       "surface": "guilt",
       "verdict": "contested",
       "apologetics": {
-        "text": "guilt is a moral burden or sin that can be absolved and is central to personal responsibility.",
+        "text": "guilt is framed as theological sin and inherited responsibility",
         "quotes": [
-          "...deal with the central problem of [guilt] uh it is a theory to...",
-          "...to her her shame and her [guilt] was removed and she went off..."
+          "...temporal punishment due to sins whose [guilt] has already been forgiven so indulgences...",
+          "...a chain reaction through say a [guilt] complex that peter suffered because he..."
         ]
       },
       "deconstruction": {
-        "text": "guilt is employed as a tool of manipulation, shame, and social control, often manifesting as white guilt or guilt by association.",
+        "text": "guilt is framed as social or psychological pressure, often white guilt or guilt by association",
         "quotes": [
-          "...wife and you would have brought [guilt] upon us what the fuck is...",
-          "...seven and welcome everybody to the [guilt] and shame part of the show..."
+          "...a way to assuage any white [guilt] that non melanated moviegoers might be...",
+          "...so this is kind of a [guilt] by association sort of critique yeah..."
         ]
       },
       "apol": 120,
@@ -641,17 +618,19 @@
     },
     {
       "surface": "maybe",
-      "verdict": "mixed",
+      "verdict": "convergent",
       "apologetics": {
-        "text": "Apologetics uses \"maybe\" to express tentative acceptance or possibility within a faith context, e.g., \"to harmonize this by saying well [maybe] jesus cleansed the temple twice once...\"",
+        "text": "The term 'maybe' is used as a filler or hedge, indicating uncertainty or tentative agreement.",
         "quotes": [
-          "...to harmonize this by saying well [maybe] jesus cleansed the temple twice once..."
+          "...you were to say charlie thousands [maybe] millions of people have come to...",
+          "...argument for god's existence right well [maybe] not many people believe that the..."
         ]
       },
       "deconstruction": {
-        "text": "Deconstruction uses \"maybe\" to express doubt or critique, e.g., \"to challenge your faith to say [maybe] you're doing it wrong maybe that's...\"",
+        "text": "The term 'maybe' is used as a filler or hedge, indicating uncertainty or tentative agreement.",
         "quotes": [
-          "...to challenge your faith to say [maybe] you're doing it wrong maybe that's..."
+          "...don't make it everybody else's problem [maybe] instead of requiring sex or demanding...",
+          "...to me uh so um here [maybe] this will appease you now of..."
         ]
       },
       "apol": 1871,
@@ -674,17 +653,17 @@
       "surface": "uncomfortable",
       "verdict": "convergent",
       "apologetics": {
-        "text": "They use \"uncomfortable\" to describe personal unease with theological ideas or situations.",
+        "text": "Apologetics uses 'uncomfortable' to describe emotional discomfort with theological ideas or situations.",
         "quotes": [
-          "...even though that is a very [uncomfortable] fit but i think that view...",
-          "...and unsafe scenarios we just mean [uncomfortable] or i don't like it or..."
+          "...the carries within charismatic circles where [uncomfortable] truths are discussed privately among leaders...",
+          "...our lives from him may feel [uncomfortable] with these verses that show the..."
         ]
       },
       "deconstruction": {
-        "text": "They use \"uncomfortable\" to describe unease with social or existential situations.",
+        "text": "Deconstruction uses 'uncomfortable' similarly to describe emotional unease or discomfort with ideas or situations.",
         "quotes": [
-          "...just a way to cope with [uncomfortable] situations or to be diplomatic coveting...",
-          "...language relating to death because it's [uncomfortable] because there's a finality in it..."
+          "...do you want comfortable lies or [uncomfortable] truths it's the whole point of...",
+          "...garbage prophecy credulity that made me [uncomfortable] even when i was at the..."
         ]
       },
       "apol": 47,
@@ -707,15 +686,17 @@
       "surface": "ideology",
       "verdict": "convergent",
       "apologetics": {
-        "text": "of political correctness otherwise you're allowing [ideology] to drive historical studies",
+        "text": "They use \"ideology\" to criticize political correctness, woke movements, and dogmatic beliefs, framing it as a harmful or false set of ideas.",
         "quotes": [
-          "...of political correctness otherwise you're allowing [ideology] to drive historical studies and that's..."
+          "...are translations that would be like [ideologically] driven like you know new world...",
+          "...experiencing a comeback in the woke [ideology] of so called progressive christianity or..."
         ]
       },
       "deconstruction": {
-        "text": "we do we can't fight woke [ideology] if we can't defend the civilization",
+        "text": "They use \"ideology\" to critique power structures, political movements, and dogmatic beliefs, framing it as a harmful or oppressive set of ideas.",
         "quotes": [
-          "...we do we can't fight woke [ideology] if we can't defend the civilization..."
+          "...build this around one person one [ideology] one identity that's that's not healthy...",
+          "...so one of the things is [ideologically] they're on the same plane so..."
         ]
       },
       "apol": 124,
@@ -736,15 +717,15 @@
     },
     {
       "surface": "eternal",
-      "verdict": "convergent",
+      "verdict": "contested",
       "apologetics": {
-        "text": "your feelings so that you have [eternal] life here and now if god...",
+        "text": "looks like we only have one eternal home and that's in glory",
         "quotes": [
-          "...your feelings so that you have [eternal] life here and now if god..."
+          "...looks like we only have one [eternal] home and that's in glory the..."
         ]
       },
       "deconstruction": {
-        "text": "...achieving that suggests the universe is [eternal] i mean what scientist much less...",
+        "text": "achieving that suggests the universe is eternal i mean what scientist much less",
         "quotes": [
           "...achieving that suggests the universe is [eternal] i mean what scientist much less..."
         ]
@@ -767,17 +748,17 @@
     },
     {
       "surface": "gotcha",
-      "verdict": "contested",
+      "verdict": "convergent",
       "apologetics": {
-        "text": "...i'm gonna do that don't lie [gotcha] don't steal",
+        "text": "...truth but are geared towards creating [gotcha] social media moments the most shameless...",
         "quotes": [
-          "...i'm gonna do that don't lie [gotcha] don't steal gotcha don't lust or..."
+          "...truth but are geared towards creating [gotcha] social media moments the most shameless..."
         ]
       },
       "deconstruction": {
-        "text": "...think these dumb questions aren't the [gotcha] apologists think they are instead they...",
+        "text": "...this thing like it's a aha [gotcha] moment yeah where you're like no...",
         "quotes": [
-          "...think these dumb questions aren't the [gotcha] apologists think they are instead they..."
+          "...this thing like it's a aha [gotcha] moment yeah where you're like no..."
         ]
       },
       "apol": 18,
@@ -800,15 +781,17 @@
       "surface": "shame",
       "verdict": "contested",
       "apologetics": {
-        "text": "Shame is used as a moral corrective that admonishes wrongdoing.",
+        "text": "Apologetics uses 'shame' as a personal moral failing or negative emotion that can be removed or alleviated.",
         "quotes": [
-          "...a a scandal and a great [shame] we need to help our young..."
+          "...he said that to her her [shame] and her guilt was removed and...",
+          "...must decrease so they may increase [shameful] ..."
         ]
       },
       "deconstruction": {
-        "text": "Shame is portrayed as a tool of control and oppression within a culture of shame.",
+        "text": "Deconstruction frames 'shame' as a cultural mechanism of control and a cycle of oppression.",
         "quotes": [
-          "...to participate in a culture of [shame] that says it's not okay to..."
+          "...bodies this has also caused immense [shame] for victims of sexual assault and...",
+          "...live authentically so i have no [shame] this is the ghettoest drink in..."
         ]
       },
       "apol": 169,
@@ -829,15 +812,15 @@
     },
     {
       "surface": "sacrifice",
-      "verdict": "contested",
+      "verdict": "mixed",
       "apologetics": {
-        "text": "on the cross as the only [sacrifice] for sin whereby people could be...",
+        "text": "...us and sent christ as a [sacrifice] for our sins so in hate...",
         "quotes": [
-          "...on the cross as the only [sacrifice] for sin whereby people could be..."
+          "...us and sent christ as a [sacrifice] for our sins so in hate..."
         ]
       },
       "deconstruction": {
-        "text": "their salvation rests on a human [sacrifice] oh wow so there's purity culture...",
+        "text": "...their salvation rests on a human [sacrifice] oh wow so there's purity culture...",
         "quotes": [
           "...their salvation rests on a human [sacrifice] oh wow so there's purity culture..."
         ]
@@ -862,15 +845,15 @@
       "surface": "whatever",
       "verdict": "convergent",
       "apologetics": {
-        "text": "...whatever is dignified whatever is right [whatever] is pure whatever is lovely whatever...",
+        "text": "...thoughts from your past from molestation [whatever] may be hindering you that god...",
         "quotes": [
-          "...whatever is dignified whatever is right [whatever] is pure whatever is lovely whatever..."
+          "...thoughts from your past from molestation [whatever] may be hindering you that god..."
         ]
       },
       "deconstruction": {
-        "text": "...train i was like eh whatever [whatever] you guys keep suffering and who...",
+        "text": "...on in bridge city chat checking [whatever] i've missed on my phone and...",
         "quotes": [
-          "...train i was like eh whatever [whatever] you guys keep suffering and who..."
+          "...on in bridge city chat checking [whatever] i've missed on my phone and..."
         ]
       },
       "apol": 874,
@@ -893,17 +876,17 @@
       "surface": "harm",
       "verdict": "convergent",
       "apologetics": {
-        "text": "Apologetics uses \"harm\" to refer to negative impact on individuals, including self\u2011harm and harm caused by policies.",
+        "text": "Apologetics uses \"harm\" to describe negative effects on people, policies, or God, often as a verb or adjective.",
         "quotes": [
-          "...unfeasible or some cases impossible without [harming] them notice also that there is...",
-          "...violent criminals being released only to [harm] other innocent people venerable fulton sheen..."
+          "...to the way that certain policies [harm] our neighbors and we and we...",
+          "...because god is omnipotent nothing can [harm] him or even threaten him and..."
         ]
       },
       "deconstruction": {
-        "text": "Deconstruction uses \"harm\" to describe negative effects of beliefs, policies, and actions on people.",
+        "text": "Deconstruction uses \"harm\" similarly to describe negative impacts on individuals and society, often in a critical context.",
         "quotes": [
-          "...that you will do us no [harm] just as we have not touched...",
-          "...they they don't maybe see the [harm] in it the same way we..."
+          "...miscommunication and and things that will [harm] people there is no mistranslation or...",
+          "...with a person could result in [harm] whether i'm ridiculing somebody giving them..."
         ]
       },
       "apol": 236,
