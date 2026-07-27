@@ -4420,7 +4420,7 @@
     }
    ],
    "b": "community|1",
-   "dist": 0.0619,
+   "dist": 0.0618,
    "same_term": false
   },
   {
@@ -5018,7 +5018,7 @@
     }
    ],
    "b": "love|1",
-   "dist": 0.0317,
+   "dist": 0.0318,
    "same_term": false
   },
   {
@@ -5087,7 +5087,7 @@
     }
    ],
    "b": "deconstruction|1",
-   "dist": 0.0649,
+   "dist": 0.0648,
    "same_term": false
   },
   {
@@ -5110,7 +5110,7 @@
     }
    ],
    "b": "do-the-work|0",
-   "dist": 0.0698,
+   "dist": 0.0697,
    "same_term": false
   },
   {
@@ -5179,7 +5179,7 @@
     }
    ],
    "b": "evidence|1",
-   "dist": 0.0672,
+   "dist": 0.0671,
    "same_term": false
   },
   {
@@ -5363,7 +5363,7 @@
     }
    ],
    "b": "purity-test|1",
-   "dist": 0.1315,
+   "dist": 0.1314,
    "same_term": false
   },
   {
@@ -5409,7 +5409,7 @@
     }
    ],
    "b": "truth|1",
-   "dist": 0.0494,
+   "dist": 0.0493,
    "same_term": false
   },
   {
@@ -6839,12 +6839,12 @@
    "n": 1611,
    "sense": 0,
    "status": "ok",
-   "stress": 0.4013,
-   "stress_abs": 0.0379,
+   "stress": 0.4016,
+   "stress_abs": 0.038,
    "term": "bridge city",
    "xy": [
     -0.1758,
-    -0.01
+    -0.0101
    ]
   },
   "bridge-city|1": {
@@ -6852,7 +6852,7 @@
    "n": 1564,
    "sense": 1,
    "status": "ok",
-   "stress": 0.4012,
+   "stress": 0.4013,
    "stress_abs": 0.0289,
    "term": "bridge city",
    "xy": [
@@ -6862,10 +6862,10 @@
   },
   "community|0": {
    "file": "senses/community.json",
-   "n": 9097,
+   "n": 9090,
    "sense": 0,
    "status": "ok",
-   "stress": 0.2852,
+   "stress": 0.2851,
    "stress_abs": 0.015,
    "term": "community",
    "xy": [
@@ -6875,15 +6875,15 @@
   },
   "community|1": {
    "file": "senses/community.json",
-   "n": 6056,
+   "n": 6063,
    "sense": 1,
    "status": "ok",
-   "stress": 0.4307,
-   "stress_abs": 0.0173,
+   "stress": 0.43,
+   "stress_abs": 0.0172,
    "term": "community",
    "xy": [
     -0.0005,
-    -0.0019
+    -0.0018
    ]
   },
   "deconstruction|0": {
@@ -6891,7 +6891,7 @@
    "n": 351,
    "sense": 0,
    "status": "ok",
-   "stress": 0.2966,
+   "stress": 0.2968,
    "stress_abs": 0.015,
    "term": "deconstruction",
    "xy": [
@@ -6904,7 +6904,7 @@
    "n": 296,
    "sense": 1,
    "status": "ok",
-   "stress": 0.2495,
+   "stress": 0.2493,
    "stress_abs": 0.0141,
    "term": "deconstruction",
    "xy": [
@@ -6917,7 +6917,7 @@
    "n": 377,
    "sense": 0,
    "status": "ok",
-   "stress": 0.1627,
+   "stress": 0.1626,
    "stress_abs": 0.0083,
    "term": "do the work",
    "xy": [
@@ -6930,7 +6930,7 @@
    "n": 219,
    "sense": 1,
    "status": "ok",
-   "stress": 0.4579,
+   "stress": 0.4576,
    "stress_abs": 0.0149,
    "term": "do the work",
    "xy": [
@@ -6943,7 +6943,7 @@
    "n": 1078,
    "sense": 0,
    "status": "ok",
-   "stress": 0.4726,
+   "stress": 0.4725,
    "stress_abs": 0.0207,
    "term": "evidence",
    "xy": [
@@ -6956,11 +6956,11 @@
    "n": 901,
    "sense": 1,
    "status": "ok",
-   "stress": 0.4087,
+   "stress": 0.4083,
    "stress_abs": 0.022,
    "term": "evidence",
    "xy": [
-    0.0334,
+    0.0335,
     -0.0025
    ]
   },
@@ -6969,7 +6969,7 @@
    "n": 114,
    "sense": 0,
    "status": "ok",
-   "stress": 0.3733,
+   "stress": 0.3734,
    "stress_abs": 0.0186,
    "term": "grace",
    "xy": [
@@ -6982,7 +6982,7 @@
    "n": 255,
    "sense": 1,
    "status": "ok",
-   "stress": 0.2576,
+   "stress": 0.2573,
    "stress_abs": 0.0105,
    "term": "grace",
    "xy": [
@@ -7021,7 +7021,7 @@
    "n": 3492,
    "sense": 0,
    "status": "ok",
-   "stress": 0.1231,
+   "stress": 0.1228,
    "stress_abs": 0.0051,
    "term": "love",
    "xy": [
@@ -7034,7 +7034,7 @@
    "n": 6181,
    "sense": 1,
    "status": "ok",
-   "stress": 0.21,
+   "stress": 0.2097,
    "stress_abs": 0.0093,
    "term": "love",
    "xy": [
@@ -7047,7 +7047,7 @@
    "n": 19,
    "sense": 0,
    "status": "ok",
-   "stress": 0.176,
+   "stress": 0.1758,
    "stress_abs": 0.0117,
    "term": "purity test",
    "xy": [
@@ -7060,7 +7060,7 @@
    "n": 11,
    "sense": 1,
    "status": "ok",
-   "stress": 0.1604,
+   "stress": 0.1603,
    "stress_abs": 0.0191,
    "term": "purity test",
    "xy": [
@@ -7081,7 +7081,7 @@
    "n": 1327,
    "sense": 0,
    "status": "ok",
-   "stress": 0.4196,
+   "stress": 0.4197,
    "stress_abs": 0.0134,
    "term": "truth",
    "xy": [
@@ -7094,7 +7094,7 @@
    "n": 1398,
    "sense": 1,
    "status": "ok",
-   "stress": 0.3882,
+   "stress": 0.3886,
    "stress_abs": 0.0166,
    "term": "truth",
    "xy": [
