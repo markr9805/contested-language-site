@@ -1116,18 +1116,6 @@
    "title": "Hagar: The Suffering Servant (Genesis 16)",
    "video_id": "Xn2nc78Dftg"
   },
-  "3412": {
-   "context": "Let me know your thoughts in the comments. Thank you for watching. I've been Drew of Genetically Modified Skeptic. A thank you to my patrons for their constant love and support. If you want to hear more from me, then subscribe. As always, if you are an apostate in need, there are resources linked in the description to help you find community and mental health support. Remember to be kind to each other in the comments, regardless of where you're from or what your religion is. And until next time, stay skeptical.",
-   "occurrence_id": 3412,
-   "published_at": "2023-12-03T16:33:34Z",
-   "role": "host",
-   "sense": 1,
-   "surface": "community",
-   "t": 823.4,
-   "term": "community",
-   "title": "Surprising Statistics About Gen Z’s Religious Views",
-   "video_id": "2SdJRY3me2A"
-  },
   "35018": {
    "context": "Yeah, I think people should generally be treated with compassion, which is why I don't back down from calling out people who treat others badly or encourage harmful ideas. How are we to create a more compassionate world if we refuse to confront those who spread prejudice or engage in other types of harm? Absolute tolerance, as philosopher Carl Popper suggested, allows for the propagation of intolerance. So a tolerant society must at some point limit intolerance so as not to be overtaken.",
    "occurrence_id": 35018,
@@ -1416,18 +1404,6 @@
    "title": "How Conservative Christianity “Groomed” Us",
    "video_id": "bvDqd-K0JKQ"
   },
-  "38554": {
-   "context": "That's not something that I need to be held accountable for anymore, or that anyone should judge me for, because God Himself has forgiven me, which is not something that you can demonstrate, but within these communities, that is usually taken seriously, especially if the person is an authority whose position is apparently ordained by God Himself.",
-   "occurrence_id": 38554,
-   "published_at": "2023-07-26T15:37:22Z",
-   "role": "host",
-   "sense": 1,
-   "surface": "communities",
-   "t": 2629.28,
-   "term": "community",
-   "title": "How Conservative Christianity “Groomed” Us",
-   "video_id": "bvDqd-K0JKQ"
-  },
   "38561": {
    "context": "We do teach them that they can only think this way. That's a good thing. So we thought that it would be helpful to talk about some of the methods of indoctrination that are at play here and how we have experienced them ourselves. To be clear, most of the adults who engaged in this kind of behavior that manipulated or influenced us in these ways that we're about to talk about did not intend any harm and in fact didn't take advantage of us in any overt way.",
    "occurrence_id": 38561,
@@ -1499,6 +1475,18 @@
    "term": "grace",
    "title": "Does JJ McCullough Believe In God?",
    "video_id": "fAJktHHkujM"
+  },
+  "43735": {
+   "context": "A huge thank you to John Perry for collaborating with me on this. I couldn't have done this without you, man, so thank you. You guys should definitely subscribe to both of his channels. Another thank you to my patrons for their constant love and support. If you want to hear more from me, then subscribe. As always, if you are an apostate in need, there are resources linked in the description to help you find community and mental health support. Remember to be kind to others in the comments, and until next time, stay skeptical.",
+   "occurrence_id": 43735,
+   "published_at": "2023-08-10T15:00:01Z",
+   "role": "host",
+   "sense": 0,
+   "surface": "community",
+   "t": 1974.8,
+   "term": "community",
+   "title": "Creationist Makes Terrible Arguments on JRE (A Response)",
+   "video_id": "gs924jt2FeI"
   },
   "43737": {
    "context": "This enables the person to enter a spiritually blind state where they are unable to recognize that the real reason they disbelieve is their own moral failure. Or put more simply, there are some people out there who genuinely don't believe God exists because they've suppressed the truth so long that God has given up to their own desires and they're at the end of Romans 1 rather than the beginning. They've lost the capacity to recognize God exists because God knows they're never coming back and he has given them up.",
@@ -1872,6 +1860,18 @@
    "title": "Can God Create A World Where Everyone Is Saved?",
    "video_id": "sHUbRT8I4tM"
   },
+  "55352": {
+   "context": "Well, I think it is a good to accord to people the great gift of human libertarian freedom and the grace for salvation. And certainly God's righteousness is displayed in punishing the unrepentant who resist his grace. So, in all of those ways, uh, yes, it would bring bring glory to God, but I don't think that's God's motivation for for creating them.",
+   "occurrence_id": 55352,
+   "published_at": "2023-10-27T21:21:11Z",
+   "role": "host",
+   "sense": 0,
+   "surface": "grace",
+   "t": 84.88,
+   "term": "grace",
+   "title": "Can God Create A World Where Everyone Is Saved?",
+   "video_id": "sHUbRT8I4tM"
+  },
   "55366": {
    "context": "I think every person who holds to a position will have doubts about that position and will say, Am I deceived? Am I deluded? Is this really the truth? So that is a generic condition that atheists also experience. And I think at that time, it's very helpful to review in your mind the arguments and evidence in support of that position.",
    "occurrence_id": 55366,
@@ -2023,23 +2023,23 @@
    "a": "community|0",
    "audit_pairs": [
     {
+     "a_occ": 43735,
+     "b_occ": 61170,
+     "dist": 0.1007
+    },
+    {
      "a_occ": 28101,
      "b_occ": 61170,
      "dist": 0.1118
     },
     {
-     "a_occ": 28101,
-     "b_occ": 3412,
-     "dist": 0.1323
-    },
-    {
-     "a_occ": 28101,
-     "b_occ": 38633,
-     "dist": 0.1344
+     "a_occ": 43735,
+     "b_occ": 22001,
+     "dist": 0.1177
     }
    ],
    "b": "community|1",
-   "dist": 0.073,
+   "dist": 0.0724,
    "same_term": true
   },
   {
@@ -2062,7 +2062,7 @@
     }
    ],
    "b": "evidence|1",
-   "dist": 0.1283,
+   "dist": 0.1275,
    "same_term": false
   },
   {
@@ -2085,7 +2085,7 @@
     }
    ],
    "b": "grace|1",
-   "dist": 0.133,
+   "dist": 0.1314,
    "same_term": false
   },
   {
@@ -2108,7 +2108,7 @@
     }
    ],
    "b": "harm|1",
-   "dist": 0.1296,
+   "dist": 0.1292,
    "same_term": false
   },
   {
@@ -2131,7 +2131,7 @@
     }
    ],
    "b": "love|0",
-   "dist": 0.1284,
+   "dist": 0.1261,
    "same_term": false
   },
   {
@@ -2154,7 +2154,7 @@
     }
    ],
    "b": "love|1",
-   "dist": 0.0502,
+   "dist": 0.0481,
    "same_term": false
   },
   {
@@ -2177,7 +2177,7 @@
     }
    ],
    "b": "truth|0",
-   "dist": 0.1637,
+   "dist": 0.1608,
    "same_term": false
   },
   {
@@ -2200,7 +2200,7 @@
     }
    ],
    "b": "truth|1",
-   "dist": 0.1307,
+   "dist": 0.1301,
    "same_term": false
   },
   {
@@ -2223,7 +2223,7 @@
     }
    ],
    "b": "evidence|0",
-   "dist": 0.0733,
+   "dist": 0.0734,
    "same_term": false
   },
   {
@@ -2246,7 +2246,7 @@
     }
    ],
    "b": "evidence|1",
-   "dist": 0.0597,
+   "dist": 0.0596,
    "same_term": false
   },
   {
@@ -2263,13 +2263,13 @@
      "dist": 0.2163
     },
     {
-     "a_occ": 38554,
-     "b_occ": 19881,
-     "dist": 0.2185
+     "a_occ": 35065,
+     "b_occ": 55352,
+     "dist": 0.2216
     }
    ],
    "b": "grace|0",
-   "dist": 0.0929,
+   "dist": 0.093,
    "same_term": false
   },
   {
@@ -2292,7 +2292,7 @@
     }
    ],
    "b": "grace|1",
-   "dist": 0.0803,
+   "dist": 0.0804,
    "same_term": false
   },
   {
@@ -2315,7 +2315,7 @@
     }
    ],
    "b": "harm|0",
-   "dist": 0.066,
+   "dist": 0.0661,
    "same_term": false
   },
   {
@@ -2338,7 +2338,7 @@
     }
    ],
    "b": "harm|1",
-   "dist": 0.0577,
+   "dist": 0.0576,
    "same_term": false
   },
   {
@@ -2361,7 +2361,7 @@
     }
    ],
    "b": "love|0",
-   "dist": 0.0515,
+   "dist": 0.0517,
    "same_term": false
   },
   {
@@ -2384,7 +2384,7 @@
     }
    ],
    "b": "love|1",
-   "dist": 0.0458,
+   "dist": 0.0462,
    "same_term": false
   },
   {
@@ -2407,7 +2407,7 @@
     }
    ],
    "b": "truth|0",
-   "dist": 0.0679,
+   "dist": 0.0681,
    "same_term": false
   },
   {
@@ -3375,28 +3375,28 @@
   },
   "community|0": {
    "file": "senses/community.json",
-   "n": 30,
+   "n": 31,
    "sense": 0,
    "status": "ok",
-   "stress": 0.1139,
-   "stress_abs": 0.0133,
+   "stress": 0.1142,
+   "stress_abs": 0.0132,
    "term": "community",
    "xy": [
-    0.1139,
-    0.0225
+    0.1112,
+    0.0234
    ]
   },
   "community|1": {
    "file": "senses/community.json",
-   "n": 247,
+   "n": 246,
    "sense": 1,
    "status": "ok",
-   "stress": 0.2438,
-   "stress_abs": 0.0146,
+   "stress": 0.2355,
+   "stress_abs": 0.0141,
    "term": "community",
    "xy": [
-    0.0232,
-    0.0028
+    0.023,
+    0.0027
    ]
   },
   "deconstruction|0": {
@@ -3436,12 +3436,12 @@
    "n": 119,
    "sense": 0,
    "status": "ok",
-   "stress": 0.1767,
+   "stress": 0.1756,
    "stress_abs": 0.0119,
    "term": "evidence",
    "xy": [
-    -0.0502,
-    -0.0446
+    -0.0498,
+    -0.0445
    ]
   },
   "evidence|1": {
@@ -3449,11 +3449,11 @@
    "n": 88,
    "sense": 1,
    "status": "ok",
-   "stress": 0.168,
-   "stress_abs": 0.0124,
+   "stress": 0.1696,
+   "stress_abs": 0.0125,
    "term": "evidence",
    "xy": [
-    0.0196,
+    0.0199,
     -0.0655
    ]
   },
@@ -3462,12 +3462,12 @@
    "n": 13,
    "sense": 0,
    "status": "ok",
-   "stress": 0.0812,
-   "stress_abs": 0.0068,
+   "stress": 0.0776,
+   "stress_abs": 0.0065,
    "term": "grace",
    "xy": [
-    -0.0748,
-    0.0487
+    -0.0744,
+    0.0485
    ]
   },
   "grace|1": {
@@ -3475,12 +3475,12 @@
    "n": 11,
    "sense": 1,
    "status": "ok",
-   "stress": 0.0687,
-   "stress_abs": 0.0061,
+   "stress": 0.0672,
+   "stress_abs": 0.006,
    "term": "grace",
    "xy": [
-    -0.0121,
-    0.069
+    -0.0124,
+    0.0688
    ]
   },
   "harm|0": {
@@ -3488,12 +3488,12 @@
    "n": 34,
    "sense": 0,
    "status": "ok",
-   "stress": 0.2081,
-   "stress_abs": 0.0149,
+   "stress": 0.2101,
+   "stress_abs": 0.0151,
    "term": "harm",
    "xy": [
-    -0.0505,
-    -0.0076
+    -0.0498,
+    -0.0078
    ]
   },
   "harm|1": {
@@ -3501,12 +3501,12 @@
    "n": 29,
    "sense": 1,
    "status": "ok",
-   "stress": 0.3987,
-   "stress_abs": 0.0392,
+   "stress": 0.4003,
+   "stress_abs": 0.0394,
    "term": "harm",
    "xy": [
-    0.0423,
-    0.0034
+    0.0427,
+    0.003
    ]
   },
   "love|0": {
@@ -3514,11 +3514,11 @@
    "n": 243,
    "sense": 0,
    "status": "ok",
-   "stress": 0.159,
+   "stress": 0.1589,
    "stress_abs": 0.0086,
    "term": "love",
    "xy": [
-    -0.0192,
+    -0.0191,
     0.0203
    ]
   },
@@ -3527,12 +3527,12 @@
    "n": 99,
    "sense": 1,
    "status": "ok",
-   "stress": 0.2578,
-   "stress_abs": 0.0186,
+   "stress": 0.2565,
+   "stress_abs": 0.0185,
    "term": "love",
    "xy": [
-    0.0503,
-    0.0059
+    0.0506,
+    0.0062
    ]
   },
   "purity-test|0": {
@@ -3564,12 +3564,12 @@
    "n": 126,
    "sense": 0,
    "status": "ok",
-   "stress": 0.2034,
-   "stress_abs": 0.0114,
+   "stress": 0.1989,
+   "stress_abs": 0.0111,
    "term": "truth",
    "xy": [
-    -0.0489,
-    -0.0145
+    -0.0484,
+    -0.0144
    ]
   },
   "truth|1": {
@@ -3577,12 +3577,12 @@
    "n": 67,
    "sense": 1,
    "status": "ok",
-   "stress": 0.2183,
+   "stress": 0.2182,
    "stress_abs": 0.0147,
    "term": "truth",
    "xy": [
-    0.0063,
-    -0.0404
+    0.0064,
+    -0.0406
    ]
   }
  },
