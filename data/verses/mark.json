@@ -1,8 +1,45 @@
 {
  "book": "Mark",
  "verses": {
+  "Mark 10:14": {
+   "citations": [
+    {
+     "confidence": 0.8711,
+     "context": "And I call them contradictions, but these are the things that we typically highlight as the character of God towards children. Um, and it's typically these verses we get from Jesus, um, such as him in Matthew chapter 19, where he says, Let the children come to me and do not hinder them, for the kingdom of heaven belongs to such as these, you know.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-12-04T19:13:28Z",
+     "role": "host",
+     "t": 158.2,
+     "title": "Does God Love The Kids",
+     "video_id": "-T-pAnSk22E"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But when Jesus saw it, he was much displeased, and said unto them, Suffer the little children to come unto me, and forbid them not: for of such is the kingdom of God.",
+    "WEB": "But when Jesus saw it, he was moved with indignation and said to them, “Allow the little children to come to me! Don’t forbid them, for God’s Kingdom belongs to such as these."
+   },
+   "truncated": false
+  },
   "Mark 10:16": {
    "citations": [
+    {
+     "confidence": 0.7618,
+     "context": "We need to come to Him in love and faith, and with the same sort of childlike trust that a little child has in his or her parents. We should also be childlike in our faith and trust in Jesus to lay his hands upon them and to bless or pray for them, prayer and blessing just is not the same as baptism.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-06-07T16:05:05Z",
+     "role": "host",
+     "t": 517.36,
+     "title": "Doctrine of the Church pt 7: Believer's Baptism || Defenders LIVE!",
+     "video_id": "1vdZQkGY288"
+    },
     {
      "confidence": 0.8182,
      "context": "Truly I say to you, whoever does not receive the kingdom of God like a child shall not enter it. And he took them in his arms and blessed them, laying his hands upon them. Here we see Jesus' attitude toward these little children who were being brought to him for his blessing. It was one of welcoming them, not saying that they were not old enough, or don't bother me with these little ones.",
@@ -17,9 +54,9 @@
     }
    ],
    "creators": {
-    "reasonable-faith-org": 1
+    "reasonable-faith-org": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "And he took them up in his arms, put his hands upon them, and blessed them.",
     "WEB": "He took them in his arms and blessed them, laying his hands on them."
@@ -28,6 +65,18 @@
   },
   "Mark 10:18": {
    "citations": [
+    {
+     "confidence": 0.8752,
+     "context": "Okay, I'm sorry. I'm sorry. I had to do that one. Alright, so yeah, and then there's also a call for absolute perfection in Matthew 5. It used to be one of my favorite scriptures. Be ye therefore perfect as your heavenly Father is perfect. But then it's contradicted when one of the disciples called Jesus good teacher, and he tells him, call no one good because he says, call uh call no one good because no one is good but the Father. You know. So it's just like be perfect, but don't be good.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-11-09T03:30:25Z",
+     "role": "host",
+     "t": 1884.76,
+     "title": "How Jesus Became Good",
+     "video_id": "4KVyXESxrE8"
+    },
     {
      "confidence": 0.5,
      "context": "There's no such thing as a good Christian. And no, this isn't me being provocative. This is me being doctrinally sound. I'm not attacking anyone's character. I'm quoting the doctrine. Because according to the red letters in your own Bible, Jesus Himself said, Why do you call me good? No one is good but God alone. That's not atheism. That's the gospel of Mark. So let's get this straight. If Jesus didn't even call himself good, what does that say about the millions of people walking around calling themselves good Christians?",
@@ -54,12 +103,74 @@
     }
    ],
    "creators": {
-    "darante-lamar": 2
+    "darante-lamar": 3
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "And Jesus said unto him, Why callest thou me good? there is none good but one, that is, God.",
     "WEB": "Jesus said to him, “Why do you call me good? No one is good except one—God."
+   },
+   "truncated": false
+  },
+  "Mark 10:19": {
+   "citations": [
+    {
+     "confidence": 0.8552,
+     "context": "But the only one we get that deals with sex in any way is about two consenting adults. And don't get me wrong, cheating on someone can be very damaging and very painful to everyone involved. But it's just interesting that this is the one that God went with. Do not commit adultery. You know, for kids. Now, adultery, really, this this commandment is well, it's not really super for kids. You know, it's mostly for adults because adultery has to do with marriage. Yeah, and men and women get married, not boys and girls.",
+     "creator": "belief-it-or-not",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-10-26T17:00:00Z",
+     "role": "unknown",
+     "t": 286.0,
+     "title": "The Seventh Commandment: No Adultery | Belief It Or Not",
+     "video_id": "-5NeuvbE2Rw"
+    },
+    {
+     "confidence": 0.8378,
+     "context": "All murder is killing, but not all killing is murder. In the last video, most of the pastors were very clear that no matter what, you honor your father and mother. There is no exception clause, there is no fine print. They were very clear that even if your parents were toxic, even if they were abusive, you still had to honor them no matter what.",
+     "creator": "belief-it-or-not",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-10-14T21:41:56Z",
+     "role": "host",
+     "t": 898.16,
+     "title": "The Sixth Commandment: Don't Kill | Belief It Or Not",
+     "video_id": "1fpPnUodUfA"
+    }
+   ],
+   "creators": {
+    "belief-it-or-not": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "Thou knowest the commandments, Do not commit adultery, Do not kill, Do not steal, Do not bear false witness, Defraud not, Honour thy father and mother.",
+    "WEB": "You know the commandments: ‘Do not murder,’ ‘Do not commit adultery,’ ‘Do not steal,’ ‘Do not give false testimony,’ ‘Do not defraud,’ ‘Honor your father and mother.’”"
+   },
+   "truncated": false
+  },
+  "Mark 10:21": {
+   "citations": [
+    {
+     "confidence": 0.8327,
+     "context": "Come on, guys. Come on. All right. So I responded, poor fella. He came back. Good morning, bro. I pray you have a great day and that you seek the kingdom of heaven. I pray that anything you have in your heart weathers away that doesn't belong, and you pick up the cross and follow the king of kings. I just pray that you have losses that you gain and seek the truth and light because God never left you and he loves you and is always, period, for some reason, knocking on your door in the name of Jesus.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-06-13T19:00:00Z",
+     "role": "host",
+     "t": 371.8,
+     "title": "Christians Who Talk To Themselves",
+     "video_id": "09TtVM_q1lM"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Then Jesus beholding him loved him, and said unto him, One thing thou lackest: go thy way, sell whatsoever thou hast, and give to the poor, and thou shalt have treasure in heaven: and come, take up the cross, and follow me.",
+    "WEB": "Jesus looking at him loved him, and said to him, “One thing you lack. Go, sell whatever you have and give to the poor, and you will have treasure in heaven; and come, follow me, taking up the cross.”"
    },
    "truncated": false
   },
@@ -100,17 +211,55 @@
      "t": 837.16,
      "title": "Street Preacher is Going VIRAL on TikTok for His Healings. Is He Legit?",
      "video_id": "Z6HChDDX_5A"
+    },
+    {
+     "confidence": 0.6957,
+     "context": "In fact, Mike ignores the fact that a lot of things, because remember, this is an exercise in squinting and pretending things aren't there. But then we get to the difficult New Testament stuff, like where Jesus told the rich young ruler that to inherit eternal life he had to sell all he had and give it to the poor, or that it's easier for a camel to go through the eye of a needle than for a rich man to enter the kingdom of heaven, or the many other indications that one should give of one's wealth or share communally with those who have need.",
+     "creator": "prophet-of-zod",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2019-11-07T18:30:10Z",
+     "role": "host",
+     "t": 296.48,
+     "title": "The Story of Mike: How a Modern Christian Pretends to Follow the Bible",
+     "video_id": "ZxsvOSW9QUE"
     }
    ],
    "creators": {
     "capturing-christianity": 1,
     "genetically-modified-skeptic": 1,
-    "mindshift": 1
+    "mindshift": 1,
+    "prophet-of-zod": 1
    },
-   "n": 3,
+   "n": 4,
    "text": {
     "KJV": "It is easier for a camel to go through the eye of a needle, than for a rich man to enter into the kingdom of God.",
     "WEB": "It is easier for a camel to go through a needle’s eye than for a rich man to enter into God’s Kingdom.”"
+   },
+   "truncated": false
+  },
+  "Mark 10:31": {
+   "citations": [
+    {
+     "confidence": 0.7835,
+     "context": "Um, because you recognize that there's something distasteful about walking into a black church, for example, as a privileged white person and saying to this community that went through slavery and really latched on to this idea of restoration theology. Um, this idea that someday the last shall be first and the first shall be last and the gospel music, and just saying, like, oh, by the way, your God isn't real. Like atheism 301 is realizing that there's some privilege involved in having the education and social safety net to be able to leave religion altogether, to even have the psychological safety to challenge religion and invite more chaos into your life.",
+     "creator": "britt-hartley",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-01-06T16:15:21Z",
+     "role": "host",
+     "t": 555.16,
+     "title": "Atheism And The Cost of Truth",
+     "video_id": "3yPzbUcevXU"
+    }
+   ],
+   "creators": {
+    "britt-hartley": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But many that are first shall be last; and the last first.",
+    "WEB": "But many who are first will be last, and the last first.”"
    },
    "truncated": false
   },
@@ -237,6 +386,31 @@
    },
    "truncated": false
   },
+  "Mark 10:52": {
+   "citations": [
+    {
+     "confidence": 0.7998,
+     "context": "Skipping down a little bit, but the woman, knowing what had happened to her, came in fear and trembling and fell down before him and told him the whole truth. And he said to her, Daughter, your faith has made you well. Go in peace and be healed of your disease. One of the many stories of someone's faith making them well. And fine, if this is the way that Jesus wants to set things up, that he only heals people or meets people who reach out to him first in faith.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-08T15:00:09Z",
+     "role": "unattributed",
+     "t": 258.64,
+     "title": "…It’s Desperation | Why Belief Thrives at Rock Bottom",
+     "video_id": "59Z3_2XKpQ4"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And Jesus said unto him, Go thy way; thy faith hath made thee whole. And immediately he received his sight, and followed Jesus in the way.",
+    "WEB": "Jesus said to him, “Go your way. Your faith has made you well.” Immediately he received his sight and followed Jesus on the way."
+   },
+   "truncated": false
+  },
   "Mark 10:7": {
    "citations": [
     {
@@ -287,8 +461,45 @@
    },
    "truncated": false
   },
+  "Mark 10:8": {
+   "citations": [
+    {
+     "confidence": 0.7763,
+     "context": "Paul says in 1 Corinthians 6, verses 16 and 17, or do you not know that he who is joined to a prostitute becomes one body with her? For as it is written, the two will become one flesh. But he who is joined to the Lord becomes one spirit with him. Paul mentions body, flesh and spirit in these two verses to show that sexual immorality has both physical and spiritual implications.",
+     "creator": "genetically-modified-skeptic",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-07-03T15:48:37Z",
+     "role": "unknown",
+     "t": 5853.32,
+     "title": "I Took A Gay Conversion Class for Christian Teens. It Was Awful.",
+     "video_id": "-QnyYMEy3HA"
+    }
+   ],
+   "creators": {
+    "genetically-modified-skeptic": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And they twain shall be one flesh: so then they are no more twain, but one flesh.",
+    "WEB": "and the two will become one flesh, so that they are no longer two, but one flesh."
+   },
+   "truncated": false
+  },
   "Mark 10:9": {
    "citations": [
+    {
+     "confidence": 0.8039,
+     "context": "So, what is the blood covenant have to do with marriage? When a man marries a virgin, the rupting of the hymen is the shedding of blood. Ew, no, David. It's the seal of the covenant and it's binding for life. What God has put together, let no man put asunder. The sexual union seals the covenant. Oh wow. So there's purity culture, and then there's this.",
+     "creator": "belief-it-or-not",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-10-26T17:00:00Z",
+     "role": "unknown",
+     "t": 1119.12,
+     "title": "The Seventh Commandment: No Adultery | Belief It Or Not",
+     "video_id": "-5NeuvbE2Rw"
+    },
     {
      "confidence": 0.5714,
      "context": "You should just exegete the story in the way that Jesus did. He said God created the man and woman, he united them together as man and wife. And so what God has joined together, let no man put asunder, and that this is uh the teaching of the story. Remember, I think someone yesterday pointed out how we can discern the teaching of the parables without dealing with their historicity.",
@@ -303,9 +514,10 @@
     }
    ],
    "creators": {
+    "belief-it-or-not": 1,
     "drcraigvideos": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "What therefore God hath joined together, let not man put asunder.",
     "WEB": "What therefore God has joined together, let no man separate.”"
@@ -337,6 +549,31 @@
    },
    "truncated": false
   },
+  "Mark 11:24": {
+   "citations": [
+    {
+     "confidence": 0.8614,
+     "context": "Oh man. Oh man, your life is as is literally about to shift if you can take on this paradigm. Or well, well, where do you get all this from? This sounds deep, far off, and oh whatever. Believe that you have received that which you are praying for, and it is yours. It was that simple. Mark 11 and 24. Believe that you have received. How do I act if I already have something? How do I move if I already had something? You see, you see, you see, you have more faith in Amazon than you do in your prayer life.",
+     "creator": "marc-coley",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-05-30T19:36:30Z",
+     "role": "host",
+     "t": 425.08,
+     "title": "How To Get Your Prayers Answered, Every Time!",
+     "video_id": "3oYKUkcf2MQ"
+    }
+   ],
+   "creators": {
+    "marc-coley": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Therefore I say unto you, What things soever ye desire, when ye pray, believe that ye receive them, and ye shall have them.",
+    "WEB": "Therefore I tell you, all things whatever you pray and ask for, believe that you have received them, and you shall have them."
+   },
+   "truncated": false
+  },
   "Mark 11:25": {
    "citations": [
     {
@@ -359,6 +596,31 @@
    "text": {
     "KJV": "And when ye stand praying, forgive, if ye have ought against any: that your Father also which is in heaven may forgive you your trespasses.",
     "WEB": "Whenever you stand praying, forgive, if you have anything against anyone; so that your Father, who is in heaven, may also forgive you your transgressions."
+   },
+   "truncated": false
+  },
+  "Mark 11:32": {
+   "citations": [
+    {
+     "confidence": 0.7669,
+     "context": "But he he was a nice guy, I promise. Um, does that does that you know make you feel any certain way about him? Um, so this is what you've given me now a brief outline of his life. Yeah, he says, Yeah, I can see now he was a prophet. That's that's your line. Okay, uh yes, I can see now that he had to be a prophet. He was illiterate after all. How could he have done all that stuff? True. Uh by the way, yeah, on the illiterate point.",
+     "creator": "apostate-aladdin",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-10-23T21:18:24Z",
+     "role": "host",
+     "t": 3848.32,
+     "title": "SLEAZY Tactics to Convert You to Islam",
+     "video_id": "2sORG8GpE5o"
+    }
+   ],
+   "creators": {
+    "apostate-aladdin": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But if we shall say, Of men; they feared the people: for all men counted John, that he was a prophet indeed.",
+    "WEB": "If we should say, ‘From men’”—they feared the people, for all held John to really be a prophet."
    },
    "truncated": false
   },
@@ -409,6 +671,31 @@
    "text": {
     "KJV": "And Jesus answering said unto them, Render to Caesar the things that are Caesar's, and to God the things that are God's. And they marvelled at him.",
     "WEB": "Jesus answered them, “Give to Caesar the things that are Caesar’s, and to God the things that are God’s.” They marveled greatly at him."
+   },
+   "truncated": false
+  },
+  "Mark 12:25": {
+   "citations": [
+    {
+     "confidence": 0.7269,
+     "context": "Um on the textual side I think that that fits as well um I think progressive Christians would would lean more towards uh a dynamic model of inspiration. Um so even going towards you know kind of critiquing contradictions and and errors and things like that are kind of are kind of solved if you look at an ongoing inspiration um model of scripture versus uh some type of original inspiration or autograph inspiration or something along those lines um so you think you know that that's do you think that you do you think that you are in a better position going into the afterlife than Shannon and I do you I mean I I believe that Jesus Christ rose from the dead, and I believe that he promised that um people who claim him and follow him will rise from the dead as well.",
+     "creator": "shannon-q",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-05-03T13:30:05Z",
+     "role": "host",
+     "t": 490.88,
+     "title": "Caller DEFENDS Faith Then Collapses Under Questions (feat Paulogia)",
+     "video_id": "2UiCTybyIfM"
+    }
+   ],
+   "creators": {
+    "shannon-q": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For when they shall rise from the dead, they neither marry, nor are given in marriage; but are as the angels which are in heaven.",
+    "WEB": "For when they will rise from the dead, they neither marry nor are given in marriage, but are like angels in heaven."
    },
    "truncated": false
   },
@@ -472,6 +759,56 @@
    "text": {
     "KJV": "And thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind, and with all thy strength: this is the first commandment.",
     "WEB": "You shall love the Lord your God with all your heart, with all your soul, with all your mind, and with all your strength.’ This is the first commandment."
+   },
+   "truncated": false
+  },
+  "Mark 12:32": {
+   "citations": [
+    {
+     "confidence": 0.8126,
+     "context": "Is God a good father? It's a very interesting question, right? Because the presupposition is yes, God is a good father. God is the good father. God is a good father who gives gifts from above. God is the father of all. There is one God, and one that one God is the father of all. This is the type of language that is used through Scripture over and over and over again. But not just in Scripture, but it's also used in our services, in our sermons, and in the way that we interact with each other.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-04-18T12:30:01Z",
+     "role": "host",
+     "t": 14.64,
+     "title": "Is God a Good Father?",
+     "video_id": "2PammnumdmE"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And the scribe said unto him, Well, Master, thou hast said the truth: for there is one God; and there is none other but he:",
+    "WEB": "The scribe said to him, “Truly, teacher, you have said well that he is one, and there is none other but he;"
+   },
+   "truncated": false
+  },
+  "Mark 12:34": {
+   "citations": [
+    {
+     "confidence": 0.7558,
+     "context": "Because they know that when they ask, their dad's gonna say yes. So when I see that clip, I'm like, the man who has otherworldly confidence he can do anything has discovered the one thing he cannot do on his own. And what I would say to that is, you are not far from the kingdom of God. Okay, sure, but maybe acting like a child isn't a good way to run a country. And that man's been acting like a child for far too long. But it doesn't matter to them.",
+     "creator": "belief-it-or-not",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-03-04T16:00:09Z",
+     "role": "unknown",
+     "t": 785.16,
+     "title": "Christianity Is A Safe Place for Predators | Belief It Or Not",
+     "video_id": "3L5ZUhtEN5Y"
+    }
+   ],
+   "creators": {
+    "belief-it-or-not": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And when Jesus saw that he answered discreetly, he said unto him, Thou art not far from the kingdom of God. And no man after that durst ask him any question.",
+    "WEB": "When Jesus saw that he answered wisely, he said to him, “You are not far from God’s Kingdom.” No one dared ask him any question after that."
    },
    "truncated": false
   },
@@ -578,6 +915,18 @@
   "Mark 13:26": {
    "citations": [
     {
+     "confidence": 0.8262,
+     "context": "And Jesus says, I am. And then virtually quoting from Daniel, and you will see the Son of Man coming on the clouds of heaven and seated at the right hand of the power. And at that point, the high priest rips his robes and says, You have heard the blasphemy.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-10-04T20:30:00Z",
+     "role": "host",
+     "t": 127.8,
+     "title": "Christianity vs. Judaism: William Lane Craig & Ben Shapiro!",
+     "video_id": "3OKATThRNxM"
+    },
+    {
      "confidence": 1.0,
      "context": "But take heed, I have told you, all things beforehand. But in those days, after that tribulation, the sun will be darkened, and the moon will not give its light, and the stars will be falling from heaven, and the powers in the heavens will be shaken, and then they will see the Son of Man coming in clouds with great power and glory.",
      "creator": "reasonable-faith-org",
@@ -591,9 +940,10 @@
     }
    ],
    "creators": {
+    "drcraigvideos": 1,
     "reasonable-faith-org": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "And then shall they see the Son of man coming in the clouds with great power and glory.",
     "WEB": "Then they will see the Son of Man coming in clouds with great power and glory."
@@ -876,6 +1226,44 @@
    },
    "truncated": false
   },
+  "Mark 14:22": {
+   "citations": [
+    {
+     "confidence": 0.8798,
+     "context": "I'm not sure what Luke he's reading. Um Body and blood is in Luke. Yeah. We can pull it up here. Yeah. So uh verse 19, and he took bread, gave and gave thanks and broke it and gave it to them, saying, This is my body given for you. Do this in remembrance of me. Verse 20, in the same way after the supper, he took the cup, saying, This cup is the new covenant in my blood, which is poured out for you.",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-09-25T19:29:31Z",
+     "role": "unknown",
+     "t": 3821.04,
+     "title": "Defending the Eucharist Q&A with Fr. Gregory Pine",
+     "video_id": "2aDcnN4xCs8"
+    },
+    {
+     "confidence": 0.803,
+     "context": "I mean, I know that eventually this comes down to a mystery as to how that happens. The reason Catholics believe this is not because, well, you can have this distinction and have philosophy to understand it. We start from what Jesus said. And it's just so interesting, Jesus says, this is my body.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-09-19T17:00:13Z",
+     "role": "host",
+     "t": 84.24,
+     "title": "What is transubstantiation? 🤔 @CA-Live",
+     "video_id": "57vpCiSFBOw"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1,
+    "counsel-of-trent": 1
+   },
+   "n": 2,
+   "text": {
+    "KJV": "And as they did eat, Jesus took bread, and blessed, and brake it, and gave to them, and said, Take, eat: this is my body.",
+    "WEB": "As they were eating, Jesus took bread, and when he had blessed it, he broke it and gave to them, and said, “Take, eat. This is my body.”"
+   },
+   "truncated": false
+  },
   "Mark 14:23": {
    "citations": [
     {
@@ -903,6 +1291,30 @@
   },
   "Mark 14:24": {
    "citations": [
+    {
+     "confidence": 0.8367,
+     "context": "Yeah. We can pull it up here. Yeah. So uh verse 19, and he took bread, gave and gave thanks and broke it and gave it to them, saying, This is my body given for you. Do this in remembrance of me. Verse 20, in the same way after the supper, he took the cup, saying, This cup is the new covenant in my blood, which is poured out for you. So it's there. Boom. Dude, I love that that the ads that come up are ESPN, Lego, and American Trucks.",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-09-25T19:29:31Z",
+     "role": "unknown",
+     "t": 3830.4,
+     "title": "Defending the Eucharist Q&A with Fr. Gregory Pine",
+     "video_id": "2aDcnN4xCs8"
+    },
+    {
+     "confidence": 0.7859,
+     "context": "So it's kind of a debate about it, which I just tell them, hey, as long as you know that Jesus came, died for our sins and rose, then that's the whole essence of the New Testament and why we're still, you know, saved and Christians.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-05-21T22:00:03Z",
+     "role": "host",
+     "t": 26.88,
+     "title": "Are Books Missing From the Bible?",
+     "video_id": "4LkZ-Cd3dJ4"
+    },
     {
      "confidence": 0.7333,
      "context": "In Mark 14. While they were eating, he took some bread, and after blessing he broke it and gave it to them, and said, Take this is my body. And when he had taken a cup and given thanks, he gave it to them, they all drank from it. And he said to them, This is my blood of the covenant, which is poured out for many. Does he know what's happening? This is this is those that moment that Bart's talking about, right before the crucifixion. Truly I say to you that I will I will never drink again drink of the fruit of the vine until that day when I drink it new in the kingdom of God.",
@@ -941,18 +1353,81 @@
     }
    ],
    "creators": {
+    "capturing-christianity": 1,
+    "cross-examined": 1,
     "prophet-of-zod": 1,
     "reasonable-faith-org": 2
    },
-   "n": 3,
+   "n": 5,
    "text": {
     "KJV": "And he said unto them, This is my blood of the new testament, which is shed for many.",
     "WEB": "He said to them, “This is my blood of the new covenant, which is poured out for many."
    },
    "truncated": false
   },
+  "Mark 14:61": {
+   "citations": [
+    {
+     "confidence": 0.8233,
+     "context": "And at the trial scene before the Sanhedrin in Mark 15, all three of these titles come to a head when the high priest asks him, Are you the Messiah, the son of the Blessed One that is the Son of God?",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-10-04T20:30:00Z",
+     "role": "host",
+     "t": 109.04,
+     "title": "Christianity vs. Judaism: William Lane Craig & Ben Shapiro!",
+     "video_id": "3OKATThRNxM"
+    }
+   ],
+   "creators": {
+    "drcraigvideos": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But he held his peace, and answered nothing. Again the high priest asked him, and said unto him, Art thou the Christ, the Son of the Blessed?",
+    "WEB": "But he stayed quiet, and answered nothing. Again the high priest asked him, “Are you the Christ, the Son of the Blessed?”"
+   },
+   "truncated": false
+  },
   "Mark 14:62": {
    "citations": [
+    {
+     "confidence": 0.8272,
+     "context": "He is the guy, if you read Mark chapter 14. Caiaphas has Jesus before him on trial, and he says to him, Are you the Messiah, the son of the blessed one? And Jesus said, I am, and you will see the Son of Man coming with power in the clouds. And Caiaphas tore his robes and said, Blasphemy. You heard it, you heard what he said. That's blasphemy. You must die. That guy, the guy that sentenced Jesus to die, we have his ossuary.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-25T02:16:36Z",
+     "role": "host",
+     "t": 2829.04,
+     "title": "'Change My Mind' LIVE Q&A Northern Michigan Univ. (Marquette, MI)",
+     "video_id": "-7cAMVvoO1I"
+    },
+    {
+     "confidence": 0.8318,
+     "context": "Caiaphas was the high priest that sentenced Jesus to die. Say you go to Mark 14 and you read about the trial. Caiaphas says to Jesus, Are you the Messiah, the son of the Blessed One? And Jesus says, I am, and you will see the Son of Man coming with power on the clouds. And then Caiaphas tore his robes and said, Blasphemy. You heard what he said. You must die, who's the Son of Man. He's quoting basically from Daniel 7. That's a deity figure in Daniel 7.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-04-01T02:32:11Z",
+     "role": "host",
+     "t": 3477.52,
+     "title": "'Change My Mind' LIVE Q&A from Ole Miss (Oxford, MS)",
+     "video_id": "2FBZ3gpea7I"
+    },
+    {
+     "confidence": 0.8512,
+     "context": "And Jesus says, I am. And then virtually quoting from Daniel, and you will see the Son of Man coming on the clouds of heaven and seated at the right hand of the power. And at that point, the high priest rips his robes and says, You have heard the blasphemy.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-10-04T20:30:00Z",
+     "role": "host",
+     "t": 127.8,
+     "title": "Christianity vs. Judaism: William Lane Craig & Ben Shapiro!",
+     "video_id": "3OKATThRNxM"
+    },
     {
      "confidence": 0.5652,
      "context": "You remember at the trial, the high priest asks Jesus, Are you the Messiah, the Son of the Blessed One? And Jesus responds, I am, and you will see the Son of Man seated at the right hand of power and coming with the clouds of heaven. And the high priest rips his garment and says, blasphemy, and the council all unanimously votes to condemn Jesus to death as a blasphemer.",
@@ -1027,12 +1502,38 @@
     }
    ],
    "creators": {
-    "drcraigvideos": 6
+    "cross-examined": 2,
+    "drcraigvideos": 7
    },
-   "n": 6,
+   "n": 9,
    "text": {
     "KJV": "And Jesus said, I am: and ye shall see the Son of man sitting on the right hand of power, and coming in the clouds of heaven.",
     "WEB": "Jesus said, “I am. You will see the Son of Man sitting at the right hand of Power, and coming with the clouds of the sky.”"
+   },
+   "truncated": false
+  },
+  "Mark 14:64": {
+   "citations": [
+    {
+     "confidence": 0.7695,
+     "context": "And Jesus says, I am. And then virtually quoting from Daniel, and you will see the Son of Man coming on the clouds of heaven and seated at the right hand of the power. And at that point, the high priest rips his robes and says, You have heard the blasphemy. What more witnesses do we need? And Mark says they all condemned him as worthy of death. And that enabled them, since they didn't have the ability to carry out capital punishment, to deliver him over to the Roman authorities by slandering him as a pretender to be king of the Jews, and therefore a political figure who could be tried for treason and sedition and crucified.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-10-04T20:30:00Z",
+     "role": "host",
+     "t": 137.96,
+     "title": "Christianity vs. Judaism: William Lane Craig & Ben Shapiro!",
+     "video_id": "3OKATThRNxM"
+    }
+   ],
+   "creators": {
+    "drcraigvideos": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Ye have heard the blasphemy: what think ye? And they all condemned him to be guilty of death.",
+    "WEB": "You have heard the blasphemy! What do you think?” They all condemned him to be worthy of death."
    },
    "truncated": false
   },
@@ -1061,8 +1562,95 @@
    },
    "truncated": false
   },
+  "Mark 16:17": {
+   "citations": [
+    {
+     "confidence": 0.6111,
+     "context": "It's so very clear to me. And I've done an entire video here about where faith healing breaks down. I also had a great conversation with Holy Kool-Aid about some of the bigger aspects of faith healing. Mark 16, 17 through 18 says, and these signs will accompany those who believe. In my name they will drive out demons, they will speak in new tongues, they will place their hands on sick people and they will get well. This is the power promised simply to those who believe. Not those in the ministry, not those who went to a special kind of school, not those that the Holy Spirit chooses to grant additional power to those who believe.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-02-18T15:01:13Z",
+     "role": "unattributed",
+     "t": 1061.8,
+     "title": "Why Won’t God Help?",
+     "video_id": "tQWByAmPDnw"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And these signs shall follow them that believe; In my name shall they cast out devils; they shall speak with new tongues;",
+    "WEB": "These signs will accompany those who believe: in my name they will cast out demons; they will speak with new languages;"
+   },
+   "truncated": false
+  },
+  "Mark 16:7": {
+   "citations": [
+    {
+     "confidence": 0.8882,
+     "context": "The disciples and Peter, he just adds that. That's right. Isn't that interesting? Yeah, it is. And so that can be suggested that Peter is Mark's primary source behind this stuff. Now, someone might say, yeah, but there's no proof of that. Yeah, well, that's true. There's no proof of that, but it is plausible.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-07-11T01:00:06Z",
+     "role": "host",
+     "t": 2053.32,
+     "title": "Bible Expert Reveals Who REALLY Wrote the Gospels?",
+     "video_id": "25H9PMfEuU4"
+    }
+   ],
+   "creators": {
+    "cross-examined": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But go your way, tell his disciples and Peter that he goeth before you into Galilee: there shall ye see him, as he said unto you.",
+    "WEB": "But go, tell his disciples and Peter, ‘He goes before you into Galilee. There you will see him, as he said to you.’”"
+   },
+   "truncated": false
+  },
+  "Mark 16:9": {
+   "citations": [
+    {
+     "confidence": 0.7917,
+     "context": "And Mark has some unique details that sometimes Matthew doesn't, and Matthew sometimes has unique details that Mark doesn't. But there's nothing else in Mark except for one at the very end, Mark 16 9. By the way, this longer ending is disputed. Now, after he rose early on the first day of the week, he appeared first to Mary Magdalene, from whom he had cast out seven demons. So just one more example of demonic possession that we don't hear about in Matthew, because Matthew has a different story about when Jesus is first seen after his raising from the dead.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-08-24T14:00:28Z",
+     "role": "unattributed",
+     "t": 897.52,
+     "title": "God vs. Satan: The Enemy Unleashed! | Part 2",
+     "video_id": "NAVJX1NEtMI"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Now when Jesus was risen early the first day of the week, he appeared first to Mary Magdalene, out of whom he had cast seven devils.",
+    "WEB": "Now when he had risen early on the first day of the week, he appeared first to Mary Magdalene, from whom he had cast out seven demons."
+   },
+   "truncated": false
+  },
   "Mark 1:1": {
    "citations": [
+    {
+     "confidence": 0.6,
+     "context": "I think if you just want to ask yourself what level of expertise did they have, look no further than Mark chapter one and chapter two. In just the first two chapters of Mark, Mark makes two blunders trying to address the Hebrew Bible. So in Mark chapter one, uh, famously, when John the Baptist is introduced, it says, in the beginning of the good news of Jesus Christ, as it is written in the prophet Isaiah, and then he goes on to conflate Malachi with Isaiah. He says, See, I'm sending my messenger ahead of you who will prepare your way, which is from Malachi chapter three.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-05-11T14:00:45Z",
+     "role": "host",
+     "t": 1162.8,
+     "title": "Deconstruction Zone: Was Jesus Really the Promised Messiah?",
+     "video_id": "YDyMpOpn9TI"
+    },
     {
      "confidence": 1.0,
      "context": "It's just a trivial matter of one letter. Just for an example, in the Gospel of Mark, right at the beginning, Mark chapter one, this is the very first gospel we have, the very earliest account, the first words written about Jesus that would come to be in our New Testament. And he says, the beginning of the good news of Jesus Christ, the Son of God. But those words there, Son of God, and it's the genitive, but it's not in the earliest manuscripts. It says the beginning of the gospel of Jesus Christ. Basically in the Greek, I don't think there's any articles in the Greek. So it basically says, like as son of God, but we could also read it as the son of God.",
@@ -1089,9 +1677,10 @@
     }
    ],
    "creators": {
+    "mindshift": 1,
     "paulogia": 2
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "The beginning of the gospel of Jesus Christ, the Son of God;",
     "WEB": "The beginning of the Good News of Jesus Christ, the Son of God."
@@ -1120,6 +1709,31 @@
    "text": {
     "KJV": "And immediately the spirit driveth him into the wilderness.",
     "WEB": "Immediately the Spirit drove him out into the wilderness."
+   },
+   "truncated": false
+  },
+  "Mark 1:13": {
+   "citations": [
+    {
+     "confidence": 0.8668,
+     "context": "All right, let's go to the next one. Rhett then brings up the other one that uh people on Reddit love to bring up. This is just Reddit to your ex Jesus. Like here's the temptation of Jesus. Uh, and of course, he's out there in the wilderness for 40 days. And so there's the three temptations from the devil. The third one being going up to the top of the mountain, saying, Look at all the kingdoms of the world. I will give you all of this if you will just bow down and worship me. And of course, Jesus says, Be gone, Satan, for it is written, you shall worship the Lord your God, and only him shall you serve.",
+     "creator": "paulogia",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-04T16:34:50Z",
+     "role": "host",
+     "t": 2992.96,
+     "title": "Did Rhett Just FIX the Christianity He Broke? (Responding to ALL the Responses)",
+     "video_id": "4uthjnLyG8w"
+    }
+   ],
+   "creators": {
+    "paulogia": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And he was there in the wilderness forty days, tempted of Satan; and was with the wild beasts; and the angels ministered unto him.",
+    "WEB": "He was there in the wilderness forty days, tempted by Satan. He was with the wild animals; and the angels were serving him."
    },
    "truncated": false
   },
@@ -1231,6 +1845,31 @@
    "text": {
     "KJV": "The voice of one crying in the wilderness, Prepare ye the way of the Lord, make his paths straight.",
     "WEB": "the voice of one crying in the wilderness, ‘Make ready the way of the Lord! Make his paths straight!’”"
+   },
+   "truncated": false
+  },
+  "Mark 1:31": {
+   "citations": [
+    {
+     "confidence": 0.8295,
+     "context": "And she was there for many hours. And she claims that in this sense of when she was lying there in pain, she looked up and she saw what she described was a vision of Jesus like walking towards her, radiant in light. And what she claims is that Jesus literally grabbed her by the hand that was closed and pried it open in that way, lifted her up, her back then straightened, and she was able to walk around. Her family gets her about an hour or so later, and they find her walking out of her wheelchair for the first time.",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-04-08T04:20:55Z",
+     "role": "unknown",
+     "t": 6762.64,
+     "title": "Christianity is 99.99% Probable (We Did the Math)",
+     "video_id": "4ME1lPMupNk"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And he came and took her by the hand, and lifted her up; and immediately the fever left her, and she ministered unto them.",
+    "WEB": "He came and took her by the hand and raised her up. The fever left her immediately, and she served them."
    },
    "truncated": false
   },
@@ -1433,8 +2072,45 @@
    },
    "truncated": false
   },
+  "Mark 3:28": {
+   "citations": [
+    {
+     "confidence": 0.8786,
+     "context": "That's the issue. The unforgivable sin appears most directly in Mark 3, Matthew 12, and Luke 12. Mark's version is especially important because it gives the immediate interpretive clue. Let's take a look at it. Mark chapter 3, verses 28 through 30 says, Truly I say to you, all sins shall be forgiven, the sons of men, and whatever blasphemies they utter. But whoever blasphemes against the Holy Spirit never has forgiveness, but is guilty of an internal sin, because they were saying he has an unclean spirit.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-05-21T17:08:21Z",
+     "role": "host",
+     "t": 41.2,
+     "title": "The Unforgivable Sin Is Worse Than You Think",
+     "video_id": "1ZuqVd88z0w"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Verily I say unto you, All sins shall be forgiven unto the sons of men, and blasphemies wherewith soever they shall blaspheme:",
+    "WEB": "“Most certainly I tell you, all sins of the descendants of man will be forgiven, including their blasphemies with which they may blaspheme;"
+   },
+   "truncated": false
+  },
   "Mark 3:29": {
    "citations": [
+    {
+     "confidence": 0.9257,
+     "context": "Let's take a look at it. Mark chapter 3, verses 28 through 30 says, Truly I say to you, all sins shall be forgiven, the sons of men, and whatever blasphemies they utter. But whoever blasphemes against the Holy Spirit never has forgiveness, but is guilty of an internal sin, because they were saying he has an unclean spirit. Jesus says blasphemy against the Holy Spirit can never have forgiveness and is guilty of an eternal sin, because the opponent said that he has an unclean spirit.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-21T17:08:21Z",
+     "role": "host",
+     "t": 50.4,
+     "title": "The Unforgivable Sin Is Worse Than You Think",
+     "video_id": "1ZuqVd88z0w"
+    },
     {
      "confidence": 0.7143,
      "context": "But he who blasphemes against the Holy Spirit never has forgiveness but is subject to eternal condemnation. According to Vine's expository dictionary, the word blasphemy means to speak evil of, to speak scornfully, or in contempt.",
@@ -1449,9 +2125,10 @@
     }
    ],
    "creators": {
+    "darante-lamar": 1,
     "prophet-of-zod": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "But he that shall blaspheme against the Holy Ghost hath never forgiveness, but is in danger of eternal damnation.",
     "WEB": "but whoever may blaspheme against the Holy Spirit never has forgiveness, but is subject to eternal condemnation.”"
@@ -1517,6 +2194,93 @@
    "text": {
     "KJV": "And when he was alone, they that were about him with the twelve asked of him the parable.",
     "WEB": "When he was alone, those who were around him with the twelve asked him about the parables."
+   },
+   "truncated": false
+  },
+  "Mark 4:11": {
+   "citations": [
+    {
+     "confidence": 0.9271,
+     "context": "That really tickled me. So which verse do we have to compare with this? Let me read to you from Mark 4 10 through 12. We actually covered this pretty recently. It says, when he was alone, those who were around him with the twelve asked him about the parables, and he said to them, To you has been given the secret of the kingdom of God, but for those outside, everything comes in parables, in order that they may indeed look but not perceive, they may indeed hear but not understand, so that they may not turn again and be forgiven.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-07-09T14:00:21Z",
+     "role": "host",
+     "t": 769.48,
+     "title": "Jesus Was the First Jordan Peterson | Sacred Word Salad",
+     "video_id": "0mE4Bz2jsXY"
+    },
+    {
+     "confidence": 0.906,
+     "context": "In which case, we'll end with this verse, which, by the way, is found in three of the four gospels. I'll read to you from Mark though. Mark 4, 10 through 12. When he was alone, those who were around him with the twelve asked him about the parables, and he said to them, To you has been given the secret of the kingdom of God. But for those outside, everything comes in parables, in order that so hold on.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-07-05T14:00:16Z",
+     "role": "host",
+     "t": 1290.4,
+     "title": "God’s Favorite Weapon Is Confusion",
+     "video_id": "1mQN3dAT0KA"
+    }
+   ],
+   "creators": {
+    "mindshift": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "And he said unto them, Unto you it is given to know the mystery of the kingdom of God: but unto them that are without, all these things are done in parables:",
+    "WEB": "He said to them, “To you is given the mystery of God’s Kingdom, but to those who are outside, all things are done in parables,"
+   },
+   "truncated": false
+  },
+  "Mark 4:12": {
+   "citations": [
+    {
+     "confidence": 0.814,
+     "context": "Whoa, the last one. That's a big problem for your idea of a perfectly righteous, perfectly just, and perfectly loving God. This is God sending his son down to come to preach and to teach, but to one group of people, again, not for their faults, but because of how God orchestrated their creation, they will hear and not understand. They will see and not perceive, so that they cannot do what is right in the eyes of the Lord and be forgiven.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-07-05T14:00:16Z",
+     "role": "host",
+     "t": 1367.84,
+     "title": "God’s Favorite Weapon Is Confusion",
+     "video_id": "1mQN3dAT0KA"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "That seeing they may see, and not perceive; and hearing they may hear, and not understand; lest at any time they should be converted, and their sins should be forgiven them.",
+    "WEB": "that ‘seeing they may see and not perceive, and hearing they may hear and not understand, lest perhaps they should turn again, and their sins should be forgiven them.’”"
+   },
+   "truncated": false
+  },
+  "Mark 4:27": {
+   "citations": [
+    {
+     "confidence": 0.9252,
+     "context": "And I'm gonna tell and I got it. By the way, I found out because I was reading Yusuf Ali's commentary 20 years ago. Like, oh wow. Yusuf Ali gave it to me. Mark 4, 26, 29. He said, the kingdom of God is like a man who scatters seed on the ground. He sleeps and rises night and day, and the seed sprouts and grows. He does not know how, for the earth bears fruit by itself, first the blade, then the head, then the full seed in the head. But when the grain is ripe, immediately applies a sickle because the arvas has come.",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-14T04:09:04Z",
+     "role": "host",
+     "t": 3825.76,
+     "title": "This Debate was a DISASTER for Islam (w/ Sam Shamoun)",
+     "video_id": "4AIIYnc3Ttk"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And should sleep, and rise night and day, and the seed should spring and grow up, he knoweth not how.",
+    "WEB": "and should sleep and rise night and day, and the seed should spring up and grow, though he doesn’t know how."
    },
    "truncated": false
   },
@@ -1620,6 +2384,31 @@
    },
    "truncated": false
   },
+  "Mark 5:28": {
+   "citations": [
+    {
+     "confidence": 0.8899,
+     "context": "She had heard the reports about Jesus and came up behind him in the crowd and touched his garment. For she said, If I touch even his garments, I will be made well. And immediately the flow of blood dried up, and she felt in her body that she was healed of her disease. And Jesus, perceiving in himself that power had gone out from him, immediately turned around in the crowd and said, Who touched my garments?",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-02-08T15:00:09Z",
+     "role": "unattributed",
+     "t": 234.48,
+     "title": "…It’s Desperation | Why Belief Thrives at Rock Bottom",
+     "video_id": "59Z3_2XKpQ4"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For she said, If I may touch but his clothes, I shall be whole.",
+    "WEB": "For she said, “If I just touch his clothes, I will be made well.”"
+   },
+   "truncated": false
+  },
   "Mark 5:29": {
    "citations": [
     {
@@ -1642,6 +2431,68 @@
    "text": {
     "KJV": "And straightway the fountain of her blood was dried up; and she felt in her body that she was healed of that plague.",
     "WEB": "Immediately the flow of her blood was dried up, and she felt in her body that she was healed of her affliction."
+   },
+   "truncated": false
+  },
+  "Mark 5:30": {
+   "citations": [
+    {
+     "confidence": 0.9364,
+     "context": "For she said, If I touch even his garments, I will be made well. And immediately the flow of blood dried up, and she felt in her body that she was healed of her disease. And Jesus, perceiving in himself that power had gone out from him, immediately turned around in the crowd and said, Who touched my garments? Skipping down a little bit, but the woman, knowing what had happened to her, came in fear and trembling and fell down before him and told him the whole truth.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-08T15:00:09Z",
+     "role": "unattributed",
+     "t": 242.72,
+     "title": "…It’s Desperation | Why Belief Thrives at Rock Bottom",
+     "video_id": "59Z3_2XKpQ4"
+    },
+    {
+     "confidence": null,
+     "context": "I know where the cookies went. I'm helping them learn. That's not the case with Jesus in that example. But it is a good argument, by the way, for God in the garden. We know it's not a good example because we have other examples of Jesus not knowing things. Like when Jesus gets surprised in Mark 5:30, Jesus realized is the word that power had gone out from him. Why would he be surprised? Many other people will point to Jesus cursing the fig tree when it was out of season, something he should have known. Again, I can give that one an apologetic excuse that he's using it for a greater metaphor.",
+     "creator": "mindshift",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-07-13T14:00:53Z",
+     "role": "unattributed",
+     "t": 1050.04,
+     "title": "Jesus Was Not Both: Christianity’s Greatest Contradiction",
+     "video_id": "bys8JCRuiXw"
+    }
+   ],
+   "creators": {
+    "mindshift": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "And Jesus, immediately knowing in himself that virtue had gone out of him, turned him about in the press, and said, Who touched my clothes?",
+    "WEB": "Immediately Jesus, perceiving in himself that the power had gone out from him, turned around in the crowd and asked, “Who touched my clothes?”"
+   },
+   "truncated": false
+  },
+  "Mark 5:33": {
+   "citations": [
+    {
+     "confidence": 0.8978,
+     "context": "And immediately the flow of blood dried up, and she felt in her body that she was healed of her disease. And Jesus, perceiving in himself that power had gone out from him, immediately turned around in the crowd and said, Who touched my garments? Skipping down a little bit, but the woman, knowing what had happened to her, came in fear and trembling and fell down before him and told him the whole truth. And he said to her, Daughter, your faith has made you well. Go in peace and be healed of your disease.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-02-08T15:00:09Z",
+     "role": "unattributed",
+     "t": 250.88,
+     "title": "…It’s Desperation | Why Belief Thrives at Rock Bottom",
+     "video_id": "59Z3_2XKpQ4"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But the woman fearing and trembling, knowing what was done in her, came and fell down before him, and told him all the truth.",
+    "WEB": "But the woman, fearing and trembling, knowing what had been done to her, came and fell down before him, and told him all the truth."
    },
    "truncated": false
   },
@@ -1695,6 +2546,31 @@
    },
    "truncated": false
   },
+  "Mark 6:4": {
+   "citations": [
+    {
+     "confidence": 0.8385,
+     "context": "That's also where their heart is going to be and where the argument can move. It's it's just so interesting here. You share this about your dad because like I have a different standpoint. Like my parents were not really, well, my dad's not religious at all. Uh and my still not still, still not. A prophet is not accepted at I don't know, he might be coming around on Jesus. I'm hoping. A prophet is not accepted in his own homeland. It's uh I understand. Some people are like, well, why can't you even convert your own dad? I'm like, you know, last Jesus. He couldn't get everybody in Nazareth, even they see this guy, and they're like, this guy, I remember when he ran around in diapers.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-05-18T13:00:13Z",
+     "role": "unknown",
+     "t": 4056.64,
+     "title": "OG Apologetics and Apostolic Martyrdom with Sean McDowell",
+     "video_id": "4wUPGJ8uPvw"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But Jesus, said unto them, A prophet is not without honour, but in his own country, and among his own kin, and in his own house.",
+    "WEB": "Jesus said to them, “A prophet is not without honor, except in his own country, and among his own relatives, and in his own house.”"
+   },
+   "truncated": false
+  },
   "Mark 7:12": {
    "citations": [
     {
@@ -1742,6 +2618,81 @@
    "text": {
     "KJV": "Making the word of God of none effect through your tradition, which ye have delivered: and many such like things do ye.",
     "WEB": "making void the word of God by your tradition which you have handed down. You do many things like this.”"
+   },
+   "truncated": false
+  },
+  "Mark 7:20": {
+   "citations": [
+    {
+     "confidence": 0.8082,
+     "context": "Well, I think the answer is obviously not. A good deal of the Old Testament law is no longer applicable to us today. You remember when Jesus says that it's what comes out of a man's heart that defiles the man, not what goes into his stomach. Mark, in recording that, makes the comment, thus he declared all foods clean.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-12-05T20:00:04Z",
+     "role": "host",
+     "t": 8.96,
+     "title": "Does All of the Bible Apply to Us Equally? #Shorts",
+     "video_id": "41o0bHRJgaI"
+    }
+   ],
+   "creators": {
+    "drcraigvideos": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And he said, That which cometh out of the man, that defileth the man.",
+    "WEB": "He said, “That which proceeds out of the man, that defiles the man."
+   },
+   "truncated": false
+  },
+  "Mark 7:27": {
+   "citations": [
+    {
+     "confidence": 0.8854,
+     "context": "Greg, okay. Sorry. I have this condition known as 64. Sometimes I can't quite hear. Go ahead. So my question's uh in regards to Matthew 15 and Mark 7, the story where the woman, the Gentile woman uh approaches Jesus about her demon possessed daughter. Yeah. And Jesus makes the comment of it wouldn't be right to take food from the children and throw it to the dog. A little closer to that mic if you would. Yeah. Um, he says it wouldn't be right to take food from the the children and throw it to dogs. So I had confusion if if obviously um Jesus is open to the Gentiles, why does he refer to that woman as uh a dog, a derogatory dog?",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-25T02:16:36Z",
+     "role": "unknown",
+     "t": 5876.28,
+     "title": "'Change My Mind' LIVE Q&A Northern Michigan Univ. (Marquette, MI)",
+     "video_id": "-7cAMVvoO1I"
+    }
+   ],
+   "creators": {
+    "cross-examined": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But Jesus said unto her, Let the children first be filled: for it is not meet to take the children's bread, and to cast it unto the dogs.",
+    "WEB": "But Jesus said to her, “Let the children be filled first, for it is not appropriate to take the children’s bread and throw it to the dogs.”"
+   },
+   "truncated": false
+  },
+  "Mark 7:6": {
+   "citations": [
+    {
+     "confidence": 0.8768,
+     "context": "And what other people see as acts of kindness is just another item on their checklist. But just because good deeds and prayers can become repetitive rituals, that does not mean the good deeds in prayer themselves are bad. Isaiah 29.13 says this: This people draw near with their mouth and honor me with their lips, while their hearts are far from me, and their fear of me is a commandment of men learned by rote. And Jesus said in the Sermon on the Mount, do not heap up empty phrases as the Gentiles do, for they think that they will be heard for their many words.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-10-07T20:15:01Z",
+     "role": "host",
+     "t": 39.6,
+     "title": "Feast of Our Lady of the Rosary. The Rosary isn’t empty repetition. It’s Scripture and love. ❤️📿",
+     "video_id": "-bqLTU5rAIQ"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "He answered and said unto them, Well hath Esaias prophesied of you hypocrites, as it is written, This people honoureth me with their lips, but their heart is far from me.",
+    "WEB": "He answered them, “Well did Isaiah prophesy of you hypocrites, as it is written, ‘This people honors me with their lips, but their heart is far from me."
    },
    "truncated": false
   },
@@ -1795,8 +2746,45 @@
    },
    "truncated": false
   },
+  "Mark 8:33": {
+   "citations": [
+    {
+     "confidence": 0.8113,
+     "context": "Because I know uh even as a pastor, there were plenty of times like people like Pastor, you need a break, you know, you need to go do this. And it's like, oh, that's nice, but get thee behind me. You say if not the things of God, you know. I gotta whoever puts his hands to the plow and looks back is not fit for the kingdom. You you you give yourself all these types of scripts that that you know that even when you're like okay, I really need to say no, I really need to step away.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-09-08T19:19:30Z",
+     "role": "unknown",
+     "t": 2915.24,
+     "title": "X-Pastor Couples Tell All // Sunday Sessions",
+     "video_id": "5-F2-LIJqqw"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But when he had turned about and looked on his disciples, he rebuked Peter, saying, Get thee behind me, Satan: for thou savourest not the things that be of God, but the things that be of men.",
+    "WEB": "But he, turning around and seeing his disciples, rebuked Peter, and said, “Get behind me, Satan! For you have in mind not the things of God, but the things of men.”"
+   },
+   "truncated": false
+  },
   "Mark 8:36": {
    "citations": [
+    {
+     "confidence": 0.9023,
+     "context": "He'll, but he'll change, he'll change me. Like the Holy Spirit enters my life and actually transforms my behavior, and I become a different person. Do I want that? You're struggling with the issue of repentance, and that's a beautiful struggle. Lean into it. It's absolutely worth it. Because what would it gain a man to have the whole world but to lose his own soul? What does he profit in that? Nothing. Nothing. All the things we lose for God, we were gonna lose anyways, and all the things we gain in Christ are inseparable from us.",
+     "creator": "mike-winger",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-06-09T15:00:14Z",
+     "role": "host",
+     "t": 93.52,
+     "title": "Theo Von on Jesus",
+     "video_id": "4cuhilfSYjI"
+    },
     {
      "confidence": 1.0,
      "context": "The concept of hell transforms the soul into a weapon. I pulled some verses for you here. I just want to be thorough. Mark 8 36, for what shall it profit a man if he shall gain the whole world and lose his own soul? Matthew 10 28 tells us fear him who can destroy both soul and body in hell. Hebrews 10 39 says, We are not of them who draw back into perd, but of them that believe to the saving of the soul.",
@@ -1811,17 +2799,80 @@
     }
    ],
    "creators": {
+    "mike-winger": 1,
     "mindshift": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "For what shall it profit a man, if he shall gain the whole world, and lose his own soul?",
     "WEB": "For what does it profit a man to gain the whole world and forfeit his life?"
    },
    "truncated": false
   },
+  "Mark 9:2": {
+   "citations": [
+    {
+     "confidence": 0.7772,
+     "context": "So it's important for us to know, okay, did were these people really sincere? So it does seem like those are like the three in like the top Peter, James, brother, Jesus, and Paul. Yeah, so I agree. If we're gonna if we're gonna look just at the 12, we have Peter, James, and John who are in the three that go to like with him in the Garden of Gethsemane to see Jairus' daughter raised to the transfiguration. And there's I think we have really good evidence for those three.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-18T13:00:13Z",
+     "role": "host",
+     "t": 2197.6,
+     "title": "OG Apologetics and Apostolic Martyrdom with Sean McDowell",
+     "video_id": "4wUPGJ8uPvw"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And after six days Jesus taketh with him Peter, and James, and John, and leadeth them up into an high mountain apart by themselves: and he was transfigured before them.",
+    "WEB": "After six days Jesus took with him Peter, James, and John, and brought them up onto a high mountain privately by themselves, and he was changed into another form in front of them."
+   },
+   "truncated": false
+  },
+  "Mark 9:42": {
+   "citations": [
+    {
+     "confidence": 0.9433,
+     "context": "And I feel like when Jesus is saying that, it's like a sick, twisted joke that only he gets. You know, but he also, and this is a scripture that I remember, I remember this one because I was like, yes. He says, if anyone causes one of these little ones, those who believe in me to stumble, it would be better for them to have a large millstone hung around their neck and to be drowned in the depths of the sea.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-12-04T19:13:28Z",
+     "role": "host",
+     "t": 188.52,
+     "title": "Does God Love The Kids",
+     "video_id": "-T-pAnSk22E"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And whosoever shall offend one of these little ones that believe in me, it is better for him that a millstone were hanged about his neck, and he were cast into the sea.",
+    "WEB": "“Whoever will cause one of these little ones who believe in me to stumble, it would be better for him if he were thrown into the sea with a millstone hung around his neck."
+   },
+   "truncated": false
+  },
   "Mark 9:43": {
    "citations": [
+    {
+     "confidence": 0.8652,
+     "context": "If your right eye causes you to sin, tear it out and throw it away. It is better for you to lose one of your members than your whole body to be thrown into hell. And if your right hand causes you to sin, cut it off and throw it away. It is better for you to lose one of your members than for your whole body to go into hell. These verses are fascinating, by the way. You get thought crime, you get the argument about if it's hyperbolic, you get Jesus talking about hell. A lot of things that Christians like to argue Jesus doesn't do or advocate for are happening right here.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-07-09T14:00:21Z",
+     "role": "host",
+     "t": 496.32,
+     "title": "Jesus Was the First Jordan Peterson | Sacred Word Salad",
+     "video_id": "0mE4Bz2jsXY"
+    },
     {
      "confidence": 0.5484,
      "context": "It sounds to me like just being eternally tormented. And the undying worm of Mark 9 48. The words Jesus spoke about hell are Titanic in scope, and to be honest, they haunt me. If your hand causes you to sin, cut it off. It is better for you to enter into life maimed rather than having two hands to go to hell, and to the fire that shall never be quenched, where the worm does not die and the fire is not quenched.",
@@ -1836,9 +2887,10 @@
     }
    ],
    "creators": {
+    "mindshift": 1,
     "paulogia": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "And if thy hand offend thee, cut it off: it is better for thee to enter into life maimed, than having two hands to go into hell, into the fire that never shall be quenched:",
     "WEB": "If your hand causes you to stumble, cut it off. It is better for you to enter into life maimed, rather than having your two hands to go into Gehenna, into the unquenchable fire,"
@@ -1870,12 +2922,37 @@
      "t": 1370.48,
      "title": "Kirk Cameron Caught Hell for Exposing Christianity’s Biggest Problem (20+ Apologist Response)",
      "video_id": "xz8SE6MLhNY"
+    },
+    {
+     "confidence": 0.5,
+     "context": "Rather fear him who can destroy both soul and body in Gehenna. We'll talk about this verse again later during annihilation. But here Jesus is linking it to destruction, not eternal torment. In Mark 9, 47 through 48, it is better for you to enter the kingdom of God with one eye than to have two eyes and be thrown into hell where the worm does not die and the fire is not quenched. Now again, this is Jesus quoting back to Isaiah and incorrectly, unless it's just a huge leap in metaphor, because we know what it was trying to be alluded to in Isaiah.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-02-23T15:01:19Z",
+     "role": "host",
+     "t": 1285.04,
+     "title": "Hell Was an Afterthought: The Evolution of the Biblical Afterlife",
+     "video_id": "zEOj-ceCy58"
+    },
+    {
+     "confidence": 0.5,
+     "context": "Now again, this is Jesus quoting back to Isaiah and incorrectly, unless it's just a huge leap in metaphor, because we know what it was trying to be alluded to in Isaiah. But here we have two insights into non-death, non-destruction, the worm does not die, and the fire is not quenched. Okay, yeah, but maybe humans do. Maybe that's just a place filled with worms and fire. Don't know, unclear. But Gehenna is not always the word used.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-02-23T15:01:19Z",
+     "role": "host",
+     "t": 1304.48,
+     "title": "Hell Was an Afterthought: The Evolution of the Biblical Afterlife",
+     "video_id": "zEOj-ceCy58"
     }
    ],
    "creators": {
+    "mindshift": 2,
     "paulogia": 2
    },
-   "n": 2,
+   "n": 4,
    "text": {
     "KJV": "Where their worm dieth not, and the fire is not quenched.",
     "WEB": "‘where their worm doesn’t die, and the fire is not quenched.’"
@@ -1907,15 +2984,65 @@
      "t": 1370.48,
      "title": "Kirk Cameron Caught Hell for Exposing Christianity’s Biggest Problem (20+ Apologist Response)",
      "video_id": "xz8SE6MLhNY"
+    },
+    {
+     "confidence": 0.5,
+     "context": "Rather fear him who can destroy both soul and body in Gehenna. We'll talk about this verse again later during annihilation. But here Jesus is linking it to destruction, not eternal torment. In Mark 9, 47 through 48, it is better for you to enter the kingdom of God with one eye than to have two eyes and be thrown into hell where the worm does not die and the fire is not quenched. Now again, this is Jesus quoting back to Isaiah and incorrectly, unless it's just a huge leap in metaphor, because we know what it was trying to be alluded to in Isaiah.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-02-23T15:01:19Z",
+     "role": "host",
+     "t": 1285.04,
+     "title": "Hell Was an Afterthought: The Evolution of the Biblical Afterlife",
+     "video_id": "zEOj-ceCy58"
+    },
+    {
+     "confidence": 0.5,
+     "context": "Now again, this is Jesus quoting back to Isaiah and incorrectly, unless it's just a huge leap in metaphor, because we know what it was trying to be alluded to in Isaiah. But here we have two insights into non-death, non-destruction, the worm does not die, and the fire is not quenched. Okay, yeah, but maybe humans do. Maybe that's just a place filled with worms and fire. Don't know, unclear. But Gehenna is not always the word used.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-02-23T15:01:19Z",
+     "role": "host",
+     "t": 1304.48,
+     "title": "Hell Was an Afterthought: The Evolution of the Biblical Afterlife",
+     "video_id": "zEOj-ceCy58"
     }
    ],
    "creators": {
+    "mindshift": 2,
     "paulogia": 2
    },
-   "n": 2,
+   "n": 4,
    "text": {
     "KJV": "Where their worm dieth not, and the fire is not quenched.",
     "WEB": "‘where their worm doesn’t die, and the fire is not quenched.’"
+   },
+   "truncated": false
+  },
+  "Mark 9:47": {
+   "citations": [
+    {
+     "confidence": 0.8277,
+     "context": "And it reminded me of this verse from Jesus, Matthew 5 27 through 30. You have heard that it was said, you shall not commit adultery. But I say to you that everyone who looks at a woman with lust has already committed adultery with her in his heart. If your right eye causes you to sin, tear it out and throw it away. It is better for you to lose one of your members than your whole body to be thrown into hell. And if your right hand causes you to sin, cut it off and throw it away. It is better for you to lose one of your members than for your whole body to go into hell.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-07-09T14:00:21Z",
+     "role": "host",
+     "t": 484.24,
+     "title": "Jesus Was the First Jordan Peterson | Sacred Word Salad",
+     "video_id": "0mE4Bz2jsXY"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And if thine eye offend thee, pluck it out: it is better for thee to enter into the kingdom of God with one eye, than having two eyes to be cast into hell fire:",
+    "WEB": "If your eye causes you to stumble, throw it out. It is better for you to enter into God’s Kingdom with one eye, rather than having two eyes to be cast into the Gehenna of fire,"
    },
    "truncated": false
   },
@@ -1944,12 +3071,49 @@
      "t": 1370.48,
      "title": "Kirk Cameron Caught Hell for Exposing Christianity’s Biggest Problem (20+ Apologist Response)",
      "video_id": "xz8SE6MLhNY"
+    },
+    {
+     "confidence": null,
+     "context": "Now, this passage is actually describing corpses being burned outside of Jerusalem, not conscious souls being tormented. But in Mark 9:48, Jesus refers to this verse to illustrate and give example of the hell he is speaking about. Then you have Gehenna, which is Greek for the valley of Henam, and originally was a real place outside of Jerusalem.",
+     "creator": "mindshift",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-02-23T15:01:19Z",
+     "role": "unattributed",
+     "t": 1168.4,
+     "title": "Hell Was an Afterthought: The Evolution of the Biblical Afterlife",
+     "video_id": "zEOj-ceCy58"
+    },
+    {
+     "confidence": 0.5,
+     "context": "Rather fear him who can destroy both soul and body in Gehenna. We'll talk about this verse again later during annihilation. But here Jesus is linking it to destruction, not eternal torment. In Mark 9, 47 through 48, it is better for you to enter the kingdom of God with one eye than to have two eyes and be thrown into hell where the worm does not die and the fire is not quenched. Now again, this is Jesus quoting back to Isaiah and incorrectly, unless it's just a huge leap in metaphor, because we know what it was trying to be alluded to in Isaiah.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-02-23T15:01:19Z",
+     "role": "host",
+     "t": 1285.04,
+     "title": "Hell Was an Afterthought: The Evolution of the Biblical Afterlife",
+     "video_id": "zEOj-ceCy58"
+    },
+    {
+     "confidence": 0.5,
+     "context": "Now again, this is Jesus quoting back to Isaiah and incorrectly, unless it's just a huge leap in metaphor, because we know what it was trying to be alluded to in Isaiah. But here we have two insights into non-death, non-destruction, the worm does not die, and the fire is not quenched. Okay, yeah, but maybe humans do. Maybe that's just a place filled with worms and fire. Don't know, unclear. But Gehenna is not always the word used.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-02-23T15:01:19Z",
+     "role": "host",
+     "t": 1304.48,
+     "title": "Hell Was an Afterthought: The Evolution of the Biblical Afterlife",
+     "video_id": "zEOj-ceCy58"
     }
    ],
    "creators": {
+    "mindshift": 3,
     "paulogia": 2
    },
-   "n": 2,
+   "n": 5,
    "text": {
     "KJV": "Where their worm dieth not, and the fire is not quenched.",
     "WEB": "‘where their worm doesn’t die, and the fire is not quenched.’"

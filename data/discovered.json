@@ -1,12 +1,12 @@
 {
   "meta": {
     "model": "openai:mlx-community/gpt-oss-20b-MXFP4-Q8:v2",
-    "generated_at": "2026-07-27T01:00:24Z",
+    "generated_at": "2026-07-27T14:14:31Z",
     "note": "machine-DISCOVERED framings \u2014 proposed, not pinned",
     "bar_corpus": {
-      "floor_run": 6,
+      "floor_run": 7,
       "frozen": true,
-      "measured_at": "2026-07-26T18:51:18Z",
+      "measured_at": "2026-07-27T02:42:50Z",
       "corpus": {
         "fingerprint": "sha256:dfd8b49d33f3b3e3f3ae80d49697b57d",
         "videos": 5146
@@ -23,14 +23,14 @@
       "note": "the per-creator collocate profiles the bar was computed from are stored with the floor run, so re-running the permutation pass reproduces these p and q values exactly even after the corpus has grown"
     },
     "selection": {
-      "pool": 5367,
+      "pool": 5602,
       "funnel": {
-        "occurrence_floor": 5367,
-        "creator_gated": 5323,
-        "bar_cleared": 30,
-        "published": 28
+        "occurrence_floor": 5602,
+        "creator_gated": 5568,
+        "bar_cleared": 28,
+        "published": 26
       },
-      "published": 28,
+      "published": 26,
       "ranked_by": "keyness (log-likelihood vs an external reference corpus)",
       "multiplicity_correction": "Benjamini-Hochberg FDR across the run's terms (gate only)",
       "note": "Two different things, and only one is corrected. Terms are ADMITTED by a Benjamini-Hochberg-corrected significance gate, but ORDERED by keyness, which carries no correction \u2014 so a high rank reflects distinctiveness and selection, not a stronger result. Treat the ordering as a reading order, not a ranking of confidence."
@@ -53,14 +53,14 @@
           "...ministry that is that is just [gaslighting] that's what it is it's so..."
         ]
       },
-      "apol": 17,
-      "decon": 162,
-      "keyness": 6.627236899043531,
+      "apol": 21,
+      "decon": 163,
+      "keyness": 6.599877884263903,
       "bar": {
         "status": "ok",
         "passes": true,
         "p": 0.00197136884443386,
-        "q": 0.026403802147509238,
+        "q": 0.027603974972396025,
         "corrected": true,
         "max_q": 0.05,
         "assignments": 75582,
@@ -86,14 +86,14 @@
           "...it comes with baggage about the [afterlife] sure but it it could still..."
         ]
       },
-      "apol": 79,
-      "decon": 529,
-      "keyness": 6.5670861845352135,
+      "apol": 94,
+      "decon": 532,
+      "keyness": 6.542071698824471,
       "bar": {
         "status": "ok",
         "passes": true,
         "p": 0.0023815194093831865,
-        "q": 0.02747907010826754,
+        "q": 0.029934375909608107,
         "corrected": true,
         "max_q": 0.05,
         "assignments": 75582,
@@ -119,14 +119,14 @@
           "...become sort of quasi possessed by [supernatural] beings and all kinds of things..."
         ]
       },
-      "apol": 142,
-      "decon": 1198,
-      "keyness": 5.77967702909882,
+      "apol": 157,
+      "decon": 1238,
+      "keyness": 5.77060313876946,
       "bar": {
         "status": "ok",
         "passes": true,
         "p": 0.0012304516948479797,
-        "q": 0.02307096927839962,
+        "q": 0.024609033896959596,
         "corrected": true,
         "max_q": 0.05,
         "assignments": 75582,
@@ -139,27 +139,27 @@
       "surface": "god",
       "verdict": "contested",
       "apologetics": {
-        "text": "god is an eternal, loving, just deity who provides moral framework and salvation.",
+        "text": "god is an eternal, infinite, moral, loving, just being who provides salvation and redemption.",
         "quotes": [
           "...by god's love and justice only [god] could pay what man owed but...",
-          "...with the promise of salvation so [god] desires that all be saved and..."
+          "...sin and the fall and then [god] working towards redemption of what his..."
         ]
       },
       "deconstruction": {
-        "text": "god is a figure that can bless, judge, allow events, but is also questioned, critiqued, or used as a tool of control.",
+        "text": "god is a concept that can be invoked for blessings, judgment, or control, and is sometimes questioned or reinterpreted.",
         "quotes": [
           "...thought i had was being monitored [god] was always ready to judge and...",
           "...if i asked what why did [god] allow this thing to happen and..."
         ]
       },
-      "apol": 18339,
-      "decon": 28432,
-      "keyness": 5.714965131954846,
+      "apol": 19826,
+      "decon": 28591,
+      "keyness": 5.697801404044477,
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 6.615331692731073e-05,
-        "q": 0.004961498769548305,
+        "p": 0.00010584530708369718,
+        "q": 0.007938398031277287,
         "corrected": true,
         "max_q": 0.05,
         "assignments": 75582,
@@ -183,14 +183,14 @@
           "...new atheism is simply lack of [belief] in god and so i've seen..."
         ]
       },
-      "apol": 830,
-      "decon": 6774,
-      "keyness": 5.472187155621759,
+      "apol": 986,
+      "decon": 6866,
+      "keyness": 5.450665210249091,
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.0003836892381784023,
-        "q": 0.015876796062554578,
+        "p": 0.00035722791140747797,
+        "q": 0.014112707611159622,
         "corrected": true,
         "max_q": 0.05,
         "assignments": 75582,
@@ -216,45 +216,14 @@
           "...it with my kids i i [honestly] skip it every time then at..."
         ]
       },
-      "apol": 172,
-      "decon": 1600,
-      "keyness": 5.347597824789324,
+      "apol": 207,
+      "decon": 1613,
+      "keyness": 5.319051712182169,
       "bar": {
         "status": "ok",
         "passes": true,
         "p": 0.0019052155275065491,
-        "q": 0.026403802147509238,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "christian",
-      "verdict": "contested",
-      "apologetics": {
-        "text": "...a christian philosopher and apologist who denies the...",
-        "quotes": [
-          "...william lane craig is a [christian] philosopher and apologist who denies the..."
-        ]
-      },
-      "deconstruction": {
-        "text": "...and [christianity] is still blood cult today they...",
-        "quotes": [
-          "...without spot or blemish yep and [christianity] is still blood cult today they..."
-        ]
-      },
-      "apol": 6537,
-      "decon": 17228,
-      "keyness": 5.210849803344421,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0015612182794845335,
-        "q": 0.024650814939229476,
+        "q": 0.027603974972396025,
         "corrected": true,
         "max_q": 0.05,
         "assignments": 75582,
@@ -280,14 +249,45 @@
           "...two about it but there's a [moral] danger in that kind of belief..."
         ]
       },
-      "apol": 1839,
-      "decon": 5186,
-      "keyness": 5.191654087767527,
+      "apol": 2277,
+      "decon": 5292,
+      "keyness": 5.257662049032881,
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.0025667486967796567,
-        "q": 0.02851942996421841,
+        "p": 0.0026725940038633536,
+        "q": 0.032071128046360246,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "christian",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "...a christian philosopher and apologist who denies the...",
+        "quotes": [
+          "...william lane craig is a [christian] philosopher and apologist who denies the..."
+        ]
+      },
+      "deconstruction": {
+        "text": "...and [christianity] is still blood cult today they...",
+        "quotes": [
+          "...without spot or blemish yep and [christianity] is still blood cult today they..."
+        ]
+      },
+      "apol": 7315,
+      "decon": 17651,
+      "keyness": 5.235184246940592,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.001521526289328147,
+        "q": 0.026020304658075557,
         "corrected": true,
         "max_q": 0.05,
         "assignments": 75582,
@@ -313,14 +313,14 @@
           "...goes what this story implicates is [divine] silence not at any point does..."
         ]
       },
-      "apol": 1330,
-      "decon": 2286,
-      "keyness": 5.07117790601198,
+      "apol": 1471,
+      "decon": 2321,
+      "keyness": 5.076490284567158,
       "bar": {
         "status": "ok",
         "passes": true,
         "p": 5.292265354184859e-05,
-        "q": 0.004961498769548305,
+        "q": 0.0052922653541848585,
         "corrected": true,
         "max_q": 0.05,
         "assignments": 75582,
@@ -344,14 +344,14 @@
           "...it says molokoi arsenokoite so molokoi [literally] means soft and it's a derogatory..."
         ]
       },
-      "apol": 700,
-      "decon": 3786,
-      "keyness": 4.8129074972911665,
+      "apol": 790,
+      "decon": 3824,
+      "keyness": 4.786389864600093,
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.0036648937577730147,
-        "q": 0.03791269404592774,
+        "p": 0.003611971104231166,
+        "q": 0.040133012269235185,
         "corrected": true,
         "max_q": 0.05,
         "assignments": 75582,
@@ -362,27 +362,29 @@
     },
     {
       "surface": "narrative",
-      "verdict": "contested",
+      "verdict": "mixed",
       "apologetics": {
-        "text": "the bible put forth an oppressive [narrative] on women",
+        "text": "Apologetics uses 'narrative' to refer to biblical or historical stories, often as a factual account.",
         "quotes": [
-          "...the bible put forth an oppressive [narrative] on women i think the bible..."
+          "...the bible put forth an oppressive [narrative] on women i think the bible...",
+          "...a story incorporated later into the [narrative] well now what about the empty..."
         ]
       },
       "deconstruction": {
-        "text": "that's a false [narrative] specifically designed to make sure people",
+        "text": "Deconstruction uses 'narrative' to describe constructed stories that shape perception, often critiquing or exposing false narratives.",
         "quotes": [
+          "...that is basically centered on a [narrative] of disliking certain people and acting...",
           "...gonna happen but that's a false [narrative] specifically designed to make sure people..."
         ]
       },
-      "apol": 283,
-      "decon": 1937,
-      "keyness": 4.734428415643849,
+      "apol": 361,
+      "decon": 1982,
+      "keyness": 4.74667650894358,
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.0008467624566695774,
-        "q": 0.0221141088014153,
+        "p": 0.0008732237834405017,
+        "q": 0.0228228943399222,
         "corrected": true,
         "max_q": 0.05,
         "assignments": 75582,
@@ -395,25 +397,56 @@
       "surface": "faith",
       "verdict": "contested",
       "apologetics": {
-        "text": "never gives up love never loses faith because he who was loved never...",
+        "text": "faith as a central, positive belief in God and Christian values",
         "quotes": [
-          "...never gives up love never loses [faith] because he who was loved never..."
+          "...that i get from my christian [faith] that is conservative family values that..."
         ]
       },
       "deconstruction": {
-        "text": "around our necks because we have faith that vampires don't exist we've just...",
+        "text": "faith as a belief that can be questioned or is socially constructed",
         "quotes": [
           "...around our necks because we have [faith] that vampires don't exist we've just..."
         ]
       },
-      "apol": 3087,
-      "decon": 5879,
-      "keyness": 4.68399924300297,
+      "apol": 3413,
+      "decon": 5936,
+      "keyness": 4.685815106619443,
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.0012039903680770554,
-        "q": 0.02307096927839962,
+        "p": 0.0015612182794845335,
+        "q": 0.026020304658075557,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "believe",
+      "verdict": "mixed",
+      "apologetics": {
+        "text": "Apologetics uses 'believe' to affirm faith in God and Christ, encouraging trust and belief in divine truth.",
+        "quotes": [
+          "...things basically so that you may [believe] in christ and in believing in..."
+        ]
+      },
+      "deconstruction": {
+        "text": "Deconstruction uses 'believe' to question or reject faith in the Christian God, reflecting skepticism or alternative interpretations.",
+        "quotes": [
+          "...french deists for example didn't really [believe] in the christian god and so..."
+        ]
+      },
+      "apol": 5474,
+      "decon": 17815,
+      "keyness": 4.647497520273039,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 3.9691990156386444e-05,
+        "q": 0.0052922653541848585,
         "corrected": true,
         "max_q": 0.05,
         "assignments": 75582,
@@ -437,47 +470,14 @@
           "...justice thus rejecting judgment can sound [problematic] if you're not clear about what..."
         ]
       },
-      "apol": 76,
-      "decon": 600,
-      "keyness": 4.663325242569944,
+      "apol": 82,
+      "decon": 602,
+      "keyness": 4.613192690343255,
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.0034399724802201583,
-        "q": 0.03685684800235884,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "believe",
-      "verdict": "convergent",
-      "apologetics": {
-        "text": "\u2018believe\u2019 is used to affirm faith in God, Christ, and divine truth.",
-        "quotes": [
-          "...as part of their case for [believing] in god...",
-          "...are loved by god and i [believe] the text gives us some lessons..."
-        ]
-      },
-      "deconstruction": {
-        "text": "\u2018believe\u2019 is used to discuss acceptance of scripture, God, or narratives, sometimes with skepticism.",
-        "quotes": [
-          "...being washed in blood they still [believe] that their salvation rests on a...",
-          "...french deists for example didn't really [believe] in the christian god and so..."
-        ]
-      },
-      "apol": 5011,
-      "decon": 17576,
-      "keyness": 4.647898071234076,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 5.292265354184859e-05,
-        "q": 0.004961498769548305,
+        "p": 0.0032018205392818394,
+        "q": 0.036944083145559685,
         "corrected": true,
         "max_q": 0.05,
         "assignments": 75582,
@@ -503,45 +503,14 @@
           "...you know military you know slash [religious] coercion uh and that uh you..."
         ]
       },
-      "apol": 499,
-      "decon": 6453,
-      "keyness": 4.530767679958646,
+      "apol": 562,
+      "decon": 6564,
+      "keyness": 4.502315282333299,
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.0009526077637532746,
-        "q": 0.0221141088014153,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "condescending",
-      "verdict": "convergent",
-      "apologetics": {
-        "text": "...of creation is that god would [condescend] to create a world of finite...",
-        "quotes": [
-          "...of creation is that god would [condescend] to create a world of finite..."
-        ]
-      },
-      "deconstruction": {
-        "text": "...god [condescended] to humanity meeting them where they...",
-        "quotes": [
-          "...egregious as these others but god [condescended] to humanity meeting them where they..."
-        ]
-      },
-      "apol": 13,
-      "decon": 73,
-      "keyness": 4.485381450999185,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0008599931200550396,
-        "q": 0.0221141088014153,
+        "p": 0.0009129157735968882,
+        "q": 0.0228228943399222,
         "corrected": true,
         "max_q": 0.05,
         "assignments": 75582,
@@ -567,14 +536,45 @@
           "...value but i didn't want to [pray] to god anymore so now my..."
         ]
       },
-      "apol": 1223,
-      "decon": 1583,
-      "keyness": 4.4642111982892585,
+      "apol": 1311,
+      "decon": 1595,
+      "keyness": 4.447105794404897,
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.0010319917440660474,
-        "q": 0.0221141088014153,
+        "p": 0.0018390622105792385,
+        "q": 0.027603974972396025,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "condescending",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "In apologetics, \"condescended\" is used to describe the theological act of God lowering Himself to humanity, e.g., \"...invisible god visible he who once [condescended] on a mountain in fire came...\"",
+        "quotes": [
+          "...invisible god visible he who once [condescended] on a mountain in fire came..."
+        ]
+      },
+      "deconstruction": {
+        "text": "In deconstruction, \"condescending\" is used to describe a patronizing or dismissive attitude toward religious people, e.g., \"...that i was getting is extremely [condescending] and dismissive...\"",
+        "quotes": [
+          "...that i was getting is extremely [condescending] and dismissive and perhaps he spoke..."
+        ]
+      },
+      "apol": 13,
+      "decon": 74,
+      "keyness": 4.4349574521995825,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0004233812283347887,
+        "q": 0.014112707611159622,
         "corrected": true,
         "max_q": 0.05,
         "assignments": 75582,
@@ -587,27 +587,25 @@
       "surface": "guilt",
       "verdict": "contested",
       "apologetics": {
-        "text": "guilt is framed as theological sin and inherited responsibility",
+        "text": "doctrine of original sin that adam's [guilt] is imputed to us i don't...",
         "quotes": [
-          "...temporal punishment due to sins whose [guilt] has already been forgiven so indulgences...",
-          "...a chain reaction through say a [guilt] complex that peter suffered because he..."
+          "...doctrine of original sin that adam's [guilt] is imputed to us i don't..."
         ]
       },
       "deconstruction": {
-        "text": "guilt is framed as social or psychological pressure, often white guilt or guilt by association",
+        "text": "so this is kind of a [guilt] by association sort of critique yeah...",
         "quotes": [
-          "...a way to assuage any white [guilt] that non melanated moviegoers might be...",
           "...so this is kind of a [guilt] by association sort of critique yeah..."
         ]
       },
-      "apol": 120,
-      "decon": 648,
-      "keyness": 4.4408518881033165,
+      "apol": 139,
+      "decon": 653,
+      "keyness": 4.418140123401609,
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.0004630732184911752,
-        "q": 0.015876796062554578,
+        "p": 0.0003969199015638644,
+        "q": 0.014112707611159622,
         "corrected": true,
         "max_q": 0.05,
         "assignments": 75582,
@@ -620,27 +618,58 @@
       "surface": "maybe",
       "verdict": "convergent",
       "apologetics": {
-        "text": "The term 'maybe' is used as a filler or hedge, indicating uncertainty or tentative agreement.",
+        "text": "\"maybe\" is used as a hedge to express uncertainty or tentative agreement.",
         "quotes": [
-          "...you were to say charlie thousands [maybe] millions of people have come to...",
-          "...argument for god's existence right well [maybe] not many people believe that the..."
+          "...jew hatred or maybe i'm wrong [maybe] there is no jew hatred and..."
         ]
       },
       "deconstruction": {
-        "text": "The term 'maybe' is used as a filler or hedge, indicating uncertainty or tentative agreement.",
+        "text": "\"maybe\" is used similarly as a hedge to express uncertainty or challenge.",
         "quotes": [
-          "...don't make it everybody else's problem [maybe] instead of requiring sex or demanding...",
-          "...to me uh so um here [maybe] this will appease you now of..."
+          "...to challenge your faith to say [maybe] you're doing it wrong maybe that's..."
         ]
       },
-      "apol": 1871,
-      "decon": 7836,
-      "keyness": 4.410443146130074,
+      "apol": 2028,
+      "decon": 8003,
+      "keyness": 4.390155492802786,
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.0022095207853721787,
-        "q": 0.026514249424466146,
+        "p": 0.0023947500727686485,
+        "q": 0.029934375909608107,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "eternal",
+      "verdict": "mixed",
+      "apologetics": {
+        "text": "Apologetics uses \"eternal\" to describe everlasting divine states such as eternal life, eternal punishment, and eternal being.",
+        "quotes": [
+          "...now folks anybody who freely chose [eternal] torment over eternal bliss would be...",
+          "...looks like we only have one [eternal] home and that's in glory the..."
+        ]
+      },
+      "deconstruction": {
+        "text": "Deconstruction uses \"eternal\" to refer to the universe's timeless nature or to describe ongoing suffering, often in a skeptical or critical context.",
+        "quotes": [
+          "...that the universe was static and [eternal] and then we shifted out of...",
+          "...achieving that suggests the universe is [eternal] i mean what scientist much less..."
+        ]
+      },
+      "apol": 870,
+      "decon": 1049,
+      "keyness": 4.361875005576369,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0003969199015638644,
+        "q": 0.014112707611159622,
         "corrected": true,
         "max_q": 0.05,
         "assignments": 75582,
@@ -666,14 +695,14 @@
           "...garbage prophecy credulity that made me [uncomfortable] even when i was at the..."
         ]
       },
-      "apol": 47,
-      "decon": 617,
-      "keyness": 4.400130866295301,
+      "apol": 51,
+      "decon": 624,
+      "keyness": 4.356729445543678,
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.0004763038818766373,
-        "q": 0.015876796062554578,
+        "p": 0.0005027652086475615,
+        "q": 0.015082956259426846,
         "corrected": true,
         "max_q": 0.05,
         "assignments": 75582,
@@ -699,45 +728,14 @@
           "...so one of the things is [ideologically] they're on the same plane so..."
         ]
       },
-      "apol": 124,
-      "decon": 1048,
-      "keyness": 4.335051566786473,
+      "apol": 151,
+      "decon": 1057,
+      "keyness": 4.311593514231732,
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.0038104310550130982,
-        "q": 0.038104310550130985,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "eternal",
-      "verdict": "contested",
-      "apologetics": {
-        "text": "looks like we only have one eternal home and that's in glory",
-        "quotes": [
-          "...looks like we only have one [eternal] home and that's in glory the..."
-        ]
-      },
-      "deconstruction": {
-        "text": "achieving that suggests the universe is eternal i mean what scientist much less",
-        "quotes": [
-          "...achieving that suggests the universe is [eternal] i mean what scientist much less..."
-        ]
-      },
-      "apol": 803,
-      "decon": 1047,
-      "keyness": 4.330379546809588,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.00035722791140747797,
-        "q": 0.015876796062554578,
+        "p": 0.0037972003916276363,
+        "q": 0.0406842899102961,
         "corrected": true,
         "max_q": 0.05,
         "assignments": 75582,
@@ -761,14 +759,46 @@
           "...this thing like it's a aha [gotcha] moment yeah where you're like no..."
         ]
       },
-      "apol": 18,
-      "decon": 92,
-      "keyness": 4.284503820398621,
+      "apol": 20,
+      "decon": 95,
+      "keyness": 4.281528258627161,
       "bar": {
         "status": "ok",
         "passes": true,
         "p": 0.0014289116456299119,
-        "q": 0.023815194093831864,
+        "q": 0.026020304658075557,
+        "corrected": true,
+        "max_q": 0.05,
+        "assignments": 75582,
+        "statistic": "divergence",
+        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+        "reason": null
+      }
+    },
+    {
+      "surface": "sacrifice",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "on the cross as the only [sacrifice] for sin whereby people could be...",
+        "quotes": [
+          "...the lord makes his one saving [sacrifice] which is sufficient more than sufficient...",
+          "...on the cross as the only [sacrifice] for sin whereby people could be..."
+        ]
+      },
+      "deconstruction": {
+        "text": "their salvation rests on a human [sacrifice] oh wow so there's purity culture...",
+        "quotes": [
+          "...their salvation rests on a human [sacrifice] oh wow so there's purity culture..."
+        ]
+      },
+      "apol": 536,
+      "decon": 730,
+      "keyness": 4.205440064089552,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "p": 0.0011113757243788203,
+        "q": 0.024609033896959596,
         "corrected": true,
         "max_q": 0.05,
         "assignments": 75582,
@@ -794,45 +824,14 @@
           "...live authentically so i have no [shame] this is the ghettoest drink in..."
         ]
       },
-      "apol": 169,
-      "decon": 1317,
-      "keyness": 4.246317749284749,
+      "apol": 171,
+      "decon": 1341,
+      "keyness": 4.20423588296886,
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.0010187610806805852,
-        "q": 0.0221141088014153,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "sacrifice",
-      "verdict": "mixed",
-      "apologetics": {
-        "text": "...us and sent christ as a [sacrifice] for our sins so in hate...",
-        "quotes": [
-          "...us and sent christ as a [sacrifice] for our sins so in hate..."
-        ]
-      },
-      "deconstruction": {
-        "text": "...their salvation rests on a human [sacrifice] oh wow so there's purity culture...",
-        "quotes": [
-          "...their salvation rests on a human [sacrifice] oh wow so there's purity culture..."
-        ]
-      },
-      "apol": 493,
-      "decon": 725,
-      "keyness": 4.219005600578256,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0021433674684448677,
-        "q": 0.026514249424466146,
+        "p": 0.0012304516948479797,
+        "q": 0.024609033896959596,
         "corrected": true,
         "max_q": 0.05,
         "assignments": 75582,
@@ -856,78 +855,14 @@
           "...on in bridge city chat checking [whatever] i've missed on my phone and..."
         ]
       },
-      "apol": 874,
-      "decon": 4335,
-      "keyness": 4.191245441258436,
+      "apol": 946,
+      "decon": 4391,
+      "keyness": 4.16750577178303,
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.00037045857479294013,
-        "q": 0.015876796062554578,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "harm",
-      "verdict": "convergent",
-      "apologetics": {
-        "text": "Apologetics uses \"harm\" to describe negative effects on people, policies, or God, often as a verb or adjective.",
-        "quotes": [
-          "...to the way that certain policies [harm] our neighbors and we and we...",
-          "...because god is omnipotent nothing can [harm] him or even threaten him and..."
-        ]
-      },
-      "deconstruction": {
-        "text": "Deconstruction uses \"harm\" similarly to describe negative impacts on individuals and society, often in a critical context.",
-        "quotes": [
-          "...miscommunication and and things that will [harm] people there is no mistranslation or...",
-          "...with a person could result in [harm] whether i'm ridiculing somebody giving them..."
-        ]
-      },
-      "apol": 236,
-      "decon": 2945,
-      "keyness": 4.18271425738289,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0013230663385462146,
-        "q": 0.02334822950375673,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "anymore",
-      "verdict": "convergent",
-      "apologetics": {
-        "text": "...much that it doesn't move us [anymore] like did you know that the...",
-        "quotes": [
-          "...much that it doesn't move us [anymore] like did you know that the..."
-        ]
-      },
-      "deconstruction": {
-        "text": "...uh not add to the list [anymore] and um so you won't appear...",
-        "quotes": [
-          "...uh not add to the list [anymore] and um so you won't appear..."
-        ]
-      },
-      "apol": 239,
-      "decon": 1610,
-      "keyness": 4.174448804450806,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0018787542007356248,
-        "q": 0.026403802147509238,
+        "p": 0.00033076658463655366,
+        "q": 0.014112707611159622,
         "corrected": true,
         "max_q": 0.05,
         "assignments": 75582,

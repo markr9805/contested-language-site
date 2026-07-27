@@ -1,37 +1,37 @@
 {
  "lines": {
-  "20852": {
-   "context": "But then I saw the movie Charmed, and they were all good looking. Not the movie, but the show Charmed, and they were all good looking. So I said, uh, they're not Satanists. They're too hot to be Satanists. You know. It's oh sent people to jail on conspiracy theories. Zero evidence of anything ever actually happening. My Christian family was really on me. That's that's bad, man. I hate that. I hate that. The pyramids conspira. Oh, I've oh no, and I I I bought into those for a while because y'all know I went through my black nationalist pan-Africanist phase.",
+  "10950": {
+   "context": "Sociologically, time use surveys show that societies allowing individuals to self-direct their schedules report markedly higher life satisfaction and productivity. Clear evidence that owning your priorities matters. Psychologically, Locke and Latham's goal setting theory reveals that when you clearly define and own your priorities, you amplify focus, motivation, and well-being, turning fuzzy wishes into actionable plans.",
    "creator": "darante-lamar",
-   "occurrence_id": 20852,
-   "published_at": "2026-04-18T07:53:31Z",
+   "occurrence_id": 10950,
+   "published_at": "2025-06-18T19:22:33Z",
    "role": "host",
    "surface": "evidence",
-   "t": 1299.92,
-   "title": "A Short Conversation on Conspiracy Theories",
-   "video_id": "JxkbG7tLw_E"
+   "t": 1015.08,
+   "title": "How Losing God Saved My Life: A Deconstruction of Damaging Scriptures",
+   "video_id": "9Y0vt3wAp8c"
   },
-  "4607": {
-   "context": "So I'll link that in the description below. But they do it because it's effective. Now anyone who criticizes is not criticizing that personal celebrity, they're criticizing God. Then these people don't have to actually engage with the claims or the evidence or the responsibility, just the divine verdict that they've already reached. Furthermore, anyone who questions them isn't just wrong. They're wicked. Like it really is pretty foolproof, but only because of the naivety or the weakness of believers, which again, I would just continue to plea that your voice matters more than mine here.",
-   "creator": "mindshift",
-   "occurrence_id": 4607,
-   "published_at": "2026-02-03T15:00:10Z",
-   "role": "unattributed",
-   "surface": "evidence",
-   "t": 373.08,
-   "title": "When Religion Becomes a Permission Slip | 5 Examples",
-   "video_id": "3Im9dW7LYMA"
-  },
-  "930": {
-   "context": "Uh at the time I was very young and I didn't realize the law and my rights. When I entered the teenage years, I even called the police a couple of times and I went to social services. But since by then evidence of the sexual abuse was over and the teacher was gone from my life, there was no action taken against my parents, and I wasn't removed from the home. Had I complained earlier on when the abuse was ongoing, the police would have taken it much more seriously.",
+  "28683": {
+   "context": "Um I I I don't don't quote me on that. I'll get to that in a future video. But Allah never gave him a heads up before he died that he was being poisoned. Maybe that's part of Allah's plan. Um but none of this is meant to say this is empirical evidence that Islam is not true, because none of this was used to prove it to begin with, and nothing could ever prove it really, based on what we heard so far. Um this is just to get you to think, wow, this obviously sounds like someone making it up or you know, stories that are myth m mythological in nature that aren't actually real.",
    "creator": "apostate-aladdin",
-   "occurrence_id": 930,
-   "published_at": "2025-01-30T01:35:22Z",
+   "occurrence_id": 28683,
+   "published_at": "2025-02-05T22:22:43Z",
    "role": "host",
    "surface": "evidence",
-   "t": 204.52,
-   "title": "Why do you believe in Islam?",
-   "video_id": "00pzS5swYwQ"
+   "t": 5080.4,
+   "title": "Confusing Hadiths that Muslims avoid",
+   "video_id": "RXeuUe2jPPU"
+  },
+  "7419": {
+   "context": "I don't believe in your God. I used to believe in God, but I no longer do. And quite often people will ask me why I don't believe in God. And I don't always give the same answers because there isn't just one answer. I could say that I don't see the Bible lining up with reality, or that Christians are supposed to have the evidence of the fruit of the spirit, but I rarely saw that evidence. I could say that I've had way too many unanswered prayers. I could talk about how the problem of evil makes a good God who is also all powerful impossible in this world we currently live in.",
+   "creator": "belief-it-or-not",
+   "occurrence_id": 7419,
+   "published_at": "2025-05-12T15:00:19Z",
+   "role": "host",
+   "surface": "evidence",
+   "t": 39.44,
+   "title": "Why People Reject Evidence for God | Belief It Or Not",
+   "video_id": "60orumntRcs"
   }
  },
  "profiles": [
@@ -42,14 +42,13 @@
     {
      "aspect": "function",
      "evidence": [
-      20852
+      7419
      ],
-     "text": "It functions as a critical tool for distinguishing between reasoned belief and faith that is detached from empirical support or verifiable proof (L1, L5)."
+     "text": "The term 'evidence' is used to establish a standard of proof against which religious claims, such as those concerning Jesus' existence and supernatural attributes, are measured (L2, L3)."
     }
    ],
    "composition": {
-    "apostate-aladdin": 1,
-    "darante-lamar": 1
+    "belief-it-or-not": 1
    },
    "data_hash": "2694ee72fb407558cdce2ddb",
    "dropped_claims": 0,
@@ -82,45 +81,142 @@
   },
   {
    "aspects_missing": [],
-   "cell": "creator=mindshift",
+   "cell": "creator=darante-lamar",
+   "claims": [
+    {
+     "aspect": "rhetorical-role",
+     "evidence": [
+      28683
+     ],
+     "text": "The speaker uses 'evidence' repeatedly to contrast objective reality with subjective emotional states or tradition (L5, L16). It is employed rhetorically to define a standard of belief that must supersede emotion and convenience (L5, L16)."
+    }
+   ],
+   "composition": {
+    "apostate-aladdin": 1,
+    "darante-lamar": 1
+   },
+   "data_hash": "69040435637bf6ff4e1085f4",
+   "dropped_claims": 0,
+   "generated_at": "2026-07-19T14:30:22Z",
+   "k": 2,
+   "model": "ollama:gemma4:e4b:c6eb396dbd59",
+   "n": 816,
+   "prompt_version": "1",
+   "sampled": [
+    10952,
+    10953,
+    260,
+    261,
+    11605,
+    11606,
+    10933,
+    10950,
+    2885,
+    28643,
+    9995,
+    21454,
+    28260,
+    30613,
+    32400,
+    28683
+   ],
+   "sense": 1,
+   "stale": true,
+   "term": "evidence"
+  },
+  {
+   "aspects_missing": [],
+   "cell": "overall",
    "claims": [
     {
      "aspect": "function",
      "evidence": [
-      4607
+      7419
      ],
-     "text": "The term 'evidence' is used as a comprehensive category of data points—such as contradictions or failed prophecies—that must be examined to reach a conclusion about a belief system (L1, L5)."
+     "text": "The term 'evidence' functions as a necessary standard for evaluating supernatural or religious claims, requiring verifiable proof."
     }
    ],
    "composition": {
-    "mindshift": 1
+    "belief-it-or-not": 1
    },
-   "data_hash": "bd7aad5601bddcc476fb2f08",
+   "data_hash": "ea40597fe300df9432c3e44a",
    "dropped_claims": 0,
-   "generated_at": "2026-07-19T14:30:50Z",
+   "generated_at": "2026-07-19T14:31:15Z",
    "k": 2,
    "model": "ollama:gemma4:e4b:c6eb396dbd59",
-   "n": 20,
+   "n": 1088,
    "prompt_version": "1",
    "sampled": [
     4608,
-    4606,
-    24143,
-    4610,
-    4607,
-    4621,
-    4622,
-    4620,
-    24145,
-    4601,
-    4602,
-    4603,
-    4609,
-    4611,
-    4612,
-    4613
+    20852,
+    22549,
+    7419,
+    6611,
+    31578,
+    16740,
+    6612,
+    17147,
+    34889,
+    2165,
+    3235,
+    28286,
+    55,
+    31023,
+    22995
    ],
    "sense": 0,
+   "stale": true,
+   "term": "evidence"
+  },
+  {
+   "aspects_missing": [],
+   "cell": "overall",
+   "claims": [
+    {
+     "aspect": "function",
+     "evidence": [
+      10950
+     ],
+     "text": "The term 'evidence' is used as a standard against which beliefs and worldviews are measured for intellectual integrity (L13). It also functions as a necessary component for critical thinking, allowing individuals to revise their understanding when new information becomes available (L2, L8)."
+    },
+    {
+     "aspect": "rhetorical-role",
+     "evidence": [
+      28683
+     ],
+     "text": "The speaker uses 'evidence' rhetorically to distinguish between genuine knowledge and unverified claims (L9, L16). It is also employed to define a healthy approach to belief, emphasizing that it must guide action rather than being ignored in favor of emotion or tradition (L5, L6)."
+    }
+   ],
+   "composition": {
+    "apostate-aladdin": 1,
+    "darante-lamar": 1
+   },
+   "data_hash": "35353ab32030581e9f78e936",
+   "dropped_claims": 0,
+   "generated_at": "2026-07-19T14:31:39Z",
+   "k": 2,
+   "model": "ollama:gemma4:e4b:c6eb396dbd59",
+   "n": 822,
+   "prompt_version": "1",
+   "sampled": [
+    10952,
+    10953,
+    260,
+    261,
+    11605,
+    11606,
+    10933,
+    10950,
+    2885,
+    28643,
+    9995,
+    21454,
+    28260,
+    30613,
+    32400,
+    28683
+   ],
+   "sense": 1,
    "stale": true,
    "term": "evidence"
   }

@@ -1,6 +1,31 @@
 {
  "book": "Ezekiel",
  "verses": {
+  "Ezekiel 11:5": {
+   "citations": [
+    {
+     "confidence": 0.7855,
+     "context": "Um the Lord told me that uh I will show up at one of those events. Yes, yeah. And then yeah. Shaba. So yeah. So this is gonna be awesome. Thus, thus saith the Lord. Thus saith the Lord. He hadn't said where yet. I'm gonna be one of those. I love this. See, this is this is what the fuck I love about our community, man. Like, this is oh my goodness.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-02-03T02:10:27Z",
+     "role": "host",
+     "t": 3070.92,
+     "title": "How Do You Love Without God // The X-Pastor Call-In Show 2.2",
+     "video_id": "2eDzf_GxHiY"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And the Spirit of the LORD fell upon me, and said unto me, Speak; Thus saith the LORD; Thus have ye said, O house of Israel: for I know the things that come into your mind, every one of them.",
+    "WEB": "The LORD’s Spirit fell on me, and he said to me, “Speak, ‘The LORD says: “Thus you have said, house of Israel; for I know the things that come into your mind."
+   },
+   "truncated": false
+  },
   "Ezekiel 14:9": {
    "citations": [
     {
@@ -14,6 +39,18 @@
      "t": 780.92,
      "title": "God’s Favorite Weapon Is Confusion",
      "video_id": "1mQN3dAT0KA"
+    },
+    {
+     "confidence": null,
+     "context": "And these shifting standards are another common trope for the trickster god. A little narcissistic tendency of trickster gods is they like to control the narrative, even if it's bad. In Ezekiel 14:9, we hear that if a prophet has made a false prophecy, it is the Lord who has purposely deceived the prophet. And God takes credit for deceiving the prophet, which by the way, the penalty for those false prophets is death. Again, God causing unfair consequence for the lower lowly human beings because he can.",
+     "creator": "mindshift",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-04-01T14:00:04Z",
+     "role": "host",
+     "t": 907.44,
+     "title": "Is Yahweh a Trickster God? | 16 “Holy Pranks”!",
+     "video_id": "4YBagWg25AQ"
     },
     {
      "confidence": 0.5833,
@@ -30,12 +67,62 @@
    ],
    "creators": {
     "belief-it-or-not": 1,
-    "mindshift": 1
+    "mindshift": 2
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "And if the prophet be deceived when he hath spoken a thing, I the LORD have deceived that prophet, and I will stretch out my hand upon him, and will destroy him from the midst of my people Israel.",
     "WEB": "“‘“If the prophet is deceived and speaks a word, I, the LORD, have deceived that prophet, and I will stretch out my hand on him, and will destroy him from among my people Israel."
+   },
+   "truncated": false
+  },
+  "Ezekiel 18:2": {
+   "citations": [
+    {
+     "confidence": 0.8401,
+     "context": "As both Jeremiah and Ezekiel emphasize, each person is responsible for his own sin. Ezekiel will say, why do you quote this proverb that the fathers have eaten sour grapes and the children's teeth are set on edge? The soul that sins shall die. Ezekiel 18, 2 to 4.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-06-07T16:05:05Z",
+     "role": "host",
+     "t": 320.4,
+     "title": "Doctrine of the Church pt 7: Believer's Baptism || Defenders LIVE!",
+     "video_id": "1vdZQkGY288"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "What mean ye, that ye use this proverb concerning the land of Israel, saying, The fathers have eaten sour grapes, and the children's teeth are set on edge?",
+    "WEB": "“What do you mean, that you use this proverb concerning the land of Israel, saying, ‘The fathers have eaten sour grapes, and the children’s teeth are set on edge’?"
+   },
+   "truncated": false
+  },
+  "Ezekiel 18:31": {
+   "citations": [
+    {
+     "confidence": 0.7738,
+     "context": "That heart posture is a little bit perplexing to me. If the heart is wicked, how can it also then choose to because Jesus or the the uh the other part in Jeremiah, I'm trying to think of where it is, maybe Jeremiah 31. I'm gonna give you a new heart. Sure, and I think that's where I struggle when I talk to other non-believers. It's like, okay, I I believe this, but it's been given to me, it's a gift. But when when is it their part to actually play in that journey to say, God's given me that new heart? Now I'm gonna profess because I have that new heart.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-02-26T23:00:05Z",
+     "role": "host",
+     "t": 4333.4,
+     "title": "Frank Turek Challenged by Science Students at MTU - FULL Q&A",
+     "video_id": "2qYt2DtPE9Q"
+    }
+   ],
+   "creators": {
+    "cross-examined": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Cast away from you all your transgressions, whereby ye have transgressed; and make you a new heart and a new spirit: for why will ye die, O house of Israel?",
+    "WEB": "Cast away from you all your transgressions in which you have transgressed; and make yourself a new heart and a new spirit. For why will you die, house of Israel?"
    },
    "truncated": false
   },
@@ -61,6 +148,31 @@
    "text": {
     "KJV": "Behold, all souls are mine; as the soul of the father, so also the soul of the son is mine: the soul that sinneth, it shall die.",
     "WEB": "Behold, all souls are mine; as the soul of the father, so also the soul of the son is mine. The soul who sins, he shall die."
+   },
+   "truncated": false
+  },
+  "Ezekiel 20:12": {
+   "citations": [
+    {
+     "confidence": 0.8475,
+     "context": "But a few chapters later, we get this beauty, Ezekiel 20, 25 through 26. Moreover, I gave them statutes that were not good and ordinances by which they could not live. I defiled them through their very gifts, in their offering up all their firstborn, in order that I might horrify them, so that they might know that I am the Lord. Go read this stuff for yourself. I don't have to make things up.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-07-05T14:00:16Z",
+     "role": "host",
+     "t": 814.2,
+     "title": "God’s Favorite Weapon Is Confusion",
+     "video_id": "1mQN3dAT0KA"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Moreover also I gave them my sabbaths, to be a sign between me and them, that they might know that I am the LORD that sanctify them.",
+    "WEB": "Moreover also I gave them my Sabbaths, to be a sign between me and them, that they might know that I am the LORD who sanctifies them."
    },
    "truncated": false
   },
@@ -139,6 +251,56 @@
    },
    "truncated": false
   },
+  "Ezekiel 20:26": {
+   "citations": [
+    {
+     "confidence": 0.8809,
+     "context": "But a few chapters later, we get this beauty, Ezekiel 20, 25 through 26. Moreover, I gave them statutes that were not good and ordinances by which they could not live. I defiled them through their very gifts, in their offering up all their firstborn, in order that I might horrify them, so that they might know that I am the Lord. Go read this stuff for yourself. I don't have to make things up.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-07-05T14:00:16Z",
+     "role": "host",
+     "t": 814.2,
+     "title": "God’s Favorite Weapon Is Confusion",
+     "video_id": "1mQN3dAT0KA"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And I polluted them in their own gifts, in that they caused to pass through the fire all that openeth the womb, that I might make them desolate, to the end that they might know that I am the LORD.",
+    "WEB": "I polluted them in their own gifts, in that they caused all that opens the womb to pass through the fire, that I might make them desolate, to the end that they might know that I am the LORD.”’"
+   },
+   "truncated": false
+  },
+  "Ezekiel 23:26": {
+   "citations": [
+    {
+     "confidence": 0.5455,
+     "context": "I will direct my jealous anger against you, and they will deal with you in fury. They will cut off your nose and your ears, and those of you who are left will fall by the sword, they will take away your sons and daughters, and those of you who are left will be consumed by fire. They will also strip you of your clothes, and I am about to deliver you into the hands of those you hate, to those you turned away from in disgust. They will deal with you in their hatred and take away everything you have worked for. They will leave you stark naked, and the shame of your prostitution will be exposed.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-08-10T14:00:29Z",
+     "role": "unattributed",
+     "t": 2617.52,
+     "title": "God vs. Satan: No Enemy But God! | Part 1",
+     "video_id": "Sr6le1VWN-E"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "They shall also strip thee out of thy clothes, and take away thy fair jewels.",
+    "WEB": "They will also strip you of your clothes and take away your beautiful jewels."
+   },
+   "truncated": false
+  },
   "Ezekiel 26:4": {
    "citations": [
     {
@@ -177,15 +339,53 @@
      "t": 904.24,
      "title": "How Christians Invent the Devil",
      "video_id": "7axTLdO-eWk"
+    },
+    {
+     "confidence": 0.5625,
+     "context": "Let's read this one together. Ezekiel 28, 12 through 17. You were the signet of perfection, full of wisdom and perfect in beauty. You were in Eden, the garden of God. You were blameless in your ways from the day that you were created until iniquity was found in you. I cast you to the ground. Now you can see, and for good reason, why many Christians upon a basic plain reading will say, Oh, you were there in Eden.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-08-10T14:00:29Z",
+     "role": "unattributed",
+     "t": 2428.84,
+     "title": "God vs. Satan: No Enemy But God! | Part 1",
+     "video_id": "Sr6le1VWN-E"
     }
    ],
    "creators": {
+    "mindshift": 1,
     "prophet-of-zod": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Thou wast perfect in thy ways from the day that thou wast created, till iniquity was found in thee.",
     "WEB": "You were perfect in your ways from the day that you were created, until unrighteousness was found in you."
+   },
+   "truncated": false
+  },
+  "Ezekiel 28:2": {
+   "citations": [
+    {
+     "confidence": 0.7439,
+     "context": "So now I'm about to float off and die and I done killed myself. So success was terrifying uh uh for me. But why do you what what what is your sneaky suspicion as to why is it so hard for what do you think the biggest barrier for people making that decision is say, you know what? I'm gonna go in and I'm gonna sit in the seat of my own life. Yeah, and and it is it is it is it is it afraid of treating yourself like a god, do you think? Because just hearing myself say it like that, it's oh damn, that came off a look godly, didn't it? Well, no, you're the you're the guy, you're the lord of your own life, you're the god of your own life.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-06-01T19:21:46Z",
+     "role": "host",
+     "t": 5464.2,
+     "title": "How We Change The World with X-Pastors Kyle Butler & Derrick Day // Sunday Sessions",
+     "video_id": "2A0rYiND9zY"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Son of man, say unto the prince of Tyrus, Thus saith the Lord GOD; Because thine heart is lifted up, and thou hast said, I am a God, I sit in the seat of God, in the midst of the seas; yet thou art a man, and not God, though thou set thine heart as the heart of God:",
+    "WEB": "“Son of man, tell the prince of Tyre, ‘The Lord GOD says: “Because your heart is lifted up, and you have said, ‘I am a god, I sit in the seat of God, in the middle of the seas;’ yet you are man, and no god, though you set your heart as the heart of a god—"
    },
    "truncated": false
   },
@@ -261,6 +461,31 @@
    "text": {
     "KJV": "Afterward he measured a thousand; and it was a river that I could not pass over: for the waters were risen, waters to swim in, a river that could not be passed over.",
     "WEB": "Afterward he measured one thousand; and it was a river that I could not pass through, for the waters had risen, waters to swim in, a river that could not be walked through."
+   },
+   "truncated": false
+  },
+  "Ezekiel 4:6": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "5. The Antichrist rules for 42 prophetic months. He was given authority to continue for 42 months. In Bible prophecy, one prophetic day equals one literal year. We see this principle in Numbers 1434 and also Ezekiel 4:6, which says, I have appointed thee each day for a year. Oh no, no, no, no, no. Nice try. These verses do not mean that a day in prophecy represents a year in real time.",
+     "creator": "prophet-of-zod",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2020-01-23T18:30:11Z",
+     "role": "unknown",
+     "t": 1017.48,
+     "title": "10 Highly Questionable Ways to Spot the Antichrist",
+     "video_id": "l8DQqbrvVaA"
+    }
+   ],
+   "creators": {
+    "prophet-of-zod": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And when thou hast accomplished them, lie again on thy right side, and thou shalt bear the iniquity of the house of Judah forty days: I have appointed thee each day for a year.",
+    "WEB": "“Again, when you have accomplished these, you shall lie on your right side, and shall bear the iniquity of the house of Judah. I have appointed forty days, each day for a year, to you."
    },
    "truncated": false
   },

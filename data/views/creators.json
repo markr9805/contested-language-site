@@ -4,7 +4,7 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9852
+     "weight": 0.9843
     },
     "apologetics-critique": {
      "source": "seed",
@@ -12,7 +12,7 @@
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.9605
+     "weight": 0.9594
     }
    },
    "contact_facing": "dialogue-facing",
@@ -23,15 +23,15 @@
    "organic": {
     "status": "ok",
     "xy": [
-     0.0218,
-     0.0184
+     0.024,
+     0.0206
     ]
    },
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": -0.0127,
-    "y": 0.0184
+    "x": -0.0128,
+    "y": 0.0206
    },
    "pole": null,
    "videos": 99,
@@ -41,11 +41,11 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9758
+     "weight": 0.9726
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.9138
+     "weight": 0.9156
     }
    },
    "contact_facing": null,
@@ -57,14 +57,14 @@
     "status": "ok",
     "xy": [
      -0.0226,
-     -0.0327
+     -0.0301
     ]
    },
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": -0.0328,
-    "y": -0.0327
+    "x": -0.0302,
+    "y": -0.0301
    },
    "pole": null,
    "videos": 88,
@@ -74,11 +74,11 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9447
+     "weight": 0.9438
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.8994
+     "weight": 0.8996
     }
    },
    "contact_facing": "internal-facing",
@@ -89,15 +89,15 @@
    "organic": {
     "status": "ok",
     "xy": [
-     -0.0519,
-     -0.0971
+     -0.046,
+     -0.0949
     ]
    },
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": -0.0246,
-    "y": -0.0971
+    "x": -0.024,
+    "y": -0.0949
    },
    "pole": null,
    "videos": 175,
@@ -107,11 +107,11 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9559
+     "weight": 0.9503
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.7976
+     "weight": 0.7956
     }
    },
    "contact_facing": "dialogue-facing",
@@ -122,15 +122,15 @@
    "organic": {
     "status": "ok",
     "xy": [
-     -0.1433,
-     -0.0184
+     -0.1405,
+     -0.0103
     ]
    },
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": -0.0903,
-    "y": -0.0184
+    "x": -0.0886,
+    "y": -0.0103
    },
    "pole": null,
    "videos": 61,
@@ -140,34 +140,34 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9456
+     "weight": 0.9471
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.8338
+     "weight": 0.8501
     }
    },
    "contact_facing": "dialogue-facing",
    "corpus_status": "ok",
    "display_name": "The Counsel of Trent",
    "is_anchor": false,
-   "occurrences": 1321,
+   "occurrences": 1433,
    "organic": {
     "status": "ok",
     "xy": [
-     -0.0856,
-     0.0625
+     -0.0903,
+     0.0459
     ]
    },
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": -0.0628,
-    "y": 0.0625
+    "x": -0.054,
+    "y": 0.0459
    },
    "pole": null,
-   "videos": 375,
-   "words": 547013
+   "videos": 425,
+   "words": 629113
   },
   "cross-examined": {
    "affinities": {
@@ -180,12 +180,12 @@
    "corpus_status": "ok",
    "display_name": "Cross Examined",
    "is_anchor": true,
-   "occurrences": 3790,
+   "occurrences": 4012,
    "organic": {
     "status": "ok",
     "xy": [
-     0.0114,
-     0.0356
+     0.0178,
+     0.0416
     ]
    },
    "polar": {
@@ -195,8 +195,8 @@
     "y": 0.0
    },
    "pole": "apologetics",
-   "videos": 380,
-   "words": 960082
+   "videos": 430,
+   "words": 1064279
   },
   "darante-lamar": {
    "affinities": {
@@ -213,8 +213,8 @@
    "organic": {
     "status": "ok",
     "xy": [
-     0.1167,
-     0.0263
+     0.1159,
+     0.0199
     ]
    },
    "polar": {
@@ -231,40 +231,40 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9436
+     "weight": 0.9381
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.7666
+     "weight": 0.7614
     }
    },
    "contact_facing": "dialogue-facing",
    "corpus_status": "ok",
    "display_name": "drcraigvideos (William Lane Craig)",
    "is_anchor": false,
-   "occurrences": 1283,
+   "occurrences": 1344,
    "organic": {
     "status": "ok",
     "xy": [
-     -0.1336,
-     0.0442
+     -0.133,
+     0.0543
     ]
    },
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": -0.1035,
-    "y": 0.0442
+    "x": -0.104,
+    "y": 0.0543
    },
    "pole": null,
-   "videos": 1261,
-   "words": 357451
+   "videos": 1336,
+   "words": 389521
   },
   "genetically-modified-skeptic": {
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9813
+     "weight": 0.9781
     },
     "apologetics-critique": {
      "source": "seed",
@@ -272,7 +272,7 @@
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.9515
+     "weight": 0.952
     }
    },
    "contact_facing": "internal-facing",
@@ -284,14 +284,14 @@
     "status": "ok",
     "xy": [
      0.0042,
-     -0.0178
+     -0.0203
     ]
    },
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": -0.0154,
-    "y": -0.0178
+    "x": -0.0135,
+    "y": -0.0203
    },
    "pole": null,
    "videos": 100,
@@ -301,11 +301,11 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.944
+     "weight": 0.9409
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.8437
+     "weight": 0.8434
     }
    },
    "contact_facing": "internal-facing",
@@ -316,15 +316,15 @@
    "organic": {
     "status": "ok",
     "xy": [
-     -0.0742,
-     -0.0195
+     -0.0728,
+     -0.0158
     ]
    },
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": -0.0561,
-    "y": -0.0195
+    "x": -0.0546,
+    "y": -0.0158
    },
    "pole": null,
    "videos": 137,
@@ -334,11 +334,11 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9747
+     "weight": 0.9736
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.9133
+     "weight": 0.9129
     }
    },
    "contact_facing": "internal-facing",
@@ -349,15 +349,15 @@
    "organic": {
     "status": "ok",
     "xy": [
-     -0.0145,
-     0.0322
+     -0.0109,
+     0.0382
     ]
    },
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": -0.0325,
-    "y": 0.0322
+    "x": -0.0322,
+    "y": 0.0382
    },
    "pole": null,
    "videos": 243,
@@ -367,7 +367,7 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.7967
+     "weight": 0.7921
     },
     "apologetics-critique": {
      "source": "seed",
@@ -375,40 +375,40 @@
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.8725
+     "weight": 0.8717
     }
    },
    "contact_facing": "dialogue-facing",
    "corpus_status": "ok",
    "display_name": "lil bill",
    "is_anchor": false,
-   "occurrences": 690,
+   "occurrences": 752,
    "organic": {
     "status": "ok",
     "xy": [
-     0.1859,
-     -0.1263
+     0.1865,
+     -0.1281
     ]
    },
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": 0.0454,
-    "y": -0.1263
+    "x": 0.0478,
+    "y": -0.1281
    },
    "pole": null,
-   "videos": 53,
-   "words": 486087
+   "videos": 65,
+   "words": 535780
   },
   "marc-coley": {
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.6648
+     "weight": 0.6772
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.8544
+     "weight": 0.8557
     }
    },
    "contact_facing": null,
@@ -419,15 +419,15 @@
    "organic": {
     "status": "ok",
     "xy": [
-     0.412,
-     0.0531
+     0.4177,
+     0.0529
     ]
    },
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": 0.1248,
-    "y": 0.0531
+    "x": 0.1164,
+    "y": 0.0529
    },
    "pole": null,
    "videos": 55,
@@ -437,40 +437,40 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9222
+     "weight": 0.9298
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.8498
+     "weight": 0.8517
     }
    },
    "contact_facing": "internal-facing",
    "corpus_status": "ok",
    "display_name": "Mike Winger",
    "is_anchor": false,
-   "occurrences": 1499,
+   "occurrences": 1638,
    "organic": {
     "status": "ok",
     "xy": [
-     -0.029,
-     -0.0399
+     -0.0336,
+     -0.0346
     ]
    },
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": -0.0409,
-    "y": -0.0399
+    "x": -0.0438,
+    "y": -0.0346
    },
    "pole": null,
-   "videos": 94,
-   "words": 552768
+   "videos": 119,
+   "words": 603770
   },
   "mindshift": {
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9694
+     "weight": 0.9761
     },
     "apologetics-critique": {
      "source": "seed",
@@ -478,36 +478,36 @@
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.8917
+     "weight": 0.903
     }
    },
    "contact_facing": "dialogue-facing",
    "corpus_status": "ok",
    "display_name": "Mindshift (Brandon)",
    "is_anchor": false,
-   "occurrences": 2142,
+   "occurrences": 3693,
    "organic": {
     "status": "ok",
     "xy": [
-     -0.1099,
-     -0.007
+     -0.083,
+     0.0103
     ]
    },
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": -0.0417,
-    "y": -0.007
+    "x": -0.0389,
+    "y": 0.0103
    },
    "pole": null,
-   "videos": 152,
-   "words": 520215
+   "videos": 241,
+   "words": 1070176
   },
   "paulogia": {
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9684
+     "weight": 0.9637
     },
     "apologetics-critique": {
      "source": "seed",
@@ -515,7 +515,7 @@
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.8729
+     "weight": 0.8667
     }
    },
    "contact_facing": "dialogue-facing",
@@ -526,15 +526,15 @@
    "organic": {
     "status": "ok",
     "xy": [
-     -0.0477,
-     0.039
+     -0.0493,
+     0.0425
     ]
    },
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": -0.0519,
-    "y": 0.039
+    "x": -0.053,
+    "y": 0.0425
    },
    "pole": null,
    "videos": 75,
@@ -544,7 +544,7 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9869
+     "weight": 0.9593
     },
     "apologetics-critique": {
      "source": "seed",
@@ -552,40 +552,40 @@
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.8857
+     "weight": 0.8842
     }
    },
    "contact_facing": "dialogue-facing",
    "corpus_status": "ok",
    "display_name": "Prophet of Zod",
    "is_anchor": false,
-   "occurrences": 1043,
+   "occurrences": 1214,
    "organic": {
     "status": "ok",
     "xy": [
-     -0.0781,
-     0.0045
+     -0.1243,
+     -0.0342
     ]
    },
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": -0.054,
-    "y": 0.0045
+    "x": -0.0407,
+    "y": -0.0342
    },
    "pole": null,
-   "videos": 100,
-   "words": 510502
+   "videos": 125,
+   "words": 590240
   },
   "reasonable-faith-org": {
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9392
+     "weight": 0.9357
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.8486
+     "weight": 0.8456
     }
    },
    "contact_facing": "dialogue-facing",
@@ -596,15 +596,15 @@
    "organic": {
     "status": "ok",
     "xy": [
-     -0.0396,
-     0.0287
+     -0.0385,
+     0.0285
     ]
    },
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": -0.0507,
-    "y": 0.0287
+    "x": -0.0506,
+    "y": 0.0285
    },
    "pole": null,
    "videos": 148,
@@ -614,7 +614,7 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9505
+     "weight": 0.9474
     },
     "apologetics-critique": {
      "source": "seed",
@@ -622,7 +622,7 @@
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.9541
+     "weight": 0.9514
     }
    },
    "contact_facing": "dialogue-facing",
@@ -633,15 +633,15 @@
    "organic": {
     "status": "ok",
     "xy": [
-     0.078,
-     0.0142
+     0.0786,
+     0.0138
     ]
    },
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": 0.0019,
-    "y": 0.0142
+    "x": 0.0021,
+    "y": 0.0138
    },
    "pole": null,
    "videos": 63,
@@ -650,1861 +650,1882 @@
  },
  "distances": {
   "apostate-aladdin|belief-it-or-not": {
-   "js": 0.0215,
+   "js": 0.0173,
    "terms": {
     "community": 0.0671,
-    "deconstruction": 0.0636,
-    "evidence": 0.0034,
+    "deconstruction": 0.0369,
+    "evidence": 0.0041,
     "grace": 0.002,
-    "harm": 0.0121,
-    "love": 0.0011,
-    "truth": 0.001
+    "harm": 0.0099,
+    "love": 0.0012,
+    "truth": 0.0002
    }
   },
   "apostate-aladdin|britt-hartley": {
-   "js": 0.02,
+   "js": 0.0202,
    "terms": {
-    "community": 0.0337,
-    "deconstruction": 0.0056,
+    "community": 0.0316,
+    "deconstruction": 0.0046,
     "evidence": 0.0412,
     "grace": 0.0134,
-    "harm": 0.0097,
-    "love": 0.0044,
-    "truth": 0.0323
+    "harm": 0.0077,
+    "love": 0.0045,
+    "truth": 0.0387
    }
   },
   "apostate-aladdin|capturing-christianity": {
-   "js": 0.0452,
+   "js": 0.0454,
    "terms": {
     "community": 0.0749,
-    "evidence": 0.0123,
+    "evidence": 0.0117,
     "grace": 0.098,
-    "love": 0.0014,
-    "truth": 0.0393
+    "love": 0.0022,
+    "truth": 0.0401
    }
   },
   "apostate-aladdin|counsel-of-trent": {
-   "js": 0.0727,
+   "js": 0.0649,
    "terms": {
-    "community": 0.0458,
-    "evidence": 0.0645,
-    "grace": 0.2369,
-    "harm": 0.0633,
-    "love": 0.0217,
-    "truth": 0.0043
+    "community": 0.0496,
+    "evidence": 0.0538,
+    "grace": 0.2109,
+    "harm": 0.0593,
+    "love": 0.0125,
+    "truth": 0.0036
    }
   },
   "apostate-aladdin|cross-examined": {
-   "js": 0.0148,
+   "js": 0.0157,
    "terms": {
-    "community": 0.0049,
-    "evidence": 0.0008,
-    "grace": 0.0362,
-    "harm": 0.0003,
-    "love": 0.0162,
-    "truth": 0.0306
+    "community": 0.0021,
+    "evidence": 0.0007,
+    "grace": 0.0331,
+    "harm": 0.0014,
+    "love": 0.0182,
+    "truth": 0.0385
    }
   },
   "apostate-aladdin|darante-lamar": {
-   "js": 0.0395,
+   "js": 0.0406,
    "terms": {
-    "community": 0.1106,
-    "deconstruction": 0.0115,
-    "evidence": 0.0081,
-    "grace": 0.0132,
-    "harm": 0.0172,
-    "love": 0.0776,
-    "truth": 0.0384
+    "community": 0.1112,
+    "deconstruction": 0.0185,
+    "evidence": 0.0082,
+    "grace": 0.0171,
+    "harm": 0.0158,
+    "love": 0.0743,
+    "truth": 0.039
    }
   },
   "apostate-aladdin|drcraigvideos": {
-   "js": 0.1067,
+   "js": 0.108,
    "terms": {
     "community": 0.1231,
-    "evidence": 0.0004,
-    "grace": 0.3048,
-    "love": 0.0993,
-    "truth": 0.0059
+    "evidence": 0.0006,
+    "grace": 0.3083,
+    "love": 0.1033,
+    "truth": 0.0046
    }
   },
   "apostate-aladdin|genetically-modified-skeptic": {
-   "js": 0.01,
+   "js": 0.0087,
    "terms": {
     "community": 0.0157,
-    "evidence": 0.0252,
-    "grace": 0.0022,
-    "harm": 0.0031,
-    "love": 0.0052,
-    "truth": 0.0088
+    "evidence": 0.0224,
+    "grace": 0.0001,
+    "harm": 0.0034,
+    "love": 0.0045,
+    "truth": 0.0061
    }
   },
   "apostate-aladdin|jackie-hill-perry": {
-   "js": 0.0272,
+   "js": 0.0283,
    "terms": {
     "community": 0.0002,
     "evidence": 0.0982,
-    "grace": 0.006,
-    "love": 0.0166,
-    "truth": 0.0151
+    "grace": 0.0079,
+    "love": 0.0177,
+    "truth": 0.0175
    }
   },
   "apostate-aladdin|jude-3-project": {
-   "js": 0.0174,
+   "js": 0.0177,
    "terms": {
-    "community": 0.021,
+    "community": 0.0202,
     "deconstruction": 0.0271,
     "evidence": 0.0388,
     "grace": 0.0077,
-    "harm": 0.0132,
-    "love": 0.0139,
-    "truth": 0.0001
+    "harm": 0.0157,
+    "love": 0.0141,
+    "truth": 0.0002
    }
   },
   "apostate-aladdin|lil-bill": {
-   "js": 0.1874,
+   "js": 0.1904,
    "terms": {
-    "community": 0.0098,
-    "evidence": 0.2083,
-    "grace": 0.197,
-    "harm": 0.3013,
-    "love": 0.0907,
-    "truth": 0.3175
+    "community": 0.0102,
+    "evidence": 0.2201,
+    "grace": 0.1993,
+    "harm": 0.2992,
+    "love": 0.099,
+    "truth": 0.3146
    }
   },
   "apostate-aladdin|marc-coley": {
-   "js": 0.3217,
+   "js": 0.3174,
    "terms": {
     "community": 0.2838,
-    "love": 0.2542,
-    "truth": 0.4271
+    "love": 0.2439,
+    "truth": 0.4246
    }
   },
   "apostate-aladdin|mike-winger": {
-   "js": 0.0223,
+   "js": 0.0215,
    "terms": {
-    "community": 0.0105,
-    "evidence": 0.0963,
-    "grace": 0.0169,
-    "harm": 0.0,
-    "love": 0.0007,
-    "truth": 0.0093
+    "community": 0.0116,
+    "evidence": 0.0859,
+    "grace": 0.0208,
+    "harm": 0.0006,
+    "love": 0.0042,
+    "truth": 0.0059
    }
   },
   "apostate-aladdin|mindshift": {
-   "js": 0.0187,
+   "js": 0.0161,
    "terms": {
-    "community": 0.0097,
-    "deconstruction": 0.0041,
-    "evidence": 0.0145,
-    "grace": 0.0241,
-    "harm": 0.0258,
-    "love": 0.0523,
+    "community": 0.0109,
+    "deconstruction": 0.0008,
+    "evidence": 0.0066,
+    "grace": 0.0201,
+    "harm": 0.0366,
+    "love": 0.0375,
     "truth": 0.0001
    }
   },
   "apostate-aladdin|paulogia": {
-   "js": 0.0492,
+   "js": 0.049,
    "terms": {
     "community": 0.0711,
     "deconstruction": 0.0414,
-    "evidence": 0.0011,
+    "evidence": 0.0008,
     "grace": 0.2167,
-    "harm": 0.0135,
-    "love": 0.0005,
-    "truth": 0.0001
+    "harm": 0.0112,
+    "love": 0.0011,
+    "truth": 0.0004
    }
   },
   "apostate-aladdin|prophet-of-zod": {
-   "js": 0.0263,
+   "js": 0.023,
    "terms": {
-    "community": 0.0418,
-    "deconstruction": 0.0321,
-    "evidence": 0.008,
-    "grace": 0.022,
-    "harm": 0.007,
-    "love": 0.072,
-    "truth": 0.0014
+    "community": 0.0331,
+    "deconstruction": 0.0248,
+    "evidence": 0.0075,
+    "grace": 0.0172,
+    "harm": 0.0061,
+    "love": 0.0719,
+    "truth": 0.0007
    }
   },
   "apostate-aladdin|reasonable-faith-org": {
-   "js": 0.0995,
+   "js": 0.0994,
    "terms": {
     "community": 0.1231,
     "evidence": 0.0165,
     "grace": 0.2838,
-    "harm": 0.0993,
-    "love": 0.0324,
-    "truth": 0.0422
+    "harm": 0.0931,
+    "love": 0.0365,
+    "truth": 0.0432
    }
   },
   "apostate-aladdin|shannon-q": {
-   "js": 0.0458,
+   "js": 0.0461,
    "terms": {
     "community": 0.0032,
     "deconstruction": 0.0094,
-    "evidence": 0.0169,
-    "harm": 0.1325,
-    "love": 0.0231,
-    "truth": 0.0897
+    "evidence": 0.014,
+    "harm": 0.1354,
+    "love": 0.0226,
+    "truth": 0.0919
    }
   },
   "belief-it-or-not|britt-hartley": {
-   "js": 0.0479,
+   "js": 0.0471,
    "terms": {
     "accountability": 0.2857,
-    "community": 0.0067,
-    "deconstruction": 0.0323,
-    "evidence": 0.0211,
+    "community": 0.0077,
+    "deconstruction": 0.0156,
+    "evidence": 0.0195,
     "grace": 0.005,
     "harm": 0.0001,
-    "love": 0.0099,
-    "truth": 0.022
+    "love": 0.0103,
+    "truth": 0.0331
    }
   },
   "belief-it-or-not|capturing-christianity": {
-   "js": 0.0417,
+   "js": 0.0406,
    "terms": {
     "community": 0.0003,
-    "evidence": 0.0285,
+    "evidence": 0.0295,
     "grace": 0.1271,
-    "love": 0.0,
-    "truth": 0.0524
+    "love": 0.0001,
+    "truth": 0.0462
    }
   },
   "belief-it-or-not|counsel-of-trent": {
-   "js": 0.0699,
+   "js": 0.0585,
    "terms": {
-    "community": 0.0025,
-    "evidence": 0.096,
-    "grace": 0.2779,
-    "harm": 0.0204,
-    "love": 0.0132,
-    "truth": 0.0094
+    "accountability": 0.0384,
+    "community": 0.0016,
+    "evidence": 0.0864,
+    "grace": 0.2503,
+    "harm": 0.0211,
+    "love": 0.006,
+    "truth": 0.0056
    }
   },
   "belief-it-or-not|cross-examined": {
-   "js": 0.0242,
+   "js": 0.0274,
    "terms": {
     "accountability": 0.0307,
-    "community": 0.0372,
-    "evidence": 0.0009,
-    "grace": 0.0551,
-    "harm": 0.0159,
-    "love": 0.009,
-    "truth": 0.0206
+    "community": 0.0466,
+    "evidence": 0.0014,
+    "grace": 0.0514,
+    "harm": 0.0187,
+    "love": 0.0101,
+    "truth": 0.0329
    }
   },
   "belief-it-or-not|darante-lamar": {
-   "js": 0.0862,
+   "js": 0.0844,
    "terms": {
-    "accountability": 0.1157,
-    "community": 0.3179,
-    "deconstruction": 0.1257,
-    "evidence": 0.001,
-    "grace": 0.0049,
-    "harm": 0.0005,
-    "love": 0.0964,
-    "truth": 0.0271
+    "accountability": 0.1158,
+    "community": 0.3187,
+    "deconstruction": 0.1051,
+    "evidence": 0.0007,
+    "grace": 0.0074,
+    "harm": 0.0007,
+    "love": 0.0936,
+    "truth": 0.0334
    }
   },
   "belief-it-or-not|drcraigvideos": {
-   "js": 0.0899,
+   "js": 0.0914,
    "terms": {
     "community": 0.0161,
-    "evidence": 0.0014,
-    "grace": 0.3491,
-    "love": 0.0809,
-    "truth": 0.002
+    "evidence": 0.0016,
+    "grace": 0.3527,
+    "love": 0.0838,
+    "truth": 0.0028
    }
   },
   "belief-it-or-not|genetically-modified-skeptic": {
-   "js": 0.0202,
+   "js": 0.0187,
    "terms": {
     "accountability": 0.0849,
     "community": 0.0196,
-    "evidence": 0.0102,
-    "grace": 0.0085,
-    "harm": 0.003,
-    "love": 0.0111,
-    "truth": 0.0038
+    "evidence": 0.0074,
+    "grace": 0.003,
+    "harm": 0.0017,
+    "love": 0.0102,
+    "truth": 0.004
    }
   },
   "belief-it-or-not|jackie-hill-perry": {
-   "js": 0.0486,
+   "js": 0.0493,
    "terms": {
     "community": 0.0738,
-    "evidence": 0.1353,
-    "grace": 0.001,
-    "love": 0.0092,
-    "truth": 0.0239
+    "evidence": 0.1393,
+    "grace": 0.0019,
+    "love": 0.0098,
+    "truth": 0.0216
    }
   },
   "belief-it-or-not|jude-3-project": {
-   "js": 0.0228,
+   "js": 0.0237,
    "terms": {
-    "accountability": 0.0341,
-    "community": 0.0146,
-    "deconstruction": 0.0082,
-    "evidence": 0.0644,
+    "accountability": 0.0465,
+    "community": 0.0152,
+    "deconstruction": 0.0008,
+    "evidence": 0.0673,
     "grace": 0.0018,
     "harm": 0.05,
-    "love": 0.0072,
-    "truth": 0.0018
+    "love": 0.0071,
+    "truth": 0.0008
    }
   },
   "belief-it-or-not|lil-bill": {
-   "js": 0.1583,
+   "js": 0.1647,
    "terms": {
-    "community": 0.0275,
-    "evidence": 0.1615,
-    "grace": 0.1622,
-    "harm": 0.2015,
-    "love": 0.1109,
-    "truth": 0.2862
+    "community": 0.0268,
+    "evidence": 0.1677,
+    "grace": 0.1644,
+    "harm": 0.2086,
+    "love": 0.1209,
+    "truth": 0.2996
    }
   },
   "belief-it-or-not|marc-coley": {
-   "js": 0.4139,
+   "js": 0.4155,
    "terms": {
     "accountability": 0.4225,
     "community": 0.5558,
-    "love": 0.2852,
-    "truth": 0.3923
+    "love": 0.2758,
+    "truth": 0.408
    }
   },
   "belief-it-or-not|mike-winger": {
-   "js": 0.0573,
+   "js": 0.0509,
    "terms": {
-    "accountability": 0.2623,
-    "community": 0.0263,
-    "evidence": 0.0643,
-    "grace": 0.0305,
-    "harm": 0.0136,
-    "love": 0.0,
-    "truth": 0.0042
+    "accountability": 0.2232,
+    "community": 0.0246,
+    "evidence": 0.0531,
+    "grace": 0.0357,
+    "harm": 0.0152,
+    "love": 0.0009,
+    "truth": 0.0038
    }
   },
   "belief-it-or-not|mindshift": {
-   "js": 0.0474,
+   "js": 0.0409,
    "terms": {
-    "accountability": 0.1319,
-    "community": 0.0276,
-    "deconstruction": 0.0362,
-    "evidence": 0.0318,
-    "grace": 0.0401,
-    "harm": 0.0721,
-    "love": 0.0387,
-    "truth": 0.0005
-   }
-  },
-  "belief-it-or-not|paulogia": {
-   "js": 0.0385,
-   "terms": {
-    "community": 0.0001,
-    "deconstruction": 0.0026,
-    "evidence": 0.0084,
-    "grace": 0.2565,
-    "harm": 0.0,
-    "love": 0.0001,
-    "truth": 0.0016
-   }
-  },
-  "belief-it-or-not|prophet-of-zod": {
-   "js": 0.0231,
-   "terms": {
-    "community": 0.0036,
-    "deconstruction": 0.0057,
-    "evidence": 0.0217,
-    "grace": 0.0373,
-    "harm": 0.0371,
-    "love": 0.0561,
+    "accountability": 0.1102,
+    "community": 0.0257,
+    "deconstruction": 0.0269,
+    "evidence": 0.021,
+    "grace": 0.0349,
+    "harm": 0.0831,
+    "love": 0.0255,
     "truth": 0.0
    }
   },
+  "belief-it-or-not|paulogia": {
+   "js": 0.0381,
+   "terms": {
+    "community": 0.0001,
+    "deconstruction": 0.0001,
+    "evidence": 0.0086,
+    "grace": 0.2565,
+    "harm": 0.0,
+    "love": 0.0,
+    "truth": 0.0012
+   }
+  },
+  "belief-it-or-not|prophet-of-zod": {
+   "js": 0.0543,
+   "terms": {
+    "accountability": 0.2857,
+    "community": 0.007,
+    "deconstruction": 0.0012,
+    "evidence": 0.0226,
+    "grace": 0.0309,
+    "harm": 0.0313,
+    "love": 0.0553,
+    "truth": 0.0001
+   }
+  },
   "belief-it-or-not|reasonable-faith-org": {
-   "js": 0.0906,
+   "js": 0.0919,
    "terms": {
     "accountability": 0.191,
     "community": 0.0161,
-    "evidence": 0.0049,
+    "evidence": 0.0042,
     "grace": 0.3272,
     "harm": 0.0431,
-    "love": 0.0217,
-    "truth": 0.0303
+    "love": 0.0247,
+    "truth": 0.0372
    }
   },
   "belief-it-or-not|shannon-q": {
-   "js": 0.0409,
+   "js": 0.041,
    "terms": {
     "community": 0.0425,
-    "deconstruction": 0.0249,
-    "evidence": 0.0052,
-    "harm": 0.0664,
-    "love": 0.0341,
-    "truth": 0.0722
+    "deconstruction": 0.0092,
+    "evidence": 0.0029,
+    "harm": 0.0739,
+    "love": 0.034,
+    "truth": 0.0832
    }
   },
   "britt-hartley|capturing-christianity": {
-   "js": 0.0724,
+   "js": 0.075,
    "terms": {
-    "community": 0.0097,
+    "community": 0.0109,
     "do the work": 0.0,
-    "evidence": 0.0969,
+    "evidence": 0.0953,
     "grace": 0.1793,
-    "love": 0.0109,
-    "truth": 0.1374
+    "love": 0.0129,
+    "truth": 0.1513
    }
   },
   "britt-hartley|counsel-of-trent": {
-   "js": 0.1128,
+   "js": 0.1097,
    "terms": {
-    "community": 0.001,
-    "evidence": 0.1997,
-    "grace": 0.3476,
-    "harm": 0.0239,
-    "love": 0.0453,
-    "truth": 0.0594
+    "accountability": 0.1446,
+    "community": 0.0023,
+    "evidence": 0.1817,
+    "grace": 0.3177,
+    "harm": 0.0245,
+    "love": 0.0318,
+    "truth": 0.0652
    }
   },
   "britt-hartley|cross-examined": {
-   "js": 0.0553,
+   "js": 0.0562,
    "terms": {
     "accountability": 0.2008,
-    "community": 0.0132,
-    "evidence": 0.0308,
-    "grace": 0.0922,
-    "harm": 0.0131,
-    "love": 0.0373,
+    "community": 0.0176,
+    "evidence": 0.0313,
+    "grace": 0.0874,
+    "harm": 0.0157,
+    "love": 0.0405,
     "truth": 0.0
    }
   },
   "britt-hartley|darante-lamar": {
-   "js": 0.1006,
+   "js": 0.1004,
    "terms": {
-    "accountability": 0.1462,
-    "community": 0.2504,
-    "deconstruction": 0.0329,
-    "do the work": 0.4159,
-    "evidence": 0.013,
-    "grace": 0.0,
-    "harm": 0.0011,
-    "love": 0.0456,
-    "truth": 0.0003
+    "accountability": 0.1478,
+    "community": 0.2461,
+    "deconstruction": 0.0413,
+    "do the work": 0.411,
+    "evidence": 0.0128,
+    "grace": 0.0002,
+    "harm": 0.0014,
+    "love": 0.0427,
+    "truth": 0.0
    }
   },
   "britt-hartley|drcraigvideos": {
-   "js": 0.1295,
+   "js": 0.1327,
    "terms": {
-    "community": 0.0382,
-    "evidence": 0.0334,
-    "grace": 0.4234,
-    "love": 0.1418,
-    "truth": 0.0108
+    "community": 0.0402,
+    "evidence": 0.0323,
+    "grace": 0.4272,
+    "love": 0.1471,
+    "truth": 0.0169
    }
   },
   "britt-hartley|genetically-modified-skeptic": {
-   "js": 0.0171,
+   "js": 0.0165,
    "terms": {
     "accountability": 0.0784,
-    "community": 0.0036,
-    "evidence": 0.002,
-    "grace": 0.0263,
-    "harm": 0.0019,
+    "community": 0.0029,
+    "evidence": 0.0029,
+    "grace": 0.0158,
+    "harm": 0.0009,
     "love": 0.0,
-    "truth": 0.0075
+    "truth": 0.0143
    }
   },
   "britt-hartley|jackie-hill-perry": {
-   "js": 0.0698,
+   "js": 0.0723,
    "terms": {
-    "community": 0.0387,
+    "community": 0.0365,
     "do the work": 0.0,
     "evidence": 0.2513,
-    "grace": 0.0015,
-    "love": 0.0378,
-    "truth": 0.0897
+    "grace": 0.0007,
+    "love": 0.0398,
+    "truth": 0.1055
    }
   },
   "britt-hartley|jude-3-project": {
-   "js": 0.0664,
+   "js": 0.067,
    "terms": {
-    "accountability": 0.1988,
-    "community": 0.0016,
-    "deconstruction": 0.0082,
+    "accountability": 0.1953,
+    "community": 0.0013,
+    "deconstruction": 0.0095,
     "do the work": 0.1183,
     "evidence": 0.1547,
     "grace": 0.0008,
     "harm": 0.0451,
-    "love": 0.0337,
-    "truth": 0.0363
+    "love": 0.0343,
+    "truth": 0.044
    }
   },
   "britt-hartley|lil-bill": {
-   "js": 0.1027,
+   "js": 0.1038,
    "terms": {
-    "community": 0.0075,
-    "evidence": 0.0689,
-    "grace": 0.1142,
-    "harm": 0.2112,
-    "love": 0.0559,
-    "truth": 0.1585
+    "community": 0.0061,
+    "evidence": 0.0763,
+    "grace": 0.1161,
+    "harm": 0.2185,
+    "love": 0.0621,
+    "truth": 0.1438
    }
   },
   "britt-hartley|marc-coley": {
-   "js": 0.4776,
+   "js": 0.471,
    "terms": {
     "accountability": 0.7909,
-    "community": 0.4737,
+    "community": 0.4673,
     "do the work": 0.6815,
-    "love": 0.1962,
-    "truth": 0.2458
+    "love": 0.1864,
+    "truth": 0.2288
    }
   },
   "britt-hartley|mike-winger": {
-   "js": 0.1268,
+   "js": 0.1208,
    "terms": {
-    "accountability": 0.7826,
-    "community": 0.0068,
-    "evidence": 0.012,
-    "grace": 0.0597,
-    "harm": 0.011,
-    "love": 0.0086,
-    "truth": 0.007
+    "accountability": 0.7206,
+    "community": 0.0051,
+    "evidence": 0.0085,
+    "grace": 0.0668,
+    "harm": 0.0124,
+    "love": 0.0174,
+    "truth": 0.0146
    }
   },
   "britt-hartley|mindshift": {
-   "js": 0.0577,
+   "js": 0.0506,
    "terms": {
-    "accountability": 0.098,
-    "community": 0.0075,
-    "deconstruction": 0.0001,
-    "evidence": 0.1028,
-    "grace": 0.0726,
-    "harm": 0.0662,
-    "love": 0.0856,
-    "truth": 0.0288
+    "accountability": 0.0734,
+    "community": 0.0056,
+    "deconstruction": 0.0016,
+    "evidence": 0.0797,
+    "grace": 0.0656,
+    "harm": 0.0768,
+    "love": 0.0671,
+    "truth": 0.0351
    }
   },
   "britt-hartley|paulogia": {
-   "js": 0.0641,
+   "js": 0.0662,
    "terms": {
-    "community": 0.0082,
-    "deconstruction": 0.0169,
-    "evidence": 0.0555,
+    "community": 0.0093,
+    "deconstruction": 0.0187,
+    "evidence": 0.0534,
     "grace": 0.3244,
     "harm": 0.0003,
-    "love": 0.0079,
-    "truth": 0.0353
+    "love": 0.0102,
+    "truth": 0.0469
    }
   },
   "britt-hartley|prophet-of-zod": {
-   "js": 0.0468,
+   "js": 0.0398,
    "terms": {
-    "community": 0.0005,
-    "deconstruction": 0.0111,
-    "evidence": 0.0842,
-    "grace": 0.069,
-    "harm": 0.0329,
-    "love": 0.1098,
-    "truth": 0.0204
+    "accountability": 0.0,
+    "community": 0.0,
+    "deconstruction": 0.0081,
+    "evidence": 0.0829,
+    "grace": 0.0603,
+    "harm": 0.0274,
+    "love": 0.1102,
+    "truth": 0.0295
    }
   },
   "britt-hartley|reasonable-faith-org": {
-   "js": 0.094,
+   "js": 0.0951,
    "terms": {
     "accountability": 0.1054,
-    "community": 0.0382,
+    "community": 0.0402,
     "evidence": 0.0057,
     "grace": 0.4003,
     "harm": 0.048,
-    "love": 0.0599,
-    "truth": 0.0007
+    "love": 0.0658,
+    "truth": 0.0001
    }
   },
   "britt-hartley|shannon-q": {
-   "js": 0.0195,
+   "js": 0.0203,
    "terms": {
-    "community": 0.0165,
-    "deconstruction": 0.0005,
-    "evidence": 0.0054,
-    "harm": 0.0723,
-    "love": 0.0074,
-    "truth": 0.0149
+    "community": 0.015,
+    "deconstruction": 0.0008,
+    "evidence": 0.0073,
+    "harm": 0.0802,
+    "love": 0.007,
+    "truth": 0.0118
    }
   },
   "capturing-christianity|counsel-of-trent": {
-   "js": 0.0186,
+   "js": 0.0138,
    "terms": {
-    "community": 0.0045,
-    "evidence": 0.0213,
-    "grace": 0.0371,
-    "love": 0.012,
-    "truth": 0.018
+    "community": 0.0033,
+    "evidence": 0.0158,
+    "grace": 0.0257,
+    "love": 0.0043,
+    "truth": 0.0201
    }
   },
   "capturing-christianity|cross-examined": {
-   "js": 0.0441,
+   "js": 0.0497,
    "terms": {
-    "community": 0.0434,
-    "evidence": 0.0192,
-    "grace": 0.0159,
-    "love": 0.008,
-    "truth": 0.1341
+    "community": 0.0534,
+    "evidence": 0.0182,
+    "grace": 0.018,
+    "love": 0.0079,
+    "truth": 0.1508
    }
   },
   "capturing-christianity|darante-lamar": {
-   "js": 0.2024,
+   "js": 0.2044,
    "terms": {
-    "community": 0.3313,
-    "do the work": 0.4159,
-    "evidence": 0.04,
-    "grace": 0.1786,
-    "love": 0.0994,
-    "truth": 0.149
+    "community": 0.3322,
+    "do the work": 0.411,
+    "evidence": 0.0393,
+    "grace": 0.1916,
+    "love": 0.1008,
+    "truth": 0.1518
    }
   },
   "capturing-christianity|drcraigvideos": {
-   "js": 0.0515,
+   "js": 0.0511,
    "terms": {
     "community": 0.0126,
-    "evidence": 0.0173,
-    "grace": 0.0751,
-    "love": 0.0783,
-    "truth": 0.074
+    "evidence": 0.0174,
+    "grace": 0.0774,
+    "love": 0.0774,
+    "truth": 0.0705
    }
   },
   "capturing-christianity|genetically-modified-skeptic": {
-   "js": 0.0526,
+   "js": 0.0542,
    "terms": {
     "community": 0.0244,
-    "evidence": 0.0718,
-    "grace": 0.0717,
-    "love": 0.0121,
-    "truth": 0.0832
+    "evidence": 0.0657,
+    "grace": 0.0922,
+    "love": 0.0128,
+    "truth": 0.076
    }
   },
   "capturing-christianity|jackie-hill-perry": {
-   "js": 0.0482,
+   "js": 0.0495,
    "terms": {
     "community": 0.0819,
     "do the work": 0.0,
-    "evidence": 0.0432,
-    "grace": 0.1499,
-    "love": 0.0083,
-    "truth": 0.0059
+    "evidence": 0.0443,
+    "grace": 0.1584,
+    "love": 0.0076,
+    "truth": 0.0049
    }
   },
   "capturing-christianity|jude-3-project": {
    "js": 0.0573,
    "terms": {
-    "community": 0.0188,
+    "community": 0.0195,
     "do the work": 0.1183,
-    "evidence": 0.0076,
+    "evidence": 0.0081,
     "grace": 0.1578,
-    "love": 0.0064,
+    "love": 0.0052,
     "truth": 0.0351
    }
   },
   "capturing-christianity|lil-bill": {
-   "js": 0.302,
+   "js": 0.3075,
    "terms": {
-    "community": 0.0329,
-    "evidence": 0.3108,
-    "grace": 0.518,
-    "love": 0.1141,
-    "truth": 0.5341
+    "community": 0.0322,
+    "evidence": 0.322,
+    "grace": 0.5212,
+    "love": 0.129,
+    "truth": 0.5333
    }
   },
   "capturing-christianity|marc-coley": {
-   "js": 0.5512,
+   "js": 0.5505,
    "terms": {
     "community": 0.5716,
     "do the work": 0.6815,
-    "love": 0.2901,
+    "love": 0.2873,
     "truth": 0.6615
    }
   },
   "capturing-christianity|mike-winger": {
-   "js": 0.0649,
+   "js": 0.0585,
    "terms": {
-    "community": 0.0317,
-    "evidence": 0.1731,
-    "grace": 0.0347,
-    "love": 0.0001,
-    "truth": 0.0848
+    "community": 0.0299,
+    "evidence": 0.1574,
+    "grace": 0.0296,
+    "love": 0.0003,
+    "truth": 0.0752
    }
   },
   "capturing-christianity|mindshift": {
-   "js": 0.0278,
+   "js": 0.0256,
    "terms": {
-    "community": 0.0331,
-    "evidence": 0.0001,
-    "grace": 0.0259,
-    "love": 0.0368,
-    "truth": 0.0433
+    "community": 0.031,
+    "evidence": 0.0007,
+    "grace": 0.0304,
+    "love": 0.0219,
+    "truth": 0.044
    }
   },
   "capturing-christianity|paulogia": {
-   "js": 0.0141,
+   "js": 0.0135,
    "terms": {
     "community": 0.0001,
-    "evidence": 0.0061,
+    "evidence": 0.0064,
     "grace": 0.0281,
     "love": 0.0002,
-    "truth": 0.0362
+    "truth": 0.0326
    }
   },
   "capturing-christianity|prophet-of-zod": {
-   "js": 0.0287,
+   "js": 0.0291,
    "terms": {
-    "community": 0.0059,
+    "community": 0.01,
     "evidence": 0.0005,
-    "grace": 0.0282,
-    "love": 0.0539,
-    "truth": 0.0549
+    "grace": 0.0343,
+    "love": 0.05,
+    "truth": 0.0506
    }
   },
   "capturing-christianity|reasonable-faith-org": {
-   "js": 0.0615,
+   "js": 0.0621,
    "terms": {
     "community": 0.0126,
-    "evidence": 0.0566,
+    "evidence": 0.0554,
     "grace": 0.062,
-    "love": 0.0203,
-    "truth": 0.1561
+    "love": 0.0211,
+    "truth": 0.1595
    }
   },
   "capturing-christianity|shannon-q": {
-   "js": 0.0942,
+   "js": 0.0945,
    "terms": {
     "community": 0.049,
-    "evidence": 0.0574,
-    "love": 0.036,
-    "truth": 0.2344
+    "evidence": 0.0508,
+    "love": 0.0385,
+    "truth": 0.2396
    }
   },
   "counsel-of-trent|cross-examined": {
-   "js": 0.0544,
+   "js": 0.0529,
    "terms": {
-    "community": 0.0214,
-    "evidence": 0.0789,
-    "grace": 0.0973,
-    "harm": 0.0715,
-    "love": 0.0004,
-    "truth": 0.0571
+    "accountability": 0.0444,
+    "community": 0.0319,
+    "evidence": 0.0664,
+    "grace": 0.0837,
+    "harm": 0.0783,
+    "love": 0.0005,
+    "truth": 0.0648
    }
   },
   "counsel-of-trent|darante-lamar": {
-   "js": 0.1662,
+   "js": 0.1499,
    "terms": {
-    "community": 0.2772,
-    "evidence": 0.1156,
-    "grace": 0.3467,
-    "harm": 0.0148,
-    "love": 0.1755,
-    "truth": 0.0674
+    "accountability": 0.1047,
+    "community": 0.2857,
+    "evidence": 0.102,
+    "grace": 0.333,
+    "harm": 0.0142,
+    "love": 0.1443,
+    "truth": 0.0655
    }
   },
   "counsel-of-trent|drcraigvideos": {
-   "js": 0.0326,
+   "js": 0.0342,
    "terms": {
-    "community": 0.0284,
-    "evidence": 0.075,
-    "grace": 0.0088,
-    "love": 0.0308,
-    "truth": 0.02
-   }
-  },
-  "counsel-of-trent|genetically-modified-skeptic": {
-   "js": 0.0803,
-   "terms": {
-    "community": 0.0084,
-    "evidence": 0.1642,
-    "grace": 0.1975,
-    "harm": 0.0388,
-    "love": 0.0477,
-    "truth": 0.0251
-   }
-  },
-  "counsel-of-trent|jackie-hill-perry": {
-   "js": 0.0737,
-   "terms": {
-    "community": 0.0516,
-    "evidence": 0.0042,
-    "grace": 0.309,
-    "love": 0.0004,
-    "truth": 0.0034
-   }
-  },
-  "counsel-of-trent|jude-3-project": {
-   "js": 0.0772,
-   "terms": {
-    "community": 0.0052,
-    "evidence": 0.0035,
-    "grace": 0.3194,
-    "harm": 0.1313,
-    "love": 0.0009,
-    "truth": 0.003
-   }
-  },
-  "counsel-of-trent|lil-bill": {
-   "js": 0.3172,
-   "terms": {
-    "community": 0.014,
-    "evidence": 0.4642,
-    "grace": 0.7465,
-    "harm": 0.0993,
-    "love": 0.1943,
-    "truth": 0.3852
-   }
-  },
-  "counsel-of-trent|marc-coley": {
-   "js": 0.4704,
-   "terms": {
-    "community": 0.5069,
-    "love": 0.4028,
-    "truth": 0.5014
-   }
-  },
-  "counsel-of-trent|mike-winger": {
-   "js": 0.0926,
-   "terms": {
-    "community": 0.0131,
-    "evidence": 0.2992,
-    "grace": 0.1356,
-    "harm": 0.0666,
-    "love": 0.0148,
-    "truth": 0.026
-   }
-  },
-  "counsel-of-trent|mindshift": {
-   "js": 0.0548,
-   "terms": {
-    "community": 0.0141,
-    "evidence": 0.0186,
-    "grace": 0.1187,
-    "harm": 0.1645,
-    "love": 0.007,
-    "truth": 0.0057
-   }
-  },
-  "counsel-of-trent|paulogia": {
-   "js": 0.0152,
-   "terms": {
-    "community": 0.0034,
-    "evidence": 0.0493,
-    "grace": 0.0007,
-    "harm": 0.0187,
-    "love": 0.0157,
-    "truth": 0.0033
-   }
-  },
-  "counsel-of-trent|prophet-of-zod": {
-   "js": 0.048,
-   "terms": {
-    "community": 0.0001,
-    "evidence": 0.028,
-    "grace": 0.1232,
-    "harm": 0.1105,
-    "love": 0.0157,
-    "truth": 0.0105
-   }
-  },
-  "counsel-of-trent|reasonable-faith-org": {
-   "js": 0.042,
-   "terms": {
-    "community": 0.0284,
-    "evidence": 0.1417,
-    "grace": 0.004,
-    "harm": 0.0043,
-    "love": 0.0011,
-    "truth": 0.0725
-   }
-  },
-  "counsel-of-trent|shannon-q": {
-   "js": 0.0802,
-   "terms": {
-    "community": 0.0255,
-    "evidence": 0.1429,
-    "harm": 0.0135,
-    "love": 0.0879,
-    "truth": 0.131
-   }
-  },
-  "cross-examined|darante-lamar": {
-   "js": 0.0668,
-   "terms": {
-    "accountability": 0.0306,
-    "community": 0.1589,
-    "evidence": 0.0038,
-    "grace": 0.0917,
-    "harm": 0.0217,
-    "love": 0.1602,
-    "truth": 0.0004
-   }
-  },
-  "cross-examined|drcraigvideos": {
-   "js": 0.0564,
-   "terms": {
-    "community": 0.0852,
-    "evidence": 0.0001,
-    "grace": 0.1491,
-    "love": 0.038,
-    "truth": 0.0098
-   }
-  },
-  "cross-examined|genetically-modified-skeptic": {
-   "js": 0.0187,
-   "terms": {
-    "accountability": 0.0388,
-    "community": 0.0031,
-    "evidence": 0.0172,
-    "grace": 0.0207,
-    "harm": 0.0051,
-    "love": 0.0395,
-    "truth": 0.0067
-   }
-  },
-  "cross-examined|jackie-hill-perry": {
-   "js": 0.056,
-   "terms": {
-    "community": 0.007,
-    "evidence": 0.1153,
-    "grace": 0.0709,
-    "love": 0.0,
-    "truth": 0.087
-   }
-  },
-  "cross-examined|jude-3-project": {
-   "js": 0.0253,
-   "terms": {
-    "accountability": 0.0001,
-    "community": 0.0057,
-    "evidence": 0.0503,
-    "grace": 0.0765,
-    "harm": 0.0097,
-    "love": 0.0001,
-    "truth": 0.0345
-   }
-  },
-  "cross-examined|lil-bill": {
-   "js": 0.2033,
-   "terms": {
-    "community": 0.0008,
-    "evidence": 0.1852,
-    "grace": 0.376,
-    "harm": 0.3174,
-    "love": 0.1783,
-    "truth": 0.1621
-   }
-  },
-  "cross-examined|marc-coley": {
-   "js": 0.3352,
-   "terms": {
-    "accountability": 0.3558,
-    "community": 0.3535,
-    "love": 0.3813,
-    "truth": 0.25
-   }
-  },
-  "cross-examined|mike-winger": {
-   "js": 0.0778,
-   "terms": {
-    "accountability": 0.4429,
-    "community": 0.0011,
-    "evidence": 0.0802,
-    "grace": 0.0037,
-    "harm": 0.0001,
-    "love": 0.0103,
-    "truth": 0.0062
-   }
-  },
-  "cross-examined|mindshift": {
-   "js": 0.0306,
-   "terms": {
-    "accountability": 0.1315,
-    "community": 0.0008,
-    "evidence": 0.022,
-    "grace": 0.0012,
-    "harm": 0.0209,
-    "love": 0.0107,
-    "truth": 0.0272
-   }
-  },
-  "cross-examined|paulogia": {
-   "js": 0.0316,
-   "terms": {
-    "community": 0.0404,
-    "evidence": 0.0037,
-    "grace": 0.0832,
-    "harm": 0.0175,
-    "love": 0.0111,
-    "truth": 0.0335
-   }
-  },
-  "cross-examined|prophet-of-zod": {
-   "js": 0.0131,
-   "terms": {
-    "community": 0.0186,
-    "evidence": 0.0137,
-    "grace": 0.0018,
-    "harm": 0.0045,
-    "love": 0.0211,
-    "truth": 0.0191
-   }
-  },
-  "cross-examined|reasonable-faith-org": {
-   "js": 0.0608,
-   "terms": {
-    "accountability": 0.0848,
-    "community": 0.0852,
-    "evidence": 0.0101,
-    "grace": 0.1323,
-    "harm": 0.1095,
-    "love": 0.0028,
-    "truth": 0.001
-   }
-  },
-  "cross-examined|shannon-q": {
-   "js": 0.0495,
-   "terms": {
-    "community": 0.0002,
-    "evidence": 0.0105,
-    "harm": 0.1441,
-    "love": 0.0768,
+    "community": 0.0258,
+    "evidence": 0.065,
+    "grace": 0.0173,
+    "love": 0.0467,
     "truth": 0.0161
    }
   },
-  "darante-lamar|drcraigvideos": {
-   "js": 0.2334,
+  "counsel-of-trent|genetically-modified-skeptic": {
+   "js": 0.0661,
    "terms": {
-    "community": 0.4012,
-    "evidence": 0.0048,
-    "grace": 0.4224,
-    "love": 0.3244,
-    "truth": 0.0144
+    "accountability": 0.0233,
+    "community": 0.0102,
+    "evidence": 0.1411,
+    "grace": 0.2027,
+    "harm": 0.0348,
+    "love": 0.0317,
+    "truth": 0.0189
+   }
+  },
+  "counsel-of-trent|jackie-hill-perry": {
+   "js": 0.072,
+   "terms": {
+    "community": 0.0555,
+    "evidence": 0.0077,
+    "grace": 0.2912,
+    "love": 0.0005,
+    "truth": 0.0053
+   }
+  },
+  "counsel-of-trent|jude-3-project": {
+   "js": 0.0704,
+   "terms": {
+    "accountability": 0.0589,
+    "community": 0.0071,
+    "evidence": 0.0013,
+    "grace": 0.2903,
+    "harm": 0.1329,
+    "love": 0.0,
+    "truth": 0.0022
+   }
+  },
+  "counsel-of-trent|lil-bill": {
+   "js": 0.3066,
+   "terms": {
+    "community": 0.0156,
+    "evidence": 0.455,
+    "grace": 0.7121,
+    "harm": 0.1033,
+    "love": 0.1772,
+    "truth": 0.3762
+   }
+  },
+  "counsel-of-trent|marc-coley": {
+   "js": 0.487,
+   "terms": {
+    "accountability": 0.5863,
+    "community": 0.5163,
+    "love": 0.353,
+    "truth": 0.4924
+   }
+  },
+  "counsel-of-trent|mike-winger": {
+   "js": 0.1132,
+   "terms": {
+    "accountability": 0.3197,
+    "community": 0.014,
+    "evidence": 0.2612,
+    "grace": 0.1059,
+    "harm": 0.0711,
+    "love": 0.0022,
+    "truth": 0.0185
+   }
+  },
+  "counsel-of-trent|mindshift": {
+   "js": 0.0513,
+   "terms": {
+    "accountability": 0.02,
+    "community": 0.0148,
+    "evidence": 0.0233,
+    "grace": 0.1073,
+    "harm": 0.1821,
+    "love": 0.0069,
+    "truth": 0.0048
+   }
+  },
+  "counsel-of-trent|paulogia": {
+   "js": 0.0119,
+   "terms": {
+    "community": 0.0024,
+    "evidence": 0.0417,
+    "grace": 0.0001,
+    "harm": 0.0193,
+    "love": 0.0061,
+    "truth": 0.0016
+   }
+  },
+  "counsel-of-trent|prophet-of-zod": {
+   "js": 0.0596,
+   "terms": {
+    "accountability": 0.1446,
+    "community": 0.0019,
+    "evidence": 0.0216,
+    "grace": 0.1141,
+    "harm": 0.1019,
+    "love": 0.0256,
+    "truth": 0.0073
+   }
+  },
+  "counsel-of-trent|reasonable-faith-org": {
+   "js": 0.057,
+   "terms": {
+    "accountability": 0.1563,
+    "community": 0.0258,
+    "evidence": 0.1263,
+    "grace": 0.0094,
+    "harm": 0.004,
+    "love": 0.0064,
+    "truth": 0.0708
+   }
+  },
+  "counsel-of-trent|shannon-q": {
+   "js": 0.0724,
+   "terms": {
+    "community": 0.0284,
+    "evidence": 0.1195,
+    "harm": 0.0166,
+    "love": 0.0678,
+    "truth": 0.1297
+   }
+  },
+  "cross-examined|darante-lamar": {
+   "js": 0.0658,
+   "terms": {
+    "accountability": 0.0306,
+    "community": 0.1422,
+    "evidence": 0.0041,
+    "grace": 0.0963,
+    "harm": 0.0264,
+    "love": 0.1612,
+    "truth": 0.0
+   }
+  },
+  "cross-examined|drcraigvideos": {
+   "js": 0.0619,
+   "terms": {
+    "community": 0.0975,
+    "evidence": 0.0,
+    "grace": 0.1576,
+    "love": 0.0377,
+    "truth": 0.0167
+   }
+  },
+  "cross-examined|genetically-modified-skeptic": {
+   "js": 0.0219,
+   "terms": {
+    "accountability": 0.0388,
+    "community": 0.0063,
+    "evidence": 0.0152,
+    "grace": 0.0297,
+    "harm": 0.0091,
+    "love": 0.0403,
+    "truth": 0.0141
+   }
+  },
+  "cross-examined|jackie-hill-perry": {
+   "js": 0.0591,
+   "terms": {
+    "community": 0.0036,
+    "evidence": 0.1144,
+    "grace": 0.0726,
+    "love": 0.0,
+    "truth": 0.1051
+   }
+  },
+  "cross-examined|jude-3-project": {
+   "js": 0.0264,
+   "terms": {
+    "accountability": 0.0019,
+    "community": 0.0093,
+    "evidence": 0.0497,
+    "grace": 0.0721,
+    "harm": 0.0078,
+    "love": 0.0003,
+    "truth": 0.0437
+   }
+  },
+  "cross-examined|lil-bill": {
+   "js": 0.2079,
+   "terms": {
+    "community": 0.003,
+    "evidence": 0.1976,
+    "grace": 0.3702,
+    "harm": 0.3366,
+    "love": 0.1956,
+    "truth": 0.1443
+   }
+  },
+  "cross-examined|marc-coley": {
+   "js": 0.3228,
+   "terms": {
+    "accountability": 0.3558,
+    "community": 0.329,
+    "love": 0.3772,
+    "truth": 0.2293
+   }
+  },
+  "cross-examined|mike-winger": {
+   "js": 0.0702,
+   "terms": {
+    "accountability": 0.3953,
+    "community": 0.0038,
+    "evidence": 0.0714,
+    "grace": 0.0015,
+    "harm": 0.0002,
+    "love": 0.0049,
+    "truth": 0.0145
+   }
+  },
+  "cross-examined|mindshift": {
+   "js": 0.0239,
+   "terms": {
+    "accountability": 0.0883,
+    "community": 0.0034,
+    "evidence": 0.0116,
+    "grace": 0.0016,
+    "harm": 0.0239,
+    "love": 0.0036,
+    "truth": 0.0348
+   }
+  },
+  "cross-examined|paulogia": {
+   "js": 0.0363,
+   "terms": {
+    "community": 0.05,
+    "evidence": 0.003,
+    "grace": 0.0877,
+    "harm": 0.0204,
+    "love": 0.0103,
+    "truth": 0.0466
+   }
+  },
+  "cross-examined|prophet-of-zod": {
+   "js": 0.0407,
+   "terms": {
+    "accountability": 0.2008,
+    "community": 0.0187,
+    "evidence": 0.0128,
+    "grace": 0.0027,
+    "harm": 0.0017,
+    "love": 0.0189,
+    "truth": 0.0292
+   }
+  },
+  "cross-examined|reasonable-faith-org": {
+   "js": 0.0643,
+   "terms": {
+    "accountability": 0.0848,
+    "community": 0.0975,
+    "evidence": 0.0104,
+    "grace": 0.1377,
+    "harm": 0.1163,
+    "love": 0.0033,
+    "truth": 0.0001
+   }
+  },
+  "cross-examined|shannon-q": {
+   "js": 0.0526,
+   "terms": {
+    "community": 0.0001,
+    "evidence": 0.0084,
+    "harm": 0.1627,
+    "love": 0.0799,
+    "truth": 0.0119
+   }
+  },
+  "darante-lamar|drcraigvideos": {
+   "js": 0.2386,
+   "terms": {
+    "community": 0.4021,
+    "evidence": 0.0045,
+    "grace": 0.444,
+    "love": 0.3254,
+    "truth": 0.0171
    }
   },
   "darante-lamar|genetically-modified-skeptic": {
-   "js": 0.0485,
+   "js": 0.048,
    "terms": {
-    "accountability": 0.0476,
-    "community": 0.2014,
-    "evidence": 0.0048,
-    "grace": 0.026,
-    "harm": 0.0058,
-    "love": 0.0432,
-    "truth": 0.0106
+    "accountability": 0.0484,
+    "community": 0.2022,
+    "evidence": 0.0035,
+    "grace": 0.0198,
+    "harm": 0.0046,
+    "love": 0.0428,
+    "truth": 0.0144
    }
   },
   "darante-lamar|jackie-hill-perry": {
-   "js": 0.1563,
+   "js": 0.1566,
    "terms": {
-    "community": 0.1021,
-    "do the work": 0.4159,
-    "evidence": 0.1577,
-    "grace": 0.0014,
-    "love": 0.1612,
-    "truth": 0.0994
+    "community": 0.1027,
+    "do the work": 0.411,
+    "evidence": 0.1583,
+    "grace": 0.0018,
+    "love": 0.1599,
+    "truth": 0.106
    }
   },
   "darante-lamar|jude-3-project": {
-   "js": 0.0867,
+   "js": 0.0871,
    "terms": {
-    "accountability": 0.0275,
-    "community": 0.2176,
-    "deconstruction": 0.0728,
-    "do the work": 0.1253,
-    "evidence": 0.0809,
-    "grace": 0.0007,
-    "harm": 0.0598,
-    "love": 0.1532,
-    "truth": 0.0427
+    "accountability": 0.0186,
+    "community": 0.216,
+    "deconstruction": 0.0887,
+    "do the work": 0.1221,
+    "evidence": 0.0813,
+    "grace": 0.0019,
+    "harm": 0.0621,
+    "love": 0.1492,
+    "truth": 0.0443
    }
   },
   "darante-lamar|lil-bill": {
-   "js": 0.1275,
+   "js": 0.1283,
    "terms": {
-    "community": 0.1805,
-    "evidence": 0.1384,
-    "grace": 0.1147,
-    "harm": 0.1843,
-    "love": 0.0005,
-    "truth": 0.1466
+    "community": 0.1829,
+    "evidence": 0.1477,
+    "grace": 0.1067,
+    "harm": 0.1872,
+    "love": 0.0019,
+    "truth": 0.1433
    }
   },
   "darante-lamar|marc-coley": {
-   "js": 0.1456,
+   "js": 0.1443,
    "terms": {
-    "accountability": 0.3434,
-    "community": 0.0457,
-    "do the work": 0.0505,
-    "love": 0.057,
-    "truth": 0.2315
+    "accountability": 0.3412,
+    "community": 0.0453,
+    "do the work": 0.0525,
+    "love": 0.0546,
+    "truth": 0.2281
    }
   },
   "darante-lamar|mike-winger": {
-   "js": 0.1502,
+   "js": 0.1483,
    "terms": {
-    "accountability": 0.6376,
-    "community": 0.1834,
-    "evidence": 0.0496,
-    "grace": 0.0593,
-    "harm": 0.019,
-    "love": 0.0923,
-    "truth": 0.01
+    "accountability": 0.5842,
+    "community": 0.1883,
+    "evidence": 0.0417,
+    "grace": 0.0746,
+    "harm": 0.0222,
+    "love": 0.1125,
+    "truth": 0.0148
    }
   },
   "darante-lamar|mindshift": {
-   "js": 0.1083,
+   "js": 0.097,
    "terms": {
-    "accountability": 0.179,
-    "community": 0.1802,
-    "deconstruction": 0.0292,
-    "evidence": 0.0439,
-    "grace": 0.0722,
-    "harm": 0.0836,
-    "love": 0.2435,
-    "truth": 0.0345
+    "accountability": 0.1187,
+    "community": 0.1857,
+    "deconstruction": 0.027,
+    "evidence": 0.0293,
+    "grace": 0.0734,
+    "harm": 0.0983,
+    "love": 0.2081,
+    "truth": 0.0353
    }
   },
   "darante-lamar|paulogia": {
-   "js": 0.1271,
+   "js": 0.1333,
    "terms": {
-    "community": 0.3249,
-    "deconstruction": 0.0945,
-    "evidence": 0.0151,
-    "grace": 0.3235,
-    "harm": 0.0002,
-    "love": 0.0901,
-    "truth": 0.0416
+    "community": 0.3257,
+    "deconstruction": 0.1124,
+    "evidence": 0.0142,
+    "grace": 0.3399,
+    "harm": 0.0004,
+    "love": 0.0931,
+    "truth": 0.0472
    }
   },
   "darante-lamar|prophet-of-zod": {
-   "js": 0.1143,
+   "js": 0.1158,
    "terms": {
-    "community": 0.2687,
-    "deconstruction": 0.0806,
-    "evidence": 0.0318,
-    "grace": 0.0685,
-    "harm": 0.0457,
-    "love": 0.2797,
-    "truth": 0.0253
+    "accountability": 0.1478,
+    "community": 0.2497,
+    "deconstruction": 0.0846,
+    "evidence": 0.0313,
+    "grace": 0.0678,
+    "harm": 0.0411,
+    "love": 0.2743,
+    "truth": 0.0297
    }
   },
   "darante-lamar|reasonable-faith-org": {
-   "js": 0.1514,
+   "js": 0.1544,
    "terms": {
-    "accountability": 0.0211,
-    "community": 0.4012,
-    "evidence": 0.0015,
-    "grace": 0.3994,
-    "harm": 0.0349,
-    "love": 0.2016,
+    "accountability": 0.0212,
+    "community": 0.4021,
+    "evidence": 0.0014,
+    "grace": 0.4168,
+    "harm": 0.0331,
+    "love": 0.2059,
     "truth": 0.0001
    }
   },
   "darante-lamar|shannon-q": {
-   "js": 0.0459,
+   "js": 0.0486,
    "terms": {
-    "community": 0.1488,
-    "deconstruction": 0.0414,
-    "evidence": 0.0016,
-    "harm": 0.0561,
-    "love": 0.0165,
-    "truth": 0.0112
+    "community": 0.1494,
+    "deconstruction": 0.0537,
+    "evidence": 0.0008,
+    "harm": 0.0607,
+    "love": 0.0154,
+    "truth": 0.0116
    }
   },
   "drcraigvideos|genetically-modified-skeptic": {
-   "js": 0.0975,
+   "js": 0.1044,
    "terms": {
     "community": 0.0603,
-    "evidence": 0.0191,
-    "grace": 0.2619,
-    "love": 0.1459,
-    "truth": 0.0003
+    "evidence": 0.0159,
+    "grace": 0.299,
+    "love": 0.1469,
+    "truth": 0.0001
    }
   },
   "drcraigvideos|jackie-hill-perry": {
-   "js": 0.1402,
+   "js": 0.144,
    "terms": {
     "community": 0.1313,
-    "evidence": 0.1107,
-    "grace": 0.3823,
-    "love": 0.0375,
-    "truth": 0.0394
+    "evidence": 0.1126,
+    "grace": 0.3981,
+    "love": 0.0383,
+    "truth": 0.0395
    }
   },
   "drcraigvideos|jude-3-project": {
-   "js": 0.1084,
+   "js": 0.1099,
    "terms": {
-    "community": 0.0523,
-    "evidence": 0.0471,
-    "grace": 0.3934,
-    "love": 0.0417,
-    "truth": 0.0077
+    "community": 0.0534,
+    "evidence": 0.0484,
+    "grace": 0.3971,
+    "love": 0.044,
+    "truth": 0.0065
    }
   },
   "drcraigvideos|lil-bill": {
-   "js": 0.3386,
+   "js": 0.3473,
    "terms": {
-    "community": 0.0718,
-    "evidence": 0.1911,
-    "grace": 0.8375,
-    "love": 0.3482,
-    "truth": 0.2444
+    "community": 0.0708,
+    "evidence": 0.2001,
+    "grace": 0.8455,
+    "love": 0.3702,
+    "truth": 0.25
    }
   },
   "drcraigvideos|marc-coley": {
-   "js": 0.5301,
+   "js": 0.5307,
    "terms": {
     "community": 0.6502,
-    "love": 0.5949,
-    "truth": 0.3452
+    "love": 0.5898,
+    "truth": 0.3522
    }
   },
   "drcraigvideos|mike-winger": {
-   "js": 0.0865,
+   "js": 0.0788,
    "terms": {
-    "community": 0.0701,
-    "evidence": 0.0843,
-    "grace": 0.1931,
-    "love": 0.0846,
-    "truth": 0.0004
+    "community": 0.0677,
+    "evidence": 0.073,
+    "grace": 0.1852,
+    "love": 0.0679,
+    "truth": 0.0001
    }
   },
   "drcraigvideos|mindshift": {
-   "js": 0.0558,
+   "js": 0.0578,
    "terms": {
-    "community": 0.072,
-    "evidence": 0.0199,
-    "grace": 0.1738,
-    "love": 0.0089,
-    "truth": 0.0044
+    "community": 0.0692,
+    "evidence": 0.011,
+    "grace": 0.1869,
+    "love": 0.0186,
+    "truth": 0.0033
    }
   },
   "drcraigvideos|paulogia": {
-   "js": 0.025,
+   "js": 0.0248,
    "terms": {
     "community": 0.0142,
-    "evidence": 0.0029,
-    "grace": 0.0142,
-    "love": 0.0867,
-    "truth": 0.0072
+    "evidence": 0.0027,
+    "grace": 0.0154,
+    "love": 0.0841,
+    "truth": 0.0077
    }
   },
   "drcraigvideos|prophet-of-zod": {
-   "js": 0.0453,
+   "js": 0.0503,
    "terms": {
-    "community": 0.0313,
-    "evidence": 0.012,
-    "grace": 0.1789,
-    "love": 0.0027,
-    "truth": 0.0015
+    "community": 0.0387,
+    "evidence": 0.0122,
+    "grace": 0.1953,
+    "love": 0.0035,
+    "truth": 0.0018
    }
   },
   "drcraigvideos|reasonable-faith-org": {
-   "js": 0.01,
+   "js": 0.0103,
    "terms": {
     "community": 0.0,
-    "evidence": 0.0116,
-    "grace": 0.001,
-    "love": 0.0206,
-    "truth": 0.0168
+    "evidence": 0.011,
+    "grace": 0.0014,
+    "love": 0.0193,
+    "truth": 0.0199
    }
   },
   "drcraigvideos|shannon-q": {
-   "js": 0.0904,
+   "js": 0.0922,
    "terms": {
     "community": 0.0922,
-    "evidence": 0.012,
-    "love": 0.2069,
-    "truth": 0.0506
+    "evidence": 0.009,
+    "love": 0.2113,
+    "truth": 0.0563
    }
   },
   "genetically-modified-skeptic|jackie-hill-perry": {
-   "js": 0.0667,
+   "js": 0.0634,
    "terms": {
     "community": 0.0192,
-    "evidence": 0.2123,
-    "grace": 0.0154,
-    "love": 0.04,
-    "truth": 0.0464
+    "evidence": 0.2046,
+    "grace": 0.0097,
+    "love": 0.0397,
+    "truth": 0.0437
    }
   },
   "genetically-modified-skeptic|jude-3-project": {
-   "js": 0.0366,
+   "js": 0.0349,
    "terms": {
-    "accountability": 0.0388,
-    "community": 0.0004,
-    "evidence": 0.1231,
-    "grace": 0.0181,
-    "harm": 0.0289,
-    "love": 0.0359,
-    "truth": 0.0109
+    "accountability": 0.0412,
+    "community": 0.0003,
+    "evidence": 0.117,
+    "grace": 0.0096,
+    "harm": 0.0334,
+    "love": 0.0342,
+    "truth": 0.0083
    }
   },
   "genetically-modified-skeptic|lil-bill": {
-   "js": 0.1436,
+   "js": 0.1439,
    "terms": {
-    "community": 0.0007,
-    "evidence": 0.0935,
-    "grace": 0.2362,
-    "harm": 0.2489,
-    "love": 0.0532,
-    "truth": 0.2291
+    "community": 0.0006,
+    "evidence": 0.1076,
+    "grace": 0.2073,
+    "harm": 0.2449,
+    "love": 0.0623,
+    "truth": 0.2404
    }
   },
   "genetically-modified-skeptic|marc-coley": {
-   "js": 0.3699,
+   "js": 0.372,
    "terms": {
     "accountability": 0.5494,
     "community": 0.4109,
-    "love": 0.1914,
-    "truth": 0.3278
+    "love": 0.1866,
+    "truth": 0.3413
    }
   },
   "genetically-modified-skeptic|mike-winger": {
-   "js": 0.0827,
+   "js": 0.0774,
    "terms": {
-    "accountability": 0.5338,
-    "community": 0.0005,
-    "evidence": 0.0238,
-    "grace": 0.0069,
-    "harm": 0.0039,
-    "love": 0.0097,
+    "accountability": 0.4783,
+    "community": 0.0003,
+    "evidence": 0.0212,
+    "grace": 0.018,
+    "harm": 0.0066,
+    "love": 0.0174,
     "truth": 0.0
    }
   },
   "genetically-modified-skeptic|mindshift": {
-   "js": 0.04,
+   "js": 0.0315,
    "terms": {
-    "accountability": 0.048,
-    "community": 0.0007,
-    "evidence": 0.0769,
-    "grace": 0.0119,
-    "harm": 0.0463,
-    "love": 0.0889,
-    "truth": 0.007
+    "accountability": 0.0171,
+    "community": 0.0004,
+    "evidence": 0.0527,
+    "grace": 0.0174,
+    "harm": 0.0614,
+    "love": 0.067,
+    "truth": 0.0047
    }
   },
   "genetically-modified-skeptic|paulogia": {
-   "js": 0.0434,
+   "js": 0.0474,
    "terms": {
     "community": 0.022,
-    "evidence": 0.0367,
-    "grace": 0.1787,
-    "harm": 0.0037,
-    "love": 0.0089,
-    "truth": 0.0104
+    "evidence": 0.0317,
+    "grace": 0.2084,
+    "harm": 0.0023,
+    "love": 0.0101,
+    "truth": 0.0096
    }
   },
   "genetically-modified-skeptic|prophet-of-zod": {
-   "js": 0.0356,
+   "js": 0.0404,
    "terms": {
-    "community": 0.0067,
-    "evidence": 0.0608,
-    "grace": 0.0104,
-    "harm": 0.0192,
-    "love": 0.1134,
-    "truth": 0.0032
+    "accountability": 0.0784,
+    "community": 0.0034,
+    "evidence": 0.0553,
+    "grace": 0.0147,
+    "harm": 0.0184,
+    "love": 0.11,
+    "truth": 0.0028
    }
   },
   "genetically-modified-skeptic|reasonable-faith-org": {
-   "js": 0.0749,
+   "js": 0.0796,
    "terms": {
     "accountability": 0.0773,
     "community": 0.0603,
-    "evidence": 0.0009,
-    "grace": 0.2418,
-    "harm": 0.0683,
-    "love": 0.0627,
-    "truth": 0.0127
+    "evidence": 0.0005,
+    "grace": 0.2747,
+    "harm": 0.0619,
+    "love": 0.0657,
+    "truth": 0.017
    }
   },
   "genetically-modified-skeptic|shannon-q": {
-   "js": 0.0304,
+   "js": 0.0324,
    "terms": {
     "community": 0.0048,
-    "evidence": 0.0008,
-    "harm": 0.0966,
-    "love": 0.0064,
-    "truth": 0.0433
+    "evidence": 0.001,
+    "harm": 0.0976,
+    "love": 0.007,
+    "truth": 0.0515
    }
   },
   "jackie-hill-perry|jude-3-project": {
-   "js": 0.0286,
+   "js": 0.0287,
    "terms": {
-    "community": 0.0251,
+    "community": 0.0242,
     "do the work": 0.1183,
     "evidence": 0.0152,
-    "grace": 0.0001,
-    "love": 0.0001,
-    "truth": 0.0126
+    "grace": 0.0,
+    "love": 0.0002,
+    "truth": 0.0142
    }
   },
   "jackie-hill-perry|lil-bill": {
-   "js": 0.2625,
+   "js": 0.2692,
    "terms": {
-    "community": 0.0126,
-    "evidence": 0.5328,
-    "grace": 0.1393,
-    "love": 0.1794,
-    "truth": 0.4485
+    "community": 0.0131,
+    "evidence": 0.5495,
+    "grace": 0.1336,
+    "love": 0.1942,
+    "truth": 0.4554
    }
   },
   "jackie-hill-perry|marc-coley": {
-   "js": 0.4763,
+   "js": 0.4765,
    "terms": {
     "community": 0.2709,
     "do the work": 0.6815,
-    "love": 0.3828,
-    "truth": 0.5699
+    "love": 0.3754,
+    "truth": 0.5782
    }
   },
   "jackie-hill-perry|mike-winger": {
-   "js": 0.0946,
+   "js": 0.0913,
    "terms": {
-    "community": 0.0135,
-    "evidence": 0.3587,
-    "grace": 0.0427,
-    "love": 0.0106,
-    "truth": 0.0476
+    "community": 0.0147,
+    "evidence": 0.3402,
+    "grace": 0.0538,
+    "love": 0.0047,
+    "truth": 0.043
    }
   },
   "jackie-hill-perry|mindshift": {
-   "js": 0.0268,
+   "js": 0.0293,
    "terms": {
-    "community": 0.0125,
-    "evidence": 0.0394,
-    "grace": 0.0538,
-    "love": 0.0105,
-    "truth": 0.0177
+    "community": 0.0139,
+    "evidence": 0.056,
+    "grace": 0.0528,
+    "love": 0.0038,
+    "truth": 0.0201
    }
   },
   "jackie-hill-perry|paulogia": {
-   "js": 0.0938,
+   "js": 0.096,
    "terms": {
     "community": 0.078,
-    "evidence": 0.0796,
-    "grace": 0.2867,
-    "love": 0.0114,
-    "truth": 0.0132
+    "evidence": 0.082,
+    "grace": 0.2977,
+    "love": 0.0099,
+    "truth": 0.0126
    }
   },
   "jackie-hill-perry|prophet-of-zod": {
-   "js": 0.0393,
+   "js": 0.0367,
    "terms": {
-    "community": 0.0473,
-    "evidence": 0.0524,
-    "grace": 0.0506,
-    "love": 0.0207,
-    "truth": 0.0256
+    "community": 0.0381,
+    "evidence": 0.0534,
+    "grace": 0.048,
+    "love": 0.0193,
+    "truth": 0.0247
    }
   },
   "jackie-hill-perry|reasonable-faith-org": {
-   "js": 0.1573,
+   "js": 0.1612,
    "terms": {
     "community": 0.1313,
     "evidence": 0.1872,
-    "grace": 0.3599,
-    "love": 0.0027,
-    "truth": 0.1054
+    "grace": 0.3717,
+    "love": 0.0035,
+    "truth": 0.1125
    }
   },
   "jackie-hill-perry|shannon-q": {
-   "js": 0.111,
+   "js": 0.1115,
    "terms": {
     "community": 0.0049,
-    "evidence": 0.1885,
-    "love": 0.0775,
-    "truth": 0.173
+    "evidence": 0.1792,
+    "love": 0.079,
+    "truth": 0.183
    }
   },
   "jude-3-project|lil-bill": {
-   "js": 0.2427,
+   "js": 0.2489,
    "terms": {
-    "community": 0.0022,
-    "evidence": 0.4005,
-    "grace": 0.1322,
-    "harm": 0.4218,
-    "love": 0.1709,
-    "truth": 0.3285
+    "community": 0.0017,
+    "evidence": 0.4158,
+    "grace": 0.1342,
+    "harm": 0.4311,
+    "love": 0.1825,
+    "truth": 0.3279
    }
   },
   "jude-3-project|marc-coley": {
-   "js": 0.382,
+   "js": 0.3758,
    "terms": {
-    "accountability": 0.3513,
-    "community": 0.4319,
+    "accountability": 0.3343,
+    "community": 0.429,
     "do the work": 0.3163,
-    "love": 0.3712,
+    "love": 0.36,
     "truth": 0.4393
    }
   },
   "jude-3-project|mike-winger": {
-   "js": 0.1113,
+   "js": 0.1063,
    "terms": {
-    "accountability": 0.4531,
-    "community": 0.0019,
-    "evidence": 0.2455,
-    "grace": 0.0471,
-    "harm": 0.0117,
-    "love": 0.0084,
-    "truth": 0.0116
+    "accountability": 0.4389,
+    "community": 0.0012,
+    "evidence": 0.2296,
+    "grace": 0.0534,
+    "harm": 0.0104,
+    "love": 0.0029,
+    "truth": 0.008
    }
   },
   "jude-3-project|mindshift": {
-   "js": 0.0284,
+   "js": 0.0244,
    "terms": {
-    "accountability": 0.1344,
-    "community": 0.0022,
-    "deconstruction": 0.0103,
-    "evidence": 0.006,
-    "grace": 0.0587,
-    "harm": 0.0021,
-    "love": 0.0128,
+    "accountability": 0.0985,
+    "community": 0.0015,
+    "deconstruction": 0.0187,
+    "evidence": 0.0137,
+    "grace": 0.0524,
+    "harm": 0.0045,
+    "love": 0.0058,
     "truth": 0.0005
    }
   },
   "jude-3-project|paulogia": {
-   "js": 0.0577,
+   "js": 0.0578,
    "terms": {
-    "community": 0.0167,
+    "community": 0.0174,
     "deconstruction": 0.0016,
-    "evidence": 0.027,
+    "evidence": 0.0285,
     "grace": 0.2968,
     "harm": 0.0528,
-    "love": 0.0092,
+    "love": 0.0072,
     "truth": 0.0
    }
   },
   "jude-3-project|prophet-of-zod": {
-   "js": 0.0141,
+   "js": 0.0355,
    "terms": {
-    "community": 0.0038,
-    "deconstruction": 0.0002,
-    "evidence": 0.0118,
-    "grace": 0.0554,
-    "harm": 0.001,
-    "love": 0.0239,
-    "truth": 0.0023
+    "accountability": 0.1953,
+    "community": 0.0017,
+    "deconstruction": 0.0001,
+    "evidence": 0.0124,
+    "grace": 0.0476,
+    "harm": 0.0023,
+    "love": 0.0235,
+    "truth": 0.0015
    }
   },
   "jude-3-project|reasonable-faith-org": {
-   "js": 0.1197,
+   "js": 0.1185,
    "terms": {
-    "accountability": 0.0805,
-    "community": 0.0523,
+    "accountability": 0.0678,
+    "community": 0.0534,
     "evidence": 0.1034,
     "grace": 0.3708,
     "harm": 0.1801,
-    "love": 0.004,
-    "truth": 0.0468
+    "love": 0.0054,
+    "truth": 0.0487
    }
   },
   "jude-3-project|shannon-q": {
-   "js": 0.0846,
+   "js": 0.086,
    "terms": {
-    "community": 0.008,
+    "community": 0.0075,
     "deconstruction": 0.0047,
-    "evidence": 0.1044,
-    "harm": 0.2226,
-    "love": 0.0718,
-    "truth": 0.0962
+    "evidence": 0.0972,
+    "harm": 0.2355,
+    "love": 0.0712,
+    "truth": 0.0997
    }
   },
   "lil-bill|marc-coley": {
-   "js": 0.1477,
+   "js": 0.1451,
    "terms": {
-    "community": 0.383,
-    "love": 0.0467,
-    "truth": 0.0134
+    "community": 0.3853,
+    "love": 0.0366,
+    "truth": 0.0135
    }
   },
   "lil-bill|mike-winger": {
-   "js": 0.1631,
+   "js": 0.1787,
    "terms": {
     "community": 0.0,
-    "evidence": 0.0241,
-    "grace": 0.3136,
-    "harm": 0.3079,
-    "love": 0.1066,
-    "truth": 0.2266
+    "evidence": 0.0348,
+    "grace": 0.3307,
+    "harm": 0.3227,
+    "love": 0.1421,
+    "truth": 0.2418
    }
   },
   "lil-bill|mindshift": {
-   "js": 0.2843,
+   "js": 0.2802,
    "terms": {
     "community": 0.0,
-    "evidence": 0.3204,
-    "grace": 0.3394,
-    "harm": 0.4736,
-    "love": 0.2649,
-    "truth": 0.3073
+    "evidence": 0.2949,
+    "grace": 0.3284,
+    "harm": 0.507,
+    "love": 0.2462,
+    "truth": 0.305
    }
   },
   "lil-bill|paulogia": {
-   "js": 0.2685,
+   "js": 0.2758,
    "terms": {
-    "community": 0.0302,
-    "evidence": 0.2372,
-    "grace": 0.7172,
-    "harm": 0.1965,
-    "love": 0.1042,
-    "truth": 0.3257
+    "community": 0.0295,
+    "evidence": 0.2455,
+    "grace": 0.7207,
+    "harm": 0.2035,
+    "love": 0.1204,
+    "truth": 0.335
    }
   },
   "lil-bill|prophet-of-zod": {
-   "js": 0.2673,
+   "js": 0.2683,
    "terms": {
-    "community": 0.0117,
-    "evidence": 0.2894,
-    "grace": 0.3323,
-    "harm": 0.3874,
-    "love": 0.3023,
-    "truth": 0.2809
+    "community": 0.0068,
+    "evidence": 0.3005,
+    "grace": 0.3175,
+    "harm": 0.3792,
+    "love": 0.3165,
+    "truth": 0.2895
    }
   },
   "lil-bill|reasonable-faith-org": {
-   "js": 0.2366,
+   "js": 0.2424,
    "terms": {
-    "community": 0.0718,
-    "evidence": 0.1123,
-    "grace": 0.8105,
-    "harm": 0.0639,
-    "love": 0.2215,
-    "truth": 0.1396
+    "community": 0.0708,
+    "evidence": 0.1215,
+    "grace": 0.8141,
+    "harm": 0.0683,
+    "love": 0.2439,
+    "truth": 0.136
    }
   },
   "lil-bill|shannon-q": {
-   "js": 0.0514,
+   "js": 0.0547,
    "terms": {
-    "community": 0.0018,
-    "evidence": 0.1112,
-    "harm": 0.0415,
-    "love": 0.023,
-    "truth": 0.0796
+    "community": 0.002,
+    "evidence": 0.1283,
+    "harm": 0.0393,
+    "love": 0.0279,
+    "truth": 0.0761
    }
   },
   "marc-coley|mike-winger": {
-   "js": 0.4293,
+   "js": 0.4402,
    "terms": {
-    "accountability": 0.7268,
-    "community": 0.3869,
-    "love": 0.2787,
-    "truth": 0.3249
+    "accountability": 0.72,
+    "community": 0.3925,
+    "love": 0.3055,
+    "truth": 0.3429
    }
   },
   "marc-coley|mindshift": {
-   "js": 0.5191,
+   "js": 0.4848,
    "terms": {
-    "accountability": 0.7841,
-    "community": 0.3826,
-    "love": 0.494,
-    "truth": 0.4157
+    "accountability": 0.6947,
+    "community": 0.389,
+    "love": 0.4416,
+    "truth": 0.4139
    }
   },
   "marc-coley|paulogia": {
-   "js": 0.4251,
+   "js": 0.4287,
    "terms": {
     "community": 0.564,
     "love": 0.2751,
-    "truth": 0.4362
+    "truth": 0.4471
    }
   },
   "marc-coley|prophet-of-zod": {
-   "js": 0.4743,
+   "js": 0.5466,
    "terms": {
-    "community": 0.4965,
-    "love": 0.54,
-    "truth": 0.3863
+    "accountability": 0.7909,
+    "community": 0.4719,
+    "love": 0.5271,
+    "truth": 0.3967
    }
   },
   "marc-coley|reasonable-faith-org": {
-   "js": 0.4299,
+   "js": 0.429,
    "terms": {
     "accountability": 0.4076,
     "community": 0.6502,
     "love": 0.4387,
-    "truth": 0.2232
+    "truth": 0.2194
    }
   },
   "marc-coley|shannon-q": {
-   "js": 0.2063,
+   "js": 0.2028,
    "terms": {
     "community": 0.3393,
-    "love": 0.1311,
-    "truth": 0.1485
+    "love": 0.1246,
+    "truth": 0.1444
    }
   },
   "mike-winger|mindshift": {
-   "js": 0.1014,
+   "js": 0.0896,
    "terms": {
-    "accountability": 0.4555,
+    "accountability": 0.4398,
     "community": 0.0,
-    "evidence": 0.1807,
-    "grace": 0.0007,
-    "harm": 0.0238,
-    "love": 0.0413,
-    "truth": 0.0075
+    "evidence": 0.1376,
+    "grace": 0.0,
+    "harm": 0.0283,
+    "love": 0.0168,
+    "truth": 0.0045
    }
   },
   "mike-winger|paulogia": {
-   "js": 0.0486,
+   "js": 0.0446,
    "terms": {
-    "community": 0.029,
-    "evidence": 0.1171,
-    "grace": 0.1195,
-    "harm": 0.0151,
-    "love": 0.0,
-    "truth": 0.011
+    "community": 0.0273,
+    "evidence": 0.1029,
+    "grace": 0.1103,
+    "harm": 0.0167,
+    "love": 0.001,
+    "truth": 0.0093
    }
   },
   "mike-winger|prophet-of-zod": {
-   "js": 0.0394,
+   "js": 0.1309,
    "terms": {
-    "community": 0.0109,
-    "evidence": 0.1564,
-    "grace": 0.0004,
-    "harm": 0.0059,
-    "love": 0.0593,
-    "truth": 0.0035
+    "accountability": 0.7206,
+    "community": 0.0057,
+    "evidence": 0.1416,
+    "grace": 0.0002,
+    "harm": 0.003,
+    "love": 0.0423,
+    "truth": 0.0026
    }
   },
   "mike-winger|reasonable-faith-org": {
-   "js": 0.1672,
+   "js": 0.1566,
    "terms": {
-    "accountability": 0.7522,
-    "community": 0.0701,
-    "evidence": 0.034,
-    "grace": 0.1748,
-    "harm": 0.1035,
-    "love": 0.0238,
-    "truth": 0.0121
+    "accountability": 0.6956,
+    "community": 0.0677,
+    "evidence": 0.0279,
+    "grace": 0.1643,
+    "harm": 0.1075,
+    "love": 0.0161,
+    "truth": 0.0174
    }
   },
   "mike-winger|shannon-q": {
-   "js": 0.0493,
+   "js": 0.057,
    "terms": {
-    "community": 0.0022,
-    "evidence": 0.0334,
-    "harm": 0.1372,
-    "love": 0.0317,
-    "truth": 0.0421
+    "community": 0.0027,
+    "evidence": 0.0313,
+    "harm": 0.1525,
+    "love": 0.0461,
+    "truth": 0.0522
    }
   },
   "mindshift|paulogia": {
-   "js": 0.04,
+   "js": 0.041,
    "terms": {
-    "community": 0.0304,
-    "deconstruction": 0.0197,
-    "evidence": 0.0077,
-    "grace": 0.1034,
-    "harm": 0.0753,
-    "love": 0.0429,
-    "truth": 0.0003
+    "community": 0.0284,
+    "deconstruction": 0.0308,
+    "evidence": 0.0028,
+    "grace": 0.1117,
+    "harm": 0.0866,
+    "love": 0.0258,
+    "truth": 0.0009
    }
   },
   "mindshift|prophet-of-zod": {
-   "js": 0.005,
+   "js": 0.0145,
    "terms": {
-    "community": 0.0118,
-    "deconstruction": 0.0134,
-    "evidence": 0.001,
-    "grace": 0.0,
-    "harm": 0.0061,
-    "love": 0.0018,
-    "truth": 0.0007
+    "accountability": 0.0734,
+    "community": 0.0063,
+    "deconstruction": 0.0168,
+    "evidence": 0.0,
+    "grace": 0.0001,
+    "harm": 0.0131,
+    "love": 0.0061,
+    "truth": 0.0002
    }
   },
   "mindshift|reasonable-faith-org": {
-   "js": 0.109,
+   "js": 0.1004,
    "terms": {
-    "accountability": 0.2153,
-    "community": 0.072,
-    "evidence": 0.0612,
-    "grace": 0.1561,
-    "harm": 0.2179,
-    "love": 0.0026,
-    "truth": 0.0382
+    "accountability": 0.149,
+    "community": 0.0692,
+    "evidence": 0.0435,
+    "grace": 0.1659,
+    "harm": 0.2356,
+    "love": 0.0,
+    "truth": 0.0393
    }
   },
   "mindshift|shannon-q": {
-   "js": 0.0921,
+   "js": 0.0908,
    "terms": {
-    "community": 0.0018,
-    "deconstruction": 0.0011,
-    "evidence": 0.062,
-    "harm": 0.2637,
-    "love": 0.14,
-    "truth": 0.0839
+    "community": 0.0023,
+    "deconstruction": 0.0047,
+    "evidence": 0.0394,
+    "harm": 0.297,
+    "love": 0.1152,
+    "truth": 0.0863
    }
   },
   "paulogia|prophet-of-zod": {
-   "js": 0.0312,
+   "js": 0.032,
    "terms": {
-    "community": 0.0047,
-    "deconstruction": 0.0006,
-    "evidence": 0.0031,
-    "grace": 0.1076,
-    "harm": 0.0395,
-    "love": 0.061,
+    "community": 0.0085,
+    "deconstruction": 0.0022,
+    "evidence": 0.0034,
+    "grace": 0.1187,
+    "harm": 0.0335,
+    "love": 0.0556,
     "truth": 0.0021
    }
   },
   "paulogia|reasonable-faith-org": {
-   "js": 0.0266,
+   "js": 0.0274,
    "terms": {
     "community": 0.0142,
-    "evidence": 0.026,
+    "evidence": 0.0246,
     "grace": 0.008,
     "harm": 0.0407,
     "love": 0.0249,
-    "truth": 0.0456
+    "truth": 0.0518
    }
   },
   "paulogia|shannon-q": {
-   "js": 0.0454,
+   "js": 0.0479,
    "terms": {
     "community": 0.0459,
     "deconstruction": 0.0116,
-    "evidence": 0.0265,
-    "harm": 0.0633,
-    "love": 0.0304,
-    "truth": 0.0945
+    "evidence": 0.0215,
+    "harm": 0.0707,
+    "love": 0.0337,
+    "truth": 0.104
    }
   },
   "prophet-of-zod|reasonable-faith-org": {
-   "js": 0.0721,
+   "js": 0.0783,
    "terms": {
-    "community": 0.0313,
-    "evidence": 0.0469,
-    "grace": 0.1611,
-    "harm": 0.1559,
-    "love": 0.0086,
-    "truth": 0.0285
+    "accountability": 0.1054,
+    "community": 0.0387,
+    "evidence": 0.0458,
+    "grace": 0.1739,
+    "harm": 0.1442,
+    "love": 0.0065,
+    "truth": 0.0334
    }
   },
   "prophet-of-zod|shannon-q": {
-   "js": 0.0853,
+   "js": 0.0837,
    "terms": {
-    "community": 0.0225,
-    "deconstruction": 0.0069,
-    "evidence": 0.0476,
-    "harm": 0.196,
-    "love": 0.1694,
-    "truth": 0.0693
+    "community": 0.0161,
+    "deconstruction": 0.0037,
+    "evidence": 0.0417,
+    "harm": 0.1949,
+    "love": 0.1682,
+    "truth": 0.0775
    }
   },
   "reasonable-faith-org|shannon-q": {
-   "js": 0.0423,
+   "js": 0.0439,
    "terms": {
     "community": 0.0922,
-    "evidence": 0.0,
-    "harm": 0.0026,
-    "love": 0.1074,
-    "truth": 0.0092
+    "evidence": 0.0001,
+    "harm": 0.0043,
+    "love": 0.1135,
+    "truth": 0.0095
    }
   }
  },
@@ -2514,16 +2535,31 @@
   "min_creator_words": 100000,
   "min_shared_terms": 3
  },
+ "pole_stability": {
+  "alternative_anchor_pairs_tested": 87,
+  "mean_rank_agreement": 0.479,
+  "measured_at": "2026-07-26",
+  "pairs_disagreeing": 0.572,
+  "positions_changing_side": 0.452,
+  "provisional": true,
+  "single_anchor_poles": [
+   "apologetics",
+   "deconstruction"
+  ],
+  "source": "docs/research/2026-07-26-anchor-register-falsification.md"
+ },
  "poles": {
   "apologetics": {
    "anchors": [
     "cross-examined"
-   ]
+   ],
+   "n_anchors": 1
   },
   "deconstruction": {
    "anchors": [
     "darante-lamar"
-   ]
+   ],
+   "n_anchors": 1
   }
  }
 }

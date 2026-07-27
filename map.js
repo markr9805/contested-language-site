@@ -216,7 +216,40 @@ function renderPolar() {
     "Non-anchor positions come from computed affinity weights — linguistic " +
     "proximity to each pole's anchors — so this is the readable view; check it " +
     "against the organic view, which imposes no categories.";
+  renderAnchorCaveat();
   renderPending("polar-pending", "polar");
+}
+
+// DESIGN §3: a claim that does not clear its bar is marked provisional with the
+// reason stated, never silently dropped. This axis was MEASURED unstable —
+// swapping in other same-side creators as anchors moves 45% of positions across
+// the midline — so the number has to travel with the chart, not sit in a
+// research document.
+//
+// Driven by `pole_stability.provisional`, which the export computes from the
+// roster's actual ensemble sizes. Designate more anchors per pole and this
+// disappears on its own rather than becoming a stale warning.
+function renderAnchorCaveat() {
+  const host = $("polar-caveat");
+  if (!host) return;
+  host.textContent = "";
+  const s = state.views.pole_stability;
+  if (!s || !s.provisional) return;
+
+  const pct = (x) => `${Math.round(x * 100)}%`;
+  const note = document.createElement("p");
+  note.className = "caveat";
+  note.textContent =
+    `Provisional: each pole is defined by a single anchor, and this axis ` +
+    `depends on that choice. Substituting other same-side creators as anchors ` +
+    `(${s.alternative_anchor_pairs_tested} combinations tested, ` +
+    `${s.measured_at}) moves ${pct(s.positions_changing_side)} of creators ` +
+    `across the midline, and ${pct(s.pairs_disagreeing)} of those choices ` +
+    `disagree with this one about the ordering. The instability tracks ` +
+    `speaking register, so the axis carries format as well as ideology. ` +
+    `Read a creator's side here as one defensible arrangement, not a fixed ` +
+    `position — the organic view imposes no poles and does not inherit this.`;
+  host.appendChild(note);
 }
 
 function isolatedCells(slug) {

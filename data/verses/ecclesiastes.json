@@ -1,6 +1,31 @@
 {
  "book": "Ecclesiastes",
  "verses": {
+  "Ecclesiastes 10:3": {
+   "citations": [
+    {
+     "confidence": 0.8371,
+     "context": "He turned the people against him, the people who who just needed that tiniest little push to to be that dogmatic about things. Um, this is why Zakarinaik is dangerous. I put a poll. If you disagree with me, answer the poll in the live chat. Do you think Zekar and Nayak is dangerous? I mean, it he he is kind of an imbecile, he is a fool. He is it's fun to laugh at him, but this has real world consequences, and even fools can be dangerous. And that's that's my opinion on that. Apostrophe. As by the apostasy, a person who is a Muslim and becomes a non-Muslim.",
+     "creator": "apostate-aladdin",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-04-11T20:30:51Z",
+     "role": "host",
+     "t": 1167.36,
+     "title": "Zakir Naik and the \"ONLY\" Maldivian Atheist",
+     "video_id": "1XBgheZ6jZ4"
+    }
+   ],
+   "creators": {
+    "apostate-aladdin": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Yea also, when he that is a fool walketh by the way, his wisdom faileth him, and he saith to every one that he is a fool.",
+    "WEB": "Yes also when the fool walks by the way, his understanding fails him, and he says to everyone that he is a fool."
+   },
+   "truncated": false
+  },
   "Ecclesiastes 3:1": {
    "citations": [
     {
@@ -48,6 +73,31 @@
    "text": {
     "KJV": "Keep thy foot when thou goest to the house of God, and be more ready to hear, than to give the sacrifice of fools: for they consider not that they do evil.",
     "WEB": "Guard your steps when you go to God’s house; for to draw near to listen is better than to give the sacrifice of fools, for they don’t know that they do evil."
+   },
+   "truncated": false
+  },
+  "Ecclesiastes 8:4": {
+   "citations": [
+    {
+     "confidence": 0.8333,
+     "context": "Talk about a system inbuilt for oppression and harm. So I think both Old and New Testament you can get some pretty good ideas. And by the way, there's a lot more verses. There's some that can even be taken out of context. Ecclesiastes 8 4 says, Since a king's word is supreme, who can say to him, What are you doing? This is more a statement of how things are than an endorsement that God wants them in this way, but we have those endorsements elsewhere. And also, if we believe the religious tradition of who wrote Ecclesiastes, it is King Solomon, not only a king, but a king who got his wisdom straight from God making this announcement.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-07-31T14:00:33Z",
+     "role": "host",
+     "t": 205.64,
+     "title": "5 Insane Religious Harms in Just 15 Minutes!",
+     "video_id": "EYXvTkNWAyk"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Where the word of a king is, there is power: and who may say unto him, What doest thou?",
+    "WEB": "for the king’s word is supreme. Who can say to him, “What are you doing?”"
    },
    "truncated": false
   }

@@ -26,6 +26,43 @@
    },
    "truncated": false
   },
+  "1 Timothy 1:17": {
+   "citations": [
+    {
+     "confidence": 0.8002,
+     "context": "However, the facts of history show there is one God who exists as three persons, and one of these persons, God the Son, rose from the dead. Through the word of God given to us in sacred scripture and sacred tradition, we know this one God created everything, and there are no other gods. First Timothy 117 says God is the king of ages, immortal, invisible, the only God. And in Isaiah 44, six, God says, I am the first and I am the last. Besides me, there is no God.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-03-20T20:15:00Z",
+     "role": "host",
+     "t": 93.2,
+     "title": "Are Christians atheists?",
+     "video_id": "26YjEz2R2z4"
+    },
+    {
+     "confidence": 0.8003,
+     "context": "However, the facts of history show there is one God who exists as three persons, and one of these persons, God the Son, rose from the dead. Through the word of God given to us in sacred scripture and sacred tradition, we know this one God created everything, and there are no other gods. First Timothy 117 says God is the king of ages, immortal, invisible, the only God. And in Isaiah 44 6, God says, I am the first and I am the last. Besides me, there is no God.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-06-02T16:45:00Z",
+     "role": "host",
+     "t": 75.04,
+     "title": "Do Atheists believe in \"one less god\" than Christians?",
+     "video_id": "4i9F4kVA8Nc"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "Now unto the King eternal, immortal, invisible, the only wise God, be honour and glory for ever and ever. Amen.",
+    "WEB": "Now to the King eternal, immortal, invisible, to God who alone is wise, be honor and glory forever and ever. Amen."
+   },
+   "truncated": false
+  },
   "1 Timothy 1:9": {
    "citations": [
     {
@@ -39,12 +76,25 @@
      "t": 2210.24,
      "title": "What the Bible Really Says About Sex and Gender (According to Scholars)",
      "video_id": "-SWBxq7joWY"
+    },
+    {
+     "confidence": 0.8083,
+     "context": "All right. So because I successfully matriculated through childhood, I actually don't need laws to be written for me to know that some action will yield some consequence. Even the Bible says that the law is for the lawless, it's for the people who are incapable of governing themselves. So, yikes. No, if if you've lived life, then you already know that actions have consequences.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-12-09T18:13:50Z",
+     "role": "host",
+     "t": 2129.76,
+     "title": "What Gives Life Meaning Without God?",
+     "video_id": "0zo_nxCl3vY"
     }
    ],
    "creators": {
+    "darante-lamar": 1,
     "genetically-modified-skeptic": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Knowing this, that the law is not made for a righteous man, but for the lawless and disobedient, for the ungodly and for sinners, for unholy and profane, for murderers of fathers and murderers of mothers, for manslayers,",
     "WEB": "as knowing this, that law is not made for a righteous person, but for the lawless and insubordinate, for the ungodly and sinners, for the unholy and profane, for murderers of fathers and murderers of mothers, for manslayers,"
@@ -53,6 +103,18 @@
   },
   "1 Timothy 2:13": {
    "citations": [
+    {
+     "confidence": 0.75,
+     "context": "They say, no, no, no, you don't understand. Paul was talking just to one church. It was a particular issue going on with a particular group of women, which is not biblical. And in fact, it does more than just not say that. It says something to the exact opposite, which is the second part of the verse that normally gets dropped. Adam was formed first, then Eve, right? They're already saying Eve is an afterthought of God, and Eve representing all women. That means all women are afterthoughts. They're all less than. And Adam was not the one deceived. It was the woman who was deceived and became a sinner.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-07-06T14:00:32Z",
+     "role": "unattributed",
+     "t": 846.68,
+     "title": "18 Embarrassing Bible Verses: Get Ready to Facepalm!",
+     "video_id": "ExmOVHWR9AA"
+    },
     {
      "confidence": 1.0,
      "context": "Let a woman learn in silence with full submission. I do not permit a woman to teach or to have authority over a man. She is to keep silent, for Adam was formed first, then Eve, and Adam was not deceived, but the woman was deceived and became a transgressor. Now, one could argue, as most people do, that there is a direct continuity between these ancient teachers' ideas and what conservative Christian pastors teach today.",
@@ -67,17 +129,152 @@
     }
    ],
    "creators": {
-    "genetically-modified-skeptic": 1
+    "genetically-modified-skeptic": 1,
+    "mindshift": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "For Adam was first formed, then Eve.",
     "WEB": "For Adam was formed first, then Eve."
    },
    "truncated": false
   },
+  "1 Timothy 2:2": {
+   "citations": [
+    {
+     "confidence": 0.776,
+     "context": "That's not that's not the thing, but. But government is something that God uses according according to scripture, it's God uses government to terrorize the wicked, to defend people, and to create peaceful environments, and that that's important for us. Pray for all men that you know, those in authority that we may live peaceful and godly lives. That's what they're supposed to do on a Christian worldview. Now, me as a Christian advocating for governments to do that, that's a very Christian prop progress, progressive thing for me to do. Like I'm doing something that is honoring Christ to advocate for government to do the right thing.",
+     "creator": "mike-winger",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-11-24T22:20:03Z",
+     "role": "host",
+     "t": 2126.08,
+     "title": "It's actually getting WORSE! We need to do something.",
+     "video_id": "2g8jMf5r-mI"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For kings, and for all that are in authority; that we may lead a quiet and peaceable life in all godliness and honesty.",
+    "WEB": "for kings and all who are in high places, that we may lead a tranquil and quiet life in all godliness and reverence."
+   },
+   "truncated": false
+  },
+  "1 Timothy 2:3": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "That sounds like resurrection for everybody. It doesn't necessarily guarantee a happy resurrection, but the connotation is with life, which is being opposed here to death. So there's that. In first Timothy 2 3 through 4, we get this is good, and it is pleasing in the sight of God our Savior, who desires all people to be saved and to come to the knowledge of the truth. That's a really stretch of a verse there. I love this verse in terms of making the case that this Bible, if this God were true, proves that he already lost.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-02-23T15:01:19Z",
+     "role": "unattributed",
+     "t": 1783.28,
+     "title": "Hell Was an Afterthought: The Evolution of the Biblical Afterlife",
+     "video_id": "zEOj-ceCy58"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For this is good and acceptable in the sight of God our Saviour;",
+    "WEB": "For this is good and acceptable in the sight of God our Savior,"
+   },
+   "truncated": false
+  },
   "1 Timothy 2:4": {
    "citations": [
+    {
+     "confidence": 0.8757,
+     "context": "And it could be, well, two things. The Bible seems to indicate that if you truly are seeking God through natural revelation, he will get you the information you need to be saved. Because God wants people to be saved more than we do, He wants everybody to be saved, right? So if you're seeking God, you're gonna get the information you need to be saved. This is why in many Muslim countries now, this is very prevalent, Muslims are having dreams and visions of Jesus, so much so that there are billboards in some of these countries saying, if you've seen the man in the white robe, call this number, right?",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-25T02:16:36Z",
+     "role": "unknown",
+     "t": 7535.56,
+     "title": "'Change My Mind' LIVE Q&A Northern Michigan Univ. (Marquette, MI)",
+     "video_id": "-7cAMVvoO1I"
+    },
+    {
+     "confidence": 0.8196,
+     "context": "Prayers to God are not just showpieces that have been scripted by God, but they are the cry of the human heart to God. I think most persuasively would be the fact that even though scripture says that it is God's will that no one be lost, uh, but that all should reach repentance, that all should be saved and come to a knowledge of the truth, nevertheless, it teaches clearly that some people will in fact be lost and not come to a knowledge of the truth.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-08-25T20:00:00Z",
+     "role": "host",
+     "t": 113.6,
+     "title": "Calvinism vs Human Free Will",
+     "video_id": "-Xp6t-_AqaM"
+    },
+    {
+     "confidence": 0.8768,
+     "context": "Now, Dr. Parsons then raised a third point that hell is an awful doctrine. Well, what I would simply say here is that hell is the result of persons who freely separate themselves from God. It is not a result of God's will or desire. The Bible clearly says God's desire is that every person should be saved and come to a knowledge of the truth, and that's why he gave his son, so that everyone would come to know him. The only reason that everybody doesn't go to heaven is because some people freely separate themselves from God forever.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2014-07-28T23:22:07Z",
+     "role": "unknown",
+     "t": 76.96,
+     "title": "Is The Christian View of Hell Coherent?",
+     "video_id": "1kcDyOp_LaM"
+    },
+    {
+     "confidence": 0.8687,
+     "context": "So let's just do that now. So, Father Gregory, whenever you're ready, take uh a few minutes and just lay out the case for the traditional understanding. Okay. Um, traditional understanding begins with the promise of salvation. So God desires that all be saved and come to the knowledge of the truth. And what we observe in salvation history is a kind of movement of condescension, whereby God makes it such that we can recognize and respond to him in a genuinely human fashion.",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-09-25T19:29:31Z",
+     "role": "host",
+     "t": 88.64,
+     "title": "Defending the Eucharist Q&A with Fr. Gregory Pine",
+     "video_id": "2aDcnN4xCs8"
+    },
+    {
+     "confidence": 0.8324,
+     "context": "And if you ask uh for a defense of Christian particularism, it would be based upon human freedom. I think that God's will, as it says in 1 Timothy 2 14, is that every person be saved and come to a knowledge of the truth, but people have freedom of the will to reject God's love and forgiveness, and so to separate themselves from God irrevocably.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2021-02-26T20:33:48Z",
+     "role": "host",
+     "t": 158.76,
+     "title": "Is Universalism Biblical?",
+     "video_id": "3sOZQN__gGw"
+    },
+    {
+     "confidence": 0.7879,
+     "context": "Now there are some Protestants who would say, Oh, absolutely, yes, you 100% are. You and everybody else who ever never knew Jesus, even a 10-year-old Native American girl living 600 years ago who could not have possibly known Jesus, she's going to hell for sure. But I think many Protestants I speak to don't hold to that view. They hold to the possibility of salvation for those, even if they don't have full knowledge of the means of salvation that Christ gave us. I think many Protestants hold to that view, an inclusivist view of salvation, where it's possible, but not guaranteed. And I would say the same thing to someone who is not Catholic, you are a Christian, you are baptized.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-03-11T19:30:02Z",
+     "role": "unattributed",
+     "t": 33.68,
+     "title": "Are Protestants outside of salvation?",
+     "video_id": "5Kj7Emf_oS0"
+    },
+    {
+     "confidence": 0.5,
+     "context": "But perhaps that's because these passages about universalism allegedly do not teach everyone will be saved. Instead, they express the hope that anyone can be saved. In First Timothy 2 4, for example, Saint Paul says that God desires all men to be saved and to come to the knowledge of the truth. But God also desires that we not sin, and yet we still sin. God's antecedent will, or his general desire, is that we always choose good over evil, and that all people will choose him.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-08-11T13:00:33Z",
+     "role": "host",
+     "t": 849.16,
+     "title": "The Biggest Heresy Destroying the Church",
+     "video_id": "DaIzJxPIhtw"
+    },
     {
      "confidence": 0.5,
      "context": "Some people will not be saved. I think that is as clear as anything in the New Testament. Salvation will not be universal. Now, given that the New Testament also teaches that God's will for salvation is universal, that God wants all people to be saved and come to a knowledge of the truth. It seems to me that the only thing that it could explain why God's universal salvic will is not accomplished is human freedom.",
@@ -101,13 +298,29 @@
      "t": 342.76,
      "title": "Can God Be Grieved?",
      "video_id": "w573XLy42FM"
+    },
+    {
+     "confidence": 0.5,
+     "context": "That sounds like resurrection for everybody. It doesn't necessarily guarantee a happy resurrection, but the connotation is with life, which is being opposed here to death. So there's that. In first Timothy 2 3 through 4, we get this is good, and it is pleasing in the sight of God our Savior, who desires all people to be saved and to come to the knowledge of the truth. That's a really stretch of a verse there. I love this verse in terms of making the case that this Bible, if this God were true, proves that he already lost.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-02-23T15:01:19Z",
+     "role": "unattributed",
+     "t": 1783.28,
+     "title": "Hell Was an Afterthought: The Evolution of the Biblical Afterlife",
+     "video_id": "zEOj-ceCy58"
     }
    ],
    "creators": {
-    "drcraigvideos": 1,
+    "capturing-christianity": 1,
+    "counsel-of-trent": 2,
+    "cross-examined": 1,
+    "drcraigvideos": 4,
+    "mindshift": 1,
     "reasonable-faith-org": 1
    },
-   "n": 2,
+   "n": 10,
    "text": {
     "KJV": "Who will have all men to be saved, and to come unto the knowledge of the truth.",
     "WEB": "who desires all people to be saved and come to full knowledge of the truth."
@@ -116,6 +329,18 @@
   },
   "1 Timothy 2:5": {
    "citations": [
+    {
+     "confidence": 0.8344,
+     "context": "Is God a good father? It's a very interesting question, right? Because the presupposition is yes, God is a good father. God is the good father. God is a good father who gives gifts from above. God is the father of all. There is one God, and one that one God is the father of all. This is the type of language that is used through Scripture over and over and over again. But not just in Scripture, but it's also used in our services, in our sermons, and in the way that we interact with each other.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-04-18T12:30:01Z",
+     "role": "host",
+     "t": 14.64,
+     "title": "Is God a Good Father?",
+     "video_id": "2PammnumdmE"
+    },
     {
      "confidence": 0.7692,
      "context": "The Bible says that God loves all people and wants everyone to come to him and find eternal life. God desires all people to be saved and to come to the knowledge of the truth. For there is one God and there is one mediator between God and men, the man, Christ Jesus.",
@@ -142,13 +367,102 @@
     }
    ],
    "creators": {
+    "darante-lamar": 1,
     "drcraigvideos": 1,
     "reasonable-faith-org": 1
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "For there is one God, and one mediator between God and men, the man Christ Jesus;",
     "WEB": "For there is one God and one mediator between God and men, the man Christ Jesus,"
+   },
+   "truncated": false
+  },
+  "1 Timothy 2:6": {
+   "citations": [
+    {
+     "confidence": 0.8171,
+     "context": "So it's true, uh, but so what? 1,993 years ago this Sunday, Jesus rose from the dead. So what? Well, the best news of all, someone actually did die for you. And as he said, the Son of Man did not come to be served but to serve and to give his life as a ransom for many. A ransom. What does that mean? He sacrificed his perfect self who had never sinned for us.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-04-01T02:32:11Z",
+     "role": "host",
+     "t": 4803.48,
+     "title": "'Change My Mind' LIVE Q&A from Ole Miss (Oxford, MS)",
+     "video_id": "2FBZ3gpea7I"
+    }
+   ],
+   "creators": {
+    "cross-examined": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Who gave himself a ransom for all, to be testified in due time.",
+    "WEB": "who gave himself as a ransom for all, the testimony at the proper time,"
+   },
+   "truncated": false
+  },
+  "1 Timothy 3:2": {
+   "citations": [
+    {
+     "confidence": 0.766,
+     "context": "Let me explain how it works, then I'm going to try to refute it for your information. So the argument goes like this You say, Hey, 1 Timothy 3 2, it gives qualifications for elders. And one of those qualifications is that he has to be the husband of one wife. That would rule out any polygamist from being an elder in the church, a pastor. And the polygamist responds by saying, Actually, you must be wrong, because King David couldn't possibly be disqualified from being a pastor in your church.",
+     "creator": "mike-winger",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-11-12T07:33:06Z",
+     "role": "host",
+     "t": 17.52,
+     "title": "Fire this pastor",
+     "video_id": "-Jo_DfBzFfM"
+    },
+    {
+     "confidence": 0.8098,
+     "context": "That in and of itself, even if it is about polygamy, which it might not be, it might be about not remarrying after either divorce or the loss of a wife. But even if it is about polygamy, all it's saying is if you want to be uh an overseer, you need to be the husband of one wife. It's not saying there's something flatly immorally innately wrong with uh being the husband of more than one wife. So this is flatly misrepresenting what uh sexuality is in the Bible, what's uh marriage is in the Bible, and it differs from earlier in the Bible to to later in the Bible.",
+     "creator": "genetically-modified-skeptic",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-07-03T15:48:37Z",
+     "role": "unknown",
+     "t": 4592.84,
+     "title": "I Took A Gay Conversion Class for Christian Teens. It Was Awful.",
+     "video_id": "-QnyYMEy3HA"
+    }
+   ],
+   "creators": {
+    "genetically-modified-skeptic": 1,
+    "mike-winger": 1
+   },
+   "n": 2,
+   "text": {
+    "KJV": "A bishop then must be blameless, the husband of one wife, vigilant, sober, of good behaviour, given to hospitality, apt to teach;",
+    "WEB": "The overseer therefore must be without reproach, the husband of one wife, temperate, sensible, modest, hospitable, good at teaching;"
+   },
+   "truncated": false
+  },
+  "1 Timothy 4:10": {
+   "citations": [
+    {
+     "confidence": 0.8148,
+     "context": "That's a possibility. But at the end of the day, we have to say this. Nobody in the afterlife is gonna be treated unfairly because God is the standard of justice. So even though we can't figure all this out, perhaps, we trust in the justice, love, and mercy of God. And we also know how people are saved, without any doubt, so we risk all to get people the gospel.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-02-25T02:16:36Z",
+     "role": "host",
+     "t": 7639.04,
+     "title": "'Change My Mind' LIVE Q&A Northern Michigan Univ. (Marquette, MI)",
+     "video_id": "-7cAMVvoO1I"
+    }
+   ],
+   "creators": {
+    "cross-examined": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For therefore we both labour and suffer reproach, because we trust in the living God, who is the Saviour of all men, specially of those that believe.",
+    "WEB": "For to this end we both labor and suffer reproach, because we have set our trust in the living God, who is the Savior of all men, especially of those who believe."
    },
    "truncated": false
   },
@@ -174,6 +488,81 @@
    "text": {
     "KJV": "For bodily exercise profiteth little: but godliness is profitable unto all things, having promise of the life that now is, and of that which is to come.",
     "WEB": "For bodily exercise has some value, but godliness has value in all things, having the promise of the life which is now and of that which is to come."
+   },
+   "truncated": false
+  },
+  "1 Timothy 5:18": {
+   "citations": [
+    {
+     "confidence": 0.8465,
+     "context": "Um, I think these are questions that we often don't. I am too. I I mean I can speak in tongues with the best of them. Like Paul, I spoke in tongues more than you all. Let me stop. Yeah, even Paul whined about not getting paid. He said, You can't muzzle the ox that feeds you now. You can't, oh no, what did you can't muzzle the ox that that uh threshes the corn? It's something like wheat, it's something. It's in there, but uh, but yeah, it's um what does what does long-term community involvement look like? And and I think that's the question that has to be wrestled with for everybody because that's not a qu that's not something that one person can answer.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-04-14T19:21:40Z",
+     "role": "host",
+     "t": 7564.76,
+     "title": "Sunday Sessions // Building Community w/out Superstition",
+     "video_id": "09Y9uDUzvuA"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For the scripture saith, Thou shalt not muzzle the ox that treadeth out the corn. And, The labourer is worthy of his reward.",
+    "WEB": "For the Scripture says, “You shall not muzzle the ox when it treads out the grain.” And, “The laborer is worthy of his wages.”"
+   },
+   "truncated": false
+  },
+  "1 Timothy 5:19": {
+   "citations": [
+    {
+     "confidence": 0.8671,
+     "context": "I met with Sean right here in this auditorium in the lower floor. I immediately called him because he was pastor right here in LA. Expression 58 at that time. Now when I met him, he denied everything. But now keep in mind the Bible says don't bring an accusation against an elder unless there's two or more. But it was so devastating, and they the confession was so credible when I interviewed this young man that I immediately asked him to step down from HIM.",
+     "creator": "mike-winger",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-03-05T06:50:03Z",
+     "role": "unknown",
+     "t": 1596.04,
+     "title": "Will Anyone Hold Him Accountable?",
+     "video_id": "51xmYrMq8Kk"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Against an elder receive not an accusation, but before two or three witnesses.",
+    "WEB": "Don’t receive an accusation against an elder except at the word of two or three witnesses."
+   },
+   "truncated": false
+  },
+  "1 Timothy 5:8": {
+   "citations": [
+    {
+     "confidence": 0.8398,
+     "context": "But how? Deep down, I really think Christians know this. You can't do what Jesus asked you to do if you want to be alive, if you want to take care of your family. And so you'll recalibrate, just like Paul did, 1 Timothy 5 8. Whoever does not provide for relatives has denied the faith and is worse than an unbeliever. What? Now I know Paul didn't have the gospels to read, but you do. So when you have Jesus saying, Don't worry about tomorrow, it'll take care of itself. Don't store up treasures here on earth.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-24T15:00:08Z",
+     "role": "host",
+     "t": 1302.8,
+     "title": "Taking the Words of Christ More Seriously Than Christians",
+     "video_id": "5XaY5xx6MCs"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But if any provide not for his own, and specially for those of his own house, he hath denied the faith, and is worse than an infidel.",
+    "WEB": "But if anyone doesn’t provide for his own, and especially his own household, he has denied the faith and is worse than an unbeliever."
    },
    "truncated": false
   },

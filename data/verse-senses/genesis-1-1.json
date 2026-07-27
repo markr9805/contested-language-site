@@ -5,7 +5,7 @@
     "cite_key": "1e923ef572c16e241b1edee9531207173e910e51644bb1261abfa05563565637",
     "context": "One of the main doctrines of the Christian faith is that God created the universe out of nothing a finite time ago. The Bible begins with the words, in the beginning, God created the heavens and the earth. The Bible thus teaches that the universe had a beginning. This doctrine was repudiated both by ancient Greek philosophy as well as modern atheism.",
     "creator": "drcraigvideos",
-    "dist": 0.3299,
+    "dist": 0.3302,
     "published_at": "2024-04-22T17:17:28Z",
     "role": "host",
     "t": 9.76,
@@ -17,7 +17,7 @@
     "cite_key": "b430e6206dee547d866996cfa88592d2546ffe212358892866193bdc0ccb3e5e",
     "context": "In your view, is that the start of the creation of this earth, or is it the creation of the universe? Good question. In Hebrew, they did not have a word for the universe. When the ancient Jew wanted to speak of everything there is, he would say, the heavens and the earth. So Genesis 1:1 is about the creation of the universe. In the beginning, God created the universe. And it's only beginning with verse 2 that the focus dramatically narrows to the earth.",
     "creator": "drcraigvideos",
-    "dist": 0.3429,
+    "dist": 0.3497,
     "published_at": "2015-11-02T14:41:41Z",
     "role": "host",
     "t": 47.36,
@@ -29,7 +29,7 @@
     "cite_key": "fc8a9f3b36899a4c4cb31cdb6d159940998833cddd639bb1e696641b7313ee02",
     "context": "In Hebrew, they did not have a word for the universe. When the ancient Jew wanted to speak of everything there is, he would say the heavens and the earth. So Genesis 1:1 is about the creation of the universe. In the beginning, God created the universe. And it's only beginning with verse 2 that the focus dramatically narrows to the earth. And verse 2 says, and the earth was without form and void.",
     "creator": "drcraigvideos",
-    "dist": 0.3507,
+    "dist": 0.3574,
     "published_at": "2023-06-06T23:24:24Z",
     "role": "host",
     "t": 12.88,
@@ -41,7 +41,7 @@
     "cite_key": "00063d9d9d53dbbc3c44b113964ff3bcf154fde88217d38b3e00131b7ba489a5",
     "context": "In Hebrew, they did not have a word for the universe. When the ancient Jew wanted to speak of everything there is, he would say the heavens and the earth. So Genesis 1 1 is about the creation of the universe. In the beginning, God created the universe. And it's only beginning with verse 2 that the focus dramatically narrows to the earth.",
     "creator": "drcraigvideos",
-    "dist": 0.3533,
+    "dist": 0.3597,
     "published_at": "2025-11-08T16:00:23Z",
     "role": "host",
     "t": 5.92,
@@ -53,7 +53,7 @@
     "cite_key": "9d11d6ee1d8c25e9cd94159aad6b30f27557e5090bed00e380baf83157e2f24f",
     "context": "In Hebrew, they did not have a word for the universe. When the ancient Jew wanted to speak of everything there is, he would say the heavens and the earth. So Genesis 1 1 is about the creation of the universe. In the beginning, God created the universe. And it's only beginning with verse 2 that the focus dramatically narrows to the earth.",
     "creator": "drcraigvideos",
-    "dist": 0.3533,
+    "dist": 0.3597,
     "published_at": "2025-02-15T16:00:25Z",
     "role": "host",
     "t": 5.84,
@@ -146,14 +146,14 @@
     },
     "cross-examined": {
      "counts": [
-      11,
+      13,
       11
      ],
      "dist": [
-      0.5,
-      0.5
+      0.5417,
+      0.4583
      ],
-     "n": 22,
+     "n": 24,
      "status": "ok"
     },
     "darante-lamar": {
@@ -179,6 +179,14 @@
      ],
      "n": 17,
      "status": "ok"
+    },
+    "genetically-modified-skeptic": {
+     "counts": [
+      1,
+      0
+     ],
+     "n": 1,
+     "status": "insufficient-data"
     },
     "jackie-hill-perry": {
      "counts": [
@@ -222,8 +230,8 @@
     }
    },
    "divergences": {
-    "cross-examined|darante-lamar": 0.3113,
-    "cross-examined|drcraigvideos": 0.3113,
+    "cross-examined|darante-lamar": 0.2791,
+    "cross-examined|drcraigvideos": 0.2791,
     "darante-lamar|drcraigvideos": 0.0
    }
   },
@@ -231,14 +239,14 @@
    "cells": {
     "overall": {
      "counts": [
-      56,
+      59,
       12
      ],
      "dist": [
-      0.8235,
-      0.1765
+      0.831,
+      0.169
      ],
-     "n": 68,
+     "n": 71,
      "status": "ok"
     }
    },
@@ -248,14 +256,14 @@
    "cells": {
     "host": {
      "counts": [
-      45,
+      48,
       12
      ],
      "dist": [
-      0.7895,
-      0.2105
+      0.8,
+      0.2
      ],
-     "n": 57,
+     "n": 60,
      "status": "ok"
     },
     "unattributed": {
@@ -313,14 +321,14 @@
     },
     "2024": {
      "counts": [
-      16,
+      17,
       0
      ],
      "dist": [
       1.0,
       0.0
      ],
-     "n": 16,
+     "n": 17,
      "status": "ok"
     },
     "2025": {
@@ -337,27 +345,27 @@
     },
     "2026": {
      "counts": [
-      18,
+      20,
       12
      ],
      "dist": [
-      0.6,
-      0.4
+      0.625,
+      0.375
      ],
-     "n": 30,
+     "n": 32,
      "status": "ok"
     }
    },
    "divergences": {
     "2024|2025": 0.0,
-    "2024|2026": 0.2365,
-    "2025|2026": 0.2365
+    "2024|2026": 0.219,
+    "2025|2026": 0.219
    }
   }
  },
  "k": 2,
- "n": 68,
- "silhouette": 0.1379,
+ "n": 71,
+ "silhouette": 0.1308,
  "status": "ok",
  "verse_ref": "Genesis 1:1"
 }

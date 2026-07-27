@@ -1,15 +1,15 @@
 {
  "lines": {
-  "31127": {
-   "context": "Like sometimes if they find was it salt sprinkled somewhere or some remnant of something that's part of the ritual outside their doorstep, they know that they've been tagged, you know, for that kind of harm. So part of it is maybe you know, don't use this dark stuff that will harm other people. Exactly. And I think an element of it is that if you do it, then you're opening this door that will bring in more darkness and more harm, then it's out of your control. Yeah.",
-   "creator": "apostate-aladdin",
-   "occurrence_id": 31127,
-   "published_at": "2025-10-31T09:05:24Z",
+  "11832": {
+   "context": "I gotta be honest with you. Like I get it, religion is bad, religion does harm. But we need to show people that freedom is escape from the harm. That freedom, that freedom is getting getting away from the harm, not staying stuck in it. How am I free if I'm still stuck in the harm? So we're trying to feature our members not just for their testimony of their sufferings, but for their exhibition of their living. We want to platform people not only for what they survived, but for what makes them come alive.",
+   "creator": "darante-lamar",
+   "occurrence_id": 11832,
+   "published_at": "2026-04-13T07:23:39Z",
    "role": "host",
    "surface": "harm",
-   "t": 4058.88,
-   "title": "Ex-Muslim Halloween Special: The Jinn Stories That Haunted Our Childhoods",
-   "video_id": "VpI7PgxotRI"
+   "t": 2967.12,
+   "title": "How You Livin' // LOUDER",
+   "video_id": "A8NF_9RlKHg"
   }
  },
  "profiles": [
@@ -18,86 +18,42 @@
    "cell": "creator=darante-lamar",
    "claims": [
     {
-     "aspect": "rhetorical-role",
+     "aspect": "function",
      "evidence": [
-      31127
+      11832
      ],
-     "text": "The speaker frames the desire to decrease harm and increase well-being as a central motivation for their work and community efforts (L14, L15)."
+     "text": "The term 'harm' is used to describe how simplistic moral frameworks allow for the justification of negative actions, such as condemnation or excommunication (L1). It also functions to identify specific instances where power structures excuse wrongdoing by focusing on intention rather than outcome (L14). Furthermore, it describes a process where people are required to act against their conscience, leading to 'moral injury' (L4)."
     }
    ],
    "composition": {
-    "apostate-aladdin": 1
+    "darante-lamar": 1
    },
-   "data_hash": "dc485ab3ad78ebef0ccfd34a",
+   "data_hash": "7bb99f4c08dbb2f235537d48",
    "dropped_claims": 0,
-   "generated_at": "2026-07-19T14:35:02Z",
+   "generated_at": "2026-07-19T14:34:33Z",
    "k": 2,
    "model": "ollama:gemma4:e4b:c6eb396dbd59",
-   "n": 528,
+   "n": 631,
    "prompt_version": "1",
    "sampled": [
-    15619,
-    14803,
-    26354,
-    857,
-    26355,
-    20174,
-    20175,
-    15620,
-    19815,
-    34339,
-    12026,
-    2052,
-    7738,
-    30389,
-    31127,
-    27265
+    20170,
+    697,
+    8253,
+    11832,
+    31445,
+    4979,
+    20164,
+    33093,
+    19447,
+    24987,
+    13718,
+    22450,
+    5132,
+    18669,
+    10647,
+    20173
    ],
-   "sense": 1,
-   "stale": true,
-   "term": "harm"
-  },
-  {
-   "aspects_missing": [],
-   "cell": "overall",
-   "claims": [
-    {
-     "aspect": "rhetorical-role",
-     "evidence": [
-      31127
-     ],
-     "text": "The speaker frames the desire to decrease harm and increase well-being as a central motivation for their work and community efforts (L14, L15)."
-    }
-   ],
-   "composition": {
-    "apostate-aladdin": 1
-   },
-   "data_hash": "f493fc513c4c1289f346f5d2",
-   "dropped_claims": 0,
-   "generated_at": "2026-07-19T14:36:23Z",
-   "k": 2,
-   "model": "ollama:gemma4:e4b:c6eb396dbd59",
-   "n": 529,
-   "prompt_version": "1",
-   "sampled": [
-    15619,
-    14803,
-    26354,
-    857,
-    26355,
-    20174,
-    20175,
-    15620,
-    19815,
-    34339,
-    12026,
-    2052,
-    7738,
-    30389,
-    31127,
-    27265
-   ],
-   "sense": 1,
+   "sense": 0,
    "stale": true,
    "term": "harm"
   }

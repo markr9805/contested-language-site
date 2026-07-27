@@ -258,6 +258,15 @@ button.stat-tile:hover { border-color: var(--series-1); }
 .chart-tooltip .tt-value { font-size: 16px; font-weight: 650; }
 .chart-tooltip .tt-label { color: var(--text-secondary); font-size: 12px; }
 .chart-caption { margin: 8px 0 0; font-size: 11px; color: var(--text-muted); }
+/* Provisional disclosure attached to a chart. Uses --caution and the word
+   "Provisional" so it reads as the same class of statement as
+   .bar-chip.provisional — the site should have one vocabulary for "this claim
+   does not clear its bar", not a new one per view. --caution is declared in all
+   three palette blocks, so it adapts to the theme toggle and to the no-JS
+   prefers-color-scheme fallback. */
+.caveat { margin: 8px 0 0; padding: 8px 10px; font-size: 11px; line-height: 1.6;
+          color: var(--text-muted); border-left: 2px solid var(--caution);
+          background: var(--surface-2); border-radius: 0 4px 4px 0; }
 
 /* ---- tables -------------------------------------------------------------------- */
 .data-table { width: 100%; border-collapse: collapse; font-size: 13px; }
