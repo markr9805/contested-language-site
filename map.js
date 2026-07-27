@@ -229,26 +229,60 @@ function renderPolar() {
 // Driven by `pole_stability.provisional`, which the export computes from the
 // roster's actual ensemble sizes. Designate more anchors per pole and this
 // disappears on its own rather than becoming a stale warning.
+// The stronger caveat, and the one an earlier draft got wrong. It said
+// "positions near the middle are the least settled", which implies some are
+// not. Measured: non-anchor creators occupy under 6% of the axis they are drawn
+// on, median |x| = 0.009 — nearly all are near the middle, so "which side"
+// carries little information for most of them. The anchors are pinned to +/-1
+// by construction, which is what makes the chart look separated at all.
+function occupancy(s) {
+  const o = s.axis_occupancy;
+  if (!o) return "";
+  return ` Note the scale: excluding the anchors — pinned to the ends by` +
+         ` definition — the ${o.positioned} placed creators span only` +
+         ` ${Math.round(o.fraction_of_axis * 100)}% of this axis` +
+         ` (${o.lo.toFixed(3)} to ${o.hi.toFixed(3)}), and` +
+         ` ${o.within_0_05_of_midline} of them sit within 0.05 of the midline.` +
+         ` For those, which side of the line they fall on carries little` +
+         ` information.`;
+}
+
 function renderAnchorCaveat() {
   const host = $("polar-caveat");
   if (!host) return;
   host.textContent = "";
   const s = state.views.pole_stability;
-  if (!s || !s.provisional) return;
-
+  if (!s) return;
   const pct = (x) => `${Math.round(x * 100)}%`;
   const note = document.createElement("p");
   note.className = "caveat";
-  note.textContent =
-    `Provisional: each pole is defined by a single anchor, and this axis ` +
-    `depends on that choice. Substituting other same-side creators as anchors ` +
-    `(${s.alternative_anchor_pairs_tested} combinations tested, ` +
-    `${s.measured_at}) moves ${pct(s.positions_changing_side)} of creators ` +
-    `across the midline, and ${pct(s.pairs_disagreeing)} of those choices ` +
-    `disagree with this one about the ordering. The instability tracks ` +
-    `speaking register, so the axis carries format as well as ideology. ` +
-    `Read a creator's side here as one defensible arrangement, not a fixed ` +
-    `position — the organic view imposes no poles and does not inherit this.`;
+
+  if (s.provisional) {
+    // Severe: a pole defined by one creator.
+    note.textContent =
+      `Provisional: each pole is defined by a single anchor, and this axis ` +
+      `depends on that choice. Substituting other same-side creators as ` +
+      `anchors moves ${pct(s.positions_changing_side)} of creators across the ` +
+      `midline, and ${pct(s.pairs_disagreeing)} of those choices disagree with ` +
+      `this one about the ordering. The instability tracks speaking register, ` +
+      `so the axis carries format as well as ideology. Read a creator's side ` +
+      `here as one defensible arrangement, not a fixed position.` +
+      occupancy(s);
+  } else if (s.residual_instability) {
+    // Reduced, not eliminated. Saying "resolved" here would trade a loud
+    // overstatement for a quiet one.
+    note.textContent =
+      `Each pole is defined by ${s.anchors_per_pole} anchors, which makes this ` +
+      `axis substantially more stable than a single-anchor definition — but ` +
+      `not fixed. Across every alternative set of ${s.anchors_per_pole} ` +
+      `same-side anchors, ${pct(s.pairs_disagreeing)} still disagree with this ` +
+      `ordering, and the worst case inverts it. The instability tracks ` +
+      `speaking register, so the axis carries format as well as ideology. ` +
+      occupancy(s) +
+      ` The organic view imposes no poles and does not inherit this.`;
+  } else {
+    return;
+  }
   host.appendChild(note);
 }
 

@@ -4,7 +4,7 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9843
+     "weight": 0.9436
     },
     "apologetics-critique": {
      "source": "seed",
@@ -12,7 +12,7 @@
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.9594
+     "weight": 0.9786
     }
    },
    "contact_facing": "dialogue-facing",
@@ -30,7 +30,7 @@
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": -0.0128,
+    "x": 0.0182,
     "y": 0.0206
    },
    "pole": null,
@@ -41,11 +41,11 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9726
+     "weight": 0.9454
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.9156
+     "weight": 0.9522
     }
    },
    "contact_facing": null,
@@ -63,7 +63,7 @@
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": -0.0302,
+    "x": 0.0036,
     "y": -0.0301
    },
    "pole": null,
@@ -84,7 +84,7 @@
    "contact_facing": "internal-facing",
    "corpus_status": "ok",
    "display_name": "No Nonsense Spirituality (Britt Hartley)",
-   "is_anchor": false,
+   "is_anchor": true,
    "occurrences": 1900,
    "organic": {
     "status": "ok",
@@ -94,12 +94,12 @@
     ]
    },
    "polar": {
-    "source": "computed",
+    "source": "seed-anchor",
     "status": "ok",
-    "x": -0.024,
-    "y": -0.0949
+    "x": 1.0,
+    "y": 0.0
    },
-   "pole": null,
+   "pole": "deconstruction",
    "videos": 175,
    "words": 585403
   },
@@ -117,7 +117,7 @@
    "contact_facing": "dialogue-facing",
    "corpus_status": "ok",
    "display_name": "Capturing Christianity",
-   "is_anchor": false,
+   "is_anchor": true,
    "occurrences": 1114,
    "organic": {
     "status": "ok",
@@ -127,12 +127,12 @@
     ]
    },
    "polar": {
-    "source": "computed",
+    "source": "seed-anchor",
     "status": "ok",
-    "x": -0.0886,
-    "y": -0.0103
+    "x": -1.0,
+    "y": 0.0
    },
-   "pole": null,
+   "pole": "apologetics",
    "videos": 61,
    "words": 711107
   },
@@ -150,7 +150,7 @@
    "contact_facing": "dialogue-facing",
    "corpus_status": "ok",
    "display_name": "The Counsel of Trent",
-   "is_anchor": false,
+   "is_anchor": true,
    "occurrences": 1433,
    "organic": {
     "status": "ok",
@@ -160,12 +160,12 @@
     ]
    },
    "polar": {
-    "source": "computed",
+    "source": "seed-anchor",
     "status": "ok",
-    "x": -0.054,
-    "y": 0.0459
+    "x": -1.0,
+    "y": 0.0
    },
-   "pole": null,
+   "pole": "apologetics",
    "videos": 425,
    "words": 629113
   },
@@ -231,11 +231,11 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9381
+     "weight": 0.9606
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.7614
+     "weight": 0.8666
     }
    },
    "contact_facing": "dialogue-facing",
@@ -253,7 +253,7 @@
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": -0.104,
+    "x": -0.0514,
     "y": 0.0543
    },
    "pole": null,
@@ -278,7 +278,7 @@
    "contact_facing": "internal-facing",
    "corpus_status": "ok",
    "display_name": "Genetically Modified Skeptic",
-   "is_anchor": false,
+   "is_anchor": true,
    "occurrences": 1123,
    "organic": {
     "status": "ok",
@@ -288,12 +288,12 @@
     ]
    },
    "polar": {
-    "source": "computed",
+    "source": "seed-anchor",
     "status": "ok",
-    "x": -0.0135,
-    "y": -0.0203
+    "x": 1.0,
+    "y": 0.0
    },
-   "pole": null,
+   "pole": "deconstruction",
    "videos": 100,
    "words": 514092
   },
@@ -301,11 +301,11 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9409
+     "weight": 0.9145
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.8434
+     "weight": 0.9196
     }
    },
    "contact_facing": "internal-facing",
@@ -323,7 +323,7 @@
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": -0.0546,
+    "x": 0.0028,
     "y": -0.0158
    },
    "pole": null,
@@ -334,11 +334,11 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9736
+     "weight": 0.9318
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.9129
+     "weight": 0.9466
     }
    },
    "contact_facing": "internal-facing",
@@ -356,7 +356,7 @@
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": -0.0322,
+    "x": 0.0079,
     "y": 0.0382
    },
    "pole": null,
@@ -367,7 +367,7 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.7921
+     "weight": 0.7339
     },
     "apologetics-critique": {
      "source": "seed",
@@ -375,7 +375,7 @@
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.8717
+     "weight": 0.8359
     }
    },
    "contact_facing": "dialogue-facing",
@@ -393,7 +393,7 @@
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": 0.0478,
+    "x": 0.065,
     "y": -0.1281
    },
    "pole": null,
@@ -404,11 +404,11 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.6772
+     "weight": 0.5527
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.8557
+     "weight": 0.632
     }
    },
    "contact_facing": null,
@@ -426,7 +426,7 @@
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": 0.1164,
+    "x": 0.0669,
     "y": 0.0529
    },
    "pole": null,
@@ -437,11 +437,11 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9298
+     "weight": 0.9004
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.8517
+     "weight": 0.891
     }
    },
    "contact_facing": "internal-facing",
@@ -459,7 +459,7 @@
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": -0.0438,
+    "x": -0.0052,
     "y": -0.0346
    },
    "pole": null,
@@ -484,7 +484,7 @@
    "contact_facing": "dialogue-facing",
    "corpus_status": "ok",
    "display_name": "Mindshift (Brandon)",
-   "is_anchor": false,
+   "is_anchor": true,
    "occurrences": 3693,
    "organic": {
     "status": "ok",
@@ -494,12 +494,12 @@
     ]
    },
    "polar": {
-    "source": "computed",
+    "source": "seed-anchor",
     "status": "ok",
-    "x": -0.0389,
-    "y": 0.0103
+    "x": 1.0,
+    "y": 0.0
    },
-   "pole": null,
+   "pole": "deconstruction",
    "videos": 241,
    "words": 1070176
   },
@@ -507,7 +507,7 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9637
+     "weight": 0.9777
     },
     "apologetics-critique": {
      "source": "seed",
@@ -515,7 +515,7 @@
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.8667
+     "weight": 0.928
     }
    },
    "contact_facing": "dialogue-facing",
@@ -533,7 +533,7 @@
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": -0.053,
+    "x": -0.0261,
     "y": 0.0425
    },
    "pole": null,
@@ -544,7 +544,7 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9593
+     "weight": 0.9481
     },
     "apologetics-critique": {
      "source": "seed",
@@ -552,7 +552,7 @@
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.8842
+     "weight": 0.9474
     }
    },
    "contact_facing": "dialogue-facing",
@@ -570,7 +570,7 @@
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": -0.0407,
+    "x": -0.0004,
     "y": -0.0342
    },
    "pole": null,
@@ -591,7 +591,7 @@
    "contact_facing": "dialogue-facing",
    "corpus_status": "ok",
    "display_name": "ReasonableFaithOrg",
-   "is_anchor": false,
+   "is_anchor": true,
    "occurrences": 1498,
    "organic": {
     "status": "ok",
@@ -601,12 +601,12 @@
     ]
    },
    "polar": {
-    "source": "computed",
+    "source": "seed-anchor",
     "status": "ok",
-    "x": -0.0506,
-    "y": 0.0285
+    "x": -1.0,
+    "y": 0.0
    },
-   "pole": null,
+   "pole": "apologetics",
    "videos": 148,
    "words": 505438
   },
@@ -614,7 +614,7 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9474
+     "weight": 0.9342
     },
     "apologetics-critique": {
      "source": "seed",
@@ -622,7 +622,7 @@
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.9514
+     "weight": 0.952
     }
    },
    "contact_facing": "dialogue-facing",
@@ -640,7 +640,7 @@
    "polar": {
     "source": "computed",
     "status": "ok",
-    "x": 0.0021,
+    "x": 0.0094,
     "y": 0.0138
    },
    "pole": null,
@@ -2536,30 +2536,45 @@
   "min_shared_terms": 3
  },
  "pole_stability": {
-  "alternative_anchor_pairs_tested": 87,
-  "mean_rank_agreement": 0.479,
-  "measured_at": "2026-07-26",
-  "pairs_disagreeing": 0.572,
-  "positions_changing_side": 0.452,
-  "provisional": true,
-  "single_anchor_poles": [
-   "apologetics",
-   "deconstruction"
-  ],
-  "source": "docs/research/2026-07-26-anchor-register-falsification.md"
+  "anchors_per_pole": 4,
+  "axis_occupancy": {
+   "axis_span": 2.0,
+   "fraction_of_axis": 0.0592,
+   "hi": 0.0669,
+   "lo": -0.0514,
+   "median_abs_x": 0.0094,
+   "positioned": 11,
+   "span": 0.1183,
+   "within_0_05_of_midline": 8
+  },
+  "mean_rank_agreement": 0.834,
+  "measured_at": "2026-07-27",
+  "pairs_disagreeing": 0.067,
+  "positions_changing_side": null,
+  "provisional": false,
+  "residual_instability": true,
+  "single_anchor_poles": [],
+  "source": "docs/research/2026-07-26-anchor-register-falsification.md",
+  "worst_rank_agreement": -0.476
  },
  "poles": {
   "apologetics": {
    "anchors": [
-    "cross-examined"
+    "capturing-christianity",
+    "counsel-of-trent",
+    "cross-examined",
+    "reasonable-faith-org"
    ],
-   "n_anchors": 1
+   "n_anchors": 4
   },
   "deconstruction": {
    "anchors": [
-    "darante-lamar"
+    "britt-hartley",
+    "darante-lamar",
+    "genetically-modified-skeptic",
+    "mindshift"
    ],
-   "n_anchors": 1
+   "n_anchors": 4
   }
  }
 }
