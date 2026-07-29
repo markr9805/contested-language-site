@@ -5,7 +5,7 @@
     "cite_key": "9d2bfe14a80e95668ddb31654104988733bb85ccd4b0ac3b29238b0c93e5113d",
     "context": "Jesus came and said to them, All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit. Here the disciples are commanded to go out to everyone, proclaiming the gospel, not just to the elect, but to everyone.",
     "creator": "reasonable-faith-org",
-    "dist": 0.34,
+    "dist": 0.3163,
     "published_at": "2025-11-30T16:53:17Z",
     "role": "host",
     "t": 683.52,
@@ -17,7 +17,7 @@
     "cite_key": "7e1f946bf65d41128a872119ca988f8a52760208fc6275ad55b20ec35f4d09ec",
     "context": "This one command shaped Christianity's rise to power, leading to colonization, forced conversions, and religious violence. Here's what Jesus told his followers. All authority in heaven and on earth has been given to me. Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, and teaching them to obey everything I have commanded you. Let's be clear.",
     "creator": "darante-lamar",
-    "dist": 0.3885,
+    "dist": 0.3702,
     "published_at": "2025-03-18T20:07:27Z",
     "role": "unattributed",
     "t": 988.28,
@@ -29,7 +29,7 @@
     "cite_key": "1eb0e7b1b3b206020152ba183750176c3a207abdc6dbd26b7dc0fc33f25237a8",
     "context": "I'm just saying. So let's just kind of look at the New Testament, you know, just for those who say, well, that's old testament. Sure, let's go. Let's start with the very popular one, Matthew chapter 28, verses 19 through 20. Therefore, go and make disciples of all nations, baptizing them in the name of the Father, the Son, and the Holy Spirit, and teaching them to obey, comply everything I have ever commanded you.",
     "creator": "darante-lamar",
-    "dist": 0.39,
+    "dist": 0.3715,
     "published_at": "2024-07-15T20:20:38Z",
     "role": "host",
     "t": 607.08,
@@ -41,7 +41,7 @@
     "cite_key": "445a597a061bfce9483f2c8fba016985c16c0927b786a841fc5d22fd5958224a",
     "context": "Then Jesus came to them and said, All authority in heaven and on earth has been given to me. Now, don't that just sound like Great Britain? Therefore, go and make disciples of all nations. Please go back and read the papal bull. Disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, and teaching them to obey everything I have commanded you.",
     "creator": "darante-lamar",
-    "dist": 0.3974,
+    "dist": 0.3828,
     "published_at": "2024-06-10T19:00:22Z",
     "role": "host",
     "t": 1695.84,
@@ -53,7 +53,7 @@
     "cite_key": "48adfa221380e4d28d882ce71c670deea1c428af5172ffa39fc47d420af5669a",
     "context": "To Jacob, to Moses, to Joshua, to Jeremiah, God says, Go do this and I'm gonna be with you, because you can't do it without him. Then it Jesus and Matthew, then Jesus in Matthew 28 says, Hey, go therefore, make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to obey all that I have commanded you. And guess what? I'm gonna be with you always.",
     "creator": "jackie-hill-perry",
-    "dist": 0.4033,
+    "dist": 0.3899,
     "published_at": "2023-02-08T20:12:39Z",
     "role": "host",
     "t": 1233.0,
@@ -138,18 +138,10 @@
     },
     "counsel-of-trent": {
      "counts": [
-      2,
+      1,
       4
      ],
-     "n": 6,
-     "status": "insufficient-data"
-    },
-    "cross-examined": {
-     "counts": [
-      3,
-      0
-     ],
-     "n": 3,
+     "n": 5,
      "status": "insufficient-data"
     },
     "darante-lamar": {
@@ -166,14 +158,6 @@
       0
      ],
      "n": 5,
-     "status": "insufficient-data"
-    },
-    "mindshift": {
-     "counts": [
-      1,
-      0
-     ],
-     "n": 1,
      "status": "insufficient-data"
     },
     "prophet-of-zod": {
@@ -199,14 +183,14 @@
    "cells": {
     "overall": {
      "counts": [
-      16,
+      11,
       6
      ],
      "dist": [
-      0.7273,
-      0.2727
+      0.6471,
+      0.3529
      ],
-     "n": 22,
+     "n": 17,
      "status": "ok"
     }
    },
@@ -216,30 +200,30 @@
    "cells": {
     "host": {
      "counts": [
-      12,
+      9,
       5
      ],
      "dist": [
-      0.7059,
-      0.2941
+      0.6429,
+      0.3571
      ],
-     "n": 17,
+     "n": 14,
      "status": "ok"
     },
     "unattributed": {
      "counts": [
-      3,
+      2,
       0
      ],
-     "n": 3,
+     "n": 2,
      "status": "insufficient-data"
     },
     "unknown": {
      "counts": [
-      1,
+      0,
       1
      ],
-     "n": 2,
+     "n": 1,
      "status": "insufficient-data"
     }
    },
@@ -265,30 +249,26 @@
     },
     "2024": {
      "counts": [
-      5,
-      0
-     ],
-     "n": 5,
-     "status": "insufficient-data"
-    },
-    "2025": {
-     "counts": [
-      4,
-      6
-     ],
-     "dist": [
-      0.4,
-      0.6
-     ],
-     "n": 10,
-     "status": "ok"
-    },
-    "2026": {
-     "counts": [
       4,
       0
      ],
      "n": 4,
+     "status": "insufficient-data"
+    },
+    "2025": {
+     "counts": [
+      3,
+      6
+     ],
+     "n": 9,
+     "status": "insufficient-data"
+    },
+    "2026": {
+     "counts": [
+      1,
+      0
+     ],
+     "n": 1,
      "status": "insufficient-data"
     }
    },
@@ -296,8 +276,8 @@
   }
  },
  "k": 2,
- "n": 22,
- "silhouette": 0.1309,
+ "n": 17,
+ "silhouette": 0.1545,
  "status": "ok",
  "verse_ref": "Matthew 28:19"
 }

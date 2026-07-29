@@ -26,31 +26,6 @@
    },
    "truncated": false
   },
-  "Proverbs 10:28": {
-   "citations": [
-    {
-     "confidence": 0.8089,
-     "context": "The hope of heaven. If I was still a pastor, oh my goodness, I'd preach that. I'd preach how Jesus is the hope of heaven. I said that like Furtic. Um, but the hope of heaven and how that can be used on the uh on a broader scope to use to keep people entrenched in poverty and entrenched in generational just bad decisions, uh, but then also how the hope of heaven can be used to fanaticize some people.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-10-23T20:59:33Z",
-     "role": "host",
-     "t": 1644.92,
-     "title": "How Religion Relates to a Fear of Death",
-     "video_id": "5eIvyU6EIRE"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "The hope of the righteous shall be gladness: but the expectation of the wicked shall perish.",
-    "WEB": "The prospect of the righteous is joy, but the hope of the wicked will perish."
-   },
-   "truncated": false
-  },
   "Proverbs 11:22": {
    "citations": [
     {
@@ -79,16 +54,40 @@
   "Proverbs 13:24": {
    "citations": [
     {
-     "confidence": 0.9157,
-     "context": "Um, again, one of the most famous ones, spare the rod, spoil the child, you know, um, which basically, you know, whoever spares the rod hates their children, but the one who loves their children is careful to discipline them. Um that's uh Proverbs 13, verse 24.",
+     "confidence": null,
+     "context": "Um, again, one of the most famous ones, spare the rod, spoil the child, you know, um, which basically, you know, whoever spares the rod hates their children, but the one who loves their children is careful to discipline them. Um that's uh Proverbs 13, verse 24. Um, the verse has been used to justify uh corporal punishment, suggesting that physical discipline is necessary for proper upbringing, you know. I know I grew up hearing it my whole life, uh, my whole life.",
      "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
      "published_at": "2024-12-04T19:13:28Z",
      "role": "host",
-     "t": 1483.56,
+     "t": 1497.84,
      "title": "Does God Love The Kids",
      "video_id": "-T-pAnSk22E"
+    },
+    {
+     "confidence": null,
+     "context": "The sad thing about this is that these kids, they usually grow up to become extremely selfish and do what they want. Because they think there will be no consequences. And it's your fault as the parent. Proverbs 13, verse 24. Whoever spares their rod hates his son. But he who loves him is diligent to discipline him. And there it is.",
+     "creator": "belief-it-or-not",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-09-04T15:01:13Z",
+     "role": "unknown",
+     "t": 2476.12,
+     "title": "The Worst Christian Parenting Advice | Belief It Or Not",
+     "video_id": "fYVXJEtmc1M"
+    },
+    {
+     "confidence": null,
+     "context": "Do not withhold discipline from a child. If you strike him with a rod, he will not die. Proverbs chapter 29, 15. The rod and reproof give wisdom, but a child left to himself brings shame to his mother. Proverbs chapter 13, verse 24. Whoever spares the rod hates his son, but he who loves him is diligent to discipline him. There's no way of getting around the issue. The world will say that if you discipline your son, you hate him. And God says that if you don't discipline your son, you hate him.",
+     "creator": "belief-it-or-not",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-09-04T15:01:13Z",
+     "role": "unknown",
+     "t": 2819.68,
+     "title": "The Worst Christian Parenting Advice | Belief It Or Not",
+     "video_id": "fYVXJEtmc1M"
     },
     {
      "confidence": 0.6667,
@@ -104,38 +103,13 @@
     }
    ],
    "creators": {
-    "belief-it-or-not": 1,
+    "belief-it-or-not": 3,
     "darante-lamar": 1
    },
-   "n": 2,
+   "n": 4,
    "text": {
     "KJV": "He that spareth his rod hateth his son: but he that loveth him chasteneth him betimes.",
     "WEB": "One who spares the rod hates his son, but one who loves him is careful to discipline him."
-   },
-   "truncated": false
-  },
-  "Proverbs 14:12": {
-   "citations": [
-    {
-     "confidence": 0.7752,
-     "context": "Otherwise, how could the people hear them? All right. Sounds great, right? It sounds practical, it sounds pragmatic. I'm gonna use a scripture on this one. There's a way that seems right, but in the end it leads to destruction, or in this case, just outright stupidity. Because, and I did it. I think at this time my church was still a storefront church. It's probably because we were doing a lot of speaking in tongues. But my church was still a storefront church.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-09-20T22:57:42Z",
-     "role": "host",
-     "t": 864.24,
-     "title": "WTF is Speaking in Tongues",
-     "video_id": "3qodu8X8HQg"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "There is a way which seemeth right unto a man, but the end thereof are the ways of death.",
-    "WEB": "There is a way which seems right to a man, but in the end it leads to death."
    },
    "truncated": false
   },
@@ -201,19 +175,19 @@
    },
    "truncated": false
   },
-  "Proverbs 16:25": {
+  "Proverbs 16:3": {
    "citations": [
     {
-     "confidence": 0.7752,
-     "context": "Otherwise, how could the people hear them? All right. Sounds great, right? It sounds practical, it sounds pragmatic. I'm gonna use a scripture on this one. There's a way that seems right, but in the end it leads to destruction, or in this case, just outright stupidity. Because, and I did it. I think at this time my church was still a storefront church. It's probably because we were doing a lot of speaking in tongues. But my church was still a storefront church.",
+     "confidence": null,
+     "context": "Now let's move on to insight number 10. I got unapologetic and authentic about my ambitions. Proverbs chapter 16, verse 3 says, Commit to the Lord whatever you do, and he will establish your plans. Proverbs chapter 3, verse 5 through 6 says, Trust in the Lord with all your heart, and lean not unto your own understanding, but in all your ways, submit to him, and he will make your path straight.",
      "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-09-20T22:57:42Z",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-06-18T19:22:33Z",
      "role": "host",
-     "t": 864.24,
-     "title": "WTF is Speaking in Tongues",
-     "video_id": "3qodu8X8HQg"
+     "t": 727.36,
+     "title": "How Losing God Saved My Life: A Deconstruction of Damaging Scriptures",
+     "video_id": "9Y0vt3wAp8c"
     }
    ],
    "creators": {
@@ -221,8 +195,8 @@
    },
    "n": 1,
    "text": {
-    "KJV": "There is a way that seemeth right unto a man, but the end thereof are the ways of death.",
-    "WEB": "There is a way which seems right to a man, but in the end it leads to death."
+    "KJV": "Commit thy works unto the LORD, and thy thoughts shall be established.",
+    "WEB": "Commit your deeds to the LORD, and your plans shall succeed."
    },
    "truncated": false
   },
@@ -275,20 +249,33 @@
    },
    "truncated": false
   },
-  "Proverbs 17:15": {
+  "Proverbs 16:9": {
    "citations": [
     {
-     "confidence": 0.8334,
-     "context": "And where again, the thought is entirely of attributing a righteous status to one who is unrighteous. Dunn's point is that Paul's referring to God as him who justifies the ungodly, Romans 4 5, recalls the Old Testament description of the unjust judge who justifies the wicked, Proverbs 17 15, which is an abomination in the Lord's sight.",
-     "creator": "reasonable-faith-org",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2026-03-01T16:53:49Z",
+     "confidence": null,
+     "context": "That's why saying goodbye God didn't break me. It saved me. Like two, once the existence of a God faded away, the world as is made complete sense, and my responsibility as a human became increasingly clear. I grew up on scriptures like Proverbs chapter 16, verse 9, that says, in their hearts, humans plan their course, but the Lord establishes their steps. Psalms chapter 24, verse 1 says, The earth is the Lord's and the fullness thereof, the world and all who dwell therein.",
+     "creator": "darante-lamar",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-06-18T19:22:33Z",
      "role": "host",
-     "t": 766.12,
-     "title": "Doctrine of Salvation Part 15: New Perspectives on Paul (pt 2) || Defenders LIVE!",
-     "video_id": "-13BUztt4S8"
-    },
+     "t": 96.0,
+     "title": "How Losing God Saved My Life: A Deconstruction of Damaging Scriptures",
+     "video_id": "9Y0vt3wAp8c"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "A man's heart deviseth his way: but the LORD directeth his steps.",
+    "WEB": "A man’s heart plans his course, but the LORD directs his steps."
+   },
+   "truncated": false
+  },
+  "Proverbs 17:15": {
+   "citations": [
     {
      "confidence": 0.5556,
      "context": "Illegal immigration harms innocent people. Now, of course, you can find examples where it doesn't, but that's not the point. The overall point is it does. As we mentioned last time, Proverbs 17, 15. He who justifies the wicked and he who condemns the righteous are both alike an abomination to the Lord. Yeah, if you are justifying lawbreaking, you're actually hurting people who are protected by those laws.",
@@ -303,38 +290,37 @@
     }
    ],
    "creators": {
-    "cross-examined": 1,
-    "reasonable-faith-org": 1
+    "cross-examined": 1
    },
-   "n": 2,
+   "n": 1,
    "text": {
     "KJV": "He that justifieth the wicked, and he that condemneth the just, even they both are abomination to the LORD.",
     "WEB": "He who justifies the wicked, and he who condemns the righteous, both of them alike are an abomination to the LORD."
    },
    "truncated": false
   },
-  "Proverbs 18:21": {
+  "Proverbs 18:15": {
    "citations": [
     {
-     "confidence": 0.8881,
-     "context": "You know, but that's the thing. Like, I I I've said these words. I'm I'm sorry, I can't do any anything else. And you know, and and and actually scripture is pretty poignant about that point. Um, because it often talks about your idle words and not just using idle words. Because it seems like the crafters of this idea really believe that, well, death and life are in the power of the tongue. And so that if you say it, oh, it's gonna happen. And uh, you know, that's yikes. So then his father Isaac, uh yeah.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-04-19T23:00:06Z",
+     "confidence": null,
+     "context": "Or in Psalm 78, verse 54, it's used of his holy mountain. But this usage of the word is most often in wisdom texts, like Proverbs, for qualities or virtues to be obtained. Acquire knowledge, Proverbs 18, verse 15. Acquire truth, 23, verse 23, wisdom, 17, verse 16, insight, 16, verse 16, and on and on. Look, the difference when it is to be translated as buy or acquire is obvious.",
+     "creator": "paulogia",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2026-03-16T13:30:00Z",
      "role": "host",
-     "t": 4204.04,
-     "title": "This Man is the Father of Lies  // Bible Study w/ an Ex Pastor",
-     "video_id": "4hPHYLNUcF4"
+     "t": 8638.96,
+     "title": "He Tried to Defend Old Testament Violence… Scholars Push Back (feat Dr Kipp Davis & Dr Joshua Bowen)",
+     "video_id": "xK_QByqlRRs"
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "paulogia": 1
    },
    "n": 1,
    "text": {
-    "KJV": "Death and life are in the power of the tongue: and they that love it shall eat the fruit thereof.",
-    "WEB": "Death and life are in the power of the tongue; those who love it will eat its fruit."
+    "KJV": "The heart of the prudent getteth knowledge; and the ear of the wise seeketh knowledge.",
+    "WEB": "The heart of the discerning gets knowledge. The ear of the wise seeks knowledge."
    },
    "truncated": false
   },
@@ -360,81 +346,6 @@
    "text": {
     "KJV": "He also that is slothful in his work is brother to him that is a great waster.",
     "WEB": "One who is slack in his work is brother to him who is a master of destruction."
-   },
-   "truncated": false
-  },
-  "Proverbs 19:2": {
-   "citations": [
-    {
-     "confidence": 0.7519,
-     "context": "The term agnostic comes from the Greek gnosis, right? Which means knowledge. And the prefix ah, a, however the fuck you want to say it, uh, means without. You know? Without. Without knowledge. It is not about indecision, nor is it a default neutral stance, but about a lack of knowledge regard regarding the existence of deities. Yes.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-01-31T01:21:58Z",
-     "role": "host",
-     "t": 2689.64,
-     "title": "Is Atheism Dishonest",
-     "video_id": "4vv0KK3bhdY"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Also, that the soul be without knowledge, it is not good; and he that hasteth with his feet sinneth.",
-    "WEB": "It isn’t good to have zeal without knowledge, nor to be hasty with one’s feet and miss the way."
-   },
-   "truncated": false
-  },
-  "Proverbs 19:21": {
-   "citations": [
-    {
-     "confidence": 0.8361,
-     "context": "So just because I find an argument compelling doesn't mean I should force somebody to listen to it. I want to ask questions, listen where you're at, find out what your objection may be. Like it says in Proverbs, what is it, 20 verse 5? This is the purposes in a man's heart are deep. Yeah. And a man of wisdom draws it out. I want to find out where this person is at, and then tailor my argument to them. Or where Jesus says in a Sermon on the Mount, where your treasure is, there also your heart will be. And it's like, well, what do they intellectually treasure?",
-     "creator": "counsel-of-trent",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2026-05-18T13:00:13Z",
-     "role": "host",
-     "t": 4023.52,
-     "title": "OG Apologetics and Apostolic Martyrdom with Sean McDowell",
-     "video_id": "4wUPGJ8uPvw"
-    }
-   ],
-   "creators": {
-    "counsel-of-trent": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "There are many devices in a man's heart; nevertheless the counsel of the LORD, that shall stand.",
-    "WEB": "There are many plans in a man’s heart, but the LORD’s counsel will prevail."
-   },
-   "truncated": false
-  },
-  "Proverbs 19:22": {
-   "citations": [
-    {
-     "confidence": 0.776,
-     "context": "Period. End of sentence. They are someone. You shouldn't have to imagine that they are God's princess to know to treat someone you're in a relationship with with kindness and grace. In Proverbs, it says that a gracious woman attains honor, and what is desirable in a man is his kindness. And I can think back on people that I've met before, like, you know, guys, they may not be the best looking or the smartest or the funniest or the most athletic or whatever, but if they're kind, girls are just like flocking to them.",
-     "creator": "belief-it-or-not",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2023-11-13T20:39:47Z",
-     "role": "unknown",
-     "t": 1161.76,
-     "title": "Terrible Christian Dating Advice  | Belief It Or Not",
-     "video_id": "17wyUcU-vkI"
-    }
-   ],
-   "creators": {
-    "belief-it-or-not": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "The desire of a man is his kindness: and a poor man is better than a liar.",
-    "WEB": "That which makes a man to be desired is his kindness. A poor man is better than a liar."
    },
    "truncated": false
   },
@@ -541,28 +452,28 @@
   "Proverbs 1:7": {
    "citations": [
     {
-     "confidence": 0.8122,
-     "context": "Religion often personifies this instinct, but Christianity codifies it. Every knee shall bow. Fear of the Lord is the beginning of wisdom. Obedience is better than sacrifice. A psychologically uncritical mind will surrender to anything impressive enough, and Christianity frames this surrender as virtue. Religion, particularly Christianity, doesn't just encourage belief, it teaches submission to absolute authority.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-04-30T19:27:07Z",
+     "confidence": null,
+     "context": "Knowledge starts with fear. If you have your Bibles, and I say if uh rhetorically, um, do you do? You you do have okay. Seven of you have it. Great. No, nobody has it. Okay. For the seven, turn to Proverbs chapter one, verse seven. Proverbs chapter one, or should I say click? That's probably better verbiage. Click to Proverbs chapter one, verse seven.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2019-08-21T15:49:51Z",
      "role": "host",
-     "t": 365.0,
-     "title": "God or Galactic Dictator? Why Christians Might Not Know the Difference",
-     "video_id": "6MCuTdgBvAs"
+     "t": 434.84,
+     "title": "How To Avoid Being An Intelligent Fool",
+     "video_id": "A5lOSc_S2Go"
     },
     {
-     "confidence": 0.8911,
-     "context": "And it's if you took those to a lot of the law schools today, a lot of our American school children could under uh college educated uh adults could not understand them. Yeah, it's a sad indictment on our education system. The the fear of the Lord is the beginning of wisdom. We don't have much of it anymore because we don't have a fear of fear of the Lord anymore. Uh, and we've fallen away from that. But this book, ladies and gentlemen, uh, which is brilliantly illustrated. In fact, I gave it to my my granddaughter, because you gave me a copy in DC when we were there a couple weeks ago.",
-     "creator": "cross-examined",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2026-06-03T01:00:06Z",
+     "confidence": null,
+     "context": "Seven of you have it. Great. No, nobody has it. Okay. For the seven, turn to Proverbs chapter one, verse seven. Proverbs chapter one, or should I say click? That's probably better verbiage. Click to Proverbs chapter one, verse seven. The verse says the fear of the Lord is the beginning of knowledge, but fools despise wisdom and instruction.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2019-08-21T15:49:51Z",
      "role": "host",
-     "t": 1465.48,
-     "title": "Be Worthy of the Bullet That Charlie Kirk Took For You — Why Independence Day? w/Steve Deace + Q&A",
-     "video_id": "6XDtTJMRYmA"
+     "t": 446.96,
+     "title": "How To Avoid Being An Intelligent Fool",
+     "video_id": "A5lOSc_S2Go"
     },
     {
      "confidence": 1.0,
@@ -602,9 +513,7 @@
     }
    ],
    "creators": {
-    "cross-examined": 1,
-    "darante-lamar": 1,
-    "jackie-hill-perry": 2,
+    "jackie-hill-perry": 4,
     "mindshift": 1
    },
    "n": 5,
@@ -679,18 +588,6 @@
   "Proverbs 22:15": {
    "citations": [
     {
-     "confidence": 0.9159,
-     "context": "Okay. But Proverbs doesn't stop there. It seems to be filled with scriptures like that. The author of Proverbs wants you to know in Proverbs 22 that folly is bound up in the heart of the child. But the rod of discipline will drive it far away. And there are people who believe this that children are naturally demonic.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-12-04T19:13:28Z",
-     "role": "host",
-     "t": 1753.2,
-     "title": "Does God Love The Kids",
-     "video_id": "-T-pAnSk22E"
-    },
-    {
      "confidence": 0.5625,
      "context": "But part of loving your child is disciplining them consistently, and that includes spanking. No, I don't think you can be gentle with someone you hit. So, yes, we should spank our kids. The Bible says that folly is bound up in the heart of a child, but the rod drives it far from him. Jesus loves the little children, so he would spank them. Unpopular take, but if you disagree, make your best biblical case in the comments, and I'm happy to respond. When the only argument you accept is the biblical argument, you have separated yourself from reality so far that you can't even engage with facts.",
      "creator": "belief-it-or-not",
@@ -699,6 +596,18 @@
      "published_at": "2025-09-04T15:01:13Z",
      "role": "unknown",
      "t": 2734.68,
+     "title": "The Worst Christian Parenting Advice | Belief It Or Not",
+     "video_id": "fYVXJEtmc1M"
+    },
+    {
+     "confidence": null,
+     "context": "I mean, yeah, I have an issue with him. Not because he's real, but because people use him to justify a lot of awful things. Proverbs chapter 22, verse 15. Folly is bound up in the heart of a child, but the rod of discipline drives it far from him. Proverbs chapter 23, verse 13. Do not withhold discipline from a child. If you strike him with a rod, he will not die.",
+     "creator": "belief-it-or-not",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-09-04T15:01:13Z",
+     "role": "unknown",
+     "t": 2796.48,
      "title": "The Worst Christian Parenting Advice | Belief It Or Not",
      "video_id": "fYVXJEtmc1M"
     },
@@ -716,8 +625,7 @@
     }
    ],
    "creators": {
-    "belief-it-or-not": 2,
-    "darante-lamar": 1
+    "belief-it-or-not": 3
    },
    "n": 3,
    "text": {
@@ -729,18 +637,6 @@
   "Proverbs 22:6": {
    "citations": [
     {
-     "confidence": 0.8221,
-     "context": "By the way, we're not counting on sports to make these kids amazing. That's the thing, like it's already a weird comparison because people actually believe that a child going to church means that for the rest of their life they will do this, right? It's in the scriptures. Train up a child now so that they do not depart when they are older. But no one's making that claim for sports. Sports are just this added benefit of life. It's fun. Most parents don't think their kids are gonna go pro when they sign them up for sports. They do it so that they can learn all those skills, so that they can make friends, so they can be a part of something bigger than themselves that isn't telling them they're awful and wicked and deserve hell.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-07-29T14:00:10Z",
-     "role": "unattributed",
-     "t": 834.12,
-     "title": "Pastor Says Skipping Church for Sports Is Dangerous...",
-     "video_id": "3iDfup_ktKA"
-    },
-    {
      "confidence": 0.8889,
      "context": "There shouldn't be any animal. You know what I'm saying? Like, yes. There should be no penguins out here, man. Which they really shouldn't. They're very frightening. Penguins and ducks, man, like yikes. All right, so train up a child in the way that he should go, and when he is old, he will not depart from it. Now, of course, like I could highlight the simple fact that you don't know the fucking way he should go, but there's this antiquated ideal that we know everything from the past, and what we know in the past has equipped us.",
      "creator": "darante-lamar",
@@ -751,11 +647,22 @@
      "t": 4261.84,
      "title": "What’s Wrong With The Bible’s Best Advice",
      "video_id": "AgzRmf388AQ"
+    },
+    {
+     "confidence": null,
+     "context": "The parents feel bad because I wanted you to be this and you didn't become that. And God said if I trained you up right, that you'd become that, and I didn't, and you didn't become that, so surely I must have fucked the fuck up, you know. And the child feels like, well, that's uh Proverbs chapter 22, verse six. Uh, and the child feels like, you know, oh, you know, I I left, deal with my parents do, or many times the parent treats the child like shit for not doing whatever the fuck. And sometimes it's not staying in church, sometimes it's not staying with the gender they want you to stay with, sometimes it's not staying with the sexual orientation they want you to stay with.",
+     "creator": "darante-lamar",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-01-18T09:52:14Z",
+     "role": "host",
+     "t": 4357.64,
+     "title": "What’s Wrong With The Bible’s Best Advice",
+     "video_id": "AgzRmf388AQ"
     }
    ],
    "creators": {
-    "darante-lamar": 1,
-    "mindshift": 1
+    "darante-lamar": 2
    },
    "n": 2,
    "text": {
@@ -767,6 +674,18 @@
   "Proverbs 23:13": {
    "citations": [
     {
+     "confidence": null,
+     "context": "This is a small teeny tiny taste of eternity without forgiveness. So if you continue to be a rebellious child, you can look forward to an eternal spanking. I don't like this. I don't like this one bit. Proverbs chapter 23, verse 13 says, Do not withhold discipline from a child. If you punish him with the rod, he will not die. In the context of verses 13 and 14, die means experience spiritual death in hell.",
+     "creator": "belief-it-or-not",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-03-23T14:00:22Z",
+     "role": "unknown",
+     "t": 2051.72,
+     "title": "The Thing About Christian Morality | Belief It Or Not",
+     "video_id": "Yl--T2xjJRU"
+    },
+    {
      "confidence": 0.7857,
      "context": "This is a small teeny tiny taste of eternity without forgiveness. So if you continue to be a rebellious child, you can look forward to an eternal spanking. I don't like this. I don't like this one bit. Proverbs chapter 23, verse 13 says, Do not withhold discipline from a child. If you punish him with the rod, he will not die. In the context of verses 13 and 14, die means experience spiritual death in hell.",
      "creator": "belief-it-or-not",
@@ -777,12 +696,24 @@
      "t": 2051.72,
      "title": "The Thing About Christian Morality | Belief It Or Not",
      "video_id": "Yl--T2xjJRU"
+    },
+    {
+     "confidence": null,
+     "context": "Proverbs chapter 22, verse 15. Folly is bound up in the heart of a child, but the rod of discipline drives it far from him. Proverbs chapter 23, verse 13. Do not withhold discipline from a child. If you strike him with a rod, he will not die. Proverbs chapter 29, 15. The rod and reproof give wisdom, but a child left to himself brings shame to his mother.",
+     "creator": "belief-it-or-not",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-09-04T15:01:13Z",
+     "role": "unknown",
+     "t": 2804.0,
+     "title": "The Worst Christian Parenting Advice | Belief It Or Not",
+     "video_id": "fYVXJEtmc1M"
     }
    ],
    "creators": {
-    "belief-it-or-not": 1
+    "belief-it-or-not": 3
    },
-   "n": 1,
+   "n": 3,
    "text": {
     "KJV": "Withhold not correction from the child: for if thou beatest him with the rod, he shall not die.",
     "WEB": "Don’t withhold correction from a child. If you punish him with the rod, he will not die."
@@ -817,6 +748,18 @@
   "Proverbs 26:12": {
    "citations": [
     {
+     "confidence": null,
+     "context": "First Corinthians chapter 1, verse 27 says, but God chose the foolish things of the world to shame the wise. In 1 Corinthians chapter 3, verse 19, it says, For the wisdom of this world is foolishness in God's sight. Proverbs chapter 26, verse 12 says, Do you see a person wise in their own eyes? There is more hope for a fool than for them. And then even James chapter 3, verse 15 would say, such wisdom does not come down from heaven, but is earthly, unspiritual, and demonic.",
+     "creator": "darante-lamar",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-06-18T19:22:33Z",
+     "role": "host",
+     "t": 654.8,
+     "title": "How Losing God Saved My Life: A Deconstruction of Damaging Scriptures",
+     "video_id": "9Y0vt3wAp8c"
+    },
+    {
      "confidence": 0.5294,
      "context": "First Corinthians chapter 1, verse 27 says, but God chose the foolish things of the world to shame the wise. In 1 Corinthians chapter 3, verse 19, it says, For the wisdom of this world is foolishness in God's sight. Proverbs chapter 26, verse 12 says, Do you see a person wise in their own eyes? There is more hope for a fool than for them. And then even James chapter 3, verse 15 would say, such wisdom does not come down from heaven, but is earthly, unspiritual, and demonic.",
      "creator": "darante-lamar",
@@ -830,9 +773,9 @@
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "darante-lamar": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Seest thou a man wise in his own conceit? there is more hope of a fool than of him.",
     "WEB": "Do you see a man wise in his own eyes? There is more hope for a fool than for him."
@@ -928,6 +871,18 @@
      "video_id": "bWFXNf5JTkQ"
     },
     {
+     "confidence": null,
+     "context": "I'm the bad cop, so I don't mind people not liking me. As long as I could put these blasphemers in their place who like to talk down to Christians, bully Christians, humiliate Christians, blaspheme the Lord Jesus Christ and mock scripture. I'm gonna meet your energy. Proverbs 26, verse 5. You're respectful, then you're gonna see I'm nothing but respectful. And my debates in the past with bona fide people have shown, like with Khalil and Dani. Was I disrespectful to him? No, you were not. No, you were not. Because he's a professional, he's a scholar and a gentleman, and he has a wonderful personality.",
+     "creator": "capturing-christianity",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2026-02-11T03:51:53Z",
+     "role": "host",
+     "t": 235.12,
+     "title": "The Quran PROVES Jesus is God (You Won’t Believe This)",
+     "video_id": "zAx3Vs_LXLA"
+    },
+    {
      "confidence": 0.6667,
      "context": "Yeah, okay. You can go see uh someone to baptize in the Jordan River. Get this guy out of here, brother. Please, Camera. This guy's not he's a fake. Yeah, he's gone. He's gone. Proverbs 265, Cameron. Teaching me how to use that verse correctly. Answer a fool according to his folly, lest he becomes wise in his own eyes. You know your Bible, Cameron, is all about love. Yeah, no, I don't uh for me. I think it's more along the lines of like my personality type. My personality type is not combative.",
      "creator": "capturing-christianity",
@@ -941,51 +896,38 @@
     }
    ],
    "creators": {
-    "capturing-christianity": 1,
+    "capturing-christianity": 2,
     "counsel-of-trent": 1
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "Answer a fool according to his folly, lest he be wise in his own conceit.",
     "WEB": "Answer a fool according to his folly, lest he be wise in his own eyes."
    },
    "truncated": false
   },
-  "Proverbs 27:17": {
+  "Proverbs 28:20": {
    "citations": [
     {
-     "confidence": 0.8573,
-     "context": "Because the best people I love to tear upon my arguments are my smart apologist friends. Because we all have goodwill in our hearts, we're not gonna be mean to each other, but we can point out problems that we see. And so that's why the book of Proverbs says that iron sharpens iron, so man sharpens his fellow man. That's what we do a lot at Catholic Answers. So there's a few different criticisms of the argument. One is that it relies on a theory of time that is not super popular with physicists and philosophers.",
-     "creator": "counsel-of-trent",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-09-09T12:00:02Z",
+     "confidence": null,
+     "context": "Matthew chapter 7, verses 21 through 23. Not everyone who says, Lord, Lord, will enter the kingdom of heaven. Hebrews chapter 13, verse 5. Keep your life free from the love of money and be content with what you have. Proverbs 28, verse 20. Whoever races to be rich will not go unpunished. Ephesians chapter 5, verse 5. Whoever is sexually immoral or impure has no inheritance in the kingdom of God. First John chapter 2, verses 15 through 17.",
+     "creator": "genetically-modified-skeptic",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2026-02-25T21:17:25Z",
      "role": "host",
-     "t": 975.48,
-     "title": "The NEW Case for God's Existence",
-     "video_id": "22qUGVZXlGg"
-    },
-    {
-     "confidence": 0.8342,
-     "context": "And I tend to focus a bit more on rhetorical strategies and like doing like serious work around like uh philosophy and psychology. So we have different strengths, and iron sharpens iron. So I think we've both helped each other uh as we go through this this journey, and hopefully having these conversations will help you guys as well. So we won't prattle on and on and on about the concept of the show.",
-     "creator": "shannon-q",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2026-04-24T13:09:04Z",
-     "role": "host",
-     "t": 320.16,
-     "title": "Non-Biblical Sources CONFIRM the RESURRECTION (Apologetic Apoplectics)",
-     "video_id": "33gZYZk72OA"
+     "t": 756.36,
+     "title": "Christian Responses to The Epstein Files Could Make It Worse",
+     "video_id": "kbmEWV-8OYU"
     }
    ],
    "creators": {
-    "counsel-of-trent": 1,
-    "shannon-q": 1
+    "genetically-modified-skeptic": 1
    },
-   "n": 2,
+   "n": 1,
    "text": {
-    "KJV": "Iron sharpeneth iron; so a man sharpeneth the countenance of his friend.",
-    "WEB": "Iron sharpens iron; so a man sharpens his friend’s countenance."
+    "KJV": "A faithful man shall abound with blessings: but he that maketh haste to be rich shall not be innocent.",
+    "WEB": "A faithful man is rich with blessings; but one who is eager to be rich will not go unpunished."
    },
    "truncated": false
   },
@@ -1014,95 +956,8 @@
    },
    "truncated": false
   },
-  "Proverbs 2:6": {
-   "citations": [
-    {
-     "confidence": 0.8583,
-     "context": "Everyone's favorite verse, Philippians 4 13 says, I can do all things through Christ who strengthens me. Proverbs 2 6 says, For it is the Lord that gives wisdom. From his mouth comes knowledge and understanding. So if we don't have wisdom or knowledge or understanding, and we act ignorantly or negatively out of that lack, whose fault is that? And even when we do good, this God wants us to know it's never actually enough.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2026-05-31T14:00:36Z",
-     "role": "host",
-     "t": 363.72,
-     "title": "God Gets Credit, You Get Blame | The Rigged Math of Christianity",
-     "video_id": "6uPouoG4f5Q"
-    }
-   ],
-   "creators": {
-    "mindshift": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "For the LORD giveth wisdom: out of his mouth cometh knowledge and understanding.",
-    "WEB": "For the LORD gives wisdom. Out of his mouth comes knowledge and understanding."
-   },
-   "truncated": false
-  },
-  "Proverbs 30:16": {
-   "citations": [
-    {
-     "confidence": 0.8093,
-     "context": "Um that that story, when you actually get into the context of the words that are being used, it's a mythological story. And it and it and there are more there are more than one gods at play. And I'm not just talking about the Elohim, I'm talking about literally the void that's being mentioned, and the um and and and the earth that is with, sorry, the earth that is without form or void. All of these things have, when you actually look at the word, just like, oh, well, yeah, this is actually this, this is actually this.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-08-06T19:27:17Z",
-     "role": "host",
-     "t": 947.84,
-     "title": "Whose God Is It Anyway",
-     "video_id": "1UvlFt8tM1s"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "The grave; and the barren womb; the earth that is not filled with water; and the fire that saith not, It is enough.",
-    "WEB": "Sheol, the barren womb, the earth that is not satisfied with water, and the fire that doesn’t say, ‘Enough!’"
-   },
-   "truncated": false
-  },
-  "Proverbs 30:18": {
-   "citations": [
-    {
-     "confidence": 0.731,
-     "context": "Even before a word is on my tongue, behold, O Lord, you know it altogether. You hem me in behind and before, and lay your hand upon me. Such knowledge is too wonderful for me. It is high. I cannot attain it.",
-     "creator": "drcraigvideos",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-10-01T21:00:01Z",
-     "role": "host",
-     "t": 596.2,
-     "title": "God Is All-Knowing",
-     "video_id": "-sM7ITxjd_Q"
-    }
-   ],
-   "creators": {
-    "drcraigvideos": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "There be three things which are too wonderful for me, yea, four which I know not:",
-    "WEB": "“There are three things which are too amazing for me, four which I don’t understand:"
-   },
-   "truncated": false
-  },
   "Proverbs 30:5": {
    "citations": [
-    {
-     "confidence": 0.7821,
-     "context": "You just committed sin. Because nothing that is of Allah, his word, his kalima is created. This is kufr. You just committed disbelief. Be thankful you're not in a Muslim country because they beat you into submission. The word of God is one of his qualities, it's not created. It's one of his sifat. So I'm gonna ask you again. Maybe you spoke, is the word of God created or not? But I don't understand how can the word of God not be created? Because it comes out of him. He didn't produce it from nothing.",
-     "creator": "capturing-christianity",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2026-02-14T22:27:42Z",
-     "role": "host",
-     "t": 389.08,
-     "title": "Sam Shamoun Masterfully CORNERS Muslim into Admitting This",
-     "video_id": "5qKs7SGn0FU"
-    },
     {
      "confidence": 1.0,
      "context": "Hmm. Even though I walk through the valley of the shadow of death, oh fear no evil, for you are with me. Hmm. Ask and it will be given to you. Seek and you will find. Knock, and the door will be opened to you. Hmm. Every word of God is flawless. He is a shield to those who take refuge in him. Let us love one another, for love comes from God. Okay, so he had me going here. I mean, hook, line and sinker, this whole video has such a beautiful arc and flow to it.",
@@ -1117,10 +972,9 @@
     }
    ],
    "creators": {
-    "capturing-christianity": 1,
     "mindshift": 1
    },
-   "n": 2,
+   "n": 1,
    "text": {
     "KJV": "Every word of God is pure: he is a shield unto them that put their trust in him.",
     "WEB": "“Every word of God is flawless. He is a shield to those who take refuge in him."
@@ -1152,106 +1006,6 @@
    },
    "truncated": false
   },
-  "Proverbs 31:13": {
-   "citations": [
-    {
-     "confidence": 0.8366,
-     "context": "At some point you will crash because you aren't getting any of your needs met. Weddings are like little girls' tea parties, except the women are the stuffed animals. The men are making them talk, and they're not drinking tea, they're drinking antiquated gender roles. She selects wool and flax and works with eager hands. She's like the merchant ships bringing her food from afar. Obviously, times are different now these days, and you're probably like, I'm not gonna go out looking for wool and flax. It's okay. You don't have to. But what this is insinuating is that a virtuous woman of God is willing to put in the hard work to take care of her household, to take care of herself, her family, her friends, and her relationship with the Lord.",
-     "creator": "belief-it-or-not",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-04-01T15:00:06Z",
-     "role": "host",
-     "t": 697.04,
-     "title": "Are You A Proverbs 31 Woman? | Belief It Or Not",
-     "video_id": "4lgJy4eomyQ"
-    }
-   ],
-   "creators": {
-    "belief-it-or-not": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "She seeketh wool, and flax, and worketh willingly with her hands.",
-    "WEB": "She seeks wool and flax, and works eagerly with her hands."
-   },
-   "truncated": false
-  },
-  "Proverbs 31:14": {
-   "citations": [
-    {
-     "confidence": 0.836,
-     "context": "Weddings are like little girls' tea parties, except the women are the stuffed animals. The men are making them talk, and they're not drinking tea, they're drinking antiquated gender roles. She selects wool and flax and works with eager hands. She's like the merchant ships bringing her food from afar. Obviously, times are different now these days, and you're probably like, I'm not gonna go out looking for wool and flax. It's okay. You don't have to. But what this is insinuating is that a virtuous woman of God is willing to put in the hard work to take care of her household, to take care of herself, her family, her friends, and her relationship with the Lord.",
-     "creator": "belief-it-or-not",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-04-01T15:00:06Z",
-     "role": "host",
-     "t": 699.84,
-     "title": "Are You A Proverbs 31 Woman? | Belief It Or Not",
-     "video_id": "4lgJy4eomyQ"
-    }
-   ],
-   "creators": {
-    "belief-it-or-not": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "She is like the merchants' ships; she bringeth her food from afar.",
-    "WEB": "She is like the merchant ships. She brings her bread from afar."
-   },
-   "truncated": false
-  },
-  "Proverbs 31:16": {
-   "citations": [
-    {
-     "confidence": 0.8346,
-     "context": "But because there are romantic music and romantic movies from that era, they think that that's what life was like. It's more likely that if you were back then you wouldn't have been a Proverbs 31 woman, you would have been lucky to be one of her servants. Considers a field and buys it out of her earnings. She plants a vineyard. So she's being diligent. She's seeing her profits and her hardworking attitude is allowing her to steward her goods well. She isn't necessarily spending money on all this lavish stuff. She's spending her money on things that make sense, that are practical, that she will be able to build long term.",
-     "creator": "belief-it-or-not",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-04-01T15:00:06Z",
-     "role": "host",
-     "t": 1283.12,
-     "title": "Are You A Proverbs 31 Woman? | Belief It Or Not",
-     "video_id": "4lgJy4eomyQ"
-    }
-   ],
-   "creators": {
-    "belief-it-or-not": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "She considereth a field, and buyeth it: with the fruit of her hands she planteth a vineyard.",
-    "WEB": "She considers a field, and buys it. With the fruit of her hands, she plants a vineyard."
-   },
-   "truncated": false
-  },
-  "Proverbs 31:19": {
-   "citations": [
-    {
-     "confidence": 0.8733,
-     "context": "We see here a wise wife and mother who is taking the opportunities that she has before her in making the most of them. In her hand, she holds the distaff and grasps the spindle with her fingers. She opens her arms to the poor and extends her hands to the needy. Proverbs 31 woman isn't going to be naive to the to the needs of the world. She's gonna prioritize her family, but she's gonna do what she can to help those in her community as well.",
-     "creator": "belief-it-or-not",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-04-01T15:00:06Z",
-     "role": "host",
-     "t": 1640.52,
-     "title": "Are You A Proverbs 31 Woman? | Belief It Or Not",
-     "video_id": "4lgJy4eomyQ"
-    }
-   ],
-   "creators": {
-    "belief-it-or-not": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "She layeth her hands to the spindle, and her hands hold the distaff.",
-    "WEB": "She lays her hands to the distaff, and her hands hold the spindle."
-   },
-   "truncated": false
-  },
   "Proverbs 31:20": {
    "citations": [
     {
@@ -1274,56 +1028,6 @@
    "text": {
     "KJV": "She stretcheth out her hand to the poor; yea, she reacheth forth her hands to the needy.",
     "WEB": "She opens her arms to the poor; yes, she extends her hands to the needy."
-   },
-   "truncated": false
-  },
-  "Proverbs 31:21": {
-   "citations": [
-    {
-     "confidence": 0.8997,
-     "context": "Does she write notes? Does she give to those in need? Does she serve? Those are all good things. And you can do that while being a strong assertive woman. Being kind and being assertive aren't mutually exclusive. When it snows, she has no fear for her household, for all of them are clothed in scarlet. She makes coverings for her bed. She is clothed in fine linen and purple. She's tasteful. I'm not saying like she has $600 shoes and lip injections.",
-     "creator": "belief-it-or-not",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-04-01T15:00:06Z",
-     "role": "host",
-     "t": 1703.76,
-     "title": "Are You A Proverbs 31 Woman? | Belief It Or Not",
-     "video_id": "4lgJy4eomyQ"
-    }
-   ],
-   "creators": {
-    "belief-it-or-not": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "She is not afraid of the snow for her household: for all her household are clothed with scarlet.",
-    "WEB": "She is not afraid of the snow for her household, for all her household are clothed with scarlet."
-   },
-   "truncated": false
-  },
-  "Proverbs 31:23": {
-   "citations": [
-    {
-     "confidence": 0.8224,
-     "context": "Fine linens in purple isn't talking about having a good aesthetic or fashion sense. They're describing someone who spends a lot of money on clothing. It is the $600 shoes. It is the Prada Bag. Her husband is respected in the city gate where he takes his seat among the elders of the land. Ladies, free advice. Men want to feel respected. That's universal across the board. It's the way God made us.",
-     "creator": "belief-it-or-not",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-04-01T15:00:06Z",
-     "role": "host",
-     "t": 1833.0,
-     "title": "Are You A Proverbs 31 Woman? | Belief It Or Not",
-     "video_id": "4lgJy4eomyQ"
-    }
-   ],
-   "creators": {
-    "belief-it-or-not": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Her husband is known in the gates, when he sitteth among the elders of the land.",
-    "WEB": "Her husband is respected in the gates, when he sits among the elders of the land."
    },
    "truncated": false
   },
@@ -1389,81 +1093,6 @@
    },
    "truncated": false
   },
-  "Proverbs 31:26": {
-   "citations": [
-    {
-     "confidence": 0.7685,
-     "context": "Again, the only thing classless here is this criticism and shaming. She speaks with wisdom and faithful instruction is on her tongue. Being someone that is constantly on the internet speaking, that um is always trying to pour into other people. That verse is so important because it says she always is speaking with wisdom. And that really shows that she is slow to speak and she's always filled with wisdom.",
-     "creator": "belief-it-or-not",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-04-01T15:00:06Z",
-     "role": "host",
-     "t": 2058.44,
-     "title": "Are You A Proverbs 31 Woman? | Belief It Or Not",
-     "video_id": "4lgJy4eomyQ"
-    }
-   ],
-   "creators": {
-    "belief-it-or-not": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "She openeth her mouth with wisdom; and in her tongue is the law of kindness.",
-    "WEB": "She opens her mouth with wisdom. Kind instruction is on her tongue."
-   },
-   "truncated": false
-  },
-  "Proverbs 31:27": {
-   "citations": [
-    {
-     "confidence": 0.919,
-     "context": "Because there are some things I can say that are just talking to talk. And if I want to be filled with wisdom, I have to be constantly pouring into myself. So being able to shut my mouth and let the Lord speak into me. And then being able to pour out with godly wisdom. She watches over the affairs of her household and does not eat the bread of idleness. If you've gotten into the habit of being lazy, you must strive to be harder working. Don't tell me what I must do, internet woman. I'll do what I want. Her children arise and call her blessed.",
-     "creator": "belief-it-or-not",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-04-01T15:00:06Z",
-     "role": "host",
-     "t": 2140.4,
-     "title": "Are You A Proverbs 31 Woman? | Belief It Or Not",
-     "video_id": "4lgJy4eomyQ"
-    }
-   ],
-   "creators": {
-    "belief-it-or-not": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "She looketh well to the ways of her household, and eateth not the bread of idleness.",
-    "WEB": "She looks well to the ways of her household, and doesn’t eat the bread of idleness."
-   },
-   "truncated": false
-  },
-  "Proverbs 31:28": {
-   "citations": [
-    {
-     "confidence": 0.8543,
-     "context": "She watches over the affairs of her household and does not eat the bread of idleness. If you've gotten into the habit of being lazy, you must strive to be harder working. Don't tell me what I must do, internet woman. I'll do what I want. Her children arise and call her blessed. Her husband also and praises her. Many women do noble things, but you surpass them all. Does she like kids? How do you know? I mean, does she serve in children's ministry? Does she like want to keep your sister's kids?",
-     "creator": "belief-it-or-not",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-04-01T15:00:06Z",
-     "role": "host",
-     "t": 2154.16,
-     "title": "Are You A Proverbs 31 Woman? | Belief It Or Not",
-     "video_id": "4lgJy4eomyQ"
-    }
-   ],
-   "creators": {
-    "belief-it-or-not": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Her children arise up, and call her blessed; her husband also, and he praiseth her.",
-    "WEB": "Her children rise up and call her blessed. Her husband also praises her:"
-   },
-   "truncated": false
-  },
   "Proverbs 31:29": {
    "citations": [
     {
@@ -1489,117 +1118,8 @@
    },
    "truncated": false
   },
-  "Proverbs 31:30": {
-   "citations": [
-    {
-     "confidence": 0.9506,
-     "context": "Can they go golfing all weekend? Can they spend their free time in their wood shop or playing video games? Is there a different list of silly things for women versus men? Women get enough special treatment already. If we're been in the ladies' bathroom, there's no pee on the floor. None. Charm is deceptive and beauty is fleeting, but a woman who fears the Lord is to be praised. So easy to get caught up in how we look or what clothes we're wearing or how pretty people think we are. And while, yes, it's important to be presentable, and it's okay to want to look your best.",
-     "creator": "belief-it-or-not",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-04-01T15:00:06Z",
-     "role": "host",
-     "t": 2271.32,
-     "title": "Are You A Proverbs 31 Woman? | Belief It Or Not",
-     "video_id": "4lgJy4eomyQ"
-    }
-   ],
-   "creators": {
-    "belief-it-or-not": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Favour is deceitful, and beauty is vain: but a woman that feareth the LORD, she shall be praised.",
-    "WEB": "Charm is deceitful, and beauty is vain; but a woman who fears the LORD, she shall be praised."
-   },
-   "truncated": false
-  },
   "Proverbs 3:5": {
    "citations": [
-    {
-     "confidence": 0.8729,
-     "context": "It also goes to controlling your thoughts. Any question is immediately redirected to just trust God. Lean not on your own understanding. You know, take that thought captive and hold it into the obedience of Christ. You're trained to stop thinking when it actually matters the most. And this is what leads to the aspect of controlling your actual identity.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-11-20T23:56:52Z",
-     "role": "host",
-     "t": 593.16,
-     "title": "How Christianity Uses Coercive Control (Without Calling It That)",
-     "video_id": "2NsCVdkyjJ8"
-    },
-    {
-     "confidence": 0.8298,
-     "context": "Number three, discouraging independent thought. Try asking a pastor a deep question about contradictory Bible verses or historical context. Sometimes you get don't lean on your own understanding or have faith, not doubt. That's code for stop digging or you'll unravel the thread. If the truth can't handle a few tough questions, how solid is it? But many churches label curiosity as rebellion, ensuring you may reliant on them for proper interpretation.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-02-21T23:29:58Z",
-     "role": "host",
-     "t": 523.12,
-     "title": "Top 10 Ways the Church Manipulates Its Followers",
-     "video_id": "48_VRFon_Jk"
-    },
-    {
-     "confidence": 0.74,
-     "context": "Have you ever asked a sincere question in church and somehow left feeling like the question itself was the problem? You asked about a contradiction and they questioned your faith. You asked for evidence and they warned you about pride. You asked for clarity and they told you to lean not on your own understanding. Before you knew it, the conversation was no longer about whether the claim made sense. It was about whether you were humble enough, submitted enough, healed enough, or spiritual enough to keep asking.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2026-06-24T13:51:51Z",
-     "role": "host",
-     "t": 12.64,
-     "title": "Church Language: Unmasking Pastor's Tactics to Silence Questions #shorts",
-     "video_id": "5EPyLhnTbhA"
-    },
-    {
-     "confidence": 0.8246,
-     "context": "But over time, that narrative turns on you. What begins as empowerment becomes a mechanism of control. Don't doubt the spirit or you're in rebellion. That's not your mind, that's your prophetic mantle. Don't lean on your own understanding. Trust the anointing. God gave you this gift. Don't question it, or he'll take it away. Your reality is reframed so thoroughly that your own mind becomes a liability. You're taught to suppress self-inquiry, avoid psychological language, fear neuroscience or therapy as worldly wisdom, and see burnout not as a boundary violation, but as a test of faith.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-05-02T18:40:56Z",
-     "role": "host",
-     "t": 1150.56,
-     "title": "Anointing or Autism: How Religion Rewires Identity",
-     "video_id": "5rSIMKzfhJA"
-    },
-    {
-     "confidence": 0.8286,
-     "context": "This teaches people not to question power, but to submit to it as inherently right, even when it contradicts their own moral instincts. The Bible is full of commands to obey without question. Lean not on your own understanding, take every thought captive. The fear of the Lord, again, is the beginning of wisdom. Faith is framed as obedience to mystery, not critical engagement with truth. Christianity's moral system is less about ethical reasoning and more about alignment with divine will, no matter how incomprehensible or cruel.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-04-30T19:27:07Z",
-     "role": "host",
-     "t": 479.84,
-     "title": "God or Galactic Dictator? Why Christians Might Not Know the Difference",
-     "video_id": "6MCuTdgBvAs"
-    },
-    {
-     "confidence": 0.7739,
-     "context": "Sorry, that's not how we do this. You need to be intellectually convinced of Jesus and the sacrifice he made for you because your feelings are fleeting. For all we know, that could be the devil talking. The heart is deceitful above all else. Lean not on your own understanding. Do you see how inconsistent it is? Next, I just wrote down most Christians actually hate the idea of unearned rewards. That might have actually been a comment. Sometimes I do take other people's comments and just write them down.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-07-27T14:00:18Z",
-     "role": "unattributed",
-     "t": 381.24,
-     "title": "Atheist Shower Thoughts: Heaven, Hell, and Holy Hypocrisy",
-     "video_id": "6NS-NzwtNv4"
-    },
-    {
-     "confidence": 0.7481,
-     "context": "I can still walk, I can walk in wisdom and still enjoy the wonder of the world. Thinking for yourself is not a threat, it's a gift. In many systems rooted in superstition, critical thinking is treated like a liability. You're told not to lean on your own understanding. You're warned that too many questions will lead you astray. Doubt becomes demonized, certainty gets idolized. But at Bridge City, we believe something radically different. Critical thinking isn't dangerous, it's liberating.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-09-15T06:17:14Z",
-     "role": "host",
-     "t": 1021.32,
-     "title": "Did You Get My Message // HOMECOMING // Sunday Sessions",
-     "video_id": "6qgOdm-NxeE"
-    },
     {
      "confidence": 1.0,
      "context": "Now let's move on to insight number 10. I got unapologetic and authentic about my ambitions. Proverbs chapter 16, verse 3 says, Commit to the Lord whatever you do, and he will establish your plans. Proverbs chapter 3, verse 5 through 6 says, Trust in the Lord with all your heart, and lean not unto your own understanding, but in all your ways, submit to him, and he will make your path straight. I used to believe that unless every ambition was first filtered through divine approval, trusting God meant sidelining my own judgment.",
@@ -1663,14 +1183,36 @@
    ],
    "creators": {
     "capturing-christianity": 2,
-    "darante-lamar": 7,
-    "mindshift": 3
+    "darante-lamar": 1,
+    "mindshift": 2
    },
-   "n": 12,
+   "n": 5,
    "text": {
     "KJV": "Trust in the LORD with all thine heart; and lean not unto thine own understanding.",
     "WEB": "Trust in the LORD with all your heart, and don’t lean on your own understanding."
    },
+   "truncated": false
+  },
+  "Proverbs 3:5-6": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "Now let's move on to insight number 10. I got unapologetic and authentic about my ambitions. Proverbs chapter 16, verse 3 says, Commit to the Lord whatever you do, and he will establish your plans. Proverbs chapter 3, verse 5 through 6 says, Trust in the Lord with all your heart, and lean not unto your own understanding, but in all your ways, submit to him, and he will make your path straight. I used to believe that unless every ambition was first filtered through divine approval, trusting God meant sidelining my own judgment.",
+     "creator": "darante-lamar",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-06-18T19:22:33Z",
+     "role": "host",
+     "t": 733.76,
+     "title": "How Losing God Saved My Life: A Deconstruction of Damaging Scriptures",
+     "video_id": "9Y0vt3wAp8c"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {},
    "truncated": false
   },
   "Proverbs 3:6": {
@@ -1762,32 +1304,33 @@
   "Proverbs 4:7": {
    "citations": [
     {
-     "confidence": 0.8304,
-     "context": "Uh, but but but it's about having an interpretation of the world around you. And the thing about interpretation is it's hard to have an interpretation without an understanding. So for those of us who were in biblical hermeneutics, one of our guiding um our guiding pillars of understanding was in all of your under in all of your getting, get understanding. Um, and of course, that's how we approach the Bible. We try to do everything we could to understand everything that we could in the Bible.",
+     "confidence": null,
+     "context": "So we'll see. Y'all, y'all let me know in the comments as you always do. So we'll start with one. And I even quote this one uh to this day quite uh frequently, as a matter of fact. I don't know if there's a week that goes past where where I don't, you know, say something in this vein, and it's Proverbs chapter 4, verse 7. It was uh wisdom is the principal thing. Uh therefore get wisdom, and in all you're getting, get understanding.",
      "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-05-28T16:19:38Z",
-     "role": "host",
-     "t": 4062.96,
-     "title": "What Is Secular Preaching?",
-     "video_id": "4wKhWOVqcPE"
-    },
-    {
-     "confidence": 0.9082,
-     "context": "And I even quote this one uh to this day quite uh frequently, as a matter of fact. I don't know if there's a week that goes past where where I don't, you know, say something in this vein, and it's Proverbs chapter 4, verse 7. It was uh wisdom is the principal thing. Uh therefore get wisdom, and in all you're getting, get understanding. The the closer and closer uh I got to the place that would eventually become secular humanism.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
      "published_at": "2024-04-03T20:42:19Z",
      "role": "host",
-     "t": 133.96,
+     "t": 125.0,
      "title": "Scriptures That Helped My Deconversion",
      "video_id": "6TNVF5BR6o8"
+    },
+    {
+     "confidence": null,
+     "context": "Proverbs is a book that stresses over and over the importance of wisdom. Uh, why is he talking about Proverbs and Wisdom? It's almost like he's trying to avoid the actual topic. If you were to go to Proverbs chapter 4, verse 7, you would read, Wisdom is the principal thing. Therefore, get wisdom. Mr. Butt is an idiot. Therefore, he can get bent. If you were to go to Proverbs chapter 8, verse 11, you would read, Wisdom is better than rubies, and all the things one may desire cannot be compared with her.",
+     "creator": "prophet-of-zod",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2019-10-11T17:30:11Z",
+     "role": "host",
+     "t": 1152.64,
+     "title": "Into the Zod-Verse",
+     "video_id": "JJcGpX5J2XY"
     }
    ],
    "creators": {
-    "darante-lamar": 2
+    "darante-lamar": 1,
+    "prophet-of-zod": 1
    },
    "n": 2,
    "text": {
@@ -1796,19 +1339,19 @@
    },
    "truncated": false
   },
-  "Proverbs 5:15": {
+  "Proverbs 5:23": {
    "citations": [
     {
-     "confidence": 0.8219,
-     "context": "So it makes sense. He's stuck in the past about everything else, too. He says, drink water from your own cistern and fresh water from your own well. You get it.",
+     "confidence": null,
+     "context": "The whole gentle parenting movement is the one producing little slaves. In such a model, the kiddos are taught to say, Sir, yes, sir, to their passions every time. The result of this kind of thing is death. Proverbs chapter 5, verse 23. He dies for lack of discipline, and because of his great folly, he is led astray. There aren't just two options here. It's not hit your children or let them do whatever they want. That is simply dishonest, and he knows it.",
      "creator": "belief-it-or-not",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-10-26T17:00:00Z",
-     "role": "host",
-     "t": 1186.44,
-     "title": "The Seventh Commandment: No Adultery | Belief It Or Not",
-     "video_id": "-5NeuvbE2Rw"
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-09-04T15:01:13Z",
+     "role": "unknown",
+     "t": 3193.36,
+     "title": "The Worst Christian Parenting Advice | Belief It Or Not",
+     "video_id": "fYVXJEtmc1M"
     }
    ],
    "creators": {
@@ -1816,33 +1359,8 @@
    },
    "n": 1,
    "text": {
-    "KJV": "Drink waters out of thine own cistern, and running waters out of thine own well.",
-    "WEB": "Drink water out of your own cistern, running water out of your own well."
-   },
-   "truncated": false
-  },
-  "Proverbs 5:21": {
-   "citations": [
-    {
-     "confidence": 0.7705,
-     "context": "God is all knowing. The Bible says nothing in all creation is hidden from God's sight. Everything is uncovered and laid bare before the eyes of Him to whom we must give account. Perfect being theology also supports this idea. According to this line of thinking, God is the greatest being that could possibly exist.",
-     "creator": "drcraigvideos",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-10-01T21:00:01Z",
-     "role": "host",
-     "t": 8.88,
-     "title": "God Is All-Knowing",
-     "video_id": "-sM7ITxjd_Q"
-    }
-   ],
-   "creators": {
-    "drcraigvideos": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "For the ways of man are before the eyes of the LORD, and he pondereth all his goings.",
-    "WEB": "For the ways of man are before the LORD’s eyes. He examines all his paths."
+    "KJV": "He shall die without instruction; and in the greatness of his folly he shall go astray.",
+    "WEB": "He will die for lack of instruction. In the greatness of his folly, he will go astray."
    },
    "truncated": false
   },
@@ -1894,6 +1412,28 @@
     "KJV": "These six things doth the LORD hate: yea, seven are an abomination unto him:",
     "WEB": "There are six things which the LORD hates; yes, seven which are an abomination to him:"
    },
+   "truncated": false
+  },
+  "Proverbs 6:16-19": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "And there are good reasons to avoid telling white lies. First, the belief that a white lie is helpful is rooted in the idea that the end justifies the means. If the lie results in a perceived good, then the lie was justified. However, God's condemnation of lying in Proverbs chapter 6, verses 16 through 19 contains no exception clause. Also, who defines the good that results from the lie? A salesman telling white lies may sell his product, a good thing for him, but what about the customer who was taken advantage of?",
+     "creator": "belief-it-or-not",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-11-25T18:00:00Z",
+     "role": "unknown",
+     "t": 1614.68,
+     "title": "The Ninth Commandment: False Witness | Belief It Or Not",
+     "video_id": "aMMr51l8Dxs"
+    }
+   ],
+   "creators": {
+    "belief-it-or-not": 1
+   },
+   "n": 1,
+   "text": {},
    "truncated": false
   },
   "Proverbs 6:17": {
@@ -2045,6 +1585,31 @@
    },
    "truncated": false
   },
+  "Proverbs 8:11": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "If you were to go to Proverbs chapter 4, verse 7, you would read, Wisdom is the principal thing. Therefore, get wisdom. Mr. Butt is an idiot. Therefore, he can get bent. If you were to go to Proverbs chapter 8, verse 11, you would read, Wisdom is better than rubies, and all the things one may desire cannot be compared with her. Even when we go to the book of Job, we hear Job saying in Job chapter 28, verses 12 through 19, but where can wisdom be found?",
+     "creator": "prophet-of-zod",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2019-10-11T17:30:11Z",
+     "role": "host",
+     "t": 1166.16,
+     "title": "Into the Zod-Verse",
+     "video_id": "JJcGpX5J2XY"
+    }
+   ],
+   "creators": {
+    "prophet-of-zod": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For wisdom is better than rubies; and all the things that may be desired are not to be compared to it.",
+    "WEB": "For wisdom is better than rubies. All the things that may be desired can’t be compared to it."
+   },
+   "truncated": false
+  },
   "Proverbs 8:24": {
    "citations": [
     {
@@ -2095,69 +1660,33 @@
    },
    "truncated": false
   },
-  "Proverbs 8:36": {
+  "Proverbs 9:1": {
    "citations": [
     {
-     "confidence": 0.7903,
-     "context": "And one way that we as a people deal with death for some reason is to have a dumb little holiday. See, all those who hate me love death. First Corinthians 15 26. Paul describes death as an enemy that needs to be destroyed. You see, death is an enemy in a Christian worldview. We don't glorify in it. We don't love death, death is the enemy, and Christ conquered that death on a cross.",
-     "creator": "belief-it-or-not",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2023-10-25T13:00:02Z",
-     "role": "unknown",
-     "t": 1958.32,
-     "title": "Jesusween or Halloween?  | Belief It Or Not",
-     "video_id": "2H36dMUfdfQ"
+     "confidence": null,
+     "context": "If you go then to Proverbs chapter 9, verse 1, the Bible says wisdom has built her house. Whoa, whoa, wait. So what this guy's saying is that no matter what this Bible says about women, it can't be sexist. And the reasons, not even that it said one dame is wise, but just because it uses the word her when talking about wisdom.",
+     "creator": "prophet-of-zod",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2019-10-11T17:30:11Z",
+     "role": "host",
+     "t": 1478.68,
+     "title": "Into the Zod-Verse",
+     "video_id": "JJcGpX5J2XY"
     }
    ],
    "creators": {
-    "belief-it-or-not": 1
+    "prophet-of-zod": 1
    },
    "n": 1,
    "text": {
-    "KJV": "But he that sinneth against me wrongeth his own soul: all they that hate me love death.",
-    "WEB": "But he who sins against me wrongs his own soul. All those who hate me love death.”"
+    "KJV": "Wisdom hath builded her house, she hath hewn out her seven pillars:",
+    "WEB": "Wisdom has built her house. She has carved out her seven pillars."
    },
    "truncated": false
   },
   "Proverbs 9:10": {
    "citations": [
-    {
-     "confidence": 0.8729,
-     "context": "There were thoughts I learned not to finish, books I learned not to open questions that never made it past the first sentence. And somehow none of that felt extreme at the time. In fact, it felt like maturity, like wisdom, even. After all, wasn't the fear of God the beginning of wisdom? It saddens me that I never questioned why I should fear a God. But to me, God was God and I was not. It really was that simple. So I shut up. I got in line, I bowed my head, folded my hands, and said, thank you.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2026-01-11T15:00:04Z",
-     "role": "unattributed",
-     "t": 148.68,
-     "title": "Living Without the Threat",
-     "video_id": "0aISdPz6bXs"
-    },
-    {
-     "confidence": 0.91,
-     "context": "The Bible is full of commands to obey without question. Lean not on your own understanding, take every thought captive. The fear of the Lord, again, is the beginning of wisdom. Faith is framed as obedience to mystery, not critical engagement with truth. Christianity's moral system is less about ethical reasoning and more about alignment with divine will, no matter how incomprehensible or cruel.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-04-30T19:27:07Z",
-     "role": "host",
-     "t": 483.84,
-     "title": "God or Galactic Dictator? Why Christians Might Not Know the Difference",
-     "video_id": "6MCuTdgBvAs"
-    },
-    {
-     "confidence": 0.8823,
-     "context": "And it's if you took those to a lot of the law schools today, a lot of our American school children could under uh college educated uh adults could not understand them. Yeah, it's a sad indictment on our education system. The the fear of the Lord is the beginning of wisdom. We don't have much of it anymore because we don't have a fear of fear of the Lord anymore. Uh, and we've fallen away from that. But this book, ladies and gentlemen, uh, which is brilliantly illustrated. In fact, I gave it to my my granddaughter, because you gave me a copy in DC when we were there a couple weeks ago.",
-     "creator": "cross-examined",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2026-06-03T01:00:06Z",
-     "role": "host",
-     "t": 1465.48,
-     "title": "Be Worthy of the Bullet That Charlie Kirk Took For You — Why Independence Day? w/Steve Deace + Q&A",
-     "video_id": "6XDtTJMRYmA"
-    },
     {
      "confidence": 0.5333,
      "context": "So from that time until the time of Jesus, why didn't they care about all of those souls? Why don't we hear about that in the origin story of this religion? Maybe because it's an evolution. Again, it is just not consistent nor even really biblical. We'll read a couple from this next commenter as well. His messenger says, The fear of the Lord is the beginning of wisdom. And honestly, at this point, I'm just happy to hear someone quote something from the actual Bible. In fact, even something from the Old Testament. And if we make wisdom just about staying alive and not suffering, then based off everything I shared about all the horrors this God did in the Old Testament, you would be right that the beginning of wisdom is to fear God.",
@@ -2184,11 +1713,10 @@
     }
    ],
    "creators": {
-    "cross-examined": 2,
-    "darante-lamar": 1,
-    "mindshift": 2
+    "cross-examined": 1,
+    "mindshift": 1
    },
-   "n": 5,
+   "n": 2,
    "text": {
     "KJV": "The fear of the LORD is the beginning of wisdom: and the knowledge of the holy is understanding.",
     "WEB": "The fear of the LORD is the beginning of wisdom. The knowledge of the Holy One is understanding."

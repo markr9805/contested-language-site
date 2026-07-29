@@ -1,31 +1,6 @@
 {
  "book": "Jonah",
  "verses": {
-  "Jonah 1:17": {
-   "citations": [
-    {
-     "confidence": 0.8707,
-     "context": "It's typical, typifying Christ being raised on the cross. So that whoever believes in him have eternal life. Now, what does he say about Jonah? Matthew 12 through 8, 41, for the sake of time, though. For just as Jonah was three days and three nights in the belly of the sea monster, so will the Son of Man be three days and three nights in the heart of the earth. One more example, Melchizedek. It says Melchizedek resembling the Son of God was made a priest forever.",
-     "creator": "capturing-christianity",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-08-13T19:58:59Z",
-     "role": "host",
-     "t": 1159.36,
-     "title": "Did Jesus Have “Brothers”? Live Q&A and 'Keep the Lights On' Fundraiser",
-     "video_id": "-BatfVrm7W0"
-    }
-   ],
-   "creators": {
-    "capturing-christianity": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Now the LORD had prepared a great fish to swallow up Jonah. And Jonah was in the belly of the fish three days and three nights.",
-    "WEB": "The LORD prepared a huge fish to swallow up Jonah, and Jonah was in the belly of the fish three days and three nights."
-   },
-   "truncated": false
-  },
   "Jonah 3:10": {
    "citations": [
     {
@@ -39,12 +14,37 @@
      "t": 1660.76,
      "title": "A God Who Flip-Flops: 8 Shocking Displays of Divine Inconsistency",
      "video_id": "W-ZUw8CiDXU"
+    },
+    {
+     "confidence": null,
+     "context": "Now, this third one that I want to highlight is can God change his mind? According to Numbers chapter 23, verse 19, God is not a man that he should lie or change his mind. But according to Jonah chapter 3, verse 10, God changed his mind and did not destroy Nineveh. Now, Exodus chapter 32, verse 14 says, So the Lord changed his mind. Now this is a clear contradiction, and the question is, is this immutable or reactive?",
+     "creator": "darante-lamar",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-05-05T19:40:43Z",
+     "role": "host",
+     "t": 454.96,
+     "title": "The Bible’s Biggest Contradictions — And Why They Matter More Than You Think",
+     "video_id": "j9ge1onMAFc"
+    },
+    {
+     "confidence": null,
+     "context": "Now again, Numbers chapter 23 says, God is not a man that he should lie, nor a son of man that he should change his mind. There is a clear claim there that God does not change his mind. And then in Jonah chapter 3, verse 10, it says, when God saw what they did, he changed his mind about the calamity he had said he would bring upon them, and he did not do it. The clear claim here is that God changed his mind based on human behavior. And then even when we look back at Exodus 32, so the Lord changed his mind about the disaster he planned to bring on his people.",
+     "creator": "darante-lamar",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-05-05T19:40:43Z",
+     "role": "host",
+     "t": 481.6,
+     "title": "The Bible’s Biggest Contradictions — And Why They Matter More Than You Think",
+     "video_id": "j9ge1onMAFc"
     }
    ],
    "creators": {
+    "darante-lamar": 2,
     "mindshift": 1
    },
-   "n": 1,
+   "n": 3,
    "text": {
     "KJV": "And God saw their works, that they turned from their evil way; and God repented of the evil, that he had said that he would do unto them; and he did it not.",
     "WEB": "God saw their works, that they turned from their evil way. God relented of the disaster which he said he would do to them, and he didn’t do it."

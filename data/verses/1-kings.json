@@ -1,92 +1,17 @@
 {
  "book": "1 Kings",
  "verses": {
-  "1 Kings 11:7": {
-   "citations": [
-    {
-     "confidence": 0.8417,
-     "context": "But then there's also Shamash, who is the national god of the Moabites, a people neighboring ancient Israel Israel. Shemash is actually mentioned in the Old Testament as a deity worshipped by the Moabites, and sometimes by the Israelites themselves. This is most clearly seen in 1 Kings around the 11th chapter, where King Solomon actually builds a high place for Shemash near Jerusalem. Now, obviously, in the text, this is written as, you know, oh, you shouldn't have done this, but in the same text, it is written that Solomon is the most wisest of all kings.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-11-07T19:47:45Z",
-     "role": "host",
-     "t": 1869.32,
-     "title": "Who Was God Before God",
-     "video_id": "2cy3Xt1_Wx8"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Then did Solomon build an high place for Chemosh, the abomination of Moab, in the hill that is before Jerusalem, and for Molech, the abomination of the children of Ammon.",
-    "WEB": "Then Solomon built a high place for Chemosh the abomination of Moab, on the mountain that is before Jerusalem, and for Molech the abomination of the children of Ammon."
-   },
-   "truncated": false
-  },
-  "1 Kings 13:16": {
-   "citations": [
-    {
-     "confidence": 0.8032,
-     "context": "He called for unity, economic actions, and protests while reflecting on the history of the civil rights movement. He concluded with a visionary moment where he looked over and saw the promised land. And he said, I may not get there with you, but I know that we as a people, that's what he said, we'll get there together. Like, I'm not king. No. We're gonna deal with you. We're getting up together, goddammit.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-01-20T08:02:32Z",
-     "role": "host",
-     "t": 3495.64,
-     "title": "Crown Me // Unf*ckwithable",
-     "video_id": "2lJvZK6mzbs"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And he said, I may not return with thee, nor go in with thee: neither will I eat bread nor drink water with thee in this place:",
-    "WEB": "He said, “I may not return with you, nor go in with you. I will not eat bread or drink water with you in this place."
-   },
-   "truncated": false
-  },
-  "1 Kings 13:26": {
-   "citations": [
-    {
-     "confidence": 0.7495,
-     "context": "And then sometimes in a very superstitious or superficial way, as in, no, this is God's man, this is God's woman, this is the man of God, and and you don't you don't judge the man of God, you don't judge the woman of God. You you'd be surprised of the things that that I've seen people stay through.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-05-24T20:06:00Z",
-     "role": "host",
-     "t": 1488.48,
-     "title": "Why Are Black People Leaving Church",
-     "video_id": "6AFRuVzMGKs"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And when the prophet that brought him back from the way heard thereof, he said, It is the man of God, who was disobedient unto the word of the LORD: therefore the LORD hath delivered him unto the lion, which hath torn him, and slain him, according to the word of the LORD, which he spake unto him.",
-    "WEB": "When the prophet who brought him back from the way heard of it, he said, “It is the man of God who was disobedient to the LORD’s word. Therefore the LORD has delivered him to the lion, which has mauled him and slain him, according to the LORD’s word which he spoke to him.”"
-   },
-   "truncated": false
-  },
   "1 Kings 17:1": {
    "citations": [
     {
-     "confidence": 0.9421,
-     "context": "So let's get into the full context and the story of Elijah. It's interesting because Elijah just pops up in the Bible. First Kings chapter 17, verse 1. In fact, let me just read it to you. It truly comes out of the blue. It gets done talking about Joshua, and then we move straight into this. Now Elijah said to Ahab, as the Lord, the God of Israel lives, before whom I stand, there shall be neither dew nor rain these years except by my word. This is interesting for two reasons. One, most of the time when we get introduced to a prophet, we are seeing God talk to the prophet.",
+     "confidence": null,
+     "context": "We'll see about that partnership. So let's get into the full context and the story of Elijah. It's interesting because Elijah just pops up in the Bible. First Kings chapter 17, verse 1. In fact, let me just read it to you. It truly comes out of the blue. It gets done talking about Joshua, and then we move straight into this. Now Elijah said to Ahab, as the Lord, the God of Israel lives, before whom I stand, there shall be neither dew nor rain these years except by my word.",
      "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
      "published_at": "2024-10-22T14:00:04Z",
      "role": "host",
-     "t": 179.48,
+     "t": 171.56,
      "title": "Exposing Elijah: The Truth @bibleproject Didn’t Want to Show You!",
      "video_id": "2J2qOg9bEd0"
     }
@@ -98,156 +23,6 @@
    "text": {
     "KJV": "And Elijah the Tishbite, who was of the inhabitants of Gilead, said unto Ahab, As the LORD God of Israel liveth, before whom I stand, there shall not be dew nor rain these years, but according to my word.",
     "WEB": "Elijah the Tishbite, who was one of the settlers of Gilead, said to Ahab, “As the LORD, the God of Israel, lives, before whom I stand, there shall not be dew nor rain these years, but according to my word.”"
-   },
-   "truncated": false
-  },
-  "1 Kings 18:11": {
-   "citations": [
-    {
-     "confidence": 0.7868,
-     "context": "Um, so Kyle, tell me, man, what do you do when when people tell you they they they have a word from God for you? What how how do you process that and how do you respond to that? It's real short and simple. I tell them, go tell your God to come tell me directly. Yes. Oh man, I thought I was gonna have a time to take a drink, but that was short and direct. That was it. Tell them to come, hey, look, I'm I'm not dealing with any middle middle messengers, you know, no middlemen.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-10-07T00:39:48Z",
-     "role": "unknown",
-     "t": 2549.68,
-     "title": "Don't Waste Your Life // The X-Pastor Call-In Show 1.4",
-     "video_id": "534nQOnwT78"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And now thou sayest, Go, tell thy lord, Behold, Elijah is here.",
-    "WEB": "Now you say, ‘Go, tell your lord, “Behold, Elijah is here.”’"
-   },
-   "truncated": false
-  },
-  "1 Kings 18:13": {
-   "citations": [
-    {
-     "confidence": 0.8393,
-     "context": "He said, I've been very jealous for the Lord, the God of host, for the people of Israel have forsaken your covenant, thrown down your altars, and killed your prophets with the sword, and I, even I only am left. He loves to do this for himself, which by the way, it is not just him that is left, because Obadiah, who we've skipped over here, hid a hundred prophets from Jezebel in groups of fifty in a cave, and he's been personally feeding them. But no, we keep getting this story from Elijah that he's the only one, and they seek my life to take it away.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-10-22T14:00:04Z",
-     "role": "host",
-     "t": 830.44,
-     "title": "Exposing Elijah: The Truth @bibleproject Didn’t Want to Show You!",
-     "video_id": "2J2qOg9bEd0"
-    }
-   ],
-   "creators": {
-    "mindshift": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Was it not told my lord what I did when Jezebel slew the prophets of the LORD, how I hid an hundred men of the LORD's prophets by fifty in a cave, and fed them with bread and water?",
-    "WEB": "Wasn’t it told my lord what I did when Jezebel killed the LORD’s prophets, how I hid one hundred men of the LORD’s prophets with fifty to a cave, and fed them with bread and water?"
-   },
-   "truncated": false
-  },
-  "1 Kings 18:15": {
-   "citations": [
-    {
-     "confidence": 0.8577,
-     "context": "So let's get into the full context and the story of Elijah. It's interesting because Elijah just pops up in the Bible. First Kings chapter 17, verse 1. In fact, let me just read it to you. It truly comes out of the blue. It gets done talking about Joshua, and then we move straight into this. Now Elijah said to Ahab, as the Lord, the God of Israel lives, before whom I stand, there shall be neither dew nor rain these years except by my word. This is interesting for two reasons. One, most of the time when we get introduced to a prophet, we are seeing God talk to the prophet.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-10-22T14:00:04Z",
-     "role": "host",
-     "t": 179.48,
-     "title": "Exposing Elijah: The Truth @bibleproject Didn’t Want to Show You!",
-     "video_id": "2J2qOg9bEd0"
-    }
-   ],
-   "creators": {
-    "mindshift": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And Elijah said, As the LORD of hosts liveth, before whom I stand, I will surely show myself unto him to day.",
-    "WEB": "Elijah said, “As the LORD of Armies lives, before whom I stand, I will surely show myself to him today.”"
-   },
-   "truncated": false
-  },
-  "1 Kings 18:19": {
-   "citations": [
-    {
-     "confidence": 0.8567,
-     "context": "You have Ahab and Jezebel, and they are worshiping false gods with Baal and Asherah, which have their own unique history. That if you want to learn more about, see my series on God and anatomy. But we won't talk about that here now. So Elijah doesn't just invite the prophets of Baal, he invites all of Israel to come to this showdown, as well as the 450 prophets of Baal, and I think the 400 prophets of Asherah. But we mainly hear about the 450 prophets of Baal. And he sets up a competition, and it's a pretty good idea, actually.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-10-22T14:00:04Z",
-     "role": "host",
-     "t": 459.68,
-     "title": "Exposing Elijah: The Truth @bibleproject Didn’t Want to Show You!",
-     "video_id": "2J2qOg9bEd0"
-    }
-   ],
-   "creators": {
-    "mindshift": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Now therefore send, and gather to me all Israel unto mount Carmel, and the prophets of Baal four hundred and fifty, and the prophets of the groves four hundred, which eat at Jezebel's table.",
-    "WEB": "Now therefore send, and gather to me all Israel to Mount Carmel, and four hundred fifty of the prophets of Baal, and four hundred of the prophets of the Asherah, who eat at Jezebel’s table.”"
-   },
-   "truncated": false
-  },
-  "1 Kings 18:4": {
-   "citations": [
-    {
-     "confidence": 0.9125,
-     "context": "He said, I've been very jealous for the Lord, the God of host, for the people of Israel have forsaken your covenant, thrown down your altars, and killed your prophets with the sword, and I, even I only am left. He loves to do this for himself, which by the way, it is not just him that is left, because Obadiah, who we've skipped over here, hid a hundred prophets from Jezebel in groups of fifty in a cave, and he's been personally feeding them. But no, we keep getting this story from Elijah that he's the only one, and they seek my life to take it away.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-10-22T14:00:04Z",
-     "role": "host",
-     "t": 830.44,
-     "title": "Exposing Elijah: The Truth @bibleproject Didn’t Want to Show You!",
-     "video_id": "2J2qOg9bEd0"
-    }
-   ],
-   "creators": {
-    "mindshift": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "For it was so, when Jezebel cut off the prophets of the LORD, that Obadiah took an hundred prophets, and hid them by fifty in a cave, and fed them with bread and water.)",
-    "WEB": "for when Jezebel cut off the LORD’s prophets, Obadiah took one hundred prophets, and hid them fifty to a cave, and fed them with bread and water.)"
-   },
-   "truncated": false
-  },
-  "1 Kings 18:8": {
-   "citations": [
-    {
-     "confidence": 0.7507,
-     "context": "Um, so Kyle, tell me, man, what do you do when when people tell you they they they have a word from God for you? What how how do you process that and how do you respond to that? It's real short and simple. I tell them, go tell your God to come tell me directly. Yes. Oh man, I thought I was gonna have a time to take a drink, but that was short and direct. That was it. Tell them to come, hey, look, I'm I'm not dealing with any middle middle messengers, you know, no middlemen.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-10-07T00:39:48Z",
-     "role": "unknown",
-     "t": 2549.68,
-     "title": "Don't Waste Your Life // The X-Pastor Call-In Show 1.4",
-     "video_id": "534nQOnwT78"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And he answered him, I am: go, tell thy lord, Behold, Elijah is here.",
-    "WEB": "He answered him, “It is I. Go, tell your lord, ‘Behold, Elijah is here!’”"
    },
    "truncated": false
   },
@@ -401,32 +176,7 @@
    },
    "truncated": false
   },
-  "1 Kings 19:9": {
-   "citations": [
-    {
-     "confidence": 0.9569,
-     "context": "And not only that, not only is Elijah's physical needs being met right now, but so are his emotional needs. God is comforting him in legitimately one of the sweetest ways we ever see God work. It's really fascinating. I'm gonna read it to you actually. Then he came to a cave and lodged in it. And behold, the word of the Lord came to him and said to him, What are you doing here, Elijah? He said, I've been very jealous for the Lord, the God of host, for the people of Israel have forsaken your covenant, thrown down your altars, and killed your prophets with the sword, and I, even I only am left.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-10-22T14:00:04Z",
-     "role": "host",
-     "t": 813.16,
-     "title": "Exposing Elijah: The Truth @bibleproject Didn’t Want to Show You!",
-     "video_id": "2J2qOg9bEd0"
-    }
-   ],
-   "creators": {
-    "mindshift": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And he came thither unto a cave, and lodged there; and, behold, the word of the LORD came to him, and he said unto him, What doest thou here, Elijah?",
-    "WEB": "He came to a cave there, and camped there; and behold, the LORD’s word came to him, and he said to him, “What are you doing here, Elijah?”"
-   },
-   "truncated": false
-  },
-  "1 Kings 1:1": {
+  "1 Kings 1:1-4": {
    "citations": [
     {
      "confidence": null,
@@ -445,35 +195,7 @@
     "mindshift": 1
    },
    "n": 1,
-   "text": {
-    "KJV": "Now king David was old and stricken in years; and they covered him with clothes, but he gat no heat.",
-    "WEB": "Now King David was old and advanced in years; and they covered him with clothes, but he couldn’t keep warm."
-   },
-   "truncated": false
-  },
-  "1 Kings 1:12": {
-   "citations": [
-    {
-     "confidence": 0.7265,
-     "context": "But when you are a part of that people group, you do not have the luxury of fairy tales. You do not have the luxury of imagining that there's a superhero out there that is fighting your battles, and that if you would sacrifice paying attention to building your own life and build his kingdom instead, your life will be taken care of. This is how you create generational poverty.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-08-01T17:12:06Z",
-     "role": "host",
-     "t": 1628.52,
-     "title": "Ex-Pastor's Thoughts on The Black Church",
-     "video_id": "14Ot9NcfN4k"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Now therefore come, let me, I pray thee, give thee counsel, that thou mayest save thine own life, and the life of thy son Solomon.",
-    "WEB": "Now therefore come, please let me give you counsel, that you may save your own life and your son Solomon’s life."
-   },
+   "text": {},
    "truncated": false
   },
   "1 Kings 21:17": {
@@ -526,56 +248,6 @@
    },
    "truncated": false
   },
-  "1 Kings 22:16": {
-   "citations": [
-    {
-     "confidence": 0.7271,
-     "context": "And most of us know that quote as coming from Matt Dillahunty. And so, just to kind of just if you're excited about having this conversation about truth, by the way. If you didn't know, the name of today's conversation is nothing but the truth. Uh uh, I want to live my life in a place where I am living as as much as possible by nothing but the truth. So help me me.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-09-23T06:58:03Z",
-     "role": "host",
-     "t": 890.08,
-     "title": "Nothing But The Truth  // Sunday Sessions",
-     "video_id": "2HzFNzMMeHA"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And the king said unto him, How many times shall I adjure thee that thou tell me nothing but that which is true in the name of the LORD?",
-    "WEB": "The king said to him, “How many times do I have to adjure you that you speak to me nothing but the truth in the LORD’s name?”"
-   },
-   "truncated": false
-  },
-  "1 Kings 22:19": {
-   "citations": [
-    {
-     "confidence": 0.9555,
-     "context": "Do it, you'll succeed. But we learn through this prophet that I'm about to read to you from how this really happened. Here, let me just read it to you first. First Kings 22, 19 through 23. Therefore, hear the word of the Lord. I saw the Lord sitting on his throne with all the host of heaven standing beside him to the right and to the left of him. And the Lord said, Who will entice Ahab so that he may go up and fall at Ramath Gilead?",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2026-07-05T14:00:16Z",
-     "role": "host",
-     "t": 938.24,
-     "title": "God’s Favorite Weapon Is Confusion",
-     "video_id": "1mQN3dAT0KA"
-    }
-   ],
-   "creators": {
-    "mindshift": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And he said, Hear thou therefore the word of the LORD: I saw the LORD sitting on his throne, and all the host of heaven standing by him on his right hand and on his left.",
-    "WEB": "Micaiah said, “Therefore hear the LORD’s word. I saw the LORD sitting on his throne, and all the army of heaven standing by him on his right hand and on his left."
-   },
-   "truncated": false
-  },
   "1 Kings 22:20": {
    "citations": [
     {
@@ -601,68 +273,6 @@
    },
    "truncated": false
   },
-  "1 Kings 22:21": {
-   "citations": [
-    {
-     "confidence": 0.8939,
-     "context": "I saw the Lord sitting on his throne with all the host of heaven standing beside him to the right and to the left of him. And the Lord said, Who will entice Ahab so that he may go up and fall at Ramath Gilead? Then one said one thing and another said another, until a certain spirit came forward and stood before the Lord, saying, I will entice him. How the Lord asked him. He replied, I will go out and be a lying spirit in the mouth of all his prophets.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2026-07-05T14:00:16Z",
-     "role": "host",
-     "t": 955.12,
-     "title": "God’s Favorite Weapon Is Confusion",
-     "video_id": "1mQN3dAT0KA"
-    }
-   ],
-   "creators": {
-    "mindshift": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And there came forth a spirit, and stood before the LORD, and said, I will persuade him.",
-    "WEB": "A spirit came out and stood before the LORD, and said, ‘I will entice him.’"
-   },
-   "truncated": false
-  },
-  "1 Kings 22:22": {
-   "citations": [
-    {
-     "confidence": 0.9682,
-     "context": "Then one said one thing and another said another, until a certain spirit came forward and stood before the Lord, saying, I will entice him. How the Lord asked him. He replied, I will go out and be a lying spirit in the mouth of all his prophets. Then the Lord said, You are to entice him, and you shall succeed. Go out and do it. So you see, the Lord has put a lying spirit in the mouth of all these your prophets.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2026-07-05T14:00:16Z",
-     "role": "host",
-     "t": 966.12,
-     "title": "God’s Favorite Weapon Is Confusion",
-     "video_id": "1mQN3dAT0KA"
-    },
-    {
-     "confidence": 0.8422,
-     "context": "But a trickster god lies. And the first thing we need to do is talk about how this god often lies. I have a video where I compare him with David and how they were both deceivers. You can see that here. But the best verse to indicate the purposeful dishonesty of this god is of course first Kings 22, 20 through 22, which says, I will go out and be a lying spirit in the mouths of all his prophets. This is God authorizing a spirit after kind of taking a counsel in heaven for what to do about this particular problem.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-04-01T14:00:04Z",
-     "role": "host",
-     "t": 270.8,
-     "title": "Is Yahweh a Trickster God? | 16 “Holy Pranks”!",
-     "video_id": "4YBagWg25AQ"
-    }
-   ],
-   "creators": {
-    "mindshift": 2
-   },
-   "n": 2,
-   "text": {
-    "KJV": "And the LORD said unto him, Wherewith? And he said, I will go forth, and I will be a lying spirit in the mouth of all his prophets. And he said, Thou shalt persuade him, and prevail also: go forth, and do so.",
-    "WEB": "The LORD said to him, ‘How?’ He said, ‘I will go out and will be a lying spirit in the mouth of all his prophets.’ He said, ‘You will entice him, and will also prevail. Go out and do so.’"
-   },
-   "truncated": false
-  },
   "1 Kings 22:23": {
    "citations": [
     {
@@ -676,18 +286,6 @@
      "t": 966.12,
      "title": "God’s Favorite Weapon Is Confusion",
      "video_id": "1mQN3dAT0KA"
-    },
-    {
-     "confidence": 0.8671,
-     "context": "But a trickster god lies. And the first thing we need to do is talk about how this god often lies. I have a video where I compare him with David and how they were both deceivers. You can see that here. But the best verse to indicate the purposeful dishonesty of this god is of course first Kings 22, 20 through 22, which says, I will go out and be a lying spirit in the mouths of all his prophets. This is God authorizing a spirit after kind of taking a counsel in heaven for what to do about this particular problem.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-04-01T14:00:04Z",
-     "role": "host",
-     "t": 270.8,
-     "title": "Is Yahweh a Trickster God? | 16 “Holy Pranks”!",
-     "video_id": "4YBagWg25AQ"
     },
     {
      "confidence": 0.6522,
@@ -704,9 +302,9 @@
    ],
    "creators": {
     "belief-it-or-not": 1,
-    "mindshift": 2
+    "mindshift": 1
    },
-   "n": 3,
+   "n": 2,
    "text": {
     "KJV": "Now therefore, behold, the LORD hath put a lying spirit in the mouth of all these thy prophets, and the LORD hath spoken evil concerning thee.",
     "WEB": "Now therefore, behold, the LORD has put a lying spirit in the mouth of all these your prophets; and the LORD has spoken evil concerning you.”"
@@ -738,28 +336,28 @@
    },
    "truncated": false
   },
-  "1 Kings 3:12": {
+  "1 Kings 5:3": {
    "citations": [
     {
-     "confidence": 0.7816,
-     "context": "Remember that time you okay, all right, Lord. He always reminds me. And the things that I think that really I may not like or may hurt my feelings that another person says or does without fail. The Lord may not show me that I do the exact behavior, but that there has been some glimpse of that to some extent in my own life. And he was like, We just, y'all out here being humans. That's what it is. And so he will show you you you've offended, you've betrayed, you've broken confidence, whether you intended to or not.",
-     "creator": "jude-3-project",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-08-19T13:00:06Z",
+     "confidence": null,
+     "context": "I was like, so this is actually really clear in the Hebrew text. It says, an oracle of Yahweh to my master. Who's the master? It's the king. And how do we know it's the king? Because it says, Sit at my right hand until I make your enemies your footstool. This was the promise uttered the King David that came true in 1 Kings chapter 5, verse 3. In 1 Kings 5 3, his own son Solomon says that uh it was the Lord who uh finally gave David rest from his enemies and put them under the soles of his feet.",
+     "creator": "mindshift",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-05-11T14:00:45Z",
      "role": "host",
-     "t": 2409.52,
-     "title": "Are We Loving People the Wrong Way? | Jada Edwards",
-     "video_id": "2XweOoRaCR8"
+     "t": 5099.28,
+     "title": "Deconstruction Zone: Was Jesus Really the Promised Messiah?",
+     "video_id": "YDyMpOpn9TI"
     }
    ],
    "creators": {
-    "jude-3-project": 1
+    "mindshift": 1
    },
    "n": 1,
    "text": {
-    "KJV": "Behold, I have done according to thy words: lo, I have given thee a wise and an understanding heart; so that there was none like thee before thee, neither after thee shall any arise like unto thee.",
-    "WEB": "behold, I have done according to your word. Behold, I have given you a wise and understanding heart, so that there has been no one like you before you, and after you none will arise like you."
+    "KJV": "Thou knowest how that David my father could not build an house unto the name of the LORD his God for the wars which were about him on every side, until the LORD put them under the soles of his feet.",
+    "WEB": "“You know that David my father could not build a house for the name of the LORD his God because of the wars which were around him on every side, until the LORD put his enemies under the soles of his feet."
    },
    "truncated": false
   },
@@ -786,6 +384,28 @@
     "KJV": "And within the oracle he made two cherubim of olive tree, each ten cubits high.",
     "WEB": "In the inner sanctuary he made two cherubim of olive wood, each ten cubits high."
    },
+   "truncated": false
+  },
+  "1 Kings 6:23-29": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "Remember, I said that the cherubim are represented in the tabernacle and in the temple, even in the Holy of Holies itself. Uh so this isn't late prophetic literature. This is Exodus chapter 25, verses 18 to 22, Exodus 25, 18 to 22, and Exodus 26, 31, and then also 1 Kings chapter 6, verses 23 to 29, 1 Kings 6, 23 to 29.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-02-10T05:22:51Z",
+     "role": "host",
+     "t": 1102.8,
+     "title": "// Defenders LIVE! //",
+     "video_id": "sv-3xq0Ycxs"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {},
    "truncated": false
   },
   "1 Kings 6:24": {
@@ -835,81 +455,6 @@
    "text": {
     "KJV": "And he overlaid the cherubim with gold.",
     "WEB": "He overlaid the cherubim with gold."
-   },
-   "truncated": false
-  },
-  "1 Kings 8:13": {
-   "citations": [
-    {
-     "confidence": 0.7457,
-     "context": "They talk about a God who cares about you, who's looking down from heaven, who's catching you when you fall, who knows how many hairs are on your head, who made you with great love and attention to detail and has this tremendous plan for you. And he's also a good God, and he's a just God, and he's preparing a place for you to be with him forever in paradise. And so many of us have this incredible idea of what a God should be. We're told that that God is Yahweh and His Son Jesus, and then we grow up and we see the suffering and the problems in the world, and we see the inconsistency and the contradictions, and we read the verses that the pastors never preach on.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-07-27T14:00:18Z",
-     "role": "unattributed",
-     "t": 757.96,
-     "title": "Atheist Shower Thoughts: Heaven, Hell, and Holy Hypocrisy",
-     "video_id": "6NS-NzwtNv4"
-    }
-   ],
-   "creators": {
-    "mindshift": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "I have surely built thee an house to dwell in, a settled place for thee to abide in for ever.",
-    "WEB": "I have surely built you a house of habitation, a place for you to dwell in forever.”"
-   },
-   "truncated": false
-  },
-  "1 Kings 8:18": {
-   "citations": [
-    {
-     "confidence": 0.8828,
-     "context": "But in its context, we know it's about Solomon. Let me read. The Lord also declares to you that the Lord will make a house for you. When your days are finished, and you lie down with your fathers. This is God making the everlasting covenant with David, saying, Look, David, you had in your heart to build me a house. Elsewhere we're told, by the way, in 1 Chronicles 22, verse 8, and 1 Chronicles 28 3, God says, You won't build a house because you shed too much blood.",
-     "creator": "capturing-christianity",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-08-13T19:58:59Z",
-     "role": "host",
-     "t": 2136.0,
-     "title": "Did Jesus Have “Brothers”? Live Q&A and 'Keep the Lights On' Fundraiser",
-     "video_id": "-BatfVrm7W0"
-    }
-   ],
-   "creators": {
-    "capturing-christianity": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And the LORD said unto David my father, Whereas it was in thine heart to build an house unto my name, thou didst well that it was in thine heart.",
-    "WEB": "But the LORD said to David my father, ‘Whereas it was in your heart to build a house for my name, you did well that it was in your heart."
-   },
-   "truncated": false
-  },
-  "1 Kings 8:27": {
-   "citations": [
-    {
-     "confidence": 0.8438,
-     "context": "The universe he created cannot contain him. He simply transcends three-dimensional space altogether. This is why Solomon, after he built the temple, said, Will God indeed dwell on the earth? Behold, heaven and the highest heaven cannot contain you. When we say that God is omnipresent, we mean that God knows what is happening and is causally active at every point in the space-time universe.",
-     "creator": "drcraigvideos",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-07-10T13:50:22Z",
-     "role": "host",
-     "t": 261.84,
-     "title": "God Is Omnipresent",
-     "video_id": "640GWmcbgLw"
-    }
-   ],
-   "creators": {
-    "drcraigvideos": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "But will God indeed dwell on the earth? behold, the heaven and heaven of heavens cannot contain thee; how much less this house that I have builded?",
-    "WEB": "But will God in very deed dwell on the earth? Behold, heaven and the heaven of heavens can’t contain you; how much less this house that I have built!"
    },
    "truncated": false
   },

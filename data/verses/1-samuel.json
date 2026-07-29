@@ -1,79 +1,17 @@
 {
  "book": "1 Samuel",
  "verses": {
-  "1 Samuel 15:22": {
-   "citations": [
-    {
-     "confidence": 0.8406,
-     "context": "Let's let's just face it. In this country, it's all over the place. Yes. So I I definitely know obedience and compliance. Uh you know, there are words that that I've heard my entire life. Um, you know, you you have to obey, you know, even in in in church doctrine, it's obedience is better than sacrifice, you know. Um, you know, obey the Lord, obe uh obey your parents for your days will be long. You know, you get all of these these ideas that there are these really set rules that I have to follow because someone who knew way much more than I could possibly ever know has set these rules in place, and I should not question them.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-03-28T07:40:04Z",
-     "role": "host",
-     "t": 798.2,
-     "title": "People Centric Patron Party",
-     "video_id": "2RcnvT6CghM"
-    },
-    {
-     "confidence": 0.81,
-     "context": "Religion often personifies this instinct, but Christianity codifies it. Every knee shall bow. Fear of the Lord is the beginning of wisdom. Obedience is better than sacrifice. A psychologically uncritical mind will surrender to anything impressive enough, and Christianity frames this surrender as virtue. Religion, particularly Christianity, doesn't just encourage belief, it teaches submission to absolute authority.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-04-30T19:27:07Z",
-     "role": "host",
-     "t": 367.4,
-     "title": "God or Galactic Dictator? Why Christians Might Not Know the Difference",
-     "video_id": "6MCuTdgBvAs"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 2
-   },
-   "n": 2,
-   "text": {
-    "KJV": "And Samuel said, Hath the LORD as great delight in burnt offerings and sacrifices, as in obeying the voice of the LORD? Behold, to obey is better than sacrifice, and to hearken than the fat of rams.",
-    "WEB": "Samuel said, “Has the LORD as great delight in burnt offerings and sacrifices, as in obeying the LORD’s voice? Behold, to obey is better than sacrifice, and to listen than the fat of rams."
-   },
-   "truncated": false
-  },
-  "1 Samuel 15:23": {
-   "citations": [
-    {
-     "confidence": 0.871,
-     "context": "Idols would have been part of that worship, and not just to Yahweh. But what he did was he substituted God's will for his own will. He self-served. That became idolatry. He says here, stubbornness is as iniquity and idolatry. Why? Because thou hast rejected the word of the Lord. We're talking about modern day idolatry? Yeah. That's what we're talking about. And then here we get into a repeat of the arguments we heard in the first commandment. Anything you put above God in your life can be an idol or a god.",
-     "creator": "belief-it-or-not",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-08-07T15:00:06Z",
-     "role": "unknown",
-     "t": 2219.6,
-     "title": "The Second Commandment: Graven Images  | Belief It Or Not",
-     "video_id": "2uv-6B5fGOE"
-    }
-   ],
-   "creators": {
-    "belief-it-or-not": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "For rebellion is as the sin of witchcraft, and stubbornness is as iniquity and idolatry. Because thou hast rejected the word of the LORD, he hath also rejected thee from being king.",
-    "WEB": "For rebellion is as the sin of witchcraft, and stubbornness is as idolatry and teraphim. Because you have rejected the LORD’s word, he has also rejected you from being king.”"
-   },
-   "truncated": false
-  },
   "1 Samuel 15:3": {
    "citations": [
     {
-     "confidence": 0.8068,
-     "context": "Oh, I want to make up a word. Profundicacious, profundicacious. Prolific, profundicacious arguments. Okay. Oh man. Okay, so he said, and devote to destruction all that they have. Do not spare them, but kill both man and woman. Child and infant. 1 Samuel chapter 15, verse 3. Okay. But you know what?",
+     "confidence": null,
+     "context": "Oh man. Okay, so he said, and devote to destruction all that they have. Do not spare them, but kill both man and woman. Child and infant. 1 Samuel chapter 15, verse 3. Okay. But you know what? You can just probably Google time God told his people to kill everybody, and you're gonna find a bunch of these. These directives involve the deliberate killing of children, conflicting with the notion of a loving deity.",
      "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
      "published_at": "2024-12-04T19:13:28Z",
      "role": "host",
-     "t": 884.48,
+     "t": 894.08,
      "title": "Does God Love The Kids",
      "video_id": "-T-pAnSk22E"
     },
@@ -88,13 +26,26 @@
      "t": 1078.0,
      "title": "When Christians Cry Context: A Closer Look at the Bible’s Worst Verses",
      "video_id": "KQUa-GgpGC0"
+    },
+    {
+     "confidence": null,
+     "context": "So uh we're gonna get into the questions, and we're gonna start with the old testament. We're gonna go with an easy one for you, Dr. Joe Vitaly. Um can a perfectly good and loving God command the total annihilation of an entire of entire civilization populations, including infant and nursing children in 1 Samuel 15, verse 3, and anything that breathes in Deuteronomy 20 verse 16, verse 16 without compromising the very definition of divine goodness and justice.",
+     "creator": "jude-3-project",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-11-11T14:00:06Z",
+     "role": "unknown",
+     "t": 242.16,
+     "title": "The Bible's Hardest Questions: Slavery, Judgment, and Why We Won't Be Married in Heaven",
+     "video_id": "oXdCZ7AwBZY"
     }
    ],
    "creators": {
     "darante-lamar": 1,
+    "jude-3-project": 1,
     "mindshift": 1
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "Now go and smite Amalek, and utterly destroy all that they have, and spare them not; but slay both man and woman, infant and suckling, ox and sheep, camel and ass.",
     "WEB": "Now go and strike Amalek, and utterly destroy all that they have, and don’t spare them; but kill both man and woman, infant and nursing baby, ox and sheep, camel and donkey.’”"
@@ -386,6 +337,31 @@
    },
    "truncated": false
   },
+  "1 Samuel 17:4": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "Uh it's just like the Bible says amazing. All right, let's go back to the account now. First Samuel chapter 17, verse 4 says this a champion named Goliath, who was from Gath, came out from the Philistine camp. His height was six cubits and a span. Now, a cubit was about 18 inches.",
+     "creator": "cross-examined",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2026-06-10T01:00:06Z",
+     "role": "host",
+     "t": 1011.48,
+     "title": "God the Artist: What You Never Knew About David & Goliath",
+     "video_id": "_rJZiLCwKz0"
+    }
+   ],
+   "creators": {
+    "cross-examined": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And there went out a champion out of the camp of the Philistines, named Goliath, of Gath, whose height was six cubits and a span.",
+    "WEB": "A champion out of the camp of the Philistines named Goliath of Gath, whose height was six cubits and a span went out."
+   },
+   "truncated": false
+  },
   "1 Samuel 17:42": {
    "citations": [
     {
@@ -658,12 +634,25 @@
      "t": 2647.88,
      "title": "David and Goliath: The Lord of Hosts fights for you (Glory Conference)",
      "video_id": "Ppz29XIU2Jc"
+    },
+    {
+     "confidence": null,
+     "context": "If the Bible can't agree on whether anyone has seen God, how can it claim to be perfectly inspired? Who killed Goliath? First Samuel chapter 17, verse 50 says David kills Goliath. 2 Samuel chapter 21, verse 19 says Elhanan killed Goliath. The contradiction here is two different people are credited with killing the same giant. Now some translations try to smooth this out, but the Hebrew is absolutely clear.",
+     "creator": "darante-lamar",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-05-05T19:40:43Z",
+     "role": "host",
+     "t": 268.88,
+     "title": "The Bible’s Biggest Contradictions — And Why They Matter More Than You Think",
+     "video_id": "j9ge1onMAFc"
     }
    ],
    "creators": {
+    "darante-lamar": 1,
     "jackie-hill-perry": 2
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "So David prevailed over the Philistine with a sling and with a stone, and smote the Philistine, and slew him; but there was no sword in the hand of David.",
     "WEB": "So David prevailed over the Philistine with a sling and with a stone, and struck the Philistine and killed him; but there was no sword in David’s hand."
@@ -695,31 +684,6 @@
    },
    "truncated": false
   },
-  "1 Samuel 19:9": {
-   "citations": [
-    {
-     "confidence": 0.8191,
-     "context": "That he put a new spirit in. I'll just read it for you. It's plain as day. This is 1 Samuel 16 14. Now the spirit of the Lord departed from Saul, and an evil spirit, ah, Brandon, see, God's spirit is gone, evil spirit. Keep reading. And an evil spirit from the Lord tormented him. I don't know how else to understand this verse, except God has multiple spirits, good ones that apparently want genocide, and then evil ones that he sends when someone doesn't commit genocide fully to torment the person for being disobedient, even though they were acting in the spirit of God that had been placed upon them.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2026-07-05T14:00:16Z",
-     "role": "host",
-     "t": 690.4,
-     "title": "God’s Favorite Weapon Is Confusion",
-     "video_id": "1mQN3dAT0KA"
-    }
-   ],
-   "creators": {
-    "mindshift": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And the evil spirit from the LORD was upon Saul, as he sat in his house with his javelin in his hand: and David played with his hand.",
-    "WEB": "An evil spirit from the LORD was on Saul as he sat in his house with his spear in his hand; and David was playing music with his hand."
-   },
-   "truncated": false
-  },
   "1 Samuel 1:11": {
    "citations": [
     {
@@ -747,6 +711,18 @@
      "video_id": "ZM65QeqA1CA"
     },
     {
+     "confidence": null,
+     "context": "You'd expect that's where the prayer would end, that it would just land on a petition. But she follows it up with an even crazier prayer, one of which isn't a petition but a promise. I'm gonna read it. It's 1 Samuel 1, verse 11. O Lord of hosts. Notice she begins her prayer not with the problem with the person she's addressing this prayer to. Oh Lord of hosts, if you will indeed look on the affliction of your servant and remember me, and not forget your servant, but will give to your servant a son, then I will give him to the Lord all the days of his life, and no razor shall touch his head.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2019-03-12T22:54:47Z",
+     "role": "host",
+     "t": 246.88,
+     "title": "The Secret to Surrender",
+     "video_id": "_c99IlwYWVs"
+    },
+    {
      "confidence": 0.6182,
      "context": "But she follows it up with an even crazier prayer, one of which isn't a petition but a promise. I'm gonna read it. It's 1 Samuel 1, verse 11. O Lord of hosts. Notice she begins her prayer not with the problem with the person she's addressing this prayer to. Oh Lord of hosts, if you will indeed look on the affliction of your servant and remember me, and not forget your servant, but will give to your servant a son, then I will give him to the Lord all the days of his life, and no razor shall touch his head.",
      "creator": "jackie-hill-perry",
@@ -760,9 +736,9 @@
     }
    ],
    "creators": {
-    "jackie-hill-perry": 3
+    "jackie-hill-perry": 4
    },
-   "n": 3,
+   "n": 4,
    "text": {
     "KJV": "And she vowed a vow, and said, O LORD of hosts, if thou wilt indeed look on the affliction of thine handmaid, and remember me, and not forget thine handmaid, but wilt give unto thine handmaid a man child, then I will give him unto the LORD all the days of his life, and there shall no razor come upon his head.",
     "WEB": "She vowed a vow, and said, “LORD of Armies, if you will indeed look at the affliction of your servant and remember me, and not forget your servant, but will give to your servant a boy, then I will give him to the LORD all the days of his life, and no razor shall come on his head.”"
@@ -894,28 +870,28 @@
    },
    "truncated": false
   },
-  "1 Samuel 2:8": {
+  "1 Samuel 2:1": {
    "citations": [
     {
-     "confidence": 0.8827,
-     "context": "Isaiah, so you you can look at different religions and you can you can test their claims, their truth claims. Now they can always say, Well, that was a metaphor. And maybe it was a metaphor, but let's make sure we're not just using that as a cop-out, right? Um, and then it says, for the pillars of the earth are the Lord's, and on them he has set the world. The idea here is that the pillars are the leading human beings in the world, and God will exalt whoever he wants, including the poor, to rule in those places. And King David is an example of this.",
-     "creator": "belief-it-or-not",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2026-06-16T19:12:13Z",
+     "confidence": null,
+     "context": "Hannah got to the point when she was no longer worried about what she thought she needed, but became a person who was satisfied in the God that she already had. How do I know? Because in 1 Samuel chapter 2, verse 1, she prays again and she says this sentence. She says, My heart exalts in the Lord. What does it mean to exalt? To adult means to have joy, to be happy. That means that her heart was not happy in a child. Her heart was not happy in what she wanted, but her heart was happy in who she had, which was God.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2019-03-12T22:54:47Z",
      "role": "host",
-     "t": 2680.76,
-     "title": "Deconstructing Isn't Easy, Admitting You Were Wrong Is Hard  | Belief It Or Not",
-     "video_id": "5NS6YikMwjI"
+     "t": 359.48,
+     "title": "The Secret to Surrender",
+     "video_id": "_c99IlwYWVs"
     }
    ],
    "creators": {
-    "belief-it-or-not": 1
+    "jackie-hill-perry": 1
    },
    "n": 1,
    "text": {
-    "KJV": "He raiseth up the poor out of the dust, and lifteth up the beggar from the dunghill, to set them among princes, and to make them inherit the throne of glory: for the pillars of the earth are the LORD's, and he hath set the world upon them.",
-    "WEB": "He raises up the poor out of the dust. He lifts up the needy from the dunghill to make them sit with princes and inherit the throne of glory. For the pillars of the earth are the LORD’s. He has set the world on them."
+    "KJV": "And Hannah prayed, and said, My heart rejoiceth in the LORD, mine horn is exalted in the LORD: my mouth is enlarged over mine enemies; because I rejoice in thy salvation.",
+    "WEB": "Hannah prayed, and said, “My heart exults in the LORD! My horn is exalted in the LORD. My mouth is enlarged over my enemies, because I rejoice in your salvation."
    },
    "truncated": false
   }
