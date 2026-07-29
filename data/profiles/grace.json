@@ -1,26 +1,15 @@
 {
  "lines": {
-  "33768": {
-   "context": "You go to God and say, God, I can't live a sinless life without you. I need your help. I come to you, poor, destitute, naked. Give me the grace to live a holy life that is pleasing to you. Grace will then be given to you by God in response to your free petition.",
-   "creator": "reasonable-faith-org",
-   "occurrence_id": 33768,
-   "published_at": "2025-10-19T15:46:15Z",
+  "19772": {
+   "context": "So you can go somewhere with the other stuff. It's all love like Billy. Silly and me to spame human thoughts over LOH. Anyway, so I will pray for the judgment in the body to stop. If the arm attacks the legs, then the body would drop. Glory to God for grace. Glory to God, he says, Glory to God, he'll perfect us on the last day. Yeah. No hook. This life. Uh-huh. Uh-huh. Just like uh When I opened up my Twitter on my Facebook, I see a bunch of bitches oh high.",
+   "creator": "jackie-hill-perry",
+   "occurrence_id": 19772,
+   "published_at": "2012-11-27T21:18:05Z",
    "role": "host",
    "surface": "grace",
-   "t": 132.04,
-   "title": "Doctrine of Man Part 23: Views of Original Sin || Defenders LIVE!",
-   "video_id": "YFCrcaRSAEQ"
-  },
-  "9243": {
-   "context": "Seriously, this is a weird prop, and it wasn't placed directly over a character's shoulder in this scene by accident. Of course, these parents' sociopathic detachment from the death of one child and the emotional well-being of another is immediately contrasted by how a Christian looks after family as we switch to our hero Grace doting over her grandpa and making sure he has a good healthy breakfast before she grades papers and goes to school.",
-   "creator": "prophet-of-zod",
-   "occurrence_id": 9243,
-   "published_at": "2021-07-22T17:30:11Z",
-   "role": "host",
-   "surface": "grace",
-   "t": 456.88,
-   "title": "How God's Not Dead 2 Crafted an Elaborate Deception",
-   "video_id": "7tw3Und-fXM"
+   "t": 100.08,
+   "title": "Opinions - J.Hill      (@jackieehill)",
+   "video_id": "G51otUe7xk0"
   }
  },
  "profiles": [
@@ -29,42 +18,42 @@
    "cell": "creator=darante-lamar",
    "claims": [
     {
-     "aspect": "rhetorical-role",
+     "aspect": "valence",
      "evidence": [
-      9243
+      19772
      ],
-     "text": "Grace is identified as a theological structure that can maintain moral inconsistency and keep individuals stuck in shame rather than guiding them toward truth (L15)."
+     "text": "It functions as a necessary emotional tool that helps remove judgmental attitudes towards other people (L5, L10)."
     }
    ],
    "composition": {
-    "prophet-of-zod": 1
+    "jackie-hill-perry": 1
    },
-   "data_hash": "8626ec706bb67a7535e4ded2",
+   "data_hash": "dc79faf5465148c88377e03d",
    "dropped_claims": 0,
-   "generated_at": "2026-07-19T14:19:52Z",
+   "generated_at": "2026-07-19T14:20:21Z",
    "k": 2,
    "model": "ollama:gemma4:e4b:c6eb396dbd59",
-   "n": 185,
+   "n": 148,
    "prompt_version": "1",
    "sampled": [
-    14590,
-    14589,
-    14591,
-    14592,
-    16965,
-    33032,
-    8827,
-    8828,
-    601,
-    4673,
-    1311,
-    2204,
-    35031,
-    10420,
-    9243,
-    19732
+    15599,
+    4444,
+    33768,
+    21726,
+    19772,
+    34130,
+    30294,
+    4445,
+    27379,
+    32316,
+    11121,
+    2434,
+    10327,
+    30013,
+    29752,
+    7438
    ],
-   "sense": 0,
+   "sense": 1,
    "stale": true,
    "term": "grace"
   },
@@ -73,59 +62,15 @@
    "cell": "overall",
    "claims": [
     {
-     "aspect": "valence",
+     "aspect": "function",
      "evidence": [
-      9243
+      19772
      ],
-     "text": "In some instances, 'grace' is presented as a mechanism that can keep individuals from achieving personal growth by maintaining a sense of perpetual need or shame (L15)."
+     "text": "It is presented as a necessary allowance for others' existence, acknowledging that people are inexperienced just like the speaker was (L5)."
     }
    ],
    "composition": {
-    "prophet-of-zod": 1
-   },
-   "data_hash": "8626ec706bb67a7535e4ded2",
-   "dropped_claims": 0,
-   "generated_at": "2026-07-19T14:20:56Z",
-   "k": 2,
-   "model": "ollama:gemma4:e4b:c6eb396dbd59",
-   "n": 185,
-   "prompt_version": "1",
-   "sampled": [
-    14590,
-    14589,
-    14591,
-    14592,
-    16965,
-    33032,
-    8827,
-    8828,
-    601,
-    4673,
-    1311,
-    2204,
-    35031,
-    10420,
-    9243,
-    19732
-   ],
-   "sense": 0,
-   "stale": true,
-   "term": "grace"
-  },
-  {
-   "aspects_missing": [],
-   "cell": "overall",
-   "claims": [
-    {
-     "aspect": "valence",
-     "evidence": [
-      33768
-     ],
-     "text": "It functions as a means of self-correction or compassion, particularly when the speaker acknowledges being harder on themselves than others (L3)."
-    }
-   ],
-   "composition": {
-    "reasonable-faith-org": 1
+    "jackie-hill-perry": 1
    },
    "data_hash": "7100e5f413dbcbfb196537a2",
    "dropped_claims": 0,

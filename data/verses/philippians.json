@@ -29,6 +29,18 @@
   "Philippians 1:21": {
    "citations": [
     {
+     "confidence": 0.816,
+     "context": "The box! You took the box. Nothing! Absolutely nothing! He's written, if for me to live is money, then to die is to leave it all behind. If for me to live is fame, then to die is to be forgotten. If for me to live is power and influence, then to die is to lose both.",
+     "creator": "belief-it-or-not",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-12-11T18:00:01Z",
+     "role": "unknown",
+     "t": 2392.48,
+     "title": "The Tenth Commandment: Don't Covet | Belief It Or Not",
+     "video_id": "2u40JzRE3ZM"
+    },
+    {
      "confidence": 0.8889,
      "context": "And I hesitate to call it this because to the Christian, I know it can't be received well, but I think it's important to hear it, is a death cold. Really? We'll expand on that in a further video. But when you have Paul, who essentially creates Christianity as we have it today, saying something like, To me, to live is Christ, and to die is gain. That's the proper worldview of what it means to follow Jesus. This life is just for you to do his bidding, and then you get to die.",
      "creator": "mindshift",
@@ -90,14 +102,90 @@
     }
    ],
    "creators": {
+    "belief-it-or-not": 1,
     "mike-winger": 2,
     "mindshift": 2,
     "reasonable-faith-org": 1
    },
-   "n": 5,
+   "n": 6,
    "text": {
     "KJV": "For to me to live is Christ, and to die is gain.",
     "WEB": "For to me to live is Christ, and to die is gain."
+   },
+   "truncated": false
+  },
+  "Philippians 1:22": {
+   "citations": [
+    {
+     "confidence": 0.792,
+     "context": "I have been crucified with Christ. It is no longer I who live, but Christ who lives in me. And the life I now live in the flesh, I live by faith in the Son of God who loved me and gave himself for me. This expresses the union between Christ and the believer so intimately that here Christ is described as living out his life through us as we abide in him and he abides in us.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-01-18T19:36:18Z",
+     "role": "host",
+     "t": 595.96,
+     "title": "// Defenders LIVE! //",
+     "video_id": "6Ycs05uCtlU"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But if I live in the flesh, this is the fruit of my labour: yet what I shall choose I wot not.",
+    "WEB": "But if I live on in the flesh, this will bring fruit from my work; yet I don’t know what I will choose."
+   },
+   "truncated": false
+  },
+  "Philippians 1:23": {
+   "citations": [
+    {
+     "confidence": 0.8199,
+     "context": "The internet is a rough place. I don't like it. I wish I could get off it and never go on again. To modify Saint Paul in Philippians chapter one, my desire is to depart and be with Christ in real life, for that is far better. But to remain online is more necessary for you. One of the negative things about online forums and comment threads is that it is designed by algorithms to reward bad addictive behavior that encourages engagement and keeping people on the site for as long as possible.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-04-26T17:00:04Z",
+     "role": "host",
+     "t": 4.72,
+     "title": "My thoughts about the internet...",
+     "video_id": "2BLb18_ciz4"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For I am in a strait betwixt two, having a desire to depart, and to be with Christ; which is far better:",
+    "WEB": "But I am hard pressed between the two, having the desire to depart and be with Christ, which is far better."
+   },
+   "truncated": false
+  },
+  "Philippians 1:29": {
+   "citations": [
+    {
+     "confidence": 0.8669,
+     "context": "That flips the balance. Suffering can be celebrated as a sign that the process is working. In Philippians chapter 1, verse 29, he said has been granted not only to believe, but also to suffer for his sake. Once suffering is granted, it becomes a badge, not just a burden. It's framed as a part of the package of authentic discipleship.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-02-16T14:25:48Z",
+     "role": "host",
+     "t": 40.0,
+     "title": "Suffering: The Secret Badge of Faith or Justified Harm? #shorts",
+     "video_id": "670z3vcqlGI"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For unto you it is given in the behalf of Christ, not only to believe on him, but also to suffer for his sake;",
+    "WEB": "Because it has been granted to you on behalf of Christ, not only to believe in him, but also to suffer on his behalf,"
    },
    "truncated": false
   },
@@ -114,12 +202,25 @@
      "t": 456.16,
      "title": "Salvation With an Expiration Date: Is Apostasy Irreversible?",
      "video_id": "7bRIp611kwI"
+    },
+    {
+     "confidence": 0.7143,
+     "context": "Uh, that is that the saving faith we receive from God is both eternal, that in that it brings about eternal life, and is the sole basis for our justification before God. Philippians 1 6 gives us the promise that he who began a good work in you will complete it until the day of Jesus Christ. Again, this is not just someone saying, Well, I believe, but that's not demonstrate it. The demonstration of that faith uh is fruits uh of the genuine faith working itself out through love.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-05-15T13:00:45Z",
+     "role": "unknown",
+     "t": 726.64,
+     "title": "The Justification 2x2 DEBATE (Horn/Akin vs. Nesan/Boyce)",
+     "video_id": "ivf9I8TE6Fw"
     }
    ],
    "creators": {
+    "counsel-of-trent": 1,
     "mindshift": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Being confident of this very thing, that he which hath begun a good work in you will perform it until the day of Jesus Christ:",
     "WEB": "being confident of this very thing, that he who began a good work in you will complete it until the day of Jesus Christ."
@@ -128,6 +229,18 @@
   },
   "Philippians 2:10": {
    "citations": [
+    {
+     "confidence": 0.9289,
+     "context": "Philippians 2 8 says, and being found in human form, he humbled himself, becoming obedient to the point of death, even death on the cross. Therefore, God has highly exalted him and bestowed upon him the name that is above every name. So at the name of Jesus, every knee shall bow in heaven and on earth and under the earth. The authority and the glory and the dominion that Jesus was going to get only came through obedience to the Father. Jesus had come to do the will of his father, and that meant he was here to serve him, to worship him, like he has been doing in all of eternity.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2017-07-11T22:57:12Z",
+     "role": "host",
+     "t": 1635.88,
+     "title": "Spiritual Warfare - Jackie Hill Perry",
+     "video_id": "13LpgaZlNos"
+    },
     {
      "confidence": 0.8,
      "context": "So the Most High gave Christ this power because that's what a screw me, that's what the most high can do. He can take something and then give something to any power or any authority or any person he wants to. So when verse 10 says that at the name of Jesus, every knee should bow, of things in heaven, things in earth, and things under the earth, this is what the most high gave Christ, and that every tongue should confess that Christ, Jesus Christ is Lord, and for what purpose?",
@@ -178,9 +291,10 @@
     }
    ],
    "creators": {
-    "capturing-christianity": 4
+    "capturing-christianity": 4,
+    "jackie-hill-perry": 1
    },
-   "n": 4,
+   "n": 5,
    "text": {
     "KJV": "That at the name of Jesus every knee should bow, of things in heaven, and things in earth, and things under the earth;",
     "WEB": "that at the name of Jesus every knee should bow, of those in heaven, those on earth, and those under the earth,"
@@ -189,6 +303,18 @@
   },
   "Philippians 2:11": {
    "citations": [
+    {
+     "confidence": 0.6,
+     "context": "Now we have this issue of him talking about his God that is also our God. If you go to the next slide, um, it gets even more complicated. Um, if you look in Philippians, for example, it's talking about every knee uh should bow, every tongue acknowledge that Jesus Christ is Lord, to the glory of God the Father. So a lot of people look at this and they're kind of like, wait, what? I thought Jesus is God, doesn't he get the glory?",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-04-22T20:49:01Z",
+     "role": "unknown",
+     "t": 241.28,
+     "title": "Triune God vs. Mormon Godhead—Sijuwade Takes On Hansen 🔴 LIVE Debate",
+     "video_id": "F9odeiESS8Q"
+    },
     {
      "confidence": 0.6,
      "context": "Let's see if that works here in Philippians 2. So the passage was the name above every name. Let me um uh let me take us to that verse real quick. Um therefore, God has highly exalted him and bestowed on him the name that is above every name, so that at the name of Jesus every knee should bow in heaven and on earth and under the earth, and every tongue confessed that Jesus Christ is Lord to the glory of God the Father. So, natural question.",
@@ -263,10 +389,10 @@
     }
    ],
    "creators": {
-    "capturing-christianity": 5,
+    "capturing-christianity": 6,
     "mike-winger": 1
    },
-   "n": 6,
+   "n": 7,
    "text": {
     "KJV": "And that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father.",
     "WEB": "and that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father."
@@ -275,6 +401,30 @@
   },
   "Philippians 2:12": {
    "citations": [
+    {
+     "confidence": 0.8178,
+     "context": "True holiness comes from uniting faith and works. That's why we take seriously St. Paul's warning in Philippians chapter two, verses thirteen through fourteen. Work out your own salvation with fear and trembling, for God is at work in you, both to will and to work for his good pleasure. Catholics are simply faithful to Scripture, which says that while we receive the first moment of salvation apart from any good work, our good works that are done through God's grace after initial salvation, those works increase the precious gift of righteousness that God gave us.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-04-30T13:00:05Z",
+     "role": "host",
+     "t": 1740.88,
+     "title": "Protestants Still Can't Explain James 2",
+     "video_id": "0LwEgFig00A"
+    },
+    {
+     "confidence": 0.5357,
+     "context": "I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid. But then you become a Christian. And what does the new message become? Something like Philippians 2 12. Therefore, my dear friends, as you have always obeyed, not only in my presence, but now much more in my absence, continue to work out your salvation with what? Peace and joy? No, with fear and trembling. Don't forget, the beginning of wisdom is fear of God.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-12-22T15:00:49Z",
+     "role": "unattributed",
+     "t": 379.56,
+     "title": "What Christianity Advertises vs. What It Delivers (7 Examples)",
+     "video_id": "ngG6oJUhLZk"
+    },
     {
      "confidence": 1.0,
      "context": "Obey God or else. That is the love story here. But I want to show you a few verses here, even outside of the gospels, outside of Jesus that back all of this up. Philippians 2 12. So then, my beloved, even as you have always obeyed, not only in my presence, but now much more in my absence, work out your own salvation with fear and trembling. Not love and joy, not peace and patience, fear and trembling.",
@@ -289,9 +439,10 @@
     }
    ],
    "creators": {
-    "mindshift": 1
+    "counsel-of-trent": 1,
+    "mindshift": 2
    },
-   "n": 1,
+   "n": 3,
    "text": {
     "KJV": "Wherefore, my beloved, as ye have always obeyed, not as in my presence only, but now much more in my absence, work out your own salvation with fear and trembling.",
     "WEB": "So then, my beloved, even as you have always obeyed, not only in my presence, but now much more in my absence, work out your own salvation with fear and trembling."
@@ -300,6 +451,42 @@
   },
   "Philippians 2:13": {
    "citations": [
+    {
+     "confidence": 0.6,
+     "context": "True holiness comes from uniting faith and works. That's why we take seriously St. Paul's warning in Philippians chapter two, verses thirteen through fourteen. Work out your own salvation with fear and trembling, for God is at work in you, both to will and to work for his good pleasure. Catholics are simply faithful to Scripture, which says that while we receive the first moment of salvation apart from any good work, our good works that are done through God's grace after initial salvation, those works increase the precious gift of righteousness that God gave us.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-04-30T13:00:05Z",
+     "role": "host",
+     "t": 1740.88,
+     "title": "Protestants Still Can't Explain James 2",
+     "video_id": "0LwEgFig00A"
+    },
+    {
+     "confidence": 0.7671,
+     "context": "The conception and birth of a baby is always a good thing. It is God who wills when a baby comes into existence, not us. So even if a child comes to be through an act of fornication, adultery, prostitution, or IVF, the child is still made in God's image, and God chose to bless this mother and the whole world with the birth of this child.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-03-18T16:00:01Z",
+     "role": "host",
+     "t": 3.2,
+     "title": "Everyone has a right to life! #prolife",
+     "video_id": "0n6U_eNuMKY"
+    },
+    {
+     "confidence": 0.7671,
+     "context": "The real problem were other conservative influencers publicly congratulating St. Clair on the birth of her baby. Now, on the one hand, the conception and birth of a baby is always a good thing. It is God who wills when a baby comes into existence, not us. So even if a child comes to be through an act of fornication, adultery, prostitution, or IVF, the child is still made in God's image, and God chose to bless this mother and the whole world with the birth of this child.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-03-05T13:00:04Z",
+     "role": "host",
+     "t": 400.52,
+     "title": "The Problem of Idolatry on the Right",
+     "video_id": "1e-PguculOg"
+    },
     {
      "confidence": 0.6667,
      "context": "There is this dividing line where we only give some of the credit to God, where God is only asking for some of the credit. All of these are in the context of the good things that believers will do. More proof in Philippians 2 13. For it is God who is at work in you, enabling you both to will and to work for his good pleasure. Once again, all about God. But I think it goes even further. Not just the action, but the very will.",
@@ -311,15 +498,65 @@
      "t": 280.16,
      "title": "God Gets Credit, You Get Blame | The Rigged Math of Christianity",
      "video_id": "6uPouoG4f5Q"
+    },
+    {
+     "confidence": 0.6,
+     "context": "In response to this argument, some Protestants say Paul, like James, is only talking about works that automatically flow from an authentic faith. So we don't have to do any works, they just flow from a saving faith. They might cite Philippians 2.13, which says the following For God is at work in you, both to will and to work for his good pleasure. Norm Geisler and Ralph Mackenzie conclude the following.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-02-03T13:00:59Z",
+     "role": "host",
+     "t": 338.12,
+     "title": "Protestantism's Most Misused Bible Verse",
+     "video_id": "iMWbvTy-43k"
+    },
+    {
+     "confidence": 1.0,
+     "context": "We don't work to get salvation. And against the view that good works simply flow from the fact that we are saved, the Protestant author James Dunn asks the following question. Can the first half of Philippians 2, 12 through 13, verse 12, work out your own salvation with fear and trembling, be totally absorbed into the second half, for it is God who works in you both to will and to work for his good pleasure. Paul's talk of walking by the Spirit or being led by the Spirit elsewhere, like Romans 8.4 or Galatians 5, 16 through 18, clearly puts responsibility on the believer to so walk, to be so led.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-02-03T13:00:59Z",
+     "role": "host",
+     "t": 382.2,
+     "title": "Protestantism's Most Misused Bible Verse",
+     "video_id": "iMWbvTy-43k"
     }
    ],
    "creators": {
+    "counsel-of-trent": 5,
     "mindshift": 1
    },
-   "n": 1,
+   "n": 6,
    "text": {
     "KJV": "For it is God which worketh in you both to will and to do of his good pleasure.",
     "WEB": "For it is God who works in you both to will and to work for his good pleasure."
+   },
+   "truncated": false
+  },
+  "Philippians 2:20": {
+   "citations": [
+    {
+     "confidence": 0.7234,
+     "context": "So uh everything I kind of, you know, my community, my school, I went to a full Muslim school, so it was like literally I didn't see non-Muslim. So for me, it was like suddenly everyone hated me. And I was like, damn, like I have no one. Um so having the community is so so important for people. And I know I get messages of people just saying, oh my god, there's someone else that has the same thoughts as me. And it's just so nice feeling like you're not alone.",
+     "creator": "genetically-modified-skeptic",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2018-12-17T04:38:58Z",
+     "role": "unknown",
+     "t": 3952.28,
+     "title": "100k Subs Celebration Stream for Charity",
+     "video_id": "1ov6ZeDEnb8"
+    }
+   ],
+   "creators": {
+    "genetically-modified-skeptic": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For I have no man likeminded, who will naturally care for your state.",
+    "WEB": "For I have no one else like-minded, who will truly care about you."
    },
    "truncated": false
   },
@@ -364,6 +601,18 @@
    "citations": [
     {
      "confidence": 0.5,
+     "context": "Paul tells us in the great canosis or emptying him in his letter to the Philippians. After describing self-serving preachers that Paul had to deal with, Paul encourages the Philippians to be humble and act with one another's best interests at heart. He writes, Have this mind among yourselves, which was in Christ Jesus, who, though he was in the form of God, did not count equality with God a thing to be grasped, but emptied himself, taking the form of a servant, being born in the likeness of men.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-06-02T13:00:02Z",
+     "role": "host",
+     "t": 741.12,
+     "title": "The Biggest Heresy You Rarely Hear About",
+     "video_id": "0lxDzsfpdMk"
+    },
+    {
+     "confidence": 0.5,
      "context": "Philippians chapter 2, verses six and seven. Philippians 2, verses six and seven. Christ Jesus, though he was in the form of God, did not count equality with God a thing to be grasped, but emptied himself, taking the form of a servant, being born in the likeness of men.",
      "creator": "reasonable-faith-org",
      "detection_method": "shingle_match",
@@ -388,6 +637,18 @@
     },
     {
      "confidence": 0.5,
+     "context": "It was a declaration of divinity. Furthermore, we have passages like John 20, 28. After the resurrection, Thomas says to Jesus, My Lord and my God. Now, very clearly, that is a declaration of the identity of Christ. Philippians 2, 6 to 11. Though he was in the form of God, did not count equality with God, a thing to be grasped. He existed in the form of God in more faith, they are the unanimous patristic interpretation of that is that that is a direct reference to the divine nature. Yet he humbled himself.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-07-26T02:52:13Z",
+     "role": "unknown",
+     "t": 359.88,
+     "title": "Is the Trinity Logical? Explosive 2v2 Debate",
+     "video_id": "IeKZE-b1ZKM"
+    },
+    {
+     "confidence": 0.5,
      "context": "First, this atheist just ignores the incarnation. Think about this. The king of the universe left his throne, enters into human history, lived a perfect life of obedience, and then willingly went to the cross on our behalf. Philippians 2 puts it this way though he was in the form of God, he did not count equality with God a thing to be grasped, but emptied himself by taking the form of a servant, being born in the likeness of men, and being found in human form, he humbled himself by becoming obedient to the point of death, even death on a cross.",
      "creator": "mindshift",
      "detection_method": "shingle_match",
@@ -397,6 +658,18 @@
      "t": 369.48,
      "title": "Was Jesus Really a Sacrifice?",
      "video_id": "V5EGm6WhR4I"
+    },
+    {
+     "confidence": 0.5,
+     "context": "And this then set the stage for human history, including man's fall into sin. Finally, the fourth element in the Historia Salutis is the incarnation. In Philippians 2, 6 to 9, Paul says, though Christ was in the form of God, he did not count equality with God a thing to be grasped, but emptied himself, taking the form of a servant, being born in the likeness of men, and being found in human form, he humbled himself and became obedient unto death, even death on a cross.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-01-28T21:09:20Z",
+     "role": "host",
+     "t": 1102.64,
+     "title": "Charting the Course of Salvation",
+     "video_id": "XqGplrIpbaY"
     },
     {
      "confidence": 0.8462,
@@ -424,12 +697,13 @@
     }
    ],
    "creators": {
-    "capturing-christianity": 2,
+    "capturing-christianity": 3,
+    "counsel-of-trent": 1,
     "mike-winger": 1,
     "mindshift": 1,
-    "reasonable-faith-org": 1
+    "reasonable-faith-org": 2
    },
-   "n": 5,
+   "n": 8,
    "text": {
     "KJV": "Who, being in the form of God, thought it not robbery to be equal with God:",
     "WEB": "who, existing in the form of God, didn’t consider equality with God a thing to be grasped,"
@@ -438,6 +712,18 @@
   },
   "Philippians 2:7": {
    "citations": [
+    {
+     "confidence": 0.6923,
+     "context": "Paul tells us in the great canosis or emptying him in his letter to the Philippians. After describing self-serving preachers that Paul had to deal with, Paul encourages the Philippians to be humble and act with one another's best interests at heart. He writes, Have this mind among yourselves, which was in Christ Jesus, who, though he was in the form of God, did not count equality with God a thing to be grasped, but emptied himself, taking the form of a servant, being born in the likeness of men.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-06-02T13:00:02Z",
+     "role": "host",
+     "t": 741.12,
+     "title": "The Biggest Heresy You Rarely Hear About",
+     "video_id": "0lxDzsfpdMk"
+    },
     {
      "confidence": 0.6923,
      "context": "Philippians chapter 2, verses six and seven. Philippians 2, verses six and seven. Christ Jesus, though he was in the form of God, did not count equality with God a thing to be grasped, but emptied himself, taking the form of a servant, being born in the likeness of men.",
@@ -449,12 +735,25 @@
      "t": 640.68,
      "title": "// Defenders LIVE! //",
      "video_id": "0zyn86cNzAs"
+    },
+    {
+     "confidence": 0.6923,
+     "context": "And this then set the stage for human history, including man's fall into sin. Finally, the fourth element in the Historia Salutis is the incarnation. In Philippians 2, 6 to 9, Paul says, though Christ was in the form of God, he did not count equality with God a thing to be grasped, but emptied himself, taking the form of a servant, being born in the likeness of men, and being found in human form, he humbled himself and became obedient unto death, even death on a cross.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-01-28T21:09:20Z",
+     "role": "host",
+     "t": 1102.64,
+     "title": "Charting the Course of Salvation",
+     "video_id": "XqGplrIpbaY"
     }
    ],
    "creators": {
-    "reasonable-faith-org": 1
+    "counsel-of-trent": 1,
+    "reasonable-faith-org": 2
    },
-   "n": 1,
+   "n": 3,
    "text": {
     "KJV": "But made himself of no reputation, and took upon him the form of a servant, and was made in the likeness of men:",
     "WEB": "but emptied himself, taking the form of a servant, being made in the likeness of men."
@@ -528,6 +827,18 @@
   "Philippians 2:9": {
    "citations": [
     {
+     "confidence": 0.9088,
+     "context": "Philippians 2 8 says, and being found in human form, he humbled himself, becoming obedient to the point of death, even death on the cross. Therefore, God has highly exalted him and bestowed upon him the name that is above every name. So at the name of Jesus, every knee shall bow in heaven and on earth and under the earth. The authority and the glory and the dominion that Jesus was going to get only came through obedience to the Father.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2017-07-11T22:57:12Z",
+     "role": "host",
+     "t": 1630.44,
+     "title": "Spiritual Warfare - Jackie Hill Perry",
+     "video_id": "13LpgaZlNos"
+    },
+    {
      "confidence": 0.7143,
      "context": "They wasn't the educator. Because educators sometimes are just too smart and become ignorant and unlearned when it comes to understanding the text. So in Philippians, the second chapter gives you the answer why Isaiah 45 says one, and Philippians says another. In Philippians 2 and 9, before you get to verse 10, it says, wherefore God also have highly exalted him and given him a name which is above every name. So the Most High gave Christ this power because that's what a screw me, that's what the most high can do.",
      "creator": "capturing-christianity",
@@ -565,9 +876,10 @@
     }
    ],
    "creators": {
-    "capturing-christianity": 3
+    "capturing-christianity": 3,
+    "jackie-hill-perry": 1
    },
-   "n": 3,
+   "n": 4,
    "text": {
     "KJV": "Wherefore God also hath highly exalted him, and given him a name which is above every name:",
     "WEB": "Therefore God also highly exalted him, and gave to him the name which is above every name,"
@@ -611,6 +923,31 @@
    },
    "truncated": false
   },
+  "Philippians 3:21": {
+   "citations": [
+    {
+     "confidence": 0.7594,
+     "context": "In fact, the famous passage in Romans 8, people stop reading, but it starts this way. It says, we know that all things work together for good to those that love God and are called according to his purpose. Now it doesn't say all things are good, work together for good. But then it goes on to say, in order to be conformed to the image of his son, God allows certain evils so we can be conformed to the image of his son. That's one reason that God allows certain evils. In fact, Jesus himself, it says in the book of Hebrews, it says he learned suffering through obedience.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-06-03T01:00:06Z",
+     "role": "host",
+     "t": 2521.56,
+     "title": "Be Worthy of the Bullet That Charlie Kirk Took For You — Why Independence Day? w/Steve Deace + Q&A",
+     "video_id": "6XDtTJMRYmA"
+    }
+   ],
+   "creators": {
+    "cross-examined": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Who shall change our vile body, that it may be fashioned like unto his glorious body, according to the working whereby he is able even to subdue all things unto himself.",
+    "WEB": "who will change the body of our humiliation to be conformed to the body of his glory, according to the working by which he is able even to subject all things to himself."
+   },
+   "truncated": false
+  },
   "Philippians 3:5": {
    "citations": [
     {
@@ -639,6 +976,18 @@
   "Philippians 3:9": {
    "citations": [
     {
+     "confidence": 0.8376,
+     "context": "The problem with this is that faithfulness to the covenant would not suffice for salvation. When Paul declares in Philippians 3, verses 6 to 9, his desire for a righteousness that comes through faith in Christ, the righteousness from God based on faith.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-03-01T16:53:49Z",
+     "role": "host",
+     "t": 161.72,
+     "title": "Doctrine of Salvation Part 15: New Perspectives on Paul (pt 2) || Defenders LIVE!",
+     "video_id": "-13BUztt4S8"
+    },
+    {
      "confidence": 0.5484,
      "context": "Moreover, there are other texts to which one may turn for a doctrine of imputation. For example, Philippians 3, verses 8 and 9 says, For his sake I have suffered the loss of all things, and count them as refuse, in order that I may gain Christ and be found in him, not having a righteousness of my own based on law, but that which is through faith in Christ, the righteousness from God that depends on faith.",
      "creator": "reasonable-faith-org",
@@ -652,9 +1001,9 @@
     }
    ],
    "creators": {
-    "reasonable-faith-org": 1
+    "reasonable-faith-org": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "And be found in him, not having mine own righteousness, which is of the law, but that which is through the faith of Christ, the righteousness which is of God by faith:",
     "WEB": "and be found in him, not having a righteousness of my own, that which is of the law, but that which is through faith in Christ, the righteousness which is from God by faith,"
@@ -688,6 +1037,18 @@
   },
   "Philippians 4:13": {
    "citations": [
+    {
+     "confidence": 0.8045,
+     "context": "We're about to get to the rap away. I want to do all things through Christ.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-11-07T17:00:07Z",
+     "role": "unknown",
+     "t": 42.16,
+     "title": "Explaining the Lyrics Behind my Album Blameless",
+     "video_id": "3Htdc6QXT_Y"
+    },
     {
      "confidence": 1.0,
      "context": "That makes every deed, if we're going to go that route, his. Or I'm fine going a natural route and taking actual responsibility for both the good and the bad on a human level. Everyone's favorite verse, Philippians 4 13 says, I can do all things through Christ who strengthens me. Proverbs 2 6 says, For it is the Lord that gives wisdom. From his mouth comes knowledge and understanding. So if we don't have wisdom or knowledge or understanding, and we act ignorantly or negatively out of that lack, whose fault is that?",
@@ -823,14 +1184,40 @@
    ],
    "creators": {
     "darante-lamar": 6,
+    "jackie-hill-perry": 1,
     "jude-3-project": 3,
     "mike-winger": 1,
     "mindshift": 1
    },
-   "n": 11,
+   "n": 12,
    "text": {
     "KJV": "I can do all things through Christ which strengtheneth me.",
     "WEB": "I can do all things through Christ who strengthens me."
+   },
+   "truncated": false
+  },
+  "Philippians 4:3": {
+   "citations": [
+    {
+     "confidence": 0.8224,
+     "context": "Okay, there we go. I ask you, my true companion, help these women since they have oh so women were preaching alongside you. Interesting. All of these things keep undermining Sean's argument later. Uh in the cause of the gospel, along with Clement and the rest of my co-workers whose names are in the book of life. So this is Paul talking about how he knew Clement. A guy named Clement, who we do not know is the same Clement that later became Pope.",
+     "creator": "shannon-q",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-04-24T13:09:04Z",
+     "role": "host",
+     "t": 4033.12,
+     "title": "Non-Biblical Sources CONFIRM the RESURRECTION (Apologetic Apoplectics)",
+     "video_id": "33gZYZk72OA"
+    }
+   ],
+   "creators": {
+    "shannon-q": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And I intreat thee also, true yokefellow, help those women which laboured with me in the gospel, with Clement also, and with other my fellowlabourers, whose names are in the book of life.",
+    "WEB": "Yes, I beg you also, true partner, help these women, for they labored with me in the Good News with Clement also, and the rest of my fellow workers, whose names are in the book of life."
    },
    "truncated": false
   },
@@ -918,6 +1305,31 @@
    "text": {
     "KJV": "Let your moderation be known unto all men. The Lord is at hand.",
     "WEB": "Let your gentleness be known to all men. The Lord is at hand."
+   },
+   "truncated": false
+  },
+  "Philippians 4:7": {
+   "citations": [
+    {
+     "confidence": 0.7948,
+     "context": "And God created you on purpose for purpose, and tonight, I'm believing as we worship God, areas of insecurity must go. Areas that we're looking into the other lane, as we embrace our name, it's gonna go, and we're gonna find the peace of God that transcends all understanding for every season of our life. Come on, if you believe it, would you clap your hands? Would you give God some praise?",
+     "creator": "belief-it-or-not",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-04-23T14:00:00Z",
+     "role": "host",
+     "t": 2957.04,
+     "title": "Why Do Pastors Talk Like That? | Belief It Or Not",
+     "video_id": "-5TIx3NrIA8"
+    }
+   ],
+   "creators": {
+    "belief-it-or-not": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And the peace of God, which passeth all understanding, shall keep your hearts and minds through Christ Jesus.",
+    "WEB": "And the peace of God, which surpasses all understanding, will guard your hearts and your thoughts in Christ Jesus."
    },
    "truncated": false
   }

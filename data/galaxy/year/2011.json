@@ -20,14 +20,6 @@
    "status": "ghost",
    "term": "accountability"
   },
-  "accountability|2": {
-   "file": "senses/accountability.json",
-   "n": 0,
-   "reason": "0 < 10 occurrences in this cell",
-   "sense": 2,
-   "status": "ghost",
-   "term": "accountability"
-  },
   "bridge-city|0": {
    "file": "senses/bridge-city.json",
    "n": 0,
@@ -142,7 +134,7 @@
   },
   "love|0": {
    "file": "senses/love.json",
-   "n": 27,
+   "n": 26,
    "sense": 0,
    "status": "ok",
    "stress": 0.0,
@@ -155,8 +147,8 @@
   },
   "love|1": {
    "file": "senses/love.json",
-   "n": 2,
-   "reason": "2 < 10 occurrences in this cell",
+   "n": 3,
+   "reason": "3 < 10 occurrences in this cell",
    "sense": 1,
    "status": "ghost",
    "term": "love"
@@ -182,6 +174,14 @@
    "n": 0,
    "reason": "0 < 10 occurrences in this cell",
    "sense": 2,
+   "status": "ghost",
+   "term": "purity test"
+  },
+  "purity-test|3": {
+   "file": "senses/purity-test.json",
+   "n": 0,
+   "reason": "0 < 10 occurrences in this cell",
+   "sense": 3,
    "status": "ghost",
    "term": "purity test"
   },
