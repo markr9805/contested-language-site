@@ -61,6 +61,23 @@
   </div>
 
   <main class="main" id="main">
+    <!-- Not linked from the site nav (DESIGN §3, 2026-07-29): the induced
+         clusters are near noise and largely track WHO is speaking rather than
+         what a word means. Anyone reaching this page by URL sees why first. -->
+    <p class="caveat"><strong>NOT A PUBLISHED FINDING.</strong> This view is
+    retained for development and possible future use; it is deliberately not
+    linked from the site navigation. The senses below come from k-means over
+    contextual embeddings, and on this corpus that clustering scores a
+    silhouette around 0.05 — near noise. Measured 2026-07-29: for
+    <em>community</em>, one creator supplies 93% of the largest cluster, and
+    that cluster's distinguishing vocabulary is one channel's recruitment
+    language (<em>bridge, city, channel, joining, sunday</em>). So a visible gap
+    between two points here is substantially a difference in who is talking, not
+    in what the word means. DESIGN §3 records Layer-3 sense divergence as tried
+    and set aside for exactly this reason, and §7 names the risk by name:
+    embeddings produce beautiful structure whether or not it is meaningful. The
+    working measurement site for a community claim is Layer 2 collocation
+    profiles — see the Contestation view.</p>
     <div id="provisional-banner" class="insufficient-note" hidden></div>
 
     <section class="card">
