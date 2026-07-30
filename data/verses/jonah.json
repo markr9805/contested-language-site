@@ -1,6 +1,31 @@
 {
  "book": "Jonah",
  "verses": {
+  "Jonah 1:17": {
+   "citations": [
+    {
+     "confidence": 0.8707,
+     "context": "It's typical, typifying Christ being raised on the cross. So that whoever believes in him have eternal life. Now, what does he say about Jonah? Matthew 12 through 8, 41, for the sake of time, though. For just as Jonah was three days and three nights in the belly of the sea monster, so will the Son of Man be three days and three nights in the heart of the earth. One more example, Melchizedek. It says Melchizedek resembling the Son of God was made a priest forever.",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-08-13T19:58:59Z",
+     "role": "host",
+     "t": 1159.36,
+     "title": "Did Jesus Have “Brothers”? Live Q&A and 'Keep the Lights On' Fundraiser",
+     "video_id": "-BatfVrm7W0"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Now the LORD had prepared a great fish to swallow up Jonah. And Jonah was in the belly of the fish three days and three nights.",
+    "WEB": "The LORD prepared a huge fish to swallow up Jonah, and Jonah was in the belly of the fish three days and three nights."
+   },
+   "truncated": false
+  },
   "Jonah 3:10": {
    "citations": [
     {
@@ -48,6 +73,56 @@
    "text": {
     "KJV": "And God saw their works, that they turned from their evil way; and God repented of the evil, that he had said that he would do unto them; and he did it not.",
     "WEB": "God saw their works, that they turned from their evil way. God relented of the disaster which he said he would do to them, and he didn’t do it."
+   },
+   "truncated": false
+  },
+  "Jonah 3:4": {
+   "citations": [
+    {
+     "confidence": 0.9101,
+     "context": "And importantly, when Jonah proclaims God's judgment upon Nineveh, the text does not record any suggestion that Nineveh might avoid the judgment. Indeed, the judgment appears categorical. Forty more days and Nineveh shall be under overthrown. But Jonah knows better than to think that the proclamation of God's judgment would seal the deal for Nineveh, for he knows that God cares for the Ninevehes. If anything, Jonah is the retributivist here, and he by no means represents the view endorsed by the book regarding God's justice.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-01-24T17:01:40Z",
+     "role": "unknown",
+     "t": 1601.88,
+     "title": "Atonement and the Death of Christ: A Symposium | EPS 2024",
+     "video_id": "7CIAx9j-Aow"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And Jonah began to enter into the city a day's journey, and he cried, and said, Yet forty days, and Nineveh shall be overthrown.",
+    "WEB": "Jonah began to enter into the city a day’s journey, and he cried out, and said, “In forty days, Nineveh will be overthrown!”"
+   },
+   "truncated": false
+  },
+  "Jonah 4:2": {
+   "citations": [
+    {
+     "confidence": 0.8982,
+     "context": "Consider the book of Jonah, in which we see the titular prophet fleeing to Tarshus in hopes of escaping his prophetic call. Toward the end of the book, Jonah gives us a direct explanation for why he initially fled God's call. He writes, Jonah prayed to the Lord and said, O Lord, is not this what I said while I was still in my own country? That's why I fled to Tarshus at the beginning, for I knew that you are a gracious and merciful God, slow to anger, abounding in steadfast love, and relenting from punishment.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-01-24T17:01:40Z",
+     "role": "unknown",
+     "t": 1549.28,
+     "title": "Atonement and the Death of Christ: A Symposium | EPS 2024",
+     "video_id": "7CIAx9j-Aow"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And he prayed unto the LORD, and said, I pray thee, O LORD, was not this my saying, when I was yet in my country? Therefore I fled before unto Tarshish: for I knew that thou art a gracious God, and merciful, slow to anger, and of great kindness, and repentest thee of the evil.",
+    "WEB": "He prayed to the LORD, and said, “Please, LORD, wasn’t this what I said when I was still in my own country? Therefore I hurried to flee to Tarshish, for I knew that you are a gracious God and merciful, slow to anger, and abundant in loving kindness, and you relent of doing harm."
    },
    "truncated": false
   }

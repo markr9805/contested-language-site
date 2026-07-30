@@ -139,8 +139,45 @@
    },
    "truncated": false
   },
+  "Romans 10:2": {
+   "citations": [
+    {
+     "confidence": 0.7841,
+     "context": "His teachings have got to be assented to because they have certain things in their church, which are called the counsels of Black Renee, or the teachings of Palamas have got to be assented to. They have got to be followed. And here Palamas is saying, by examining the nature of sensible things, these people have arrived at a certain concept of God, but not at a conception truly worthy of him and appropriate to his blessed nature. For their distorted this their disordered heart was darkened by the machinations of the wicked demons who were instructing them.",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-06-22T03:14:16Z",
+     "role": "unknown",
+     "t": 5227.32,
+     "title": "Calling Out @JayDyer",
+     "video_id": "2PZcZWscLig"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For I bear them record that they have a zeal of God, but not according to knowledge.",
+    "WEB": "For I testify about them that they have a zeal for God, but not according to knowledge."
+   },
+   "truncated": false
+  },
   "Romans 10:4": {
    "citations": [
+    {
+     "confidence": 0.8198,
+     "context": "For example, in 2021, Pope Francis gave a homily on St. Paul's letter to the Galatians, where he said of the Mosaic Law, which is the foundational text of Judaism, that the law, however, does not give life. It does not offer the fulfillment of the promise because it is not capable of being able to fulfill it. Those who seek life need to look to the promise and to its fulfillment in Christ. End quote. Leaders of Judaism in Israel criticize these remarks, but the Pope was just saying what the New Testament teaches in Galatians 3 21.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-03-27T12:59:00Z",
+     "role": "host",
+     "t": 299.36,
+     "title": "Is Saying \"Christ is King\" Antisemitic?",
+     "video_id": "1vErF9WttOU"
+    },
     {
      "confidence": 0.6667,
      "context": "For I bear with them witness that they have zeal for God, but not according to knowledge. Ah, so here's the problem for being ignorant of the righteousness of God and seeking to establish their own, they did not submit to God's righteousness. For Christ is the end of the law for righteousness to everyone who believes. So, one, there's an ignorance. What is the ignorance? They're unaware of God's righteousness. So then there's an action they take. They seek to establish their own righteousness, and the result of this is they do not submit to God's righteousness.",
@@ -155,9 +192,10 @@
     }
    ],
    "creators": {
+    "counsel-of-trent": 1,
     "mike-winger": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "For Christ is the end of the law for righteousness to every one that believeth.",
     "WEB": "For Christ is the fulfillment of the law for righteousness to everyone who believes."
@@ -263,6 +301,66 @@
   },
   "Romans 10:9": {
    "citations": [
+    {
+     "confidence": 0.8511,
+     "context": "The faith is different than faith. Faith is my strong belief in something. The faith are the things I'm actually believing in. So I have strong belief in Jesus, but the faith is not my belief in Jesus. It's the fact that Jesus is God who came in the flesh, who died on the cross for my sins, who rose from the dead, who ascended into heaven, and who will return for his people and to judge the earth. That's the faith. The faith is doctrine, the faith is theology, the faith is biblical truth.",
+     "creator": "mike-winger",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-10-24T21:45:47Z",
+     "role": "host",
+     "t": 3541.0,
+     "title": "Is Diwali Demonic? 10 Qs with Mike Winger (Ep 64)",
+     "video_id": "1So-uvdUMEE"
+    },
+    {
+     "confidence": 0.9201,
+     "context": "You repent and you accept what Christ has done, and then you pick up your cross and follow him. And Paul says this, of course, in Romans chapter 10, where he says, if you believe in your heart that uh Jesus is Lord and confess with your mouth he's been risen from the dead, you will be saved. Amen. Yeah.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-26T23:00:05Z",
+     "role": "host",
+     "t": 124.44,
+     "title": "Frank Turek Challenged by Science Students at MTU - FULL Q&A",
+     "video_id": "2qYt2DtPE9Q"
+    },
+    {
+     "confidence": 0.8315,
+     "context": "Gagnon. Why is that? How did you come out of a liberal seminary and yet you're a conservative? How did that happen? Well, that's a good question, but I think it's just because, well, I'm convinced that Jesus is Lord and the biblical witness is entirely clear on the matter, including affirmed by Jesus Himself. So for me to say that what Jesus identified is the very foundation of sexual relationships, male and female, he made them.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-01-14T02:00:06Z",
+     "role": "host",
+     "t": 129.48,
+     "title": "Should Christians \"Agree to Disagree\" About Homosexuality? with @robertgagnon7647",
+     "video_id": "2s1_uL0PB6I"
+    },
+    {
+     "confidence": 0.9227,
+     "context": "You repent and you accept what Christ has done, and then you pick up your cross and follow him. And Paul says this, of course, in Romans chapter 10, where he says, if you believe in your heart that Jesus is Lord and confess with your mouth he's been risen from the dead, you will be saved. Amen. Yeah.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-24T02:57:26Z",
+     "role": "host",
+     "t": 4869.44,
+     "title": "'Change My Mind' LIVE Q&A from Michigan Technological Univ. (Houghton, MI)",
+     "video_id": "6clndvSleoA"
+    },
+    {
+     "confidence": 0.8322,
+     "context": "You might as well slip it, sleeping on Sunday and do what you want the rest of the week, because if Jesus hasn't risen from the dead, your faith, if you're a Christian, is in vain. As Paul wrote to the church at Corinth, his first letter, he said, pure faith is in your face in vain if Jesus hasn't risen from the dead. You know what he's basically saying? He's saying Christianity is a religious worldview. You can investigate to see if it's really true.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-13T02:32:21Z",
+     "role": "host",
+     "t": 765.0,
+     "title": "'Change My Mind' LIVE Q&A from Univ. of North Florida (Jacksonville, FL)",
+     "video_id": "78XsxPdjm-w"
+    },
     {
      "confidence": 0.68,
      "context": "But what does it say? The word is near you, on your lips, and in your heart, that is the word of faith, which we preach. Because if you confess with your lips that Jesus is Lord, and believe in your heart that God raised him from the dead, you will be saved.",
@@ -483,14 +581,14 @@
    "creators": {
     "capturing-christianity": 3,
     "counsel-of-trent": 1,
-    "cross-examined": 4,
+    "cross-examined": 8,
     "darante-lamar": 2,
     "drcraigvideos": 1,
-    "mike-winger": 1,
+    "mike-winger": 2,
     "mindshift": 1,
     "reasonable-faith-org": 5
    },
-   "n": 18,
+   "n": 23,
    "text": {
     "KJV": "That if thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved.",
     "WEB": "that if you will confess with your mouth that Jesus is Lord and believe in your heart that God raised him from the dead, you will be saved."
@@ -591,13 +689,25 @@
      "t": 2489.0,
      "title": "Is Marvin Winans Unbiblical? 10 Qs with Mike Winger (Ep 66)",
      "video_id": "GSh5UTZu6DM"
+    },
+    {
+     "confidence": 0.5,
+     "context": "For if their rejection means the reconciliation of the world, what will their acceptance mean but life from the dead? It's not over for them. There's still time for them. If the dough offered as first fruits is holy, so is the whole lump. And if the root is holy, so are the branches. But if some of the branches were broken off, and you, although a wild olive shoot were grafted in among the others, and now share in the nourishing root of the olive tree, do not be arrogant toward the branches.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-09-12T21:52:11Z",
+     "role": "host",
+     "t": 3526.84,
+     "title": "10 Qs with Mike Winger: Rapture on 9-23-25? (Ep 59)",
+     "video_id": "NHH0cRBgGnA"
     }
    ],
    "creators": {
     "belief-it-or-not": 1,
-    "mike-winger": 1
+    "mike-winger": 2
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "For if the firstfruit be holy, the lump is also holy: and if the root be holy, so are the branches.",
     "WEB": "If the first fruit is holy, so is the lump. If the root is holy, so are the branches."
@@ -693,6 +803,18 @@
    "citations": [
     {
      "confidence": 0.6,
+     "context": "That's I think something that Paul's arguing against here. Uh that is true. They were broken off because of their unbelief, but you stand fast through faith. Faith is the thing. So do not become proud but fear. For if God did not spare the natural branches, neither will he spare you. Note then the kindness and severity of God. Severity towards those who fallen, but God's kindness to you, provided you continue in his kindness. Otherwise, you too will be cut off.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-09-12T21:52:11Z",
+     "role": "host",
+     "t": 3627.84,
+     "title": "10 Qs with Mike Winger: Rapture on 9-23-25? (Ep 59)",
+     "video_id": "NHH0cRBgGnA"
+    },
+    {
+     "confidence": 0.6,
      "context": "That is true. But you stand fast only through faith. So do not become proud, but stand in awe. For if God did not spare the natural branches, neither will he spare you. Note then the kindness and the severity of God. Severity toward those who have fallen, but God's kindness to you, provided you continue in his kindness.",
      "creator": "reasonable-faith-org",
      "detection_method": "shingle_match",
@@ -717,9 +839,10 @@
     }
    ],
    "creators": {
+    "mike-winger": 1,
     "reasonable-faith-org": 2
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "For if God spared not the natural branches, take heed lest he also spare not thee.",
     "WEB": "for if God didn’t spare the natural branches, neither will he spare you."
@@ -829,6 +952,18 @@
   "Romans 11:29": {
    "citations": [
     {
+     "confidence": 0.7654,
+     "context": "Now my public interests have been liberated. Um, what I realized though is that um my interests were really governed by three aspects of of my relationship with superstition, and that was the calling of God, the leading of the spirit, and my commitment to Christ. So, first and foremost, as a minister, and then uh later on as a pastor, the things that I was publicly interested in had to be things that fit within the paradigm of what is acceptable for ministers and pastors in whatever sect, branch, or denomination you're a part of at the time.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-05-03T23:20:52Z",
+     "role": "host",
+     "t": 97.6,
+     "title": "I Once Was Bound, But Now I'm Free",
+     "video_id": "796R8n5TmMw"
+    },
+    {
      "confidence": 0.7143,
      "context": "There is something else that can fall back on, an older truth, the promise. Read Galatians, read Romans 4. The promise that God made that was unconditional, that is still, excuse me, still hanging over their heads, still available to them, right? For the gifts and calling of God are irrevocable, right? Unconditional. For as you were once disobedient to God and yet have now obtained mercy through their disobedience, even so these also have now been disobedient. That through the mercy shown you, they also may obtain mercy.",
      "creator": "mike-winger",
@@ -839,6 +974,18 @@
      "t": 2906.44,
      "title": "Is Marvin Winans Unbiblical? 10 Qs with Mike Winger (Ep 66)",
      "video_id": "GSh5UTZu6DM"
+    },
+    {
+     "confidence": 0.7143,
+     "context": "The ones that are enemies of the gospel. Yet they still are beloved for the sake of the forefathers. So God's like special place for Israel, the nation and the people, is still there, even after New Testament times. For the gifts and calling of God are irrevocable. Right? There are unconditional promises God made to Abraham. And those things are still in play. For just as you were at one time disobedient to God, but now have received mercy because of their disobedience, so they too have now been disobedient in order that they might that that by the mercy shown to you, they also may now receive mercy, right?",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-09-12T21:52:11Z",
+     "role": "host",
+     "t": 3791.0,
+     "title": "10 Qs with Mike Winger: Rapture on 9-23-25? (Ep 59)",
+     "video_id": "NHH0cRBgGnA"
     },
     {
      "confidence": 0.5714,
@@ -867,17 +1014,55 @@
    ],
    "creators": {
     "counsel-of-trent": 2,
-    "mike-winger": 1
+    "darante-lamar": 1,
+    "mike-winger": 2
    },
-   "n": 3,
+   "n": 5,
    "text": {
     "KJV": "For the gifts and calling of God are without repentance.",
     "WEB": "For the gifts and the calling of God are irrevocable."
    },
    "truncated": false
   },
+  "Romans 11:3": {
+   "citations": [
+    {
+     "confidence": 0.8242,
+     "context": "God is comforting him in legitimately one of the sweetest ways we ever see God work. It's really fascinating. I'm gonna read it to you actually. Then he came to a cave and lodged in it. And behold, the word of the Lord came to him and said to him, What are you doing here, Elijah? He said, I've been very jealous for the Lord, the God of host, for the people of Israel have forsaken your covenant, thrown down your altars, and killed your prophets with the sword, and I, even I only am left. He loves to do this for himself, which by the way, it is not just him that is left, because Obadiah, who we've skipped over here, hid a hundred prophets from Jezebel in groups of fifty in a cave, and he's been personally feeding them.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-10-22T14:00:04Z",
+     "role": "host",
+     "t": 819.32,
+     "title": "Exposing Elijah: The Truth @bibleproject Didn’t Want to Show You!",
+     "video_id": "2J2qOg9bEd0"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Lord, they have killed thy prophets, and digged down thine altars; and I am left alone, and they seek my life.",
+    "WEB": "“Lord, they have killed your prophets. They have broken down your altars. I am left alone, and they seek my life.”"
+   },
+   "truncated": false
+  },
   "Romans 11:32": {
    "citations": [
+    {
+     "confidence": 0.8411,
+     "context": "Let's close with the benediction. And now may the God of grace, who consigned all to sin, that he might have mercy upon all, sanctify you to present you holy and blameless before his throne through Jesus Christ our Lord.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-03-24T04:11:31Z",
+     "role": "host",
+     "t": 2117.92,
+     "title": "Evolution & Creation Part 26: The Historical Adam in Romans 5 || Defenders LIVE!",
+     "video_id": "7OXr81kaA5w"
+    },
     {
      "confidence": 0.6364,
      "context": "Unconditional. For as you were once disobedient to God and yet have now obtained mercy through their disobedience, even so these also have now been disobedient. That through the mercy shown you, they also may obtain mercy. For God has committed them all to disobedience that he might have mercy on all. And it goes on. So this is God's plan for Israel. I think that Romans 11, whatever your now you might say, but I'm post mill or I'm pre-mill or I'm on mill. I don't think that's relevant. Okay, I mean it matters.",
@@ -889,6 +1074,44 @@
      "t": 2922.76,
      "title": "Is Marvin Winans Unbiblical? 10 Qs with Mike Winger (Ep 66)",
      "video_id": "GSh5UTZu6DM"
+    },
+    {
+     "confidence": 0.6364,
+     "context": "They're an evangelism target audience now. For God has consigned all to disobedience that he might have mercy on all. This connects to Romans 1, 2, and 3. Well, Paul's got this amazing logical argument going throughout the whole book. Um anyway, it it goes on. I'll just finish the chapter. Oh, the depth of the riches and wisdom and knowledge of God, how unsearchable are his judgments, and how inscrutable his ways.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-09-12T21:52:11Z",
+     "role": "host",
+     "t": 3814.08,
+     "title": "10 Qs with Mike Winger: Rapture on 9-23-25? (Ep 59)",
+     "video_id": "NHH0cRBgGnA"
+    }
+   ],
+   "creators": {
+    "mike-winger": 2,
+    "reasonable-faith-org": 1
+   },
+   "n": 3,
+   "text": {
+    "KJV": "For God hath concluded them all in unbelief, that he might have mercy upon all.",
+    "WEB": "For God has bound all to disobedience, that he might have mercy on all."
+   },
+   "truncated": false
+  },
+  "Romans 11:34": {
+   "citations": [
+    {
+     "confidence": 0.6667,
+     "context": "Um anyway, it it goes on. I'll just finish the chapter. Oh, the depth of the riches and wisdom and knowledge of God, how unsearchable are his judgments, and how inscrutable his ways. For who has known the mind of the Lord, who has been his counselor, who has given a gift to him that he might be repaid? For from him and through him and to him are all things to him be glory forever. Amen.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-09-12T21:52:11Z",
+     "role": "host",
+     "t": 3836.16,
+     "title": "10 Qs with Mike Winger: Rapture on 9-23-25? (Ep 59)",
+     "video_id": "NHH0cRBgGnA"
     }
    ],
    "creators": {
@@ -896,13 +1119,25 @@
    },
    "n": 1,
    "text": {
-    "KJV": "For God hath concluded them all in unbelief, that he might have mercy upon all.",
-    "WEB": "For God has bound all to disobedience, that he might have mercy on all."
+    "KJV": "For who hath known the mind of the Lord? or who hath been his counsellor?",
+    "WEB": "“For who has known the mind of the Lord? Or who has been his counselor?”"
    },
    "truncated": false
   },
   "Romans 11:36": {
    "citations": [
+    {
+     "confidence": 0.5882,
+     "context": "For who has known the mind of the Lord, who has been his counselor, who has given a gift to him that he might be repaid? For from him and through him and to him are all things to him be glory forever. Amen. There is, I believe, a future for Israel. And that this I think I think scripture seems to make that clear to me.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-09-12T21:52:11Z",
+     "role": "host",
+     "t": 3843.84,
+     "title": "10 Qs with Mike Winger: Rapture on 9-23-25? (Ep 59)",
+     "video_id": "NHH0cRBgGnA"
+    },
     {
      "confidence": 0.7059,
      "context": "Let's let Aaron respond. Yeah, um at the end of Romans 11, Paul says, quoting Isaiah, who has ever got given God a gift that he might be repaid? For from him and through him and to him are all things. To him be the glory forever. Amen. So for Paul, this isn't just a uh an incidental commentary. For Paul, this is worship. This is awesome.",
@@ -917,9 +1152,10 @@
     }
    ],
    "creators": {
-    "capturing-christianity": 1
+    "capturing-christianity": 1,
+    "mike-winger": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "For of him, and through him, and to him, are all things: to whom be glory for ever. Amen.",
     "WEB": "For of him and through him and to him are all things. To him be the glory for ever! Amen."
@@ -939,12 +1175,24 @@
      "t": 2273.0,
      "title": "Is Marvin Winans Unbiblical? 10 Qs with Mike Winger (Ep 66)",
      "video_id": "GSh5UTZu6DM"
+    },
+    {
+     "confidence": 0.5263,
+     "context": "God has not rejected his people whom he foreknew. Do you not know what the scripture says of Elijah, how he appeals to God against Israel? Lord, they've killed your prophets, they've demolished your altars, and I alone am left, and they seek my life. But what is God's reply to him? God says, I've kept for myself seven thousand men who have not bowed the knee to Baal. So too, at the present time there is a remnant, a chosen by grace, but if it is by grace, it is no longer on the basis of works, otherwise, grace would no longer be grace. What then?",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-09-12T21:52:11Z",
+     "role": "host",
+     "t": 3414.08,
+     "title": "10 Qs with Mike Winger: Rapture on 9-23-25? (Ep 59)",
+     "video_id": "NHH0cRBgGnA"
     }
    ],
    "creators": {
-    "mike-winger": 1
+    "mike-winger": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "But what saith the answer of God unto him? I have reserved to myself seven thousand men, who have not bowed the knee to the image of Baal.",
     "WEB": "But how does God answer him? “I have reserved for myself seven thousand men who have not bowed the knee to Baal.”"
@@ -1027,12 +1275,24 @@
      "t": 2318.2,
      "title": "Is Marvin Winans Unbiblical? 10 Qs with Mike Winger (Ep 66)",
      "video_id": "GSh5UTZu6DM"
+    },
+    {
+     "confidence": 0.5385,
+     "context": "What then? So, how should we interpret this? Is it God's rejection of Israel like a permanent I'm done with you? No, Israel failed to obtain what it was seeking. The elect obtained it, but the rest were hardened as it is written. That is elect individuals from within Israel, a remnant, they obtained it. The rest of Israel were hardened as it is written. God gave them a spirit of stupor, eyes that they would not see, and ears that that would not hear, down to this very day.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-09-12T21:52:11Z",
+     "role": "host",
+     "t": 3437.36,
+     "title": "10 Qs with Mike Winger: Rapture on 9-23-25? (Ep 59)",
+     "video_id": "NHH0cRBgGnA"
     }
    ],
    "creators": {
-    "mike-winger": 1
+    "mike-winger": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "(According as it is written, God hath given them the spirit of slumber, eyes that they should not see, and ears that they should not hear;) unto this day.",
     "WEB": "According as it is written, “God gave them a spirit of stupor, eyes that they should not see, and ears that they should not hear, to this very day.”"
@@ -1041,6 +1301,30 @@
   },
   "Romans 12:1": {
    "citations": [
+    {
+     "confidence": 0.8366,
+     "context": "And then the first word of chapter 12 is therefore. And would you ever see the word therefore in the Bible, you have to ask yourself, why is that word there for? What is that word there for? It's a transition. Now he's saying, now that all this theology is done from chapters 1 to 11, therefore, in view of God's mercies, present yourself as a living sacrifice, holy and pleasing to God. He's saying, now here's how you live this out. And in chapter 12, he talks about our duty to God.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-25T02:16:36Z",
+     "role": "host",
+     "t": 6169.44,
+     "title": "'Change My Mind' LIVE Q&A Northern Michigan Univ. (Marquette, MI)",
+     "video_id": "-7cAMVvoO1I"
+    },
+    {
+     "confidence": 0.8185,
+     "context": "The burnt offering is the only one of the only offerings where the whole animal is consumed. So when the whole animal is consumed, the smoke goes up from the animal, and the Lord uh takes that smoke, and it's like a pleasing aroma in this sight. And that is what Romans 12 tells us to be by the mercies of living God to submit your body as a living sacrifice. So to say we're burnt offerings is to say we're supposed to be totally surrendered, totally consumed. Um, like the burnt offerings. Smoke. We burnt and like fighting.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-11-07T17:00:07Z",
+     "role": "host",
+     "t": 4164.44,
+     "title": "Explaining the Lyrics Behind my Album Blameless",
+     "video_id": "3Htdc6QXT_Y"
+    },
     {
      "confidence": null,
      "context": "How serious? He killed Jesus. But when do we wake up and say we're all evil? We've all fallen short of perfection and glory. It's manipulation emotionally. Romans 12:1 says, offer your bodies like a living sacrifice. And why? For this is your true and proper worship. It created a death cult. True and proper worship is to be like Jesus, to be a living sacrifice.",
@@ -1068,9 +1352,11 @@
    ],
    "creators": {
     "capturing-christianity": 1,
+    "cross-examined": 1,
+    "jackie-hill-perry": 1,
     "mindshift": 1
    },
-   "n": 2,
+   "n": 4,
    "text": {
     "KJV": "I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service.",
     "WEB": "Therefore I urge you, brothers, by the mercies of God, to present your bodies a living sacrifice, holy, acceptable to God, which is your spiritual service."
@@ -1099,6 +1385,31 @@
    "text": {},
    "truncated": false
   },
+  "Romans 12:13": {
+   "citations": [
+    {
+     "confidence": 0.7336,
+     "context": "So we can create things for them, you know, like Pinochle Club, a bridge or something, you know, and and that's a little, what is it, ageist? Because maybe they want to play tennis. I don't know, you know. Um, but then you start you you, you and that's what you do, you start paying attention to the needs of your people. Now, there were other churches who said, well, no, well, we're not really here to do that. We're here to preach Jesus. And so we're not going to do the children's uh wing.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-09-27T16:00:10Z",
+     "role": "host",
+     "t": 1901.96,
+     "title": "We're Stronger Together",
+     "video_id": "63UqysdNSXw"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Distributing to the necessity of saints; given to hospitality.",
+    "WEB": "contributing to the needs of the saints, and given to hospitality."
+   },
+   "truncated": false
+  },
   "Romans 12:14": {
    "citations": [
     {
@@ -1112,12 +1423,25 @@
      "t": 474.24,
      "title": "A Reply to my Profane Christian Critics",
      "video_id": "FjDbLAHPI0M"
+    },
+    {
+     "confidence": 0.6667,
+     "context": "It's just my main passage. This is the main passage that came to my mind as I was processing this stuff and hoping to help others process it too. Romans 12 14. It says here, bless those who persecute you, bless and do not curse them. That's hard, hard pill to swallow if you're angry. Rightly hear me, rightly angry about all the stuff that's gone on. Understandably and correctly angry about it, but bless them anyways.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-09-17T03:05:27Z",
+     "role": "host",
+     "t": 1946.96,
+     "title": "Why I DEEPLY Respect Charlie Kirk",
+     "video_id": "rxVxkuoKW_Y"
     }
    ],
    "creators": {
-    "counsel-of-trent": 1
+    "counsel-of-trent": 1,
+    "mike-winger": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Bless them which persecute you: bless, and curse not.",
     "WEB": "Bless those who persecute you; bless, and don’t curse."
@@ -1174,6 +1498,31 @@
    },
    "truncated": false
   },
+  "Romans 12:19": {
+   "citations": [
+    {
+     "confidence": 0.8947,
+     "context": "But now if we return to Romans with the pattern of Jonah in mind, retributivism becomes far less obvious as an aspect of God's character. Consider Romans 12, 19, where Paul instructs us never to avenge ourselves, but instead to leave room for the wrath of God, for it's written, Vengeance is mine, I will repay, says the Lord. Nothing in this verse gets at God's motivation for vengeance. If Jonah, pre wail, were to hear this, he would surely have lamented.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-01-24T17:01:40Z",
+     "role": "unknown",
+     "t": 1656.92,
+     "title": "Atonement and the Death of Christ: A Symposium | EPS 2024",
+     "video_id": "7CIAx9j-Aow"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Dearly beloved, avenge not yourselves, but rather give place unto wrath: for it is written, Vengeance is mine; I will repay, saith the Lord.",
+    "WEB": "Don’t seek revenge yourselves, beloved, but give place to God’s wrath. For it is written, “Vengeance belongs to me; I will repay, says the Lord.”"
+   },
+   "truncated": false
+  },
   "Romans 12:21": {
    "citations": [
     {
@@ -1187,6 +1536,69 @@
      "t": 938.16,
      "title": "Should Christians Ever Hate People?",
      "video_id": "XuL8cfpaj0o"
+    },
+    {
+     "confidence": 0.8571,
+     "context": "To the contrary, if your enemy's hungry, feed him. If he's thirsty, give him something to drink. For by so doing you will heap burning coals on his head. And this is the main point. Do not be overcome by evil, but overcome evil with good. So the agenda here is I'm overcoming evil with good. I'm doing positive things instead of um sinful things. Overcoming evil with good, I mean, sometimes that can be getting a guy in a headlock so that he can't keep attacking somebody.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-09-17T03:05:27Z",
+     "role": "host",
+     "t": 2087.96,
+     "title": "Why I DEEPLY Respect Charlie Kirk",
+     "video_id": "rxVxkuoKW_Y"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 1,
+    "mike-winger": 1
+   },
+   "n": 2,
+   "text": {
+    "KJV": "Be not overcome of evil, but overcome evil with good.",
+    "WEB": "Don’t be overcome by evil, but overcome evil with good."
+   },
+   "truncated": false
+  },
+  "Romans 12:3": {
+   "citations": [
+    {
+     "confidence": 0.8162,
+     "context": "And so this is definitely um preparing me for a later kingdom theology. But but at that moment it was just, you know, everybody's an apostle, prophet, evangelist, pastor, or teacher. Everybody needs to be speaking in tongues. Some people has uh the gift of knowledge, some people have gift of healing, some people have the gift of word of knowledge, you know, some people have the gift of discerning spirits, but each one of us have a measure of faith, you know, that we can do these things, which I spent a lot of time in Romans 12 and Ephesians 5 and 1 Corinthians 12, you know.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-03-26T18:05:07Z",
+     "role": "host",
+     "t": 574.2,
+     "title": "The Evolution of My Own Theology Towards Atheism",
+     "video_id": "0FIKJ5D2nTA"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For I say, through the grace given unto me, to every man that is among you, not to think of himself more highly than he ought to think; but to think soberly, according as God hath dealt to every man the measure of faith.",
+    "WEB": "For I say through the grace that was given me, to everyone who is among you, not to think of yourself more highly than you ought to think; but to think reasonably, as God has apportioned to each person a measure of faith."
+   },
+   "truncated": false
+  },
+  "Romans 12:4": {
+   "citations": [
+    {
+     "confidence": 0.8017,
+     "context": "These are just different approaches. And we need both of them when it comes to sharing the gospel. This coheres with what St. Paul says about the body of Christ in 1 Corinthians 12. For just as the body is one and has many members, and all the members of the body, though many, are one body, so it is with Christ. God arranged the organs in the body, each one of them as he chose. If all were a single organ, where would the body be? As it is, there are many parts, yet one body.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-01-15T13:00:06Z",
+     "role": "host",
+     "t": 549.08,
+     "title": "Mel Gibson vs  Wesley Huff on Joe Rogan",
+     "video_id": "4VTK-xDyv6g"
     }
    ],
    "creators": {
@@ -1194,13 +1606,25 @@
    },
    "n": 1,
    "text": {
-    "KJV": "Be not overcome of evil, but overcome evil with good.",
-    "WEB": "Don’t be overcome by evil, but overcome evil with good."
+    "KJV": "For as we have many members in one body, and all members have not the same office:",
+    "WEB": "For even as we have many members in one body, and all the members don’t have the same function,"
    },
    "truncated": false
   },
   "Romans 12:5": {
    "citations": [
+    {
+     "confidence": 0.8846,
+     "context": "These are just different approaches. And we need both of them when it comes to sharing the gospel. This coheres with what St. Paul says about the body of Christ in 1 Corinthians 12. For just as the body is one and has many members, and all the members of the body, though many, are one body, so it is with Christ. God arranged the organs in the body, each one of them as he chose. If all were a single organ, where would the body be? As it is, there are many parts, yet one body.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-01-15T13:00:06Z",
+     "role": "host",
+     "t": 549.08,
+     "title": "Mel Gibson vs  Wesley Huff on Joe Rogan",
+     "video_id": "4VTK-xDyv6g"
+    },
     {
      "confidence": 0.6923,
      "context": "Uh, he says, so we who are many are one body in Christ and individually parts uh of one another. So so again, his idea, which of course can be seen exclusive to the church here, but his idea is that we we everybody who who is in this is is a part is is is Christ, it's the body of Christ.",
@@ -1215,9 +1639,10 @@
     }
    ],
    "creators": {
+    "counsel-of-trent": 1,
     "darante-lamar": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "So we, being many, are one body in Christ, and every one members one of another.",
     "WEB": "so we, who are many, are one body in Christ, and individually members of one another,"
@@ -1286,6 +1711,80 @@
    },
    "truncated": false
   },
+  "Romans 13:4": {
+   "citations": [
+    {
+     "confidence": 0.804,
+     "context": "When God orders people to defend certain groups of people, to defend the innocent, to defend against evil, to defend against wicked invaders, he orders that to happen, he still does today. The cops among us are a minister of God to us for good. If we do evil, be afraid of them. I have lived that, it's much nicer to be on the other side. Let's talk about the cops. A legally justified police shooting is not murder.",
+     "creator": "belief-it-or-not",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-10-14T21:41:56Z",
+     "role": "unknown",
+     "t": 1847.88,
+     "title": "The Sixth Commandment: Don't Kill | Belief It Or Not",
+     "video_id": "1fpPnUodUfA"
+    }
+   ],
+   "creators": {
+    "belief-it-or-not": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For he is the minister of God to thee for good. But if thou do that which is evil, be afraid; for he beareth not the sword in vain: for he is the minister of God, a revenger to execute wrath upon him that doeth evil.",
+    "WEB": "for he is a servant of God to you for good. But if you do that which is evil, be afraid, for he doesn’t bear the sword in vain; for he is a servant of God, an avenger for wrath to him who does evil."
+   },
+   "truncated": false
+  },
+  "Romans 13:9": {
+   "citations": [
+    {
+     "confidence": 0.8415,
+     "context": "But the only one we get that deals with sex in any way is about two consenting adults. And don't get me wrong, cheating on someone can be very damaging and very painful to everyone involved. But it's just interesting that this is the one that God went with. Do not commit adultery. You know, for kids. Now, adultery, really, this this commandment is well, it's not really super for kids. You know, it's mostly for adults because adultery has to do with marriage. Yeah, and men and women get married, not boys and girls.",
+     "creator": "belief-it-or-not",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-10-26T17:00:00Z",
+     "role": "unknown",
+     "t": 286.0,
+     "title": "The Seventh Commandment: No Adultery | Belief It Or Not",
+     "video_id": "-5NeuvbE2Rw"
+    },
+    {
+     "confidence": 0.8494,
+     "context": "But here we are now splitting hairs on what it really means to murder someone and what form of taking human life is acceptable. But in the terms and the language of the King James Bible, thou shalt not kill. What this can lead to is all kinds of false thinking, that you should never defend yourself, that you should hold the position of extreme pacifism, that if someone breaks into your home, you should let them harm your family rather than take their life.",
+     "creator": "belief-it-or-not",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-10-14T21:41:56Z",
+     "role": "unknown",
+     "t": 928.4,
+     "title": "The Sixth Commandment: Don't Kill | Belief It Or Not",
+     "video_id": "1fpPnUodUfA"
+    },
+    {
+     "confidence": 0.7771,
+     "context": "When our desires get out of line with the will of God, those desires become evil. Everybody deals with this. That's why thou shalt not covet is in the Bible. You desire something, and the desire starts to get really strong, really powerful. You are starting to lose your contentment in Jesus. You are starting to feel if I don't have this thing, might be a husband, might be an iPad.",
+     "creator": "belief-it-or-not",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-12-11T18:00:01Z",
+     "role": "unknown",
+     "t": 819.48,
+     "title": "The Tenth Commandment: Don't Covet | Belief It Or Not",
+     "video_id": "2u40JzRE3ZM"
+    }
+   ],
+   "creators": {
+    "belief-it-or-not": 3
+   },
+   "n": 3,
+   "text": {
+    "KJV": "For this, Thou shalt not commit adultery, Thou shalt not kill, Thou shalt not steal, Thou shalt not bear false witness, Thou shalt not covet; and if there be any other commandment, it is briefly comprehended in this saying, namely, Thou shalt love thy neighbour as thyself.",
+    "WEB": "For the commandments, “You shall not commit adultery,” “You shall not murder,” “You shall not steal,” “You shall not covet,” and whatever other commandments there are, are all summed up in this saying, namely, “You shall love your neighbor as yourself.”"
+   },
+   "truncated": false
+  },
   "Romans 14:10": {
    "citations": [
     {
@@ -1314,6 +1813,18 @@
   "Romans 14:11": {
    "citations": [
     {
+     "confidence": 0.749,
+     "context": "Religion often personifies this instinct, but Christianity codifies it. Every knee shall bow. Fear of the Lord is the beginning of wisdom. Obedience is better than sacrifice. A psychologically uncritical mind will surrender to anything impressive enough, and Christianity frames this surrender as virtue. Religion, particularly Christianity, doesn't just encourage belief, it teaches submission to absolute authority.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-04-30T19:27:07Z",
+     "role": "host",
+     "t": 363.56,
+     "title": "God or Galactic Dictator? Why Christians Might Not Know the Difference",
+     "video_id": "6MCuTdgBvAs"
+    },
+    {
      "confidence": 0.65,
      "context": "So you start to despise them. That's also the danger. Remember, Paul's like, I mean, he's the apostle of love. The guy's like, you need to remember to love each other. God has united you. For we will all stand before the judgment seat of God as it is written, as I live, says the Lord, as every knee shall bow to me, and every tongue shall confess to God. So then each of us will give an account of himself to God. Therefore, let us not pass judgment on one another any longer, but rather decide never to put a stumbling block or hindrance in the way of a brother.",
      "creator": "mike-winger",
@@ -1340,9 +1851,10 @@
    ],
    "creators": {
     "capturing-christianity": 1,
+    "darante-lamar": 1,
     "mike-winger": 1
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "For it is written, As I live, saith the Lord, every knee shall bow to me, and every tongue shall confess to God.",
     "WEB": "For it is written, “‘As I live,’ says the Lord, ‘to me every knee will bow. Every tongue will confess to God.’”"
@@ -1639,6 +2151,106 @@
    "text": {},
    "truncated": false
   },
+  "Romans 15:13": {
+   "citations": [
+    {
+     "confidence": 0.7744,
+     "context": "That's not the way to behave. Um that's why I apologize when I do wrong. That's why I want to be better, because there is the call of the moral universe that witnesses to an ultimate being that is driving humanity, drawing humanity to the God of love, the God of hope, the God of peace, that only witnesses that there is a God.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-06-20T14:00:06Z",
+     "role": "host",
+     "t": 4200.84,
+     "title": "Does God Exist? | Courageous Conversations 2022",
+     "video_id": "4zZVFVJgsrI"
+    }
+   ],
+   "creators": {
+    "jude-3-project": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost.",
+    "WEB": "Now may the God of hope fill you with all joy and peace in believing, that you may abound in hope in the power of the Holy Spirit."
+   },
+   "truncated": false
+  },
+  "Romans 15:15": {
+   "citations": [
+    {
+     "confidence": 0.7983,
+     "context": "Faith was us getting to do something before the Lord. It was us getting to have a response to his call. My faith was great. It was the only thing that I allowed myself to boast in when I wasn't being sinful, because to me it was something given to me by God. It was a gift. I had received the gift of great faith. And it honored me to be able to please God in this way, because one of the things the Bible says is that without faith, it is impossible to please God.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-08T15:00:09Z",
+     "role": "unattributed",
+     "t": 52.88,
+     "title": "…It’s Desperation | Why Belief Thrives at Rock Bottom",
+     "video_id": "59Z3_2XKpQ4"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Nevertheless, brethren, I have written the more boldly unto you in some sort, as putting you in mind, because of the grace that is given to me of God,",
+    "WEB": "But I write the more boldly to you in part as reminding you, because of the grace that was given to me by God,"
+   },
+   "truncated": false
+  },
+  "Romans 15:19": {
+   "citations": [
+    {
+     "confidence": 0.7793,
+     "context": "But God chose me to produce two films providentially by his grace. Not because it was my desire, but because it was God's calling. And there are so many things when we started the process, I thought I could not do, and I found myself doing not in my own strength, but by the power of God. So when you're inexperienced, God puts us in position to be inexperienced so we can be dependent on him.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-09-30T13:00:06Z",
+     "role": "host",
+     "t": 557.88,
+     "title": "Why God Chooses the Inexperienced | Lisa Fields at Wheaton College",
+     "video_id": "1P1s5Yuf3Gs"
+    }
+   ],
+   "creators": {
+    "jude-3-project": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Through mighty signs and wonders, by the power of the Spirit of God; so that from Jerusalem, and round about unto Illyricum, I have fully preached the gospel of Christ.",
+    "WEB": "in the power of signs and wonders, in the power of God’s Spirit; so that from Jerusalem and around as far as to Illyricum, I have fully preached the Good News of Christ;"
+   },
+   "truncated": false
+  },
+  "Romans 16:16": {
+   "citations": [
+    {
+     "confidence": 0.8297,
+     "context": "Like, for example, in some cultures, when you greet people, you greet them with a handshake, others with a hug, others with a kiss. Great, greet the brothers with a holy kiss, says Paul, right? The relative part of that is how to do it, but the fact you ought to greet people is consistent. All right. And we cut we unpack this a lot, and I don't have enough faith to be an atheist. C. S. Lewis did some amazing work in his small book called The Abolition of Man, where he points out that regardless of what culture you're talking about, that cultures agree at their core on certain moral principles.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-04-01T02:32:11Z",
+     "role": "host",
+     "t": 5521.52,
+     "title": "'Change My Mind' LIVE Q&A from Ole Miss (Oxford, MS)",
+     "video_id": "2FBZ3gpea7I"
+    }
+   ],
+   "creators": {
+    "cross-examined": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Salute one another with an holy kiss. The churches of Christ salute you.",
+    "WEB": "Greet one another with a holy kiss. The assemblies of Christ greet you."
+   },
+   "truncated": false
+  },
   "Romans 16:17": {
    "citations": [
     {
@@ -1726,6 +2338,31 @@
    },
    "truncated": false
   },
+  "Romans 1:1": {
+   "citations": [
+    {
+     "confidence": 0.8321,
+     "context": "A person can sing, so they're called to worship. A person is emotionally intense, so they're prophetic. A person is nurturing, so they're called to pastor. A person is organized, so they're called to be an apostle. I just so happen to be all of those things, and literally went through the phases of having all of those roles and all of those titles because anytime someone would see a different characteristic, there was no one that no other understanding than then except for this has to fit into some spiritual umbrella.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-06-17T19:27:04Z",
+     "role": "host",
+     "t": 6683.16,
+     "title": "How Sociology Destroyed My Theology",
+     "video_id": "6idHGk8UpZU"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Paul, a servant of Jesus Christ, called to be an apostle, separated unto the gospel of God,",
+    "WEB": "Paul, a servant of Jesus Christ, called to be an apostle, set apart for the Good News of God,"
+   },
+   "truncated": false
+  },
   "Romans 1:16": {
    "citations": [
     {
@@ -1776,6 +2413,30 @@
   "Romans 1:18": {
    "citations": [
     {
+     "confidence": 0.8118,
+     "context": "Um, but the question why it's is I think the most important. Now let's go forward to the New Testament. Uh, let's start with the book of Romans. This is the Apostle Paul's letter to the Romans. He says that the wrath of God is being revealed against all the wickedness that people engage in, quite possibly in Rome specifically. And and an excerpt from his letter on this says uh it's Romans 1 26 through 27. Because of this, God gave them over to shameful lusts.",
+     "creator": "genetically-modified-skeptic",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-08-31T15:03:57Z",
+     "role": "unknown",
+     "t": 1280.64,
+     "title": "What the Bible Really Says About Sex and Gender (According to Scholars)",
+     "video_id": "-SWBxq7joWY"
+    },
+    {
+     "confidence": 0.5263,
+     "context": "And so my encouragement to you is not I uh I want to drag you over the coals. No, I want to just open your eyes and say, hey, let's look at truth. Let's let's see what's really going on here, and let's handle this as Christians who follow Jesus, who believe in God, who know that idol worship is actually a reason why the wrath of God comes on the world. Um let's look at it right here. It says here that the wrath of God is revealed from heaven against all ungodliness and unrighteousness.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-10-24T21:45:47Z",
+     "role": "host",
+     "t": 473.04,
+     "title": "Is Diwali Demonic? 10 Qs with Mike Winger (Ep 64)",
+     "video_id": "1So-uvdUMEE"
+    },
+    {
      "confidence": 0.8947,
      "context": "At that point in my life, if God proved himself to me, I would not have rejected that proof. But I got to the point where I just wanted the truth, even if that truth hurt. That's how we know. For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men who suppress the truth and unrighteousness, because that which is known about God is evident within them, for God made it evident to them. The definite article is used here in Greek, so it's the God, the one true God, made it evident to them.",
      "creator": "belief-it-or-not",
@@ -1814,10 +2475,11 @@
    ],
    "creators": {
     "belief-it-or-not": 1,
-    "mike-winger": 1,
+    "genetically-modified-skeptic": 1,
+    "mike-winger": 2,
     "reasonable-faith-org": 1
    },
-   "n": 3,
+   "n": 5,
    "text": {
     "KJV": "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness;",
     "WEB": "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men who suppress the truth in unrighteousness,"
@@ -1846,8 +2508,134 @@
    "text": {},
    "truncated": false
   },
+  "Romans 1:19": {
+   "citations": [
+    {
+     "confidence": 0.8539,
+     "context": "At that point in my life, if God proved himself to me, I would not have rejected that proof. But I got to the point where I just wanted the truth, even if that truth hurt. That's how we know. For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men who suppress the truth and unrighteousness, because that which is known about God is evident within them, for God made it evident to them. The definite article is used here in Greek, so it's the God, the one true God, made it evident to them.",
+     "creator": "belief-it-or-not",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-06-16T19:12:13Z",
+     "role": "host",
+     "t": 571.64,
+     "title": "Deconstructing Isn't Easy, Admitting You Were Wrong Is Hard  | Belief It Or Not",
+     "video_id": "5NS6YikMwjI"
+    }
+   ],
+   "creators": {
+    "belief-it-or-not": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Because that which may be known of God is manifest in them; for God hath shewed it unto them.",
+    "WEB": "because that which is known of God is revealed in them, for God revealed it to them."
+   },
+   "truncated": false
+  },
+  "Romans 1:20": {
+   "citations": [
+    {
+     "confidence": 0.9635,
+     "context": "This is Romans 1 18, of men who by their unrighteous unrighteousness suppress the truth, they suppress the truth. For what can be known about God is plain to them because God has shown it to them. For his invisible attributes, namely his eternal power and divine nature, have been clearly perceived ever since the creation of the world in the things that have been made, so that they are without excuse. And then this is directly about the the idol worship and and Hinduism, it's directly about it.",
+     "creator": "mike-winger",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-10-24T21:45:47Z",
+     "role": "host",
+     "t": 505.04,
+     "title": "Is Diwali Demonic? 10 Qs with Mike Winger (Ep 64)",
+     "video_id": "1So-uvdUMEE"
+    },
+    {
+     "confidence": 0.8811,
+     "context": "For since the creation of the world is invisible as oh, sorry. I was actually gonna quote it from memory, but go ahead. Oh, you know, you're you're an animal, man. By memory, man. No, no, it's just the natural theologian's favorite verse in the Bible, man. Yeah, it's great, it's great, right? So it says his eternal power and divine nature have been clearly seen because they're understood through what has been made. So people are without excuse. For although they knew God, they did not glorify him as God or give him thanks, but they became futile in their thoughts and their senseless hearts were darkened.",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-06-22T03:14:16Z",
+     "role": "unknown",
+     "t": 703.76,
+     "title": "Calling Out @JayDyer",
+     "video_id": "2PZcZWscLig"
+    },
+    {
+     "confidence": 0.9579,
+     "context": "Well, might as well just keep on not believing. I don't defend a God that hasn't revealed himself and proved himself to every human being on the planet. God made it evident to them. For since the creation of the world, his invisible attributes, both his eternal power and divine nature have been clearly seen, being understood through what has been made, so that they're without excuse. And it also justifies the doctrine of hell.",
+     "creator": "belief-it-or-not",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-06-16T19:12:13Z",
+     "role": "host",
+     "t": 637.76,
+     "title": "Deconstructing Isn't Easy, Admitting You Were Wrong Is Hard  | Belief It Or Not",
+     "video_id": "5NS6YikMwjI"
+    }
+   ],
+   "creators": {
+    "belief-it-or-not": 1,
+    "capturing-christianity": 1,
+    "mike-winger": 1
+   },
+   "n": 3,
+   "text": {
+    "KJV": "For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made, even his eternal power and Godhead; so that they are without excuse:",
+    "WEB": "For the invisible things of him since the creation of the world are clearly seen, being perceived through the things that are made, even his everlasting power and divinity, that they may be without excuse."
+   },
+   "truncated": false
+  },
+  "Romans 1:21": {
+   "citations": [
+    {
+     "confidence": 0.8532,
+     "context": "This is what we desire. So we can't be like happy to wali, because that would be a lie. That would be a happy, happy little smiley lie. Verse 21, it says, For although they knew God, they did not honor him as God or give thanks to him, but they became futile in their thinking, and their foolish hearts were darkened, claiming to be wise, they became fools and exchanged the glory of the incorruptible uh excuse me, I'm reading in my brain, New King James, the glory of the immortal God for images resembling mortal man and beads, birds and animals and creeping things.",
+     "creator": "mike-winger",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-10-24T21:45:47Z",
+     "role": "host",
+     "t": 550.2,
+     "title": "Is Diwali Demonic? 10 Qs with Mike Winger (Ep 64)",
+     "video_id": "1So-uvdUMEE"
+    },
+    {
+     "confidence": 0.889,
+     "context": "No, no, it's just the natural theologian's favorite verse in the Bible, man. Yeah, it's great, it's great, right? So it says his eternal power and divine nature have been clearly seen because they're understood through what has been made. So people are without excuse. For although they knew God, they did not glorify him as God or give him thanks, but they became futile in their thoughts and their senseless hearts were darkened. What is the great Saint Paul doing? He's affirming natural knowledge of God, his existence, the divine nature and power, and he's telling you they can be known by reason and observation of creation, even outside of revelation, and the phrase that blows me away, and I know tr Trent knows it here is they knew God.",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-06-22T03:14:16Z",
+     "role": "unknown",
+     "t": 713.04,
+     "title": "Calling Out @JayDyer",
+     "video_id": "2PZcZWscLig"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1,
+    "mike-winger": 1
+   },
+   "n": 2,
+   "text": {
+    "KJV": "Because that, when they knew God, they glorified him not as God, neither were thankful; but became vain in their imaginations, and their foolish heart was darkened.",
+    "WEB": "Because knowing God, they didn’t glorify him as God, and didn’t give thanks, but became vain in their reasoning, and their senseless heart was darkened."
+   },
+   "truncated": false
+  },
   "Romans 1:22": {
    "citations": [
+    {
+     "confidence": 0.6,
+     "context": "This is what we desire. So we can't be like happy to wali, because that would be a lie. That would be a happy, happy little smiley lie. Verse 21, it says, For although they knew God, they did not honor him as God or give thanks to him, but they became futile in their thinking, and their foolish hearts were darkened, claiming to be wise, they became fools and exchanged the glory of the incorruptible uh excuse me, I'm reading in my brain, New King James, the glory of the immortal God for images resembling mortal man and beads, birds and animals and creeping things.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-10-24T21:45:47Z",
+     "role": "host",
+     "t": 550.2,
+     "title": "Is Diwali Demonic? 10 Qs with Mike Winger (Ep 64)",
+     "video_id": "1So-uvdUMEE"
+    },
     {
      "confidence": 0.6,
      "context": "For although they knew God, they did not honor him as God or gave thanks to him, but they became futile in their thinking and their foolish hearts were darkened. Claiming to be wise, they became fools and explained the glory of the immortal God for the images resembling mortal man and birds and animals and creeping things. Okay, so I guess the Bible has our number. What with how we claim to be atheists yet worship graven images of people and birds and animals and everything.",
@@ -1912,18 +2700,68 @@
    "creators": {
     "counsel-of-trent": 1,
     "cross-examined": 2,
+    "mike-winger": 1,
     "prophet-of-zod": 1,
     "reasonable-faith-org": 1
    },
-   "n": 5,
+   "n": 6,
    "text": {
     "KJV": "Professing themselves to be wise, they became fools,",
     "WEB": "Professing themselves to be wise, they became fools,"
    },
    "truncated": false
   },
+  "Romans 1:23": {
+   "citations": [
+    {
+     "confidence": 0.8667,
+     "context": "So instead of worshiping God, the creator, you worship something that, like you know, they became fools. Um they worshiped an incorruptible God, changed the glory of an incorruptible God into an image made like corruptible man and birds and four-footed animals and creeping things. Instead of worshiping the creator of the universe, they worship like hey, the statue of a cat or the statue of a dog or the statue of a bull, right?",
+     "creator": "belief-it-or-not",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-08-07T15:00:06Z",
+     "role": "unknown",
+     "t": 499.2,
+     "title": "The Second Commandment: Graven Images  | Belief It Or Not",
+     "video_id": "2uv-6B5fGOE"
+    }
+   ],
+   "creators": {
+    "belief-it-or-not": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And changed the glory of the uncorruptible God into an image made like to corruptible man, and to birds, and fourfooted beasts, and creeping things.",
+    "WEB": "and traded the glory of the incorruptible God for the likeness of an image of corruptible man, and of birds, four-footed animals, and creeping things."
+   },
+   "truncated": false
+  },
   "Romans 1:25": {
    "citations": [
+    {
+     "confidence": 0.7143,
+     "context": "Therefore, God gave them up. And it goes on it because they exchanged the truth about God for a lie and worshiped and served the creature rather than the creator who is blessed forever. And there's more things that he talks about. They're all relevant today, or all relevant in our in our lives right now. But there's another verse I want to mention, which is what's really happening when you light a candle to a false God.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-10-24T21:45:47Z",
+     "role": "host",
+     "t": 582.2,
+     "title": "Is Diwali Demonic? 10 Qs with Mike Winger (Ep 64)",
+     "video_id": "1So-uvdUMEE"
+    },
+    {
+     "confidence": 0.7425,
+     "context": "St. Thomas Aquinas said that sin happens when we love a creature more than the creator. And this kind of disordered love is incompatible with heaven. Now that doesn't mean we have to be sinless to be saved. God will purify us of the milder, disordered love of creature we have over creator, aka venial sins.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-03-29T17:45:00Z",
+     "role": "host",
+     "t": 0.24,
+     "title": "Can you commit sins and still be saved?",
+     "video_id": "7HFg4ciVYNQ"
+    },
     {
      "confidence": 0.5,
      "context": "In the same way, we might say as Christians that we love God, but we can communicate the opposite of that through an act of grave sin, in that we communicate we don't love God, or at least God is not our ultimate end that we desire. In fact, one older definition of sin is loving the creature more than the creator, which echoes Romans 1 25. They exchanged the truth about God for a lie and worshipped and served the creature rather than the creator, who is blessed forever. Amen.",
@@ -1963,12 +2801,214 @@
    ],
    "creators": {
     "belief-it-or-not": 1,
-    "counsel-of-trent": 2
+    "counsel-of-trent": 3,
+    "mike-winger": 1
    },
-   "n": 3,
+   "n": 5,
    "text": {
     "KJV": "Who changed the truth of God into a lie, and worshipped and served the creature more than the Creator, who is blessed for ever. Amen.",
     "WEB": "who exchanged the truth of God for a lie, and worshiped and served the creature rather than the Creator, who is blessed forever. Amen."
+   },
+   "truncated": false
+  },
+  "Romans 1:26": {
+   "citations": [
+    {
+     "confidence": 0.9381,
+     "context": "So therefore, you're culpable and without excuse. Let me just read the relevant passage here. We'll start in 26. For this reason, God gave them over to degrading passions for their women exchanged the natural function for that which is unnatural. And in the same way, I'm reading from the New American Standard, by the way. And in the same way, also the men abandoned the natural function of the woman and burned in their desire toward one another, men with men committing indecent acts and receiving in their own persons the due penalty for their error, uh indecent acts.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-01-14T02:00:06Z",
+     "role": "unknown",
+     "t": 1384.68,
+     "title": "Should Christians \"Agree to Disagree\" About Homosexuality? with @robertgagnon7647",
+     "video_id": "2s1_uL0PB6I"
+    }
+   ],
+   "creators": {
+    "cross-examined": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For this cause God gave them up unto vile affections: for even their women did change the natural use into that which is against nature:",
+    "WEB": "For this reason, God gave them up to vile passions. For their women changed the natural function into that which is against nature."
+   },
+   "truncated": false
+  },
+  "Romans 1:27": {
+   "citations": [
+    {
+     "confidence": 0.8648,
+     "context": "Because of this, God gave them over to shameful lusts. Even their women exchanged natural sexual relations for unnatural ones. In the same way the men also abandoned their natural relations with women and were inflamed with lust for one another. Men committed shameful acts with other men and received in themselves the due penalty for their error. I've definitely heard this touted as a very direct condemnation of any kind of homosexual activity, both men and women.",
+     "creator": "genetically-modified-skeptic",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-08-31T15:03:57Z",
+     "role": "unknown",
+     "t": 1309.52,
+     "title": "What the Bible Really Says About Sex and Gender (According to Scholars)",
+     "video_id": "-SWBxq7joWY"
+    },
+    {
+     "confidence": 0.9509,
+     "context": "Let me just read the relevant passage here. We'll start in 26. For this reason, God gave them over to degrading passions for their women exchanged the natural function for that which is unnatural. And in the same way, I'm reading from the New American Standard, by the way. And in the same way, also the men abandoned the natural function of the woman and burned in their desire toward one another, men with men committing indecent acts and receiving in their own persons the due penalty for their error, uh indecent acts.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-01-14T02:00:06Z",
+     "role": "unknown",
+     "t": 1394.68,
+     "title": "Should Christians \"Agree to Disagree\" About Homosexuality? with @robertgagnon7647",
+     "video_id": "2s1_uL0PB6I"
+    }
+   ],
+   "creators": {
+    "cross-examined": 1,
+    "genetically-modified-skeptic": 1
+   },
+   "n": 2,
+   "text": {
+    "KJV": "And likewise also the men, leaving the natural use of the woman, burned in their lust one toward another; men with men working that which is unseemly, and receiving in themselves that recompence of their error which was meet.",
+    "WEB": "Likewise also the men, leaving the natural function of the woman, burned in their lust toward one another, men doing what is inappropriate with men, and receiving in themselves the due penalty of their error."
+   },
+   "truncated": false
+  },
+  "Romans 1:28": {
+   "citations": [
+    {
+     "confidence": 0.9022,
+     "context": "Therefore, God gave them up. And it goes on it because they exchanged the truth about God for a lie and worshiped and served the creature rather than the creator who is blessed forever. And there's more things that he talks about.",
+     "creator": "mike-winger",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-10-24T21:45:47Z",
+     "role": "host",
+     "t": 574.6,
+     "title": "Is Diwali Demonic? 10 Qs with Mike Winger (Ep 64)",
+     "video_id": "1So-uvdUMEE"
+    },
+    {
+     "confidence": 0.8599,
+     "context": "Because I said, something's wrong. I shouldn't be able to do this. Right. Somebody could say, oh, that was that was God's kindness leading you to repentance. There's a verse in scripture that says that somebody else could say, Oh, God gave you over to a reprobate mind. Like, well, well, which is it? Like, is it is God giving me over to my sin or is God just being kind to lead me to repentance? It can't be both. But either way, nothing's happening. And that's when the depression set in because I'm like, whatever I thought was happening on planet Earth is not it.",
+     "creator": "shannon-q",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-02-25T03:10:55Z",
+     "role": "host",
+     "t": 2360.08,
+     "title": "Facing the music, the public deconversion of Phanatik in his own words",
+     "video_id": "4GwwAWiwvWg"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1,
+    "shannon-q": 1
+   },
+   "n": 2,
+   "text": {
+    "KJV": "And even as they did not like to retain God in their knowledge, God gave them over to a reprobate mind, to do those things which are not convenient;",
+    "WEB": "Even as they refused to have God in their knowledge, God gave them up to a reprobate mind, to do those things which are not fitting;"
+   },
+   "truncated": false
+  },
+  "Romans 1:4": {
+   "citations": [
+    {
+     "confidence": 0.8535,
+     "context": "He claimed that in himself the kingdom of God had broken into human history. And as visible demonstrations of this fact, he carried out a ministry of miracle working and exorcisms. But the most radical confirmation of his personal claims was his resurrection from the dead. And that God has publicly vindicated those claims.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2017-01-17T21:44:37Z",
+     "role": "host",
+     "t": 50.72,
+     "title": "God Is the Best Explanation of the Historical Facts Concerning Jesus of Nazareth",
+     "video_id": "-3Fp673ZEfA"
+    },
+    {
+     "confidence": 0.8707,
+     "context": "Yeah, your interpretation, Ben, is this why should we believe Jesus reinterpretation of the Messiah rather than the one that the chief priests and the people held? And I think the answer to that is his resurrection from the dead. Jesus' resurrection from the dead is Yahweh's public and unequivocal vindication of the man, whom the chief priests had rejected as a blasphemer.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-10-04T20:30:00Z",
+     "role": "host",
+     "t": 314.8,
+     "title": "Christianity vs. Judaism: William Lane Craig & Ben Shapiro!",
+     "video_id": "3OKATThRNxM"
+    },
+    {
+     "confidence": 0.7484,
+     "context": "Similarly, in Christian systematic theology, there are certain doctrines that are absolutely central and non-negotiable for the Christian faith. For example, the existence of God would surely be at the very center of the web, the deity of Christ, his atoning death for our sins, his resurrection from the dead. All of these would be beliefs that are right at the center of our web of beliefs.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2019-06-04T17:00:00Z",
+     "role": "host",
+     "t": 65.28,
+     "title": "What Is Mere Christianity?",
+     "video_id": "3jfFKYWKu-M"
+    },
+    {
+     "confidence": 0.803,
+     "context": "And theistic philosophers have argued for thousands of years that only the last option makes logical sense. And we can then narrow down the faiths that believe in an infinite God like Islam or Baha'i or Judaism, and realize Christianity is true among them because the Christian God revealed himself through Jesus Christ, specifically his resurrection from the dead.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-05-29T21:00:05Z",
+     "role": "host",
+     "t": 106.64,
+     "title": "It’s not just one more god. It’s the God. @DrJordanBPetersonClips @jubilee@GayExTrad",
+     "video_id": "3xoWKx2UAxU"
+    },
+    {
+     "confidence": 0.7649,
+     "context": "Now, I would ask your son, ma'am, and Michael, who also wrote in, if if someone is not a Christian, I think you should ask them the question, if Christianity were true, would you become a Christian and see what they say? Or if you want to leave Christianity out of it because it might have a negative connotation in somebody's mind, you might say, if Jesus really predicted and accomplished his own resurrection from the dead to prove he was God, would you follow him and see what they say? If they hesitate or say no, it's not a head problem, it's a heart problem.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-06-03T01:00:06Z",
+     "role": "host",
+     "t": 2783.44,
+     "title": "Be Worthy of the Bullet That Charlie Kirk Took For You — Why Independence Day? w/Steve Deace + Q&A",
+     "video_id": "6XDtTJMRYmA"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 1,
+    "cross-examined": 1,
+    "drcraigvideos": 3
+   },
+   "n": 5,
+   "text": {
+    "KJV": "And declared to be the Son of God with power, according to the spirit of holiness, by the resurrection from the dead:",
+    "WEB": "who was declared to be the Son of God with power according to the Spirit of holiness, by the resurrection from the dead, Jesus Christ our Lord,"
+   },
+   "truncated": false
+  },
+  "Romans 1:6": {
+   "citations": [
+    {
+     "confidence": 0.8378,
+     "context": "Well, as a believer, as a Christian, that's not good enough. We have to learn what the word of God says, and we just can't make decisions with, well, that's not my intention. No, as a Christian, you have the Holy Spirit living inside of you, and as a Christian, you belong to somebody, you belong to Jesus Christ, and we have to make decisions based on that. Then why is it such a divisive issue? If all Christians have the Holy Spirit living inside them, then why do they all come to different conclusions?",
+     "creator": "belief-it-or-not",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-10-25T13:00:02Z",
+     "role": "unknown",
+     "t": 1263.08,
+     "title": "Jesusween or Halloween?  | Belief It Or Not",
+     "video_id": "2H36dMUfdfQ"
+    }
+   ],
+   "creators": {
+    "belief-it-or-not": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Among whom are ye also the called of Jesus Christ:",
+    "WEB": "among whom you are also called to belong to Jesus Christ;"
    },
    "truncated": false
   },
@@ -2152,6 +3192,31 @@
    },
    "truncated": false
   },
+  "Romans 2:7": {
+   "citations": [
+    {
+     "confidence": 0.8348,
+     "context": "Instead, this increase is freely given to the believer as a promise from God to everyone who cooperates with God's grace and lovingly obeys him. That's why Romans chapter two says that God, quote, will render to every man according to his works to those who by patience and well doing seek for glory and honor and immortality, he will give eternal life. And it is not the hearers of the law who are righteous before God, but the doers of the law who will be justified.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-04-30T13:00:05Z",
+     "role": "host",
+     "t": 1378.96,
+     "title": "Protestants Still Can't Explain James 2",
+     "video_id": "0LwEgFig00A"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "To them who by patient continuance in well doing seek for glory and honour and immortality, eternal life:",
+    "WEB": "to those who by perseverance in well-doing seek for glory, honor, and incorruptibility, eternal life;"
+   },
+   "truncated": false
+  },
   "Romans 3:1-4": {
    "citations": [
     {
@@ -2314,6 +3379,18 @@
   "Romans 3:18": {
    "citations": [
     {
+     "confidence": 0.7517,
+     "context": "He said, John, I loved him all the way through it. And he sees I'm puzzled. This is back in the early 90s, and he said, John, I I didn't fear God. And he said, There's millions of Americans just like me. They love Jesus, but they have no fear of God. So I'm pretty sure he's talking about Jim Baker here. He was a very well-known evangelist in the 80s, still very well known in the 90s, and he went to prison for five years from 89 to 94.",
+     "creator": "belief-it-or-not",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-04-23T14:00:00Z",
+     "role": "host",
+     "t": 1099.52,
+     "title": "Why Do Pastors Talk Like That? | Belief It Or Not",
+     "video_id": "-5TIx3NrIA8"
+    },
+    {
      "confidence": 0.5,
      "context": "And how have I sinned against you that you have brought on me and my kingdom a great sin? You've done that, you've done to me things that ought not to be done. And Abimelech said to Abraham, What what have you encountered that you have done this thing? Abraham said, Because I thought surely there is no fear of God in this place, and they will kill me because of my wife. This is literally the same line he ran last time, and God is letting him get away with it. Um, because she actually is my sister, the daughter of my father, but not the daughter of my mother. She became my wife.",
      "creator": "darante-lamar",
@@ -2327,9 +3404,10 @@
     }
    ],
    "creators": {
+    "belief-it-or-not": 1,
     "darante-lamar": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "There is no fear of God before their eyes.",
     "WEB": "“There is no fear of God before their eyes.”"
@@ -2424,6 +3502,18 @@
   "Romans 3:22": {
    "citations": [
     {
+     "confidence": 0.8005,
+     "context": "So the way that you put on the shoes of peace from the gospel is by knowing that through Jesus, God is not angry with you at all. Because that anger was already put on Jesus. No, right now, God is at peace with all those who believe in Jesus. And when you know this in your heart, you're able to move through life freely, knowing that you have peace with God and is smiling with you right now.",
+     "creator": "prophet-of-zod",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-03-07T21:00:06Z",
+     "role": "host",
+     "t": 1254.92,
+     "title": "The Armor of God is Stupid",
+     "video_id": "3F_IZAOnqBA"
+    },
+    {
      "confidence": 0.5,
      "context": "This is all based upon the principle of faith that Paul explains back in Romans 3 and 4, with respect to Abraham himself. So in Romans 3, verses 21 and following, Paul writes, but now the righteousness of God has been manifested apart from law, although the law and the prophets bear witness to it. The righteousness of God through faith in Jesus Christ for all who believe.",
      "creator": "drcraigvideos",
@@ -2462,9 +3552,10 @@
    ],
    "creators": {
     "drcraigvideos": 1,
+    "prophet-of-zod": 1,
     "reasonable-faith-org": 2
    },
-   "n": 3,
+   "n": 4,
    "text": {
     "KJV": "Even the righteousness of God which is by faith of Jesus Christ unto all and upon all them that believe: for there is no difference:",
     "WEB": "even the righteousness of God through faith in Jesus Christ to all and on all those who believe. For there is no distinction,"
@@ -2484,6 +3575,18 @@
      "t": 1128.24,
      "title": "Should Christians \"Agree to Disagree\" About Homosexuality? with @robertgagnon7647",
      "video_id": "2s1_uL0PB6I"
+    },
+    {
+     "confidence": 0.8945,
+     "context": "It doesn't matter if you were raised in church. It doesn't matter if all you've ever stole is three three snickers and two twigs. It does not matter. What the truth is is that the Bible says all have fallen short of the glory, all universally have fallen short of the glory of God. And our experience of the sinful nature does not just manifest in rebellious behavior.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-03-07T23:43:37Z",
+     "role": "host",
+     "t": 1561.84,
+     "title": "Ministry to Women at Wells (John 4:1-26)",
+     "video_id": "4V2urRNKUmA"
     },
     {
      "confidence": 0.5556,
@@ -2708,14 +3811,40 @@
     "cross-examined": 1,
     "darante-lamar": 2,
     "drcraigvideos": 2,
+    "jackie-hill-perry": 1,
     "mindshift": 8,
     "paulogia": 1,
     "reasonable-faith-org": 2
    },
-   "n": 19,
+   "n": 20,
    "text": {
     "KJV": "For all have sinned, and come short of the glory of God;",
     "WEB": "for all have sinned, and fall short of the glory of God;"
+   },
+   "truncated": false
+  },
+  "Romans 3:25": {
+   "citations": [
+    {
+     "confidence": 0.8659,
+     "context": "Romans 3 25 specifically, we read that God sent forth Christ to be a sacrifice through faith in his blood for a demonstration of his righteousness because of the passing over the sins.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-01-24T17:01:40Z",
+     "role": "unknown",
+     "t": 7045.2,
+     "title": "Atonement and the Death of Christ: A Symposium | EPS 2024",
+     "video_id": "7CIAx9j-Aow"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Whom God hath set forth to be a propitiation through faith in his blood, to declare his righteousness for the remission of sins that are past, through the forbearance of God;",
+    "WEB": "whom God sent to be an atoning sacrifice through faith in his blood, for a demonstration of his righteousness through the passing over of prior sins, in God’s forbearance;"
    },
    "truncated": false
   },
@@ -2734,6 +3863,18 @@
      "video_id": "3F_IZAOnqBA"
     },
     {
+     "confidence": 0.8467,
+     "context": "So God entered the bloodstream of humanity in order to be the perfect man. So the infinite justice of the Father came down on him rather than us. That way God remains just and is the justifier of the one who has faith in Jesus, as Paul explains in Romans 3 26. So Christianity is the answer to the problem of evil. Now, I would ask your son, ma'am, and Michael, who also wrote in, if if someone is not a Christian, I think you should ask them the question, if Christianity were true, would you become a Christian and see what they say?",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-06-03T01:00:06Z",
+     "role": "host",
+     "t": 2759.28,
+     "title": "Be Worthy of the Bullet That Charlie Kirk Took For You — Why Independence Day? w/Steve Deace + Q&A",
+     "video_id": "6XDtTJMRYmA"
+    },
+    {
      "confidence": null,
      "context": "It's not an arbitrary claim. I'm the only way, because I said so. There's no other way, philosophically or theologically, that an infinitely just being can allow unjust creatures to go unpunished unless he punishes an innocent substitute in our place. This is why Paul says in Romans chapter 3, verse 26 God remains just fine, God's not gonna force you into heaven against your will. If you don't want them now, you're not gonna want them in eternity. Now, when you think of a universe that has stars equivalent to sand grains on a hundred thousand earths, and it's gonna take you over two hundred thousand years just to go between sand grains or stars in our galaxy going five miles a second.",
      "creator": "cross-examined",
@@ -2744,6 +3885,18 @@
      "t": 3267.44,
      "title": "'Change My Mind' LIVE Q&A from Michigan Technological Univ. (Houghton, MI)",
      "video_id": "6clndvSleoA"
+    },
+    {
+     "confidence": 0.8797,
+     "context": "I have a book on atonement in which I engage with some of this stuff, and I just think that it uh is a better explanation. Not that Dr. Craig's view is incoherent or something like that. Let me just draw your attention as well to Paul's phrase in that very passage that uh God passed over former sins, but now he demonstrates his justice so that he may be both just and the justifier of him who has faith in Jesus.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-01-24T17:01:40Z",
+     "role": "unknown",
+     "t": 7153.16,
+     "title": "Atonement and the Death of Christ: A Symposium | EPS 2024",
+     "video_id": "7CIAx9j-Aow"
     },
     {
      "confidence": null,
@@ -2759,10 +3912,11 @@
     }
    ],
    "creators": {
-    "cross-examined": 2,
-    "prophet-of-zod": 1
+    "cross-examined": 3,
+    "prophet-of-zod": 1,
+    "reasonable-faith-org": 1
    },
-   "n": 3,
+   "n": 5,
    "text": {
     "KJV": "To declare, I say, at this time his righteousness: that he might be just, and the justifier of him which believeth in Jesus.",
     "WEB": "to demonstrate his righteousness at this present time, that he might himself be just and the justifier of him who has faith in Jesus."
@@ -2771,6 +3925,42 @@
   },
   "Romans 3:28": {
    "citations": [
+    {
+     "confidence": 0.8865,
+     "context": "Some people caricature the Catholic view to make it seem like the church teaches that faith and works justify us in the exact same way. But the church agrees with St. Paul's teaching that we are justified by faith apart from works of the law. The catechism of the Catholic Church says that no one can merit the initial grace of justification. And the ecumenical council of Trent, held in the wake of the Protestant Reformation, said the following We are justified freely by faith, because that none of those things which precede justification, whether faith or works, merit the grace itself of justification.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-04-30T13:00:05Z",
+     "role": "host",
+     "t": 1103.68,
+     "title": "Protestants Still Can't Explain James 2",
+     "video_id": "0LwEgFig00A"
+    },
+    {
+     "confidence": 0.8129,
+     "context": "But then we see with Gundry that Paul's doctrine of justification by faith apart from works consistently holds that the good works are neither meritorious nor are they the instrumental means which contribute to salvation.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-22T16:54:48Z",
+     "role": "host",
+     "t": 1060.12,
+     "title": "Doctrine of Salvation Part 14: New Perspectives on Paul || Defenders LIVE!",
+     "video_id": "78Zd2MTi55g"
+    },
+    {
+     "confidence": 0.8745,
+     "context": "The context running all throughout Romans, what Paul is saying is basically this. You don't have to be a good Jew to be a good Christian. That is the number one theme that he is talking about. So when talking about faith and works, and we're justified by faith apart from works of the law. Many people have mistakenly believe that what Paul is talking about here is we're justified by faith apart from good deeds. But that's not what Paul is really talking about.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-10-28T12:00:15Z",
+     "role": "unattributed",
+     "t": 4239.92,
+     "title": "DIALOGUE: Infant Baptism, Catholicism, and The Church of Christ",
+     "video_id": "7JnELgrWyZs"
+    },
     {
      "confidence": 0.5,
      "context": "He's not talking about something later. James is talking about later justification. Um, I I don't think that that's possible. I think that when Paul in Romans discusses the way in which we're saved, he describes it as being not of law but of faith. He's justified by faith apart from the works of the law. Oh, another another Catholic response is Paul is this is a different response entirely, I should mention. Paul here is not saying uh you don't use works to merit grace or something like that. He's actually just saying you don't use the law, we're not under the law.",
@@ -2785,9 +3975,11 @@
     }
    ],
    "creators": {
-    "mike-winger": 1
+    "counsel-of-trent": 2,
+    "mike-winger": 1,
+    "reasonable-faith-org": 1
    },
-   "n": 1,
+   "n": 4,
    "text": {
     "KJV": "Therefore we conclude that a man is justified by faith without the deeds of the law.",
     "WEB": "We maintain therefore that a man is justified by faith apart from the works of the law."
@@ -2845,6 +4037,56 @@
    },
    "truncated": false
   },
+  "Romans 3:3": {
+   "citations": [
+    {
+     "confidence": 0.7881,
+     "context": "Here's the final piece. After you've failed to meet the demands of those like you on who say they are delivering God's word, they offer a supposed solution. Trust in the faithfulness of God. Believe he can empower you to meet his standards. Just believe that. So, with all the pieces put together, the cycle goes like this. You believe that an automatic physiological response that basically everyone experiences is the same as actual adultery and is considered sin.",
+     "creator": "genetically-modified-skeptic",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-07-03T15:48:37Z",
+     "role": "host",
+     "t": 4024.72,
+     "title": "I Took A Gay Conversion Class for Christian Teens. It Was Awful.",
+     "video_id": "-QnyYMEy3HA"
+    }
+   ],
+   "creators": {
+    "genetically-modified-skeptic": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For what if some did not believe? shall their unbelief make the faith of God without effect?",
+    "WEB": "For what if some were without faith? Will their lack of faith nullify the faithfulness of God?"
+   },
+   "truncated": false
+  },
+  "Romans 3:4": {
+   "citations": [
+    {
+     "confidence": 0.909,
+     "context": "And I can kind of see some of the roots here. And then let's see here. There was Romans 3 4, and I'll let this one be the last one. Certainly not indeed. Let God be true, but every man a lie. As it is written, that you may be justified in your words and may overcome when you're judged. And the idea that I took from that scripture during during those last 10 years of ministry was that you want to be justified in your words.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-04-03T20:42:19Z",
+     "role": "host",
+     "t": 894.0,
+     "title": "Scriptures That Helped My Deconversion",
+     "video_id": "6TNVF5BR6o8"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "God forbid: yea, let God be true, but every man a liar; as it is written, That thou mightest be justified in thy sayings, and mightest overcome when thou art judged.",
+    "WEB": "May it never be! Yes, let God be found true, but every man a liar. As it is written, “that you might be justified in your words, and might prevail when you come into judgment.”"
+   },
+   "truncated": false
+  },
   "Romans 3:8": {
    "citations": [
     {
@@ -2892,6 +4134,31 @@
    "text": {
     "KJV": "What then? are we better than they? No, in no wise: for we have before proved both Jews and Gentiles, that they are all under sin;",
     "WEB": "What then? Are we better than they? No, in no way. For we previously warned both Jews and Greeks that they are all under sin."
+   },
+   "truncated": false
+  },
+  "Romans 4:16": {
+   "citations": [
+    {
+     "confidence": 0.8119,
+     "context": "The guy is incredible. Now, here we've got what we've been talking about already. The paragraph 16. We won't read all of it, but let me read some portions of it. But the plan of salvation also includes those who acknowledge the creator. In the first place, amongst these are the Muslims who, professing to hold the faith of Abraham, along with us, adore the one and merciful God, who on the last day will judge mankind. Then you go down there. You've got more of you go to the next slide.",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-06-22T03:14:16Z",
+     "role": "unknown",
+     "t": 5153.92,
+     "title": "Calling Out @JayDyer",
+     "video_id": "2PZcZWscLig"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Therefore it is of faith, that it might be by grace; to the end the promise might be sure to all the seed; not to that only which is of the law, but to that also which is of the faith of Abraham; who is the father of us all,",
+    "WEB": "For this cause it is of faith, that it may be according to grace, to the end that the promise may be sure to all the offspring, not to that only which is of the law, but to that also which is of the faith of Abraham, who is the father of us all."
    },
    "truncated": false
   },
@@ -3070,6 +4337,31 @@
    "text": {},
    "truncated": false
   },
+  "Romans 4:24": {
+   "citations": [
+    {
+     "confidence": 0.7555,
+     "context": "Well, what then thirdly about Jesus and the children and his blessing them? In the first place, it's not clear that these are infants. Rather, these seem to be little children who are exhibiting love and faith in Jesus and who believe in him. The lesson that Jesus wants to teach here about the little children is that this is the same way in which we need to come to Christ.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-06-07T16:05:05Z",
+     "role": "host",
+     "t": 486.72,
+     "title": "Doctrine of the Church pt 7: Believer's Baptism || Defenders LIVE!",
+     "video_id": "1vdZQkGY288"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But for us also, to whom it shall be imputed, if we believe on him that raised up Jesus our Lord from the dead;",
+    "WEB": "but for our sake also, to whom it will be accounted, who believe in him who raised Jesus our Lord from the dead,"
+   },
+   "truncated": false
+  },
   "Romans 4:25": {
    "citations": [
     {
@@ -3092,6 +4384,31 @@
    "text": {
     "KJV": "Who was delivered for our offences, and was raised again for our justification.",
     "WEB": "who was delivered up for our trespasses, and was raised for our justification."
+   },
+   "truncated": false
+  },
+  "Romans 4:3": {
+   "citations": [
+    {
+     "confidence": 0.9114,
+     "context": "Also, James 222 doesn't say Abraham's faith was shown or demonstrated by his works. It says of Abraham, you see that faith was active along with his works, and faith was completed by works. James cites Genesis 15 6, which said, Abraham believed God, and it was reckoned to him as righteousness, and that this was fulfilled when Abraham offered his son Isaac on the altar. This doesn't mean Abraham's faith was revealed only decades later when he offered Isaac on the altar.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-04-30T13:00:05Z",
+     "role": "host",
+     "t": 1025.88,
+     "title": "Protestants Still Can't Explain James 2",
+     "video_id": "0LwEgFig00A"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For what saith the scripture? Abraham believed God, and it was counted unto him for righteousness.",
+    "WEB": "For what does the Scripture say? “Abraham believed God, and it was accounted to him for righteousness.”"
    },
    "truncated": false
   },
@@ -3290,6 +4607,18 @@
      "video_id": "MrBHNE7L_ME"
     },
     {
+     "confidence": 0.5,
+     "context": "You need to learn to, if this is the case, to rest your trust in the finished work of Christ. Um, maybe I can share with you one more verse if this is in fact the case. It says here, therefore, since we've been justified by faith, which means not works, I didn't do anything for it because I didn't work for it, because I haven't earned it, I have peace with God through our Lord Jesus Christ. You have peace.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-08-29T20:23:15Z",
+     "role": "host",
+     "t": 2463.0,
+     "title": "10 Qs with Mike Winger: Are Child Preachers Biblical? (Ep 57)",
+     "video_id": "Ogm2OvgpBoU"
+    },
+    {
      "confidence": 0.8333,
      "context": "But I'm gonna speak to the person who's a believer who sins, which is going to be a hundred percent of my audience that is Christians. Okay. Um, Romans 5. Therefore, since we've been justified by faith, we have peace with God through our Lord Jesus Christ. Through him, we also we have also obtained access by faith into this grace in which we stand and we rejoice in the hope of the glory of God. Those two verses, let me break them down for you a little bit better.",
      "creator": "mike-winger",
@@ -3340,11 +4669,11 @@
    ],
    "creators": {
     "counsel-of-trent": 2,
-    "mike-winger": 3,
+    "mike-winger": 4,
     "prophet-of-zod": 2,
     "reasonable-faith-org": 1
    },
-   "n": 8,
+   "n": 9,
    "text": {
     "KJV": "Therefore being justified by faith, we have peace with God through our Lord Jesus Christ:",
     "WEB": "Being therefore justified by faith, we have peace with God through our Lord Jesus Christ;"
@@ -3378,6 +4707,42 @@
   },
   "Romans 5:12": {
    "citations": [
+    {
+     "confidence": 0.8572,
+     "context": "Right. But not many people think about the fact that um Jesus believed in Adam and Eve. What does like, how does that follow then? If that's the case, and Paul's doctrine of sin through one man, sin came into the world, and through that man, through sin, death. So it's like once you take that away, now, and Pete Enns tried to do that. He tried to say Paul was wrong about Adam and Eve.",
+     "creator": "shannon-q",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-02-25T03:10:55Z",
+     "role": "host",
+     "t": 835.56,
+     "title": "Facing the music, the public deconversion of Phanatik in his own words",
+     "video_id": "4GwwAWiwvWg"
+    },
+    {
+     "confidence": 0.9415,
+     "context": "Romans 5, 12 to 21. Let's read this passage aloud together. Therefore, as sin came into the world through one man, and death through sin, and so death spread to all men because all men sinned. Sin indeed was in the world before the law was given, but sin is not counted where there is no law.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-03-24T04:11:31Z",
+     "role": "host",
+     "t": 59.12,
+     "title": "Evolution & Creation Part 26: The Historical Adam in Romans 5 || Defenders LIVE!",
+     "video_id": "7OXr81kaA5w"
+    },
+    {
+     "confidence": 0.6,
+     "context": "So were they all saved? Thank you for your ministry. You're very welcome. So Jen, um, Romans 5 13. Let's look at the passage and ask, what does it mean for the people who existed before the law? I'm gonna back up a little bit here. Verse 12 Therefore, just as sin came into the world through one man and death through sin, so death spread to all men because all sinned. For sin indeed was in the world before the law was given. That's the law of Moses. But sin is not counted where there is no law.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-09-05T21:37:58Z",
+     "role": "host",
+     "t": 3338.04,
+     "title": "10 Qs with Mike Winger: My (fake) \"pro-flat earth\" video (Ep 58)",
+     "video_id": "DhRx-1Xm6bY"
+    },
     {
      "confidence": null,
      "context": "I guess I should feel great about that because I am neither Greek nor Jew. Notice he doesn't say Romans. That's interesting. In Romans chapter 3, verse 23, he says, All have sinned and fallen short of the glory of God. In Romans chapter 5, verse 12, he says, sin and death entered through Adam and spread. Now this doesn't just say people do wrong things, it frames the human condition as baseline compromise. That's a powerful starting point for guilt as a system.",
@@ -3418,9 +4783,11 @@
    "creators": {
     "capturing-christianity": 1,
     "darante-lamar": 1,
-    "reasonable-faith-org": 1
+    "mike-winger": 1,
+    "reasonable-faith-org": 2,
+    "shannon-q": 1
    },
-   "n": 3,
+   "n": 6,
    "text": {
     "KJV": "Wherefore, as by one man sin entered into the world, and death by sin; and so death passed upon all men, for that all have sinned:",
     "WEB": "Therefore, as sin entered into the world through one man, and death through sin, so death passed to all men because all sinned."
@@ -3503,6 +4870,144 @@
    },
    "n": 1,
    "text": {},
+   "truncated": false
+  },
+  "Romans 5:13": {
+   "citations": [
+    {
+     "confidence": 0.9176,
+     "context": "Let's read this passage aloud together. Therefore, as sin came into the world through one man, and death through sin, and so death spread to all men because all men sinned. Sin indeed was in the world before the law was given, but sin is not counted where there is no law. Yet death reigned from Adam to Moses, even over those whose sins were not like the transgression of Adam, who was a type of the one who was to come.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-03-24T04:11:31Z",
+     "role": "host",
+     "t": 70.32,
+     "title": "Evolution & Creation Part 26: The Historical Adam in Romans 5 || Defenders LIVE!",
+     "video_id": "7OXr81kaA5w"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "(For until the law sin was in the world: but sin is not imputed when there is no law.",
+    "WEB": "For until the law, sin was in the world; but sin is not charged when there is no law."
+   },
+   "truncated": false
+  },
+  "Romans 5:14": {
+   "citations": [
+    {
+     "confidence": 0.9014,
+     "context": "Sin indeed was in the world before the law was given, but sin is not counted where there is no law. Yet death reigned from Adam to Moses, even over those whose sins were not like the transgression of Adam, who was a type of the one who was to come. But the free gift is not like the trespass.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-03-24T04:11:31Z",
+     "role": "host",
+     "t": 78.16,
+     "title": "Evolution & Creation Part 26: The Historical Adam in Romans 5 || Defenders LIVE!",
+     "video_id": "7OXr81kaA5w"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Nevertheless death reigned from Adam to Moses, even over them that had not sinned after the similitude of Adam's transgression, who is the figure of him that was to come.",
+    "WEB": "Nevertheless death reigned from Adam until Moses, even over those whose sins weren’t like Adam’s disobedience, who is a foreshadowing of him who was to come."
+   },
+   "truncated": false
+  },
+  "Romans 5:15": {
+   "citations": [
+    {
+     "confidence": 0.984,
+     "context": "Yet death reigned from Adam to Moses, even over those whose sins were not like the transgression of Adam, who was a type of the one who was to come. But the free gift is not like the trespass. For if many died through one's man's trespass, much more have the grace of God and the free gift in the grace of that one man Jesus Christ abounded for many.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-03-24T04:11:31Z",
+     "role": "host",
+     "t": 91.68,
+     "title": "Evolution & Creation Part 26: The Historical Adam in Romans 5 || Defenders LIVE!",
+     "video_id": "7OXr81kaA5w"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But not as the offence, so also is the free gift. For if through the offence of one many be dead, much more the grace of God, and the gift by grace, which is by one man, Jesus Christ, hath abounded unto many.",
+    "WEB": "But the free gift isn’t like the trespass. For if by the trespass of the one the many died, much more did the grace of God and the gift by the grace of the one man, Jesus Christ, abound to the many."
+   },
+   "truncated": false
+  },
+  "Romans 5:16": {
+   "citations": [
+    {
+     "confidence": 0.9152,
+     "context": "Yet death reigned from Adam to Moses, even over those whose sins were not like the transgression of Adam, who was a type of the one who was to come. But the free gift is not like the trespass. For if many died through one's man's trespass, much more have the grace of God and the free gift in the grace of that one man Jesus Christ abounded for many.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-03-24T04:11:31Z",
+     "role": "host",
+     "t": 91.68,
+     "title": "Evolution & Creation Part 26: The Historical Adam in Romans 5 || Defenders LIVE!",
+     "video_id": "7OXr81kaA5w"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And not as it was by one that sinned, so is the gift: for the judgment was by one to condemnation, but the free gift is of many offences unto justification.",
+    "WEB": "The gift is not as through one who sinned; for the judgment came by one to condemnation, but the free gift followed many trespasses to justification."
+   },
+   "truncated": false
+  },
+  "Romans 5:17": {
+   "citations": [
+    {
+     "confidence": 0.8148,
+     "context": "I haven't read the book, but my arguments would be simply biblical arguments. It seems to me that both Jesus and the other authors of the New Testament clearly taught that not everyone would be saved. Um, but that those, as as Paul says, those who receive the free gift of righteousness will um come to justification and glorification and so forth. So I'm told that Jesus warned more of the dangers of hell than he spoke of the promise of heaven.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2021-02-26T20:33:48Z",
+     "role": "host",
+     "t": 38.64,
+     "title": "Is Universalism Biblical?",
+     "video_id": "3sOZQN__gGw"
+    },
+    {
+     "confidence": 0.9581,
+     "context": "For the judgment following one trespass brought condemnation, but the free gift following many trespasses brings justification. If, because of one man's trespass, death reigned through that one man, much more will those who receive the abundance of grace and the free gift of righteousness reign in life through the one man Jesus Christ.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-03-24T04:11:31Z",
+     "role": "host",
+     "t": 126.28,
+     "title": "Evolution & Creation Part 26: The Historical Adam in Romans 5 || Defenders LIVE!",
+     "video_id": "7OXr81kaA5w"
+    }
+   ],
+   "creators": {
+    "drcraigvideos": 1,
+    "reasonable-faith-org": 1
+   },
+   "n": 2,
+   "text": {
+    "KJV": "For if by one man's offence death reigned by one; much more they which receive abundance of grace and of the gift of righteousness shall reign in life by one, Jesus Christ.)",
+    "WEB": "For if by the trespass of the one, death reigned through the one; so much more will those who receive the abundance of grace and of the gift of righteousness reign in life through the one, Jesus Christ."
+   },
    "truncated": false
   },
   "Romans 5:19": {
@@ -3618,6 +5123,18 @@
   "Romans 5:6": {
    "citations": [
     {
+     "confidence": 0.7845,
+     "context": "And so, but before we start, pray with me. Bow your heads. Come, Holy Spirit. Lord, we thank you for your word. We thank you for your power. We thank you for your faithfulness. I'm still rocked by the fact that while we were yet sinners, you died for us. That while we were running away from you, you were running towards us. I don't know what the students in this room need. I don't know the pains and the hurts that they've experienced and the frustration and the angst that they hold, but you do.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-09-30T13:00:06Z",
+     "role": "host",
+     "t": 30.32,
+     "title": "Why God Chooses the Inexperienced | Lisa Fields at Wheaton College",
+     "video_id": "1P1s5Yuf3Gs"
+    },
+    {
      "confidence": 0.6667,
      "context": "He's gonna raise again, rise again from the dead. Now, so let's go to the why now. Why is he doing this? Okay. Why is he doing this? So let's go. We'll go to Romans chapter five. And it says in verse 6 here, for while we were still weak, at the right time, Christ died for the ungodly. That's us. He died for the ungodly. Now remember, he gave his life up himself to do this.",
      "creator": "capturing-christianity",
@@ -3631,9 +5148,10 @@
     }
    ],
    "creators": {
-    "capturing-christianity": 1
+    "capturing-christianity": 1,
+    "jude-3-project": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "For when we were yet without strength, in due time Christ died for the ungodly.",
     "WEB": "For while we were yet weak, at the right time Christ died for the ungodly."
@@ -3642,6 +5160,18 @@
   },
   "Romans 5:8": {
    "citations": [
+    {
+     "confidence": 0.8635,
+     "context": "And so, but before we start, pray with me. Bow your heads. Come, Holy Spirit. Lord, we thank you for your word. We thank you for your power. We thank you for your faithfulness. I'm still rocked by the fact that while we were yet sinners, you died for us. That while we were running away from you, you were running towards us. I don't know what the students in this room need. I don't know the pains and the hurts that they've experienced and the frustration and the angst that they hold, but you do.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-09-30T13:00:06Z",
+     "role": "host",
+     "t": 30.32,
+     "title": "Why God Chooses the Inexperienced | Lisa Fields at Wheaton College",
+     "video_id": "1P1s5Yuf3Gs"
+    },
     {
      "confidence": null,
      "context": "I'd love to see how that date ends. I did a complete unpacking of John 316 in a recent video entitled, How is This Love? Check it out for some more serious content. But there's also scriptures like Romans chapter 5, verse 8, where love is allegedly proven and sacrificed. It reads that while we were yet sinners, Christ died for us. It's used to highlight unconditional love, love not earned but freely given, under the condition that you accept eternal servitude.",
@@ -3682,9 +5212,10 @@
    "creators": {
     "cross-examined": 1,
     "darante-lamar": 1,
+    "jude-3-project": 1,
     "reasonable-faith-org": 1
    },
-   "n": 3,
+   "n": 4,
    "text": {
     "KJV": "But God commendeth his love toward us, in that, while we were yet sinners, Christ died for us.",
     "WEB": "But God commends his own love toward us, in that while we were yet sinners, Christ died for us."
@@ -3884,6 +5415,18 @@
   "Romans 6:18": {
    "citations": [
     {
+     "confidence": 0.8106,
+     "context": "My colleague Jimmy Aiken compares the initial and ongoing elements of justification with the qualities of a light. One quality of the light would be purity, or the whiteness of a lamp's light. At baptism, we are made free from sin and capable of entering into heaven, or we receive pure righteousness from God, like a pure light. But another quality of a lamp's light is its intensity. A lamp might radiate pure white light, but dimly, or it could radiate it brightly.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-04-30T13:00:05Z",
+     "role": "host",
+     "t": 1320.08,
+     "title": "Protestants Still Can't Explain James 2",
+     "video_id": "0LwEgFig00A"
+    },
+    {
      "confidence": null,
      "context": "Moving on. Uh Romans chapter 6, verse 18. And after being freed from sin, you became slaves to righteousness. You know, so so Paul, uh, the the apostle formerly known as Paul, is how I like to say it. Um, this author here seems to make it very clear that there is no liberty in Jesus Christ.",
      "creator": "darante-lamar",
@@ -3909,10 +5452,11 @@
     }
    ],
    "creators": {
+    "counsel-of-trent": 1,
     "darante-lamar": 1,
     "mindshift": 1
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "Being then made free from sin, ye became the servants of righteousness.",
     "WEB": "Being made free from sin, you became bondservants of righteousness."
@@ -3921,6 +5465,18 @@
   },
   "Romans 6:22": {
    "citations": [
+    {
+     "confidence": 0.8061,
+     "context": "My colleague Jimmy Aiken compares the initial and ongoing elements of justification with the qualities of a light. One quality of the light would be purity, or the whiteness of a lamp's light. At baptism, we are made free from sin and capable of entering into heaven, or we receive pure righteousness from God, like a pure light. But another quality of a lamp's light is its intensity. A lamp might radiate pure white light, but dimly, or it could radiate it brightly.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-04-30T13:00:05Z",
+     "role": "host",
+     "t": 1320.08,
+     "title": "Protestants Still Can't Explain James 2",
+     "video_id": "0LwEgFig00A"
+    },
     {
      "confidence": null,
      "context": "Anyway, it's politics season, so it's it's gonna seep out. It's gonna seep out. I have to see all your memes and stuff. All right, uh, Romans chapter 6, verse 22. But now having been freed from sin and enslaved to God, you derive your benefit, resulting in sanctification and the outcome, eternal life. And the sad thing is this is the actual language that was used for African slaves.",
@@ -3947,9 +5503,10 @@
     }
    ],
    "creators": {
+    "counsel-of-trent": 1,
     "darante-lamar": 2
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "But now being made free from sin, and become servants to God, ye have your fruit unto holiness, and the end everlasting life.",
     "WEB": "But now, being made free from sin and having become servants of God, you have your fruit of sanctification and the result of eternal life."
@@ -3958,6 +5515,42 @@
   },
   "Romans 6:23": {
    "citations": [
+    {
+     "confidence": 0.8165,
+     "context": "I haven't read the book, but my arguments would be simply biblical arguments. It seems to me that both Jesus and the other authors of the New Testament clearly taught that not everyone would be saved. Um, but that those, as as Paul says, those who receive the free gift of righteousness will um come to justification and glorification and so forth. So I'm told that Jesus warned more of the dangers of hell than he spoke of the promise of heaven.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2021-02-26T20:33:48Z",
+     "role": "host",
+     "t": 38.64,
+     "title": "Is Universalism Biblical?",
+     "video_id": "3sOZQN__gGw"
+    },
+    {
+     "confidence": 0.8609,
+     "context": "But when God became the God man, he was able to die as all humans do. But what made his death different from Adam or Moses or Abraham or me or you is that his death was a substitution. Remember, I said the wages of sin is death. All are born in it. It's something we all deserve, whether it's because of the lie we told last night or the ego we had a decago decade ago, there is wrath stored up and ready to be poured out on us for our sin.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2020-12-21T00:41:14Z",
+     "role": "host",
+     "t": 1666.28,
+     "title": "Oh Holy Night",
+     "video_id": "5ALRUMILjZ8"
+    },
+    {
+     "confidence": 0.8153,
+     "context": "In Christian theology, God doesn't need consent, he owns creation. So if he kills you, it's not injustice, it's property management. Once a being is labeled holy, it becomes immune to moral scrutiny. Christians are taught to see mass violence as love in disguise if God initiates it, because the wages of sin is death, and God is holy and just.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-04-30T19:27:07Z",
+     "role": "host",
+     "t": 685.36,
+     "title": "God or Galactic Dictator? Why Christians Might Not Know the Difference",
+     "video_id": "6MCuTdgBvAs"
+    },
     {
      "confidence": null,
      "context": "And not only are we bad, we're so bad, we deserve death. Fast forwarding to Romans 6:23. For the wages of sin is death. Going back to James, we're gonna see that flip side even more drastic. I'll read this one, James 1, 13 through 14. No one when tempted should say, I am being tempted by God, for God cannot be tempted by evil, which I would argue, like right there.",
@@ -3969,6 +5562,30 @@
      "t": 447.76,
      "title": "God Gets Credit, You Get Blame | The Rigged Math of Christianity",
      "video_id": "6uPouoG4f5Q"
+    },
+    {
+     "confidence": 0.8702,
+     "context": "We choose to allow God. So what I would say is that a human being has no ability to merit heaven. There's nothing we can do to earn heaven, but there are things we can do to demerit. There's things we can do to earn hell. We can work our way to hell. You can't work your way to heaven. Wages of sin is death. Remember 623. So when when James 2 24 talks about we are justified by works, not by faith, it's talking about how the works we do after baptism genuinely please God. And so in doing that, it makes us become holier.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-10-28T12:00:15Z",
+     "role": "unknown",
+     "t": 1242.84,
+     "title": "DIALOGUE: Infant Baptism, Catholicism, and The Church of Christ",
+     "video_id": "7JnELgrWyZs"
+    },
+    {
+     "confidence": 0.8386,
+     "context": "Yet death reigned from Adam to Moses, even over those whose sins were not like the transgression of Adam, who was a type of the one who was to come. But the free gift is not like the trespass. For if many died through one's man's trespass, much more have the grace of God and the free gift in the grace of that one man Jesus Christ abounded for many.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-03-24T04:11:31Z",
+     "role": "host",
+     "t": 91.68,
+     "title": "Evolution & Creation Part 26: The Historical Adam in Romans 5 || Defenders LIVE!",
+     "video_id": "7OXr81kaA5w"
     },
     {
      "confidence": null,
@@ -4044,12 +5661,14 @@
     }
    ],
    "creators": {
-    "counsel-of-trent": 2,
-    "darante-lamar": 1,
+    "counsel-of-trent": 3,
+    "darante-lamar": 2,
+    "drcraigvideos": 1,
+    "jackie-hill-perry": 1,
     "mindshift": 2,
-    "reasonable-faith-org": 2
+    "reasonable-faith-org": 3
    },
-   "n": 7,
+   "n": 12,
    "text": {
     "KJV": "For the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord.",
     "WEB": "For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord."
@@ -4164,8 +5783,67 @@
    "text": {},
    "truncated": false
   },
+  "Romans 6:4": {
+   "citations": [
+    {
+     "confidence": 0.8318,
+     "context": "Thus one ought to ask in light of this: is there no hope for us? Are we dead in our trespasses? But we all know Paul goes on to say, of course not. For all those who have been baptized into Christ Jesus have been raised in newness of life, and by the power of this life, nothing can separate us from the love of God, as Paul states in Romans 8.35. What all of Romans then suggests to me is that, like in the book of Jonah, God's wrath has an aim to bring about repentance.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-01-24T17:01:40Z",
+     "role": "unknown",
+     "t": 1745.6,
+     "title": "Atonement and the Death of Christ: A Symposium | EPS 2024",
+     "video_id": "7CIAx9j-Aow"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Therefore we are buried with him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life.",
+    "WEB": "We were buried therefore with him through baptism into death, that just as Christ was raised from the dead through the glory of the Father, so we also might walk in newness of life."
+   },
+   "truncated": false
+  },
+  "Romans 6:5-6": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "Uh it doesn't really make a lot of sense. If it's just a moral example, the moral example theory, it doesn't really, it doesn't really track. Uh Romans 6 verses 5 and 6 is the other verse you mentioned. For if we have been united with him in a death like his, we shall certainly be united with him in a resurrection like his. For we know that our old self was crucified with him in order that the body of sin might be brought to nothing, so that we would no longer be enslaved to sin.",
+     "creator": "mike-winger",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-09-19T21:39:21Z",
+     "role": "host",
+     "t": 2378.72,
+     "title": "10 Qs with Mike Winger: Who is the Rapture Prophet? (Ep 60) “Brother Joshua”",
+     "video_id": "wnrf0dwPL5o"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {},
+   "truncated": false
+  },
   "Romans 6:6": {
    "citations": [
+    {
+     "confidence": 0.756,
+     "context": "Surely Christianity is by necessity high demand. Evangelicalism certainly is. Churches frequently sing songs like All to Jesus, I surrender. And as a Christian, I was taught to die to myself so that I might live like Christ, so that it would no longer be I who live, but Christ who lives within me. This is as high as demands get.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-11-20T23:56:52Z",
+     "role": "host",
+     "t": 199.4,
+     "title": "How Christianity Uses Coercive Control (Without Calling It That)",
+     "video_id": "2NsCVdkyjJ8"
+    },
     {
      "confidence": null,
      "context": "Luke chapter 9, verse 23, it says, And he said to all, if anyone would come after me, let him deny himself and take up his cross daily and follow me. This is denial of self as a daily ongoing death. Romans chapter 6, verse 6 says that we know that our old self was crucified with him in order that the body of sin might be brought to nothing, so that we would no longer be enslaved to sin. Your old self put to death once and for all. Then Galatians chapter 2, verse 20 says, I have been crucified with Christ.",
@@ -4180,12 +5858,37 @@
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "darante-lamar": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Knowing this, that our old man is crucified with him, that the body of sin might be destroyed, that henceforth we should not serve sin.",
     "WEB": "knowing this, that our old man was crucified with him, that the body of sin might be done away with, so that we would no longer be in bondage to sin."
+   },
+   "truncated": false
+  },
+  "Romans 6:7": {
+   "citations": [
+    {
+     "confidence": 0.8016,
+     "context": "Justification is not a one time event in our lives, even if our transformation from being a child of wrath to becoming a child of God did happen at a single moment in the past, namely, baptism. Romans 6 7 says the following: For he who has died is freed from sin. But the word freed is a form of the Greek word dica or justify. Paul literally says in this verse, he who has died is justified from sin.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-04-30T13:00:05Z",
+     "role": "host",
+     "t": 1261.64,
+     "title": "Protestants Still Can't Explain James 2",
+     "video_id": "0LwEgFig00A"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For he that is dead is freed from sin.",
+    "WEB": "For he who has died has been freed from sin."
    },
    "truncated": false
   },
@@ -4239,6 +5942,31 @@
    },
    "truncated": false
   },
+  "Romans 7:11": {
+   "citations": [
+    {
+     "confidence": 0.6364,
+     "context": "That is the old testament where he says, Do this and you'll live, don't do it, and you'll be cursed, you'll die. Well, nobody does it, so even though it's promised life, it ends up in death because of my sin, my weaknesses. For sin, seizing an opportunity through the commandment, deceived me and through it killed me. So the law is holy, and the commandment is holy and righteous and good. Did that which is good then bring death to me? By no means. It was sin producing death in me through what is good, in order that sin might be shown to be sin and through the commandment might become sinful beyond measure.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-09-05T21:37:58Z",
+     "role": "host",
+     "t": 2888.52,
+     "title": "10 Qs with Mike Winger: My (fake) \"pro-flat earth\" video (Ep 58)",
+     "video_id": "DhRx-1Xm6bY"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For sin, taking occasion by the commandment, deceived me, and by it slew me.",
+    "WEB": "for sin, finding occasion through the commandment, deceived me, and through it killed me."
+   },
+   "truncated": false
+  },
   "Romans 7:12": {
    "citations": [
     {
@@ -4261,6 +5989,31 @@
    "text": {
     "KJV": "Wherefore the law is holy, and the commandment holy, and just, and good.",
     "WEB": "Therefore the law indeed is holy, and the commandment holy, righteous, and good."
+   },
+   "truncated": false
+  },
+  "Romans 7:14": {
+   "citations": [
+    {
+     "confidence": 0.6667,
+     "context": "Now I see God's commands where He where Jesus says things like you know, uh, you look with lust, you've committed adultery in your heart, and you go, Well, well, then I'm dead. I'm dead meat. And yes, you are. That's why you need Jesus. You see, now you're starting to see how sinful sin is. Um, for we all for we know that the law is spiritual, but I am of the flesh, sold under sin, for I do not understand my own actions for what I do not want. Uh for I do, excuse me, for I do not do what I want, but I do the very thing I hate.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-09-05T21:37:58Z",
+     "role": "host",
+     "t": 2961.36,
+     "title": "10 Qs with Mike Winger: My (fake) \"pro-flat earth\" video (Ep 58)",
+     "video_id": "DhRx-1Xm6bY"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For we know that the law is spiritual: but I am carnal, sold under sin.",
+    "WEB": "For we know that the law is spiritual, but I am fleshly, sold under sin."
    },
    "truncated": false
   },
@@ -4322,6 +6075,31 @@
    "text": {
     "KJV": "For I know that in me (that is, in my flesh,) dwelleth no good thing: for to will is present with me; but how to perform that which is good I find not.",
     "WEB": "For I know that in me, that is, in my flesh, dwells no good thing. For desire is present with me, but I don’t find it doing that which is good."
+   },
+   "truncated": false
+  },
+  "Romans 7:22": {
+   "citations": [
+    {
+     "confidence": 0.5556,
+     "context": "So, anyways, he goes on, and and it's it's um I guess only a few verses. I'll finish the chapter here. Um verse 21. So I find it to be a law that when I want to do right, evil lies close at hand. For I delight in the law of God in my inner being, but I see in my members another law, waging war against the law of my mind and making me captive to the law of sin that dwells in my members. Wretched man that I am, who will deliver me from this body of death. Thanks be to God through Jesus Christ our Lord.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-09-05T21:37:58Z",
+     "role": "host",
+     "t": 3011.44,
+     "title": "10 Qs with Mike Winger: My (fake) \"pro-flat earth\" video (Ep 58)",
+     "video_id": "DhRx-1Xm6bY"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For I delight in the law of God after the inward man:",
+    "WEB": "For I delight in God’s law after the inward person,"
    },
    "truncated": false
   },
@@ -4450,6 +6228,18 @@
   "Romans 8:1": {
    "citations": [
     {
+     "confidence": 0.8417,
+     "context": "The language of the New Testament reflects this opposition between justification and condemnation for those who are not in Christ Jesus. For example, Romans chapter 8 and verse 1 says, there is therefore now no condemnation for those who are in Christ Jesus. In Romans 8, 33 and 34, Paul says, it is God who justifies.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-15T16:50:49Z",
+     "role": "host",
+     "t": 135.0,
+     "title": "// Defenders LIVE! //",
+     "video_id": "6ADxnBJwOU4"
+    },
+    {
      "confidence": null,
      "context": "Wes also said, I believe that what Jesus accomplished, he did so sufficiently. His act of justifying the believer was once for all. There is no condemnation for those who are in Christ Jesus. It says in Romans chapter 8, verse 1. And I can hold that sufficient work in my life confidently. It's true, there is no eternal condemnation for those who are in Christ in the present tense. But that doesn't mean a person can't depart from Christ.",
      "creator": "counsel-of-trent",
@@ -4463,9 +6253,10 @@
     }
    ],
    "creators": {
-    "counsel-of-trent": 1
+    "counsel-of-trent": 1,
+    "reasonable-faith-org": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "There is therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit.",
     "WEB": "There is therefore now no condemnation to those who are in Christ Jesus, who don’t walk according to the flesh, but according to the Spirit."
@@ -4497,21 +6288,122 @@
      "t": 737.6,
      "title": "Defending the Most Important Bible Passage",
      "video_id": "eOcdoAxie0k"
+    },
+    {
+     "confidence": 0.7568,
+     "context": "Um, an example of that kind of thing. You're led into righteous things, you start caring about God's stuff and God things, and that is one of the ways in which you see the spirit working in your life. Then he says, anyone who does not have the spirit of Christ does not belong to him. And if, but if the spirit, if Christ is in you, although the body is dead because of sin, the spirit is life because of righteousness. If the spirit of him who raised Jesus from the dead dwells in you, he who raised Christ Jesus from the dead will also give life to your mortal bodies through his spirit who dwells in you.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-10-03T22:20:16Z",
+     "role": "host",
+     "t": 2123.12,
+     "title": "10 Qs with Mike Winger: Skeptics, New Believers, and Zachary Levi (Ep 62)",
+     "video_id": "tBUG6l6slwY"
     }
    ],
    "creators": {
     "counsel-of-trent": 1,
-    "cross-examined": 1
+    "cross-examined": 1,
+    "mike-winger": 1
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "But if the Spirit of him that raised up Jesus from the dead dwell in you, he that raised up Christ from the dead shall also quicken your mortal bodies by his Spirit that dwelleth in you.",
     "WEB": "But if the Spirit of him who raised up Jesus from the dead dwells in you, he who raised up Christ Jesus from the dead will also give life to your mortal bodies through his Spirit who dwells in you."
    },
    "truncated": false
   },
+  "Romans 8:12": {
+   "citations": [
+    {
+     "confidence": 0.75,
+     "context": "So um let me uh read a little bit more about this from Romans 8. So then, brothers, we are debtors not to the flesh to live according to the flesh. For if you live according to the flesh, you will die. But if the sp but if by the spirit, you put to death the deeds of the body, you will live. For all who are led by the spirit of God are sons of God. That's an indication that you're a Christian, is you see the leading of the spirit, you look at your life before Christian to after being a Christian, and you see the difference.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-10-03T22:20:16Z",
+     "role": "host",
+     "t": 2198.16,
+     "title": "10 Qs with Mike Winger: Skeptics, New Believers, and Zachary Levi (Ep 62)",
+     "video_id": "tBUG6l6slwY"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Therefore, brethren, we are debtors, not to the flesh, to live after the flesh.",
+    "WEB": "So then, brothers, we are debtors, not to the flesh, to live after the flesh."
+   },
+   "truncated": false
+  },
+  "Romans 8:13": {
+   "citations": [
+    {
+     "confidence": 0.8254,
+     "context": "Oh yes, oh yes. Uh, I mean, I I mean there are literally scriptures that that encourage you to mortify the deeds of the flesh, um, to hate your you know, to hate the flesh. There's nothing good that dwells within me. Uh it is no longer I who live, but Christ lives within me.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-06-01T19:21:46Z",
+     "role": "host",
+     "t": 4897.84,
+     "title": "How We Change The World with X-Pastors Kyle Butler & Derrick Day // Sunday Sessions",
+     "video_id": "2A0rYiND9zY"
+    },
+    {
+     "confidence": 0.7848,
+     "context": "Colossians 3 8. Have this mind among yourselves, which was also in Christ Jesus, Philippians 2.5. Put to death the works of the flesh, but walk in the Spirit, Romans 8 13, Galatians 5, 16 to 18. These exhortations to holy living that Paul gives are very different from the sort of legal debates that characterized Palestinian Judaism.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-22T16:54:48Z",
+     "role": "host",
+     "t": 241.92,
+     "title": "Doctrine of Salvation Part 14: New Perspectives on Paul || Defenders LIVE!",
+     "video_id": "78Zd2MTi55g"
+    },
+    {
+     "confidence": 0.625,
+     "context": "So um let me uh read a little bit more about this from Romans 8. So then, brothers, we are debtors not to the flesh to live according to the flesh. For if you live according to the flesh, you will die. But if the sp but if by the spirit, you put to death the deeds of the body, you will live. For all who are led by the spirit of God are sons of God. That's an indication that you're a Christian, is you see the leading of the spirit, you look at your life before Christian to after being a Christian, and you see the difference.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-10-03T22:20:16Z",
+     "role": "host",
+     "t": 2201.68,
+     "title": "10 Qs with Mike Winger: Skeptics, New Believers, and Zachary Levi (Ep 62)",
+     "video_id": "tBUG6l6slwY"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1,
+    "mike-winger": 1,
+    "reasonable-faith-org": 1
+   },
+   "n": 3,
+   "text": {
+    "KJV": "For if ye live after the flesh, ye shall die: but if ye through the Spirit do mortify the deeds of the body, ye shall live.",
+    "WEB": "For if you live after the flesh, you must die; but if by the Spirit you put to death the deeds of the body, you will live."
+   },
+   "truncated": false
+  },
   "Romans 8:14": {
    "citations": [
+    {
+     "confidence": 0.7422,
+     "context": "But then it's also the leading of the spirit, which which means um, and and you would get this question a lot. Anytime you'd want to do something, would the spirit lead you to do that? Is God telling you to do that? You know, you got to be made, you have to make sure that you are being led by the Spirit of God. So this definitely impacted my interest because then anything that I was interested in, that just wasn't enough. It wasn't enough for me that I was interested in it.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-05-03T23:20:52Z",
+     "role": "host",
+     "t": 267.12,
+     "title": "I Once Was Bound, But Now I'm Free",
+     "video_id": "796R8n5TmMw"
+    },
     {
      "confidence": 0.5385,
      "context": "And I promise you a peace that the world cannot take from you. In the world you will have tribulation, but take care, take courage. I have overcome the world. A few more promises about your fear issue. Romans 8 14 and 17. For as many as are being led by the Spirit of God, these are sons of God. So can I ask you a question? Are you a son of Allah? So then you don't have the true God. That's why you're afraid. For you have not received now, watch this. You have not received the spirit of slavery leading to fear again.",
@@ -4538,9 +6430,10 @@
     }
    ],
    "creators": {
-    "capturing-christianity": 2
+    "capturing-christianity": 2,
+    "darante-lamar": 1
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "For as many as are led by the Spirit of God, they are the sons of God.",
     "WEB": "For as many as are led by the Spirit of God, these are children of God."
@@ -4549,6 +6442,18 @@
   },
   "Romans 8:15": {
    "citations": [
+    {
+     "confidence": 0.8052,
+     "context": "I think that the fundamental way in which I know Christianity is true is not through argument and evidence, but it is through that personal relationship with God made possible by the Holy Spirit. Paul says when we cry, Abba, Father, the Holy Spirit bears witness with our spirit that we are children of God. And so I think that the fundamental way in which we know Christianity is true is through the inner witness of the Holy Spirit.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2017-02-28T22:43:42Z",
+     "role": "host",
+     "t": 103.04,
+     "title": "What Is the Relationship Between Apologetics and One’s Personal Faith?",
+     "video_id": "1pgWOgadglE"
+    },
     {
      "confidence": null,
      "context": "All of this flows from Paul. Paul uses slavery as a default spiritual grammar. Throughout Romans chapter 6, we constantly see slave of sin, slave of righteousness, and slave of God language. Romans chapter 8, verse 15, there is a contrast between the spirit of slavery or the spirit of adoption, which is still within the master household framework. In 1 Corinthians, Paul furthers this imagery. He creates this paradox identity that you are either a free slave or a slave who is free.",
@@ -4575,9 +6480,10 @@
     }
    ],
    "creators": {
-    "darante-lamar": 2
+    "darante-lamar": 2,
+    "drcraigvideos": 1
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "For ye have not received the spirit of bondage again to fear; but ye have received the Spirit of adoption, whereby we cry, Abba, Father.",
     "WEB": "For you didn’t receive the spirit of bondage again to fear, but you received the Spirit of adoption, by whom we cry, “Abba! Father!”"
@@ -4669,15 +6575,28 @@
      "t": 5095.52,
      "title": "Muslims Still Can't Defeat the Islamic Dilemma (feat. Shamoun and GodLogic)",
      "video_id": "t3wrhq35W2o"
+    },
+    {
+     "confidence": 0.6,
+     "context": "God is with me. He's my father, and I have a relationship with him as a as a son and father. And that was hugely life-changing for me. It it filled a gap for sure, um, but it more than filled a gap. It provided me with a relationship with God. Then it says, the spirit Himself bears witness with our spirit that we are children of God. That's what you're talking about. How does the spirit bear witness with me? And if children, then heirs and heirs of God and fellow heirs with Christ, provided that we suffer with him, in order that we may also be glorified with him. So yeah, there's a cross to bear.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-10-03T22:20:16Z",
+     "role": "host",
+     "t": 2318.12,
+     "title": "10 Qs with Mike Winger: Skeptics, New Believers, and Zachary Levi (Ep 62)",
+     "video_id": "tBUG6l6slwY"
     }
    ],
    "creators": {
     "capturing-christianity": 3,
     "darante-lamar": 1,
     "drcraigvideos": 1,
+    "mike-winger": 1,
     "reasonable-faith-org": 2
    },
-   "n": 7,
+   "n": 8,
    "text": {
     "KJV": "The Spirit itself beareth witness with our spirit, that we are the children of God:",
     "WEB": "The Spirit himself testifies with our spirit that we are children of God;"
@@ -4706,8 +6625,157 @@
    "text": {},
    "truncated": false
   },
+  "Romans 8:17": {
+   "citations": [
+    {
+     "confidence": 0.8671,
+     "context": "Hardship gets reframed as virtue. In Romans, suffering produces a proved character. Chapter 5, verse 3 through 5, he says, we rejoice in our suffering because suffering produces endurance, character, and hope. In verse 17 of chapter 8, he says, We are heirs with Christ, provided that we suffer with him. Hardship isn't merely endured, it becomes meaningful capital, a producing engine that yields virtues and validates identity within Christ.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-16T14:25:48Z",
+     "role": "host",
+     "t": 18.4,
+     "title": "Suffering: The Secret Badge of Faith or Justified Harm? #shorts",
+     "video_id": "670z3vcqlGI"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And if children, then heirs; heirs of God, and joint-heirs with Christ; if so be that we suffer with him, that we may be also glorified together.",
+    "WEB": "and if children, then heirs—heirs of God and joint heirs with Christ, if indeed we suffer with him, that we may also be glorified with him."
+   },
+   "truncated": false
+  },
+  "Romans 8:18": {
+   "citations": [
+    {
+     "confidence": 0.8394,
+     "context": "So God understands what you've been going through this year. And the Bible says that the sufferings of this life are not even worth comparing with the glory that is to be revealed to us. So I hope that this Christmas season, you'll be filled with hope for the future and a bright redemption that lies ahead for all of us, despite the shortcomings of this earthly life.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2020-12-25T16:00:03Z",
+     "role": "host",
+     "t": 75.76,
+     "title": "A 2020 Christmas Greeting from William Lane Craig",
+     "video_id": "6ciuJeb1Cm0"
+    },
+    {
+     "confidence": 0.5,
+     "context": "It would still be something God would work together for good, and you might go, how can this be working together for good? And go, I don't have to know of the how. I know he is, it's a promise from God, and I trust it. I also know this that the sufferings of this present time are not worthy to be compared to the glory that will be revealed in us. Also, Romans 8. Read Romans 8. Read Romans 8 for these anxieties. The sufferings that we're currently in, they they don't even compare to actually that's was it first Corinthians?",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-10-10T21:34:17Z",
+     "role": "host",
+     "t": 3794.76,
+     "title": "Breaking news on the Rapture Cult: 10 Qs with Mike Winger (Ep 63)",
+     "video_id": "D6qmHuBVA5I"
+    }
+   ],
+   "creators": {
+    "drcraigvideos": 1,
+    "mike-winger": 1
+   },
+   "n": 2,
+   "text": {
+    "KJV": "For I reckon that the sufferings of this present time are not worthy to be compared with the glory which shall be revealed in us.",
+    "WEB": "For I consider that the sufferings of this present time are not worthy to be compared with the glory which will be revealed toward us."
+   },
+   "truncated": false
+  },
+  "Romans 8:2": {
+   "citations": [
+    {
+     "confidence": 0.8264,
+     "context": "And so he died, and um, and my world kind of shattered for a moment. Uh, partly because we had we were in this series when he died about healing. Yeah, I think it was called like the law of life in Christ Jesus, the law of liberty of life in Christ Jesus. He had the longest sermon series ever. But and in this series, that's all he was doing was walking around talking and then healing people, and then in the middle of the series, he dies, and nobody in the church tried to raise him up from the dead, and that was just like wait a minute.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-09-08T19:19:30Z",
+     "role": "host",
+     "t": 5423.72,
+     "title": "X-Pastor Couples Tell All // Sunday Sessions",
+     "video_id": "5-F2-LIJqqw"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For the law of the Spirit of life in Christ Jesus hath made me free from the law of sin and death.",
+    "WEB": "For the law of the Spirit of life in Christ Jesus made me free from the law of sin and of death."
+   },
+   "truncated": false
+  },
+  "Romans 8:27": {
+   "citations": [
+    {
+     "confidence": 0.8003,
+     "context": "No, this is just man, you know, it's just sin getting in the way. It's it's people who have turned their heart against God. But we see here, and in a few other places, like with the story of Job, this heavenly council setting. Imagine this is what is on the heart of the supreme Lord creator of all goodness and all things, the one you worship and believe is your guiding spirit best friend, the one that wants good gifts for you. How does he spend his time?",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-07-05T14:00:16Z",
+     "role": "host",
+     "t": 1004.52,
+     "title": "God’s Favorite Weapon Is Confusion",
+     "video_id": "1mQN3dAT0KA"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And he that searcheth the hearts knoweth what is the mind of the Spirit, because he maketh intercession for the saints according to the will of God.",
+    "WEB": "He who searches the hearts knows what is on the Spirit’s mind, because he makes intercession for the saints according to God."
+   },
+   "truncated": false
+  },
   "Romans 8:28": {
    "citations": [
+    {
+     "confidence": 0.8287,
+     "context": "For those who want nothing to do with God, His presence everywhere should be a cause of great concern. But for those who love God, it's a source of great encouragement, confidence, and hope. No matter where we are, none of us is ever alone. The psalmist was keenly aware of this when he wrote: Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-07-10T13:50:22Z",
+     "role": "host",
+     "t": 456.0,
+     "title": "God Is Omnipresent",
+     "video_id": "640GWmcbgLw"
+    },
+    {
+     "confidence": 0.9345,
+     "context": "There has to be difficulty. There has to be pushback, there have to be problems in this life in order to mold you into what Jesus wants to mold you into. In fact, the famous passage in Romans 8, people stop reading, but it starts this way. It says, we know that all things work together for good to those that love God and are called according to his purpose. Now it doesn't say all things are good, work together for good. But then it goes on to say, in order to be conformed to the image of his son, God allows certain evils so we can be conformed to the image of his son.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-06-03T01:00:06Z",
+     "role": "host",
+     "t": 2513.24,
+     "title": "Be Worthy of the Bullet That Charlie Kirk Took For You — Why Independence Day? w/Steve Deace + Q&A",
+     "video_id": "6XDtTJMRYmA"
+    },
+    {
+     "confidence": 0.7787,
+     "context": "But leaving theology, it didn't make the world meaningless for me, it made the world more readable for me. Uh, when theology stopped working, the world didn't become random, the world was random before then, you know, it was this random duality where everything is either for you or against you in a world where also everything is somehow working for your good because you love the right person and are called according to their purposes.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-06-17T19:27:04Z",
+     "role": "host",
+     "t": 3425.04,
+     "title": "How Sociology Destroyed My Theology",
+     "video_id": "6idHGk8UpZU"
+    },
     {
      "confidence": null,
      "context": "It is the Holy Spirit who sanctifies them for obedience to Jesus Christ. So, returning now to Romans 8:28, even if it is true that God looks into the future and sees people's faith in Christ and predestines them on that basis, still this faith is not itself a human work.",
@@ -4734,10 +6802,12 @@
     }
    ],
    "creators": {
-    "cross-examined": 1,
+    "cross-examined": 2,
+    "darante-lamar": 1,
+    "drcraigvideos": 1,
     "reasonable-faith-org": 1
    },
-   "n": 2,
+   "n": 5,
    "text": {
     "KJV": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose.",
     "WEB": "We know that all things work together for good for those who love God, for those who are called according to his purpose."
@@ -4768,6 +6838,18 @@
   },
   "Romans 8:29": {
    "citations": [
+    {
+     "confidence": 0.8408,
+     "context": "In fact, the famous passage in Romans 8, people stop reading, but it starts this way. It says, we know that all things work together for good to those that love God and are called according to his purpose. Now it doesn't say all things are good, work together for good. But then it goes on to say, in order to be conformed to the image of his son, God allows certain evils so we can be conformed to the image of his son. That's one reason that God allows certain evils. In fact, Jesus himself, it says in the book of Hebrews, it says he learned suffering through obedience.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-06-03T01:00:06Z",
+     "role": "host",
+     "t": 2521.56,
+     "title": "Be Worthy of the Bullet That Charlie Kirk Took For You — Why Independence Day? w/Steve Deace + Q&A",
+     "video_id": "6XDtTJMRYmA"
+    },
     {
      "confidence": 0.7727,
      "context": "Here, Paul says, We know that in everything God works for good with those who love him, who are called according to his purpose. For those whom he foreknew, he also predestined to be conformed to the image of his son, in order that he might be the firstborn among many brethren. And those whom he predestined, he also called.",
@@ -4806,9 +6888,10 @@
     }
    ],
    "creators": {
+    "cross-examined": 1,
     "reasonable-faith-org": 3
    },
-   "n": 3,
+   "n": 4,
    "text": {
     "KJV": "For whom he did foreknow, he also did predestinate to be conformed to the image of his Son, that he might be the firstborn among many brethren.",
     "WEB": "For whom he foreknew, he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers."
@@ -4837,6 +6920,56 @@
    "text": {},
    "truncated": false
   },
+  "Romans 8:32": {
+   "citations": [
+    {
+     "confidence": 0.8457,
+     "context": "So maybe that's what he's trying to allude to here. But once in incarnate form, he obviously wanted a way out. So you have inconsistencies you would need to deal with first before you try to use that as an argument. But more verses. Romans 8 32, he who did not spare his own son, but gave him up for us all. Again, putting the onus on God the Father. And first John 4 9 through 10, God sent his only son into the world so that we might live through him. In this is love. Not that we loved God, but that he loved us and sent his son to be the atoning sacrifice for our sins.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-09-02T14:00:09Z",
+     "role": "host",
+     "t": 576.84,
+     "title": "The Strawman Defense: Christianity’s Escape Hatch",
+     "video_id": "6L5mULjqi_8"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "He that spared not his own Son, but delivered him up for us all, how shall he not with him also freely give us all things?",
+    "WEB": "He who didn’t spare his own Son, but delivered him up for us all, how would he not also with him freely give us all things?"
+   },
+   "truncated": false
+  },
+  "Romans 8:33": {
+   "citations": [
+    {
+     "confidence": 0.811,
+     "context": "For example, Romans chapter 8 and verse 1 says, there is therefore now no condemnation for those who are in Christ Jesus. In Romans 8, 33 and 34, Paul says, it is God who justifies. Who is to condemn? Do you see the polar opposites there? God is the one who justifies who is there to condemn.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-15T16:50:49Z",
+     "role": "host",
+     "t": 146.76,
+     "title": "// Defenders LIVE! //",
+     "video_id": "6ADxnBJwOU4"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Who shall lay any thing to the charge of God's elect? It is God that justifieth.",
+    "WEB": "Who could bring a charge against God’s chosen ones? It is God who justifies."
+   },
+   "truncated": false
+  },
   "Romans 8:33-39": {
    "citations": [
     {
@@ -4862,6 +6995,18 @@
   "Romans 8:35": {
    "citations": [
     {
+     "confidence": 0.8779,
+     "context": "Because Paul lays out that first we're condemned, and then he says, here's how we're justified, and here's how we're sanctified, and here's how we're glorified. And the peak of the entire Bible might be Romans chapter 8. Who will separate us from the from the love of God? Shoulder nakedness nor sword nor nor famine. He goes on and on, and he says, No, nothing's gonna separate us from the love of Christ. And then he starts talking about Israel's past in chapter 9 and Israel's present in chapter 10, and Israel's future in chapter 11.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-02-25T02:16:36Z",
+     "role": "host",
+     "t": 6139.84,
+     "title": "'Change My Mind' LIVE Q&A Northern Michigan Univ. (Marquette, MI)",
+     "video_id": "-7cAMVvoO1I"
+    },
+    {
      "confidence": 1.0,
      "context": "It is God who justifies. Who is to condemn? Is it Christ Jesus who died? Yes, who is raised from the dead, who is at the right hand of God, who indeed intercedes for us? Who shall separate us from the love of Christ? Shall tribulation or distress or persecution or famine or nakedness or peril or sword? As it is written, for thy sake, we are being killed all the day long.",
      "creator": "reasonable-faith-org",
@@ -4875,9 +7020,10 @@
     }
    ],
    "creators": {
+    "cross-examined": 1,
     "reasonable-faith-org": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Who shall separate us from the love of Christ? shall tribulation, or distress, or persecution, or famine, or nakedness, or peril, or sword?",
     "WEB": "Who shall separate us from the love of Christ? Could oppression, or anguish, or persecution, or famine, or nakedness, or peril, or sword?"
@@ -4992,6 +7138,44 @@
    },
    "n": 1,
    "text": {},
+   "truncated": false
+  },
+  "Romans 8:39": {
+   "citations": [
+    {
+     "confidence": 0.8348,
+     "context": "Because Paul lays out that first we're condemned, and then he says, here's how we're justified, and here's how we're sanctified, and here's how we're glorified. And the peak of the entire Bible might be Romans chapter 8. Who will separate us from the from the love of God? Shoulder nakedness nor sword nor nor famine. He goes on and on, and he says, No, nothing's gonna separate us from the love of Christ. And then he starts talking about Israel's past in chapter 9 and Israel's present in chapter 10, and Israel's future in chapter 11.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-02-25T02:16:36Z",
+     "role": "host",
+     "t": 6139.84,
+     "title": "'Change My Mind' LIVE Q&A Northern Michigan Univ. (Marquette, MI)",
+     "video_id": "-7cAMVvoO1I"
+    },
+    {
+     "confidence": 0.8042,
+     "context": "Thus one ought to ask in light of this: is there no hope for us? Are we dead in our trespasses? But we all know Paul goes on to say, of course not. For all those who have been baptized into Christ Jesus have been raised in newness of life, and by the power of this life, nothing can separate us from the love of God, as Paul states in Romans 8.35. What all of Romans then suggests to me is that, like in the book of Jonah, God's wrath has an aim to bring about repentance.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-01-24T17:01:40Z",
+     "role": "unknown",
+     "t": 1745.6,
+     "title": "Atonement and the Death of Christ: A Symposium | EPS 2024",
+     "video_id": "7CIAx9j-Aow"
+    }
+   ],
+   "creators": {
+    "cross-examined": 1,
+    "reasonable-faith-org": 1
+   },
+   "n": 2,
+   "text": {
+    "KJV": "Nor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord.",
+    "WEB": "nor height, nor depth, nor any other created thing will be able to separate us from God’s love which is in Christ Jesus our Lord."
+   },
    "truncated": false
   },
   "Romans 8:4": {
@@ -5283,6 +7467,57 @@
    "text": {
     "KJV": "That I have great heaviness and continual sorrow in my heart.",
     "WEB": "that I have great sorrow and unceasing pain in my heart."
+   },
+   "truncated": false
+  },
+  "Romans 9:20": {
+   "citations": [
+    {
+     "confidence": 0.7767,
+     "context": "So please just know for the future. If all you can type is Jesus is king, the Bible is true, Christ died for your sins. You better change your mind before it's too late. God's ways are mysterious. Who are you to question God? Just know that they are not answers and that they only show the weakness of your position. As someone who was once really in the middle, really looking to anywhere that I could get any kind of confidence or confirmation that the religion I had always believed in and had benefited my life was true and saw these same kind of things, I promise you they only hurt the people you might even be trying to help.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-01-01T15:00:04Z",
+     "role": "host",
+     "t": 1062.2,
+     "title": "Why Many Christians Refuse to Actually Engage",
+     "video_id": "1W7kDj2NSEc"
+    },
+    {
+     "confidence": 0.785,
+     "context": "I invite pastors on and we talk about stuff like this. And in a lot of times when we we we discuss morality, and I I'll point out that I'll point out how God is immoral for flooding the entire earth, right? And he'll say, he'll say something like, Well, who are you to this? Who are you to say what God should and shouldn't do? And I'll just point out like I I'm not saying what God should or shouldn't do, I'm just saying it's immoral. Or I'll say, you know, so I'm not saying God ought to be moral.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-02-03T02:10:27Z",
+     "role": "unknown",
+     "t": 5397.24,
+     "title": "How Do You Love Without God // The X-Pastor Call-In Show 2.2",
+     "video_id": "2eDzf_GxHiY"
+    },
+    {
+     "confidence": 0.7773,
+     "context": "I'm just assuming there's a creator, but they we can't really know what that creator thinks or wants. Hmm. Okay. So uh for example, if you made something, John, and someone asked you why did you make it, you'd have to have a reason, wouldn't you? Well, the same way we believe our creator has made us for a reason. Do you know what that reason is to tell us the reason?",
+     "creator": "apostate-aladdin",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-10-23T21:18:24Z",
+     "role": "host",
+     "t": 685.36,
+     "title": "SLEAZY Tactics to Convert You to Islam",
+     "video_id": "2sORG8GpE5o"
+    }
+   ],
+   "creators": {
+    "apostate-aladdin": 1,
+    "darante-lamar": 1,
+    "mindshift": 1
+   },
+   "n": 3,
+   "text": {
+    "KJV": "Nay but, O man, who art thou that repliest against God? Shall the thing formed say to him that formed it, Why hast thou made me thus?",
+    "WEB": "But indeed, O man, who are you to reply against God? Will the thing formed ask him who formed it, “Why did you make me like this?”"
    },
    "truncated": false
   },

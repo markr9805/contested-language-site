@@ -5,7 +5,7 @@
     "cite_key": "22b9dee31fe9e85ca76ed16271d44d3600ea014696c2a7fdbfb9bce1bf60b5ba",
     "context": "And you know, one of my favorite scriptures used to be I can do all things through Christ, which strengthens me. And now I realize that Christ was never strengthening me. And the proof is that I could do I can do more now, I can do more today than I was ever able to do when I was a believer.",
     "creator": "darante-lamar",
-    "dist": 0.3429,
+    "dist": 0.3514,
     "published_at": "2024-06-26T13:51:12Z",
     "role": "host",
     "t": 32.88,
@@ -17,7 +17,7 @@
     "cite_key": "aaa7917705d85cdcb6efbdfdbd098b44d95730159153ee5912a16ed630e3ccd6",
     "context": "I know in all things I have learned both to be full and to be hungry, how to be abased and to abound, how to abound and to suffer need. Then he says, I can do all things through Christ. This is a this is actually a financial provision passage that I have learned. He says it's a skill. I've learned that in whatever state I'm in, whether I have a lot or a little bit, I've grown this skill of being able to steward what I have, handle it if it's low, handle if it and I know a lot of us have been burned by um by what we've come to label prosperity gospel, and we heard the preacher on TV say money cometh.",
     "creator": "jude-3-project",
-    "dist": 0.3711,
+    "dist": 0.3787,
     "published_at": "2025-12-09T14:28:41Z",
     "role": "unknown",
     "t": 1944.16,
@@ -29,7 +29,7 @@
     "cite_key": "420e4eaf52ae35198c62a2b9ffe89dd2320bbcea5d654d7f3b4fe287e8ff19c4",
     "context": "That's so good. Since we're looking at addresses, I um hopefully I don't mess up anybody's favorite verse, but um we we commit to memory, Philippians 4 13. Uh-huh. I can do all things through Christ who strengthens me. And we often use that scripture um in a superman kind of a context. Like I can leap tall buildings in a single bound through Christ who strengthens me. Um, when in reality, the context of that verse, if you pick up at verse 11, it says, not that I speak in regard to need, for I have learned in whatever state I am to be content.",
     "creator": "jude-3-project",
-    "dist": 0.386,
+    "dist": 0.3922,
     "published_at": "2025-12-09T14:28:41Z",
     "role": "unknown",
     "t": 1910.8,
@@ -41,7 +41,7 @@
     "cite_key": "fd9745c093ad538563cb65fe4920ce5f3b415fa2b84fde91cd8fb60983f4f781",
     "context": "Man, to this day, I I want to I want to snatch that out of everyone's mouth. Yes. Well, you know, it became a thing to me that that I no longer need God to do anything. You know, like there used to be this saying that I can do all things through Christ with strength and that was my favorite scripture. You you mentioned earlier. Yes, Philippians 4 13. That was mine. Man, you know what I finally realized? I don't want to do all things.",
     "creator": "darante-lamar",
-    "dist": 0.4075,
+    "dist": 0.3983,
     "published_at": "2024-11-04T01:14:24Z",
     "role": "host",
     "t": 6962.32,
@@ -53,7 +53,7 @@
     "cite_key": "fd1c4bd88cf312c556d3d54e01fa10fd9ea64cf576f04f95e5b25a61424b5f47",
     "context": "I thought. Because as a Christian, I believe greater is he that is in me than he that is in the world. As a Christian, I believe that I could do all things through Christ who strengthens me. You know, uh there's there's another one uh uh you know, you know, I believe that he's able to do exceeding automatically went back to reinvestigate it and said, no, that's not what you believe about you.",
     "creator": "darante-lamar",
-    "dist": 0.4208,
+    "dist": 0.4294,
     "published_at": "2025-03-03T13:00:10Z",
     "role": "unknown",
     "t": 5104.56,
@@ -88,6 +88,14 @@
      "n": 6,
      "status": "insufficient-data"
     },
+    "jackie-hill-perry": {
+     "counts": [
+      1,
+      0
+     ],
+     "n": 1,
+     "status": "insufficient-data"
+    },
     "jude-3-project": {
      "counts": [
       3,
@@ -119,14 +127,14 @@
    "cells": {
     "overall": {
      "counts": [
-      10,
+      11,
       1
      ],
      "dist": [
-      0.9091,
-      0.0909
+      0.9167,
+      0.0833
      ],
-     "n": 11,
+     "n": 12,
      "status": "ok"
     }
    },
@@ -144,10 +152,10 @@
     },
     "unknown": {
      "counts": [
-      4,
+      5,
       0
      ],
-     "n": 4,
+     "n": 5,
      "status": "insufficient-data"
     }
    },
@@ -165,10 +173,10 @@
     },
     "2025": {
      "counts": [
-      6,
+      7,
       0
      ],
-     "n": 6,
+     "n": 7,
      "status": "insufficient-data"
     },
     "2026": {
@@ -184,8 +192,8 @@
   }
  },
  "k": 2,
- "n": 11,
- "silhouette": 0.1337,
+ "n": 12,
+ "silhouette": 0.1172,
  "status": "ok",
  "verse_ref": "Philippians 4:13"
 }
