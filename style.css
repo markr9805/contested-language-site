@@ -264,8 +264,13 @@ button.stat-tile:hover { border-color: var(--series-1); }
    does not clear its bar", not a new one per view. --caution is declared in all
    three palette blocks, so it adapts to the theme toggle and to the no-JS
    prefers-color-scheme fallback. */
+/* --text-secondary, not --text-muted: muted measures 3.08:1 (light) and
+   4.45:1 (dark) against --surface-2 at 11px, both below WCAG AA's 4.5 for
+   normal text. This element carries the validity caveats DESIGN §3 requires to
+   sit WITH the number, so it was the least readable text on the page and the
+   one that most needed reading. --text-secondary is 6.36:1 / 9.23:1. */
 .caveat { margin: 8px 0 0; padding: 8px 10px; font-size: 11px; line-height: 1.6;
-          color: var(--text-muted); border-left: 2px solid var(--caution);
+          color: var(--text-secondary); border-left: 2px solid var(--caution);
           background: var(--surface-2); border-radius: 0 4px 4px 0; }
 
 /* ---- tables -------------------------------------------------------------------- */

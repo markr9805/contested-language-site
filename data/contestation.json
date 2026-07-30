@@ -1,10 +1,10 @@
 {
   "meta": {
-    "caveat": "DISCLOSED, NOT CERTIFIED (spec \u00a74.3, \u00a710.7): sides run off seed affinities;\nthe deconstruction side is Darante-dominated, so candidates are contested\nbetween Darante and the apologetics ensemble -- NOT two full communities.\nThis report PROPOSES into the watchlist; promotion into lexicon.json is the\nauthor's to make (\u00a77, \u00a78). It never edits the lexicon or extraction scope.",
+    "caveat": "DISCLOSED, NOT CERTIFIED (spec \u00a74.3, \u00a710.7): sides run off seed affinities;\nthe deconstruction side is Darante-dominated, so candidates are contested\nbetween Darante and the apologetics ensemble -- NOT two full communities.\nThis report PROPOSES into the watchlist; promotion into lexicon.json is the\nauthor's to make (\u00a77, \u00a78). It never edits the lexicon or extraction scope.\n\nTHE BAR IS NOT SPECIFIC (measured 2026-07-29, two independent runs):\n65-75% of arbitrary words of comparable frequency clear the same bar, and\nsynthetic profiles carrying no information about the word -- only which\ncreator used it and how often -- clear it at 88%. False-positive rate RISES\nwith occurrence mass (49% below 600 occurrences, 84% at 4,000-10,000), and\nthe pinned terms sit in the 1,800-18,500 band. Clearing the bar is\nNECESSARY, NOT SUFFICIENT: it detects side-linked structure, much of which\nis topic and creator rather than contested meaning. Full measurements and\nthe candidate remedies in docs/research/2026-07-29-bar-specificity-*.md;\nno remedy is adopted yet, so every verdict here rests on the bar as it is.",
     "model": "openai:mlx-community/gpt-oss-20b-MXFP4-Q8:v2",
     "ranking_version": "concept-floor-v1",
-    "corpus_host_words": 16140140,
-    "generated_at": "2026-07-30T01:59:15Z"
+    "corpus_host_words": 16286816,
+    "generated_at": "2026-07-30T03:22:57Z"
   },
   "terms": [
     {
@@ -47,12 +47,12 @@
         "text": "The apologetics lines frame accountability as a positive, supportive practice for spiritual growth and mutual responsibility within the church community.",
         "quotes": [
           {
-            "context": "You know what I'm saying? And I just heard my text message go off, so I'm gonna go ahead and do the smart thing and put that bad boy on vibrate. And so I did that. All right. So before we jump in, make sure to like the video, subscribe to the channel, hit that alert notification bell. Consider joining our community either on Discord, Patreon, through the YouTube membership program, um, and check out our merch. And I will just hit there for those of you who are looking for ways to financially support merch, Patreon and YouTube are the easiest ways to support merch because you're actually getting something back, and then Patreon and YouTube because you can actually do micro donations.",
-            "creator": "darante-lamar"
+            "context": "I really have always been a curious person. I'm I'm an avid reader, I read about a book a week. You know, I I love to read, I love to learn, I love to know. I want to know things as much as we we can know. There are clearly a lot of unknowns, but if there's something that we can know, I want to know it. And that's what led me away. So I didn't jump out of being a cult leader in a religion to say, hey, I'm gonna jump out now be a cult leader for non-religion.",
+            "creator": "apostate-aladdin"
           },
           {
-            "context": "If we're rejecting God, if we're committing the unpardonable sin, that's a version of hell too. So I don't remember saying that. Well, well, you what you had said, well, you didn't say it in so many words, but you were saying, you know, hell hell is hell if you're not accepting the truth that you know, right? That's what that's what you believe. This also brings up an ontology issue, okay?",
-            "creator": "cross-examined"
+            "context": "But he died for your sins. And if you just love him and do whatever the fuck he asks you to do, then you technically won't be a fuck up anymore because he'll be the one keeping you from fucking up. All of this is horrible and robs people of their own fucking capacity, and not just of their own capacity.",
+            "creator": "darante-lamar"
           }
         ]
       },
@@ -60,12 +60,12 @@
         "text": "The deconstruction lines critique accountability as a tool that can be misused for control, highlight its absence in certain contexts, and question its effectiveness in fostering genuine responsibility.",
         "quotes": [
           {
-            "context": "The constant drum beat of all families are equal. Love makes a family. Moms and dads, you know, kids don't need moms and dads, they just need caregivers. You know who that is the worst thing for? Kids with two mothers and two fathers. That is the worst for them. Actually, any child that's lost their mother and father, when they hear love makes a family and kids don't need moms and dads, here is the problem.",
-            "creator": "cross-examined"
+            "context": "Today, we're gonna be having a little bit of conversation on my quick thoughts on salvation. This is gonna be interesting. Before we jump into this, go ahead and make sure to like the video, subscribe to the channel, hit that alert notification bell. Consider joining our community either on Patreon or through the YouTube membership program, or we're also on Discord. And also check out our merch. We have some pretty dope merch. And if you're interested in volunteering, hold at your boy. We have forms everywhere. Find one and fill it out.",
+            "creator": "darante-lamar"
           },
           {
-            "context": "And so um yes, it's important, yeah. Yep yep absolutely. And again, uh I think as people are deconstructing, deconverting, they're looking for new um third places which which which does empower the workplace to kind of meet that need and and smart companies do that and forget for kind of revealing the the the the method behind the madness but smart companies will do that for several reasons one of the reasons is to create a healthier work environment and so they'll they'll capitalize on those people who are being either religiously or culturally ostracized and and create third spaces for those people to feel stronger at work yeah yeah it's so that's good because we don't have to look at it as um having three different communities finding a way to intertwine and intermingle right each of those yeah it's it's it's uh it's it's it should definitely be diversity of spaces when when you're dealing with the idea oh yeah um welcome yeah oh yes absolutely and that's actually gonna be one of the um one of the points that we in this conversation um so so now that we've kind of established this background for the importance of community in this idea of a third place we've set aside this time today to discuss making space make sense with this in mind so I want to start with digital presence right uh which is how we're able to engage with our growing community now it's digital presence we um almost everybody that's a part of this little thing, community experience.",
-            "creator": "darante-lamar"
+            "context": "What about the people that he stoned that didn't get a say that got done wrong by him? Where does their, I guess you would say their justice come in? Because nobody deserves heaven, nobody. It's all grace. The justice fell on Jesus, not on Paul, not on me, not on you, not on anyone. That's the beauty of the gospel. That's one of the reasons that Elisa just said she found it beautiful.",
+            "creator": "cross-examined"
           }
         ]
       }
@@ -118,11 +118,11 @@
         "text": "Apologetics lines use \"community\" to refer to religious or faith\u2011based groups, emphasizing belonging and spiritual identity.",
         "quotes": [
           {
-            "context": "If you want to spend your money on junk, that's you. You know what I'm saying? That is your right. You know what I'm saying? If you want to spend all your money at McDonald's, that is your right. If you want to spend all your money at the church, that is your right. My problem is the danger that the ideologies that these people share, that these poor and uneducated believe is the truth because they believe this person is actually intellectual. They believe this person is actually chosen by God and that God has trumped all human knowledge in this person.",
+            "context": "And I I remember I remember reading that stuff earlier, thinking, like, what in the world is happening here? Uh but Solomon people tend to have a love-hate relationship with Solomon in the same way they do with Joseph. Um they they they both seem to suffer the same sin of diversity. Yeah, yeah. Oh, only Solomon took his diversity to extremes.",
             "creator": "darante-lamar"
           },
           {
-            "context": "Let me click the right thing. There we go. No timer. No time. It's still gonna do the time. Here we are. They always changing stuff. You know, always, man. Where are you now in your deconstruction journey? How did you get here? What has it cost you, and what has it given you? Oh, yeah. Oh, that's a loaded question. Okay. And I'm glad you put it on the screens. I promise you, I already knew.",
+            "context": "Apologetics and academic theology are often treated as though they are essential to Christianity, but in functional Christianity, they're usually peripheral. The average believer is not living inside of arguments. They're living inside experiences, identities, relationships, habits, symbols, and communities. In other words, functional Christianity doesn't need to be coherent to be compelling. But now let's talk about why apologetics don't actually have a real home in functional Christianity.",
             "creator": "darante-lamar"
           }
         ]
@@ -131,12 +131,12 @@
         "text": "Deconstruction lines use \"community\" to refer to secular or social groups, often highlighting political, cultural, or identity\u2011based affiliations.",
         "quotes": [
           {
-            "context": "Good. Now it's called the Greater Than Campaign. Where do people go to learn about it and to join it if they want to? And by the way, there are people that have gotten behind this. I certainly have, because it's it's the truth. That's why, because it's the truth, and it's a moral imperative that children should have by law, a mother and a father, and equating any other relationship to that is just false. That's right. It's just, it's not true.",
-            "creator": "cross-examined"
+            "context": "By continually assigning the church a role it has not earned, we failed to develop new institutions capable of addressing the real economic, psychological, and civic needs of black people in the 21st century. Younger generations who are increasingly non religious and looking for secular spaces of belonging are left without meaningful community structures because so much energy is still funneled into maintaining the illusion of the church's centrality.",
+            "creator": "darante-lamar"
           },
           {
-            "context": "And I I I say that because I think Darante' and me, some of the questions you had ready for me today. Um make sense of this because we we don't want a community that's trying to harm people at all. Yes, but but I do want to say this that when we did not vocalize or agree with all of the doctrines we found within the community that were once in, we became the enemy. Yeah. And I can tell you, what did that do for you?",
-            "creator": "darante-lamar"
+            "context": "And to me, what you said earlier, I think like the Exodus is a similar example. Like if you asked uh Egyptologists and other critical scholars, what are they going to say about the Exodus? I think even someone like Hoffmeier, who has a excellent work or Kitchen, excellent work on the Exodus, would never say, Oh, yeah, we can prove the Exodus from archaeological evidence alone. It's a high bar. They're not going to be able to do that. But they would say it's consistent, and they might say, look, we look at the facts of history during this period in you know 14th century BC Egypt and later on Israeli Israel Israelite history, it's just the Exodus, its origins are unclear, but the Bible makes clear its origins in this happening.",
+            "creator": "counsel-of-trent"
           }
         ]
       }
@@ -181,24 +181,24 @@
         "text": "They frame \u2018deconstruction\u2019 as a negative, problematic process of questioning faith that should be avoided or replaced by construction.",
         "quotes": [
           {
-            "context": "Likewise, I'm not sad when violent migrants like Venezuelan gangs that take over suburban apartment complexes are rightfully deported. The Pope even said in his letter to the bishops, quote, one must recognize the right of a nation to defend itself and keep communities safe from those who have committed violent or serious crimes while in the country or prior to arrival. But I do mourn when innocent civilians are killed as an indirect part of war.",
-            "creator": "counsel-of-trent"
+            "context": "That was another point I wanted to mention about Abdullah. He may be an antichrist, he's just not the antichrist. Um, therefore we know it is the last hour. They went out from us, so these antichrists were originally part of the Christian community. Um they went out from us, but they were not of us. For if they had been of us, they would have continued with us, but they went out that it might become plain that they are not that they all are not of us.",
+            "creator": "capturing-christianity"
           },
           {
-            "context": "Conscience becomes suspect, obedience becomes safety, and this is how harm gets outsourced. So it's I didn't make up the rules, I just follow the rules. I didn't decide this, I just followed what I was taught. Supremacy loves obedience systems because obedience removes friction, which leaves us to authority over accountability. Christian supremacy structures are top-down by design. There is God, then there are God's leaders, and then there are the followers of those leaders.",
+            "context": "So doing our best requires exploring our best. And that's something that no one else can answer for but ourselves. Uh, but we can have, but we have to do the work and do it right first before even hoping to understand uh what it means to be our best in any country. You'll never know what it means to do your best as a basketball player if you don't spend time doing the drills and doing them right.",
             "creator": "darante-lamar"
           },
           {
-            "context": "The purpose of life is to know God through Jesus, and then when you add the Great Commission in there to make this truth known. The purpose of life is to know God and to make him known.",
-            "creator": "cross-examined"
-          },
-          {
-            "context": "Uh but um, and the primary focus at that level is establishing those physical spaces and building a sustainable uh economic uh ecosystem um that is globally affiliated. Um the goals would be opening community centers in key cities uh funded through a combination of revenue and cooperative fundraising, design spaces for multi-purpose use for hosting workshops, small business pop-ups, performances, child care.",
+            "context": "See, see, that's so good. Because that fits not just with our religious deconstruction. That fits again. It's no good to recognize the harm in religion if we can't recognize it in our other relationships. And that's just the perfect way to say that. That cultural authority is focused on the youth. Absolutely. The peer pressure is strong.",
             "creator": "darante-lamar"
           },
           {
-            "context": "No, look, no, you've already told me that you don't know what the fuck evidence is. Or at the very least, you're willing to fluff evidence to support your outlandish willingness to accept delusion. Best way I can say that. All right. So, yes, I had to start criticizing my own beliefs.",
+            "context": "If you don't know, like, mm-mm, I'm not informed to speak on this. This is this is not something I just speak on it. And and the fact that you have an opinion about it says more about what you hate about yourself than it says anything else. You know what I'm saying? No, no, I'm I'm gonna tell the truth and shame the fucking devil. No, I remember how many women in the church world would be all upset about other young ladies who was out there getting a swerve on, and finally it occurred to me, your old ass is jealous.",
             "creator": "darante-lamar"
+          },
+          {
+            "context": "Um, so I would recommend his work and the work of others, uh like Alfred North Whitehead, who were kind of the pioneers in this more science-friendly modern version of God. It didn't end up holding up for me in the end, uh, but fabulous community, amazing people, pretty pretty good theology, like really well thought-out theology. Uh, so you might want to check him out. His name is Thomas J. Ord.",
+            "creator": "britt-hartley"
           }
         ]
       },
@@ -206,24 +206,24 @@
         "text": "They describe \u2018deconstruction\u2019 as a personal, reflective process of breaking down and analyzing faith, often as a journey toward new understanding.",
         "quotes": [
           {
-            "context": "You know what I am? I'm a dog chasing cars. I wouldn't know what to do with one if I caught it. You know, I just do things. And he, you know, famously says, when the chips are down, these civilized people will eat each other. So for the Joker, survival just isn't about physical dominance, but also about mental and philosophical superiority, because he's proving to the world that life is meaningless and rules are a joke and morality is a joke, and that is the only ultimate truth, is just to spread chaos and wake up people to this fact.",
-            "creator": "britt-hartley"
-          },
-          {
-            "context": "So you might want to say to them something like this. What do you mean by that, these additional books? And what evidence do you have that those books should be in the Bible? Because it's not your job to say they shouldn't, it's his job to say they should. So what evidence do you have they should be in the Bible? And see what he says. Because what he probably doesn't know is those books were not written by Peter, Judas, Mary Magdalene, Thomas. Those books were written a hundred years after those people had died.",
+            "context": "Why is he criticizing you? Because I know. You know, but by his logic, you're just, you're loving by doing what you want. Yeah. Which is to write this book. Yeah, that's right. Yeah. And he also charged me with not following the uh the love commandment, uh, the second greatest commandment, Leviticus 19, 18. But of course, I I had to point out to him that uh he did not see a difference between that love commandment and special commandments having to do with sex, sexual ethics.",
             "creator": "cross-examined"
           },
           {
-            "context": "So, what is the probability of the evidence given the miracle and the background information compared to the probability of the evidence given the falsehood of the miracle and our background information? And Hume doesn't even consider that ratio because the probability calculus had not been developed when he wrote.",
-            "creator": "reasonable-faith-org"
+            "context": "Yeah, yeah. Like and also love means that somebody needed to die so that you could deserve it. Like all of that creates this idea of what love is that I think can make people less loving, but really believe that they are loving, because to them, love is saving people from almost definite destruction from the person who loves you and them the most.",
+            "creator": "shannon-q"
           },
           {
-            "context": "But why are these the four questions? Does truth exist? Does God exist? Are miracles possible? Or is the New Testament telling us the truth? Well, the first question, does truth exist? Why is that important? Because you hear people in our postmodern culture there is no truth. Or you got your truth, I got my truth, or all truth is relative. Ladies and gentlemen, if there is no truth, no objective truth, then Christianity can't be true. Of course, if there is no truth, atheism can't be true either. Now, of course, ladies and gentlemen, of course, there's truth.",
-            "creator": "cross-examined"
+            "context": "But it fing pisses me the hell off when broadcasts like this encourage parents to present this to developing children as an example of rational thinking. And so philosophers have grappled with this for hundreds, thousands of years, probably, and that's something that ultimately we can't say exactly why. We can't we don't have the mind of God, but we can come to these intellectually satisfying answers of saying, I don't have every possible answer, but I can say that God wants us to freely love him. In other words, I don't have every answer, but also here's an assertion about something I don't really know.",
+            "creator": "prophet-of-zod"
           },
           {
-            "context": "Exactly. We make no prescriptions. We have no doctrines. We're not even a we. So you really expect a positive side of that? A proposition. I'm not even pro-atheist. I'm pro-truth. And one aspect of accordance with reality, best that we can tell is that particular God concepts that have been claimed have also been falsified, and so I won't believe them. Thus, atheism, but not because I believe in atheism, but because I care about truth, and that seems to be the truth.",
-            "creator": "mindshift"
+            "context": "And if you're ready to be a part of something like that, we'd love to have you a part of this community. We'd love to have you helping out with what we do. We'd love to have you investing and supporting. We love to have you promoting events. We love to have you leading events. You could be here leading a group, helping somebody deal with maybe, maybe you've dealt with divorce, maybe you dealt with losing a child, maybe you dealt with losing your family after religion. Maybe you've dealt with things that you have some experience and some expertise in, and somebody else can be can benefit from your story.",
+            "creator": "darante-lamar"
+          },
+          {
+            "context": "Accountability disappears upward because leaders act as enforcers of divine threat rather than ethical stewards. Power is insulated, not examined. This structure also protects authority from critique. If suffering follows disobedience, then questioning leadership can always be refrained as the cause of harm. Violence, exclusion, execution, and loss are not failures of governance, they're proof that someone broke the rules.",
+            "creator": "darante-lamar"
           }
         ]
       }
@@ -268,24 +268,24 @@
         "text": "Apologetics uses \"do the work\" to refer to religious ministry, evangelism, and spiritual transformation, encouraging active participation in faith\u2011based activities.",
         "quotes": [
           {
-            "context": "You ought to you owe it to yourself to go check it out. And then also go check out our merch too. It's it's around the giving season. So go find something dope uh to give somebody. All right, I think that's all I have for now, man. I love y'all. Thank y'all for hanging out with me. Until next time, uh keep rising, stay progressive. Uh, and if you can, stay beautiful. I'll holla.",
-            "creator": "darante-lamar"
+            "context": "That is a really interesting question. It's definitely something that we all need to, like in Britain, we all need to think about a lot more. Um, I think what I'd probably say is first of all, maybe trying to stop how insular these communities get, and I think the point I made about education might be one of the only sort of fair ways to do that because you can't exactly walk into a community and be like, right, all of you split up now, because that's never gonna work, you know, in practice.",
+            "creator": "apostate-aladdin"
           },
           {
-            "context": "Um, so many of you have seen me kind of announcing and talking about. I mean, we've talked about it on every video, every pre-recorded video in our live sessions. We've been talking about it. And that is these events that we have coming up this year called Bridge City Weekends, where we're going to our plan is go to several cities, you know, starting with Raleigh, North Carolina, go to several cities and actually bring what we what we're what we've been crafting as this bridge city Global experience to these different cities.",
-            "creator": "darante-lamar"
+            "context": "Hopefully, if you had a non-traumatic childhood. For some uh who had more traumatic childhoods, you actually have to go back and allow yourself to finish being a child. Um, but you used to maybe believe that the world was full of full of possibility, and that can soften that can soften your edges and reconnect you with joy, and so you can ask yourself, What did you love as a child? What did you need? What did you daydream about? And then start to give yourself those things now.",
+            "creator": "britt-hartley"
           },
           {
-            "context": "The former demands that only completely pure souls be assumed into heaven. That was just given to us from Revelation 21. The latter demands that the punishments of sins still present be affected. But on the other hand, forbids that souls united in love with God should be cast into hell. Therefore, an intermediate state is to be assumed whose purpose is final purification, and which for this reason is of limited duration. Now I want to point out, aside from the fact that purgatory is yet another dogmatically defined concept within Roman Catholicism, that in the modern period, the language that Rome and Roman Catholic apologists use to describe it has changed really radically over about the past 70 years.",
-            "creator": "counsel-of-trent"
+            "context": "No wonder the enemy lies. You seen it in heavenly places the basis to look to the sky. It's sacred the savior is mine. He waving a banner, get David to try. The heart of the father, the brother, you wanna be out of your mind. You think it's too much. And I think it's enough. It's keeping you stuck. You love when you cuff. It's giving the lust, the love and the love of the brothers who run it up. What if it's nothing new under the sun? What if the number you lookin' is one? What if the sun is the number you lookin'? He wanted them once. So come again. You running this fun till he come again. He wants you with nothing to come against. It's something I want you to love again, love again, love again.",
+            "creator": "jackie-hill-perry"
           },
           {
-            "context": "I'm a Christian. Uh huh. One of the things that I struggle with is I don't really feel like I want to go to heaven that much. Okay. It's eternal. Uh-huh. And I I love Jesus and I love God. And but there's almost nothing that I want to do for eternity, it seems like. And I know that there's got to be some sort of justification because you got a pizza shirt on. Don't you want to eat pizza from all eternity?",
-            "creator": "cross-examined"
+            "context": "Well, but wait a minute. That doesn't let you off the hook, first of all, for your own holiness and your own walk with God. Mm-hmm. And secondly, where did the c caricature come from? Because the truth of the matter is all of us are just earthen vessels w with the heavenly treasure on the inside. Now, that is not excuse the standards, that is not lessen the standards for spiritual leaders and all those types of things. But it is to recognize that sometimes when we don't recognize the humanity in others, we're sort of overlooking the humanity in ourselves and trying to make excuses for it.",
+            "creator": "jude-3-project"
           },
           {
-            "context": "Here's one thing you can say to your friend. What's his name? Cyrus. Cyrus, there's nothing you can do that will make me stop loving you. You can say that to anybody. There's nothing you can do that will make me stop loving you. You don't have to agree with me. I'll still love you. But in order for me to love you, I want to share with you what I think is the truth, because that's what a loving person does. And so share with Cyrus. Maybe one question you might ask is if Christianity, biblical Christianity, was true, not the Book of Mormon, Doctrines of Covenants, Pearl of Great Price.",
-            "creator": "cross-examined"
+            "context": "Instead, they speak very personally about their personal belief in Christ, their personal relationship with God, that kind of thing, but not in a way of trying to compel others to turn and put their faith in Jesus to proclaim his death and resurrection in a way that is simple and factually true. And I love this about watching these Charlie Kirk videos. He presented Jesus like he was the most important thing you needed to get in your life period. You needed to know Jesus. You needed to know him as your Lord and your Savior.",
+            "creator": "mike-winger"
           }
         ]
       },
@@ -293,24 +293,24 @@
         "text": "Deconstruction uses \"do the work\" to refer to critical, investigative, or societal tasks such as convincing, verifying, deconstructing religions, and political engagement, often with a skeptical or corrective tone.",
         "quotes": [
           {
-            "context": "So stop that shit. You're being a jackass. All right. Anything you want for you, you can want for you. However you want to love yourself, you can love yourself, but you don't get to define that shit for anybody else. And at the end of the day, that's what empathy is about. That's what love is about.",
+            "context": "Her mind was, well, God uh sanctioned war plenty of times, and he told the people to go over there and take all and recover all. So we should understand God's will. It was in those moments that I sincerely realized how big of an abstraction that Christianity had become to the ability for people to really love. How can you love when you really when this is what you platform as love?",
             "creator": "darante-lamar"
           },
           {
-            "context": "If it's a relationship, it's a two-way street, right? The next super common red flag is someone who is constantly criticizing and belittling you. You've given God a million reasons not to love you, and none of them have changed his mind. You are more sinful than you could ever imagine, but you're also more loved than you could ever hope. If you feel unfairly hated by people, you're even more unfairly loved by God.",
-            "creator": "belief-it-or-not"
+            "context": "We need to make sure that we're we're presenting that as love, which is even more nefarious, also. Fucking by the way, that's more nefarious. Because if you present harm as love, that's abuse. That's abuse. That's trapping someone in a cycle of abuse because they think that being hurt is love. They think that avoiding repercussions is love.",
+            "creator": "shannon-q"
           },
           {
-            "context": "I'd take that any day of the week over someone who thinks telling me I just pretend to disagree with him because I'm wicked is uncontroversial, an act of love, and the beginning of a helpful conversation. And so, um, as Christians, we just gotta be continuing to be um courteous, be kind, but also speak the truth in love as we're seeking to really have a conversation and share the gospel with people who need to hear the gospel message, um, even people that consider themselves to be an atheist.",
-            "creator": "prophet-of-zod"
+            "context": "I have. So a lot of times you hear stories of converts in terrible situations. And that happens in a lot of religions and cults. They recruit people, either they intentionally recruit people who are very vulnerable, or people who are in vulnerable situations tend to be looking for a greater meaning for hope, for community, for resources. And often that happens to be the local church, the mosque, um, their Muslim friends.",
+            "creator": "apostate-aladdin"
           },
           {
-            "context": "And so now people don't know how to be a part of community. And so they think community is having an opinion. No, that's not community, that's being a consumer. Y'all ain't ready. Y'all are not ready for me this weekend. Darante', let's go. No, a lot of I think the community scares people because community that sounded that sound a little bit too much like responsibility.",
-            "creator": "darante-lamar"
+            "context": "These accounts are not historical as described in in the Bible. They're probably not historical as described in the Bible. But this too is not the most significant discovery of biblical studies. Okay, again, Bart is teasing, but how do you respond to the lack of what should be a vast wealth of archaeological evidence according to Bart? Well, I I've heard it said by professional archaeologists, Kevin, that well over 90 percent of the sites remain unexcavated, and over 90 percent of what has been excavated remains unanalyzed.",
+            "creator": "reasonable-faith-org"
           },
           {
-            "context": "So let's talk about some of these trust issues that we get from religion. And just to kind of recap, not trusting people without good reason is not a trust issue. That's called trust clarity. The trust issue that leads to coercive control or the trust issue that makes us vulnerable to controlling environments, controlling communities, and ultimately controlling relationships, is trusting without good reason.",
-            "creator": "darante-lamar"
+            "context": "The appearances argument comes up a lot when transgender advocates say a man pretending to be a woman is a woman because well, just look at her. Or these advocates will make hay over a person mistakenly thinking a transgender person is not transgender. Sometimes the argument comes off more sophisticated, as in this LGBT article, the belief that all transgender people are unattractive to you, when there are some undeniably very attractive ones, and that you could not have chemistry with them, or you religiously object to transgender people, even when presented evidence to the contrary, is an expression of transphobia.",
+            "creator": "counsel-of-trent"
           }
         ]
       }
@@ -355,12 +355,12 @@
         "text": "Apologetics lines use \"evidence\" to affirm Christian truth, presenting it as proof that supports faith and counters doubt.",
         "quotes": [
           {
-            "context": "Again, I know it's so specific to how Christians already believe that they may not even see this as problematic. But there are religions that know that there's unbelievers, and that's all they are. Oh, you don't believe in what I believe in. But the Abrahamic religions so often demonize anyone who doesn't think like them, and you wonder why it's so much more harmful than the polytheistic religions that, yes, have their own harm, no doubt about it, but there's at least an acceptance of other people believing differently.",
-            "creator": "mindshift"
+            "context": "It just don't make no sense. No, if we're gonna be friends, there's gonna be some benefits involved in here. I don't know what the benefits are gonna be, but baby, they're gonna be some benefits, some butter beans, some butterball, I don't know, but we're gonna be some benefits up in here. Oh, I love it. I love it, I love it. This is beautiful. If Bridge City, if Bridge City is community beyond superstition, then this series is relationships beyond superstition.",
+            "creator": "darante-lamar"
           },
           {
-            "context": "He mentioned Irenaeus says, uh, if the apostles had not left us anything in writing, wouldn't it be necessary to go to the churches, the apostolic churches? No, notice. I mean, he's saying, go to the apostolic churches for the truth. Hey, first of all, I think the churches were preaching the truth. I don't have any problem with that. But notice what Irenaeus says, it's a conditional. What would it be? What would we have to do if it had been the case that God had not left us writings? If it had been the case, good news, folks, it is not the case.",
-            "creator": "counsel-of-trent"
+            "context": "And so again, I think the best thing an atheist can do is just say, Stop. Like obviously, we're all trying to make the same point. I don't worship X just because I paid attention. It sounds, Jordan, like maybe that's not actually what you're saying. When you hear some Christian say, I worship the true God in God alone, and that's the only thing I worship, or the only thing that's worthy of actually being worshipped would be the perfect creator of love and justice, right? That seems to be the kind of worship that is within belief.",
+            "creator": "mindshift"
           }
         ]
       },
@@ -368,11 +368,11 @@
         "text": "Deconstruction lines use \"evidence\" as a critical standard, highlighting the lack or insufficiency of proof for religious claims and questioning faith.",
         "quotes": [
           {
-            "context": "So it is true that sometimes biological parents can be abusive, but what is true is that an unrelated man in the home left to care for the child himself is statistically the most dangerous person in a child's life. So when you are talking about family structure, it is not love makes a family. It is loss makes a family. The child loses their mother or father. So you can form that modern family. And anytime that modern family includes an unrelated adult, risk of abuse and neglect will increase.",
-            "creator": "cross-examined"
+            "context": "Don't that make sense? I mean, that's just basic math. That's that's math. You know, people think math is just numbers. Nope, it's logic. It's logic. No, that's colloquialism, of course. But in raising these points, I aim to encourage the secular community to critically examine and challenge the inconsistencies and the concept of salvation as presented in Christian theology. It's really time to scrutinize the foundations of these beliefs and expose the fallacies inherent in them, fostering a more rational and evidence-based worldview.",
+            "creator": "darante-lamar"
           },
           {
-            "context": "Uh, and and I'm so glad that that I get to partner with them. Oh, that's a so like that that that could have been a whole ad. And I just saw that dark side Zarnial is in the chat. Zarnuel, that could have been a whole ad right there, just because like the work that you know, the work that I'm trying to do, and I know the work that you're trying to do as well, is to create that infrastructure, that economy, that ecosystem, where for people who want to fulfill that role, that there is space for them, that there are communities that are like, yes, come on.",
+            "context": "The apatheist view encourages attention to current social, ethical, and existential matters rather than irrelevant historical uncertainties. Which to me is just like, I think I do, okay. I'm probably getting a little trouble for this. I do feel like the much of the secular community is making the same mistake as the antiquated church community. And that is just doing shit that doesn't matter. You know, like that's what killed the traditional church.",
             "creator": "darante-lamar"
           }
         ]
@@ -418,11 +418,11 @@
         "text": "The apologetics lines employ \"grace\" as a purely theological, divine gift that saves and sustains believers, framing it as a supernatural, unearned favor from God.",
         "quotes": [
           {
-            "context": "Philippians 3:2. Beware of the dogs, beware of the evil workers, beware of those who mutilate the flesh. This is actually kind of demonizing the Jewish teachers, but it's the closest we get in this book to something of the enemy. As for the harm from not the enemy in this book, threats of destruction in chapter three, that glorious image of every knee bowing, the ultimate surrender to the tyranny of Jesus, and condemning unbelievers as enemies of the cross. Again, I know it's so specific to how Christians already believe that they may not even see this as problematic.",
-            "creator": "mindshift"
+            "context": "It just don't make no sense. No, if we're gonna be friends, there's gonna be some benefits involved in here. I don't know what the benefits are gonna be, but baby, they're gonna be some benefits, some butter beans, some butterball, I don't know, but we're gonna be some benefits up in here. Oh, I love it. I love it, I love it. This is beautiful. If Bridge City, if Bridge City is community beyond superstition, then this series is relationships beyond superstition.",
+            "creator": "darante-lamar"
           },
           {
-            "context": "Baggage is the personal stuff we carry, okay? So before we lift off, remember this is flight school. Before we lift off, this is why I'm right. I'm wearing the Bridge City Blue. This is official, okay? This makes it official. I have the bridge city blue on. You are officially a student of flight school. But before we lift off, we need to secure what we're carrying. Okay. This conversation is gonna help us identify what belongs in the bag and what needs to stay behind.",
+            "context": "And it looks like we have a super chat. Let's see what that's about. I oh, is it Muttley? It's Muttley, that is so awesome. For uh for the tip jar, loving sausages. Love you, Muttley. Thank you so much. We appreciate you, sir. Uh, but yeah, so absolutely beautiful. Uh, absolutely beautiful song. Um, again, y'all, my wife is not here with me today. She's six, uh, she's doing her best uh to get better.",
             "creator": "darante-lamar"
           }
         ]
@@ -431,12 +431,12 @@
         "text": "The deconstruction lines use \"grace\" in two distinct ways: as a personal name (e.g., Grace the person) and as a theological or moral concept, thereby framing the term with both secular and religious meanings.",
         "quotes": [
           {
-            "context": "Life has been kicking it, kicking your ass. Now, now don't get it twisted. I'm not Mr. Miyagi, all right. We're gonna say Bridge City Global is Mr. Miyagi, right? Oh, damn, I'm stripping in front of y'all. Let me put that button back together, y'all. I don't need to see the goodies. All right, so Bridge City Global is Mr. Miyagi, right? And so you, Danielson, show up saying, hey, life is kicking my ass every way but sideways, man. Every way, except for the way that I like to be kicked, and I like to be kicked sometimes, you know. We say life is kicking my ass and all the wrong ways.",
+            "context": "This is the first time I'm doing it. But um, we're starting a new series of the conversation about the work and the physics of change. Over the next four weeks, our community will be wrestling with what it means to do the work, to do it right, do our best, and to do the most in the context of community development. For everybody, for in for everybody who's been looking for a way to ground your grind in grit and rationality, this is the conversation for you.",
             "creator": "darante-lamar"
           },
           {
-            "context": "Some sense of order when you're in pure chaos is life changing for the better. Your life will get better in some way, even if that life raft wasn't true or real in any kind of eternal or metaphysical sense. So it's here in the chaos that we are truly naked to the harsh truths of reality. Really the four existential fears, the monsters of the void that lurk in the deepest part of our subconscious. So this is building off of the work of Irvin Yolom, the Buddhist existential psychoanalyst.",
-            "creator": "britt-hartley"
+            "context": "And in all of these cases, it's been one fucking couple behind every single one of them. That's what I mean, click based. You mean to tell me that you can have over five different incidences where the secular community gets riled up to attack and dehumanize another person in the secular community, and there's always one couple behind all of them, and that don't raise no red flags for nobody.",
+            "creator": "darante-lamar"
           }
         ]
       }
@@ -481,12 +481,12 @@
         "text": "Apologetics frames \"harm\" as an objective, moral standard indicating what is good or bad, often used to evaluate actions or doctrines.",
         "quotes": [
           {
-            "context": "When inherited systems stop making sense, people don't just lose beliefs, they lose orientation, they lose rhythm, they lose a place where effort, curiosity, and care are shared instead of carried alone. That's the gap Bridge City exists to fill. Bridge City is not a belief system, and it's not a debate space. This isn't a space to sit back and consume, and it's not a space to be told what to think. It's a people-centered community built around a simple, proven human rhythm.",
+            "context": "Um, and then still wrapped it up, but hey, when in Rome, uh, because life is a lot of times uncomfortable. We we we definitely run into some things, but I always love Mr. Difficult's um approach to things where he's just kind of very flexible. There may be some jokes in that. There may be some jokes in that, but um, but so yeah, one of the reasons we you know, for some people, people define personal space as as a as a space to do it, to get you know, to do the act, the the marital congress type thing, um, a place to place a Marvin Gay in the background because it's not just kids that that that you know, it's not just kids as they get up who want to move out so they can have space to do it.",
             "creator": "darante-lamar"
           },
           {
-            "context": "So, what is this all about? You know what? Sorry. What is this all about? This is about our freedoms. Could you be any more generic? But Americans love the word freedom. Like they are in love with the word freedom. St. Augustine's how do you understand a nation? You look what it loves supremely. And there's no question, what America loves supremely is freedom. Oh, I thought he was putting your flag on everything.",
-            "creator": "belief-it-or-not"
+            "context": "Nope. Nope. Things are typically not, they they don't work in in those ways. You you gotta get an intimate understanding of the things that you're doing and the things that you're working on. Um but so no, it our we have to build uh community as a catalyst to create places where people can be safe enough to self-identify and actually figure out what that means, you know.",
+            "creator": "darante-lamar"
           }
         ]
       },
@@ -494,12 +494,12 @@
         "text": "Deconstruction uses \"harm\" to highlight the negative consequences of religious beliefs and practices, framing it as evidence of religion's evils.",
         "quotes": [
           {
-            "context": "These arguments are in the Bible, but you don't need the Bible to know them. In fact, you can show that God exists without any reference to any religious work. Third question: Are miracles possible? Christianity can't be true if miracles are not possible. But I hope to show tonight that not only are miracles possible, but the greatest miracle in the Bible, even atheists are admitting the evidence for. We'll see that evidence tonight. Then the key question is the New Testament telling us the truth, particularly about one event from the ancient world.",
-            "creator": "cross-examined"
+            "context": "Now, these people are going to get the most of my time. Uh, and again, I'll talk about in a little bit. Those people are gonna see me at least weekly, you know, in their groups. My people who are who are enrolling and learning how to kind of do what I do and do some of the things that we're planning on doing with Bridge City, whether it's leading local communities or just supporting others or facilitating events, which some of that you can see behind me right now. Um, like that that that's something I'm really excited about, something I'm really uh really wanting to happen and to get in and to get into place because I think that's what some life changes gonna happen.",
+            "creator": "darante-lamar"
           },
           {
-            "context": "Yes, I I would read. I have a long reading list, but I would eventually get to it, I promise. If it's I don't have enough faith to be an atheist that you co-wrote with Norman Geisler, I've already read it. I've also read Your Stealing from God and Hollywood Heroes books, which we debated on once. Your other books seem more about social and political agendas than the truth of Christianity, so I'd pass on those. If you happen to be the question asker in this video, I just want to say well done, and I'd love to hear more about your experience with Frank in the comments below. It is so great to see minimal witness argumentation popping up in the wild and shutting down one of the most practiced apologists in the country.",
-            "creator": "paulogia"
+            "context": "Third, Johnson calls the Darcy memo itself pretty shaky. Okay, there are two drafts, not one of them. The guy who published them, Ulysses Chevalier, mashed them together and even claimed without evidence that it was sent to the Pope. Ew, and Darcy also admits that much of his accusation was based on hearsay, not exact ironclad history. And finally, Johnston makes the very big point.",
+            "creator": "capturing-christianity"
           }
         ]
       }
@@ -544,12 +544,12 @@
         "text": "In the apologetics excerpts, \"love\" is consistently framed as a divine, benevolent force\u2014God\u2019s love for humanity and the love that motivates believers to spread the gospel (e.g., A2, A4).",
         "quotes": [
           {
-            "context": "Because this is one, this is one of the ones where people convince themselves that they're being loving when they're absolutely not. Because they have that, even though they don't address it, they have that stopping point in their mind. That the only people who are deserving of my love is my neighbor. The further away you are from me, the less considerate of you that I have to be.",
-            "creator": "darante-lamar"
+            "context": "Yeah, it's the Christ in me that loves you. And so the more you reflect him, the more I can love you. But if you stop reflecting him, and now it's not Christ in you, it's just you. I didn't I didn't sign up to love you, I signed up to love Christ in you. That was not in the fine print, right? So if there's no more Christ in you, what am I supposed to do? Okay, maybe I will love you, but I'll love you like I love the unbeliever.",
+            "creator": "shannon-q"
           },
           {
-            "context": "So like I think that just silences a lot of real life views because I know they would say, like, you know, my religion doesn't teach that. I've seen in so many like videos of Iranian women talking about taking off their hijab and all the comments are saying, Well, my parents didn't force it on me and I love the hijab and blah blah blah this and all of that. And all I'm saying is that like it's true that your religion might say that, but that doesn't really change the fact that other women are experienced something completely different and your experiences are not the same as everyone else's.",
-            "creator": "apostate-aladdin"
+            "context": "So whether I love you or not, has to be determined by whether we are hold allegiance to the same things or not. And for me, I'm like, what exactly then is your definition of love? It like, if we have to be like, you must be using a very strict definition of love. You're using a very intimate definition of love.",
+            "creator": "darante-lamar"
           }
         ]
       },
@@ -557,20 +557,20 @@
         "text": "In the deconstruction excerpts, \"love\" appears in a range of contexts\u2014from human affection to rhetorical negation\u2014often with a more ambiguous or even negative connotation (e.g., D2, D5, D8, D10).",
         "quotes": [
           {
-            "context": "So why shouldn't I avail myself of that knowledge? I think you can bracket that if you want to in an artificial way, you can set that aside. Why anybody would want to do that? I can't imagine, but you can bracket that, set it aside, and just approach the um evidence for the resurrection of Jesus with an attitude of agnosticism about the existence of God. And I would say, even on agnosticism, the agnostic, since he doesn't know whether there's a God, can't say with any confidence that it is improbable that God would raise Jesus from the dead.",
-            "creator": "drcraigvideos"
-          },
-          {
-            "context": "For example, if you are falsely convicted of a crime based on good objective evidence, that wouldn't justify you rejecting the subjective evidence of your own knowledge that you are innocent, just because you can't objectively share that knowledge of your innocence with other people. So we could have subjective knowledge of God's existence through prayers we make to God that we are unable to share with other people, but that doesn't mean that we should reject that evidence that God has given us. And sometimes we do pray for help and God doesn't respond. And that stinks.",
-            "creator": "counsel-of-trent"
-          },
-          {
-            "context": "Anyway, that's my side, my thoughts. I love it. We had two more come in right behind that. We got Danny. Danny is back. He's thank you for that $10. Thank you. He says, if I may add, it's not the miracle portion, but rather a rewrite. The secret father of Jesus was a high priest of her community. Luke preserves the existence of her community. Luke blends uh a scenes in Paul. I need to look at this. Um, I've never looked at this and tried to think through this lens, Backen.",
+            "context": "At some point, the poetry of the sermon has to face the reality of the human condition. Because at the end of the day, you cannot honestly claim the work is finished when every single enemy is still on the clock. Thank you so much for sticking around to the end of the video. While I love making videos and sharing my unique perspectives as an ex-pastor, my real passion is community. Often when people leave their religion, they also leave behind their community and the support it provided. Friendship, mentorship, and unfortunately sometimes even family.",
             "creator": "darante-lamar"
           },
           {
-            "context": "When you assume that this stage of questioning faith will be hard, you're right, but you don't have to make it even harder by punishing yourself. If faith withstands scrutiny, there's no harm in scrutinizing it. If it doesn't, it's worth scrutinizing in order to know the truth. So go for it. Guilt, shame, fear, loneliness, they're all temporary. And once you see how unnecessary it was to inflict them upon yourself, you'll be glad you pushed through them for truth's sake.",
-            "creator": "genetically-modified-skeptic"
+            "context": "It's a 19th century humanist free thinker, but he used to say that happiness is the only good, the time to be happy is now, the place to be happy is here, and the way to be happy is to make others so. And I think that that last part of it the way to be happy is to make others so is really uh in my mind a lot about reciprocity you know that that the more you give the more you actually get uh and that's uh that's my my my little my little I'll have to look up this guy this is these are uh I have had an another guy that I've been following who uh I mean this there's some something about that period of time the the the mid to late 1800s where there was uh this new campaign of free thought and and and and such that would would not be out of place in in today's society in the modern world um and in in the kind of conversation that we do today it's uh it's really striking to me how over a hundred years ago people were just still going through the same stuff and talking about absolutely yeah exactly right right well hey let's let's move on to the news um yes let's take a look at the news so uh so greetings bridge city good great to see you uh my name is Mark Russell I am uh the book club uh leader here uh as well as uh doing a few other little things in the community a few um just looking at work does a heck of a lot so I'm glad that Mark's here glad that everyone's joining us today I did want to to mention uh that this is our first uh I think this is our first session in in the month of of June, is that right?",
+            "creator": "darante-lamar"
+          },
+          {
+            "context": "Well, I'll give you another example moving from the like what is our foundation? Does that have the evidence for it? Uh here's one that might be from the New Testament that I think would might be harder for Protestants. Suppose you have someone who's wants to believe in Jesus and they believe, you know, they they look through and they see there's good evidence Jesus rose from the dead, but then they're swayed by a lot of these more critical historical atheists who lob a bunch of more sophisticated objections, like, well, what if they had cognitive dissonance?",
+            "creator": "counsel-of-trent"
+          },
+          {
+            "context": "Now, I've long thought there were some really compelling reasons to take the authenticity claim seriously, but today's video is not about cheerleading for the shroud. It's about dealing honestly with the best counter evidence that's out there. Because if we're honest, there's very good reason why the debate continues. And right now that means looking at a brand new historical study that claims to have finally unmasked the shroud as a medieval fraud. This isn't another like Miraeus style flop that gets debunked within a week.",
+            "creator": "capturing-christianity"
           }
         ]
       }
@@ -631,24 +631,24 @@
         "text": "The apologetics lines consistently present \"truth\" as a positive, divinely or morally grounded reality that believers can know, affirm, and apply\u2014often framed as scriptural, moral, or balanced truth.",
         "quotes": [
           {
-            "context": "I did that backwards this time. Subscribe to the channel. Uh, consider joining our community and check out our merch. And until next time, man, keep rising, stay progressive, and stay absolutely beautiful with your gorgeous self. I love y'all. I'm out.",
+            "context": "So at some point, you've got to narrow it down and be like, well, maybe it's just when you are declaring some truth and you're saying it's from God. Then it's maybe then it's prophecy. Here's a truth and it's from God. Maybe we'll just call that prophecy because you're your claim that it's from God. That would be my my thought on that. And that would fit with what we see in scripture, because there's all sorts of things that are prop prophetic. I mean, the entirety of the Bible is prophecy in the sense that it's speaking on behalf of God or it's God revealing things to us.",
+            "creator": "mike-winger"
+          },
+          {
+            "context": "I love it, I love it. And and then this idea of purpose is so big, especially in the church construct, especially in the contemporary urban megachurch spaces. Many of the people who uh who are unclear about whether or not there is or is not a God or whether or not their religion is accurate or not accurate, many of them are tied in not because of the theology, not because of the doctrine, not because of any of the experiences, but they're tied in because of this idea of purpose.",
             "creator": "darante-lamar"
           },
           {
-            "context": "Kirk, and also for the entire team uh who was out there to support Erica and Mr. and Mrs. Kirk. It is extremely difficult to do this. It has to be done, quite obviously. Everyone deserves a fair trial, innocent till proven guilty. We don't believe in smearing people or coming up with uh conspiracy theories that have no basis in evidence. Notice how the defense, by the way, didn't try and advance any of the conspiracy theory theories out there because there really is no evidence for them.",
+            "context": "So, yeah, I think I think that's a fair game. And and uh his candor there is bracing, you know, and it's but it this was the great point that Philip Johnson made back in the 90s when he wrote Darwin on trial as he realized the evidence for evolution, for Darwinian evolution, for neo-Darwinian evolution, was it was actually very weak.",
             "creator": "cross-examined"
           },
           {
-            "context": "And and another thing I wanted to reason I thought this would be a good conversation to have after the fact is because in a debate, you have limited time, and it's it can oftentimes be hard to get everything out that you need to. And and at the end of the day, like I'm interested in the truth here. I think we should, you know, make sure we understand where each other were coming from. Now, the last one was sort of this idea of if if I was being shady or dishonest or something in the way that I approached this debate. And I wanted to, if I could, take a little time to sort of defend myself in a way, or at least at least say this.",
-            "creator": "capturing-christianity"
-          },
-          {
-            "context": "At Bridge City, we're not just doing good without God, we're doing better. And that's kind of the whole point. Bridge City exists to help people connect better, build better, and live better because that's what empowers us all to do better. Because we're committed to seeing the humans behind the harm, we're creating space that is intentionally forward-thinking, people-centric, and life-affirming. And so if you're serious about helping make a positive difference in this world and helping steer this ship further away from the perils of religious superstition, then I can guarantee you that being connected to a community is in your best interest.",
+            "context": "So therefore, our love for others and even the world we share has to be filtered through our loyalty to religion before our actual concern for others. And I'm gonna run that back, okay? So therefore, our love for others and even our love for the for the world that we share, it has to be filtered through our loyalty to religion before our actual concern for others. But let me run it back and replace the word.",
             "creator": "darante-lamar"
           },
           {
-            "context": "Think about that for a minute. The apostles never say in their writings that scripture would become the only infallible rule of faith, and that the whole council of God would be found there. Instead, as Paul says in 1 Timothy 3 15, the church of the living God is the pillar and foundation of truth. So nothing pointing forwards. Well, maybe the early Christians can say we received this from the apostles and we live by the written word of God alone. They look backwards. We don't find that either.",
-            "creator": "counsel-of-trent"
+            "context": "So I am partly well, with regard to your wife, say, so why do you value your wife? You do well value your wife. I love her. So I prioritize and I sacrifice for her. Right, right. So that's within uh the confines of love, let's say. Sure. What else does it serve? What else does what serve? Your love and your marriage. I mean, I am married to my wife because I love her. That's also why I prioritize and sacrifice for her. I certainly wouldn't think I worship her, and I don't think anyone else would make that argument.",
+            "creator": "mindshift"
           }
         ]
       },
@@ -656,24 +656,24 @@
         "text": "The deconstruction lines portray \"truth\" as a contested, often harsh or negative reality that can be critiqued, questioned, or used to expose injustice, emphasizing its provisional or problematic nature.",
         "quotes": [
           {
-            "context": "Like, like all of these are building upon each other. Right. But they they don't. Like, like a a conman, for example, one of the strategies that they use is misdirection. You know, they give you a bunch of half-truths or a bunch of things that seem nice, and together they build a case for why that you should give them their money or you should give them your money or something else. It doesn't mean that therefore they have good reason. It just means they have a lot of vaguely okay reasons to distract you.",
-            "creator": "apostate-aladdin"
+            "context": "So he he referenced the church fathers for his work on angels, and um, and and then he is held as a doctor of the church. So he's held up so high for us to um use his um his tea his writings to be able to understand better uh uh truth of our faith. Okay. And so because of that, when you talk about angels, because he is considered the angelic doctor, there's no real expert on angels, but he's the closest thing to it.",
+            "creator": "capturing-christianity"
           },
           {
-            "context": "Like at the beginning, he said, I'm doing it for the family. By the end, he said, I did it for me. I liked it. I was good at it. And his belief that survival and self-interests are in the end the ultimate truths is also seen when he ruthlessly eliminates anyone who threatens his empire and shows no remorse for the people that he was supposed to be caring about. And so as Walter's character continues to spiral, he embodies the ultimate nihilistic figure of someone who rejects societal norms and embraces the idea that life has no inherent meaning, but that doesn't stop him from trying to seek control over his own fate, even if it means destroying everything and everyone around him.",
-            "creator": "britt-hartley"
-          },
-          {
-            "context": "So here's another example of how subjective experiences don't mean that there's something out there that's objectively real. And this I think is really powerful. Like this is evidence that I want to plop down on the table. There's something called the third man syndrome. It's also called the third hiker effect. I'm fascinated by this. This is when people in extreme survival situations, mountaineers, sailors lost at sea, explorers in the Arctic report feeling another being with them, a comforting figure.",
-            "creator": "britt-hartley"
-          },
-          {
-            "context": "So let's dive into the founding fathers. We're gonna cover 10 of them one by one, what they believed, how we know it, and just give you a better idea of who these men were. Let's start with one of my favorite people to read about. I've read three separate biographies. I absolutely love the history that this man has been a part of, even his being the one that sends out Lewis and Clark. If you haven't read Undaunted Courage, that's today's book recommendation. And it opens with a couple chapters on Jefferson that are pretty fascinating. So, what did Jefferson believe?",
-            "creator": "mindshift"
-          },
-          {
-            "context": "I'm using way too loud. One, two, one, two. Is that good? All right. Well, there's a lot of people that can't handle the truth. They're saying, you got your truth, I got my truth, all truth is relative. This is the postmodern relativistic view out there that there is no objective truth. Everyone has their own truth. I just want to spend a minute pointing out the most important thing I ever learned about thinking, and to show you what a dim wit I was.",
+            "context": "You know, but by his logic, you're just, you're loving by doing what you want. Yeah. Which is to write this book. Yeah, that's right. Yeah. And he also charged me with not following the uh the love commandment, uh, the second greatest commandment, Leviticus 19, 18. But of course, I I had to point out to him that uh he did not see a difference between that love commandment and special commandments having to do with sex, sexual ethics. So all I had to simply do is point out Jesus seems to have a universal approach to loving your neighbor as yourself, anyone whom you come into contact with.",
             "creator": "cross-examined"
+          },
+          {
+            "context": "It's just pornographic is pornographic. If you like Game of Thrones, I'm just saying it because I don't want you to be surprised. I don't want you to get them like he did what to what? Uh it's just a few uh like a chapter or two that are like that. But yeah, that's what I'm saying. But I I love writing. Well, I don't I don't think this is the crowd that would have been offended by it though. Yeah. So I you know, I don't I don't think we gotta worry about that. Um but check it out. It's really cool. I would love to hear your thoughts about this. I'm gonna be sharing some more information uh about the characters in this.",
+            "creator": "darante-lamar"
+          },
+          {
+            "context": "I told you don't act up on this stage. I told you don't act up on this stage, Dr. Parker. I'm past it. I'm trying to move on. I love you, Philly. I love you, right? I love you, Christina. I love you, Esau. I love you, Melie. I do, but I don't want to have to call on y'all in my worst moments. I don't want to have to put the kind of pressure or expectation on you that you're gonna make a burden lighter. You're gonna make something make sense, so you can give me a peace that passes all understanding, something that don't even make sense, but it's giving me peace when I should not have.",
+            "creator": "jude-3-project"
+          },
+          {
+            "context": "At some point, they become aware of God's moral requirements, which renders them responsible moral agents. Unfortunately, they misuse their free will by choosing to commit a sin, the original sin, if you will, thereby becoming morally guilty before God and alienating themselves from God, though not from his offer of love and forgiveness.",
+            "creator": "reasonable-faith-org"
           }
         ]
       }

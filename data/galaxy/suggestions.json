@@ -9,38 +9,12 @@
  "status": "ok",
  "suggestions": [
   {
-   "a": "accountability|2",
-   "b": "truth|1",
-   "delta": 0.0432,
-   "dist": {
-    "apologetics": 0.1038,
-    "deconstruction": 0.0606
-   },
-   "variance_bar": {
-    "reason": "apologetics has 1 creator(s) with both nodes (need >= 2); deconstruction has 1 creator(s) with both nodes (need >= 2)",
-    "status": "provisional"
-   }
-  },
-  {
-   "a": "accountability|2",
-   "b": "evidence|1",
-   "delta": 0.0421,
-   "dist": {
-    "apologetics": 0.117,
-    "deconstruction": 0.075
-   },
-   "variance_bar": {
-    "reason": "apologetics has 1 creator(s) with both nodes (need >= 2); deconstruction has 1 creator(s) with both nodes (need >= 2)",
-    "status": "provisional"
-   }
-  },
-  {
    "a": "community|0",
    "b": "deconstruction|0",
-   "delta": 0.0408,
+   "delta": 0.0413,
    "dist": {
-    "apologetics": 0.0937,
-    "deconstruction": 0.1345
+    "apologetics": 0.0922,
+    "deconstruction": 0.1335
    },
    "variance_bar": {
     "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
@@ -50,46 +24,85 @@
   {
    "a": "grace|1",
    "b": "truth|1",
-   "delta": 0.0396,
+   "delta": 0.0413,
    "dist": {
-    "apologetics": 0.082,
+    "apologetics": 0.0837,
     "deconstruction": 0.0424
    },
    "variance_bar": {
-    "bar": 0.0886,
+    "bar": 0.0816,
     "passes": false,
     "status": "ok",
     "within_side_spread": {
-     "apologetics": 0.0886,
+     "apologetics": 0.0816,
      "deconstruction": 0.0058
     }
    }
   },
   {
-   "a": "evidence|1",
-   "b": "grace|1",
-   "delta": 0.0381,
+   "a": "accountability|2",
+   "b": "evidence|1",
+   "delta": 0.0394,
    "dist": {
-    "apologetics": 0.1108,
-    "deconstruction": 0.0727
+    "apologetics": 0.114,
+    "deconstruction": 0.0746
    },
    "variance_bar": {
-    "bar": 0.0929,
+    "reason": "apologetics has 1 creator(s) with both nodes (need >= 2); deconstruction has 1 creator(s) with both nodes (need >= 2)",
+    "status": "provisional"
+   }
+  },
+  {
+   "a": "accountability|2",
+   "b": "truth|1",
+   "delta": 0.0392,
+   "dist": {
+    "apologetics": 0.0997,
+    "deconstruction": 0.0606
+   },
+   "variance_bar": {
+    "reason": "apologetics has 1 creator(s) with both nodes (need >= 2); deconstruction has 1 creator(s) with both nodes (need >= 2)",
+    "status": "provisional"
+   }
+  },
+  {
+   "a": "evidence|1",
+   "b": "grace|1",
+   "delta": 0.0383,
+   "dist": {
+    "apologetics": 0.1106,
+    "deconstruction": 0.0723
+   },
+   "variance_bar": {
+    "bar": 0.088,
     "passes": false,
     "status": "ok",
     "within_side_spread": {
-     "apologetics": 0.0929,
-     "deconstruction": 0.0225
+     "apologetics": 0.088,
+     "deconstruction": 0.022
     }
    }
   },
   {
-   "a": "accountability|1",
-   "b": "truth|1",
-   "delta": 0.0369,
+   "a": "accountability|0",
+   "b": "community|0",
+   "delta": 0.0371,
    "dist": {
-    "apologetics": 0.0924,
-    "deconstruction": 0.0555
+    "apologetics": 0.1152,
+    "deconstruction": 0.1523
+   },
+   "variance_bar": {
+    "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
+    "status": "provisional"
+   }
+  },
+  {
+   "a": "accountability|1",
+   "b": "community|1",
+   "delta": 0.0368,
+   "dist": {
+    "apologetics": 0.0974,
+    "deconstruction": 0.0606
    },
    "variance_bar": {
     "reason": "apologetics has 0 creator(s) with both nodes (need >= 2)",
@@ -98,50 +111,24 @@
   },
   {
    "a": "accountability|1",
-   "b": "do-the-work|1",
-   "delta": 0.036,
-   "dist": {
-    "apologetics": 0.0914,
-    "deconstruction": 0.0554
-   },
-   "variance_bar": {
-    "reason": "apologetics has 0 creator(s) with both nodes (need >= 2); deconstruction has 1 creator(s) with both nodes (need >= 2)",
-    "status": "provisional"
-   }
-  },
-  {
-   "a": "accountability|0",
-   "b": "community|0",
+   "b": "truth|1",
    "delta": 0.0357,
    "dist": {
-    "apologetics": 0.1177,
-    "deconstruction": 0.1535
+    "apologetics": 0.0912,
+    "deconstruction": 0.0555
    },
    "variance_bar": {
-    "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
-    "status": "provisional"
-   }
-  },
-  {
-   "a": "do-the-work|1",
-   "b": "truth|1",
-   "delta": 0.0354,
-   "dist": {
-    "apologetics": 0.0665,
-    "deconstruction": 0.0311
-   },
-   "variance_bar": {
-    "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
+    "reason": "apologetics has 0 creator(s) with both nodes (need >= 2)",
     "status": "provisional"
    }
   },
   {
    "a": "accountability|0",
    "b": "evidence|1",
-   "delta": 0.0353,
+   "delta": 0.0347,
    "dist": {
-    "apologetics": 0.1112,
-    "deconstruction": 0.0759
+    "apologetics": 0.1093,
+    "deconstruction": 0.0746
    },
    "variance_bar": {
     "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
@@ -151,41 +138,10 @@
   {
    "a": "evidence|0",
    "b": "love|1",
-   "delta": 0.0341,
+   "delta": 0.0347,
    "dist": {
-    "apologetics": 0.0922,
-    "deconstruction": 0.1264
-   },
-   "variance_bar": {
-    "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
-    "status": "provisional"
-   }
-  },
-  {
-   "a": "grace|1",
-   "b": "harm|1",
-   "delta": 0.0339,
-   "dist": {
-    "apologetics": 0.083,
-    "deconstruction": 0.0491
-   },
-   "variance_bar": {
-    "bar": 0.1284,
-    "passes": false,
-    "status": "ok",
-    "within_side_spread": {
-     "apologetics": 0.1284,
-     "deconstruction": 0.0116
-    }
-   }
-  },
-  {
-   "a": "deconstruction|0",
-   "b": "love|1",
-   "delta": 0.0335,
-   "dist": {
-    "apologetics": 0.0598,
-    "deconstruction": 0.0933
+    "apologetics": 0.0921,
+    "deconstruction": 0.1269
    },
    "variance_bar": {
     "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
@@ -194,11 +150,11 @@
   },
   {
    "a": "accountability|1",
-   "b": "evidence|1",
-   "delta": 0.0333,
+   "b": "do-the-work|1",
+   "delta": 0.0344,
    "dist": {
-    "apologetics": 0.1128,
-    "deconstruction": 0.0795
+    "apologetics": 0.0901,
+    "deconstruction": 0.0558
    },
    "variance_bar": {
     "reason": "apologetics has 0 creator(s) with both nodes (need >= 2); deconstruction has 1 creator(s) with both nodes (need >= 2)",
@@ -207,11 +163,11 @@
   },
   {
    "a": "do-the-work|1",
-   "b": "evidence|1",
-   "delta": 0.0332,
+   "b": "truth|1",
+   "delta": 0.0342,
    "dist": {
-    "apologetics": 0.0788,
-    "deconstruction": 0.0455
+    "apologetics": 0.0659,
+    "deconstruction": 0.0317
    },
    "variance_bar": {
     "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
@@ -221,10 +177,10 @@
   {
    "a": "accountability|0",
    "b": "love|1",
-   "delta": 0.0331,
+   "delta": 0.0336,
    "dist": {
-    "apologetics": 0.0897,
-    "deconstruction": 0.1228
+    "apologetics": 0.0889,
+    "deconstruction": 0.1225
    },
    "variance_bar": {
     "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
@@ -232,12 +188,64 @@
    }
   },
   {
+   "a": "accountability|1",
+   "b": "evidence|1",
+   "delta": 0.0336,
+   "dist": {
+    "apologetics": 0.113,
+    "deconstruction": 0.0794
+   },
+   "variance_bar": {
+    "reason": "apologetics has 0 creator(s) with both nodes (need >= 2); deconstruction has 1 creator(s) with both nodes (need >= 2)",
+    "status": "provisional"
+   }
+  },
+  {
    "a": "harm|0",
    "b": "love|1",
-   "delta": 0.0316,
+   "delta": 0.0328,
    "dist": {
-    "apologetics": 0.076,
-    "deconstruction": 0.1076
+    "apologetics": 0.0744,
+    "deconstruction": 0.1073
+   },
+   "variance_bar": {
+    "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
+    "status": "provisional"
+   }
+  },
+  {
+   "a": "community|0",
+   "b": "harm|0",
+   "delta": 0.0324,
+   "dist": {
+    "apologetics": 0.1064,
+    "deconstruction": 0.1389
+   },
+   "variance_bar": {
+    "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
+    "status": "provisional"
+   }
+  },
+  {
+   "a": "deconstruction|0",
+   "b": "love|1",
+   "delta": 0.0322,
+   "dist": {
+    "apologetics": 0.0608,
+    "deconstruction": 0.093
+   },
+   "variance_bar": {
+    "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
+    "status": "provisional"
+   }
+  },
+  {
+   "a": "do-the-work|1",
+   "b": "evidence|1",
+   "delta": 0.0322,
+   "dist": {
+    "apologetics": 0.0774,
+    "deconstruction": 0.0453
    },
    "variance_bar": {
     "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
@@ -247,9 +255,9 @@
   {
    "a": "love|1",
    "b": "truth|0",
-   "delta": 0.0311,
+   "delta": 0.0312,
    "dist": {
-    "apologetics": 0.071,
+    "apologetics": 0.0708,
     "deconstruction": 0.1021
    },
    "variance_bar": {
@@ -260,10 +268,10 @@
   {
    "a": "accountability|1",
    "b": "grace|1",
-   "delta": 0.0306,
+   "delta": 0.031,
    "dist": {
-    "apologetics": 0.0831,
-    "deconstruction": 0.0525
+    "apologetics": 0.0835,
+    "deconstruction": 0.0526
    },
    "variance_bar": {
     "reason": "apologetics has 0 creator(s) with both nodes (need >= 2); deconstruction has 1 creator(s) with both nodes (need >= 2)",
@@ -271,12 +279,30 @@
    }
   },
   {
-   "a": "community|0",
-   "b": "harm|0",
-   "delta": 0.0289,
+   "a": "grace|1",
+   "b": "harm|1",
+   "delta": 0.03,
    "dist": {
-    "apologetics": 0.1111,
-    "deconstruction": 0.14
+    "apologetics": 0.0791,
+    "deconstruction": 0.0492
+   },
+   "variance_bar": {
+    "bar": 0.1244,
+    "passes": false,
+    "status": "ok",
+    "within_side_spread": {
+     "apologetics": 0.1244,
+     "deconstruction": 0.0116
+    }
+   }
+  },
+  {
+   "a": "community|0",
+   "b": "truth|0",
+   "delta": 0.0298,
+   "dist": {
+    "apologetics": 0.1141,
+    "deconstruction": 0.1439
    },
    "variance_bar": {
     "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
@@ -284,11 +310,68 @@
    }
   },
   {
+   "a": "community|0",
+   "b": "evidence|0",
+   "delta": 0.029,
+   "dist": {
+    "apologetics": 0.1425,
+    "deconstruction": 0.1714
+   },
+   "variance_bar": {
+    "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
+    "status": "provisional"
+   }
+  },
+  {
+   "a": "community|0",
+   "b": "grace|0",
+   "delta": 0.0255,
+   "dist": {
+    "apologetics": 0.1531,
+    "deconstruction": 0.1786
+   },
+   "variance_bar": {
+    "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
+    "status": "provisional"
+   }
+  },
+  {
+   "a": "grace|0",
+   "b": "love|1",
+   "delta": 0.0249,
+   "dist": {
+    "apologetics": 0.109,
+    "deconstruction": 0.1339
+   },
+   "variance_bar": {
+    "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
+    "status": "provisional"
+   }
+  },
+  {
+   "a": "harm|1",
+   "b": "truth|1",
+   "delta": 0.0241,
+   "dist": {
+    "apologetics": 0.0629,
+    "deconstruction": 0.0387
+   },
+   "variance_bar": {
+    "bar": 0.0766,
+    "passes": false,
+    "status": "ok",
+    "within_side_spread": {
+     "apologetics": 0.0766,
+     "deconstruction": 0.0111
+    }
+   }
+  },
+  {
    "a": "accountability|1",
    "b": "harm|1",
-   "delta": 0.028,
+   "delta": 0.022,
    "dist": {
-    "apologetics": 0.0731,
+    "apologetics": 0.067,
     "deconstruction": 0.045
    },
    "variance_bar": {
@@ -297,108 +380,12 @@
    }
   },
   {
-   "a": "community|0",
-   "b": "truth|0",
-   "delta": 0.0278,
-   "dist": {
-    "apologetics": 0.1169,
-    "deconstruction": 0.1447
-   },
-   "variance_bar": {
-    "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
-    "status": "provisional"
-   }
-  },
-  {
-   "a": "accountability|1",
-   "b": "community|1",
-   "delta": 0.0277,
-   "dist": {
-    "apologetics": 0.0876,
-    "deconstruction": 0.0599
-   },
-   "variance_bar": {
-    "reason": "apologetics has 0 creator(s) with both nodes (need >= 2)",
-    "status": "provisional"
-   }
-  },
-  {
-   "a": "harm|1",
-   "b": "truth|1",
-   "delta": 0.027,
-   "dist": {
-    "apologetics": 0.0658,
-    "deconstruction": 0.0388
-   },
-   "variance_bar": {
-    "bar": 0.0731,
-    "passes": false,
-    "status": "ok",
-    "within_side_spread": {
-     "apologetics": 0.0731,
-     "deconstruction": 0.0111
-    }
-   }
-  },
-  {
-   "a": "grace|0",
-   "b": "love|1",
-   "delta": 0.0252,
-   "dist": {
-    "apologetics": 0.1095,
-    "deconstruction": 0.1347
-   },
-   "variance_bar": {
-    "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
-    "status": "provisional"
-   }
-  },
-  {
-   "a": "community|0",
-   "b": "grace|0",
-   "delta": 0.0249,
-   "dist": {
-    "apologetics": 0.1552,
-    "deconstruction": 0.18
-   },
-   "variance_bar": {
-    "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
-    "status": "provisional"
-   }
-  },
-  {
-   "a": "accountability|2",
-   "b": "deconstruction|1",
-   "delta": 0.0237,
-   "dist": {
-    "apologetics": 0.1206,
-    "deconstruction": 0.0968
-   },
-   "variance_bar": {
-    "reason": "apologetics has 1 creator(s) with both nodes (need >= 2); deconstruction has 1 creator(s) with both nodes (need >= 2)",
-    "status": "provisional"
-   }
-  },
-  {
-   "a": "community|0",
-   "b": "evidence|0",
-   "delta": 0.0233,
-   "dist": {
-    "apologetics": 0.1483,
-    "deconstruction": 0.1716
-   },
-   "variance_bar": {
-    "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
-    "status": "provisional"
-   }
-  },
-  {
    "a": "accountability|2",
    "b": "do-the-work|1",
-   "delta": 0.0231,
+   "delta": 0.022,
    "dist": {
-    "apologetics": 0.0766,
-    "deconstruction": 0.0535
+    "apologetics": 0.076,
+    "deconstruction": 0.054
    },
    "variance_bar": {
     "reason": "apologetics has 0 creator(s) with both nodes (need >= 2); deconstruction has 1 creator(s) with both nodes (need >= 2)",
@@ -406,48 +393,48 @@
    }
   },
   {
-   "a": "community|0",
+   "a": "community|1",
    "b": "truth|1",
-   "delta": 0.0229,
+   "delta": 0.0215,
    "dist": {
-    "apologetics": 0.1125,
-    "deconstruction": 0.0897
+    "apologetics": 0.0706,
+    "deconstruction": 0.0491
    },
    "variance_bar": {
-    "bar": 0.0785,
+    "bar": 0.0634,
     "passes": false,
     "status": "ok",
     "within_side_spread": {
-     "apologetics": 0.0785,
-     "deconstruction": 0.0417
+     "apologetics": 0.0634,
+     "deconstruction": 0.0307
     }
    }
   },
   {
    "a": "evidence|1",
    "b": "truth|1",
-   "delta": 0.0225,
+   "delta": 0.0213,
    "dist": {
-    "apologetics": 0.046,
-    "deconstruction": 0.0235
+    "apologetics": 0.0447,
+    "deconstruction": 0.0234
    },
    "variance_bar": {
-    "bar": 0.0438,
+    "bar": 0.0435,
     "passes": false,
     "status": "ok",
     "within_side_spread": {
-     "apologetics": 0.0438,
-     "deconstruction": 0.0005
+     "apologetics": 0.0435,
+     "deconstruction": 0.0004
     }
    }
   },
   {
-   "a": "evidence|1",
-   "b": "harm|0",
-   "delta": 0.0202,
+   "a": "deconstruction|1",
+   "b": "grace|1",
+   "delta": 0.021,
    "dist": {
-    "apologetics": 0.0957,
-    "deconstruction": 0.0756
+    "apologetics": 0.0792,
+    "deconstruction": 0.0582
    },
    "variance_bar": {
     "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
@@ -457,23 +444,10 @@
   {
    "a": "evidence|1",
    "b": "grace|0",
-   "delta": 0.0201,
+   "delta": 0.0207,
    "dist": {
-    "apologetics": 0.1294,
-    "deconstruction": 0.1093
-   },
-   "variance_bar": {
-    "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
-    "status": "provisional"
-   }
-  },
-  {
-   "a": "community|1",
-   "b": "deconstruction|0",
-   "delta": 0.0198,
-   "dist": {
-    "apologetics": 0.0297,
-    "deconstruction": 0.0495
+    "apologetics": 0.1275,
+    "deconstruction": 0.1068
    },
    "variance_bar": {
     "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
@@ -483,10 +457,23 @@
   {
    "a": "deconstruction|1",
    "b": "truth|1",
-   "delta": 0.0198,
+   "delta": 0.0205,
    "dist": {
-    "apologetics": 0.0817,
-    "deconstruction": 0.0619
+    "apologetics": 0.0823,
+    "deconstruction": 0.0618
+   },
+   "variance_bar": {
+    "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
+    "status": "provisional"
+   }
+  },
+  {
+   "a": "evidence|1",
+   "b": "harm|0",
+   "delta": 0.0204,
+   "dist": {
+    "apologetics": 0.0945,
+    "deconstruction": 0.0741
    },
    "variance_bar": {
     "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
@@ -496,10 +483,10 @@
   {
    "a": "accountability|0",
    "b": "truth|1",
-   "delta": 0.0195,
+   "delta": 0.0202,
    "dist": {
-    "apologetics": 0.092,
-    "deconstruction": 0.0725
+    "apologetics": 0.0924,
+    "deconstruction": 0.0722
    },
    "variance_bar": {
     "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
@@ -507,24 +494,29 @@
    }
   },
   {
-   "a": "deconstruction|1",
+   "a": "community|0",
+   "b": "truth|1",
+   "delta": 0.0196,
+   "dist": {
+    "apologetics": 0.1085,
+    "deconstruction": 0.0889
+   },
+   "variance_bar": {
+    "bar": 0.0713,
+    "passes": false,
+    "status": "ok",
+    "within_side_spread": {
+     "apologetics": 0.0713,
+     "deconstruction": 0.0423
+    }
+   }
+  },
+  {
+   "a": "accountability|0",
    "b": "grace|1",
    "delta": 0.0194,
    "dist": {
-    "apologetics": 0.0773,
-    "deconstruction": 0.058
-   },
-   "variance_bar": {
-    "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
-    "status": "provisional"
-   }
-  },
-  {
-   "a": "accountability|0",
-   "b": "grace|1",
-   "delta": 0.0193,
-   "dist": {
-    "apologetics": 0.0461,
+    "apologetics": 0.046,
     "deconstruction": 0.0654
    },
    "variance_bar": {
@@ -533,144 +525,69 @@
    }
   },
   {
-   "a": "evidence|1",
-   "b": "harm|1",
-   "delta": 0.0193,
-   "dist": {
-    "apologetics": 0.0767,
-    "deconstruction": 0.0573
-   },
-   "variance_bar": {
-    "bar": 0.1147,
-    "passes": false,
-    "status": "ok",
-    "within_side_spread": {
-     "apologetics": 0.1147,
-     "deconstruction": 0.0065
-    }
-   }
-  },
-  {
-   "a": "deconstruction|1",
-   "b": "do-the-work|1",
-   "delta": 0.0187,
-   "dist": {
-    "apologetics": 0.0724,
-    "deconstruction": 0.0537
-   },
-   "variance_bar": {
-    "reason": "apologetics has 1 creator(s) with both nodes (need >= 2); deconstruction has 1 creator(s) with both nodes (need >= 2)",
-    "status": "provisional"
-   }
-  },
-  {
-   "a": "accountability|2",
-   "b": "harm|1",
-   "delta": 0.0186,
-   "dist": {
-    "apologetics": 0.0925,
-    "deconstruction": 0.0738
-   },
-   "variance_bar": {
-    "reason": "apologetics has 1 creator(s) with both nodes (need >= 2); deconstruction has 1 creator(s) with both nodes (need >= 2)",
-    "status": "provisional"
-   }
-  },
-  {
-   "a": "community|1",
-   "b": "truth|1",
-   "delta": 0.0183,
-   "dist": {
-    "apologetics": 0.0673,
-    "deconstruction": 0.049
-   },
-   "variance_bar": {
-    "bar": 0.0339,
-    "passes": false,
-    "status": "ok",
-    "within_side_spread": {
-     "apologetics": 0.0339,
-     "deconstruction": 0.0307
-    }
-   }
-  },
-  {
-   "a": "do-the-work|1",
-   "b": "harm|1",
-   "delta": 0.0178,
-   "dist": {
-    "apologetics": 0.0666,
-    "deconstruction": 0.0488
-   },
-   "variance_bar": {
-    "reason": "apologetics has 1 creator(s) with both nodes (need >= 2); deconstruction has 1 creator(s) with both nodes (need >= 2)",
-    "status": "provisional"
-   }
-  },
-  {
-   "a": "accountability|0",
-   "b": "evidence|0",
-   "delta": 0.0175,
-   "dist": {
-    "apologetics": 0.0622,
-    "deconstruction": 0.0447
-   },
-   "variance_bar": {
-    "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
-    "status": "provisional"
-   }
-  },
-  {
    "a": "grace|0",
    "b": "truth|1",
-   "delta": 0.0175,
+   "delta": 0.0184,
    "dist": {
-    "apologetics": 0.1186,
-    "deconstruction": 0.1012
+    "apologetics": 0.1187,
+    "deconstruction": 0.1003
    },
    "variance_bar": {
     "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
-    "status": "provisional"
-   }
-  },
-  {
-   "a": "do-the-work|1",
-   "b": "grace|0",
-   "delta": 0.0173,
-   "dist": {
-    "apologetics": 0.0449,
-    "deconstruction": 0.0622
-   },
-   "variance_bar": {
-    "reason": "apologetics has 1 creator(s) with both nodes (need >= 2); deconstruction has 1 creator(s) with both nodes (need >= 2)",
     "status": "provisional"
    }
   },
   {
    "a": "love|1",
    "b": "truth|1",
-   "delta": 0.0171,
+   "delta": 0.0182,
    "dist": {
-    "apologetics": 0.0683,
+    "apologetics": 0.0693,
     "deconstruction": 0.0512
    },
    "variance_bar": {
-    "bar": 0.1161,
+    "bar": 0.1145,
     "passes": false,
     "status": "ok",
     "within_side_spread": {
-     "apologetics": 0.1161,
-     "deconstruction": 0.031
+     "apologetics": 0.1145,
+     "deconstruction": 0.0312
     }
    }
   },
   {
-   "a": "deconstruction|0",
-   "b": "evidence|1",
-   "delta": 0.0166,
+   "a": "accountability|2",
+   "b": "community|1",
+   "delta": 0.0174,
    "dist": {
-    "apologetics": 0.0961,
-    "deconstruction": 0.0795
+    "apologetics": 0.0789,
+    "deconstruction": 0.0615
+   },
+   "variance_bar": {
+    "reason": "apologetics has 1 creator(s) with both nodes (need >= 2); deconstruction has 1 creator(s) with both nodes (need >= 2)",
+    "status": "provisional"
+   }
+  },
+  {
+   "a": "evidence|0",
+   "b": "grace|0",
+   "delta": 0.0173,
+   "dist": {
+    "apologetics": 0.0661,
+    "deconstruction": 0.0488
+   },
+   "variance_bar": {
+    "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
+    "status": "provisional"
+   }
+  },
+  {
+   "a": "accountability|0",
+   "b": "evidence|0",
+   "delta": 0.017,
+   "dist": {
+    "apologetics": 0.0619,
+    "deconstruction": 0.0449
    },
    "variance_bar": {
     "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
@@ -680,10 +597,10 @@
   {
    "a": "grace|1",
    "b": "truth|0",
-   "delta": 0.0165,
+   "delta": 0.0169,
    "dist": {
-    "apologetics": 0.0401,
-    "deconstruction": 0.0566
+    "apologetics": 0.04,
+    "deconstruction": 0.0569
    },
    "variance_bar": {
     "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
@@ -691,12 +608,95 @@
    }
   },
   {
-   "a": "evidence|0",
-   "b": "grace|0",
-   "delta": 0.0162,
+   "a": "accountability|2",
+   "b": "deconstruction|1",
+   "delta": 0.0161,
    "dist": {
-    "apologetics": 0.0658,
-    "deconstruction": 0.0495
+    "apologetics": 0.1129,
+    "deconstruction": 0.0968
+   },
+   "variance_bar": {
+    "reason": "apologetics has 1 creator(s) with both nodes (need >= 2); deconstruction has 1 creator(s) with both nodes (need >= 2)",
+    "status": "provisional"
+   }
+  },
+  {
+   "a": "evidence|0",
+   "b": "grace|1",
+   "delta": 0.0157,
+   "dist": {
+    "apologetics": 0.0666,
+    "deconstruction": 0.0823
+   },
+   "variance_bar": {
+    "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
+    "status": "provisional"
+   }
+  },
+  {
+   "a": "evidence|1",
+   "b": "love|0",
+   "delta": 0.0154,
+   "dist": {
+    "apologetics": 0.0963,
+    "deconstruction": 0.0809
+   },
+   "variance_bar": {
+    "bar": 0.0964,
+    "passes": false,
+    "status": "ok",
+    "within_side_spread": {
+     "apologetics": 0.0964,
+     "deconstruction": 0.0052
+    }
+   }
+  },
+  {
+   "a": "do-the-work|1",
+   "b": "grace|0",
+   "delta": 0.0153,
+   "dist": {
+    "apologetics": 0.046,
+    "deconstruction": 0.0612
+   },
+   "variance_bar": {
+    "reason": "apologetics has 1 creator(s) with both nodes (need >= 2); deconstruction has 1 creator(s) with both nodes (need >= 2)",
+    "status": "provisional"
+   }
+  },
+  {
+   "a": "deconstruction|0",
+   "b": "evidence|1",
+   "delta": 0.0152,
+   "dist": {
+    "apologetics": 0.0934,
+    "deconstruction": 0.0782
+   },
+   "variance_bar": {
+    "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",
+    "status": "provisional"
+   }
+  },
+  {
+   "a": "deconstruction|1",
+   "b": "do-the-work|1",
+   "delta": 0.0152,
+   "dist": {
+    "apologetics": 0.0694,
+    "deconstruction": 0.0542
+   },
+   "variance_bar": {
+    "reason": "apologetics has 1 creator(s) with both nodes (need >= 2); deconstruction has 1 creator(s) with both nodes (need >= 2)",
+    "status": "provisional"
+   }
+  },
+  {
+   "a": "evidence|1",
+   "b": "truth|0",
+   "delta": 0.0152,
+   "dist": {
+    "apologetics": 0.0665,
+    "deconstruction": 0.0513
    },
    "variance_bar": {
     "reason": "deconstruction has 1 creator(s) with both nodes (need >= 2)",

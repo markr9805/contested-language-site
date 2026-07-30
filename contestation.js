@@ -87,7 +87,12 @@ function renderDiscoveredSelection() {
   if (old) old.remove();
   const p = el("p", "disc-selection tip",
     `${sel.published} of ${fmt(sel.pool)} candidates · ranked by ${sel.ranked_by}`);
-  p.dataset.tip = sel.note || "";
+  // The bar ADMITS terms into this lane, so its specificity bounds every
+  // verdict shown here. Carried in the tooltip beside the selection note
+  // because both describe the same thing: what this list's rank does and does
+  // not mean. Exported data that nothing renders is not disclosure.
+  p.dataset.tip = [sel.note, state.discMeta.bar_specificity]
+    .filter(Boolean).join(" — ");
   host.append(p);
 }
 
@@ -116,7 +121,12 @@ function barChip(bar) {
     "ways of splitting these creators into the observed group sizes — how often " +
     "does a random split produce a cross-side gap this large? " +
     (passes
-      ? "Below threshold: creator-level variation does not explain a gap this size."
+      ? "Below threshold — but clearing it is NECESSARY, NOT SUFFICIENT. " +
+        "Measured 2026-07-29 by two independent runs: 65–75% of arbitrary " +
+        "words of comparable frequency also clear this bar, and profiles " +
+        "carrying no information about the word at all — only which creator " +
+        "used it and how often — clear it at 88%. The bar detects side-linked " +
+        "structure, much of which is topic and creator, not contested meaning."
       : "PROVISIONAL — creator-level variation explains a gap this size, so this is a proposal, not a community difference.");
   return chip;
 }

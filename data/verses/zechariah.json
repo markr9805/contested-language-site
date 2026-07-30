@@ -1,31 +1,6 @@
 {
  "book": "Zechariah",
  "verses": {
-  "Zechariah 10:12": {
-   "citations": [
-    {
-     "confidence": 0.7337,
-     "context": "However, if you go to bed side today, you're more likely to see dog walkers than a dog fight because of centrification. What they're doing is they're just buying out and cleaning out a neighborhood, and it's not right. Everything is going up sky high, and it's harder to live. So the way out is to fill the house, and they walk up and down the street. Some speak. Others walk past you like uh why are you here? But you got the stick, man. They don't think you like a magical Negro. See, it's wow how young white trust fund babies did exactly the thing the feds wanted them to do only 60 years.",
-     "creator": "lil-bill",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2023-11-05T18:00:09Z",
-     "role": "host",
-     "t": 943.04,
-     "title": "The Hood Is Dead. Long Live The Hood",
-     "video_id": "-fyonpxcyRE"
-    }
-   ],
-   "creators": {
-    "lil-bill": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And I will strengthen them in the LORD; and they shall walk up and down in his name, saith the LORD.",
-    "WEB": "I will strengthen them in the LORD. They will walk up and down in his name,” says the LORD."
-   },
-   "truncated": false
-  },
   "Zechariah 11:12": {
    "citations": [
     {
@@ -138,41 +113,51 @@
      "t": 3084.76,
      "title": "God vs. Satan: No Enemy But God! | Part 1",
      "video_id": "Sr6le1VWN-E"
+    },
+    {
+     "confidence": 0.6,
+     "context": "Zechariah 3, 1 and 2. It says, Then he showed me Joshua the high priest, standing before the angel of the Lord, and Satan standing at his right hand to accuse him. And the Lord said to Satan, The Lord rebuke you, O Satan.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-09-02T04:06:33Z",
+     "role": "host",
+     "t": 201.32,
+     "title": "Defenders LIVE! // The Names of Satan | The Doctrine of Creation pt 21",
+     "video_id": "TMg9ZnzRm2Y"
     }
    ],
    "creators": {
-    "mindshift": 1
+    "mindshift": 1,
+    "reasonable-faith-org": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "And he shewed me Joshua the high priest standing before the angel of the LORD, and Satan standing at his right hand to resist him.",
     "WEB": "He showed me Joshua the high priest standing before the LORD’s angel, and Satan standing at his right hand to be his adversary."
    },
    "truncated": false
   },
-  "Zechariah 4:6": {
+  "Zechariah 3:1-2": {
    "citations": [
     {
-     "confidence": 0.7337,
-     "context": "Saint Augustine would often say that God triumphs over Satan not by power, but by righteousness. Um if it were simply a matter of power, then the problem would be easily solved.",
+     "confidence": null,
+     "context": "He's called the devil and Satan. Revelation chapter 12 and verse 10 echoes Zechariah 3, verses 1 and 2 that we've already read. Revelation 12, 10. And I heard a loud voice in heaven saying, Now the salvation and the power and the kingdom of our God and the authority of his Christ have come.",
      "creator": "reasonable-faith-org",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-08-11T20:42:29Z",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-09-02T04:06:33Z",
      "role": "host",
-     "t": 784.92,
-     "title": "Did God Have to Pay Off the Devil?",
-     "video_id": "-sd8EHI9Chs"
+     "t": 804.52,
+     "title": "Defenders LIVE! // The Names of Satan | The Doctrine of Creation pt 21",
+     "video_id": "TMg9ZnzRm2Y"
     }
    ],
    "creators": {
     "reasonable-faith-org": 1
    },
    "n": 1,
-   "text": {
-    "KJV": "Then he answered and spake unto me, saying, This is the word of the LORD unto Zerubbabel, saying, Not by might, nor by power, but by my spirit, saith the LORD of hosts.",
-    "WEB": "Then he answered and spoke to me, saying, “This is the LORD’s word to Zerubbabel, saying, ‘Not by might, nor by power, but by my Spirit,’ says the LORD of Armies."
-   },
+   "text": {},
    "truncated": false
   }
  }
