@@ -73,12 +73,11 @@ function adaptDiscovered(concepts) {
 // curated term regardless of its bar. The discovered lane selects on the bar
 // before annotating (reading thousands of candidates with an LLM is not
 // feasible), so its chips only ever read as cleared — which is why the chip
-// leads with the q value rather than a pass/fail verdict that cannot vary.
-// B1: a discovered term's rank is a selection from a pool of thousands, ranked
-// by a significance-flavoured statistic with no multiplicity correction on the
-// ranking itself. The reliability gate is corrected (FDR); the ORDERING is not.
-// Saying so is cheaper and more honest than implying the top of the list is the
-// strongest signal rather than partly the luckiest draw.
+// leads with the measurement rather than a pass/fail verdict that cannot vary.
+// B1: a discovered term's rank is a selection from a pool of thousands. The
+// ADMISSION is gated (DESIGN §3's two legs); the ORDERING carries no correction
+// at all. Saying so is cheaper and more honest than implying the top of the
+// list is the strongest signal rather than partly the luckiest draw.
 function renderDiscoveredSelection() {
   const host = $("toggle-discovered")?.closest("label")?.parentElement;
   const sel = state.discMeta && state.discMeta.selection;
@@ -90,44 +89,102 @@ function renderDiscoveredSelection() {
   // The bar ADMITS terms into this lane, so its specificity bounds every
   // verdict shown here. Carried in the tooltip beside the selection note
   // because both describe the same thing: what this list's rank does and does
-  // not mean. Exported data that nothing renders is not disclosure.
-  p.dataset.tip = [sel.note, state.discMeta.bar_specificity]
+  // not mean. Exported data that nothing renders is not disclosure — which is
+  // why `rule` is rendered too: DESIGN §3 publishes a STATED selection rule in
+  // place of the retracted FDR guarantee, and a stated rule nobody is shown is
+  // not a disclosure either.
+  p.dataset.tip = [sel.rule, sel.note, state.discMeta.bar_specificity]
     .filter(Boolean).join(" — ");
   host.append(p);
+}
+
+// DESIGN §3's TWO-LEG bar, for both lanes (#112 pinned, #122 discovered).
+//
+// This read `bar.corrected ? FDR q=… : p=…` until 2026-07-30. Those fields
+// belonged to the superseded single-leg payload; `gate.two_leg_verdict`
+// carries `validity_p`, `percentile`, `pool_n`, `failed` and `thresholds`
+// instead, so the chip rendered `p=NaN` the moment either lane re-exported,
+// and its tooltip still asserted the single leg's 65–75%/88% figures as
+// though they described what the reader was looking at.
+//
+// Both legs are shown, because which one failed is the finding. Failing
+// validity means the gap is inside the spread among same-side creators;
+// failing specificity means the gap is real but ordinary for a word of this
+// frequency — a much more interesting thing to be told than "provisional".
+function pct(x) {
+  const v = Number(x) * 100;
+  return `${v < 1 ? v.toPrecision(2) : v.toFixed(1)}%`;
 }
 
 function barChip(bar) {
   if (!bar) return null;
   if (bar.status !== "ok") {
     const chip = el("span", "bar-chip unmeasured tip", "bar: unmeasured");
-    chip.dataset.tip = bar.reason || "the significance bar was not computed for this term";
+    chip.dataset.tip = (bar.reason ||
+      "the significance bar was not computed for this term") +
+      " — unmeasured is not a pass: there was no bar to clear.";
     return chip;
   }
   const passes = !!bar.passes;
-  // Lead with the measurement, not a verdict. In the discovered lane the gate
-  // selects on q BEFORE annotation, so a pass/fail label there could only ever
-  // read "clears the bar" — decorative. The number is what carries information
-  // and it is comparable across terms; colour still encodes the verdict for
-  // the pinned lane, which is not gated and can genuinely fail.
-  const value = bar.corrected
-    ? `FDR q=${Number(bar.q).toPrecision(2)}`
-    : `p=${Number(bar.p).toPrecision(2)}`;
-  const chip = el("span", `bar-chip ${passes ? "passes" : "provisional"} tip`, value);
-  chip.dataset.tip =
-    (bar.corrected
-      ? "Benjamini-Hochberg false-discovery rate across this run's terms. "
-      : "Uncorrected: this is a curated term, not selected from a ranking, so there is no selection effect to correct. ") +
-    `Exhaustive permutation over all ${Number(bar.assignments || 0).toLocaleString("en-US")} ` +
-    "ways of splitting these creators into the observed group sizes — how often " +
-    "does a random split produce a cross-side gap this large? " +
-    (passes
-      ? "Below threshold — but clearing it is NECESSARY, NOT SUFFICIENT. " +
-        "Measured 2026-07-29 by two independent runs: 65–75% of arbitrary " +
-        "words of comparable frequency also clear this bar, and profiles " +
-        "carrying no information about the word at all — only which creator " +
-        "used it and how often — clear it at 88%. The bar detects side-linked " +
-        "structure, much of which is topic and creator, not contested meaning."
-      : "PROVISIONAL — creator-level variation explains a gap this size, so this is a proposal, not a community difference.");
+  const failed = bar.failed || [];
+  const thin = !!bar.reduced_resolution;
+
+  // Lead with the measurement; colour encodes the verdict. `reduced` is in the
+  // LABEL rather than only the tooltip, on the same principle as the vintage
+  // chip's `current: false` — a reader who never hovers is exactly the reader
+  // who needs to know the pool was under-filled.
+  const label = `p=${Number(bar.validity_p).toPrecision(2)} · ` +
+    `top ${pct(bar.percentile)}${thin ? " · reduced" : ""}`;
+  const chip = el("span", `bar-chip ${passes ? "passes" : "provisional"} tip`, label);
+
+  const parts = [
+    "DESIGN §3's two-leg bar. Leg 1 (validity): an exhaustive permutation of a " +
+    "PERMANOVA pseudo-F over every way of splitting these creators into the " +
+    "observed group sizes, each creator counting once — does the cross-side gap " +
+    `exceed the spread among same-side creators? p=${Number(bar.validity_p).toPrecision(3)}. `,
+    "Leg 2 (specificity): where this term's divergence falls among " +
+    `${Number(bar.pool_n || 0).toLocaleString("en-US")} arbitrary words of the same ` +
+    `occurrence mass — top ${pct(bar.percentile)}, and it must be in the top ` +
+    `${pct((bar.thresholds || {}).specificity ?? 0.05)} to clear. `,
+  ];
+  if (thin) {
+    parts.push(
+      "REDUCED RESOLUTION: fewer than 40 same-mass peers exist for this term, " +
+      "so leg 2 is calibrated against a short pool. The band is reported short " +
+      "rather than widened, because widening it would answer a different " +
+      "question. ");
+  }
+  if (passes) {
+    parts.push(
+      "Both legs clear. Composite false-positive rate 3.1%, measured on 225 " +
+      "frequency-matched arbitrary words — against 74.7% for leg 1 alone, " +
+      "which is why leg 2 exists.");
+  } else if (failed.length === 1 && failed[0] === "specificity") {
+    parts.push(
+      "PROVISIONAL — side-linked, but within the range of ordinary " +
+      "same-frequency topic separation at this corpus size. The difference is " +
+      "real; what is not established is that it is about this word.");
+  } else if (failed.length === 1 && failed[0] === "validity") {
+    parts.push(
+      "PROVISIONAL — creator-level variation explains a gap this size, so this " +
+      "is a proposal, not a community difference.");
+  } else {
+    parts.push(
+      "PROVISIONAL — neither leg clears: the gap is inside same-side spread " +
+      "AND inside ordinary same-frequency topic separation.");
+  }
+  if (bar.caveat) parts.push(` ${bar.caveat}.`);
+
+  // The BH diagnostic, discovered lane only, explicitly not the verdict.
+  const d = bar.diagnostic;
+  if (d && d.perm_q != null) {
+    parts.push(
+      ` Diagnostic, NOT the gate: pooled permutation q=${Number(d.perm_q).toPrecision(2)}. ` +
+      `Its null is ${d.null || "different from the gate's"} — it answers a ` +
+      "different question and certifies far too much, so it is reported rather " +
+      "than relied on.");
+  }
+  chip.dataset.tip = parts.join("");
   return chip;
 }
 

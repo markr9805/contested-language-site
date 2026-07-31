@@ -8,8 +8,13 @@
  "terms": {
   "community": {
    "file": "community.json",
-   "profiles": 2,
-   "stale": 2
+   "profiles": 4,
+   "stale": 4
+  },
+  "deconstruction": {
+   "file": "deconstruction.json",
+   "profiles": 1,
+   "stale": 1
   },
   "evidence": {
    "file": "evidence.json",
@@ -18,13 +23,13 @@
   },
   "love": {
    "file": "love.json",
-   "profiles": 5,
-   "stale": 5
+   "profiles": 4,
+   "stale": 4
   },
   "truth": {
    "file": "truth.json",
-   "profiles": 2,
-   "stale": 2
+   "profiles": 4,
+   "stale": 4
   }
  }
 }

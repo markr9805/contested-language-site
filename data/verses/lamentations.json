@@ -29,6 +29,18 @@
   "Lamentations 3:38": {
    "citations": [
     {
+     "confidence": 0.8513,
+     "context": "That this is contradictory. You can't have Isaiah 45 7, where God creates the light and the dark, the good and the evil. And then say, oh yeah, but evil is actually just humans' faults or the devil's fault, not God's fault. Lamentations 338 says, Is it not from the mouth of the most high that good and bad come? Hello. Amos 3 6 says, Does disaster befall a city unless the Lord has done it? I get it. You're a Christian, you don't know what to do with these or the others that I just cited.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-05-31T14:00:36Z",
+     "role": "host",
+     "t": 675.52,
+     "title": "God Gets Credit, You Get Blame | The Rigged Math of Christianity",
+     "video_id": "6uPouoG4f5Q"
+    },
+    {
      "confidence": null,
      "context": "Has not the Lord caused it? Exodus 4 11. The Lord said to him, Who gave human beings their mouths? Who makes them deaf or mute? Who gives them sight or makes them blind? Is it not I the Lord? He wants credit for this stuff. Lamentations 3:38. Is it not the mouth of the Most High that both calamities and good things come? Do 32 39. See now that I myself am He. There is no God beside me. I put to death and I bring to life. I have wounded and I will heal, and no one can deliver out of my hand.",
      "creator": "mindshift",
@@ -42,12 +54,37 @@
     }
    ],
    "creators": {
-    "mindshift": 1
+    "mindshift": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Out of the mouth of the most High proceedeth not evil and good?",
     "WEB": "Doesn’t evil and good come out of the mouth of the Most High?"
+   },
+   "truncated": false
+  },
+  "Lamentations 3:41": {
+   "citations": [
+    {
+     "confidence": 0.7334,
+     "context": "There's conviction and awe in their voice as they thank God for his blessings and ask him to reveal himself in this service. An amen punctuates their prayer, and the lyrics of the next song begin. They're different this time, more vulnerable. The people surrounding you match the song's emotional, introspective tone, and some raise their hands to God in love and praise. Forget any shyness or tiredness you may have brought into the service. You're feeling God's presence now. Your reservations, your stubbornness melts away, and you open your heart to what God has to show you.",
+     "creator": "genetically-modified-skeptic",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2021-04-28T16:00:03Z",
+     "role": "host",
+     "t": 139.88,
+     "title": "Church Services Are Designed to Influence You. Here’s How",
+     "video_id": "7btz0ocXDeg"
+    }
+   ],
+   "creators": {
+    "genetically-modified-skeptic": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Let us lift up our heart with our hands unto God in the heavens.",
+    "WEB": "Let’s lift up our heart with our hands to God in the heavens."
    },
    "truncated": false
   },
@@ -73,6 +110,31 @@
    "text": {
     "KJV": "Thou hast covered thyself with a cloud, that our prayer should not pass through.",
     "WEB": "You have covered yourself with a cloud, so that no prayer can pass through."
+   },
+   "truncated": false
+  },
+  "Lamentations 3:66": {
+   "citations": [
+    {
+     "confidence": 0.6154,
+     "context": "Return for the sake of your servants, the tribes that are your inheritance. Even Isaiah understands what's happening here. And by the way, he's confused about it. He's confused by the very message and actions of this same God. In Lamentations, we get put a veil over their hearts, and may your curse be on them, pursue them in anger and destroy them from under the heavens, Lord. So to be fair, this is Jeremiah calling for this. But how funny that he knows this is what's in God's playbook. He saw it plenty himself, and now he wants to use this God of confusion to his advantage.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-09-15T14:00:20Z",
+     "role": "host",
+     "t": 746.64,
+     "title": "A God of Confusion: Give Me 21 Minutes, and I'll Prove It with 33 Verses!",
+     "video_id": "IKiqnDx5JMA"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Persecute and destroy them in anger from under the heavens of the LORD.",
+    "WEB": "You will pursue them in anger, and destroy them from under the heavens of the LORD."
    },
    "truncated": false
   }

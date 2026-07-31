@@ -3,8 +3,8 @@
     "caveat": "DISCLOSED, NOT CERTIFIED (spec \u00a74.3, \u00a710.7): sides run off seed affinities;\nthe deconstruction side is Darante-dominated, so candidates are contested\nbetween Darante and the apologetics ensemble -- NOT two full communities.\nThis report PROPOSES into the watchlist; promotion into lexicon.json is the\nauthor's to make (\u00a77, \u00a78). It never edits the lexicon or extraction scope.\n\nTHE BAR IS NOT SPECIFIC (measured 2026-07-29, two independent runs):\n65-75% of arbitrary words of comparable frequency clear the same bar, and\nsynthetic profiles carrying no information about the word -- only which\ncreator used it and how often -- clear it at 88%. False-positive rate RISES\nwith occurrence mass (49% below 600 occurrences, 84% at 4,000-10,000), and\nthe pinned terms sit in the 1,800-18,500 band. Clearing the bar is\nNECESSARY, NOT SUFFICIENT: it detects side-linked structure, much of which\nis topic and creator rather than contested meaning. Full measurements and\nthe candidate remedies in docs/research/2026-07-29-bar-specificity-*.md;\nno remedy is adopted yet, so every verdict here rests on the bar as it is.",
     "model": "openai:mlx-community/gpt-oss-20b-MXFP4-Q8:v2",
     "ranking_version": "concept-floor-v1",
-    "corpus_host_words": 16286816,
-    "generated_at": "2026-07-30T03:41:39Z"
+    "corpus_host_words": 16912376,
+    "generated_at": "2026-07-31T03:53:16Z"
   },
   "terms": [
     {
@@ -13,59 +13,150 @@
       "bar": {
         "status": "ok",
         "passes": false,
-        "p": 0.08550977746024185,
-        "q": null,
-        "corrected": false,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, uncorrected",
-        "reason": "the cross-side difference is not reliable across creators at p<0.05 (uncorrected: a curated term, not selected from a ranking) \u2014 reported as a provisional community claim"
+        "failed": [
+          "validity",
+          "specificity"
+        ],
+        "validity_p": 0.34702706993728666,
+        "percentile": 0.9,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": "neither leg clears: the gap is inside same-side spread AND inside ordinary same-frequency topic separation"
       },
       "bar_corpus": {
-        "measured_at": "2026-07-27T15:02:59Z",
-        "bar_hash": "9af4e15e78c9e9deec2d5093",
+        "measured_at": "2026-07-31T03:10:46Z",
         "corpus": {
-          "videos": 5472,
-          "fingerprint": "sha256:139390115fb34c3a856f42220691430c"
+          "videos": 6730,
+          "fingerprint": "sha256:998a745c6d7131f9ee6b0603477ff267",
+          "covers": "ids+content"
         },
-        "lines": {
-          "apologetics": 259,
-          "deconstruction": 514
+        "mass": 3788,
+        "observed": 0.06534714763569152,
+        "pool": [
+          "heard",
+          "level",
+          "white",
+          "face",
+          "goal",
+          "testament",
+          "secular",
+          "four",
+          "felt",
+          "requir",
+          "self",
+          "form",
+          "includ",
+          "explain",
+          "men",
+          "logic",
+          "lord",
+          "realiti",
+          "nobodi",
+          "imagin",
+          "punish",
+          "resurrect",
+          "hell",
+          "control",
+          "children",
+          "write",
+          "freedom",
+          "entir",
+          "save",
+          "origin",
+          "sorri",
+          "process",
+          "hand",
+          "everyon",
+          "ago",
+          "later",
+          "room",
+          "told",
+          "debat",
+          "biblic"
+        ],
+        "peer_observed": {
+          "heard": 0.07803695845130079,
+          "level": 0.10838897716292144,
+          "white": 0.18835747637762387,
+          "face": 0.08425881431659596,
+          "goal": 0.16644148317079344,
+          "testament": 0.051688307810065906,
+          "secular": 0.237366482036872,
+          "four": 0.09903673127664762,
+          "felt": 0.10587959946597725,
+          "requir": 0.13877560708301273,
+          "self": 0.18834506121093025,
+          "form": 0.12717848815769217,
+          "includ": 0.09323007428156495,
+          "explain": 0.06170086583431907,
+          "men": 0.0907125331915324,
+          "logic": 0.1319672196648485,
+          "lord": 0.06735908040406374,
+          "realiti": 0.1325404391803921,
+          "nobodi": 0.11443478158250694,
+          "imagin": 0.07179625335958773,
+          "punish": 0.19921998144855727,
+          "resurrect": 0.09217635138225375,
+          "hell": 0.14540532526596708,
+          "control": 0.13592381284546484,
+          "children": 0.0909666534214695,
+          "write": 0.09540708905075879,
+          "freedom": 0.2159069583652276,
+          "entir": 0.09483969911458505,
+          "save": 0.12342964849586593,
+          "origin": 0.12624856700221299,
+          "sorri": 0.0842347917151883,
+          "process": 0.12948205510337668,
+          "hand": 0.06782261340529187,
+          "everyon": 0.09827520756158095,
+          "ago": 0.05400599247121439,
+          "later": 0.058415636512421903,
+          "room": 0.10321718481968298,
+          "told": 0.07491716636309007,
+          "debat": 0.07804914483730148,
+          "biblic": 0.09258246668039558
         },
         "params": {
           "max_vocab": 200,
-          "max_q": 0.05,
+          "window": 5,
+          "band": 1.4142135623730951,
+          "pool_size": 40,
+          "validity_threshold": 0.05,
+          "specificity_threshold": 0.05,
           "include_duplicates": false
         },
-        "note": "the per-creator collocate profiles this bar was computed from are frozen alongside it, so the p reproduces exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's evidence, which is a new measurement under a new vintage.",
+        "note": "the per-creator collocate profiles AND the peer pool this bar was computed from are frozen alongside it, so both legs reproduce exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's corpus, which is a new measurement under a new vintage.",
         "frozen": true,
-        "current": false,
-        "stale_note": "the evidence for this term has changed since the bar was measured, so this p describes the earlier body recorded above, not the lines shown on this page. It is not silently re-measured, because a published figure that moves on re-run is the defect this freeze exists to prevent; `contested framing --rescan` takes a new measurement under a new vintage."
+        "current": true
       },
       "apologetics": {
-        "text": "The apologetics lines frame accountability as a positive, supportive practice for spiritual growth and mutual responsibility within the church community.",
+        "text": "They use accountability as a positive, communal responsibility within Christian practice, emphasizing oversight, accountability partners, and moral responsibility.",
         "quotes": [
           {
-            "context": "I really have always been a curious person. I'm I'm an avid reader, I read about a book a week. You know, I I love to read, I love to learn, I love to know. I want to know things as much as we we can know. There are clearly a lot of unknowns, but if there's something that we can know, I want to know it. And that's what led me away. So I didn't jump out of being a cult leader in a religion to say, hey, I'm gonna jump out now be a cult leader for non-religion.",
-            "creator": "apostate-aladdin"
+            "context": "They hide. This is why we have difficulty in community. This is why we don't trust each other at church. This is why we don't trust people in our homes. This is why we hide from each other in small groups. We hide from each other by resisting accountability. We hide from each other by running from discipleship or leadership. We are so afraid for people to see what we look like with our loinclaws off. The death God said would happen that day they ate the fruit.",
+            "creator": "jackie-hill-perry"
           },
           {
-            "context": "But he died for your sins. And if you just love him and do whatever the fuck he asks you to do, then you technically won't be a fuck up anymore because he'll be the one keeping you from fucking up. All of this is horrible and robs people of their own fucking capacity, and not just of their own capacity.",
-            "creator": "darante-lamar"
+            "context": "You have to pray for your pastor. I mean, it's not a consumer back to that thing, it's not a consumer mentality, it's what can I contribute to the church and what can I contribute to the person who has oversight over my soul, namely in terms of prayer and support and even accountability, recognizing they're a human too.",
+            "creator": "jude-3-project"
           }
         ]
       },
       "deconstruction": {
-        "text": "The deconstruction lines critique accountability as a tool that can be misused for control, highlight its absence in certain contexts, and question its effectiveness in fostering genuine responsibility.",
+        "text": "They frame accountability as a critique of religious or institutional systems, highlighting its absence or misuse, and portraying it as a tool of control or a point of failure.",
         "quotes": [
           {
-            "context": "Today, we're gonna be having a little bit of conversation on my quick thoughts on salvation. This is gonna be interesting. Before we jump into this, go ahead and make sure to like the video, subscribe to the channel, hit that alert notification bell. Consider joining our community either on Patreon or through the YouTube membership program, or we're also on Discord. And also check out our merch. We have some pretty dope merch. And if you're interested in volunteering, hold at your boy. We have forms everywhere. Find one and fill it out.",
-            "creator": "darante-lamar"
+            "context": "Boy, I sure am glad I decided to become an atheist. Now that I've denied God in my heart, I can act however I want with no accountability. Boy, this is going to be great. Then do the same with the kidneys. Yep, there you go. Then the liver. Oh, so just like with the fellowship offering, right?",
+            "creator": "prophet-of-zod"
           },
           {
-            "context": "What about the people that he stoned that didn't get a say that got done wrong by him? Where does their, I guess you would say their justice come in? Because nobody deserves heaven, nobody. It's all grace. The justice fell on Jesus, not on Paul, not on me, not on you, not on anyone. That's the beauty of the gospel. That's one of the reasons that Elisa just said she found it beautiful.",
-            "creator": "cross-examined"
+            "context": "Tonight, a controversial author in Seattle pastor, hoping the valley will become home to his newest venture. ABC 15's Nick Manzant is following the story, and Nick, Mark Driscoll not making any mention of his controversial past with his old church. No, only thing that he is saying is that he wants to have a new start here in the valley, but this time without any accountability, where he is in charge and he makes all the rules. Apparently, one of those rules involved kicking out the family of a teenage boy who kissed his teenage daughter and telling the rest of the church to shun this family.",
+            "creator": "belief-it-or-not"
           }
         ]
       }
@@ -80,150 +171,330 @@
     },
     {
       "phrase": "community",
-      "verdict": "contested",
+      "verdict": "mixed",
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.0031092058955836045,
-        "q": null,
-        "corrected": false,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, uncorrected",
+        "failed": [],
+        "validity_p": 0.009023312428885185,
+        "percentile": 0.0,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
         "reason": null
       },
       "bar_corpus": {
-        "measured_at": "2026-07-27T15:02:41Z",
-        "bar_hash": "10f0581f829630d74fc8ffe3",
+        "measured_at": "2026-07-31T03:10:44Z",
         "corpus": {
-          "videos": 5472,
-          "fingerprint": "sha256:139390115fb34c3a856f42220691430c"
+          "videos": 6730,
+          "fingerprint": "sha256:998a745c6d7131f9ee6b0603477ff267",
+          "covers": "ids+content"
         },
-        "lines": {
-          "apologetics": 625,
-          "deconstruction": 14564
+        "mass": 18257,
+        "observed": 0.15883199947347273,
+        "pool": [
+          "work",
+          "give",
+          "help",
+          "new",
+          "feel",
+          "veri",
+          "religion",
+          "show",
+          "try",
+          "question",
+          "live",
+          "point",
+          "ask",
+          "part",
+          "person",
+          "look",
+          "back",
+          "two",
+          "stori",
+          "world",
+          "man",
+          "year",
+          "much",
+          "differ",
+          "life",
+          "love",
+          "human",
+          "exist",
+          "call",
+          "tell",
+          "reason",
+          "book",
+          "still",
+          "word",
+          "through",
+          "happen",
+          "first",
+          "again",
+          "lot",
+          "church"
+        ],
+        "peer_observed": {
+          "work": 0.09322179066227271,
+          "give": 0.06944662644948617,
+          "help": 0.07679733680305972,
+          "new": 0.10630440674959024,
+          "feel": 0.03360078142899886,
+          "veri": 0.04110364661754173,
+          "religion": 0.10912360272008512,
+          "show": 0.08680387356031598,
+          "try": 0.03526101257393273,
+          "question": 0.047074024233427825,
+          "live": 0.06476981053145231,
+          "point": 0.047116088949390025,
+          "ask": 0.04330813549759104,
+          "part": 0.06754210315586046,
+          "person": 0.11970998581448734,
+          "look": 0.048889584280115445,
+          "back": 0.04881888228476412,
+          "two": 0.05250366279447445,
+          "stori": 0.05726779383340632,
+          "world": 0.09678184433679209,
+          "man": 0.13339280970037182,
+          "year": 0.027627713996386034,
+          "much": 0.05886421103778473,
+          "differ": 0.038564298191187375,
+          "life": 0.0930576026987639,
+          "love": 0.07660047816396867,
+          "human": 0.11037992165476482,
+          "exist": 0.10123149822849267,
+          "call": 0.07322486950512525,
+          "tell": 0.04703295557273606,
+          "reason": 0.06025449223153491,
+          "book": 0.05738147491356576,
+          "still": 0.047453180821429464,
+          "word": 0.0764528148207677,
+          "through": 0.09143033219131608,
+          "happen": 0.02828968515549408,
+          "first": 0.06034548516862964,
+          "again": 0.05420029872028241,
+          "lot": 0.03677616432721054,
+          "church": 0.10089416401737529
         },
         "params": {
           "max_vocab": 200,
-          "max_q": 0.05,
+          "window": 5,
+          "band": 1.4142135623730951,
+          "pool_size": 40,
+          "validity_threshold": 0.05,
+          "specificity_threshold": 0.05,
           "include_duplicates": false
         },
-        "note": "the per-creator collocate profiles this bar was computed from are frozen alongside it, so the p reproduces exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's evidence, which is a new measurement under a new vintage.",
+        "note": "the per-creator collocate profiles AND the peer pool this bar was computed from are frozen alongside it, so both legs reproduce exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's corpus, which is a new measurement under a new vintage.",
         "frozen": true,
-        "current": false,
-        "stale_note": "the evidence for this term has changed since the bar was measured, so this p describes the earlier body recorded above, not the lines shown on this page. It is not silently re-measured, because a published figure that moves on re-run is the defect this freeze exists to prevent; `contested framing --rescan` takes a new measurement under a new vintage."
+        "current": true
       },
       "apologetics": {
-        "text": "Apologetics lines use \"community\" to refer to religious or faith\u2011based groups, emphasizing belonging and spiritual identity.",
+        "text": "Apologetics lines use \"community\" to refer to groups of believers or professionals, framing it as a positive, targetable, or supportive group.",
         "quotes": [
           {
-            "context": "And I I remember I remember reading that stuff earlier, thinking, like, what in the world is happening here? Uh but Solomon people tend to have a love-hate relationship with Solomon in the same way they do with Joseph. Um they they they both seem to suffer the same sin of diversity. Yeah, yeah. Oh, only Solomon took his diversity to extremes.",
-            "creator": "darante-lamar"
+            "context": "But for others, the idea that they may have to spend their entire life with only Jesus and his church is an idea to be rejected at all costs. Jesus has made us for community, for relationship. He is by nature a God of community, one God and three distinct persons. So to want a relationship is how he made you. It's natural, just like being hungry is natural, but Satan will consistently leverage what is natural to bait you into what is sinful.",
+            "creator": "jackie-hill-perry"
           },
           {
-            "context": "Apologetics and academic theology are often treated as though they are essential to Christianity, but in functional Christianity, they're usually peripheral. The average believer is not living inside of arguments. They're living inside experiences, identities, relationships, habits, symbols, and communities. In other words, functional Christianity doesn't need to be coherent to be compelling. But now let's talk about why apologetics don't actually have a real home in functional Christianity.",
-            "creator": "darante-lamar"
+            "context": "They're waiting for their Messiah, they're not sure who it's gonna be. And as we read the the New Testament writings, we see they were kind of even surprised about Jesus. They weren't sure. They were, you know. But what happened is there's here's this monotheistic Jewish community, and overnight, I mean, in a staggering fashion, a whole bunch of Jewish people began to believe that Jesus was their Messiah, and not just that, that he was divine, that he was God incarnate.",
+            "creator": "jude-3-project"
+          },
+          {
+            "context": "And there are even indications on the cutting edge of physics today, that a Lorentzian view may be preferable in light of recent discoveries. In fact, due to developments in quantum physics, there has been what one participant in the debate has called a sea change in the attitude of the physics community toward Laurentian relativity. Again, none of this proves that Newton was right in thinking that God is in time.",
+            "creator": "drcraigvideos"
+          },
+          {
+            "context": "Notice that the context here is not the Last Supper. This is a discourse that Jesus gives during the time of his ministry. Jesus isn't talking about the Eucharist. But suppose someone says this passage represents later Johannine theology, that this passage represents the early church's theology in John's community. They are looking back on Jesus' life and describing the Eucharist as they practiced it.",
+            "creator": "reasonable-faith-org"
+          },
+          {
+            "context": "However, as a pastor in a church and someone who teaches at seminaries, I don't see the motivation of evangelical Christians to make it happen that fast. And I think one of the roles that reasonable faith has, and a role that reasons to believe has, what can we do to stimulate that kind of motivation within the evangelical community? So instead of it happening a thousand years from now or 10,000 years from now, it happens, say 15 years from now.",
+            "creator": "reasonable-faith-org"
           }
         ]
       },
       "deconstruction": {
-        "text": "Deconstruction lines use \"community\" to refer to secular or social groups, often highlighting political, cultural, or identity\u2011based affiliations.",
+        "text": "Deconstruction lines use \"community\" to refer to groups of people, but often with a mixed or negative framing, highlighting manipulation, loss, or support.",
         "quotes": [
           {
-            "context": "By continually assigning the church a role it has not earned, we failed to develop new institutions capable of addressing the real economic, psychological, and civic needs of black people in the 21st century. Younger generations who are increasingly non religious and looking for secular spaces of belonging are left without meaningful community structures because so much energy is still funneled into maintaining the illusion of the church's centrality.",
+            "context": "And that bulldozer of deconstruction just really kept going for me. I was losing my sense of self, my identity, my belonging. I certainly was losing my community, my marriage, all my friends, all my family, my Mormon community. And I also was getting out into the weeds as far as losing sense of free will until I entered this place that we now call the void or existential crisis or nihilism or existential depression where there was nothing left.",
+            "creator": "britt-hartley"
+          },
+          {
+            "context": "The next part of this toolkit, adopt robust methods. Timestamp documentation. Require every prophecy to be written down, dated, and publicly posted before its window of fulfillment. Archive it in an immutable medium, a community bulletin, blockchain record, even a notarized letter. Define the falsifiable criteria. Demand specificity. Who, what, when, where? Set a clear deadline of conditions. By what time will this happen?",
             "creator": "darante-lamar"
           },
           {
-            "context": "And to me, what you said earlier, I think like the Exodus is a similar example. Like if you asked uh Egyptologists and other critical scholars, what are they going to say about the Exodus? I think even someone like Hoffmeier, who has a excellent work or Kitchen, excellent work on the Exodus, would never say, Oh, yeah, we can prove the Exodus from archaeological evidence alone. It's a high bar. They're not going to be able to do that. But they would say it's consistent, and they might say, look, we look at the facts of history during this period in you know 14th century BC Egypt and later on Israeli Israel Israelite history, it's just the Exodus, its origins are unclear, but the Bible makes clear its origins in this happening.",
-            "creator": "counsel-of-trent"
+            "context": "Having a grounded place to put your hope can produce an antidote to nihilism. Sure. But then they attach that to God. It doesn't have to be God. Or people that attend church regularly have fewer rates of suicide attempt. Yeah, they're in community. There are good things about religion, but we need to be careful when we look at what's producing what and why. And what I see here clearly with the abuse of these children and the long-term effects that it will have for many of them is crystal clear and a hundred percent avoidable.",
+            "creator": "mindshift"
+          },
+          {
+            "context": "You're not. You're not. You're not. You're not. But MLMs take this to the extreme. Because that's what they're selling. They're selling the community around it, they're selling a false dream. It's all of course it's Christian. They're selling the false dream and they're selling a community. That's all it is. It's just one way to make you invest yourself more into it and make it harder for you to get out of it. Yeah. Because you feel like you're not just let it you're not walking away from a business opportunity.",
+            "creator": "belief-it-or-not"
           }
         ]
       }
     },
     {
       "phrase": "deconstruction",
-      "verdict": "contested",
+      "verdict": "convergent",
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.0014686036357862984,
-        "q": null,
-        "corrected": false,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, uncorrected",
+        "failed": [],
+        "validity_p": 0.0015876796062554576,
+        "percentile": 0.0,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
         "reason": null
       },
       "bar_corpus": {
-        "measured_at": "2026-07-27T15:03:21Z",
-        "bar_hash": "6e29a48274f1682a125cb571",
+        "measured_at": "2026-07-31T03:10:47Z",
         "corpus": {
-          "videos": 5472,
-          "fingerprint": "sha256:139390115fb34c3a856f42220691430c"
+          "videos": 6730,
+          "fingerprint": "sha256:998a745c6d7131f9ee6b0603477ff267",
+          "covers": "ids+content"
         },
-        "lines": {
-          "apologetics": 21,
-          "deconstruction": 880
+        "mass": 2152,
+        "observed": 0.3916358120293379,
+        "pool": [
+          "express",
+          "similar",
+          "fun",
+          "peter",
+          "goal",
+          "recent",
+          "felt",
+          "anti",
+          "requir",
+          "serv",
+          "weird",
+          "david",
+          "born",
+          "reject",
+          "behavior",
+          "apologet",
+          "eventu",
+          "nobodi",
+          "abil",
+          "govern",
+          "brother",
+          "sign",
+          "imagin",
+          "allah",
+          "respect",
+          "pretend",
+          "date",
+          "water",
+          "evangel",
+          "apologist",
+          "educ",
+          "interact",
+          "simpl",
+          "total",
+          "propheci",
+          "train",
+          "justifi",
+          "marriag",
+          "danger",
+          "freedom"
+        ],
+        "peer_observed": {
+          "express": 0.17853135196980155,
+          "similar": 0.09191324803786542,
+          "fun": 0.14782759865937578,
+          "peter": 0.12684998153574317,
+          "goal": 0.16644148317079344,
+          "recent": 0.09458063306091666,
+          "felt": 0.10587959946597725,
+          "anti": 0.22546430677930956,
+          "requir": 0.13877560708301273,
+          "serv": 0.1258756412609512,
+          "weird": 0.08357249738500988,
+          "david": 0.2756182398292002,
+          "born": 0.15740905580356185,
+          "reject": 0.11891483374890677,
+          "behavior": 0.16426559417556796,
+          "apologet": 0.15788239845686508,
+          "eventu": 0.12853209904606022,
+          "nobodi": 0.11443478158250694,
+          "abil": 0.20044526193052004,
+          "govern": 0.14180326327748932,
+          "brother": 0.09589645304409497,
+          "sign": 0.1465331531074428,
+          "imagin": 0.07179625335958773,
+          "allah": 0.19990026121922383,
+          "respect": 0.15818637696366922,
+          "pretend": 0.26957071402332367,
+          "date": 0.12797175653542286,
+          "water": 0.13338851992359424,
+          "evangel": 0.14453514835929865,
+          "apologist": 0.2103530144051351,
+          "educ": 0.19152891347543027,
+          "interact": 0.16525307529757793,
+          "simpl": 0.1066721896286173,
+          "total": 0.08051954787355325,
+          "propheci": 0.16659240085424248,
+          "train": 0.2351816427422954,
+          "justifi": 0.18349538529765752,
+          "marriag": 0.09755836731250092,
+          "danger": 0.20366835914768983,
+          "freedom": 0.2159069583652276
         },
         "params": {
           "max_vocab": 200,
-          "max_q": 0.05,
+          "window": 5,
+          "band": 1.4142135623730951,
+          "pool_size": 40,
+          "validity_threshold": 0.05,
+          "specificity_threshold": 0.05,
           "include_duplicates": false
         },
-        "note": "the per-creator collocate profiles this bar was computed from are frozen alongside it, so the p reproduces exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's evidence, which is a new measurement under a new vintage.",
+        "note": "the per-creator collocate profiles AND the peer pool this bar was computed from are frozen alongside it, so both legs reproduce exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's corpus, which is a new measurement under a new vintage.",
         "frozen": true,
-        "current": false,
-        "stale_note": "the evidence for this term has changed since the bar was measured, so this p describes the earlier body recorded above, not the lines shown on this page. It is not silently re-measured, because a published figure that moves on re-run is the defect this freeze exists to prevent; `contested framing --rescan` takes a new measurement under a new vintage."
+        "current": true
       },
       "apologetics": {
-        "text": "They frame \u2018deconstruction\u2019 as a negative, problematic process of questioning faith that should be avoided or replaced by construction.",
+        "text": "Apologetics lines use 'deconstruction' to refer to the dismantling or revision of Christian beliefs, often framed negatively.",
         "quotes": [
           {
-            "context": "That was another point I wanted to mention about Abdullah. He may be an antichrist, he's just not the antichrist. Um, therefore we know it is the last hour. They went out from us, so these antichrists were originally part of the Christian community. Um they went out from us, but they were not of us. For if they had been of us, they would have continued with us, but they went out that it might become plain that they are not that they all are not of us.",
-            "creator": "capturing-christianity"
+            "context": "Perhaps we should define deconstruction as it is most often presented in social media for those who are unfamiliar with the term. Well, I think as it's most often presented, Kevin, Christian deconstruction involves the revision or the dismantling of one's system of Christian beliefs.",
+            "creator": "reasonable-faith-org"
           },
           {
-            "context": "So doing our best requires exploring our best. And that's something that no one else can answer for but ourselves. Uh, but we can have, but we have to do the work and do it right first before even hoping to understand uh what it means to be our best in any country. You'll never know what it means to do your best as a basketball player if you don't spend time doing the drills and doing them right.",
-            "creator": "darante-lamar"
+            "context": "question is what is the truth and I am not in the least interested in deconstructing someone's faith I'm interested in constructing a Christian world and life view that is biblically coherent and uh in accord with the best philosophical scientific historical psychological facts that we know and so I think the whole project of building a Christian world and life view is one of construction not deconstruction",
+            "creator": "drcraigvideos"
           },
           {
-            "context": "See, see, that's so good. Because that fits not just with our religious deconstruction. That fits again. It's no good to recognize the harm in religion if we can't recognize it in our other relationships. And that's just the perfect way to say that. That cultural authority is focused on the youth. Absolutely. The peer pressure is strong.",
-            "creator": "darante-lamar"
-          },
-          {
-            "context": "If you don't know, like, mm-mm, I'm not informed to speak on this. This is this is not something I just speak on it. And and the fact that you have an opinion about it says more about what you hate about yourself than it says anything else. You know what I'm saying? No, no, I'm I'm gonna tell the truth and shame the fucking devil. No, I remember how many women in the church world would be all upset about other young ladies who was out there getting a swerve on, and finally it occurred to me, your old ass is jealous.",
-            "creator": "darante-lamar"
-          },
-          {
-            "context": "Um, so I would recommend his work and the work of others, uh like Alfred North Whitehead, who were kind of the pioneers in this more science-friendly modern version of God. It didn't end up holding up for me in the end, uh, but fabulous community, amazing people, pretty pretty good theology, like really well thought-out theology. Uh, so you might want to check him out. His name is Thomas J. Ord.",
-            "creator": "britt-hartley"
+            "context": "And then for him to deny, not just like the way Peter denied, but to the point where he hangs himself. Like that's um, you're like, how do you get from that experience to then walking away? Major deconstruction of your faith, right? I would say Jesus might be the poster child of deconstruction. And so, you know, how do you what happened? And you know, I was praying the other day, I think a part of part of me, I'm not a five-point Calvinist, I'm not like a 4.99, I would say. And um, his sovereignty is something that we cannot deny.",
+            "creator": "jude-3-project"
           }
         ]
       },
       "deconstruction": {
-        "text": "They describe \u2018deconstruction\u2019 as a personal, reflective process of breaking down and analyzing faith, often as a journey toward new understanding.",
+        "text": "Deconstruction lines use 'deconstruction' to describe the personal process of breaking down one's faith or identity, framed as a journey of questioning and leaving faith.",
         "quotes": [
           {
-            "context": "Why is he criticizing you? Because I know. You know, but by his logic, you're just, you're loving by doing what you want. Yeah. Which is to write this book. Yeah, that's right. Yeah. And he also charged me with not following the uh the love commandment, uh, the second greatest commandment, Leviticus 19, 18. But of course, I I had to point out to him that uh he did not see a difference between that love commandment and special commandments having to do with sex, sexual ethics.",
-            "creator": "cross-examined"
+            "context": "Taylor said that the family would need to talk to me directly about that. This made a conversation about my faith inevitable. I'd been hiding my deconstruction for a year at that point, so I decided to finally be honest. That did not go well, and suffice to say I was belittled, harassed, and manipulated straight away. In 2017, I started this channel just to have a place to share and process my new secular thoughts.",
+            "creator": "genetically-modified-skeptic"
           },
           {
-            "context": "Yeah, yeah. Like and also love means that somebody needed to die so that you could deserve it. Like all of that creates this idea of what love is that I think can make people less loving, but really believe that they are loving, because to them, love is saving people from almost definite destruction from the person who loves you and them the most.",
-            "creator": "shannon-q"
+            "context": "It is important to try to figure out if what you believe is actually true, or at least that you are actually convinced enough that it's true to dedicate your life to it. Now, deconstruction, if you don't know, it's a modern idea in sort of the neo-Christian liberal evangelical churches that are flirting with a lot of worldly ideas. The idea is that you're breaking down your faith into a set of doctrines, and then you analyze those doctrines to determine their truth value or lack thereof.",
+            "creator": "belief-it-or-not"
           },
           {
-            "context": "But it fing pisses me the hell off when broadcasts like this encourage parents to present this to developing children as an example of rational thinking. And so philosophers have grappled with this for hundreds, thousands of years, probably, and that's something that ultimately we can't say exactly why. We can't we don't have the mind of God, but we can come to these intellectually satisfying answers of saying, I don't have every possible answer, but I can say that God wants us to freely love him. In other words, I don't have every answer, but also here's an assertion about something I don't really know.",
-            "creator": "prophet-of-zod"
-          },
-          {
-            "context": "And if you're ready to be a part of something like that, we'd love to have you a part of this community. We'd love to have you helping out with what we do. We'd love to have you investing and supporting. We love to have you promoting events. We love to have you leading events. You could be here leading a group, helping somebody deal with maybe, maybe you've dealt with divorce, maybe you dealt with losing a child, maybe you dealt with losing your family after religion. Maybe you've dealt with things that you have some experience and some expertise in, and somebody else can be can benefit from your story.",
-            "creator": "darante-lamar"
-          },
-          {
-            "context": "Accountability disappears upward because leaders act as enforcers of divine threat rather than ethical stewards. Power is insulated, not examined. This structure also protects authority from critique. If suffering follows disobedience, then questioning leadership can always be refrained as the cause of harm. Violence, exclusion, execution, and loss are not failures of governance, they're proof that someone broke the rules.",
-            "creator": "darante-lamar"
+            "context": "You don't have to be non-religious now to do it. If you went through a major religious change, especially from an oppressive or harmful sect to something more progressive, I still invite you to do it. Then if you feel comfortable doing so, share your letter online. There are a lot of people going through the deconstruction of their own faith in silent agony. And if we have the opportunity to help them forgive themselves for asking questions and feel like they're not alone in their journey, then I think we should take it. I'm going to start a hashtag on Twitter so we can all support each other in writing and posting these letters.",
+            "creator": "genetically-modified-skeptic"
           }
         ]
       }
@@ -234,83 +505,150 @@
       "bar": {
         "status": "ok",
         "passes": false,
-        "p": 0.0807070466513191,
-        "q": null,
-        "corrected": false,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, uncorrected",
-        "reason": "the cross-side difference is not reliable across creators at p<0.05 (uncorrected: a curated term, not selected from a ranking) \u2014 reported as a provisional community claim"
+        "failed": [
+          "validity"
+        ],
+        "validity_p": 0.21829436902966315,
+        "percentile": 0.0,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": "the cross-side gap does not exceed the spread among same-side creators",
+        "caveat": "scored against same-mass UNIGRAM peers; typed n-gram pools are #118"
       },
       "bar_corpus": {
-        "measured_at": "2026-07-27T15:04:18Z",
-        "bar_hash": "f6599926854dd73addef87bb",
+        "measured_at": "2026-07-31T03:10:51Z",
         "corpus": {
-          "videos": 5472,
-          "fingerprint": "sha256:139390115fb34c3a856f42220691430c"
+          "videos": 6730,
+          "fingerprint": "sha256:998a745c6d7131f9ee6b0603477ff267",
+          "covers": "ids+content"
         },
-        "lines": {
-          "apologetics": 37,
-          "deconstruction": 540
+        "mass": 596,
+        "observed": 0.5431128425295131,
+        "pool": [
+          "mirror",
+          "leviticu",
+          "regardless",
+          "cosmic",
+          "travel",
+          "phase",
+          "neither",
+          "wast",
+          "honesti",
+          "flaw",
+          "inherit",
+          "cook",
+          "kirk",
+          "toxic",
+          "meaningless",
+          "brand",
+          "dehuman",
+          "smoke",
+          "exploit",
+          "iron",
+          "manifest",
+          "sky",
+          "shroud",
+          "transit",
+          "donat",
+          "disappoint",
+          "humbl",
+          "sustain",
+          "weight",
+          "oblig",
+          "echo",
+          "contact",
+          "habit",
+          "rhetor",
+          "buri",
+          "wide",
+          "bet",
+          "lock",
+          "appropri",
+          "therapi"
+        ],
+        "peer_observed": {
+          "mirror": 0.4111467868309797,
+          "leviticu": 0.3742449655738681,
+          "regardless": 0.2364938989750218,
+          "cosmic": 0.45861803796477424,
+          "travel": 0.18617815658009473,
+          "phase": 0.45108870452865496,
+          "neither": 0.22331667818358167,
+          "wast": 0.28087062394477946,
+          "honesti": 0.4849199043552263,
+          "flaw": 0.2574817335055756,
+          "inherit": 0.4286839111635,
+          "cook": 0.4595160320006935,
+          "kirk": 0.256686926908307,
+          "toxic": 0.4021886070422369,
+          "meaningless": 0.433376833624515,
+          "brand": 0.4472607505459872,
+          "dehuman": 0.4793351552908957,
+          "smoke": 0.36944803662543346,
+          "exploit": 0.3873656509024426,
+          "iron": 0.2719246089008648,
+          "manifest": 0.2850311859781304,
+          "sky": 0.33819472620204605,
+          "shroud": 0.4148638753666575,
+          "transit": 0.4178320160495246,
+          "donat": 0.3685102534924076,
+          "disappoint": 0.3180052200988548,
+          "humbl": 0.31600546099644455,
+          "sustain": 0.4397722483586526,
+          "weight": 0.2895012791877869,
+          "oblig": 0.30650503145358227,
+          "echo": 0.4222414662503905,
+          "contact": 0.2884549217881139,
+          "habit": 0.42452317558989544,
+          "rhetor": 0.30597943197427246,
+          "buri": 0.37587648228275455,
+          "wide": 0.20535514193197313,
+          "bet": 0.4367261119447162,
+          "lock": 0.35867472797144845,
+          "appropri": 0.29069003824208595,
+          "therapi": 0.3546746055462079
         },
         "params": {
           "max_vocab": 200,
-          "max_q": 0.05,
+          "window": 5,
+          "band": 1.4142135623730951,
+          "pool_size": 40,
+          "validity_threshold": 0.05,
+          "specificity_threshold": 0.05,
           "include_duplicates": false
         },
-        "note": "the per-creator collocate profiles this bar was computed from are frozen alongside it, so the p reproduces exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's evidence, which is a new measurement under a new vintage.",
+        "note": "the per-creator collocate profiles AND the peer pool this bar was computed from are frozen alongside it, so both legs reproduce exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's corpus, which is a new measurement under a new vintage.",
         "frozen": true,
-        "current": false,
-        "stale_note": "the evidence for this term has changed since the bar was measured, so this p describes the earlier body recorded above, not the lines shown on this page. It is not silently re-measured, because a published figure that moves on re-run is the defect this freeze exists to prevent; `contested framing --rescan` takes a new measurement under a new vintage."
+        "current": true
       },
       "apologetics": {
-        "text": "Apologetics uses \"do the work\" to refer to religious ministry, evangelism, and spiritual transformation, encouraging active participation in faith\u2011based activities.",
+        "text": "In the apologetics lines, 'do the work' functions as a positive, proactive call to action, urging believers to actively engage in evangelism, research, and apologetic tasks.",
         "quotes": [
           {
-            "context": "That is a really interesting question. It's definitely something that we all need to, like in Britain, we all need to think about a lot more. Um, I think what I'd probably say is first of all, maybe trying to stop how insular these communities get, and I think the point I made about education might be one of the only sort of fair ways to do that because you can't exactly walk into a community and be like, right, all of you split up now, because that's never gonna work, you know, in practice.",
-            "creator": "apostate-aladdin"
-          },
-          {
-            "context": "Hopefully, if you had a non-traumatic childhood. For some uh who had more traumatic childhoods, you actually have to go back and allow yourself to finish being a child. Um, but you used to maybe believe that the world was full of full of possibility, and that can soften that can soften your edges and reconnect you with joy, and so you can ask yourself, What did you love as a child? What did you need? What did you daydream about? And then start to give yourself those things now.",
-            "creator": "britt-hartley"
-          },
-          {
-            "context": "No wonder the enemy lies. You seen it in heavenly places the basis to look to the sky. It's sacred the savior is mine. He waving a banner, get David to try. The heart of the father, the brother, you wanna be out of your mind. You think it's too much. And I think it's enough. It's keeping you stuck. You love when you cuff. It's giving the lust, the love and the love of the brothers who run it up. What if it's nothing new under the sun? What if the number you lookin' is one? What if the sun is the number you lookin'? He wanted them once. So come again. You running this fun till he come again. He wants you with nothing to come against. It's something I want you to love again, love again, love again.",
+            "context": "Like that you need fireworks and lightning and miracles and signs and wonders to draw people to Jesus. People in ministry, they might move that way, but as for you, do the work of the evangelist by preaching the plain, flat-footed gospel.",
             "creator": "jackie-hill-perry"
           },
           {
-            "context": "Well, but wait a minute. That doesn't let you off the hook, first of all, for your own holiness and your own walk with God. Mm-hmm. And secondly, where did the c caricature come from? Because the truth of the matter is all of us are just earthen vessels w with the heavenly treasure on the inside. Now, that is not excuse the standards, that is not lessen the standards for spiritual leaders and all those types of things. But it is to recognize that sometimes when we don't recognize the humanity in others, we're sort of overlooking the humanity in ourselves and trying to make excuses for it.",
-            "creator": "jude-3-project"
-          },
-          {
-            "context": "Instead, they speak very personally about their personal belief in Christ, their personal relationship with God, that kind of thing, but not in a way of trying to compel others to turn and put their faith in Jesus to proclaim his death and resurrection in a way that is simple and factually true. And I love this about watching these Charlie Kirk videos. He presented Jesus like he was the most important thing you needed to get in your life period. You needed to know Jesus. You needed to know him as your Lord and your Savior.",
-            "creator": "mike-winger"
+            "context": "That's totally fine. But if you're trying to be a public representative of Jesus, uh you've got to do the work. You have to do the work. It's it's no longer appropriate, like in in today's age with the internet to to do uh, you know, sort of minimal amount of research and then go online. You've got to but it's just you know, you know, like before I leave, I just want to say these so especially especially especially uh Libano once I I just joined, like uh he invited me, I joined.",
+            "creator": "capturing-christianity"
           }
         ]
       },
       "deconstruction": {
-        "text": "Deconstruction uses \"do the work\" to refer to critical, investigative, or societal tasks such as convincing, verifying, deconstructing religions, and political engagement, often with a skeptical or corrective tone.",
+        "text": "In the deconstruction lines, 'do the work' often carries a critical or reflective tone, urging individuals to confront disbelief, undertake personal responsibility, or highlight the work of God, sometimes implying failure when it is not done.",
         "quotes": [
           {
-            "context": "Her mind was, well, God uh sanctioned war plenty of times, and he told the people to go over there and take all and recover all. So we should understand God's will. It was in those moments that I sincerely realized how big of an abstraction that Christianity had become to the ability for people to really love. How can you love when you really when this is what you platform as love?",
-            "creator": "darante-lamar"
+            "context": "Number 16. What would convince you that God exists? What would convince you that he does not? What would convince you that vampires exist? What would it take for me to sell you this car? Instead of asking dumb questions like this, you should either do the work of convincing me or come to peace with my disbelief. It's not my job to design your strategy for convincing me. Number 17. Are you willing to follow the evidence, even if it leads to a different understanding of how the universe works?",
+            "creator": "prophet-of-zod"
           },
           {
-            "context": "We need to make sure that we're we're presenting that as love, which is even more nefarious, also. Fucking by the way, that's more nefarious. Because if you present harm as love, that's abuse. That's abuse. That's trapping someone in a cycle of abuse because they think that being hurt is love. They think that avoiding repercussions is love.",
-            "creator": "shannon-q"
-          },
-          {
-            "context": "I have. So a lot of times you hear stories of converts in terrible situations. And that happens in a lot of religions and cults. They recruit people, either they intentionally recruit people who are very vulnerable, or people who are in vulnerable situations tend to be looking for a greater meaning for hope, for community, for resources. And often that happens to be the local church, the mosque, um, their Muslim friends.",
-            "creator": "apostate-aladdin"
-          },
-          {
-            "context": "These accounts are not historical as described in in the Bible. They're probably not historical as described in the Bible. But this too is not the most significant discovery of biblical studies. Okay, again, Bart is teasing, but how do you respond to the lack of what should be a vast wealth of archaeological evidence according to Bart? Well, I I've heard it said by professional archaeologists, Kevin, that well over 90 percent of the sites remain unexcavated, and over 90 percent of what has been excavated remains unanalyzed.",
-            "creator": "reasonable-faith-org"
-          },
-          {
-            "context": "The appearances argument comes up a lot when transgender advocates say a man pretending to be a woman is a woman because well, just look at her. Or these advocates will make hay over a person mistakenly thinking a transgender person is not transgender. Sometimes the argument comes off more sophisticated, as in this LGBT article, the belief that all transgender people are unattractive to you, when there are some undeniably very attractive ones, and that you could not have chemistry with them, or you religiously object to transgender people, even when presented evidence to the contrary, is an expression of transphobia.",
-            "creator": "counsel-of-trent"
+            "context": "But not just but not just the like black folk who aren't already vested inside uh politics, but the but the black folk who follow this shit and understand what's going on, that's when they come back and be like, yo, black folk, y'all gotta come out and vote. Y'all gotta don't reach out now, don't reach out now because you ain't been doing the work, you haven't built the trust with these people, you haven't gone to talk to them. You haven't you haven't taken the ideas, the bigger ideas, and made them smaller. Because a lot of these ideas aren't hard to extrapolate and make it make it to like bite-sized pieces.",
+            "creator": "lil-bill"
           }
         ]
       }
@@ -320,60 +658,162 @@
       "verdict": "contested",
       "bar": {
         "status": "ok",
-        "passes": true,
-        "p": 0.01398481119843349,
-        "q": null,
-        "corrected": false,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, uncorrected",
-        "reason": null
+        "passes": false,
+        "failed": [
+          "specificity"
+        ],
+        "validity_p": 0.002844592627874362,
+        "percentile": 0.475,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": "side-linked, but within the range of ordinary same-frequency topic separation at this corpus size"
       },
       "bar_corpus": {
-        "measured_at": "2026-07-27T15:05:02Z",
-        "bar_hash": "0277593ce8af8f481d370496",
+        "measured_at": "2026-07-31T03:10:54Z",
         "corpus": {
-          "videos": 5472,
-          "fingerprint": "sha256:139390115fb34c3a856f42220691430c"
+          "videos": 6730,
+          "fingerprint": "sha256:998a745c6d7131f9ee6b0603477ff267",
+          "covers": "ids+content"
         },
-        "lines": {
-          "apologetics": 2682,
-          "deconstruction": 4243
+        "mass": 9462,
+        "observed": 0.07448225081197118,
+        "pool": [
+          "gui",
+          "while",
+          "power",
+          "video",
+          "answer",
+          "anyth",
+          "everyth",
+          "new",
+          "islam",
+          "without",
+          "number",
+          "noth",
+          "mind",
+          "show",
+          "fact",
+          "abl",
+          "alreadi",
+          "faith",
+          "view",
+          "experi",
+          "bad",
+          "ask",
+          "read",
+          "stuff",
+          "end",
+          "put",
+          "cours",
+          "two",
+          "stori",
+          "befor",
+          "build",
+          "problem",
+          "hear",
+          "dai",
+          "cultur",
+          "univers",
+          "let",
+          "matter",
+          "whole",
+          "ever"
+        ],
+        "peer_observed": {
+          "gui": 0.04028788489512373,
+          "while": 0.06432162763232444,
+          "power": 0.1387365220008637,
+          "video": 0.08446478575314652,
+          "answer": 0.05697727969700117,
+          "anyth": 0.048222065066917744,
+          "everyth": 0.05776708265713023,
+          "new": 0.10630440674959024,
+          "islam": 0.11520793698666973,
+          "without": 0.091391150263438,
+          "number": 0.07577967031139862,
+          "noth": 0.08254338280019363,
+          "mind": 0.08610362875285246,
+          "show": 0.08680387356031598,
+          "fact": 0.07166978964019458,
+          "abl": 0.06664826563380052,
+          "alreadi": 0.08595289950244561,
+          "faith": 0.12019859811221893,
+          "view": 0.11203077952920626,
+          "experi": 0.07845189363085182,
+          "bad": 0.05937807268612365,
+          "ask": 0.04330813549759104,
+          "read": 0.04911740666264555,
+          "stuff": 0.045395972727228714,
+          "end": 0.07167838000342042,
+          "put": 0.05255319726366989,
+          "cours": 0.1139464107201293,
+          "two": 0.05250366279447445,
+          "stori": 0.05726779383340632,
+          "befor": 0.06832936378523641,
+          "build": 0.19325182097258037,
+          "problem": 0.06815830894859012,
+          "hear": 0.060685526150301296,
+          "dai": 0.08213217485458232,
+          "cultur": 0.1270344401867462,
+          "univers": 0.10620025575577727,
+          "let": 0.06182334861781886,
+          "matter": 0.1289196971423843,
+          "whole": 0.05851946178345317,
+          "ever": 0.04510630817127788
         },
         "params": {
           "max_vocab": 200,
-          "max_q": 0.05,
+          "window": 5,
+          "band": 1.4142135623730951,
+          "pool_size": 40,
+          "validity_threshold": 0.05,
+          "specificity_threshold": 0.05,
           "include_duplicates": false
         },
-        "note": "the per-creator collocate profiles this bar was computed from are frozen alongside it, so the p reproduces exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's evidence, which is a new measurement under a new vintage.",
+        "note": "the per-creator collocate profiles AND the peer pool this bar was computed from are frozen alongside it, so both legs reproduce exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's corpus, which is a new measurement under a new vintage.",
         "frozen": true,
-        "current": false,
-        "stale_note": "the evidence for this term has changed since the bar was measured, so this p describes the earlier body recorded above, not the lines shown on this page. It is not silently re-measured, because a published figure that moves on re-run is the defect this freeze exists to prevent; `contested framing --rescan` takes a new measurement under a new vintage."
+        "current": true
       },
       "apologetics": {
-        "text": "Apologetics lines use \"evidence\" to affirm Christian truth, presenting it as proof that supports faith and counters doubt.",
+        "text": "Apologetics lines use \"evidence\" as objective, empirical support for religious claims, emphasizing the need for verifiable data to justify beliefs.",
         "quotes": [
           {
-            "context": "It just don't make no sense. No, if we're gonna be friends, there's gonna be some benefits involved in here. I don't know what the benefits are gonna be, but baby, they're gonna be some benefits, some butter beans, some butterball, I don't know, but we're gonna be some benefits up in here. Oh, I love it. I love it, I love it. This is beautiful. If Bridge City, if Bridge City is community beyond superstition, then this series is relationships beyond superstition.",
-            "creator": "darante-lamar"
+            "context": "Well, the church figured out centuries ago that you have to be very careful about people just claiming that a demon's bothering them and just taking their word for it because there's medical problems, there's mental illness, there's con artists. And so the church figured out that the evidence that's required to conclude that somebody's actually possessed can take basically four forms, and that is knowing all languages, specifically languages you've never studied, being able to know secrets about people that you have no way of knowing, not something that's on their Facebook, not something they've ever posted about.",
+            "creator": "capturing-christianity"
           },
           {
-            "context": "And so again, I think the best thing an atheist can do is just say, Stop. Like obviously, we're all trying to make the same point. I don't worship X just because I paid attention. It sounds, Jordan, like maybe that's not actually what you're saying. When you hear some Christian say, I worship the true God in God alone, and that's the only thing I worship, or the only thing that's worthy of actually being worshipped would be the perfect creator of love and justice, right? That seems to be the kind of worship that is within belief.",
-            "creator": "mindshift"
+            "context": "He's got doctorates in philosophy and theology on the historicity of the resurrection of Christ. When it comes to engaging in a conversation in the public square, or in letters to the editor, or in conversation with co-workers, then I think it's critical that Christians be able to present objective evidence in support of our beliefs.",
+            "creator": "drcraigvideos"
+          },
+          {
+            "context": "And what the abolitionists are trying to get to, and people often misunderstand what they're trying to do. Some people talk about it versus the spirit of the text versus literal interpretation. What they're actually saying is a Christian can do this. They can look at the entire witness of scripture from the law, the prophets, these narratives, Jesus' own ministry, the concern for the weak and the marginalized, Paul's statement about our essential equality in Christ, and say, okay, taking all of these together, and if I have two options to enslave people or to set them free, it seems to me that the way that the evidence goes towards setting people free.",
+            "creator": "jude-3-project"
+          },
+          {
+            "context": "I'm exposing some of this stuff. It's so important to bring real evidence to do your real homework to make sure that you can validate the claims you're making before you make them. It's too easy to just be suspicious about people and assume and then make these big statements. It happens all the time, and I'm deeply aware of it.",
+            "creator": "mike-winger"
+          },
+          {
+            "context": "So that in the case of any alleged miracle, it's going to be an in fact question as to whether it occurred. That is to say, what is the evidence for the miracle? And that takes us to Hume's argument, uh, his in fact argument that there is no good evidence for the occurrence of a miraculous event in history. Now, whether you think this is true on the contemporary scene or not is going to depend on how you assess the evidence for modern miracles.",
+            "creator": "reasonable-faith-org"
           }
         ]
       },
       "deconstruction": {
-        "text": "Deconstruction lines use \"evidence\" as a critical standard, highlighting the lack or insufficiency of proof for religious claims and questioning faith.",
+        "text": "Deconstruction lines use \"evidence\" as anecdotal or personal testimony that often undermines or challenges religious claims.",
         "quotes": [
           {
-            "context": "Don't that make sense? I mean, that's just basic math. That's that's math. You know, people think math is just numbers. Nope, it's logic. It's logic. No, that's colloquialism, of course. But in raising these points, I aim to encourage the secular community to critically examine and challenge the inconsistencies and the concept of salvation as presented in Christian theology. It's really time to scrutinize the foundations of these beliefs and expose the fallacies inherent in them, fostering a more rational and evidence-based worldview.",
-            "creator": "darante-lamar"
+            "context": "How many claim to have seen miraculous appearances by the Blessed Virgin Mary? A lot more than 500, and many of them are still alive today. So would you send your congregation rushing to check these stories out? Do you consider them evidence of anything? No, because your healthy skepticism automatically kicks in upon hearing about unusual events related to aliens or Catholicism. You recognize that anything from groupthink to delusion to deception can lead large numbers of people to swear up and down that they witnessed all kinds of strange activity, and that if you accepted this kind of testimony as evidence, you would be forced to indiscriminately absorb countless paranormal or religious claims into your worldview.",
+            "creator": "prophet-of-zod"
           },
           {
-            "context": "The apatheist view encourages attention to current social, ethical, and existential matters rather than irrelevant historical uncertainties. Which to me is just like, I think I do, okay. I'm probably getting a little trouble for this. I do feel like the much of the secular community is making the same mistake as the antiquated church community. And that is just doing shit that doesn't matter. You know, like that's what killed the traditional church.",
-            "creator": "darante-lamar"
+            "context": "In fact, applying arguments that I had against alternative medicine really led me out of my own personal faith in the past. The similarities between alternative medicine and religion are pretty striking, and here are a few of those similarities. The claims of both rely on anecdotal evidence. I know that it's real because I experienced it. My personal experience matters more than any kind of data that you could present. Sounds pretty familiar to anyone who's debated a religious person, but anyone who's debated someone that believes in homeopathy has probably heard that as well.",
+            "creator": "genetically-modified-skeptic"
           }
         ]
       }
@@ -383,123 +823,312 @@
       "verdict": "contested",
       "bar": {
         "status": "ok",
-        "passes": true,
-        "p": 0.015149109576354158,
-        "q": null,
-        "corrected": false,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, uncorrected",
-        "reason": null
+        "passes": false,
+        "failed": [
+          "specificity"
+        ],
+        "validity_p": 3.9691990156386444e-05,
+        "percentile": 0.15,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": "side-linked, but within the range of ordinary same-frequency topic separation at this corpus size"
       },
       "bar_corpus": {
-        "measured_at": "2026-07-27T15:03:39Z",
-        "bar_hash": "9dcb02bded43834f1d197507",
+        "measured_at": "2026-07-31T03:10:49Z",
         "corpus": {
-          "videos": 5472,
-          "fingerprint": "sha256:139390115fb34c3a856f42220691430c"
+          "videos": 6730,
+          "fingerprint": "sha256:998a745c6d7131f9ee6b0603477ff267",
+          "covers": "ids+content"
         },
-        "lines": {
-          "apologetics": 1032,
-          "deconstruction": 508
+        "mass": 2027,
+        "observed": 0.20416591996827943,
+        "pool": [
+          "express",
+          "similar",
+          "fun",
+          "peter",
+          "recent",
+          "anti",
+          "serv",
+          "weird",
+          "david",
+          "born",
+          "reject",
+          "class",
+          "behavior",
+          "apologet",
+          "eventu",
+          "nobodi",
+          "abil",
+          "govern",
+          "brother",
+          "sign",
+          "allah",
+          "respect",
+          "pretend",
+          "date",
+          "water",
+          "evangel",
+          "apologist",
+          "educ",
+          "interact",
+          "simpl",
+          "total",
+          "propheci",
+          "train",
+          "justifi",
+          "marriag",
+          "danger",
+          "signific",
+          "freedom",
+          "none",
+          "respond"
+        ],
+        "peer_observed": {
+          "express": 0.17853135196980155,
+          "similar": 0.09191324803786542,
+          "fun": 0.14782759865937578,
+          "peter": 0.12684998153574317,
+          "recent": 0.09458063306091666,
+          "anti": 0.22546430677930956,
+          "serv": 0.1258756412609512,
+          "weird": 0.08357249738500988,
+          "david": 0.2756182398292002,
+          "born": 0.15740905580356185,
+          "reject": 0.11891483374890677,
+          "class": 0.1694465692449268,
+          "behavior": 0.16426559417556796,
+          "apologet": 0.15788239845686508,
+          "eventu": 0.12853209904606022,
+          "nobodi": 0.11443478158250694,
+          "abil": 0.20044526193052004,
+          "govern": 0.14180326327748932,
+          "brother": 0.09589645304409497,
+          "sign": 0.1465331531074428,
+          "allah": 0.19990026121922383,
+          "respect": 0.15818637696366922,
+          "pretend": 0.26957071402332367,
+          "date": 0.12797175653542286,
+          "water": 0.13338851992359424,
+          "evangel": 0.14453514835929865,
+          "apologist": 0.2103530144051351,
+          "educ": 0.19152891347543027,
+          "interact": 0.16525307529757793,
+          "simpl": 0.1066721896286173,
+          "total": 0.08051954787355325,
+          "propheci": 0.16659240085424248,
+          "train": 0.2351816427422954,
+          "justifi": 0.18349538529765752,
+          "marriag": 0.09755836731250092,
+          "danger": 0.20366835914768983,
+          "signific": 0.14646771020544247,
+          "freedom": 0.2159069583652276,
+          "none": 0.091895576681344,
+          "respond": 0.16776216329878763
         },
         "params": {
           "max_vocab": 200,
-          "max_q": 0.05,
+          "window": 5,
+          "band": 1.4142135623730951,
+          "pool_size": 40,
+          "validity_threshold": 0.05,
+          "specificity_threshold": 0.05,
           "include_duplicates": false
         },
-        "note": "the per-creator collocate profiles this bar was computed from are frozen alongside it, so the p reproduces exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's evidence, which is a new measurement under a new vintage.",
+        "note": "the per-creator collocate profiles AND the peer pool this bar was computed from are frozen alongside it, so both legs reproduce exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's corpus, which is a new measurement under a new vintage.",
         "frozen": true,
-        "current": false,
-        "stale_note": "the evidence for this term has changed since the bar was measured, so this p describes the earlier body recorded above, not the lines shown on this page. It is not silently re-measured, because a published figure that moves on re-run is the defect this freeze exists to prevent; `contested framing --rescan` takes a new measurement under a new vintage."
+        "current": true
       },
       "apologetics": {
-        "text": "The apologetics lines employ \"grace\" as a purely theological, divine gift that saves and sustains believers, framing it as a supernatural, unearned favor from God.",
+        "text": "In the apologetics lines, \"grace\" is used as a divine, salvific gift from God, often linked to sacraments and salvation.",
         "quotes": [
           {
-            "context": "It just don't make no sense. No, if we're gonna be friends, there's gonna be some benefits involved in here. I don't know what the benefits are gonna be, but baby, they're gonna be some benefits, some butter beans, some butterball, I don't know, but we're gonna be some benefits up in here. Oh, I love it. I love it, I love it. This is beautiful. If Bridge City, if Bridge City is community beyond superstition, then this series is relationships beyond superstition.",
-            "creator": "darante-lamar"
+            "context": "I'm look, you have the church fathers over here. I got the sacraments, I have Mary, I have all these different things that I just needed more formation. I need to learn about them, these channels of grace. I was like, this is awesome. And I started going to daily mass even before I became Catholic. Uh, that just became a habit. And I thought, you know, look, if I really do believe that Jesus is there, body, blood, soul, and divinity, where else am I gonna be?",
+            "creator": "capturing-christianity"
           },
           {
-            "context": "And it looks like we have a super chat. Let's see what that's about. I oh, is it Muttley? It's Muttley, that is so awesome. For uh for the tip jar, loving sausages. Love you, Muttley. Thank you so much. We appreciate you, sir. Uh, but yeah, so absolutely beautiful. Uh, absolutely beautiful song. Um, again, y'all, my wife is not here with me today. She's six, uh, she's doing her best uh to get better.",
-            "creator": "darante-lamar"
+            "context": "And one that I thought of, for example, would be maybe they've only got two or three people in them. And if he were to create any more, then at least one of them would reject God, and that would seem to be a pretty deficient world. It seems to me that so long as God gives sufficient grace for salvation to every person he creates, that those who would freely repudiate God and his grace shouldn't be allowed to have some kind of veto power over which worlds God is free to create.",
+            "creator": "drcraigvideos"
           }
         ]
       },
       "deconstruction": {
-        "text": "The deconstruction lines use \"grace\" in two distinct ways: as a personal name (e.g., Grace the person) and as a theological or moral concept, thereby framing the term with both secular and religious meanings.",
+        "text": "In the deconstruction lines, \"grace\" is employed in multiple secular or metaphorical senses, including social kindness, personal experience, and even as a proper name, diverging from the purely divine framing.",
         "quotes": [
           {
-            "context": "This is the first time I'm doing it. But um, we're starting a new series of the conversation about the work and the physics of change. Over the next four weeks, our community will be wrestling with what it means to do the work, to do it right, do our best, and to do the most in the context of community development. For everybody, for in for everybody who's been looking for a way to ground your grind in grit and rationality, this is the conversation for you.",
-            "creator": "darante-lamar"
+            "context": "But me being the analytical Buzz Killington that I am just meeting other me's wasn't enough to base an argument on. Something we'll come back to later. The purpose of this video isn't to deny anyone's personal experience. In fact, growing up around anywhere from two to like five or six single black women at a time, I've seen for myself what happens when sentient trash bags abuse black women's grace. Additionally, as I've said multiple times on this channel, statistically, there is no demographic in America that is more vulnerable or historically oppressed than black and indigenous women.",
+            "creator": "lil-bill"
           },
           {
-            "context": "And in all of these cases, it's been one fucking couple behind every single one of them. That's what I mean, click based. You mean to tell me that you can have over five different incidences where the secular community gets riled up to attack and dehumanize another person in the secular community, and there's always one couple behind all of them, and that don't raise no red flags for nobody.",
-            "creator": "darante-lamar"
+            "context": "I use the label apostate to take back its ownership, because apostate or murted are often used against us as insults. Whatever work I do to take back that label, I have to first undo all the harm that he's done to tarnish it. And that's really unfortunate, because he started off by helping so many people, so it's sad to see him fall from grace like that. Like I said, this isn't exclusively an AP problem, but he's the most prominent example. The way I see it, the underlying problem is hate, and I'm not validating the false accusation that we're inundated with, that critics of Islam do it because they're hateful.",
+            "creator": "apostate-aladdin"
           }
         ]
       }
     },
     {
       "phrase": "harm",
-      "verdict": "mixed",
+      "verdict": "convergent",
       "bar": {
         "status": "ok",
         "passes": false,
-        "p": 0.3343520944140139,
-        "q": null,
-        "corrected": false,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, uncorrected",
-        "reason": "the cross-side difference is not reliable across creators at p<0.05 (uncorrected: a curated term, not selected from a ranking) \u2014 reported as a provisional community claim"
+        "failed": [
+          "validity",
+          "specificity"
+        ],
+        "validity_p": 0.05923367997671403,
+        "percentile": 0.125,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": "neither leg clears: the gap is inside same-side spread AND inside ordinary same-frequency topic separation"
       },
       "bar_corpus": {
-        "measured_at": "2026-07-27T15:05:38Z",
-        "bar_hash": "463189c1fbdc91e74298fb04",
+        "measured_at": "2026-07-31T03:10:58Z",
         "corpus": {
-          "videos": 5472,
-          "fingerprint": "sha256:139390115fb34c3a856f42220691430c"
+          "videos": 6730,
+          "fingerprint": "sha256:998a745c6d7131f9ee6b0603477ff267",
+          "covers": "ids+content"
         },
-        "lines": {
-          "apologetics": 202,
-          "deconstruction": 2088
+        "mass": 3972,
+        "observed": 0.14863638912957014,
+        "pool": [
+          "heard",
+          "level",
+          "white",
+          "face",
+          "goal",
+          "testament",
+          "secular",
+          "four",
+          "gener",
+          "felt",
+          "requir",
+          "self",
+          "form",
+          "includ",
+          "explain",
+          "men",
+          "logic",
+          "lord",
+          "realiti",
+          "imagin",
+          "punish",
+          "resurrect",
+          "hell",
+          "control",
+          "children",
+          "write",
+          "entir",
+          "save",
+          "second",
+          "origin",
+          "sorri",
+          "process",
+          "hand",
+          "everyon",
+          "ago",
+          "later",
+          "room",
+          "told",
+          "debat",
+          "biblic"
+        ],
+        "peer_observed": {
+          "heard": 0.07803695845130079,
+          "level": 0.10838897716292144,
+          "white": 0.18835747637762387,
+          "face": 0.08425881431659596,
+          "goal": 0.16644148317079344,
+          "testament": 0.051688307810065906,
+          "secular": 0.237366482036872,
+          "four": 0.09903673127664762,
+          "gener": 0.10872024523693262,
+          "felt": 0.10587959946597725,
+          "requir": 0.13877560708301273,
+          "self": 0.18834506121093025,
+          "form": 0.12717848815769217,
+          "includ": 0.09323007428156495,
+          "explain": 0.06170086583431907,
+          "men": 0.0907125331915324,
+          "logic": 0.1319672196648485,
+          "lord": 0.06735908040406374,
+          "realiti": 0.1325404391803921,
+          "imagin": 0.07179625335958773,
+          "punish": 0.19921998144855727,
+          "resurrect": 0.09217635138225375,
+          "hell": 0.14540532526596708,
+          "control": 0.13592381284546484,
+          "children": 0.0909666534214695,
+          "write": 0.09540708905075879,
+          "entir": 0.09483969911458505,
+          "save": 0.12342964849586593,
+          "second": 0.09302052551931178,
+          "origin": 0.12624856700221299,
+          "sorri": 0.0842347917151883,
+          "process": 0.12948205510337668,
+          "hand": 0.06782261340529187,
+          "everyon": 0.09827520756158095,
+          "ago": 0.05400599247121439,
+          "later": 0.058415636512421903,
+          "room": 0.10321718481968298,
+          "told": 0.07491716636309007,
+          "debat": 0.07804914483730148,
+          "biblic": 0.09258246668039558
         },
         "params": {
           "max_vocab": 200,
-          "max_q": 0.05,
+          "window": 5,
+          "band": 1.4142135623730951,
+          "pool_size": 40,
+          "validity_threshold": 0.05,
+          "specificity_threshold": 0.05,
           "include_duplicates": false
         },
-        "note": "the per-creator collocate profiles this bar was computed from are frozen alongside it, so the p reproduces exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's evidence, which is a new measurement under a new vintage.",
+        "note": "the per-creator collocate profiles AND the peer pool this bar was computed from are frozen alongside it, so both legs reproduce exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's corpus, which is a new measurement under a new vintage.",
         "frozen": true,
-        "current": false,
-        "stale_note": "the evidence for this term has changed since the bar was measured, so this p describes the earlier body recorded above, not the lines shown on this page. It is not silently re-measured, because a published figure that moves on re-run is the defect this freeze exists to prevent; `contested framing --rescan` takes a new measurement under a new vintage."
+        "current": true
       },
       "apologetics": {
-        "text": "Apologetics frames \"harm\" as an objective, moral standard indicating what is good or bad, often used to evaluate actions or doctrines.",
+        "text": "The apologetics lines consistently use \"harm\" to denote a negative effect or danger to people, God, or objects, framing it as something to be avoided or protected against.",
         "quotes": [
           {
-            "context": "Um, and then still wrapped it up, but hey, when in Rome, uh, because life is a lot of times uncomfortable. We we we definitely run into some things, but I always love Mr. Difficult's um approach to things where he's just kind of very flexible. There may be some jokes in that. There may be some jokes in that, but um, but so yeah, one of the reasons we you know, for some people, people define personal space as as a as a space to do it, to get you know, to do the act, the the marital congress type thing, um, a place to place a Marvin Gay in the background because it's not just kids that that that you know, it's not just kids as they get up who want to move out so they can have space to do it.",
-            "creator": "darante-lamar"
+            "context": "That if it's fun, it must be good. If it's pleasurable, it must be good. If it if it doesn't harm anybody, it must be good. What if it harms God? We never asked that question. What if it grieves God's spirit? And the problem is that the only person in heaven and on earth who has the right, the authority to decide what is good and what isn't good is God.",
+            "creator": "jackie-hill-perry"
           },
           {
-            "context": "Nope. Nope. Things are typically not, they they don't work in in those ways. You you gotta get an intimate understanding of the things that you're doing and the things that you're working on. Um but so no, it our we have to build uh community as a catalyst to create places where people can be safe enough to self-identify and actually figure out what that means, you know.",
-            "creator": "darante-lamar"
+            "context": "Protecting us from harm, warding off evil and powers of darkness that would otherwise want to attack and undo us. Next, these angels, precisely because they are pure spirits and incorporeal, are not bound by physical limitations.",
+            "creator": "reasonable-faith-org"
+          },
+          {
+            "context": "You have the ability to drive a car. But if I say that to an eight-year-old, hey, I permit you, with my permission, you can drive my car. If that eight-year-old gets in the car, he's gonna smash the car and harm himself and someone else. You understand the difference between permitting you, authorizing you, and giving you the ability to do something? Yeah. So that's all the Quran is saying. And no Christian would deny this.",
+            "creator": "capturing-christianity"
           }
         ]
       },
       "deconstruction": {
-        "text": "Deconstruction uses \"harm\" to highlight the negative consequences of religious beliefs and practices, framing it as evidence of religion's evils.",
+        "text": "The deconstruction lines also employ \"harm\" to refer to a negative effect or danger, emphasizing avoidance and the obligation not to cause it.",
         "quotes": [
           {
-            "context": "Now, these people are going to get the most of my time. Uh, and again, I'll talk about in a little bit. Those people are gonna see me at least weekly, you know, in their groups. My people who are who are enrolling and learning how to kind of do what I do and do some of the things that we're planning on doing with Bridge City, whether it's leading local communities or just supporting others or facilitating events, which some of that you can see behind me right now. Um, like that that that's something I'm really excited about, something I'm really uh really wanting to happen and to get in and to get into place because I think that's what some life changes gonna happen.",
-            "creator": "darante-lamar"
+            "context": "It's the same with morality. Just as there are many objective facts about which actions will have which effect on a rocket, there are also many objective facts about which actions will have which effects on people. Withholding food or shelter or medical care from a person causes bodily harm and a distressed state of mind. We can know this fairly objectively. Certain ways we structure society can lead to more or less food, shelter, or care going to more or less people. These are all facts that can be established as objectively as facts about trajectory and thrust, even if they can't be known with the same mathematical precision.",
+            "creator": "prophet-of-zod"
           },
           {
-            "context": "Third, Johnson calls the Darcy memo itself pretty shaky. Okay, there are two drafts, not one of them. The guy who published them, Ulysses Chevalier, mashed them together and even claimed without evidence that it was sent to the Pope. Ew, and Darcy also admits that much of his accusation was based on hearsay, not exact ironclad history. And finally, Johnston makes the very big point.",
-            "creator": "capturing-christianity"
+            "context": "If one of your core beliefs leads you to accept a conspiracy theory, it doesn't mean you're wrong, but I would encourage you to examine your reasons for accepting that belief, as conspiracy acceptance is often a symptom of a bad model of reality. One irrational belief gives credence to countless others, and a worldview devoid of reason allows unnecessary harm to come to innocent people. Reason through your beliefs before you become part of that cycle. I've been Drew from Genetically Modified Skeptic. Stay skeptical.",
+            "creator": "genetically-modified-skeptic"
+          },
+          {
+            "context": "So, what exactly is the point I'm trying to make here? That the music industry commodifies hood culture through hip hop music and markers at the teens and young adults in search of themselves and a low risk thrill. The kind you get from tricking your brain into thinking it's in just enough danger to get your adrenal glance working overtime without actually putting yourself in any real harm's way. Not unlike riding in the front car of a roller coaster, or playing Resident Evil with the lights out, or letting your girl lock her ankles around your waist while going in bearback.",
+            "creator": "lil-bill"
           }
         ]
       }
@@ -509,68 +1138,150 @@
       "verdict": "contested",
       "bar": {
         "status": "ok",
-        "passes": true,
-        "p": 0.00037045857479294013,
-        "q": null,
-        "corrected": false,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, uncorrected",
-        "reason": null
+        "passes": false,
+        "failed": [
+          "specificity"
+        ],
+        "validity_p": 6.615331692731073e-05,
+        "percentile": 0.275,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": "side-linked, but within the range of ordinary same-frequency topic separation at this corpus size"
       },
       "bar_corpus": {
-        "measured_at": "2026-07-27T15:05:17Z",
-        "bar_hash": "b5e061f2d5ae6a94a331ad9a",
+        "measured_at": "2026-07-31T03:10:56Z",
         "corpus": {
-          "videos": 5472,
-          "fingerprint": "sha256:139390115fb34c3a856f42220691430c"
+          "videos": 6730,
+          "fingerprint": "sha256:998a745c6d7131f9ee6b0603477ff267",
+          "covers": "ids+content"
         },
-        "lines": {
-          "apologetics": 3200,
-          "deconstruction": 10631
+        "mass": 19568,
+        "observed": 0.07660047816396867,
+        "pool": [
+          "work",
+          "give",
+          "kind",
+          "help",
+          "feel",
+          "veri",
+          "religion",
+          "try",
+          "question",
+          "live",
+          "point",
+          "part",
+          "person",
+          "look",
+          "back",
+          "world",
+          "man",
+          "year",
+          "much",
+          "differ",
+          "life",
+          "good",
+          "human",
+          "call",
+          "tell",
+          "reason",
+          "book",
+          "still",
+          "word",
+          "come",
+          "through",
+          "happen",
+          "first",
+          "again",
+          "commun",
+          "lot",
+          "church",
+          "jesu",
+          "also",
+          "need"
+        ],
+        "peer_observed": {
+          "work": 0.09322179066227271,
+          "give": 0.06944662644948617,
+          "kind": 0.041145317166767045,
+          "help": 0.07679733680305972,
+          "feel": 0.03360078142899886,
+          "veri": 0.04110364661754173,
+          "religion": 0.10912360272008512,
+          "try": 0.03526101257393273,
+          "question": 0.047074024233427825,
+          "live": 0.06476981053145231,
+          "point": 0.047116088949390025,
+          "part": 0.06754210315586046,
+          "person": 0.11970998581448734,
+          "look": 0.048889584280115445,
+          "back": 0.04881888228476412,
+          "world": 0.09678184433679209,
+          "man": 0.13339280970037182,
+          "year": 0.027627713996386034,
+          "much": 0.05886421103778473,
+          "differ": 0.038564298191187375,
+          "life": 0.0930576026987639,
+          "good": 0.07277196174839279,
+          "human": 0.11037992165476482,
+          "call": 0.07322486950512525,
+          "tell": 0.04703295557273606,
+          "reason": 0.06025449223153491,
+          "book": 0.05738147491356576,
+          "still": 0.047453180821429464,
+          "word": 0.0764528148207677,
+          "come": 0.0432517851243426,
+          "through": 0.09143033219131608,
+          "happen": 0.02828968515549408,
+          "first": 0.06034548516862964,
+          "again": 0.05420029872028241,
+          "commun": 0.15883199947347273,
+          "lot": 0.03677616432721054,
+          "church": 0.10089416401737529,
+          "jesu": 0.03537130956162285,
+          "also": 0.051867686058853224,
+          "need": 0.060344721561271
         },
         "params": {
           "max_vocab": 200,
-          "max_q": 0.05,
+          "window": 5,
+          "band": 1.4142135623730951,
+          "pool_size": 40,
+          "validity_threshold": 0.05,
+          "specificity_threshold": 0.05,
           "include_duplicates": false
         },
-        "note": "the per-creator collocate profiles this bar was computed from are frozen alongside it, so the p reproduces exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's evidence, which is a new measurement under a new vintage.",
+        "note": "the per-creator collocate profiles AND the peer pool this bar was computed from are frozen alongside it, so both legs reproduce exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's corpus, which is a new measurement under a new vintage.",
         "frozen": true,
-        "current": false,
-        "stale_note": "the evidence for this term has changed since the bar was measured, so this p describes the earlier body recorded above, not the lines shown on this page. It is not silently re-measured, because a published figure that moves on re-run is the defect this freeze exists to prevent; `contested framing --rescan` takes a new measurement under a new vintage."
+        "current": true
       },
       "apologetics": {
-        "text": "In the apologetics excerpts, \"love\" is consistently framed as a divine, benevolent force\u2014God\u2019s love for humanity and the love that motivates believers to spread the gospel (e.g., A2, A4).",
+        "text": "The apologetics lines portray \"love\" as an unconditional, universal divine attribute of God, emphasizing its moral and salvific significance.",
         "quotes": [
           {
-            "context": "Yeah, it's the Christ in me that loves you. And so the more you reflect him, the more I can love you. But if you stop reflecting him, and now it's not Christ in you, it's just you. I didn't I didn't sign up to love you, I signed up to love Christ in you. That was not in the fine print, right? So if there's no more Christ in you, what am I supposed to do? Okay, maybe I will love you, but I'll love you like I love the unbeliever.",
-            "creator": "shannon-q"
+            "context": "I would in, and I have pre criticize the Muslim concept of God precisely because it isn't the greatest concept. And in what way would I say that? I think the greatest conceivable being would be an all-loving being. His love would be unconditional, impartial, and universal. And this is the kind of love that Jesus revealed of our Heavenly Father. By contrast, the God of the Quran is partial, his love is conditional, you have to earn it, and it is not universal.",
+            "creator": "drcraigvideos"
           },
           {
-            "context": "So whether I love you or not, has to be determined by whether we are hold allegiance to the same things or not. And for me, I'm like, what exactly then is your definition of love? It like, if we have to be like, you must be using a very strict definition of love. You're using a very intimate definition of love.",
-            "creator": "darante-lamar"
+            "context": "It says that explicitly, and he reacts with tremendous indignation at the hypocrisy of the Pharisees and the uh religious leaders of his time. Now that doesn't mean that Jesus didn't love them. Of course he loved them, but he was angry and indignant about what they were doing and saying. And what bothers me so deeply about this first comment, no anger, no indignation, just love to them all, is that this person has already bought into the relativistic postmodern narrative that is threatening uh Christianity and Western culture today, namely that you cannot love someone that you disagree with.",
+            "creator": "reasonable-faith-org"
           }
         ]
       },
       "deconstruction": {
-        "text": "In the deconstruction excerpts, \"love\" appears in a range of contexts\u2014from human affection to rhetorical negation\u2014often with a more ambiguous or even negative connotation (e.g., D2, D5, D8, D10).",
+        "text": "The deconstruction lines use \"love\" in everyday, personal, and sometimes political contexts, treating it as a human emotion or rhetorical device rather than a divine attribute.",
         "quotes": [
           {
-            "context": "At some point, the poetry of the sermon has to face the reality of the human condition. Because at the end of the day, you cannot honestly claim the work is finished when every single enemy is still on the clock. Thank you so much for sticking around to the end of the video. While I love making videos and sharing my unique perspectives as an ex-pastor, my real passion is community. Often when people leave their religion, they also leave behind their community and the support it provided. Friendship, mentorship, and unfortunately sometimes even family.",
+            "context": "And it's I guess you would call it you know the truth in love approach. And I have some frustrations with it, and from a communication standpoint, I'll give you my reason. Here's my here here's why I have this frustration.",
+            "creator": "shannon-q"
+          },
+          {
+            "context": "Um I don't watch this. I rarely eat breakfast because I'm hungry, as far as eating food in the morning. The majority of the time when I'm eating breakfast, I'm eating breakfast because I cooked it. And it's just like, oh, you know, um, like I love to cook breakfast for my family. Um, like I get I get a lot of joy out of that. Uh I I gotta kick everybody out of the kitchen to do it, but like I get a lot of joy. I go in there, man, cook some eggs, some grits, uh, some sausage, some uh bacon, you know, I'm gonna do the day day.",
             "creator": "darante-lamar"
-          },
-          {
-            "context": "It's a 19th century humanist free thinker, but he used to say that happiness is the only good, the time to be happy is now, the place to be happy is here, and the way to be happy is to make others so. And I think that that last part of it the way to be happy is to make others so is really uh in my mind a lot about reciprocity you know that that the more you give the more you actually get uh and that's uh that's my my my little my little I'll have to look up this guy this is these are uh I have had an another guy that I've been following who uh I mean this there's some something about that period of time the the the mid to late 1800s where there was uh this new campaign of free thought and and and and such that would would not be out of place in in today's society in the modern world um and in in the kind of conversation that we do today it's uh it's really striking to me how over a hundred years ago people were just still going through the same stuff and talking about absolutely yeah exactly right right well hey let's let's move on to the news um yes let's take a look at the news so uh so greetings bridge city good great to see you uh my name is Mark Russell I am uh the book club uh leader here uh as well as uh doing a few other little things in the community a few um just looking at work does a heck of a lot so I'm glad that Mark's here glad that everyone's joining us today I did want to to mention uh that this is our first uh I think this is our first session in in the month of of June, is that right?",
-            "creator": "darante-lamar"
-          },
-          {
-            "context": "Well, I'll give you another example moving from the like what is our foundation? Does that have the evidence for it? Uh here's one that might be from the New Testament that I think would might be harder for Protestants. Suppose you have someone who's wants to believe in Jesus and they believe, you know, they they look through and they see there's good evidence Jesus rose from the dead, but then they're swayed by a lot of these more critical historical atheists who lob a bunch of more sophisticated objections, like, well, what if they had cognitive dissonance?",
-            "creator": "counsel-of-trent"
-          },
-          {
-            "context": "Now, I've long thought there were some really compelling reasons to take the authenticity claim seriously, but today's video is not about cheerleading for the shroud. It's about dealing honestly with the best counter evidence that's out there. Because if we're honest, there's very good reason why the debate continues. And right now that means looking at a brand new historical study that claims to have finally unmasked the shroud as a medieval fraud. This isn't another like Miraeus style flop that gets debunked within a week.",
-            "creator": "capturing-christianity"
           }
         ]
       }
@@ -596,84 +1307,150 @@
       "verdict": "contested",
       "bar": {
         "status": "ok",
-        "passes": true,
-        "p": 0.002235982112143103,
-        "q": null,
-        "corrected": false,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, uncorrected",
-        "reason": null
+        "passes": false,
+        "failed": [
+          "specificity"
+        ],
+        "validity_p": 0.03752216136117065,
+        "percentile": 0.375,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": "side-linked, but within the range of ordinary same-frequency topic separation at this corpus size"
       },
       "bar_corpus": {
-        "measured_at": "2026-07-27T15:04:44Z",
-        "bar_hash": "801cd286059e15ccdf1628cf",
+        "measured_at": "2026-07-31T03:10:52Z",
         "corpus": {
-          "videos": 5472,
-          "fingerprint": "sha256:139390115fb34c3a856f42220691430c"
+          "videos": 6730,
+          "fingerprint": "sha256:998a745c6d7131f9ee6b0603477ff267",
+          "covers": "ids+content"
         },
-        "lines": {
-          "apologetics": 2739,
-          "deconstruction": 4609
+        "mass": 8850,
+        "observed": 0.08255470974574547,
+        "pool": [
+          "gui",
+          "while",
+          "power",
+          "video",
+          "answer",
+          "anyth",
+          "everyth",
+          "islam",
+          "without",
+          "number",
+          "noth",
+          "mind",
+          "fact",
+          "abl",
+          "speak",
+          "alreadi",
+          "big",
+          "whatev",
+          "view",
+          "experi",
+          "bad",
+          "read",
+          "stuff",
+          "end",
+          "put",
+          "cours",
+          "build",
+          "problem",
+          "hear",
+          "famili",
+          "dai",
+          "cultur",
+          "univers",
+          "let",
+          "matter",
+          "whole",
+          "ever",
+          "author",
+          "somebodi",
+          "learn"
+        ],
+        "peer_observed": {
+          "gui": 0.04028788489512373,
+          "while": 0.06432162763232444,
+          "power": 0.1387365220008637,
+          "video": 0.08446478575314652,
+          "answer": 0.05697727969700117,
+          "anyth": 0.048222065066917744,
+          "everyth": 0.05776708265713023,
+          "islam": 0.11520793698666973,
+          "without": 0.091391150263438,
+          "number": 0.07577967031139862,
+          "noth": 0.08254338280019363,
+          "mind": 0.08610362875285246,
+          "fact": 0.07166978964019458,
+          "abl": 0.06664826563380052,
+          "speak": 0.06271736673839046,
+          "alreadi": 0.08595289950244561,
+          "big": 0.07819743582005326,
+          "whatev": 0.07994772517978493,
+          "view": 0.11203077952920626,
+          "experi": 0.07845189363085182,
+          "bad": 0.05937807268612365,
+          "read": 0.04911740666264555,
+          "stuff": 0.045395972727228714,
+          "end": 0.07167838000342042,
+          "put": 0.05255319726366989,
+          "cours": 0.1139464107201293,
+          "build": 0.19325182097258037,
+          "problem": 0.06815830894859012,
+          "hear": 0.060685526150301296,
+          "famili": 0.11340808929958797,
+          "dai": 0.08213217485458232,
+          "cultur": 0.1270344401867462,
+          "univers": 0.10620025575577727,
+          "let": 0.06182334861781886,
+          "matter": 0.1289196971423843,
+          "whole": 0.05851946178345317,
+          "ever": 0.04510630817127788,
+          "author": 0.1141618798658707,
+          "somebodi": 0.07737316699476564,
+          "learn": 0.08908555631032998
         },
         "params": {
           "max_vocab": 200,
-          "max_q": 0.05,
+          "window": 5,
+          "band": 1.4142135623730951,
+          "pool_size": 40,
+          "validity_threshold": 0.05,
+          "specificity_threshold": 0.05,
           "include_duplicates": false
         },
-        "note": "the per-creator collocate profiles this bar was computed from are frozen alongside it, so the p reproduces exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's evidence, which is a new measurement under a new vintage.",
+        "note": "the per-creator collocate profiles AND the peer pool this bar was computed from are frozen alongside it, so both legs reproduce exactly even after the corpus has grown. `contested framing --rescan` re-measures against today's corpus, which is a new measurement under a new vintage.",
         "frozen": true,
-        "current": false,
-        "stale_note": "the evidence for this term has changed since the bar was measured, so this p describes the earlier body recorded above, not the lines shown on this page. It is not silently re-measured, because a published figure that moves on re-run is the defect this freeze exists to prevent; `contested framing --rescan` takes a new measurement under a new vintage."
+        "current": true
       },
       "apologetics": {
-        "text": "The apologetics lines consistently present \"truth\" as a positive, divinely or morally grounded reality that believers can know, affirm, and apply\u2014often framed as scriptural, moral, or balanced truth.",
+        "text": "The apologetics lines use \"truth\" as a positive, objective claim that can be justified and defended, framing it as a divine or factual reality.",
         "quotes": [
           {
-            "context": "So at some point, you've got to narrow it down and be like, well, maybe it's just when you are declaring some truth and you're saying it's from God. Then it's maybe then it's prophecy. Here's a truth and it's from God. Maybe we'll just call that prophecy because you're your claim that it's from God. That would be my my thought on that. And that would fit with what we see in scripture, because there's all sorts of things that are prop prophetic. I mean, the entirety of the Bible is prophecy in the sense that it's speaking on behalf of God or it's God revealing things to us.",
-            "creator": "mike-winger"
+            "context": "Premise one, whatever begins to exist has a cause. Two, the universe began to exist. Three, therefore, the universe has a cause. Given the truth of the two premises, the conclusion necessarily follows.",
+            "creator": "drcraigvideos"
           },
           {
-            "context": "I love it, I love it. And and then this idea of purpose is so big, especially in the church construct, especially in the contemporary urban megachurch spaces. Many of the people who uh who are unclear about whether or not there is or is not a God or whether or not their religion is accurate or not accurate, many of them are tied in not because of the theology, not because of the doctrine, not because of any of the experiences, but they're tied in because of this idea of purpose.",
-            "creator": "darante-lamar"
-          },
-          {
-            "context": "So, yeah, I think I think that's a fair game. And and uh his candor there is bracing, you know, and it's but it this was the great point that Philip Johnson made back in the 90s when he wrote Darwin on trial as he realized the evidence for evolution, for Darwinian evolution, for neo-Darwinian evolution, was it was actually very weak.",
-            "creator": "cross-examined"
-          },
-          {
-            "context": "So therefore, our love for others and even the world we share has to be filtered through our loyalty to religion before our actual concern for others. And I'm gonna run that back, okay? So therefore, our love for others and even our love for the for the world that we share, it has to be filtered through our loyalty to religion before our actual concern for others. But let me run it back and replace the word.",
-            "creator": "darante-lamar"
-          },
-          {
-            "context": "So I am partly well, with regard to your wife, say, so why do you value your wife? You do well value your wife. I love her. So I prioritize and I sacrifice for her. Right, right. So that's within uh the confines of love, let's say. Sure. What else does it serve? What else does what serve? Your love and your marriage. I mean, I am married to my wife because I love her. That's also why I prioritize and sacrifice for her. I certainly wouldn't think I worship her, and I don't think anyone else would make that argument.",
-            "creator": "mindshift"
+            "context": "And when I didn't have easy answers to go to, you know, like whip an answer out of my back pocket or quote a verse of scripture or whatever to refute something. You just had to start studying. Uh I I really wanted to know what the truth was. And that was kind of the impetus for me to to really begin to move down the road because the anti-Catholicism that I had wasn't something that was given to me by my parents. It was something just kind of was there. It was almost like it was latent, in addition to some of the stuff that was taught me in in my high school.",
+            "creator": "capturing-christianity"
           }
         ]
       },
       "deconstruction": {
-        "text": "The deconstruction lines portray \"truth\" as a contested, often harsh or negative reality that can be critiqued, questioned, or used to expose injustice, emphasizing its provisional or problematic nature.",
+        "text": "The deconstruction lines use \"truth\" as a contested, potentially false or manipulative claim, framing it as a narrative that can be challenged or used to justify oppression.",
         "quotes": [
           {
-            "context": "So he he referenced the church fathers for his work on angels, and um, and and then he is held as a doctor of the church. So he's held up so high for us to um use his um his tea his writings to be able to understand better uh uh truth of our faith. Okay. And so because of that, when you talk about angels, because he is considered the angelic doctor, there's no real expert on angels, but he's the closest thing to it.",
-            "creator": "capturing-christianity"
+            "context": "And with that philosophy in mind, America's elite has created basically every domestic policy from Reconstruction all the way to today. So even if slavery did end two centuries ago, the spirit of it lives on. The ugliest, harshest, most inconvenient truth about the US is that its laws, institutions, even this society, were all built on a foundation of white supremacy. What I mean by that is the US from the jump was intended to be a place where white people could prosper directly at the expense of black and brown people.",
+            "creator": "lil-bill"
           },
           {
-            "context": "You know, but by his logic, you're just, you're loving by doing what you want. Yeah. Which is to write this book. Yeah, that's right. Yeah. And he also charged me with not following the uh the love commandment, uh, the second greatest commandment, Leviticus 19, 18. But of course, I I had to point out to him that uh he did not see a difference between that love commandment and special commandments having to do with sex, sexual ethics. So all I had to simply do is point out Jesus seems to have a universal approach to loving your neighbor as yourself, anyone whom you come into contact with.",
-            "creator": "cross-examined"
-          },
-          {
-            "context": "It's just pornographic is pornographic. If you like Game of Thrones, I'm just saying it because I don't want you to be surprised. I don't want you to get them like he did what to what? Uh it's just a few uh like a chapter or two that are like that. But yeah, that's what I'm saying. But I I love writing. Well, I don't I don't think this is the crowd that would have been offended by it though. Yeah. So I you know, I don't I don't think we gotta worry about that. Um but check it out. It's really cool. I would love to hear your thoughts about this. I'm gonna be sharing some more information uh about the characters in this.",
+            "context": "By equipping yourself with these tools, you'll transform prophecy from an opaque authority grab into just another set of claims that you can evaluate. So fewer people lose time, money, and trust chasing empty promises. And the truth is, this isn't just helpful in navigating religious prophecies. It's also critical to evaluate political policies with the exact same level of rigor.",
             "creator": "darante-lamar"
-          },
-          {
-            "context": "I told you don't act up on this stage. I told you don't act up on this stage, Dr. Parker. I'm past it. I'm trying to move on. I love you, Philly. I love you, right? I love you, Christina. I love you, Esau. I love you, Melie. I do, but I don't want to have to call on y'all in my worst moments. I don't want to have to put the kind of pressure or expectation on you that you're gonna make a burden lighter. You're gonna make something make sense, so you can give me a peace that passes all understanding, something that don't even make sense, but it's giving me peace when I should not have.",
-            "creator": "jude-3-project"
-          },
-          {
-            "context": "At some point, they become aware of God's moral requirements, which renders them responsible moral agents. Unfortunately, they misuse their free will by choosing to commit a sin, the original sin, if you will, thereby becoming morally guilty before God and alienating themselves from God, though not from his offer of love and forgiveness.",
-            "creator": "reasonable-faith-org"
           }
         ]
       }

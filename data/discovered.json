@@ -1,156 +1,115 @@
 {
   "meta": {
     "model": "openai:mlx-community/gpt-oss-20b-MXFP4-Q8:v2",
-    "generated_at": "2026-07-30T03:41:39Z",
+    "generated_at": "2026-07-31T03:53:16Z",
     "note": "machine-DISCOVERED framings \u2014 proposed, not pinned",
-    "bar_specificity": "NOT SPECIFIC. 65-75% of arbitrary words of comparable frequency clear this bar; profiles carrying no information about the word clear it at 88%. False-positive rate RISES with occurrence mass (49% below 600 occurrences, 84% at 4,000-10,000). Admission here is NECESSARY, NOT SUFFICIENT evidence of contestation \u2014 the bar detects side-linked structure, much of which is topic and creator rather than meaning. Measured 2026-07-29; see docs/research/2026-07-29-bar-specificity-*.md. No remedy is adopted yet.",
+    "bar_specificity": "Composite false-positive rate 3.1%, MEASURED on 225 frequency-matched arbitrary words (2026-07-29). Admission is still NECESSARY, NOT SUFFICIENT evidence of contestation: the gate detects side-linked structure that survives a same-frequency topic floor, which is a much stronger filter than the single-leg bar it replaced \u2014 that one ran at 74.7% on the same words, cleared information-free profiles at 88%, and cleared all five discourse-marker controls (`whatever`, `literally`, `maybe`, `honestly`, `basically`), which the specificity leg rejects. See docs/research/2026-07-29-bar-specificity-*.md.",
     "bar_corpus": {
       "floor_run": 7,
       "frozen": true,
-      "measured_at": "2026-07-27T02:42:50Z",
+      "measured_at": "2026-07-31T01:20:10Z",
       "corpus": {
-        "fingerprint": "sha256:dfd8b49d33f3b3e3f3ae80d49697b57d",
-        "videos": 5146
+        "covers": "ids+content",
+        "fingerprint": "sha256:998a745c6d7131f9ee6b0603477ff267",
+        "videos": 6730
       },
       "params": {
         "asr_source": "parakeet",
+        "exclude_quoted": true,
         "include_duplicates": false,
         "max_vocab": 200,
         "min_balance": 0.25,
+        "min_cooc": 1,
         "min_side": 8,
         "min_side_creators": 2,
-        "pool": 300
+        "pool": 6000,
+        "window": 5
       },
       "note": "the per-creator collocate profiles the bar was computed from are stored with the floor run, so re-running the permutation pass reproduces these p and q values exactly even after the corpus has grown"
     },
+    "diagnostic_note": "Each concept also carries `bar.diagnostic` \u2014 the pooled permutation p and its Benjamini-Hochberg q. That is a REPORTED DIAGNOSTIC and is NOT THE GATE. Its null is 'no side-linked structure in the pooled cross-side divergence', which at these frequencies is false for most words, so it certifies far too much: on the 435-term benchmark it admits 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016 \u2014 a stronger q than `community`. Read it as a second opinion on one leg, never as the confidence in the published claim.",
     "selection": {
       "pool": 5602,
       "funnel": {
         "occurrence_floor": 5602,
         "creator_gated": 5568,
-        "bar_cleared": 28,
-        "published": 26
+        "bar_cleared": 51,
+        "published": 28
       },
-      "published": 26,
+      "published": 28,
       "ranked_by": "keyness (log-likelihood vs an external reference corpus)",
-      "multiplicity_correction": "Benjamini-Hochberg FDR across the run's terms (gate only)",
-      "note": "Two different things, and only one is corrected. Terms are ADMITTED by a Benjamini-Hochberg-corrected significance gate, but ORDERED by keyness, which carries no correction \u2014 so a high rank reflects distinctiveness and selection, not a stronger result. Treat the ordering as a reading order, not a ranking of confidence."
+      "rule": "DESIGN \u00a73's two-leg gate: the cross-side gap must exceed the spread among same-side creators (exact permutation of a PERMANOVA pseudo-F, each creator one point), AND the term's divergence must fall in the top 5% of a frozen pool of up to 40 words of the same occurrence mass (x/\u00f7sqrt(2)), chosen in hash order of the word. A band holding fewer than 40 eligible peers is reported short and marked `reduced_resolution`, never widened \u2014 widening it would answer a different question. Both legs at the same frozen vintage, or the term does not publish.",
+      "false_positive_rate": {
+        "composite": 0.031,
+        "validity_leg_alone": 0.747,
+        "n": 225,
+        "basis": "measured on 225 frequency-matched arbitrary words, 2026-07-29; re-measured whenever a parameter moves",
+        "caveat": "an upper bound on specificity, not a guarantee: the negative set assumes arbitrary same-mass words are uncontested, and two of its false positives (`religion`, `paul`) are plausibly genuine. This is a measured rate on a stated set \u2014 it is NOT an FDR and must not be read as one."
+      },
+      "note": "Two different things, and only one is gated. Terms are ADMITTED by the two-leg bar but ORDERED by keyness, which carries no correction \u2014 so a high rank reflects distinctiveness and selection, not a stronger result. Treat the ordering as a reading order, not a ranking of confidence."
     },
-    "bar_note": "Each concept carries the DESIGN \u00a73 significance bar: a cross-side difference in how a term is USED counts as a community difference only if it exceeds what a random split of the same creators produces. Every concept here cleared it \u2014 the lane annotates only terms that do, because reading thousands of candidates with an LLM is not feasible. Terms that did not clear the bar are not deleted: they remain in the candidate pool with their statistics, unannotated."
+    "bar_note": "Each concept carries the DESIGN \u00a73 two-leg significance bar: a cross-side difference in how a term is USED counts as a community difference only if it exceeds both the spread among same-side creators AND the divergence of same-frequency arbitrary words. Every concept here cleared both legs \u2014 the lane annotates only terms that do, because reading thousands of candidates with an LLM is not feasible. Terms that did not clear the bar are not deleted: they remain in the candidate pool with their statistics, unannotated."
   },
   "concepts": [
     {
-      "surface": "gaslighting",
-      "verdict": "convergent",
+      "surface": "atheist",
+      "verdict": "mixed",
       "apologetics": {
-        "text": "gaslighting is a psychological disorder where someone...",
+        "text": "Apologetics uses \"atheist\" to label people who lack belief in God, often with negative connotations such as \"infidels\" and \"internet infidels\", portraying them as rational but lacking faith.",
         "quotes": [
-          "...at the end of the day [gaslighting] is a psychological disorder where someone..."
+          "...there for atheism most of these [atheists] are evidentialists who will tell you...",
+          "...to me some of these youtube [atheists] and internet infidels you know who..."
         ]
       },
       "deconstruction": {
-        "text": "just gaslighting that's what it is it's so...",
+        "text": "Deconstruction uses \"atheist\" to describe people who are not religious, sometimes neutrally or positively, noting that atheists can be moral, humanist, and part of various groups.",
         "quotes": [
-          "...ministry that is that is just [gaslighting] that's what it is it's so..."
+          "...look at how one is an [atheist] and one is a christian in...",
+          "...for example is mostly just an [atheistic] humanistic organization that fights for church..."
         ]
       },
-      "apol": 21,
-      "decon": 163,
-      "keyness": 6.599877884263903,
+      "apol": 1001,
+      "decon": 5183,
+      "keyness": 7.83501435414283,
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.00197136884443386,
-        "q": 0.027603974972396025,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "afterlife",
-      "verdict": "contested",
-      "apologetics": {
-        "text": "beatific vision of god in the afterlife",
-        "quotes": [
-          "...is no god there is no [afterlife] there is no judgment there is...",
-          "...beatific vision of god in the [afterlife] i think however that this isn't..."
-        ]
-      },
-      "deconstruction": {
-        "text": "like a timeshare scheme for the afterlife",
-        "quotes": [
-          "...other hand if there is no [afterlife] and this is all we get...",
-          "...it comes with baggage about the [afterlife] sure but it it could still..."
-        ]
-      },
-      "apol": 94,
-      "decon": 532,
-      "keyness": 6.542071698824471,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0023815194093831865,
-        "q": 0.029934375909608107,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "supernatural",
-      "verdict": "contested",
-      "apologetics": {
-        "text": "Apologetics frames the supernatural as a positive, divine work or gift\u2014evidence of God\u2019s power and ministry.",
-        "quotes": [
-          "...holy spirit and living out this [supernatural] lifestyle in the power of his...",
-          "...it is really the [supernatural] work of the spirit i had..."
-        ]
-      },
-      "deconstruction": {
-        "text": "Deconstruction treats the supernatural as a cultural or psychological phenomenon, often critiquing or analyzing its role in belief systems.",
-        "quotes": [
-          "...is if it doesn't have some [supernatural] element some element of worship of...",
-          "...become sort of quasi possessed by [supernatural] beings and all kinds of things..."
-        ]
-      },
-      "apol": 157,
-      "decon": 1238,
-      "keyness": 5.77060313876946,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0012304516948479797,
-        "q": 0.024609033896959596,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
+        "failed": [],
+        "validity_p": 0.029411764705882353,
+        "percentile": 0.025,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.1791029197406304,
+        "diagnostic": {
+          "perm_p": 0.09033896959593554,
+          "perm_q": 0.21406041956912034,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
       }
     },
     {
       "surface": "god",
       "verdict": "contested",
       "apologetics": {
-        "text": "god is an eternal, infinite, moral, loving, just being who provides salvation and redemption.",
+        "text": "[A1] ...of all let's do the math [god] is eternal infinite meaning he never...",
         "quotes": [
-          "...by god's love and justice only [god] could pay what man owed but...",
-          "...sin and the fall and then [god] working towards redemption of what his..."
+          "...of all let's do the math [god] is eternal infinite meaning he never..."
         ]
       },
       "deconstruction": {
-        "text": "god is a concept that can be invoked for blessings, judgment, or control, and is sometimes questioned or reinterpreted.",
+        "text": "[D4] ...at least hit that oh my [god] no of course like abstract sense...",
         "quotes": [
-          "...thought i had was being monitored [god] was always ready to judge and...",
-          "...if i asked what why did [god] allow this thing to happen and..."
+          "...at least hit that oh my [god] no of course like abstract sense..."
         ]
       },
       "apol": 19826,
@@ -159,670 +118,88 @@
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.00010584530708369718,
-        "q": 0.007938398031277287,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
+        "failed": [],
+        "validity_p": 2.6461326770924294e-05,
+        "percentile": 0.0,
+        "pool_n": 4,
+        "reduced_resolution": true,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.042067796284291005,
+        "diagnostic": {
+          "perm_p": 0.00010584530708369718,
+          "perm_q": 0.019934199500762965,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
       }
     },
     {
-      "surface": "belief",
+      "surface": "ritual",
       "verdict": "contested",
       "apologetics": {
-        "text": "...it is certainly enough to justify [belief] in christ as the revelation of...",
+        "text": "Apologetics frames \"ritual\" as a foundational religious law and practice that reinforces faith and community cohesion.",
         "quotes": [
-          "...it is certainly enough to justify [belief] in christ as the revelation of..."
+          "...over and over again the these [ritual] laws in the old testament emphasize..."
         ]
       },
       "deconstruction": {
-        "text": "...new atheism is simply lack of [belief] in god and so i've seen...",
+        "text": "Deconstruction critiques \"ritual\" as often oppressive or meaningless, highlighting its potential for abuse and exclusion.",
         "quotes": [
-          "...new atheism is simply lack of [belief] in god and so i've seen..."
+          "...as being a disgusting and meaningless [ritual] eventually the phrase came to mean..."
         ]
       },
-      "apol": 986,
-      "decon": 6866,
-      "keyness": 5.450665210249091,
+      "apol": 171,
+      "decon": 1174,
+      "keyness": 4.479141755526804,
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.00035722791140747797,
-        "q": 0.014112707611159622,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "honestly",
-      "verdict": "convergent",
-      "apologetics": {
-        "text": "honestly is used to preface personal opinions and statements about religious topics",
-        "quotes": [
-          "...if you investigate these four questions [honestly] i think you'll realize that the...",
-          "...in today's episode i'm gonna [honestly] rank every single book i've ever..."
-        ]
-      },
-      "deconstruction": {
-        "text": "honestly is used to preface personal experiences and candid statements",
-        "quotes": [
-          "...his and his teaching um but [honestly] i couldn't tell you much about...",
-          "...it with my kids i i [honestly] skip it every time then at..."
-        ]
-      },
-      "apol": 207,
-      "decon": 1613,
-      "keyness": 5.319051712182169,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0019052155275065491,
-        "q": 0.027603974972396025,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "moral",
-      "verdict": "contested",
-      "apologetics": {
-        "text": "moral is used to refer to objective standards derived from God, such as the moral perfection of God and moral realism",
-        "quotes": [
-          "...rather they arise from the essential [moral] perfection of god god is both...",
-          "...defining objective morality clip number three [moral] realism's basic claim is that some..."
-        ]
-      },
-      "deconstruction": {
-        "text": "moral is used to critique or question moral standards, highlighting their subjectivity and potential danger",
-        "quotes": [
-          "...i'm wrong but you've conceptualized your [morality] in terms of religion right and...",
-          "...two about it but there's a [moral] danger in that kind of belief..."
-        ]
-      },
-      "apol": 2277,
-      "decon": 5292,
-      "keyness": 5.257662049032881,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0026725940038633536,
-        "q": 0.032071128046360246,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "christian",
-      "verdict": "contested",
-      "apologetics": {
-        "text": "...a christian philosopher and apologist who denies the...",
-        "quotes": [
-          "...william lane craig is a [christian] philosopher and apologist who denies the..."
-        ]
-      },
-      "deconstruction": {
-        "text": "...and [christianity] is still blood cult today they...",
-        "quotes": [
-          "...without spot or blemish yep and [christianity] is still blood cult today they..."
-        ]
-      },
-      "apol": 7315,
-      "decon": 17651,
-      "keyness": 5.235184246940592,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.001521526289328147,
-        "q": 0.026020304658075557,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "divine",
-      "verdict": "contested",
-      "apologetics": {
-        "text": "Apologetics uses \"divine\" to describe positive attributes of God\u2014nature, love, life, authority, and revelation.",
-        "quotes": [
-          "...had a human nature and a [divine] nature to come and save you...",
-          "...human standard or is this a [divine] gift that contributes to my human..."
-        ]
-      },
-      "deconstruction": {
-        "text": "Deconstruction uses \"divine\" in both positive and critical contexts, framing it as a source of authority, silence, or intervention, sometimes questioning its role.",
-        "quotes": [
-          "...and then went on to yale [divinity] school where i got my master...",
-          "...goes what this story implicates is [divine] silence not at any point does..."
-        ]
-      },
-      "apol": 1471,
-      "decon": 2321,
-      "keyness": 5.076490284567158,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 5.292265354184859e-05,
-        "q": 0.0052922653541848585,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "literally",
-      "verdict": "mixed",
-      "apologetics": {
-        "text": "she's [literally] going to get her child murdered...",
-        "quotes": [
-          "...is wicked the woman evil she's [literally] going to get her child murdered..."
-        ]
-      },
-      "deconstruction": {
-        "text": "molokoi [literally] means soft and it's a derogatory...",
-        "quotes": [
-          "...it says molokoi arsenokoite so molokoi [literally] means soft and it's a derogatory..."
-        ]
-      },
-      "apol": 790,
-      "decon": 3824,
-      "keyness": 4.786389864600093,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.003611971104231166,
-        "q": 0.040133012269235185,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "narrative",
-      "verdict": "mixed",
-      "apologetics": {
-        "text": "Apologetics uses 'narrative' to refer to biblical or historical stories, often as a factual account.",
-        "quotes": [
-          "...the bible put forth an oppressive [narrative] on women i think the bible...",
-          "...a story incorporated later into the [narrative] well now what about the empty..."
-        ]
-      },
-      "deconstruction": {
-        "text": "Deconstruction uses 'narrative' to describe constructed stories that shape perception, often critiquing or exposing false narratives.",
-        "quotes": [
-          "...that is basically centered on a [narrative] of disliking certain people and acting...",
-          "...gonna happen but that's a false [narrative] specifically designed to make sure people..."
-        ]
-      },
-      "apol": 361,
-      "decon": 1982,
-      "keyness": 4.74667650894358,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0008732237834405017,
-        "q": 0.0228228943399222,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "faith",
-      "verdict": "contested",
-      "apologetics": {
-        "text": "faith as a central, positive belief in God and Christian values",
-        "quotes": [
-          "...that i get from my christian [faith] that is conservative family values that..."
-        ]
-      },
-      "deconstruction": {
-        "text": "faith as a belief that can be questioned or is socially constructed",
-        "quotes": [
-          "...around our necks because we have [faith] that vampires don't exist we've just..."
-        ]
-      },
-      "apol": 3413,
-      "decon": 5936,
-      "keyness": 4.685815106619443,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0015612182794845335,
-        "q": 0.026020304658075557,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "believe",
-      "verdict": "mixed",
-      "apologetics": {
-        "text": "Apologetics uses 'believe' to affirm faith in God and Christ, encouraging trust and belief in divine truth.",
-        "quotes": [
-          "...things basically so that you may [believe] in christ and in believing in..."
-        ]
-      },
-      "deconstruction": {
-        "text": "Deconstruction uses 'believe' to question or reject faith in the Christian God, reflecting skepticism or alternative interpretations.",
-        "quotes": [
-          "...french deists for example didn't really [believe] in the christian god and so..."
-        ]
-      },
-      "apol": 5474,
-      "decon": 17815,
-      "keyness": 4.647497520273039,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 3.9691990156386444e-05,
-        "q": 0.0052922653541848585,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "problematic",
-      "verdict": "convergent",
-      "apologetics": {
-        "text": "something particularly problematic about a view",
-        "quotes": [
-          "...right i mean there's something particularly [problematic] about a view on which mathematical..."
-        ]
-      },
-      "deconstruction": {
-        "text": "can sound problematic if you're not clear about what",
-        "quotes": [
-          "...justice thus rejecting judgment can sound [problematic] if you're not clear about what..."
-        ]
-      },
-      "apol": 82,
-      "decon": 602,
-      "keyness": 4.613192690343255,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0032018205392818394,
-        "q": 0.036944083145559685,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "religious",
-      "verdict": "contested",
-      "apologetics": {
-        "text": "Uses 'religious' to describe experiences, life, people, orders, and freedom, often neutrally or positively, but also sometimes negatively.",
-        "quotes": [
-          "...you realize that christianity is a [religious] worldview you can investigate and discover...",
-          "...those who challenge it are either [religious] kooks or ignoramuses on the level..."
-        ]
-      },
-      "deconstruction": {
-        "text": "Uses 'religious' in a critical or skeptical context, labeling people or practices as problematic.",
-        "quotes": [
-          "...i hate this movie as a [religious] deconstruction coach it is gaslighting bullshit...",
-          "...you know military you know slash [religious] coercion uh and that uh you..."
-        ]
-      },
-      "apol": 562,
-      "decon": 6564,
-      "keyness": 4.502315282333299,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0009129157735968882,
-        "q": 0.0228228943399222,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "pray",
-      "verdict": "mixed",
-      "apologetics": {
-        "text": "Prayer is presented as a positive, central act of worship to God.",
-        "quotes": [
-          "...in john chapter 17 when he's [praying] for us to the father he...",
-          "...they hold but you do i [pray] that you would speak a word..."
-        ]
-      },
-      "deconstruction": {
-        "text": "Prayer is sometimes framed as a personal struggle or critique of religious practice.",
-        "quotes": [
-          "...that's even less control you can't [pray] to the universe i mean i...",
-          "...value but i didn't want to [pray] to god anymore so now my..."
-        ]
-      },
-      "apol": 1311,
-      "decon": 1595,
-      "keyness": 4.447105794404897,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0018390622105792385,
-        "q": 0.027603974972396025,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "condescending",
-      "verdict": "contested",
-      "apologetics": {
-        "text": "In apologetics, \"condescended\" is used to describe the theological act of God lowering Himself to humanity, e.g., \"...invisible god visible he who once [condescended] on a mountain in fire came...\"",
-        "quotes": [
-          "...invisible god visible he who once [condescended] on a mountain in fire came..."
-        ]
-      },
-      "deconstruction": {
-        "text": "In deconstruction, \"condescending\" is used to describe a patronizing or dismissive attitude toward religious people, e.g., \"...that i was getting is extremely [condescending] and dismissive...\"",
-        "quotes": [
-          "...that i was getting is extremely [condescending] and dismissive and perhaps he spoke..."
-        ]
-      },
-      "apol": 13,
-      "decon": 74,
-      "keyness": 4.4349574521995825,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0004233812283347887,
-        "q": 0.014112707611159622,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "guilt",
-      "verdict": "contested",
-      "apologetics": {
-        "text": "doctrine of original sin that adam's [guilt] is imputed to us i don't...",
-        "quotes": [
-          "...doctrine of original sin that adam's [guilt] is imputed to us i don't..."
-        ]
-      },
-      "deconstruction": {
-        "text": "so this is kind of a [guilt] by association sort of critique yeah...",
-        "quotes": [
-          "...so this is kind of a [guilt] by association sort of critique yeah..."
-        ]
-      },
-      "apol": 139,
-      "decon": 653,
-      "keyness": 4.418140123401609,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0003969199015638644,
-        "q": 0.014112707611159622,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "maybe",
-      "verdict": "convergent",
-      "apologetics": {
-        "text": "\"maybe\" is used as a hedge to express uncertainty or tentative agreement.",
-        "quotes": [
-          "...jew hatred or maybe i'm wrong [maybe] there is no jew hatred and..."
-        ]
-      },
-      "deconstruction": {
-        "text": "\"maybe\" is used similarly as a hedge to express uncertainty or challenge.",
-        "quotes": [
-          "...to challenge your faith to say [maybe] you're doing it wrong maybe that's..."
-        ]
-      },
-      "apol": 2028,
-      "decon": 8003,
-      "keyness": 4.390155492802786,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0023947500727686485,
-        "q": 0.029934375909608107,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "eternal",
-      "verdict": "mixed",
-      "apologetics": {
-        "text": "Apologetics uses \"eternal\" to describe everlasting divine states such as eternal life, eternal punishment, and eternal being.",
-        "quotes": [
-          "...now folks anybody who freely chose [eternal] torment over eternal bliss would be...",
-          "...looks like we only have one [eternal] home and that's in glory the..."
-        ]
-      },
-      "deconstruction": {
-        "text": "Deconstruction uses \"eternal\" to refer to the universe's timeless nature or to describe ongoing suffering, often in a skeptical or critical context.",
-        "quotes": [
-          "...that the universe was static and [eternal] and then we shifted out of...",
-          "...achieving that suggests the universe is [eternal] i mean what scientist much less..."
-        ]
-      },
-      "apol": 870,
-      "decon": 1049,
-      "keyness": 4.361875005576369,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0003969199015638644,
-        "q": 0.014112707611159622,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "uncomfortable",
-      "verdict": "convergent",
-      "apologetics": {
-        "text": "Apologetics uses 'uncomfortable' to describe emotional discomfort with theological ideas or situations.",
-        "quotes": [
-          "...the carries within charismatic circles where [uncomfortable] truths are discussed privately among leaders...",
-          "...our lives from him may feel [uncomfortable] with these verses that show the..."
-        ]
-      },
-      "deconstruction": {
-        "text": "Deconstruction uses 'uncomfortable' similarly to describe emotional unease or discomfort with ideas or situations.",
-        "quotes": [
-          "...do you want comfortable lies or [uncomfortable] truths it's the whole point of...",
-          "...garbage prophecy credulity that made me [uncomfortable] even when i was at the..."
-        ]
-      },
-      "apol": 51,
-      "decon": 624,
-      "keyness": 4.356729445543678,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0005027652086475615,
-        "q": 0.015082956259426846,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "ideology",
-      "verdict": "convergent",
-      "apologetics": {
-        "text": "They use \"ideology\" to criticize political correctness, woke movements, and dogmatic beliefs, framing it as a harmful or false set of ideas.",
-        "quotes": [
-          "...are translations that would be like [ideologically] driven like you know new world...",
-          "...experiencing a comeback in the woke [ideology] of so called progressive christianity or..."
-        ]
-      },
-      "deconstruction": {
-        "text": "They use \"ideology\" to critique power structures, political movements, and dogmatic beliefs, framing it as a harmful or oppressive set of ideas.",
-        "quotes": [
-          "...build this around one person one [ideology] one identity that's that's not healthy...",
-          "...so one of the things is [ideologically] they're on the same plane so..."
-        ]
-      },
-      "apol": 151,
-      "decon": 1057,
-      "keyness": 4.311593514231732,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0037972003916276363,
-        "q": 0.0406842899102961,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "gotcha",
-      "verdict": "convergent",
-      "apologetics": {
-        "text": "...truth but are geared towards creating [gotcha] social media moments the most shameless...",
-        "quotes": [
-          "...truth but are geared towards creating [gotcha] social media moments the most shameless..."
-        ]
-      },
-      "deconstruction": {
-        "text": "...this thing like it's a aha [gotcha] moment yeah where you're like no...",
-        "quotes": [
-          "...this thing like it's a aha [gotcha] moment yeah where you're like no..."
-        ]
-      },
-      "apol": 20,
-      "decon": 95,
-      "keyness": 4.281528258627161,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0014289116456299119,
-        "q": 0.026020304658075557,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
-      }
-    },
-    {
-      "surface": "sacrifice",
-      "verdict": "contested",
-      "apologetics": {
-        "text": "on the cross as the only [sacrifice] for sin whereby people could be...",
-        "quotes": [
-          "...the lord makes his one saving [sacrifice] which is sufficient more than sufficient...",
-          "...on the cross as the only [sacrifice] for sin whereby people could be..."
-        ]
-      },
-      "deconstruction": {
-        "text": "their salvation rests on a human [sacrifice] oh wow so there's purity culture...",
-        "quotes": [
-          "...their salvation rests on a human [sacrifice] oh wow so there's purity culture..."
-        ]
-      },
-      "apol": 536,
-      "decon": 730,
-      "keyness": 4.205440064089552,
-      "bar": {
-        "status": "ok",
-        "passes": true,
-        "p": 0.0011113757243788203,
-        "q": 0.024609033896959596,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
+        "failed": [],
+        "validity_p": 0.019516431281137163,
+        "percentile": 0.0,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.35007382410284327,
+        "diagnostic": {
+          "perm_p": 0.017146939747558942,
+          "perm_q": 0.09016772349155866,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
       }
     },
     {
       "surface": "shame",
-      "verdict": "contested",
+      "verdict": "convergent",
       "apologetics": {
-        "text": "Apologetics uses 'shame' as a personal moral failing or negative emotion that can be removed or alleviated.",
+        "text": "Uses shame as a moral condemnation or social shaming of others.",
         "quotes": [
-          "...he said that to her her [shame] and her guilt was removed and...",
-          "...must decrease so they may increase [shameful] ..."
+          "...about i'm talking about the most [shameful] sins that you've done in your...",
+          "...billion percent play those clips and [shame] and embarrass him in front of..."
         ]
       },
       "deconstruction": {
-        "text": "Deconstruction frames 'shame' as a cultural mechanism of control and a cycle of oppression.",
+        "text": "Uses shame as a feeling of guilt or social shaming, often internal.",
         "quotes": [
-          "...bodies this has also caused immense [shame] for victims of sexual assault and...",
-          "...live authentically so i have no [shame] this is the ghettoest drink in..."
+          "...live authentically so i have no [shame] this is the ghettoest drink in...",
+          "...may have felt some too just [shame] that you weren't able to do..."
         ]
       },
       "apol": 171,
@@ -831,45 +208,1103 @@
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.0012304516948479797,
-        "q": 0.024609033896959596,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
+        "failed": [],
+        "validity_p": 0.002011060834590246,
+        "percentile": 0.025,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.27663146429572527,
+        "diagnostic": {
+          "perm_p": 0.0019845995078193223,
+          "perm_q": 0.04036675398904502,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
       }
     },
     {
-      "surface": "whatever",
-      "verdict": "convergent",
+      "surface": "affirming",
+      "verdict": "contested",
       "apologetics": {
-        "text": "...thoughts from your past from molestation [whatever] may be hindering you that god...",
+        "text": "In apologetics, \"affirming\" is used to assert or support theological truths and doctrines.",
         "quotes": [
-          "...thoughts from your past from molestation [whatever] may be hindering you that god..."
+          "...biblical doctrine of inspiration that can [affirm] that the scriptures are verbally plenary...",
+          "...what i thought so since you [affirm] both premises of the moral argument..."
         ]
       },
       "deconstruction": {
-        "text": "...on in bridge city chat checking [whatever] i've missed on my phone and...",
+        "text": "In deconstruction, \"affirming\" is used to support marginalized identities, gender, and life\u2011affirming values.",
         "quotes": [
-          "...on in bridge city chat checking [whatever] i've missed on my phone and..."
+          "...is people centric progressive thinking life [affirming] and the thing is like uh...",
+          "...the first clinic that did gender [affirming] surgery started in germany in 1919..."
         ]
       },
-      "apol": 946,
-      "decon": 4391,
-      "keyness": 4.16750577178303,
+      "apol": 567,
+      "decon": 945,
+      "keyness": 3.7608381229496475,
       "bar": {
         "status": "ok",
         "passes": true,
-        "p": 0.00033076658463655366,
-        "q": 0.014112707611159622,
-        "corrected": true,
-        "max_q": 0.05,
-        "assignments": 75582,
-        "statistic": "divergence",
-        "method": "exhaustive permutation of collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-        "reason": null
+        "failed": [],
+        "validity_p": 9.261464369823503e-05,
+        "percentile": 0.025,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.27292276269649907,
+        "diagnostic": {
+          "perm_p": 0.02353735016273716,
+          "perm_q": 0.1039537356778069,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "sociological",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "there's just a sociological explanation for why certain persons in...",
+        "quotes": [
+          "...i would say there's just a [sociological] explanation for why certain persons in..."
+        ]
+      },
+      "deconstruction": {
+        "text": "critiquing the church from a purely sociological perspective how is it any different...",
+        "quotes": [
+          "...critiquing the church from a purely [sociological] perspective how is it any different..."
+        ]
+      },
+      "apol": 34,
+      "decon": 853,
+      "keyness": 3.246598686303133,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.0012432012432012432,
+        "percentile": 0.0,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.49681704844793795,
+        "diagnostic": {
+          "perm_p": 0.19412029319150062,
+          "perm_q": 0.33274379171717006,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "myth",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "bible is just a bunch of [myths]",
+        "quotes": [
+          "...bible is just a bunch of [myths] remind them of this okay archaeology..."
+        ]
+      },
+      "deconstruction": {
+        "text": "early societies developed they created typical [myths] attributing each one to a specific...",
+        "quotes": [
+          "...early societies developed they created typical [myths] attributing each one to a specific..."
+        ]
+      },
+      "apol": 178,
+      "decon": 780,
+      "keyness": 3.1812247391841604,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.0024224141871200693,
+        "percentile": 0.025,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.33532595278214183,
+        "diagnostic": {
+          "perm_p": 0.011695906432748537,
+          "perm_q": 0.0738721614563789,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "man",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "In apologetics, 'man' is used to refer to a human being, often in a neutral or descriptive sense.",
+        "quotes": [
+          "...takes to convince even an unreasonable [man] with the proof now in place...",
+          "...the anointed of god he's a [man] after god's own heart and you're..."
+        ]
+      },
+      "deconstruction": {
+        "text": "In deconstruction, 'man' is also used to refer to a human being, often in a descriptive or critical context.",
+        "quotes": [
+          "...just plays the i'm a holy [man] card to manipulate her into being...",
+          "...that god is this white bearded [man] that watches you when you're sleeping..."
+        ]
+      },
+      "apol": 2942,
+      "decon": 12097,
+      "keyness": 3.0691852331787763,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.0005953798523457966,
+        "percentile": 0.0,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.13339280970037182,
+        "diagnostic": {
+          "perm_p": 0.045262099441666,
+          "perm_q": 0.1466830136990457,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "selves",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "Apologetics frames \"selves\" as metaphysical persons or souls, emphasizing an immaterial, divine\u2011origin identity.",
+        "quotes": [
+          "...understand human personhood we are immaterial [selves] or souls just as god is...",
+          "...exist he says there are no [selves] there are no persons no first..."
+        ]
+      },
+      "deconstruction": {
+        "text": "Deconstruction frames \"selves\" as psychological states or evolving identities, focusing on integration of past and true selves.",
+        "quotes": [
+          "...by helping people be their best [selves] and run their best race as...",
+          "...more than extensions of our own [selves] we see them as a chance..."
+        ]
+      },
+      "apol": 11,
+      "decon": 90,
+      "keyness": 3.0245399935284607,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.008658008658008658,
+        "percentile": 0.0,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.8950634944668895,
+        "diagnostic": {
+          "perm_p": 0.02562779497764018,
+          "perm_q": 0.10841708607429312,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "identity",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "body and my sexuality and my identity all things were made through him",
+        "quotes": [
+          "...body and my sexuality and my [identity] all things were made through him..."
+        ]
+      },
+      "deconstruction": {
+        "text": "without undermining the whole basis and identity of their religion",
+        "quotes": [
+          "...without undermining the whole basis and [identity] of their religion but honestly i..."
+        ]
+      },
+      "apol": 496,
+      "decon": 2552,
+      "keyness": 2.839621552159634,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.006562409039189225,
+        "percentile": 0.025,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.22169301398306873,
+        "diagnostic": {
+          "perm_p": 0.0003836892381784023,
+          "perm_q": 0.026014130348495673,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "belonging",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "In apologetics, 'belonging' is used to denote objective membership or classification, such as belonging to a literary genre, a species, or a church.",
+        "quotes": [
+          "...to say that these people actually [belong] to a gender that does not...",
+          "...how do we know which books [belong] in the new testament answer number..."
+        ]
+      },
+      "deconstruction": {
+        "text": "In deconstruction, 'belonging' refers to a subjective sense of identity, community, or emotional attachment.",
+        "quotes": [
+          "...sense of self my identity my [belonging] i certainly was losing my community...",
+          "...that every person just because they [belong] to a community or group of..."
+        ]
+      },
+      "apol": 233,
+      "decon": 1195,
+      "keyness": 2.636246085204497,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.001521526289328147,
+        "percentile": 0.0,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.3576952477270891,
+        "diagnostic": {
+          "perm_p": 0.0013362970019316768,
+          "perm_q": 0.03579318087698573,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "freedom",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "Apologetics frames freedom as a positive, divinely granted right encompassing free will, civil liberties, and personal liberty.",
+        "quotes": [
+          "...capitalist free market system here with [freedom] freedoms of the press and freedoms...",
+          "...the first amendment's broad protections of [freedom] of speech and freedom of religion..."
+        ]
+      },
+      "deconstruction": {
+        "text": "Deconstruction frames freedom as a contested concept, critiquing its misuse, highlighting contradictions, and questioning its moral and social implications.",
+        "quotes": [
+          "...and the moment they have their [freedom] they begin dividing against each other...",
+          "...you know under the guise of [freedom] of speech and freedom of religion..."
+        ]
+      },
+      "apol": 723,
+      "decon": 1547,
+      "keyness": 2.5651538066516664,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.016736789182609617,
+        "percentile": 0.0,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.2159069583652276,
+        "diagnostic": {
+          "perm_p": 0.017001402450318857,
+          "perm_q": 0.08991348629958623,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "channel",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "They use \"channel\" to refer to a YouTube channel or platform for sharing content and spiritual messages.",
+        "quotes": [
+          "...is on my on my youtube [channel] of uh what i talk about...",
+          "...to heaven and hell makes youtube [channels] and videos and put stuff out..."
+        ]
+      },
+      "deconstruction": {
+        "text": "They use \"channel\" to refer to a YouTube channel or platform for sharing content and personal reflections.",
+        "quotes": [
+          "...and as i build this youtube [channel] of free content check out my...",
+          "...right there is a reason these [channels] are always very young couples who..."
+        ]
+      },
+      "apol": 352,
+      "decon": 3920,
+      "keyness": 2.4816710650399547,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.01733216903495541,
+        "percentile": 0.025,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.22692967726777402,
+        "diagnostic": {
+          "perm_p": 0.6762324362943558,
+          "perm_q": 0.7469982975550217,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "keep",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "Apologetics uses \"keep\" to mean maintain or continue actions or thoughts, such as keeping in mind, keeping going, or keeping listening.",
+        "quotes": [
+          "...roman empire and that we should [keep] in mind...",
+          "...place oh lord please continue to [keep] your promise to david my father..."
+        ]
+      },
+      "deconstruction": {
+        "text": "Deconstruction also uses \"keep\" to mean maintain or continue, e.g., keeping learning, keeping watching, keeping going, or keeping the fun parts.",
+        "quotes": [
+          "...the bulldozer of skepticism that just [keeps] going until there's nothing left it...",
+          "...that into account what evidence he [keeps] saying no matter what the evidence..."
+        ]
+      },
+      "apol": 1230,
+      "decon": 6476,
+      "keyness": 2.4698816821560414,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.014342039109840967,
+        "percentile": 0.025,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.14402818743253773,
+        "diagnostic": {
+          "perm_p": 0.026461326770924293,
+          "perm_q": 0.11027633420629727,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "conducive",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "be false but nevertheless to be [conducive] to the survival of our species",
+        "quotes": [
+          "...be false but nevertheless to be [conducive] to the survival of our species..."
+        ]
+      },
+      "deconstruction": {
+        "text": "however in creating environments which are [conducive] for personal experiences with god think",
+        "quotes": [
+          "...however in creating environments which are [conducive] for personal experiences with god think..."
+        ]
+      },
+      "apol": 16,
+      "decon": 53,
+      "keyness": 2.451326159704902,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.014763014763014764,
+        "percentile": 0.025,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.913951140468712,
+        "diagnostic": {
+          "perm_p": 0.06006721176999815,
+          "perm_q": 0.1709243267210076,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "passion",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "...the [passion] of the lord and of his...",
+        "quotes": [
+          "...is the day of his the [passion] of the lord and of his..."
+        ]
+      },
+      "deconstruction": {
+        "text": "...abstain from the [passions] of the flesh...",
+        "quotes": [
+          "...peter 2 11 abstain from the [passions] of the flesh which wage war..."
+        ]
+      },
+      "apol": 248,
+      "decon": 791,
+      "keyness": 2.360650334618609,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.01954168982032759,
+        "percentile": 0.025,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.40714128215162027,
+        "diagnostic": {
+          "perm_p": 0.038501230451694846,
+          "perm_q": 0.13464838847790114,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "thank",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "Expresses gratitude toward viewers or God.",
+        "quotes": [
+          "...can look after our own morality [thank] you very much and there is..."
+        ]
+      },
+      "deconstruction": {
+        "text": "Expresses gratitude toward viewers or God.",
+        "quotes": [
+          "...are youtube youtube members as well [thank] you that's incredible uh but i'll..."
+        ]
+      },
+      "apol": 1550,
+      "decon": 4941,
+      "keyness": 2.2163211933242573,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.0008732237834405017,
+        "percentile": 0.025,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.20165628186736761,
+        "diagnostic": {
+          "perm_p": 0.028856076843692943,
+          "perm_q": 0.11513759111646564,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "torture",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "to rape and torture a little girl to death",
+        "quotes": [
+          "...think then that to rape and [torture] a little girl to death is..."
+        ]
+      },
+      "deconstruction": {
+        "text": "fine with tying him down and torturing him to death",
+        "quotes": [
+          "...fine with tying him down and [torturing] him to death if that's how..."
+        ]
+      },
+      "apol": 118,
+      "decon": 576,
+      "keyness": 2.1229194541340486,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.0008684126331185155,
+        "percentile": 0.0,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.5040635885227868,
+        "diagnostic": {
+          "perm_p": 0.0007012251594294938,
+          "perm_q": 0.030476324236743384,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "rising",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "rise from the dead",
+        "quotes": [
+          "...is naturally impossible for lazarus to [rise] from the dead um or for..."
+        ]
+      },
+      "deconstruction": {
+        "text": "rise of atheism",
+        "quotes": [
+          "...when you think about it the [rise] of atheism doesn't seem all that..."
+        ]
+      },
+      "apol": 324,
+      "decon": 1568,
+      "keyness": 1.9993510706053739,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.016855865153078776,
+        "percentile": 0.0,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.5210494650136024,
+        "diagnostic": {
+          "perm_p": 0.024728109867428752,
+          "perm_q": 0.10710599546497036,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "until",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "...of children through forced intercourse right [until] the earth is flung through the...",
+        "quotes": [
+          "...of children through forced intercourse right [until] the earth is flung through the..."
+        ]
+      },
+      "deconstruction": {
+        "text": "...you wouldn't just sit around waiting [until] you die too or even just...",
+        "quotes": [
+          "...you wouldn't just sit around waiting [until] you die too or even just..."
+        ]
+      },
+      "apol": 803,
+      "decon": 3618,
+      "keyness": 1.9356244801940332,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.008255933952528379,
+        "percentile": 0.025,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.22181570109704607,
+        "diagnostic": {
+          "perm_p": 0.003056283242041756,
+          "perm_q": 0.044157059527922475,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "community",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "In apologetics, \u2018community\u2019 denotes a faith\u2011based group of believers, often portrayed positively as a supportive, shared religious community.",
+        "quotes": [
+          "...good i'm just talking about the [community] this even this community out here...",
+          "...in the culture and in our [communities] churches needed it people needed it..."
+        ]
+      },
+      "deconstruction": {
+        "text": "In deconstruction, \u2018community\u2019 refers to social or identity groups, sometimes critiqued for exclusion or power dynamics, with a more neutral or critical framing.",
+        "quotes": [
+          "...helpful story that keeps us in [communities] and working on hierarchies and having...",
+          "...local church you know your small [community] and that's trying to come together..."
+        ]
+      },
+      "apol": 914,
+      "decon": 15622,
+      "keyness": 1.859900547035994,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.009023312428885185,
+        "percentile": 0.0,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.15883199947347273,
+        "diagnostic": {
+          "perm_p": 0.03122436558969067,
+          "perm_q": 0.11980236080898436,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "episode",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "In apologetics, \"episode\" is used to refer to a segment of a podcast, TV show, or personal narrative.",
+        "quotes": [
+          "...when i went through that disastrous [episode] of failing my exams at the...",
+          "...fair amount of immodesty in this [episode] on the part of the dress..."
+        ]
+      },
+      "deconstruction": {
+        "text": "In deconstruction, \"episode\" similarly denotes a segment of a show, podcast, or personal experience.",
+        "quotes": [
+          "...down bruh i was watching an [episode] of blackish and and and and...",
+          "...he's been on uh a few [episodes] now yeah so hopefully it keeps..."
+        ]
+      },
+      "apol": 353,
+      "decon": 722,
+      "keyness": 1.8322719354525632,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.018539467068878834,
+        "percentile": 0.025,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.2791388015232301,
+        "diagnostic": {
+          "perm_p": 0.2288375539149533,
+          "perm_q": 0.36859010505465234,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "create",
+      "verdict": "mixed",
+      "apologetics": {
+        "text": "Apologetics uses \"create\" primarily to describe God\u2019s divine act of bringing the universe and humanity into existence, often with a positive or neutral connotation.",
+        "quotes": [
+          "...we are chosen because when god [creates] the universe he chooses the outcome..."
+        ]
+      },
+      "deconstruction": {
+        "text": "Deconstruction uses \"create\" to describe human actions that generate expectations, identity, and social structures, often highlighting the constructed nature of these phenomena.",
+        "quotes": [
+          "...gonna so those conversations start to [create] expectations within the individual right so..."
+        ]
+      },
+      "apol": 2126,
+      "decon": 5984,
+      "keyness": 1.759419072277413,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.0026461326770924293,
+        "percentile": 0.025,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.14878551067706347,
+        "diagnostic": {
+          "perm_p": 0.003122436558969067,
+          "perm_q": 0.04429129951575772,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "overt",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "In apologetics, \"overt\" is used to describe explicit, obvious statements or actions, such as \"very overt statements about biblical Hebrew\".",
+        "quotes": [
+          "...you've made a number of very [overt] statements about biblical hebrew biblical greek..."
+        ]
+      },
+      "deconstruction": {
+        "text": "In deconstruction, \"overt\" similarly denotes explicit, obvious forms of bigotry or persecution, e.g., \"overt bigotry\".",
+        "quotes": [
+          "...act in condemnation and in direct [overt] bigotry but you have this list..."
+        ]
+      },
+      "apol": 14,
+      "decon": 16,
+      "keyness": 1.7518633596557125,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.025,
+        "percentile": 0.0,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.9723958544026012,
+        "diagnostic": {
+          "perm_p": 0.06434071604350242,
+          "perm_q": 0.17707782413664766,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "homicide",
+      "verdict": "contested",
+      "apologetics": {
+        "text": "it must punish a woman for homicide like any other homicide i believe...",
+        "quotes": [
+          "...it must punish a woman for [homicide] like any other homicide i believe..."
+        ]
+      },
+      "deconstruction": {
+        "text": "so on had tallied so many homicides that it doesn't matter anymore who...",
+        "quotes": [
+          "...so on had tallied so many [homicides] that it doesn't matter anymore who..."
+        ]
+      },
+      "apol": 48,
+      "decon": 30,
+      "keyness": 1.7187277915350263,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.0021645021645021645,
+        "percentile": 0.025,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.890270952397193,
+        "diagnostic": {
+          "perm_p": 0.09881982482601678,
+          "perm_q": 0.22333280410679793,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "space",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "container of absolute space",
+        "quotes": [
+          "...except for the container of absolute [space] and the flow of absolute time..."
+        ]
+      },
+      "deconstruction": {
+        "text": "safe space",
+        "quotes": [
+          "...be serious while still creating safe [space] for those who are still just..."
+        ]
+      },
+      "apol": 679,
+      "decon": 3057,
+      "keyness": 1.4871305836092426,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.027003783969728242,
+        "percentile": 0.0,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.2667432066142238,
+        "diagnostic": {
+          "perm_p": 0.0103463787674314,
+          "perm_q": 0.07005504132142298,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "connection",
+      "verdict": "mixed",
+      "apologetics": {
+        "text": "They use \"connection\" to describe causal or theological links between doctrines or events.",
+        "quotes": [
+          "...his divine identity and radical radical [connection] to the father since both are...",
+          "...the book a kind of apostolic [connection] which was a pretty big deal..."
+        ]
+      },
+      "deconstruction": {
+        "text": "They use \"connection\" to describe emotional, social, or personal links between people or ideas.",
+        "quotes": [
+          "...met somebody and there was a [connection] and they weren't the bigoted type...",
+          "...is happening because the feeling of [connection] to everything around you is just..."
+        ]
+      },
+      "apol": 581,
+      "decon": 3938,
+      "keyness": 1.304328947734923,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.02623640549337144,
+        "percentile": 0.025,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.22843979689661534,
+        "diagnostic": {
+          "perm_p": 0.010902066629620809,
+          "perm_q": 0.07143408846195223,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "enjoy",
+      "verdict": "convergent",
+      "apologetics": {
+        "text": "hope that you've enjoyed it as much as i have",
+        "quotes": [
+          "...evening and i hope that you've [enjoyed] it as much as i have..."
+        ]
+      },
+      "deconstruction": {
+        "text": "you can enjoy life and create meaning",
+        "quotes": [
+          "...meaning and that's great we can [enjoy] life and create meaning and pessimistic..."
+        ]
+      },
+      "apol": 217,
+      "decon": 1585,
+      "keyness": 1.258020958944692,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.0011510677145352068,
+        "percentile": 0.0,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.2862916366370455,
+        "diagnostic": {
+          "perm_p": 0.07239819004524888,
+          "perm_q": 0.1894286469508173,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
       }
     }
   ]
