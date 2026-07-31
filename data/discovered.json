@@ -1,7 +1,7 @@
 {
   "meta": {
     "model": "openai:mlx-community/gpt-oss-20b-MXFP4-Q8:v2",
-    "generated_at": "2026-07-31T18:56:50Z",
+    "generated_at": "2026-07-31T21:13:58Z",
     "note": "machine-DISCOVERED framings \u2014 proposed, not pinned",
     "bar_specificity": "Composite false-positive rate 3.1%, MEASURED on 225 frequency-matched arbitrary words (2026-07-29). Admission is still NECESSARY, NOT SUFFICIENT evidence of contestation: the gate detects side-linked structure that survives a same-frequency topic floor, which is a much stronger filter than the single-leg bar it replaced \u2014 that one ran at 74.7% on the same words, cleared information-free profiles at 88%, and cleared all five discourse-marker controls (`whatever`, `literally`, `maybe`, `honestly`, `basically`), which the specificity leg rejects. See docs/research/2026-07-29-bar-specificity-*.md.",
     "bar_corpus": {

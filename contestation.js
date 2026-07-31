@@ -319,6 +319,27 @@ function renderCandidateList() {
   const wrap = $("candidate-list");
   wrap.replaceChildren();
   const sorted = state.candidates.slice().sort((a, b) => b.rank - a.rank);
+
+  // Say what this pool is and is not, in the panel rather than only in a
+  // tooltip — a reader who never hovers is exactly the reader who would take
+  // these for findings. The genericness is measured, not an apology: every
+  // candidate already clears the distinctiveness floor, so what is on display
+  // is the lane's BEST output, not its unfiltered tail.
+  // Count in the summary, so the pool is legible while closed — collapsing it
+  // must hide the SPACE it took, not the fact that it exists.
+  const count = $("candidate-count");
+  if (count) count.textContent = ` (${sorted.length})`;
+
+  const note = $("candidate-disclosure");
+  if (note) {
+    note.textContent =
+      `${sorted.length} unpinned phrase${sorted.length === 1 ? "" : "s"}, ranked ` +
+      "and NOT gated: none has been through the two-leg significance bar that " +
+      "every term above publishes. Multi-word phrases in this corpus are " +
+      "mostly common-word combinations, so treat these as raw proposals to " +
+      "pin from — the score orders the pool, it does not certify anything.";
+  }
+
   for (const c of sorted) {
     const b = el("button", "term-btn");
     b.type = "button";

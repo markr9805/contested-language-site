@@ -418,7 +418,15 @@ button.stat-tile:hover { border-color: var(--series-1); }
 .framing-col.empty p { color: var(--text-secondary); font-style: italic; }
 
 /* ---- contestation view: candidate sidebar list ---- */
-#candidate-area { display: flex; flex-direction: column; min-height: 0; max-height: 34vh; }
+/* Collapsed, this must cost only its summary line — the point of #140 is that
+   an ungated pool was taking more of the sidebar than the gated terms (measured
+   2026-07-31: 50 candidate buttons against 12 gated). The height cap therefore
+   applies only when it is open. */
+#candidate-area { display: flex; flex-direction: column; min-height: 0; }
+#candidate-details { display: flex; flex-direction: column; min-height: 0; }
+#candidate-details[open] { max-height: 34vh; }
+#candidate-details > summary { cursor: pointer; }
+#candidate-disclosure { padding: 0 4px 6px; }
 #candidate-scroll { overflow-y: auto; min-height: 0; padding: 0 4px 8px; }
 
 /* ---- contestation view: cited-quote tray items ---- */

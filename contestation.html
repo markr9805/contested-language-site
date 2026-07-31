@@ -45,13 +45,24 @@
     <nav class="side-scroll" aria-label="Terms by verdict">
       <div id="verdict-groups"></div>
     </nav>
+    <!-- Collapsed by default, and that is a claims-discipline decision rather
+         than a layout one. These candidates have NEVER been through DESIGN §3's
+         two-leg bar: they carry no `bar` field at all, yet their divergence
+         (0.88-1.0) reads HIGHER than the certified terms', which is exactly the
+         artifact the specificity leg exists to catch. Shown at equal weight
+         beside gated terms, a reader cannot tell which list carries a
+         measurement. -->
     <div class="filter-area" id="candidate-area">
-      <div style="padding:6px 4px;font-weight:600">Layer-2 candidates
-        <span class="unit tip" data-tip="Surfaced automatically by dispersion + divergence ranking, not yet pinned into the lexicon. No Layer-4 framing exists for these — they show scores, never a two-sided reading.">unpinned pool</span>
-      </div>
-      <div class="side-scroll" id="candidate-scroll">
-        <div id="candidate-list"></div>
-      </div>
+      <details id="candidate-details">
+        <summary style="padding:6px 4px;font-weight:600">Layer-2 candidates<span
+            id="candidate-count"></span>
+          <span class="unit tip" data-tip="UNGATED. Surfaced by dispersion + divergence ranking and never tested against DESIGN §3's two-leg significance bar — unlike every term above, which publishes its verdict. No Layer-4 framing exists for these: they show scores, never a two-sided reading. They are a proposal pool for the author to pin from, not findings.">ungated pool</span>
+        </summary>
+        <p class="insufficient-note" id="candidate-disclosure"></p>
+        <div class="side-scroll" id="candidate-scroll">
+          <div id="candidate-list"></div>
+        </div>
+      </details>
     </div>
   </div>
 
