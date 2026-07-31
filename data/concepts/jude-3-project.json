@@ -25,38 +25,6 @@
    "surface": "african traditional"
   },
   {
-   "creator_count": 17,
-   "distinctiveness": 5.85,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "supreme god"
-  },
-  {
-   "creator_count": 31,
-   "distinctiveness": 5.77,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "traditional religion"
-  },
-  {
-   "creator_count": 19,
-   "distinctiveness": 4.94,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "church hurt"
-  },
-  {
-   "creator_count": 16,
-   "distinctiveness": 4.84,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "spiritual abuse"
-  },
-  {
    "creator_count": 36,
    "distinctiveness": 3.81,
    "note": null,
@@ -65,59 +33,84 @@
    "surface": "image of god"
   },
   {
-   "creator_count": 39,
-   "distinctiveness": 3.56,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "young people"
-  },
-  {
    "creator_count": 30,
    "distinctiveness": 3.53,
    "note": "white supremacy ideology",
    "quotes": [
-    "...wrestle that definition of god from [white supremacy] to a place of affirmation that...",
-    "...i see people tie things to [white supremacy] that have nothing to do with..."
+    {
+     "context": "...that that's a way of idolizing [white supremacy] now the remedy to that is...",
+     "t": 1514.8,
+     "video_id": "jwRN7VN3KpM"
+    },
+    {
+     "context": "...that had been uh harmed by [white supremacy] they still could see the possibility...",
+     "t": 1173.96,
+     "video_id": "A_CEt-QG7Bs"
+    }
    ],
    "signal": 1,
    "surface": "white supremacy"
   },
   {
-   "creator_count": 16,
-   "distinctiveness": 3.37,
+   "creator_count": 35,
+   "distinctiveness": 2.1,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "local church"
+   "surface": "black church"
   },
   {
-   "creator_count": 21,
-   "distinctiveness": 2.78,
+   "creator_count": 56,
+   "distinctiveness": 2.07,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "relationship with god"
+   "surface": "black people"
   },
   {
-   "creator_count": 22,
-   "distinctiveness": 2.42,
+   "creator_count": 51,
+   "distinctiveness": 1.8,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "civil rights"
+   "surface": "social media"
+  },
+  {
+   "creator_count": 35,
+   "distinctiveness": 1.72,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "word of god"
+  },
+  {
+   "creator_count": 56,
+   "distinctiveness": 1.4,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "holy spirit"
   }
  ],
  "coverage": {
-  "added_since": 75,
-  "basis_videos": 193,
+  "added_since": 0,
+  "basis_videos": 268,
   "complete": false,
-  "coverage_pct": 0.3617,
+  "coverage_pct": 0.3612,
   "ingested_videos": 268,
-  "total_videos": 741
+  "total_videos": 742
  },
  "display_name": "Jude 3 Project",
- "entities": [],
+ "entities": [
+  {
+   "creator_count": 53,
+   "distinctiveness": 1.27,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "old testament"
+  }
+ ],
  "side": "apologetics",
  "slug": "jude-3-project"
 }

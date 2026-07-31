@@ -9,14 +9,6 @@
    "surface": "given to moses"
   },
   {
-   "creator_count": 23,
-   "distinctiveness": 7.14,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "form of god"
-  },
-  {
    "creator_count": 27,
    "distinctiveness": 7.06,
    "note": null,
@@ -41,22 +33,6 @@
    "surface": "islamic dilemma"
   },
   {
-   "creator_count": 16,
-   "distinctiveness": 5.86,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "screen share"
-  },
-  {
-   "creator_count": 17,
-   "distinctiveness": 5.75,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "allah created"
-  },
-  {
    "creator_count": 34,
    "distinctiveness": 5.67,
    "note": null,
@@ -65,21 +41,56 @@
    "surface": "evil spirits"
   },
   {
-   "creator_count": 23,
-   "distinctiveness": 5.5,
+   "creator_count": 39,
+   "distinctiveness": 4.75,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "divine person"
+   "surface": "god the father"
+  },
+  {
+   "creator_count": 27,
+   "distinctiveness": 4.39,
+   "note": "labeling individuals as deceptive religious figures",
+   "quotes": [
+    {
+     "context": "...bible is showing muhammad is a [false prophet] yeah just know how to present...",
+     "t": 7229.92,
+     "video_id": "mtBLIcFihWA"
+    },
+    {
+     "context": "...revelation and then there are the [false prophets] and false christs in the uh...",
+     "t": 2795.36,
+     "video_id": "OIjXAGQMA9w"
+    }
+   ],
+   "signal": 1,
+   "surface": "false prophets"
+  },
+  {
+   "creator_count": 36,
+   "distinctiveness": 4.31,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "true god"
+  },
+  {
+   "creator_count": 26,
+   "distinctiveness": 4.28,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "spirit of god"
   }
  ],
  "coverage": {
-  "added_since": 111,
-  "basis_videos": 26,
+  "added_since": 0,
+  "basis_videos": 137,
   "complete": false,
-  "coverage_pct": 0.1536,
+  "coverage_pct": 0.1534,
   "ingested_videos": 137,
-  "total_videos": 892
+  "total_videos": 893
  },
  "display_name": "Capturing Christianity",
  "entities": [
@@ -100,20 +111,28 @@
    "surface": "joseph smith"
   },
   {
-   "creator_count": 22,
-   "distinctiveness": 5.73,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "because the quran"
-  },
-  {
    "creator_count": 36,
    "distinctiveness": 5.67,
    "note": null,
    "quotes": [],
    "signal": 0,
    "surface": "jews and christians"
+  },
+  {
+   "creator_count": 37,
+   "distinctiveness": 4.5,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "lord jesus christ"
+  },
+  {
+   "creator_count": 52,
+   "distinctiveness": 4.28,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "lord jesus"
   }
  ],
  "side": "apologetics",

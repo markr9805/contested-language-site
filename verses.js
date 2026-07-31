@@ -42,8 +42,12 @@ async function getJSON(path) {
 function pct(x) { return `${(x * 100).toFixed(1)}%`; }
 
 function fmtTime(t) {
-  const s = Math.floor(t), m = Math.floor(s / 60);
-  return `${m}:${String(s % 60).padStart(2, "0")}`;
+  // Rolls over past an hour: this corpus is long-form, and a two-hour video
+  // rendered "128:23" reads as a bug rather than a timestamp.
+  const s = Math.max(0, Math.floor(t));
+  const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60);
+  const ss = String(s % 60).padStart(2, "0");
+  return h ? `${h}:${String(m).padStart(2, "0")}:${ss}` : `${m}:${ss}`;
 }
 
 // Must match verse_senses._slug exactly — it names the verse-senses files.

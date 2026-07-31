@@ -44,6 +44,33 @@ function rowNode(row) {
   return div;
 }
 
+function fmtTime(t) {
+  // Rolls over past an hour: this corpus is long-form, and a two-hour video
+  // rendered "128:23" reads as a bug rather than a timestamp.
+  const s = Math.max(0, Math.floor(t));
+  const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60);
+  const ss = String(s % 60).padStart(2, "0");
+  return h ? `${h}:${String(m).padStart(2, "0")}:${ss}` : `${m}:${ss}`;
+}
+
+// Deep-link a cited quote to the second it was said (#139). Quotes were bare
+// context strings until then, so the string branch keeps a pre-#139 cached
+// export readable — it renders without a link rather than throwing.
+function quoteBlock(q) {
+  const text = typeof q === "string" ? q : q.context;
+  const p = el("p", "evidence-quote", text);
+  if (typeof q === "string" || !q.video_id || q.t == null) return p;
+  const a = el("a", "quote-cite", `watch @ ${fmtTime(q.t)}`);
+  a.href = `https://www.youtube.com/watch?v=${encodeURIComponent(q.video_id)}` +
+    `&t=${Math.max(0, Math.floor(q.t))}s`;
+  a.target = "_blank";
+  a.rel = "noopener";
+  a.title = "Opens the source video at this line, so the classification can " +
+    "be checked against what was actually said.";
+  p.append(document.createTextNode(" "), a);
+  return p;
+}
+
 function showEvidence(row) {
   $("evidence-title").textContent = `“${row.surface}” — cited quotes`;
   const box = $("evidence-quotes");
@@ -52,7 +79,7 @@ function showEvidence(row) {
   $("evidence-note").textContent = quotes.length
     ? `${quotes.length} cited line${quotes.length > 1 ? "s" : ""} behind “${row.note}”.`
     : "No quote stored for this row.";
-  for (const q of quotes) box.appendChild(el("p", "evidence-quote", q));
+  for (const q of quotes) box.appendChild(quoteBlock(q));
 }
 
 function applyFilters() {

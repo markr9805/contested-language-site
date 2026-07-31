@@ -9,22 +9,6 @@
    "surface": "sexual assault"
   },
   {
-   "creator_count": 16,
-   "distinctiveness": 5.23,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "con artists"
-  },
-  {
-   "creator_count": 15,
-   "distinctiveness": 5.14,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "laws of logic"
-  },
-  {
    "creator_count": 32,
    "distinctiveness": 4.53,
    "note": null,
@@ -33,52 +17,25 @@
    "surface": "youth pastor"
   },
   {
-   "creator_count": 16,
-   "distinctiveness": 4.37,
+   "creator_count": 69,
+   "distinctiveness": 2.07,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "real man"
+   "surface": "social media"
   },
   {
-   "creator_count": 20,
-   "distinctiveness": 3.87,
+   "creator_count": 36,
+   "distinctiveness": 1.98,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "hurt people"
-  },
-  {
-   "creator_count": 24,
-   "distinctiveness": 3.53,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "feel guilty"
-  },
-  {
-   "creator_count": 17,
-   "distinctiveness": 3.53,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "sexual abuse"
-  },
-  {
-   "creator_count": 24,
-   "distinctiveness": 3.34,
-   "note": "anti-gay",
-   "quotes": [
-    "...a pastor say something hateful about [gay people] and he realized he couldn't go...",
-    "...doing it as an insult to [gay people] but now that people are saying..."
-   ],
-   "signal": 1,
-   "surface": "gay people"
+   "surface": "god wants"
   }
  ],
  "coverage": {
-  "added_since": 24,
-  "basis_videos": 88,
+  "added_since": 0,
+  "basis_videos": 112,
   "complete": false,
   "coverage_pct": 0.3394,
   "ingested_videos": 112,
@@ -93,6 +50,25 @@
    "quotes": [],
    "signal": 0,
    "surface": "ten commandments"
+  },
+  {
+   "creator_count": 25,
+   "distinctiveness": 3.01,
+   "note": "negative framing of evangelical Christians",
+   "quotes": [
+    {
+     "context": "...that video is the way that [evangelical christians] have blindly supported the nation of...",
+     "t": 81.6,
+     "video_id": "8mQpCjxR3MI"
+    },
+    {
+     "context": "...it might be tougher though for [evangelical christians] because to them everything is a...",
+     "t": 1379.84,
+     "video_id": "-5NeuvbE2Rw"
+    }
+   ],
+   "signal": 1,
+   "surface": "evangelical christians"
   }
  ],
  "side": "deconstruction",

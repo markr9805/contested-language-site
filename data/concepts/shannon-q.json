@@ -5,8 +5,16 @@
    "distinctiveness": 8.0,
    "note": "gender critical movement",
    "quotes": [
-    "...in their twitter bios like these [gender critical] people but i guess this guy...",
-    "...likes basically so it's from a [gender critical] person like they're just trying to..."
+    {
+     "context": "...in their twitter bios like these [gender critical] people but i guess this guy...",
+     "t": 616.04,
+     "video_id": "j_lrLtRsskc"
+    },
+    {
+     "context": "...garbage so one of the main [gender critical] arguments is trans rights are bad...",
+     "t": 853.24,
+     "video_id": "j_lrLtRsskc"
+    }
    ],
    "signal": 1,
    "surface": "gender critical"
@@ -20,47 +28,20 @@
    "surface": "hilbert's hotel"
   },
   {
+   "creator_count": 26,
+   "distinctiveness": 6.72,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "coffee table"
+  },
+  {
    "creator_count": 33,
    "distinctiveness": 6.24,
    "note": null,
    "quotes": [],
    "signal": 0,
    "surface": "mirror neurons"
-  },
-  {
-   "creator_count": 22,
-   "distinctiveness": 6.1,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "hard problem"
-  },
-  {
-   "creator_count": 20,
-   "distinctiveness": 5.41,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "street epistemology"
-  },
-  {
-   "creator_count": 23,
-   "distinctiveness": 5.2,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "conscious experience"
-  },
-  {
-   "creator_count": 16,
-   "distinctiveness": 4.78,
-   "note": "trans rights movement",
-   "quotes": [
-    "...the main gender critical arguments is [trans rights] are bad for women that's like...",
-    "...know gay rights are clashing with [trans rights] which is also obviously completely nonsense..."
-   ],
-   "signal": 1,
-   "surface": "trans rights"
   },
   {
    "creator_count": 29,
@@ -71,28 +52,63 @@
    "surface": "want to die"
   },
   {
-   "creator_count": 40,
-   "distinctiveness": 4.5,
+   "creator_count": 28,
+   "distinctiveness": 4.3,
+   "note": "progressive Christianity as a movement",
+   "quotes": [
+    {
+     "context": "...ally know i align myself with [progressive christians] because i'm like yep we're together...",
+     "t": 1887.16,
+     "video_id": "la72jz8MoyU"
+    },
+    {
+     "context": "...faith through the lens of like [progressive christianity] um and then i have written...",
+     "t": 274.24,
+     "video_id": "iBo__jL9Sl4"
+    }
+   ],
+   "signal": 1,
+   "surface": "progressive christianity"
+  },
+  {
+   "creator_count": 26,
+   "distinctiveness": 3.55,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "sea scrolls"
+   "surface": "risen jesus"
   },
   {
-   "creator_count": 19,
-   "distinctiveness": 4.43,
-   "note": "anti‑trans stance",
+   "creator_count": 26,
+   "distinctiveness": 3.3,
+   "note": "weaponizing religious freedom",
    "quotes": [
-    "...mate mate i don't decide that [trans women] are male mate they mate are...",
-    "...they'll say lesbians aren't attracted to [trans women] and they usually try and focus..."
+    {
+     "context": "...biden is attempting to take away [religious freedom] again the tapping those fears right...",
+     "t": 3285.24,
+     "video_id": "iyz_5fsQhG8"
+    },
+    {
+     "context": "...can't do this we have a [religious freedom] right to to discriminate against these...",
+     "t": 608.84,
+     "video_id": "EtlBjdwAaEc"
+    }
    ],
    "signal": 1,
-   "surface": "trans women"
+   "surface": "religious freedom"
+  },
+  {
+   "creator_count": 48,
+   "distinctiveness": 3.15,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "trans people"
   }
  ],
  "coverage": {
-  "added_since": 16,
-  "basis_videos": 63,
+  "added_since": 0,
+  "basis_videos": 79,
   "complete": false,
   "coverage_pct": 0.427,
   "ingested_videos": 79,
@@ -107,6 +123,30 @@
    "quotes": [],
    "signal": 0,
    "surface": "dead sea scrolls"
+  },
+  {
+   "creator_count": 40,
+   "distinctiveness": 4.5,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "sea scrolls"
+  },
+  {
+   "creator_count": 45,
+   "distinctiveness": 4.17,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "supreme court"
+  },
+  {
+   "creator_count": 42,
+   "distinctiveness": 3.83,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "dead sea"
   }
  ],
  "side": "deconstruction",

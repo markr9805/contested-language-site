@@ -19,10 +19,18 @@
   {
    "creator_count": 33,
    "distinctiveness": 9.43,
-   "note": "opposition to patriarchal religious structures",
+   "note": "critique of patriarchal religion",
    "quotes": [
-    "...thing that is reaching them is [patriarchal religion] and what do you know for...",
-    "...lost trust in traditional medicine and [patriarchal religion] and institutions which of course i..."
+    {
+     "context": "...caused by just being raised in [patriarchal religion] or society in patriarchal religions the...",
+     "t": 988.04,
+     "video_id": "G2v80bINymA"
+    },
+    {
+     "context": "...in modern society and flocking to [patriarchal religion] and andrew tate's and trump's and...",
+     "t": 329.76,
+     "video_id": "3JaPp6r3Xys"
+    }
    ],
    "signal": 1,
    "surface": "patriarchal religion"
@@ -38,10 +46,18 @@
   {
    "creator_count": 33,
    "distinctiveness": 7.85,
-   "note": "negative framing of ideology as political religion",
+   "note": "Critique of political movements as religious cults",
    "quotes": [
-    "...suicide numbing behaviors or consumerism or [political religion] or you're just so fed up...",
-    "...theological religion and gone into a [political religion] and i don't want my identity..."
+    {
+     "context": "...be able to stand up to [political religions] the rise of islam the rise...",
+     "t": 775.88,
+     "video_id": "SGjbfg9YTKc"
+    },
+    {
+     "context": "...likely to throw themselves into a [political religion] or a political demagogue more likely...",
+     "t": 871.44,
+     "video_id": "MWCN2FXV94Q"
+    }
    ],
    "signal": 1,
    "surface": "political religion"
@@ -65,23 +81,17 @@
   {
    "creator_count": 25,
    "distinctiveness": 7.16,
-   "note": "religious deconstruction movement",
-   "quotes": [
-    "...still listening to you know post [religious deconstruction] podcasts and um and that's why...",
-    "...secular spirituality things some um some [religious deconstruction] things like we've we can go..."
-   ],
-   "signal": 1,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
    "surface": "religious deconstruction"
   },
   {
    "creator_count": 34,
    "distinctiveness": 7.15,
-   "note": "negative framing of groupthink",
-   "quotes": [
-    "...she naturally would say we the [hive mind] lady uh we don't remember any...",
-    "...live i'm not affected by the [hive mind] i don't want to be like..."
-   ],
-   "signal": 1,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
    "surface": "hive mind"
   },
   {
@@ -95,9 +105,20 @@
   {
    "creator_count": 39,
    "distinctiveness": 6.5,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
+   "note": "conservative Christian men",
+   "quotes": [
+    {
+     "context": "...america pagan witchy women and conservative [christian men] what's happening is that religion is...",
+     "t": 951.2,
+     "video_id": "SGjbfg9YTKc"
+    },
+    {
+     "context": "...to be red states uh white [christian men] um especially evangelical protestant men were...",
+     "t": 213.92,
+     "video_id": "3JaPp6r3Xys"
+    }
+   ],
+   "signal": 1,
    "surface": "christian men"
   },
   {
@@ -110,8 +131,8 @@
   }
  ],
  "coverage": {
-  "added_since": 78,
-  "basis_videos": 125,
+  "added_since": 0,
+  "basis_videos": 203,
   "complete": true,
   "coverage_pct": 1.0,
   "ingested_videos": 203,

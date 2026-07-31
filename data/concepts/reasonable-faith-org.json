@@ -53,8 +53,16 @@
    "distinctiveness": 7.62,
    "note": "New Perspective on Paul movement",
    "quotes": [
-    "...for sin fortunately proponents of the [new perspective] have backed away from this overly...",
-    "...is the theological problem that the [new perspective] is setting out to solve it..."
+    {
+     "context": "...a result of the so called [new perspective] on paul some proponents of which...",
+     "t": 350.84,
+     "video_id": "FMEWMJXC2z0"
+    },
+    {
+     "context": "...not mean faithfulness proponents of the [new perspective] would have us believe that the...",
+     "t": 463.92,
+     "video_id": "FMEWMJXC2z0"
+    }
    ],
    "signal": 1,
    "surface": "new perspective"
@@ -66,6 +74,14 @@
    "quotes": [],
    "signal": 0,
    "surface": "systematic philosophical"
+  },
+  {
+   "creator_count": 52,
+   "distinctiveness": 7.59,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "systematic philosophical theology"
   },
   {
    "creator_count": 59,
@@ -84,49 +100,40 @@
    "surface": "blood of christ"
   },
   {
-   "creator_count": 20,
-   "distinctiveness": 6.7,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "catholic view"
-  },
-  {
-   "creator_count": 21,
-   "distinctiveness": 6.64,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "means of grace"
-  },
-  {
    "creator_count": 29,
    "distinctiveness": 6.57,
    "note": null,
    "quotes": [],
    "signal": 0,
    "surface": "righteousness of god"
-  }
- ],
- "coverage": {
-  "added_since": 170,
-  "basis_videos": 100,
-  "complete": false,
-  "coverage_pct": 0.1736,
-  "ingested_videos": 270,
-  "total_videos": 1555
- },
- "display_name": "ReasonableFaithOrg",
- "entities": [
+  },
   {
-   "creator_count": 52,
-   "distinctiveness": 7.59,
+   "creator_count": 25,
+   "distinctiveness": 6.55,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "systematic philosophical theology"
+   "surface": "systematic theology"
+  },
+  {
+   "creator_count": 39,
+   "distinctiveness": 6.48,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "body and blood"
   }
  ],
+ "coverage": {
+  "added_since": 0,
+  "basis_videos": 270,
+  "complete": false,
+  "coverage_pct": 0.1735,
+  "ingested_videos": 270,
+  "total_videos": 1556
+ },
+ "display_name": "ReasonableFaithOrg",
+ "entities": [],
  "side": "apologetics",
  "slug": "reasonable-faith-org"
 }

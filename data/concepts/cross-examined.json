@@ -1,12 +1,39 @@
 {
  "concepts": [
   {
+   "creator_count": 60,
+   "distinctiveness": 11.09,
+   "note": "movement to recover truth",
+   "quotes": [
+    {
+     "context": "...preview this book it's called the [war on reality] how to recover truth in a...",
+     "t": 732.96,
+     "video_id": "QbnHsA-OCOo"
+    },
+    {
+     "context": "...hayes and i wrote called the [war on reality] recovering truth in a culture that...",
+     "t": 6246.12,
+     "video_id": "g1D-MdFqkxc"
+    }
+   ],
+   "signal": 1,
+   "surface": "war on reality"
+  },
+  {
    "creator_count": 33,
    "distinctiveness": 10.24,
-   "note": "government punishment justification",
+   "note": "protect innocent people from evil",
    "quotes": [
-    "...13 is to punish wrongdoers to [protect innocent people] from evil you as an individual...",
-    "...government is to punish wrongdoers and [protect innocent people] from evil now i don't need..."
+    {
+     "context": "...essential primary purpose of government to [protect innocent people] from evil and punish wrongdoers biblically...",
+     "t": 3075.64,
+     "video_id": "CVNfTAbOxSI"
+    },
+    {
+     "context": "...if for no other reason to [protect innocent people] and our ability to preach and...",
+     "t": 10466.28,
+     "video_id": "EVkcBsjso48"
+    }
    ],
    "signal": 1,
    "surface": "protect innocent people"
@@ -14,12 +41,9 @@
   {
    "creator_count": 30,
    "distinctiveness": 10.1,
-   "note": "government should punish wrongdoers",
-   "quotes": [
-    "...to romans chapter 13 is to [punish wrongdoers] to protect innocent people from evil...",
-    "...have anarchy their job is to [punish wrongdoers] and protect innocent people from evil..."
-   ],
-   "signal": 1,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
    "surface": "punish wrongdoers"
   },
   {
@@ -33,13 +57,40 @@
   {
    "creator_count": 118,
    "distinctiveness": 6.78,
-   "note": "anti-sharia stance",
+   "note": "opposition to sharia law",
    "quotes": [
-    "...convert to christianity outside of that [sharia law] is a great thing no this...",
-    "...an ideology that wants to impose [sharia law] wherever it goes sharia law is..."
+    {
+     "context": "...here in america go away because [sharia law] is put into place that's not...",
+     "t": 721.12,
+     "video_id": "EW58E7gj4bI"
+    },
+    {
+     "context": "...when the ayatollah khomeini took over [sharia law] permits no women to leave their...",
+     "t": 15.52,
+     "video_id": "I3lgo9a3n5Q"
+    }
    ],
    "signal": 1,
    "surface": "sharia law"
+  },
+  {
+   "creator_count": 59,
+   "distinctiveness": 6.68,
+   "note": "accusing bias",
+   "quotes": [
+    {
+     "context": "...make yourself look bad well the [new testament writers] have filled the new testament this...",
+     "t": 1794.16,
+     "video_id": "78XsxPdjm-w"
+    },
+    {
+     "context": "...assumes illicitly you can't trust these [new testament writers] because they were biased you can...",
+     "t": 3552.04,
+     "video_id": "78XsxPdjm-w"
+    }
+   ],
+   "signal": 1,
+   "surface": "new testament writers"
   },
   {
    "creator_count": 27,
@@ -59,26 +110,15 @@
   }
  ],
  "coverage": {
-  "added_since": 251,
-  "basis_videos": 305,
+  "added_since": 0,
+  "basis_videos": 556,
   "complete": false,
-  "coverage_pct": 0.1551,
+  "coverage_pct": 0.155,
   "ingested_videos": 556,
-  "total_videos": 3585
+  "total_videos": 3586
  },
  "display_name": "Cross Examined",
  "entities": [
-  {
-   "creator_count": 60,
-   "distinctiveness": 11.09,
-   "note": "war on reality as a problem/loaded framing",
-   "quotes": [
-    "...preview this book it's called the [war on reality] how to recover truth in a...",
-    "...comes out september 8th called the [war on reality] but this is a problem it's..."
-   ],
-   "signal": 1,
-   "surface": "war on reality"
-  },
   {
    "creator_count": 49,
    "distinctiveness": 10.8,
@@ -118,14 +158,6 @@
    "quotes": [],
    "signal": 0,
    "surface": "declaration of independence"
-  },
-  {
-   "creator_count": 59,
-   "distinctiveness": 6.68,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "new testament writers"
   },
   {
    "creator_count": 37,

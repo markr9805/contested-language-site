@@ -19,10 +19,18 @@
   {
    "creator_count": 74,
    "distinctiveness": 8.35,
-   "note": "anti‑black stance",
+   "note": "anti-Black bias",
    "quotes": [
-    "...sick to death of this same [anti black] gender war boy being grifted by...",
-    "...their behavior was because you know [anti blackness] not to say that they being..."
+    {
+     "context": "...sick to death of this same [anti black] gender war boy being grifted by...",
+     "t": 2560.08,
+     "video_id": "Uu-X_E8cwaA"
+    },
+    {
+     "context": "...online left was aware of how [anti blackness] has shaped the moral compass of...",
+     "t": 2669.48,
+     "video_id": "7Yl6LWN16Ik"
+    }
    ],
    "signal": 1,
    "surface": "anti blackness"
@@ -62,10 +70,18 @@
   {
    "creator_count": 37,
    "distinctiveness": 7.36,
-   "note": "new black identity politics",
+   "note": "new black movement",
    "quotes": [
-    "...south just looking to establish a [new black] identity politic in the wake of...",
-    "...rise to what i'll call the [new black] problem the struggle with the new..."
+    {
+     "context": "...davis was head of his local [new black] panther party chapter at the time...",
+     "t": 5288.08,
+     "video_id": "0M-kjKVt88A"
+    },
+    {
+     "context": "...that wound up registering 20 000 [new black] voters by 1954 the yearly rcnl...",
+     "t": 1419.24,
+     "video_id": "CxhX27nbbsQ"
+    }
    ],
    "signal": 1,
    "surface": "new black"
@@ -81,21 +97,10 @@
   {
    "creator_count": 40,
    "distinctiveness": 7.03,
-   "note": "black identity extremist threat",
-   "quotes": [
-    "...wave for click clout by conflating [black identity] movements like pan africanism with fringe...",
-    "...leaked fbi counterterrorism guide which lists [black identity] extremists as a higher threat to..."
-   ],
-   "signal": 1,
-   "surface": "black identity"
-  },
-  {
-   "creator_count": 25,
-   "distinctiveness": 6.81,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "white boy"
+   "surface": "black identity"
   },
   {
    "creator_count": 148,
@@ -115,8 +120,8 @@
   }
  ],
  "coverage": {
-  "added_since": 12,
-  "basis_videos": 53,
+  "added_since": 0,
+  "basis_videos": 65,
   "complete": true,
   "coverage_pct": 0.9701,
   "ingested_videos": 65,

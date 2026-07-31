@@ -41,16 +41,25 @@ async function fetchJSON(path) {
 // ---- discovered concepts (Plan-2 LLM layer, not pinned) ------------------------
 //
 // discovered.json shape (export_concepts): {meta:{model,generated_at,note},
-// concepts:[{surface, verdict, apologetics:{text,quotes:[string,...]},
-// deconstruction:{...}, apol, decon, keyness}]}. Adapted here into the same
-// term shape selectTerm/renderFramingCol/renderTermEvidence already expect —
-// {phrase, verdict, apologetics:{text,quotes:[{context,creator}]}, ...} —
-// with a `discovered: true` flag and no per-quote creator (the export cites
-// context only, so `creator` reads as "unattributed").
+// concepts:[{surface, verdict, apologetics:{text,quotes:[{context,creator,
+// video_id,t}, ...]}, deconstruction:{...}, apol, decon, keyness}]}. Adapted
+// here into the same term shape selectTerm/renderFramingCol/renderTermEvidence
+// already expect, with a `discovered: true` flag.
+//
+// Quotes used to be bare context strings, which is why this attributed them to
+// "unattributed — discovered": the export simply did not carry who said it or
+// where. Since #139 they are objects with creator, video_id and t, so the
+// discovered lane cites and deep-links exactly like the pinned one. The string
+// branch is kept because a cached discovered.json from before that change is
+// still readable — it renders without a link rather than crashing.
 
 function adaptSide(side) {
   if (!side || !side.text) return null;
-  const quotes = (side.quotes || []).map((q) => ({ context: q, creator: "unattributed — discovered" }));
+  const quotes = (side.quotes || []).map((q) => (
+    typeof q === "string"
+      ? { context: q, creator: "unattributed — discovered" }
+      : { context: q.context, creator: q.creator || "unattributed — discovered",
+          video_id: q.video_id, t: q.t }));
   return { text: side.text, quotes };
 }
 
@@ -414,6 +423,38 @@ function renderFramingCol(colId, textId, side, term) {
   }
 }
 
+function fmtTime(t) {
+  // Rolls over past an hour: this corpus is long-form, and a two-hour video
+  // rendered "128:23" reads as a bug rather than a timestamp.
+  const s = Math.max(0, Math.floor(t));
+  const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60);
+  const ss = String(s % 60).padStart(2, "0");
+  return h ? `${h}:${String(m).padStart(2, "0")}:${ss}` : `${m}:${ss}`;
+}
+
+// The citation line under a quote, deep-linked to the second it was said (#139)
+// — the affordance the Verse Explorer already had and this page did not.
+//
+// Degrades rather than breaks: a quote with no video_id/t still renders its
+// attribution as plain text. That matters because the two lanes reach a
+// timestamp differently — the pinned lane reads occurrences.start_time_s, while
+// a DISCOVERED term is unextracted and takes the segment start off the token
+// stream — and because a cached JSON from before this change carries neither.
+function citeLine(q, label) {
+  const who = [q.creator, label].filter(Boolean).join(" · ");
+  if (!q.video_id || q.t == null) return el("p", "quote-cite", `— ${who}`);
+  const p = el("p", "quote-cite", `— ${who} · `);
+  const a = el("a", null, `watch @ ${fmtTime(q.t)}`);
+  a.href = `https://www.youtube.com/watch?v=${encodeURIComponent(q.video_id)}` +
+    `&t=${Math.max(0, Math.floor(q.t))}s`;
+  a.target = "_blank";
+  a.rel = "noopener";
+  a.title = "Opens the source video at this line — the claim in context, " +
+    "which is where DESIGN §3 says every claim must be checkable.";
+  p.append(a);
+  return p;
+}
+
 function renderTermEvidence(term) {
   $("evidence-title").textContent = `“${term.phrase}” — cited quotes`;
   const wrap = $("evidence-quotes");
@@ -429,7 +470,7 @@ function renderTermEvidence(term) {
     for (const q of side.quotes) {
       total++;
       const div = el("div", "quote", q.context);
-      div.append(el("p", "quote-cite", `— ${q.creator} · ${label}`));
+      div.append(citeLine(q, label));
       wrap.append(div);
     }
   }

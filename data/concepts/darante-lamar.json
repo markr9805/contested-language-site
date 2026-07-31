@@ -11,23 +11,17 @@
   {
    "creator_count": 209,
    "distinctiveness": 9.04,
-   "note": "Critique of religion",
-   "quotes": [
-    "...any superstitious thing whether it's a [religious superstition] a political superstition a social superstition...",
-    "...in many cases our obsession with [religious superstition] has robbed many people of yeah..."
-   ],
-   "signal": 1,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
    "surface": "religious superstition"
   },
   {
    "creator_count": 170,
    "distinctiveness": 8.75,
-   "note": "rejects superstition",
-   "quotes": [
-    "...community or community without or community [beyond superstition] rather finding people who are just...",
-    "...for those interested in building community [beyond superstition] join us every sunday on this..."
-   ],
-   "signal": 1,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
    "surface": "beyond superstition"
   },
   {
@@ -43,18 +37,29 @@
   "added_since": 0,
   "basis_videos": 1500,
   "complete": true,
-  "coverage_pct": 0.9836,
+  "coverage_pct": 0.9823,
   "ingested_videos": 1500,
-  "total_videos": 1525
+  "total_videos": 1527
  },
  "display_name": "Darante' LaMar",
  "entities": [
   {
    "creator_count": 2701,
    "distinctiveness": 12.73,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
+   "note": "movement brand",
+   "quotes": [
+    {
+     "context": "...called the bridge and another called [bridge city] um and the whole idea of...",
+     "t": 1236.12,
+     "video_id": "0FIKJ5D2nTA"
+    },
+    {
+     "context": "...we created a free course called [bridge city] 101 how we change the world...",
+     "t": 665.28,
+     "video_id": "0LyqXVoyBu4"
+    }
+   ],
+   "signal": 1,
    "surface": "bridge city"
   },
   {
@@ -76,12 +81,9 @@
   {
    "creator_count": 415,
    "distinctiveness": 10.03,
-   "note": "movement/community",
-   "quotes": [
-    "...this community that we're building called [bridge city global] and this greater mission that we...",
-    "...part of our bridge city uh [bridge city global] uh types of projects so um..."
-   ],
-   "signal": 1,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
    "surface": "bridge city global"
   },
   {
@@ -95,9 +97,20 @@
   {
    "creator_count": 178,
    "distinctiveness": 8.81,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
+   "note": "black non believers organization",
+   "quotes": [
+    {
+     "context": "...and go right to it yes [black non believers] stand up tallahassee that's right down...",
+     "t": 2145.84,
+     "video_id": "09Y9uDUzvuA"
+    },
+    {
+     "context": "...people come out you know and [black non believers] has been doing the work long...",
+     "t": 3420.64,
+     "video_id": "2D-0S-xh-7Y"
+    }
+   ],
+   "signal": 1,
    "surface": "black non believers"
   },
   {

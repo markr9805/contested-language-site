@@ -11,32 +11,34 @@
   {
    "creator_count": 34,
    "distinctiveness": 8.85,
-   "note": "source bias labeling",
-   "quotes": [
-    "...here i can see that left [leaning sources] suggest this gathering will be a...",
-    "...coverage coming from right and center [leaning sources] making this a potential blind spot..."
-   ],
-   "signal": 1,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
    "surface": "leaning sources"
   },
   {
    "creator_count": 43,
    "distinctiveness": 8.7,
-   "note": "conservative/right‑wing sources",
-   "quotes": [
-    "...for increasing women's leadership roles while [right leaning] sources highlight the conservative worry that...",
-    "...in my ear that they are [right leaning] and an atheist and that they..."
-   ],
-   "signal": 1,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
    "surface": "right leaning"
   },
   {
    "creator_count": 37,
    "distinctiveness": 8.48,
-   "note": "anti-woke ideology",
+   "note": "anti‑woke movement",
    "quotes": [
-    "...name is there an atheist who [anti woke] pipeline and why do religious anti...",
-    "...woke pipeline and why do religious [anti woke] types seem to embrace the guys..."
+    {
+     "context": "...name is there an atheist who [anti woke] pipeline and why do religious anti...",
+     "t": 35.2,
+     "video_id": "u3D4tMVaO7k"
+    },
+    {
+     "context": "...woke pipeline and why do religious [anti woke] types seem to embrace the guys...",
+     "t": 39.52,
+     "video_id": "u3D4tMVaO7k"
+    }
    ],
    "signal": 1,
    "surface": "anti woke"
@@ -44,43 +46,45 @@
   {
    "creator_count": 86,
    "distinctiveness": 7.64,
-   "note": "anti‑trans critique of rapid onset gender dysphoria",
-   "quotes": [
-    "...to respond to here rapid onset [gender dysphoria] exists it's a growing social contagion...",
-    "...of the supposedly contagious rapid onset [gender dysphoria] if the rapid onset gender dysphoria..."
-   ],
-   "signal": 1,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
    "surface": "gender dysphoria"
   },
   {
    "creator_count": 29,
-   "distinctiveness": 7.24,
+   "distinctiveness": 7.48,
    "note": null,
    "quotes": [],
    "signal": 0,
+   "surface": "lgbt people"
+  },
+  {
+   "creator_count": 29,
+   "distinctiveness": 7.24,
+   "note": "trans panic framing",
+   "quotes": [
+    {
+     "context": "...trans panic is definitely the new [satanic panic] a man enters starlight house asking...",
+     "t": 1931.12,
+     "video_id": "hQCM_ombEhs"
+    },
+    {
+     "context": "...trans issues that is promoting basically [satanic panic] surrounding trans issues in what world...",
+     "t": 2673.08,
+     "video_id": "n09JGRMfMds"
+    }
+   ],
+   "signal": 1,
    "surface": "satanic panic"
   },
   {
    "creator_count": 40,
    "distinctiveness": 7.15,
-   "note": "advocating against gender affirming care",
-   "quotes": [
-    "...does advocate against the legality of [gender affirming] care for adults for instance he's...",
-    "...i've seen him horribly straw man [gender affirming] care as having something to do..."
-   ],
-   "signal": 1,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
    "surface": "gender affirming"
-  },
-  {
-   "creator_count": 22,
-   "distinctiveness": 6.47,
-   "note": "conspiracy theory about schools providing litter boxes to animal‑identifying students",
-   "quotes": [
-    "...claimed quote schools have been provided [litter boxes] for students identifying as animals respectfully...",
-    "...you said schools have even provided [litter boxes] for students identifying as animals i'm..."
-   ],
-   "signal": 1,
-   "surface": "litter box"
   },
   {
    "creator_count": 55,
@@ -89,11 +93,30 @@
    "quotes": [],
    "signal": 0,
    "surface": "gender identity"
+  },
+  {
+   "creator_count": 63,
+   "distinctiveness": 5.98,
+   "note": "Criticizing the religious right",
+   "quotes": [
+    {
+     "context": "...basis of religion you that your [religious rights] do not trump the the uh...",
+     "t": 1073.84,
+     "video_id": "NQIWcSY6MPk"
+    },
+    {
+     "context": "...lip service to christianity who the [religious right] likes so we've got to ask...",
+     "t": 464.16,
+     "video_id": "LvmwGwnJf7c"
+    }
+   ],
+   "signal": 1,
+   "surface": "religious right"
   }
  ],
  "coverage": {
-  "added_since": 171,
-  "basis_videos": 75,
+  "added_since": 0,
+  "basis_videos": 246,
   "complete": true,
   "coverage_pct": 0.996,
   "ingested_videos": 246,
@@ -126,19 +149,22 @@
    "surface": "ground news"
   },
   {
-   "creator_count": 29,
-   "distinctiveness": 7.48,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "lgbt people"
-  },
-  {
    "creator_count": 27,
    "distinctiveness": 7.38,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
+   "note": "American atheists organization",
+   "quotes": [
+    {
+     "context": "...to organizations with large memberships like [american atheists] freedom from religion foundation and secular...",
+     "t": 194.68,
+     "video_id": "OmDaUO61jhA"
+    },
+    {
+     "context": "...picture logo thing and so does [american atheists] the flying spaghetti monster this one...",
+     "t": 1135.44,
+     "video_id": "pFOViHvRMeI"
+    }
+   ],
+   "signal": 1,
    "surface": "american atheists"
   }
  ],
