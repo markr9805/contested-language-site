@@ -5,7 +5,7 @@
     "cite_key": "aeebc062899848a112b6a88f0df4d35d1b7f87f81d812fac2339f1102e6c59f8",
     "context": "Jesus himself said this in John 6. Unless you eat the flesh of the Son of Man and drink his blood, you have no life in you. He who eats my flesh and drinks my blood has eternal life, and I will raise him up at the last day. For my flesh is food indeed, and my blood is drink indeed. He who eats my flesh and drinks my blood abides in me, and I in him. Now let me be clear, preaching is important at the liturgy.",
     "creator": "counsel-of-trent",
-    "dist": 0.2572,
+    "dist": 0.2764,
     "published_at": "2025-10-21T21:30:08Z",
     "role": "host",
     "t": 55.84,
@@ -17,7 +17,7 @@
     "cite_key": "069372d5ac8e4abded9bb0857d112d7936e750642e3a83442269a801cd7f3012",
     "context": "Jesus himself said this in John 6. Unless you eat the flesh of the Son of Man and drink his blood, you have no life in you. He who eats my flesh and drinks my blood has eternal life, and I will raise him up at the last day. For my flesh is food indeed, and my blood is drink indeed. He who eats my flesh and drinks my blood abides in me and I in him. Now let me be clear.",
     "creator": "counsel-of-trent",
-    "dist": 0.2755,
+    "dist": 0.2975,
     "published_at": "2025-02-28T18:13:42Z",
     "role": "host",
     "t": 1557.04,
@@ -29,7 +29,7 @@
     "cite_key": "1a2dce575d48a47bf91167b588a86efa192e665211ef9e878a095434a2b21d39",
     "context": "So Jesus said to them, Truly, truly I say to you, unless you eat the flesh of the Son of Man and drink his blood, you have no life in you. He who eats my flesh and drinks my blood has eternal life, and I will raise him up on the last day. For my flesh is food indeed, and my blood is drink indeed.",
     "creator": "reasonable-faith-org",
-    "dist": 0.2954,
+    "dist": 0.3084,
     "published_at": "2026-07-13T04:01:40Z",
     "role": "host",
     "t": 503.04,
@@ -41,7 +41,7 @@
     "cite_key": "48eb4f98ee82372c5a8b8cc4004165a09c17f7ae647421dc812c486f383afc2a",
     "context": "He says, Unless you eat the flesh of the Son of Man and drink his blood, you have no life. My flesh is food, my blood is drink. He who eats my flesh and drinks my blood abides in me, and I am him. He goes on and on. Like with the door, Jesus doesn't say, My hand is a handle and my shoulder blades are hinges. He who pushes me open, you know, he doesn't go on and on in the same way, right? Okay, so I think that that is a way that we can see there's a difference. And number two, when Jesus says, I am the door, nobody freaks out over it.",
     "creator": "counsel-of-trent",
-    "dist": 0.3562,
+    "dist": 0.3581,
     "published_at": "2026-01-02T23:30:31Z",
     "role": "host",
     "t": 64.32,
@@ -53,7 +53,7 @@
     "cite_key": "eb7af184e2829c86c5ef1c50f23defc00dc14bffc91055b2dc2174e1448895b5",
     "context": "Eating flesh and drinking blood is the most intimate form of identification. There is no closer union than what you absorb into your bloodstream. That union dramatizes I in you and you in me. John chapter 6, verse 56, in the strongest possible terms. You are consuming Christ not so that you may live, but for the illusion of a dead cult leader to live in you. It's giving Charles Lee Ray and Chucky vibes.",
     "creator": "darante-lamar",
-    "dist": 0.4018,
+    "dist": 0.4016,
     "published_at": "2025-07-16T20:30:09Z",
     "role": "host",
     "t": 465.76,
@@ -124,6 +124,14 @@
      "n": 1,
      "status": "insufficient-data"
     },
+    "jude-3-project": {
+     "counts": [
+      1,
+      0
+     ],
+     "n": 1,
+     "status": "insufficient-data"
+    },
     "reasonable-faith-org": {
      "counts": [
       2,
@@ -139,14 +147,14 @@
    "cells": {
     "overall": {
      "counts": [
-      8,
+      9,
       2
      ],
      "dist": [
-      0.8,
-      0.2
+      0.8182,
+      0.1818
      ],
-     "n": 10,
+     "n": 11,
      "status": "ok"
     }
    },
@@ -156,14 +164,14 @@
    "cells": {
     "host": {
      "counts": [
-      8,
+      9,
       2
      ],
      "dist": [
-      0.8,
-      0.2
+      0.8182,
+      0.1818
      ],
-     "n": 10,
+     "n": 11,
      "status": "ok"
     }
    },
@@ -181,10 +189,10 @@
     },
     "2025": {
      "counts": [
-      4,
+      5,
       1
      ],
-     "n": 5,
+     "n": 6,
      "status": "insufficient-data"
     },
     "2026": {
@@ -200,8 +208,8 @@
   }
  },
  "k": 2,
- "n": 10,
- "silhouette": 0.1855,
+ "n": 11,
+ "silhouette": 0.1583,
  "status": "ok",
  "verse_ref": "John 6:56"
 }

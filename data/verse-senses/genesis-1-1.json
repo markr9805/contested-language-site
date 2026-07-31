@@ -5,7 +5,7 @@
     "cite_key": "1e923ef572c16e241b1edee9531207173e910e51644bb1261abfa05563565637",
     "context": "One of the main doctrines of the Christian faith is that God created the universe out of nothing a finite time ago. The Bible begins with the words, in the beginning, God created the heavens and the earth. The Bible thus teaches that the universe had a beginning. This doctrine was repudiated both by ancient Greek philosophy as well as modern atheism.",
     "creator": "drcraigvideos",
-    "dist": 0.3365,
+    "dist": 0.337,
     "published_at": "2024-04-22T17:17:28Z",
     "role": "host",
     "t": 9.76,
@@ -17,7 +17,7 @@
     "cite_key": "e89b9082eea239577ee666e547afc14607e8362dfbd85badd116c3cde08fd2dc",
     "context": "Rather, according to Genesis 1 1, in the beginning, God created the heavens and the earth. All of physical reality is brought into being by an unoriginate and transcendent deity.",
     "creator": "reasonable-faith-org",
-    "dist": 0.3443,
+    "dist": 0.3449,
     "published_at": "2024-12-30T05:29:55Z",
     "role": "host",
     "t": 219.32,
@@ -29,7 +29,7 @@
     "cite_key": "b430e6206dee547d866996cfa88592d2546ffe212358892866193bdc0ccb3e5e",
     "context": "In your view, is that the start of the creation of this earth, or is it the creation of the universe? Good question. In Hebrew, they did not have a word for the universe. When the ancient Jew wanted to speak of everything there is, he would say, the heavens and the earth. So Genesis 1:1 is about the creation of the universe. In the beginning, God created the universe. And it's only beginning with verse 2 that the focus dramatically narrows to the earth.",
     "creator": "drcraigvideos",
-    "dist": 0.3459,
+    "dist": 0.3461,
     "published_at": "2015-11-02T14:41:41Z",
     "role": "host",
     "t": 47.36,
@@ -41,7 +41,7 @@
     "cite_key": "fc8a9f3b36899a4c4cb31cdb6d159940998833cddd639bb1e696641b7313ee02",
     "context": "In Hebrew, they did not have a word for the universe. When the ancient Jew wanted to speak of everything there is, he would say the heavens and the earth. So Genesis 1:1 is about the creation of the universe. In the beginning, God created the universe. And it's only beginning with verse 2 that the focus dramatically narrows to the earth. And verse 2 says, and the earth was without form and void.",
     "creator": "drcraigvideos",
-    "dist": 0.3614,
+    "dist": 0.3612,
     "published_at": "2023-06-06T23:24:24Z",
     "role": "host",
     "t": 12.88,
@@ -198,10 +198,10 @@
     },
     "jude-3-project": {
      "counts": [
-      5,
+      6,
       0
      ],
-     "n": 5,
+     "n": 6,
      "status": "insufficient-data"
     },
     "mike-winger": {
@@ -254,14 +254,14 @@
    "cells": {
     "overall": {
      "counts": [
-      75,
+      76,
       13
      ],
      "dist": [
-      0.8523,
-      0.1477
+      0.8539,
+      0.1461
      ],
-     "n": 88,
+     "n": 89,
      "status": "ok"
     }
    },
@@ -271,14 +271,14 @@
    "cells": {
     "host": {
      "counts": [
-      63,
+      64,
       12
      ],
      "dist": [
-      0.84,
-      0.16
+      0.8421,
+      0.1579
      ],
-     "n": 75,
+     "n": 76,
      "status": "ok"
     },
     "unattributed": {
@@ -303,7 +303,7 @@
     }
    },
    "divergences": {
-    "host|unknown": 0.0079
+    "host|unknown": 0.0075
    }
   },
   "year": {
@@ -354,14 +354,14 @@
     },
     "2025": {
      "counts": [
-      15,
+      16,
       1
      ],
      "dist": [
-      0.9375,
-      0.0625
+      0.9412,
+      0.0588
      ],
-     "n": 16,
+     "n": 17,
      "status": "ok"
     },
     "2026": {
@@ -378,15 +378,15 @@
     }
    },
    "divergences": {
-    "2024|2025": 0.032,
+    "2024|2025": 0.0301,
     "2024|2026": 0.219,
-    "2025|2026": 0.112
+    "2025|2026": 0.1159
    }
   }
  },
  "k": 2,
- "n": 88,
- "silhouette": 0.129,
+ "n": 89,
+ "silhouette": 0.128,
  "status": "ok",
  "verse_ref": "Genesis 1:1"
 }

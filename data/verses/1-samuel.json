@@ -1,6 +1,56 @@
 {
  "book": "1 Samuel",
  "verses": {
+  "1 Samuel 10:18": {
+   "citations": [
+    {
+     "confidence": 0.8541,
+     "context": "So at this point, I would be excited, like, sweet, I'm so glad you hear this and you're gonna do something about this. Right? Isn't this beautiful? God heard and he's gonna rescue them, and then God's got a surprise up his sleeve. He says, So now go, I am sending you to Pharaoh to bring my people, the Israelites out of Egypt. And I think so. Either we struggle because we're in between and we don't see that God has a rescue on the way, or we haven't realized yet we're part of the rescue.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-04-02T16:00:06Z",
+     "role": "unknown",
+     "t": 896.4,
+     "title": "Why Does God Allow Suffering? | Courageous Conversations Pop Up LA",
+     "video_id": "6j2yIEDKVVg"
+    }
+   ],
+   "creators": {
+    "jude-3-project": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And said unto the children of Israel, Thus saith the LORD God of Israel, I brought up Israel out of Egypt, and delivered you out of the hand of the Egyptians, and out of the hand of all kingdoms, and of them that oppressed you:",
+    "WEB": "and he said to the children of Israel, “The LORD, the God of Israel, says ‘I brought Israel up out of Egypt and I delivered you out of the hand of the Egyptians, and out of the hand of all the kingdoms that oppressed you.’"
+   },
+   "truncated": false
+  },
+  "1 Samuel 12:16": {
+   "citations": [
+    {
+     "confidence": 0.8119,
+     "context": "So the pastor is saying, I don't care what you're going through, God is getting ready to work that thing out on your behalf. You ain't gotta stress about it, you ain't gotta pay nothing about it. God says, be still and know that I am God, stand still and see the salvation of the Lord. You see, all of the pastor says that. And you have one person that hears that and says, you know what? I really ain't gotta worry about this thing.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-11-14T21:13:21Z",
+     "role": "host",
+     "t": 507.44,
+     "title": "Why Persistent Superstition is Bad for People",
+     "video_id": "9hVCnbdNmGc"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Now therefore stand and see this great thing, which the LORD will do before your eyes.",
+    "WEB": "“Now therefore stand still and see this great thing, which the LORD will do before your eyes."
+   },
+   "truncated": false
+  },
   "1 Samuel 12:24": {
    "citations": [
     {
@@ -991,6 +1041,31 @@
    "text": {
     "KJV": "David also arose afterward, and went out of the cave, and cried after Saul, saying, My lord the king. And when Saul looked behind him, David stooped with his face to the earth, and bowed himself.",
     "WEB": "David also arose afterward, and went out of the cave and cried after Saul, saying, “My lord the king!” When Saul looked behind him, David bowed with his face to the earth, and showed respect."
+   },
+   "truncated": false
+  },
+  "1 Samuel 26:25": {
+   "citations": [
+    {
+     "confidence": 0.7474,
+     "context": "No, I don't I don't play those games. Propaganda isn't true just because people believe it. Okay. No, I need to prove. If it's strength, were our strength at? Because that's what I had to do with God. There's a scripture in the Bible that says uh the people who know their God do great things. And I said, Well, like if we know our God, why aren't we doing great things? I have to measure those things. You know, and today you'd be like, oh, there ain't no God. So I had the same thing with the black church.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-05-25T17:00:06Z",
+     "role": "host",
+     "t": 3887.28,
+     "title": "Revolutionary Humanism: The Pro-Human Future of Atheism // Sunday Sessions",
+     "video_id": "9t9JoVAPW7s"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Then Saul said to David, Blessed be thou, my son David: thou shalt both do great things, and also shalt still prevail. So David went on his way, and Saul returned to his place.",
+    "WEB": "Then Saul said to David, “You are blessed, my son David. You will both do mightily, and will surely prevail.” So David went his way, and Saul returned to his place."
    },
    "truncated": false
   },

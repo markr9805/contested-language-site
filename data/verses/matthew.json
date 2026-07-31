@@ -235,12 +235,25 @@
      "t": 630.44,
      "title": "Do Christians Have To Go To Church? | Dr. Carmen Imes",
      "video_id": "4I_xmqbUh04"
+    },
+    {
+     "confidence": 0.8088,
+     "context": "Indeed. So let's skip the objections. I don't actually hold. But if you say the disciples stole the body, oh, are these the same guys who turned the world upside down, put their families on hold? Uh James and John the fisherman, Peter the fisherman, uh Matthew the tax collector, they put their life on hold to go out and they were totally transformed. I completely disagree with including Matthew on this list, but I'm willing to concede that Peter, James the brother of Jesus, and one of the Johns, probably son of Zebedee, were involved in the early church.",
+     "creator": "paulogia",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-09-18T13:30:04Z",
+     "role": "unknown",
+     "t": 1329.2,
+     "title": "New Resurrection Refutation Opus Ignores YouTubers (Gary Habermas response)",
+     "video_id": "75K8L5sUhqg"
     }
    ],
    "creators": {
-    "jude-3-project": 1
+    "jude-3-project": 1,
+    "paulogia": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Philip, and Bartholomew; Thomas, and Matthew the publican; James the son of Alphaeus, and Lebbaeus, whose surname was Thaddaeus;",
     "WEB": "Philip; Bartholomew; Thomas; Matthew the tax collector; James the son of Alphaeus; Lebbaeus, who was also called Thaddaeus;"
@@ -275,6 +288,18 @@
   "Matthew 10:34": {
    "citations": [
     {
+     "confidence": 0.8752,
+     "context": "Again, protect the innocent and offer peace and mercy to those in need, even in times of judgment. Solved. Going back to more words of Jesus in Matthew 10 34, he says, Do not suppose that I have come to bring peace to the earth. I did not come to bring peace, but a sword. For I have come to turn a man against his father and a daughter against her mother. Again, maybe the verse should have said, I have come to bring peace to unite families and to encourage harmony. And I'm seeing plenty of redundancy, so I think I'm gonna end with one verse. And this is actually a verse that on first look looks the prettiest of them all.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-10-06T14:00:02Z",
+     "role": "host",
+     "t": 2194.8,
+     "title": "I Accidentally Improved the Bible… Then I Did It on Purpose 59 More Times!",
+     "video_id": "1uQn7XQq85s"
+    },
+    {
      "confidence": 0.8336,
      "context": "Because if it's historical, if it's something that actually happened, it would mean that God really does require suffering for salvation to come, that the salvation that God brings really does create suffering. And that's consistent with the entire Bible. You know, when Jesus says that I didn't come to bring peace but a sword, people overlook that. But if it's historically true, that's what what's going on, that it means that the coming of Jesus is not simply to resolve the problems of the world, it creates problems in the world. And if you understand that, then you have a different understanding of God, not just as somebody who is kind of trying to pluck people out of here in order to give them, you know, happy existence, but who's entering into suffering and it's a suffering world and participating in this suffering and actually is coming into the world for salvation creates suffering.",
      "creator": "paulogia",
@@ -285,6 +310,18 @@
      "t": 1353.76,
      "title": "3 Things Most Christians Overlook About Jesus’ Birth (feat Bart Ehrman)",
      "video_id": "6lJLk7MTKlc"
+    },
+    {
+     "confidence": 0.8531,
+     "context": "No, like you you've never read the fucking gospels. If youth kids, like all these people keep putting these political memes like, oh, everybody who voted Christian, you voted against the Christ of the Bible. You don't know what the fuck you're talking about. The Christ of the Bible clearly says that I did not come to bring peace, but a sword to divide mother against daughter, father against son. These are his words. That's a direct quote. If you're reading from the KJV, that shit is in red.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-11-12T17:57:40Z",
+     "role": "host",
+     "t": 2782.24,
+     "title": "Does Christianity Promote Violence?",
+     "video_id": "9wbX4Xsx52E"
     },
     {
      "confidence": null,
@@ -300,10 +337,11 @@
     }
    ],
    "creators": {
-    "darante-lamar": 1,
+    "darante-lamar": 2,
+    "mindshift": 1,
     "paulogia": 1
    },
-   "n": 2,
+   "n": 4,
    "text": {
     "KJV": "Think not that I am come to send peace on earth: I came not to send peace, but a sword.",
     "WEB": "“Don’t think that I came to send peace on the earth. I didn’t come to send peace, but a sword."
@@ -607,6 +645,18 @@
      "video_id": "0mE4Bz2jsXY"
     },
     {
+     "confidence": 0.8655,
+     "context": "When Jesus says, love your neighbors as yourself, he is exclusively talking about the sons of Israel, which he's he literally repeats this over and over and over again. That I did not come to anybody but the lost sheep of Israel. And it's the lost sheep of Israel who is responsible for going into the world and colonizing everybody else. That's what the Bible says. That's what the Great Commission is. You're welcome.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-03-06T12:53:10Z",
+     "role": "host",
+     "t": 4544.6,
+     "title": "X-Pastor vs. The Bible: The Wild Laws of Leviticus 19-22 (Episode 3.12)",
+     "video_id": "A3OKsyD2nAU"
+    },
+    {
      "confidence": 0.75,
      "context": "So the law and the prophets were until John the Baptist, this Jesus says, but after that, it's the kingdom of God, namely compassion. And um, so the Q document is Jewish entirely. At the end, it says Jesus says, do not go to the Gentiles, do not go to the Samaritans, go only to the lost sheep of the house of Israel, which is what uh Ezekiel did uh in going to uh to the sheep of Israel.",
      "creator": "shannon-q",
@@ -681,12 +731,12 @@
    ],
    "creators": {
     "cross-examined": 1,
-    "darante-lamar": 1,
+    "darante-lamar": 2,
     "mike-winger": 1,
     "mindshift": 3,
     "shannon-q": 1
    },
-   "n": 7,
+   "n": 8,
    "text": {
     "KJV": "But go rather to the lost sheep of the house of Israel.",
     "WEB": "Rather, go to the lost sheep of the house of Israel."
@@ -2041,6 +2091,18 @@
   "Matthew 13:57": {
    "citations": [
     {
+     "confidence": 0.838,
+     "context": "What a hard question. I think about this all the time. First of all, I have people in my life that, and I know this probably sounds crazy to you guys considering what I do, and for those of you that think I do it well, but I have not deconverted anybody that I know personally. Jesus himself says a prophet is not regarded in his own town. Now, not calling myself a prophet, but I think that the influence that we have as ex-Christians is extremely limited to those who knew us when we still were believers, or who just know us in general. However, I don't think anyone is a lost cause.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-09-10T14:00:02Z",
+     "role": "host",
+     "t": 519.28,
+     "title": "Mindshift Official Q&A - Answering your Questions to Celebrate 50,000 Subs!",
+     "video_id": "051PtGmKx-U"
+    },
+    {
      "confidence": 0.8345,
      "context": "That's also where their heart is going to be and where the argument can move. It's it's just so interesting here. You share this about your dad because like I have a different standpoint. Like my parents were not really, well, my dad's not religious at all. Uh and my still not still, still not. A prophet is not accepted at I don't know, he might be coming around on Jesus. I'm hoping. A prophet is not accepted in his own homeland. It's uh I understand. Some people are like, well, why can't you even convert your own dad? I'm like, you know, last Jesus. He couldn't get everybody in Nazareth, even they see this guy, and they're like, this guy, I remember when he ran around in diapers.",
      "creator": "counsel-of-trent",
@@ -2054,9 +2116,10 @@
     }
    ],
    "creators": {
-    "counsel-of-trent": 1
+    "counsel-of-trent": 1,
+    "mindshift": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "And they were offended in him. But Jesus said unto them, A prophet is not without honour, save in his own country, and in his own house.",
     "WEB": "They were offended by him. But Jesus said to them, “A prophet is not without honor, except in his own country and in his own house.”"
@@ -2306,6 +2369,18 @@
   "Matthew 15:24": {
    "citations": [
     {
+     "confidence": 0.863,
+     "context": "When Jesus says, love your neighbors as yourself, he is exclusively talking about the sons of Israel, which he's he literally repeats this over and over and over again. That I did not come to anybody but the lost sheep of Israel. And it's the lost sheep of Israel who is responsible for going into the world and colonizing everybody else. That's what the Bible says. That's what the Great Commission is. You're welcome.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-03-06T12:53:10Z",
+     "role": "host",
+     "t": 4544.6,
+     "title": "X-Pastor vs. The Bible: The Wild Laws of Leviticus 19-22 (Episode 3.12)",
+     "video_id": "A3OKsyD2nAU"
+    },
+    {
      "confidence": null,
      "context": "And Matthew chapter 15, verse 24, Jesus says plainly, I was sent only to the lost sheep of Israel. His mission wasn't about embracing humanity at large. It was about restoring and elevating Israel. Everything else flowed from that priority, from that ethic.",
      "creator": "darante-lamar",
@@ -2319,9 +2394,9 @@
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "darante-lamar": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "But he answered and said, I am not sent but unto the lost sheep of the house of Israel.",
     "WEB": "But he answered, “I wasn’t sent to anyone but the lost sheep of the house of Israel.”"
@@ -3038,6 +3113,18 @@
   "Matthew 16:28": {
    "citations": [
     {
+     "confidence": 0.5,
+     "context": "Here's an example of that. Romans 16 20, the God of peace will soon crush Satan under your feet. Well, what if we just said in the fullness of time the truth will be revealed, though the path of history is long and winding? Look how easy that is. And again, the most famous one from Jesus, and I kind of alluded to a different part of it earlier, but Matthew 16, 28, when he specifically says, There are some standing here who will not taste death until they see the Son of Man coming in his kingdom. No, just say a great transformation shall come upon the earth, though its time is not near, and the day of reckoning is unknown to all.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-10-06T14:00:02Z",
+     "role": "host",
+     "t": 802.6,
+     "title": "I Accidentally Improved the Bible… Then I Did It on Purpose 59 More Times!",
+     "video_id": "1uQn7XQq85s"
+    },
+    {
      "confidence": 0.8134,
      "context": "So it's not surprising the first Christians were on alert that this unexpected time could very well be within their own lifetimes. But could they have gotten the wrong idea from Jesus' own teachings? The documentary says Jesus was simply wrong when he said, Truly I say to you, there are some standing here who will not taste death before they see the kingdom of God coming with power, Mark 9 1. Or you will not have gone through all the towns of Israel before the Son of Man comes, Matthew 10 23, as well as descriptions of the stars falling from heaven and saying, This generation will not pass away before all these things take place, Mark 13, 30.",
      "creator": "counsel-of-trent",
@@ -3072,6 +3159,18 @@
      "t": 847.88,
      "title": "Who Did Jesus Think He Was?",
      "video_id": "I7qVrVCmBHE"
+    },
+    {
+     "confidence": 0.5385,
+     "context": "Well, near at hand doesn't mean here now, it's close, but it doesn't mean here now. So he he he does that sort of stuff. In Matthew 16 28, here's another verse used by this, especially the skeptics, uh, to try to attack the Bible. It says, Truly I say to you, there are some standing here who will not taste death until they see the Son of Man coming in his kingdom. Um I'll just notice two things. This would, on the surface, if you read it, but especially just pulled it out of the context. It seems to be saying, Yeah, Jesus is coming back within the lifetime of at least some of the people that are standing there.",
+     "creator": "paulogia",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-05-30T13:30:08Z",
+     "role": "unknown",
+     "t": 2174.56,
+     "title": "Yes, Jesus was a FAILED PROPHET (feat Tim O'Neill) (Mike Winger / InspiringPhilosophy response)",
+     "video_id": "LZ4nPw12B_c"
     },
     {
      "confidence": null,
@@ -3126,9 +3225,10 @@
     "belief-it-or-not": 1,
     "counsel-of-trent": 1,
     "darante-lamar": 1,
-    "mindshift": 4
+    "mindshift": 5,
+    "paulogia": 1
    },
-   "n": 7,
+   "n": 9,
    "text": {
     "KJV": "Verily I say unto you, There be some standing here, which shall not taste of death, till they see the Son of man coming in his kingdom.",
     "WEB": "Most certainly I tell you, there are some standing here who will in no way taste of death until they see the Son of Man coming in his Kingdom.”"
@@ -3849,6 +3949,18 @@
   "Matthew 19:17": {
    "citations": [
     {
+     "confidence": 0.832,
+     "context": "Jesus never claimed that he is equal to God. Being a Jew, he would never have done that. Because that would be blasphemous. Jesus believed in only one God. When someone came to him and asked him, good Lord tell me, he said, no one is good except God. I am an ordinary man. And that is what we as Christians should return to.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2012-02-22T07:01:29Z",
+     "role": "host",
+     "t": 147.48,
+     "title": "7. How Should We Understand the Resurrection Narratives? (Spangernberg rebut)",
+     "video_id": "-VZYLWNurlE"
+    },
+    {
      "confidence": 0.8295,
      "context": "Okay, I'm sorry. I'm sorry. I had to do that one. Alright, so yeah, and then there's also a call for absolute perfection in Matthew 5. It used to be one of my favorite scriptures. Be ye therefore perfect as your heavenly Father is perfect. But then it's contradicted when one of the disciples called Jesus good teacher, and he tells him, call no one good because he says, call uh call no one good because no one is good but the Father. You know. So it's just like be perfect, but don't be good.",
      "creator": "darante-lamar",
@@ -3862,9 +3974,10 @@
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "darante-lamar": 1,
+    "drcraigvideos": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "And he said unto him, Why callest thou me good? there is none good but one, that is, God: but if thou wilt enter into life, keep the commandments.",
     "WEB": "He said to him, “Why do you call me good? No one is good but one, that is, God. But if you want to enter into life, keep the commandments.”"
@@ -4073,13 +4186,26 @@
      "t": 555.16,
      "title": "Atheism And The Cost of Truth",
      "video_id": "3yPzbUcevXU"
+    },
+    {
+     "confidence": 0.6364,
+     "context": "In fact, my greatest fear has been that someday I would stand before the Lord and see all of my works go up in smoke, like so much wood, hay, and stubble. What did Jesus say? The first shall be last, and the last shall be first. It isn't success in the eyes of the world that ultimately counts, but success in the Lord's eyes. Now, this is both encouraging and convicted.",
+     "creator": "drcraigvideos",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2011-12-31T08:21:13Z",
+     "role": "host",
+     "t": 1582.0,
+     "title": "Failure - What is the Meaning of Failure for the Christian? (William Lane Craig)",
+     "video_id": "rjIFXNL9bHc"
     }
    ],
    "creators": {
     "britt-hartley": 1,
+    "drcraigvideos": 1,
     "shannon-q": 1
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "But many that are first shall be last; and the last shall be first.",
     "WEB": "But many will be last who are first, and first who are last."
@@ -6037,12 +6163,25 @@
      "t": 722.48,
      "title": "NEW SECTION || Doctrine of The Last Things Part 1: The Return of Christ || Defenders LIVE!",
      "video_id": "C-jXn8puJDI"
+    },
+    {
+     "confidence": 1.0,
+     "context": "It says, But when you see the abomination of desolation, standing where it ought not to be. And then the gospel writer puts puts in, let the reader understand. Let the reader understand. Then let those who are in Judea flee to the mountains. Let the one who's on the housetop not go down, nor enter his house, nor take anything out. The one on the field must not turn back to get a coat. Woe to those who are pregnant and to those who are nursing infants in those days. Pray that it will may not be in winter, for in those days there will be great suffering, etc.",
+     "creator": "paulogia",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-05-30T13:30:08Z",
+     "role": "unknown",
+     "t": 994.12,
+     "title": "Yes, Jesus was a FAILED PROPHET (feat Tim O'Neill) (Mike Winger / InspiringPhilosophy response)",
+     "video_id": "LZ4nPw12B_c"
     }
    ],
    "creators": {
+    "paulogia": 1,
     "reasonable-faith-org": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Then let them which be in Judaea flee into the mountains:",
     "WEB": "then let those who are in Judea flee to the mountains."
@@ -6297,6 +6436,18 @@
   "Matthew 24:34": {
    "citations": [
     {
+     "confidence": 0.5,
+     "context": "This one's a little different than what we've been doing, but let's see how it goes. You know what would have cleared up a bunch of confusion if Jesus said, some events will remain unseen, and their timing shall be known to no man, neither within this generation nor the next. But instead, in Matthew 24 34, we get truly, I tell you, this generation will certainly not pass away until all these things have happened. Yeah, this verse is beyond clear. We get truly, we get certainly, we get no mincing of words. This generation meant the same thing it does now, and yet there's been 81 of them since Jesus.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-10-06T14:00:02Z",
+     "role": "host",
+     "t": 649.2,
+     "title": "I Accidentally Improved the Bible… Then I Did It on Purpose 59 More Times!",
+     "video_id": "1uQn7XQq85s"
+    },
+    {
      "confidence": 0.8011,
      "context": "How near? Even at the door. Verily I say unto you, this generation.",
      "creator": "belief-it-or-not",
@@ -6343,6 +6494,30 @@
      "t": 1033.08,
      "title": "Who Did Jesus Think He Was?",
      "video_id": "I7qVrVCmBHE"
+    },
+    {
+     "confidence": 0.5,
+     "context": "There's another one which is Mark 1330. This is at the end of what's called the Olivet Discourse, also known as the Little Apocalypse, which makes up pretty much all of Mark 13, and we'll talk about Mark 13 a bit in a moment. But this one's a real problem because after talking about all this stuff that's going to happen at the at the apocalypse at the end of the world, Jesus finishes by saying, Truly, I tell you that this generation will not pass away until all these things take place. Again, that was 2,000 years ago, hasn't happened.",
+     "creator": "paulogia",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-05-30T13:30:08Z",
+     "role": "host",
+     "t": 728.88,
+     "title": "Yes, Jesus was a FAILED PROPHET (feat Tim O'Neill) (Mike Winger / InspiringPhilosophy response)",
+     "video_id": "LZ4nPw12B_c"
+    },
+    {
+     "confidence": 0.5,
+     "context": "Maybe he isn't, but I don't think he is. So he's just not telling his listeners. Yeah, no, because he's made his early dating arguments, so he's aware. Exactly. So he wants, yeah, that's right. So he really wants all this stuff to be happening to happen in the future. Okay, so how does he get around the problem of Mark 1330, saying this generation will not pass away until all these things have happened, because that doesn't really work if this stuff is still to happen in the future. And the way he deals with that, which is quite remarkable.",
+     "creator": "paulogia",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-05-30T13:30:08Z",
+     "role": "host",
+     "t": 1689.0,
+     "title": "Yes, Jesus was a FAILED PROPHET (feat Tim O'Neill) (Mike Winger / InspiringPhilosophy response)",
+     "video_id": "LZ4nPw12B_c"
     },
     {
      "confidence": 0.5714,
@@ -6432,9 +6607,10 @@
    "creators": {
     "belief-it-or-not": 1,
     "darante-lamar": 7,
-    "mindshift": 3
+    "mindshift": 4,
+    "paulogia": 2
    },
-   "n": 11,
+   "n": 14,
    "text": {
     "KJV": "Verily I say unto you, This generation shall not pass, till all these things be fulfilled.",
     "WEB": "Most certainly I tell you, this generation will not pass away until all these things are accomplished."
@@ -6643,6 +6819,31 @@
    "text": {
     "KJV": "But he answered and said, Verily I say unto you, I know you not.",
     "WEB": "But he answered, ‘Most certainly I tell you, I don’t know you.’"
+   },
+   "truncated": false
+  },
+  "Matthew 25:13": {
+   "citations": [
+    {
+     "confidence": 0.5714,
+     "context": "Jesus is the bridegroom who is returning, but the bridegroom is delayed. So watch therefore, for you know neither the day nor the hour. Which suggests not only do we not know when Jesus will return, but we ought to expect a delay. Well, as I said before, it's not you'll know neither the day nor the hour, nor the year, nor the century, nor the millennium. It's like you'll know neither. So again, it's just saying you don't know exactly when it will happen, but it's gonna soon.",
+     "creator": "paulogia",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-05-30T13:30:08Z",
+     "role": "unknown",
+     "t": 2976.24,
+     "title": "Yes, Jesus was a FAILED PROPHET (feat Tim O'Neill) (Mike Winger / InspiringPhilosophy response)",
+     "video_id": "LZ4nPw12B_c"
+    }
+   ],
+   "creators": {
+    "paulogia": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Watch therefore, for ye know neither the day nor the hour wherein the Son of man cometh.",
+    "WEB": "Watch therefore, for you don’t know the day nor the hour in which the Son of Man is coming."
    },
    "truncated": false
   },
@@ -7479,6 +7680,18 @@
      "video_id": "6bZec5DflPY"
     },
     {
+     "confidence": 0.8284,
+     "context": "It's symbolic, it's relational, it's disciplinary. Compare that with the synoptic gospels. Matthew, Mark, and Luke, three slightly different rituals. Mark, our earliest gospel, shows it as a simple Passover reinterpretation. This is my body, this is my blood. Matthew adds extra theology for the forgiveness of sins. Luke's manuscript tradition is unstable here. Some manuscripts leave out the words given for you, showing that early Christian traditions were already redoing or revising this stuff.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-12-02T15:00:27Z",
+     "role": "host",
+     "t": 679.84,
+     "title": "Why Gen Z Is Suddenly Obsessed With Communion",
+     "video_id": "9ePdKtcYHJ8"
+    },
+    {
      "confidence": 0.6471,
      "context": "At the Last Supper, he gives them the bread. He distributes and says, This is my body, which is for you. And then he gives them the cup of wine and says, Drink you all of this. This is my blood of the new covenant, which is poured out for many. Um, and if Jesus saw that the old system of sacrifices was passing away, it could have been because he saw that his own sacrificial and atoning death was imminent, which would put a permanent end to those temple sacrifices.",
      "creator": "reasonable-faith-org",
@@ -7494,10 +7707,11 @@
    "creators": {
     "capturing-christianity": 1,
     "cross-examined": 1,
+    "mindshift": 1,
     "prophet-of-zod": 1,
     "reasonable-faith-org": 1
    },
-   "n": 4,
+   "n": 5,
    "text": {
     "KJV": "For this is my blood of the new testament, which is shed for many for the remission of sins.",
     "WEB": "for this is my blood of the new covenant, which is poured out for many for the remission of sins."
@@ -7975,6 +8189,31 @@
    "text": {},
    "truncated": false
   },
+  "Matthew 27:51": {
+   "citations": [
+    {
+     "confidence": 0.8013,
+     "context": "So such coherence as there is gives little evidential force. Moreover, they signally fail to cohere, especially in the passion narratives, with non-gospel literature. So here we have from Matthew's Gospel the claim about the veil of the temple being rent, an earthquake, darkness over all the earth for three hours, and bodies of the saints being revived and going and walking around Jerusalem.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2011-12-19T06:07:12Z",
+     "role": "host",
+     "t": 5569.92,
+     "title": "Debate - Does God Exist? William Lane Craig vs Peter Millican (Birmingham University, October 2011)",
+     "video_id": "9JVRy7bR7zI"
+    }
+   ],
+   "creators": {
+    "drcraigvideos": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And, behold, the veil of the temple was rent in twain from the top to the bottom; and the earth did quake, and the rocks rent;",
+    "WEB": "Behold, the veil of the temple was torn in two from the top to the bottom. The earth quaked and the rocks were split."
+   },
+   "truncated": false
+  },
   "Matthew 27:52": {
    "citations": [
     {
@@ -8000,6 +8239,18 @@
      "t": 146.76,
      "title": "When Did Christianity Become “True”? The Answer Might Shock You",
      "video_id": "7Cy00HS3BGE"
+    },
+    {
+     "confidence": 0.8073,
+     "context": "So such coherence as there is gives little evidential force. Moreover, they signally fail to cohere, especially in the passion narratives, with non-gospel literature. So here we have from Matthew's Gospel the claim about the veil of the temple being rent, an earthquake, darkness over all the earth for three hours, and bodies of the saints being revived and going and walking around Jerusalem.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2011-12-19T06:07:12Z",
+     "role": "host",
+     "t": 5569.92,
+     "title": "Debate - Does God Exist? William Lane Craig vs Peter Millican (Birmingham University, October 2011)",
+     "video_id": "9JVRy7bR7zI"
     },
     {
      "confidence": 0.9231,
@@ -8112,9 +8363,10 @@
    ],
    "creators": {
     "capturing-christianity": 4,
-    "darante-lamar": 7
+    "darante-lamar": 7,
+    "drcraigvideos": 1
    },
-   "n": 11,
+   "n": 12,
    "text": {
     "KJV": "And the graves were opened; and many bodies of the saints which slept arose,",
     "WEB": "The tombs were opened, and many bodies of the saints who had fallen asleep were raised;"
@@ -9350,6 +9602,18 @@
    "citations": [
     {
      "confidence": 1.0,
+     "context": "That's just be ready. So a lot of the other stuff he says, he tries to really sort of read in this idea to some of the other the references that I've mentioned before. Right. When Jesus started preaching, Matthew 4 17, his first thing he says in Matthew, public preaching is repent for the kingdom of heaven is at hand. It's here now. So he's sort of saying there was a there was in a sense the kingdom had already come, and that's how we get around the stuff in uh in Mark 9 1.",
+     "creator": "paulogia",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-05-30T13:30:08Z",
+     "role": "unknown",
+     "t": 2143.52,
+     "title": "Yes, Jesus was a FAILED PROPHET (feat Tim O'Neill) (Mike Winger / InspiringPhilosophy response)",
+     "video_id": "LZ4nPw12B_c"
+    },
+    {
+     "confidence": 1.0,
      "context": "But he respects the decision that we made with our life. That's and we have to own it. And our actions own in our own. I agree with everything you're saying, but do you think it's forever? I do think it's forever. And and and this is why is because I think I I think Jesus is being extremely literal. When he comes in this earth and he says, Repent, repent, for the kingdom of heaven is at hand, and he's talking about hell and he's talking about heaven. Because I really believe that Jesus respects the choices that we make in this lifetime. But it was worth enough for him to be tortured forever. Do I think it was worth I don't know. I'm not the judge. I can't say this is this is the thing.",
      "creator": "mindshift",
      "detection_method": "shingle_match",
@@ -9412,9 +9676,10 @@
    "creators": {
     "capturing-christianity": 1,
     "mike-winger": 2,
-    "mindshift": 2
+    "mindshift": 2,
+    "paulogia": 1
    },
-   "n": 5,
+   "n": 6,
    "text": {
     "KJV": "And saying, Repent ye: for the kingdom of heaven is at hand.",
     "WEB": "“Repent, for the Kingdom of Heaven is at hand!”"
@@ -10350,6 +10615,18 @@
      "t": 662.32,
      "title": "Should Christians Ever Hate People?",
      "video_id": "XuL8cfpaj0o"
+    },
+    {
+     "confidence": 1.0,
+     "context": "Jesus, in his ministry, reinforced and expanded this understanding of adultery, taking the discussion beyond the physical act. In Matthew 5, verses 27 to 28, he teaches Us. You have heard that it was said, you shall not commit adultery. But I tell you that anyone who looks at a woman lustfully has already committed adultery with her in his heart. Did Jesus innovate this sexual ethic, or was that already in place?",
+     "creator": "paulogia",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-09-12T13:30:34Z",
+     "role": "unknown",
+     "t": 837.08,
+     "title": "7 Most Terrible Sexual Sins in the Bible | YOU MAY BE FALLING FOR THEM! (feat Dr Jenny Knust)",
+     "video_id": "mJO-6DjPYd4"
     }
    ],
    "creators": {
@@ -10357,9 +10634,10 @@
     "counsel-of-trent": 1,
     "darante-lamar": 1,
     "genetically-modified-skeptic": 1,
-    "mindshift": 2
+    "mindshift": 2,
+    "paulogia": 1
    },
-   "n": 6,
+   "n": 7,
    "text": {
     "KJV": "Ye have heard that it was said by them of old time, Thou shalt not commit adultery:",
     "WEB": "“You have heard that it was said, ‘You shall not commit adultery;’"
@@ -10394,6 +10672,18 @@
     },
     {
      "confidence": null,
+     "context": "Jesus, in his ministry, reinforced and expanded this understanding of adultery, taking the discussion beyond the physical act. In Matthew 5, verses 27 to 28, he teaches Us. You have heard that it was said, you shall not commit adultery. But I tell you that anyone who looks at a woman lustfully has already committed adultery with her in his heart.",
+     "creator": "paulogia",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-09-12T13:30:34Z",
+     "role": "unknown",
+     "t": 831.32,
+     "title": "7 Most Terrible Sexual Sins in the Bible | YOU MAY BE FALLING FOR THEM! (feat Dr Jenny Knust)",
+     "video_id": "mJO-6DjPYd4"
+    },
+    {
+     "confidence": null,
      "context": "Independent judgment becomes indistinguishable from disobedience, and choosing for oneself is recoded as rebellion against the highest good. But let's take it a step further. Matthew chapter 5, verse 27 through 28 says, anyone who looks at a woman lustfully has already committed adultery in his heart. When Jesus collapses thought, desire, and action into a single moral category, the scope of moral regulation moves inward, beyond behavior and into the private interior of the individual.",
      "creator": "darante-lamar",
      "detection_method": "explicit_citation",
@@ -10408,9 +10698,10 @@
    "creators": {
     "darante-lamar": 1,
     "genetically-modified-skeptic": 1,
+    "paulogia": 1,
     "prophet-of-zod": 1
    },
-   "n": 3,
+   "n": 4,
    "text": {},
    "truncated": false
   },
@@ -10675,12 +10966,37 @@
      "t": 411.16,
      "title": "Blessed Are the Broken: When Salvation Becomes Submission",
      "video_id": "9biwNy8ZC1U"
+    },
+    {
+     "confidence": 1.0,
+     "context": "And so I put the Quran away. I said, This doesn't apply to my life. I opened up the Bible, didn't know where to go. Every time I'd opened up the Bible before, it was to rip it apart apologetically. Matthew chapter one. It's all a bunch of genealogies, so I skipped them. I was a Muslim. I had an excuse. You guys have no excuse. It didn't take me long to get to Matthew chapter five, which says, Blessed are those who mourn, for they shall be comforted. Those were the exact words I just spoken to God, and it felt as if the page was electric. It felt as if the word of God had jumpstarted my heart. I actually couldn't let go of the Bible.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-08-13T14:00:44Z",
+     "role": "unknown",
+     "t": 81.36,
+     "title": "Ex-Muslim Converts to Christianity for \"The Feels\" | So Many Issues!",
+     "video_id": "lLm5gdmQKJ4"
+    },
+    {
+     "confidence": 0.5714,
+     "context": "And that's what Jesus is doing here in Matthew 5. He is giving the Sermon on the Mount and preaching about all these people that will be blessed. This verse is blessed are those who mourn, for they will be comforted. And yes, many of the Beatitudes are very nice. They are recognitions of our earthly state. You will suffer, you will hurt, you will lose, you will mourn. But if you do the right things, if you believe the right things, later in an afterlife, this will be taken care of for you.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-08-13T14:00:44Z",
+     "role": "unattributed",
+     "t": 243.28,
+     "title": "Ex-Muslim Converts to Christianity for \"The Feels\" | So Many Issues!",
+     "video_id": "lLm5gdmQKJ4"
     }
    ],
    "creators": {
-    "darante-lamar": 2
+    "darante-lamar": 2,
+    "mindshift": 2
    },
-   "n": 2,
+   "n": 4,
    "text": {
     "KJV": "Blessed are they that mourn: for they shall be comforted.",
     "WEB": "Blessed are those who mourn, for they shall be comforted."
@@ -10837,13 +11153,26 @@
      "t": 8841.6,
      "title": "'Change My Mind' LIVE Q&A from Michigan Technological Univ. (Houghton, MI)",
      "video_id": "6clndvSleoA"
+    },
+    {
+     "confidence": 0.8262,
+     "context": "Now let me help you. You can live right as best you can as a believer in Jesus Christ, and bad things still happen to you. The Bible says that the rain falls on the just and the unjust. And let me paint a picture for you. Since we're talking about the Odyssey, right? Job. Think about this what the Bible says about Job. The word of God says that Job was an upright man, blameless, and he shunned evil.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-04-02T16:00:06Z",
+     "role": "host",
+     "t": 1994.64,
+     "title": "Why Does God Allow Suffering? | Courageous Conversations Pop Up LA",
+     "video_id": "6j2yIEDKVVg"
     }
    ],
    "creators": {
     "cross-examined": 2,
+    "jude-3-project": 1,
     "mindshift": 1
    },
-   "n": 3,
+   "n": 4,
    "text": {
     "KJV": "That ye may be the children of your Father which is in heaven: for he maketh his sun to rise on the evil and on the good, and sendeth rain on the just and on the unjust.",
     "WEB": "that you may be children of your Father who is in heaven. For he makes his sun to rise on the evil and the good, and sends rain on the just and the unjust."
@@ -13291,8 +13620,70 @@
    "text": {},
    "truncated": false
   },
+  "Matthew 9:16": {
+   "citations": [
+    {
+     "confidence": 0.8801,
+     "context": "Just it was a lot of money. We don't know how long the goodwill lasted between Marcion and the Roman Christians. Likewise, we're not sure how it ended. But our sources do describe Marcion's conflict with a group of Roman elders over the interpretation of some of Jesus' parables. No one tears a piece from a new garment and sews it on an old garment. Otherwise, not only will one tear the new garment, but the piece from the new will not match the old garment. Similarly, no one puts new wine into old wineskins. Otherwise, the new wine will burst the skins and will spill out and the skins will be ruined.",
+     "creator": "genetically-modified-skeptic",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-07-17T16:00:36Z",
+     "role": "host",
+     "t": 206.84,
+     "title": "The Heretic Who Made Christianity’s First Bible",
+     "video_id": "A71Wys_6VqY"
+    }
+   ],
+   "creators": {
+    "genetically-modified-skeptic": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "No man putteth a piece of new cloth unto an old garment, for that which is put in to fill it up taketh from the garment, and the rent is made worse.",
+    "WEB": "No one puts a piece of unshrunk cloth on an old garment; for the patch would tear away from the garment, and a worse hole is made."
+   },
+   "truncated": false
+  },
+  "Matthew 9:17": {
+   "citations": [
+    {
+     "confidence": 0.9216,
+     "context": "No one tears a piece from a new garment and sews it on an old garment. Otherwise, not only will one tear the new garment, but the piece from the new will not match the old garment. Similarly, no one puts new wine into old wineskins. Otherwise, the new wine will burst the skins and will spill out and the skins will be ruined. In this saying, known from all three synoptic gospels, Jesus contrasts the novelty of his teaching with the doctrine and practices of the Pharisees and scribes, his fellow Jews.",
+     "creator": "genetically-modified-skeptic",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-07-17T16:00:36Z",
+     "role": "host",
+     "t": 217.32,
+     "title": "The Heretic Who Made Christianity’s First Bible",
+     "video_id": "A71Wys_6VqY"
+    }
+   ],
+   "creators": {
+    "genetically-modified-skeptic": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Neither do men put new wine into old bottles: else the bottles break, and the wine runneth out, and the bottles perish: but they put new wine into new bottles, and both are preserved.",
+    "WEB": "Neither do people put new wine into old wineskins, or else the skins would burst, and the wine be spilled, and the skins ruined. No, they put new wine into fresh wineskins, and both are preserved.”"
+   },
+   "truncated": false
+  },
   "Matthew 9:20": {
    "citations": [
+    {
+     "confidence": 0.8246,
+     "context": "Which is it extended beyond the normal menstrual period, of course. And when she touches the hem of his garment, the Bible says the blood flow stopped. So she's well.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-03-20T13:00:06Z",
+     "role": "host",
+     "t": 3397.6,
+     "title": "How Can I Find Inner Peace in a Turbulent World? | Courageous Conversations 2024",
+     "video_id": "2srmbXcl7ZE"
+    },
     {
      "confidence": 0.8495,
      "context": "But now I'm going to read to you a short story that I'm sure many of you are familiar with. This comes to us from Mark chapter 5. And we'll start in verse 24. And a great crowd followed him and thronged about him. And there was a woman who had a discharge of blood for twelve years, and who had suffered much under many physicians and had spent all that she had and was no better, but rather grew worse. She had heard the reports about Jesus and came up behind him in the crowd and touched his garment.",
@@ -13307,9 +13698,10 @@
     }
    ],
    "creators": {
+    "jude-3-project": 1,
     "mindshift": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "And, behold, a woman, which was diseased with an issue of blood twelve years, came behind him, and touched the hem of his garment:",
     "WEB": "Behold, a woman who had a discharge of blood for twelve years came behind him, and touched the fringe of his garment;"

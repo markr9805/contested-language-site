@@ -1779,6 +1779,18 @@
   "John 14:15": {
    "citations": [
     {
+     "confidence": 0.8518,
+     "context": "Let me let me deal with the last one first. Paul refutes that in Romans 6. He said, Show we sin so grace may abound, may it never be. If you're living like hell, you're probably going there. Jesus said, if you love me, you'll keep my commandments. You're not saved by your works, but your works are evidence you're saved. That's what James is talking about. Let me show you my faith by my works. You can't see faith, but you can see the works that come with faith.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-05-06T22:00:22Z",
+     "role": "host",
+     "t": 118.64,
+     "title": "Why Did Jesus Have to Die for Our Sins?",
+     "video_id": "9cnWlROMwho"
+    },
+    {
      "confidence": null,
      "context": "Obedience is often reframed as love. As a matter of fact, obedience is explicitly redefined as love. And love equals rule keeping, not care or repair. Look at the Gospel of John, chapter 14, verse 15. It says, If you love me, keep my commands. Let me paraphrase that. If you love me, do what the hell I told you to do when I told you to do it.",
      "creator": "darante-lamar",
@@ -1828,9 +1840,10 @@
     }
    ],
    "creators": {
+    "cross-examined": 1,
     "darante-lamar": 4
    },
-   "n": 4,
+   "n": 5,
    "text": {
     "KJV": "If ye love me, keep my commandments.",
     "WEB": "If you love me, keep my commandments."
@@ -2116,6 +2129,18 @@
   "John 14:27": {
    "citations": [
     {
+     "confidence": 0.8715,
+     "context": "And it hasn't felt the same as the peace when I'm sitting on the beach and I have no problems. But it's still as real. And I do wonder, you know, what does it look like to claim the peace that we have and not feel like we have to fight for it out there? If Jesus says, peace I give to you, my peace I give to you, not as the world gives, give I unto you. Does that mean I already have it, or does that mean I have to work toward it? I leave that to Dr. Smith. But I do I think we need to change our understanding of what it means to be whole in God.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-03-20T13:00:06Z",
+     "role": "unknown",
+     "t": 3315.72,
+     "title": "How Can I Find Inner Peace in a Turbulent World? | Courageous Conversations 2024",
+     "video_id": "2srmbXcl7ZE"
+    },
+    {
      "confidence": 0.5,
      "context": "Now here's this promise. Because I live, you will live also. And you know Jesus is alive, even as the Shia, right? And he says, Because you know I'm alive, you believe in me, you will live, you won't die. John 14, 27. Peace I leave with you. My shalom, my salam. My peace I give to you. Not as the world gives, do I give it to you? Because the world will promise you a peace that doesn't last. Do not let your heart be troubled. See again, he said, Don't be afraid, nor let it be fearful, because I'm alive.",
      "creator": "capturing-christianity",
@@ -2129,9 +2154,10 @@
     }
    ],
    "creators": {
-    "capturing-christianity": 1
+    "capturing-christianity": 1,
+    "jude-3-project": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid.",
     "WEB": "Peace I leave with you. My peace I give to you; not as the world gives, I give to you. Don’t let your heart be troubled, neither let it be fearful."
@@ -3255,6 +3281,18 @@
   "John 16:33": {
    "citations": [
     {
+     "confidence": 0.7897,
+     "context": "And going back to the question of how to have peace in the midst of chronic pain and depression, that peace doesn't mean that those things aren't real. It is peace in spite of those things. And I I attributed peace that passes understanding to Jesus, and it was really uh Philippians, but but there is something about peace passing understanding.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-03-20T13:00:06Z",
+     "role": "unknown",
+     "t": 3752.44,
+     "title": "How Can I Find Inner Peace in a Turbulent World? | Courageous Conversations 2024",
+     "video_id": "2srmbXcl7ZE"
+    },
+    {
      "confidence": 0.8535,
      "context": "Because the world will promise you a peace that doesn't last. Do not let your heart be troubled. See again, he said, Don't be afraid, nor let it be fearful, because I'm alive. And now here's some more promises for you, okay? John 16, 33. These things I have spoken to you, so that in me you may have peace. Notice what the condition. You have to believe in me, trust in me, be united to me, follow me. And I promise you a peace that the world cannot take from you. In the world you will have tribulation, but take care, take courage.",
      "creator": "capturing-christianity",
@@ -3268,9 +3306,10 @@
     }
    ],
    "creators": {
-    "capturing-christianity": 1
+    "capturing-christianity": 1,
+    "jude-3-project": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "These things I have spoken unto you, that in me ye might have peace. In the world ye shall have tribulation: but be of good cheer; I have overcome the world.",
     "WEB": "I have told you these things, that in me you may have peace. In the world you have trouble; but cheer up! I have overcome the world.”"
@@ -4097,6 +4136,31 @@
    },
    "truncated": false
   },
+  "John 19:11": {
+   "citations": [
+    {
+     "confidence": 0.768,
+     "context": "And we're simply not in a position to make those kind of judgments with any sort of confidence. God's morally sufficient reasons for permitting some incident of suffering in your life might not emerge until centuries later, maybe in another country, so that you would have no hope of being able to see what his morally sufficient reason is for permitting this to enter your life.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2011-11-28T21:30:17Z",
+     "role": "host",
+     "t": 3015.68,
+     "title": "Origins of the Universe - Has Stephen Hawking Eliminated God? - William Lane Craig & Rodney Holder",
+     "video_id": "0KqU9N5QJvI"
+    }
+   ],
+   "creators": {
+    "drcraigvideos": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Jesus answered, Thou couldest have no power at all against me, except it were given thee from above: therefore he that delivered me unto thee hath the greater sin.",
+    "WEB": "Jesus answered, “You would have no power at all against me, unless it were given to you from above. Therefore he who delivered me to you has greater sin.”"
+   },
+   "truncated": false
+  },
   "John 19:17": {
    "citations": [
     {
@@ -4321,6 +4385,18 @@
      "t": 4613.56,
      "title": "Explaining the Lyrics Behind my Album Blameless",
      "video_id": "3Htdc6QXT_Y"
+    },
+    {
+     "confidence": 0.9107,
+     "context": "Because there's a book that I read in in in in seminary called God Crucified. That's a different shift in your mind. It's not just some man that was crucified, it is God. The word says, in the beginning was the word, the word was God, the word was with God. Then in John 14, it says, and the world dwelt, the word dwelt among us, became flesh and dwelt among us. God literally came down to fix for us what we could not fix for ourselves.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-04-02T16:00:06Z",
+     "role": "host",
+     "t": 539.6,
+     "title": "Why Does God Allow Suffering? | Courageous Conversations Pop Up LA",
+     "video_id": "6j2yIEDKVVg"
     },
     {
      "confidence": 0.8571,
@@ -4617,11 +4693,12 @@
     "darante-lamar": 2,
     "drcraigvideos": 3,
     "jackie-hill-perry": 2,
+    "jude-3-project": 1,
     "mindshift": 2,
     "reasonable-faith-org": 3,
     "shannon-q": 1
    },
-   "n": 28,
+   "n": 29,
    "text": {
     "KJV": "In the beginning was the Word, and the Word was with God, and the Word was God.",
     "WEB": "In the beginning was the Word, and the Word was with God, and the Word was God."
@@ -4921,6 +4998,18 @@
      "video_id": "3Htdc6QXT_Y"
     },
     {
+     "confidence": 0.8524,
+     "context": "Because there's a book that I read in in in in seminary called God Crucified. That's a different shift in your mind. It's not just some man that was crucified, it is God. The word says, in the beginning was the word, the word was God, the word was with God. Then in John 14, it says, and the world dwelt, the word dwelt among us, became flesh and dwelt among us. God literally came down to fix for us what we could not fix for ourselves. And he suffered unimaginable, imaginable pain so that we could be freed from evil and suffering.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-04-02T16:00:06Z",
+     "role": "host",
+     "t": 543.72,
+     "title": "Why Does God Allow Suffering? | Courageous Conversations Pop Up LA",
+     "video_id": "6j2yIEDKVVg"
+    },
+    {
      "confidence": null,
      "context": "And that G, and so what will kill his position is if we show that Jesus, the Son, Jesus. We're talking about Jesus in particular, pre-exists the first century. And so I think of John 1:14. Uh, they talk about how they beheld his glory. Uh here the word became flesh, dealt among us, full of grace and truth. We have beheld his glory, glory as of the only son from the Father. Then that takes us back to John 12, verses 37 through 41, that where he's engaging with the Pharisees.",
      "creator": "counsel-of-trent",
@@ -4936,9 +5025,10 @@
    "creators": {
     "counsel-of-trent": 1,
     "cross-examined": 1,
-    "jackie-hill-perry": 1
+    "jackie-hill-perry": 1,
+    "jude-3-project": 1
    },
-   "n": 3,
+   "n": 4,
    "text": {
     "KJV": "And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only begotten of the Father,) full of grace and truth.",
     "WEB": "The Word became flesh and lived among us. We saw his glory, such glory as of the only born Son of the Father, full of grace and truth."
@@ -5508,6 +5598,18 @@
   "John 1:3": {
    "citations": [
     {
+     "confidence": 0.5833,
+     "context": "That is not the biblical picture of what is presented of spiritual warfare or of demons. You look at John chapter 1, in the beginning was the word, the word is with God, the word was God. Through him all things were made, without him, nothing was made that has been made. You look at Colossians chapter 1, verses 14 through 16, and you've got the reality that Christ is supreme, and through him all that was visible was made, and all that was invisible was made.",
+     "creator": "jude-3-project",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-07-23T20:51:30Z",
+     "role": "host",
+     "t": 40.56,
+     "title": "Demons Are Created Beings",
+     "video_id": "4OaZDMRifHc"
+    },
+    {
      "confidence": null,
      "context": "That in some sense does he pre exist all other created things. Uh we can hold that, yeah. I'll just say yes. I think that's that's plausible. I think because I there is some issues with some passages in Paul where it talks about you know he he cre everything was created through him or by him. So I if I just say that, or in John 1 verse 3, too, right? So if I just say that he was eternal in some sense, yeah, I think uh you call that semiarianism, but yeah. Okay, yeah. So okay, right. So he's he's um good. I'm glad you brought up the passages in which in uh the New Testament passages in which uh you know we get we get this teaching, this doctrine that all things are created through and and with uh Christ.",
      "creator": "capturing-christianity",
@@ -5534,9 +5636,9 @@
    ],
    "creators": {
     "capturing-christianity": 1,
-    "jude-3-project": 1
+    "jude-3-project": 2
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "All things were made by him; and without him was not any thing made that was made.",
     "WEB": "All things were made through him. Without him, nothing was made that has been made."
@@ -5835,6 +5937,18 @@
   "John 1:6": {
    "citations": [
     {
+     "confidence": 1.0,
+     "context": "And I think what happens is you import these later concepts and read them back into Paul, like Galatians, God sent forth his son born of a woman. You go, come on, God sent him. There it is. There was a man sent from God whose name was John. Oh, John is Christ then, right? Isn't that in the parts? Right. You think there's a man sent from God, and he was born of a woman, Jesus says, among those born of women. So you've got to read these texts carefully.",
+     "creator": "paulogia",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-09-05T13:30:23Z",
+     "role": "host",
+     "t": 1309.36,
+     "title": "Is Jesus God? (feat James Tabor) (N.T. Wright response)",
+     "video_id": "RbqHYwyFsJg"
+    },
+    {
      "confidence": null,
      "context": "Yeah. So that argument goes out the window. Number number two, if you read the prologue of John carefully, and I went through this, everything said about the word is said about the historical Jesus in the narrative. If you go line by line, every single thing, for example, in John 1, verse 6, it says, John the Baptist was sent to bear witness to the word and the light. Now we got a problem. Because if the word and the light is simply a plan, John did not come to bear witness to a plan, but to a person named Jesus.",
      "creator": "capturing-christianity",
@@ -5848,9 +5962,10 @@
     }
    ],
    "creators": {
-    "capturing-christianity": 1
+    "capturing-christianity": 1,
+    "paulogia": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "There was a man sent from God, whose name was John.",
     "WEB": "There came a man sent from God, whose name was John."
@@ -7186,6 +7301,18 @@
   "John 3:15": {
    "citations": [
     {
+     "confidence": 0.5556,
+     "context": "And I'm seeing plenty of redundancy, so I think I'm gonna end with one verse. And this is actually a verse that on first look looks the prettiest of them all. And it's this John 3 16. For God so loved the world that he gave his one and only son that whoever believes in him shall not perish but have eternal life. Isn't this what it's all about? What all that old testament horror has been pointing to? That it's just about God's love, that he was willing to sacrifice himself, that you can have eternal life with him.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-10-06T14:00:02Z",
+     "role": "host",
+     "t": 2215.92,
+     "title": "I Accidentally Improved the Bible… Then I Did It on Purpose 59 More Times!",
+     "video_id": "1uQn7XQq85s"
+    },
+    {
      "confidence": 0.8217,
      "context": "I want all of you to read it, making it personal this time. I want you to read this out loud with me. Can we get this? I want you to read this with me. For God so loved me that he gave his one and only son that if I believe in him, I will not perish but have eternal life. For God did not send his son into the world to condemn me, but to save me through him.",
      "creator": "prophet-of-zod",
@@ -7299,10 +7426,10 @@
     "counsel-of-trent": 3,
     "cross-examined": 1,
     "drcraigvideos": 1,
-    "mindshift": 2,
+    "mindshift": 3,
     "prophet-of-zod": 1
    },
-   "n": 9,
+   "n": 10,
    "text": {
     "KJV": "That whosoever believeth in him should not perish, but have eternal life.",
     "WEB": "that whoever believes in him should not perish, but have eternal life."
@@ -7322,6 +7449,18 @@
      "t": 431.32,
      "title": "Why God Chooses the Inexperienced | Lisa Fields at Wheaton College",
      "video_id": "1P1s5Yuf3Gs"
+    },
+    {
+     "confidence": 0.5909,
+     "context": "And I'm seeing plenty of redundancy, so I think I'm gonna end with one verse. And this is actually a verse that on first look looks the prettiest of them all. And it's this John 3 16. For God so loved the world that he gave his one and only son that whoever believes in him shall not perish but have eternal life. Isn't this what it's all about? What all that old testament horror has been pointing to? That it's just about God's love, that he was willing to sacrifice himself, that you can have eternal life with him.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-10-06T14:00:02Z",
+     "role": "host",
+     "t": 2215.92,
+     "title": "I Accidentally Improved the Bible… Then I Did It on Purpose 59 More Times!",
+     "video_id": "1uQn7XQq85s"
     },
     {
      "confidence": null,
@@ -7657,11 +7796,11 @@
     "drcraigvideos": 2,
     "jackie-hill-perry": 2,
     "jude-3-project": 1,
-    "mindshift": 4,
+    "mindshift": 5,
     "prophet-of-zod": 2,
     "reasonable-faith-org": 1
    },
-   "n": 28,
+   "n": 29,
    "text": {
     "KJV": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",
     "WEB": "For God so loved the world, that he gave his only born Son, that whoever believes in him should not perish, but have eternal life."
@@ -9442,6 +9581,18 @@
   "John 5:6": {
    "citations": [
     {
+     "confidence": 0.7759,
+     "context": "But she is she's whole, uh physically, spiritually, cognitively, affectionately. All of that. And I I think that's what he has done. He's come to um to make us whole. Um do you want to be do you want to be made well? Do you want to be made well whole? He didn't ask you want to be made well, you want to be made whole. Yes, the man uh at the pool of Bethesda. But the man, of course, um wanted people to continue to carry him and so forth.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-03-20T13:00:06Z",
+     "role": "host",
+     "t": 3494.28,
+     "title": "How Can I Find Inner Peace in a Turbulent World? | Courageous Conversations 2024",
+     "video_id": "2srmbXcl7ZE"
+    },
+    {
      "confidence": 0.8097,
      "context": "It's hard for me. This is so some of this stuff's a little bit hard for me to say. I think I don't even know why. I don't know. I'm starting to just feel something different. I was looking on this Bible, and there's a story called John 5, and it's about a guy who's at these pools, and Jesus is is at the pools and it's in Bethesda, and they're like, there's a sick man there, and he's been sick for a long time. And Jesus asks him, Do you want to be healed?",
      "creator": "mike-winger",
@@ -9455,12 +9606,38 @@
     }
    ],
    "creators": {
+    "jude-3-project": 1,
     "mike-winger": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "When Jesus saw him lie, and knew that he had been now a long time in that case, he saith unto him, Wilt thou be made whole?",
     "WEB": "When Jesus saw him lying there, and knew that he had been sick for a long time, he asked him, “Do you want to be made well?”"
+   },
+   "truncated": false
+  },
+  "John 5:9": {
+   "citations": [
+    {
+     "confidence": 0.8322,
+     "context": "Do you want to be made well whole? He didn't ask you want to be made well, you want to be made whole. Yes, the man uh at the pool of Bethesda. But the man, of course, um wanted people to continue to carry him and so forth. But when he was made whole, he took up his bed and he walked. And I think that's it, that's important for us to say. Not just getting you to heaven. If that was the case, as soon as you got saved, you'd be out of here.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-03-20T13:00:06Z",
+     "role": "host",
+     "t": 3510.52,
+     "title": "How Can I Find Inner Peace in a Turbulent World? | Courageous Conversations 2024",
+     "video_id": "2srmbXcl7ZE"
+    }
+   ],
+   "creators": {
+    "jude-3-project": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And immediately the man was made whole, and took up his bed, and walked: and on the same day was the sabbath.",
+    "WEB": "Immediately, the man was made well, and took up his mat and walked. Now that day was a Sabbath."
    },
    "truncated": false
   },
@@ -10280,6 +10457,18 @@
   "John 6:54": {
    "citations": [
     {
+     "confidence": 0.7869,
+     "context": "I see your hands. I'm not alone. It's really tough when it opens on a genealogy. Then you're like, oh, I gotta close this up and open it again. But thankfully, that day it landed on John when Jesus said to the disciples, You have to eat my flesh and drink my blood. And he looked at, and so many people walked away. And he looked at Peter and said, Will you also go?",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-02-25T03:35:56Z",
+     "role": "host",
+     "t": 1278.56,
+     "title": "An Encounter with Jesus & Embodied Hope | Apologetics for the Next Generation",
+     "video_id": "-R3_E2Enj3Q"
+    },
+    {
      "confidence": 0.7717,
      "context": "But you do have John 6, right? And often that's that's a typical argument that's given for a kind of um literalism uh as to the Lord's intention for the Eucharistic species. Okay, so like, you know, unless you eat my flesh and drink my blood, you have not life within you. Um, and then the reception of his auditors, namely scandal, would seem to underline the difficulty of this teaching. Um, and then his subsequent engagement with the apostles uh when he he prompts them saying, you know, will you two turn away at this stage of the game?",
      "creator": "capturing-christianity",
@@ -10355,9 +10544,10 @@
    "creators": {
     "capturing-christianity": 1,
     "counsel-of-trent": 3,
+    "jude-3-project": 1,
     "reasonable-faith-org": 2
    },
-   "n": 6,
+   "n": 7,
    "text": {
     "KJV": "Whoso eateth my flesh, and drinketh my blood, hath eternal life; and I will raise him up at the last day.",
     "WEB": "He who eats my flesh and drinks my blood has eternal life, and I will raise him up at the last day."
@@ -10416,6 +10606,18 @@
   },
   "John 6:56": {
    "citations": [
+    {
+     "confidence": 0.7676,
+     "context": "I see your hands. I'm not alone. It's really tough when it opens on a genealogy. Then you're like, oh, I gotta close this up and open it again. But thankfully, that day it landed on John when Jesus said to the disciples, You have to eat my flesh and drink my blood. And he looked at, and so many people walked away. And he looked at Peter and said, Will you also go?",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-02-25T03:35:56Z",
+     "role": "host",
+     "t": 1278.56,
+     "title": "An Encounter with Jesus & Embodied Hope | Apologetics for the Next Generation",
+     "video_id": "-R3_E2Enj3Q"
+    },
     {
      "confidence": 0.7596,
      "context": "And remember that that standard, Jesus Christ said, I am the vine, you are the branches. He who abides in me and I in him, he it is that bears much fruit. For apart from me, you can do nothing. John 15 5. All right, well, I pray that was helpful for you all, and I just hope that you have a very blessed day.",
@@ -10542,9 +10744,10 @@
     "counsel-of-trent": 5,
     "cross-examined": 1,
     "darante-lamar": 1,
+    "jude-3-project": 1,
     "reasonable-faith-org": 2
    },
-   "n": 10,
+   "n": 11,
    "text": {
     "KJV": "He that eateth my flesh, and drinketh my blood, dwelleth in me, and I in him.",
     "WEB": "He who eats my flesh and drinks my blood lives in me, and I in him."
@@ -10774,6 +10977,18 @@
      "video_id": "-7cAMVvoO1I"
     },
     {
+     "confidence": 0.866,
+     "context": "And he looked at, and so many people walked away. And he looked at Peter and said, Will you also go? And Peter said, Where can we go? You have the words of eternal life. And is it was in that moment that something clicked for me, that I had a moment with Jesus. I said, I know what I'm learning in class, I know what I'm reading from apologetics books, and it's helpful, but that moment Jesus spoke to me.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-02-25T03:35:56Z",
+     "role": "host",
+     "t": 1298.56,
+     "title": "An Encounter with Jesus & Embodied Hope | Apologetics for the Next Generation",
+     "video_id": "-R3_E2Enj3Q"
+    },
+    {
      "confidence": 0.7143,
      "context": "John 6, verses 66 through 68 says this. After this, many of his disciples drew back and no longer went about with him. Jesus said to the twelve, Will you also go away? Simon Peter answered him, Lord, to whom shall we go? You have the words of eternal life. If Jesus were only being symbolic about eating his flesh, then he could have corrected those disciples who left him, just as Jesus corrected the apostles in John chapter four, when he spoke about metaphorical food and told the disciples that he was symbolically referring to the works of his father.",
      "creator": "counsel-of-trent",
@@ -10824,9 +11039,10 @@
    ],
    "creators": {
     "counsel-of-trent": 4,
-    "cross-examined": 1
+    "cross-examined": 1,
+    "jude-3-project": 1
    },
-   "n": 5,
+   "n": 6,
    "text": {
     "KJV": "Then Simon Peter answered him, Lord, to whom shall we go? thou hast the words of eternal life.",
     "WEB": "Simon Peter answered him, “Lord, to whom would we go? You have the words of eternal life."
@@ -11350,6 +11566,18 @@
      "video_id": "51xmYrMq8Kk"
     },
     {
+     "confidence": 0.6667,
+     "context": "If I allegorize the text, well, I think God meant, don't think he meant, find out what he means. Well, I feel that don't feel, no. Jesus says you will know the truth, and the truth will set you free. The issue is that we have we have gotten um magical with the Bible. We become entertainers in the pulpit. Lord have mercy. And we're not really telling you what was happening in the time and taking what's it's called timeless truth.",
+     "creator": "jude-3-project",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-04-02T16:00:06Z",
+     "role": "host",
+     "t": 3937.4,
+     "title": "Why Does God Allow Suffering? | Courageous Conversations Pop Up LA",
+     "video_id": "6j2yIEDKVVg"
+    },
+    {
      "confidence": 0.8279,
      "context": "Or Galatians 6.1 that talks about restoring the person stuck or lost in sin. Or, and I'll read this one. 2 Timothy 2 25 through 26, correcting opponents with gentleness. God may perhaps grant that they will repent and come to know the truth, and that they may escape from the snare of the devil, having been held captive by him to do his will. I hear this about me all the time. I'm an instrument for the devil. I have given myself over because of sin. The devil has a foothold, a stronghold in my life.",
      "creator": "mindshift",
@@ -11412,10 +11640,11 @@
    ],
    "creators": {
     "cross-examined": 4,
+    "jude-3-project": 1,
     "mike-winger": 1,
     "mindshift": 1
    },
-   "n": 6,
+   "n": 7,
    "text": {
     "KJV": "And ye shall know the truth, and the truth shall make you free.",
     "WEB": "You will know the truth, and the truth will make you free.”"
@@ -11832,15 +12061,53 @@
      "t": 228.4,
      "title": "Facing the music, the public deconversion of Phanatik in his own words",
      "video_id": "4GwwAWiwvWg"
+    },
+    {
+     "confidence": 0.619,
+     "context": "You do not know where he comes from, and yet he opened my eyes. We know that God does not listen to sinners. But if anyone is a worshiper of God and does his will, God listens to him. Never since the world began has it been heard that anyone has opened the eyes of a man born blind.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-07-08T04:51:01Z",
+     "role": "unattributed",
+     "t": 530.56,
+     "title": "Defenders LIVE! // Doctrine of Creation pt 13: Miracles",
+     "video_id": "dLiUxaWip2U"
     }
    ],
    "creators": {
+    "reasonable-faith-org": 1,
     "shannon-q": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Now we know that God heareth not sinners: but if any man be a worshipper of God, and doeth his will, him he heareth.",
     "WEB": "We know that God doesn’t listen to sinners, but if anyone is a worshiper of God and does his will, he listens to him."
+   },
+   "truncated": false
+  },
+  "John 9:33": {
+   "citations": [
+    {
+     "confidence": 1.0,
+     "context": "But if anyone is a worshiper of God and does his will, God listens to him. Never since the world began has it been heard that anyone has opened the eyes of a man born blind. If this man were not from God, he could do nothing. John 9 30 to 33. Here I think you see a perfect illustration of how miracles serve to warrant the message and the proclamation of Jesus and his being a special revelation from God.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-07-08T04:51:01Z",
+     "role": "host",
+     "t": 548.84,
+     "title": "Defenders LIVE! // Doctrine of Creation pt 13: Miracles",
+     "video_id": "dLiUxaWip2U"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "If this man were not of God, he could do nothing.",
+    "WEB": "If this man were not from God, he could do nothing.”"
    },
    "truncated": false
   },

@@ -1,7 +1,7 @@
 {
   "meta": {
     "model": "openai:mlx-community/gpt-oss-20b-MXFP4-Q8:v2",
-    "generated_at": "2026-07-31T03:53:16Z",
+    "generated_at": "2026-07-31T14:25:02Z",
     "note": "machine-DISCOVERED framings \u2014 proposed, not pinned",
     "bar_specificity": "Composite false-positive rate 3.1%, MEASURED on 225 frequency-matched arbitrary words (2026-07-29). Admission is still NECESSARY, NOT SUFFICIENT evidence of contestation: the gate detects side-linked structure that survives a same-frequency topic floor, which is a much stronger filter than the single-leg bar it replaced \u2014 that one ran at 74.7% on the same words, cleared information-free profiles at 88%, and cleared all five discourse-marker controls (`whatever`, `literally`, `maybe`, `honestly`, `basically`), which the specificity leg rejects. See docs/research/2026-07-29-bar-specificity-*.md.",
     "bar_corpus": {
@@ -34,9 +34,9 @@
         "occurrence_floor": 5602,
         "creator_gated": 5568,
         "bar_cleared": 51,
-        "published": 28
+        "published": 29
       },
-      "published": 28,
+      "published": 29,
       "ranked_by": "keyness (log-likelihood vs an external reference corpus)",
       "rule": "DESIGN \u00a73's two-leg gate: the cross-side gap must exceed the spread among same-side creators (exact permutation of a PERMANOVA pseudo-F, each creator one point), AND the term's divergence must fall in the top 5% of a frozen pool of up to 40 words of the same occurrence mass (x/\u00f7sqrt(2)), chosen in hash order of the word. A band holding fewer than 40 eligible peers is reported short and marked `reduced_resolution`, never widened \u2014 widening it would answer a different question. Both legs at the same frozen vintage, or the term does not publish.",
       "false_positive_rate": {
@@ -53,19 +53,19 @@
   "concepts": [
     {
       "surface": "atheist",
-      "verdict": "mixed",
+      "verdict": "contested",
       "apologetics": {
-        "text": "Apologetics uses \"atheist\" to label people who lack belief in God, often with negative connotations such as \"infidels\" and \"internet infidels\", portraying them as rational but lacking faith.",
+        "text": "Apologetics uses \"atheist\" to label those who reject belief in God, often portraying them as misguided or lacking evidence.",
         "quotes": [
-          "...there for atheism most of these [atheists] are evidentialists who will tell you...",
-          "...to me some of these youtube [atheists] and internet infidels you know who..."
+          "...often quoted out of context by [atheists] let me read you the full...",
+          "...not here it wouldn't exist here's [atheist] michael shermer challenging chopra's metaphysics jesus..."
         ]
       },
       "deconstruction": {
-        "text": "Deconstruction uses \"atheist\" to describe people who are not religious, sometimes neutrally or positively, noting that atheists can be moral, humanist, and part of various groups.",
+        "text": "Deconstruction uses \"atheist\" to describe a demographic group, sometimes neutrally or as part of broader discussions about secularism.",
         "quotes": [
-          "...look at how one is an [atheist] and one is a christian in...",
-          "...for example is mostly just an [atheistic] humanistic organization that fights for church..."
+          "...pertinent books of the bible for [atheists] because it deals with a lot...",
+          "...look at how one is an [atheist] and one is a christian in..."
         ]
       },
       "apol": 1001,
@@ -101,15 +101,17 @@
       "surface": "god",
       "verdict": "contested",
       "apologetics": {
-        "text": "[A1] ...of all let's do the math [god] is eternal infinite meaning he never...",
+        "text": "Apologetics frames god as an eternal, personal creator and savior, emphasizing divine attributes and the necessity of belief for salvation.",
         "quotes": [
-          "...of all let's do the math [god] is eternal infinite meaning he never..."
+          "...a cause and the reason that [god] doesn't need to have a cause...",
+          "...i'll also simultaneously believe he was [god] and is my lord and savior..."
         ]
       },
       "deconstruction": {
-        "text": "[D4] ...at least hit that oh my [god] no of course like abstract sense...",
+        "text": "Deconstruction treats god as a contested, sometimes abstract or personal concept, often questioning its existence or critiquing its role in human experience.",
         "quotes": [
-          "...at least hit that oh my [god] no of course like abstract sense..."
+          "...both books boil down to fear [god] which i think is disgusting personally...",
+          "...you begin to ask where was [god] in this this isn't making sense..."
         ]
       },
       "apol": 19826,
@@ -143,17 +145,19 @@
     },
     {
       "surface": "ritual",
-      "verdict": "contested",
+      "verdict": "mixed",
       "apologetics": {
-        "text": "Apologetics frames \"ritual\" as a foundational religious law and practice that reinforces faith and community cohesion.",
+        "text": "Apologetics frames \"ritual\" as a religious or cultural practice that is often portrayed as morally or spiritually problematic, unclean, or meaningless.",
         "quotes": [
-          "...over and over again the these [ritual] laws in the old testament emphasize..."
+          "...when you perform a hindu religious [ritual] first corinthians says and it's it's...",
+          "...be you know uh uh fertility [ritual] or something like that so there's..."
         ]
       },
       "deconstruction": {
-        "text": "Deconstruction critiques \"ritual\" as often oppressive or meaningless, highlighting its potential for abuse and exclusion.",
+        "text": "Deconstruction describes \"ritual\" as a repeated practice that can be religious, cultural, or even sexual or violent, sometimes celebrated and sometimes criticized.",
         "quotes": [
-          "...as being a disgusting and meaningless [ritual] eventually the phrase came to mean..."
+          "...life i'm a big fan of [ritual] still but i would not say...",
+          "...and like they had like this [ritual] bathing yeah the amount of baths..."
         ]
       },
       "apol": 171,
@@ -187,19 +191,19 @@
     },
     {
       "surface": "shame",
-      "verdict": "convergent",
+      "verdict": "mixed",
       "apologetics": {
-        "text": "Uses shame as a moral condemnation or social shaming of others.",
+        "text": "Apologetics uses \u2018shame\u2019 as a moral judgment and a tool for condemning sin, often invoking divine or societal condemnation.",
         "quotes": [
           "...about i'm talking about the most [shameful] sins that you've done in your...",
-          "...billion percent play those clips and [shame] and embarrass him in front of..."
+          "...people who carried with them a [shameful] history of enslavement that no people..."
         ]
       },
       "deconstruction": {
-        "text": "Uses shame as a feeling of guilt or social shaming, often internal.",
+        "text": "Deconstruction frames \u2018shame\u2019 as a psychological or social pressure that can be internalized or used to critique power dynamics, often highlighting its harmful effects.",
         "quotes": [
           "...live authentically so i have no [shame] this is the ghettoest drink in...",
-          "...may have felt some too just [shame] that you weren't able to do..."
+          "...to the individual false hope confusion [shame] guilt fear these emotions are 100..."
         ]
       },
       "apol": 171,
@@ -233,19 +237,19 @@
     },
     {
       "surface": "affirming",
-      "verdict": "contested",
+      "verdict": "convergent",
       "apologetics": {
-        "text": "In apologetics, \"affirming\" is used to assert or support theological truths and doctrines.",
+        "text": "Apologetics uses \"affirm\" and its derivatives to assert or confirm religious truths, doctrines, and supportive practices, framing the term as a positive act of endorsement.",
         "quotes": [
           "...biblical doctrine of inspiration that can [affirm] that the scriptures are verbally plenary...",
-          "...what i thought so since you [affirm] both premises of the moral argument..."
+          "...in natural theology for the authors [affirm] and argue for an absolute beginning..."
         ]
       },
       "deconstruction": {
-        "text": "In deconstruction, \"affirming\" is used to support marginalized identities, gender, and life\u2011affirming values.",
+        "text": "Deconstruction employs \"affirm\" and its derivatives to support narratives, self\u2011affirmation, and progressive practices, treating the term as a neutral or positive act of endorsement.",
         "quotes": [
           "...is people centric progressive thinking life [affirming] and the thing is like uh...",
-          "...the first clinic that did gender [affirming] surgery started in germany in 1919..."
+          "...and and you know him him [affirming] at the end uh you know..."
         ]
       },
       "apol": 567,
@@ -279,17 +283,19 @@
     },
     {
       "surface": "sociological",
-      "verdict": "convergent",
+      "verdict": "contested",
       "apologetics": {
-        "text": "there's just a sociological explanation for why certain persons in...",
+        "text": "Apologetics employs \"sociological\" to refer to empirical studies, explanations, and perspectives that support or contextualize religious claims.",
         "quotes": [
-          "...i would say there's just a [sociological] explanation for why certain persons in..."
+          "...i've seen [sociological] surveys conducted among scientists comparing the...",
+          "...atheism among professional sciences that's just [sociologically] false but i can think of..."
         ]
       },
       "deconstruction": {
-        "text": "critiquing the church from a purely sociological perspective how is it any different...",
+        "text": "Deconstruction uses \"sociological\" to frame religion as a sociological phenomenon, emphasizing sociological factors and critiques.",
         "quotes": [
-          "...critiquing the church from a purely [sociological] perspective how is it any different..."
+          "...what do you think about the [sociological] phenomenon of religion in general in...",
+          "...emphasizes the role of psychological and [sociological] factors in shaping religious experiences offering..."
         ]
       },
       "apol": 34,
@@ -325,15 +331,17 @@
       "surface": "myth",
       "verdict": "contested",
       "apologetics": {
-        "text": "bible is just a bunch of [myths]",
+        "text": "Apologetics uses \"myth\" to label certain narratives as false or misleading, while also acknowledging that such stories can carry symbolic meaning.",
         "quotes": [
-          "...bible is just a bunch of [myths] remind them of this okay archaeology..."
+          "...bible is just a bunch of [myths] remind them of this okay archaeology...",
+          "...poverty that's a misleading that's a [myth] uh you have to you have..."
         ]
       },
       "deconstruction": {
-        "text": "early societies developed they created typical [myths] attributing each one to a specific...",
+        "text": "Deconstruction uses \"myth\" to describe cultural narratives that shape societies, often as metaphor or allegory, and to analyze their functions and origins.",
         "quotes": [
-          "...early societies developed they created typical [myths] attributing each one to a specific..."
+          "...even more than just an exaggerated [myth] it's it's it's it's just likely...",
+          "...later works because later in the [myth] of sisphus you know camus very..."
         ]
       },
       "apol": 178,
@@ -369,17 +377,17 @@
       "surface": "man",
       "verdict": "convergent",
       "apologetics": {
-        "text": "In apologetics, 'man' is used to refer to a human being, often in a neutral or descriptive sense.",
+        "text": "Apologetics uses 'man' as a generic reference to a person, sometimes with religious or moral connotations, but generally as a neutral or positive figure.",
         "quotes": [
-          "...takes to convince even an unreasonable [man] with the proof now in place...",
-          "...the anointed of god he's a [man] after god's own heart and you're..."
+          "...the anointed of god he's a [man] after god's own heart and you're...",
+          "...takes to convince even an unreasonable [man] with the proof now in place..."
         ]
       },
       "deconstruction": {
-        "text": "In deconstruction, 'man' is also used to refer to a human being, often in a descriptive or critical context.",
+        "text": "Deconstruction uses 'man' as a generic person, often in critical or rhetorical contexts, including negative stereotypes, identity markers, and logical fallacies.",
         "quotes": [
           "...just plays the i'm a holy [man] card to manipulate her into being...",
-          "...that god is this white bearded [man] that watches you when you're sleeping..."
+          "...ago is worse than a straw [man] it's just conflating two things that..."
         ]
       },
       "apol": 2942,
@@ -415,14 +423,14 @@
       "surface": "selves",
       "verdict": "contested",
       "apologetics": {
-        "text": "Apologetics frames \"selves\" as metaphysical persons or souls, emphasizing an immaterial, divine\u2011origin identity.",
+        "text": "Apologetics frames \"selves\" as the immaterial, soul-like essence of a person that is distinct from the body and is the object of divine concern and moral responsibility.",
         "quotes": [
-          "...understand human personhood we are immaterial [selves] or souls just as god is...",
-          "...exist he says there are no [selves] there are no persons no first..."
+          "...to please and gratify our own [selves] rather than the god who created...",
+          "...understand human personhood we are immaterial [selves] or souls just as god is..."
         ]
       },
       "deconstruction": {
-        "text": "Deconstruction frames \"selves\" as psychological states or evolving identities, focusing on integration of past and true selves.",
+        "text": "Deconstruction treats \"selves\" as evolving psychological states or identities that can be previous, true, or integrated, emphasizing personal growth and authenticity.",
         "quotes": [
           "...by helping people be their best [selves] and run their best race as...",
           "...more than extensions of our own [selves] we see them as a chance..."
@@ -461,15 +469,17 @@
       "surface": "identity",
       "verdict": "contested",
       "apologetics": {
-        "text": "body and my sexuality and my identity all things were made through him",
+        "text": "Apologetics frames identity as a theological and personal concept tied to divine nature, emphasizing how individuals are made, defined, and affirmed through God and Jesus.",
         "quotes": [
-          "...body and my sexuality and my [identity] all things were made through him..."
+          "...things to lift up his own [identity] as being the thing people should...",
+          "...focus on jesus of nazareth his [identity] and his claims don't criticize muhammad..."
         ]
       },
       "deconstruction": {
-        "text": "without undermining the whole basis and identity of their religion",
+        "text": "Deconstruction discusses identity as a social, cultural, and self-concept that is constructed, contested, and sometimes suppressed, focusing on how group belonging and personal self-worth shape experience.",
         "quotes": [
-          "...without undermining the whole basis and [identity] of their religion but honestly i..."
+          "...in was 100 dismissive of black [identity] you know and i was one...",
+          "...culture is what defines the community's [identity] point being what makes the hood..."
         ]
       },
       "apol": 496,
@@ -505,14 +515,14 @@
       "surface": "belonging",
       "verdict": "contested",
       "apologetics": {
-        "text": "In apologetics, 'belonging' is used to denote objective membership or classification, such as belonging to a literary genre, a species, or a church.",
+        "text": "Apologetics frames belonging as a factual, often theological or legal relationship that assigns individuals or objects to a specific entity or group, such as a person, institution, or divine being.",
         "quotes": [
           "...to say that these people actually [belong] to a gender that does not...",
-          "...how do we know which books [belong] in the new testament answer number..."
+          "...is a means of grace which [belongs] to the church by contrast an..."
         ]
       },
       "deconstruction": {
-        "text": "In deconstruction, 'belonging' refers to a subjective sense of identity, community, or emotional attachment.",
+        "text": "Deconstruction uses belonging to describe a sense of identity, inclusion or exclusion within social or cultural groups, often highlighting feelings of belonging or lack thereof.",
         "quotes": [
           "...sense of self my identity my [belonging] i certainly was losing my community...",
           "...that every person just because they [belong] to a community or group of..."
@@ -551,17 +561,17 @@
       "surface": "freedom",
       "verdict": "contested",
       "apologetics": {
-        "text": "Apologetics frames freedom as a positive, divinely granted right encompassing free will, civil liberties, and personal liberty.",
+        "text": "Apologetics frames freedom as a divinely granted, moral, and theological concept, emphasizing its role in religious liberty, free will, and the nature of God.",
         "quotes": [
           "...capitalist free market system here with [freedom] freedoms of the press and freedoms...",
-          "...the first amendment's broad protections of [freedom] of speech and freedom of religion..."
+          "...can do anything god has absolute [freedom] ..."
         ]
       },
       "deconstruction": {
-        "text": "Deconstruction frames freedom as a contested concept, critiquing its misuse, highlighting contradictions, and questioning its moral and social implications.",
+        "text": "Deconstruction uses freedom primarily as personal and social autonomy, highlighting its role in individual choice, political and sexual liberation, and the potential for division or oppression.",
         "quotes": [
           "...and the moment they have their [freedom] they begin dividing against each other...",
-          "...you know under the guise of [freedom] of speech and freedom of religion..."
+          "...ethics for sure it's about inner [freedom] and i just think that it's..."
         ]
       },
       "apol": 723,
@@ -597,17 +607,17 @@
       "surface": "channel",
       "verdict": "convergent",
       "apologetics": {
-        "text": "They use \"channel\" to refer to a YouTube channel or platform for sharing content and spiritual messages.",
+        "text": "Apologetics speakers use \"channel\" primarily to refer to a platform\u2014especially a YouTube channel\u2014through which they disseminate theological content or spiritual teachings.",
         "quotes": [
           "...is on my on my youtube [channel] of uh what i talk about...",
           "...to heaven and hell makes youtube [channels] and videos and put stuff out..."
         ]
       },
       "deconstruction": {
-        "text": "They use \"channel\" to refer to a YouTube channel or platform for sharing content and personal reflections.",
+        "text": "Deconstruction participants also use \"channel\" mainly to denote a YouTube channel or similar online platform for sharing content.",
         "quotes": [
-          "...and as i build this youtube [channel] of free content check out my...",
-          "...right there is a reason these [channels] are always very young couples who..."
+          "...on the british accent on the [channel] i feel like you know that...",
+          "...and as i build this youtube [channel] of free content check out my..."
         ]
       },
       "apol": 352,
@@ -643,17 +653,17 @@
       "surface": "keep",
       "verdict": "convergent",
       "apologetics": {
-        "text": "Apologetics uses \"keep\" to mean maintain or continue actions or thoughts, such as keeping in mind, keeping going, or keeping listening.",
+        "text": "In apologetics, 'keep' is used to underscore ongoing commitment or continuity\u2014whether maintaining faith, continuing to produce content, or preserving promises.",
         "quotes": [
-          "...roman empire and that we should [keep] in mind...",
+          "...of science for supposedly failing to [keep] up their pronouncement is not merely...",
           "...place oh lord please continue to [keep] your promise to david my father..."
         ]
       },
       "deconstruction": {
-        "text": "Deconstruction also uses \"keep\" to mean maintain or continue, e.g., keeping learning, keeping watching, keeping going, or keeping the fun parts.",
+        "text": "In deconstruction, 'keep' similarly signals ongoing action or maintenance\u2014such as continuing to learn, watch, or sustain moral systems.",
         "quotes": [
-          "...the bulldozer of skepticism that just [keeps] going until there's nothing left it...",
-          "...that into account what evidence he [keeps] saying no matter what the evidence..."
+          "...we must then in order to [keep] our moral system afloat believe in...",
+          "...the bulldozer of skepticism that just [keeps] going until there's nothing left it..."
         ]
       },
       "apol": 1230,
@@ -687,17 +697,19 @@
     },
     {
       "surface": "conducive",
-      "verdict": "convergent",
+      "verdict": "mixed",
       "apologetics": {
-        "text": "be false but nevertheless to be [conducive] to the survival of our species",
+        "text": "Apologetics uses \"conducive\" to describe conditions that favor human survival, public debate, and the flourishing of life.",
         "quotes": [
-          "...be false but nevertheless to be [conducive] to the survival of our species..."
+          "...propensity for selfish behavior because it's [conducive] to survival um you need to...",
+          "...of predisposition to selfishness because it's [conducive] to survival and the struggle uh..."
         ]
       },
       "deconstruction": {
-        "text": "however in creating environments which are [conducive] for personal experiences with god think",
+        "text": "Deconstruction uses \"conducive\" to describe environments that support personal spiritual experiences, psychosocial research, and communication, sometimes positively and sometimes negatively.",
         "quotes": [
-          "...however in creating environments which are [conducive] for personal experiences with god think..."
+          "...and experiments experiences that are highly [conducive] for psychosocial research and development and...",
+          "...it it's not gonna it's not [conducive] to a productive conversation it it..."
         ]
       },
       "apol": 16,
@@ -731,17 +743,19 @@
     },
     {
       "surface": "passion",
-      "verdict": "convergent",
+      "verdict": "contested",
       "apologetics": {
-        "text": "...the [passion] of the lord and of his...",
+        "text": "In apologetics, \"passion\" is used both to refer to the Passion of Christ and to describe personal enthusiasm for faith or causes.",
         "quotes": [
-          "...is the day of his the [passion] of the lord and of his..."
+          "...used a so called pre markan [passion] story in writing his account of...",
+          "...the events and timing of jesus' [passion] the gospel of john seems to..."
         ]
       },
       "deconstruction": {
-        "text": "...abstain from the [passions] of the flesh...",
+        "text": "In deconstruction, \"passion\" is used to describe personal enthusiasm or fervor, often with a critical or self\u2011reflective tone.",
         "quotes": [
-          "...peter 2 11 abstain from the [passions] of the flesh which wage war..."
+          "...certain individual who'll maybe get too [passionate] and trash something and okay that's...",
+          "...it and then i become more [passionate] with it and then i see..."
         ]
       },
       "apol": 248,
@@ -777,15 +791,17 @@
       "surface": "thank",
       "verdict": "convergent",
       "apologetics": {
-        "text": "Expresses gratitude toward viewers or God.",
+        "text": "Apologetics speakers use \"thank\" as a polite expression of gratitude toward God, viewers, or others, often in a devotional or appreciative context.",
         "quotes": [
-          "...can look after our own morality [thank] you very much and there is..."
+          "... [thank] you very much thank you it's...",
+          "...have a very blessed day hey [thanks] for watching this video if you..."
         ]
       },
       "deconstruction": {
-        "text": "Expresses gratitude toward viewers or God.",
+        "text": "Deconstruction creators also use \"thank\" as a courteous expression of thanks to viewers, collaborators, or others, in a conversational or informal tone.",
         "quotes": [
-          "...are youtube youtube members as well [thank] you that's incredible uh but i'll..."
+          "...doing oh i'm doing well thanks [thank] you for having me on i've...",
+          "...to let katie go to sleep [thank] you very much maybe maybe even..."
         ]
       },
       "apol": 1550,
@@ -821,15 +837,17 @@
       "surface": "torture",
       "verdict": "convergent",
       "apologetics": {
-        "text": "to rape and torture a little girl to death",
+        "text": "The term is used to describe physical or spiritual suffering, often in historical or biblical contexts, framing it as a form of punishment or trial.",
         "quotes": [
-          "...think then that to rape and [torture] a little girl to death is..."
+          "...or maybe he would have been [tortured] on a medieval torture rack and...",
+          "...ways of being of dehumanizing beating [torturing] assaulting and murdering people so the..."
         ]
       },
       "deconstruction": {
-        "text": "fine with tying him down and torturing him to death",
+        "text": "The term is employed to depict violent punishment or eternal suffering, emphasizing the threat of ongoing torment.",
         "quotes": [
-          "...fine with tying him down and [torturing] him to death if that's how..."
+          "...burn there for eternity and be [tortured] for eternity for simply not believing...",
+          "...the belief that there might be [torture] or there might be a reward..."
         ]
       },
       "apol": 118,
@@ -865,15 +883,17 @@
       "surface": "rising",
       "verdict": "contested",
       "apologetics": {
-        "text": "rise from the dead",
+        "text": "The term is employed to refer to religious phenomena such as resurrection or the emergence of theological movements, often carrying a prophetic or positive connotation.",
         "quotes": [
-          "...is naturally impossible for lazarus to [rise] from the dead um or for..."
+          "...is naturally impossible for lazarus to [rise] from the dead um or for...",
+          "...vacuum this seemingly bizarre speculation gave [rise] to a new generation of cosmogonic..."
         ]
       },
       "deconstruction": {
-        "text": "rise of atheism",
+        "text": "The term is used to describe sociopolitical trends or movements, frequently with a critical or negative tone.",
         "quotes": [
-          "...when you think about it the [rise] of atheism doesn't seem all that..."
+          "...even they should not want a [rise] in christian nationalism or an erosion...",
+          "...predict that we would have a [rise] in nihilism with the death of..."
         ]
       },
       "apol": 324,
@@ -909,15 +929,17 @@
       "surface": "until",
       "verdict": "convergent",
       "apologetics": {
-        "text": "...of children through forced intercourse right [until] the earth is flung through the...",
+        "text": "In apologetics, \"until\" is used to indicate a future point of change or realization, often in theological or historical contexts.",
         "quotes": [
-          "...of children through forced intercourse right [until] the earth is flung through the..."
+          "...came to tears over this issue [until] he discovered molinism and both of...",
+          "...in your life might not emerge [until] centuries later maybe in another country..."
         ]
       },
       "deconstruction": {
-        "text": "...you wouldn't just sit around waiting [until] you die too or even just...",
+        "text": "In deconstruction, \"until\" similarly marks a temporal threshold or condition, framing personal or social moments of transition.",
         "quotes": [
-          "...you wouldn't just sit around waiting [until] you die too or even just..."
+          "...life and i want enough life [until] i have a a chunk of...",
+          "...of skepticism that just keeps going [until] there's nothing left it rarely comes..."
         ]
       },
       "apol": 803,
@@ -951,19 +973,19 @@
     },
     {
       "surface": "community",
-      "verdict": "contested",
+      "verdict": "convergent",
       "apologetics": {
-        "text": "In apologetics, \u2018community\u2019 denotes a faith\u2011based group of believers, often portrayed positively as a supportive, shared religious community.",
+        "text": "Apologetics speakers refer to \"community\" as a group of people\u2014often believers or those sharing a faith\u2014within which they emphasize relational bonds, mutual support, and collective identity.",
         "quotes": [
           "...good i'm just talking about the [community] this even this community out here...",
           "...in the culture and in our [communities] churches needed it people needed it..."
         ]
       },
       "deconstruction": {
-        "text": "In deconstruction, \u2018community\u2019 refers to social or identity groups, sometimes critiqued for exclusion or power dynamics, with a more neutral or critical framing.",
+        "text": "Deconstruction writers also use \"community\" to denote a collective of individuals sharing a common identity or belief, but they often frame it in terms of critique, social dynamics, or cultural critique.",
         "quotes": [
-          "...helpful story that keeps us in [communities] and working on hierarchies and having...",
-          "...local church you know your small [community] and that's trying to come together..."
+          "...with perhaps different sectors of religious [communities] you've been immeshed in or have...",
+          "...helpful story that keeps us in [communities] and working on hierarchies and having..."
         ]
       },
       "apol": 914,
@@ -999,17 +1021,17 @@
       "surface": "episode",
       "verdict": "convergent",
       "apologetics": {
-        "text": "In apologetics, \"episode\" is used to refer to a segment of a podcast, TV show, or personal narrative.",
+        "text": "In apologetics, \"episode\" is used to denote a particular segment of a show, podcast, or narrative event, often as a reference point for discussion or illustration.",
         "quotes": [
           "...when i went through that disastrous [episode] of failing my exams at the...",
           "...fair amount of immodesty in this [episode] on the part of the dress..."
         ]
       },
       "deconstruction": {
-        "text": "In deconstruction, \"episode\" similarly denotes a segment of a show, podcast, or personal experience.",
+        "text": "In deconstruction, \"episode\" similarly refers to a specific installment of a show, podcast, or series, used as a concrete example or point of reference.",
         "quotes": [
           "...down bruh i was watching an [episode] of blackish and and and and...",
-          "...he's been on uh a few [episodes] now yeah so hopefully it keeps..."
+          "...i thought well there's 66 more [episodes] at least and then i started..."
         ]
       },
       "apol": 353,
@@ -1043,17 +1065,19 @@
     },
     {
       "surface": "create",
-      "verdict": "mixed",
+      "verdict": "contested",
       "apologetics": {
-        "text": "Apologetics uses \"create\" primarily to describe God\u2019s divine act of bringing the universe and humanity into existence, often with a positive or neutral connotation.",
+        "text": "In apologetics, 'create' is used to describe the divine act of God bringing the universe, beings, and reality into existence, emphasizing a purposeful, supernatural origin.",
         "quotes": [
-          "...we are chosen because when god [creates] the universe he chooses the outcome..."
+          "...we are chosen because when god [creates] the universe he chooses the outcome...",
+          "...follows that a well constructed model [creates] a reality of its own end..."
         ]
       },
       "deconstruction": {
-        "text": "Deconstruction uses \"create\" to describe human actions that generate expectations, identity, and social structures, often highlighting the constructed nature of these phenomena.",
+        "text": "In deconstruction, 'create' is employed in everyday contexts to denote human agency in forming social groups, spaces, expectations, and identity structures, often with a neutral or critical tone.",
         "quotes": [
-          "...gonna so those conversations start to [create] expectations within the individual right so..."
+          "...and revisited a list of rules [created] to make sure that my baby...",
+          "...feel safe and want you to [create] a welcoming space which is you..."
         ]
       },
       "apol": 2126,
@@ -1089,14 +1113,16 @@
       "surface": "overt",
       "verdict": "convergent",
       "apologetics": {
-        "text": "In apologetics, \"overt\" is used to describe explicit, obvious statements or actions, such as \"very overt statements about biblical Hebrew\".",
+        "text": "Apologetics uses 'overt' to denote explicit or obvious statements, indications, or characteristics, often in relation to biblical or divine subjects.",
         "quotes": [
-          "...you've made a number of very [overt] statements about biblical hebrew biblical greek..."
+          "...another question why isn't god more [overt] and there are several ways of...",
+          "...place from something where there are [overt] indications that it was demonic and..."
         ]
       },
       "deconstruction": {
-        "text": "In deconstruction, \"overt\" similarly denotes explicit, obvious forms of bigotry or persecution, e.g., \"overt bigotry\".",
+        "text": "Deconstruction uses 'overt' to describe explicit or obvious manifestations of bigotry, persecution, or oppressive actions.",
         "quotes": [
+          "...from keeping churches from becoming just [overt] campaign platforms we no longer have...",
           "...act in condemnation and in direct [overt] bigotry but you have this list..."
         ]
       },
@@ -1133,15 +1159,17 @@
       "surface": "homicide",
       "verdict": "contested",
       "apologetics": {
-        "text": "it must punish a woman for homicide like any other homicide i believe...",
+        "text": "Apologetics uses homicide as a legal and moral crime, especially in the context of abortion and unborn life, arguing that such acts should be punished or equated with murder.",
         "quotes": [
-          "...it must punish a woman for [homicide] like any other homicide i believe..."
+          "...many cases he's a cold case [homicide] detective i had him on the...",
+          "...lifers can consistently view abortion as [homicide] without demanding that laws punish women..."
         ]
       },
       "deconstruction": {
-        "text": "so on had tallied so many homicides that it doesn't matter anymore who...",
+        "text": "Deconstruction employs homicide as a statistical or descriptive term, discussing rates, gender disparities, and the state of mind of individuals in broader social or epidemiological contexts.",
         "quotes": [
-          "...so on had tallied so many [homicides] that it doesn't matter anymore who..."
+          "...gun related self unalivings actually outpace [homicides] but we're not gonna get into...",
+          "...2021 philadelphia broke its all time [homicide] record with 562 for the year..."
         ]
       },
       "apol": 48,
@@ -1174,18 +1202,66 @@
       }
     },
     {
-      "surface": "space",
+      "surface": "fine",
       "verdict": "convergent",
       "apologetics": {
-        "text": "container of absolute space",
+        "text": "The term 'fine' is used as a neutral or positive descriptor indicating acceptability, adequacy, or precision, often in evaluative or reassuring contexts.",
         "quotes": [
-          "...except for the container of absolute [space] and the flow of absolute time..."
+          "...that and kenny who is a [fine] historian of philosophy explained to planiga...",
+          "...a boundary point of space time [fine] we can still say that god's..."
         ]
       },
       "deconstruction": {
-        "text": "safe space",
+        "text": "The term 'fine' is similarly employed as a neutral or positive descriptor indicating acceptability, adequacy, or precision, often in evaluative or reassuring contexts.",
         "quotes": [
-          "...be serious while still creating safe [space] for those who are still just..."
+          "...and then you think oh that's [fine] but that's not the isort gap...",
+          "...can happen when you're just doing [fine] in life and all of a..."
+        ]
+      },
+      "apol": 725,
+      "decon": 1237,
+      "keyness": 1.5937908846583018,
+      "bar": {
+        "status": "ok",
+        "passes": true,
+        "failed": [],
+        "validity_p": 0.025297028393003625,
+        "percentile": 0.0,
+        "pool_n": 40,
+        "reduced_resolution": false,
+        "statistic": "permanova_pseudo_f + band_percentile",
+        "thresholds": {
+          "validity": 0.05,
+          "specificity": 0.05
+        },
+        "reason": null,
+        "observed": 0.277166945209099,
+        "diagnostic": {
+          "perm_p": 0.018681696700272553,
+          "perm_q": 0.0935925396264886,
+          "assignments": 75582,
+          "is_the_gate": false,
+          "null": "no side-linked structure in the POOLED cross-side collocate divergence \u2014 a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+          "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+          "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+        }
+      }
+    },
+    {
+      "surface": "space",
+      "verdict": "mixed",
+      "apologetics": {
+        "text": "Apologetics uses \"space\" primarily as a physical or metaphysical dimension, personal boundary, or public arena for advocacy, framing it as a concrete or cosmological context.",
+        "quotes": [
+          "...can behave like another dimension of [space] means one can get rid of...",
+          "...as christians being advocates in public [spaces] on things like abortion trans issues..."
+        ]
+      },
+      "deconstruction": {
+        "text": "Deconstruction employs \"space\" as a social or psychological construct\u2014often a safe or inclusive environment\u2014emphasizing relational boundaries and communal belonging, while also referencing physical or metaphysical contexts.",
+        "quotes": [
+          "...that people usually come to the [space] of being nihilistic not just as...",
+          "...the power outside of time and [space] all the things you need for..."
         ]
       },
       "apol": 679,
@@ -1219,19 +1295,19 @@
     },
     {
       "surface": "connection",
-      "verdict": "mixed",
+      "verdict": "contested",
       "apologetics": {
-        "text": "They use \"connection\" to describe causal or theological links between doctrines or events.",
+        "text": "In apologetics, 'connection' is used to describe a spiritual or divine bond, often intimate and positive, linking believers to God, the Father, or sacred texts.",
         "quotes": [
           "...his divine identity and radical radical [connection] to the father since both are...",
           "...the book a kind of apostolic [connection] which was a pretty big deal..."
         ]
       },
       "deconstruction": {
-        "text": "They use \"connection\" to describe emotional, social, or personal links between people or ideas.",
+        "text": "In deconstruction, 'connection' refers to emotional, social, or political ties, sometimes critical or ambivalent, linking individuals to others, communities, or historical contexts.",
         "quotes": [
           "...met somebody and there was a [connection] and they weren't the bigoted type...",
-          "...is happening because the feeling of [connection] to everything around you is just..."
+          "...be moments of human to human [connection] underneath belief and underneath politics and..."
         ]
       },
       "apol": 581,
@@ -1267,14 +1343,16 @@
       "surface": "enjoy",
       "verdict": "convergent",
       "apologetics": {
-        "text": "hope that you've enjoyed it as much as i have",
+        "text": "Apologetics uses \"enjoy\" mainly to express positive pleasure or approval, often in relation to spiritual or personal experiences, but occasionally to highlight a lack or absence of pleasure.",
         "quotes": [
-          "...evening and i hope that you've [enjoyed] it as much as i have..."
+          "...wife jan and i have so [enjoyed] being in this city and at...",
+          "...link below otherwise i think you'll [enjoy] a lot of these highlights i..."
         ]
       },
       "deconstruction": {
-        "text": "you can enjoy life and create meaning",
+        "text": "Deconstruction uses \"enjoy\" to convey positive pleasure or satisfaction in everyday activities and personal experiences, with no negative framing.",
         "quotes": [
+          "...it's a nice problem i i [enjoy] chewing of it it's what it's...",
           "...meaning and that's great we can [enjoy] life and create meaning and pessimistic..."
         ]
       },

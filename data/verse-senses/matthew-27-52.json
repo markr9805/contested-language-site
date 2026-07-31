@@ -67,7 +67,7 @@
     "cite_key": "425fabb24d47bf19f17372904ef3868d8af551f796f2d9fe0484b7a63695a4f1",
     "context": "Let's talk about the silence around the supernatural. The Gospels don't just claim Jesus rose from the dead. They claim the earth shook, the sky went dark, and the tombs opened with dead saints walking through Jerusalem for everyone to see. Matthew chapter 27, verse 52 through 53 reads, The tombs were open and many bodies of the saints who had fallen asleep were raised. And coming out of the tombs after his resurrection, they went into the holy city and appeared to many. That's not a private vision.",
     "creator": "darante-lamar",
-    "dist": 0.0583,
+    "dist": 0.1252,
     "published_at": "2025-05-19T17:56:22Z",
     "role": "host",
     "t": 146.76,
@@ -79,7 +79,7 @@
     "cite_key": "62f2f21ed159268ff4f42994896ad5d66789f27cc29b47e898b48b72e0194979",
     "context": "Let's talk about the silence around the supernatural. The Gospels don't just claim Jesus rose from the dead. They claim the earth shook, the sky went dark, and the tombs opened with dead saints walking through Jerusalem for everyone to see. Matthew chapter 27, verse 52 through 53 reads, The tombs were open, and many bodies of the saints who had fallen asleep were raised. And coming out of the tombs after his resurrection, they went into the holy city and appeared to many. That's not a private vision.",
     "creator": "darante-lamar",
-    "dist": 0.0621,
+    "dist": 0.1281,
     "published_at": "2025-05-21T13:12:32Z",
     "role": "host",
     "t": 13.2,
@@ -91,7 +91,7 @@
     "cite_key": "88da297e4db43f9b16528252d7903b1592d9fd32520f7cb1936575f90134d8d3",
     "context": "Let's talk about the silence around the supernatural. The Gospels don't just claim Jesus rose from the dead, they claim the earth shook, the sky went dark, and the tombs opened with dead saints walking through Jerusalem for everyone to see. Matthew chapter 27, verse 52 through 53 reads, The tombs were open and many bodies of the saints who had fallen asleep were raised. And coming out of the tombs after his resurrection, they went into the holy city and appeared to many. That's not a private vision, that's not an inner conviction, that's a mass resurrection in a major capital during Passover in front of thousands.",
     "creator": "darante-lamar",
-    "dist": 0.1154,
+    "dist": 0.1474,
     "published_at": "2026-05-14T17:06:22Z",
     "role": "host",
     "t": 146.76,
@@ -103,13 +103,25 @@
     "cite_key": "b31cacb0284a8d9727b26cbb69f9e4137995e949aff8144f897106e1dbee2601",
     "context": "Let's talk about the silence around the supernatural. The Gospels don't just claim Jesus rose from the dead, they claim the earth shook, the sky went dark, and the tombs opened with dead saints walking through Jerusalem for everyone to see. Matthew chapter 27, verse 52 through 53 reads, The tombs were open and many bodies of the saints who had fallen asleep were raised. And coming out of the tombs after his resurrection, they went into the holy city and appeared to many. That's not a private vision, and yet not one Roman historian mentions it.",
     "creator": "darante-lamar",
-    "dist": 0.1187,
+    "dist": 0.1609,
     "published_at": "2026-05-15T14:35:32Z",
     "role": "host",
     "t": 73.76,
     "title": "Jesus' Resurrection: The Historical Silence Explained #shorts",
     "verse_ref": "Matthew 27:52",
     "video_id": "_Hle4lxIHQg"
+   },
+   {
+    "cite_key": "892e3fc4a23896881aeb5652d2dfdb13e7453576cbad0637917b3b5517e5268f",
+    "context": "So such coherence as there is gives little evidential force. Moreover, they signally fail to cohere, especially in the passion narratives, with non-gospel literature. So here we have from Matthew's Gospel the claim about the veil of the temple being rent, an earthquake, darkness over all the earth for three hours, and bodies of the saints being revived and going and walking around Jerusalem.",
+    "creator": "drcraigvideos",
+    "dist": 0.4245,
+    "published_at": "2011-12-19T06:07:12Z",
+    "role": "host",
+    "t": 5569.92,
+    "title": "Debate - Does God Exist? William Lane Craig vs Peter Millican (Birmingham University, October 2011)",
+    "verse_ref": "Matthew 27:52",
+    "video_id": "9JVRy7bR7zI"
    }
   ]
  },
@@ -131,6 +143,14 @@
      ],
      "n": 7,
      "status": "insufficient-data"
+    },
+    "drcraigvideos": {
+     "counts": [
+      0,
+      1
+     ],
+     "n": 1,
+     "status": "insufficient-data"
     }
    },
    "divergences": {}
@@ -140,13 +160,13 @@
     "overall": {
      "counts": [
       7,
-      4
+      5
      ],
      "dist": [
-      0.6364,
-      0.3636
+      0.5833,
+      0.4167
      ],
-     "n": 11,
+     "n": 12,
      "status": "ok"
     }
    },
@@ -157,9 +177,9 @@
     "host": {
      "counts": [
       4,
-      4
+      5
      ],
-     "n": 8,
+     "n": 9,
      "status": "insufficient-data"
     },
     "unknown": {
@@ -175,6 +195,14 @@
   },
   "year": {
    "cells": {
+    "2011": {
+     "counts": [
+      0,
+      1
+     ],
+     "n": 1,
+     "status": "insufficient-data"
+    },
     "2025": {
      "counts": [
       4,
@@ -196,8 +224,8 @@
   }
  },
  "k": 2,
- "n": 11,
- "silhouette": 0.2809,
+ "n": 12,
+ "silhouette": 0.2278,
  "status": "ok",
  "verse_ref": "Matthew 27:52"
 }

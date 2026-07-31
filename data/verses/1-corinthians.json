@@ -335,6 +335,31 @@
    },
    "truncated": false
   },
+  "1 Corinthians 10:23": {
+   "citations": [
+    {
+     "confidence": 0.8375,
+     "context": "The same is true in 1 Corinthians chapter 6, verses 12 to 20 and verse 32. 1 Corinthians 6, 12 to 20 and verse 32. Paul says, All things are lawful for me, but not all things are helpful. All things are lawful for me, but I will not be enslaved by anything. Food is meant for the stomach and the stomach for food.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-07-07T04:39:07Z",
+     "role": "host",
+     "t": 1093.76,
+     "title": "Doctrine of Man Part 6: What Does The Bible Say About Human Nature? || Defenders LIVE!",
+     "video_id": "9v9Vlvx9d-0"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "All things are lawful for me, but all things are not expedient: all things are lawful for me, but all things edify not.",
+    "WEB": "“All things are lawful for me,” but not all things are profitable. “All things are lawful for me,” but not all things build up."
+   },
+   "truncated": false
+  },
   "1 Corinthians 10:26": {
    "citations": [
     {
@@ -857,12 +882,25 @@
      "t": 4262.8,
      "title": "Chatting with a Protestant Pastor about Catholicism",
      "video_id": "4lK9nDfOx64"
+    },
+    {
+     "confidence": 0.8169,
+     "context": "It doesn't pretend to, it can't. It shows multiple conflicting ideas, even before you get to the later church traditions. You have Paul's version, read 1 Corinthians 11 for yourself. Notice what he focuses on: sin, judgment, proper behavior, not mysticism, eating it wrong makes you guilty of the body and blood of Christ. He even claims some Christians have died because they did it wrong. He ties it to social class tensions, rebuking people for not sharing food.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-12-02T15:00:27Z",
+     "role": "host",
+     "t": 638.44,
+     "title": "Why Gen Z Is Suddenly Obsessed With Communion",
+     "video_id": "9ePdKtcYHJ8"
     }
    ],
    "creators": {
-    "counsel-of-trent": 1
+    "counsel-of-trent": 1,
+    "mindshift": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Wherefore whosoever shall eat this bread, and drink this cup of the Lord, unworthily, shall be guilty of the body and blood of the Lord.",
     "WEB": "Therefore whoever eats this bread or drinks the Lord’s cup in a way unworthy of the Lord will be guilty of the body and the blood of the Lord."
@@ -1056,6 +1094,18 @@
   "1 Corinthians 12:1": {
    "citations": [
     {
+     "confidence": 0.7783,
+     "context": "Now, in this case, he's talking about the election of the nation of Israel, not election of people to salvation, because it couldn't be election to salvation. If it was, they wouldn't be enemies of God. They wouldn't be enemies of the gospel, right? So And just a couple verses before that, yeah, it says, I don't want you to be ignorant of the mystery concerning Israel. So there's a mystery, and a biblical mystery is not something that can't be known. It's something that has been revealed. It was a mystery at one point, but that mystery has now been revealed.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-07T15:00:17Z",
+     "role": "host",
+     "t": 45.68,
+     "title": "ROMANS 9-11: Israel & The Church",
+     "video_id": "9fUY1Eo98XI"
+    },
+    {
      "confidence": null,
      "context": "Or maybe they never happened, right? There are a lot of folks who wrestle with that. And I would argue that everything that we read about in the Bible is a part of this broader understanding that everything is spiritual. I think about what Paul says in 1 Corinthians chapter 12, verse 1, even though he opens up with in many of our translations now concerning spiritual gifts, I don't want you to be ignorant. Some scholars have said it's not just about the gifts that he's writing about, but this broader spiritual reality, because the Corinthians are dealing with a whole bunch of other spiritual options in their city, right?",
      "creator": "jude-3-project",
@@ -1069,9 +1119,10 @@
     }
    ],
    "creators": {
+    "cross-examined": 1,
     "jude-3-project": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Now concerning spiritual gifts, brethren, I would not have you ignorant.",
     "WEB": "Now concerning spiritual things, brothers, I don’t want you to be ignorant."
@@ -1118,6 +1169,18 @@
      "video_id": "4VTK-xDyv6g"
     },
     {
+     "confidence": 0.8197,
+     "context": "But it's obvious from the context that the emphasis is on the physical body, because Paul talks about your mortal bodies, using that adjective mortal, because he talks about obeying the passions that are in the body, and he also uses the word members to designate the members of the physical body.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-07-07T04:39:07Z",
+     "role": "host",
+     "t": 735.04,
+     "title": "Doctrine of Man Part 6: What Does The Bible Say About Human Nature? || Defenders LIVE!",
+     "video_id": "9v9Vlvx9d-0"
+    },
+    {
      "confidence": 0.6522,
      "context": "Paul speaks of this in 1 Corinthians 12, verses 12 to 27. He writes, for just as the body is one and has many members, and all the members of the body, though many, are one body, so it is with Christ. For by one spirit we were all baptized into one body, Jews or Greeks, slaves or free, and all were made to drink of one spirit.",
      "creator": "reasonable-faith-org",
@@ -1132,9 +1195,9 @@
    ],
    "creators": {
     "counsel-of-trent": 1,
-    "reasonable-faith-org": 1
+    "reasonable-faith-org": 2
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "For as the body is one, and hath many members, and all the members of that one body, being many, are one body: so also is Christ.",
     "WEB": "For as the body is one and has many members, and all the members of the body, being many, are one body; so also is Christ."
@@ -1856,12 +1919,25 @@
      "t": 3384.32,
      "title": "Is Diwali Demonic? 10 Qs with Mike Winger (Ep 64)",
      "video_id": "1So-uvdUMEE"
+    },
+    {
+     "confidence": 0.8258,
+     "context": "Paul says, If I give away all I have, and if I deliver my body to be burned, but have not love, I gain nothing. Here he seems to contemplate martyrdom or giving his physical body up to be destroyed.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-07-07T04:39:07Z",
+     "role": "host",
+     "t": 1322.8,
+     "title": "Doctrine of Man Part 6: What Does The Bible Say About Human Nature? || Defenders LIVE!",
+     "video_id": "9v9Vlvx9d-0"
     }
    ],
    "creators": {
-    "mike-winger": 1
+    "mike-winger": 1,
+    "reasonable-faith-org": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "And though I bestow all my goods to feed the poor, and though I give my body to be burned, and have not charity, it profiteth me nothing.",
     "WEB": "If I give away all my goods to feed the poor, and if I give my body to be burned, but don’t have love, it profits me nothing."
@@ -2140,6 +2216,18 @@
      "video_id": "09TtVM_q1lM"
     },
     {
+     "confidence": 0.8659,
+     "context": "Pretty easy improvement. I had written down here we could do one for God actually not being the author of confusion. The problem is we already have a verse where it says God is not the author of confusion. And then we have a ton of verses to the contrary. See this video here. So I'll skip that one for now. And similar to the one before, and this will be the last one in this category.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-10-06T14:00:02Z",
+     "role": "host",
+     "t": 335.88,
+     "title": "I Accidentally Improved the Bible… Then I Did It on Purpose 59 More Times!",
+     "video_id": "1uQn7XQq85s"
+    },
+    {
      "confidence": 0.8297,
      "context": "Then you add on the consequence, and the consequence for everyone that would ever live after this, and oof, maybe the worst trickster god of all time. How about the Tower of Babel? Sowing chaos. A little bit of vanity, a little bit of fear from this perfect god, a hypocritical claim of him not being the author of Confusion, when he states his intended mission here is to confuse. And by the way, it works in the same way. A lot of the trickster god stories are actually trying to explain a natural human phenomenon in a supernatural way.",
      "creator": "mindshift",
@@ -2150,6 +2238,18 @@
      "t": 577.0,
      "title": "Is Yahweh a Trickster God? | 16 “Holy Pranks”!",
      "video_id": "4YBagWg25AQ"
+    },
+    {
+     "confidence": 0.7865,
+     "context": "This moves us straight into our next gamble, which is the Tower of Babel Risk. God, who claims himself to be not the author of confusion, purposely confuses people, creating new languages and scattering them around the earth. And what is the bet here? The bet is that these people will still be able to find him, even though he's not going to appear to most of the places on earth for a very, very long time, if at all, and that he's only going to give his holy scriptures in three of the many thousands of languages, relying on humans to be able to translate them and spread them around this large globe.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-08-18T14:00:08Z",
+     "role": "unattributed",
+     "t": 386.12,
+     "title": "God's Got a Gambling Problem! | 33 Bad Bets in 33 Minutes",
+     "video_id": "8ewtnpjkWrE"
     },
     {
      "confidence": null,
@@ -2238,9 +2338,9 @@
    ],
    "creators": {
     "darante-lamar": 5,
-    "mindshift": 4
+    "mindshift": 6
    },
-   "n": 9,
+   "n": 11,
    "text": {
     "KJV": "For God is not the author of confusion, but of peace, as in all churches of the saints.",
     "WEB": "for God is not a God of confusion but of peace, as in all the assemblies of the saints."
@@ -2489,14 +2589,39 @@
      "t": 18.72,
      "title": "Did Jesus Rise from the Dead? - Part One: The Facts",
      "video_id": "4qhQRMhUK1o"
+    },
+    {
+     "confidence": 0.8642,
+     "context": "The fact is that there just is no plausible naturalistic explanation of these facts. And therefore, it seems to me the Christian is amply justified in believing that Jesus rose from the dead and therefore was who he claimed to be. But that entails that God exists.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2011-12-19T06:07:12Z",
+     "role": "unknown",
+     "t": 1388.84,
+     "title": "Debate - Does God Exist? William Lane Craig vs Peter Millican (Birmingham University, October 2011)",
+     "video_id": "9JVRy7bR7zI"
+    },
+    {
+     "confidence": 0.8887,
+     "context": "Rather, the question is if Jesus actually did rise from the dead, would we then be justified in inferring a supernatural cause for that event? And here I think the overwhelming majority of people would say, yes, those who argue against the resurrection try to explain the facts of the case without allowing that Jesus rose from the dead.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-07-29T04:15:29Z",
+     "role": "host",
+     "t": 2099.96,
+     "title": "Defenders LIVE! // Doctrine of Christ pt: 16: Rebutting Objections To Miracles? //",
+     "video_id": "9ifxJx4BQII"
     }
    ],
    "creators": {
     "cross-examined": 1,
-    "drcraigvideos": 1,
+    "drcraigvideos": 2,
+    "reasonable-faith-org": 1,
     "shannon-q": 1
    },
-   "n": 3,
+   "n": 5,
    "text": {
     "KJV": "Now if Christ be preached that he rose from the dead, how say some among you that there is no resurrection of the dead?",
     "WEB": "Now if Christ is preached, that he has been raised from the dead, how do some among you say that there is no resurrection of the dead?"
@@ -2665,12 +2790,25 @@
      "t": 1064.52,
      "title": "Did Rhett Just Break Christianity on Resurrection Sunday? (Responding to ALL the Responses)",
      "video_id": "2onIdSbqSRQ"
+    },
+    {
+     "confidence": 0.86,
+     "context": "Then at the end of the world, when God raises the dead, he reconstitutes the physical body, and so the self comes back into existence again. But this view implies that those who have, so to speak, fallen asleep in Christ have indeed perished, as Paul says in 1 Corinthians 15. There is no intermediate state for the materialist.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-07-07T04:39:07Z",
+     "role": "host",
+     "t": 294.64,
+     "title": "Doctrine of Man Part 6: What Does The Bible Say About Human Nature? || Defenders LIVE!",
+     "video_id": "9v9Vlvx9d-0"
     }
    ],
    "creators": {
-    "paulogia": 1
+    "paulogia": 1,
+    "reasonable-faith-org": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Then they also which are fallen asleep in Christ are perished.",
     "WEB": "Then they also who are fallen asleep in Christ have perished."
@@ -3160,6 +3298,28 @@
    "text": {},
    "truncated": false
   },
+  "1 Corinthians 15:3-7": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "This observation by Mike of post-codification consistency doesn't reflect on the consistency of the story in the decades prior. Um, and that's why they had oral tradition as as well. Um, that's you read this in the uh first Corinthians 15 verses 3 through 7. That they passed on, I delivered you what I also received, and he died, was buried, was raised, he appeared, and it follows the same kind of stuff that you find in the gospels.",
+     "creator": "paulogia",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-07-08T13:30:16Z",
+     "role": "unknown",
+     "t": 831.16,
+     "title": "Resurrection Scholar FAILS my Natural Hypothesis for Christianity! (Mike Licona response)",
+     "video_id": "OsDN8ZOiBuA"
+    }
+   ],
+   "creators": {
+    "paulogia": 1
+   },
+   "n": 1,
+   "text": {},
+   "truncated": false
+  },
   "1 Corinthians 15:3-8": {
    "citations": [
     {
@@ -3390,6 +3550,18 @@
      "video_id": "83ajEwGrJaw"
     },
     {
+     "confidence": 0.8656,
+     "context": "We can say with relative certainty that he was buried. We also have solid traditions to indicate that women found this tomb empty three days later. This is attested in all our gospel sources, early and late, and so it appears to be a historical datum. And so I think we can say that after Jesus' death with some certainty that he was buried, possibly by this fellow Joseph of Arimathea, and that three days later he appeared not to have been in his tomb. Ehrman also accepts the appearances and the origin of the disciples' belief. So why doesn't Ehrman accept the resurrection of Jesus?",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2011-12-19T06:07:12Z",
+     "role": "unknown",
+     "t": 5932.88,
+     "title": "Debate - Does God Exist? William Lane Craig vs Peter Millican (Birmingham University, October 2011)",
+     "video_id": "9JVRy7bR7zI"
+    },
+    {
      "confidence": 0.6923,
      "context": "You know, that's kind of what he's saying here. It's official, it's established teaching here. So this is something that's this goes back way, way back. There's a whole evidential argument for it, but I'll skip it and just say hey. It goes way back. It's really cool. Um, and here's what he delivered that Christ died for our sins in accordance with the scriptures, that he was buried, that he was raised on the third day in accordance with the scriptures, and that he appeared to Cephas and to the twelve. Then he appeared to more than five hundred brothers at one time.",
      "creator": "mike-winger",
@@ -3464,12 +3636,12 @@
    ],
    "creators": {
     "counsel-of-trent": 3,
-    "drcraigvideos": 1,
+    "drcraigvideos": 2,
     "mike-winger": 1,
     "paulogia": 1,
     "shannon-q": 2
    },
-   "n": 8,
+   "n": 9,
    "text": {
     "KJV": "And that he was buried, and that he rose again the third day according to the scriptures:",
     "WEB": "that he was buried, that he was raised on the third day according to the Scriptures,"
@@ -3548,6 +3720,31 @@
    "text": {
     "KJV": "It is sown in dishonour; it is raised in glory: it is sown in weakness; it is raised in power:",
     "WEB": "It is sown in dishonor; it is raised in glory. It is sown in weakness; it is raised in power."
+   },
+   "truncated": false
+  },
+  "1 Corinthians 15:44": {
+   "citations": [
+    {
+     "confidence": 0.8024,
+     "context": "I'd like to ask the difference between soma and sarks, especially as used by Paul for, for example, uh, because he seems to be very specific in choosing one word over the other, sometimes in the same passage. So, for example, in 1 Corinthians 15, 44, he's talking about it's sown a natural body, it's raised a spiritual body. Yes. But then a few verses later in verse 50, he says, I tell you this brother's flesh, sarks and blood cannot inherit the kingdom of God. So they seem to be more than synonyms.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-07-07T04:39:07Z",
+     "role": "unknown",
+     "t": 2006.56,
+     "title": "Doctrine of Man Part 6: What Does The Bible Say About Human Nature? || Defenders LIVE!",
+     "video_id": "9v9Vlvx9d-0"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "It is sown a natural body; it is raised a spiritual body. There is a natural body, and there is a spiritual body.",
+    "WEB": "It is sown a natural body; it is raised a spiritual body. There is a natural body and there is also a spiritual body."
    },
    "truncated": false
   },
@@ -3689,12 +3886,25 @@
      "t": 2572.72,
      "title": "The Tenth Commandment: Don't Covet | Belief It Or Not",
      "video_id": "2u40JzRE3ZM"
+    },
+    {
+     "confidence": 0.8127,
+     "context": "So, for example, in 1 Corinthians 15, 44, he's talking about it's sown a natural body, it's raised a spiritual body. Yes. But then a few verses later in verse 50, he says, I tell you this brother's flesh, sarks and blood cannot inherit the kingdom of God. So they seem to be more than synonyms. What do you think? Okay, now what Kevin is drawing our attention to is the New Testament or Greek equivalent of the word uh flesh, which is uh sarks.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-07-07T04:39:07Z",
+     "role": "unknown",
+     "t": 2012.68,
+     "title": "Doctrine of Man Part 6: What Does The Bible Say About Human Nature? || Defenders LIVE!",
+     "video_id": "9v9Vlvx9d-0"
     }
    ],
    "creators": {
-    "belief-it-or-not": 1
+    "belief-it-or-not": 1,
+    "reasonable-faith-org": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Now this I say, brethren, that flesh and blood cannot inherit the kingdom of God; neither doth corruption inherit incorruption.",
     "WEB": "Now I say this, brothers, that flesh and blood can’t inherit God’s Kingdom; neither does the perishable inherit imperishable."
@@ -3974,14 +4184,26 @@
      "t": 124.12,
      "title": "What Happened to the Disciples That Transformed Them into Avid Witnesses for Christ?",
      "video_id": "nsmmR_Mw0ck"
+    },
+    {
+     "confidence": 1.0,
+     "context": "Then he appeared to more than 500 brethren at one time, most of whom are still alive, though some have fallen asleep. Then he appeared to James, then to all the apostles. And last of all, Paul says as to one untimely born, he appeared also to me.",
+     "creator": "drcraigvideos",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2011-12-13T10:53:32Z",
+     "role": "host",
+     "t": 3418.8,
+     "title": "William Lane Craig on the Historical Jesus - Interview 2001",
+     "video_id": "xUKW2Bm5P2k"
     }
    ],
    "creators": {
     "counsel-of-trent": 2,
-    "drcraigvideos": 3,
+    "drcraigvideos": 4,
     "shannon-q": 3
    },
-   "n": 8,
+   "n": 9,
    "text": {
     "KJV": "After that, he was seen of James; then of all the apostles.",
     "WEB": "Then he appeared to James, then to all the apostles,"
@@ -4333,12 +4555,25 @@
      "t": 945.16,
      "title": "// Defenders LIVE! //",
      "video_id": "8SqsvI491Pc"
+    },
+    {
+     "confidence": 0.7538,
+     "context": "What? This makes no sense. Yeah. So in the Christian nationalist project, what? We want we don't want this uh smudge or hodgepodge. We want it to be explicitly Christian. We would want prayers at the at the political convention to be to God the Father in the name of Jesus Christ our Lord. That's that's how we want the prayers to go. Yeah. What the fuck? So I I looked up what national what Natcon was, but it's national conservative conservatism.",
+     "creator": "belief-it-or-not",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-07-28T09:00:08Z",
+     "role": "unknown",
+     "t": 1932.64,
+     "title": "The Belief It Or Not Podcast: Church Insurance and Terrible Christian Parents",
+     "video_id": "9e4yR4eQJa4"
     }
    ],
    "creators": {
+    "belief-it-or-not": 1,
     "reasonable-faith-org": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Unto the church of God which is at Corinth, to them that are sanctified in Christ Jesus, called to be saints, with all that in every place call upon the name of Jesus Christ our Lord, both their's and our's:",
     "WEB": "to the assembly of God which is at Corinth—those who are sanctified in Christ Jesus, called saints, with all who call on the name of our Lord Jesus Christ in every place, both theirs and ours:"
@@ -4396,12 +4631,25 @@
      "t": 217.56,
      "title": "Did Paul Stop Using Arguments After Leaving Athens?",
      "video_id": "78V59g4J-EY"
+    },
+    {
+     "confidence": 0.9292,
+     "context": "Where is the scribe? Where is the debater of this age? Has not God made foolish the wisdom of the world? For since the wisdom of God, the world did not know God through wisdom. It pleased God through the folly of what we preach to save those who believe. For Jews demand signs and Greeks seek wisdom. But we preach Christ crucified, a stumbling block to Jews and folly to Gentiles.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2019-08-21T15:49:51Z",
+     "role": "host",
+     "t": 1942.8,
+     "title": "How To Avoid Being An Intelligent Fool",
+     "video_id": "A5lOSc_S2Go"
     }
    ],
    "creators": {
-    "drcraigvideos": 1
+    "drcraigvideos": 1,
+    "jackie-hill-perry": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "For after that in the wisdom of God the world by wisdom knew not God, it pleased God by the foolishness of preaching to save them that believe.",
     "WEB": "For seeing that in the wisdom of God, the world through its wisdom didn’t know God, it was God’s good pleasure through the foolishness of the preaching to save those who believe."
@@ -4701,6 +4949,31 @@
    "text": {},
    "truncated": false
   },
+  "1 Corinthians 2:12": {
+   "citations": [
+    {
+     "confidence": 0.7757,
+     "context": "And how did you think that's the thing? Exactly. Where do you go from there? Creator of the universe. Has he remained aloof and distant from the world that he's made? Or has he revealed himself to us in some further way that we might know him more closely? And of course, the all of these uh faiths claim to have some sort of special revelation from God, which then needs to be rationally assessed.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-04-16T19:44:11Z",
+     "role": "host",
+     "t": 1535.68,
+     "title": "What’s the Strongest Evidence for God? | William Lane Craig & Zach Dasher",
+     "video_id": "9h36yNjmK4o"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Now we have received, not the spirit of the world, but the spirit which is of God; that we might know the things that are freely given to us of God.",
+    "WEB": "But we received not the spirit of the world, but the Spirit which is from God, that we might know the things that were freely given to us by God."
+   },
+   "truncated": false
+  },
   "1 Corinthians 2:14": {
    "citations": [
     {
@@ -4933,13 +5206,25 @@
      "t": 6740.96,
      "title": "'Change My Mind' LIVE Q&A from Michigan Technological Univ. (Houghton, MI)",
      "video_id": "6clndvSleoA"
+    },
+    {
+     "confidence": 0.8428,
+     "context": "Let me show you my faith by my works. You can't see faith, but you can see the works that come with faith. Uh even 1 Corinthians chapter 2, the second part of that, if I'm remembering correctly, says that the sacrifice of Jesus was hidden and veiled, because if the if the principalities of this world, the powers that be of this world knew what was happening, they never would have crucified the Lord of glory.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-05-06T22:00:22Z",
+     "role": "host",
+     "t": 135.0,
+     "title": "Why Did Jesus Have to Die for Our Sins?",
+     "video_id": "9cnWlROMwho"
     }
    ],
    "creators": {
-    "cross-examined": 2,
+    "cross-examined": 3,
     "reasonable-faith-org": 1
    },
-   "n": 3,
+   "n": 4,
    "text": {
     "KJV": "Which none of the princes of this world knew: for had they known it, they would not have crucified the Lord of glory.",
     "WEB": "which none of the rulers of this world has known. For had they known it, they wouldn’t have crucified the Lord of glory."
@@ -5336,6 +5621,31 @@
    },
    "truncated": false
   },
+  "1 Corinthians 5:11": {
+   "citations": [
+    {
+     "confidence": 0.7632,
+     "context": "For an overseer as God's steward must be above reproach. Other translations have said blameless, by the way. He must not be arrogant or quick tempered or a drunkard or violent or greedy for gain, but hospitable, a lover of good, self-controlled, upright, holy, and disciplined. It goes on from there, and most of those are okay. Of course, that's what you want in any kind of leadership. But the one where I really want to point out the issue is again with the unbelieving children.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-08-15T14:00:03Z",
+     "role": "host",
+     "t": 1281.76,
+     "title": "Titus: Short and Shameless | Secular Bible Study (Episode 56)",
+     "video_id": "49LMb34q2Ms"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But now I have written unto you not to keep company, if any man that is called a brother be a fornicator, or covetous, or an idolater, or a railer, or a drunkard, or an extortioner; with such an one no not to eat.",
+    "WEB": "But as it is, I wrote to you not to associate with anyone who is called a brother who is a sexual sinner, or covetous, or an idolater, or a slanderer, or a drunkard, or an extortionist. Don’t even eat with such a person."
+   },
+   "truncated": false
+  },
   "1 Corinthians 6:10": {
    "citations": [
     {
@@ -5512,12 +5822,25 @@
      "t": 1248.36,
      "title": "The Belief It Or Not Podcast: Ten Commandments and Scumbags",
      "video_id": "4iFNiSa3Z5k"
+    },
+    {
+     "confidence": 0.8511,
+     "context": "The same is true in 1 Corinthians chapter 6, verses 12 to 20 and verse 32. 1 Corinthians 6, 12 to 20 and verse 32. Paul says, All things are lawful for me, but not all things are helpful. All things are lawful for me, but I will not be enslaved by anything. Food is meant for the stomach and the stomach for food.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-07-07T04:39:07Z",
+     "role": "host",
+     "t": 1093.76,
+     "title": "Doctrine of Man Part 6: What Does The Bible Say About Human Nature? || Defenders LIVE!",
+     "video_id": "9v9Vlvx9d-0"
     }
    ],
    "creators": {
-    "belief-it-or-not": 1
+    "belief-it-or-not": 1,
+    "reasonable-faith-org": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "All things are lawful unto me, but all things are not expedient: all things are lawful for me, but I will not be brought under the power of any.",
     "WEB": "“All things are lawful for me,” but not all things are expedient. “All things are lawful for me,” but I will not be brought under the power of anything."
@@ -5596,16 +5919,51 @@
      "t": 5728.32,
      "title": "I Took A Gay Conversion Class for Christian Teens. It Was Awful.",
      "video_id": "-QnyYMEy3HA"
+    },
+    {
+     "confidence": 0.8635,
+     "context": "Now, you will probably want to interpret Genesis theologically with a deeper understanding of what it truly means for the man and his wife to be one flesh. But at least here in First Corinthians 15, he's talking about making your bodies members of a prostitute and becoming one body with her, um, which would be, I think, the idea of being joined in sexual intercourse with her.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-07-07T04:39:07Z",
+     "role": "host",
+     "t": 1888.36,
+     "title": "Doctrine of Man Part 6: What Does The Bible Say About Human Nature? || Defenders LIVE!",
+     "video_id": "9v9Vlvx9d-0"
     }
    ],
    "creators": {
-    "genetically-modified-skeptic": 2
+    "genetically-modified-skeptic": 2,
+    "reasonable-faith-org": 1
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "Know ye not that your bodies are the members of Christ? shall I then take the members of Christ, and make them the members of an harlot? God forbid.",
     "WEB": "Don’t you know that your bodies are members of Christ? Shall I then take the members of Christ and make them members of a prostitute? May it never be!"
    },
+   "truncated": false
+  },
+  "1 Corinthians 6:15-16": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "So this was a massive joint decision that sodomite is the wrong word. Okay, but I shouldn't blame you specifically for the inclusion of that word. No. You shouldn't blame me for the inclusion or the exclusion. Number six, prostitution. In First Corinthians 6, verses 15 and 16. The Apostle Paul offers us a powerful and enlightening perspective on this topic. Paul here highlights that uniting our body, which is a member of Christ to a prostitute, is a grave dishonor to the sacred commitment we have with our Lord.",
+     "creator": "paulogia",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-09-12T13:30:34Z",
+     "role": "unknown",
+     "t": 1518.48,
+     "title": "7 Most Terrible Sexual Sins in the Bible | YOU MAY BE FALLING FOR THEM! (feat Dr Jenny Knust)",
+     "video_id": "mJO-6DjPYd4"
+    }
+   ],
+   "creators": {
+    "paulogia": 1
+   },
+   "n": 1,
+   "text": {},
    "truncated": false
   },
   "1 Corinthians 6:15-20": {
@@ -5715,12 +6073,25 @@
      "t": 2983.84,
      "title": "Should Christians \"Agree to Disagree\" About Homosexuality? with @robertgagnon7647",
      "video_id": "2s1_uL0PB6I"
+    },
+    {
+     "confidence": 0.8905,
+     "context": "Shun immorality. Every other sin which a man commits is outside the body. But the immoral man sins against his own body. Do you not know that your body is a temple of the Holy Spirit within you, which you have from God?",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-07-07T04:39:07Z",
+     "role": "host",
+     "t": 1159.12,
+     "title": "Doctrine of Man Part 6: What Does The Bible Say About Human Nature? || Defenders LIVE!",
+     "video_id": "9v9Vlvx9d-0"
     }
    ],
    "creators": {
-    "cross-examined": 1
+    "cross-examined": 1,
+    "reasonable-faith-org": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Flee fornication. Every sin that a man doeth is without the body; but he that committeth fornication sinneth against his own body.",
     "WEB": "Flee sexual immorality! “Every sin that a man does is outside the body,” but he who commits sexual immorality sins against his own body."
@@ -5789,13 +6160,26 @@
      "t": 946.96,
      "title": "Why Christians Can’t Condemn Slavery | I Hate That I Was Right About This",
      "video_id": "5EBhHRLxmUA"
+    },
+    {
+     "confidence": 0.8204,
+     "context": "But the immoral man sins against his own body. Do you not know that your body is a temple of the Holy Spirit within you, which you have from God? You are not your own. You were bought with a price. So glorify God in your body. Here the emphasis upon sexual purity and the union of two persons in sexual intercourse into one body makes it quite clear that Paul is talking about the physical body when he uses the word Soma.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-07-07T04:39:07Z",
+     "role": "host",
+     "t": 1177.48,
+     "title": "Doctrine of Man Part 6: What Does The Bible Say About Human Nature? || Defenders LIVE!",
+     "video_id": "9v9Vlvx9d-0"
     }
    ],
    "creators": {
     "cross-examined": 1,
-    "mindshift": 1
+    "mindshift": 1,
+    "reasonable-faith-org": 1
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "For ye are bought with a price: therefore glorify God in your body, and in your spirit, which are God's.",
     "WEB": "for you were bought with a price. Therefore glorify God in your body and in your spirit, which are God’s."
@@ -5910,6 +6294,31 @@
    "text": {
     "KJV": "But if the unbelieving depart, let him depart. A brother or a sister is not under bondage in such cases: but God hath called us to peace.",
     "WEB": "Yet if the unbeliever departs, let there be separation. The brother or the sister is not under bondage in such cases, but God has called us in peace."
+   },
+   "truncated": false
+  },
+  "1 Corinthians 7:2": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "Understand what the Bible says about this and why it is so important for us as followers of Christ to take this teaching seriously. In 1 Corinthians 7, verse 2, Paul offers us direct and practical advice. But because of the temptation to sexual immorality, each man should have his wife and each woman her husband. This verse is part of a larger context where Paul discusses the importance of sexual purity within the Christian community.",
+     "creator": "paulogia",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-09-12T13:30:34Z",
+     "role": "unknown",
+     "t": 986.2,
+     "title": "7 Most Terrible Sexual Sins in the Bible | YOU MAY BE FALLING FOR THEM! (feat Dr Jenny Knust)",
+     "video_id": "mJO-6DjPYd4"
+    }
+   ],
+   "creators": {
+    "paulogia": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Nevertheless, to avoid fornication, let every man have his own wife, and let every woman have her own husband.",
+    "WEB": "But, because of sexual immoralities, let each man have his own wife, and let each woman have her own husband."
    },
    "truncated": false
   },
@@ -6127,6 +6536,31 @@
    },
    "truncated": false
   },
+  "1 Corinthians 7:8": {
+   "citations": [
+    {
+     "confidence": 0.8364,
+     "context": "They are truly opposed ideas. Next, we could look at the qualifications for church leadership. Titus 1 6 requires that an elder must have children who believe and are not open to the charge of being wild and disobedient. But in 1 Corinthians 7 8, Paul suggests it is better for the unmarried and widows to remain single as he is. He making himself the greatest example, you could say, well, maybe you can have an elder who's not married or doesn't have kids, but if they are married and have kids, they should look like this.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-08-15T14:00:03Z",
+     "role": "host",
+     "t": 772.68,
+     "title": "Titus: Short and Shameless | Secular Bible Study (Episode 56)",
+     "video_id": "49LMb34q2Ms"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "I say therefore to the unmarried and widows, It is good for them if they abide even as I.",
+    "WEB": "But I say to the unmarried and to widows, it is good for them if they remain even as I am."
+   },
+   "truncated": false
+  },
   "1 Corinthians 7:9": {
    "citations": [
     {
@@ -6168,6 +6602,18 @@
   "1 Corinthians 8:1": {
    "citations": [
     {
+     "confidence": 0.8756,
+     "context": "Turn in your Bibles to 1 Corinthians chapter 8, verses 1 through 3. This is fun. Y'all enjoying this? We learn it together. Ain't God good. 1 Corinthians chapter 8, verse 1 through 3. It says, now concerning food offered to idols, we know that all of us possess knowledge. This knowledge puffs up, but love builds up. If anyone imagines, imagines that he knows something, he does not yet know as he ought to know.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-08-21T15:49:51Z",
+     "role": "host",
+     "t": 805.48,
+     "title": "How To Avoid Being An Intelligent Fool",
+     "video_id": "A5lOSc_S2Go"
+    },
+    {
      "confidence": null,
      "context": "First Corinthians eight ten. And let's look at the ruling here. Um, I'm gonna back up because we always want to get context. Hmm. I'm just gonna back up to first one. So 1 Corinthians chapter 8, verse 1 on your screen. It says, now concerning food offered to idols, okay? He begins a new subject. Should I eat food that's offered to idols? Now, food offered to idols could be food that was in a marketplace that was being sold in the market that had been behind the scenes offered to idols, or it could be feasts that happened inside of an idol's temple where you're invited to a feast and you want to eat food and good food and hang out with people, but it's in an idol's temple, and it's it's like a more expressly you're engaging in an idolatrous activity.",
      "creator": "mike-winger",
@@ -6181,9 +6627,10 @@
     }
    ],
    "creators": {
+    "jackie-hill-perry": 1,
     "mike-winger": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Now as touching things offered unto idols, we know that we all have knowledge. Knowledge puffeth up, but charity edifieth.",
     "WEB": "Now concerning things sacrificed to idols: We know that we all have knowledge. Knowledge puffs up, but love builds up."
@@ -6224,6 +6671,28 @@
    "text": {},
    "truncated": false
   },
+  "1 Corinthians 8:1-6": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "It means it's a prophetic sending in that context. Right. Yeah, because every apostle was sent, I guess, in those same words. What it means, yeah. What does it mean, apostle? One sent. Right. So or take a passage like First Corinthians chapter eight, verses one to six, but particularly six, where Paul takes the prayer of Jewish monotheism. Here, O Israel, the Lord our God, the Lord is one, and he opens that prayer up to say that for us there is one God the Father and one Lord, Jesus the Messiah.",
+     "creator": "paulogia",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-09-05T13:30:23Z",
+     "role": "unknown",
+     "t": 1343.92,
+     "title": "Is Jesus God? (feat James Tabor) (N.T. Wright response)",
+     "video_id": "RbqHYwyFsJg"
+    }
+   ],
+   "creators": {
+    "paulogia": 1
+   },
+   "n": 1,
+   "text": {},
+   "truncated": false
+  },
   "1 Corinthians 8:12": {
    "citations": [
     {
@@ -6246,6 +6715,31 @@
    "text": {
     "KJV": "But when ye sin so against the brethren, and wound their weak conscience, ye sin against Christ.",
     "WEB": "Thus, sinning against the brothers, and wounding their conscience when it is weak, you sin against Christ."
+   },
+   "truncated": false
+  },
+  "1 Corinthians 8:2": {
+   "citations": [
+    {
+     "confidence": 0.8301,
+     "context": "1 Corinthians chapter 8, verse 1 through 3. It says, now concerning food offered to idols, we know that all of us possess knowledge. This knowledge puffs up, but love builds up. If anyone imagines, imagines that he knows something, he does not yet know as he ought to know. But if anybody loves God, he is known by God. In the Corinthian church, and during that time in the world, offering meat to or food to idols as worship was common.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-08-21T15:49:51Z",
+     "role": "host",
+     "t": 816.76,
+     "title": "How To Avoid Being An Intelligent Fool",
+     "video_id": "A5lOSc_S2Go"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And if any man think that he knoweth any thing, he knoweth nothing yet as he ought to know.",
+    "WEB": "But if anyone thinks that he knows anything, he doesn’t yet know as he ought to know."
    },
    "truncated": false
   },
@@ -6503,6 +6997,31 @@
    "text": {
     "KJV": "To the weak became I as weak, that I might gain the weak: I am made all things to all men, that I might by all means save some.",
     "WEB": "To the weak I became as weak, that I might gain the weak. I have become all things to all men, that I may by all means save some."
+   },
+   "truncated": false
+  },
+  "1 Corinthians 9:27": {
+   "citations": [
+    {
+     "confidence": 0.8426,
+     "context": "This is a passage that is dualistic in nature, mind and body, wholly dedicated to God. First Corinthians chapter 9 and verse 27. First Corinthians 9, 27, Paul says, I pummel my body and subdue it, lest after preaching to others, I myself should be disqualified. Here he's thinking of that physical aspect of his life and keeping that physical aspect in check and under discipline.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-07-07T04:39:07Z",
+     "role": "host",
+     "t": 1276.8,
+     "title": "Doctrine of Man Part 6: What Does The Bible Say About Human Nature? || Defenders LIVE!",
+     "video_id": "9v9Vlvx9d-0"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But I keep under my body, and bring it into subjection: lest that by any means, when I have preached to others, I myself should be a castaway.",
+    "WEB": "but I beat my body and bring it into submission, lest by any means, after I have preached to others, I myself should be disqualified."
    },
    "truncated": false
   }

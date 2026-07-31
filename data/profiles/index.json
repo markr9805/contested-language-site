@@ -11,25 +11,25 @@
    "profiles": 4,
    "stale": 4
   },
-  "deconstruction": {
-   "file": "deconstruction.json",
+  "evidence": {
+   "file": "evidence.json",
    "profiles": 1,
    "stale": 1
   },
-  "evidence": {
-   "file": "evidence.json",
-   "profiles": 3,
-   "stale": 3
+  "harm": {
+   "file": "harm.json",
+   "profiles": 2,
+   "stale": 2
   },
   "love": {
    "file": "love.json",
-   "profiles": 4,
-   "stale": 4
+   "profiles": 5,
+   "stale": 5
   },
   "truth": {
    "file": "truth.json",
-   "profiles": 4,
-   "stale": 4
+   "profiles": 2,
+   "stale": 2
   }
  }
 }

@@ -362,6 +362,18 @@
      "video_id": "4TQrwTvjWh4"
     },
     {
+     "confidence": 0.7997,
+     "context": "As far as we know, none of them ever recanted. Which is meaningful only if we can establish that they had a chance to recant, or if recanting would have been any benefit. For the three Gary is talking about, John is said to have died of old age, so no recanting necessary. James, the brother of Jesus, was killed in a political coup, so no amount of recanting would have helped him. And Peter was killed as part of a political cover-up, where the emperor was blaming Christians for something he did. No amount of recanting would have helped because it wasn't ideologically motivated.",
+     "creator": "paulogia",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-09-18T13:30:04Z",
+     "role": "host",
+     "t": 1379.52,
+     "title": "New Resurrection Refutation Opus Ignores YouTubers (Gary Habermas response)",
+     "video_id": "75K8L5sUhqg"
+    },
+    {
      "confidence": null,
      "context": "Multiple deaths assigned to the same figure, depending on which church he asked. So let's emphasize of the original twelve, only one death is recorded in the New Testament. James, son of Zebedee. And that's in Acts chapter 12, verse 2. He's executed by Herod, and the text has nothing about him dying because he saw the resurrected Jesus. Even Paul, the star apostle of the epistles, never mentions Peter dying for the resurrection or any of the apostles being executed for it.",
      "creator": "darante-lamar",
@@ -387,9 +399,10 @@
     }
    ],
    "creators": {
-    "darante-lamar": 4
+    "darante-lamar": 4,
+    "paulogia": 1
    },
-   "n": 4,
+   "n": 5,
    "text": {
     "KJV": "And he killed James the brother of John with the sword.",
     "WEB": "He killed James, the brother of John, with the sword."
@@ -640,6 +653,18 @@
   "Acts 13:30": {
    "citations": [
     {
+     "confidence": 0.8423,
+     "context": "And I've seen them give their lives to Christ in cases like that. Now, in in a case like that, you don't even have the actual miracle being witnessed by the person, but he looks at the evidence, the testimonial evidence that this miraculous ac uh action took place in Christ, and is convinced, yes, God raised him from the dead, and therefore he must have been who he claimed to be, and therefore I give my life to him as my Lord and Savior.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-07-22T04:59:41Z",
+     "role": "host",
+     "t": 2134.72,
+     "title": "Defenders LIVE! // Doctrine of Creation pt 15",
+     "video_id": "4GRUhj6_jro"
+    },
+    {
      "confidence": 0.8343,
      "context": "You can show that the best explanation of the established facts concerning the fate of Jesus of Nazareth is the explanation the original disciples gave that God raised him from the dead. But I wouldn't apply to that epistemic justification a different standard than you would apply to other events in history.",
      "creator": "drcraigvideos",
@@ -650,12 +675,25 @@
      "t": 0.24,
      "title": "Should the Standard for Evidence be Higher to believe in the Resurrection of Jesus? #Shorts",
      "video_id": "6sCDUaQoohI"
+    },
+    {
+     "confidence": 0.7826,
+     "context": "So they in other words, they may not agree with the final conclusion that Jesus was raised from the dead, but they would agree the tomb was empty. The early disciples thought they had an experience of the risen Jesus. Uh these are things they would agree on, correct? Yes, and that they came to believe that God raised him from the dead. So they will agree on those basic facts. And then those who do not want to believe in the resurrection at that point typically don't offer a counterexplanation.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-04-16T19:44:11Z",
+     "role": "host",
+     "t": 1735.2,
+     "title": "What’s the Strongest Evidence for God? | William Lane Craig & Zach Dasher",
+     "video_id": "9h36yNjmK4o"
     }
    ],
    "creators": {
-    "drcraigvideos": 1
+    "drcraigvideos": 1,
+    "reasonable-faith-org": 2
    },
-   "n": 1,
+   "n": 3,
    "text": {
     "KJV": "But God raised him from the dead:",
     "WEB": "But God raised him from the dead,"
@@ -854,6 +892,31 @@
    },
    "n": 1,
    "text": {},
+   "truncated": false
+  },
+  "Acts 15:11": {
+   "citations": [
+    {
+     "confidence": 0.8757,
+     "context": "The foregoing is the sense in which the Protestant reformers affirmed the doctrine of sola grazia, that is salvation by grace alone. It's not simply that we are saved through no merit of our own, but only by God's undeserved favor, it's much more than that. The reformers affirmed an irresistible grace that you have no power to refuse.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-11-02T16:47:34Z",
+     "role": "host",
+     "t": 733.92,
+     "title": "Doctrine of Man Part 26: Freedom of the Will || Defenders LIVE!",
+     "video_id": "A1U-WvkqteE"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But we believe that through the grace of the LORD Jesus Christ we shall be saved, even as they.",
+    "WEB": "But we believe that we are saved through the grace of the Lord Jesus, just as they are.”"
+   },
    "truncated": false
   },
   "Acts 15:17": {
@@ -1902,6 +1965,18 @@
   "Acts 18:26": {
    "citations": [
     {
+     "confidence": 0.5769,
+     "context": "What do Christians do with this verse? Well, actually, I'm going to show you in a minute how Tim Mackey at the Bible Project handles this when we get to problematic passages. But another very common tactic is to say clearly Paul was just talking about women at this church, because look at Acts 18 26 that says he began to speak boldly in the synagogue when Priscilla and Aquila heard him, they invited him over to their home and explained to him the way of God more adequately.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-08-01T14:00:06Z",
+     "role": "unattributed",
+     "t": 615.64,
+     "title": "1 Timothy: Paul's Rules For Women And Slaves | Secular Bible Study (Episode 54)",
+     "video_id": "8Sv5_Bk81Ws"
+    },
+    {
      "confidence": 0.7692,
      "context": "He had been instructed in the way of the Lord, being fervent in spirit. He spoke and taught accurately the things concerning Jesus, though he knew only the baptism of John. He began to speak boldly in the synagogue. But when Priscilla and Aquila heard him, they took him and expounded to him the way of God more accurately. And when he wished to cross to Achaiah, the brethren encouraged him and wrote to the disciples to receive him.",
      "creator": "reasonable-faith-org",
@@ -1915,9 +1990,10 @@
     }
    ],
    "creators": {
+    "mindshift": 1,
     "reasonable-faith-org": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "And he began to speak boldly in the synagogue: whom when Aquila and Priscilla had heard, they took him unto them, and expounded unto him the way of God more perfectly.",
     "WEB": "He began to speak boldly in the synagogue. But when Priscilla and Aquila heard him, they took him aside, and explained to him the way of God more accurately."
@@ -2954,6 +3030,31 @@
    "text": {},
    "truncated": false
   },
+  "Acts 21:25": {
+   "citations": [
+    {
+     "confidence": 0.7971,
+     "context": "He says, This knowledge, obviously referring to something that is being discussed in Corinth or Corinth, this knowledge puffs up, but love builds up. The folks on the side of the debate that said eating food offered to idols, that that was totally fine, were the kinds of Christians that know a whole lot but don't love nobody well. If they had a Twitter, they probably would have said something like, An idol is a creation, not the creator, in reference to Romans 1, and thus they are unable to, by virtue of their ontology, to be considered similar to the ancient of days who became flesh and dwelt among us.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-08-21T15:49:51Z",
+     "role": "host",
+     "t": 885.04,
+     "title": "How To Avoid Being An Intelligent Fool",
+     "video_id": "A5lOSc_S2Go"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "As touching the Gentiles which believe, we have written and concluded that they observe no such thing, save only that they keep themselves from things offered to idols, and from blood, and from strangled, and from fornication.",
+    "WEB": "But concerning the Gentiles who believe, we have written our decision that they should observe no such thing, except that they should keep themselves from food offered to idols, from blood, from strangled things, and from sexual immorality.”"
+   },
+   "truncated": false
+  },
   "Acts 21:4": {
    "citations": [
     {
@@ -3229,12 +3330,25 @@
      "t": 719.92,
      "title": "The Man Who Found 30,000 Differences in the Bible (with Dr. Bart Ehrman)",
      "video_id": "-G5V-kWSsc8"
+    },
+    {
+     "confidence": 0.8273,
+     "context": "But Judaizers, they're the ones that no doubt have the dominant expression of discharge that Paul invented Christianity. They argue that Jesus' role as the Jewish Messiah was to restore devotion to Torah, and that Paul's gospel to the Gentiles, that salvation is by grace alone through faith alone, and that you don't need to follow Torah in order to follow Jesus. They say that's a dangerous perversion. Do your reasons for positing that Paul is the founder of Christianity overlap with any of those takes?",
+     "creator": "paulogia",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-08-30T13:30:06Z",
+     "role": "unknown",
+     "t": 431.8,
+     "title": "Is it PAULianity or Christianity?!? (feat Robyn Faith Walsh)",
+     "video_id": "8wiiG_aUFPI"
     }
    ],
    "creators": {
-    "genetically-modified-skeptic": 1
+    "genetically-modified-skeptic": 1,
+    "paulogia": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "But shewed first unto them of Damascus, and at Jerusalem, and throughout all the coasts of Judaea, and then to the Gentiles, that they should repent and turn to God, and do works meet for repentance.",
     "WEB": "but declared first to them of Damascus, at Jerusalem, and throughout all the country of Judea, and also to the Gentiles, that they should repent and turn to God, doing works worthy of repentance."
@@ -3367,13 +3481,26 @@
      "t": 1489.52,
      "title": "How to Show Joe Rogan Christianity is True",
      "video_id": "WweaoApUbxw"
+    },
+    {
+     "confidence": 0.5714,
+     "context": "Now, what were the early Jews saying in response to this proclamation, he is risen from the dead? Were they saying, these men are full of new wine, they're drunk, or were they saying, well, no, his corpse still lies in the tomb on the hillside. No, what the earliest Jewish polemic was saying was the disciples came and stole away his body.",
+     "creator": "drcraigvideos",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2011-12-13T10:53:32Z",
+     "role": "host",
+     "t": 1547.36,
+     "title": "William Lane Craig on the Historical Jesus - Interview 2001",
+     "video_id": "xUKW2Bm5P2k"
     }
    ],
    "creators": {
     "counsel-of-trent": 1,
+    "drcraigvideos": 1,
     "reasonable-faith-org": 1
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "Others mocking said, These men are full of new wine.",
     "WEB": "Others, mocking, said, “They are filled with new wine.”"
@@ -3470,6 +3597,18 @@
   "Acts 2:21": {
    "citations": [
     {
+     "confidence": 0.8565,
+     "context": "For there is no distinction between Jew and Greek. The same Lord is Lord of all, and bestows his riches upon all who call upon him. For, quote, everyone who calls upon the name of the Lord will be saved. Finally, Galatians three, verses six to nine.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-11-02T16:47:34Z",
+     "role": "host",
+     "t": 422.36,
+     "title": "Doctrine of Man Part 26: Freedom of the Will || Defenders LIVE!",
+     "video_id": "A1U-WvkqteE"
+    },
+    {
      "confidence": 0.6875,
      "context": "Let me just put this over here real fast. Um, so you said Joel 2 32. Correct. Alright, I just want to look at it first before we read it. This is Joel 2 32. It says, um, and it shall come to pass to whosoever shall call on the name of the Lord shall be delivered for in Mount Zion. Okay. And so he's saying that Paul uses this verse directly. Go to Romans. Applies it to Jesus in Romans 10 9 through 13.",
      "creator": "capturing-christianity",
@@ -3483,9 +3622,10 @@
     }
    ],
    "creators": {
-    "capturing-christianity": 1
+    "capturing-christianity": 1,
+    "reasonable-faith-org": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "And it shall come to pass, that whosoever shall call on the name of the Lord shall be saved.",
     "WEB": "It will be that whoever will call on the name of the Lord will be saved.’"
@@ -4143,13 +4283,39 @@
      "t": 2783.44,
      "title": "Be Worthy of the Bullet That Charlie Kirk Took For You — Why Independence Day? w/Steve Deace + Q&A",
      "video_id": "6XDtTJMRYmA"
+    },
+    {
+     "confidence": 0.8045,
+     "context": "It's when you get to the resurrection of Jesus that my case now narrows for a biblical theism and for why I think that the God revealed by Jesus exists. So that's where the case begins to narrow. The reason I'm a Christian theist, rather than say a Jewish theist or a Muslim theist, is because of Jesus, what he claimed, what he taught, and his resurrection from the dead. I think that vindicates his claim to be the absolute revelation of God.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2011-11-28T04:51:49Z",
+     "role": "host",
+     "t": 1352.88,
+     "title": "10 Really Bad Youtube Objections to the Kalam Cosmological Argument",
+     "video_id": "9fSluNqGxRA"
+    },
+    {
+     "confidence": 0.7934,
+     "context": "Furthermore, even if we leave Jesus' miracles aside and focus our attention on his resurrection from the dead, I think that the supernatural nature of that event alone may be successfully defended. Now, we're not asking here whether the facts of the case, such as the empty tomb or the post-mortem appearances, might be explained in a natural manner.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-07-29T04:15:29Z",
+     "role": "host",
+     "t": 2061.32,
+     "title": "Defenders LIVE! // Doctrine of Christ pt: 16: Rebutting Objections To Miracles? //",
+     "video_id": "9ifxJx4BQII"
     }
    ],
    "creators": {
     "counsel-of-trent": 1,
-    "cross-examined": 1
+    "cross-examined": 1,
+    "drcraigvideos": 1,
+    "reasonable-faith-org": 1
    },
-   "n": 2,
+   "n": 4,
    "text": {
     "KJV": "Being grieved that they taught the people, and preached through Jesus the resurrection from the dead.",
     "WEB": "being upset because they taught the people and proclaimed in Jesus the resurrection from the dead."
@@ -4216,16 +4382,50 @@
      "t": 336.6,
      "title": "Defenders LIVE!! || Evaluating Calvinism and Arminianism // Doctrine of Salvation Part 5",
      "video_id": "G_apu4dRtzE"
+    },
+    {
+     "confidence": 0.5217,
+     "context": "Consider the following biblical passage from Acts chapter 4, verses 27 to 28. For truly in this city there were gathered together against thy holy servant Jesus, both Herod and Pontius Pilate, with the Gentiles and the peoples of Israel to do whatever thy hand and thy plan had predestined to take place.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-07-01T04:16:22Z",
+     "role": "host",
+     "t": 42.4,
+     "title": "Defenders LIVE! // Doctrine of Creation pt 12: Arminianism and God's Sovereignty & Human Freedom",
+     "video_id": "dQ7DFaUrxdw"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "For of a truth against thy holy child Jesus, whom thou hast anointed, both Herod, and Pontius Pilate, with the Gentiles, and the people of Israel, were gathered together,",
+    "WEB": "“For truly, both Herod and Pontius Pilate, with the Gentiles and the people of Israel, were gathered together against your holy servant Jesus, whom you anointed,"
+   },
+   "truncated": false
+  },
+  "Acts 4:27-28": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "Today we want to turn our attention to the Arminian account of divine sovereignty and human freedom on the basis of God's foreknowledge of the future. Consider the following biblical passage from Acts chapter 4, verses 27 to 28. For truly in this city there were gathered together against thy holy servant Jesus, both Herod and Pontius Pilate, with the Gentiles and the peoples of Israel to do whatever thy hand and thy plan had predestined to take place.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-07-01T04:16:22Z",
+     "role": "host",
+     "t": 34.4,
+     "title": "Defenders LIVE! // Doctrine of Creation pt 12: Arminianism and God's Sovereignty & Human Freedom",
+     "video_id": "dQ7DFaUrxdw"
     }
    ],
    "creators": {
     "reasonable-faith-org": 1
    },
    "n": 1,
-   "text": {
-    "KJV": "For of a truth against thy holy child Jesus, whom thou hast anointed, both Herod, and Pontius Pilate, with the Gentiles, and the people of Israel, were gathered together,",
-    "WEB": "“For truly, both Herod and Pontius Pilate, with the Gentiles and the people of Israel, were gathered together against your holy servant Jesus, whom you anointed,"
-   },
+   "text": {},
    "truncated": false
   },
   "Acts 4:28": {
@@ -4241,12 +4441,36 @@
      "t": 346.92,
      "title": "Defenders LIVE!! || Evaluating Calvinism and Arminianism // Doctrine of Salvation Part 5",
      "video_id": "G_apu4dRtzE"
+    },
+    {
+     "confidence": 0.5,
+     "context": "Consider the following biblical passage from Acts chapter 4, verses 27 to 28. For truly in this city there were gathered together against thy holy servant Jesus, both Herod and Pontius Pilate, with the Gentiles and the peoples of Israel to do whatever thy hand and thy plan had predestined to take place.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-07-01T04:16:22Z",
+     "role": "host",
+     "t": 42.4,
+     "title": "Defenders LIVE! // Doctrine of Creation pt 12: Arminianism and God's Sovereignty & Human Freedom",
+     "video_id": "dQ7DFaUrxdw"
+    },
+    {
+     "confidence": 0.5,
+     "context": "Could the Armenian say that? Well, it seems to me that he would. It says that they were gathered together to do whatever thy hand and thy plan had predestined to take place. Well, how can people be predestined to do something if God doesn't even know that those people would exist or wouldn't doesn't know what they would do?",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-07-01T04:16:22Z",
+     "role": "host",
+     "t": 715.52,
+     "title": "Defenders LIVE! // Doctrine of Creation pt 12: Arminianism and God's Sovereignty & Human Freedom",
+     "video_id": "dQ7DFaUrxdw"
     }
    ],
    "creators": {
-    "reasonable-faith-org": 1
+    "reasonable-faith-org": 3
    },
-   "n": 1,
+   "n": 3,
    "text": {
     "KJV": "For to do whatsoever thy hand and thy counsel determined before to be done.",
     "WEB": "to do whatever your hand and your counsel foreordained to happen."
@@ -5076,6 +5300,31 @@
    "text": {
     "KJV": "Then said the Lord to him, Put off thy shoes from thy feet: for the place where thou standest is holy ground.",
     "WEB": "The Lord said to him, ‘Take off your sandals, for the place where you stand is holy ground."
+   },
+   "truncated": false
+  },
+  "Acts 7:34": {
+   "citations": [
+    {
+     "confidence": 0.8375,
+     "context": "But God heard their cry, and he had a more effective solution. And I I so love the moment when Moses encounters God at Mount Sinai with the burning bush. Because when God shows up, he says to Moses, I have indeed seen the misery of my people in Egypt, and I have heard them crying out because of their slave drivers, and I am concerned about their suffering. So I have come down to rescue them from the hand of the Egyptians and to bring them up out of that land.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-04-02T16:00:06Z",
+     "role": "unknown",
+     "t": 860.72,
+     "title": "Why Does God Allow Suffering? | Courageous Conversations Pop Up LA",
+     "video_id": "6j2yIEDKVVg"
+    }
+   ],
+   "creators": {
+    "jude-3-project": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "I have seen, I have seen the affliction of my people which is in Egypt, and I have heard their groaning, and am come down to deliver them. And now come, I will send thee into Egypt.",
+    "WEB": "I have surely seen the affliction of my people who are in Egypt, and have heard their groaning. I have come down to deliver them. Now come, I will send you into Egypt.’"
    },
    "truncated": false
   },
