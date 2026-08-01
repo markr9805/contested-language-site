@@ -5,7 +5,7 @@
     "cite_key": "1bde791877d11e99d7c00c3e061a2e1f15f41c1041b08913020162c6cbaaaeba",
     "context": "So it's true, uh, but so what? 1,993 years ago this Sunday, Jesus rose from the dead. So what? Well, the best news of all, someone actually did die for you. And as he said, the Son of Man did not come to be served but to serve and to give his life as a ransom for many. A ransom. What does that mean? He sacrificed his perfect self who had never sinned for us.",
     "creator": "cross-examined",
-    "dist": 0.3167,
+    "dist": 0.3143,
     "published_at": "2026-04-01T02:32:11Z",
     "role": "host",
     "t": 4803.48,
@@ -29,7 +29,7 @@
     "cite_key": "bfdbebbcefefffb6f97a63c32bb8bc2c75d62f84468b2b833ba2d7f858b1b89b",
     "context": "They're not inventing this. That's the best evidence for me that Jesus really did rise from the dead. So, it's really true. So, what if it's true? Well, as Elisa said, the Son of Man did not come to be served but to serve and to give his life as a ransom for many. As a ransom? What's that even mean? A ransom. Well, I'll let Charlie tell you the import of all this.",
     "creator": "cross-examined",
-    "dist": 0.3466,
+    "dist": 0.3471,
     "published_at": "2026-05-01T03:30:31Z",
     "role": "host",
     "t": 4874.56,
@@ -41,7 +41,7 @@
     "cite_key": "1e1ff89f1c1ed97c9f6c82217fa7dc7dc962b7f19662d27bccfd39b3df227dc7",
     "context": "None of that's gonna cut it. It's whether or not you repent and you ask Christ to come in as your Lord and Savior. That's the only thing that will save you from eternal damn. Because this is why Jesus came. The Son of Man did not come to be served, but to serve and to give his life as a ransom for many. A ransom. Why does he have to pay a ransom? Because since God is infinitely just, he can't allow unjust creatures like me and you to go unpunished. If he did, he wouldn't be just.",
     "creator": "cross-examined",
-    "dist": 0.3489,
+    "dist": 0.3535,
     "published_at": "2026-03-25T03:51:46Z",
     "role": "host",
     "t": 4496.88,
@@ -53,7 +53,7 @@
     "cite_key": "76ffe2ba695045040e2f4f290114897539a5f185fae74b9af34d69da5f400377",
     "context": "Yes. We just talked about three out of more than ten reasons to believe this. But yes, there's good evidence that Jesus actually rose from the dead. But why did he rise from the dead? Why did he even come? He tells us. For the Son of Man did not come to be served, but to serve and to give his life as a ransom for many. A ransom. What is that about? Every other religion thinks that you have to work your way to God.",
     "creator": "cross-examined",
-    "dist": 0.3633,
+    "dist": 0.37,
     "published_at": "2026-03-12T01:52:52Z",
     "role": "host",
     "t": 3715.24,
@@ -80,6 +80,14 @@
  "groupings": {
   "creator": {
    "cells": {
+    "capturing-christianity": {
+     "counts": [
+      1,
+      0
+     ],
+     "n": 1,
+     "status": "insufficient-data"
+    },
     "cross-examined": {
      "counts": [
       8,
@@ -111,14 +119,14 @@
    "cells": {
     "overall": {
      "counts": [
-      9,
+      10,
       1
      ],
      "dist": [
-      0.9,
-      0.1
+      0.9091,
+      0.0909
      ],
-     "n": 10,
+     "n": 11,
      "status": "ok"
     }
    },
@@ -136,10 +144,10 @@
     },
     "unknown": {
      "counts": [
-      1,
+      2,
       0
      ],
-     "n": 1,
+     "n": 2,
      "status": "insufficient-data"
     }
    },
@@ -147,6 +155,14 @@
   },
   "year": {
    "cells": {
+    "2024": {
+     "counts": [
+      1,
+      0
+     ],
+     "n": 1,
+     "status": "insufficient-data"
+    },
     "2025": {
      "counts": [
       2,
@@ -168,8 +184,8 @@
   }
  },
  "k": 2,
- "n": 10,
- "silhouette": 0.2422,
+ "n": 11,
+ "silhouette": 0.2416,
  "status": "ok",
  "verse_ref": "Matthew 20:28"
 }

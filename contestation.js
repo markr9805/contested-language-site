@@ -318,7 +318,12 @@ function renderVerdictGroups() {
 function renderCandidateList() {
   const wrap = $("candidate-list");
   wrap.replaceChildren();
-  const sorted = state.candidates.slice().sort((a, b) => b.rank - a.rank);
+  // Preserve the EXPORT's order rather than re-sorting. It orders by keyness
+  // deliberately (#101): the `rank` score is anti-correlated with being a
+  // concept at all — it buries `biblical inerrancy` at position 1500 — and
+  // re-sorting here by rank silently undid that, putting `christian
+  // apologists` sixth behind `right or wrong`.
+  const sorted = state.candidates;
 
   // Say what this pool is and is not, in the panel rather than only in a
   // tooltip — a reader who never hovers is exactly the reader who would take
@@ -343,7 +348,16 @@ function renderCandidateList() {
   for (const c of sorted) {
     const b = el("button", "term-btn");
     b.type = "button";
-    b.append(el("span", "", c.surface), el("span", "n", c.rank.toFixed(2)));
+    // Show the score the list is ORDERED by. Showing `rank` beside a
+    // keyness ordering reads as a sorting bug.
+    const score = c.keyness != null ? c.keyness.toFixed(1) : c.rank.toFixed(2);
+    const n = el("span", "n tip", score);
+    n.dataset.tip = c.keyness != null
+      ? "Keyness: how much more this phrase is used here than in general "
+        + "English. The pool is ordered by it, because the ranking score is "
+        + "anti-correlated with being a concept at all."
+      : "Layer-2 rank (balance x divergence x dispersion).";
+    b.append(el("span", "", c.surface), n);
     b.dataset.candidate = c.surface;
     b.setAttribute("aria-current", "false");
     b.addEventListener("click", () => selectCandidate(c.surface));

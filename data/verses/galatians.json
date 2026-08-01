@@ -421,6 +421,18 @@
      "video_id": "9mZktW3XyuE"
     },
     {
+     "confidence": 0.8068,
+     "context": "His perfect justice in punishing sin, and his unconditional love in offering forgiveness to all. This righteousness is given through faith in Jesus Christ to all who believe.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-04-03T14:00:06Z",
+     "role": "host",
+     "t": 558.84,
+     "title": "God Is Morally Perfect",
+     "video_id": "AOh9vtMCdMQ"
+    },
+    {
      "confidence": null,
      "context": "In Galatians chapter 2, verse 16, he says that a person is justified through their faith. We have believed in order to be justified by faith. In Philippians chapter 1, verse 29, it says, It has been granted to you to believe in him.",
      "creator": "darante-lamar",
@@ -434,9 +446,10 @@
     }
    ],
    "creators": {
-    "darante-lamar": 2
+    "darante-lamar": 2,
+    "drcraigvideos": 1
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "Knowing that a man is not justified by the works of the law, but by the faith of Jesus Christ, even we have believed in Jesus Christ, that we might be justified by the faith of Christ, and not by the works of the law: for by the works of the law shall no flesh be justified.",
     "WEB": "yet knowing that a man is not justified by the works of the law but through faith in Jesus Christ, even we believed in Christ Jesus, that we might be justified by faith in Christ and not by the works of the law, because no flesh will be justified by the works of the law."
@@ -886,6 +899,31 @@
    "text": {
     "KJV": "Is the law then against the promises of God? God forbid: for if there had been a law given which could have given life, verily righteousness should have been by the law.",
     "WEB": "Is the law then against the promises of God? Certainly not! For if there had been a law given which could make alive, most certainly righteousness would have been of the law."
+   },
+   "truncated": false
+  },
+  "Galatians 3:22": {
+   "citations": [
+    {
+     "confidence": 0.8425,
+     "context": "His perfect justice in punishing sin, and his unconditional love in offering forgiveness to all. This righteousness is given through faith in Jesus Christ to all who believe.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-04-03T14:00:06Z",
+     "role": "host",
+     "t": 558.84,
+     "title": "God Is Morally Perfect",
+     "video_id": "AOh9vtMCdMQ"
+    }
+   ],
+   "creators": {
+    "drcraigvideos": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But the scripture hath concluded all under sin, that the promise by faith of Jesus Christ might be given to them that believe.",
+    "WEB": "But the Scripture imprisoned all things under sin, that the promise by faith in Jesus Christ might be given to those who believe."
    },
    "truncated": false
   },
@@ -2294,6 +2332,31 @@
    "text": {
     "KJV": "Ye see how large a letter I have written unto you with mine own hand.",
     "WEB": "See with what large letters I write to you with my own hand."
+   },
+   "truncated": false
+  },
+  "Galatians 6:14": {
+   "citations": [
+    {
+     "confidence": 0.8198,
+     "context": "So ironically, the very righteousness that once condemned us now becomes the source of our pardon and salvation. Thus, it's in the cross of Christ that we see the clearest expression of both aspects of God's righteousness. His perfect justice in punishing sin, and his unconditional love in offering forgiveness to all.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-04-03T14:00:06Z",
+     "role": "host",
+     "t": 538.0,
+     "title": "God Is Morally Perfect",
+     "video_id": "AOh9vtMCdMQ"
+    }
+   ],
+   "creators": {
+    "drcraigvideos": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But God forbid that I should glory, save in the cross of our Lord Jesus Christ, by whom the world is crucified unto me, and I unto the world.",
+    "WEB": "But far be it from me to boast except in the cross of our Lord Jesus Christ, through which the world has been crucified to me, and I to the world."
    },
    "truncated": false
   },

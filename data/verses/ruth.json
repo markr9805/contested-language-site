@@ -1,6 +1,31 @@
 {
  "book": "Ruth",
  "verses": {
+  "Ruth 1:16": {
+   "citations": [
+    {
+     "confidence": 0.5833,
+     "context": "And then there are little chiasms that occur over the space of a few verses. Um, like for example, in the book of Ruth. This has probably been read at a wedding. Um, where Ruth says, Where you go, I will go, and where you stay, I will stay. Your people will be my people, and your God, my God. Where you die, I will die, and where and there I will be buried.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-11-19T02:00:06Z",
+     "role": "host",
+     "t": 2176.32,
+     "title": "Jesus in the Old Testament? Look for These Clues! Plus Q&A",
+     "video_id": "yTMJPyvieHs"
+    }
+   ],
+   "creators": {
+    "cross-examined": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And Ruth said, Entreat me not to leave thee, or to return from following after thee: for whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God:",
+    "WEB": "Ruth said, “Don’t urge me to leave you, and to return from following you, for where you go, I will go; and where you stay, I will stay. Your people will be my people, and your God my God."
+   },
+   "truncated": false
+  },
   "Ruth 4:18-22": {
    "citations": [
     {

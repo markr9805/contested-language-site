@@ -485,6 +485,18 @@
      "video_id": "A1U-WvkqteE"
     },
     {
+     "confidence": 0.8274,
+     "context": "The resurrection comes up in this next clip. Here it is. You you have to take the whole package because I mean you talked about Jesus rising from the dead. You don't believe Jesus rose from the dead, surely. Um I choose to believe that Jesus rose from the dead. You choose to believe it. Yes, and that is a matter of choice.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-07-12T18:51:59Z",
+     "role": "unknown",
+     "t": 317.76,
+     "title": "Part Two - Dialogue Between Ayaan Hirsi Ali & Richard Dawkins",
+     "video_id": "ADPR_2vCv6E"
+    },
+    {
      "confidence": 0.68,
      "context": "Romans 10 9, but anything else? What about polytheists who believe it? Or if someone said, Yes, Lord Jesus died and rose, but his death wasn't for our sin. All right, let's look at Romans 10 9. It says, if you confess with your mouth the Lord Jesus and believe in your heart that God raised him from the dead, you will be saved. Okay. Um that's true. But was it meant to be interpreted in a minimalistic fashion?",
      "creator": "mike-winger",
@@ -710,9 +722,9 @@
     "jude-3-project": 1,
     "mike-winger": 2,
     "mindshift": 1,
-    "reasonable-faith-org": 7
+    "reasonable-faith-org": 8
    },
-   "n": 28,
+   "n": 29,
    "text": {
     "KJV": "That if thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved.",
     "WEB": "that if you will confess with your mouth that Jesus is Lord and believe in your heart that God raised him from the dead, you will be saved."
@@ -1289,6 +1301,18 @@
   "Romans 11:34": {
    "citations": [
     {
+     "confidence": 0.8299,
+     "context": "I mean, surely we it seems like just I just finished the point before you come back. It seems to me your argument forces us to say, well, we don't know. Who are we to know the mind of the Lord? You know, and how do we know what our judgments resemble God's? Surely, in that case, I talk about this in my book, and I I I compared it to the wonderful example of Philip from the novelist Philip Pullman's His Dark Materials, where he goes into the afterworld and you know he doesn't like religion, Philip Pullman.",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-10-23T09:31:40Z",
+     "role": "host",
+     "t": 6135.44,
+     "title": "Does Evil Rule Out Omni-God? Goff vs. Hendricks",
+     "video_id": "0Vu7PcvU8Z4"
+    },
+    {
      "confidence": 0.6667,
      "context": "Um anyway, it it goes on. I'll just finish the chapter. Oh, the depth of the riches and wisdom and knowledge of God, how unsearchable are his judgments, and how inscrutable his ways. For who has known the mind of the Lord, who has been his counselor, who has given a gift to him that he might be repaid? For from him and through him and to him are all things to him be glory forever. Amen.",
      "creator": "mike-winger",
@@ -1302,9 +1326,10 @@
     }
    ],
    "creators": {
+    "capturing-christianity": 1,
     "mike-winger": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "For who hath known the mind of the Lord? or who hath been his counsellor?",
     "WEB": "“For who has known the mind of the Lord? Or who has been his counselor?”"
@@ -2973,15 +2998,39 @@
      "t": 3465.16,
      "title": "Why Does God Allow Suffering? | Courageous Conversations Pop Up LA",
      "video_id": "6j2yIEDKVVg"
+    },
+    {
+     "confidence": null,
+     "context": "We believe it's a product of an orderly mind. And we believe that mind is is in God Himself. The Bible tells us in Romans 1 verse 20, I believe it is that the things that about God can be understood understood through the things that are made. For since the creation of the world, his invisible attributes are clearly seen, being understood by the things that are made.",
+     "creator": "capturing-christianity",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-08-16T20:06:39Z",
+     "role": "unknown",
+     "t": 198.84,
+     "title": "I Challenged a Christian Hotline with Atheist Arguments!",
+     "video_id": "pvxCUjoNaMM"
+    },
+    {
+     "confidence": 0.6875,
+     "context": "We believe it's a product of an orderly mind. And we believe that mind is is in God Himself. The Bible tells us in Romans 1 verse 20, I believe it is that the things that about God can be understood understood through the things that are made. For since the creation of the world, his invisible attributes are clearly seen, being understood by the things that are made.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-08-16T20:06:39Z",
+     "role": "unknown",
+     "t": 198.84,
+     "title": "I Challenged a Christian Hotline with Atheist Arguments!",
+     "video_id": "pvxCUjoNaMM"
     }
    ],
    "creators": {
     "belief-it-or-not": 1,
-    "capturing-christianity": 1,
+    "capturing-christianity": 3,
     "jude-3-project": 1,
     "mike-winger": 1
    },
-   "n": 4,
+   "n": 6,
    "text": {
     "KJV": "For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made, even his eternal power and Godhead; so that they are without excuse:",
     "WEB": "For the invisible things of him since the creation of the world are clearly seen, being perceived through the things that are made, even his everlasting power and divinity, that they may be without excuse."
@@ -4089,6 +4138,18 @@
      "video_id": "3F_IZAOnqBA"
     },
     {
+     "confidence": 0.896,
+     "context": "His perfect justice in punishing sin, and his unconditional love in offering forgiveness to all. This righteousness is given through faith in Jesus Christ to all who believe.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-04-03T14:00:06Z",
+     "role": "host",
+     "t": 558.84,
+     "title": "God Is Morally Perfect",
+     "video_id": "AOh9vtMCdMQ"
+    },
+    {
      "confidence": 0.5,
      "context": "This is all based upon the principle of faith that Paul explains back in Romans 3 and 4, with respect to Abraham himself. So in Romans 3, verses 21 and following, Paul writes, but now the righteousness of God has been manifested apart from law, although the law and the prophets bear witness to it. The righteousness of God through faith in Jesus Christ for all who believe.",
      "creator": "drcraigvideos",
@@ -4126,11 +4187,11 @@
     }
    ],
    "creators": {
-    "drcraigvideos": 1,
+    "drcraigvideos": 2,
     "prophet-of-zod": 1,
     "reasonable-faith-org": 2
    },
-   "n": 4,
+   "n": 5,
    "text": {
     "KJV": "Even the righteousness of God which is by faith of Jesus Christ unto all and upon all them that believe: for there is no difference:",
     "WEB": "even the righteousness of God through faith in Jesus Christ to all and on all those who believe. For there is no distinction,"
@@ -5829,6 +5890,31 @@
    "text": {
     "KJV": "For as by one man's disobedience many were made sinners, so by the obedience of one shall many be made righteous.",
     "WEB": "For as through the one man’s disobedience many were made sinners, even so through the obedience of the one, many will be made righteous."
+   },
+   "truncated": false
+  },
+  "Romans 5:2": {
+   "citations": [
+    {
+     "confidence": 0.8274,
+     "context": "Here, Peter says that it is by God's mercy that we have been born anew into this living hope in which we stand and to an inheritance in heaven that we have waiting for us.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-01-26T06:51:52Z",
+     "role": "host",
+     "t": 514.4,
+     "title": "Doctrine of Salvation Part 10: What Is \"Born Again?\" || Defenders LIVE!",
+     "video_id": "A9sgZclKIko"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "By whom also we have access by faith into this grace wherein we stand, and rejoice in hope of the glory of God.",
+    "WEB": "through whom we also have our access by faith into this grace in which we stand. We rejoice in hope of the glory of God."
    },
    "truncated": false
   },
@@ -7760,6 +7846,31 @@
    },
    "truncated": false
   },
+  "Romans 8:26": {
+   "citations": [
+    {
+     "confidence": 0.9167,
+     "context": "And I don't think that Jesus only prayed, and don't think that Jesus only prayed for Peter because guess what he's praying for you too. We have both the Spirit of God and the Son of God making intercession for us. I have a text to back that up. Romans 8 26. Likewise, the Spirit helps us in our weaknesses, for we do not know what we ought to pray, but the Spirit Himself does what intercedes for us. I have another one. Romans 8 34, Christ Jesus is the one who died, and more than that, who was raised, who was at the right hand of God, who was indeed interceding for us.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-05-29T19:58:05Z",
+     "role": "host",
+     "t": 1214.84,
+     "title": "The Gospel for The Fallen",
+     "video_id": "AW0Yg61TWWA"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Likewise the Spirit also helpeth our infirmities: for we know not what we should pray for as we ought: but the Spirit itself maketh intercession for us with groanings which cannot be uttered.",
+    "WEB": "In the same way, the Spirit also helps our weaknesses, for we don’t know how to pray as we ought. But the Spirit himself makes intercession for us with groanings which can’t be uttered."
+   },
+   "truncated": false
+  },
   "Romans 8:27": {
    "citations": [
     {
@@ -7871,15 +7982,27 @@
      "t": 2668.84,
      "title": "'Change My Mind' LIVE Q&A from the Univ. of New Mexico (Albuquerque, NM)",
      "video_id": "g1D-MdFqkxc"
+    },
+    {
+     "confidence": 0.5,
+     "context": "Here's another passage often quoted. Suffering will bring a greater good from Romans 8. And we know that all things work together for good. Notice it doesn't say all things are good. Murdering Charlie Kirk was not good. But we know that all things work together for good to those who love God and are called according to his purpose to be conformed to the image of his son. We always leave that part out.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-11-14T02:44:52Z",
+     "role": "host",
+     "t": 2761.44,
+     "title": "If God, Why Evil? A Q&A in Honor of My Friend Charlie Kirk - from the Univ. of Alabama",
+     "video_id": "yVkvnSOie48"
     }
    ],
    "creators": {
-    "cross-examined": 3,
+    "cross-examined": 4,
     "darante-lamar": 1,
     "drcraigvideos": 1,
     "reasonable-faith-org": 1
    },
-   "n": 6,
+   "n": 7,
    "text": {
     "KJV": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose.",
     "WEB": "We know that all things work together for good for those who love God, for those who are called according to his purpose."
@@ -8030,13 +8153,26 @@
      "t": 565.88,
      "title": "NEW SECTION! The Doctrine of Salvation // pt 1: What Is Election? || Defenders LIVE!",
      "video_id": "8-B7DDlhC0Y"
+    },
+    {
+     "confidence": 0.907,
+     "context": "We might not know what kind of death we will have, like Peter, who was martyred on a cross while hanging upside down, but we have just as much hope for our future as he does. Why? Because he who started a good work in us will finish it. Why? Because those whom he predestined, he also called, and those whom he called, he also justified, and those whom he justified, he also glorified. How? Because to him who was able to keep you from stumbling and to present you faultless and blameless before his presence with great joy.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2019-05-29T19:58:05Z",
+     "role": "host",
+     "t": 1098.32,
+     "title": "The Gospel for The Fallen",
+     "video_id": "AW0Yg61TWWA"
     }
    ],
    "creators": {
+    "jackie-hill-perry": 1,
     "mindshift": 1,
     "reasonable-faith-org": 1
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "Moreover whom he did predestinate, them he also called: and whom he called, them he also justified: and whom he justified, them he also glorified.",
     "WEB": "Whom he predestined, those he also called. Whom he called, those he also justified. Whom he justified, those he also glorified."
@@ -8113,6 +8249,31 @@
    },
    "n": 1,
    "text": {},
+   "truncated": false
+  },
+  "Romans 8:34": {
+   "citations": [
+    {
+     "confidence": 0.8799,
+     "context": "I have a text to back that up. Romans 8 26. Likewise, the Spirit helps us in our weaknesses, for we do not know what we ought to pray, but the Spirit Himself does what intercedes for us. I have another one. Romans 8 34, Christ Jesus is the one who died, and more than that, who was raised, who was at the right hand of God, who was indeed interceding for us. I don't know about you. But that does something to me to know that Jesus not only lived the life I could live or died the death that I deserve and resurrected from the grave so that I can have eternal life, but he is also praying for me to get there, to make it, to keep going, to keep fighting, to keep getting back up.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-05-29T19:58:05Z",
+     "role": "host",
+     "t": 1223.32,
+     "title": "The Gospel for The Fallen",
+     "video_id": "AW0Yg61TWWA"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Who is he that condemneth? It is Christ that died, yea rather, that is risen again, who is even at the right hand of God, who also maketh intercession for us.",
+    "WEB": "Who is he who condemns? It is Christ who died, yes rather, who was raised from the dead, who is at the right hand of God, who also makes intercession for us."
+   },
    "truncated": false
   },
   "Romans 8:35": {

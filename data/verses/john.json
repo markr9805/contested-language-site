@@ -151,6 +151,31 @@
    },
    "truncated": false
   },
+  "John 10:25": {
+   "citations": [
+    {
+     "confidence": 0.7889,
+     "context": "I'm ascending to my Father and your Father to my God and your God. For us, there is one God, the Father, the God and Father of the Lord Jesus Christ. And then the last one says, I've come in my father's name and you do not accept me. Um, if another comes in uh his own name, you will accept him. How can you believe when you accept glory from one another and do not seek the glory that comes from the one who alone is God? So on the one hand, we seem to have terminology where God is ascribed to the Son and the Spirit, but then we also have this restriction of the usage of the word God to being the Father, saying He's the only true God or the one who alone is God, and that's speaking about the Father.",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-10-25T21:41:36Z",
+     "role": "unknown",
+     "t": 6497.96,
+     "title": "Monarchical Trinity VS Thomistic Trinity: Which View Prevails?",
+     "video_id": "8AuORf-bJzo"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Jesus answered them, I told you, and ye believed not: the works that I do in my Father's name, they bear witness of me.",
+    "WEB": "Jesus answered them, “I told you, and you don’t believe. The works that I do in my Father’s name, these testify about me."
+   },
+   "truncated": false
+  },
   "John 10:27": {
    "citations": [
     {
@@ -1032,12 +1057,25 @@
      "t": 769.16,
      "title": "Anything But Christianity? Answering College Students' Toughest Objections with @givemeananswer",
      "video_id": "4FLGY1sFsQc"
+    },
+    {
+     "confidence": 0.8965,
+     "context": "And when Martha says it, it's a theological objection. She's grappling with the reality of the resurrection in which she believes and trying to make sense of why why this happened. And so Jesus talks to her theologically about the resurrection, that he is the resurrection and the life. In contrast, when Mary says verbatim the same thing, she says it while weeping. And so Jesus doesn't go on like a theological discurses with her.",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-08-02T22:19:04Z",
+     "role": "host",
+     "t": 1487.04,
+     "title": "Are Christians OVERREACTING to the Olympics Mockery?",
+     "video_id": "8a6R1fey4WE"
     }
    ],
    "creators": {
+    "capturing-christianity": 1,
     "cross-examined": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Jesus said unto her, I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live:",
     "WEB": "Jesus said to her, “I am the resurrection and the life. He who believes in me will still live, even if he dies."
@@ -2877,12 +2915,25 @@
      "t": 414.44,
      "title": "How Christians Try to Explain Away the Unforgivable Sin",
      "video_id": "_baPx1pRxT8"
+    },
+    {
+     "confidence": 0.6,
+     "context": "That's the problem. That's yeah, yeah. He would say I will I will say he thinks that like the eternal generation is not in the Bible, but I mean like John 5 26, for as the father has life in himself, he so he has granted the son also to have life in himself. And you could say, well, maybe that means I think it's hard to get around that, but it's really hard to get around John 1526 when it says, but when the helper comes, whom I will send to you from the father, the spirit of truth, who proceeds from the father. So I mean, right then and there, you get the the eternal generation right there of son and spirit in the gospel of John.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-09-20T04:03:44Z",
+     "role": "unattributed",
+     "t": 2478.04,
+     "title": "Craig vs. Hijab DEBATE REVIEW w/ Bertuzzi, Wood, AP, & IP",
+     "video_id": "gG4yfTO_1Yg"
     }
    ],
    "creators": {
+    "capturing-christianity": 1,
     "prophet-of-zod": 4
    },
-   "n": 4,
+   "n": 5,
    "text": {
     "KJV": "But when the Comforter is come, whom I will send unto you from the Father, even the Spirit of truth, which proceedeth from the Father, he shall testify of me:",
     "WEB": "“When the Counselor has come, whom I will send to you from the Father, the Spirit of truth, who proceeds from the Father, he will testify about me."
@@ -3940,6 +3991,18 @@
      "video_id": "78XsxPdjm-w"
     },
     {
+     "confidence": 0.8867,
+     "context": "What I'm asking is that how in this sense do we get us out of tritheism? And some of the verses that you uh bring here, like John 17, 3, for example. Um, so and this eternal life that you uh they may know the only true God in Jesus Christ whom you have sent. It uh it's so interesting because when you go and read the fathers, when they comment on this verse, they never say that this uh referring exclusively to the Father. All they say is that the only true God applies to all three here, and it is only meant to distinguish him from pagan deities.",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-10-25T21:41:36Z",
+     "role": "unknown",
+     "t": 6762.32,
+     "title": "Monarchical Trinity VS Thomistic Trinity: Which View Prevails?",
+     "video_id": "8AuORf-bJzo"
+    },
+    {
      "confidence": 0.7778,
      "context": "It's actually a later tradition of the church that comes comes about. Now if you go to the next slide, I mean we could just go to Jesus though, right? We could ask him who is the one true God? Jesus, who's the one true God? Well, he said in John 17, 3 that this is life eternal, that they might know thee, the only true God. So he's referencing the Father here and Jesus Christ, whom thou hast sent, right? But he is making a distinction between himself and the only true God being the Father.",
      "creator": "capturing-christianity",
@@ -4001,11 +4064,11 @@
     }
    ],
    "creators": {
-    "capturing-christianity": 4,
+    "capturing-christianity": 5,
     "cross-examined": 3,
     "reasonable-faith-org": 1
    },
-   "n": 8,
+   "n": 9,
    "text": {
     "KJV": "And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent.",
     "WEB": "This is eternal life, that they should know you, the only true God, and him whom you sent, Jesus Christ."
@@ -4399,6 +4462,18 @@
      "video_id": "6j2yIEDKVVg"
     },
     {
+     "confidence": 0.9286,
+     "context": "So I've sort of broken this down here. The first one is speaking about the divinity of the persons, and the other one's speaking about the father being the one God. So if I just go through these scriptures, I just want you to then make sense of it without falling into the position that myself and Bo putting forward. It says, In the beginning was the word, and the word was with God, and the word was God. So we have there predication or at least a referring expression of God to the word, and the word became flesh. Then we have another verse which says, Christ Jesus who was in the form of God and count equality with God.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-10-25T21:41:36Z",
+     "role": "unattributed",
+     "t": 6427.4,
+     "title": "Monarchical Trinity VS Thomistic Trinity: Which View Prevails?",
+     "video_id": "8AuORf-bJzo"
+    },
+    {
      "confidence": 0.8571,
      "context": "Let's move on to number nine. Realizing that Christianity had replaced logic with logos, I perceived that my religious life was likely not the beginning was the word, and the word was with God, and the word was God.",
      "creator": "darante-lamar",
@@ -4543,6 +4618,18 @@
      "video_id": "ax0vVVIEW6U"
     },
     {
+     "confidence": 0.5714,
+     "context": "But I mean, like again, you go to Benjamin Somer, uh his book, The Bodies of God, he very much says, like, you know, well, the God we see in the Old Testament is very much consistent with the God of the New Testament because it's a multipersonal God here. Yeah, and uh it's uh it for for anyone who wants basically a timeline, it would have been it would have been fair, it would have been pretty unsurprising in the first century among Jews to be talking about God and the word and the spirit and so on.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-09-20T04:03:44Z",
+     "role": "host",
+     "t": 6200.88,
+     "title": "Craig vs. Hijab DEBATE REVIEW w/ Bertuzzi, Wood, AP, & IP",
+     "video_id": "gG4yfTO_1Yg"
+    },
+    {
      "confidence": 0.9286,
      "context": "For example, Matthew 28 19 records Jesus commanding his disciples to baptize, quote, in the name of the Father and of the Son and of the Holy Spirit. By the way, it's pretty interesting to note here that the Quran never actually identifies the Holy Spirit as a member of the Trinity. Then we have John 1 1, which says, In the beginning was the Word, and the Word was with God, and the Word was God. The Quran, in every Muslim that I've actually met, rejects this teaching of the Trinity completely. Whether the Quran actually fully understands the Christian concept of the Trinity is an interesting question. It's a little bit secondary though.",
      "creator": "capturing-christianity",
@@ -4553,6 +4640,30 @@
      "t": 297.12,
      "title": "The One Question That Exposes Islam",
      "video_id": "gV0S7tDUtDA"
+    },
+    {
+     "confidence": 0.9286,
+     "context": "Uh where is the verse I'm trying to find? Oh, sorry, not one John One, sorry, John one. Sorry, Javi, John one, sorry. Uh yeah, John one. Okay. Uh, in the beginning was the word, and the word was with God, and the word was God. So this is a very explicit statement of some form of Godhood being given to the being that we call the word. But then it seems to be a problem here if we don't make that equivocation as the monarchical view says that we should, in using the one God for the term as a name for the father, and then God as a predicate for divinity.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-10-09T06:37:39Z",
+     "role": "host",
+     "t": 5290.8,
+     "title": "Refuting the BEST Muslim Objections to the Trinity",
+     "video_id": "grXjsPcXnYU"
+    },
+    {
+     "confidence": 0.6429,
+     "context": "If you do that, it makes sense of this verse. It says, In the beginning was the word, and the word was with God, the God, the fundamental divine source, and the word was divine. So it seems to be able to make sense here. It's using the word God in one sense for the father, uh, he's with God, the father, and it's also using it as a another sense as an adjective for the word.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-10-09T06:37:39Z",
+     "role": "host",
+     "t": 5319.2,
+     "title": "Refuting the BEST Muslim Objections to the Trinity",
+     "video_id": "grXjsPcXnYU"
     },
     {
      "confidence": 0.9286,
@@ -4685,10 +4796,34 @@
      "t": 3320.44,
      "title": "The Quran PROVES Jesus is God (You Won’t Believe This)",
      "video_id": "zAx3Vs_LXLA"
+    },
+    {
+     "confidence": 0.9286,
+     "context": "So it seems to be quite clear according to scripture that the one God is the Father. But then we also find various passages which indicate that there are two other divine beings. And one of the key ones that we'll see, and I'm sort of going to unpack this later as well in further verses. We see things where, for example, it says, In the beginning was the word, and the word was with God, and the word was God, and then the word became flesh. And so we seem to have an identification here of the word who then became flesh of the person of Jesus as God. And then we have verses where the Holy Spirit in this specific verse is actually identified as you see, sort of the end as God.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-10-26T21:54:31Z",
+     "role": "host",
+     "t": 182.76,
+     "title": "1 Catholic Chad Defends the Trinity Against Muslim and Protestant Scholars",
+     "video_id": "zdv27Ptp7iI"
+    },
+    {
+     "confidence": 0.9286,
+     "context": "But just to start off, we're going to look at some clear verses that seem to ascribe divinity to the Son. So we have here the first one which we've looked at already. In the beginning was the word, and the word was with God, and the Word was God, and the Word became flesh and lived among us. So it seems to you the Word was ascribed with being God there. The second one is have this mind among yourselves, which is yours in Christ Jesus, who, though he was in the form of God, did not count equality with God a thing to be grasped.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-10-26T21:54:31Z",
+     "role": "host",
+     "t": 1206.6,
+     "title": "1 Catholic Chad Defends the Trinity Against Muslim and Protestant Scholars",
+     "video_id": "zdv27Ptp7iI"
     }
    ],
    "creators": {
-    "capturing-christianity": 13,
+    "capturing-christianity": 19,
     "counsel-of-trent": 2,
     "darante-lamar": 2,
     "drcraigvideos": 3,
@@ -4698,7 +4833,7 @@
     "reasonable-faith-org": 3,
     "shannon-q": 1
    },
-   "n": 29,
+   "n": 35,
    "text": {
     "KJV": "In the beginning was the Word, and the Word was with God, and the Word was God.",
     "WEB": "In the beginning was the Word, and the Word was with God, and the Word was God."
@@ -5010,6 +5145,18 @@
      "video_id": "6j2yIEDKVVg"
     },
     {
+     "confidence": 0.8526,
+     "context": "So I've sort of broken this down here. The first one is speaking about the divinity of the persons, and the other one's speaking about the father being the one God. So if I just go through these scriptures, I just want you to then make sense of it without falling into the position that myself and Bo putting forward. It says, In the beginning was the word, and the word was with God, and the word was God. So we have there predication or at least a referring expression of God to the word, and the word became flesh. Then we have another verse which says, Christ Jesus who was in the form of God and count equality with God.",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-10-25T21:41:36Z",
+     "role": "unattributed",
+     "t": 6427.4,
+     "title": "Monarchical Trinity VS Thomistic Trinity: Which View Prevails?",
+     "video_id": "8AuORf-bJzo"
+    },
+    {
      "confidence": null,
      "context": "And that G, and so what will kill his position is if we show that Jesus, the Son, Jesus. We're talking about Jesus in particular, pre-exists the first century. And so I think of John 1:14. Uh, they talk about how they beheld his glory. Uh here the word became flesh, dealt among us, full of grace and truth. We have beheld his glory, glory as of the only son from the Father. Then that takes us back to John 12, verses 37 through 41, that where he's engaging with the Pharisees.",
      "creator": "counsel-of-trent",
@@ -5023,12 +5170,13 @@
     }
    ],
    "creators": {
+    "capturing-christianity": 1,
     "counsel-of-trent": 1,
     "cross-examined": 1,
     "jackie-hill-perry": 1,
     "jude-3-project": 1
    },
-   "n": 4,
+   "n": 5,
    "text": {
     "KJV": "And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only begotten of the Father,) full of grace and truth.",
     "WEB": "The Word became flesh and lived among us. We saw his glory, such glory as of the only born Son of the Father, full of grace and truth."
@@ -6025,6 +6173,18 @@
   "John 20:17": {
    "citations": [
     {
+     "confidence": 0.8011,
+     "context": "I'm ascending to my Father and your Father to my God and your God. For us, there is one God, the Father, the God and Father of the Lord Jesus Christ. And then the last one says, I've come in my father's name and you do not accept me. Um, if another comes in uh his own name, you will accept him. How can you believe when you accept glory from one another and do not seek the glory that comes from the one who alone is God?",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-10-25T21:41:36Z",
+     "role": "unknown",
+     "t": 6490.6,
+     "title": "Monarchical Trinity VS Thomistic Trinity: Which View Prevails?",
+     "video_id": "8AuORf-bJzo"
+    },
+    {
      "confidence": 0.6486,
      "context": "This is the problem. He did he did that. He did let you know. Can I ask for clarification? No, you can't. No. I'm on to my next question. Go ahead, man. Go ahead. John John 20 and 17. Touch me not, for I'm not your descendant unto my father, but go to my brethren and say unto them, I ascend unto my father and your father, and to my God and your God. Did Christ say that he has a God in this verse? Absolutely. That's the that's the incarnation.",
      "creator": "capturing-christianity",
@@ -6050,10 +6210,10 @@
     }
    ],
    "creators": {
-    "capturing-christianity": 1,
+    "capturing-christianity": 2,
     "reasonable-faith-org": 1
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "Jesus saith unto her, Touch me not; for I am not yet ascended to my Father: but go to my brethren, and say unto them, I ascend unto my Father, and your Father; and to my God, and your God.",
     "WEB": "Jesus said to her, “Don’t hold me, for I haven’t yet ascended to my Father; but go to my brothers and tell them, ‘I am ascending to my Father and your Father, to my God and your God.’”"
@@ -6305,13 +6465,26 @@
      "t": 20.24,
      "title": "Why did Thomas call Jesus God?",
      "video_id": "lNoSOcFSJ7c"
+    },
+    {
+     "confidence": 1.0,
+     "context": "The second one is have this mind among yourselves, which is yours in Christ Jesus, who, though he was in the form of God, did not count equality with God a thing to be grasped. The third one is and not according to Christ, for in him the whole fullness of deity dwells bodily. We have another verse where it says, Thomas answered him, my Lord and my God. Another verse where it says, To those who have obtained a faith of equal standing with ours by the righteousness of our God and Savior Jesus Christ. And replied is taken forty-six years to build this temple, and you're going to raise it in three days.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-10-26T21:54:31Z",
+     "role": "host",
+     "t": 1229.72,
+     "title": "1 Catholic Chad Defends the Trinity Against Muslim and Protestant Scholars",
+     "video_id": "zdv27Ptp7iI"
     }
    ],
    "creators": {
+    "capturing-christianity": 1,
     "counsel-of-trent": 5,
     "drcraigvideos": 2
    },
-   "n": 7,
+   "n": 8,
    "text": {
     "KJV": "And Thomas answered and said unto him, My LORD and my God.",
     "WEB": "Thomas answered him, “My Lord and my God!”"
@@ -6828,6 +7001,31 @@
    },
    "truncated": false
   },
+  "John 21:19": {
+   "citations": [
+    {
+     "confidence": 0.9048,
+     "context": "Jesus said to him, Feed my sheep. Truly, truly, I say to you, when you were young, you used to dress yourself and walk wherever you wanted. But when you are old, you will stretch out your hands, and another will dress you and carry you where you don't want to go. This he said to show him by what kind of death he was to glorify God. And after saying this, he said to him, Follow me. Today we're going to talk about the gospel for the fallen. When Jesus said, If anybody would come after me, let him deny himself and take up his cross and follow me.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-05-29T19:58:05Z",
+     "role": "host",
+     "t": 103.6,
+     "title": "The Gospel for The Fallen",
+     "video_id": "AW0Yg61TWWA"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "This spake he, signifying by what death he should glorify God. And when he had spoken this, he saith unto him, Follow me.",
+    "WEB": "Now he said this, signifying by what kind of death he would glorify God. When he had said this, he said to him, “Follow me.”"
+   },
+   "truncated": false
+  },
   "John 21:24": {
    "citations": [
     {
@@ -6875,6 +7073,56 @@
    "text": {
     "KJV": "But when the morning was now come, Jesus stood on the shore: but the disciples knew not that it was Jesus.",
     "WEB": "But when day had already come, Jesus stood on the beach; yet the disciples didn’t know that it was Jesus."
+   },
+   "truncated": false
+  },
+  "John 21:6": {
+   "citations": [
+    {
+     "confidence": 0.8731,
+     "context": "In John 21, after the resurrection of Jesus, Peter and a few other disciples are fishing. I think it's interesting that Peter went back to work after he denied Jesus. They've been up all night with no fish to show for. Jesus appears on the shore and tells them to cast their nets on the right side of the boat. And when they do it, they get a whole bunch of fish in the boat and they can't even bring the fish in. One of the disciples tell Peter that it's Jesus who's on the shore. Peter, being the impulsive man that he is, jumps into the water and swims towards Jesus.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-05-29T19:58:05Z",
+     "role": "host",
+     "t": 780.2,
+     "title": "The Gospel for The Fallen",
+     "video_id": "AW0Yg61TWWA"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And he said unto them, Cast the net on the right side of the ship, and ye shall find. They cast therefore, and now they were not able to draw it for the multitude of fishes.",
+    "WEB": "He said to them, “Cast the net on the right side of the boat, and you will find some.” They cast it therefore, and now they weren’t able to draw it in for the multitude of fish."
+   },
+   "truncated": false
+  },
+  "John 21:9": {
+   "citations": [
+    {
+     "confidence": 0.8202,
+     "context": "One of the disciples tell Peter that it's Jesus who's on the shore. Peter, being the impulsive man that he is, jumps into the water and swims towards Jesus. If Peter had any shame due to his portrayal, he doesn't anymore. When he gets to the shore, verse 9 says that Jesus has a fire set up with fish and bread for them to eat. Since it was when he was standing near a fire, warming his hands while he was denying his God.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-05-29T19:58:05Z",
+     "role": "host",
+     "t": 802.28,
+     "title": "The Gospel for The Fallen",
+     "video_id": "AW0Yg61TWWA"
+    }
+   ],
+   "creators": {
+    "jackie-hill-perry": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "As soon then as they were come to land, they saw a fire of coals there, and fish laid thereon, and bread.",
+    "WEB": "So when they got out on the land, they saw a fire of coals there, with fish and bread laid on it."
    },
    "truncated": false
   },
@@ -6988,6 +7236,30 @@
   "John 2:19": {
    "citations": [
     {
+     "confidence": 0.8231,
+     "context": "If we don't, they won't be. So that's the first thing. Blasphemy matters. The second thing is what we define as blasphemy, what we describe as blasphemy, has always been a tricky issue to sort of define. And the easy way of seeing this is, for instance, in Mark 14, in verse 64, you may remember Jesus is condemned to death because he's accused of blasphemy for claiming to be the Son of God, God, claiming uh to be able to destroy the temple and in three days rebuild it.",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-08-02T22:19:04Z",
+     "role": "host",
+     "t": 1720.8,
+     "title": "Are Christians OVERREACTING to the Olympics Mockery?",
+     "video_id": "8a6R1fey4WE"
+    },
+    {
+     "confidence": 0.75,
+     "context": "But Jesus was someone who was going around saying, Actually, the temple is myself. And so you see, for example, I've got a verse here, which I just want to say, John 2 19 21, where Jesus said, After uh Jesus clears the temple, he says, Destroy this temple, and in three days I will raise it up. Then it says the Jews misunderstood him, thinking he's talking about the physical temple in Jerusalem.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-10-09T06:37:39Z",
+     "role": "host",
+     "t": 1392.76,
+     "title": "Refuting the BEST Muslim Objections to the Trinity",
+     "video_id": "grXjsPcXnYU"
+    },
+    {
      "confidence": 0.6667,
      "context": "This is what he meant by that. An example would be they ask um Jesus if they'll give a sign that he's allowed to cleanse the temple in John 2. Like, what sign do you give? And he says, Destroy this temple, and in three days I will raise it. John 2. Um, and then John pauses, he hits pause on his narrative, and he said he said this concerning the temple of his body. Because the the rulers of assuming he's talking about the actual temple, Jesus doesn't explain it, that it's a metaphor, but the narrator explains it.",
      "creator": "capturing-christianity",
@@ -7037,10 +7309,10 @@
     }
    ],
    "creators": {
-    "capturing-christianity": 2,
+    "capturing-christianity": 4,
     "counsel-of-trent": 2
    },
-   "n": 4,
+   "n": 6,
    "text": {
     "KJV": "Jesus answered and said unto them, Destroy this temple, and in three days I will raise it up.",
     "WEB": "Jesus answered them, “Destroy this temple, and in three days I will raise it up.”"
@@ -7206,6 +7478,56 @@
    "text": {
     "KJV": "There was a man of the Pharisees, named Nicodemus, a ruler of the Jews:",
     "WEB": "Now there was a man of the Pharisees named Nicodemus, a ruler of the Jews."
+   },
+   "truncated": false
+  },
+  "John 3:10": {
+   "citations": [
+    {
+     "confidence": 0.9418,
+     "context": "So it is with everyone who is born of the Spirit. Nicodemus said to him, How can this be? Jesus answered him, Are you a teacher of Israel, and yet you do not understand this? Truly, truly I say to you, we speak of what we know and bear witness to what we have seen, but you do not receive our testimony.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-01-26T06:51:52Z",
+     "role": "host",
+     "t": 188.52,
+     "title": "Doctrine of Salvation Part 10: What Is \"Born Again?\" || Defenders LIVE!",
+     "video_id": "A9sgZclKIko"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Jesus answered and said unto him, Art thou a master of Israel, and knowest not these things?",
+    "WEB": "Jesus answered him, “Are you the teacher of Israel, and don’t understand these things?"
+   },
+   "truncated": false
+  },
+  "John 3:12": {
+   "citations": [
+    {
+     "confidence": 0.9301,
+     "context": "Truly, truly I say to you, we speak of what we know and bear witness to what we have seen, but you do not receive our testimony. If I have told you earthly things and you do not believe, how can you believe if I tell you heavenly things? No one has ascended into heaven, but he who descended from heaven, the Son of Man. And as Moses lifted up the serpent in the wilderness, so must the Son of Man be lifted up, that whoever believes in him may have eternal life.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-01-26T06:51:52Z",
+     "role": "host",
+     "t": 205.96,
+     "title": "Doctrine of Salvation Part 10: What Is \"Born Again?\" || Defenders LIVE!",
+     "video_id": "A9sgZclKIko"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "If I have told you earthly things, and ye believe not, how shall ye believe, if I tell you of heavenly things?",
+    "WEB": "If I told you earthly things and you don’t believe, how will you believe if I tell you heavenly things?"
    },
    "truncated": false
   },
@@ -7930,12 +8252,24 @@
      "t": 731.12,
      "title": "NEW SECTION! The Doctrine of Salvation // pt 1: What Is Election? || Defenders LIVE!",
      "video_id": "8-B7DDlhC0Y"
+    },
+    {
+     "confidence": 0.9386,
+     "context": "This man came to Jesus by night and said to him, Rabbi, we know that you are a teacher, come from God, for no one can do these signs that you do unless God is with him. Jesus answered him, Truly, truly I say to you, unless one is born anew, he cannot see the kingdom of God. Nicodemus said to him, How can a man be born when he is old?",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-01-26T06:51:52Z",
+     "role": "host",
+     "t": 125.4,
+     "title": "Doctrine of Salvation Part 10: What Is \"Born Again?\" || Defenders LIVE!",
+     "video_id": "A9sgZclKIko"
     }
    ],
    "creators": {
-    "reasonable-faith-org": 1
+    "reasonable-faith-org": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Jesus answered and said unto him, Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God.",
     "WEB": "Jesus answered him, “Most certainly I tell you, unless one is born anew, he can’t see God’s Kingdom.”"
@@ -8146,6 +8480,18 @@
      "video_id": "8-B7DDlhC0Y"
     },
     {
+     "confidence": 0.9638,
+     "context": "Nicodemus said to him, How can a man be born when he is old? Can he enter a second time into his mother's womb and be born? Jesus answered, Truly, truly I say to you, unless one is born of water and the spirit, he cannot enter the kingdom of God. That which is born of the flesh is flesh, and that which is born of the spirit is spirit.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-01-26T06:51:52Z",
+     "role": "host",
+     "t": 146.04,
+     "title": "Doctrine of Salvation Part 10: What Is \"Born Again?\" || Defenders LIVE!",
+     "video_id": "A9sgZclKIko"
+    },
+    {
      "confidence": null,
      "context": "Well, if that person, it sounds like very quickly it would go from John 3:5 to them rejecting the doctrine of baptismal regeneration itself. And unless they become a Protestant who believes infant baptism is for covenantal purposes, they'd probably end up rejecting like infant baptism.",
      "creator": "counsel-of-trent",
@@ -8160,9 +8506,9 @@
    ],
    "creators": {
     "counsel-of-trent": 2,
-    "reasonable-faith-org": 1
+    "reasonable-faith-org": 2
    },
-   "n": 3,
+   "n": 4,
    "text": {
     "KJV": "Jesus answered, Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God.",
     "WEB": "Jesus answered, “Most certainly I tell you, unless one is born of water and Spirit, he can’t enter into God’s Kingdom."
@@ -9255,13 +9601,25 @@
      "t": 9410.76,
      "title": "Triune God vs. Mormon Godhead—Sijuwade Takes On Hansen 🔴 LIVE Debate",
      "video_id": "F9odeiESS8Q"
+    },
+    {
+     "confidence": 0.5556,
+     "context": "I would say uh Craig, I would say that someone did say a super chat earlier and they brought up Craig. I do I do think Craig's rejection of the uh of the Nicene Creed is problematic. And I don't I don't understand where it's like, but but it had nothing to do with the debate. That's the problem. That's yeah, yeah. He would say I will I will say he thinks that like the eternal generation is not in the Bible, but I mean like John 5 26, for as the father has life in himself, he so he has granted the son also to have life in himself. And you could say, well, maybe that means I think it's hard to get around that, but it's really hard to get around John 1526 when it says, but when the helper comes, whom I will send to you from the father, the spirit of truth, who proceeds from the father.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-09-20T04:03:44Z",
+     "role": "unknown",
+     "t": 2466.76,
+     "title": "Craig vs. Hijab DEBATE REVIEW w/ Bertuzzi, Wood, AP, & IP",
+     "video_id": "gG4yfTO_1Yg"
     }
    ],
    "creators": {
-    "capturing-christianity": 1,
+    "capturing-christianity": 2,
     "reasonable-faith-org": 2
    },
-   "n": 3,
+   "n": 4,
    "text": {
     "KJV": "For as the Father hath life in himself; so hath he given to the Son to have life in himself;",
     "WEB": "For as the Father has life in himself, even so he gave to the Son also to have life in himself."
@@ -9456,6 +9814,18 @@
   "John 5:43": {
    "citations": [
     {
+     "confidence": 0.868,
+     "context": "I'm ascending to my Father and your Father to my God and your God. For us, there is one God, the Father, the God and Father of the Lord Jesus Christ. And then the last one says, I've come in my father's name and you do not accept me. Um, if another comes in uh his own name, you will accept him. How can you believe when you accept glory from one another and do not seek the glory that comes from the one who alone is God? So on the one hand, we seem to have terminology where God is ascribed to the Son and the Spirit, but then we also have this restriction of the usage of the word God to being the Father, saying He's the only true God or the one who alone is God, and that's speaking about the Father.",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-10-25T21:41:36Z",
+     "role": "unknown",
+     "t": 6497.96,
+     "title": "Monarchical Trinity VS Thomistic Trinity: Which View Prevails?",
+     "video_id": "8AuORf-bJzo"
+    },
+    {
      "confidence": 0.8,
      "context": "I do not receive glory from people, but I know that you do not have the love of God within you. For I have come in my father's name, and you do not receive me. If another comes in his own name, you will receive him. How can you believe when you receive glory from one another and do not seek the glory that comes from the only God? Do not think that I will accuse you to the Father.",
      "creator": "capturing-christianity",
@@ -9469,9 +9839,9 @@
     }
    ],
    "creators": {
-    "capturing-christianity": 1
+    "capturing-christianity": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "I am come in my Father's name, and ye receive me not: if another shall come in his own name, him ye will receive.",
     "WEB": "I have come in my Father’s name, and you don’t receive me. If another comes in his own name, you will receive him."
@@ -9480,6 +9850,18 @@
   },
   "John 5:44": {
    "citations": [
+    {
+     "confidence": 0.8688,
+     "context": "I'm ascending to my Father and your Father to my God and your God. For us, there is one God, the Father, the God and Father of the Lord Jesus Christ. And then the last one says, I've come in my father's name and you do not accept me. Um, if another comes in uh his own name, you will accept him. How can you believe when you accept glory from one another and do not seek the glory that comes from the one who alone is God? So on the one hand, we seem to have terminology where God is ascribed to the Son and the Spirit, but then we also have this restriction of the usage of the word God to being the Father, saying He's the only true God or the one who alone is God, and that's speaking about the Father.",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-10-25T21:41:36Z",
+     "role": "unknown",
+     "t": 6504.92,
+     "title": "Monarchical Trinity VS Thomistic Trinity: Which View Prevails?",
+     "video_id": "8AuORf-bJzo"
+    },
     {
      "confidence": 0.5263,
      "context": "I do not receive glory from people, but I know that you do not have the love of God within you. For I have come in my father's name, and you do not receive me. If another comes in his own name, you will receive him. How can you believe when you receive glory from one another and do not seek the glory that comes from the only God? Do not think that I will accuse you to the Father. There is one who accuses you. Moses on whom you have set your hope. For if you believed Moses, you would have believed me, for he wrote of me.",
@@ -9494,9 +9876,9 @@
     }
    ],
    "creators": {
-    "capturing-christianity": 1
+    "capturing-christianity": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "How can ye believe, which receive honour one of another, and seek not the honour that cometh from God only?",
     "WEB": "How can you believe, who receive glory from one another, and you don’t seek the glory that comes from the only God?"
@@ -9888,6 +10270,18 @@
      "video_id": "4mKigVTppbw"
     },
     {
+     "confidence": 0.8313,
+     "context": "It's extended to all mankind, not just to a select group. That's why God desires all persons to know him. For God so loved the world, not just Christians, that he gave his only Son, that whoever believes in him should not perish but have eternal life. That's God's agape love.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-04-03T14:00:06Z",
+     "role": "host",
+     "t": 257.92,
+     "title": "God Is Morally Perfect",
+     "video_id": "AOh9vtMCdMQ"
+    },
+    {
      "confidence": 0.7742,
      "context": "What are some of the biblical passages to which the Calvinist might appeal in support of such a view? Well, look at John chapter 6, verses 39 and 40. Here, Jesus says, This is the will of him who sent me, that I should lose nothing of all that he has given me, but raise it up at the last day. For this is the will of my Father, that everyone who sees the Son and believes in Him should have eternal life, and I will raise him up at the last day.",
      "creator": "reasonable-faith-org",
@@ -9902,10 +10296,11 @@
    ],
    "creators": {
     "capturing-christianity": 1,
+    "drcraigvideos": 1,
     "prophet-of-zod": 1,
     "reasonable-faith-org": 1
    },
-   "n": 3,
+   "n": 4,
    "text": {
     "KJV": "And this is the will of him that sent me, that every one which seeth the Son, and believeth on him, may have everlasting life: and I will raise him up at the last day.",
     "WEB": "This is the will of the one who sent me, that everyone who sees the Son and believes in him should have eternal life; and I will raise him up at the last day.”"
@@ -10157,15 +10552,28 @@
      "t": 726.88,
      "title": "Examining the Eucharist - Part One",
      "video_id": "z8BIWDZRmmg"
+    },
+    {
+     "confidence": 1.0,
+     "context": "Invention cooked up by the church councils centuries later, as we've already discussed. Third, we shouldn't miss the Eucharistic symbolism here. The feeding of the 5,000 is often tied to Jesus' words, I am the bread of life in John 6. This miracle wasn't just about feeding people physically, it was pointing to Jesus as the ultimate spiritual sustenance. By connecting this miracle to the phrase God Jesus Christ, this mosaic reinforces that the early church saw no separation between Jesus' miraculous works and his divine identity.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-11-22T17:47:16Z",
+     "role": "host",
+     "t": 426.8,
+     "title": "BIGGEST Archeological Find 'Since Dead Sea Scrolls' Discovered!",
+     "video_id": "zFPHoLFijUs"
     }
    ],
    "creators": {
+    "capturing-christianity": 1,
     "counsel-of-trent": 3,
     "cross-examined": 1,
     "jackie-hill-perry": 1,
     "reasonable-faith-org": 2
    },
-   "n": 7,
+   "n": 8,
    "text": {
     "KJV": "I am that bread of life.",
     "WEB": "I am the bread of life."
@@ -11514,12 +11922,25 @@
      "t": 62.32,
      "title": "Facing the music, the public deconversion of Phanatik in his own words",
      "video_id": "4GwwAWiwvWg"
+    },
+    {
+     "confidence": 0.7248,
+     "context": "What would you like us to talk about? What what would what perspective do you hope you would gain from that conversation? Please let me know in the chat and in the comments below. In a similar vein, this Friday, I'll be speaking to uh some of you might have heard of him, a lot of you probably might have heard of him, uh Sahil ex Muslim. Uh I'll be live streaming on his channel, talking about my journey out of Apostasy and also about his journey, sorry, out of Islam into apostasy.",
+     "creator": "apostate-aladdin",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-12-28T13:44:51Z",
+     "role": "host",
+     "t": 112.16,
+     "title": "Speak to an Exmuslim!",
+     "video_id": "AVEGTv8brnU"
     }
    ],
    "creators": {
+    "apostate-aladdin": 1,
     "shannon-q": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "I have many things to say and to judge of you: but he that sent me is true; and I speak to the world those things which I have heard of him.",
     "WEB": "I have many things to speak and to judge concerning you. However, he who sent me is true; and the things which I heard from him, these I say to the world.”"

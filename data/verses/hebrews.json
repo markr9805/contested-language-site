@@ -481,6 +481,31 @@
    },
    "truncated": false
   },
+  "Hebrews 11:3": {
+   "citations": [
+    {
+     "confidence": 0.7538,
+     "context": "We'd be living in a totally different different universe. Now that's a big thing. I'm sorry, but it's bigger than personal comfort and nice stories and things. The idea that the universe has lurking beneath it an intelligence, a supernatural intelligence that invented the laws of physics, it invented mathematics. I mean, that is a stupendous idea.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-07-12T18:51:59Z",
+     "role": "unknown",
+     "t": 806.68,
+     "title": "Part Two - Dialogue Between Ayaan Hirsi Ali & Richard Dawkins",
+     "video_id": "ADPR_2vCv6E"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Through faith we understand that the worlds were framed by the word of God, so that things which are seen were not made of things which do appear.",
+    "WEB": "By faith we understand that the universe has been framed by the word of God, so that what is seen has not been made out of things which are visible."
+   },
+   "truncated": false
+  },
   "Hebrews 11:32": {
    "citations": [
     {
@@ -647,6 +672,18 @@
   "Hebrews 12:1": {
    "citations": [
     {
+     "confidence": 0.8875,
+     "context": "Keep us. We have an enemy at our door now trying to tempt us to turn back to all the things that you set us free from. I pray that we would lay aside every weight and every sin that so easily entangles us, but that we would run the race that is set before us. We have need of endurance, God. Please give it. So we would enjoy you, obey you, and love you forever.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2019-05-29T19:58:05Z",
+     "role": "host",
+     "t": 1389.16,
+     "title": "The Gospel for The Fallen",
+     "video_id": "AW0Yg61TWWA"
+    },
+    {
      "confidence": null,
      "context": "This really shows the difference between the individualism that is present in some forms of Protestantism and the familial nature of Catholicism that seeks to expand God's covenant family to include everyone in the whole world. Also, all Parr has done here is offer another interpretation of Hebrews 12:1. He hasn't shown that the interpretation of Hebrews 12 portraying the Old Testament saints cheering us on in the race is false. Other Protestant commenters agree with the stadium imagery in this verse.",
      "creator": "counsel-of-trent",
@@ -660,9 +697,10 @@
     }
    ],
    "creators": {
-    "counsel-of-trent": 1
+    "counsel-of-trent": 1,
+    "jackie-hill-perry": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us,",
     "WEB": "Therefore let’s also, seeing we are surrounded by so great a cloud of witnesses, lay aside every weight and the sin which so easily entangles us, and let’s run with perseverance the race that is set before us,"

@@ -4289,6 +4289,18 @@
    "citations": [
     {
      "confidence": 0.6667,
+     "context": "And so that's that's ultimately the the the whole purpose of it. But I just kind of wanted to point out that the actual commandment here doesn't it's it's not just like you shall not murder, you shall not commit adultery, you shall not lie. It's not doesn't actually say that. It says you shall not bear false witness against your neighbor, which as you pointed out could be uh the the context here could be sort of sort of in like a court case. Um you could also interpret it like uh against your your friend or someone who is uh sort of you're you're in a positive relationship with, don't bought bear false witness against them.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-08-31T07:01:37Z",
+     "role": "unattributed",
+     "t": 570.84,
+     "title": "Is Lying Ever Right? A Discussion with Dr. McNabb & Jimmy Akin",
+     "video_id": "C9blq1h_JEs"
+    },
+    {
+     "confidence": 0.6667,
      "context": "Therefore, the Lord your God commanded you to keep the Sabbath day. Honor your father and your mother, as the Lord your God commanded you, that your days may be long, and that it may go well with you in the land that the Lord your God is giving you. You shall not murder, and you shall not commit adultery, and you shall not steal, and you shall not bear false witness against your neighbor, and you shall not cover your neighbor's wife, and you shall not desire your neighbor's house, his field, or his male servant, or his female servant, his ox or his donkey, or anything that is your neighbor's.",
      "creator": "jackie-hill-perry",
      "detection_method": "shingle_match",
@@ -4410,9 +4422,10 @@
    ],
    "creators": {
     "belief-it-or-not": 8,
+    "capturing-christianity": 1,
     "jackie-hill-perry": 2
    },
-   "n": 10,
+   "n": 11,
    "text": {
     "KJV": "Thou shalt not bear false witness against thy neighbor.",
     "WEB": "“You shall not give false testimony against your neighbor."
@@ -11219,6 +11232,18 @@
   "Exodus 34:7": {
    "citations": [
     {
+     "confidence": 0.7852,
+     "context": "So, God's moral perfection or righteousness encompasses both his love and justice. That's why he describes himself to Moses as a God abounding in steadfast love, but who will by no means clear the guilty. For those alienated from God, God's righteousness is an awful terror.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-04-03T14:00:06Z",
+     "role": "host",
+     "t": 465.76,
+     "title": "God Is Morally Perfect",
+     "video_id": "AOh9vtMCdMQ"
+    },
+    {
      "confidence": null,
      "context": "The Iliad and the Odyssey depict blood as a bridge to get you to the divine. Aristia shows how blood guilt can only be satisfied by further bloodshed until the cycle is broken. Go look up Exodus 34:7 and see the parallels tied to generational blood guilt. Jumping to the other side of the world, we know about the Aztecs and their rituals of sacrifice. Now I'm not trying to claim that all of these cultures influenced the ancient Hebrews.",
      "creator": "mindshift",
@@ -11232,9 +11257,10 @@
     }
    ],
    "creators": {
+    "drcraigvideos": 1,
     "mindshift": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Keeping mercy for thousands, forgiving iniquity and transgression and sin, and that will by no means clear the guilty; visiting the iniquity of the fathers upon the children, and upon the children's children, unto the third and to the fourth generation.",
     "WEB": "keeping loving kindness for thousands, forgiving iniquity and disobedience and sin; and who will by no means clear the guilty, visiting the iniquity of the fathers on the children, and on the children’s children, on the third and on the fourth generation.”"
@@ -12321,6 +12347,31 @@
    "text": {
     "KJV": "And Moses said unto God, Who am I, that I should go unto Pharaoh, and that I should bring forth the children of Israel out of Egypt?",
     "WEB": "Moses said to God, “Who am I, that I should go to Pharaoh, and that I should bring the children of Israel out of Egypt?”"
+   },
+   "truncated": false
+  },
+  "Exodus 3:12": {
+   "citations": [
+    {
+     "confidence": 0.808,
+     "context": "So that's one. But here, the one you quoted, 242 on the screen. Let's read it in context. Children of Israel, remember my blessing wherewith I blessed you, and fulfill my covenant, and I shall fulfill your covenant and have awe of me. And believe in that I have sent down, confirming that which is with you. See, here's the key. I'm sending this down that confirms what you have. So believe it. Now it makes no sense to say, hey, believe what I sent down, confirming only a part what you have, because there are parts of it corrupt, because that would be grounds for the Jews to say, false prophet, and be not the first to believe disbelieve in it, and sell not my signs for a little price and fear you mean and do not confound the truth with vanity, and do not conceal the truth wittingly.",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-11-16T09:10:58Z",
+     "role": "unknown",
+     "t": 2159.04,
+     "title": "DEBATE: The Islamic Dilemma | Sam Shamoun VS. Khalil Andani",
+     "video_id": "2joU6A55pgg"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And he said, Certainly I will be with thee; and this shall be a token unto thee, that I have sent thee: When thou hast brought forth the people out of Egypt, ye shall serve God upon this mountain.",
+    "WEB": "He said, “Certainly I will be with you. This will be the token to you, that I have sent you: when you have brought the people out of Egypt, you shall serve God on this mountain.”"
    },
    "truncated": false
   },

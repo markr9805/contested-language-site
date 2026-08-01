@@ -1036,6 +1036,31 @@
    },
    "truncated": false
   },
+  "Psalms 119:11": {
+   "citations": [
+    {
+     "confidence": 0.5833,
+     "context": "You know, um, hey, why don't you jump off the edge of this temple here? It is written, you shall not test the Lord your God. Every time Jesus comes back to the Word of God. So memorize scripture. The Bible says, Your word have I hid my heart that I might not sin against you. And then when you're being tempted, you quote the word of God. Uh and it helps you uh to and this can be when you're stressed out, when you're filled with worry.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-11-18T19:00:15Z",
+     "role": "host",
+     "t": 134.28,
+     "title": "The Full Armor of God Explained by Pastor @greglaurie",
+     "video_id": "F-0C4y-qExE"
+    }
+   ],
+   "creators": {
+    "cross-examined": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Thy word have I hid in mine heart, that I might not sin against thee.",
+    "WEB": "I have hidden your word in my heart, that I might not sin against you."
+   },
+   "truncated": false
+  },
   "Psalms 119:15": {
    "citations": [
     {
@@ -5338,6 +5363,31 @@
    "text": {
     "KJV": "God standeth in the congregation of the mighty; he judgeth among the gods.",
     "WEB": "A Psalm by Asaph. God presides in the great assembly. He judges among the gods."
+   },
+   "truncated": false
+  },
+  "Psalms 82:3": {
+   "citations": [
+    {
+     "confidence": 0.7686,
+     "context": "They can be part of a collective social contract that everyone, even the strong, recognizes better than brutocracy. For example, in a true brutocracy, the rights of the weak come from the will of the strong, regardless of sex. In such a society, the rights of physically weaker men, like the elderly, the disabled, or even men who aren't in the top tier of strength and can't open a random pickle jar, like Wilson, their rights would come from stronger men who can do things like open a random pickle jar.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-11-19T14:00:13Z",
+     "role": "host",
+     "t": 320.8,
+     "title": "Should Women Lose their Right to Vote?",
+     "video_id": "AOWBx1AUr1w"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Defend the poor and fatherless: do justice to the afflicted and needy.",
+    "WEB": "“Defend the weak, the poor, and the fatherless. Maintain the rights of the poor and oppressed."
    },
    "truncated": false
   },

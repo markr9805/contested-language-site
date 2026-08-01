@@ -423,6 +423,18 @@
   "Deuteronomy 13:1": {
    "citations": [
     {
+     "confidence": 0.7647,
+     "context": "So in the uh let's start with uh Deuteronomy 13 in the old testament. Um so yeah, feel feel free to go through this one. I'm not, I'm not gonna read it all out, um but feel free to mention what this one says, and then we'll move on through uh to the others. Yeah, so real briefly, uh Deuteronomy 13 says, if a prophet or a dreamer of dreams arises among you and gives you a sign or a wonder, and the sign of the wonder that he tells you comes to pass. So he's he's had a prophetic hit.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-07-22T19:20:33Z",
+     "role": "host",
+     "t": 2513.56,
+     "title": "Trump Prophet Now Predicts MILLIONS Dead from Plague",
+     "video_id": "AphvST7k8oA"
+    },
+    {
      "confidence": 0.5294,
      "context": "Everything that I commend that you shall be careful about, everything I command you that you shall be careful to do it. You shall neither add to it nor subtract to it. The law. Don't add or subtract. If there well arise among you a prophet or a dreamer of a dream, and he gives you a sign or a wonder, and the sign or the wonder of which he spoke to you happens, and he says, Let us go after other gods which you have not known, and let us worship them. You shall not heed the words of that prophet or that dreamer of a dream.",
      "creator": "cross-examined",
@@ -460,10 +472,11 @@
     }
    ],
    "creators": {
+    "capturing-christianity": 1,
     "cross-examined": 2,
     "jackie-hill-perry": 1
    },
-   "n": 3,
+   "n": 4,
    "text": {
     "KJV": "If there arise among you a prophet, or a dreamer of dreams, and giveth thee a sign or a wonder,",
     "WEB": "If a prophet or a dreamer of dreams arises among you, and he gives you a sign or a wonder,"
@@ -836,6 +849,56 @@
    "text": {
     "KJV": "Therefore shall they have no inheritance among their brethren: the LORD is their inheritance, as he hath said unto them.",
     "WEB": "They shall have no inheritance among their brothers. The LORD is their inheritance, as he has spoken to them."
+   },
+   "truncated": false
+  },
+  "Deuteronomy 18:20": {
+   "citations": [
+    {
+     "confidence": 0.5333,
+     "context": "And whoever does not listen to my words that he shall speak in my name, I myself will require it of him. So if you dismiss what a genuine prophet says, you're going to get in trouble with God. But the prophet who presumes to speak a word in my name that I have not commanded him to speak, or who speaks in the name of other gods. So there's that other God's problem, that same prophet shall die.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-07-22T19:20:33Z",
+     "role": "host",
+     "t": 2659.72,
+     "title": "Trump Prophet Now Predicts MILLIONS Dead from Plague",
+     "video_id": "AphvST7k8oA"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But the prophet, which shall presume to speak a word in my name, which I have not commanded him to speak, or that shall speak in the name of other gods, even that prophet shall die.",
+    "WEB": "But the prophet who speaks a word presumptuously in my name, which I have not commanded him to speak, or who speaks in the name of other gods, that same prophet shall die.”"
+   },
+   "truncated": false
+  },
+  "Deuteronomy 18:21": {
+   "citations": [
+    {
+     "confidence": 0.5625,
+     "context": "And, but how do you know if you know whether he's speaking a word that God wanted him to speak? Well, that's the next subject. And if you say in your heart, How may we know the word which the Lord has not spoken? When a prophet speaks in the name of the Lord, if the word does not come to pass or come true, that is a word the Lord has not spoken. The prophet has spoken it presumptuously, you need not be afraid of him.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-07-22T19:20:33Z",
+     "role": "host",
+     "t": 2691.64,
+     "title": "Trump Prophet Now Predicts MILLIONS Dead from Plague",
+     "video_id": "AphvST7k8oA"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And if thou say in thine heart, How shall we know the word which the LORD hath not spoken?",
+    "WEB": "You may say in your heart, “How shall we know the word which the LORD has not spoken?”"
    },
    "truncated": false
   },
@@ -2754,6 +2817,18 @@
    "citations": [
     {
      "confidence": 0.5,
+     "context": "And so that's that's ultimately the the the whole purpose of it. But I just kind of wanted to point out that the actual commandment here doesn't it's it's not just like you shall not murder, you shall not commit adultery, you shall not lie. It's not doesn't actually say that. It says you shall not bear false witness against your neighbor, which as you pointed out could be uh the the context here could be sort of sort of in like a court case. Um you could also interpret it like uh against your your friend or someone who is uh sort of you're you're in a positive relationship with, don't bought bear false witness against them.",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-08-31T07:01:37Z",
+     "role": "unattributed",
+     "t": 570.84,
+     "title": "Is Lying Ever Right? A Discussion with Dr. McNabb & Jimmy Akin",
+     "video_id": "C9blq1h_JEs"
+    },
+    {
+     "confidence": 0.5,
      "context": "Therefore, the Lord your God commanded you to keep the Sabbath day. Honor your father and your mother, as the Lord your God commanded you, that your days may be long, and that it may go well with you in the land that the Lord your God is giving you. You shall not murder, and you shall not commit adultery, and you shall not steal, and you shall not bear false witness against your neighbor, and you shall not cover your neighbor's wife, and you shall not desire your neighbor's house, his field, or his male servant, or his female servant, his ox or his donkey, or anything that is your neighbor's.",
      "creator": "jackie-hill-perry",
      "detection_method": "shingle_match",
@@ -2863,9 +2938,10 @@
    ],
    "creators": {
     "belief-it-or-not": 7,
+    "capturing-christianity": 1,
     "jackie-hill-perry": 2
    },
-   "n": 9,
+   "n": 10,
    "text": {
     "KJV": "Neither shalt thou bear false witness against thy neighbor.",
     "WEB": "“You shall not give false testimony against your neighbor."

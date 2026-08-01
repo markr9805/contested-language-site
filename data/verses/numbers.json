@@ -214,12 +214,25 @@
      "t": 426.6,
      "title": "The Second Commandment: Graven Images  | Belief It Or Not",
      "video_id": "2uv-6B5fGOE"
+    },
+    {
+     "confidence": 0.8241,
+     "context": "So, God's moral perfection or righteousness encompasses both his love and justice. That's why he describes himself to Moses as a God abounding in steadfast love, but who will by no means clear the guilty. For those alienated from God, God's righteousness is an awful terror.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-04-03T14:00:06Z",
+     "role": "host",
+     "t": 465.76,
+     "title": "God Is Morally Perfect",
+     "video_id": "AOh9vtMCdMQ"
     }
    ],
    "creators": {
-    "belief-it-or-not": 1
+    "belief-it-or-not": 1,
+    "drcraigvideos": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "The LORD is long-suffering, and of great mercy, forgiving iniquity and transgression, and by no means clearing the guilty, visiting the iniquity of the fathers upon the children unto the third and fourth generation.",
     "WEB": "‘The LORD is slow to anger, and abundant in loving kindness, forgiving iniquity and disobedience; and he will by no means clear the guilty, visiting the iniquity of the fathers on the children, on the third and on the fourth generation.’"
@@ -942,12 +955,25 @@
      "t": 112.88,
      "title": "Is Christian Nationalism Good for America?",
      "video_id": "0S10EW0WzwE"
+    },
+    {
+     "confidence": 0.7756,
+     "context": "Um this reality is neither absolute nor relative, so on and so forth. Cadjutin has a famous section when he's commenting on uh what is it, question 12, I think, of Primopars. I can't remember 36, maybe, you know, all the things in my brain are coming together. But we would basically say that when it comes to the distinction between the uh the father and the son, and between the father and the son and the spirit, this only happens by way of relation. And as we talked about earlier, when it comes to relation, it has this special property where they are correlative.",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-10-25T21:41:36Z",
+     "role": "host",
+     "t": 9035.8,
+     "title": "Monarchical Trinity VS Thomistic Trinity: Which View Prevails?",
+     "video_id": "8AuORf-bJzo"
     }
    ],
    "creators": {
+    "capturing-christianity": 1,
     "cross-examined": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "These are the statutes, which the LORD commanded Moses, between a man and his wife, between the father and his daughter, being yet in her youth in her father's house.",
     "WEB": "These are the statutes which the LORD commanded Moses, between a man and his wife, between a father and his daughter, being in her youth, in her father’s house."
@@ -1351,6 +1377,18 @@
      "video_id": "1vdZQkGY288"
     },
     {
+     "confidence": 0.5,
+     "context": "It's okay. And you know what? Is as long as you have a faith, you have faith in that, and and also come from humility, because they're you're gonna meet bad faith actors, and you're gonna meet them in this school, you're gonna meet them in life. That people who don't really want to learn anything and they think they know it all already. But if you start from a place I don't know, then you're gonna grow way more than them, and God bless you and keep fighting. I want to thank each and every one of you for coming. I'd like to thank Peter, Professor Peter Bagosian, Doctor Andrew Doyle, the great author, an amazing Christian, Frank Terek.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-11-12T15:39:23Z",
+     "role": "unknown",
+     "t": 3963.08,
+     "title": "Frank Turek Honors Charlie Kirk at UC Berkeley - TPUSA Full Speech PLUS Q&A",
+     "video_id": "CVNfTAbOxSI"
+    },
+    {
      "confidence": 0.75,
      "context": "Um it was very exciting to see that. Um I know that this ministry impacts your lives in real ways, and that's what it's all about. That's what it's all about. So Lord bless you and keep you, make his face to shine upon you, may lift up his countenance upon you and give you peace, and uh let's pray. Father, we ask Lord for uh wisdom and discernment as we're trying to navigate the the internet world has brought brought us together in ways that are good and bad.",
      "creator": "mike-winger",
@@ -1389,10 +1427,11 @@
    ],
    "creators": {
     "capturing-christianity": 1,
+    "cross-examined": 1,
     "mike-winger": 2,
     "reasonable-faith-org": 1
    },
-   "n": 4,
+   "n": 5,
    "text": {
     "KJV": "The LORD bless thee, and keep thee:",
     "WEB": "‘The LORD bless you, and keep you."
