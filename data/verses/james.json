@@ -1,57 +1,132 @@
 {
  "book": "James",
  "verses": {
-  "James 1:13": {
+  "James 1:12": {
    "citations": [
     {
-     "confidence": 0.9176,
-     "context": "Fast forwarding to Romans 6:23. For the wages of sin is death. Going back to James, we're gonna see that flip side even more drastic. I'll read this one, James 1, 13 through 14. No one when tempted should say, I am being tempted by God, for God cannot be tempted by evil, which I would argue, like right there. I've always wanted to make a video on that. If he cannot even be tempted by evil, he has never had to face what we have had to face.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
+     "confidence": 0.5385,
+     "context": "Um I'm just finding the text. Let me look at this. Um blessed is the man who endures temptation, for when he's been approved, he will receive the crown of life, which the Lord has promised to those who love him. Let no one say when he's tempted, I'm tempted by God, for God cannot be tempted by evil, nor does he himself tempt anyone. No, he may test people, put them into situations that reveal what's inside them, but he's not trying to get them to sin.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
      "matched_translation": "WEB",
-     "published_at": "2026-05-31T14:00:36Z",
+     "published_at": "2024-06-21T21:41:41Z",
      "role": "host",
-     "t": 460.16,
-     "title": "God Gets Credit, You Get Blame | The Rigged Math of Christianity",
-     "video_id": "6uPouoG4f5Q"
-    },
-    {
-     "confidence": 0.8851,
-     "context": "How else could we better conceive of man? The image of God that is identical, essentially, which no it is not. So many distinctions between God and man that is supposedly created in the image of God. The first being God cannot be tempted by evil, and yet that is the first and only test put in front of man, not how well he gardens, not how well he names the animals, how well he can resist temptation, something God himself cannot even fathom.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-11-21T15:00:07Z",
-     "role": "unattributed",
-     "t": 607.24,
-     "title": "Jordan Peterson’s New Book: A Serious Challenge to Atheism? | We Who Wrestle With God",
-     "video_id": "8rcNdCSczIY"
+     "t": 4397.64,
+     "title": "10 Questions with Mike Winger (Episode 18)",
+     "video_id": "ezLoSqbmeMg"
     }
    ],
    "creators": {
-    "mindshift": 2
+    "mike-winger": 1
    },
-   "n": 2,
+   "n": 1,
+   "text": {
+    "KJV": "Blessed is the man that endureth temptation: for when he is tried, he shall receive the crown of life, which the Lord hath promised to them that love him.",
+    "WEB": "Blessed is a person who endures temptation, for when he has been approved, he will receive the crown of life which the Lord promised to those who love him."
+   },
+   "truncated": false
+  },
+  "James 1:13": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "Um I guess I guess Jesus never took him out on the road to do a road test. Or like when Jesus would take him out, he would like he got nervous easily and start freaking out at God. There's nothing wrong with that. Yeah, exactly. Yeah. James 1, verse 13 says, Let no man say he is tempted. I am tempted of God, for God cannot be tempted with evil. Neither tempteth he any man. Uh and then in Genesis 22, verse 1 it says, and it came to pass after these things that God did tempt Abraham.",
+     "creator": "belief-it-or-not",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2023-07-30T09:00:35Z",
+     "role": "host",
+     "t": 546.6,
+     "title": "The Belief It Or Not Podcast: Ep. 138 -  Bible Contradictions",
+     "video_id": "mw8AjSGHhyc"
+    },
+    {
+     "confidence": 0.8182,
+     "context": "Um I guess I guess Jesus never took him out on the road to do a road test. Or like when Jesus would take him out, he would like he got nervous easily and start freaking out at God. There's nothing wrong with that. Yeah, exactly. Yeah. James 1, verse 13 says, Let no man say he is tempted. I am tempted of God, for God cannot be tempted with evil. Neither tempteth he any man. Uh and then in Genesis 22, verse 1 it says, and it came to pass after these things that God did tempt Abraham.",
+     "creator": "belief-it-or-not",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-07-30T09:00:35Z",
+     "role": "host",
+     "t": 546.6,
+     "title": "The Belief It Or Not Podcast: Ep. 138 -  Bible Contradictions",
+     "video_id": "mw8AjSGHhyc"
+    },
+    {
+     "confidence": 0.6364,
+     "context": "He's never had to. Yeah. He's gotta find one of those crossing guard ladies who you know blows the whistle for you. I'm fine. According to the Bible, does God tempt people? Yes and no. Uh James 1 13. Let no man say when he is tempted, I am tempted by God, for God cannot be tempted with evil, neither can uh neither tempteth he m any man. Genesis 21, one, twenty-two, one, sorry. And it came to pass after these things that God did tempt Abraham.",
+     "creator": "belief-it-or-not",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2019-05-12T10:00:12Z",
+     "role": "host",
+     "t": 1787.8,
+     "title": "The Belief It Or Not Podcast: Ep. 28 - The Holiness Movement",
+     "video_id": "o4jbSawhZ6U"
+    }
+   ],
+   "creators": {
+    "belief-it-or-not": 3
+   },
+   "n": 3,
    "text": {
     "KJV": "Let no man say when he is tempted, I am tempted of God: for God cannot be tempted with evil, neither tempteth he any man:",
     "WEB": "Let no man say when he is tempted, “I am tempted by God,” for God can’t be tempted by evil, and he himself tempts no one."
    },
    "truncated": false
   },
-  "James 1:17": {
+  "James 1:15": {
    "citations": [
     {
-     "confidence": 0.8382,
-     "context": "Or even if he did, which we'll then talk about worship a little bit. So let's get started. Let's get biblical. I'll start by just reading a few verses. James 1 17, every generous act of giving with every perfect gift is from above. So if it's good, the ultimate source is God. Beauty, generosity, healing, love, peace, patience, provision, wisdom, courage, you name it, straight to God.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2026-05-31T14:00:36Z",
+     "confidence": null,
+     "context": "Um, on the topic of homosexuality. Um, not that I fully understand all their debates because I haven't listened to everything they've talked about, but I think that I have an answer for you and your question. So Robert Willis says, and I'll read it again. James 1:15 speaks about your desire giving birth to sin. Let's read that. Let me back up a little bit to verse uh 13. Let no one say when he's tempted, I'm being tempted by God. Now we we heard don't tempt the Lord, don't test the Lord. Tempting and testing are kind of two different things. Um they overlap for sure.",
+     "creator": "mike-winger",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-07-19T21:45:41Z",
      "role": "host",
-     "t": 172.6,
-     "title": "God Gets Credit, You Get Blame | The Rigged Math of Christianity",
-     "video_id": "6uPouoG4f5Q"
-    },
+     "t": 1473.24,
+     "title": "10 Questions with Mike Winger (Episode 22)",
+     "video_id": "5SGoy_fOfOw"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death.",
+    "WEB": "Then the lust, when it has conceived, bears sin. The sin, when it is full grown, produces death."
+   },
+   "truncated": false
+  },
+  "James 1:16": {
+   "citations": [
+    {
+     "confidence": 0.6667,
+     "context": "And do you guys say lured or lured? I say lured because that's right. My wife says lured because she's wrong. And enticed by his own desire. Then desire when it has conceived gives birth to sin, and sin when it's fully grown, brings forth death. Do not be deceived, my beloved brothers. Every good and perfect gift is from above, coming down from the Father of lights, with whom there is no variation or shadow due to change. Of his own will, um there we go. Of his own will, he brought us forth by the word of truth that we should be a kind of first fruits of his creatures.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-02-23T22:44:51Z",
+     "role": "host",
+     "t": 1638.68,
+     "title": "10 Questions with Mike Winger (Episode 5)",
+     "video_id": "hGLj9f6nRCs"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Do not err, my beloved brethren.",
+    "WEB": "Don’t be deceived, my beloved brothers."
+   },
+   "truncated": false
+  },
+  "James 1:17": {
+   "citations": [
     {
      "confidence": 0.5652,
      "context": "But God cannot change. Human nature changed forever when it was assumed by the Son, but the person of the Son did not change. If the person of the Son changed at the incarnation, then he wouldn't be God because God does not change. James 117 says, Every good endowment and every perfect gift is from above, coming down from the Father of Lights, with whom there is no variation or shadow due to change. And something similar happens when Catholics post about Mary being the mother of God, and then some evangelicals try to dunk on them, but end up sounding like Muslims when they say things like, God has no mother.",
@@ -90,29 +165,149 @@
     }
    ],
    "creators": {
-    "counsel-of-trent": 3,
-    "mindshift": 1
+    "counsel-of-trent": 3
    },
-   "n": 4,
+   "n": 3,
    "text": {
     "KJV": "Every good gift and every perfect gift is from above, and cometh down from the Father of lights, with whom is no variableness, neither shadow of turning.",
     "WEB": "Every good gift and every perfect gift is from above, coming down from the Father of lights, with whom can be no variation nor turning shadow."
    },
    "truncated": false
   },
+  "James 1:18": {
+   "citations": [
+    {
+     "confidence": 0.6957,
+     "context": "Then desire when it has conceived gives birth to sin, and sin when it's fully grown, brings forth death. Do not be deceived, my beloved brothers. Every good and perfect gift is from above, coming down from the Father of lights, with whom there is no variation or shadow due to change. Of his own will, um there we go. Of his own will, he brought us forth by the word of truth that we should be a kind of first fruits of his creatures. Okay, that's the first part that you're saying. Maybe that's a sandwich dynamic.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-02-23T22:44:51Z",
+     "role": "host",
+     "t": 1648.04,
+     "title": "10 Questions with Mike Winger (Episode 5)",
+     "video_id": "hGLj9f6nRCs"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Of his own will begat he us with the word of truth, that we should be a kind of firstfruits of his creatures.",
+    "WEB": "Of his own will he gave birth to us by the word of truth, that we should be a kind of first fruits of his creatures."
+   },
+   "truncated": false
+  },
   "James 1:2": {
    "citations": [
     {
-     "confidence": 0.8404,
-     "context": "If you're being persecuted, you should be happy. Count it all joy when all manner of men say all manner of evil against you. You know, it that becomes the idea that to take delight, to take pleasure in being less than and being abused and struggling and suffering because by doing so, you are being as close to Jesus as as you possibly can.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
+     "confidence": 0.5556,
+     "context": "Right? We're shallow. We're selfish. We need difficulty in this life. It's a fallen world, but we need it, and the scriptures talk about it. Paul talks about it building character. James says, count it all joy when you fall into various trials. Does anyone here count it joy when you're trying to hold your dad up all night? I don't. I loved your answer.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-07-14T22:00:10Z",
+     "role": "host",
+     "t": 291.28,
+     "title": "Why Would God Create Special Needs People?",
+     "video_id": "50KzxBTJ8Cw"
+    },
+    {
+     "confidence": null,
+     "context": "James chapter one verses two through four. And maybe you're thinking, I know, Mike, I know this. No, you can't just know it as you nod your head and wash, you you wave it away. You gotta know it when it comes into your heart and brings you comfort. That's how you have to know it. James 1, verse 2. Consider it all joy, my brethren, when you encounter various trials, knowing that the testing of your faith produces endurance. Endurance or patience. You're learning to endure. This is causing character growth in you.",
+     "creator": "mike-winger",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-02-07T16:15:00Z",
+     "role": "host",
+     "t": 245.52,
+     "title": "What Prosperity Preachers Hide From You",
+     "video_id": "6Ng4QWsXw5w"
+    },
+    {
+     "confidence": null,
+     "context": "Oh, yes. You can go to James chapter one. In fact, let me let me pop a few of them on the on the screen just so of course the whole book of Job is helpful. But uh let's take a look at James chapter one, verse two. My brethren, count it all joy when you fall into various trials, knowing that the testing of your faith produces patience. Does anybody in here do that? Do you count it all joy when things start going wrong?",
+     "creator": "cross-examined",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-09-25T01:19:32Z",
+     "role": "host",
+     "t": 2909.88,
+     "title": "If God, Why Evil? A Q&A in Honor of My Friend Charlie Kirk - LIVE from Orange, TX",
+     "video_id": "C2IA2_lJWbs"
+    },
+    {
+     "confidence": 0.7778,
+     "context": "In fact, let me let me pop a few of them on the on the screen just so of course the whole book of Job is helpful. But uh let's take a look at James chapter one, verse two. My brethren, count it all joy when you fall into various trials, knowing that the testing of your faith produces patience. Does anybody in here do that? Do you count it all joy when things start going wrong? James says you ought to do that because it's actually gonna help you grow.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-09-25T01:19:32Z",
+     "role": "host",
+     "t": 2916.36,
+     "title": "If God, Why Evil? A Q&A in Honor of My Friend Charlie Kirk - LIVE from Orange, TX",
+     "video_id": "C2IA2_lJWbs"
+    },
+    {
+     "confidence": 0.7778,
+     "context": "The question isn't why does it, why does God allow pain? The question might be why doesn't God give us more pain? If it's so good at drawing us to himself. By the way, suffering also builds character. As James says, my brethren, count it all joy. What stop? Okay. Who in this room counts it all joy when you fall into various trials? Does anybody in here do that?",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-09-26T02:53:09Z",
+     "role": "host",
+     "t": 1904.84,
+     "title": "If God, Why Evil? A Q&A in Honor of My Friend Charlie Kirk - LIVE from Lamar Univ. (TX)",
+     "video_id": "DCFwHwVtv2U"
+    },
+    {
+     "confidence": 0.7778,
+     "context": "You know, sometimes you only look up when you're on your back. And the scriptures talk about this. We can't spend a lot of time on this, but notice what James says. James says, My brethren, count it all joy. Stop. Who in here is a Christian that counts it all joy when you fall into various trials? Does anybody in here do that? Do you go, another trial, God? I am so joyful.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-09-24T02:20:40Z",
+     "role": "host",
+     "t": 1496.24,
+     "title": "If God, Why Evil? A Q&A in Honor of My Friend Charlie Kirk - LIVE from McNeese State Univ. (LA)",
+     "video_id": "EZ4wih3PWnI"
+    },
+    {
+     "confidence": 0.5556,
+     "context": "Right? We're shallow. We're selfish. We need difficulty in this life. It's a fallen world, but we need it, and the scriptures talk about it. Paul talks about it building character. James says, count it all joy when you fall into various trials. Does anyone here count it joy when you're trying to hold your dad up all night? I don't. I loved your answer.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-11-13T04:52:42Z",
+     "role": "host",
+     "t": 10150.16,
+     "title": "LIVE from Louisiana State University (Baton Rouge, LA) - IDHEFTBAA",
+     "video_id": "FRsgb2wJa6U"
+    },
+    {
+     "confidence": 0.5556,
+     "context": "And um, and as much as that might be done out of compassion, it's not appropriate. And it ends up not being received the way it was intended. So, that being said, um, I get you. I fully get you. Let's read the passage and see if we can answer it. Uh, count it all joy, my brothers, when you meet trials of various kinds, for you know that the testing of your faith produces steadfastness, and let steadfastness have its full effect that you may per be perfect and complete, lacking in nothing.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
      "matched_translation": "WEB",
-     "published_at": "2025-03-09T19:20:13Z",
-     "role": "unattributed",
-     "t": 2721.64,
-     "title": "The Shifting Sands: Are You Shaping Time or Just Surviving It? | Through The Looking Glass",
-     "video_id": "6zU7SkyyXlI"
+     "published_at": "2023-10-17T22:19:24Z",
+     "role": "host",
+     "t": 3891.36,
+     "title": "20 Questions with Mike Winger (Episode 109)",
+     "video_id": "J-Mt5ypkYNY"
+    },
+    {
+     "confidence": 0.7778,
+     "context": "Try and live there. See how well you do. Now the Bible talks a lot about the purpose of suffering. We don't have time to go through it all, just a few passages. Here's James saying, My brethren, count it all joy when you stop. All right, who in here counts it all joy when you fall into various trials? Does anyone in here do that? I don't. James is saying, Be joyful that you're going through difficulty.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-11-04T02:50:04Z",
+     "role": "host",
+     "t": 2172.4,
+     "title": "If God, Why Evil? A Q&A in Honor of My Friend Charlie Kirk - LIVE from Columbus, OH",
+     "video_id": "L0wKPlEXpUI"
     },
     {
      "confidence": 0.7778,
@@ -125,6 +320,30 @@
      "t": 2176.72,
      "title": "Do I see God right away when I die? 10 Qs with Mike Winger (Ep 65)",
      "video_id": "WWMVwTw-FlY"
+    },
+    {
+     "confidence": 0.5556,
+     "context": "If the Bible was really just written, um, like to sort of be an engineered religion, to be like survival of the fittest religion, and it's like trying to become the fittest religion, like why would this be written? He says, Count it all joy, my brothers, when you meet trials of various kinds. What really soak this in. The Bible cares more about your character than it does you even liking the Bible.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-09-15T23:30:57Z",
+     "role": "host",
+     "t": 6005.72,
+     "title": "20 Questions with Pastor Mike (Episode 107)",
+     "video_id": "Y4qfQHQriY4"
+    },
+    {
+     "confidence": 0.5556,
+     "context": "So the scriptures over and over talk about perseverance and how that leads to character and character leads to hope. That's Romans 5. And of course, James says that count it all joy when you fall into various trials. Does anybody really do that? Do we really count it all joy when we fall into various trials? We're like, God, get us out of this, right? So can you imagine Apostle Paul at a small group? And you're like, does anyone have a prairie quest?",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-08-14T22:30:06Z",
+     "role": "host",
+     "t": 1170.76,
+     "title": "Addictions? Generational Curses? How to Break Free with Allen Parr & Bobby Conway",
+     "video_id": "jQFqnVDNavs"
     },
     {
      "confidence": 0.7778,
@@ -152,31 +371,127 @@
     }
    ],
    "creators": {
-    "cross-examined": 2,
-    "darante-lamar": 1,
-    "mike-winger": 1
+    "cross-examined": 10,
+    "mike-winger": 4
    },
-   "n": 4,
+   "n": 14,
    "text": {
     "KJV": "My brethren, count it all joy when ye fall into divers temptations;",
     "WEB": "Count it all joy, my brothers, when you fall into various temptations,"
    },
    "truncated": false
   },
-  "James 1:27": {
+  "James 1:2-4": {
    "citations": [
     {
-     "confidence": 0.8337,
-     "context": "Instead, it is the man who has endured life's tests and trials who will be saved. A person must be a doer of the word and not a mere hearer. James also says true religion is not merely a confession of faith, but is evident in those who visit orphans and widows in their affliction and keep oneself unstained from the world. James then makes his only reference to faith in Christ, where he warns those who, quote, hold the faith of our Lord Jesus Christ that they should show no partiality, especially towards the wealthy.",
-     "creator": "counsel-of-trent",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-04-30T13:00:05Z",
+     "confidence": null,
+     "context": "Your suffering that you're going through right now, the suffering you'll experience next year, five years, ten years from now, things that you you you didn't have words for, you don't even know how to explain, you never could have anticipated it. That suffering is for your character. James, I gotta read these verses to you. James chapter one verses two through four. And maybe you're thinking, I know, Mike, I know this. No, you can't just know it as you nod your head and wash, you you wave it away. You gotta know it when it comes into your heart and brings you comfort. That's how you have to know it. James 1, verse 2.",
+     "creator": "mike-winger",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-02-07T16:15:00Z",
      "role": "host",
-     "t": 289.68,
-     "title": "Protestants Still Can't Explain James 2",
-     "video_id": "0LwEgFig00A"
+     "t": 231.12,
+     "title": "What Prosperity Preachers Hide From You",
+     "video_id": "6Ng4QWsXw5w"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {},
+   "truncated": false
+  },
+  "James 1:20": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "Okay, that's the first part that you're saying. Maybe that's a sandwich dynamic. Then verse 19, the second part up through verse 27. Know this, my beloved brothers. Let every person be quick to ear, hear, slow to speak, slow to anger. For the anger of man does not produce the righteousness of God. This is such good advice. I hate to pause for a second, but remember this. Um those of us who are prone to anger, which is probably the majority of us, um, we have to remember our anger is not going to make things right.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-02-23T22:44:51Z",
+     "role": "host",
+     "t": 1672.6,
+     "title": "10 Questions with Mike Winger (Episode 5)",
+     "video_id": "hGLj9f6nRCs"
     },
+    {
+     "confidence": 0.5,
+     "context": "James chapter one, and we can look at verse 19 says, know this, my beloved brothers. Let every person be quick to ear, hear, slow to speak, slow to anger, for the anger of man does not produce the righteousness of God. That would be some great advice.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-01-13T23:06:34Z",
+     "role": "host",
+     "t": 4329.4,
+     "title": "20 Questions with Pastor Mike (Episode 91)",
+     "video_id": "iB8Xc3Bg09c"
+    }
+   ],
+   "creators": {
+    "mike-winger": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "For the wrath of man worketh not the righteousness of God.",
+    "WEB": "for the anger of man doesn’t produce the righteousness of God."
+   },
+   "truncated": false
+  },
+  "James 1:22": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "And it never does. My anger doesn't produce the righteousness of God. Good to know. Not all anger is bad, but man, this is what usually happens. Therefore, put away all filthiness and rampant wickedness and receive with meekness the implanted word, which is able to save your souls, but be doers of the word and not hearers only, deceiving yourselves. For if anyone is a hearer of the word and not a doer, he's like a man who looks intently at his natural face in a mirror. For he looks at himself and goes away and at once forgets what he was like.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-02-23T22:44:51Z",
+     "role": "host",
+     "t": 1708.24,
+     "title": "10 Questions with Mike Winger (Episode 5)",
+     "video_id": "hGLj9f6nRCs"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But be ye doers of the word, and not hearers only, deceiving your own selves.",
+    "WEB": "But be doers of the word, and not only hearers, deluding your own selves."
+   },
+   "truncated": false
+  },
+  "James 1:23": {
+   "citations": [
+    {
+     "confidence": 0.6087,
+     "context": "And it never does. My anger doesn't produce the righteousness of God. Good to know. Not all anger is bad, but man, this is what usually happens. Therefore, put away all filthiness and rampant wickedness and receive with meekness the implanted word, which is able to save your souls, but be doers of the word and not hearers only, deceiving yourselves. For if anyone is a hearer of the word and not a doer, he's like a man who looks intently at his natural face in a mirror. For he looks at himself and goes away and at once forgets what he was like.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-02-23T22:44:51Z",
+     "role": "host",
+     "t": 1708.24,
+     "title": "10 Questions with Mike Winger (Episode 5)",
+     "video_id": "hGLj9f6nRCs"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For if any be a hearer of the word, and not a doer, he is like unto a man beholding his natural face in a glass:",
+    "WEB": "For if anyone is a hearer of the word and not a doer, he is like a man looking at his natural face in a mirror;"
+   },
+   "truncated": false
+  },
+  "James 1:27": {
+   "citations": [
     {
      "confidence": null,
      "context": "From a sociological perspective, social respectability becomes salvation. In James, the community becomes a jury of peers that polices behavior based on what looks pure. In James chapter 1, verse 27, he defines religion that is pure and undefiled as visiting orphans, widows, and keeping oneself unstained from the world. Morality becomes aesthetic. It's about being unstained, a visual metaphor.",
@@ -215,10 +530,9 @@
     }
    ],
    "creators": {
-    "counsel-of-trent": 1,
     "darante-lamar": 3
    },
-   "n": 4,
+   "n": 3,
    "text": {
     "KJV": "Pure religion and undefiled before God and the Father is this, To visit the fatherless and widows in their affliction, and to keep himself unspotted from the world.",
     "WEB": "Pure religion and undefiled before our God and Father is this: to visit the fatherless and widows in their affliction, and to keep oneself unstained by the world."
@@ -227,6 +541,66 @@
   },
   "James 1:3": {
    "citations": [
+    {
+     "confidence": 1.0,
+     "context": "And maybe you're thinking, I know, Mike, I know this. No, you can't just know it as you nod your head and wash, you you wave it away. You gotta know it when it comes into your heart and brings you comfort. That's how you have to know it. James 1, verse 2. Consider it all joy, my brethren, when you encounter various trials, knowing that the testing of your faith produces endurance. Endurance or patience. You're learning to endure. This is causing character growth in you. And let endurance have its perfect result or mature result so that you may be perfect or mature and complete, lacking in nothing.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-02-07T16:15:00Z",
+     "role": "host",
+     "t": 247.44,
+     "title": "What Prosperity Preachers Hide From You",
+     "video_id": "6Ng4QWsXw5w"
+    },
+    {
+     "confidence": 0.8333,
+     "context": "In fact, let me let me pop a few of them on the on the screen just so of course the whole book of Job is helpful. But uh let's take a look at James chapter one, verse two. My brethren, count it all joy when you fall into various trials, knowing that the testing of your faith produces patience. Does anybody in here do that? Do you count it all joy when things start going wrong? James says you ought to do that because it's actually gonna help you grow.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-09-25T01:19:32Z",
+     "role": "host",
+     "t": 2916.36,
+     "title": "If God, Why Evil? A Q&A in Honor of My Friend Charlie Kirk - LIVE from Orange, TX",
+     "video_id": "C2IA2_lJWbs"
+    },
+    {
+     "confidence": 0.8333,
+     "context": "Why is he doing that? Because his brother Jesus appeared to him resurrected. Anyway, James says, count it all joy when you get into these trials, knowing that the testing of your faith produces patience. And Paul says in Romans 5, we also glory. Stop. Does anyone in here glory in tribulation? No, but that's what Paul says.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-09-26T02:53:09Z",
+     "role": "host",
+     "t": 1964.4,
+     "title": "If God, Why Evil? A Q&A in Honor of My Friend Charlie Kirk - LIVE from Lamar Univ. (TX)",
+     "video_id": "DCFwHwVtv2U"
+    },
+    {
+     "confidence": 0.8333,
+     "context": "Does anybody in here do that? Do you go, another trial, God? I am so joyful. No, we don't do that, but that's what it says. When you fall into various trials, knowing that the testing of your faith produces patience. Paul goes on to say in Romans 5, we all glory in tribulation. Who does that? Do you glory in tribulation? We glory in tribulation, knowing that tribulation produces perseverance and perseverance, character and character, hope.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-09-24T02:20:40Z",
+     "role": "host",
+     "t": 1515.44,
+     "title": "If God, Why Evil? A Q&A in Honor of My Friend Charlie Kirk - LIVE from McNeese State Univ. (LA)",
+     "video_id": "EZ4wih3PWnI"
+    },
+    {
+     "confidence": 0.6667,
+     "context": "And um, and as much as that might be done out of compassion, it's not appropriate. And it ends up not being received the way it was intended. So, that being said, um, I get you. I fully get you. Let's read the passage and see if we can answer it. Uh, count it all joy, my brothers, when you meet trials of various kinds, for you know that the testing of your faith produces steadfastness, and let steadfastness have its full effect that you may per be perfect and complete, lacking in nothing.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-10-17T22:19:24Z",
+     "role": "host",
+     "t": 3891.36,
+     "title": "20 Questions with Mike Winger (Episode 109)",
+     "video_id": "J-Mt5ypkYNY"
+    },
     {
      "confidence": 0.6667,
      "context": "This is like something that is has been around for generations. So I think just this deep dependence on Jesus and knowing that I am not the center of that, but God is. And I think the other things, one a scripture that we all all love, especially when we're dealing with trials and tribulations in James 1, where it says, consider it prayer joy, brothers and sisters, whenever you face trials of many kinds, because you know that the testing of your faith produces perseverance.",
@@ -241,6 +615,18 @@
     },
     {
      "confidence": 0.8333,
+     "context": "All right, who in here counts it all joy when you fall into various trials? Does anyone in here do that? I don't. James is saying, Be joyful that you're going through difficulty. Why? Because knowing that the testing of your faith produces patience. Paul says in Romans 5, we also glory in tribute. Stop. Who glories in tribulation? Does anybody in here glory when you're going through difficulty?",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-11-04T02:50:04Z",
+     "role": "host",
+     "t": 2190.96,
+     "title": "If God, Why Evil? A Q&A in Honor of My Friend Charlie Kirk - LIVE from Columbus, OH",
+     "video_id": "L0wKPlEXpUI"
+    },
+    {
+     "confidence": 0.8333,
      "context": "Is it the Christian who waffles uh like they they do good, then they do bad. They blow it, they have like some real stronghold of sin in their life that they're really they're really battling. Is that the James 1 8 double-minded man? So it says here, my brethren, count it all joy when you fall into various trials, knowing that the testing of your faith produces patience. But let patience have its perfect work, that you may be perfect and complete, lacking nothing. If any of you lacks wisdom, let him ask of God. Right? This is the main thrust right here.",
      "creator": "mike-winger",
      "detection_method": "shingle_match",
@@ -250,6 +636,18 @@
      "t": 2176.72,
      "title": "Do I see God right away when I die? 10 Qs with Mike Winger (Ep 65)",
      "video_id": "WWMVwTw-FlY"
+    },
+    {
+     "confidence": 0.6667,
+     "context": "When you meet trials of various kinds. So this is to say, I'm gonna hit an obstacle, and everything about it is difficult, but I'm gonna remind myself there's one good thing about this. What is that? Well, you know that the testing of your faith produces steadfastness or patience. This trial is a test of your faith. Every trial is a test of your faith. Not like whether you're a Christian or not, but it's it's testing your faith. Kind of like when you take steel and you put it under weight, you're testing it, you're seeing how strong it is.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-09-15T23:30:57Z",
+     "role": "host",
+     "t": 6090.04,
+     "title": "20 Questions with Pastor Mike (Episode 107)",
+     "video_id": "Y4qfQHQriY4"
     },
     {
      "confidence": 0.5,
@@ -265,11 +663,11 @@
     }
    ],
    "creators": {
-    "cross-examined": 1,
+    "cross-examined": 5,
     "jude-3-project": 1,
-    "mike-winger": 1
+    "mike-winger": 4
    },
-   "n": 3,
+   "n": 10,
    "text": {
     "KJV": "Knowing this, that the trying of your faith worketh patience.",
     "WEB": "knowing that the testing of your faith produces endurance."
@@ -289,12 +687,37 @@
      "t": 2183.28,
      "title": "Do I see God right away when I die? 10 Qs with Mike Winger (Ep 65)",
      "video_id": "WWMVwTw-FlY"
+    },
+    {
+     "confidence": 0.5385,
+     "context": "Uh in James 1, chapters uh verses 2 through 4, it uses even stronger language talking about being persevering in the faith. It says let steadfastness have its full effect, that you may be perfect and complete, lacking in nothing. But if I said to you, well, therefore perseverance is all we need to be perfect, complete and lacking in nothing, you'd say, Well, no, you also need to be holy, right?",
+     "creator": "capturing-christianity",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-07-31T16:24:33Z",
+     "role": "unknown",
+     "t": 2973.76,
+     "title": "The Never Released Debate I Lost to Matt Fradd",
+     "video_id": "_550FWnBUk0"
+    },
+    {
+     "confidence": 0.6923,
+     "context": "So, yeah, the New Testament writers, it helps to, when you read the word perfect to think about that, it especially as it relates to people, it may well be talking about maturity. Let let patience, James one says, have its perfect work that you may be perfect and complete, lacking nothing. That's talking about maturity. You could be a mature, responsible, strong person with strong character there. It's not even talking about other aspects of maturity.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-03-01T22:44:38Z",
+     "role": "host",
+     "t": 1334.0,
+     "title": "10 Questions with Mike Winger (Episode 6)",
+     "video_id": "eulkKzhHIWo"
     }
    ],
    "creators": {
-    "mike-winger": 1
+    "capturing-christianity": 1,
+    "mike-winger": 2
    },
-   "n": 1,
+   "n": 3,
    "text": {
     "KJV": "But let patience have her perfect work, that ye may be perfect and entire, wanting nothing.",
     "WEB": "Let endurance have its perfect work, that you may be perfect and complete, lacking in nothing."
@@ -303,6 +726,30 @@
   },
   "James 1:5": {
    "citations": [
+    {
+     "confidence": 0.6667,
+     "context": "And now I'm failing to see why. Oh, James. Okay, so I went to the wrong passage. James 1, 5 through 8. Starting again. If any of you lacks wisdom, let him ask of God, who gives generously to all with without reproach, and it will be given to him. But let him ask in faith without doubting. No doubting. For the one who doubts is like a wave of the sea that is driven and tossed by the wind. For that person must not suppose that he will receive anything from the Lord.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-05-02T21:37:03Z",
+     "role": "host",
+     "t": 2020.36,
+     "title": "Do I have my own \"private prayer language\"? 10 Qs with Mike Winger (Ep 50)",
+     "video_id": "7fQT7bS2NPM"
+    },
+    {
+     "confidence": 0.6667,
+     "context": "There's an element that's there, but there's also this sort of unstable man in general. He's a double-minded man that is unstable. If God spoke to him, would he even listen? That's how I take this. Let's read it again, see what we think about that. If any of you lacks wisdom, let him ask of God who gives generously to all without reproach, and it will be given to him. Notice wisdom doesn't mean God always answers your prayers and gives you the knowledge you want. Wisdom is often, God, show me what to do, show me what to do, show me what to do. And the Lord's like, I am in control.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-05-02T21:37:03Z",
+     "role": "host",
+     "t": 2141.44,
+     "title": "Do I have my own \"private prayer language\"? 10 Qs with Mike Winger (Ep 50)",
+     "video_id": "7fQT7bS2NPM"
+    },
     {
      "confidence": 0.9583,
      "context": "Is that the James 1 8 double-minded man? So it says here, my brethren, count it all joy when you fall into various trials, knowing that the testing of your faith produces patience. But let patience have its perfect work, that you may be perfect and complete, lacking nothing. If any of you lacks wisdom, let him ask of God. Right? This is the main thrust right here. You're lacking wisdom, there's some understanding you're you're missing out on. Then ask of God, who gives to all liberally and without reproach, and it will be given to him. But let him ask in faith, with no doubting.",
@@ -314,6 +761,18 @@
      "t": 2187.36,
      "title": "Do I see God right away when I die? 10 Qs with Mike Winger (Ep 65)",
      "video_id": "WWMVwTw-FlY"
+    },
+    {
+     "confidence": 0.5833,
+     "context": "In John 14, 13 through 14, whatever you ask in my name, this I will do. That the Father may be glorified in the Son. If you ask me anything in my name, I will do it. Okay, so now we have to pray in Jesus' name. James 1, 5 through 6. If any of you lacks wisdom, let him ask of God who gives to all men generously and without reproach. All men, it will be given to them. So how do you reconcile this? Where I spent decades of my life asking for wisdom from the supposed correct creator of said wisdom, who promises he will always give to everyone generously.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-05-19T14:00:28Z",
+     "role": "host",
+     "t": 432.84,
+     "title": "The Will To Save Discrepancy: A Divine Problem!",
+     "video_id": "fNLoPFDnNxI"
     },
     {
      "confidence": 0.9583,
@@ -329,10 +788,10 @@
     }
    ],
    "creators": {
-    "mike-winger": 1,
-    "mindshift": 1
+    "mike-winger": 3,
+    "mindshift": 2
    },
-   "n": 2,
+   "n": 5,
    "text": {
     "KJV": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him.",
     "WEB": "But if any of you lacks wisdom, let him ask of God, who gives to all liberally and without reproach, and it will be given to him."
@@ -389,17 +848,42 @@
      "t": 402.76,
      "title": "Everything Wrong With the General Epistles: Damage Control Christianity",
      "video_id": "Hs21vfPzbVE"
+    },
+    {
+     "confidence": null,
+     "context": "And I'd want to spend more time on the passages to give you more detail. Um question number five. CWQ says, I love Mark 9 24. And the phrase there is uh I believe, help my unbelief. But how do we understand that along with James, how do we how do we understand that along with James 1, verses 6 through 8, ask in faith with no doubts? He who doubts should not expect to receive anything from the Lord. All right, so is faith, does that entail the absence of doubts?",
+     "creator": "mike-winger",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2023-08-18T22:02:15Z",
+     "role": "host",
+     "t": 2149.6,
+     "title": "20 Questions with Pastor Mike (Episode 105)",
+     "video_id": "JksaTKdpgNM"
     }
    ],
    "creators": {
-    "darante-lamar": 2
+    "darante-lamar": 2,
+    "mike-winger": 1
    },
-   "n": 2,
+   "n": 3,
    "text": {},
    "truncated": false
   },
   "James 1:7": {
    "citations": [
+    {
+     "confidence": 0.5,
+     "context": "Starting again. If any of you lacks wisdom, let him ask of God, who gives generously to all with without reproach, and it will be given to him. But let him ask in faith without doubting. No doubting. For the one who doubts is like a wave of the sea that is driven and tossed by the wind. For that person must not suppose that he will receive anything from the Lord. He's a double-minded man and stable in all his ways. Um I genuinely genuinely I'm not always sure how to thread the needle here between these two dangers.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-05-02T21:37:03Z",
+     "role": "host",
+     "t": 2033.48,
+     "title": "Do I have my own \"private prayer language\"? 10 Qs with Mike Winger (Ep 50)",
+     "video_id": "7fQT7bS2NPM"
+    },
     {
      "confidence": 0.5,
      "context": "Then ask of God, who gives to all liberally and without reproach, and it will be given to him. But let him ask in faith, with no doubting. For he who doubts is like a wave of the sea, driven and tossed by the wind. For let not that man suppose that he will receive anything from the Lord. He is a double-minded man, unstable in all his ways. So the doubter is the double-minded man, it's the one who is doubting. What are they doubting? They're doubting God. This is what they're doubting.",
@@ -414,9 +898,9 @@
     }
    ],
    "creators": {
-    "mike-winger": 1
+    "mike-winger": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "For let not that man think that he shall receive any thing of the Lord.",
     "WEB": "For that man shouldn’t think that he will receive anything from the Lord."
@@ -438,6 +922,18 @@
      "video_id": "2RcnvT6CghM"
     },
     {
+     "confidence": 0.75,
+     "context": "Person is impurity. They are sold out, single-minded for God and the things of God. So to be impure, as James talks about being a double-minded man, unstable in all his ways. Impurity is like with God, with the world and constantly going back and forth. But purity is to be focused, right? I love that word, to be focused and committed and steadfast and pursuing a life that holistically God can squeeze all of glory for himself out of you with.",
+     "creator": "jude-3-project",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2017-05-12T17:03:56Z",
+     "role": "host",
+     "t": 1494.88,
+     "title": "The Church and Sex | Sarita Lyons, JD, PhD",
+     "video_id": "BKrj0tk8FeE"
+    },
+    {
      "confidence": 0.5714,
      "context": "I I'll tell you a red flag that you might not be well regulated. And here's the thing when you're not a regulated person, people will take advantage of you. Okay. Like I hate to pull a scripture. I hate to pull a scripture, but the Bible says an unstable man, uh double-minded man is unstable in all of his ways. You know, and and that's kind of that that's kind of what living life without regulation does.",
      "creator": "darante-lamar",
@@ -448,6 +944,18 @@
      "t": 2634.44,
      "title": "From Believing To Living",
      "video_id": "C3QQlS2WjAc"
+    },
+    {
+     "confidence": 0.7143,
+     "context": "I was fine with that. Um, but it's been after that he the things that he has been posting and saying, both in video on his Instagram, some of the most just vile character-maligning things about me because of my book, Toxic Empathy, because of the things that I believe. And it just goes to show like a double-minded man is unstable in all of his ways, still unstable in his beliefs, unstable in how he reacts to something. And it goes back to what you said earlier. When people can't contend with your logic, they emote, they name call.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-11-08T01:00:06Z",
+     "role": "unattributed",
+     "t": 2752.08,
+     "title": "How to Debate 20 Progressive Christians at Once with Allie Beth Stuckey",
+     "video_id": "Dv5PErSkEgg"
     },
     {
      "confidence": 1.0,
@@ -463,10 +971,12 @@
     }
    ],
    "creators": {
+    "cross-examined": 1,
     "darante-lamar": 2,
+    "jude-3-project": 1,
     "mike-winger": 1
    },
-   "n": 3,
+   "n": 5,
    "text": {
     "KJV": "A double minded man is unstable in all his ways.",
     "WEB": "He is a double-minded man, unstable in all his ways."
@@ -475,18 +985,6 @@
   },
   "James 2:1": {
    "citations": [
-    {
-     "confidence": 0.8225,
-     "context": "A person must be a doer of the word and not a mere hearer. James also says true religion is not merely a confession of faith, but is evident in those who visit orphans and widows in their affliction and keep oneself unstained from the world. James then makes his only reference to faith in Christ, where he warns those who, quote, hold the faith of our Lord Jesus Christ that they should show no partiality, especially towards the wealthy. James says that we fulfill the royal law and do well when we love our neighbors as ourselves.",
-     "creator": "counsel-of-trent",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-04-30T13:00:05Z",
-     "role": "host",
-     "t": 300.56,
-     "title": "Protestants Still Can't Explain James 2",
-     "video_id": "0LwEgFig00A"
-    },
     {
      "confidence": 0.5,
      "context": "Ultimately, everyone should be treated with the same standards of justice. As James 2-1 says, my brethren, show no partiality as you hold the faith of our Lord Jesus Christ, the Lord of glory. The problem with cancel culture from the 2010s to the early 2020s was that it punished people simply because they rejected the dogmas of terminally online liberals who were good at whipping up a mob that overwhelmed the owners of companies who weren't familiar with how Twitter works.",
@@ -513,10 +1011,10 @@
     }
    ],
    "creators": {
-    "counsel-of-trent": 2,
+    "counsel-of-trent": 1,
     "mike-winger": 1
    },
-   "n": 3,
+   "n": 2,
    "text": {
     "KJV": "My brethren, have not the faith of our Lord Jesus Christ, the Lord of glory, with respect of persons.",
     "WEB": "My brothers, don’t hold the faith of our glorious Lord Jesus Christ with partiality."
@@ -525,6 +1023,18 @@
   },
   "James 2:11": {
    "citations": [
+    {
+     "confidence": 0.5517,
+     "context": "The point is you don't get to pick and choose, according to James. You don't get to pick and choose what neighbor you love. You don't get to pick and choose which laws you obey. So he says, Whoever keeps the whole law, but fails in one point has become guilty of all of it. For he who said, Do not commit adultery also said also, do not kill. If you do not commit adultery, but do kill, you have become a transgressor of the law. So the example already really counts against the idea that James is saying there's no difference between major and minor sins, because this comparison is between two major sins, adultery and murder.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-02-06T13:00:06Z",
+     "role": "host",
+     "t": 2207.84,
+     "title": "Protestants Should Believe this Catholic Doctrine about SIN",
+     "video_id": "AxCrLWiUb7s"
+    },
     {
      "confidence": 0.6207,
      "context": "Christians don't get to pick and choose who they must love and which moral laws they must follow. That's why James then says, For whoever keeps the whole law but fails in one point has become guilty of all of it. For he who said, Do not commit adultery also said, Do not kill. If you do not commit adultery, but do kill, you have become a transgressor of the law. In other words, a Christian cannot tell God, So what if I hated my neighbor? At least I loved a bunch of other people.",
@@ -536,6 +1046,18 @@
      "t": 735.36,
      "title": "The Most Undeniable Catholic Doctrine",
      "video_id": "K_eYeSUcUI4"
+    },
+    {
+     "confidence": 0.7931,
+     "context": "And this is where James 2 10 comes in. So the scripture here says, uh, whoever keeps the whole law but fails in one point, say theft of a small item, has become guilty of all of it. For he who said do not commit murder also said do not murder. Do not commit adultery, also said do not murder. If you do not commit adultery but do murder, you have become a transgressor of the law. The idea here is not that if you break one law, you have effectively committed every sin there is, so that if I stole a pencil, I'm also a murderer.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-05-09T21:30:41Z",
+     "role": "host",
+     "t": 616.12,
+     "title": "\"All sin is the same\" is dangerous and wrong: 10 Qs with Mike Winger (Ep 51)",
+     "video_id": "agQ9_a_2llE"
     },
     {
      "confidence": 0.6207,
@@ -551,9 +1073,10 @@
     }
    ],
    "creators": {
-    "counsel-of-trent": 2
+    "counsel-of-trent": 3,
+    "mike-winger": 1
    },
-   "n": 2,
+   "n": 4,
    "text": {
     "KJV": "For he that said, Do not commit adultery, said also, Do not kill. Now if thou commit no adultery, yet if thou kill, thou art become a transgressor of the law.",
     "WEB": "For he who said, “Do not commit adultery,” also said, “Do not commit murder.” Now if you do not commit adultery but do murder, you have become a transgressor of the law."
@@ -563,22 +1086,35 @@
   "James 2:13": {
    "citations": [
     {
-     "confidence": 0.9054,
-     "context": "You are now purposely involving everyone in what I think is murder, because this jealous, egotistical God couldn't handle someone saying something against his name, when instead we could say, you know what? Mercy triumphs over judgment, and even those accused of the worst crimes, I gave that to God because I know it's his least favorite, should be given a chance to make things right. This next category might be too similar, but I had kind of divine command theory off on its own. I wanted to present a version of God's commands that didn't just seem arbitrary or cruel or incomprehensible.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
+     "confidence": null,
+     "context": "You know, according to these people. Is it gonna be hell? It's hell, isn't it? Wow. God will turn you over to the torturers. What does that mean? Well, it's what James said in James chapter 2, verse 13, judgment will be merciless to the one who shows no mercy. Because God is angry with our anger.",
+     "creator": "belief-it-or-not",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2023-01-11T10:00:04Z",
+     "role": "unknown",
+     "t": 2865.08,
+     "title": "The Seven Deadly Sins: Wrath | Belief It Or Not",
+     "video_id": "B_-kjctRjUs"
+    },
+    {
+     "confidence": 0.6154,
+     "context": "Um, not all of them, right? But many of them do. If you really fulfill the lore, the royal law according to scripture, love your neighbors yourself, you're doing well. But if you show partiality, you're and that's towards people, not God. You're committing sin and are convicted by the law as transgressors. Yeah, so I, you know, speak and act as those who are to be judged by the law under the law of liberty, for judgment is without mercy for the one who has shown no mercy, mercy triumphs over judgment. I think it's a stretch to call that a sandwich. All that to say. But in the course of studying it, we've we've been refreshed in James, which is a book that every time I read it, I'm convicted.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
      "matched_translation": "WEB",
-     "published_at": "2024-10-06T14:00:02Z",
+     "published_at": "2024-02-23T22:44:51Z",
      "role": "host",
-     "t": 1384.2,
-     "title": "I Accidentally Improved the Bible… Then I Did It on Purpose 59 More Times!",
-     "video_id": "1uQn7XQq85s"
+     "t": 2087.48,
+     "title": "10 Questions with Mike Winger (Episode 5)",
+     "video_id": "hGLj9f6nRCs"
     }
    ],
    "creators": {
-    "mindshift": 1
+    "belief-it-or-not": 1,
+    "mike-winger": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "For he shall have judgment without mercy, that hath shewed no mercy; and mercy rejoiceth against judgment.",
     "WEB": "For judgment is without mercy to him who has shown no mercy. Mercy triumphs over judgment."
@@ -588,16 +1124,16 @@
   "James 2:14": {
    "citations": [
     {
-     "confidence": 0.9237,
-     "context": "Obviously, this particular guy's faith, that's what James is all about. That's what this passage in James is about. The guy who claims to believe, but he shows no evidence of faith. Is that guy saved? That's that's the question. Someone says he has faith, but he does not have works. He says, Can that faith save him? And what does every Christian say to that? No. No. We're talking about kinds of faith here.",
+     "confidence": 1.0,
+     "context": "Because in Greek, the word for faith, he pistis, you can translate it as that faith, but it literally means the faith or just faith. The King James Bible translates it this way. What doth it profit, my brethren, though a man say he hath faith and have not works. Can faith save him? James is not concerned with whether someone has the right kind of faith.",
      "creator": "counsel-of-trent",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-04-30T13:00:05Z",
-     "role": "unknown",
-     "t": 243.28,
-     "title": "Protestants Still Can't Explain James 2",
-     "video_id": "0LwEgFig00A"
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2021-07-05T13:00:00Z",
+     "role": "host",
+     "t": 3919.64,
+     "title": "Catholicism Exposed (REBUTTAL to Calvinist John MacArthur)",
+     "video_id": "-X45ud92VsE"
     }
    ],
    "creators": {
@@ -679,19 +1215,41 @@
    },
    "truncated": false
   },
+  "James 2:15-16": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "In fact, maybe that's one reason why the prayer is not being answered, is because I'm withholding myself from responsibility. So an example of this is James chapter 2, verses 15 and 16. So we want to learn to think biblically about everything. So let's bring scripture into it, right? James 2, 15 and 16 says, if a brother or sister is poorly clothed and lacking in daily food, so these are these are uh essentials, right?",
+     "creator": "mike-winger",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2022-06-03T21:43:22Z",
+     "role": "host",
+     "t": 150.76,
+     "title": "20 Questions with Pastor Mike (Episode 74)",
+     "video_id": "q8Unzb_QjuA"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {},
+   "truncated": false
+  },
   "James 2:17": {
    "citations": [
     {
-     "confidence": 0.8689,
-     "context": "If you do that, James's message doesn't make sense, because he always speaks of faith as a good thing. Let's try this with James 2.17 through 20. It would go like this. So false faith by itself, if it has no works, is dead. But someone will say, You have dead faith, and I have works. Show me your dead faith apart from your works, and I by my works will show you my dead faith.",
+     "confidence": 0.7778,
+     "context": "In a debate with Wilkin in 2005 on free grace theology, James White, who defends perseverance of the saints over free grace theology, was not having any of this kind of interpretation of James II. Even so, faith, if it has no works, is dead. And there is actually some people who said, yeah, well, if it's dead, it must have been alive once. Really? That's that's what James's point is here.",
      "creator": "counsel-of-trent",
-     "detection_method": "embedding_match",
+     "detection_method": "shingle_match",
      "matched_translation": "WEB",
-     "published_at": "2025-04-30T13:00:05Z",
+     "published_at": "2023-08-09T13:00:06Z",
      "role": "host",
-     "t": 470.32,
-     "title": "Protestants Still Can't Explain James 2",
-     "video_id": "0LwEgFig00A"
+     "t": 434.92,
+     "title": "Protestantism's Most Unhistorical Doctrine",
+     "video_id": "3NW4ZbnCdh4"
     }
    ],
    "creators": {
@@ -707,42 +1265,6 @@
   "James 2:18": {
    "citations": [
     {
-     "confidence": 0.8589,
-     "context": "You're not saved by your works, but your works indicate whether or not you're saved, as Martin Luther famously said, you're saved by faith alone, but your faith is not alone. This is what James is talking about in his book, where he says, I will show you my faith by my works. He's not saying that you are saved by your works, he's saying that you will see my faith through my works. So my friend Greg Kokel puts it this way if you're living like hell, you're probably going there.",
-     "creator": "cross-examined",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2026-02-25T02:16:36Z",
-     "role": "host",
-     "t": 7355.4,
-     "title": "'Change My Mind' LIVE Q&A Northern Michigan Univ. (Marquette, MI)",
-     "video_id": "-7cAMVvoO1I"
-    },
-    {
-     "confidence": 0.8961,
-     "context": "Let's try this with James 2.17 through 20. It would go like this. So false faith by itself, if it has no works, is dead. But someone will say, You have dead faith, and I have works. Show me your dead faith apart from your works, and I by my works will show you my dead faith. You believe that God is one, you do well, even the demons believe and shudder. Do you want to be shown, you foolish fellow, that dead faith, apart from works, is barren?",
-     "creator": "counsel-of-trent",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-04-30T13:00:05Z",
-     "role": "host",
-     "t": 475.36,
-     "title": "Protestants Still Can't Explain James 2",
-     "video_id": "0LwEgFig00A"
-    },
-    {
-     "confidence": 0.8208,
-     "context": "He said, Show we sin so grace may abound, may it never be. If you're living like hell, you're probably going there. Jesus said, if you love me, you'll keep my commandments. You're not saved by your works, but your works are evidence you're saved. That's what James is talking about. Let me show you my faith by my works. You can't see faith, but you can see the works that come with faith. Uh even 1 Corinthians chapter 2, the second part of that, if I'm remembering correctly, says that the sacrifice of Jesus was hidden and veiled, because if the if the principalities of this world, the powers that be of this world knew what was happening, they never would have crucified the Lord of glory.",
-     "creator": "cross-examined",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2026-05-06T22:00:22Z",
-     "role": "host",
-     "t": 127.08,
-     "title": "Why Did Jesus Have to Die for Our Sins?",
-     "video_id": "9cnWlROMwho"
-    },
-    {
      "confidence": 0.52,
      "context": "Um, it says, so also faith by itself, if it does not have works, is dead. Right? The problem is the dead faith. Oh, your faith is dead. You have just mere intellectual belief. But someone will say, they'll they'll complain to to James, you have faith and I have works. Right? Again, they're two seen as two distinct issues. Which one is it? Are you saved by faith or saved by works? And he's gonna say what he's actually doing. James reveals, show me your faith apart from your works, and I will show you my faith by my works.",
      "creator": "mike-winger",
@@ -756,11 +1278,9 @@
     }
    ],
    "creators": {
-    "counsel-of-trent": 1,
-    "cross-examined": 2,
     "mike-winger": 1
    },
-   "n": 4,
+   "n": 1,
    "text": {
     "KJV": "Yea, a man may say, Thou hast faith, and I have works: shew me thy faith without thy works, and I will shew thee my faith by my works.",
     "WEB": "Yes, a man will say, “You have faith, and I have works.” Show me your faith without works, and I will show you my faith by my works."
@@ -769,18 +1289,6 @@
   },
   "James 2:19": {
    "citations": [
-    {
-     "confidence": 0.7638,
-     "context": "And therefore, they accuse the contingentists of being closet creationists who are really positing a miracle to explain the origin of life. Now, the Christian theologian who explicitly believes in God cannot help but form a wry smile at these two secular schools of thought accusing each other of having this surreptitious theological agenda, because we believe that God is ultimately behind the way the universe was constructed.",
-     "creator": "drcraigvideos",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2023-09-20T20:00:00Z",
-     "role": "host",
-     "t": 145.72,
-     "title": "What Are the Theological Implications of Origin of Life Research?",
-     "video_id": "-j6XcN_paOY"
-    },
     {
      "confidence": 0.5,
      "context": "But someone will say, You have dead faith, and I have works. Show me your dead faith apart from your works, and I by my works will show you my dead faith. You believe that God is one, you do well, even the demons believe and shudder. Do you want to be shown, you foolish fellow, that dead faith, apart from works, is barren? Ferris at the channel How to Be Christian also breaks down where Lutheran scholar Jordan Cooper is right that James doesn't mention true faith, but wrong about the different senses of faith that James is talking about.",
@@ -792,6 +1300,30 @@
      "t": 485.92,
      "title": "Protestants Still Can't Explain James 2",
      "video_id": "0LwEgFig00A"
+    },
+    {
+     "confidence": 0.5,
+     "context": "James does not speak of dead or inauthentic faith. He only talks about faith. For example, James 219 says, You believe that God is one, you do well, even the demons believe and shudder. Belief in monotheism is good, but on its own it does not bring about salvation. So James 226 says, For as the body apart from the spirit is dead, so faith apart from works is dead.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-11-23T13:00:19Z",
+     "role": "host",
+     "t": 917.68,
+     "title": "Reviewing Allie Beth Stuckey on the Reformation",
+     "video_id": "Dao6Lx0gN5g"
+    },
+    {
+     "confidence": 0.5,
+     "context": "There is one God and one mediator between God and man. And finally, James chapter 2 and verse 19. James 2, 19. James says, you believe that God is one, you do well. Even the demons believe and shudder. So even the demonic forces are monotheists. Even the demons believe that there is one true God, and they tremble because they stand under God's wrath and condemnation.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-11T17:15:23Z",
+     "role": "host",
+     "t": 460.88,
+     "title": "📺🤺 Watch Defenders LIVE! // The Trinity pt 2: Three Persons, One God 📺🤺",
+     "video_id": "K9rrNRr7WfA"
     },
     {
      "confidence": 0.5,
@@ -819,6 +1351,30 @@
     },
     {
      "confidence": 0.5,
+     "context": "And if he cannot achieve that end because of our free will and rebelliousness, then relatively speaking, it's a matter of indifference whether or not you come to believe that God exists. And so you have, for example, the apostle James saying in his epistle, do you believe that God is one? You do well. Even the demons believe and tremble. James there, I think, is using a bit of irony. He's saying, You believe there's one God?",
+     "creator": "drcraigvideos",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2011-08-31T08:19:55Z",
+     "role": "host",
+     "t": 1442.2,
+     "title": "Divine Hiddenness of God",
+     "video_id": "d8EZBX8ZbWQ"
+    },
+    {
+     "confidence": 0.5,
+     "context": "For example, Merriam Webster says that belief is a synonym for faith. But Mike would probably say faith and belief are not the same thing. After all, James 2 19 says, you believe that God is one, you do well, even the demons believe and shudder. So the point here is that faith in Christ is not the same as belief in Christ or belief that Jesus is God or the Messiah.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2021-12-06T06:00:11Z",
+     "role": "host",
+     "t": 495.28,
+     "title": "Answering Mike Winger’s Accusations",
+     "video_id": "jLNRg6RPQzs"
+    },
+    {
+     "confidence": 0.5,
      "context": "Propositional faith involves belief in certain truth claims. But then in addition to that, it's not just a matter of believing certain truths. James says, Do you believe that God is one? Well and good. The demons also believe and shudder. So what the demons lack is not propositional faith. What they lack is that personal trust in God, personal trust in Christ.",
      "creator": "paulogia",
      "detection_method": "shingle_match",
@@ -831,13 +1387,14 @@
     }
    ],
    "creators": {
-    "counsel-of-trent": 1,
+    "counsel-of-trent": 3,
     "drcraigvideos": 1,
     "mike-winger": 1,
     "mindshift": 1,
-    "paulogia": 1
+    "paulogia": 1,
+    "reasonable-faith-org": 1
    },
-   "n": 5,
+   "n": 8,
    "text": {
     "KJV": "Thou believest that there is one God; thou doest well: the devils also believe, and tremble.",
     "WEB": "You believe that God is one. You do well. The demons also believe—and shudder."
@@ -847,129 +1404,80 @@
   "James 2:20": {
    "citations": [
     {
-     "confidence": 0.8677,
-     "context": "My colleague Jimmy Aiken shows the real issue in James. He writes, The faith isn't the problem. It's being alone is the problem. James 226 says, For as the body apart from the spirit is dead, so faith apart from works is dead. For James, what makes faith alive is not something in the faith, like authenticity. It's works.",
-     "creator": "counsel-of-trent",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-04-30T13:00:05Z",
-     "role": "host",
-     "t": 650.72,
-     "title": "Protestants Still Can't Explain James 2",
-     "video_id": "0LwEgFig00A"
-    },
-    {
-     "confidence": 0.8043,
-     "context": "And of course, just this idea of I'm praying for you, this can come off incredibly insincere, um, especially if the person offering prayer does not follow up with tangible help, uh, leading to feelings of abandonment and helplessness. Um, which I've often, I've often found this to be incredibly odd because even the scripture says faith without works is dead. You know. But I'm praying for you. And of course, just thinking about the social impacts, this can ref this can reinforce a divide between believers and non-believers, making the latter feel misunderstood and alienated from their support networks.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
+     "confidence": 0.5,
+     "context": "In James, it says that but without uh without but w I should have gotten a different translation. I can already thou know, O vain man, that faith works without works is dead? Was not Abraham our father justified by works when he had offered Isaac his son upon the altar? And then in Romans it says, What shall we say then that Abraham our father was pertaining to the flesh have found?",
+     "creator": "belief-it-or-not",
+     "detection_method": "shingle_match",
      "matched_translation": "KJV",
-     "published_at": "2024-07-04T19:00:03Z",
+     "published_at": "2023-07-30T09:00:35Z",
      "role": "host",
-     "t": 638.44,
-     "title": "Religious Advice is Harmful",
-     "video_id": "9nb5lt-0h0k"
+     "t": 1255.56,
+     "title": "The Belief It Or Not Podcast: Ep. 138 -  Bible Contradictions",
+     "video_id": "mw8AjSGHhyc"
     }
    ],
    "creators": {
-    "counsel-of-trent": 1,
-    "darante-lamar": 1
+    "belief-it-or-not": 1
    },
-   "n": 2,
+   "n": 1,
    "text": {
     "KJV": "But wilt thou know, O vain man, that faith without works is dead?",
     "WEB": "But do you want to know, vain man, that faith apart from works is dead?"
    },
    "truncated": false
   },
-  "James 2:22": {
+  "James 2:21": {
    "citations": [
     {
-     "confidence": 0.8632,
-     "context": "Also, James 222 doesn't say Abraham's faith was shown or demonstrated by his works. It says of Abraham, you see that faith was active along with his works, and faith was completed by works. James cites Genesis 15 6, which said, Abraham believed God, and it was reckoned to him as righteousness, and that this was fulfilled when Abraham offered his son Isaac on the altar.",
-     "creator": "counsel-of-trent",
-     "detection_method": "embedding_match",
+     "confidence": 0.5333,
+     "context": "So this is a salvation issue. And then James in James chapter two, they both actually use Abraham as an example. Paul's like, Abraham was justified by faith apart from works. And then James in James 2 21 says, Was not Abraham our father justified by works when he offered Isaac his son on the altar? And if you assume the theological meaning of justification that you get in like a the uh an actual theological book or that a pastor would use on stage, then you're gonna think James is contradicting Paul.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
      "matched_translation": "KJV",
-     "published_at": "2025-04-30T13:00:05Z",
+     "published_at": "2025-09-05T15:30:01Z",
      "role": "host",
-     "t": 1017.24,
-     "title": "Protestants Still Can't Explain James 2",
-     "video_id": "0LwEgFig00A"
-    }
-   ],
-   "creators": {
-    "counsel-of-trent": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Seest thou how faith wrought with his works, and by works was faith made perfect?",
-    "WEB": "You see that faith worked with his works, and by works faith was perfected."
-   },
-   "truncated": false
-  },
-  "James 2:23": {
-   "citations": [
+     "t": 61.92,
+     "title": "Don't Do THIS When Reading Your Bible! #Shorts  @MikeWinger",
+     "video_id": "3DYUF0mKrZg"
+    },
     {
-     "confidence": 0.8717,
-     "context": "Finally, Galatians three, verses six to nine. Galatians chapter three, verses six to nine. Paul writes, thus Abraham, quote, believed God, and it was reckoned to him as righteousness. So you see that it is men of faith who are the sons of Abraham.",
-     "creator": "reasonable-faith-org",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-11-02T16:47:34Z",
+     "confidence": 0.5333,
+     "context": "And he means we are made righteous by God. So this is a salvation issue. And then James in James chapter two, they both actually use Abraham as an example. Paul's like, Abraham was justified by faith apart from works. And then James in James 2 21 says, Was not Abraham our father justified by works when he offered Isaac his son on the altar. And if you assume the theological meaning of justification that you get in like a an actual theological book or that a pastor would use on stage, then you're gonna think James is contradicting Paul.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-08-02T01:00:26Z",
      "role": "host",
-     "t": 442.88,
-     "title": "Doctrine of Man Part 26: Freedom of the Will || Defenders LIVE!",
-     "video_id": "A1U-WvkqteE"
+     "t": 774.84,
+     "title": "The Top 5 Principles of Proper Biblical Interpretation with @MikeWinger",
+     "video_id": "KAcw8R3sOkw"
+    },
+    {
+     "confidence": 1.0,
+     "context": "In James, it says that but without uh without but w I should have gotten a different translation. I can already thou know, O vain man, that faith works without works is dead? Was not Abraham our father justified by works when he had offered Isaac his son upon the altar? And then in Romans it says, What shall we say then that Abraham our father was pertaining to the flesh have found? For if Abraham were justified by work works, he had he has uh wherefore aware of to glory basically James is saying Abraham was justified by works.",
+     "creator": "belief-it-or-not",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-07-30T09:00:35Z",
+     "role": "unknown",
+     "t": 1261.96,
+     "title": "The Belief It Or Not Podcast: Ep. 138 -  Bible Contradictions",
+     "video_id": "mw8AjSGHhyc"
     }
    ],
    "creators": {
-    "reasonable-faith-org": 1
+    "belief-it-or-not": 1,
+    "cross-examined": 2
    },
-   "n": 1,
+   "n": 3,
    "text": {
-    "KJV": "And the scripture was fulfilled which saith, Abraham believed God, and it was imputed unto him for righteousness: and he was called the Friend of God.",
-    "WEB": "So the Scripture was fulfilled which says, “Abraham believed God, and it was accounted to him as righteousness,” and he was called the friend of God."
+    "KJV": "Was not Abraham our father justified by works, when he had offered Isaac his son upon the altar?",
+    "WEB": "Wasn’t Abraham our father justified by works, in that he offered up Isaac his son on the altar?"
    },
    "truncated": false
   },
   "James 2:24": {
    "citations": [
-    {
-     "confidence": 0.9018,
-     "context": "But every one who is justified by faith alone will of necessity perform good works. But James does not say he who is justified does good works. Instead, he says, a man is justified by works and not by faith alone. The Bible is full of warnings not only to refrain from doing evil deeds, but also to refrain from failing to do good deeds.",
-     "creator": "counsel-of-trent",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-04-30T13:00:05Z",
-     "role": "host",
-     "t": 774.76,
-     "title": "Protestants Still Can't Explain James 2",
-     "video_id": "0LwEgFig00A"
-    },
-    {
-     "confidence": 0.812,
-     "context": "Let's start with contradictions and go to our list. So, first we have the role of works in salvation. Titus 3.5 states that God saved us, not because of righteous things we had done, but because of his mercy. But and always going to James 224, you see that a person is considered righteous by what they do and not by faith alone. Again, I understand, and we've covered this so many times that I'm hesitant to even say another word. I know how the apologists married the two.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-08-15T14:00:03Z",
-     "role": "host",
-     "t": 730.64,
-     "title": "Titus: Short and Shameless | Secular Bible Study (Episode 56)",
-     "video_id": "49LMb34q2Ms"
-    },
-    {
-     "confidence": 0.8399,
-     "context": "The church is very the church, the council of Trent, not my show, but the 16th century Catholic. Yeah, the um the ecumenical council held in the wake of the Protestant Reformation. That verse in James, the man is justified by works and not by faith alone. It is only excuse me, it is only cited in the council to describe works we do in cooperation with the grace of God after baptism.",
-     "creator": "counsel-of-trent",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-10-28T12:00:15Z",
-     "role": "unattributed",
-     "t": 1126.16,
-     "title": "DIALOGUE: Infant Baptism, Catholicism, and The Church of Christ",
-     "video_id": "7JnELgrWyZs"
-    },
     {
      "confidence": 0.6154,
      "context": "We can, as 2 Peter 1.4 says, escape from the corruption that is in the world because of passion and become partakers of the divine nature. And that as 2 Corinthians 5.17 says, if anyone is in Christ, he is a new creation. This is why the Council of Trent only cited James 224, a man is justified by works and not by faith alone, to refer to the increase of already received justification or ongoing growth in holiness. It said, Do you see that by works a man is justified and not by faith alone?",
@@ -1008,11 +1516,10 @@
     }
    ],
    "creators": {
-    "counsel-of-trent": 3,
-    "darante-lamar": 2,
-    "mindshift": 1
+    "counsel-of-trent": 1,
+    "darante-lamar": 2
    },
-   "n": 6,
+   "n": 3,
    "text": {
     "KJV": "Ye see then how that by works a man is justified, and not by faith only.",
     "WEB": "You see then that by works a man is justified, and not only by faith."
@@ -1046,16 +1553,16 @@
      "video_id": "0LwEgFig00A"
     },
     {
-     "confidence": 0.7957,
-     "context": "And of course, just this idea of I'm praying for you, this can come off incredibly insincere, um, especially if the person offering prayer does not follow up with tangible help, uh, leading to feelings of abandonment and helplessness. Um, which I've often, I've often found this to be incredibly odd because even the scripture says faith without works is dead. You know. But I'm praying for you. And of course, just thinking about the social impacts, this can ref this can reinforce a divide between believers and non-believers, making the latter feel misunderstood and alienated from their support networks.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-07-04T19:00:03Z",
+     "confidence": 0.7333,
+     "context": "He only talks about faith. For example, James 219 says, You believe that God is one, you do well, even the demons believe and shudder. Belief in monotheism is good, but on its own it does not bring about salvation. So James 226 says, For as the body apart from the spirit is dead, so faith apart from works is dead. For James, what makes faith alive is not the presence of authenticity or a genuine commitment to God. It's works.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-11-23T13:00:19Z",
      "role": "host",
-     "t": 638.44,
-     "title": "Religious Advice is Harmful",
-     "video_id": "9nb5lt-0h0k"
+     "t": 930.08,
+     "title": "Reviewing Allie Beth Stuckey on the Reformation",
+     "video_id": "Dao6Lx0gN5g"
     },
     {
      "confidence": 0.7692,
@@ -1080,14 +1587,25 @@
      "t": 80.4,
      "title": "Did Luther actually try to remove James from the Bible because of its teaching on justification?",
      "video_id": "_xxhblEmf6E"
+    },
+    {
+     "confidence": 0.8462,
+     "context": "But uh going all the way back to Plato and Aristotle, the soul is understood as that which causes a body to be alive. And that thought is echoed, for example, in scripture in the book of James, it talks about how as the body without the spirit is dead, so faith without works is dead. And so it's the spirit or the soul that makes something alive. Well, um, computers are not alive, they're just not.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2022-09-19T12:00:38Z",
+     "role": "host",
+     "t": 289.28,
+     "title": "Did Google create artificial intelligence? (with Jimmy Akin)",
+     "video_id": "w_cKs6AJV_o"
     }
    ],
    "creators": {
-    "counsel-of-trent": 3,
-    "darante-lamar": 1,
+    "counsel-of-trent": 5,
     "mindshift": 1
    },
-   "n": 5,
+   "n": 6,
    "text": {
     "KJV": "For as the body without the spirit is dead, so faith without works is dead also.",
     "WEB": "For as the body apart from the spirit is dead, even so faith apart from works is dead."
@@ -1107,6 +1625,56 @@
      "t": 1789.52,
      "title": "Is Marvin Winans Unbiblical? 10 Qs with Mike Winger (Ep 66)",
      "video_id": "GSh5UTZu6DM"
+    },
+    {
+     "confidence": 0.5556,
+     "context": "And if you pay attention to the one who wears the fine clothing and say, you sit here in a good place, while you say to the poor man, you stand over there or sit down at my feet. Have you not then made distinctions among yourselves and become judges with evil thoughts? This is a this is a wicked thing. You're you're you're making partial distinctions based upon wealth. This is one reason why I'm really opposed to putting people's names on pews in churches. This is a practice that goes on in lots of churches.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-02-23T22:44:51Z",
+     "role": "host",
+     "t": 1848.04,
+     "title": "10 Questions with Mike Winger (Episode 5)",
+     "video_id": "hGLj9f6nRCs"
+    },
+    {
+     "confidence": 0.5556,
+     "context": "Have you not made distinctions among yourselves and become judges with evil thoughts? Finally, the catechism says, Sin makes men accomplices of one another, and causes concupiscence, violence, and injustice to reign among them.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-08-17T12:00:36Z",
+     "role": "host",
+     "t": 402.44,
+     "title": "The Errors of Liberation Theology",
+     "video_id": "vShLRgd9Xiw"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 1,
+    "mike-winger": 2
+   },
+   "n": 3,
+   "text": {
+    "KJV": "Are ye not then partial in yourselves, and are become judges of evil thoughts?",
+    "WEB": "haven’t you shown partiality among yourselves, and become judges with evil thoughts?"
+   },
+   "truncated": false
+  },
+  "James 2:7": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "And this is still can be the case in our culture today. There are some people who are wealthy who use lawsuits uh as a way of scaring and oppressing those who can't afford the lawyers in the lawsuits. Um real stuff. Are they not the ones who blaspheme the honorable name by which you were called? And then he goes on. Um I I can keep reading here, but he goes on and he's just talking about not being partial and about not inconsistently following scripture and following God. All right, I'm gonna read your question again, because I take them as they are, now that we've we've gone through those those passages.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-02-23T22:44:51Z",
+     "role": "host",
+     "t": 1944.88,
+     "title": "10 Questions with Mike Winger (Episode 5)",
+     "video_id": "hGLj9f6nRCs"
     }
    ],
    "creators": {
@@ -1114,50 +1682,13 @@
    },
    "n": 1,
    "text": {
-    "KJV": "Are ye not then partial in yourselves, and are become judges of evil thoughts?",
-    "WEB": "haven’t you shown partiality among yourselves, and become judges with evil thoughts?"
-   },
-   "truncated": false
-  },
-  "James 2:5": {
-   "citations": [
-    {
-     "confidence": 0.8679,
-     "context": "That's good. Um yeah, I would say that uh how do we understand our identity when we're experiencing marginalization? Um to me, the scriptures are clear that God identifies with the oppressed, that God is near to the brokenhearted, that he said, Blessed are those who are poor. He says, Woe to those who are rich. Uh and so uh now I I do take issue with theological perspectives that sometimes tend to divinize the oppressed, uh as in the liberation of the oppressed as an end goal in and of itself, which I would say it is not, uh, but that our starting point for theology is God, and the end point of theology is God.",
-     "creator": "jude-3-project",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2026-01-27T14:00:05Z",
-     "role": "unknown",
-     "t": 1772.32,
-     "title": "Who Am I? | Courageous Conversations 2024",
-     "video_id": "0_t8uFcpze0"
-    }
-   ],
-   "creators": {
-    "jude-3-project": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Hearken, my beloved brethren, Hath not God chosen the poor of this world rich in faith, and heirs of the kingdom which he hath promised to them that love him?",
-    "WEB": "Listen, my beloved brothers. Didn’t God choose those who are poor in this world to be rich in faith and heirs of the Kingdom which he promised to those who love him?"
+    "KJV": "Do not they blaspheme that worthy name by the which ye are called?",
+    "WEB": "Don’t they blaspheme the honorable name by which you are called?"
    },
    "truncated": false
   },
   "James 2:8": {
    "citations": [
-    {
-     "confidence": 0.8297,
-     "context": "James then makes his only reference to faith in Christ, where he warns those who, quote, hold the faith of our Lord Jesus Christ that they should show no partiality, especially towards the wealthy. James says that we fulfill the royal law and do well when we love our neighbors as ourselves. Keep in mind that up to this point and throughout the rest of the letter, James never says faith is a bad thing. And he never says there is a kind of faith that is bad.",
-     "creator": "counsel-of-trent",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-04-30T13:00:05Z",
-     "role": "host",
-     "t": 311.92,
-     "title": "Protestants Still Can't Explain James 2",
-     "video_id": "0LwEgFig00A"
-    },
     {
      "confidence": 0.8333,
      "context": "James is not saying all sins are equally wrong. In the previous nine verses, he scolds Christians who show favoritism and choose which men to love, like the rich and choose which men to not love, like the poor. James says, if you really fulfill the royal law, according to the Scripture, you shall love your neighbor as yourself, you do well, but if you show partiality, you commit sin, and are convicted by the law as transgressors. Christians don't get to pick and choose who they must love and which moral laws they must follow.",
@@ -1184,9 +1715,9 @@
     }
    ],
    "creators": {
-    "counsel-of-trent": 3
+    "counsel-of-trent": 2
    },
-   "n": 3,
+   "n": 2,
    "text": {
     "KJV": "If ye fulfil the royal law according to the scripture, Thou shalt love thy neighbour as thyself, ye do well:",
     "WEB": "However, if you fulfill the royal law according to the Scripture, “You shall love your neighbor as yourself,” you do well."
@@ -1195,6 +1726,18 @@
   },
   "James 2:9": {
    "citations": [
+    {
+     "confidence": 0.5833,
+     "context": "You don't get to pick and choose who you love. Instead, you have to love everyone, and in doing so, you will fulfill the royal law of scripture. You shall love your neighbor, you will do well. If you show partiality, you commit sin and are convicted by the law as transgressors. The point is you don't get to pick and choose, according to James. You don't get to pick and choose what neighbor you love. You don't get to pick and choose which laws you obey. So he says, Whoever keeps the whole law, but fails in one point has become guilty of all of it.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-02-06T13:00:06Z",
+     "role": "host",
+     "t": 2190.64,
+     "title": "Protestants Should Believe this Catholic Doctrine about SIN",
+     "video_id": "AxCrLWiUb7s"
+    },
     {
      "confidence": 0.6667,
      "context": "James is not saying all sins are equally wrong. In the previous nine verses, he scolds Christians who show favoritism and choose which men to love, like the rich and choose which men to not love, like the poor. James says, if you really fulfill the royal law, according to the Scripture, you shall love your neighbor as yourself, you do well, but if you show partiality, you commit sin, and are convicted by the law as transgressors. Christians don't get to pick and choose who they must love and which moral laws they must follow.",
@@ -1233,9 +1776,9 @@
     }
    ],
    "creators": {
-    "counsel-of-trent": 3
+    "counsel-of-trent": 4
    },
-   "n": 3,
+   "n": 4,
    "text": {
     "KJV": "But if ye have respect to persons, ye commit sin, and are convinced of the law as transgressors.",
     "WEB": "But if you show partiality, you commit sin, being convicted by the law as transgressors."
@@ -1267,32 +1810,67 @@
      "t": 1643.24,
      "title": "James: Serious Contradictions! | Secular Bible Study (Episode 59)",
      "video_id": "iii4xgw0QNQ"
+    },
+    {
+     "confidence": null,
+     "context": "Uh and James says anyone who is a teacher should not want to be a teacher because you're going to be held to a higher standard. That's James 3:1, a paraphrase. We are supposed to call out people that are teaching false doctrine. This does not mean that everything they teach is false. And they may be orthodox in many things, but any uh false teaching that pulls people away from the truth needs to be exposed.",
+     "creator": "cross-examined",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-01-15T02:00:06Z",
+     "role": "unattributed",
+     "t": 2039.88,
+     "title": "[PODCAST] Who's Teaching Happy Lies? with @MelissaDougherty",
+     "video_id": "uo6JF5ciKLw"
     }
    ],
    "creators": {
+    "cross-examined": 1,
     "jackie-hill-perry": 1,
     "mindshift": 1
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "My brethren, be not many masters, knowing that we shall receive the greater condemnation.",
     "WEB": "Let not many of you be teachers, my brothers, knowing that we will receive heavier judgment."
    },
    "truncated": false
   },
+  "James 3:1-2": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "That it starts them off on this plan, on this track. Along the way, however, they can commit these small sins, venial sins, which plunges them back down. James chapter 3, verses 1 through 2 says, Let not many of you become teachers, my brethren, for you know that we who teach shall be judged with greater strictness, for we all make many mistakes. As I've already shown, even Protestants should agree that we commit many small sins that make us less holy, that hurt our relationship with God.",
+     "creator": "counsel-of-trent",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2022-03-14T13:00:09Z",
+     "role": "host",
+     "t": 1483.4,
+     "title": "REBUTTING “American Gospel” on Catholic salvation",
+     "video_id": "JddkPla-pis"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 1
+   },
+   "n": 1,
+   "text": {},
+   "truncated": false
+  },
   "James 3:10": {
    "citations": [
     {
-     "confidence": 0.8749,
-     "context": "But no human being can tame the tongue, a restless evil full of deadly poison. With it we bless the Lord and Father, and with it we curse men. We're made in the likeness of God. From the same mouth come blessing and cursing. My brethren, this ought not be so. So let's take our anger, frustration, our fear. Let's give that back to God in prayer and not turn it into calumny or into curses that we give online.",
-     "creator": "reasonable-faith-org",
-     "detection_method": "embedding_match",
+     "confidence": 0.5333,
+     "context": "It is an unruly evil full of deadly poison. With it we bless our God and Father, and with it we curse men who've been made in the similitude of God, speaking of man's value, right? Out of the same mouth perceive blessing and cursing. My brethren, these things ought not be to be so. Does a spring send forth fresh water and bitter from the same opening? Can a fig tree, my brethren, bear olives or a grapevine bear figs? Thus, no spring yields both salt water and fresh water.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
      "matched_translation": "KJV",
-     "published_at": "2024-10-24T19:53:11Z",
-     "role": "unknown",
-     "t": 1340.08,
-     "title": "Pope Francis and Religious Pluralism",
-     "video_id": "8lg9yK6QHsE"
+     "published_at": "2024-04-12T22:03:37Z",
+     "role": "host",
+     "t": 2493.24,
+     "title": "10 Questions with Mike Winger (Episode 10)",
+     "video_id": "YuSvUR0Zg2U"
     },
     {
      "confidence": 0.6,
@@ -1333,12 +1911,37 @@
    ],
    "creators": {
     "jackie-hill-perry": 3,
-    "reasonable-faith-org": 1
+    "mike-winger": 1
    },
    "n": 4,
    "text": {
     "KJV": "Out of the same mouth proceedeth blessing and cursing. My brethren, these things ought not so to be.",
     "WEB": "Out of the same mouth comes blessing and cursing. My brothers, these things ought not to be so."
+   },
+   "truncated": false
+  },
+  "James 3:12": {
+   "citations": [
+    {
+     "confidence": 0.5263,
+     "context": "With it we bless our God and Father, and with it we curse men who've been made in the similitude of God, speaking of man's value, right? Out of the same mouth perceive blessing and cursing. My brethren, these things ought not be to be so. Does a spring send forth fresh water and bitter from the same opening? Can a fig tree, my brethren, bear olives or a grapevine bear figs? Thus, no spring yields both salt water and fresh water. Powerful stuff. You get the idea why he says, Let not many become teachers. So I have to have two answers to your question.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-04-12T22:03:37Z",
+     "role": "host",
+     "t": 2501.16,
+     "title": "10 Questions with Mike Winger (Episode 10)",
+     "video_id": "YuSvUR0Zg2U"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Can the fig tree, my brethren, bear olive berries? either a vine, figs? so can no fountain both yield salt water and fresh.",
+    "WEB": "Can a fig tree, my brothers, yield olives, or a vine figs? Thus no spring yields both salt water and fresh water."
    },
    "truncated": false
   },
@@ -1392,95 +1995,8 @@
    },
    "truncated": false
   },
-  "James 3:5": {
-   "citations": [
-    {
-     "confidence": 0.9176,
-     "context": "But you and I are not anonymous to God, which is why Jesus said, on the day of judgment, men will render account for every careless word they utter. And James chapter three says, The tongue is a little member and boasts of great things. How great a forest is set ablaze by a small fire, and the tongue is a fire. The tongue is an unrighteous world among our members, staining the whole body, setting on fire the cycle of nature, and set on fire by hell.",
-     "creator": "reasonable-faith-org",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-10-24T19:53:11Z",
-     "role": "unknown",
-     "t": 1305.04,
-     "title": "Pope Francis and Religious Pluralism",
-     "video_id": "8lg9yK6QHsE"
-    }
-   ],
-   "creators": {
-    "reasonable-faith-org": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Even so the tongue is a little member, and boasteth great things. Behold, how great a matter a little fire kindleth!",
-    "WEB": "So the tongue is also a little member, and boasts great things. See how a small fire can spread to a large forest!"
-   },
-   "truncated": false
-  },
-  "James 3:6": {
-   "citations": [
-    {
-     "confidence": 0.8905,
-     "context": "But you and I are not anonymous to God, which is why Jesus said, on the day of judgment, men will render account for every careless word they utter. And James chapter three says, The tongue is a little member and boasts of great things. How great a forest is set ablaze by a small fire, and the tongue is a fire. The tongue is an unrighteous world among our members, staining the whole body, setting on fire the cycle of nature, and set on fire by hell.",
-     "creator": "reasonable-faith-org",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-10-24T19:53:11Z",
-     "role": "unknown",
-     "t": 1305.04,
-     "title": "Pope Francis and Religious Pluralism",
-     "video_id": "8lg9yK6QHsE"
-    }
-   ],
-   "creators": {
-    "reasonable-faith-org": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And the tongue is a fire, a world of iniquity: so is the tongue among our members, that it defileth the whole body, and setteth on fire the course of nature; and it is set on fire of hell.",
-    "WEB": "And the tongue is a fire. The world of iniquity among our members is the tongue, which defiles the whole body, and sets on fire the course of nature, and is set on fire by Gehenna."
-   },
-   "truncated": false
-  },
-  "James 3:7": {
-   "citations": [
-    {
-     "confidence": 0.8884,
-     "context": "How great a forest is set ablaze by a small fire, and the tongue is a fire. The tongue is an unrighteous world among our members, staining the whole body, setting on fire the cycle of nature, and set on fire by hell. For every kind of beast and bird of reptile and sea creature can be tamed, and has been tamed by humankind. But no human being can tame the tongue, a restless evil full of deadly poison. With it we bless the Lord and Father, and with it we curse men.",
-     "creator": "reasonable-faith-org",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-10-24T19:53:11Z",
-     "role": "unknown",
-     "t": 1322.88,
-     "title": "Pope Francis and Religious Pluralism",
-     "video_id": "8lg9yK6QHsE"
-    }
-   ],
-   "creators": {
-    "reasonable-faith-org": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "For every kind of beasts, and of birds, and of serpents, and of things in the sea, is tamed, and hath been tamed of mankind:",
-    "WEB": "For every kind of animal, bird, creeping thing, and sea creature is tamed, and has been tamed by mankind;"
-   },
-   "truncated": false
-  },
   "James 3:8": {
    "citations": [
-    {
-     "confidence": 0.9215,
-     "context": "The tongue is an unrighteous world among our members, staining the whole body, setting on fire the cycle of nature, and set on fire by hell. For every kind of beast and bird of reptile and sea creature can be tamed, and has been tamed by humankind. But no human being can tame the tongue, a restless evil full of deadly poison. With it we bless the Lord and Father, and with it we curse men. We're made in the likeness of God. From the same mouth come blessing and cursing. My brethren, this ought not be so.",
-     "creator": "reasonable-faith-org",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-10-24T19:53:11Z",
-     "role": "unknown",
-     "t": 1329.68,
-     "title": "Pope Francis and Religious Pluralism",
-     "video_id": "8lg9yK6QHsE"
-    },
     {
      "confidence": 0.8333,
      "context": "And the tongue is a fire, a world of unrighteousness. The tongue is set among our members, staining the whole body, setting on fire the entire course of life and set on fire by hell. For every kind of beast and bird of reptile and sea creature can be tamed and has been tamed by mankind, but no human being can tame the tongue. It is a restless evil, full of deadly poison.",
@@ -1507,10 +2023,9 @@
     }
    ],
    "creators": {
-    "jackie-hill-perry": 2,
-    "reasonable-faith-org": 1
+    "jackie-hill-perry": 2
    },
-   "n": 3,
+   "n": 2,
    "text": {
     "KJV": "But the tongue can no man tame; it is an unruly evil, full of deadly poison.",
     "WEB": "but nobody can tame the tongue. It is a restless evil, full of deadly poison."
@@ -1520,28 +2035,16 @@
   "James 3:9": {
    "citations": [
     {
-     "confidence": 0.8244,
-     "context": "For every kind of beast and bird of reptile and sea creature can be tamed, and has been tamed by humankind. But no human being can tame the tongue, a restless evil full of deadly poison. With it we bless the Lord and Father, and with it we curse men. We're made in the likeness of God. From the same mouth come blessing and cursing. My brethren, this ought not be so. So let's take our anger, frustration, our fear. Let's give that back to God in prayer and not turn it into calumny or into curses that we give online.",
-     "creator": "reasonable-faith-org",
-     "detection_method": "embedding_match",
+     "confidence": 0.5789,
+     "context": "He it goes on. It is an unruly evil full of deadly poison. With it we bless our God and Father, and with it we curse men who've been made in the similitude of God, speaking of man's value, right? Out of the same mouth perceive blessing and cursing. My brethren, these things ought not be to be so. Does a spring send forth fresh water and bitter from the same opening? Can a fig tree, my brethren, bear olives or a grapevine bear figs?",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
      "matched_translation": "WEB",
-     "published_at": "2024-10-24T19:53:11Z",
-     "role": "unknown",
-     "t": 1335.04,
-     "title": "Pope Francis and Religious Pluralism",
-     "video_id": "8lg9yK6QHsE"
-    },
-    {
-     "confidence": 0.8106,
-     "context": "That's what I mean. Those kinds of lines are scattered throughout what I've read so far of this book and what I know to be true of Jordan's speaking, that it's just too much, it's just too perfect. How else could we better conceive of man? The image of God that is identical, essentially, which no it is not. So many distinctions between God and man that is supposedly created in the image of God. The first being God cannot be tempted by evil, and yet that is the first and only test put in front of man, not how well he gardens, not how well he names the animals, how well he can resist temptation, something God himself cannot even fathom.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-11-21T15:00:07Z",
-     "role": "unattributed",
-     "t": 597.08,
-     "title": "Jordan Peterson’s New Book: A Serious Challenge to Atheism? | We Who Wrestle With God",
-     "video_id": "8rcNdCSczIY"
+     "published_at": "2024-04-12T22:03:37Z",
+     "role": "host",
+     "t": 2486.36,
+     "title": "10 Questions with Mike Winger (Episode 10)",
+     "video_id": "YuSvUR0Zg2U"
     },
     {
      "confidence": 0.6316,
@@ -1583,92 +2086,102 @@
    "creators": {
     "counsel-of-trent": 1,
     "jackie-hill-perry": 2,
-    "mindshift": 1,
-    "reasonable-faith-org": 1
+    "mike-winger": 1
    },
-   "n": 5,
+   "n": 4,
    "text": {
     "KJV": "Therewith bless we God, even the Father; and therewith curse we men, which are made after the similitude of God.",
     "WEB": "With it we bless our God and Father, and with it we curse men who are made in the image of God."
    },
    "truncated": false
   },
-  "James 4:17": {
+  "James 4:1": {
    "citations": [
     {
-     "confidence": 0.8666,
-     "context": "The Bible is full of warnings not only to refrain from doing evil deeds, but also to refrain from failing to do good deeds. James 4.17 says, Whoever knows what is right to do and fails to do it, for him it is sin. To defend the idea that those with genuine faith must also choose to do good works, that the works don't automatically flow from a genuine faith, James presents two examples.",
-     "creator": "counsel-of-trent",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-04-30T13:00:05Z",
+     "confidence": null,
+     "context": "But the encouragement, I think the main encouragement of James here is that you can you can resist this. Now, if you want to look back at the context to understand the kind of stuff James is talking about, let's read more. So, James 4, verse 1. What was the thing that James was like, hey, here's what you have to resist. He says, What causes quarrels and what causes fights among you? Is it not this that your passions are at war within you? Right? You you are being ruled by your desires, and they're not being filtered through the Holy Spirit ultimately.",
+     "creator": "mike-winger",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-06-06T21:36:56Z",
      "role": "host",
-     "t": 790.04,
-     "title": "Protestants Still Can't Explain James 2",
-     "video_id": "0LwEgFig00A"
+     "t": 588.2,
+     "title": "Why does it feel like Satan won't leave me alone? 10 Qs with Mike Winger (Ep 53)",
+     "video_id": "tNgeKjFz3vk"
     }
    ],
    "creators": {
-    "counsel-of-trent": 1
+    "mike-winger": 1
    },
    "n": 1,
+   "text": {
+    "KJV": "From whence come wars and fightings among you? come they not hence, even of your lusts that war in your members?",
+    "WEB": "Where do wars and fightings among you come from? Don’t they come from your pleasures that war in your members?"
+   },
+   "truncated": false
+  },
+  "James 4:13-16": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "Okay, there's times when you should properly rebel, but our general attitude is one of humility and submission. If I can't do it, if I find myself just can't do it. I'll mention one last one, and this is going to be homework for you. Read Proverbs 27:1, and then read James 4, verses 13 to 16. Being overconfident about your future plans is an example of pride in scripture. Being overconfident about your future plans is an example of pride in scripture.",
+     "creator": "mike-winger",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-04-11T21:16:50Z",
+     "role": "host",
+     "t": 1354.72,
+     "title": "How to Spot Fake Humility: 10 Qs with Mike Winger (Ep 49)",
+     "video_id": "p6UhrcZAbts"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {},
+   "truncated": false
+  },
+  "James 4:17": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "One is this whole idea of loving neighbors simply being not being evil, not being dysfunctional, not being disruptive. Um to me, you got to reconcile that with James, uh, who says to him that knows to do good and doesn't do it to him, that's sin, right? So managing our relationships in a biblical way isn't just about um not contributing negatively to someone's life.",
+     "creator": "jude-3-project",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2020-02-09T00:03:44Z",
+     "role": "host",
+     "t": 406.76,
+     "title": "Relational Intelligence | Dr. Dharius Daniels",
+     "video_id": "C644ao0smL4"
+    },
+    {
+     "confidence": 0.5,
+     "context": "Ladies and gentlemen, James, the half-brother of Jesus, wrote this in that little book he wrote by the name of James. To him who knows to do good and does not do it, to him it is sin. In other words, there is a sin of omission. And the question we have today for our guest who has been on the program many times for many times before for good reason, the great Bill Federer, is where does history or what what has happened in history that makes Christians think that we can be silent on issues that affect people in a very dramatic way.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-10-16T01:00:06Z",
+     "role": "host",
+     "t": 14.0,
+     "title": "[PODCAST] Silence Equals Consent: The Sin of Omission with @BillFederer",
+     "video_id": "JK27SMKpOkM"
+    }
+   ],
+   "creators": {
+    "cross-examined": 1,
+    "jude-3-project": 1
+   },
+   "n": 2,
    "text": {
     "KJV": "Therefore to him that knoweth to do good, and doeth it not, to him it is sin.",
     "WEB": "To him therefore who knows to do good and doesn’t do it, to him it is sin."
    },
    "truncated": false
   },
-  "James 4:3": {
-   "citations": [
-    {
-     "confidence": 0.7832,
-     "context": "For example, I've seen prayers and adoration chapels that promise they never fail, which is something no prayer can promise because God is not a cosmic vending machine. James 4.3 says, you ask and do not receive because you ask wrongly, to spend it on your passions. This kind of thinking is the backbone of prosperity theology, which I've covered in a previous episode, that teaches certain prayers or tithing practices guarantee God's blessings.",
-     "creator": "counsel-of-trent",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-11-26T14:00:02Z",
-     "role": "host",
-     "t": 119.28,
-     "title": "How Christians Fall for This \"Unlucky\" Sin",
-     "video_id": "-h_eOzaYsWY"
-    }
-   ],
-   "creators": {
-    "counsel-of-trent": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Ye ask, and receive not, because ye ask amiss, that ye may consume it upon your lusts.",
-    "WEB": "You ask, and don’t receive, because you ask with wrong motives, so that you may spend it on your pleasures."
-   },
-   "truncated": false
-  },
   "James 4:4": {
    "citations": [
-    {
-     "confidence": 0.79,
-     "context": "There is no Christian doctrine that teaches love for everybody. Especially not in the New Testament. The New Testament is very clear about that you must hate the world. And that love for the world is enmity with God. I don't know what book y'all have been reading. You know, I mean, it's there. It's there. Come out. Be ye separate. Come out from among them. Hmm. Yeah, yeah. I don't know what book y'all been reading.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-12-04T19:13:28Z",
-     "role": "host",
-     "t": 245.44,
-     "title": "Does God Love The Kids",
-     "video_id": "-T-pAnSk22E"
-    },
-    {
-     "confidence": 0.893,
-     "context": "I'm rather we we render to uh Caesar the thing that belongs to God mainly uh his favor. We worry about what God thinks about us, not what Caesar thinks. Uh James, he he's clear about this. He reminds us, he says that that do you not know that a friendship with the world is enmity with God? Therefore, whoever wishes to be friends with the world makes himself an enemy of God. So this, like, there's it seems to be locked and loaded persecution narratives.",
-     "creator": "shannon-q",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2022-03-07T16:45:09Z",
-     "role": "unknown",
-     "t": 940.64,
-     "title": "The reality of Christian persecution with @STRvideos",
-     "video_id": "4merboVPXgQ"
-    },
     {
      "confidence": 0.5862,
      "context": "Let's go further. Let's go further. James, James says, and you know, this is the one that some people believe was the brother of Jesus. James says, you adulterers, do you not know that friendship with the world is hostility toward God? Therefore, whoever wishes to be a friend of the world makes himself an enemy of God.",
@@ -1695,54 +2208,54 @@
     }
    ],
    "creators": {
-    "darante-lamar": 2,
-    "mindshift": 1,
-    "shannon-q": 1
+    "darante-lamar": 1,
+    "mindshift": 1
    },
-   "n": 4,
+   "n": 2,
    "text": {
     "KJV": "Ye adulterers and adulteresses, know ye not that the friendship of the world is enmity with God? whosoever therefore will be a friend of the world is the enemy of God.",
     "WEB": "You adulterers and adulteresses, don’t you know that friendship with the world is hostility toward God? Whoever therefore wants to be a friend of the world makes himself an enemy of God."
    },
    "truncated": false
   },
+  "James 4:5": {
+   "citations": [
+    {
+     "confidence": 0.5333,
+     "context": "We would read that and think, where's the where does it say that? But it it doesn't actually say it anywhere specifically, it says it in a lot of places uh generally. So let's look at two verses you give as examples of this. So James 4, 5. Um, do you think that the spirit says the scripture says in vain the spirit who dwells in us yearns jealously? But he gives more grace, therefore he says, God resists the proud and gives grace to the humble. Where is this verse? Where is this verse that says the spirit who dwells in us yearns jealously?",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-04-19T22:06:31Z",
+     "role": "host",
+     "t": 4300.4,
+     "title": "10 Questions with Mike Winger (Episode 11)",
+     "video_id": "o8klceUIeps"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Do ye think that the scripture saith in vain, The spirit that dwelleth in us lusteth to envy?",
+    "WEB": "Or do you think that the Scripture says in vain, “The Spirit who lives in us yearns jealously”?"
+   },
+   "truncated": false
+  },
   "James 4:6": {
    "citations": [
     {
-     "confidence": 0.8255,
-     "context": "If the crisis is a number nine, he gives you a number 10 when it comes to grace. He giveth more grace. And so just I just God wants us to be honest with him. Stop trying to be a super Christian. He never called you to be a super Christian. He just called you to be a Christian. That's all. And just let him hear what he already knows.",
-     "creator": "jude-3-project",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-03-20T13:00:06Z",
-     "role": "host",
-     "t": 4309.76,
-     "title": "How Can I Find Inner Peace in a Turbulent World? | Courageous Conversations 2024",
-     "video_id": "2srmbXcl7ZE"
-    },
-    {
-     "confidence": 0.8328,
-     "context": "Endure your deprivation now, and one day you will get your reward. That delay keeps people compliant. Biblical humility isn't just modesty, it's a structural self-negation. These scriptures don't exist in a vacuum. They exist within the context of a gospel, of a doctrine, and of sermons, often coupled with other scriptures such as God resists the proud but gives grace to the humble, or scriptures that turn pride into the ultimate sin and humility into the only virtue worth seeking.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
+     "confidence": 0.5333,
+     "context": "Man, that hits that hits hard in my heart to think of it that way. But that that seems accurate and biblical. That when I sin, I'm betraying the friendship of God, I'm drawing away from God. Or do you suppose it says to no purpose that the scripture it is to no purpose that the scripture says he yearns jealously over the spirit that he has made to dwell in us, but he gives more grace. Therefore, it says God opposes the proud, and here's your your tips for drawing near to God, but he gives grace to the humble.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
      "matched_translation": "WEB",
-     "published_at": "2025-07-11T20:47:12Z",
+     "published_at": "2025-07-18T21:42:13Z",
      "role": "host",
-     "t": 158.84,
-     "title": "Blessed Are the Broken: When Salvation Becomes Submission",
-     "video_id": "9biwNy8ZC1U"
-    },
-    {
-     "confidence": 0.8528,
-     "context": "When you know some stuff then, how can you practice love? I have five ideas, four ideas, and I ain't gonna expound on them. I think they're pretty plain. Number one, fear God by believing he resists the proud, but gives grace to the humble. I think that gives us sobriety in our learning where we don't, we don't want to get beyond God's grace. We don't want, I don't want to make God mad. You know what I'm saying? So I'm I'm gonna fear you because I know that you give grace to those who are low.",
-     "creator": "jackie-hill-perry",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2019-08-21T15:49:51Z",
-     "role": "host",
-     "t": 1072.24,
-     "title": "How To Avoid Being An Intelligent Fool",
-     "video_id": "A5lOSc_S2Go"
+     "t": 3910.12,
+     "title": "How AI will steal your knowledge of Scripture: 10 Qs with Mike Winger (Ep 55)",
+     "video_id": "XOmsrqqtRXE"
     },
     {
      "confidence": 0.5333,
@@ -1758,12 +2271,10 @@
     }
    ],
    "creators": {
-    "darante-lamar": 1,
-    "jackie-hill-perry": 1,
-    "jude-3-project": 1,
+    "mike-winger": 1,
     "reasonable-faith-org": 1
    },
-   "n": 4,
+   "n": 2,
    "text": {
     "KJV": "But he giveth more grace. Wherefore he saith, God resisteth the proud, but giveth grace unto the humble.",
     "WEB": "But he gives more grace. Therefore it says, “God resists the proud, but gives grace to the humble.”"
@@ -1773,16 +2284,16 @@
   "James 4:7": {
    "citations": [
     {
-     "confidence": 0.8223,
-     "context": "Uh take me from my um energy level that I may not be able to function uh in things that really matter, things that are not mediocre, but things that are important. So flee. Uh Zach Laval, uh Paul says, resist the no, James says, resist the devil, and he'll flee from you. So now I get a little strength. I used to run, flee, knock and resist. Takes time.",
-     "creator": "jude-3-project",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-03-20T13:00:06Z",
+     "confidence": 1.0,
+     "context": "So sure, we should be able to trust him that nothing can get in the way of God's love, except for all those things, especially in the old testament that God tells you will get in the way of his love and forgiveness and redemption. But don't worry about those too much. Hold on to this verse. Keep it close to the chest. James 4 7. Submit yourselves therefore to God. Resist the devil, and he will flee from you. So once again, from James to early believers here, I think it's really interesting. Submit yourself to God. So if you are living life in accordance with God's word, whatever this means, right? Submit yourself to God, what does that mean? Does that just mean saying, God, like what do you want me to do?",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-10-22T14:02:13Z",
      "role": "host",
-     "t": 2415.36,
-     "title": "How Can I Find Inner Peace in a Turbulent World? | Courageous Conversations 2024",
-     "video_id": "2srmbXcl7ZE"
+     "t": 1296.16,
+     "title": "God's Promises: They Are Not What You Think!",
+     "video_id": "-7bZ_HwuCRM"
     },
     {
      "confidence": 1.0,
@@ -1798,6 +2309,30 @@
     },
     {
      "confidence": 1.0,
+     "context": "Therefore, it says God opposes the proud, and here's your your tips for drawing near to God, but he gives grace to the humble. Are you humbling yourself before God? Submit yourselves, therefore, to God, resist the devil, and he will flee from you. Draw near to God, and he will draw near to you. You can choose to draw near to God. This might be a time of reading the word. This might be a time of prayer. This may be going to church. This might be talking to a friend and praying with a friend and seeking the Lord in these different ways, uh setting down something sinful, putting away something from your life that you know you've been allowing for a season, and you just keep making excuses, and you set that thing aside.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-07-18T21:42:13Z",
+     "role": "host",
+     "t": 3931.72,
+     "title": "How AI will steal your knowledge of Scripture: 10 Qs with Mike Winger (Ep 55)",
+     "video_id": "XOmsrqqtRXE"
+    },
+    {
+     "confidence": 0.5455,
+     "context": "Say, Satan, in the name of Jesus, I bind you and the forces of evil. Leave me alone. Just that simple. I bind you and the forces of evil. And the Bible says, resist the devil and he will flee from you. They have levitated. I've had uh a lady call me up, things are floating through her house. He first got the calling to serve God almost 20 years ago, working as an orderly in a psychiatric hospital.",
+     "creator": "belief-it-or-not",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2022-10-20T09:14:09Z",
+     "role": "unknown",
+     "t": 2430.28,
+     "title": "What's Up With Demons?  | Belief It Or Not",
+     "video_id": "el9QHpVR0VE"
+    },
+    {
+     "confidence": 1.0,
      "context": "What should we do? Well, three points briefly suggest themselves from Scripture. Number one, we should submit to God and resist the devil. Submit to God and resist the devil. James 4 7 says, submit yourselves therefore to God, resist the devil, and he will flee from you. James 4 7. Notice you must first submit yourself to God.",
      "creator": "reasonable-faith-org",
      "detection_method": "shingle_match",
@@ -1807,6 +2342,54 @@
      "t": 1744.4,
      "title": "Defenders LIVE! // The Work of Demons | Doctrine of Creation pt 24",
      "video_id": "iK_bZjq19Rw"
+    },
+    {
+     "confidence": 0.5455,
+     "context": "You got to be aware, but not terrified. Do not give the devil a foothold, Paul says in Ephesians 4. You need to stand firm in Christ's power. James says, resist the devil and he will flee from you. That's James 4 7. And as I just mentioned, put on the full armor of God and overcome by faith in Christ. That's first John 4, what I just read, and also Revelation 12, 11.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-09-03T01:00:06Z",
+     "role": "host",
+     "t": 2703.24,
+     "title": "The Demon Delusion? Recent Evidence They Exist",
+     "video_id": "oA8erNqsaT4"
+    },
+    {
+     "confidence": null,
+     "context": "Does it feel like Satan won't leave you alone? Let me read the question today. Question number one from Juan, who says, The Bible says, When we when we resist the devil, he will flee. James chapter 4, verse 7. We will look at this verse. We'll look at the context. We'll do all that good stuff. And he asks, so why is it often feel like spiritual warfare increases when we try to resist sins of the flesh, addictions, etc.? When I resist, it doesn't feel like the devil flees.",
+     "creator": "mike-winger",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-06-06T21:36:56Z",
+     "role": "host",
+     "t": 9.84,
+     "title": "Why does it feel like Satan won't leave me alone? 10 Qs with Mike Winger (Ep 53)",
+     "video_id": "tNgeKjFz3vk"
+    },
+    {
+     "confidence": 1.0,
+     "context": "We've got your guys' questions coming in to the live stream. I'll be answering ten questions today, as I do on typical Fridays. And here it is on your screen. Submit yourselves, therefore to God, resist the devil, and he will flee from you. Draw near to God, and he will draw near to you. Cleanse your hands, you sinners, and purify your hearts, you double-minded. Why do I read verse eight? Oh, because you really, it's the counterpoint. You're gonna submit yourself to God, and here's how you're gonna do it.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-06-06T21:36:56Z",
+     "role": "host",
+     "t": 102.32,
+     "title": "Why does it feel like Satan won't leave me alone? 10 Qs with Mike Winger (Ep 53)",
+     "video_id": "tNgeKjFz3vk"
+    },
+    {
+     "confidence": 1.0,
+     "context": "Um this is like serious sin. There they're that they're locked in because of their own desires. And he says, God opposes the proud, but gives grace to the humble. Submit yourselves therefore to God, resist the devil, and he will flee from you. Draw near to God, and he will draw near to you. And such an encouragement cleanse your hands, you sinners, and purify your hearts, you double-minded. Be wretched and mourn and weep. Let your laughter be turned to mourning and your joy to gloom.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-06-06T21:36:56Z",
+     "role": "host",
+     "t": 689.2,
+     "title": "Why does it feel like Satan won't leave me alone? 10 Qs with Mike Winger (Ep 53)",
+     "video_id": "tNgeKjFz3vk"
     },
     {
      "confidence": 0.5455,
@@ -1870,12 +2453,14 @@
     }
    ],
    "creators": {
+    "belief-it-or-not": 1,
+    "cross-examined": 1,
     "darante-lamar": 2,
-    "jude-3-project": 1,
-    "mindshift": 4,
+    "mike-winger": 4,
+    "mindshift": 5,
     "reasonable-faith-org": 1
    },
-   "n": 8,
+   "n": 14,
    "text": {
     "KJV": "Submit yourselves therefore to God. Resist the devil, and he will flee from you.",
     "WEB": "Be subject therefore to God. Resist the devil, and he will flee from you."
@@ -1885,16 +2470,40 @@
   "James 4:8": {
    "citations": [
     {
-     "confidence": 0.8559,
-     "context": "Now, if this is so, there's a danger that arguments for God could actually distract our attention from God Himself. If you're sincerely seeking God, God will make his existence evident to you. The Bible promises draw near to God and He will draw near to you. We mustn't so focus on the external proofs that we fail to hear the inner voice of God to our own heart. For those who listen, God becomes an immediate reality in their lives.",
-     "creator": "drcraigvideos",
-     "detection_method": "embedding_match",
+     "confidence": 0.5,
+     "context": "This might be talking to a friend and praying with a friend and seeking the Lord in these different ways, uh setting down something sinful, putting away something from your life that you know you've been allowing for a season, and you just keep making excuses, and you set that thing aside. That is part of drawing near to God, and that's why he says here cleanse your hands, you sinners, and purify your hearts, you double-minded. And then the sorrow that goes with that, be wretched and mourn and weep. Let your laughter be turned to mourning and your joy to gloom. Humble yourselves before the Lord, and he will exalt you.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-07-18T21:42:13Z",
+     "role": "host",
+     "t": 3960.04,
+     "title": "How AI will steal your knowledge of Scripture: 10 Qs with Mike Winger (Ep 55)",
+     "video_id": "XOmsrqqtRXE"
+    },
+    {
+     "confidence": 0.8421,
+     "context": "We've got your guys' questions coming in to the live stream. I'll be answering ten questions today, as I do on typical Fridays. And here it is on your screen. Submit yourselves, therefore to God, resist the devil, and he will flee from you. Draw near to God, and he will draw near to you. Cleanse your hands, you sinners, and purify your hearts, you double-minded. Why do I read verse eight? Oh, because you really, it's the counterpoint. You're gonna submit yourself to God, and here's how you're gonna do it. You'll resist the devil, he'll flee from you, then you'll draw near to God, and he'll draw near to you.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
      "matched_translation": "WEB",
-     "published_at": "2011-12-19T06:07:12Z",
-     "role": "unknown",
-     "t": 1464.44,
-     "title": "Debate - Does God Exist? William Lane Craig vs Peter Millican (Birmingham University, October 2011)",
-     "video_id": "9JVRy7bR7zI"
+     "published_at": "2025-06-06T21:36:56Z",
+     "role": "host",
+     "t": 107.36,
+     "title": "Why does it feel like Satan won't leave me alone? 10 Qs with Mike Winger (Ep 53)",
+     "video_id": "tNgeKjFz3vk"
+    },
+    {
+     "confidence": 0.6842,
+     "context": "Um this is like serious sin. There they're that they're locked in because of their own desires. And he says, God opposes the proud, but gives grace to the humble. Submit yourselves therefore to God, resist the devil, and he will flee from you. Draw near to God, and he will draw near to you. And such an encouragement cleanse your hands, you sinners, and purify your hearts, you double-minded. Be wretched and mourn and weep. Let your laughter be turned to mourning and your joy to gloom. Humble yourselves before the Lord, and he will exalt you.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-06-06T21:36:56Z",
+     "role": "host",
+     "t": 692.88,
+     "title": "Why does it feel like Satan won't leave me alone? 10 Qs with Mike Winger (Ep 53)",
+     "video_id": "tNgeKjFz3vk"
     },
     {
      "confidence": 0.8421,
@@ -1910,13 +2519,75 @@
     }
    ],
    "creators": {
-    "drcraigvideos": 1,
+    "mike-winger": 3,
     "mindshift": 1
    },
-   "n": 2,
+   "n": 4,
    "text": {
     "KJV": "Draw nigh to God, and he will draw nigh to you. Cleanse your hands, ye sinners; and purify your hearts, ye double minded.",
     "WEB": "Draw near to God, and he will draw near to you. Cleanse your hands, you sinners. Purify your hearts, you double-minded."
+   },
+   "truncated": false
+  },
+  "James 4:9": {
+   "citations": [
+    {
+     "confidence": 0.8,
+     "context": "That is part of drawing near to God, and that's why he says here cleanse your hands, you sinners, and purify your hearts, you double-minded. And then the sorrow that goes with that, be wretched and mourn and weep. Let your laughter be turned to mourning and your joy to gloom. Humble yourselves before the Lord, and he will exalt you. Man, he's gonna lift you up.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-07-18T21:42:13Z",
+     "role": "host",
+     "t": 3966.76,
+     "title": "How AI will steal your knowledge of Scripture: 10 Qs with Mike Winger (Ep 55)",
+     "video_id": "XOmsrqqtRXE"
+    },
+    {
+     "confidence": 0.8,
+     "context": "And he says, God opposes the proud, but gives grace to the humble. Submit yourselves therefore to God, resist the devil, and he will flee from you. Draw near to God, and he will draw near to you. And such an encouragement cleanse your hands, you sinners, and purify your hearts, you double-minded. Be wretched and mourn and weep. Let your laughter be turned to mourning and your joy to gloom. Humble yourselves before the Lord, and he will exalt you. This is great encouragement. It's it's it means however dark things have gotten, get back up, draw near to God, take your sins seriously.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-06-06T21:36:56Z",
+     "role": "host",
+     "t": 700.24,
+     "title": "Why does it feel like Satan won't leave me alone? 10 Qs with Mike Winger (Ep 53)",
+     "video_id": "tNgeKjFz3vk"
+    }
+   ],
+   "creators": {
+    "mike-winger": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "Be afflicted, and mourn, and weep: let your laughter be turned to mourning, and your joy to heaviness.",
+    "WEB": "Lament, mourn, and weep. Let your laughter be turned to mourning and your joy to gloom."
+   },
+   "truncated": false
+  },
+  "James 5:1": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "Now, on the surface, some of that sounds just fine. Matthew twenty-five makes it clear we have an obligation to care for the poor, and the Bible repeatedly condemns rich people who exploit the poor. James chapter five says, Come now, you rich, weep and howl for the miseries that are coming upon you. Behold the wages of the laborers who mowed your fields, which you kept back by fraud, cry out, and the cries of the harvesters have reached the ears of the Lord of hosts.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-08-17T12:00:36Z",
+     "role": "host",
+     "t": 357.24,
+     "title": "The Errors of Liberation Theology",
+     "video_id": "vShLRgd9Xiw"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Go to now, ye rich men, weep and howl for your miseries that shall come upon you.",
+    "WEB": "Come now, you rich, weep and howl for your miseries that are coming on you."
    },
    "truncated": false
   },
@@ -1935,23 +2606,72 @@
      "video_id": "-bqLTU5rAIQ"
     },
     {
-     "confidence": 0.9026,
-     "context": "Uh, the closest we have is in the book of James when they say, when someone is sick, call for the call for the elders of the church and let them anoint him with oil. Um, and and you know, pray the prayer of faith. Uh it's gonna go to a slaughterhouse. Right, yes. Uh, but you know, anoint him and prayer the prayer of faith.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-12-12T13:13:23Z",
+     "confidence": 0.7778,
+     "context": "I've answered them elsewhere in my on my YouTube channel. And you can go to Bible thinker.org and you can search the clip search feature for things like oil or um uh healing and things like that to find out things those things where I've dealt with that stuff. So is anyone among you sick? Let him call for the elders of the church and let them pray over him, anointing him with oil in the name of the Lord. Um, and the prayer of faith will save the one who is sick. So this anointing with oil, are we given a specific kind of oil that we're supposed to use in Exodus?",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-05-30T21:39:57Z",
      "role": "host",
-     "t": 4095.04,
-     "title": "Bible Study w/ an X-Pastor Episode 3.2",
-     "video_id": "72tpLTt4WYA"
+     "t": 1251.96,
+     "title": "Does THIS Bible verse teach Sola Scriptura? 10 Qs with Mike Winger (Ep 52)",
+     "video_id": "PWJkk-fbzbw"
+    },
+    {
+     "confidence": 0.7778,
+     "context": "Um, I've struggled with this passage, being open with you guys. Let's read to it, read through it together. Um, is anyone among you suffering? Let him pray. If anyone is is anyone cheerful, let him sing praise. If is anyone among you sick, let him call for the elders of the church and let them pray over him, anointing him with oil in the name of the Lord, and the prayer of faith will save the one who is sick, and the Lord will raise him up, and if he has committed sins, he will be forgiven.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-02-16T22:49:57Z",
+     "role": "host",
+     "t": 1147.44,
+     "title": "10 Questions with Mike Winger (Episode 4)",
+     "video_id": "SJhRBhqCT9E"
+    },
+    {
+     "confidence": 0.6296,
+     "context": "So the first one I have for you is kind of to set the stage. It's about seeking help in the first place. So I thought we'd start with James 5 14, where we get this admission that health is related to sin, and that the way to cure that is by prayer and oil. So is anyone among you sick? Let him call the elders of the church and let them pray over him, anointing him with oil in the name of the Lord. Now, to properly build this case, I'd probably need to list the other 20 verses, and I do so in this video here. But the point here is that most of our physical and mental health, biblically speaking, was looked at as a sin issue or a demon issue, like an unclean spirit.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-12-17T15:00:25Z",
+     "role": "host",
+     "t": 46.08,
+     "title": "Divine Dysfunction: God's Guidance Vs. Modern Mental Health",
+     "video_id": "esjsWGvJRGg"
+    },
+    {
+     "confidence": 0.5926,
+     "context": "Yeah. Now, let me talk about another sacrament that the scriptures say exists, but you just don't see it in the real world generally among Protestants. You know, and that's unction. You know, James 5 14 to 15. Is anyone among you sick? Let him call for the elders of the church, let them pray over him, anoint him with oil in the name of the Lord, and the prayer of faith will save the sick. And so it seems to me a pretty obvious thing to scriptures talk about, which you almost never see anywhere.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-07-11T12:00:27Z",
+     "role": "host",
+     "t": 1648.76,
+     "title": "Why I and this Eastern Orthodox apologist aren’t Protestant",
+     "video_id": "jsqckeDL3xQ"
+    },
+    {
+     "confidence": 0.7778,
+     "context": "So let's look at where we get that from. James chapter 5. Talks about if you need prayer. Let me find the spot. If anyone is anyone among you suffering, let him pray. Is anyone cheerful? Let him sing praise. Is anyone among you sick? Let him call for the elders of the church and let them pray over him, anointing him with oil in the name of the Lord. Then it says the prayer of faith will save the sick, which which I think this faith, my interpretation. Okay, this is absolutely Mike Winger's interpretation. It's not the super obvious meaning of the passage.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-03-28T21:19:32Z",
+     "role": "host",
+     "t": 2773.52,
+     "title": "When does my sin block my prayers according to Scripture? 10 Qs with Mike Winger (Ep 48)",
+     "video_id": "piyiAJljEi4"
     }
    ],
    "creators": {
-    "counsel-of-trent": 1,
-    "darante-lamar": 1
+    "counsel-of-trent": 2,
+    "mike-winger": 3,
+    "mindshift": 1
    },
-   "n": 2,
+   "n": 6,
    "text": {
     "KJV": "Is any sick among you? let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord:",
     "WEB": "Is any among you sick? Let him call for the elders of the assembly, and let them pray over him, anointing him with oil in the name of the Lord;"
@@ -1973,18 +2693,6 @@
      "video_id": "-bqLTU5rAIQ"
     },
     {
-     "confidence": 0.7702,
-     "context": "Alyssa has been very kind and um very sweet to people, and obviously this is because of a demon. So we just ask for deliverance. Amen. Raise him up. And I have a very special prayer request for our good friend James Games a lot, which ironically enough, he was cursed with a demon who is not very good at games. And no matter how much he plays, he plays again and again and again. He just can't seem to win.",
-     "creator": "belief-it-or-not",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2023-10-08T09:00:03Z",
-     "role": "unknown",
-     "t": 2356.64,
-     "title": "The Belief It Or Not Podcast: Ep. 143 - Ed and Loraine Warren",
-     "video_id": "8lwZKznSY98"
-    },
-    {
      "confidence": 0.5,
      "context": "In the context, James is referring to the elders, the presbyteroi, from which we get the English word priest, who anoint the sick. James says in verse 15, the prayer of faith will save the sick man, and the Lord will raise him up, and if he has committed sins, he will be forgiven. Notice this is joined with the conjunction therefore in Greek, un. This places the confession of sins to one another in the context of seeking out the church's presbyters, priests.",
      "creator": "counsel-of-trent",
@@ -1995,6 +2703,18 @@
      "t": 373.72,
      "title": "3 Reasons to Confess Your Sins to a Priest",
      "video_id": "NSzl2wSh9OY"
+    },
+    {
+     "confidence": 0.6667,
+     "context": "Um, I've struggled with this passage, being open with you guys. Let's read to it, read through it together. Um, is anyone among you suffering? Let him pray. If anyone is is anyone cheerful, let him sing praise. If is anyone among you sick, let him call for the elders of the church and let them pray over him, anointing him with oil in the name of the Lord, and the prayer of faith will save the one who is sick, and the Lord will raise him up, and if he has committed sins, he will be forgiven.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-02-16T22:49:57Z",
+     "role": "host",
+     "t": 1147.44,
+     "title": "10 Questions with Mike Winger (Episode 4)",
+     "video_id": "SJhRBhqCT9E"
     },
     {
      "confidence": 0.5,
@@ -2022,8 +2742,8 @@
     }
    ],
    "creators": {
-    "belief-it-or-not": 1,
-    "counsel-of-trent": 4
+    "counsel-of-trent": 4,
+    "mike-winger": 1
    },
    "n": 5,
    "text": {
@@ -2047,52 +2767,16 @@
      "video_id": "-bqLTU5rAIQ"
     },
     {
-     "confidence": 0.8668,
-     "context": "Well, it's because uh there it builds up the body of Christ. And also when some people intercede for us, those who are holier, their prayers are more efficacious. James 5 16 says that the prayers of a righteous person are very powerful. Uh, you know, those who are in heaven are free from sin, they're united to Christ. We would say the Blessed Virgin Mary is the closest to Christ. Uh, she is his mother, and the mother of the king is the queen.",
-     "creator": "counsel-of-trent",
-     "detection_method": "embedding_match",
+     "confidence": 0.6522,
+     "context": "Is that we know that not all sin is or not all sickness is due to the personal sin, as Jesus pointed out. That's why it's interesting when he says if they have sinned, they will be forgiven. Why did what does that have to do with becoming healed? But but here I'll push back a little. Verse 16, it does say, therefore, same context, confess your sins to one another and pray for one another that you may be healed. Yes. Um, and the prayer of a righteous person has great power as as it's working. And the suggestion, the description then is with Elijah and how he prayed, and there was like real world changes in the moment, not like an eschatological thing.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
      "matched_translation": "WEB",
-     "published_at": "2024-05-13T11:00:05Z",
-     "role": "host",
-     "t": 2144.08,
-     "title": "Chatting with a Protestant Pastor about Catholicism",
-     "video_id": "4lK9nDfOx64"
-    },
-    {
-     "confidence": 0.8982,
-     "context": "Come on. Many of us are forgiven but not healed because the only person we'll talk to about our pain is God. Come on. James says, confess your faults one to another. Pray for one another that you may be healed. That means God wreaks healing for community. Come on. So I can only get healed from the impacts of sin in relationship.",
-     "creator": "jude-3-project",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-04-02T16:00:06Z",
+     "published_at": "2025-08-02T01:00:26Z",
      "role": "unknown",
-     "t": 3073.88,
-     "title": "Why Does God Allow Suffering? | Courageous Conversations Pop Up LA",
-     "video_id": "6j2yIEDKVVg"
-    },
-    {
-     "confidence": 0.7698,
-     "context": "Um, and then I went to Gwyn Park High School, where I became the founder, um, co-founder of a campus ministry called Fire, Fervent and Passion, Righteous and Effective, based off of James chapter 5. I think it was verse 16. Um, the effectual fervent prayer of the righteous to veileth much, you know. And so I was a real gung-ho type of guy. So when I realized I was moving back to Dothan, I got right back involved with with campus ministry and eventually became the um, well, within the next year, became the president of the first priority uh campus ministry.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-05-07T14:48:30Z",
-     "role": "unattributed",
-     "t": 201.16,
-     "title": "Trigger Warning: This One Got Emotional",
-     "video_id": "75CYeKKSmDk"
-    },
-    {
-     "confidence": 0.8583,
-     "context": "That is what sovereignty is all about ordering things according to God's purpose. So then, does prayer change God's mind? No. Does prayer change things? Yes, of course. The promise of the scripture is that the prayer of a righteous person has great power as it's working. The problem is that we are not all that righteous. What prayer most often changes is the wickedness and the hardness of our own hearts. That alone would be reason enough to pray.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-12-11T15:00:26Z",
-     "role": "host",
-     "t": 82.96,
-     "title": "Responding to the First Christian Comment Ever Posted on Mindshift",
-     "video_id": "7NQlIxJvhzU"
+     "t": 1205.56,
+     "title": "The Top 5 Principles of Proper Biblical Interpretation with @MikeWinger",
+     "video_id": "KAcw8R3sOkw"
     },
     {
      "confidence": 0.5652,
@@ -2129,6 +2813,54 @@
      "t": 64.56,
      "title": "\"7 False Catholic Teachings\" (REBUTTED)",
      "video_id": "XUviIhk-Wh8"
+    },
+    {
+     "confidence": 0.6957,
+     "context": "Yeah. That big sea church idea that gets missed in these situations. Right. All right. We've got exhaustive confession. This is what I'm calling it anyway. And the message that be is being used here is that James 5, 16, therefore confess your sins to one another and pray for one another that you may be healed. The prayer of a righteous person has great power, is it is working.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-04-18T17:45:09Z",
+     "role": "unknown",
+     "t": 8009.36,
+     "title": "Taking Scripture Back From Your Spiritual Abuser: Naomi Wright",
+     "video_id": "YjfyE6-uI1c"
+    },
+    {
+     "confidence": 0.5652,
+     "context": "I can then create a situation where you are seen as a threat. And of course, the the subtle messaging is and if you guys don't do what I want you to do, I'll do the same to you. I'll I'll air your dirty laundry. What's interesting is this James 5 passage is a the phrase confess your sins to one another and pray for one another that you may be healed. It does not say always confess every sin to one another, or you won't be forgiven. It does not say those things, those are completely added and fabricated.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-04-18T17:45:09Z",
+     "role": "host",
+     "t": 8180.28,
+     "title": "Taking Scripture Back From Your Spiritual Abuser: Naomi Wright",
+     "video_id": "YjfyE6-uI1c"
+    },
+    {
+     "confidence": null,
+     "context": "That's the that's the message here when it comes to spiritual things. It is not you, it is Christ in you. It is not your spiritual power or status, it is his power and status, 100%. Um the other things you're juggling are this. Um, how does this relate to abiding in Christ and James 5:16, which I think I unintentionally quoted? Okay, James 5.16. Oh no, I was looking further down at 17. You said, therefore, confess your sins to one another.",
+     "creator": "mike-winger",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-10-25T21:10:18Z",
+     "role": "host",
+     "t": 2130.64,
+     "title": "I Misrepresented Scripture: 10 Qs with Mike Winger (Ep 34)",
+     "video_id": "_9PyW8Ep9qY"
+    },
+    {
+     "confidence": 0.6957,
+     "context": "Um, how does this relate to abiding in Christ and James 5:16, which I think I unintentionally quoted? Okay, James 5.16. Oh no, I was looking further down at 17. You said, therefore, confess your sins to one another. This is the verse you reference. Confess your sins to one another and pray for one another that you may be healed. The prayer of a righteous person has great power as it is working. So I did, yeah, I guess I did quote that verse. Elijah was a man with a nature like ours, as in we're effectively the same.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-10-25T21:10:18Z",
+     "role": "host",
+     "t": 2144.4,
+     "title": "I Misrepresented Scripture: 10 Qs with Mike Winger (Ep 34)",
+     "video_id": "_9PyW8Ep9qY"
     },
     {
      "confidence": 0.5652,
@@ -2180,40 +2912,14 @@
     }
    ],
    "creators": {
-    "counsel-of-trent": 9,
-    "darante-lamar": 1,
-    "jude-3-project": 1,
-    "mindshift": 1
+    "counsel-of-trent": 8,
+    "cross-examined": 1,
+    "mike-winger": 4
    },
-   "n": 12,
+   "n": 13,
    "text": {
     "KJV": "Confess your faults one to another, and pray one for another, that ye may be healed. The effectual fervent prayer of a righteous man availeth much.",
     "WEB": "Confess your sins to one another and pray for one another, that you may be healed. The insistent prayer of a righteous person is powerfully effective."
-   },
-   "truncated": false
-  },
-  "James 5:19": {
-   "citations": [
-    {
-     "confidence": 0.8461,
-     "context": "It's God's doing, which again, if he says his will is that none should be lost, and he is the one that does it, and he will answer prayers that align with his will, made in faith. There's no excuse for me not to be saved. And then one more verse, James 5, 19 through 20. My brothers and sisters, if anyone among you wanders from the truth and is brought back by another, you should know that whoever brings back a sinner from wandering will save the sinner's soul from death and will cover a multitude of sins. That verse is wild, and we probably need to break it down further at some point.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-12-18T15:00:13Z",
-     "role": "unattributed",
-     "t": 576.36,
-     "title": "Salvation With an Expiration Date: Is Apostasy Irreversible?",
-     "video_id": "7bRIp611kwI"
-    }
-   ],
-   "creators": {
-    "mindshift": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Brethren, if any of you do err from the truth, and one convert him;",
-    "WEB": "Brothers, if any among you wanders from the truth and someone turns him back,"
    },
    "truncated": false
   },
@@ -2242,18 +2948,6 @@
   "James 5:20": {
    "citations": [
     {
-     "confidence": 0.8642,
-     "context": "It's God's doing, which again, if he says his will is that none should be lost, and he is the one that does it, and he will answer prayers that align with his will, made in faith. There's no excuse for me not to be saved. And then one more verse, James 5, 19 through 20. My brothers and sisters, if anyone among you wanders from the truth and is brought back by another, you should know that whoever brings back a sinner from wandering will save the sinner's soul from death and will cover a multitude of sins. That verse is wild, and we probably need to break it down further at some point.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-12-18T15:00:13Z",
-     "role": "unattributed",
-     "t": 576.36,
-     "title": "Salvation With an Expiration Date: Is Apostasy Irreversible?",
-     "video_id": "7bRIp611kwI"
-    },
-    {
      "confidence": 0.6,
      "context": "We can't know if that person is apostate or not. Only God knows his heart. Look at James chapter 5, verses 19 and 20. James says, My brethren, if anyone among you wanders from the truth and someone brings him back, let him know that whoever brings back a sinner from the error of his way will save his soul from death and will cover a multitude of sins.",
      "creator": "reasonable-faith-org",
@@ -2267,13 +2961,37 @@
     }
    ],
    "creators": {
-    "mindshift": 1,
     "reasonable-faith-org": 1
    },
-   "n": 2,
+   "n": 1,
    "text": {
     "KJV": "Let him know, that he which converteth the sinner from the error of his way shall save a soul from death, and shall hide a multitude of sins.",
     "WEB": "let him know that he who turns a sinner from the error of his way will save a soul from death and will cover a multitude of sins."
+   },
+   "truncated": false
+  },
+  "James 5:4": {
+   "citations": [
+    {
+     "confidence": 0.5758,
+     "context": "Matthew twenty-five makes it clear we have an obligation to care for the poor, and the Bible repeatedly condemns rich people who exploit the poor. James chapter five says, Come now, you rich, weep and howl for the miseries that are coming upon you. Behold the wages of the laborers who mowed your fields, which you kept back by fraud, cry out, and the cries of the harvesters have reached the ears of the Lord of hosts. You have lived on the earth in luxury and in pleasure. You have fattened your hearts in a day of slaughter.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-08-17T12:00:36Z",
+     "role": "host",
+     "t": 363.56,
+     "title": "The Errors of Liberation Theology",
+     "video_id": "vShLRgd9Xiw"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Behold, the hire of the labourers who have reaped down your fields, which is of you kept back by fraud, crieth: and the cries of them which have reaped are entered into the ears of the Lord of sabaoth.",
+    "WEB": "Behold, the wages of the laborers who mowed your fields, which you have kept back by fraud, cry out; and the cries of those who reaped have entered into the ears of the Lord of Armies."
    },
    "truncated": false
   },
@@ -2297,6 +3015,31 @@
    },
    "n": 1,
    "text": {},
+   "truncated": false
+  },
+  "James 5:7": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "That's what the QA is. You're participating. What is your answer to this question? And then we're gonna look at some scripture and try and figure out if we can get more insights on it. So, what does the scripture actually say here? In James chapter 5, verse 7, and we've got your guys um uh I don't think it was chapter five, it's chapter four, verse seven. We've got your guys' questions coming in to the live stream. I'll be answering ten questions today, as I do on typical Fridays.",
+     "creator": "mike-winger",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-06-06T21:36:56Z",
+     "role": "host",
+     "t": 83.68,
+     "title": "Why does it feel like Satan won't leave me alone? 10 Qs with Mike Winger (Ep 53)",
+     "video_id": "tNgeKjFz3vk"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Be patient therefore, brethren, unto the coming of the Lord. Behold, the husbandman waiteth for the precious fruit of the earth, and hath long patience for it, until he receive the early and latter rain.",
+    "WEB": "Be patient therefore, brothers, until the coming of the Lord. Behold, the farmer waits for the precious fruit of the earth, being patient over it, until it receives the early and late rain."
+   },
    "truncated": false
   }
  }

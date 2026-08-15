@@ -23,6 +23,31 @@
    "text": {},
    "truncated": false
   },
+  "Judges 11:30": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "This good religious man sought to guarantee victory by getting God firmly on his side. So he prayed to God, quote, and here's the prayer from Jephthah, if thou shalt without fail deliver the children of Ammon into mine hands, then it shall be that whose whatsoever cometh forth out of the doors of my house to meet me when I return in peace from the children of Ammon shall surely be the Lord's, and I will offer it up for burnt offering.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-07-12T22:20:19Z",
+     "role": "host",
+     "t": 797.96,
+     "title": "10 Questions with Mike Winger SKEPTICS EDITION (Episode 21)",
+     "video_id": "ATPyA2gt36E"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And Jephthah vowed a vow unto the LORD, and said, If thou shalt without fail deliver the children of Ammon into mine hands,",
+    "WEB": "Jephthah vowed a vow to the LORD, and said, “If you will indeed deliver the children of Ammon into my hand,"
+   },
+   "truncated": false
+  },
   "Judges 11:30-31": {
    "citations": [
     {
@@ -48,22 +73,35 @@
   "Judges 11:31": {
    "citations": [
     {
-     "confidence": 0.899,
-     "context": "In Judges chapter 11, verses 29 through 40, Jephthah, who is a judge of Israel, makes a vow to God before going into battle against the Ammonites. And Jephthah made a vow to the Lord if you give the Ammonites into my hands, whatever comes out of the door of my house to meet me when I return in triumph will be the Lord's. And I will sacrifice it as a burnt offering. That's judges chapter 11, verses 30 through 31. This is where he makes this prolific vow.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-12-04T19:13:28Z",
+     "confidence": 0.7692,
+     "context": "This good religious man sought to guarantee victory by getting God firmly on his side. So he prayed to God, quote, and here's the prayer from Jephthah, if thou shalt without fail deliver the children of Ammon into mine hands, then it shall be that whose whatsoever cometh forth out of the doors of my house to meet me when I return in peace from the children of Ammon shall surely be the Lord's, and I will offer it up for burnt offering.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-07-12T22:20:19Z",
      "role": "host",
-     "t": 1050.04,
-     "title": "Does God Love The Kids",
-     "video_id": "-T-pAnSk22E"
+     "t": 797.96,
+     "title": "10 Questions with Mike Winger SKEPTICS EDITION (Episode 21)",
+     "video_id": "ATPyA2gt36E"
+    },
+    {
+     "confidence": 0.6923,
+     "context": "We talked about Jephthera. Let's go ahead and just detail that one out and we'll move on. This story comes in Judges 11, 29 through 40. I'm going to just read it to you. And I'm going to leave out some verses for time, so don't think I'm trying to do anything. You can read it for yourself. Then the Spirit of the Lord was upon Jephthah, and Jephthah made a vow to the Lord and said, If you will give the Ammonites into my hand, then whatever comes out of the doors of my house to meet me when I return in peace from the Annaites shall be the Lord's. And I will offer it up for a burnt offering.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-07-20T14:00:43Z",
+     "role": "host",
+     "t": 1558.88,
+     "title": "Judges: Pure Horror | Secular Bible Study (Episode 7)",
+     "video_id": "y0p2laa6q3o"
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "mike-winger": 1,
+    "mindshift": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Then it shall be, that whatsoever cometh forth of the doors of my house to meet me, when I return in peace from the children of Ammon, shall surely be the LORD's, and I will offer it up for a burnt offering.",
     "WEB": "then it shall be, that whatever comes out of the doors of my house to meet me when I return in peace from the children of Ammon, it shall be the LORD’s, and I will offer it up for a burnt offering.”"
@@ -72,18 +110,6 @@
   },
   "Judges 11:34": {
    "citations": [
-    {
-     "confidence": 0.8171,
-     "context": "So he just said, whatever comes out of the door of my house, which I'm I'm saying, he could have been more specific. Now he could have said, Lord, whatever animal comes out of my house first, but he didn't. All right, he didn't. So upon his victorious return, his only child, his daughter, comes out to greet him with timbrels and dancing, bound by his vow, he proceeds to sacrifice her after granting her two months to mourn her virginity.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-12-04T19:13:28Z",
-     "role": "host",
-     "t": 1101.36,
-     "title": "Does God Love The Kids",
-     "video_id": "-T-pAnSk22E"
-    },
     {
      "confidence": 0.6452,
      "context": "To the ancient audience that heard this story, this is the equivalent of watching a modern horror movie, and a character says, Let's split up. You brace yourself because you know something bad is about to happen. The story continues. Then Jephtha came to his home at Mitzpah, and behold, his daughter came out to meet him with timbrels and with dances. She was his only child. Besides her, he had neither son nor daughter. And when he saw her, he tore his clothes and said, Alas, my daughter, you have brought me very low, and you have become the cause of great trouble to me, for I have opened my mouth to the Lord, and I cannot take back my vow.",
@@ -95,11 +121,23 @@
      "t": 262.88,
      "title": "The Biggest Mistake Bible Critics Make",
      "video_id": "O-B_uHB_rpw"
+    },
+    {
+     "confidence": 0.7742,
+     "context": "And I will offer it up for a burnt offering. So Jephtherah crossed over to the Ammonites to fight and against them, and the Lord gave them into his hand. Twenty cities, and as far as Abel Kermim with a great blow. So the Ammonites were subdued before the people of Israel. Then Jephthera came to his home, and behold, his daughter came out to meet him with tambourines and with dances. She was his only child. Besides her, he had neither son nor daughter. And as soon as he saw her, he tore his clothes and said, Alas, my daughter, you have brought me very low, and you have become the cause of great trouble to me, for I have opened my mouth to the Lord, and I cannot take back my vow.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-07-20T14:00:43Z",
+     "role": "host",
+     "t": 1586.4,
+     "title": "Judges: Pure Horror | Secular Bible Study (Episode 7)",
+     "video_id": "y0p2laa6q3o"
     }
    ],
    "creators": {
     "counsel-of-trent": 1,
-    "darante-lamar": 1
+    "mindshift": 1
    },
    "n": 2,
    "text": {
@@ -121,41 +159,76 @@
      "t": 273.68,
      "title": "The Biggest Mistake Bible Critics Make",
      "video_id": "O-B_uHB_rpw"
+    },
+    {
+     "confidence": 0.6667,
+     "context": "So the Ammonites were subdued before the people of Israel. Then Jephthera came to his home, and behold, his daughter came out to meet him with tambourines and with dances. She was his only child. Besides her, he had neither son nor daughter. And as soon as he saw her, he tore his clothes and said, Alas, my daughter, you have brought me very low, and you have become the cause of great trouble to me, for I have opened my mouth to the Lord, and I cannot take back my vow. So I'm beyond tired of hearing about the excuses that the believer posits here.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-07-20T14:00:43Z",
+     "role": "host",
+     "t": 1596.44,
+     "title": "Judges: Pure Horror | Secular Bible Study (Episode 7)",
+     "video_id": "y0p2laa6q3o"
     }
    ],
    "creators": {
-    "counsel-of-trent": 1
+    "counsel-of-trent": 1,
+    "mindshift": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "And it came to pass, when he saw her, that he rent his clothes, and said, Alas, my daughter! thou hast brought me very low, and thou art one of them that trouble me: for I have opened my mouth unto the LORD, and I cannot go back.",
     "WEB": "When he saw her, he tore his clothes, and said, “Alas, my daughter! You have brought me very low, and you are one of those who trouble me; for I have opened my mouth to the LORD, and I can’t go back.”"
    },
    "truncated": false
   },
-  "Judges 11:39": {
+  "Judges 11:37": {
    "citations": [
     {
-     "confidence": 0.83,
-     "context": "Jephthah promises that if God gives him victory over the Ammonites, he will offer as a burnt sacrifice whoever greets him when he returns home from victory. And in an ironic twist, his only daughter is the one who greets him, and the Bible says he did with her according to the vow he made. This is part of a section that tries to prove the God of the Bible is okay with child sacrifice, and includes scholars saying that this happened in ancient Israel.",
-     "creator": "counsel-of-trent",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-02-22T14:00:06Z",
+     "confidence": 0.5758,
+     "context": "Okay, yeah, Judges 11, verses 37 and 38. It tells you what happened right after all this, right? When Jephthah fulfilled his vow, what does it actually say? It says here, so she said to her father, Let this thing be done for me, leave me alone two months. This is her request after she finds out, right? That I may go up and down on the mountains and weep for my virginity, I and my companions.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-07-12T22:20:19Z",
      "role": "host",
-     "t": 570.68,
-     "title": "Satan's Guide to the Bible (REBUTTED)",
-     "video_id": "5Se2yEZigXA"
+     "t": 1241.64,
+     "title": "10 Questions with Mike Winger SKEPTICS EDITION (Episode 21)",
+     "video_id": "ATPyA2gt36E"
     }
    ],
    "creators": {
-    "counsel-of-trent": 1
+    "mike-winger": 1
    },
    "n": 1,
    "text": {
-    "KJV": "And it came to pass at the end of two months, that she returned unto her father, who did with her according to his vow which he had vowed: and she knew no man. And it was a custom in Israel,",
-    "WEB": "At the end of two months, she returned to her father, who did with her according to his vow which he had vowed. She was a virgin. It became a custom in Israel"
+    "KJV": "And she said unto her father, Let this thing be done for me: let me alone two months, that I may go up and down upon the mountains, and bewail my virginity, I and my fellows.",
+    "WEB": "Then she said to her father, “Let this thing be done for me. Leave me alone two months, that I may depart and go down on the mountains, and bewail my virginity, I and my companions.”"
    },
+   "truncated": false
+  },
+  "Judges 11:37-38": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "Okay, that would be where I would lean on understanding that one is that it shows the deep sin and flaws of Jephthah. But there is another um another thing to mention, just making sure in my notes I'm not missing something. Okay, yeah, Judges 11, verses 37 and 38. It tells you what happened right after all this, right? When Jephthah fulfilled his vow, what does it actually say? It says here, so she said to her father, Let this thing be done for me, leave me alone two months.",
+     "creator": "mike-winger",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-07-12T22:20:19Z",
+     "role": "host",
+     "t": 1231.56,
+     "title": "10 Questions with Mike Winger SKEPTICS EDITION (Episode 21)",
+     "video_id": "ATPyA2gt36E"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {},
    "truncated": false
   },
   "Judges 13:11": {
@@ -261,20 +334,20 @@
   "Judges 13:24": {
    "citations": [
     {
-     "confidence": 0.9115,
-     "context": "I'm referring to Samson, God's appointed judge over Israel. The biblical book of Judges chronicles a 300-year period of the nation of Israel's history. In this book, we are introduced to a man named Samson. Then the woman gave birth to a son and named him Samson, and the child grew up, and the Lord blessed him. Judges 13 24. Samson was appointed to serve as judge over Israel at a time when the people were absent any consistent, strong, or righteous political leadership.",
-     "creator": "prophet-of-zod",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2016-11-01T20:45:45Z",
+     "confidence": 0.5294,
+     "context": "This is the part of the story of Samson, who was also one of the judges. Judges 13, 24 and 25. And the woman bore a son and called his name Samson. And the boy grew, and the Lord blessed him. And the spirit of the Lord began to stir him in Mahanadan between Zirah and Eshtaol.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-03-05T17:05:26Z",
      "role": "host",
-     "t": 169.56,
-     "title": "Time to Reassemble the Zod Squad (with time stamp)",
-     "video_id": "A59_lDVgWuU"
+     "t": 1397.56,
+     "title": "📺🤺 Defenders LIVE! // The Holy Spirit Part 3 📺🤺",
+     "video_id": "5EmmcPAj8ts"
     }
    ],
    "creators": {
-    "prophet-of-zod": 1
+    "reasonable-faith-org": 1
    },
    "n": 1,
    "text": {
@@ -283,54 +356,26 @@
    },
    "truncated": false
   },
-  "Judges 13:5": {
+  "Judges 13:24-25": {
    "citations": [
     {
-     "confidence": 0.8333,
-     "context": "Note, the angel does not say that Samson will deliver Israel from their enemies, but that he will begin the process. This is important. The angel told Samson's parents that their son would be a Nazarite to God from the womb. The Nazarite vow was taken by individuals who dedicated themselves to the Lord. The vow prohibited a person from consuming wine or strong drink, cutting their hair, or coming in contact with a dead body.",
-     "creator": "prophet-of-zod",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2016-11-01T20:45:45Z",
+     "confidence": null,
+     "context": "And then Jephthah also defeats the enemies of Israel. Chapter 13 of Judges, verses 24 and 25. Judges 13, verses 24 and 25. This is the part of the story of Samson, who was also one of the judges. Judges 13, 24 and 25.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2023-03-05T17:05:26Z",
      "role": "host",
-     "t": 278.32,
-     "title": "Time to Reassemble the Zod Squad (with time stamp)",
-     "video_id": "A59_lDVgWuU"
+     "t": 1382.28,
+     "title": "📺🤺 Defenders LIVE! // The Holy Spirit Part 3 📺🤺",
+     "video_id": "5EmmcPAj8ts"
     }
    ],
    "creators": {
-    "prophet-of-zod": 1
+    "reasonable-faith-org": 1
    },
    "n": 1,
-   "text": {
-    "KJV": "For, lo, thou shalt conceive, and bear a son; and no razor shall come on his head: for the child shall be a Nazarite unto God from the womb: and he shall begin to deliver Israel out of the hand of the Philistines.",
-    "WEB": "for, behold, you shall conceive and give birth to a son. No razor shall come on his head, for the child shall be a Nazirite to God from the womb. He shall begin to save Israel out of the hand of the Philistines.”"
-   },
-   "truncated": false
-  },
-  "Judges 13:7": {
-   "citations": [
-    {
-     "confidence": 0.8209,
-     "context": "Note, the angel does not say that Samson will deliver Israel from their enemies, but that he will begin the process. This is important. The angel told Samson's parents that their son would be a Nazarite to God from the womb. The Nazarite vow was taken by individuals who dedicated themselves to the Lord. The vow prohibited a person from consuming wine or strong drink, cutting their hair, or coming in contact with a dead body.",
-     "creator": "prophet-of-zod",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2016-11-01T20:45:45Z",
-     "role": "host",
-     "t": 278.32,
-     "title": "Time to Reassemble the Zod Squad (with time stamp)",
-     "video_id": "A59_lDVgWuU"
-    }
-   ],
-   "creators": {
-    "prophet-of-zod": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "But he said unto me, Behold, thou shalt conceive, and bear a son; and now drink no wine nor strong drink, neither eat any unclean thing: for the child shall be a Nazarite to God from the womb to the day of his death.",
-    "WEB": "but he said to me, ‘Behold, you shall conceive and bear a son; and now drink no wine nor strong drink. Don’t eat any unclean thing, for the child shall be a Nazirite to God from the womb to the day of his death.’”"
-   },
+   "text": {},
    "truncated": false
   },
   "Judges 13:8-20": {
@@ -367,194 +412,53 @@
    "text": {},
    "truncated": false
   },
-  "Judges 14:3": {
+  "Judges 14:5-6": {
    "citations": [
     {
-     "confidence": 0.8207,
-     "context": "On one occasion, Samson was attacked by a lion while traveling with his parents. He used his great strength to overcome and kill the wild beast. Continuing on his journey, he came across a foreign woman who he described as right in his eyes. He demanded that his father get her for him. His parents were displeased with his request and implored him to choose a righteous woman from among his own people. Samson refused. But the Bible tells us that his parents did not know that it was of the Lord. His parents failed to remember that God always has a plan.",
-     "creator": "prophet-of-zod",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2016-11-01T20:45:45Z",
+     "confidence": null,
+     "context": "So here the Spirit of the Lord comes on Samson to do the great deeds that he was called upon to do. And some of these are described, for example, in chapter 14, verses 5 and 6. Judges 14, verses 5 and 6. Then Samson went down with his father and mother to Timnah and he came to the vineyards of Timnah. And behold, a young lion roared against him. And the Spirit of the Lord came mightily upon him, and he tore the lion asunder as one tears a kid, and he had nothing in his hand.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2023-03-05T17:05:26Z",
      "role": "host",
-     "t": 327.76,
-     "title": "Time to Reassemble the Zod Squad (with time stamp)",
-     "video_id": "A59_lDVgWuU"
+     "t": 1427.0,
+     "title": "📺🤺 Defenders LIVE! // The Holy Spirit Part 3 📺🤺",
+     "video_id": "5EmmcPAj8ts"
     }
    ],
    "creators": {
-    "prophet-of-zod": 1
+    "reasonable-faith-org": 1
    },
    "n": 1,
-   "text": {
-    "KJV": "Then his father and his mother said unto him, Is there never a woman among the daughters of thy brethren, or among all my people, that thou goest to take a wife of the uncircumcised Philistines? And Samson said unto his father, Get her for me; for she pleaseth me well.",
-    "WEB": "Then his father and his mother said to him, “Isn’t there a woman among your brothers’ daughters, or among all my people, that you go to take a wife of the uncircumcised Philistines?” Samson said to his father, “Get her for me, for she pleases me well.”"
-   },
-   "truncated": false
-  },
-  "Judges 14:4": {
-   "citations": [
-    {
-     "confidence": 0.8391,
-     "context": "He demanded that his father get her for him. His parents were displeased with his request and implored him to choose a righteous woman from among his own people. Samson refused. But the Bible tells us that his parents did not know that it was of the Lord. His parents failed to remember that God always has a plan. God is always in control. Get her for me, for she is right in my eyes. Judges 14 3.",
-     "creator": "prophet-of-zod",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2016-11-01T20:45:45Z",
-     "role": "host",
-     "t": 338.2,
-     "title": "Time to Reassemble the Zod Squad (with time stamp)",
-     "video_id": "A59_lDVgWuU"
-    }
-   ],
-   "creators": {
-    "prophet-of-zod": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "But his father and his mother knew not that it was of the LORD, that he sought an occasion against the Philistines: for at that time the Philistines had dominion over Israel.",
-    "WEB": "But his father and his mother didn’t know that it was of the LORD; for he sought an occasion against the Philistines. Now at that time the Philistines ruled over Israel."
-   },
-   "truncated": false
-  },
-  "Judges 14:8": {
-   "citations": [
-    {
-     "confidence": 0.8896,
-     "context": "His parents failed to remember that God always has a plan. God is always in control. Get her for me, for she is right in my eyes. Judges 14 3. Later, Samson returns to the dead carcass of the lion that he had killed. Starving, Samson noticed that there was a swarm of bees and honey in the body of the lion. The Bible says Samson scraped the honey into his hands and went on his way eating. Unfortunately, this means that Samson broke his Nazarite vow by touching a dead body.",
-     "creator": "prophet-of-zod",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2016-11-01T20:45:45Z",
-     "role": "host",
-     "t": 354.76,
-     "title": "Time to Reassemble the Zod Squad (with time stamp)",
-     "video_id": "A59_lDVgWuU"
-    }
-   ],
-   "creators": {
-    "prophet-of-zod": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And after a time he returned to take her, and he turned aside to see the carcass of the lion: and, behold, there was a swarm of bees and honey in the carcass of the lion.",
-    "WEB": "After a while he returned to take her, and he went over to see the carcass of the lion; and behold, there was a swarm of bees in the body of the lion, and honey."
-   },
-   "truncated": false
-  },
-  "Judges 14:9": {
-   "citations": [
-    {
-     "confidence": 0.8582,
-     "context": "His parents failed to remember that God always has a plan. God is always in control. Get her for me, for she is right in my eyes. Judges 14 3. Later, Samson returns to the dead carcass of the lion that he had killed. Starving, Samson noticed that there was a swarm of bees and honey in the body of the lion. The Bible says Samson scraped the honey into his hands and went on his way eating. Unfortunately, this means that Samson broke his Nazarite vow by touching a dead body.",
-     "creator": "prophet-of-zod",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2016-11-01T20:45:45Z",
-     "role": "host",
-     "t": 354.76,
-     "title": "Time to Reassemble the Zod Squad (with time stamp)",
-     "video_id": "A59_lDVgWuU"
-    }
-   ],
-   "creators": {
-    "prophet-of-zod": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And he took thereof in his hands, and went on eating, and came to his father and mother, and he gave them, and they did eat: but he told not them that he had taken the honey out of the carcass of the lion.",
-    "WEB": "He took it into his hands, and went on, eating as he went. He came to his father and mother and gave to them, and they ate, but he didn’t tell them that he had taken the honey out of the lion’s body."
-   },
-   "truncated": false
-  },
-  "Judges 16:10": {
-   "citations": [
-    {
-     "confidence": 0.8702,
-     "context": "Finally, he became so annoyed with her that he succumbed to the pressure and told her his secret. This was one of Samson's great failures, and it would ultimately cost him his life. Up to now you have deceived me and told me lies. Tell me how you may be bound. Judges 16 13. After being betrayed and sold into the hands of his enemies, Samson would have his eyes gouged out and be forced into hard labor in a foreign land.",
-     "creator": "prophet-of-zod",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2016-11-01T20:45:45Z",
-     "role": "host",
-     "t": 414.2,
-     "title": "Time to Reassemble the Zod Squad (with time stamp)",
-     "video_id": "A59_lDVgWuU"
-    }
-   ],
-   "creators": {
-    "prophet-of-zod": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And Delilah said unto Samson, Behold, thou hast mocked me, and told me lies: now tell me, I pray thee, wherewith thou mightest be bound.",
-    "WEB": "Delilah said to Samson, “Behold, you have mocked me, and told me lies. Now please tell me how you might be bound.”"
-   },
-   "truncated": false
-  },
-  "Judges 16:13": {
-   "citations": [
-    {
-     "confidence": 0.8443,
-     "context": "Finally, he became so annoyed with her that he succumbed to the pressure and told her his secret. This was one of Samson's great failures, and it would ultimately cost him his life. Up to now you have deceived me and told me lies. Tell me how you may be bound. Judges 16 13. After being betrayed and sold into the hands of his enemies, Samson would have his eyes gouged out and be forced into hard labor in a foreign land.",
-     "creator": "prophet-of-zod",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2016-11-01T20:45:45Z",
-     "role": "host",
-     "t": 414.2,
-     "title": "Time to Reassemble the Zod Squad (with time stamp)",
-     "video_id": "A59_lDVgWuU"
-    }
-   ],
-   "creators": {
-    "prophet-of-zod": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And Delilah said unto Samson, Hitherto thou hast mocked me, and told me lies: tell me wherewith thou mightest be bound. And he said unto her, If thou weavest the seven locks of my head with the web.",
-    "WEB": "Delilah said to Samson, “Until now, you have mocked me and told me lies. Tell me with what you might be bound.” He said to her, “If you weave the seven locks of my head with the fabric on the loom.”"
-   },
-   "truncated": false
-  },
-  "Judges 16:22": {
-   "citations": [
-    {
-     "confidence": 0.836,
-     "context": "Wait, that is how the story ends, right? Actually, no, it's not. I will never leave you, and I will never abandon you. Hebrews 13 15. While in captivity, Samson's hair began to grow again, and as his hair began to grow, he began to regain strength. On a certain day, when his captors were feasting, they called out Samson to amuse them. To them, he was nothing more than a clown, an entertainer.",
-     "creator": "prophet-of-zod",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2016-11-01T20:45:45Z",
-     "role": "host",
-     "t": 461.2,
-     "title": "Time to Reassemble the Zod Squad (with time stamp)",
-     "video_id": "A59_lDVgWuU"
-    }
-   ],
-   "creators": {
-    "prophet-of-zod": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Howbeit the hair of his head began to grow again after he was shaven.",
-    "WEB": "However, the hair of his head began to grow again after he was shaved."
-   },
+   "text": {},
    "truncated": false
   },
   "Judges 17:6": {
    "citations": [
     {
-     "confidence": 0.8701,
-     "context": "The point of the book of Judges is that Israel at this time had suffered a grave moral decay, and any decent Israelite hearing the stories would from this period would know that. The last line of the book even says, in those days there was no king in Israel. The documentary also points to passages like Exodus 22 as proof God didn't just tolerate child sacrifice among his people, he actively commanded it.",
-     "creator": "counsel-of-trent",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-02-22T14:00:06Z",
+     "confidence": null,
+     "context": "Yeah, I think just the the opening story, right? The the first five verses, uh we read we meet a guy named Elimelech. And a littlech, his name means God is my king. But this was during the time of the judges, and Judges chapter 17, verse 6 tells us during that time uh there was no king, and people did what was right in their own eyes. And so even though Elimelech his name means God is my king, he didn't necessarily make decisions as if God were his king, because he chooses to leave Bethlehem, the house of bread, for Moab.",
+     "creator": "jude-3-project",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2017-12-18T07:27:33Z",
      "role": "host",
-     "t": 697.36,
-     "title": "Satan's Guide to the Bible (REBUTTED)",
-     "video_id": "5Se2yEZigXA"
+     "t": 386.52,
+     "title": "The Miseducation of Ruth | Jerome Gay",
+     "video_id": "719OMqQlTSs"
+    },
+    {
+     "confidence": 0.6875,
+     "context": "No, get her for me, for she is right in my eyes. You've got shik's appeal. Jewish men love the idea of meeting a woman that's not like their mother. That's insane. But listen to this. In those days, there was no king in Israel. Everyone did what was right in his own eyes. That's one of Ken Ham's favorite verses, too. But I'm not sure it really makes much of a point. I'd argue that at all points in history, at all places and all times, that everyone does what is right in their own eyes, king or not.",
+     "creator": "paulogia",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2021-04-14T13:30:01Z",
+     "role": "unknown",
+     "t": 685.68,
+     "title": "I'm Praying That 1,000,000 Christians Will Watch This Video (Off The Kirb Response)",
+     "video_id": "CVXeUC95Q9U"
     },
     {
      "confidence": 0.5625,
@@ -570,6 +474,30 @@
     },
     {
      "confidence": 0.5625,
+     "context": "It's not like we have to say, and remember, kids, this was bad. Yeah. In fact, one of my favorite verses in scripture, kind of bitter, you know, kind of favorite, put in quotation marks, is the last verse of the book of Judges, which is Judges 21, 25. And it says, after all of these atrocities, in those days there was no king in Israel. Uh every man did what was right in his own eyes. Yes. The end. And so the point here is that some stories and narratives or even books, like the whole book of Judges is just don't do this.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-06-13T13:00:20Z",
+     "role": "host",
+     "t": 717.92,
+     "title": "Should the Bible be rated NC-17 or \"XXX\"?",
+     "video_id": "Rxza0GPOUgE"
+    },
+    {
+     "confidence": 0.5625,
+     "context": "The author of Judges did not think his audience was so inept and stupid that he had to write in block letters what these people did was bad. Instead, the final verse in Judges hauntingly indicts Israel. In those days, there was no king in Israel. Every man did what was right in his own eyes. And that's the end of the book. The Bible often records events for the express purpose of not recommending them, but to use them as a graphic warning.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-05-31T13:00:35Z",
+     "role": "host",
+     "t": 753.88,
+     "title": "When Atheists Misread the Bible",
+     "video_id": "eq8-lg1_60E"
+    },
+    {
+     "confidence": 0.5625,
      "context": "They kidnap women to provide brides for a tribe in Israel that had been massacred by their own people. And the last line of judges, Judges 2125, sums up how people were living. It said, In those days, there was no king in Israel. Every man did what was right in his own eyes. That sound like relativism to you.",
      "creator": "counsel-of-trent",
      "detection_method": "shingle_match",
@@ -579,56 +507,82 @@
      "t": 161.8,
      "title": "How should we respond to relativism?",
      "video_id": "lmu5OmzEifo"
+    },
+    {
+     "confidence": 0.5,
+     "context": "Each returned from there to his own inheritance. And then, of course, the last verse in the book of Judges characterizes and describes the entire book of Judges. It says here in those days, there was no king in Israel. Everyone did whatever seemed right to him. I want to encourage you to understand that every single decision you and I make have consequences, oftentimes consequences that cannot even be measured, and consequences that we cannot choose.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-10-24T14:00:38Z",
+     "role": "unknown",
+     "t": 98.72,
+     "title": "Allen Parr Is Simply Wrong About Judges",
+     "video_id": "sLtps4XXMrw"
+    },
+    {
+     "confidence": 0.6875,
+     "context": "Well, one of the things they love to do is they love to point to judges. The very last verse of the very last chapter, right before we get into our monarchy, is this, Judges 21, 25. In those days there was no king in Israel. Everyone did what was right in his own eyes. And they're like, see, look what happens when the people don't have a king. Look what happens when the people aren't submitting to authority. Well, that's not what it says. They still had a God, and they had never had a king before, by the way.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-10-24T14:00:38Z",
+     "role": "host",
+     "t": 232.96,
+     "title": "Allen Parr Is Simply Wrong About Judges",
+     "video_id": "sLtps4XXMrw"
+    },
+    {
+     "confidence": 0.6875,
+     "context": "Then they went and returned to their inheritance and rebuilt the towns and lived in them. And the people of Israel departed from there at that time, every man to his tribe and family, and they went out from there, every man to his inheritance. It's like a and they all lived happily ever after story, except for the very last verse. In those days, there was no king in Israel. Everyone did what was right in his own eyes. And Christians again try to take this as look at all the evil that just happened. That's because there's no authority. They needed a king. That's what you get when you just do what you think is right. They were literally doing what they thought God thought was right, because it was what God told them.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-10-24T14:00:38Z",
+     "role": "host",
+     "t": 698.8,
+     "title": "Allen Parr Is Simply Wrong About Judges",
+     "video_id": "sLtps4XXMrw"
+    },
+    {
+     "confidence": 0.6875,
+     "context": "If the daughters of Shiloh come out to dance in the dances, then come out of the vineyards and snatch each man a wife from the daughters of Shiloh. And the people of Benjamin did so and took their wives according to their number, whom they carried off. The only bit of redeeming credit is the very last verse of Judges, which says, In those days there was no king in Israel, everyone did what was right in his own eyes. As if that's some kind of a justification for what just went on, that this is the tribe of Benjamin just being unhinged here.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-07-20T14:00:43Z",
+     "role": "host",
+     "t": 1922.0,
+     "title": "Judges: Pure Horror | Secular Bible Study (Episode 7)",
+     "video_id": "y0p2laa6q3o"
     }
    ],
    "creators": {
-    "counsel-of-trent": 3
+    "counsel-of-trent": 4,
+    "jude-3-project": 1,
+    "mindshift": 4,
+    "paulogia": 1
    },
-   "n": 3,
+   "n": 10,
    "text": {
     "KJV": "In those days there was no king in Israel, but every man did that which was right in his own eyes.",
     "WEB": "In those days there was no king in Israel. Everyone did that which was right in his own eyes."
    },
    "truncated": false
   },
-  "Judges 18:1": {
-   "citations": [
-    {
-     "confidence": 0.8565,
-     "context": "The point of the book of Judges is that Israel at this time had suffered a grave moral decay, and any decent Israelite hearing the stories would from this period would know that. The last line of the book even says, in those days there was no king in Israel. The documentary also points to passages like Exodus 22 as proof God didn't just tolerate child sacrifice among his people, he actively commanded it.",
-     "creator": "counsel-of-trent",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-02-22T14:00:06Z",
-     "role": "host",
-     "t": 697.36,
-     "title": "Satan's Guide to the Bible (REBUTTED)",
-     "video_id": "5Se2yEZigXA"
-    }
-   ],
-   "creators": {
-    "counsel-of-trent": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "In those days there was no king in Israel: and in those days the tribe of the Danites sought them an inheritance to dwell in; for unto that day all their inheritance had not fallen unto them among the tribes of Israel.",
-    "WEB": "In those days there was no king in Israel. In those days the tribe of the Danites sought an inheritance to dwell in; for to that day, their inheritance had not fallen to them among the tribes of Israel."
-   },
-   "truncated": false
-  },
   "Judges 19:1": {
    "citations": [
     {
-     "confidence": 0.8399,
-     "context": "The point of the book of Judges is that Israel at this time had suffered a grave moral decay, and any decent Israelite hearing the stories would from this period would know that. The last line of the book even says, in those days there was no king in Israel. The documentary also points to passages like Exodus 22 as proof God didn't just tolerate child sacrifice among his people, he actively commanded it.",
+     "confidence": null,
+     "context": "And what's interesting is this comes after the time of Samson, and after the time when Samson was a judge, it said that there is no king. It said Judges 19:1, there was no king in Israel. So it was kind of a lawless place. So then he said he chops up the pieces, sends it to them. Uh the other tribes uh get together and it they go against uh the tribe of Benjamin, where this happened, Benjamin won't be held responsible.",
      "creator": "counsel-of-trent",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-02-22T14:00:06Z",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2022-06-13T13:00:20Z",
      "role": "host",
-     "t": 697.36,
-     "title": "Satan's Guide to the Bible (REBUTTED)",
-     "video_id": "5Se2yEZigXA"
+     "t": 654.72,
+     "title": "Should the Bible be rated NC-17 or \"XXX\"?",
+     "video_id": "Rxza0GPOUgE"
     }
    ],
    "creators": {
@@ -641,28 +595,137 @@
    },
    "truncated": false
   },
-  "Judges 19:21": {
+  "Judges 19:14": {
    "citations": [
     {
-     "confidence": 0.7981,
-     "context": "Horns are cooler than halos. That's true. Hoofs are better than sandals. Yep. Yeah. Another funny thing about reading the Bible too, this weird obsession with everyone washing their feet. Yeah. Every story is like they came to the house, they brought them in and they washed their feet. Yep. Okay. Cool. Why do I have to know about this every time? I think Jesus had a foot fetish. I think that's his old testament. Oh, right, yeah. And I'm like, why does everyone have why do we have to talk about everyone washing their feet?",
-     "creator": "belief-it-or-not",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-07-28T09:00:08Z",
+     "confidence": 1.0,
+     "context": "It's kind of showing depriv the depravity of man. But we will pass on the Gibeah. And he said to his young man, Come and let us draw near to one of these places and spend the night at Gibeah or at Rama. So they passed on and went their way. And the sun went down on them near Gibeah, which belongs to Benjamin. That is the tribe of Benjamin. And they turned aside there to go in and spend the night at Gibeah. And he went in and sat down in the open square of the city.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-04-21T22:43:34Z",
      "role": "host",
-     "t": 2713.32,
-     "title": "The Belief It Or Not Podcast: Church Insurance and Terrible Christian Parents",
-     "video_id": "9e4yR4eQJa4"
+     "t": 4570.36,
+     "title": "20 Questions with Pastor Mike (Episode 97)",
+     "video_id": "iMxZXQw1sEg"
     }
    ],
    "creators": {
-    "belief-it-or-not": 1
+    "mike-winger": 1
    },
    "n": 1,
    "text": {
-    "KJV": "So he brought him into his house, and gave provender unto the asses: and they washed their feet, and did eat and drink.",
-    "WEB": "So he brought him into his house, and gave the donkeys fodder. Then they washed their feet, and ate and drank."
+    "KJV": "And they passed on and went their way; and the sun went down upon them when they were by Gibeah, which belongeth to Benjamin.",
+    "WEB": "So they passed on and went their way; and the sun went down on them near Gibeah, which belongs to Benjamin."
+   },
+   "truncated": false
+  },
+  "Judges 19:17": {
+   "citations": [
+    {
+     "confidence": 0.5185,
+     "context": "But no one takes him into his house to spend the night. Verse 16. And behold, an old man was coming from his work in the field at evening. The man was from the hill country of Ephraim, and he was sojourning in Gibeah. The men of the place were Benjamites. And he lifted up his eyes and saw the traveler in the open square of the city. And the old man said, Where are you going? And where do you come from? And he said, We are passing from Bethlehem and Judah. Here we go, to the remote parts of the hill country of Ephraim from which I come.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-04-21T22:43:34Z",
+     "role": "host",
+     "t": 4605.56,
+     "title": "20 Questions with Pastor Mike (Episode 97)",
+     "video_id": "iMxZXQw1sEg"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And when he had lifted up his eyes, he saw a wayfaring man in the street of the city: and the old man said, Whither goest thou? and whence comest thou?",
+    "WEB": "He lifted up his eyes, and saw the wayfaring man in the street of the city; and the old man said, “Where are you going? Where did you come from?”"
+   },
+   "truncated": false
+  },
+  "Judges 19:2-25": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "He didn't just fail to do enough, he actually did wickedness and did nothing positive. That's that's the parable there. So I think that might help bring some resolution to some feelings you might have there. I hope. Madison says, Hi, Mike. I'm struggling to interpret Judges 19, verse two and twenty-five. Uh why on why the concubine suffered abuse. Some have said God was punishing her for adultery. How do I understand this without reading into the text? You know, I I taught judges a while back.",
+     "creator": "mike-winger",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2023-04-21T22:43:34Z",
+     "role": "host",
+     "t": 4170.76,
+     "title": "20 Questions with Pastor Mike (Episode 97)",
+     "video_id": "iMxZXQw1sEg"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {},
+   "truncated": false
+  },
+  "Judges 19:23": {
+   "citations": [
+    {
+     "confidence": 0.7188,
+     "context": "So he brought them into his house and gave the donkeys feed, and they washed their feet, ate and drank, and they were making their hearts merry. Behold, the men of the city, worthless fellows surrounded this the house, beating on the door. That sounds like Sodom and Gomorrah too, doesn't it? And they said to the old man, the master of the house, bring the man who came into your house that we may know him. And the man, the master of the house, went out to them and said to them, No, my brothers, do not act so know him as they may sexually abuse him. Do not act so wickedly, since this man has come into my house, do not do this vile thing.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-04-21T22:43:34Z",
+     "role": "host",
+     "t": 4666.72,
+     "title": "20 Questions with Pastor Mike (Episode 97)",
+     "video_id": "iMxZXQw1sEg"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And the man, the master of the house, went out unto them, and said unto them, Nay, my brethren, nay, I pray you, do not so wickedly; seeing that this man is come into mine house, do not this folly.",
+    "WEB": "The man, the master of the house, went out to them, and said to them, “No, my brothers, please don’t act so wickedly; since this man has come into my house, don’t do this folly."
+   },
+   "truncated": false
+  },
+  "Judges 19:27": {
+   "citations": [
+    {
+     "confidence": 0.5897,
+     "context": "This is this is uh done. Uh and they knew her and abused her all night until the morning. And as the dawn began to break, they let her go. Heartbreaking, horrific, evil, sick, wicked, and it just gets worse. And as morning appeared, the woman came and fell down at the door of the man's house where his master was, until it was light. And her master rose up in the morning, and when he opened the doors of the house and went out to go his way, behold, there was his concubine lying at the door of the house with her hands on the threshold.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-04-21T22:43:34Z",
+     "role": "host",
+     "t": 4728.24,
+     "title": "20 Questions with Pastor Mike (Episode 97)",
+     "video_id": "iMxZXQw1sEg"
+    },
+    {
+     "confidence": 0.5385,
+     "context": "And she's she goes to the door to get in, and they're like sleeping or something. They don't let her in, they don't. And her master rose up in the morning. When he opened the doors of the house and went out to go his way, behold, there was his concubine lying at the door of the house with her hands on the threshold. He said to her, Get up, let us be going. But there was no answer. Then he put her on the donkey, and the man rose up and went his way to away to his home. And when he entered his house, he took a knife.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-04-21T22:43:34Z",
+     "role": "host",
+     "t": 4767.16,
+     "title": "20 Questions with Pastor Mike (Episode 97)",
+     "video_id": "iMxZXQw1sEg"
+    }
+   ],
+   "creators": {
+    "mike-winger": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "And her lord rose up in the morning, and opened the doors of the house, and went out to go his way: and, behold, the woman his concubine was fallen down at the door of the house, and her hands were upon the threshold.",
+    "WEB": "Her lord rose up in the morning and opened the doors of the house, and went out to go his way; and behold, the woman his concubine had fallen down at the door of the house, with her hands on the threshold."
    },
    "truncated": false
   },
@@ -704,31 +767,203 @@
      "t": 2477.32,
      "title": "The Second Commandment: Graven Images  | Belief It Or Not",
      "video_id": "2uv-6B5fGOE"
+    },
+    {
+     "confidence": 0.8214,
+     "context": "Matthew 920, 1926 says, with God all things are possible. But then Judges 119 shows something that God, according to the this list of contradictions, that contradicts that that shows that not all things are possible with God. God couldn't do this. So here it says, speaking of the book of Judges, the Lord was with Judah, and he drave out. It's just weird to say that. And he drove out the inhabitants of the mountain, but could not drive out the inhabitants of the valley because they had chariots of iron.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-07-12T22:20:19Z",
+     "role": "host",
+     "t": 1505.6,
+     "title": "10 Questions with Mike Winger SKEPTICS EDITION (Episode 21)",
+     "video_id": "ATPyA2gt36E"
+    },
+    {
+     "confidence": 0.6071,
+     "context": "Let's read it again. Is that God? Well, no, that's does Judah. Judah drave or drove out the inhabitants of the mountain, but could not drive out the inhabitants of the valley because they had chariots of iron. So the he there I think is actually talking about Judah. Judah's the one who, now you could say God drove out our enemies before us. That it sometimes it says that, but if you read the passage, you'll see the active uh thing working here is is Judah, not God.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-07-12T22:20:19Z",
+     "role": "host",
+     "t": 1550.4,
+     "title": "10 Questions with Mike Winger SKEPTICS EDITION (Episode 21)",
+     "video_id": "ATPyA2gt36E"
+    },
+    {
+     "confidence": null,
+     "context": "But that means he has changed. I changed not. Just sounds like he's gaslighting you. Yeah, yeah, really does. Um in Matthew 19, verse 26, it says, with all th with God all things are possible. Very famous verse. Uh but then in Judges 1 verse 19, it says, The Lord was with Judah and he uh drove out the inhabitants of the mountain, but could not drive out the inhabitants of the valley because they had chariots of iron.",
+     "creator": "belief-it-or-not",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2023-07-30T09:00:35Z",
+     "role": "unknown",
+     "t": 503.84,
+     "title": "The Belief It Or Not Podcast: Ep. 138 -  Bible Contradictions",
+     "video_id": "mw8AjSGHhyc"
+    },
+    {
+     "confidence": 0.75,
+     "context": "But that means he has changed. I changed not. Just sounds like he's gaslighting you. Yeah, yeah, really does. Um in Matthew 19, verse 26, it says, with all th with God all things are possible. Very famous verse. Uh but then in Judges 1 verse 19, it says, The Lord was with Judah and he uh drove out the inhabitants of the mountain, but could not drive out the inhabitants of the valley because they had chariots of iron.",
+     "creator": "belief-it-or-not",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-07-30T09:00:35Z",
+     "role": "unknown",
+     "t": 503.84,
+     "title": "The Belief It Or Not Podcast: Ep. 138 -  Bible Contradictions",
+     "video_id": "mw8AjSGHhyc"
+    },
+    {
+     "confidence": null,
+     "context": "According to the Bible, this is question three, um, is God all powerful? Oh, this is gonna be another yes and no, isn't it? Mm-hmm. Matthew 19, 26, with God all things are possible. Judges 1 verse 19. The Lord is with Judah, and he drove out the inhabitants of the mountain, but could not drive out the inhabitants of the valley because they had chariots of iron. What? God's not good with iron.",
+     "creator": "belief-it-or-not",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2019-05-12T10:00:12Z",
+     "role": "host",
+     "t": 1733.68,
+     "title": "The Belief It Or Not Podcast: Ep. 28 - The Holiness Movement",
+     "video_id": "o4jbSawhZ6U"
+    },
+    {
+     "confidence": 0.6429,
+     "context": "Oh, this is gonna be another yes and no, isn't it? Mm-hmm. Matthew 19, 26, with God all things are possible. Judges 1 verse 19. The Lord is with Judah, and he drove out the inhabitants of the mountain, but could not drive out the inhabitants of the valley because they had chariots of iron. What? God's not good with iron. He can't. It's his it's his like one weakness.",
+     "creator": "belief-it-or-not",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2019-05-12T10:00:12Z",
+     "role": "host",
+     "t": 1735.6,
+     "title": "The Belief It Or Not Podcast: Ep. 28 - The Holiness Movement",
+     "video_id": "o4jbSawhZ6U"
     }
    ],
    "creators": {
-    "belief-it-or-not": 1
+    "belief-it-or-not": 5,
+    "mike-winger": 2
    },
-   "n": 1,
+   "n": 7,
    "text": {
     "KJV": "And the LORD was with Judah; and he drave out the inhabitants of the mountain; but could not drive out the inhabitants of the valley, because they had chariots of iron.",
     "WEB": "The LORD was with Judah, and drove out the inhabitants of the hill country; for he could not drive out the inhabitants of the valley, because they had chariots of iron."
    },
    "truncated": false
   },
+  "Judges 20:27": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "So are we excusing this whole period or just this horrendous period during the judges? It is not saying that the Israelites were just doing what was right to them. They've been following God's law. In fact, let me kick it off by this. If we go back one chapter to Judges 20, verse 27, and the people of Israel inquired of the Lord, for the ark of the covenant of God was there in those days. And Phineas, the son of Elizar, son of Aaron, ministered before it in those days, saying, Shall we go out once more to battle against our brothers, the people of Benjamin, or shall we cease?",
+     "creator": "mindshift",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2023-10-24T14:00:38Z",
+     "role": "host",
+     "t": 269.12,
+     "title": "Allen Parr Is Simply Wrong About Judges",
+     "video_id": "sLtps4XXMrw"
+    },
+    {
+     "confidence": 0.8421,
+     "context": "So are we excusing this whole period or just this horrendous period during the judges? It is not saying that the Israelites were just doing what was right to them. They've been following God's law. In fact, let me kick it off by this. If we go back one chapter to Judges 20, verse 27, and the people of Israel inquired of the Lord, for the ark of the covenant of God was there in those days. And Phineas, the son of Elizar, son of Aaron, ministered before it in those days, saying, Shall we go out once more to battle against our brothers, the people of Benjamin, or shall we cease?",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-10-24T14:00:38Z",
+     "role": "host",
+     "t": 269.12,
+     "title": "Allen Parr Is Simply Wrong About Judges",
+     "video_id": "sLtps4XXMrw"
+    }
+   ],
+   "creators": {
+    "mindshift": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "And the children of Israel inquired of the LORD, (for the ark of the covenant of God was there in those days,",
+    "WEB": "The children of Israel asked the LORD (for the ark of the covenant of God was there in those days,"
+   },
+   "truncated": false
+  },
+  "Judges 21:15": {
+   "citations": [
+    {
+     "confidence": 0.7143,
+     "context": "And Benjamin returned at that time and they gave them the women who they had saved alive but they were not enough for them and the people had compassion on Benjamin because the Lord had made a breach in the tribes of Israel. Then the elders said what shall we do for wives for those who are left, since the women are destroyed out of Benjamin.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-07-20T14:00:43Z",
+     "role": "host",
+     "t": 1875.88,
+     "title": "Judges: Pure Horror | Secular Bible Study (Episode 7)",
+     "video_id": "y0p2laa6q3o"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And the people repented them for Benjamin, because that the LORD had made a breach in the tribes of Israel.",
+    "WEB": "The people grieved for Benjamin, because the LORD had made a breach in the tribes of Israel."
+   },
+   "truncated": false
+  },
+  "Judges 21:17": {
+   "citations": [
+    {
+     "confidence": 0.7,
+     "context": "That's how the freaking chapter is described. Chapter 21, wives provided for the tribe of Benjamin. So innocuous. But we're not done yet. We're 200 short. What are we gonna do? Oh, and chapter 16 actually does give us an indication that the women and children were murdered from Benjamin. Then the elders of the congregation said, What shall we do for the wives for those who are left? Since the women are destroyed out of Benjamin. So they did kill every last woman. And they said, There must be an inheritance for the survivors of Benjamin, that a tribe not be blotted out from Israel. That is actually, I think, what Alan here was trying to talk about in terms of God's grace.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-10-24T14:00:38Z",
+     "role": "host",
+     "t": 583.64,
+     "title": "Allen Parr Is Simply Wrong About Judges",
+     "video_id": "sLtps4XXMrw"
+    },
+    {
+     "confidence": 0.7,
+     "context": "And Benjamin returned at that time and they gave them the women who they had saved alive but they were not enough for them and the people had compassion on Benjamin because the Lord had made a breach in the tribes of Israel. Then the elders said what shall we do for wives for those who are left, since the women are destroyed out of Benjamin. And they said there must be an inheritance for the survivors of Benjamin, that a tribe not be blotted out from Israel, yet we cannot give them wives from our daughters. So they said, Behold, there is the yearly feast of the Lord at Shiloh.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-07-20T14:00:43Z",
+     "role": "host",
+     "t": 1886.92,
+     "title": "Judges: Pure Horror | Secular Bible Study (Episode 7)",
+     "video_id": "y0p2laa6q3o"
+    }
+   ],
+   "creators": {
+    "mindshift": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "And they said, There must be an inheritance for them that be escaped of Benjamin, that a tribe be not destroyed out of Israel.",
+    "WEB": "They said, “There must be an inheritance for those who are escaped of Benjamin, that a tribe not be blotted out from Israel."
+   },
+   "truncated": false
+  },
   "Judges 21:25": {
    "citations": [
     {
-     "confidence": 0.8701,
-     "context": "The point of the book of Judges is that Israel at this time had suffered a grave moral decay, and any decent Israelite hearing the stories would from this period would know that. The last line of the book even says, in those days there was no king in Israel. The documentary also points to passages like Exodus 22 as proof God didn't just tolerate child sacrifice among his people, he actively commanded it.",
-     "creator": "counsel-of-trent",
-     "detection_method": "embedding_match",
+     "confidence": 0.6875,
+     "context": "No, get her for me, for she is right in my eyes. You've got shik's appeal. Jewish men love the idea of meeting a woman that's not like their mother. That's insane. But listen to this. In those days, there was no king in Israel. Everyone did what was right in his own eyes. That's one of Ken Ham's favorite verses, too. But I'm not sure it really makes much of a point. I'd argue that at all points in history, at all places and all times, that everyone does what is right in their own eyes, king or not.",
+     "creator": "paulogia",
+     "detection_method": "shingle_match",
      "matched_translation": "WEB",
-     "published_at": "2024-02-22T14:00:06Z",
-     "role": "host",
-     "t": 697.36,
-     "title": "Satan's Guide to the Bible (REBUTTED)",
-     "video_id": "5Se2yEZigXA"
+     "published_at": "2021-04-14T13:30:01Z",
+     "role": "unknown",
+     "t": 685.68,
+     "title": "I'm Praying That 1,000,000 Christians Will Watch This Video (Off The Kirb Response)",
+     "video_id": "CVXeUC95Q9U"
     },
     {
      "confidence": 0.7059,
@@ -743,6 +978,30 @@
      "video_id": "O-B_uHB_rpw"
     },
     {
+     "confidence": 0.5625,
+     "context": "It's not like we have to say, and remember, kids, this was bad. Yeah. In fact, one of my favorite verses in scripture, kind of bitter, you know, kind of favorite, put in quotation marks, is the last verse of the book of Judges, which is Judges 21, 25. And it says, after all of these atrocities, in those days there was no king in Israel. Uh every man did what was right in his own eyes. Yes. The end. And so the point here is that some stories and narratives or even books, like the whole book of Judges is just don't do this.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-06-13T13:00:20Z",
+     "role": "host",
+     "t": 717.92,
+     "title": "Should the Bible be rated NC-17 or \"XXX\"?",
+     "video_id": "Rxza0GPOUgE"
+    },
+    {
+     "confidence": 0.7059,
+     "context": "The author of Judges did not think his audience was so inept and stupid that he had to write in block letters what these people did was bad. Instead, the final verse in Judges hauntingly indicts Israel. In those days, there was no king in Israel. Every man did what was right in his own eyes. And that's the end of the book. The Bible often records events for the express purpose of not recommending them, but to use them as a graphic warning.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-05-31T13:00:35Z",
+     "role": "host",
+     "t": 753.88,
+     "title": "When Atheists Misread the Bible",
+     "video_id": "eq8-lg1_60E"
+    },
+    {
      "confidence": 0.7059,
      "context": "They kidnap women to provide brides for a tribe in Israel that had been massacred by their own people. And the last line of judges, Judges 2125, sums up how people were living. It said, In those days, there was no king in Israel. Every man did what was right in his own eyes. That sound like relativism to you.",
      "creator": "counsel-of-trent",
@@ -753,15 +1012,90 @@
      "t": 161.8,
      "title": "How should we respond to relativism?",
      "video_id": "lmu5OmzEifo"
+    },
+    {
+     "confidence": 0.5,
+     "context": "Each returned from there to his own inheritance. And then, of course, the last verse in the book of Judges characterizes and describes the entire book of Judges. It says here in those days, there was no king in Israel. Everyone did whatever seemed right to him. I want to encourage you to understand that every single decision you and I make have consequences, oftentimes consequences that cannot even be measured, and consequences that we cannot choose.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-10-24T14:00:38Z",
+     "role": "unknown",
+     "t": 98.72,
+     "title": "Allen Parr Is Simply Wrong About Judges",
+     "video_id": "sLtps4XXMrw"
+    },
+    {
+     "confidence": 0.6875,
+     "context": "Well, one of the things they love to do is they love to point to judges. The very last verse of the very last chapter, right before we get into our monarchy, is this, Judges 21, 25. In those days there was no king in Israel. Everyone did what was right in his own eyes. And they're like, see, look what happens when the people don't have a king. Look what happens when the people aren't submitting to authority. Well, that's not what it says. They still had a God, and they had never had a king before, by the way.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-10-24T14:00:38Z",
+     "role": "host",
+     "t": 232.96,
+     "title": "Allen Parr Is Simply Wrong About Judges",
+     "video_id": "sLtps4XXMrw"
+    },
+    {
+     "confidence": 0.6875,
+     "context": "Then they went and returned to their inheritance and rebuilt the towns and lived in them. And the people of Israel departed from there at that time, every man to his tribe and family, and they went out from there, every man to his inheritance. It's like a and they all lived happily ever after story, except for the very last verse. In those days, there was no king in Israel. Everyone did what was right in his own eyes. And Christians again try to take this as look at all the evil that just happened. That's because there's no authority. They needed a king. That's what you get when you just do what you think is right. They were literally doing what they thought God thought was right, because it was what God told them.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-10-24T14:00:38Z",
+     "role": "host",
+     "t": 698.8,
+     "title": "Allen Parr Is Simply Wrong About Judges",
+     "video_id": "sLtps4XXMrw"
+    },
+    {
+     "confidence": 0.6875,
+     "context": "If the daughters of Shiloh come out to dance in the dances, then come out of the vineyards and snatch each man a wife from the daughters of Shiloh. And the people of Benjamin did so and took their wives according to their number, whom they carried off. The only bit of redeeming credit is the very last verse of Judges, which says, In those days there was no king in Israel, everyone did what was right in his own eyes. As if that's some kind of a justification for what just went on, that this is the tribe of Benjamin just being unhinged here.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-07-20T14:00:43Z",
+     "role": "host",
+     "t": 1922.0,
+     "title": "Judges: Pure Horror | Secular Bible Study (Episode 7)",
+     "video_id": "y0p2laa6q3o"
     }
    ],
    "creators": {
-    "counsel-of-trent": 3
+    "counsel-of-trent": 4,
+    "mindshift": 4,
+    "paulogia": 1
    },
-   "n": 3,
+   "n": 9,
    "text": {
     "KJV": "In those days there was no king in Israel: every man did that which was right in his own eyes.",
     "WEB": "In those days there was no king in Israel. Everyone did that which was right in his own eyes."
+   },
+   "truncated": false
+  },
+  "Judges 2:1": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "Other translations like the ESV, they don't. They don't even use he, his, him when I talk about God in capital letters. Now, Judges 2, verse 1 also says, Now the angel of the Lord went up from Gilgal to Bochum. And he said, I brought you up from Egypt and brought you into the land that I sought to give to your fathers.",
+     "creator": "belief-it-or-not",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2023-08-07T21:03:40Z",
+     "role": "unknown",
+     "t": 891.52,
+     "title": "Deconstructing the Fundamentals: The Trinity | Belief It Or Not",
+     "video_id": "OXmhAk3K6Lo"
+    }
+   ],
+   "creators": {
+    "belief-it-or-not": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And an angel of the LORD came up from Gilgal to Bochim, and said, I made you to go up out of Egypt, and have brought you unto the land which I sware unto your fathers; and I said, I will never break my covenant with you.",
+    "WEB": "The LORD’s angel came up from Gilgal to Bochim. He said, “I brought you out of Egypt, and have brought you to the land which I swore to give your fathers. I said, ‘I will never break my covenant with you."
    },
    "truncated": false
   },
@@ -790,19 +1124,100 @@
    },
    "truncated": false
   },
-  "Judges 2:22": {
+  "Judges 2:16-18": {
    "citations": [
     {
-     "confidence": 0.7737,
-     "context": "And this verse is also just wrong. We have account after account after account of God testing people. And what is the test to see if they will be obedient? And what is it to be disobedient to God to sin? So God orchestrates a test where they can fail, and failure would be sin, but it's not temptation, so much bogus everywhere.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2026-05-31T14:00:36Z",
+     "confidence": null,
+     "context": "But it wasn't. It wasn't. Let me let me give you more on Deborah. Deborah was appointed by God. Read Judges 2, verses 16 and 18. Please read that. She was appointed by God. She uh, some think she was just in that role because Baric wouldn't do it. That Baric was supposed to be the one who was the judge, but he wouldn't step up. And so Deborah was in that role. That is not what scripture teaches. That isn't that is not remotely what the passage is actually teaching.",
+     "creator": "mike-winger",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-03-01T02:10:02Z",
      "role": "host",
-     "t": 518.4,
-     "title": "God Gets Credit, You Get Blame | The Rigged Math of Christianity",
-     "video_id": "6uPouoG4f5Q"
+     "t": 6495.4,
+     "title": "Everything Women Can and Can't Do According to the Bible: Women in Ministry part 13",
+     "video_id": "v9ZQC5g977k"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {},
+   "truncated": false
+  },
+  "Judges 3:10": {
+   "citations": [
+    {
+     "confidence": 0.625,
+     "context": "The spirit of the Lord came upon him, and he judged Israel. He went out to war, and the Lord gave Kushan Rishton Haiim, the king of Mesopotamia, into his hand, and his hand prevailed over Kushan Rishethaiim.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-03-05T17:05:26Z",
+     "role": "host",
+     "t": 1273.56,
+     "title": "📺🤺 Defenders LIVE! // The Holy Spirit Part 3 📺🤺",
+     "video_id": "5EmmcPAj8ts"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And the Spirit of the LORD came upon him, and he judged Israel, and went out to war: and the LORD delivered Chushanrishathaim king of Mesopotamia into his hand; and his hand prevailed against Chushanrishathaim.",
+    "WEB": "The LORD’s Spirit came on him, and he judged Israel; and he went out to war, and the LORD delivered Cushan Rishathaim king of Mesopotamia into his hand. His hand prevailed against Cushan Rishathaim."
+   },
+   "truncated": false
+  },
+  "Judges 3:9-10": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "And these judges were typically anointed by the Holy Spirit of God to do what God had called them to do. So look, for example, at Judges chapter three, verses nine and ten. Judges chapter three, verses nine and ten. But when the people of Israel cried to the Lord, the Lord raised up a deliverer for the people of Israel, who delivered them, Afniel, the son of Kenaz, Caleb's younger brother.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2023-03-05T17:05:26Z",
+     "role": "host",
+     "t": 1246.44,
+     "title": "📺🤺 Defenders LIVE! // The Holy Spirit Part 3 📺🤺",
+     "video_id": "5EmmcPAj8ts"
+    },
+    {
+     "confidence": null,
+     "context": "And these judges were typically anointed by the Holy Spirit of God to do what God had called them to do. So look, for example, at Judges chapter three, verses nine and ten. Judges chapter three, verses nine and ten. But when the people of Israel cried to the Lord, the Lord raised up a deliverer for the people of Israel, who delivered them, Afniel, the son of Kenaz, Caleb's younger brother.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2023-03-05T17:05:26Z",
+     "role": "host",
+     "t": 1251.96,
+     "title": "📺🤺 Defenders LIVE! // The Holy Spirit Part 3 📺🤺",
+     "video_id": "5EmmcPAj8ts"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 2
+   },
+   "n": 2,
+   "text": {},
+   "truncated": false
+  },
+  "Judges 6:36": {
+   "citations": [
+    {
+     "confidence": 0.9231,
+     "context": "I hope that you guys are enjoying this as much as I'm enjoying talking about it, because I find this concept absolutely fascinating. Let's move on to another example though. And this little story is found in Judges 636. Then Gideon said to God, If you will save Israel by my hand, as you have said, behold, I'm laying out a fleece of wool on the threshing floor. If there is dew on the fleece alone and it is dry on all the ground, then I shall know that you will save Israel by my hand, as you have said.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-01-21T15:00:22Z",
+     "role": "host",
+     "t": 896.88,
+     "title": "Heavenly Haggling: 10 Biblical Examples And Why It's Problematic!",
+     "video_id": "U-Hc-Q33Ogc"
     }
    ],
    "creators": {
@@ -810,58 +1225,83 @@
    },
    "n": 1,
    "text": {
-    "KJV": "That through them I may prove Israel, whether they will keep the way of the LORD to walk therein, as their fathers did keep it, or not.",
-    "WEB": "that by them I may test Israel, to see if they will keep the LORD’s way to walk therein, as their fathers kept it, or not.”"
+    "KJV": "And Gideon said unto God, If thou wilt save Israel by mine hand, as thou hast said,",
+    "WEB": "Gideon said to God, “If you will save Israel by my hand, as you have spoken,"
    },
    "truncated": false
   },
-  "Judges 3:9": {
+  "Judges 6:37": {
    "citations": [
     {
-     "confidence": 0.83,
-     "context": "My guess is Samson, who slept with a prostitute and was a womanizer, probably wasn't a role model that Israel's parents told their children to imitate. So why did God appoint someone like Samson when at other time he raised up Othniel, the son of Caleb, or Deborah, the prophetess, or Gideon the general? Surely somebody with qualities more similar to these individuals would have made for a better role model and judge to lead Israel back to God.",
-     "creator": "prophet-of-zod",
-     "detection_method": "embedding_match",
+     "confidence": 0.675,
+     "context": "I hope that you guys are enjoying this as much as I'm enjoying talking about it, because I find this concept absolutely fascinating. Let's move on to another example though. And this little story is found in Judges 636. Then Gideon said to God, If you will save Israel by my hand, as you have said, behold, I'm laying out a fleece of wool on the threshing floor. If there is dew on the fleece alone and it is dry on all the ground, then I shall know that you will save Israel by my hand, as you have said.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
      "matched_translation": "WEB",
-     "published_at": "2016-11-01T20:45:45Z",
+     "published_at": "2024-01-21T15:00:22Z",
      "role": "host",
-     "t": 231.68,
-     "title": "Time to Reassemble the Zod Squad (with time stamp)",
-     "video_id": "A59_lDVgWuU"
+     "t": 896.88,
+     "title": "Heavenly Haggling: 10 Biblical Examples And Why It's Problematic!",
+     "video_id": "U-Hc-Q33Ogc"
     }
    ],
    "creators": {
-    "prophet-of-zod": 1
+    "mindshift": 1
    },
    "n": 1,
    "text": {
-    "KJV": "And when the children of Israel cried unto the LORD, the LORD raised up a deliverer to the children of Israel, who delivered them, even Othniel the son of Kenaz, Caleb's younger brother.",
-    "WEB": "When the children of Israel cried to the LORD, the LORD raised up a savior to the children of Israel, who saved them, even Othniel the son of Kenaz, Caleb’s younger brother."
+    "KJV": "Behold, I will put a fleece of wool in the floor; and if the dew be on the fleece only, and it be dry upon all the earth beside, then shall I know that thou wilt save Israel by mine hand, as thou hast said.",
+    "WEB": "behold, I will put a fleece of wool on the threshing floor. If there is dew on the fleece only, and it is dry on all the ground, then I’ll know that you will save Israel by my hand, as you have spoken.”"
    },
    "truncated": false
   },
-  "Judges 4:3": {
+  "Judges 6:5": {
    "citations": [
     {
-     "confidence": 0.7951,
-     "context": "The number of people he killed that day was more than he had killed in his entire life. As a warrior that says a lot. Samson died, but he died on God's terms. He had judged Israel for twenty years. O Lord God, please remember me, and please strengthen me just this time. Judges 16 28. You see, God has a plan, and his plan is perfect.",
-     "creator": "prophet-of-zod",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2016-11-01T20:45:45Z",
+     "confidence": null,
+     "context": "And the, you know, but even if you take it literally, you have to have to ask the question, where do the Midianites come from? Because in Exodus, sorry, in Judges 6:5, we see that the Midianite army, just uh say a generation later, is fighting against the Israelites. Uh and and they are, you know, they're you know in they are innumerable. They're more like the uh they can't be counted. It's more like the sands on the seashore, including their camels.",
+     "creator": "capturing-christianity",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2023-07-11T17:00:11Z",
      "role": "host",
-     "t": 517.6,
-     "title": "Time to Reassemble the Zod Squad (with time stamp)",
-     "video_id": "A59_lDVgWuU"
+     "t": 2312.28,
+     "title": "Intelligent Christian Explains Toughest Bible Verses About God",
+     "video_id": "4jeoRI7p8ns"
     }
    ],
    "creators": {
-    "prophet-of-zod": 1
+    "capturing-christianity": 1
    },
    "n": 1,
    "text": {
-    "KJV": "And the children of Israel cried unto the LORD: for he had nine hundred chariots of iron; and twenty years he mightily oppressed the children of Israel.",
-    "WEB": "The children of Israel cried to the LORD, for he had nine hundred chariots of iron; and he mightily oppressed the children of Israel for twenty years."
+    "KJV": "For they came up with their cattle and their tents, and they came as grasshoppers for multitude; for both they and their camels were without number: and they entered into the land to destroy it.",
+    "WEB": "For they came up with their livestock and their tents. They came in as locusts for multitude. Both they and their camels were without number; and they came into the land to destroy it."
+   },
+   "truncated": false
+  },
+  "Judges 9:24": {
+   "citations": [
+    {
+     "confidence": 0.5946,
+     "context": "But let me give you a few more verses just to round out judges. Let's do Judges 923, I believe. I'll let you know when I get there if I'm right in my memory. Always hard to do this on the spot. Yes, 923. And God sent an evil spirit between Abimelech and the leaders of Sechem, and the leaders of Sechem dealt treacherously with Abimelech, that the violence done to the seventy sons of Jerubidal might come and their blood be laid on Abimelech, their brother who killed them, and on the men of Shechlem, who strengthened his hands to kill his brothers.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-07-20T14:00:43Z",
+     "role": "host",
+     "t": 2072.68,
+     "title": "Judges: Pure Horror | Secular Bible Study (Episode 7)",
+     "video_id": "y0p2laa6q3o"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "That the cruelty done to the threescore and ten sons of Jerubbaal might come, and their blood be laid upon Abimelech their brother, which slew them; and upon the men of Shechem, which aided him in the killing of his brethren.",
+    "WEB": "that the violence done to the seventy sons of Jerubbaal might come, and that their blood might be laid on Abimelech their brother who killed them, and on the men of Shechem who strengthened his hands to kill his brothers."
    },
    "truncated": false
   }

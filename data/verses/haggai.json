@@ -1,6 +1,106 @@
 {
  "book": "Haggai",
  "verses": {
+  "Haggai 1:14": {
+   "citations": [
+    {
+     "confidence": 0.5102,
+     "context": "There's a funny verse that I want to point out though about what really changed here. In verse 13, we get a message from Haggai on behalf of God, I am with you, declares the Lord. And the Lord stirred up the spirit of Zerubbabel and the spirit of Joshua and the spirit of all the remnant of the people, and they came and worked on the house of the Lord of hosts their God. So again, we have God punishing them, but also, and maybe this is very poetic language, but seems to be affecting their desire and their will to go and do this thing for him, to work on his house.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-03-07T15:00:01Z",
+     "role": "host",
+     "t": 350.28,
+     "title": "Haggai: Coming Home Isn't All It's Cracked Up To Be | Secular Bible Study (Episode 37)",
+     "video_id": "0hg9U4mmX10"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And the LORD stirred up the spirit of Zerubbabel the son of Shealtiel, governor of Judah, and the spirit of Joshua the son of Josedech, the high priest, and the spirit of all the remnant of the people; and they came and did work in the house of the LORD of hosts, their God,",
+    "WEB": "The LORD stirred up the spirit of Zerubbabel the son of Shealtiel, governor of Judah, and the spirit of Joshua the son of Jehozadak, the high priest, and the spirit of all the remnant of the people; and they came and worked on the house of the LORD of Armies, their God,"
+   },
+   "truncated": false
+  },
+  "Haggai 1:5": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "So they are rebuilding homes for themselves and they are starting to cultivate the land. And Haggai says, Whoa, whoa, whoa, you know how that's not going well for you? And he lists all these curses that have been happening. In chapter one, verse five, just to give you the reference, it says, Now, therefore, thus says the Lord of hosts, consider your ways. You have sown much and harvested little. You eat, but you have never enough. You drink, but you never have your fill. You clothe yourselves, but no one is warm.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-03-07T15:00:01Z",
+     "role": "unattributed",
+     "t": 238.32,
+     "title": "Haggai: Coming Home Isn't All It's Cracked Up To Be | Secular Bible Study (Episode 37)",
+     "video_id": "0hg9U4mmX10"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Now therefore thus saith the LORD of hosts; Consider your ways.",
+    "WEB": "Now therefore this is what the LORD of Armies says: ‘Consider your ways."
+   },
+   "truncated": false
+  },
+  "Haggai 1:7": {
+   "citations": [
+    {
+     "confidence": 0.6667,
+     "context": "So they are rebuilding homes for themselves and they are starting to cultivate the land. And Haggai says, Whoa, whoa, whoa, you know how that's not going well for you? And he lists all these curses that have been happening. In chapter one, verse five, just to give you the reference, it says, Now, therefore, thus says the Lord of hosts, consider your ways. You have sown much and harvested little. You eat, but you have never enough. You drink, but you never have your fill. You clothe yourselves, but no one is warm.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-03-07T15:00:01Z",
+     "role": "unattributed",
+     "t": 238.32,
+     "title": "Haggai: Coming Home Isn't All It's Cracked Up To Be | Secular Bible Study (Episode 37)",
+     "video_id": "0hg9U4mmX10"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Thus saith the LORD of hosts; Consider your ways.",
+    "WEB": "“This is what the LORD of Armies says: ‘Consider your ways."
+   },
+   "truncated": false
+  },
+  "Haggai 1:9": {
+   "citations": [
+    {
+     "confidence": 0.575,
+     "context": "You have sown much and harvested little. You eat, but you have never enough. You drink, but you never have your fill. You clothe yourselves, but no one is warm. And he who earns wages, so to put them into a bag with holes. I'm skipping a little bit, but down to verse 9 it says, You looked for much, and behold, it came to little, and when you brought it home, I blew it away. Why, declares the Lord of hosts? Because of my house that lies in ruin, while each of you busies himself with his own house.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-03-07T15:00:01Z",
+     "role": "unattributed",
+     "t": 257.52,
+     "title": "Haggai: Coming Home Isn't All It's Cracked Up To Be | Secular Bible Study (Episode 37)",
+     "video_id": "0hg9U4mmX10"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Ye looked for much, and, lo it came to little; and when ye brought it home, I did blow upon it. Why? saith the LORD of hosts. Because of mine house that is waste, and ye run every man unto his own house.",
+    "WEB": "“You looked for much, and, behold, it came to little; and when you brought it home, I blew it away. Why?” says the LORD of Armies, “Because of my house that lies waste, while each of you is busy with his own house."
+   },
+   "truncated": false
+  },
   "Haggai 2:18": {
    "citations": [
     {
@@ -23,6 +123,106 @@
    "text": {
     "KJV": "Consider now from this day and upward, from the four and twentieth day of the ninth month, even from the day that the foundation of the LORD's temple was laid, consider it.",
     "WEB": "‘Consider, please, from this day and backward, from the twenty-fourth day of the ninth month, since the day that the foundation of the LORD’s temple was laid, consider it."
+   },
+   "truncated": false
+  },
+  "Haggai 2:19": {
+   "citations": [
+    {
+     "confidence": 0.5417,
+     "context": "In 17, God says, I struck you and all the products of your toil with blight and with mildew and with hail. Yet you did not turn to me, declares the Lord. Always surprised that this tactic doesn't work. Consider from this day onward, is the seed yet in the barn? Indeed, the vine, the fig tree, the pomegranate, and the olive tree have yielded nothing. But from this day on, I will bless you. Okay, so again, I didn't see anything change.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-03-07T15:00:01Z",
+     "role": "host",
+     "t": 618.04,
+     "title": "Haggai: Coming Home Isn't All It's Cracked Up To Be | Secular Bible Study (Episode 37)",
+     "video_id": "0hg9U4mmX10"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Is the seed yet in the barn? yea, as yet the vine, and the fig tree, and the pomegranate, and the olive tree, hath not brought forth: from this day will I bless you.",
+    "WEB": "Is the seed yet in the barn? Yes, the vine, the fig tree, the pomegranate, and the olive tree haven’t produced. From today I will bless you.’”"
+   },
+   "truncated": false
+  },
+  "Haggai 2:6": {
+   "citations": [
+    {
+     "confidence": 0.5926,
+     "context": "There are broken people that just barely scraped back from captivity. They put together this horrible little version of a temple, and no one's happy with it. So here's God's message to them. Be strong, all you people of the land, declares the Lord. Work, for I am with you, declares the Lord of hosts. According to the covenant that I made with you when you came out of Egypt, my spirit remains in your midst. Fear not. For thus says the Lord of hosts, yet once more, in a little while I will shake the heavens and the earth and the sea and the dry land, and I will shake all the nations, so that the treasures of all nations shall come in, and I will fill this house with glory, says the Lord of hosts.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-03-07T15:00:01Z",
+     "role": "host",
+     "t": 453.6,
+     "title": "Haggai: Coming Home Isn't All It's Cracked Up To Be | Secular Bible Study (Episode 37)",
+     "video_id": "0hg9U4mmX10"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For thus saith the LORD of hosts; Yet once, it is a little while, and I will shake the heavens, and the earth, and the sea, and the dry land;",
+    "WEB": "For this is what the LORD of Armies says: ‘Yet once more, it is a little while, and I will shake the heavens, the earth, the sea, and the dry land;"
+   },
+   "truncated": false
+  },
+  "Haggai 2:8": {
+   "citations": [
+    {
+     "confidence": 0.6364,
+     "context": "So here's God's message to them. Be strong, all you people of the land, declares the Lord. Work, for I am with you, declares the Lord of hosts. According to the covenant that I made with you when you came out of Egypt, my spirit remains in your midst. Fear not. For thus says the Lord of hosts, yet once more, in a little while I will shake the heavens and the earth and the sea and the dry land, and I will shake all the nations, so that the treasures of all nations shall come in, and I will fill this house with glory, says the Lord of hosts.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-03-07T15:00:01Z",
+     "role": "host",
+     "t": 462.32,
+     "title": "Haggai: Coming Home Isn't All It's Cracked Up To Be | Secular Bible Study (Episode 37)",
+     "video_id": "0hg9U4mmX10"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "The silver is mine, and the gold is mine, saith the LORD of hosts.",
+    "WEB": "The silver is mine, and the gold is mine,’ says the LORD of Armies."
+   },
+   "truncated": false
+  },
+  "Haggai 2:9": {
+   "citations": [
+    {
+     "confidence": 0.5185,
+     "context": "So here's God's message to them. Be strong, all you people of the land, declares the Lord. Work, for I am with you, declares the Lord of hosts. According to the covenant that I made with you when you came out of Egypt, my spirit remains in your midst. Fear not. For thus says the Lord of hosts, yet once more, in a little while I will shake the heavens and the earth and the sea and the dry land, and I will shake all the nations, so that the treasures of all nations shall come in, and I will fill this house with glory, says the Lord of hosts.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-03-07T15:00:01Z",
+     "role": "host",
+     "t": 462.32,
+     "title": "Haggai: Coming Home Isn't All It's Cracked Up To Be | Secular Bible Study (Episode 37)",
+     "video_id": "0hg9U4mmX10"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "The glory of this latter house shall be greater than of the former, saith the LORD of hosts: and in this place will I give peace, saith the LORD of hosts.",
+    "WEB": "‘The latter glory of this house will be greater than the former,’ says the LORD of Armies; ‘and in this place I will give peace,’ says the LORD of Armies.”"
    },
    "truncated": false
   }

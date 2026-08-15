@@ -51,45 +51,71 @@
    },
    "truncated": false
   },
-  "Lamentations 3:26": {
+  "Lamentations 3:1": {
    "citations": [
     {
-     "confidence": 0.8156,
-     "context": "So the pastor is saying, I don't care what you're going through, God is getting ready to work that thing out on your behalf. You ain't gotta stress about it, you ain't gotta pay nothing about it. God says, be still and know that I am God, stand still and see the salvation of the Lord. You see, all of the pastor says that. And you have one person that hears that and says, you know what? I really ain't gotta worry about this thing.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-11-14T21:13:21Z",
-     "role": "host",
-     "t": 507.44,
-     "title": "Why Persistent Superstition is Bad for People",
-     "video_id": "9hVCnbdNmGc"
+     "confidence": 0.6364,
+     "context": "This is the longest one. This does some of the technique a little differently than the others. But the main part of it is to recognize the extent of the suffering that has happened. I'll just read you a couple of the first verses. I am the man who has seen affliction under the rod of his wrath. He has driven and brought me into darkness without any light. Surely against me he turns his hand again and again the whole day long. He has made my flesh and my skin waste away, he has broken my bones, he has besieged and enveloped me with bitterness and tribulation.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-12-07T15:00:25Z",
+     "role": "unattributed",
+     "t": 293.44,
+     "title": "Lamentations: God‘s Wrath Shocks And Sickens | Secular Bible Study (Episode 25)",
+     "video_id": "dcpN8Pf7mEM"
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "mindshift": 1
    },
    "n": 1,
    "text": {
-    "KJV": "It is good that a man should both hope and quietly wait for the salvation of the LORD.",
-    "WEB": "It is good that a man should hope and quietly wait for the salvation of the LORD."
+    "KJV": "I AM the man that hath seen affliction by the rod of his wrath.",
+    "WEB": "I am the man who has seen affliction by the rod of his wrath."
+   },
+   "truncated": false
+  },
+  "Lamentations 3:23": {
+   "citations": [
+    {
+     "confidence": 0.8333,
+     "context": "Some of the most beautiful, beautiful, hopeful things about the promises of God are there, but it's in the midst of suffering for sin. That they're not paying for their sins, like they're expiating those sins, but they're suffering because of their sins. And so they're going through that, and he said, and it says, you know, if it wasn't for the Lord's mercies, we would have been completely eradicated and destroyed, that his mercies are new every morning. Great is your faithfulness. Like some of these songs you love come from this book. It's pretty crazy. Um there is a passage in the Old Testament that says where he says that um he's gonna forgive them, but he will still punish their iniquity.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-07-04T21:40:11Z",
+     "role": "host",
+     "t": 1646.6,
+     "title": "Would they abort Jesus? 10 Qs with Mike Winger (Ep 54)",
+     "video_id": "0AH423m_zbY"
+    },
+    {
+     "confidence": 1.0,
+     "context": "Uh, yet this I call to mind, and therefore I have hope. Because of the Lord's great love, we are not consumed. For his compassions never fail. They are new every morning. Great is your faithfulness. I say to myself, the Lord is my portion, therefore I will wait for him. Uh, God is going to have the last word on these matters.",
+     "creator": "jude-3-project",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2020-07-06T12:03:42Z",
+     "role": "unknown",
+     "t": 2755.28,
+     "title": "Listen. Lament. Legislate. Pt 1| Marvin McMickle, Christena Edmondson, Latasha Morrison & Jay Harvey",
+     "video_id": "KFTU7q7azO4"
+    }
+   ],
+   "creators": {
+    "jude-3-project": 1,
+    "mike-winger": 1
+   },
+   "n": 2,
+   "text": {
+    "KJV": "They are new every morning: great is thy faithfulness.",
+    "WEB": "They are new every morning. Great is your faithfulness."
    },
    "truncated": false
   },
   "Lamentations 3:38": {
    "citations": [
-    {
-     "confidence": 0.8513,
-     "context": "That this is contradictory. You can't have Isaiah 45 7, where God creates the light and the dark, the good and the evil. And then say, oh yeah, but evil is actually just humans' faults or the devil's fault, not God's fault. Lamentations 338 says, Is it not from the mouth of the most high that good and bad come? Hello. Amos 3 6 says, Does disaster befall a city unless the Lord has done it? I get it. You're a Christian, you don't know what to do with these or the others that I just cited.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2026-05-31T14:00:36Z",
-     "role": "host",
-     "t": 675.52,
-     "title": "God Gets Credit, You Get Blame | The Rigged Math of Christianity",
-     "video_id": "6uPouoG4f5Q"
-    },
     {
      "confidence": null,
      "context": "Has not the Lord caused it? Exodus 4 11. The Lord said to him, Who gave human beings their mouths? Who makes them deaf or mute? Who gives them sight or makes them blind? Is it not I the Lord? He wants credit for this stuff. Lamentations 3:38. Is it not the mouth of the Most High that both calamities and good things come? Do 32 39. See now that I myself am He. There is no God beside me. I put to death and I bring to life. I have wounded and I will heal, and no one can deliver out of my hand.",
@@ -104,42 +130,54 @@
     }
    ],
    "creators": {
-    "mindshift": 2
+    "mindshift": 1
    },
-   "n": 2,
+   "n": 1,
    "text": {
     "KJV": "Out of the mouth of the most High proceedeth not evil and good?",
     "WEB": "Doesn’t evil and good come out of the mouth of the Most High?"
    },
    "truncated": false
   },
-  "Lamentations 3:41": {
+  "Lamentations 3:4": {
    "citations": [
     {
-     "confidence": 0.7334,
-     "context": "There's conviction and awe in their voice as they thank God for his blessings and ask him to reveal himself in this service. An amen punctuates their prayer, and the lyrics of the next song begin. They're different this time, more vulnerable. The people surrounding you match the song's emotional, introspective tone, and some raise their hands to God in love and praise. Forget any shyness or tiredness you may have brought into the service. You're feeling God's presence now. Your reservations, your stubbornness melts away, and you open your heart to what God has to show you.",
-     "creator": "genetically-modified-skeptic",
-     "detection_method": "embedding_match",
+     "confidence": 0.6364,
+     "context": "I'll just read you a couple of the first verses. I am the man who has seen affliction under the rod of his wrath. He has driven and brought me into darkness without any light. Surely against me he turns his hand again and again the whole day long. He has made my flesh and my skin waste away, he has broken my bones, he has besieged and enveloped me with bitterness and tribulation. He has made me dwell in darkness like the dead of long ago. And it's interesting here because you could read this a couple different ways.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
      "matched_translation": "WEB",
-     "published_at": "2021-04-28T16:00:03Z",
-     "role": "host",
-     "t": 139.88,
-     "title": "Church Services Are Designed to Influence You. Here’s How",
-     "video_id": "7btz0ocXDeg"
+     "published_at": "2023-12-07T15:00:25Z",
+     "role": "unattributed",
+     "t": 306.24,
+     "title": "Lamentations: God‘s Wrath Shocks And Sickens | Secular Bible Study (Episode 25)",
+     "video_id": "dcpN8Pf7mEM"
     }
    ],
    "creators": {
-    "genetically-modified-skeptic": 1
+    "mindshift": 1
    },
    "n": 1,
    "text": {
-    "KJV": "Let us lift up our heart with our hands unto God in the heavens.",
-    "WEB": "Let’s lift up our heart with our hands to God in the heavens."
+    "KJV": "My flesh and my skin hath he made old; he hath broken my bones.",
+    "WEB": "He has made my flesh and my skin old. He has broken my bones."
    },
    "truncated": false
   },
   "Lamentations 3:44": {
    "citations": [
+    {
+     "confidence": 0.7273,
+     "context": "It comes from this week's secular Bible study series, which is Lamentations 3, 42 through 44. We have transgressed and rebelled, and you have not forgiven. You have wrapped yourself with anger and pursued us, killing without pity. You have wrapped yourself with a cloud so that no prayer can pass through. So again, not a God of forgiveness. Sometimes forgiveness, conditional forgiveness, like we just talked about, but sometimes not even that. I can't tell you how many Christians I have conversations with that have no idea these verses exist.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-12-10T15:00:21Z",
+     "role": "unattributed",
+     "t": 1143.6,
+     "title": "God's Mental Health Is Abysmal - 20 Verses, 20 Examples",
+     "video_id": "M8kQsa7nl90"
+    },
     {
      "confidence": 0.8182,
      "context": "Many disasters and calamities will come to them, and in that day they will ask, have not these disasters come upon us because our God is not with us, and I will certainly hide my face in that day because of their wickedness. Lamentations 3 44, you have covered yourself with a cloud so that no prayer can get through. Micah 3 4. Then they will cry out to the Lord, but he will not answer them. At that time he will hide his face from them because of the evil they have done. They will cry out to the Lord, but he will not answer them.",
@@ -151,12 +189,24 @@
      "t": 1089.68,
      "title": "A God Who Flip-Flops: 8 Shocking Displays of Divine Inconsistency",
      "video_id": "W-ZUw8CiDXU"
+    },
+    {
+     "confidence": 0.7273,
+     "context": "Let's do another one. Let's do three forty-two. We have transgressed and rebelled, and you have not forgiven. You have wrapped yourself with anger and pursued us, killing without pity. You have wrapped yourself with a cloud so that no prayer can pass through. You have made us scum and garbage among the peoples. This one is doubling down on the last one, and I think it's interesting because again, we hear that God is anger and that he is killing without pity, but we get an addition here about how God has even chosen to not hear their prayers.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-12-07T15:00:25Z",
+     "role": "host",
+     "t": 1158.64,
+     "title": "Lamentations: God‘s Wrath Shocks And Sickens | Secular Bible Study (Episode 25)",
+     "video_id": "dcpN8Pf7mEM"
     }
    ],
    "creators": {
-    "mindshift": 1
+    "mindshift": 3
    },
-   "n": 1,
+   "n": 3,
    "text": {
     "KJV": "Thou hast covered thyself with a cloud, that our prayer should not pass through.",
     "WEB": "You have covered yourself with a cloud, so that no prayer can pass through."
@@ -176,6 +226,43 @@
      "t": 746.64,
      "title": "A God of Confusion: Give Me 21 Minutes, and I'll Prove It with 33 Verses!",
      "video_id": "IKiqnDx5JMA"
+    },
+    {
+     "confidence": 0.6154,
+     "context": "Sorry, I cannot do two things at once, apparently. Was at the end of Lamentations 3. This is verse 64 through 66. You will repay them, O Lord, according to the work of their hands. You will give them dullness of heart. Your curse will be on them. You will pursue them in anger and destroy them from under your heavens, O Lord. So just like I covered in Jeremiah, we get these prayers for destruction of the enemy, even though the enemy was just doing what God had orchestrated for them to do. But listen to the terminology here.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-12-07T15:00:25Z",
+     "role": "unattributed",
+     "t": 995.48,
+     "title": "Lamentations: God‘s Wrath Shocks And Sickens | Secular Bible Study (Episode 25)",
+     "video_id": "dcpN8Pf7mEM"
+    }
+   ],
+   "creators": {
+    "mindshift": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "Persecute and destroy them in anger from under the heavens of the LORD.",
+    "WEB": "You will pursue them in anger, and destroy them from under the heavens of the LORD."
+   },
+   "truncated": false
+  },
+  "Lamentations 4:4": {
+   "citations": [
+    {
+     "confidence": 0.7917,
+     "context": "A little later in 1 Samuel 22 19, we get and nobody the city of the priest smoked he with the edge of the sword, both men and women, children and sucklings. So just for good measure. Lamentations 4 for the tongue of the suckling child or infant cleaveth to the roof of his mouth for thirst. The young children ask bread, and no man breaketh it unto them. Again, these are God's commands here. This isn't just a reporting of the day. So I'd encourage you, go and look at the context for these verses.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-05-16T14:00:04Z",
+     "role": "unattributed",
+     "t": 1027.4,
+     "title": "God: The Greatest Aborter | A Reaction To InspiringPhilosophy On Abortion",
+     "video_id": "YANRov3xmZ8"
     }
    ],
    "creators": {
@@ -183,8 +270,33 @@
    },
    "n": 1,
    "text": {
-    "KJV": "Persecute and destroy them in anger from under the heavens of the LORD.",
-    "WEB": "You will pursue them in anger, and destroy them from under the heavens of the LORD."
+    "KJV": "The tongue of the sucking child cleaveth to the roof of his mouth for thirst: the young children ask bread, and no man breaketh it unto them.",
+    "WEB": "The tongue of the nursing child clings to the roof of his mouth for thirst. The young children ask for bread, and no one breaks it for them."
+   },
+   "truncated": false
+  },
+  "Lamentations 4:6": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "What is this chastisement? Greater than the punishment. This might seem like it doesn't relate at first to you. I'll I'll point out that there's a translation question here. Chastisement could also be interpreted or translated iniquity. Punishment could also be translated sin. You can look at, say, the New King James, the punishment of my of the iniquity of the daughter of my people is greater than the punishment of the sin of Sodom. Because the New King James translators are saying, Hey, the concept of punishment and sin are both in these Hebrew words.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-05-09T21:30:41Z",
+     "role": "host",
+     "t": 232.48,
+     "title": "\"All sin is the same\" is dangerous and wrong: 10 Qs with Mike Winger (Ep 51)",
+     "video_id": "agQ9_a_2llE"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For the punishment of the iniquity of the daughter of my people is greater than the punishment of the sin of Sodom, that was overthrown as in a moment, and no hands stayed on her.",
+    "WEB": "For the iniquity of the daughter of my people is greater than the sin of Sodom, which was overthrown as in a moment. No hands were laid on her."
    },
    "truncated": false
   }

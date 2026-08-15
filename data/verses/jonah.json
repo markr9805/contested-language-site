@@ -1,42 +1,151 @@
 {
  "book": "Jonah",
  "verses": {
-  "Jonah 1:17": {
+  "Jonah 1:10": {
    "citations": [
     {
-     "confidence": 0.8707,
-     "context": "It's typical, typifying Christ being raised on the cross. So that whoever believes in him have eternal life. Now, what does he say about Jonah? Matthew 12 through 8, 41, for the sake of time, though. For just as Jonah was three days and three nights in the belly of the sea monster, so will the Son of Man be three days and three nights in the heart of the earth. One more example, Melchizedek. It says Melchizedek resembling the Son of God was made a priest forever.",
-     "creator": "capturing-christianity",
-     "detection_method": "embedding_match",
+     "confidence": 0.8333,
+     "context": "And of what people are you? And he said to them, I'm a Hebrew, and I fear the Lord, God of heaven, the God of heaven, who made the sea and the dry land. That that's actually contrary to their theology, right? He's like, nah, he's he's the one who made it all. The then the men were exceedingly afraid and said to him, What is this that you have done? For the men knew that he was fleeing from the presence of the Lord because he had told them. So he tells them the whole story, and they're like, Not only is a God not going to save us, a got a God is actually doing this to us. And you say it's like the God who made everything.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
      "matched_translation": "WEB",
-     "published_at": "2025-08-13T19:58:59Z",
+     "published_at": "2023-01-27T23:02:27Z",
      "role": "host",
-     "t": 1159.36,
-     "title": "Did Jesus Have “Brothers”? Live Q&A and 'Keep the Lights On' Fundraiser",
-     "video_id": "-BatfVrm7W0"
-    },
-    {
-     "confidence": 0.8856,
-     "context": "Was the question about Jesus being in the earth for three days and three nights compared to Jonah being in the belly of the fish for three days and three nights? Yes. Okay. Obviously, there were not three days and three nights between Friday and Sunday morning when Jesus rose from the dead.",
-     "creator": "drcraigvideos",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2017-03-24T21:24:36Z",
-     "role": "host",
-     "t": 7.6,
-     "title": "Jonah & Jesus: Three Days and Nights?",
-     "video_id": "83ajEwGrJaw"
+     "t": 3639.6,
+     "title": "20 Questions with Pastor Mike (Episode 92)",
+     "video_id": "97IHQ7yJnUQ"
     }
    ],
    "creators": {
-    "capturing-christianity": 1,
-    "drcraigvideos": 1
+    "mike-winger": 1
    },
-   "n": 2,
+   "n": 1,
    "text": {
-    "KJV": "Now the LORD had prepared a great fish to swallow up Jonah. And Jonah was in the belly of the fish three days and three nights.",
-    "WEB": "The LORD prepared a huge fish to swallow up Jonah, and Jonah was in the belly of the fish three days and three nights."
+    "KJV": "Then were the men exceedingly afraid, and said unto him. Why hast thou done this? For the men knew that he fled from the presence of the LORD, because he had told them.",
+    "WEB": "Then the men were exceedingly afraid, and said to him, “What have you done?” For the men knew that he was fleeing from the presence of the LORD, because he had told them."
    },
+   "truncated": false
+  },
+  "Jonah 1:11": {
+   "citations": [
+    {
+     "confidence": 0.5833,
+     "context": "For the men knew that he was fleeing from the presence of the Lord because he had told them. So he tells them the whole story, and they're like, Not only is a God not going to save us, a got a God is actually doing this to us. And you say it's like the God who made everything. Okay, now we're scared. Then they said to him, What shall we do to you for the sea uh that the sea may quiet down for us? For the sea grew more and more tempestuous, and he said to them, Pick me up and hurl me into the sea, and then the sea will quiet down for you. For I know it is because of me that this great tempest has come upon you. Nevertheless, the men rode hard to get back to dry land, but they could not, for the sea grew more and more tempestuous against them.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-01-27T23:02:27Z",
+     "role": "host",
+     "t": 3657.12,
+     "title": "20 Questions with Pastor Mike (Episode 92)",
+     "video_id": "97IHQ7yJnUQ"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Then said they unto him, What shall we do unto thee, that the sea may be calm unto us? for the sea wrought, and was tempestuous.",
+    "WEB": "Then they said to him, “What shall we do to you, that the sea may be calm to us?” For the sea grew more and more stormy."
+   },
+   "truncated": false
+  },
+  "Jonah 1:16": {
+   "citations": [
+    {
+     "confidence": 1.0,
+     "context": "Oh Lord, let us not perish for this man's life and lay not his innocent on us his innocent blood. For you, O Lord, have done as it pleased you. So they picked up Jonah and hurled him into the sea, and the sea ceased from his rage from its raging. Then the men feared the Lord exceedingly, and they offered a sacrifice to the Lord and made vows. Jonah is the unintentional evangelist here. These guys, these guys stop believing in their false gods. They start believing in the true God. They offer vows, meaning they've made commitments of faith to God, and they offer sacrifices to him.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-01-27T23:02:27Z",
+     "role": "host",
+     "t": 3703.24,
+     "title": "20 Questions with Pastor Mike (Episode 92)",
+     "video_id": "97IHQ7yJnUQ"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Then the men feared the LORD exceedingly, and offered a sacrifice unto the LORD, and made vows.",
+    "WEB": "Then the men feared the LORD exceedingly; and they offered a sacrifice to the LORD and made vows."
+   },
+   "truncated": false
+  },
+  "Jonah 1:3": {
+   "citations": [
+    {
+     "confidence": 0.6444,
+     "context": "I'm just gonna back up a little bit. We'll read we'll read the whole thing. Okay. Now the word of the Lord came to Jonah, the son of Amitai, saying, Arise, go to Nineveh, that great city, um, and call out against it, for their evil has come up before me. But Jonah rose to flee to Tarshish from the presence of the Lord. He went down to Joppa. In Israel, they'll call it Yappa. But did you know that? But then we pronounce everything wrong, so don't even worry about it. You could call it Jopa for all I care. Um he went down to Joppa and found a ship going to Tarshish.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-01-27T23:02:27Z",
+     "role": "host",
+     "t": 3498.04,
+     "title": "20 Questions with Pastor Mike (Episode 92)",
+     "video_id": "97IHQ7yJnUQ"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But Jonah rose up to flee unto Tarshish from the presence of the LORD, and went down to Joppa; and he found a ship going to Tarshish: so he paid the fare thereof, and went down into it, to go with them unto Tarshish from the presence of the LORD.",
+    "WEB": "But Jonah rose up to flee to Tarshish from the presence of the LORD. He went down to Joppa, and found a ship going to Tarshish; so he paid its fare, and went down into it, to go with them to Tarshish from the presence of the LORD."
+   },
+   "truncated": false
+  },
+  "Jonah 2:1": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "It could be, so it's open either way, in my opinion. Jesus just isn't specific there. He doesn't say as Jonah died. He says, as Jonah was three days and three nights. So, but it's pictures death. Okay, but Jonah chapter two, did he die? Then Jonah prayed to the Lord his God from the belly of the fish, saying, and again, the word fish here just means sea creature. The um the fact that he prayed from the belly of the fish means that he seems to be at least mentally cognizant inside the belly of this beast.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-08-30T21:44:22Z",
+     "role": "host",
+     "t": 4709.28,
+     "title": "10 Questions with Mike Winger (Episode 27)",
+     "video_id": "jD1kEhcdgGs"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Then Jonah prayed unto the LORD his God out of the fish's belly,",
+    "WEB": "Then Jonah prayed to the LORD, his God, out of the fish’s belly."
+   },
+   "truncated": false
+  },
+  "Jonah 2:1-6": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "Eaten by the great whale or fish or whatever the sea creature was that ate Jonah. Did he die when he was inside that thing, or did he live and survive? Well, let's we'll read Jonah chapter two and we'll see what we think about it. It's challenging. But your full question is Did Jonah die? I was introduced to this theory by social media and was surprised to see a lot of people think he died and was raised, uh risen based off of Jonah 2, verses 1 through 6. Jewish tradition and the sign of Jonah. Okay. Um I don't know what the Jewish tradition on that is. I don't remember if you know I just don't know it.",
+     "creator": "mike-winger",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-08-30T21:44:22Z",
+     "role": "host",
+     "t": 4622.36,
+     "title": "10 Questions with Mike Winger (Episode 27)",
+     "video_id": "jD1kEhcdgGs"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {},
    "truncated": false
   },
   "Jonah 3:10": {
@@ -89,103 +198,28 @@
    },
    "truncated": false
   },
-  "Jonah 3:4": {
+  "Jonah 4:11": {
    "citations": [
     {
-     "confidence": 0.9101,
-     "context": "And importantly, when Jonah proclaims God's judgment upon Nineveh, the text does not record any suggestion that Nineveh might avoid the judgment. Indeed, the judgment appears categorical. Forty more days and Nineveh shall be under overthrown. But Jonah knows better than to think that the proclamation of God's judgment would seal the deal for Nineveh, for he knows that God cares for the Ninevehes. If anything, Jonah is the retributivist here, and he by no means represents the view endorsed by the book regarding God's justice.",
-     "creator": "reasonable-faith-org",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-01-24T17:01:40Z",
-     "role": "unknown",
-     "t": 1601.88,
-     "title": "Atonement and the Death of Christ: A Symposium | EPS 2024",
-     "video_id": "7CIAx9j-Aow"
-    }
-   ],
-   "creators": {
-    "reasonable-faith-org": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And Jonah began to enter into the city a day's journey, and he cried, and said, Yet forty days, and Nineveh shall be overthrown.",
-    "WEB": "Jonah began to enter into the city a day’s journey, and he cried out, and said, “In forty days, Nineveh will be overthrown!”"
-   },
-   "truncated": false
-  },
-  "Jonah 4:2": {
-   "citations": [
-    {
-     "confidence": 0.8982,
-     "context": "Consider the book of Jonah, in which we see the titular prophet fleeing to Tarshus in hopes of escaping his prophetic call. Toward the end of the book, Jonah gives us a direct explanation for why he initially fled God's call. He writes, Jonah prayed to the Lord and said, O Lord, is not this what I said while I was still in my own country? That's why I fled to Tarshus at the beginning, for I knew that you are a gracious and merciful God, slow to anger, abounding in steadfast love, and relenting from punishment.",
-     "creator": "reasonable-faith-org",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-01-24T17:01:40Z",
-     "role": "unknown",
-     "t": 1549.28,
-     "title": "Atonement and the Death of Christ: A Symposium | EPS 2024",
-     "video_id": "7CIAx9j-Aow"
-    }
-   ],
-   "creators": {
-    "reasonable-faith-org": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And he prayed unto the LORD, and said, I pray thee, O LORD, was not this my saying, when I was yet in my country? Therefore I fled before unto Tarshish: for I knew that thou art a gracious God, and merciful, slow to anger, and of great kindness, and repentest thee of the evil.",
-    "WEB": "He prayed to the LORD, and said, “Please, LORD, wasn’t this what I said when I was still in my own country? Therefore I hurried to flee to Tarshish, for I knew that you are a gracious God and merciful, slow to anger, and abundant in loving kindness, and you relent of doing harm."
-   },
-   "truncated": false
-  },
-  "Jonah 4:3": {
-   "citations": [
-    {
-     "confidence": 0.7807,
-     "context": "We see almost it to its exact opposite end. Because in Ecclesiastes, he says, eat the bread, drink the wine, enjoy, because there's nothing else, and everything sucks. So if you can get yourself some good, get it, which is again a night and day difference. Especially because I there's another point where he says, um, was it it's it's better to die than to live, and better to have never been born than to have than to have come into existence. Which again is something that Schopenhauer says. There's lovely parallels. But um, yeah, that almost kind of anti-life position. Again, it it makes sense if if you think that, you know, if if if he's struggling with this all is vanity thing.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-08-04T14:00:00Z",
+     "confidence": null,
+     "context": "Because there's some sense in which like even even a very, very young child can sort of act out badly and act out poorly, but there isn't within them the full knowledge of what this means and the implications of it and all that. But Jonah, chapter four, verse eleven, we know that the Ninevites deserved to be punished. We know that they they deserved God's wrath. And here at the end of Jonah, God talks about their kids, right? And should I not have should I not pity Nineveh, that great city in which there are more than 120,000 persons who do not know their right hand from their left, and also much cattle?",
+     "creator": "mike-winger",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-12-13T22:25:19Z",
      "role": "host",
-     "t": 4109.04,
-     "title": "Unsolicited Advice: The Philosophy of Ecclesiastes",
-     "video_id": "-hNccaKes-s"
+     "t": 296.08,
+     "title": "\"How can I know my 3-year-old is in heaven?\" 10 Qs with Mike Winger (Ep 37)",
+     "video_id": "E7HWUS7WOgc"
     }
    ],
    "creators": {
-    "mindshift": 1
+    "mike-winger": 1
    },
    "n": 1,
    "text": {
-    "KJV": "Therefore now, O LORD, take, I beseech thee, my life from me; for it is better for me to die than to live.",
-    "WEB": "Therefore now, LORD, take, I beg you, my life from me, for it is better for me to die than to live.”"
-   },
-   "truncated": false
-  },
-  "Jonah 4:8": {
-   "citations": [
-    {
-     "confidence": 0.767,
-     "context": "We see almost it to its exact opposite end. Because in Ecclesiastes, he says, eat the bread, drink the wine, enjoy, because there's nothing else, and everything sucks. So if you can get yourself some good, get it, which is again a night and day difference. Especially because I there's another point where he says, um, was it it's it's better to die than to live, and better to have never been born than to have than to have come into existence. Which again is something that Schopenhauer says. There's lovely parallels. But um, yeah, that almost kind of anti-life position. Again, it it makes sense if if you think that, you know, if if if he's struggling with this all is vanity thing.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-08-04T14:00:00Z",
-     "role": "host",
-     "t": 4109.04,
-     "title": "Unsolicited Advice: The Philosophy of Ecclesiastes",
-     "video_id": "-hNccaKes-s"
-    }
-   ],
-   "creators": {
-    "mindshift": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And it came to pass, when the sun did arise, that God prepared a vehement east wind; and the sun beat upon the head of Jonah, that he fainted, and wished in himself to die, and said, It is better for me to die than to live.",
-    "WEB": "When the sun arose, God prepared a sultry east wind; and the sun beat on Jonah’s head, so that he was faint and requested for himself that he might die. He said, “It is better for me to die than to live.”"
+    "KJV": "And should not I spare Nineveh, that great city, wherein are more then sixscore thousand persons that cannot discern between their right hand and their left hand; and also much cattle?",
+    "WEB": "Shouldn’t I be concerned for Nineveh, that great city, in which are more than one hundred twenty thousand persons who can’t discern between their right hand and their left hand, and also many animals?”"
    },
    "truncated": false
   }

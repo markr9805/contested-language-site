@@ -1,45 +1,8 @@
 {
  "book": "3 John",
  "verses": {
-  "3 John 1:14": {
-   "citations": [
-    {
-     "confidence": 0.7253,
-     "context": "Thank you so much for your time, Dr. Craig. It's always a pleasure to learn from you. And I hope to see you again soon, perhaps at EPS. I'm going this year. Thank you, Raul. It's been a pleasure to be with you.",
-     "creator": "reasonable-faith-org",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-09-25T21:07:14Z",
-     "role": "unknown",
-     "t": 2771.12,
-     "title": "MORE Difficult Questions on Christology w/ RF Chapter Directors",
-     "video_id": "181VT7j1-Bg"
-    }
-   ],
-   "creators": {
-    "reasonable-faith-org": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "But I trust I shall shortly see thee, and we shall speak face to face. Peace be to thee. Our friends salute thee. Greet the friends by name.",
-    "WEB": "but I hope to see you soon. Then we will speak face to face. Peace be to you. The friends greet you. Greet the friends by name."
-   },
-   "truncated": false
-  },
   "3 John 1:2": {
    "citations": [
-    {
-     "confidence": 0.814,
-     "context": "So I feel like that question, whoever wrote it, I'm sorry that you've had that experience, but don't think that every church is that kind of church. There is a space that will let you know God loves you just like you are, and I pray that you find that space of healing. And I pray all of our churches and ministries and whatever can be that kind of space of wholeness and healing. Yeah, and I want to respond to that as a parent, right?",
-     "creator": "jude-3-project",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-10-14T13:00:06Z",
-     "role": "unknown",
-     "t": 3053.36,
-     "title": "How Do I Heal From Church Hurt? | Courageous Conversations 2023",
-     "video_id": "4fBl3yH7fNA"
-    },
     {
      "confidence": 0.5333,
      "context": "Or John 10 10, New Testament, I have come that they may have life and have it to the full. Just a nice vague concept that these leaders can utilize to reinforce their ideas to their congregants. Third John 1 2, I pray that you may prosper in all things and be in health. Verse after verse after verse, tying in some capacity, success financially or within health, to your ability to follow commands, have faith, or give away your money or resources to put God to that test, which is how these leaders say it.",
@@ -75,10 +38,22 @@
      "t": 73.92,
      "title": "Unmasking Predatory Church Practices!",
      "video_id": "cgVVQzGzV4s"
+    },
+    {
+     "confidence": 0.75,
+     "context": "One, you have to confess all of your known sin. God demands that you get your sin question taken care of. Secondly, believe it is God's will to heal you. Expect the miracle. The Bible says, Beloved, I wish above all things that you may prosper and be in good health, even as your soul prospers. God said to Israel, if you will obey me, I will put none of these diseases upon you. Talking about the diseases that were in Egypt. I am the Lord your God that healeth thee.",
+     "creator": "belief-it-or-not",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-04-21T19:42:16Z",
+     "role": "unknown",
+     "t": 4163.96,
+     "title": "The Problem with Miracles | Belief It Or Not",
+     "video_id": "ykuYiTDY3RI"
     }
    ],
    "creators": {
-    "jude-3-project": 1,
+    "belief-it-or-not": 1,
     "mindshift": 3
    },
    "n": 4,

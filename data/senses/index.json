@@ -19,9 +19,23 @@
  "terms": {
   "accountability": {
    "file": "accountability.json",
+   "k": 2,
+   "n": 1577,
+   "silhouette": 0.0457,
+   "status": "ok"
+  },
+  "apostasy": {
+   "file": "apostasy.json",
+   "k": 2,
+   "n": 722,
+   "silhouette": 0.1055,
+   "status": "ok"
+  },
+  "apostate": {
+   "file": "apostate.json",
    "k": 3,
-   "n": 1042,
-   "silhouette": 0.0532,
+   "n": 955,
+   "silhouette": 0.0824,
    "status": "ok"
   },
   "bridge city": {
@@ -31,53 +45,126 @@
    "silhouette": 0.0539,
    "status": "ok"
   },
+  "clout": {
+   "file": "clout.json",
+   "k": 2,
+   "n": 144,
+   "silhouette": 0.0819,
+   "status": "ok"
+  },
   "community": {
    "file": "community.json",
    "k": 2,
-   "n": 20246,
-   "silhouette": 0.0658,
+   "n": 25525,
+   "silhouette": 0.0649,
    "status": "ok"
   },
   "deconstruction": {
    "file": "deconstruction.json",
    "k": 2,
-   "n": 1243,
-   "silhouette": 0.05,
+   "n": 1450,
+   "silhouette": 0.0476,
    "status": "ok"
+  },
+  "deconstruction influencer": {
+   "file": "deconstruction-influencer.json",
+   "n": 0,
+   "status": "insufficient-data"
+  },
+  "discernment": {
+   "file": "discernment.json",
+   "k": 2,
+   "n": 519,
+   "silhouette": 0.0443,
+   "status": "ok"
+  },
+  "discernment ministry": {
+   "file": "discernment-ministry.json",
+   "n": 23,
+   "status": "insufficient-data"
   },
   "do the work": {
    "file": "do-the-work.json",
    "k": 2,
-   "n": 718,
-   "silhouette": 0.0569,
+   "n": 920,
+   "silhouette": 0.0543,
    "status": "ok"
   },
   "evidence": {
    "file": "evidence.json",
    "k": 2,
-   "n": 11979,
-   "silhouette": 0.0523,
+   "n": 26155,
+   "silhouette": 0.0443,
+   "status": "ok"
+  },
+  "false prophet": {
+   "file": "false-prophet.json",
+   "k": 2,
+   "n": 503,
+   "silhouette": 0.0488,
+   "status": "ok"
+  },
+  "false teacher": {
+   "file": "false-teacher.json",
+   "k": 2,
+   "n": 334,
+   "silhouette": 0.0702,
+   "status": "ok"
+  },
+  "false teaching": {
+   "file": "false-teaching.json",
+   "k": 2,
+   "n": 236,
+   "silhouette": 0.0779,
    "status": "ok"
   },
   "grace": {
    "file": "grace.json",
    "k": 2,
-   "n": 2787,
-   "silhouette": 0.0769,
+   "n": 5572,
+   "silhouette": 0.0662,
+   "status": "ok"
+  },
+  "grift": {
+   "file": "grift.json",
+   "k": 7,
+   "n": 112,
+   "silhouette": 0.0593,
+   "status": "ok"
+  },
+  "grifter": {
+   "file": "grifter.json",
+   "k": 8,
+   "n": 88,
+   "silhouette": 0.0998,
    "status": "ok"
   },
   "harm": {
    "file": "harm.json",
    "k": 2,
-   "n": 3249,
-   "silhouette": 0.0503,
+   "n": 4994,
+   "silhouette": 0.0529,
+   "status": "ok"
+  },
+  "heresy": {
+   "file": "heresy.json",
+   "k": 3,
+   "n": 1182,
+   "silhouette": 0.033,
+   "status": "ok"
+  },
+  "heretic": {
+   "file": "heretic.json",
+   "k": 2,
+   "n": 759,
+   "silhouette": 0.0439,
    "status": "ok"
   },
   "love": {
    "file": "love.json",
    "k": 2,
-   "n": 21776,
-   "silhouette": 0.0679,
+   "n": 35667,
+   "silhouette": 0.0649,
    "status": "ok"
   },
   "moral supremism": {
@@ -88,15 +175,29 @@
   "purity test": {
    "file": "purity-test.json",
    "k": 4,
-   "n": 42,
-   "silhouette": 0.1428,
+   "n": 43,
+   "silhouette": 0.1358,
    "status": "ok"
   },
   "truth": {
    "file": "truth.json",
    "k": 2,
-   "n": 11867,
-   "silhouette": 0.0467,
+   "n": 22690,
+   "silhouette": 0.0474,
+   "status": "ok"
+  },
+  "watchdog": {
+   "file": "watchdog.json",
+   "k": 2,
+   "n": 56,
+   "silhouette": 0.1367,
+   "status": "ok"
+  },
+  "wolf in sheep's clothing": {
+   "file": "wolf-in-sheep-s-clothing.json",
+   "k": 2,
+   "n": 38,
+   "silhouette": 0.0537,
    "status": "ok"
   }
  }

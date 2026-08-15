@@ -4,6 +4,18 @@
   "1 John 1:1": {
    "citations": [
     {
+     "confidence": 0.6207,
+     "context": "I've heard first John 1, one through three used to support this. Let's go to first John. That which was from the beginning, which we have heard, which we have seen. I'm highlighting these words because Paul repeat uh John repeats them multiple times, which with our eyes, which we have looked upon and have touched with our hands concerning the word of life. So they've heard, they've seen, they've looked upon, which means like to really dwell on and see not just see, but but really uh study in a sense, uh, and have touched with our hands concerning the word of life.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-03-17T22:14:00Z",
+     "role": "host",
+     "t": 1958.72,
+     "title": "20 Questions with Pastor Mike (Episode 95)",
+     "video_id": "8cmhyC2PnWM"
+    },
+    {
      "confidence": 0.5862,
      "context": "You know Gnostic Christianity, it was a Christian, and they believed that matter is evil and that Jesus is the savior who comes and he's not really real. You can pass your hand right through him. This is why John in the Epistle of John is says that which was from the beginning, which we have heard, which we have seen with our eyes, which we have touched with our hands. He has to emphasize that because the Gnostics were saying he was just a ghost.",
      "creator": "capturing-christianity",
@@ -42,10 +54,11 @@
    ],
    "creators": {
     "capturing-christianity": 1,
+    "mike-winger": 1,
     "mindshift": 1,
     "prophet-of-zod": 1
    },
-   "n": 3,
+   "n": 4,
    "text": {
     "KJV": "That which was from the beginning, which we have heard, which we have seen with our eyes, which we have looked upon, and our hands have handled, of the Word of life;",
     "WEB": "That which was from the beginning, that which we have heard, that which we have seen with our eyes, that which we saw, and our hands touched, concerning the Word of life"
@@ -77,16 +90,16 @@
   "1 John 1:10": {
    "citations": [
     {
-     "confidence": 0.9006,
-     "context": "John says, if we walk in the light, as he is in the light, we have fellowship with one another. And the blood of Jesus, His Son, cleanses us from all sin. If we say we have no sin, we deceive ourselves, and the truth is not in us. If we confess our sins, he is faithful and just and will forgive our sins and cleanse us from all unrighteousness.",
-     "creator": "reasonable-faith-org",
-     "detection_method": "embedding_match",
+     "confidence": 0.7647,
+     "context": "He's faithful and just to forgive us our sins and cleanse us from all unrighteousness. If we say we have not sinned, we make him a liar and his word is not in us. So again, we're just contrasting those two groups. Then he breaks from that sort of section and says, My little children, in 1 John 2 1, I'm writing these things to you so that you may not sin.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
      "matched_translation": "KJV",
-     "published_at": "2026-01-26T06:51:52Z",
+     "published_at": "2024-05-03T21:33:48Z",
      "role": "host",
-     "t": 669.44,
-     "title": "Doctrine of Salvation Part 10: What Is \"Born Again?\" || Defenders LIVE!",
-     "video_id": "A9sgZclKIko"
+     "t": 2340.08,
+     "title": "10 Questions with Mike Winger (Episode 13)",
+     "video_id": "BQjBRaVXDCI"
     },
     {
      "confidence": 0.7647,
@@ -127,12 +140,62 @@
    ],
    "creators": {
     "counsel-of-trent": 3,
-    "reasonable-faith-org": 1
+    "mike-winger": 1
    },
    "n": 4,
    "text": {
     "KJV": "If we say that we have not sinned, we make him a liar, and his word is not in us.",
     "WEB": "If we say that we haven’t sinned, we make him a liar, and his word is not in us."
+   },
+   "truncated": false
+  },
+  "1 John 1:3": {
+   "citations": [
+    {
+     "confidence": 0.5333,
+     "context": "So they've heard, they've seen, they've looked upon, which means like to really dwell on and see not just see, but but really uh study in a sense, uh, and have touched with our hands concerning the word of life. The life was made manifest, and we've seen it and testify it and proclaim to you the the eternal life which was with the Father and was made manifest to us. We're talking about Jesus here. That which we have seen and heard, we proclaim also to you, so that you too may have fellowship with us, and indeed, our fellowship is with the Father and with His Son, Jesus Christ.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-03-17T22:14:00Z",
+     "role": "host",
+     "t": 1985.76,
+     "title": "20 Questions with Pastor Mike (Episode 95)",
+     "video_id": "8cmhyC2PnWM"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "That which we have seen and heard declare we unto you, that ye also may have fellowship with us: and truly our fellowship is with the Father, and with his Son Jesus Christ.",
+    "WEB": "that which we have seen and heard we declare to you, that you also may have fellowship with us. Yes, and our fellowship is with the Father and with his Son, Jesus Christ."
+   },
+   "truncated": false
+  },
+  "1 John 1:4": {
+   "citations": [
+    {
+     "confidence": 0.6,
+     "context": "We're talking about Jesus here. That which we have seen and heard, we proclaim also to you, so that you too may have fellowship with us, and indeed, our fellowship is with the Father and with His Son, Jesus Christ. And we're writing these things to you that our joy may be complete. Let me offer one thing that might bring clarity here. The point at which John is writing this, he is not in physical relationship with Jesus the way he was when Jesus walked the earth.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-03-17T22:14:00Z",
+     "role": "host",
+     "t": 2003.92,
+     "title": "20 Questions with Pastor Mike (Episode 95)",
+     "video_id": "8cmhyC2PnWM"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And these things write we unto you, that your joy may be full.",
+    "WEB": "And we write these things to you, that our joy may be fulfilled."
    },
    "truncated": false
   },
@@ -152,6 +215,30 @@
     },
     {
      "confidence": 0.5217,
+     "context": "First John 1 9. I'll give you my best understanding of this. I'm gonna back up a little bit though, and we're gonna talk in detail here. First John 1 5, starting in verse 5. This is the message we've heard from you and proclaim from him and proclaim to you that God is light and in him is no darkness at all. If we say we have fellowship with him while we walk in darkness, we lie and do not practice the truth. I think it's just talking about habitual lifestyles.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-05-03T21:33:48Z",
+     "role": "host",
+     "t": 2221.16,
+     "title": "10 Questions with Mike Winger (Episode 13)",
+     "video_id": "BQjBRaVXDCI"
+    },
+    {
+     "confidence": 0.8261,
+     "context": "Let's start with first John, then we'll go to James in a second. Just a moment. I'm gathering my brain. Okay. Um, here's first John. Uh, this is the message which we have heard from him and declared to you that God is light and in him is no darkness at all. There's no wickedness. There's no in a there's nothing less than good in God. God is good in every way, but this also means that when God punishes people, that that was a good act.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-06-21T21:41:41Z",
+     "role": "host",
+     "t": 4306.8,
+     "title": "10 Questions with Mike Winger (Episode 18)",
+     "video_id": "ezLoSqbmeMg"
+    },
+    {
+     "confidence": 0.5217,
      "context": "You trust God because you trust the Bible. Fine, why do you trust the Bible? But then secondly, I could just show you how easy it is to say we don't have good reason to trust the Bible. I'll only take your first verse. You say, First John 1 5, God is light. This is the message we have heard from him and announced to you that God is light and in him there is no darkness at all. So pay attention here. Even if I give to you that you using the Bible as why you trust God is valid, which it isn't, as soon as I show you something like Isaiah 45 7, which claims the opposite of the verse you just listed, where God Himself claims I form the light and I create darkness.",
      "creator": "mindshift",
      "detection_method": "shingle_match",
@@ -165,9 +252,10 @@
    ],
    "creators": {
     "belief-it-or-not": 1,
+    "mike-winger": 2,
     "mindshift": 1
    },
-   "n": 2,
+   "n": 4,
    "text": {
     "KJV": "This then is the message which we have heard of him, and declare unto you, that God is light, and in him is no darkness at all.",
     "WEB": "This is the message which we have heard from him and announce to you, that God is light, and in him is no darkness at all."
@@ -176,18 +264,6 @@
   },
   "1 John 1:7": {
    "citations": [
-    {
-     "confidence": 0.7728,
-     "context": "A Roman execution tool turned into jewelry, turned into decor, turned into the brand. But don't forget what it was a torture device, a symbol of empire. We don't question the violence, we just wear it around our necks. The blood of Jesus is an idol, covered in the blood, saved by the blood, nothing but the blood. It's a cult of suffering. Pain becomes sacred, suffering becomes holy. But what happens when your religion teaches you to worship wounds instead of wisdom?",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-06-04T18:37:49Z",
-     "role": "host",
-     "t": 475.44,
-     "title": "The Hidden Idolatry of Christianity: When Belief Becomes Control",
-     "video_id": "0LyqXVoyBu4"
-    },
     {
      "confidence": 0.8276,
      "context": "As a new creation, in this new relationship with God, we have freedom from sin. First John chapter 1, verses 7 to 9. John says, if we walk in the light, as he is in the light, we have fellowship with one another. And the blood of Jesus, His Son, cleanses us from all sin. If we say we have no sin, we deceive ourselves, and the truth is not in us.",
@@ -199,13 +275,38 @@
      "t": 656.24,
      "title": "Doctrine of Salvation Part 10: What Is \"Born Again?\" || Defenders LIVE!",
      "video_id": "A9sgZclKIko"
+    },
+    {
+     "confidence": 0.8621,
+     "context": "If you walk in a habitual lifestyle of ungodliness, where it's just you say you're a Christian, but you live as if you were not a Christian, um, then you lie. You don't practice the truth. You're you're you're you're not honestly having fellowship with him. You're fake. But if we walk in the light, as he is in the light, we have fellowship with one another, and the blood of Jesus, his son cleanses us from all sin. If we say we have no sin, we deceive ourselves, and the truth is not in us. You want to say that you're sinless? That's no, that's not true. If, on the other hand, we confess our sins, he's faithful and just to forgive us our sins and to cleanse us from all unrighteousness.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-05-03T21:33:48Z",
+     "role": "host",
+     "t": 2252.52,
+     "title": "10 Questions with Mike Winger (Episode 13)",
+     "video_id": "BQjBRaVXDCI"
+    },
+    {
+     "confidence": 0.7586,
+     "context": "Um he does an interesting thing where it says, um, you know, where he talks about the person that walks in the darkness and he talks about them as singular pronouns. But then when he says, uh, but if we walk in the light as he is in the light, you would expect them to say we have fellowship with God. But he says, no, no, no. If we walk in the light, as he is in the light, we have fellowship with one another. And the blood of Jesus cleanses us from all sins, right?",
+     "creator": "jude-3-project",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-02-09T17:00:08Z",
+     "role": "unknown",
+     "t": 831.32,
+     "title": "Hypocrisy in the Church | Critical Conversations | Episode 3",
+     "video_id": "QZYliGNzFyo"
     }
    ],
    "creators": {
-    "darante-lamar": 1,
+    "jude-3-project": 1,
+    "mike-winger": 1,
     "reasonable-faith-org": 1
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "But if we walk in the light, as he is in the light, we have fellowship one with another, and the blood of Jesus Christ his Son cleanseth us from all sin.",
     "WEB": "But if we walk in the light as he is in the light, we have fellowship with one another, and the blood of Jesus Christ his Son cleanses us from all sin."
@@ -237,30 +338,6 @@
   "1 John 1:8": {
    "citations": [
     {
-     "confidence": 0.7374,
-     "context": "And I I rambled a bit but I don't know if any of that helps. No, I see which I see what you're saying. I think it's like you know a Christian can say well you know this Muslim has this unproven belief and this Hindu has this unproven belief. You know I don't know why an atheist would be any more confident in their beliefs than any other religion and the truth is you know as you know that's based on a misconception that we have an active belief that there is no God which isn't necessarily how a lot of us kind of define it, right?",
-     "creator": "prophet-of-zod",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2020-03-24T01:17:14Z",
-     "role": "unknown",
-     "t": 5747.68,
-     "title": "Call-In Live Stream -Talk to Prophet of Zod!",
-     "video_id": "03YXNzP0MHI"
-    },
-    {
-     "confidence": 0.7404,
-     "context": "And the truth is wherever there are people, there will be problems. There is a Judas in the bunch, there's gonna be a liar, somebody is gonna disappoint you. And I think because it happens at church, it becomes exacerbated to say, I can't believe this happened to me at a place I assumed I would be healed and not wounded.",
-     "creator": "jude-3-project",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-10-14T13:00:06Z",
-     "role": "unknown",
-     "t": 405.64,
-     "title": "How Do I Heal From Church Hurt? | Courageous Conversations 2023",
-     "video_id": "4fBl3yH7fNA"
-    },
-    {
      "confidence": 0.7333,
      "context": "John says, if we walk in the light, as he is in the light, we have fellowship with one another. And the blood of Jesus, His Son, cleanses us from all sin. If we say we have no sin, we deceive ourselves, and the truth is not in us. If we confess our sins, he is faithful and just and will forgive our sins and cleanse us from all unrighteousness.",
      "creator": "reasonable-faith-org",
@@ -283,6 +360,42 @@
      "t": 997.4,
      "title": "Doctrine of Salvation Part 10: What Is \"Born Again?\" || Defenders LIVE!",
      "video_id": "A9sgZclKIko"
+    },
+    {
+     "confidence": 0.7333,
+     "context": "You don't practice the truth. You're you're you're you're not honestly having fellowship with him. You're fake. But if we walk in the light, as he is in the light, we have fellowship with one another, and the blood of Jesus, his son cleanses us from all sin. If we say we have no sin, we deceive ourselves, and the truth is not in us. You want to say that you're sinless? That's no, that's not true. If, on the other hand, we confess our sins, he's faithful and just to forgive us our sins and to cleanse us from all unrighteousness. I think he's talking about probably here initial salvation, not continuing in salvation.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-05-03T21:33:48Z",
+     "role": "host",
+     "t": 2260.36,
+     "title": "10 Questions with Mike Winger (Episode 13)",
+     "video_id": "BQjBRaVXDCI"
+    },
+    {
+     "confidence": 0.7333,
+     "context": "But that's not what he's talking about here. Here it's here, there's two categories. Are you in the light or are you in the dark? You're in the you're in the light, your life reveals that you really are in the light. Yeah, you're a real Christian. You're in the dark, your life reveals that you're not really a Christian. Then in verse eight and nine, I think he says the same thing. If we say we have no sin, we deceive ourselves and the truth is not in us. Oh, that means you're in the dark. You deny your sin. So do you live you live in sin? You're in the dark. You deny your sin, you're in the dark. But you're in the light, on the contrary, if you confess your sins, not you lit, you live perfectly, but you confess your sins, you bring your issues to God.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-05-03T21:33:48Z",
+     "role": "host",
+     "t": 2317.56,
+     "title": "10 Questions with Mike Winger (Episode 13)",
+     "video_id": "BQjBRaVXDCI"
+    },
+    {
+     "confidence": 0.7333,
+     "context": "The Bible recognizes that Christians do and do not sin. First John 3 9 says, No one born of God commits sin, for God's nature abides in him, and he cannot sin because he's born of God. But two chapters earlier, 1 John 1 8 says, if we say we have no sin, we deceive ourselves, and the truth is not in us. So, how do we explain this contradiction? Well, the answer can be found in the distinction between mortal and venial sin.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2022-03-14T13:00:09Z",
+     "role": "host",
+     "t": 887.68,
+     "title": "REBUTTING “American Gospel” on Catholic salvation",
+     "video_id": "JddkPla-pis"
     },
     {
      "confidence": 0.7333,
@@ -346,13 +459,12 @@
     }
    ],
    "creators": {
-    "counsel-of-trent": 4,
-    "jude-3-project": 1,
+    "counsel-of-trent": 5,
+    "mike-winger": 2,
     "mindshift": 1,
-    "prophet-of-zod": 1,
     "reasonable-faith-org": 2
    },
-   "n": 9,
+   "n": 10,
    "text": {
     "KJV": "If we say that we have no sin, we deceive ourselves, and the truth is not in us.",
     "WEB": "If we say that we have no sin, we deceive ourselves, and the truth is not in us."
@@ -361,6 +473,30 @@
   },
   "1 John 1:9": {
    "citations": [
+    {
+     "confidence": 0.7895,
+     "context": "Well, I think that it's clear that as Christians, we do stumble and fall along the way. It's uh two steps forward and one step back sometimes. And so we have the promise of 1 John 1 9 that if we confess our sins, he is faithful and just to forgive us our sins and cleanse us from all unrighteousness. And John writes to these Christians that if anyone says he has no sin, he's a liar, and the truth is not in him.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-11-22T22:39:57Z",
+     "role": "host",
+     "t": 1912.4,
+     "title": "A Philosophical and Practical Interview on Body, Mind, & Soul",
+     "video_id": "--XbGLwIw10"
+    },
+    {
+     "confidence": 0.7895,
+     "context": "Again, this is because they are in captivity and bad things are happening, but don't worry, God will get them through it. It's almost insulting to take this verse and try to use it for yourself. It's not for you. First John 1 9. If we confess our sins, he is faithful and just to forgive us our sins and cleanse us from all unrighteousness. This is the Apostle John writing to believers, and it should be able to be applied to all believers. I said this verse more than any other verse in my entire life, because I didn't quite understand how salvation was mapped when I was little.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-10-22T14:02:13Z",
+     "role": "host",
+     "t": 1072.32,
+     "title": "God's Promises: They Are Not What You Think!",
+     "video_id": "-7bZ_HwuCRM"
+    },
     {
      "confidence": 0.7368,
      "context": "I had more for you here, but I think that you get the point. What a problem. And by the way, it's mainly a problem because of what else the Bible promises, which is a forgiving God. First John 1 9 says, if we confess our sins, he is faithful and just to forgive us our sins and to purify us from what? All unrighteousness. Well, apparently not. This is a contradiction. Colossians 2 13 through 14 says something similar.",
@@ -374,16 +510,28 @@
      "video_id": "6ULU27JMtOk"
     },
     {
-     "confidence": 0.9692,
-     "context": "And the blood of Jesus, His Son, cleanses us from all sin. If we say we have no sin, we deceive ourselves, and the truth is not in us. If we confess our sins, he is faithful and just and will forgive our sins and cleanse us from all unrighteousness. So, as we abide in Christ, we have access to God's forgiveness.",
-     "creator": "reasonable-faith-org",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2026-01-26T06:51:52Z",
+     "confidence": 0.6842,
+     "context": "But if we walk in the light, as he is in the light, we have fellowship with one another, and the blood of Jesus, his son cleanses us from all sin. If we say we have no sin, we deceive ourselves, and the truth is not in us. You want to say that you're sinless? That's no, that's not true. If, on the other hand, we confess our sins, he's faithful and just to forgive us our sins and to cleanse us from all unrighteousness. I think he's talking about probably here initial salvation, not continuing in salvation. So the reason why back up to verse five is to see, John in this whole section, he's talking about the difference between saved and unsaved people, not between Christians who gain and lose their salvation and get it back over and over again.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-05-03T21:33:48Z",
      "role": "host",
-     "t": 676.8,
-     "title": "Doctrine of Salvation Part 10: What Is \"Born Again?\" || Defenders LIVE!",
-     "video_id": "A9sgZclKIko"
+     "t": 2266.84,
+     "title": "10 Questions with Mike Winger (Episode 13)",
+     "video_id": "BQjBRaVXDCI"
+    },
+    {
+     "confidence": null,
+     "context": "And so if you're a believer and you're still struggling with sin, uh I love the way that 1 John uh 9, uh 1 John chapter 1, verse 9, going all the way to chapter 2, verse 2 puts it. It says, you know, if you confess your sins, you God will be faithful and just to forgive you of all of your sins and cleanse you from all unrighteousness.",
+     "creator": "jude-3-project",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2020-12-03T20:00:10Z",
+     "role": "unattributed",
+     "t": 244.16,
+     "title": "How Can We Know What the Bible is Really Saying? | #BibleTips w/ Yana Conner",
+     "video_id": "J5teyJYkgfA"
     },
     {
      "confidence": 0.5263,
@@ -444,14 +592,41 @@
      "t": 765.56,
      "title": "1-3 John: Catastrophic Claims! | Secular Bible Study (Episodes 62.63.64)",
      "video_id": "iPr97m_Hql8"
+    },
+    {
+     "confidence": 1.0,
+     "context": "Because what do the scriptures say? First John 1 9 says, if we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness. So why would we not have confession? It's it's so common for people to say, I'm not gonna confess my sins to other person.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2022-07-11T12:00:27Z",
+     "role": "host",
+     "t": 1250.52,
+     "title": "Why I and this Eastern Orthodox apologist aren’t Protestant",
+     "video_id": "jsqckeDL3xQ"
+    },
+    {
+     "confidence": 0.6842,
+     "context": "Keep short accounts with God. Don't let sin fester or be swept under the rug. Claim his promise that if we confess our sins, he is faithful and just to forgive us our sins and cleanse us of all unrighteousness, 1 John 1 9. Then ask him to fill you again with his Holy Spirit.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2021-08-16T15:22:36Z",
+     "role": "host",
+     "t": 727.2,
+     "title": "Final Thoughts 2: The Diligence of a Disciple",
+     "video_id": "rVsmd1Gf9IU"
     }
    ],
    "creators": {
+    "counsel-of-trent": 1,
     "jackie-hill-perry": 1,
-    "mindshift": 3,
-    "reasonable-faith-org": 3
+    "jude-3-project": 1,
+    "mike-winger": 1,
+    "mindshift": 4,
+    "reasonable-faith-org": 4
    },
-   "n": 7,
+   "n": 12,
    "text": {
     "KJV": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness.",
     "WEB": "If we confess our sins, he is faithful and righteous to forgive us the sins and to cleanse us from all unrighteousness."
@@ -461,20 +636,20 @@
   "1 John 2:11": {
    "citations": [
     {
-     "confidence": 0.8086,
-     "context": "I'm just I'm just one man. Everyone, you can stare at it a long time. Everyone who hates his brother is a murderer. And you know that no murderer has eternal life abiding in him. Eternal life's not in control of you when you hate.",
-     "creator": "belief-it-or-not",
-     "detection_method": "embedding_match",
+     "confidence": 0.5,
+     "context": "So if you're gonna you're gonna say you know Jesus, you gotta walk the way Jesus walked. There's not just murderers, everybody who walks the way Jesus walked versus those who don't. He gives uh others as well. How about whoever says in verse 9 that he is in the light and hates his brother is still in darkness? Verse 11 whoever hates his brother is in is in the darkness and walks in the darkness and does not know where he's going, because the darkness has blinded his eyes.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
      "matched_translation": "WEB",
-     "published_at": "2024-10-14T21:41:56Z",
-     "role": "unknown",
-     "t": 3653.44,
-     "title": "The Sixth Commandment: Don't Kill | Belief It Or Not",
-     "video_id": "1fpPnUodUfA"
+     "published_at": "2024-12-20T22:48:05Z",
+     "role": "host",
+     "t": 3309.24,
+     "title": "There were no Wise Men at Jesus' birth. 10 Qs with Mike Winger (Ep 38)",
+     "video_id": "-UMckPjOxlA"
     }
    ],
    "creators": {
-    "belief-it-or-not": 1
+    "mike-winger": 1
    },
    "n": 1,
    "text": {
@@ -521,6 +696,18 @@
   "1 John 2:16": {
    "citations": [
     {
+     "confidence": 0.5385,
+     "context": "Wow, that's a huge statement. Do not love the world or anything in the world. If anyone loves the world, love for the Father is not in them. For everything in the world, the lust of the flesh, the lust of the eyes, and the pride of life comes not from the Father, but from the world. So again, I've got one verse left here, but I understand when Christians say, I don't know what else to do with this information, Brainon's providing, except say that no one who is sinning in this degree, these Christians who are bringing down the statistics, showing themselves to be the exact same as non-Christians, simply must not be real Christians.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-06-02T14:00:04Z",
+     "role": "unattributed",
+     "t": 526.4,
+     "title": "Are Christians Really New Creations?",
+     "video_id": "7X1MePK-mUU"
+    },
+    {
      "confidence": 0.5,
      "context": "But it's that you know, your your son is given. But then look at when you look at go further and you go to first John, which is a different John, maybe could be the same, nobody knows. First John and two, it says, Do not love the world. Okay, now for God so loved the world that he gave his son, but a few books later, do not love the world, nor the things in the in the world, and if anyone loves the world, the love of the father is not in him for all that is in the world, the lust of the flesh, the lust of the eyes.",
      "creator": "darante-lamar",
@@ -547,9 +734,9 @@
    ],
    "creators": {
     "darante-lamar": 1,
-    "mindshift": 1
+    "mindshift": 2
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "For all that is in the world, the lust of the flesh, and the lust of the eyes, and the pride of life, is not of the Father, but is of the world.",
     "WEB": "For all that is in the world—the lust of the flesh, the lust of the eyes, and the pride of life—isn’t the Father’s, but is the world’s."
@@ -581,6 +768,28 @@
    },
    "truncated": false
   },
+  "1 John 2:18-19": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "He says, Many false prophets have gone out into the world. And he refers to these people earlier on in verses 18 and 19 of chapter 2. 1 John 2, verses 18 and 19. Children, it is the last hour. And as you have heard that Antichrist is coming, so now many antichrists have come. Therefore we know that it is the last hour. They went out from us, but they were not of us.",
+     "creator": "drcraigvideos",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2011-05-23T09:18:50Z",
+     "role": "host",
+     "t": 449.92,
+     "title": "Belief in God as Properly Basic - Part 2 - William Lane Craig",
+     "video_id": "MNiV7cUrYQc"
+    }
+   ],
+   "creators": {
+    "drcraigvideos": 1
+   },
+   "n": 1,
+   "text": {},
+   "truncated": false
+  },
   "1 John 2:19": {
    "citations": [
     {
@@ -594,18 +803,6 @@
      "t": 6025.88,
      "title": "Did Rhett Just FIX the Christianity He Broke? (Responding to ALL the Responses)",
      "video_id": "4uthjnLyG8w"
-    },
-    {
-     "confidence": 0.7378,
-     "context": "In 1 John chapter 2, verses 23 to 25, it says, Many believed in him, but Jesus did not commit himself to them. So many got saved, but because they were not all in, he was not committed to them. Just because you are a child of God doesn't mean you're experiencing all of God. In the same way a parent may have children, but not relate to all of them the same, because all of them may not be connected to him in the same way, although, or to the mother and father in the same way.",
-     "creator": "jude-3-project",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-10-28T13:00:06Z",
-     "role": "host",
-     "t": 271.6,
-     "title": "Tony Evans on Engaging The Next Generation | Dr. Tony Evans",
-     "video_id": "8Mx7bmJMTFo"
     },
     {
      "confidence": null,
@@ -657,6 +854,18 @@
     },
     {
      "confidence": 0.575,
+     "context": "1 John 2, verses 18 and 19. Children, it is the last hour. And as you have heard that Antichrist is coming, so now many antichrists have come. Therefore we know that it is the last hour. They went out from us, but they were not of us. For if they had been of us, they would have continued with us, but they went out, that it might be plain that they are not of us. So John is talking about people who are coming, claiming to give messages inspired of the Holy Spirit, and says, you need to test to see whether or not these people are really speaking by the Spirit of God.",
+     "creator": "drcraigvideos",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2011-05-23T09:18:50Z",
+     "role": "host",
+     "t": 463.2,
+     "title": "Belief in God as Properly Basic - Part 2 - William Lane Craig",
+     "video_id": "MNiV7cUrYQc"
+    },
+    {
+     "confidence": 0.575,
      "context": "That was another point I wanted to mention about Abdullah. He may be an antichrist, he's just not the antichrist. Um, therefore we know it is the last hour. They went out from us, so these antichrists were originally part of the Christian community. Um they went out from us, but they were not of us. For if they had been of us, they would have continued with us, but they went out that it might become plain that they are not that they all are not of us.",
      "creator": "capturing-christianity",
      "detection_method": "shingle_match",
@@ -671,7 +880,7 @@
    "creators": {
     "capturing-christianity": 2,
     "darante-lamar": 3,
-    "jude-3-project": 1,
+    "drcraigvideos": 1,
     "paulogia": 1
    },
    "n": 7,
@@ -684,64 +893,16 @@
   "1 John 2:2": {
    "citations": [
     {
-     "confidence": 0.7896,
-     "context": "So given our condition as kind of progressive, discursive, as taking time, as making our way, the Lord makes his one saving sacrifice, which is sufficient, more than sufficient, superabundant for the salvation of the whole world, available to us within the contours of our time-bound life.",
-     "creator": "capturing-christianity",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-09-25T19:29:31Z",
-     "role": "host",
-     "t": 122.28,
-     "title": "Defending the Eucharist Q&A with Fr. Gregory Pine",
-     "video_id": "2aDcnN4xCs8"
-    },
-    {
-     "confidence": 0.7258,
-     "context": "So it's kind of a debate about it, which I just tell them, hey, as long as you know that Jesus came, died for our sins and rose, then that's the whole essence of the New Testament and why we're still, you know, saved and Christians.",
-     "creator": "cross-examined",
-     "detection_method": "embedding_match",
+     "confidence": 0.5882,
+     "context": "My little children, I'm writing this to you so that you may not sin. But if anyone does sin, we have an advocate with the Father, Jesus Christ the righteous. And he is the expiation for our sins and not for ours only, but also for the sins of the whole world. So Calvinists, five-point Calvinists, those who believe in limited or what they might call particular atonement, the idea that Christ only died to merit grace for those who would go to heaven.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
      "matched_translation": "WEB",
-     "published_at": "2026-05-21T22:00:03Z",
+     "published_at": "2022-11-28T20:26:01Z",
      "role": "host",
-     "t": 26.88,
-     "title": "Are Books Missing From the Bible?",
-     "video_id": "4LkZ-Cd3dJ4"
-    },
-    {
-     "confidence": 0.8028,
-     "context": "If anyone could complain of innocent suffering, it would be Jesus Christ. Because even though he was sinless, he bore the penalty for the sin of the whole world. None of us can comprehend the depth of the suffering that he undertook. And why? Because he loves us so much.",
-     "creator": "drcraigvideos",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2013-09-13T16:31:46Z",
-     "role": "host",
-     "t": 172.52,
-     "title": "William Lane Craig Q&A: How Can I Believe In A God Who Allows Evil?",
-     "video_id": "4q51Z8Xo8bY"
-    },
-    {
-     "confidence": 0.8066,
-     "context": "Romans 8 32, he who did not spare his own son, but gave him up for us all. Again, putting the onus on God the Father. And first John 4 9 through 10, God sent his only son into the world so that we might live through him. In this is love. Not that we loved God, but that he loved us and sent his son to be the atoning sacrifice for our sins. In terms of fallacious argumentation, it seems to be only coming from red pen logic here. You can't on one hand brag about how amazing it is and how hard it was for God.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-09-02T14:00:09Z",
-     "role": "host",
-     "t": 591.48,
-     "title": "The Strawman Defense: Christianity’s Escape Hatch",
-     "video_id": "6L5mULjqi_8"
-    },
-    {
-     "confidence": 0.8107,
-     "context": "Now that doesn't mean, however, that his sins go unpunished, because you see, on the Christian view, Christ bears the penalty for those sins. On the cross, Jesus suffers the penalty for the sins of the whole world. So that the demands of God's justice are met.",
-     "creator": "drcraigvideos",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2012-08-22T04:58:00Z",
-     "role": "host",
-     "t": 127.64,
-     "title": "Moral Accountability In Christianity",
-     "video_id": "ACT_vugAD3A"
+     "t": 2180.0,
+     "title": "Studio Renovation and \"Ask me anything\"",
+     "video_id": "1L5gY9qsym4"
     },
     {
      "confidence": 0.5294,
@@ -766,6 +927,30 @@
      "t": 1269.24,
      "title": "My Response to Wes Huff's Case Against Catholicism",
      "video_id": "NpYsu7Qxolw"
+    },
+    {
+     "confidence": 0.5294,
+     "context": "Christ paid for the sins of those who don't believe in him, and even of the sins of people who will never believe in Jesus Christ. That's why you can tell any person you meet that Christ died for you. First John 2 2 says of Christ, He is the expiation for our sins, and not for ours only, but also for the sins of the whole world. The fact that Christ's death paid for or atoned for our sins does not mean everything is finished regarding our salvation.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-03-15T12:00:16Z",
+     "role": "host",
+     "t": 239.28,
+     "title": "Do Jesus' Last Words Refute Catholicism?",
+     "video_id": "OpeCWo8yoEs"
+    },
+    {
+     "confidence": 0.5294,
+     "context": "Since it had infinite value, Christ's death wasn't merely sufficient. It was superabundant, much, much more than merely sufficient. That's why 1 John 2 2 says, He is the expiation for our sins, and not for ours only, but also for the sins of the whole world. But this does not mean everybody's going to heaven. A sinner must still cooperate with God to allow the grace that Christ merited for us on the cross to be applied to our souls.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-07-04T12:00:30Z",
+     "role": "host",
+     "t": 387.4,
+     "title": "“Satan loves Catholicism” (REBUTTED)",
+     "video_id": "UwI1fOBRxok"
     },
     {
      "confidence": 0.6471,
@@ -804,6 +989,42 @@
      "video_id": "gSba_hwP49M"
     },
     {
+     "confidence": 0.7368,
+     "context": "You appeal to Jesus Christ. So again, he doesn't mean sinlessness. He means Christians who are genuine don't just live on in sin. Um, and let me talk more about that in a second, but we'll just read some more here. So Jesus, he is the propitiation for our sins and not for ours only, but also for the sins of the whole world. And by this we know that we have come to know him if we keep his commandments. Then he starts to move on to that point, right? Like if you if you um say you know Jesus, but you don't keep his commandments, you're a liar.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-09-01T22:52:10Z",
+     "role": "host",
+     "t": 4032.08,
+     "title": "20 Questions with Pastor Mike (Episode 106)",
+     "video_id": "pSGjml5feXs"
+    },
+    {
+     "confidence": 0.7368,
+     "context": "I have a video on this, I'll link it down below after the stream on 1 John 2 and limited atonement. It says, My little children, I'm writing these things to you so that you may not sin. But if anyone does sin, we have an advocate with the Father, Jesus Christ the righteous. He is the propitiation for our sins, and not for ours only, but also for the sins of the whole world. Again, you can't take world as being non-elect, damned from eternity. You you cannot take that to, and I know that phrase damned from eternity is not a phrase that I would typically hear a Calvinist use.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-03-28T21:19:32Z",
+     "role": "host",
+     "t": 1226.68,
+     "title": "When does my sin block my prayers according to Scripture? 10 Qs with Mike Winger (Ep 48)",
+     "video_id": "piyiAJljEi4"
+    },
+    {
+     "confidence": 0.5789,
+     "context": "We actually agree on most things, right? But no, I don't agree on this, and there are good, I think good biblical reasons why I don't. So Jesus is the propitiation, right? He made a payment to deal with the wrath of God and the sin of man. He is a propitiation for our sins and not for ours only, but also for the sins of the whole world. Now, some will try and take this as the whole world of the elect, and now they have a really interesting definition of the word world in 1 John 2 2. World means elect people who are not yet saved.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-03-28T21:19:32Z",
+     "role": "host",
+     "t": 1265.24,
+     "title": "When does my sin block my prayers according to Scripture? 10 Qs with Mike Winger (Ep 48)",
+     "video_id": "piyiAJljEi4"
+    },
+    {
      "confidence": 0.5294,
      "context": "So that Hierra has to reinterpret these verses in such a way that they don't really mean atonement. So, just to give one of the four examples, 1 John 2 2 says that Jesus is the atonement for our sins and not for ours only, but also for the sins of the whole world. Fourthly, with regard to substitution, which he rejects, he has to interpret the Levitical sacrifices in such a way that the animal's death is not a substitution for the death of the offerer.",
      "creator": "reasonable-faith-org",
@@ -817,15 +1038,11 @@
     }
    ],
    "creators": {
-    "capturing-christianity": 1,
-    "counsel-of-trent": 4,
-    "cross-examined": 1,
-    "drcraigvideos": 2,
-    "mike-winger": 1,
-    "mindshift": 1,
+    "counsel-of-trent": 7,
+    "mike-winger": 4,
     "reasonable-faith-org": 1
    },
-   "n": 11,
+   "n": 12,
    "text": {
     "KJV": "And he is the propitiation for our sins: and not for our's only, but also for the sins of the whole world.",
     "WEB": "And he is the atoning sacrifice for our sins, and not for ours only, but also for the whole world."
@@ -834,18 +1051,6 @@
   },
   "1 John 2:20": {
    "citations": [
-    {
-     "confidence": 0.8845,
-     "context": "You know, and and that is one of the dangers of superstition is that you believe you don't need to be qualified. As long as you got the Holy Ghost, you have an unction from the Holy One who is speaking through you and revealing to things to you that you did not know. God's hands, you know, all that bullshit. But you know, don't do that. You know, uh, I think one of the one of the ways that uh secular communities can be safer is that we can actually adhere to safeguards.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-05-05T19:05:23Z",
-     "role": "host",
-     "t": 6513.08,
-     "title": "Sunday Sessions // The Community Logistics Episode",
-     "video_id": "2D-0S-xh-7Y"
-    },
     {
      "confidence": 0.6364,
      "context": "He believes he's sharing helpful information, but that's because as a Christian preacher, you're already at the place where you believe you know more than the psychologist, you know more than the psychiatrist, uh psychiatrist, you know more than the neurologist, you know more than the biologist, because you have an unction from the holy one, beloved, and you know all things.",
@@ -909,13 +1114,47 @@
    ],
    "creators": {
     "capturing-christianity": 2,
-    "darante-lamar": 4
+    "darante-lamar": 3
    },
-   "n": 6,
+   "n": 5,
    "text": {
     "KJV": "But ye have an unction from the Holy One, and ye know all things.",
     "WEB": "You have an anointing from the Holy One, and you all have knowledge."
    },
+   "truncated": false
+  },
+  "1 John 2:20-27": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "Not only Paul, but also the Apostle John makes it very clear that it is the indwelling Holy Spirit who gives believers the conviction of Christianity's truth. Look at 1 John chapter 2, verses 20 and 27. 1 John chapter 2, verses 20 and 27. John says, But you have been anointed by the Holy One, and you all know, and then verse 27, but the anointing which you received from him abides in you, and you have no need that anyone should teach you, as his anointing teaches you about everything, and is true and is no lie, just as it has taught you, abide in him.",
+     "creator": "drcraigvideos",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2011-05-23T09:18:50Z",
+     "role": "host",
+     "t": 234.4,
+     "title": "Belief in God as Properly Basic - Part 2 - William Lane Craig",
+     "video_id": "MNiV7cUrYQc"
+    },
+    {
+     "confidence": null,
+     "context": "Look at 1 John chapter 2, verses 20 and 27. 1 John chapter 2, verses 20 and 27. John says, But you have been anointed by the Holy One, and you all know, and then verse 27, but the anointing which you received from him abides in you, and you have no need that anyone should teach you, as his anointing teaches you about everything, and is true and is no lie, just as it has taught you, abide in him.",
+     "creator": "drcraigvideos",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2011-05-23T09:18:50Z",
+     "role": "host",
+     "t": 240.08,
+     "title": "Belief in God as Properly Basic - Part 2 - William Lane Craig",
+     "video_id": "MNiV7cUrYQc"
+    }
+   ],
+   "creators": {
+    "drcraigvideos": 2
+   },
+   "n": 2,
+   "text": {},
    "truncated": false
   },
   "1 John 2:21": {
@@ -943,12 +1182,25 @@
      "t": 1257.4,
      "title": "Jimmy Akin Reacts to the 'Antichrist'—Is America Doomed?",
      "video_id": "OIjXAGQMA9w"
+    },
+    {
+     "confidence": 0.7273,
+     "context": "But you have been anointed by the Holy One. That's that's the gift of the Holy Spirit, and you have all knowledge. Hmm. I write to you not because you don't know the truth, but because you know it and because no lie is of the truth. This idea of being taught from the Lord is also being transferred from John, not just Jesus to the disciples immediately there at the Last Supper, but from John over to general Christians.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-02-14T22:38:35Z",
+     "role": "host",
+     "t": 3445.12,
+     "title": "We can't let them continue to get away with it: 10 Qs with Mike Winger (Ep 45)",
+     "video_id": "bMLCImTIgW8"
     }
    ],
    "creators": {
-    "capturing-christianity": 2
+    "capturing-christianity": 2,
+    "mike-winger": 1
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "I have not written unto you because ye know not the truth, but because ye know it, and that no lie is of the truth.",
     "WEB": "I have not written to you because you don’t know the truth, but because you know it, and because no lie is of the truth."
@@ -1007,18 +1259,6 @@
   "1 John 2:23": {
    "citations": [
     {
-     "confidence": 0.8874,
-     "context": "Not at all. I'm glad that uh Trent does he did he did emphasize uh that Muhammad got a whole lot wrong. I'm glad he didn't emphasize that. Uh let me touch upon what Ethan says. Ethan says, uh let me see if I can get it. He quotes uh first John 2 23. Yeah, no one who denies the son has a father, whoever confesses a son has the father also. Um yeah, no doubt. So let's lay it out for you. By the way, Ethan, thank you for your support. Capture Christianity is a phenomenal platform. Thank you for supporting the brothers' platform. Thank you so much for that.",
-     "creator": "capturing-christianity",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-06-22T03:14:16Z",
-     "role": "unknown",
-     "t": 1318.08,
-     "title": "Calling Out @JayDyer",
-     "video_id": "2PZcZWscLig"
-    },
-    {
      "confidence": 0.5714,
      "context": "However, the assumption is that the word confess here refers to a confession made to God. When in John's letter, it's actually used to refer to confessions that we make to other human beings. For example, in 1 John 2 23, it says, No one who denies the Son has the Father. He who confesses the Son has the Father also. This is referring to the confession we make to other people. And 1 John 1 9 is bracketed by verses that also refer to what we say to other people.",
      "creator": "counsel-of-trent",
@@ -1056,10 +1296,9 @@
     }
    ],
    "creators": {
-    "capturing-christianity": 1,
     "counsel-of-trent": 3
    },
-   "n": 4,
+   "n": 3,
    "text": {
     "KJV": "Whosoever denieth the Son, the same hath not the Father: he that acknowledgeth the Son hath the Father also.",
     "WEB": "Whoever denies the Son doesn’t have the Father. He who confesses the Son has the Father also."
@@ -1088,28 +1327,28 @@
    "text": {},
    "truncated": false
   },
-  "1 John 2:27": {
+  "1 John 2:29": {
    "citations": [
     {
-     "confidence": 0.7359,
-     "context": "I've been going to the library since I was five years old. You know, don't, you know, I'm using scripture. You have no need that any man teach you, you know, type of thing. But yeah, just be very careful. Um, this is one thing that's always kind of bothered me about um politics, and I'll keep this brief, is that so many of the things that I often hear, especially when it comes to the black community, uh, is completely inconsiderate of the black uh leaders historically who gave their lives for these causes.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-11-12T17:57:40Z",
-     "role": "host",
-     "t": 1196.92,
-     "title": "Does Christianity Promote Violence?",
-     "video_id": "9wbX4Xsx52E"
+     "confidence": 0.6875,
+     "context": "I have four verses left. They're all from 1 John. That's a book that really gets after this concept. Here they are. If you know that he is righteous, you know that everyone who does what is right has been born of him. Wow, that's a huge statement. Do not love the world or anything in the world. If anyone loves the world, love for the Father is not in them.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-06-02T14:00:04Z",
+     "role": "unattributed",
+     "t": 511.36,
+     "title": "Are Christians Really New Creations?",
+     "video_id": "7X1MePK-mUU"
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "mindshift": 1
    },
    "n": 1,
    "text": {
-    "KJV": "But the anointing which ye have received of him abideth in you, and ye need not that any man teach you: but as the same anointing teacheth you of all things, and is truth, and is no lie, and even as it hath taught you, ye shall abide in him.",
-    "WEB": "As for you, the anointing which you received from him remains in you, and you don’t need for anyone to teach you. But as his anointing teaches you concerning all things, and is true, and is no lie, and even as it taught you, you will remain in him."
+    "KJV": "If ye know that he is righteous, ye know that every one that doeth righteousness is born of him.",
+    "WEB": "If you know that he is righteous, you know that everyone who practices righteousness has been born of him."
    },
    "truncated": false
   },
@@ -1163,16 +1402,16 @@
   "1 John 2:4": {
    "citations": [
     {
-     "confidence": 0.812,
-     "context": "Again, he's talking about controlling the uh how you remember who Satan is, you know. Jesus, he calls Satan a liar and the father of lies. He says there's no truth in him. He warns us uh that our battle is against a deadly foe who lies, cheats, and steals. So I'm I'm I'm just I'm again I'm not clear who he's fighting against here.",
-     "creator": "shannon-q",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2022-03-07T16:45:09Z",
+     "confidence": 0.5,
+     "context": "Um verse three and four. By this we know that we have come to know him if we keep his commandments. Whoever says I know him but does not keep his commandments is a liar and the truth is not in him. But whoever keeps his word, in him truly the love of God is perfected. Then he gives another one. By this we may know that we are in him. Whoever says he abides in him ought to walk the same in which in the same way in which he walked.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-12-20T22:48:05Z",
      "role": "host",
-     "t": 2525.8,
-     "title": "The reality of Christian persecution with @STRvideos",
-     "video_id": "4merboVPXgQ"
+     "t": 3281.0,
+     "title": "There were no Wise Men at Jesus' birth. 10 Qs with Mike Winger (Ep 38)",
+     "video_id": "-UMckPjOxlA"
     },
     {
      "confidence": 0.5,
@@ -1225,8 +1464,8 @@
    ],
    "creators": {
     "counsel-of-trent": 3,
-    "mindshift": 1,
-    "shannon-q": 1
+    "mike-winger": 1,
+    "mindshift": 1
    },
    "n": 5,
    "text": {
@@ -1235,23 +1474,48 @@
    },
    "truncated": false
   },
-  "1 John 2:9": {
+  "1 John 2:8": {
    "citations": [
     {
-     "confidence": 0.8159,
-     "context": "I'm just I'm just one man. Everyone, you can stare at it a long time. Everyone who hates his brother is a murderer. And you know that no murderer has eternal life abiding in him. Eternal life's not in control of you when you hate.",
-     "creator": "belief-it-or-not",
-     "detection_method": "embedding_match",
+     "confidence": 0.64,
+     "context": "There's a substance beneath it that is concern and care for other people. Do that. Love others as God has loved you. And so that was an old commandment. This is an old commandment. They've had it from the beginning. At the same time, it's a new commandment that I'm writing you, which is true in him and in you because the darkness is passing away and the true light is already shining. In what sense is that is the commandment new? The commandment is new because it's it's it's my understanding here, maybe I'm wrong.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
      "matched_translation": "WEB",
-     "published_at": "2024-10-14T21:41:56Z",
-     "role": "unknown",
-     "t": 3653.44,
-     "title": "The Sixth Commandment: Don't Kill | Belief It Or Not",
-     "video_id": "1fpPnUodUfA"
+     "published_at": "2023-09-15T23:30:57Z",
+     "role": "host",
+     "t": 4359.56,
+     "title": "20 Questions with Pastor Mike (Episode 107)",
+     "video_id": "Y4qfQHQriY4"
     }
    ],
    "creators": {
-    "belief-it-or-not": 1
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Again, a new commandment I write unto you, which thing is true in him and in you: because the darkness is past, and the true light now shineth.",
+    "WEB": "Again, I write a new commandment to you, which is true in him and in you, because the darkness is passing away and the true light already shines."
+   },
+   "truncated": false
+  },
+  "1 John 2:9": {
+   "citations": [
+    {
+     "confidence": 0.5625,
+     "context": "So if you're gonna you're gonna say you know Jesus, you gotta walk the way Jesus walked. There's not just murderers, everybody who walks the way Jesus walked versus those who don't. He gives uh others as well. How about whoever says in verse 9 that he is in the light and hates his brother is still in darkness? Verse 11 whoever hates his brother is in is in the darkness and walks in the darkness and does not know where he's going, because the darkness has blinded his eyes.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-12-20T22:48:05Z",
+     "role": "host",
+     "t": 3309.24,
+     "title": "There were no Wise Men at Jesus' birth. 10 Qs with Mike Winger (Ep 38)",
+     "video_id": "-UMckPjOxlA"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
    },
    "n": 1,
    "text": {
@@ -1312,6 +1576,30 @@
   },
   "1 John 3:15": {
    "citations": [
+    {
+     "confidence": 0.625,
+     "context": "And if it's anything like that, I don't know. I feel like I've said enough, y'all can figure out the rest on your own. Number 10, no more parent warning. Uh, eclipse Sonic says, if according to John, that no murderer has eternal life abiding in him. How do we explain David being saved when he had Uriah killed? Great question. This is a really good question. Um, let's go to first John chapter 3, verse 15.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-12-20T22:48:05Z",
+     "role": "host",
+     "t": 3222.48,
+     "title": "There were no Wise Men at Jesus' birth. 10 Qs with Mike Winger (Ep 38)",
+     "video_id": "-UMckPjOxlA"
+    },
+    {
+     "confidence": null,
+     "context": "Uh, eclipse Sonic says, if according to John, that no murderer has eternal life abiding in him. How do we explain David being saved when he had Uriah killed? Great question. This is a really good question. Um, let's go to first John chapter 3, verse 15. All right, everyone who hates his brother is a murderer, and you know that no murderer has eternal life abiding in him.",
+     "creator": "mike-winger",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-12-20T22:48:05Z",
+     "role": "host",
+     "t": 3236.72,
+     "title": "There were no Wise Men at Jesus' birth. 10 Qs with Mike Winger (Ep 38)",
+     "video_id": "-UMckPjOxlA"
+    },
     {
      "confidence": 0.75,
      "context": "I'm just I'm just one man. Everyone, you can stare at it a long time. Everyone who hates his brother is a murderer. And you know that no murderer has eternal life abiding in him. Eternal life's not in control of you when you hate.",
@@ -1377,42 +1665,127 @@
     "belief-it-or-not": 1,
     "darante-lamar": 1,
     "jackie-hill-perry": 1,
+    "mike-winger": 2,
     "mindshift": 2
    },
-   "n": 5,
+   "n": 7,
    "text": {
     "KJV": "Whosoever hateth his brother is a murderer: and ye know that no murderer hath eternal life abiding in him.",
     "WEB": "Whoever hates his brother is a murderer, and you know that no murderer has eternal life remaining in him."
    },
    "truncated": false
   },
-  "1 John 3:16": {
+  "1 John 3:18": {
    "citations": [
     {
-     "confidence": 0.8224,
-     "context": "He makes it very clear, you know, in his arrest, he could call uh, you know, have the father send a legion of angels to protect him. He's not saying like sacred things don't need to be defended or protected or there shouldn't be zeal. There's nothing like that. Rather, it is part of the plan of providence for all time that the father would give the son to lay down his life for the world. And so he's cooperating with that plan, which is really a reflection of the sovereignty of God to undergo even these humiliations uh out of love for us.",
-     "creator": "capturing-christianity",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-08-02T22:19:04Z",
+     "confidence": null,
+     "context": "Just like those who say, Oh, you know, be warmed and fill, but you don't do anything to help the person who you could help right now. Um that is a criticism that is proper about the way that some people handle prayer. Another scripture that weighs in on this is first John chapter 3, verse 18. And then I'm gonna push back. These are areas of agreement, then I'll give some areas of disagreement with someone who's like, clear, your clearly your prayer is not working. Do something helpful instead, because there's some significant issues with that. First John 3 18 says, Little children, let us not love in word or talk, but in deed and in truth.",
+     "creator": "mike-winger",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2022-06-03T21:43:22Z",
      "role": "host",
-     "t": 5012.52,
-     "title": "Are Christians OVERREACTING to the Olympics Mockery?",
-     "video_id": "8a6R1fey4WE"
+     "t": 198.68,
+     "title": "20 Questions with Pastor Mike (Episode 74)",
+     "video_id": "q8Unzb_QjuA"
+    },
+    {
+     "confidence": 0.5333,
+     "context": "Another scripture that weighs in on this is first John chapter 3, verse 18. And then I'm gonna push back. These are areas of agreement, then I'll give some areas of disagreement with someone who's like, clear, your clearly your prayer is not working. Do something helpful instead, because there's some significant issues with that. First John 3 18 says, Little children, let us not love in word or talk, but in deed and in truth. So there's the Bible recognizes, right? And every Christian should recognize there's a danger in loving with just my mouth. In loving in ideas, loving in cliches and loving with my statements, but not actually behaving in godly and loving ways that actually help a person in the situation they're going through.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2022-06-03T21:43:22Z",
+     "role": "host",
+     "t": 212.04,
+     "title": "20 Questions with Pastor Mike (Episode 74)",
+     "video_id": "q8Unzb_QjuA"
     }
    ],
    "creators": {
-    "capturing-christianity": 1
+    "mike-winger": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {
-    "KJV": "Hereby perceive we the love of God, because he laid down his life for us: and we ought to lay down our lives for the brethren.",
-    "WEB": "By this we know love, because he laid down his life for us. And we ought to lay down our lives for the brothers."
+    "KJV": "My little children, let us not love in word, neither in tongue; but in deed and in truth.",
+    "WEB": "My little children, let’s not love in word only, or with the tongue only, but in deed and truth."
    },
    "truncated": false
   },
   "1 John 3:2": {
    "citations": [
+    {
+     "confidence": 0.5556,
+     "context": "John writes, Beloved, we are God's children now. It does not yet appear what we shall be, but we know that when he appears, we shall be like him, for we shall see him as he is. And everyone who thus hopes in him purifies himself as he is pure.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-07-26T15:57:13Z",
+     "role": "host",
+     "t": 224.72,
+     "title": "Doctrine of The Last Things Part 2: Is The Rapture Biblical? || Defenders LIVE!",
+     "video_id": "DlbuFTGNNcg"
+    },
+    {
+     "confidence": null,
+     "context": "This is a great question, Colby. In fact, um, and Christians might disagree over it, but I think that when you get to heaven and you have what is called the beatific vision, as Roman Catholics call it. It comes from 1 John chapter 3, verse 2, I believe, that you will see God for who He is, that, and your sin nature is gone. You will never have the occasion or the desire to sin, and therefore you will freely love God without any motivation to sin.",
+     "creator": "cross-examined",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-09-24T02:20:40Z",
+     "role": "host",
+     "t": 3289.56,
+     "title": "If God, Why Evil? A Q&A in Honor of My Friend Charlie Kirk - LIVE from McNeese State Univ. (LA)",
+     "video_id": "EZ4wih3PWnI"
+    },
+    {
+     "confidence": null,
+     "context": "And this doesn't come to full fruition until you're glorified in heaven. And first John chapter 3, verse 2 talks about when we see him, we will be like him. The Roman Catholics call this the beatific vision. You will see God for who he is, and then you will know what you were made for.",
+     "creator": "cross-examined",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-09-25T03:05:29Z",
+     "role": "host",
+     "t": 7826.88,
+     "title": "LIVE from McNeese State University (Lake Charles, LA) - IDHEFTBAA",
+     "video_id": "F5mUwWBybTg"
+    },
+    {
+     "confidence": null,
+     "context": "And this doesn't come to full fruition until you're glorified in heaven. And first John chapter 3, verse 2 talks about when we see him, we will be like him. The Roman Catholics call this the beatific vision. You will see God for who he is, and then you will know what you were made for.",
+     "creator": "cross-examined",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-04-02T22:00:46Z",
+     "role": "host",
+     "t": 127.0,
+     "title": "The #1 Reason Why You Need to Follow Jesus",
+     "video_id": "kFpQOz8X4uM"
+    },
+    {
+     "confidence": 0.5,
+     "context": "That's God is so present that He is the light by which I see all things. Um, so in a sense, I'm always seeing God. That's how close I am to God in eternity. I'm always seeing God. That would be my interpretation of that. You can think about it yourself. But we also have in 1 John, it says we don't know what we'll be like, but we know we'll be like him because we'll see him as he is. Let me let me bring that verse up to you here for you to check out. So 1 John chapter 3, verse 2.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-04-05T21:33:43Z",
+     "role": "host",
+     "t": 3688.24,
+     "title": "10 Questions with Mike Winger (Episode 9)",
+     "video_id": "scrAvHAX5V0"
+    },
+    {
+     "confidence": null,
+     "context": "You can think about it yourself. But we also have in 1 John, it says we don't know what we'll be like, but we know we'll be like him because we'll see him as he is. Let me let me bring that verse up to you here for you to check out. So 1 John chapter 3, verse 2. It says, Beloved, now we are children of God, and it has not yet been revealed what we shall be, but we know that when he is revealed, we shall be like him, for we shall see him as he is.",
+     "creator": "mike-winger",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-04-05T21:33:43Z",
+     "role": "host",
+     "t": 3700.44,
+     "title": "10 Questions with Mike Winger (Episode 9)",
+     "video_id": "scrAvHAX5V0"
+    },
     {
      "confidence": null,
      "context": "Can I ask? Can I ask you a question? I just want to ask you one question. Go ahead, Drew. So, what do you think the purpose is of us going to heaven? What do you think that purpose is? The purpose? Yes. To know God for who he is ultimately. That's first John chapter 3, verse 2. We will see him as he is. We were created to ultimately know God, but our sin has separated us from God. And so God, instead of us building a stairway to heaven, sorry, Led Zeppelin fans, God takes a stairway to us and reveals himself in Jesus, sacrifices himself, so he could take our punishment upon himself.",
@@ -1424,65 +1797,138 @@
      "t": 7385.12,
      "title": "'Change My Mind' LIVE Q&A from Colorado Mesa Univ. (Grand Junction, CO)",
      "video_id": "tJi87TPUWvY"
+    },
+    {
+     "confidence": null,
+     "context": "So you know enough about him to know that he exists, but you're not gonna have exhaustive knowledge of him, certainly not this side of eternity. And even when we get what theologians call the beatific vision, this is based on 1 John 3:2, we're not gonna completely understand God. God is the only perpetual novelty as an infinite being, you will you in your finite capacity and my finite capacity will never know him completely, but we will know him better when we get that beatific vision.",
+     "creator": "cross-examined",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-05-06T16:01:38Z",
+     "role": "host",
+     "t": 48.32,
+     "title": "How Can We Argue For a God Beyond Our Limits? | Frank Turek #Shorts",
+     "video_id": "yfoD15XbFUQ"
     }
    ],
    "creators": {
-    "cross-examined": 1
+    "cross-examined": 5,
+    "mike-winger": 2,
+    "reasonable-faith-org": 1
    },
-   "n": 1,
+   "n": 8,
    "text": {
     "KJV": "Beloved, now are we the sons of God, and it doth not yet appear what we shall be: but we know that, when he shall appear, we shall be like him; for we shall see him as he is.",
     "WEB": "Beloved, now we are children of God. It is not yet revealed what we will be; but we know that when he is revealed, we will be like him, for we will see him just as he is."
    },
    "truncated": false
   },
-  "1 John 3:22": {
+  "1 John 3:2-3": {
    "citations": [
     {
-     "confidence": 0.7795,
-     "context": "So let's uh end with a benediction. And now may the God of creation, the source of all reality outside himself, and the Lord Jesus Christ, who died for our sins to reconcile us to God, and the Holy Spirit, who brings about new birth and power to live holy lives, fill our lives this week, so that we might live pleasing in his sight.",
+     "confidence": null,
+     "context": "Paul then ends with the same exhortation watch, stay awake, be alert. You don't know when this is going to read from the New Testament is 1 John chapter 3, verses 2 and 3. John writes, Beloved, we are God's children now.",
      "creator": "reasonable-faith-org",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-01-27T05:16:35Z",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2026-07-26T15:57:13Z",
      "role": "host",
-     "t": 2418.08,
-     "title": "Evolution & Creation Part 18: Is Genesis 1:1-11 Literally True? || Defenders LIVE!",
-     "video_id": "9Ld6HIeGi60"
+     "t": 206.68,
+     "title": "Doctrine of The Last Things Part 2: Is The Rapture Biblical? || Defenders LIVE!",
+     "video_id": "DlbuFTGNNcg"
     }
    ],
    "creators": {
     "reasonable-faith-org": 1
    },
    "n": 1,
-   "text": {
-    "KJV": "And whatsoever we ask, we receive of him, because we keep his commandments, and do those things that are pleasing in his sight.",
-    "WEB": "so whatever we ask, we receive from him, because we keep his commandments and do the things that are pleasing in his sight."
-   },
+   "text": {},
    "truncated": false
   },
-  "1 John 3:4": {
+  "1 John 3:20": {
    "citations": [
     {
-     "confidence": 0.871,
-     "context": "Ezekiel 28 15 reads, Thou was perfect in thy ways from the day thou was created, till iniquity was found in thee. The Bible defines iniquity or sin as the breaking of the law. Sin is the transgression of the law. So we can see that Lucifer was guilty of breaking the very law that he was supposed to cover and protect. Essentially, this is a long, unnecessarily elaborate way of saying the devil disobeyed God, embellished by a made-up story about the devil betraying a law that didn't even exist yet, based entirely on symbolism, Dustin reads into the Ark of the Covenant.",
-     "creator": "prophet-of-zod",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2020-08-20T17:30:10Z",
-     "role": "unknown",
-     "t": 918.96,
-     "title": "How Christians Invent the Devil",
-     "video_id": "7axTLdO-eWk"
+     "confidence": 0.6154,
+     "context": "So where do we start? Let's start with what the Bible says about God in this capacity. Psalm 147 5 says, Great is our Lord and abundant in strength, his understanding is infinite. First John 3 20 says, in whatever our heart condemns us, for God is greater than our heart and knows all things. Psalm 139 4 says, even before there is a word on my tongue, behold, O Lord, you know it all. Psalm 44 21 says, Would not God find this out, for he knows the secrets of the heart.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-05-14T14:00:20Z",
+     "role": "host",
+     "t": 116.8,
+     "title": "The Problems With Omniscience: Dilemmas Of An All-Knowing God",
+     "video_id": "gVXI19vYhsQ"
     }
    ],
    "creators": {
-    "prophet-of-zod": 1
+    "mindshift": 1
    },
    "n": 1,
    "text": {
-    "KJV": "Whosoever committeth sin transgresseth also the law: for sin is the transgression of the law.",
-    "WEB": "Everyone who sins also commits lawlessness. Sin is lawlessness."
+    "KJV": "For if our heart condemn us, God is greater than our heart, and knoweth all things.",
+    "WEB": "because if our heart condemns us, God is greater than our heart, and knows all things."
+   },
+   "truncated": false
+  },
+  "1 John 3:24": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "So here Jesus says, it is by the gift of the indwelling Holy Spirit that we have the knowledge that we are in Christ and He is in us. Now John teaches exactly the same thing in 1 John chapter 3, verse 24 and chapter 4, verse 13. 1 John 3, 24 and 4, 13. All who keep his commandments abide in him and he in them, and by this we know that he abides in us by the Spirit which he has given us.",
+     "creator": "drcraigvideos",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2011-05-23T09:18:50Z",
+     "role": "host",
+     "t": 585.88,
+     "title": "Belief in God as Properly Basic - Part 2 - William Lane Craig",
+     "video_id": "MNiV7cUrYQc"
+    }
+   ],
+   "creators": {
+    "drcraigvideos": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And he that keepeth his commandments dwelleth in him, and he in him. And hereby we know that he abideth in us, by the Spirit which he hath given us.",
+    "WEB": "He who keeps his commandments remains in him, and he in him. By this we know that he remains in us, by the Spirit which he gave us."
+   },
+   "truncated": false
+  },
+  "1 John 3:5": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "There's no reason to believe that Mary is excluded from all the people mentioned here, because the only person excluded from being a sinner in the Bible is Jesus. First John chapter 3, verse 5 says, And you know that he was manifested to take away our sins, and in him there is no sin. Romans 323 describes the universality of personal sin between Jews and non-Jews. Paul is talking about offenses against God that people who belong to both groups have committed.",
+     "creator": "counsel-of-trent",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2021-10-04T13:00:06Z",
+     "role": "host",
+     "t": 873.2,
+     "title": "REBUTTING Bible Flock Box’s 10 “Facts” about Mary",
+     "video_id": "6bzuYbhmvfE"
+    },
+    {
+     "confidence": 0.8,
+     "context": "There's no reason to believe that Mary is excluded from all the people mentioned here, because the only person excluded from being a sinner in the Bible is Jesus. First John chapter 3, verse 5 says, And you know that he was manifested to take away our sins, and in him there is no sin. Romans 323 describes the universality of personal sin between Jews and non-Jews. Paul is talking about offenses against God that people who belong to both groups have committed.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2021-10-04T13:00:06Z",
+     "role": "host",
+     "t": 873.2,
+     "title": "REBUTTING Bible Flock Box’s 10 “Facts” about Mary",
+     "video_id": "6bzuYbhmvfE"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "And ye know that he was manifested to take away our sins; and in him is no sin.",
+    "WEB": "You know that he was revealed to take away our sins, and no sin is in him."
    },
    "truncated": false
   },
@@ -1520,48 +1966,23 @@
    "text": {},
    "truncated": false
   },
-  "1 John 3:7": {
-   "citations": [
-    {
-     "confidence": 0.8966,
-     "context": "John 3, verses 6 to 9 say, no one who abides in him sins. No one who sins has either seen him or known him. Little children, let no one deceive you. He who does right is righteous, as he is righteous. He who commits sin is of the devil, for the devil has sinned from the beginning. The reason the Son of God appeared was to destroy the works of the devil.",
-     "creator": "reasonable-faith-org",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2026-01-26T06:51:52Z",
-     "role": "host",
-     "t": 951.52,
-     "title": "Doctrine of Salvation Part 10: What Is \"Born Again?\" || Defenders LIVE!",
-     "video_id": "A9sgZclKIko"
-    }
-   ],
-   "creators": {
-    "reasonable-faith-org": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Little children, let no man deceive you: he that doeth righteousness is righteous, even as he is righteous.",
-    "WEB": "Little children, let no one lead you astray. He who does righteousness is righteous, even as he is righteous."
-   },
-   "truncated": false
-  },
   "1 John 3:8": {
    "citations": [
     {
-     "confidence": 0.9249,
-     "context": "No one who sins has either seen him or known him. Little children, let no one deceive you. He who does right is righteous, as he is righteous. He who commits sin is of the devil, for the devil has sinned from the beginning. The reason the Son of God appeared was to destroy the works of the devil. No one born of God commits sin, for God's nature abides in him, and he cannot sin because he is born of God.",
-     "creator": "reasonable-faith-org",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2026-01-26T06:51:52Z",
-     "role": "host",
-     "t": 958.64,
-     "title": "Doctrine of Salvation Part 10: What Is \"Born Again?\" || Defenders LIVE!",
-     "video_id": "A9sgZclKIko"
+     "confidence": null,
+     "context": "This is the army of God. These are Christian men. Like this is us saying, God, I want to destroy the work of Satan all around the world. Um, from 1 John 3:8, that Jesus came to destroy the work of the enemy. And that's what we're here to do. So this ministry is for the man that says, I want to be used on the highest capacity in God's army.",
+     "creator": "belief-it-or-not",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2022-01-22T09:49:53Z",
+     "role": "unknown",
+     "t": 922.48,
+     "title": "The Problem With The Lord's Army",
+     "video_id": "MtLTZXrg4V0"
     }
    ],
    "creators": {
-    "reasonable-faith-org": 1
+    "belief-it-or-not": 1
    },
    "n": 1,
    "text": {
@@ -1570,28 +1991,80 @@
    },
    "truncated": false
   },
-  "1 John 3:9": {
+  "1 John 4:1": {
    "citations": [
     {
-     "confidence": 0.8968,
-     "context": "He who commits sin is of the devil, for the devil has sinned from the beginning. The reason the Son of God appeared was to destroy the works of the devil. No one born of God commits sin, for God's nature abides in him, and he cannot sin because he is born of God. Now, does John mean that once you are born of God, once you are a regenerate Christian, that you will live a sinless life?",
-     "creator": "reasonable-faith-org",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2026-01-26T06:51:52Z",
+     "confidence": 0.5714,
+     "context": "First John chapter 4, verses 1 to 3. And one might say this shows that the testimony of the Holy Spirit is not self-authenticating, but it needs to be tested. In 1 John chapter 4, 1 to 3, John says, Beloved do not believe every spirit, but test the spirits to see whether they are of God. For many false prophets have gone out into the world. By this you know the Spirit of God.",
+     "creator": "drcraigvideos",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2011-05-23T09:18:50Z",
      "role": "host",
-     "t": 971.8,
-     "title": "Doctrine of Salvation Part 10: What Is \"Born Again?\" || Defenders LIVE!",
-     "video_id": "A9sgZclKIko"
+     "t": 378.76,
+     "title": "Belief in God as Properly Basic - Part 2 - William Lane Craig",
+     "video_id": "MNiV7cUrYQc"
+    },
+    {
+     "confidence": 0.7619,
+     "context": "Maybe it was both in some cases. I don't always know. I probably usually don't know. But here are some aspects we can have on this. And the scripture does give us some guidelines. So the first one I'm going to share is in 1 John chapter 4, verse 2 and 3. And here it says, Beloved, do not believe every spirit, but test the spirits. Okay. This is scripture giving us a test of how to examine whether something is from God or not, whether they are of God. Because many false prophets have gone out into the world. By this you know the Spirit of God.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-04-19T22:06:31Z",
+     "role": "host",
+     "t": 492.64,
+     "title": "10 Questions with Mike Winger (Episode 11)",
+     "video_id": "o8klceUIeps"
+    },
+    {
+     "confidence": 0.5714,
+     "context": "And then he finally says, take up the helmet of salvation and the sword of the spirit, which is the word of God. John in 1 John chapter 4 says this, dear friends, do not believe every spirit, but test the spirits to see whether they are from God. Because many false prophets have gone out into the world. This is how you can recognize the Spirit of God.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-09-03T01:00:06Z",
+     "role": "host",
+     "t": 2542.72,
+     "title": "The Demon Delusion? Recent Evidence They Exist",
+     "video_id": "oA8erNqsaT4"
+    },
+    {
+     "confidence": 0.5714,
+     "context": "First Thessalonians 5 21, test all things, hold fast what is good. That is the definition of deconstruction. I'm going to test all of it. Nothing's off limits, nothing is taboo, nothing is sacred. And then I'll hold on to what's left, what is good, what passed the test. First John 4 1, dear friends, do not believe every spirit, but test the spirits to see whether they are from God, because many false prophets have gone out into the world. So when I hear someone like Dr. Craig say, hey, hey, hey, hey, hey, you don't want to really look at that. You don't want to really deconstruct that.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-07-02T14:00:43Z",
+     "role": "unattributed",
+     "t": 715.28,
+     "title": "Dead Wrong On Deconstruction: William Lane Craig's Terrible Take!",
+     "video_id": "pWSxIccl8Ps"
+    },
+    {
+     "confidence": 0.5714,
+     "context": "So that this is essential to the doctrine of the person of Christ, just as much as his deity. First John chapter 4, verses 1 to 3. Beloved, do not believe every spirit, but test the spirits to see whether they are of God, for many false prophets have gone out into the world. By this you know the Spirit of God.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-04-02T16:25:43Z",
+     "role": "host",
+     "t": 822.36,
+     "title": "⚔️ 📺 Defenders LIVE! 🔥New Section: The Person & Work of Christ pt 1📺🤺",
+     "video_id": "pyM2glsVBb4"
     }
    ],
    "creators": {
+    "cross-examined": 1,
+    "drcraigvideos": 1,
+    "mike-winger": 1,
+    "mindshift": 1,
     "reasonable-faith-org": 1
    },
-   "n": 1,
+   "n": 5,
    "text": {
-    "KJV": "Whosoever is born of God doth not commit sin; for his seed remaineth in him: and he cannot sin, because he is born of God.",
-    "WEB": "Whoever is born of God doesn’t commit sin, because his seed remains in him, and he can’t sin, because he is born of God."
+    "KJV": "Beloved, believe not every spirit, but try the spirits whether they are of God: because many false prophets are gone out into the world.",
+    "WEB": "Beloved, don’t believe every spirit, but test the spirits, whether they are of God, because many false prophets have gone out into the world."
    },
    "truncated": false
   },
@@ -1608,41 +2081,66 @@
      "t": 45.44,
      "title": "The Humanity of Jesus",
      "video_id": "K3rmj4YTizI"
+    },
+    {
+     "confidence": null,
+     "context": "What Alvin Planig has called the great truths or the great things of the gospel. And this assurance doesn't come from human arguments or evidence, but directly comes from the Holy Spirit himself. Now, somebody might disagree with me about this by pointing to 1 John chapter 4, verses 1 to 3. First John chapter 4, verses 1 to 3. And one might say this shows that the testimony of the Holy Spirit is not self-authenticating, but it needs to be tested.",
+     "creator": "drcraigvideos",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2011-05-23T09:18:50Z",
+     "role": "host",
+     "t": 360.2,
+     "title": "Belief in God as Properly Basic - Part 2 - William Lane Craig",
+     "video_id": "MNiV7cUrYQc"
+    },
+    {
+     "confidence": null,
+     "context": "And this assurance doesn't come from human arguments or evidence, but directly comes from the Holy Spirit himself. Now, somebody might disagree with me about this by pointing to 1 John chapter 4, verses 1 to 3. First John chapter 4, verses 1 to 3. And one might say this shows that the testimony of the Holy Spirit is not self-authenticating, but it needs to be tested. In 1 John chapter 4, 1 to 3, John says, Beloved do not believe every spirit, but test the spirits to see whether they are of God.",
+     "creator": "drcraigvideos",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2011-05-23T09:18:50Z",
+     "role": "host",
+     "t": 367.16,
+     "title": "Belief in God as Properly Basic - Part 2 - William Lane Craig",
+     "video_id": "MNiV7cUrYQc"
+    },
+    {
+     "confidence": null,
+     "context": "But in fact, the affirmation that Jesus was truly human is essential to Christian doctrine. Indeed, in 1 John chapter 4, verses 1 to 3, we're told that if if you do not affirm the true humanity of Christ, you are a heretic. So that this is essential to the doctrine of the person of Christ, just as much as his deity.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2023-04-02T16:25:43Z",
+     "role": "host",
+     "t": 799.16,
+     "title": "⚔️ 📺 Defenders LIVE! 🔥New Section: The Person & Work of Christ pt 1📺🤺",
+     "video_id": "pyM2glsVBb4"
+    },
+    {
+     "confidence": null,
+     "context": "So that this is essential to the doctrine of the person of Christ, just as much as his deity. First John chapter 4, verses 1 to 3. Beloved, do not believe every spirit, but test the spirits to see whether they are of God, for many false prophets have gone out into the world.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2023-04-02T16:25:43Z",
+     "role": "host",
+     "t": 818.36,
+     "title": "⚔️ 📺 Defenders LIVE! 🔥New Section: The Person & Work of Christ pt 1📺🤺",
+     "video_id": "pyM2glsVBb4"
     }
    ],
    "creators": {
-    "drcraigvideos": 1
+    "drcraigvideos": 3,
+    "reasonable-faith-org": 2
    },
-   "n": 1,
+   "n": 5,
    "text": {},
    "truncated": false
   },
   "1 John 4:10": {
    "citations": [
-    {
-     "confidence": 0.8462,
-     "context": "So it's an encouragement that we can be completely honest and open with God since he knows us so thoroughly anyway, and yet he loves us completely. And so there's a real assurance here that even though he knows everything about us, all the ugliness, all the shortfalls, all the deficits, nevertheless, he loves us so much that he sent his son to die for us, to redeem us, and to take us into everlasting fellowship with himself.",
-     "creator": "drcraigvideos",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-12-05T21:30:01Z",
-     "role": "host",
-     "t": 76.88,
-     "title": "Why does God's omniscience matter?",
-     "video_id": "1649CVk-aCs"
-    },
-    {
-     "confidence": 0.8594,
-     "context": "All are born in it. It's something we all deserve, whether it's because of the lie we told last night or the ego we had a decago decade ago, there is wrath stored up and ready to be poured out on us for our sin. But God loved us so much that he sent His Son to die so that we wouldn't have to. He reckoned His Son guilty so that we would be declared innocent. He made him to be who knew no sin to be sinned so that we might become the righteousness of God. None of that, none of it would be possible if God did not choose to become a baby.",
-     "creator": "jackie-hill-perry",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2020-12-21T00:41:14Z",
-     "role": "host",
-     "t": 1683.24,
-     "title": "Oh Holy Night",
-     "video_id": "5ALRUMILjZ8"
-    },
     {
      "confidence": 0.8182,
      "context": "But more verses. Romans 8 32, he who did not spare his own son, but gave him up for us all. Again, putting the onus on God the Father. And first John 4 9 through 10, God sent his only son into the world so that we might live through him. In this is love. Not that we loved God, but that he loved us and sent his son to be the atoning sacrifice for our sins. In terms of fallacious argumentation, it seems to be only coming from red pen logic here. You can't on one hand brag about how amazing it is and how hard it was for God.",
@@ -1654,11 +2152,34 @@
      "t": 590.2,
      "title": "The Strawman Defense: Christianity’s Escape Hatch",
      "video_id": "6L5mULjqi_8"
+    },
+    {
+     "confidence": 0.7273,
+     "context": "Therefore, God, as the morally perfect being must be all loving. And this is exactly what the Bible affirms. The Bible says, God is love. In this is love, not that we loved God, but that He loved us and sent His Son to be the sacrifice for our sins. Or again it says, God shows His love for us in that while we were yet sinners, Christ died for us.",
+     "creator": "drcraigvideos",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2008-01-27T08:14:27Z",
+     "role": "host",
+     "t": 117.6,
+     "title": "How do Muslims Conceive of God?",
+     "video_id": "OS8_iu3TSWs"
+    },
+    {
+     "confidence": 0.6818,
+     "context": "On the one hand, we see God's love. Jesus died in our place. He voluntarily took upon himself the death penalty of sin that we deserved. The Bible says, in this is love, not that we loved God, but that he loved us and set his Son to be the atoning sacrifice for our sins. But at the cross, we also see God's wrath, as his just judgment is poured out upon sin.",
+     "creator": "drcraigvideos",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2011-05-01T22:46:26Z",
+     "role": "host",
+     "t": 442.24,
+     "title": "Can a Loving God Send People to Hell? (William Lane Craig vs Ray Bradley)",
+     "video_id": "Y-EP6LVhYOc"
     }
    ],
    "creators": {
-    "drcraigvideos": 1,
-    "jackie-hill-perry": 1,
+    "drcraigvideos": 2,
     "mindshift": 1
    },
    "n": 3,
@@ -1696,20 +2217,20 @@
   "1 John 4:13": {
    "citations": [
     {
-     "confidence": 0.7724,
-     "context": "Finally, fourth, it is a source of security for us as believers. Insofar as we abide in Christ and He in us, we are eternally secure. We are redeemed, we are sealed, we are a new creation, justified, sanctified, and all the rest.",
-     "creator": "reasonable-faith-org",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2026-01-18T19:36:18Z",
+     "confidence": 0.7222,
+     "context": "Now John teaches exactly the same thing in 1 John chapter 3, verse 24 and chapter 4, verse 13. 1 John 3, 24 and 4, 13. All who keep his commandments abide in him and he in them, and by this we know that he abides in us by the Spirit which he has given us. And then verse 13, by this we know that we abide in him and he in us, because he has given us of his own spirit.",
+     "creator": "drcraigvideos",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2011-05-23T09:18:50Z",
      "role": "host",
-     "t": 783.96,
-     "title": "// Defenders LIVE! //",
-     "video_id": "6Ycs05uCtlU"
+     "t": 599.8,
+     "title": "Belief in God as Properly Basic - Part 2 - William Lane Craig",
+     "video_id": "MNiV7cUrYQc"
     }
    ],
    "creators": {
-    "reasonable-faith-org": 1
+    "drcraigvideos": 1
    },
    "n": 1,
    "text": {
@@ -1718,82 +2239,8 @@
    },
    "truncated": false
   },
-  "1 John 4:14": {
-   "citations": [
-    {
-     "confidence": 0.8115,
-     "context": "Romans 8 32, he who did not spare his own son, but gave him up for us all. Again, putting the onus on God the Father. And first John 4 9 through 10, God sent his only son into the world so that we might live through him. In this is love. Not that we loved God, but that he loved us and sent his son to be the atoning sacrifice for our sins. In terms of fallacious argumentation, it seems to be only coming from red pen logic here. You can't on one hand brag about how amazing it is and how hard it was for God.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-09-02T14:00:09Z",
-     "role": "host",
-     "t": 591.48,
-     "title": "The Strawman Defense: Christianity’s Escape Hatch",
-     "video_id": "6L5mULjqi_8"
-    }
-   ],
-   "creators": {
-    "mindshift": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "And we have seen and do testify that the Father sent the Son to be the Saviour of the world.",
-    "WEB": "We have seen and testify that the Father has sent the Son as the Savior of the world."
-   },
-   "truncated": false
-  },
-  "1 John 4:15": {
-   "citations": [
-    {
-     "confidence": 0.7591,
-     "context": "Don't let don't let the church be more strategic than us in that regard. You know. That's that's what we can do. This is why I like like you go into the Christian section of a bookstore. It's not books like Why Jesus is the Son of God. It's not books like Was Mary a Perpetual Virgin. It's not books like John's Greatest Revelation Yet.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-06-01T05:18:28Z",
-     "role": "host",
-     "t": 4442.8,
-     "title": "How Do You Help People Deconstruct // A Quick Chat",
-     "video_id": "8fjQbAy0vCU"
-    }
-   ],
-   "creators": {
-    "darante-lamar": 1
-   },
-   "n": 1,
-   "text": {
-    "KJV": "Whosoever shall confess that Jesus is the Son of God, God dwelleth in him, and he in God.",
-    "WEB": "Whoever confesses that Jesus is the Son of God, God remains in him, and he in God."
-   },
-   "truncated": false
-  },
   "1 John 4:16": {
    "citations": [
-    {
-     "confidence": 0.817,
-     "context": "The foundational proclamation that God loved the world and gave his Son to save it in John 3.16 cannot be reconciled to oneness theology. Such a distortion of the faith would undermine the glorious truth that God is love, and that this eternal love is fully revealed by the love that is shared between the Father, the Son, and the Holy Spirit.",
-     "creator": "counsel-of-trent",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-06-02T13:00:02Z",
-     "role": "host",
-     "t": 1538.96,
-     "title": "The Biggest Heresy You Rarely Hear About",
-     "video_id": "0lxDzsfpdMk"
-    },
-    {
-     "confidence": 0.7896,
-     "context": "Many children get mad at their parents and say things like, Mommy, I hate you. And the loving mother just pats them on the head and tells them to take their bath and come for dinner after that. Whatever this guy was telling you was incompatible with love. And Jesus teaches us that God is love and that the whole law is based on love. The fruit of the encounter with him was evil, not loving or encouraging. So you can safely discard whatever he told you as bad theology. So a few things here. It is getting redundant, but first of all, they're still trying to compare something else to make OP understand.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2026-03-24T14:00:18Z",
-     "role": "host",
-     "t": 1501.84,
-     "title": "The Most Disturbing Thing About This Isn’t the Pastor",
-     "video_id": "7c9QTPyv0_Y"
-    },
     {
      "confidence": null,
      "context": "And when Christians tell people that God loves them or Jesus loves them, they aren't anticipating having to take out a dictionary so people understand what they are referring to when they say love. But that is not a biblical definition. First John chapter 4, verse 16 says that God is love. That means that he does not possess love as we do. And therefore cannot do anything that is unloving.",
@@ -1808,11 +2255,9 @@
     }
    ],
    "creators": {
-    "belief-it-or-not": 1,
-    "counsel-of-trent": 1,
-    "mindshift": 1
+    "belief-it-or-not": 1
    },
-   "n": 3,
+   "n": 1,
    "text": {
     "KJV": "And we have known and believed the love that God hath to us. God is love; and he that dwelleth in love dwelleth in God, and God in him.",
     "WEB": "We know and have believed the love which God has for us. God is love, and he who remains in love remains in God, and God remains in him."
@@ -1822,16 +2267,16 @@
   "1 John 4:18": {
    "citations": [
     {
-     "confidence": 0.7426,
-     "context": "We're told that the Son of God took on flesh to free those who all their lives were held in slavery to the fear of death. Like that's the fundamental purpose of the incarnation. It was to free us from our slavery to the fear of death. That is, Christians ought to be ought to be a fearless people who, when we go through our lives, and Christ has called us to do things that may seem ridiculous to the world, that fear is not a reason to not do what Christ has called called us to do. Because there's nothing for us to be afraid of.",
-     "creator": "jude-3-project",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-09-16T13:30:03Z",
+     "confidence": 0.5909,
+     "context": "That is our New Testament definition of love. And yes, that love is also agape. So we're being very consistent here. And then just for kicks, I want to read first John 4 18. There is no fear in love, but perfect love drives out fear, because fear has to do with punishment. The one who fears is not made perfect in love. What a verse. Hang on to that as we get into some of the questions that we're going to cover. So hopefully at this point we have set the base that we are indeed commanded to love.",
+     "creator": "mindshift",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-12-31T15:00:09Z",
      "role": "host",
-     "t": 84.24,
-     "title": "Wealth & the fear of death...",
-     "video_id": "3j9x_X_GhDk"
+     "t": 326.72,
+     "title": "Commanded To Love: A Paradoxical Demand",
+     "video_id": "CGSY4RKKpqk"
     },
     {
      "confidence": 0.5,
@@ -1847,8 +2292,7 @@
     }
    ],
    "creators": {
-    "jude-3-project": 1,
-    "mindshift": 1
+    "mindshift": 2
    },
    "n": 2,
    "text": {
@@ -1857,8 +2301,69 @@
    },
    "truncated": false
   },
+  "1 John 4:19": {
+   "citations": [
+    {
+     "confidence": 1.0,
+     "context": "Did you think reading the Bible and praying gets you into heaven? Like this is not how it works. So that seems to be uh fundamentally not appreciating. And maybe if you do appreciate the cross, maybe if you do see the grace of Christ, you will find yourself more motivated by love. Because the scripture tells us we love him because he first loved us. The reason you love God is not because you're such a great guy, right? Or you're such a great girl, and you're like, you just love God because you're so wonderful. Of course I love God. I'm amazing, and he's amazing. So I'm loving the amazing one because we're both amazing.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2022-06-24T21:58:11Z",
+     "role": "host",
+     "t": 3947.08,
+     "title": "20 Questions with Pastor Mike (Episode 76)",
+     "video_id": "m3RMahyUqSY"
+    },
+    {
+     "confidence": 1.0,
+     "context": "You suffered, you lived perfectly. You you rose from the dead and you did it for me, and you gave me life and life eternal and relationship with God. Like when you see what he's given you, I'm sorry. Can you can you not help but love God because he has loved you so much? This is why scripture says, We love Him because he first loved us. Think about the love God's given you. Think about the treasure you have in His Holy Word. Get excited about those things, and it should change how you handle it, I hope.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2022-06-24T21:58:11Z",
+     "role": "host",
+     "t": 4102.16,
+     "title": "20 Questions with Pastor Mike (Episode 76)",
+     "video_id": "m3RMahyUqSY"
+    }
+   ],
+   "creators": {
+    "mike-winger": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "We love him, because he first loved us.",
+    "WEB": "We love him, because he first loved us."
+   },
+   "truncated": false
+  },
   "1 John 4:2": {
    "citations": [
+    {
+     "confidence": 0.6,
+     "context": "I'm just saying I think it happens, and that's why we need to discern and distinguish what's going on with prophecy. First John 4 1 through 3. Um, it not only shows us that it was tested, but it actually kind of shows us how it was tested. This will this is interesting. So back to that same verse. It says, But this you know, by this you know the spirit of God. This is how to test prophecy. Every spirit that confesses that Jesus Christ has come in the flesh is from God, and every spirit that does not confess Jesus is not from God. This is specifically like how to really distinguish between the polar opposites of evil versus good, evil versus something coming from God.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-04T15:42:41Z",
+     "role": "host",
+     "t": 8986.2,
+     "title": "5 Views on “Women Keep Silent\" (1 Cor 14:35-36): Women in Ministry part 11",
+     "video_id": "3nPcu7RCVXY"
+    },
+    {
+     "confidence": 0.8,
+     "context": "In 1 John chapter 4, 1 to 3, John says, Beloved do not believe every spirit, but test the spirits to see whether they are of God. For many false prophets have gone out into the world. By this you know the Spirit of God. Every spirit which confesses that Jesus Christ has come in the flesh is of God, and every spirit which does not confess Jesus is not of God.",
+     "creator": "drcraigvideos",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2011-05-23T09:18:50Z",
+     "role": "host",
+     "t": 392.44,
+     "title": "Belief in God as Properly Basic - Part 2 - William Lane Craig",
+     "video_id": "MNiV7cUrYQc"
+    },
     {
      "confidence": 0.7,
      "context": "And that's his sign. It states, Beloved, do not believe every spirit, but test the spirits to see whether they are from God. For many false prophets have gone out into the world. By this you know the Spirit of God. Every spirit that confesses that Jesus Christ has come in the flesh is from God, and every spirit that does not confess Jesus is not from God. When something besides the Holy Spirit is actually leading someone's life, that person's life will be marked by a personal self-exaltation or having an alternative idol in their life where they're exalting this other person or thing.",
@@ -1870,16 +2375,65 @@
      "t": 1842.68,
      "title": "When God Tells People to Kill  | Belief It Or Not",
      "video_id": "UWvxTM8gLcY"
+    },
+    {
+     "confidence": 0.8,
+     "context": "Please don't do that. Process it, work it through, think about it, and have convictions that are biblically grounded that you know about that you could you could figure it out on your own without me. It would be the idea. If you took me out of the picture, you could still come to this conclusion. All right, so by this you know the Spirit of God. Every spirit that confesses that Jesus Christ has come in the flesh is of God. Every spirit that does not confess that Jesus Christ has come in the flesh is not of God. And this is the spirit of the Antichrist. So this is uh sometimes misused in my opinion.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-04-19T22:06:31Z",
+     "role": "host",
+     "t": 535.76,
+     "title": "10 Questions with Mike Winger (Episode 11)",
+     "video_id": "o8klceUIeps"
+    },
+    {
+     "confidence": 0.8,
+     "context": "Beloved, do not believe every spirit, but test the spirits to see whether they are of God, for many false prophets have gone out into the world. By this you know the Spirit of God. Every spirit which confesses that Jesus Christ has come in the flesh is of God, and every spirit which does not confess Jesus is not of God.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-04-02T16:25:43Z",
+     "role": "host",
+     "t": 835.56,
+     "title": "⚔️ 📺 Defenders LIVE! 🔥New Section: The Person & Work of Christ pt 1📺🤺",
+     "video_id": "pyM2glsVBb4"
     }
    ],
    "creators": {
-    "belief-it-or-not": 1
+    "belief-it-or-not": 1,
+    "drcraigvideos": 1,
+    "mike-winger": 2,
+    "reasonable-faith-org": 1
    },
-   "n": 1,
+   "n": 5,
    "text": {
     "KJV": "Hereby know ye the Spirit of God: Every spirit that confesseth that Jesus Christ is come in the flesh is of God:",
     "WEB": "By this you know the Spirit of God: every spirit who confesses that Jesus Christ has come in the flesh is of God,"
    },
+   "truncated": false
+  },
+  "1 John 4:2-3": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "It's probably not just either or like a clean line. Was it me or was it the enemy? Maybe it was both in some cases. I don't always know. I probably usually don't know. But here are some aspects we can have on this. And the scripture does give us some guidelines. So the first one I'm going to share is in 1 John chapter 4, verse 2 and 3. And here it says, Beloved, do not believe every spirit, but test the spirits. Okay. This is scripture giving us a test of how to examine whether something is from God or not, whether they are of God.",
+     "creator": "mike-winger",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-04-19T22:06:31Z",
+     "role": "host",
+     "t": 485.92,
+     "title": "10 Questions with Mike Winger (Episode 11)",
+     "video_id": "o8klceUIeps"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {},
    "truncated": false
   },
   "1 John 4:20-21": {
@@ -1907,6 +2461,18 @@
   "1 John 4:4": {
    "citations": [
     {
+     "confidence": 0.5455,
+     "context": "Um I think that here we have a refutation for the doctrine of limited atonement. And there's others, but this is a pretty, pretty strong one. Um 4 5, it talks about you are of God, little children, and have overcome them, because he who's in you is greater than he who is in the world. They are of the world, therefore they speak as of the world, and the world hears them. We're talking about false teachers.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-05-26T22:44:33Z",
+     "role": "host",
+     "t": 7532.52,
+     "title": "20 Questions with Pastor Mike (Episode 100)",
+     "video_id": "TkbRU7QcQ_c"
+    },
+    {
      "confidence": null,
      "context": "Next is Vlad Savchuk and Hungry Generation, which has over two million followers on Instagram and YouTube. Vlad Savchuk teaches the false belief that Christians can have demons. This goes against 1 John 4, verse 4. Vlad also affirms false teachers like Greg Locke and Benny Hinn, which violates 2 John 1, verses 9 through 11. Vlad also mixes truth with error and always blames people's problems on demons, which goes against Romans 3, verses 10 through 18.",
      "creator": "belief-it-or-not",
@@ -1920,9 +2486,10 @@
     }
    ],
    "creators": {
-    "belief-it-or-not": 1
+    "belief-it-or-not": 1,
+    "mike-winger": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Ye are of God, little children, and have overcome them: because greater is he that is in you, than he that is in the world.",
     "WEB": "You are of God, little children, and have overcome them, because greater is he who is in you than he who is in the world."
@@ -1932,22 +2499,34 @@
   "1 John 4:5": {
    "citations": [
     {
-     "confidence": 0.8044,
-     "context": "You know, but no, no, no. We are we're not literally, we're not just in the world, we are a part of the world. We are of the world. The world is a part of the human condition, and so therefore, we owe each other the maintenance of the public world. We owe each other's truth for debate and for difference. I have urged this community since my name became a theme to resist the subtle march towards soundness that turns every conversation into a challenge of resistance.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-11-10T07:10:30Z",
+     "confidence": 0.7692,
+     "context": "And there's others, but this is a pretty, pretty strong one. Um 4 5, it talks about you are of God, little children, and have overcome them, because he who's in you is greater than he who is in the world. They are of the world, therefore they speak as of the world, and the world hears them. We're talking about false teachers. The world hears them. So the world here is individuals, and they're not Christians. That's the only defining quality they seem to have is they're not believers.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-05-26T22:44:33Z",
      "role": "host",
-     "t": 3021.2,
-     "title": "I Don't Owe You That // Sunday Sessions",
-     "video_id": "81YvrnIR1oM"
+     "t": 7541.08,
+     "title": "20 Questions with Pastor Mike (Episode 100)",
+     "video_id": "TkbRU7QcQ_c"
+    },
+    {
+     "confidence": 0.5385,
+     "context": "This is the spirit of antichrist, which you've heard was coming and is now already in the world. Well the the elect non-Christians, that's not the what is being taught there. Uh you were of God little children and overcome them because he who is in you is greater than he who is in the world. They are of the world, they speak as of the world, and the world hears them. We are of God. There's the world and there's us. The us are the saved ones, the world is the not saved ones, not just the elect, not saved, not yet, you know, brought into Christ once. That's not what it means in first John.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-03-28T21:19:32Z",
+     "role": "host",
+     "t": 1342.08,
+     "title": "When does my sin block my prayers according to Scripture? 10 Qs with Mike Winger (Ep 48)",
+     "video_id": "piyiAJljEi4"
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "mike-winger": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "They are of the world: therefore speak they of the world, and the world heareth them.",
     "WEB": "They are of the world. Therefore they speak of the world, and the world hears them."
@@ -1982,22 +2561,35 @@
   "1 John 4:7": {
    "citations": [
     {
-     "confidence": 0.7565,
-     "context": "In the Gospels, love is often portrayed as an expansive, son like force that falls on the just and the unjust. In first John, love is a border wall. It's the primary tool used to distinguish the children of God from the children of the devil. In 1 John chapter 4 and chapter 2, the author writes that everyone who loves has been born of God, which sounds beautiful until you read the neighboring verses. He defines the Antichrist as anyone who denies his specific Christology.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2026-02-18T14:30:05Z",
+     "confidence": 0.55,
+     "context": "What is the the proof the evidence that you that you know God? Well, it's love, it's love and compassion you have towards your fellow human beings. First John, right? Beloved, let us love one another for love is of God, and everyone that loves is born of God and knows God. And you guys know the song, He that loveth not knoweth not God, for God is love. Anyway, you know the song. Um, yeah, that's qualified with faith in Christ and trust in Christ. It's not like it's not like you look around and go, Well, they're a loving person, they must be saved.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-02-16T22:49:57Z",
      "role": "host",
-     "t": 40.88,
-     "title": "Conditional Love: The Bible's Controversial Border Wall of Belief #shorts",
-     "video_id": "9JDKbpT4nJ4"
+     "t": 2605.52,
+     "title": "10 Questions with Mike Winger (Episode 4)",
+     "video_id": "SJhRBhqCT9E"
+    },
+    {
+     "confidence": 0.65,
+     "context": "Now y'all ain't gotta agree with me. That's just where I am. With with that and and the love ethic, which I which I agree with too, my mind goes to 1 John. Beloved, let us love one another. For love is of God, and everyone that loveth is born of God and knows God. The one that loves not does not know God, for God is love. When the Bible says for God is love, it doesn't say love is God.",
+     "creator": "jude-3-project",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2019-10-11T01:00:09Z",
+     "role": "unknown",
+     "t": 4085.2,
+     "title": "Discerning Truth: What is Truth?",
+     "video_id": "nNuV03m2ufk"
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "jude-3-project": 1,
+    "mike-winger": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Beloved, let us love one another: for love is of God; and every one that loveth is born of God, and knoweth God.",
     "WEB": "Beloved, let’s love one another, for love is of God; and everyone who loves has been born of God and knows God."
@@ -2006,6 +2598,30 @@
   },
   "1 John 4:8": {
    "citations": [
+    {
+     "confidence": 1.0,
+     "context": "What is the the proof the evidence that you that you know God? Well, it's love, it's love and compassion you have towards your fellow human beings. First John, right? Beloved, let us love one another for love is of God, and everyone that loves is born of God and knows God. And you guys know the song, He that loveth not knoweth not God, for God is love. Anyway, you know the song. Um, yeah, that's qualified with faith in Christ and trust in Christ. It's not like it's not like you look around and go, Well, they're a loving person, they must be saved. Uh no, there's certainly more to it than that. The primary command in scripture is to love to love God.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-02-16T22:49:57Z",
+     "role": "host",
+     "t": 2610.72,
+     "title": "10 Questions with Mike Winger (Episode 4)",
+     "video_id": "SJhRBhqCT9E"
+    },
+    {
+     "confidence": null,
+     "context": "Thankfully, the reasonable God of Christianity also has a character at the root of which is love. 1 John 4 verse 8 tells us in no uncertain terms that God is love, and we have further reason to believe this to be true of God because of the ultimate display of self-sacrifice with Jesus and his death upon the cross and historical event attested by a range of extra-biblical sources, such as the writings of Josephus or Tacitus Annals.",
+     "creator": "jude-3-project",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2021-04-29T15:44:39Z",
+     "role": "host",
+     "t": 296.48,
+     "title": "Is God and the Universe the Same Thing? | Faith & Reason w/Clare Williams (Ep. 4)",
+     "video_id": "dVv8RK1EnQc"
+    },
     {
      "confidence": null,
      "context": "Here's looking at you, Judas. God is love, but will torture you forever. If God is love, why does he create, sustain, and justify eternal suffering? First John chapter 4, verse 8 states that God is love. But 2 Thessalonians chapter 1, verses 8 through 9 suggests that those who don't obey will suffer eternal destruction. If hell is real, God is responsible for it.",
@@ -2020,194 +2636,69 @@
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "darante-lamar": 1,
+    "jude-3-project": 1,
+    "mike-winger": 1
    },
-   "n": 1,
+   "n": 3,
    "text": {
     "KJV": "He that loveth not knoweth not God; for God is love.",
     "WEB": "He who doesn’t love doesn’t know God, for God is love."
    },
    "truncated": false
   },
-  "1 John 4:9": {
+  "1 John 5:15": {
    "citations": [
     {
-     "confidence": 0.8527,
-     "context": "This tells you how long this trend has been going on. You know what I'm saying? And that's why their goal was to get people to stop trending towards the world. You know, y'all, y'all remember for God so loved the world that he gave his only begotten son. What you don't remember is come out of the world, do not uh come out from among them. You know, yeah. You don't remember stuff like hell enlarges itself daily.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2024-09-04T16:25:14Z",
-     "role": "host",
-     "t": 743.52,
-     "title": "Why Is Religion Collapsing",
-     "video_id": "22S89QU5jhY"
-    },
-    {
-     "confidence": 0.8738,
-     "context": "So we had to pretend that we were loving, but we weren't, and we had to pretend we were loved, but we didn't we didn't really feel loved. Nope. And if all we had was God so loved the world he gave his only begotten son. Man, I started realizing I wasn't there for that shit. I don't see it. I don't even know your son, bro. Yeah, if that's all you got to show me love, I I I that ain't gonna never work for me then.",
-     "creator": "darante-lamar",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-02-03T02:10:27Z",
+     "confidence": null,
+     "context": "So I have a lot of Catholic friends who will quote um first John 5 to me to justify the difference between moral and venial sin. Okay. So they'll quote um 1 John 5 verse 15 or verse 16 through 17, and it says, if anyone sees his brother committing a sin not leading to death, he shall ask, and he shall ask God. Wait, wait.",
+     "creator": "cross-examined",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-03-20T02:00:47Z",
      "role": "unknown",
-     "t": 1428.52,
-     "title": "How Do You Love Without God // The X-Pastor Call-In Show 2.2",
-     "video_id": "2eDzf_GxHiY"
-    },
-    {
-     "confidence": 0.8214,
-     "context": "Sure. You have to look at yourself honestly. Yeah. Yeah. Absolutely, honestly, you have to be able to accuse yourself. And uh and understand that there is there's it's a great deal of mercy involved in the fact that I believe that God sent his son down to tell us, okay, I'm gonna ransom you people from your fallen nature.",
-     "creator": "counsel-of-trent",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-01-15T13:00:06Z",
-     "role": "unknown",
-     "t": 435.52,
-     "title": "Mel Gibson vs  Wesley Huff on Joe Rogan",
-     "video_id": "4VTK-xDyv6g"
-    },
-    {
-     "confidence": 0.8882,
-     "context": "So you have inconsistencies you would need to deal with first before you try to use that as an argument. But more verses. Romans 8 32, he who did not spare his own son, but gave him up for us all. Again, putting the onus on God the Father. And first John 4 9 through 10, God sent his only son into the world so that we might live through him. In this is love. Not that we loved God, but that he loved us and sent his son to be the atoning sacrifice for our sins. In terms of fallacious argumentation, it seems to be only coming from red pen logic here.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2025-09-02T14:00:09Z",
-     "role": "host",
-     "t": 584.52,
-     "title": "The Strawman Defense: Christianity’s Escape Hatch",
-     "video_id": "6L5mULjqi_8"
-    },
-    {
-     "confidence": 0.8568,
-     "context": "Can we get this? I want you to read this with me. For God so loved me that he gave his one and only son that if I believe in him, I will not perish but have eternal life. For God did not send his son into the world to condemn me, but to save me through him. God so loves me that he'll refrain from eternally torturing me if only I'll believe in his existence without him ever having given me good reason to do so.",
-     "creator": "prophet-of-zod",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2017-05-05T19:15:22Z",
-     "role": "unknown",
-     "t": 997.88,
-     "title": "Prophet of Zod vs. His Former Pastor - Part 2 of 2",
-     "video_id": "7YsTTa2frRo"
-    },
-    {
-     "confidence": 0.8444,
-     "context": "From the very first sentence, he sets up a straw man, which he then easily demolishes. He says, why would God need a blood sacrifice before God could love what he has created? And the doctrine of the atonement is that God so loved the world that he gave his only begotten son. It is the love of God that motivates the atoning sacrifice of Christ.",
-     "creator": "drcraigvideos",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2021-02-05T18:00:10Z",
-     "role": "host",
-     "t": 70.24,
-     "title": "Why Would God Need A Blood Sacrifice Before He Could Love His Creation?",
-     "video_id": "8ta-D-hdcFg"
+     "t": 7660.24,
+     "title": "LIVE from Wayne State University (Detroit, MI) - IDHEFTBAA",
+     "video_id": "vs1TPxgTer4"
     }
    ],
    "creators": {
-    "counsel-of-trent": 1,
-    "darante-lamar": 2,
-    "drcraigvideos": 1,
-    "mindshift": 1,
-    "prophet-of-zod": 1
-   },
-   "n": 6,
-   "text": {
-    "KJV": "In this was manifested the love of God toward us, because that God sent his only begotten Son into the world, that we might live through him.",
-    "WEB": "By this God’s love was revealed in us, that God has sent his only born Son into the world that we might live through him."
-   },
-   "truncated": false
-  },
-  "1 John 5:10": {
-   "citations": [
-    {
-     "confidence": 0.7911,
-     "context": "There's just all this emphasis on no one is ever since God, but the Son of God has revealed him. The you know, Christ is the icon of the invisible God, um, and so on. So that's the tradition, and that's what you see in uh not just the Jewish literature and the New Testament, but in very explicitly in Justin Martyr and Irenaeus and on on and on.",
-     "creator": "capturing-christianity",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2024-10-25T21:41:36Z",
-     "role": "unknown",
-     "t": 5042.92,
-     "title": "Monarchical Trinity VS Thomistic Trinity: Which View Prevails?",
-     "video_id": "8AuORf-bJzo"
-    }
-   ],
-   "creators": {
-    "capturing-christianity": 1
+    "cross-examined": 1
    },
    "n": 1,
    "text": {
-    "KJV": "He that believeth on the Son of God hath the witness in himself: he that believeth not God hath made him a liar; because he believeth not the record that God gave of his Son.",
-    "WEB": "He who believes in the Son of God has the testimony in himself. He who doesn’t believe God has made him a liar, because he has not believed in the testimony that God has given concerning his Son."
+    "KJV": "And if we know that he hear us, whatsoever we ask, we know that we have the petitions that we desired of him.",
+    "WEB": "And if we know that he listens to us, whatever we ask, we know that we have the petitions which we have asked of him."
    },
    "truncated": false
   },
-  "1 John 5:13": {
+  "1 John 5:17": {
    "citations": [
     {
-     "confidence": 0.8156,
-     "context": "And it seems like that's a pretty important thing. So why not include a Lord uh the the Last Supper narrative, especially if that's the like the first Eucharistic event. Yeah. Yeah, so like there at the end of John 20, he says, you could have filled tons of books with the things that Christ did, but I've chosen these things basically so that you may believe in Christ and in believing in his name that you might have life. So which brings us back to the question of salvation, um, because salvation is just participation in divine life, which for a sinful creature entails, you know, regeneration, reconciliation.",
-     "creator": "capturing-christianity",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2025-09-25T19:29:31Z",
-     "role": "host",
-     "t": 1106.16,
-     "title": "Defending the Eucharist Q&A with Fr. Gregory Pine",
-     "video_id": "2aDcnN4xCs8"
-    },
-    {
-     "confidence": 0.8057,
-     "context": "And so that's why after that blessing on Thomas, it goes on to say Jesus did many other signs in the presence of the disciples, which are not written in this book, but these are written so that you may believe that Jesus is the Christ, the Son of God.",
-     "creator": "drcraigvideos",
-     "detection_method": "embedding_match",
-     "matched_translation": "KJV",
-     "published_at": "2017-03-15T22:00:07Z",
-     "role": "host",
-     "t": 130.2,
-     "title": "Is Blind Faith Better Than Belief Based on Evidence?",
-     "video_id": "6mql-TZuBGE"
-    },
-    {
-     "confidence": 0.8036,
-     "context": "Again, Joshua's genocide through Canaan becomes about the defeat of sin. Even Rahab's red cord symbolizes the blood and sacrifice of Jesus Christ. It's so utterly ridiculous. But again, it is what one has to do if one otherwise wants to continue to believe in the goodness of this God while admitting that these scriptures actually say the things they do say. And the church loved it for the most part when it comes to allegory.",
-     "creator": "mindshift",
-     "detection_method": "embedding_match",
+     "confidence": 1.0,
+     "context": "Um, or sin unto death. One of those phrases will probably pop up. Several places I've talked about first John 5.17. But in the passage here, just to answer your question briefly before I move on. Um, does first John 5.17 have anything to do with that? Is sin only sin when it causes death? Unright, all unrighteousness is sin. Again, sin is a broad umbrella category. All unrighteousness is sin, and there is sin not leading to death. To answer your question, there is sin which does not lead to death. There is sin which does lead to death.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
      "matched_translation": "WEB",
-     "published_at": "2025-06-12T14:00:09Z",
+     "published_at": "2024-06-07T21:40:07Z",
      "role": "host",
-     "t": 1688.84,
-     "title": "The Brilliant Heretic: Too Smart for the Bible, Too Stubborn to Let Go!",
-     "video_id": "70ik0WSo-OM"
+     "t": 3950.6,
+     "title": "10 Questions with Mike Winger (Episode 17)",
+     "video_id": "kM43YjPQLhU"
     }
    ],
    "creators": {
-    "capturing-christianity": 1,
-    "drcraigvideos": 1,
-    "mindshift": 1
+    "mike-winger": 1
    },
-   "n": 3,
+   "n": 1,
    "text": {
-    "KJV": "These things have I written unto you that believe on the name of the Son of God; that ye may know that ye have eternal life, and that ye may believe on the name of the Son of God.",
-    "WEB": "These things I have written to you who believe in the name of the Son of God, that you may know that you have eternal life, and that you may continue to believe in the name of the Son of God."
+    "KJV": "All unrighteousness is sin: and there is a sin not unto death.",
+    "WEB": "All unrighteousness is sin, and there is sin not leading to death."
    },
    "truncated": false
   },
   "1 John 5:19": {
    "citations": [
-    {
-     "confidence": 0.8106,
-     "context": "Jesus refers to Satan as the ruler, or some translations might say the prince of this world. Paul in Ephesians 2 says uh of Satan, the prince of the power of the air. And John writes in 1 John 5 19 that the whole world is in the power of the evil one. Now, what do these verses mean? Does it mean that uh Satan has all the power and God has no power? No, it doesn't mean that.",
-     "creator": "cross-examined",
-     "detection_method": "embedding_match",
-     "matched_translation": "WEB",
-     "published_at": "2026-06-03T01:00:06Z",
-     "role": "host",
-     "t": 2294.52,
-     "title": "Be Worthy of the Bullet That Charlie Kirk Took For You — Why Independence Day? w/Steve Deace + Q&A",
-     "video_id": "6XDtTJMRYmA"
-    },
     {
      "confidence": 0.5,
      "context": "But we continue. James 4, 4. Whoever wishes to be a friend of the world makes himself an enemy of God. First John 5 19, the whole world lies in the power of the evil one. And Isaiah 13 11, I will punish the world for its evil and the wicked for their iniquity. Can you see from those verses why someone might get the crazy idea that the world itself is evil, is corrupt, is corrupting you.",
@@ -2294,12 +2785,11 @@
     }
    ],
    "creators": {
-    "cross-examined": 1,
     "mindshift": 3,
     "prophet-of-zod": 1,
     "reasonable-faith-org": 3
    },
-   "n": 8,
+   "n": 7,
    "text": {
     "KJV": "And we know that we are of God, and the whole world lieth in wickedness.",
     "WEB": "We know that we are of God, and the whole world lies in the power of the evil one."
@@ -2308,6 +2798,18 @@
   },
   "1 John 5:20": {
    "citations": [
+    {
+     "confidence": 0.8,
+     "context": "First John chapter 5 and verse 20. And we know that the Son of God has come and has given us understanding to know him who is true. And we are in him who is true, in his son, Jesus Christ.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-18T17:11:53Z",
+     "role": "host",
+     "t": 1316.72,
+     "title": "📺🤺 Watch Defenders LIVE! // Jesus as God in the NT (The Trinity pt 3) 📺🤺",
+     "video_id": "0AEcDx92Kjo"
+    },
     {
      "confidence": null,
      "context": "And nobody is higher. He says, Well, Christ has a true God. Right. The Father is a true God. Yeah. The very same author in 1 John 5, verse 20 tells you Jesus is true God too. What we don't ever hear, we don't ever hear that only the Father is a true God. We read that the Father is the one true God, or the Father is the only true God.",
@@ -2322,12 +2824,38 @@
     }
    ],
    "creators": {
-    "capturing-christianity": 1
+    "capturing-christianity": 1,
+    "reasonable-faith-org": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "And we know that the Son of God is come, and hath given us an understanding, that we may know him that is true, and we are in him that is true, even in his Son Jesus Christ. This is the true God, and eternal life.",
     "WEB": "We know that the Son of God has come and has given us an understanding, that we know him who is true; and we are in him who is true, in his Son Jesus Christ. This is the true God and eternal life."
+   },
+   "truncated": false
+  },
+  "1 John 5:21": {
+   "citations": [
+    {
+     "confidence": 1.0,
+     "context": "Um we are in constant danger of becoming idolaters, you know. Scripture in the New Testament even says, Little children keep yourself from idols. First John. Last thing he says in First John, little children, keep yourselves from idols. It's a it's a continual danger, a continual concern, and we should be continually aware of it. So lots of caution, abundance of concern for not turning our worship and our prayer towards images of any kind.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-01-10T22:56:55Z",
+     "role": "host",
+     "t": 3475.28,
+     "title": "How much should pastors be paid? 10 Qs with Mike Winger (Ep 41)",
+     "video_id": "1HVoYr5jg58"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Little children, keep yourselves from idols. Amen.",
+    "WEB": "Little children, keep yourselves from idols."
    },
    "truncated": false
   },
@@ -2369,12 +2897,25 @@
      "t": 553.72,
      "title": "The Justification 2x2 DEBATE (Horn/Akin vs. Nesan/Boyce)",
      "video_id": "ivf9I8TE6Fw"
+    },
+    {
+     "confidence": 0.7059,
+     "context": "The us are the saved ones, the world is the not saved ones, not just the elect, not saved, not yet, you know, brought into Christ once. That's not what it means in first John. First John 5 5. For whatever is born of God overcomes the world, and this is the victory that has overcome the world, our faith. He who who is he who overcomes the world, but he who believes that Jesus is the Son of God. This is part of that transition. You become transitioned from the world into Christ, and you overcome, and you are no longer part of it.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-03-28T21:19:32Z",
+     "role": "host",
+     "t": 1362.64,
+     "title": "When does my sin block my prayers according to Scripture? 10 Qs with Mike Winger (Ep 48)",
+     "video_id": "piyiAJljEi4"
     }
    ],
    "creators": {
-    "counsel-of-trent": 1
+    "counsel-of-trent": 1,
+    "mike-winger": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "For whatsoever is born of God overcometh the world: and this is the victory that overcometh the world, even our faith.",
     "WEB": "For whatever is born of God overcomes the world. This is the victory that has overcome the world: your faith."
@@ -2384,20 +2925,20 @@
   "1 John 5:5": {
    "citations": [
     {
-     "confidence": 0.8488,
-     "context": "So there's an inconsistency. Um, as for the term uh Jesus is the Son and God, I don't have time to discuss it here, but I would dispute that the Gospels actually teach that Jesus is God. Now notice ironically, he quotes Luke, who wrote Acts, to tell you that the Jews continue to observe temple sacrifices, but that's the same Luke and Acts that present Jesus and his followers as affirming the divine sonship of Jesus Christ.",
-     "creator": "capturing-christianity",
-     "detection_method": "embedding_match",
+     "confidence": 1.0,
+     "context": "That's not what it means in first John. First John 5 5. For whatever is born of God overcomes the world, and this is the victory that has overcome the world, our faith. He who who is he who overcomes the world, but he who believes that Jesus is the Son of God. This is part of that transition. You become transitioned from the world into Christ, and you overcome, and you are no longer part of it. But yeah, I just don't see it there, guys. I I uh respect my Calvinist brothers and sisters. I don't demonize it.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
      "matched_translation": "WEB",
-     "published_at": "2024-11-16T09:10:58Z",
+     "published_at": "2025-03-28T21:19:32Z",
      "role": "host",
-     "t": 8277.76,
-     "title": "DEBATE: The Islamic Dilemma | Sam Shamoun VS. Khalil Andani",
-     "video_id": "2joU6A55pgg"
+     "t": 1367.12,
+     "title": "When does my sin block my prayers according to Scripture? 10 Qs with Mike Winger (Ep 48)",
+     "video_id": "piyiAJljEi4"
     }
    ],
    "creators": {
-    "capturing-christianity": 1
+    "mike-winger": 1
    },
    "n": 1,
    "text": {
@@ -2406,19 +2947,78 @@
    },
    "truncated": false
   },
+  "1 John 5:6": {
+   "citations": [
+    {
+     "confidence": 0.7188,
+     "context": "1 John 5, 6 to 10. He says, This is he who came by water and blood, Jesus Christ, not with the water only, but with the water and the blood. And the Spirit is the witness because the Spirit is the truth. There are three witnesses, the Spirit, the water, and the blood.",
+     "creator": "drcraigvideos",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2011-05-23T09:18:50Z",
+     "role": "host",
+     "t": 653.44,
+     "title": "Belief in God as Properly Basic - Part 2 - William Lane Craig",
+     "video_id": "MNiV7cUrYQc"
+    }
+   ],
+   "creators": {
+    "drcraigvideos": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "This is he that came by water and blood, even Jesus Christ; not by water only, but by water and blood. And it is the Spirit that beareth witness, because the Spirit is truth.",
+    "WEB": "This is he who came by water and blood, Jesus Christ; not with the water only, but with the water and the blood. It is the Spirit who testifies, because the Spirit is the truth."
+   },
+   "truncated": false
+  },
+  "1 John 5:6-10": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "And John even contrasts the confidence which the Holy Spirit's testimony gives with the confidence brought by human evidence in 1 John chapter 5, verses 6 to 10. 1 John 5, 6 to 10.",
+     "creator": "drcraigvideos",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2011-05-23T09:18:50Z",
+     "role": "host",
+     "t": 637.44,
+     "title": "Belief in God as Properly Basic - Part 2 - William Lane Craig",
+     "video_id": "MNiV7cUrYQc"
+    }
+   ],
+   "creators": {
+    "drcraigvideos": 1
+   },
+   "n": 1,
+   "text": {},
+   "truncated": false
+  },
   "1 John 5:7": {
    "citations": [
     {
-     "confidence": 0.7412,
-     "context": "And they're like, oh yeah, well, apparently Jesus is the Son, the Father, and the Holy Ghost, and Jesus is his own dad. Is that what you're saying? And I'm like, how is that any more ridiculous than splitting the moon in half or writing a Pegasus to heaven? Or creating humans just to worship you?",
-     "creator": "apostate-aladdin",
-     "detection_method": "embedding_match",
+     "confidence": 0.5789,
+     "context": "You you guys you mentioned uh first John 5 7. Um I mean by significant difference. Um, for there are three that bear witness, one uh in heaven, the Father, the Word, and the Holy Spirit, and these three are one. That's in the New King James Version. The King James Version has it almost exactly that same way. Worded um let's look at say most new translations, right?",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
      "matched_translation": "KJV",
-     "published_at": "2023-12-28T13:44:51Z",
-     "role": "unknown",
-     "t": 6252.2,
-     "title": "Speak to an Exmuslim!",
-     "video_id": "AVEGTv8brnU"
+     "published_at": "2023-03-17T22:14:00Z",
+     "role": "host",
+     "t": 5323.6,
+     "title": "20 Questions with Pastor Mike (Episode 95)",
+     "video_id": "8cmhyC2PnWM"
+    },
+    {
+     "confidence": null,
+     "context": "Complete, yes, it was complete at that time, but we would never make the claim that we have the complete original manuscripts. They make that claim, we don't make that claim. And unchanged, well, that's a huge debate, and you and I can have this debate. There are about 40 verses that are in doubt. The last part of Mark, uh chapter 16, uh 9 to 20, possibly uh the story of the woman uh caught in adultery in uh John chapter 753 to John 8:11, and then first John 5:7 is a real contentious one. So there are some verses that are in doubt.",
+     "creator": "cross-examined",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-07-23T01:00:06Z",
+     "role": "host",
+     "t": 3775.48,
+     "title": "Why the Foundations of Islam Are Now Crumbling with Dr. Jay Smith @pfanderfilms - Part 2",
+     "video_id": "X5b8_dUoj9Y"
     },
     {
      "confidence": 0.5789,
@@ -2431,6 +3031,18 @@
      "t": 391.32,
      "title": "1-3 John: Catastrophic Claims! | Secular Bible Study (Episodes 62.63.64)",
      "video_id": "iPr97m_Hql8"
+    },
+    {
+     "confidence": 1.0,
+     "context": "And that doctrine does not depend in any way on the part of 1 John 5 7 called the Johannine Kama, that nearly all scholars agree, was not a part of the original manuscript of 1 John. One of the few verses in the New Testament that outright state the doctrine of the Trinity appears in chapter 5, verse 7 and 8 of the first epistle of John, reading in the King James Bible as there are three that bear record in heaven, the Father, the Word, and the Holy Ghost, and these three are one, and there are three that bear witness in earth, the Spirit and the water, and the blood, and these three agree in one.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2022-11-21T13:00:37Z",
+     "role": "unknown",
+     "t": 3492.28,
+     "title": "10 Changes Made to the Bible (REBUTTED)",
+     "video_id": "q2Kzi6p5Fj8"
     },
     {
      "confidence": 0.6842,
@@ -2446,11 +3058,13 @@
     }
    ],
    "creators": {
-    "apostate-aladdin": 1,
     "capturing-christianity": 1,
+    "counsel-of-trent": 1,
+    "cross-examined": 1,
+    "mike-winger": 1,
     "mindshift": 1
    },
-   "n": 3,
+   "n": 5,
    "text": {
     "KJV": "For there are three that bear record in heaven, the Father, the Word, and the Holy Ghost: and these three are one.",
     "WEB": "For there are three who testify:"
@@ -2459,6 +3073,30 @@
   },
   "1 John 5:7-8": {
    "citations": [
+    {
+     "confidence": null,
+     "context": "They certainly made a lot more accidental changes. They may have made a lot more intentional changes, and there's no way for us to know. Let me tell you about some of the intentional changes. In the King James Bible, 1 John chapter 5, verses 7 and 8, provides us with the only place in the entire New Testament where the doctrine of the Trinity is explicitly taught. The doctrine of the Trinity is that there are three persons in the Godhead, the Father, the Son, and the Holy Spirit. And those are not three gods, the three are one.",
+     "creator": "paulogia",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2021-03-22T13:30:03Z",
+     "role": "unknown",
+     "t": 543.88,
+     "title": "Errors in the Bible? (Frank Turek vs Bart Ehrman)",
+     "video_id": "hUBVb7pgGhc"
+    },
+    {
+     "confidence": null,
+     "context": "The doctrine of the Trinity is that there are three persons in the Godhead, the Father, the Son, and the Holy Spirit. And those are not three gods, the three are one. 1 John chapter 5, verses 7 and 8, in uh in the King James Bible, refers to there are three in heaven, the Father, the Word, and the Spirit, and these three are one. That's in the King James Bible, but it's not in the Greek manuscript.",
+     "creator": "paulogia",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2021-03-22T13:30:03Z",
+     "role": "unknown",
+     "t": 562.2,
+     "title": "Errors in the Bible? (Frank Turek vs Bart Ehrman)",
+     "video_id": "hUBVb7pgGhc"
+    },
     {
      "confidence": null,
      "context": "We happen to know about these, but we can never know about the ones that we don't know about. But if these snuck in, how many will we never find out about because we don't have the originals? He put Latin on screen, and that is a bad example. Because it was Latin translators who inserted the phrase the Father, the Word, and the Holy Ghost into 1 John 5, verses 7 and 8. This is the only explicitly Trinity affirming phrase in the New Testament. And it exists in none of the early Greek manuscripts, but only in the Latin texts.",
@@ -2473,14 +3111,62 @@
     }
    ],
    "creators": {
-    "paulogia": 1
+    "paulogia": 3
    },
-   "n": 1,
+   "n": 3,
    "text": {},
    "truncated": false
   },
   "1 John 5:8": {
    "citations": [
+    {
+     "confidence": 0.5,
+     "context": "For this is the testimony of God that he has borne witness to his son. He's talking there about the witness of the Spirit. Remember, there are three witnesses: the Spirit, the water, and the blood. And he says, this is the testimony of God that he has borne witness to his son. He who believes in the Son of God has the witness, the testimony in himself. So I think that John is teaching here that as great as the apostolic testimony is, and as credible as it is, it is it pales in comparison to the testimony of the Holy Spirit Himself, who lives within us and gives us testimony that this is true.",
+     "creator": "drcraigvideos",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2011-05-23T09:18:51Z",
+     "role": "host",
+     "t": 1594.92,
+     "title": "Belief in God as Properly Basic - Part 1 - William Lane Craig",
+     "video_id": "5AINrvqr-Is"
+    },
+    {
+     "confidence": 0.6,
+     "context": "Worded um let's look at say most new translations, right? So the NIV, the ESV, the CSB, the you name it, most new translations, other than the new King James Version. First John 5 7. For there are three that bear witness, three that testify, the spirit and the water and the blood, and these three agree. There's a whole section in verse 7 that's just missing. Verse 7 ends with three that testify, or three that bear witness, and then it goes to verse 8. Whereas in um New King James or others, after there's three that bear witness, it has in heaven the Father, the Word, and the Holy Spirit, and these three are one.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-03-17T22:14:00Z",
+     "role": "host",
+     "t": 5349.76,
+     "title": "20 Questions with Pastor Mike (Episode 95)",
+     "video_id": "8cmhyC2PnWM"
+    },
+    {
+     "confidence": 0.6,
+     "context": "1 John 5, 6 to 10. He says, This is he who came by water and blood, Jesus Christ, not with the water only, but with the water and the blood. And the Spirit is the witness because the Spirit is the truth. There are three witnesses, the Spirit, the water, and the blood.",
+     "creator": "drcraigvideos",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2011-05-23T09:18:50Z",
+     "role": "host",
+     "t": 653.44,
+     "title": "Belief in God as Properly Basic - Part 2 - William Lane Craig",
+     "video_id": "MNiV7cUrYQc"
+    },
+    {
+     "confidence": 0.65,
+     "context": "You were just one chapter off. That's fair. I do that too. Don't feel bad about it. Okay. First John 5, 6. This is he who came by water and blood, Jesus Christ, not only by water, but by water and blood. And it is the Spirit who bears witness because the Spirit is truth. And I'll just read on. For there are three that bear witness in heaven. The Father. Um, hold on. I'm bouncing around. I really want to do ESV for this. I'm gonna avoid a whole nother debate. That's gonna confuse our question. For there are three that testify the spirit and the water and the blood, and these three agree.",
+     "creator": "mike-winger",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-01-17T23:15:29Z",
+     "role": "host",
+     "t": 6158.64,
+     "title": "Why am I concerned about the Upside-Down Kingdom Bible? 10 Qs with Mike Winger (Ep 42)",
+     "video_id": "_jiUykcoJwo"
+    },
     {
      "confidence": 0.5,
      "context": "So the issue is that this part comes to us in later Latin manuscripts, not the earliest Greek. And the verse in question is 1 John 5, 7 through 8. It originally read, and I want to make sure I get this right, for there are three that testify the spirit, the water, and the blood. And these three are in agreement. But again, in later manuscripts, and mainly in the Latin ones, we have an additional phrase that's been inserted to help out here.",
@@ -2492,12 +3178,51 @@
      "t": 391.32,
      "title": "1-3 John: Catastrophic Claims! | Secular Bible Study (Episodes 62.63.64)",
      "video_id": "iPr97m_Hql8"
+    },
+    {
+     "confidence": 1.0,
+     "context": "And that doctrine does not depend in any way on the part of 1 John 5 7 called the Johannine Kama, that nearly all scholars agree, was not a part of the original manuscript of 1 John. One of the few verses in the New Testament that outright state the doctrine of the Trinity appears in chapter 5, verse 7 and 8 of the first epistle of John, reading in the King James Bible as there are three that bear record in heaven, the Father, the Word, and the Holy Ghost, and these three are one, and there are three that bear witness in earth, the Spirit and the water, and the blood, and these three agree in one.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2022-11-21T13:00:37Z",
+     "role": "unknown",
+     "t": 3492.28,
+     "title": "10 Changes Made to the Bible (REBUTTED)",
+     "video_id": "q2Kzi6p5Fj8"
+    },
+    {
+     "confidence": 0.5,
+     "context": "That particular statement, for there are three that bear record in heaven, the Father, the Word, and the Holy Ghost, and these three are one, has come under question by modern biblical scholars. It does not appear in any of our oldest manuscripts of this text. All of these instead read like this, for there are three that testify the spirit and the water and the blood, and the three are in agreement. Or there are three witness bearers, the spirit and the water, and the blood. Even early Christians that believed in the Trinity, such as Clement of Alexandria, when quoting this particular verse did not include the extra words, the Father, the Word, and the Holy Ghost.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-11-21T13:00:37Z",
+     "role": "unknown",
+     "t": 3530.68,
+     "title": "10 Changes Made to the Bible (REBUTTED)",
+     "video_id": "q2Kzi6p5Fj8"
+    },
+    {
+     "confidence": 0.5,
+     "context": "So it would have a role to play. Okay. Your basis for this scripturally is what Paul said that his spirit bears witness with our spirit, that we are the children of God. Yes, in Romans 8, but then also in 1 John, there's quite a bit about the witness of the Spirit and how there are three that bear witness the the Spirit, the water, and the blood. And he says, if we receive the testimony of men, the testimony of God is greater, and he who believes has the testimony in himself.",
+     "creator": "drcraigvideos",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2011-01-02T08:26:35Z",
+     "role": "host",
+     "t": 1183.08,
+     "title": "Religious Experience: Subjective or Objective?",
+     "video_id": "qjFyKaXv5uU"
     }
    ],
    "creators": {
+    "counsel-of-trent": 2,
+    "drcraigvideos": 3,
+    "mike-winger": 2,
     "mindshift": 1
    },
-   "n": 1,
+   "n": 8,
    "text": {
     "KJV": "And there are three that bear witness in earth, the Spirit, and the water, and the blood: and these three agree in one.",
     "WEB": "the Spirit, the water, and the blood; and the three agree as one."
