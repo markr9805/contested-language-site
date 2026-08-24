@@ -1,87 +1,60 @@
 {
  "concepts": [
   {
-   "creator_count": 76,
-   "distinctiveness": 9.48,
+   "creator_count": 58,
+   "distinctiveness": 11.24,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "witnesses hypothesis"
+  },
+  {
+   "creator_count": 57,
+   "distinctiveness": 11.22,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "minimal witnesses hypothesis"
+  },
+  {
+   "creator_count": 130,
+   "distinctiveness": 9.59,
    "note": null,
    "quotes": [],
    "signal": 0,
    "surface": "minimal witnesses"
   },
   {
+   "creator_count": 33,
+   "distinctiveness": 8.85,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "post bereavement hallucinations"
+  },
+  {
+   "creator_count": 46,
+   "distinctiveness": 8.59,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "bereavement hallucinations"
+  },
+  {
    "creator_count": 70,
-   "distinctiveness": 6.96,
+   "distinctiveness": 8.05,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "minimal facts"
+   "surface": "crucifixion victims"
   },
   {
-   "creator_count": 27,
-   "distinctiveness": 5.95,
+   "creator_count": 43,
+   "distinctiveness": 7.65,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "christian scholars"
-  },
-  {
-   "creator_count": 26,
-   "distinctiveness": 5.8,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "brute fact"
-  },
-  {
-   "creator_count": 32,
-   "distinctiveness": 5.7,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "transverse myelitis"
-  },
-  {
-   "creator_count": 51,
-   "distinctiveness": 5.65,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "risen jesus"
-  },
-  {
-   "creator_count": 118,
-   "distinctiveness": 5.18,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "empty tomb"
-  },
-  {
-   "creator_count": 29,
-   "distinctiveness": 4.41,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "greco roman"
-  },
-  {
-   "creator_count": 29,
-   "distinctiveness": 4.25,
-   "note": "critical of Christian apologetics",
-   "quotes": [
-    {
-     "context": "...warns against the intellectual inertia of [christian apologetics] allison if it's not a good...",
-     "t": 2718.84,
-     "video_id": "8qtfFPd_R_E"
-    },
-    {
-     "context": "...of the problem with things like [christian apologetics] sean seems to be coming to...",
-     "t": 159.56,
-     "video_id": "oCtrI4D60EI"
-    }
-   ],
-   "signal": 1,
-   "surface": "christian apologetics"
+   "surface": "post bereavement"
   }
  ],
  "coverage": {
@@ -95,44 +68,68 @@
  "display_name": "Paulogia",
  "entities": [
   {
-   "creator_count": 25,
-   "distinctiveness": 7.0,
+   "creator_count": 107,
+   "distinctiveness": 12.12,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "son of zebedee"
+   "surface": "welcome to pologia"
   },
   {
-   "creator_count": 25,
-   "distinctiveness": 6.62,
+   "creator_count": 84,
+   "distinctiveness": 11.77,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "volume three"
+   "surface": "welcome to paul"
   },
   {
-   "creator_count": 32,
-   "distinctiveness": 6.19,
+   "creator_count": 49,
+   "distinctiveness": 11.0,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "john lennox"
+   "surface": "genesis paradise lost"
   },
   {
-   "creator_count": 31,
-   "distinctiveness": 6.05,
+   "creator_count": 49,
+   "distinctiveness": 9.42,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "paul gia"
+   "surface": "genesis paradise"
   },
   {
-   "creator_count": 34,
-   "distinctiveness": 4.08,
+   "creator_count": 101,
+   "distinctiveness": 8.87,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "bart ehrman"
+   "surface": "answers news"
+  },
+  {
+   "creator_count": 62,
+   "distinctiveness": 8.53,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "ham and egg"
+  },
+  {
+   "creator_count": 58,
+   "distinctiveness": 8.44,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "egg news"
+  },
+  {
+   "creator_count": 46,
+   "distinctiveness": 7.74,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "genesis history"
   }
  ],
  "side": "deconstruction",

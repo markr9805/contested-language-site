@@ -1,108 +1,111 @@
 {
  "concepts": [
   {
-   "creator_count": 40,
-   "distinctiveness": 7.92,
+   "creator_count": 54,
+   "distinctiveness": 9.66,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "middle knowledge"
+   "surface": "ensemble hypothesis"
+  },
+  {
+   "creator_count": 53,
+   "distinctiveness": 9.63,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "world ensemble hypothesis"
   },
   {
    "creator_count": 34,
-   "distinctiveness": 7.41,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "freely choose"
+   "distinctiveness": 9.0,
+   "note": "negative stance against the concept of being uncaused out of nothing",
+   "quotes": [
+    {
+     "context": "...being uncaused out of nothing is [worse than magic] when you think about it at...",
+     "t": 187.56,
+     "video_id": "X7ETz52IkpU"
+    },
+    {
+     "context": "...out in talks this is really [worse than magic] when you think about it it's...",
+     "t": 334.6,
+     "video_id": "OvqSlggxRiA"
+    }
+   ],
+   "signal": 1,
+   "surface": "worse than magic"
   },
   {
-   "creator_count": 51,
-   "distinctiveness": 7.23,
+   "creator_count": 57,
+   "distinctiveness": 8.51,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "possible world"
+   "surface": "many worlds hypothesis"
   },
   {
-   "creator_count": 35,
-   "distinctiveness": 7.02,
+   "creator_count": 31,
+   "distinctiveness": 8.13,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "logically impossible"
+   "surface": "valid and binding"
   },
   {
-   "creator_count": 34,
-   "distinctiveness": 6.89,
+   "creator_count": 58,
+   "distinctiveness": 7.89,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "human freedom"
+   "surface": "worlds hypothesis"
+  },
+  {
+   "creator_count": 69,
+   "distinctiveness": 7.69,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "brought the universe"
+  },
+  {
+   "creator_count": 83,
+   "distinctiveness": 7.61,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "randomly ordered"
+  },
+  {
+   "creator_count": 30,
+   "distinctiveness": 7.6,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "flourishing of conscious"
+  },
+  {
+   "creator_count": 33,
+   "distinctiveness": 7.37,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "time and therefore"
   },
   {
    "creator_count": 27,
-   "distinctiveness": 6.56,
+   "distinctiveness": 7.09,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "atoning death"
+   "surface": "virtual particles"
   },
   {
-   "creator_count": 26,
-   "distinctiveness": 6.2,
+   "creator_count": 36,
+   "distinctiveness": 6.97,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "morally perfect"
-  },
-  {
-   "creator_count": 29,
-   "distinctiveness": 5.98,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "modern science"
-  },
-  {
-   "creator_count": 29,
-   "distinctiveness": 5.83,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "maximally great"
-  },
-  {
-   "creator_count": 32,
-   "distinctiveness": 5.58,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "human race"
-  },
-  {
-   "creator_count": 26,
-   "distinctiveness": 5.53,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "moral duties"
-  },
-  {
-   "creator_count": 25,
-   "distinctiveness": 5.48,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "origin of life"
-  },
-  {
-   "creator_count": 29,
-   "distinctiveness": 5.48,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "physical world"
+   "surface": "south pole"
   }
  ],
  "coverage": {
@@ -114,24 +117,7 @@
   "total_videos": 2303
  },
  "display_name": "drcraigvideos (William Lane Craig)",
- "entities": [
-  {
-   "creator_count": 73,
-   "distinctiveness": 6.01,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "jesus of nazareth"
-  },
-  {
-   "creator_count": 36,
-   "distinctiveness": 5.95,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "homo sapiens"
-  }
- ],
+ "entities": [],
  "side": "apologetics",
  "slug": "drcraigvideos"
 }

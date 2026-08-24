@@ -571,21 +571,21 @@
     }
    },
    "contact_facing": null,
-   "corpus_status": "pending-data",
+   "corpus_status": "ok",
    "display_name": "Jay (NeverFlameNeverTilt)",
    "is_anchor": false,
    "occurrences": 0,
    "organic": {
-    "reason": "corpus below minimum (0 < 100,000 words)",
+    "reason": "fewer than 3 sufficient terms shared with the mapped creators",
     "status": "pending-data"
    },
    "polar": {
-    "reason": "corpus below minimum",
+    "reason": "no computed proximity to every pole's anchor ensemble yet",
     "status": "pending-data"
    },
    "pole": null,
-   "videos": 0,
-   "words": 0
+   "videos": 67,
+   "words": 724643
   },
   "paulogia": {
    "affinities": {

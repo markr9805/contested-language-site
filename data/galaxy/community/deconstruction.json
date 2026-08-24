@@ -4908,6 +4908,18 @@
    "title": "Christianity's True Love: Exclusive or Universal? #shorts",
    "video_id": "YN66Jr3iVWY"
   },
+  "81458": {
+   "context": "Fear not only of hell but of social loss, spiritual suspicion, and being labeled unsafe. Finally, if persecution is proof, rejection becomes status. Criticism is interpreted as confirmation. Accountability is reframed as oppression, and harm can be excused as truth offending people, producing moral inversion. The deepest effect is colonization of the self in three moves. First, interpretation. You stop reading your experience through evidence and self-knowledge and start reading it through Pauline categories, such as the flesh, the spirit, sin and grace, and rebellion and submission.",
+   "occurrence_id": 81458,
+   "published_at": "2026-02-10T18:33:00Z",
+   "role": "host",
+   "sense": 0,
+   "surface": "accountability",
+   "t": 2757.84,
+   "term": "accountability",
+   "title": "Everything Wrong With The Letters of Paul",
+   "video_id": "YZxz4DF62qE"
+  },
   "8302": {
    "context": "That is point on because again, we're modeling this God, and it's impossible to to just tune those things out when you know the stories. It's impossible to do that. I was I was listening to someone when I was still kind of in it, and I was in the grace movement pretty heavy. Oh, yeah. And when you're in the grace movement and you're in a word of faith movement in the faith movement, you're always trying to justify these horrible acts of God.",
    "occurrence_id": 8302,
@@ -5783,7 +5795,7 @@
     }
    ],
    "b": "accountability|1",
-   "dist": 0.0588,
+   "dist": 0.059,
    "same_term": true
   },
   {
@@ -5852,7 +5864,7 @@
     }
    ],
    "b": "discernment|1",
-   "dist": 0.0466,
+   "dist": 0.0465,
    "same_term": false
   },
   {
@@ -5875,7 +5887,30 @@
     }
    ],
    "b": "do-the-work|1",
-   "dist": 0.0443,
+   "dist": 0.0444,
+   "same_term": false
+  },
+  {
+   "a": "accountability|0",
+   "audit_pairs": [
+    {
+     "a_occ": 81458,
+     "b_occ": 26327,
+     "dist": 0.1668
+    },
+    {
+     "a_occ": 81458,
+     "b_occ": 26328,
+     "dist": 0.1668
+    },
+    {
+     "a_occ": 65170,
+     "b_occ": 98755,
+     "dist": 0.1678
+    }
+   ],
+   "b": "evidence|0",
+   "dist": 0.0514,
    "same_term": false
   },
   {
@@ -5898,7 +5933,7 @@
     }
    ],
    "b": "grace|0",
-   "dist": 0.0419,
+   "dist": 0.042,
    "same_term": false
   },
   {
@@ -5944,7 +5979,7 @@
     }
    ],
    "b": "harm|1",
-   "dist": 0.0547,
+   "dist": 0.0548,
    "same_term": false
   },
   {
@@ -5967,7 +6002,7 @@
     }
    ],
    "b": "love|0",
-   "dist": 0.0513,
+   "dist": 0.0514,
    "same_term": false
   },
   {
@@ -5990,7 +6025,7 @@
     }
    ],
    "b": "purity-test|0",
-   "dist": 0.1117,
+   "dist": 0.1116,
    "same_term": false
   },
   {
@@ -6013,7 +6048,7 @@
     }
    ],
    "b": "purity-test|2",
-   "dist": 0.0653,
+   "dist": 0.0652,
    "same_term": false
   },
   {
@@ -6174,7 +6209,7 @@
     }
    ],
    "b": "grace|1",
-   "dist": 0.0547,
+   "dist": 0.0544,
    "same_term": false
   },
   {
@@ -6266,7 +6301,7 @@
     }
    ],
    "b": "truth|1",
-   "dist": 0.0633,
+   "dist": 0.063,
    "same_term": false
   },
   {
@@ -6381,7 +6416,7 @@
     }
    ],
    "b": "grace|0",
-   "dist": 0.0557,
+   "dist": 0.0561,
    "same_term": false
   },
   {
@@ -6519,7 +6554,7 @@
     }
    ],
    "b": "truth|0",
-   "dist": 0.046,
+   "dist": 0.0459,
    "same_term": false
   },
   {
@@ -6818,7 +6853,7 @@
     }
    ],
    "b": "deconstruction|1",
-   "dist": 0.0814,
+   "dist": 0.0815,
    "same_term": false
   },
   {
@@ -6864,7 +6899,7 @@
     }
    ],
    "b": "grace|1",
-   "dist": 0.0723,
+   "dist": 0.0725,
    "same_term": false
   },
   {
@@ -6910,7 +6945,7 @@
     }
    ],
    "b": "community|0",
-   "dist": 0.0455,
+   "dist": 0.0456,
    "same_term": false
   },
   {
@@ -6933,7 +6968,7 @@
     }
    ],
    "b": "deconstruction|0",
-   "dist": 0.0538,
+   "dist": 0.0539,
    "same_term": false
   },
   {
@@ -7048,7 +7083,7 @@
     }
    ],
    "b": "heretic|1",
-   "dist": 0.0453,
+   "dist": 0.0452,
    "same_term": false
   },
   {
@@ -7163,7 +7198,7 @@
     }
    ],
    "b": "deconstruction|1",
-   "dist": 0.1189,
+   "dist": 0.118,
    "same_term": false
   },
   {
@@ -7209,7 +7244,7 @@
     }
    ],
    "b": "grace|1",
-   "dist": 0.136,
+   "dist": 0.1357,
    "same_term": false
   },
   {
@@ -7232,7 +7267,7 @@
     }
    ],
    "b": "love|1",
-   "dist": 0.085,
+   "dist": 0.0849,
    "same_term": false
   },
   {
@@ -7278,7 +7313,7 @@
     }
    ],
    "b": "community|0",
-   "dist": 0.0876,
+   "dist": 0.0875,
    "same_term": false
   },
   {
@@ -7324,7 +7359,7 @@
     }
    ],
    "b": "deconstruction|1",
-   "dist": 0.0924,
+   "dist": 0.0917,
    "same_term": false
   },
   {
@@ -7370,7 +7405,7 @@
     }
    ],
    "b": "grace|1",
-   "dist": 0.0956,
+   "dist": 0.0952,
    "same_term": false
   },
   {
@@ -7508,7 +7543,7 @@
     }
    ],
    "b": "grace|1",
-   "dist": 0.0624,
+   "dist": 0.0622,
    "same_term": false
   },
   {
@@ -7577,7 +7612,7 @@
     }
    ],
    "b": "truth|1",
-   "dist": 0.078,
+   "dist": 0.0777,
    "same_term": false
   },
   {
@@ -7623,7 +7658,7 @@
     }
    ],
    "b": "deconstruction|0",
-   "dist": 0.046,
+   "dist": 0.0461,
    "same_term": false
   },
   {
@@ -7646,7 +7681,7 @@
     }
    ],
    "b": "deconstruction|1",
-   "dist": 0.0641,
+   "dist": 0.0644,
    "same_term": false
   },
   {
@@ -7738,7 +7773,7 @@
     }
    ],
    "b": "grace|1",
-   "dist": 0.041,
+   "dist": 0.0407,
    "same_term": false
   },
   {
@@ -7761,7 +7796,7 @@
     }
    ],
    "b": "harm|0",
-   "dist": 0.028,
+   "dist": 0.0281,
    "same_term": false
   },
   {
@@ -7830,7 +7865,7 @@
     }
    ],
    "b": "heretic|1",
-   "dist": 0.0588,
+   "dist": 0.0583,
    "same_term": false
   },
   {
@@ -7853,7 +7888,7 @@
     }
    ],
    "b": "love|0",
-   "dist": 0.0467,
+   "dist": 0.0468,
    "same_term": false
   },
   {
@@ -7922,7 +7957,7 @@
     }
    ],
    "b": "purity-test|1",
-   "dist": 0.0647,
+   "dist": 0.0646,
    "same_term": false
   },
   {
@@ -7968,7 +8003,7 @@
     }
    ],
    "b": "truth|0",
-   "dist": 0.0321,
+   "dist": 0.0322,
    "same_term": false
   },
   {
@@ -7991,7 +8026,7 @@
     }
    ],
    "b": "truth|1",
-   "dist": 0.0576,
+   "dist": 0.0575,
    "same_term": false
   },
   {
@@ -8014,7 +8049,7 @@
     }
    ],
    "b": "deconstruction|1",
-   "dist": 0.0664,
+   "dist": 0.0662,
    "same_term": false
   },
   {
@@ -8106,7 +8141,7 @@
     }
    ],
    "b": "deconstruction|1",
-   "dist": 0.0348,
+   "dist": 0.0356,
    "same_term": true
   },
   {
@@ -8129,7 +8164,7 @@
     }
    ],
    "b": "discernment|0",
-   "dist": 0.0586,
+   "dist": 0.0588,
    "same_term": false
   },
   {
@@ -8152,7 +8187,7 @@
     }
    ],
    "b": "do-the-work|1",
-   "dist": 0.035,
+   "dist": 0.0353,
    "same_term": false
   },
   {
@@ -8175,7 +8210,7 @@
     }
    ],
    "b": "harm|0",
-   "dist": 0.0464,
+   "dist": 0.0466,
    "same_term": false
   },
   {
@@ -8198,7 +8233,7 @@
     }
    ],
    "b": "heretic|1",
-   "dist": 0.07,
+   "dist": 0.0704,
    "same_term": false
   },
   {
@@ -8221,7 +8256,7 @@
     }
    ],
    "b": "love|0",
-   "dist": 0.0558,
+   "dist": 0.0561,
    "same_term": false
   },
   {
@@ -8244,7 +8279,7 @@
     }
    ],
    "b": "truth|0",
-   "dist": 0.0361,
+   "dist": 0.0363,
    "same_term": false
   },
   {
@@ -8267,7 +8302,7 @@
     }
    ],
    "b": "do-the-work|0",
-   "dist": 0.0618,
+   "dist": 0.0616,
    "same_term": false
   },
   {
@@ -8290,7 +8325,7 @@
     }
    ],
    "b": "do-the-work|1",
-   "dist": 0.0563,
+   "dist": 0.0568,
    "same_term": false
   },
   {
@@ -8313,7 +8348,7 @@
     }
    ],
    "b": "grace|1",
-   "dist": 0.0571,
+   "dist": 0.0567,
    "same_term": false
   },
   {
@@ -8336,7 +8371,7 @@
     }
    ],
    "b": "love|1",
-   "dist": 0.0447,
+   "dist": 0.0444,
    "same_term": false
   },
   {
@@ -8359,7 +8394,7 @@
     }
    ],
    "b": "purity-test|1",
-   "dist": 0.0827,
+   "dist": 0.0822,
    "same_term": false
   },
   {
@@ -8382,7 +8417,7 @@
     }
    ],
    "b": "truth|1",
-   "dist": 0.0698,
+   "dist": 0.0695,
    "same_term": false
   },
   {
@@ -8474,7 +8509,7 @@
     }
    ],
    "b": "evidence|1",
-   "dist": 0.0675,
+   "dist": 0.0676,
    "same_term": false
   },
   {
@@ -8497,7 +8532,7 @@
     }
    ],
    "b": "grace|0",
-   "dist": 0.0454,
+   "dist": 0.0458,
    "same_term": false
   },
   {
@@ -8520,7 +8555,7 @@
     }
    ],
    "b": "harm|0",
-   "dist": 0.0324,
+   "dist": 0.0323,
    "same_term": false
   },
   {
@@ -8566,7 +8601,7 @@
     }
    ],
    "b": "love|0",
-   "dist": 0.0513,
+   "dist": 0.0515,
    "same_term": false
   },
   {
@@ -8658,7 +8693,7 @@
     }
    ],
    "b": "harm|0",
-   "dist": 0.0536,
+   "dist": 0.0537,
    "same_term": false
   },
   {
@@ -8727,7 +8762,7 @@
     }
    ],
    "b": "truth|0",
-   "dist": 0.056,
+   "dist": 0.0559,
    "same_term": false
   },
   {
@@ -8750,7 +8785,7 @@
     }
    ],
    "b": "truth|1",
-   "dist": 0.0402,
+   "dist": 0.0401,
    "same_term": false
   },
   {
@@ -8796,7 +8831,7 @@
     }
    ],
    "b": "grace|1",
-   "dist": 0.0533,
+   "dist": 0.053,
    "same_term": false
   },
   {
@@ -8865,7 +8900,7 @@
     }
    ],
    "b": "truth|1",
-   "dist": 0.0688,
+   "dist": 0.0684,
    "same_term": false
   },
   {
@@ -8911,7 +8946,7 @@
     }
    ],
    "b": "evidence|1",
-   "dist": 0.052,
+   "dist": 0.0521,
    "same_term": false
   },
   {
@@ -8934,7 +8969,7 @@
     }
    ],
    "b": "grace|1",
-   "dist": 0.0311,
+   "dist": 0.0309,
    "same_term": false
   },
   {
@@ -8957,7 +8992,7 @@
     }
    ],
    "b": "harm|0",
-   "dist": 0.0308,
+   "dist": 0.0309,
    "same_term": false
   },
   {
@@ -9026,7 +9061,7 @@
     }
    ],
    "b": "heretic|1",
-   "dist": 0.0602,
+   "dist": 0.06,
    "same_term": false
   },
   {
@@ -9049,7 +9084,7 @@
     }
    ],
    "b": "love|0",
-   "dist": 0.0386,
+   "dist": 0.0387,
    "same_term": false
   },
   {
@@ -9072,7 +9107,7 @@
     }
    ],
    "b": "love|1",
-   "dist": 0.0523,
+   "dist": 0.0524,
    "same_term": false
   },
   {
@@ -9187,7 +9222,7 @@
     }
    ],
    "b": "evidence|1",
-   "dist": 0.0357,
+   "dist": 0.0358,
    "same_term": true
   },
   {
@@ -9210,7 +9245,7 @@
     }
    ],
    "b": "grace|0",
-   "dist": 0.0507,
+   "dist": 0.0513,
    "same_term": false
   },
   {
@@ -9233,7 +9268,7 @@
     }
    ],
    "b": "harm|0",
-   "dist": 0.0445,
+   "dist": 0.0444,
    "same_term": false
   },
   {
@@ -9256,7 +9291,7 @@
     }
    ],
    "b": "heresy|0",
-   "dist": 0.0539,
+   "dist": 0.0538,
    "same_term": false
   },
   {
@@ -9302,7 +9337,7 @@
     }
    ],
    "b": "heresy|2",
-   "dist": 0.0859,
+   "dist": 0.0858,
    "same_term": false
   },
   {
@@ -9325,7 +9360,7 @@
     }
    ],
    "b": "heretic|0",
-   "dist": 0.0605,
+   "dist": 0.0604,
    "same_term": false
   },
   {
@@ -9348,7 +9383,7 @@
     }
    ],
    "b": "truth|0",
-   "dist": 0.0164,
+   "dist": 0.0163,
    "same_term": false
   },
   {
@@ -9440,7 +9475,7 @@
     }
    ],
    "b": "harm|0",
-   "dist": 0.0439,
+   "dist": 0.0442,
    "same_term": false
   },
   {
@@ -9463,7 +9498,7 @@
     }
    ],
    "b": "heresy|1",
-   "dist": 0.0566,
+   "dist": 0.0569,
    "same_term": false
   },
   {
@@ -9486,7 +9521,7 @@
     }
    ],
    "b": "love|0",
-   "dist": 0.0451,
+   "dist": 0.0455,
    "same_term": false
   },
   {
@@ -9509,7 +9544,7 @@
     }
    ],
    "b": "truth|0",
-   "dist": 0.0395,
+   "dist": 0.0401,
    "same_term": false
   },
   {
@@ -9532,7 +9567,7 @@
     }
    ],
    "b": "harm|0",
-   "dist": 0.0538,
+   "dist": 0.0537,
    "same_term": false
   },
   {
@@ -9555,7 +9590,7 @@
     }
    ],
    "b": "harm|1",
-   "dist": 0.0535,
+   "dist": 0.0534,
    "same_term": false
   },
   {
@@ -9578,7 +9613,7 @@
     }
    ],
    "b": "love|0",
-   "dist": 0.0393,
+   "dist": 0.0395,
    "same_term": false
   },
   {
@@ -9624,7 +9659,7 @@
     }
    ],
    "b": "purity-test|1",
-   "dist": 0.0892,
+   "dist": 0.0888,
    "same_term": false
   },
   {
@@ -9647,7 +9682,7 @@
     }
    ],
    "b": "truth|0",
-   "dist": 0.0507,
+   "dist": 0.0506,
    "same_term": false
   },
   {
@@ -9670,7 +9705,7 @@
     }
    ],
    "b": "truth|1",
-   "dist": 0.0557,
+   "dist": 0.0553,
    "same_term": false
   },
   {
@@ -9693,7 +9728,7 @@
     }
    ],
    "b": "harm|1",
-   "dist": 0.0405,
+   "dist": 0.0406,
    "same_term": true
   },
   {
@@ -9785,7 +9820,7 @@
     }
    ],
    "b": "heretic|1",
-   "dist": 0.0554,
+   "dist": 0.0556,
    "same_term": false
   },
   {
@@ -9808,7 +9843,7 @@
     }
    ],
    "b": "love|0",
-   "dist": 0.0354,
+   "dist": 0.0356,
    "same_term": false
   },
   {
@@ -9831,7 +9866,7 @@
     }
    ],
    "b": "purity-test|0",
-   "dist": 0.1322,
+   "dist": 0.1323,
    "same_term": false
   },
   {
@@ -9923,7 +9958,7 @@
     }
    ],
    "b": "truth|1",
-   "dist": 0.0458,
+   "dist": 0.0455,
    "same_term": false
   },
   {
@@ -10130,7 +10165,7 @@
     }
    ],
    "b": "truth|0",
-   "dist": 0.035,
+   "dist": 0.0349,
    "same_term": false
   },
   {
@@ -10176,7 +10211,7 @@
     }
    ],
    "b": "heretic|1",
-   "dist": 0.0941,
+   "dist": 0.0949,
    "same_term": false
   },
   {
@@ -10199,7 +10234,7 @@
     }
    ],
    "b": "truth|0",
-   "dist": 0.0912,
+   "dist": 0.091,
    "same_term": false
   },
   {
@@ -10222,7 +10257,7 @@
     }
    ],
    "b": "heretic|1",
-   "dist": 0.064,
+   "dist": 0.0651,
    "same_term": true
   },
   {
@@ -10268,7 +10303,7 @@
     }
    ],
    "b": "truth|0",
-   "dist": 0.0526,
+   "dist": 0.0531,
    "same_term": false
   },
   {
@@ -10291,7 +10326,7 @@
     }
    ],
    "b": "truth|0",
-   "dist": 0.0318,
+   "dist": 0.0319,
    "same_term": false
   },
   {
@@ -10337,7 +10372,7 @@
     }
    ],
    "b": "truth|1",
-   "dist": 0.0583,
+   "dist": 0.0581,
    "same_term": false
   },
   {
@@ -10383,7 +10418,7 @@
     }
    ],
    "b": "truth|1",
-   "dist": 0.1156,
+   "dist": 0.1154,
    "same_term": false
   },
   {
@@ -10406,7 +10441,7 @@
     }
    ],
    "b": "truth|0",
-   "dist": 0.0702,
+   "dist": 0.0701,
    "same_term": false
   },
   {
@@ -10429,7 +10464,7 @@
     }
    ],
    "b": "truth|1",
-   "dist": 0.04,
+   "dist": 0.0402,
    "same_term": true
   }
  ],
@@ -10437,14 +10472,14 @@
  "nodes": {
   "accountability|0": {
    "file": "senses/accountability.json",
-   "n": 207,
+   "n": 206,
    "sense": 0,
    "status": "ok",
-   "stress": 0.2469,
+   "stress": 0.2447,
    "stress_abs": 0.0099,
    "term": "accountability",
    "xy": [
-    0.0426,
+    0.0428,
     0.0326
    ]
   },
@@ -10453,11 +10488,11 @@
    "n": 247,
    "sense": 1,
    "status": "ok",
-   "stress": 0.2111,
+   "stress": 0.211,
    "stress_abs": 0.0119,
    "term": "accountability",
    "xy": [
-    -0.0494,
+    -0.0493,
     0.0465
    ]
   },
@@ -10466,12 +10501,12 @@
    "n": 12,
    "sense": 0,
    "status": "ok",
-   "stress": 0.2725,
+   "stress": 0.2735,
    "stress_abs": 0.0141,
    "term": "apostasy",
    "xy": [
-    0.0876,
-    -0.0244
+    0.0877,
+    -0.0245
    ]
   },
   "apostasy|1": {
@@ -10479,12 +10514,12 @@
    "n": 22,
    "sense": 1,
    "status": "ok",
-   "stress": 0.3787,
-   "stress_abs": 0.0228,
+   "stress": 0.3781,
+   "stress_abs": 0.0227,
    "term": "apostasy",
    "xy": [
     0.0194,
-    -0.0255
+    -0.0256
    ]
   },
   "apostate|0": {
@@ -10500,8 +10535,8 @@
    "n": 67,
    "sense": 1,
    "status": "ok",
-   "stress": 0.2098,
-   "stress_abs": 0.0158,
+   "stress": 0.2095,
+   "stress_abs": 0.0157,
    "term": "apostate",
    "xy": [
     -0.0453,
@@ -10513,12 +10548,12 @@
    "n": 24,
    "sense": 2,
    "status": "ok",
-   "stress": 0.4765,
-   "stress_abs": 0.021,
+   "stress": 0.4803,
+   "stress_abs": 0.0212,
    "term": "apostate",
    "xy": [
     0.0295,
-    -0.0108
+    -0.0109
    ]
   },
   "bridge-city|0": {
@@ -10526,8 +10561,8 @@
    "n": 1611,
    "sense": 0,
    "status": "ok",
-   "stress": 0.4204,
-   "stress_abs": 0.0399,
+   "stress": 0.4222,
+   "stress_abs": 0.04,
    "term": "bridge city",
    "xy": [
     -0.1937,
@@ -10539,8 +10574,8 @@
    "n": 1564,
    "sense": 1,
    "status": "ok",
-   "stress": 0.4059,
-   "stress_abs": 0.0299,
+   "stress": 0.4057,
+   "stress_abs": 0.0298,
    "term": "bridge city",
    "xy": [
     -0.1061,
@@ -10552,11 +10587,11 @@
    "n": 20,
    "sense": 0,
    "status": "ok",
-   "stress": 0.4845,
+   "stress": 0.4849,
    "stress_abs": 0.0335,
    "term": "clout",
    "xy": [
-    -0.0391,
+    -0.039,
     0.0083
    ]
   },
@@ -10570,10 +10605,10 @@
   },
   "community|0": {
    "file": "senses/community.json",
-   "n": 5436,
+   "n": 5427,
    "sense": 0,
    "status": "ok",
-   "stress": 0.3647,
+   "stress": 0.3638,
    "stress_abs": 0.0135,
    "term": "community",
    "xy": [
@@ -10583,10 +10618,10 @@
   },
   "community|1": {
    "file": "senses/community.json",
-   "n": 10131,
+   "n": 10130,
    "sense": 1,
    "status": "ok",
-   "stress": 0.3636,
+   "stress": 0.3648,
    "stress_abs": 0.0194,
    "term": "community",
    "xy": [
@@ -10596,28 +10631,28 @@
   },
   "deconstruction|0": {
    "file": "senses/deconstruction.json",
-   "n": 292,
+   "n": 287,
    "sense": 0,
    "status": "ok",
-   "stress": 0.6064,
-   "stress_abs": 0.0278,
+   "stress": 0.6082,
+   "stress_abs": 0.028,
    "term": "deconstruction",
    "xy": [
-    0.0185,
-    -0.0172
+    0.0188,
+    -0.0171
    ]
   },
   "deconstruction|1": {
    "file": "senses/deconstruction.json",
-   "n": 388,
+   "n": 378,
    "sense": 1,
    "status": "ok",
-   "stress": 0.3348,
+   "stress": 0.3341,
    "stress_abs": 0.019,
    "term": "deconstruction",
    "xy": [
-    -0.052,
-    -0.0218
+    -0.0525,
+    -0.0216
    ]
   },
   "discernment|0": {
@@ -10625,11 +10660,11 @@
    "n": 19,
    "sense": 0,
    "status": "ok",
-   "stress": 0.2952,
-   "stress_abs": 0.0117,
+   "stress": 0.2956,
+   "stress_abs": 0.0118,
    "term": "discernment",
    "xy": [
-    0.0372,
+    0.0373,
     0.0033
    ]
   },
@@ -10638,8 +10673,8 @@
    "n": 67,
    "sense": 1,
    "status": "ok",
-   "stress": 0.1565,
-   "stress_abs": 0.0077,
+   "stress": 0.1557,
+   "stress_abs": 0.0076,
    "term": "discernment",
    "xy": [
     0.0142,
@@ -10651,8 +10686,8 @@
    "n": 434,
    "sense": 0,
    "status": "ok",
-   "stress": 0.1971,
-   "stress_abs": 0.0101,
+   "stress": 0.1985,
+   "stress_abs": 0.0102,
    "term": "do the work",
    "xy": [
     -0.083,
@@ -10664,7 +10699,7 @@
    "n": 168,
    "sense": 1,
    "status": "ok",
-   "stress": 0.4074,
+   "stress": 0.4076,
    "stress_abs": 0.0129,
    "term": "do the work",
    "xy": [
@@ -10674,28 +10709,28 @@
   },
   "evidence|0": {
    "file": "senses/evidence.json",
-   "n": 1121,
+   "n": 1119,
    "sense": 0,
    "status": "ok",
-   "stress": 0.4498,
-   "stress_abs": 0.0176,
+   "stress": 0.4505,
+   "stress_abs": 0.0177,
    "term": "evidence",
    "xy": [
-    0.0544,
+    0.0545,
     -0.017
    ]
   },
   "evidence|1": {
    "file": "senses/evidence.json",
-   "n": 1499,
+   "n": 1496,
    "sense": 1,
    "status": "ok",
-   "stress": 0.3985,
+   "stress": 0.399,
    "stress_abs": 0.0198,
    "term": "evidence",
    "xy": [
     0.0136,
-    0.0201
+    0.0202
    ]
   },
   "false-prophet|0": {
@@ -10748,28 +10783,28 @@
   },
   "grace|0": {
    "file": "senses/grace.json",
-   "n": 91,
+   "n": 90,
    "sense": 0,
    "status": "ok",
-   "stress": 0.3837,
-   "stress_abs": 0.0182,
+   "stress": 0.3857,
+   "stress_abs": 0.0184,
    "term": "grace",
    "xy": [
-    0.0599,
+    0.0603,
     -0.0113
    ]
   },
   "grace|1": {
    "file": "senses/grace.json",
-   "n": 272,
+   "n": 269,
    "sense": 1,
    "status": "ok",
-   "stress": 0.197,
+   "stress": 0.1975,
    "stress_abs": 0.0087,
    "term": "grace",
    "xy": [
     -0.0276,
-    -0.0067
+    -0.0066
    ]
   },
   "grifter|0": {
@@ -10854,15 +10889,15 @@
   },
   "harm|0": {
    "file": "senses/harm.json",
-   "n": 725,
+   "n": 723,
    "sense": 0,
    "status": "ok",
-   "stress": 0.4941,
+   "stress": 0.4956,
    "stress_abs": 0.0155,
    "term": "harm",
    "xy": [
-    0.0317,
-    0.0084
+    0.0318,
+    0.0083
    ]
   },
   "harm|1": {
@@ -10870,12 +10905,12 @@
    "n": 748,
    "sense": 1,
    "status": "ok",
-   "stress": 0.2036,
+   "stress": 0.2042,
    "stress_abs": 0.0102,
    "term": "harm",
    "xy": [
-    -0.0155,
-    0.0444
+    -0.0154,
+    0.0443
    ]
   },
   "heresy|0": {
@@ -10883,12 +10918,12 @@
    "n": 35,
    "sense": 0,
    "status": "ok",
-   "stress": 0.4617,
-   "stress_abs": 0.0204,
+   "stress": 0.4646,
+   "stress_abs": 0.0205,
    "term": "heresy",
    "xy": [
     0.0371,
-    0.0015
+    0.0014
    ]
   },
   "heresy|1": {
@@ -10896,12 +10931,12 @@
    "n": 14,
    "sense": 1,
    "status": "ok",
-   "stress": 0.2878,
+   "stress": 0.2883,
    "stress_abs": 0.0136,
    "term": "heresy",
    "xy": [
     0.0706,
-    -0.034
+    -0.0341
    ]
   },
   "heresy|2": {
@@ -10909,12 +10944,12 @@
    "n": 37,
    "sense": 2,
    "status": "ok",
-   "stress": 0.1872,
-   "stress_abs": 0.0144,
+   "stress": 0.1883,
+   "stress_abs": 0.0145,
    "term": "heresy",
    "xy": [
     0.1402,
-    -0.0322
+    -0.0324
    ]
   },
   "heretic|0": {
@@ -10922,47 +10957,47 @@
    "n": 12,
    "sense": 0,
    "status": "ok",
-   "stress": 0.2334,
-   "stress_abs": 0.0132,
+   "stress": 0.2324,
+   "stress_abs": 0.0131,
    "term": "heretic",
    "xy": [
     0.1036,
-    -0.0348
+    -0.0349
    ]
   },
   "heretic|1": {
    "file": "senses/heretic.json",
-   "n": 47,
+   "n": 46,
    "sense": 1,
    "status": "ok",
-   "stress": 0.3621,
-   "stress_abs": 0.0205,
+   "stress": 0.381,
+   "stress_abs": 0.0216,
    "term": "heretic",
    "xy": [
-    0.042,
-    -0.0242
+    0.0407,
+    -0.0236
    ]
   },
   "love|0": {
    "file": "senses/love.json",
-   "n": 3293,
+   "n": 3256,
    "sense": 0,
    "status": "ok",
-   "stress": 0.2982,
-   "stress_abs": 0.0127,
+   "stress": 0.2993,
+   "stress_abs": 0.0128,
    "term": "love",
    "xy": [
-    0.0175,
+    0.0176,
     -0.011
    ]
   },
   "love|1": {
    "file": "senses/love.json",
-   "n": 7500,
+   "n": 7489,
    "sense": 1,
    "status": "ok",
-   "stress": 0.1775,
-   "stress_abs": 0.0081,
+   "stress": 0.1785,
+   "stress_abs": 0.0082,
    "term": "love",
    "xy": [
     -0.068,
@@ -10974,12 +11009,12 @@
    "n": 12,
    "sense": 0,
    "status": "ok",
-   "stress": 0.1113,
+   "stress": 0.111,
    "stress_abs": 0.0128,
    "term": "purity test",
    "xy": [
-    0.0049,
-    0.1495
+    0.005,
+    0.1494
    ]
   },
   "purity-test|1": {
@@ -10987,7 +11022,7 @@
    "n": 13,
    "sense": 1,
    "status": "ok",
-   "stress": 0.292,
+   "stress": 0.2919,
    "stress_abs": 0.0219,
    "term": "purity test",
    "xy": [
@@ -11000,12 +11035,12 @@
    "n": 11,
    "sense": 2,
    "status": "ok",
-   "stress": 0.4384,
+   "stress": 0.438,
    "stress_abs": 0.0286,
    "term": "purity test",
    "xy": [
-    0.0449,
-    0.0268
+    0.045,
+    0.0267
    ]
   },
   "purity-test|3": {
@@ -11018,27 +11053,27 @@
   },
   "truth|0": {
    "file": "senses/truth.json",
-   "n": 1556,
+   "n": 1550,
    "sense": 0,
    "status": "ok",
-   "stress": 0.4223,
+   "stress": 0.4242,
    "stress_abs": 0.0118,
    "term": "truth",
    "xy": [
-    0.0308,
+    0.0309,
     -0.0069
    ]
   },
   "truth|1": {
    "file": "senses/truth.json",
-   "n": 1728,
+   "n": 1718,
    "sense": 1,
    "status": "ok",
-   "stress": 0.2996,
-   "stress_abs": 0.0139,
+   "stress": 0.299,
+   "stress_abs": 0.0138,
    "term": "truth",
    "xy": [
-    -0.0149,
+    -0.0151,
     0.024
    ]
   },
@@ -11075,5 +11110,5 @@
    "term": "wolf in sheep's clothing"
   }
  },
- "occurrences": 39462
+ "occurrences": 39360
 }
