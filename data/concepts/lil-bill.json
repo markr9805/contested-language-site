@@ -19,17 +19,17 @@
   {
    "creator_count": 74,
    "distinctiveness": 8.35,
-   "note": "anti-Black bias",
+   "note": "anti‑black ideology",
    "quotes": [
-    {
-     "context": "...sick to death of this same [anti black] gender war boy being grifted by...",
-     "t": 2560.08,
-     "video_id": "Uu-X_E8cwaA"
-    },
     {
      "context": "...online left was aware of how [anti blackness] has shaped the moral compass of...",
      "t": 2669.48,
      "video_id": "7Yl6LWN16Ik"
+    },
+    {
+     "context": "...things like american policing is fundamentally [anti black] anti queer anti poor anti immigrant...",
+     "t": 356.12,
+     "video_id": "0M-kjKVt88A"
     }
    ],
    "signal": 1,
@@ -97,9 +97,20 @@
   {
    "creator_count": 40,
    "distinctiveness": 7.03,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
+   "note": "Criticizes black identity movements",
+   "quotes": [
+    {
+     "context": "...wave for click clout by conflating [black identity] movements like pan africanism with fringe...",
+     "t": 2710.44,
+     "video_id": "7Yl6LWN16Ik"
+    },
+    {
+     "context": "...designation altogether the problem is again [black identity] extremist violence is so rare and...",
+     "t": 4649.76,
+     "video_id": "0M-kjKVt88A"
+    }
+   ],
+   "signal": 1,
    "surface": "black identity"
   },
   {
@@ -120,12 +131,12 @@
   }
  ],
  "coverage": {
-  "added_since": 1,
-  "basis_videos": 65,
+  "added_since": 0,
+  "basis_videos": 68,
   "complete": true,
-  "coverage_pct": 0.9706,
-  "ingested_videos": 66,
-  "total_videos": 68
+  "coverage_pct": 0.9714,
+  "ingested_videos": 68,
+  "total_videos": 70
  },
  "display_name": "lil bill",
  "entities": [

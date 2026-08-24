@@ -1,6 +1,94 @@
 {
  "book": "Jude",
  "verses": {
+  "Jude 1:1": {
+   "citations": [
+    {
+     "confidence": 0.92,
+     "context": "Reason five, Jude, the brother of James. Next, let's look at something from one of the smallest books in the New Testament, the Letter of Jude. In the very first verse, Jude introduces himself this way. He says, Jude, a servant of Jesus Christ and brother of James. It's a really curious way to put it. If you were the blood brother of Jesus, wouldn't you think about mentioning that? It's certainly a stronger credential than being the brother of James. But Jude doesn't go there. He identifies himself in relation to James instead.",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-08-12T11:00:28Z",
+     "role": "host",
+     "t": 362.2,
+     "title": "Did Jesus Have Blood Brothers? No. Here’s Why.",
+     "video_id": "B2jNuqMjTJc"
+    },
+    {
+     "confidence": 0.7634,
+     "context": "And uh the idea that you know God can't possibly do this, and I don't know if they think think it to the to the as in depth as no, some of them do. Some of them have said people who you know be like, I'm saved in Jesus Christ, and I'm not talking about theologians, but just regular parishioners who be like, 'I'm saved in Jesus Christ, I know him, I love him,' and and will say some element of, but he's just one way to God.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2018-08-22T20:51:02Z",
+     "role": "host",
+     "t": 998.28,
+     "title": "Challenging Beliefs | Watson Jones",
+     "video_id": "RpPxHttfhNM"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1,
+    "jude-3-project": 1
+   },
+   "n": 2,
+   "text": {
+    "KJV": "Jude, the servant of Jesus Christ, and brother of James, to them that are sanctified by God the Father, and preserved in Jesus Christ, and called:",
+    "WEB": "Jude, a servant of Jesus Christ, and brother of James, to those who are called, sanctified by God the Father, and kept for Jesus Christ:"
+   },
+   "truncated": false
+  },
+  "Jude 1:10": {
+   "citations": [
+    {
+     "confidence": 0.7701,
+     "context": "To me, I find that to be a very poor argument. I don't think it is a good argument, but I think that white Jim Schwite is trying to put forth these arguments to really kind of make a caricature of what Catholics truly believe. Like, oh, well, look, they believe in these things that are very odd, and if you follow the logical conclusion of what they believe, well, it leads to all sorts of heresies. The problem is, as you pointed out earlier, masterfully, Trent, is we've got these heresy hunters in the early church and the early Protestant reformers that held it to Mary, remaining a perpetual virgin, her whole life, remaining a virgin.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2021-07-19T13:00:00Z",
+     "role": "host",
+     "t": 1670.52,
+     "title": "James White REBUTTED on the Virgin Mary (w/ William Albrecht)",
+     "video_id": "-Rdr5hMmi8o"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But these speak evil of those things which they know not: but what they know naturally, as brute beasts, in those things they corrupt themselves.",
+    "WEB": "But these speak evil of whatever things they don’t know. They are destroyed in these things that they understand naturally, like the creatures without reason."
+   },
+   "truncated": false
+  },
+  "Jude 1:14": {
+   "citations": [
+    {
+     "confidence": 0.8587,
+     "context": "Again, another example. After providing various examples to illustrate the danger of false teachers, Jude then goes on to actually quote from first Enoch as though it were authentic. In verses 14 and 15, speaking of the false teachers, Jude declares, and I quote, it was of these also that Enoch, in the seventh generation from Adam, prophesied, saying, Behold, the Lord came with his holy myriads to execute judgment on all, and to convict all the ungodly of all their deeds of ungodliness, which they have committed in such an ungodly way, and of all the harsh things which ungodly sinners have spoken against him.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-03-03T05:30:57Z",
+     "role": "host",
+     "t": 1213.56,
+     "title": "Evolution & Creation Part 23: Adam in the New Testament || Defenders LIVE!",
+     "video_id": "8PTTrR-FDH4"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And Enoch also, the seventh from Adam, prophesied of these, saying, Behold, the Lord cometh with ten thousands of his saints,",
+    "WEB": "About these also Enoch, the seventh from Adam, prophesied, saying, “Behold, the Lord came with ten thousands of his holy ones,"
+   },
+   "truncated": false
+  },
   "Jude 1:14-15": {
    "citations": [
     {
@@ -36,12 +124,75 @@
      "t": 1213.56,
      "title": "Evolution & Creation Part 23: Adam in the New Testament || Defenders LIVE!",
      "video_id": "8PTTrR-FDH4"
+    },
+    {
+     "confidence": 0.8647,
+     "context": "Sinners have spoken against him. The word ungodly is used repeatedly there, and when they get to hell, they're just as ungodly as they ever were. In fact, more so in that environment without constraint. You continue to be punished because they continue everlastingly their rebellion.",
+     "creator": "belief-it-or-not",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-07-13T21:23:51Z",
+     "role": "unknown",
+     "t": 2940.32,
+     "title": "To Hell With Hell | Belief It Or Not",
+     "video_id": "HvXen9sd4h4"
+    },
+    {
+     "confidence": 0.7782,
+     "context": "In the old testament, you have a third type of leader. I call this a Jehu leader. And Jehu was a king that was, we might even use the phrase anointed but not saved. Jehu was a flawed leader that God used for good purposes. He used Jehu to execute judgment on Ahab and Jezebel's wickedness, executes judgment on the the priests and priestesses of demonic false gods, et cetera, et cetera. But he was a really flawed dude. Those three types of leaders are are the taxonomy, and here's why that matters.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-04-01T15:00:32Z",
+     "role": "host",
+     "t": 63.36,
+     "title": "Pastor Josh Howerton Explains 3 Types of Biblical Leaders | Frank Turek #Shorts",
+     "video_id": "J3JmbjItYPk"
+    },
+    {
+     "confidence": 0.7686,
+     "context": "And Jehu was a king that was, we might even use the phrase anointed but not saved. And some Bible scholars say that, anointed but not saved. And Jehu was a flawed leader that God used for good purposes. He used Jehu to execute judgment on Ahab and Jezebel's wickedness. Uh, he uh executes judgment on the priests and priestesses of demonic false gods, et cetera, et cetera. But he was a really flawed dude. So um those three types of leaders are the taxonomy, and here's why that matters.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-11-16T02:00:06Z",
+     "role": "host",
+     "t": 487.76,
+     "title": "Pastor Responds to Blowback from His \"Vote Like Jesus” Sermon w/ Pr Josh Howerton @LakepointeChurch",
+     "video_id": "QsAO8oNdxwQ"
+    },
+    {
+     "confidence": 0.7201,
+     "context": "I'm not gonna get into all that. What I will say is this um you should at least watch the videos. You should at least watch the videos and look at the victims and look at how many people from within these ministries are stepping up to say, guys, this is ungodly, this is wrong. And know that your involvement in this stuff has been to further oppress victims and further suppress truth, and to do so because it seems you just you're loyal, but you're you're loyal in an ungodly way. And that is, ma'am, if that isn't the core of cover-up culture. I don't know what is.",
+     "creator": "mike-winger",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-05-05T00:14:26Z",
+     "role": "host",
+     "t": 2341.76,
+     "title": "The Disappointing End of My Short Greg Locke Saga - All Lies",
+     "video_id": "VYVczaIGq3M"
+    },
+    {
+     "confidence": 0.6286,
+     "context": "Lord comes. Finally, see Jude verses 14 and 15. Speaking of the unrighteous, he says, It was of these also that Enoch in the seventh generation from Adam prophesied, saying, Behold, the Lord came with his holy myriads to execute judgment on all, and to convict all the ungodly of all their deeds of ungodliness which they have committed in such an ungodly way, and of all the harsh things which ungodly sinners have spoken against him.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2021-05-10T19:33:26Z",
+     "role": "host",
+     "t": 533.32,
+     "title": "Doctrine of the Last Things: Part 8 - The Purpose of the Second Coming",
+     "video_id": "rBlzU70fRBs"
     }
    ],
    "creators": {
-    "reasonable-faith-org": 1
+    "belief-it-or-not": 1,
+    "cross-examined": 2,
+    "mike-winger": 1,
+    "reasonable-faith-org": 2
    },
-   "n": 1,
+   "n": 6,
    "text": {
     "KJV": "To execute judgment upon all, and to convince all that are ungodly among them of all their ungodly deeds which they have ungodly committed, and of all their hard speeches which ungodly sinners have spoken against him.",
     "WEB": "to execute judgment on all, and to convict all the ungodly of all their works of ungodliness which they have done in an ungodly way, and of all the hard things which ungodly sinners have spoken against him.”"
@@ -50,6 +201,18 @@
   },
   "Jude 1:16": {
    "citations": [
+    {
+     "confidence": 0.7354,
+     "context": "That's what it really comes down to. They don't want to be convinced. They don't want anything because the Bible says they desire their own sin. They they walk after their own lusts. Now I can completely understand the appeal of taking a presuppositional stance when discussing theology internally among believers. If I'm engaged in discussion about whether Wolverine could be Batman in a fight, I certainly don't want to be interrupted by that jerk who keeps pointing out that they're fictional characters.",
+     "creator": "paulogia",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2016-12-15T04:06:11Z",
+     "role": "unknown",
+     "t": 1256.84,
+     "title": "Creation Today Claims - \"We Don't Need Evidence\", says Eric Hovind",
+     "video_id": "TxwtnCeg0nU"
+    },
     {
      "confidence": null,
      "context": "So we have the demons confined to hell, and then there are active demons who are not in hell, like the ones that Jesus is facing in our story. And this tree gets even more complex because now we can divide the active demons into two more groups. Read Jude chapter 1, verse 16, and Revelation chapter 9, verse 14. Those passages tell us that this group is at least four demons, and it's likely that these four demons are symbolic of many more, who are temporarily confined by God until the last days.",
@@ -64,17 +227,130 @@
     }
    ],
    "creators": {
-    "belief-it-or-not": 1
+    "belief-it-or-not": 1,
+    "paulogia": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "These are murmurers, complainers, walking after their own lusts; and their mouth speaketh great swelling words, having men's persons in admiration because of advantage.",
     "WEB": "These are murmurers and complainers, walking after their lusts—and their mouth speaks proud things—showing respect of persons to gain advantage."
    },
    "truncated": false
   },
+  "Jude 1:17": {
+   "citations": [
+    {
+     "confidence": 0.8877,
+     "context": "Like they're on par. This would be considered very bad if you didn't consider their commandments to be right on par with the prophetic statements of the scriptures. Let me read again that you may be mindful of the words which were spoken before by the holy prophets, and of the commandment of us, the apostles of the Lord and Savior, tying their authority to his authority. In Hebrews chapter 2, verses 2 and 3, it says this.",
+     "creator": "mike-winger",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2016-09-19T10:48:25Z",
+     "role": "host",
+     "t": 1358.64,
+     "title": "How We Got the New Testament: Evidence for the Bible pt12",
+     "video_id": "5hItK8IY-Us"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "But, beloved, remember ye the words which were spoken before of the apostles of our Lord Jesus Christ;",
+    "WEB": "But you, beloved, remember the words which have been spoken before by the apostles of our Lord Jesus Christ."
+   },
+   "truncated": false
+  },
+  "Jude 1:19": {
+   "citations": [
+    {
+     "confidence": 0.7876,
+     "context": "He says this. Uh he says, I urge you, brothers and sisters. This is Romans 16, 17. I urge you, brothers and sisters, to watch out for those who cause divisions and put obstacles in your way that are contrary to the teaching you have learned. Keep away from them, for such people are not serving the Lord Christ, but their own appetites. By smooth talk and flattery, they deceive the minds of naive people.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-05-21T01:00:06Z",
+     "role": "host",
+     "t": 1321.04,
+     "title": "[PODCAST] Does \"Christian Nationalism\" Go Against the Bible? Plus More Q&A",
+     "video_id": "Vn5oWD9X3KQ"
+    }
+   ],
+   "creators": {
+    "cross-examined": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "These be they who separate themselves, sensual, having not the Spirit.",
+    "WEB": "These are those who cause divisions and are sensual, not having the Spirit."
+   },
+   "truncated": false
+  },
+  "Jude 1:2": {
+   "citations": [
+    {
+     "confidence": 0.8744,
+     "context": "Chosen and destined by God the Father and sanctified by the Spirit for obedience to Jesus Christ and for sprinkling with his blood. May grace and peace be multiplied to you. Here you have all three of the persons, God the Father who is chosen and destined the believers, the Spirit who sanctifies them for obedience to Jesus Christ. So we have a number of passages, I think, in which the Holy Spirit is distinguished from both the Father and the Son.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-25T17:19:16Z",
+     "role": "host",
+     "t": 489.76,
+     "title": "📺🤺 Watch Defenders LIVE! // The Holy Spirit As A Distinct Person 📺🤺",
+     "video_id": "3GJr-Jl7nMc"
+    },
+    {
+     "confidence": 0.8333,
+     "context": "That's what Megan is exposing. And that's the difference. Very deceptive. Let me ask a super chat question. Megan mentioned Jude and contending for the faith earlier. The previous verse of Jude says to have mercy, peace, and love be multiplied to you. How would you suggest contending mercy mercifully be accomplished? Well, one, I I do think that you don't immediately, uh, if your pastor or ministry leader starts to bring in some of this material that maybe I wrote about, um, you don't need to blow him up and go, yeah, you're a false teacher and attack him.",
+     "creator": "cross-examined",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-08-08T02:46:43Z",
+     "role": "unknown",
+     "t": 5076.72,
+     "title": "Megan Basham responds to the Debate about her new book 'Shepherds for Sale' w/ @alisachilders + Q&A!",
+     "video_id": "eUu9IPzXC4g"
+    }
+   ],
+   "creators": {
+    "cross-examined": 1,
+    "reasonable-faith-org": 1
+   },
+   "n": 2,
+   "text": {
+    "KJV": "Mercy unto you, and peace, and love, be multiplied.",
+    "WEB": "May mercy, peace, and love be multiplied to you."
+   },
+   "truncated": false
+  },
   "Jude 1:20": {
    "citations": [
+    {
+     "confidence": 0.7716,
+     "context": "There's power. Pray. Everybody pray in the Holy Ghost. Lift it, Cheryl. Lift it. Quiet. See, hallelujah. There's power on this man, and he'll go into the whole, and you're just like, whoa, like this guy. I'm like, see my mind's eye hand right now. You've immediately left the moment where maybe oh remember, we're assuming our friend got healed, our buddy had the broken back.",
+     "creator": "mike-winger",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-06-25T14:45:00Z",
+     "role": "host",
+     "t": 3026.32,
+     "title": "Benny Hinn's nephew confirms the worst. Here's our interview.",
+     "video_id": "6ur4PmlYzOM"
+    },
+    {
+     "confidence": 0.8664,
+     "context": "This is a lifelong effort, right? We show people the sufficiency of the biblical worldview as we live out the gospel by embodying the sacrificial love of our Savior. As Jude one says, building yourself up in the most holy faith, praying in the Holy Spirit, keeping yourselves in the love of God, waiting for the mercy of our Lord Jesus Christ that leads to eternal life.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2021-04-14T19:43:21Z",
+     "role": "host",
+     "t": 1232.52,
+     "title": "Does the Way You Live Matter? | Yolanda Solomon",
+     "video_id": "InihR7R5JS8"
+    },
     {
      "confidence": null,
      "context": "I pray you speak beyond the notes. Give me wisdom beyond even what I've prepared for your people. Hide me behind your cross. That they would not see me, but they would see you. In Jesus' name I pray. Amen. I want to talk to you from Jude chapter one, verse 20. Jude 1, verse 20. Jude only has one chapter. So if you're flipping looking for any other chapters, you're gonna you're gonna miss it. And I'm gonna rereading from NIV.",
@@ -101,9 +377,10 @@
     }
    ],
    "creators": {
-    "jude-3-project": 2
+    "jude-3-project": 3,
+    "mike-winger": 1
    },
-   "n": 2,
+   "n": 4,
    "text": {
     "KJV": "But ye, beloved, building up yourselves on your most holy faith, praying in the Holy Ghost,",
     "WEB": "But you, beloved, keep building up yourselves on your most holy faith, praying in the Holy Spirit."
@@ -112,6 +389,18 @@
   },
   "Jude 1:21": {
    "citations": [
+    {
+     "confidence": 0.8117,
+     "context": "We pray, Lord, that we would be witnesses to those who have issues, Lord, that are struggling with sin, struggling especially with the issue of homosexuality. We pray we could we could, in the love of Christ, we could show them the way out and not push them further into that sin like so many people are doing nowadays. God, help us have compassion and boldness. Help us to be faithful to you, Lord.",
+     "creator": "mike-winger",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2017-02-20T10:57:51Z",
+     "role": "host",
+     "t": 3016.96,
+     "title": "Homosexuality & Romans 1: Controversy and Clarity",
+     "video_id": "7-i60d556Ko"
+    },
     {
      "confidence": 0.5,
      "context": "This is a lifelong effort, right? We show people the sufficiency of the biblical worldview as we live out the gospel by embodying the sacrificial love of our Savior. As Jude one says, building yourself up in the most holy faith, praying in the Holy Spirit, keeping yourselves in the love of God, waiting for the mercy of our Lord Jesus Christ that leads to eternal life.",
@@ -137,6 +426,18 @@
      "video_id": "OEwUWZZRgwY"
     },
     {
+     "confidence": 0.8213,
+     "context": "Because Todd says that he's an example of a normal Christian. I have lived every day of my life for 11 and a half years in the love of God. Your hand can no longer cause you to sin because you're too in love with Jesus and you're being convicted of the very thing God told you to seek first. I've woke up for 11 and a half years in love with Jesus. If you wake up in love with Jesus, if you go to sleep in love with Jesus, if you wake up in the middle of the night in love with Jesus, you will fulfill the first command.",
+     "creator": "mike-winger",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-04-10T22:29:24Z",
+     "role": "unknown",
+     "t": 413.64,
+     "title": "A Warning to the Church about Todd White",
+     "video_id": "SND3aa_L300"
+    },
+    {
      "confidence": 0.5625,
      "context": "Doubters. So wanted to point that out. Let's see if we have any more here. Oh, of course, we always have the salvation issues. Jude 21 says, Keep yourselves in the love of God, waiting for the mercy of our Lord Jesus Christ that leads to eternal life. You know what's amazing? Every I'm sorry, tangent. Every single time I talk about the eternal flames, the eternal fire, the eternal darkness, people are like, well, it doesn't mean eternal in the way that you think.",
      "creator": "mindshift",
@@ -152,17 +453,139 @@
    "creators": {
     "drcraigvideos": 1,
     "jude-3-project": 1,
+    "mike-winger": 2,
     "mindshift": 1
    },
-   "n": 3,
+   "n": 5,
    "text": {
     "KJV": "Keep yourselves in the love of God, looking for the mercy of our Lord Jesus Christ unto eternal life.",
     "WEB": "Keep yourselves in God’s love, looking for the mercy of our Lord Jesus Christ to eternal life."
    },
    "truncated": false
   },
+  "Jude 1:23": {
+   "citations": [
+    {
+     "confidence": 0.7945,
+     "context": "Let's call that intellectual agoraphobia. This is the birth of the sanitized community. Exclusion is no longer seen as a harsh act. It's reframed as life-saving medical intervention. In Jude 22 through 23, the author tells the community to snatch others from the fire, but to show mercy to others mixed with fear, hating even the clothing stained by the corrupted flesh. If the dissenter is a disease, then shunning them isn't mean, it's quarantine.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-02-17T18:07:42Z",
+     "role": "host",
+     "t": 1000.28,
+     "title": "Everything Wrong With the General Epistles: Damage Control Christianity",
+     "video_id": "Hs21vfPzbVE"
+    }
+   ],
+   "creators": {
+    "darante-lamar": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And others save with fear, pulling them out of the fire; hating even the garment spotted by the flesh.",
+    "WEB": "and some save, snatching them out of the fire with fear, hating even the clothing stained by the flesh."
+   },
+   "truncated": false
+  },
   "Jude 1:24": {
    "citations": [
+    {
+     "confidence": 0.8799,
+     "context": "But the ultimate standard and encouragement and hope we have is Jude 121. Hello, that says to him who is able to keep us from stumbling and to present us faultless and blameless. I'll say it one more time to him, God who is able to keep us from stumbling and to present us faultless and blameless.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-11-07T17:00:07Z",
+     "role": "host",
+     "t": 330.52,
+     "title": "Explaining the Lyrics Behind my Album Blameless",
+     "video_id": "3Htdc6QXT_Y"
+    },
+    {
+     "confidence": 0.7978,
+     "context": "One of my favorite favorite verses in the Bible is Jude 124. And it says to him who was able to keep us from stumbling and to present us blameless before his glorious presence with great joy. That verse has always just been an encouraging encouragement to me and reminded me of the truth that it's going to be God who ultimately keeps me. But I rarely studied or even read all of the verses that preceded it.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-09-17T13:15:45Z",
+     "role": "host",
+     "t": 21.52,
+     "title": "Why study Jude?",
+     "video_id": "AQS5Cyium8Q"
+    },
+    {
+     "confidence": 0.8471,
+     "context": "Why? Because he who started a good work in us will finish it. Why? Because those whom he predestined, he also called, and those whom he called, he also justified, and those whom he justified, he also glorified. How? Because to him who was able to keep you from stumbling and to present you faultless and blameless before his presence with great joy. How we are now doesn't have to determine how we'll finish. Those who love God will see him.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-05-29T19:58:05Z",
+     "role": "host",
+     "t": 1106.32,
+     "title": "The Gospel for The Fallen",
+     "video_id": "AW0Yg61TWWA"
+    },
+    {
+     "confidence": 0.8181,
+     "context": "Like you have to keep me. Sure. And so it's like I'm saying, like, steady wrestling, ain't no second guessing to my heart to send your praise, lest I give it away, give it away. And so it's like I'm I'm aware of myself enough to know that Jew 124 says to him who is able to keep you from stumbling and to present you faultless and blameless before faultless and blameless before his glorious presence with great joy. So it's just this acknowledgement of I am going to live faithfully, yet at the same time, it is him who wills and works in me to do what I need to do for Christ.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-12-05T19:30:05Z",
+     "role": "unattributed",
+     "t": 6450.04,
+     "title": "Jackie Hill Perry - Blameless: The Album Breakdown",
+     "video_id": "Jn9YR8Mn2TM"
+    },
+    {
+     "confidence": 0.8246,
+     "context": "And then somebody gave him a video of one of my debates, and he said, it saved me from losing my faith. I cannot thank you enough. And I said to him, it was the Lord who saved you from falling. And he said, Yes, but he used you. I can't thank you too much. And I told him how thrilled I was to hear this and for him. And I asked him about his future plans. And he said, I'm graduating this year, and I plan to go to seminary.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2012-01-11T07:19:48Z",
+     "role": "host",
+     "t": 2476.68,
+     "title": "Christian Apologetics: Who Needs It? - William Lane Craig",
+     "video_id": "KDH-_4vkKUk"
+    },
+    {
+     "confidence": 0.8321,
+     "context": "Help her. This is what it means by to him who is able to keep us from stumbling and to present us faultless and blameless before his glorious presence with great joy. If there is any prayer that the Father will always answer, it is the prayers of his resurrected son.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-02-17T20:49:08Z",
+     "role": "host",
+     "t": 1317.68,
+     "title": "In Defense of Hope: Psalm 42  (Jackie Hill Perry x Passion 2025)",
+     "video_id": "LX5BwL9PXVU"
+    },
+    {
+     "confidence": 0.9156,
+     "context": "Yes, you got struggles. Yes, you mess up. Yes, you're not as faithful as you want to be. But if you are in Christ Jesus, there is no more condemnation reserved for you. It has been swallowed up in victory. So now you can say with full confidence to him who is able to keep me from falling and to present me faultless before his glorious presence with great joy. To the only God, our Father, through Jesus Christ our Lord, be glory, be dominion, and be power forever and ever.",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2022-12-01T18:13:26Z",
+     "role": "host",
+     "t": 3260.16,
+     "title": "David and Goliath: The Lord of Hosts fights for you (Glory Conference)",
+     "video_id": "Ppz29XIU2Jc"
+    },
+    {
+     "confidence": 0.8376,
+     "context": "Not everyone knows you, and I pray that you would make it clear who doesn't. I pray those that are your child, I pray God that they would remain faithful. We are in a time where faithfulness is hard. It is difficult. But to him who is able to keep us from stumbling, I thank you, God, for all that you've done. Keep me from error. Help me be wise, help me be winsome in Jesus' name. Amen. Um, the theme of this conference is found, right?",
+     "creator": "jackie-hill-perry",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2019-12-26T16:02:55Z",
+     "role": "host",
+     "t": 201.0,
+     "title": "How Adam and Eve jacked up everything. (Genesis 1-3)",
+     "video_id": "QWqAdElTf9k"
+    },
     {
      "confidence": 0.5909,
      "context": "All right, right before I get to the first question, I just want to remind you guys of something really amazing. Scripture has this verse in Jude, verse 24. It says, Now to him who is able to keep you from stumbling and to present you faultless, faultless before the presence of his glory with exceeding joy, to God, our Savior, who alone is wise, be glory and majesty, dominion and power both now and forever. Amen. Look at the power of God to keep you, to keep you as in, keeping you saved, keeping you in Christ.",
@@ -177,9 +600,11 @@
     }
    ],
    "creators": {
+    "drcraigvideos": 1,
+    "jackie-hill-perry": 7,
     "mike-winger": 1
    },
-   "n": 1,
+   "n": 9,
    "text": {
     "KJV": "Now unto him that is able to keep you from falling, and to present you faultless before the presence of his glory with exceeding joy,",
     "WEB": "Now to him who is able to keep them from stumbling, and to present you faultless before the presence of his glory in great joy,"
@@ -188,6 +613,18 @@
   },
   "Jude 1:25": {
    "citations": [
+    {
+     "confidence": 0.9529,
+     "context": "And as we leave from this place, Lord, may we never ever leave from your presence. And now unto him who's able to keep us all from falling, present us faultless before his presence with exceeding great joy. To the only wise God, our Savior. Be glory, majesty, dominion, and power. Henceforth, now and forever. Amen. God bless you. Have a great night, everyone.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-04-08T03:13:35Z",
+     "role": "host",
+     "t": 9884.2,
+     "title": "'Change My Mind' LIVE Q&A from Louisiana Christian Univ. (Pineville, LA)",
+     "video_id": "GyUDIuTJmOs"
+    },
     {
      "confidence": 1.0,
      "context": "All right, right before I get to the first question, I just want to remind you guys of something really amazing. Scripture has this verse in Jude, verse 24. It says, Now to him who is able to keep you from stumbling and to present you faultless, faultless before the presence of his glory with exceeding joy, to God, our Savior, who alone is wise, be glory and majesty, dominion and power both now and forever. Amen. Look at the power of God to keep you, to keep you as in, keeping you saved, keeping you in Christ.",
@@ -202,9 +639,10 @@
     }
    ],
    "creators": {
+    "cross-examined": 1,
     "mike-winger": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever. Amen.",
     "WEB": "to God our Savior, who alone is wise, be glory and majesty, dominion and power, both now and forever. Amen."
@@ -213,6 +651,174 @@
   },
   "Jude 1:3": {
    "citations": [
+    {
+     "confidence": 0.7761,
+     "context": "Hello, welcome to the Jude 3 Project Podcast. I'm your host, Lisa Fields. I'm the founder of the Jude 3 Project. For all of those who don't know what the Jude Project is, it was birthed from Jude 1 and 3. The passage says, earnestly contend for the faith. And we are on a mission to do just that here at the Jude 3 Project. The Jude 3 Project is not your normal apologetics organization. We cater to the African American demographic specifically because a lot of apologetics organizations are usually ran by Caucasians.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2015-04-09T16:29:36Z",
+     "role": "host",
+     "t": 14.24,
+     "title": "Theodicy and Hip Hop Part I - Jay-Z",
+     "video_id": "0JJZpYEfYzc"
+    },
+    {
+     "confidence": 0.7398,
+     "context": "Married to a beautiful bride who I don't deserve. And we are the parents of a two-year-old son named Jude, of all things. So yep. Yeah, his name goes along with uh Do Three Project. So I'm sure he'll earnestly contend for the faith. Look, that was the hope. So Lord willing. Awesome, awesome. So tell us about your uh we want to talk about today uh seminaries and divinity schools.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2017-06-27T12:59:49Z",
+     "role": "unknown",
+     "t": 161.0,
+     "title": "Seminaries and Divinity Schools | Steven Harris",
+     "video_id": "1-l7JwNv7Ic"
+    },
+    {
+     "confidence": 0.968,
+     "context": "There's a different kind of faith that you you you are not being you're not hearing or seeing discussed in 1 Corinthians 13. And it's something you'll see in Jude. Um he says, Beloved, although I was very eager to write to you about our common salvation, I find I find it necessary to write appealing to you, contend for the faith that was once for all delivered to the saints.",
+     "creator": "mike-winger",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-10-24T21:45:47Z",
+     "role": "host",
+     "t": 3491.96,
+     "title": "Is Diwali Demonic? 10 Qs with Mike Winger (Ep 64)",
+     "video_id": "1So-uvdUMEE"
+    },
+    {
+     "confidence": 0.6,
+     "context": "And I'll remind you that when the Bible uses the term the faith, it's it's always being used in a sense of uh the faith as a standalone concept, as a um a way of saying the things that we believe, the doctrines we believe. So it's not just your faith or your your personal belief in those things, but the faith, what Christian doctrine is. Jude 3, beloved, while I was very diligent to write to you concerning our common salvation, I found it necessary to write to you exhorting you to contend earnestly for the faith which was once for all delivered to the saints. The faith, our doctrines that we believe, were once and for all past tense delivered to the saints. So the things that we believe are already given over, and we're to and we're to fight to hold on to those things.",
+     "creator": "counsel-of-trent",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2020-01-21T16:56:52Z",
+     "role": "unknown",
+     "t": 4706.56,
+     "title": "Refuting CATHOLIC Authority (REBUTTED)",
+     "video_id": "23hl_fkhiCQ"
+    },
+    {
+     "confidence": 0.8252,
+     "context": "And um, so I'm thankful for your work. Um, and I appreciate you taking the time to be with us today. Thank you, Lisa, and uh all the best to you at Jude Three. And that's that's one of my favorite passages to contend for the faith. So you have you certainly have a fan here. Thank you.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2018-09-18T22:35:45Z",
+     "role": "host",
+     "t": 2337.92,
+     "title": "Interpreting Scripture 101 | Dr. Luke Bobo",
+     "video_id": "2oYHp3-iI5U"
+    },
+    {
+     "confidence": null,
+     "context": "This phrase apostles and prophets becomes important in the church later because they look at the uh the the scriptures of the Old Testament and then the apostles, and they're sort of holding them together as being equally authoritative, apostles and prophets. In Jude chapter 1, verse 3, we get a really interesting scripture. It says this contend earnestly for the faith which was delivered once and for all to the saints. Now you can do your own word study on this. Whenever you have the phrase the faith, it's not referring to personal belief.",
+     "creator": "mike-winger",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2016-09-19T10:48:25Z",
+     "role": "host",
+     "t": 1589.28,
+     "title": "How We Got the New Testament: Evidence for the Bible pt12",
+     "video_id": "5hItK8IY-Us"
+    },
+    {
+     "confidence": 0.8626,
+     "context": "And what I think we have a lot in the American church is we have the ability to kind of stay in a lane and be known for a niche and generally not get in much trouble. We don't have to worry much, we can make a great paycheck, we could have lots of influence. We could kind of do our thing, talk about happy stuff, and never have a Jude moment when he says, Beloved, I wish about or I want to write to you about our common faith, but I felt it necessary to urge you to contend for the faith. So it's like I wanted to talk to you about the gospel and about good things and happy things.",
+     "creator": "mike-winger",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-06-25T14:45:00Z",
+     "role": "host",
+     "t": 6210.92,
+     "title": "Benny Hinn's nephew confirms the worst. Here's our interview.",
+     "video_id": "6ur4PmlYzOM"
+    },
+    {
+     "confidence": 0.9547,
+     "context": "Um Jude. Beloved, although I was very eager to write to you about our common salvation, I found it necessary to write appealing to you to contend for the faith. I love this verse that was once and for all this delivered to the saints. For certain people have crept in unnoticed who long ago were designed for this condemnation, ungodly people who pervert the grace of our God into sensuality and deny our only master and Lord Jesus Christ.",
+     "creator": "mike-winger",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-03-17T22:14:00Z",
+     "role": "host",
+     "t": 4283.84,
+     "title": "20 Questions with Pastor Mike (Episode 95)",
+     "video_id": "8cmhyC2PnWM"
+    },
+    {
+     "confidence": 0.7321,
+     "context": "I'm always leaving these things. I'm gonna steal that. Why? Why are you calling yourself a Christian university if you're not following Jesus? I mean, what's the point? That is a good question. And that I think gets at the issue that we as the church, we as the American church, um, we do actually have a responsibility to contend for the faith in part through contending for our institutions and our organizations.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-12-17T02:00:06Z",
+     "role": "host",
+     "t": 3402.16,
+     "title": "Why Are Christian Institutions Trading Truth for a Leftist Agenda? with Megan Basham",
+     "video_id": "EEqBH0gJwKA"
+    },
+    {
+     "confidence": 0.7503,
+     "context": "Can you speak to that? Because we discussed that uh because here at Drew Three, we obviously, as an apologetics organization, we we affirm that Jesus is the only way. Um how can we address that issue from a historical perspective in Christian in church history, uh, because I believe it's so vital uh if we're going to contend for the faith.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2017-06-05T20:32:09Z",
+     "role": "unknown",
+     "t": 2166.24,
+     "title": "The Deity of Christ and the Council of Nicaea | Vince Bantu, PhD",
+     "video_id": "FLCQga-9F58"
+    },
+    {
+     "confidence": 0.8186,
+     "context": "It's important to read the right things. We're gonna add a reading list to this to help with some good books that we would recommend to help steer you in the right direction and to give you answers and to be able to talk to people so you won't have to run away. That you will be like Jude, that you will be that we would be as he instructed to earnly contend for the faith, and as Peter instructed, always be able to give an answer for the hope that you have. We want you to be able to do that. Um, thank you for listening to the Jude 3 Project Podcast.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2015-04-23T20:23:40Z",
+     "role": "host",
+     "t": 2038.68,
+     "title": "Theodicy and Hip Hop Part VI - Andy Mineo",
+     "video_id": "HXhvupjfJKY"
+    },
+    {
+     "confidence": 0.8118,
+     "context": "Um the issue with second Peter um this this notion of contending for a faith that seems to have been around for a long time at this point, you know. Your your verse for Jude 3, um that that contending for the faith that was once delivered to the saints, for some people that feels like that's this has been around for a long time now. We're looking back on something. That's just one. But also, you know, the use of Dr.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2016-12-02T17:43:39Z",
+     "role": "host",
+     "t": 1548.16,
+     "title": "Did Paul Really Write That? | Dr. Dennis Edwards, PhD",
+     "video_id": "MSR1C432_3s"
+    },
+    {
+     "confidence": 0.7515,
+     "context": "Whenever I write Christianities in the plural, it gets a nice red line underneath it. Red lines here too. But in fact, there never was a single Christianity. What's the theological fallout of a ractured Christianity versus a unified movement? Is it Jew that talks about the faith once delivered to the saints? I mean, there's that message in the bottle, and we're the ones who got the bottle and got the message in the bottle. I think that if we put a more human face on the development of Christianity, it will encourage patience with diversity, which I think would be a good idea.",
+     "creator": "paulogia",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-01-14T14:30:20Z",
+     "role": "host",
+     "t": 1033.96,
+     "title": "Paul Wasn’t a Christian — The Shocking Truth From a Scholar (feat Dr Paula Fredriksen)",
+     "video_id": "QdRuxJNVuJU"
+    },
+    {
+     "confidence": 0.7613,
+     "context": "We answer those questions, we provide a very uh appealing and historically accurate, apologetic uh to contend for the faith and help you to contend for the faith. This is a resource for you. This is another um tool, uh uh notch in your tool belt to go defend the faith and glorify the Lord as we're called to do in Macro 28.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2022-06-24T16:00:09Z",
+     "role": "unattributed",
+     "t": 1637.16,
+     "title": "The Unspoken Truth About Christianity Before Slavery | Don Carey",
+     "video_id": "W2uFqtkEQGY"
+    },
     {
      "confidence": null,
      "context": "Okay. Um the Bible, we believe, is the revelation of God. We being Christians, we believe the Bible's the revelation of God. It is the faith once and for all delivered to the saints. It's Jude chapter 1, verse 3. Okay, it's the inspired word of God. Uh, it's complete, and there is no need to add to it any more information about uh the nature of God or how men can know God. Okay. Mormonism believes that God himself has evolved, and therefore there is more revelation that comes.",
@@ -240,9 +846,13 @@
    ],
    "creators": {
     "belief-it-or-not": 1,
-    "mike-winger": 1
+    "counsel-of-trent": 1,
+    "cross-examined": 1,
+    "jude-3-project": 7,
+    "mike-winger": 5,
+    "paulogia": 1
    },
-   "n": 2,
+   "n": 16,
    "text": {
     "KJV": "Beloved, when I gave all diligence to write unto you of the common salvation, it was needful for me to write unto you, and exhort you that ye should earnestly contend for the faith which was once delivered unto the saints.",
     "WEB": "Beloved, while I was very eager to write to you about our common salvation, I was constrained to write to you exhorting you to contend earnestly for the faith which was once for all delivered to the saints."
@@ -271,8 +881,109 @@
    "text": {},
    "truncated": false
   },
+  "Jude 1:4": {
+   "citations": [
+    {
+     "confidence": 0.7708,
+     "context": "Because many false prophets have gone out into the world. That's 1 John 4. The writer of Hebrews told us to quote, not be carried away by strange teachings. That's Hebrews 13 9. Jude said, we need to contend for the faith, because, quote, ungodly people pervert the grace of our God into a license for immorality and deny Jesus Christ as our only sovereign and Lord. That's James 3 and 5 3 to 5.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-08-31T01:21:24Z",
+     "role": "host",
+     "t": 446.0,
+     "title": "Is It Wrong for Christians to Call Out Shepherds?",
+     "video_id": "5liSpUEEoAI"
+    },
+    {
+     "confidence": 0.9245,
+     "context": "Beloved, although I was very eager to write to you about our common salvation, I found it necessary to write appealing to you to contend for the faith. I love this verse that was once and for all this delivered to the saints. For certain people have crept in unnoticed who long ago were designed for this condemnation, ungodly people who pervert the grace of our God into sensuality and deny our only master and Lord Jesus Christ. The direct application of this verse was obviously people in the first century, but there's people like that that still exist today.",
+     "creator": "mike-winger",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2023-03-17T22:14:00Z",
+     "role": "host",
+     "t": 4296.72,
+     "title": "20 Questions with Pastor Mike (Episode 95)",
+     "video_id": "8cmhyC2PnWM"
+    },
+    {
+     "confidence": 0.823,
+     "context": "And that that doesn't in itself create it, create any kind of apostasy. But but within but you have to you have to recognize that even in the even in the time of the apostles, they were predicting that there would be people within the church that would arise that were a problem. Jude says there are certain men who crept in, ungodly men. Wouldn't we both agree that this is true of both of our institutions? That there are there are people preaching bad stuff in the name of Mormonism, there are people preaching bad stuff in the name of Catholicism. And and that, and I think that goes back again.",
+     "creator": "capturing-christianity",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-12-29T21:07:42Z",
+     "role": "host",
+     "t": 2561.04,
+     "title": "\"You Lied\" — Joe Confronts Jacob LIVE 🔴",
+     "video_id": "Jucha-gwfos"
+    }
+   ],
+   "creators": {
+    "capturing-christianity": 1,
+    "cross-examined": 1,
+    "mike-winger": 1
+   },
+   "n": 3,
+   "text": {
+    "KJV": "For there are certain men crept in unawares, who were before of old ordained to this condemnation, ungodly men, turning the grace of our God into lasciviousness, and denying the only Lord God, and our Lord Jesus Christ.",
+    "WEB": "For there are certain men who crept in secretly, even those who were long ago written about for this condemnation: ungodly men, turning the grace of our God into indecency, and denying our only Master, God, and Lord, Jesus Christ."
+   },
+   "truncated": false
+  },
+  "Jude 1:6": {
+   "citations": [
+    {
+     "confidence": 0.9045,
+     "context": "So just pretend that I was doing this correctly all along. Let's look at a few more verses that support this idea. We have 2 Peter 2 4, for if God did not spare angels when they sinned, but sent them to hell, putting them in chains of darkness to be held for judgment. In Jude 1 6, we have and the angels who did not keep their positions of authority, but abandoned their proper dwelling, these he has kept in darkness, bound with everlasting chains for judgment on the great day. Matthew 25, 41.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-07-14T14:00:13Z",
+     "role": "host",
+     "t": 1145.84,
+     "title": "Enslaved Angels :The Most Overlooked Proof of God's Injustice!",
+     "video_id": "J5kkIhIWi_E"
+    },
+    {
+     "confidence": 0.9549,
+     "context": "And then in Jude, we have verses 6 and 7 refer to the same thing. And the angels that did not keep their own position, but left their proper dwelling, have been kept by him in eternal chains in the nether gloom until the judgment of the great day.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-07-28T04:08:53Z",
+     "role": "host",
+     "t": 405.32,
+     "title": "// Defenders LIVE! //",
+     "video_id": "QXtWoWHuia4"
+    }
+   ],
+   "creators": {
+    "mindshift": 1,
+    "reasonable-faith-org": 1
+   },
+   "n": 2,
+   "text": {
+    "KJV": "And the angels which kept not their first estate, but left their own habitation, he hath reserved in everlasting chains under darkness unto the judgment of the great day.",
+    "WEB": "Angels who didn’t keep their first domain, but deserted their own dwelling place, he has kept in everlasting bonds under darkness for the judgment of the great day."
+   },
+   "truncated": false
+  },
   "Jude 1:7": {
    "citations": [
+    {
+     "confidence": 0.858,
+     "context": "I mean you don't need to, but it totally opens the door for same-sex relationships, all kinds of relationships. So people who have opposite sex attractions, uh, they do need to get their house in order first. The New Testament book of Jude, verse 7 states that Sodom and Gomorrah, quote, gave themselves up to sexual immorality and perversion. But there are many forms of sexual immorality and perversion. And even if Jude 7 is taken as specifically referring to the threatened gang rape from Genesis 19 5, that still has nothing to do with the kinds of relationships that we're talking about.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2021-03-02T14:00:05Z",
+     "role": "host",
+     "t": 3387.84,
+     "title": "\"Gay Christianity\" Rebutted - Part 1",
+     "video_id": "Jg00hmUkekk"
+    },
     {
      "confidence": null,
      "context": "Why? Well, the reason is because speciality can be defined as sexual intercourse between humans and animals, which are biologically non-human. Now, in the New Testament, in the book of Jude, one verse seven, chapter one, verse seven, uh, only has one chapter. So, Jude uh verse seven, it says it talks about lasting after after uh lasting after other flesh. So that's the reason why um it is condemned.",
@@ -287,12 +998,114 @@
     }
    ],
    "creators": {
+    "counsel-of-trent": 1,
     "reasonable-faith-org": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Even as Sodom and Gomorrha, and the cities about them in like manner, giving themselves over to fornication, and going after strange flesh, are set forth for an example, suffering the vengeance of eternal fire.",
     "WEB": "Even as Sodom and Gomorrah and the cities around them, having in the same way as these given themselves over to sexual immorality and gone after strange flesh, are shown as an example, suffering the punishment of eternal fire."
+   },
+   "truncated": false
+  },
+  "Jude 1:9": {
+   "citations": [
+    {
+     "confidence": 0.9407,
+     "context": "But when the archangel Michael, contending with the devil, was disputing about the body of Moses, he did not presume to pronounce a blasphemous judgment, but said, the Lord rebuke you. This is the only, you know, um, spot where you might find, okay, maybe you can't rebuke the enemy because Michael said, the Lord rebuke you.",
+     "creator": "mike-winger",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-09T22:48:44Z",
+     "role": "host",
+     "t": 4043.84,
+     "title": "20 Questions with Pastor Mike (Episode 89)",
+     "video_id": "-I6SrydwNrA"
+    },
+    {
+     "confidence": 0.8997,
+     "context": "Jude writes in verses 9 and 10, but when the Archangel Michael, contending with the devil, disputed about the body of Moses, he did not presume to pronounce a reviling judgment upon him, but said, The Lord rebuke you.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-03-03T05:30:57Z",
+     "role": "host",
+     "t": 1032.28,
+     "title": "Evolution & Creation Part 23: Adam in the New Testament || Defenders LIVE!",
+     "video_id": "8PTTrR-FDH4"
+    },
+    {
+     "confidence": 0.833,
+     "context": "But in this story, they're fighting over the body of Moses, the very one that God himself buried. And yes, all of that is meant to be taken literally. But it shouldn't be surprising. I mean, that's super common, right? Different spiritual celestial beings on the opposite side of good and evil arguing over a dead prophet's corpse.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-06-08T14:00:15Z",
+     "role": "host",
+     "t": 730.64,
+     "title": "100 Insane Things the Bible Expects You to Take Literally!",
+     "video_id": "BNQ9823fPFY"
+    },
+    {
+     "confidence": 0.8762,
+     "context": "Um but anyways, I'm gonna come back to that. Um he had he had mentioned about um uh in the book of Jude about uh Moses and um and the devil uh contending for the body of or uh Michael and and contending with the body of Moses um with uh with Michael the Archangel, but it doesn't say anything about him being bodily assumed or anything.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2022-05-02T13:00:14Z",
+     "role": "unknown",
+     "t": 2022.28,
+     "title": "DEBATE: Do the Marian dogmas contradict scripture? (with Steve Christie)",
+     "video_id": "F6eN2WUoTk8"
+    },
+    {
+     "confidence": 0.7739,
+     "context": "You dare not call us by our name. And then I go into some of the white churches and they calling a pastor Brother Bob. Oh, I wish you would have went in the church of our Lord Jesus Christ and call that pastor. Oh no, you call that pastor by his first name. Hey, brother Russell, brother, who the Lord rebuke you, get thee behind me, Satan, you know. Um, so now I realize like titles don't mean shit. What's your function? And your function doesn't give you any power over me. And again, that's going back.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-06-15T19:11:29Z",
+     "role": "host",
+     "t": 6904.68,
+     "title": "Building \"No King\" Communities with X-Pastor Kyle Butler // Sunday Sessions",
+     "video_id": "OriYFVxm7gE"
+    },
+    {
+     "confidence": 0.8523,
+     "context": "It says, Then he showed me Joshua the high priest, standing before the angel of the Lord, and Satan standing at his right hand to accuse him. And the Lord said to Satan, The Lord rebuke you, O Satan. In these passages, the word Satan appears with the definite article, the Satan, meaning the adversary or the accuser who is opposed to God.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-09-02T04:06:33Z",
+     "role": "host",
+     "t": 214.92,
+     "title": "Defenders LIVE! // The Names of Satan | The Doctrine of Creation pt 21",
+     "video_id": "TMg9ZnzRm2Y"
+    },
+    {
+     "confidence": 0.9354,
+     "context": "He's mentioned again, as I've indicated in previous lessons, again in the New Testament in Jude, verse 9. This is the story of Michael's contending with Satan. It says, but when the archangel Michael, contending with the devil, disputed about the body of Moses, he did not presume to pronounce a reviling judgment upon him, but said, The Lord rebuke you.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-08-26T04:09:56Z",
+     "role": "host",
+     "t": 1382.52,
+     "title": "Defenders LIVE! // Doctrine of Creation pt 20: The Work of Angels",
+     "video_id": "Tz4oFAxEh-Y"
+    }
+   ],
+   "creators": {
+    "counsel-of-trent": 1,
+    "darante-lamar": 1,
+    "mike-winger": 1,
+    "mindshift": 1,
+    "reasonable-faith-org": 3
+   },
+   "n": 7,
+   "text": {
+    "KJV": "Yet Michael the archangel, when contending with the devil he disputed about the body of Moses, durst not bring against him a railing accusation, but said, The Lord rebuke thee.",
+    "WEB": "But Michael, the archangel, when contending with the devil and arguing about the body of Moses, dared not bring against him an abusive condemnation, but said, “May the Lord rebuke you!”"
    },
    "truncated": false
   }

@@ -35,41 +35,63 @@
   {
    "creator_count": 78,
    "distinctiveness": 7.79,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
+   "note": "Salvation by faith in Christ",
+   "quotes": [
+    {
+     "context": "...tortured without remission those who have [trusted in christ] even if they have sinned and...",
+     "t": 1175.96,
+     "video_id": "3NW4ZbnCdh4"
+    },
+    {
+     "context": "...the thief on the cross simply [trusted in christ] and christ says i can save...",
+     "t": 6048.2,
+     "video_id": "Zhm5_AXcqcA"
+    }
+   ],
+   "signal": 1,
    "surface": "trust in christ"
   },
   {
    "creator_count": 51,
    "distinctiveness": 7.49,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
+   "note": "Critique of Protestant doctrine",
+   "quotes": [
+    {
+     "context": "...demanding i meet the burden of [sola scriptura] which itself is an unbiblical doctrine...",
+     "t": 5931.6,
+     "video_id": "23hl_fkhiCQ"
+    },
+    {
+     "context": "...case that historic protestantism in using [sola scriptura] as a mechanism to create their...",
+     "t": 2237.64,
+     "video_id": "4k2sD2vgl8Y"
+    }
+   ],
+   "signal": 1,
    "surface": "sola scriptura"
   },
   {
-   "creator_count": 29,
-   "distinctiveness": 7.43,
+   "creator_count": 35,
+   "distinctiveness": 6.56,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "many protestants"
+   "surface": "church teaches"
   },
   {
    "creator_count": 40,
    "distinctiveness": 4.9,
-   "note": "pro-life movement",
+   "note": "anti‑abortion stance",
    "quotes": [
     {
-     "context": "...view i've been involved in the [pro life] movement was when i first got...",
-     "t": 1388.12,
-     "video_id": "D1iNzc9VhL8"
+     "context": "...i'll also say that catholics were [pro life] before it was cool for christians...",
+     "t": 229.2,
+     "video_id": "23hl_fkhiCQ"
     },
     {
-     "context": "...second edition of my book persuasive [pro life] if you want to learn how...",
-     "t": 829.08,
-     "video_id": "AHV0NpjBwWY"
+     "context": "...but i love the subtitle abortion [pro life] by conviction pro choice by default...",
+     "t": 1493.36,
+     "video_id": "1tQJ9Mdd_Qw"
     }
    ],
    "signal": 1,
@@ -85,12 +107,12 @@
   }
  ],
  "coverage": {
-  "added_since": 267,
-  "basis_videos": 822,
+  "added_since": 0,
+  "basis_videos": 1156,
   "complete": true,
-  "coverage_pct": 0.9308,
-  "ingested_videos": 1089,
-  "total_videos": 1170
+  "coverage_pct": 0.9863,
+  "ingested_videos": 1156,
+  "total_videos": 1172
  },
  "display_name": "The Counsel of Trent",
  "entities": [
@@ -121,20 +143,9 @@
   {
    "creator_count": 34,
    "distinctiveness": 6.0,
-   "note": "Eastern Orthodox religious camp",
-   "quotes": [
-    {
-     "context": "...the holy sepulchre where catholics and [eastern orthodox] worship but there is another one...",
-     "t": 12.4,
-     "video_id": "JAGPK-UCp60"
-    },
-    {
-     "context": "...the pope over protestants and even [eastern orthodox] saying the bishops are the reason...",
-     "t": 114.64,
-     "video_id": "2Y_BUn5aKtA"
-    }
-   ],
-   "signal": 1,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
    "surface": "eastern orthodox"
   },
   {

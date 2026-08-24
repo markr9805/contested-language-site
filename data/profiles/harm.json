@@ -1,16 +1,28 @@
 {
  "lines": {
-  "20170": {
-   "context": "This is what it is to speak out about harm. And I'm gonna continue to do it where I see that harm most, which is the Christian religion in this country right now. It's not the only harm. It's the one I am most capable of speaking about and most effective at helping with to answer all of the questions from Christians about why I care. So that's it. Thank you for being here. Please make this known to people that might need to see it. I hope to see you Thursday with a new video.",
+  "15620": {
+   "context": "It's fact about a religion that claims itself to be true and exclusive. And he's not only wrong, he's wrong in a way that's harmful because it's a way that it can be spread. This thing can be propped up. It can be removed of the responsibility that it has. This religion and the book it's based off of are responsible for so much real harm, not just in our country, but around the world. So until it fades to the corners of forgotten mythology, where we can pull back open the ancient story of Job and talk about the pros and cons we see from reading this fictional tale.",
    "creator": "mindshift",
-   "occurrence_id": 20170,
-   "published_at": "2026-07-07T14:00:05Z",
+   "occurrence_id": 15620,
+   "published_at": "2026-02-10T15:00:31Z",
+   "quoted": false,
+   "role": "unattributed",
+   "surface": "harm",
+   "t": 2024.04,
+   "title": "The Problem With How We Talk About the Bible",
+   "video_id": "BPSgyGtPYhE"
+  },
+  "2052": {
+   "context": "However, the true measure of a belief's value is not whether it feels comforting or provides a sense of certainty. The real question we must ask ourselves is whether our belief makes us more honest and more open to correction. Does it reduce the harm we cause to others and does it improve how we treat real people in the real world? When we audit our beliefs through the lens of their real world impact, we move away from just having an opinion and toward a more ethical, evidence-based way of belonging.",
+   "creator": "darante-lamar",
+   "occurrence_id": 2052,
+   "published_at": "2026-03-05T17:59:46Z",
    "quoted": false,
    "role": "host",
    "surface": "harm",
-   "t": 1759.76,
-   "title": "A Pastor’s Wife Texted a 15-Year-Old This | Disgusting Behavior",
-   "video_id": "8aDWm7oddXU"
+   "t": 928.4,
+   "title": "Are Your Beliefs Harmless? Here’s What They’re Doing to You",
+   "video_id": "0nesYHbXOWM"
   }
  },
  "profiles": [
@@ -21,40 +33,41 @@
     {
      "aspect": "function",
      "evidence": [
-      20170
+      15620
      ],
-     "text": "The term 'harm' is used to describe how simplistic moral frameworks allow for the justification of negative actions, such as condemnation or excommunication (L1). It also functions to identify specific instances where power structures excuse wrongdoing by focusing on intention rather than outcome (L14). Furthermore, it describes a process where people are required to act against their conscience, leading to 'moral injury' (L4)."
+     "text": "The term 'harm' is used to describe negative beliefs or actions that should be opposed and dismissed in order to protect individuals and society (L1, L8)."
     }
    ],
    "composition": {
+    "darante-lamar": 1,
     "mindshift": 1
    },
-   "data_hash": "7bb99f4c08dbb2f235537d48",
+   "data_hash": "dc485ab3ad78ebef0ccfd34a",
    "dropped_claims": 0,
-   "generated_at": "2026-07-19T14:34:33Z",
+   "generated_at": "2026-07-19T14:35:02Z",
    "k": 2,
    "model": "ollama:gemma4:e4b:c6eb396dbd59",
-   "n": 631,
+   "n": 528,
    "prompt_version": "1",
    "sampled": [
-    20170,
-    697,
-    8253,
-    11832,
-    31445,
-    4979,
-    20164,
-    33093,
-    19447,
-    24987,
-    13718,
-    22450,
-    5132,
-    18669,
-    10647,
-    20173
+    15619,
+    14803,
+    26354,
+    857,
+    26355,
+    20174,
+    20175,
+    15620,
+    19815,
+    34339,
+    12026,
+    2052,
+    7738,
+    30389,
+    31127,
+    27265
    ],
-   "sense": 0,
+   "sense": 1,
    "stale": true,
    "term": "harm"
   },
@@ -65,40 +78,41 @@
     {
      "aspect": "function",
      "evidence": [
-      20170
+      15620
      ],
-     "text": "The term 'harm' is used to describe how simplistic moral frameworks can make it easier for people to justify and participate in actions that cause damage (L1)."
+     "text": "The term 'harm' is used to describe negative beliefs or actions that should be opposed and dismissed in order to protect individuals and society (L1, L8)."
     }
    ],
    "composition": {
+    "darante-lamar": 1,
     "mindshift": 1
    },
-   "data_hash": "7bb99f4c08dbb2f235537d48",
+   "data_hash": "f493fc513c4c1289f346f5d2",
    "dropped_claims": 0,
-   "generated_at": "2026-07-19T14:35:43Z",
+   "generated_at": "2026-07-19T14:36:23Z",
    "k": 2,
    "model": "ollama:gemma4:e4b:c6eb396dbd59",
-   "n": 631,
+   "n": 529,
    "prompt_version": "1",
    "sampled": [
-    20170,
-    697,
-    8253,
-    11832,
-    31445,
-    4979,
-    20164,
-    33093,
-    19447,
-    24987,
-    13718,
-    22450,
-    5132,
-    18669,
-    10647,
-    20173
+    15619,
+    14803,
+    26354,
+    857,
+    26355,
+    20174,
+    20175,
+    15620,
+    19815,
+    34339,
+    12026,
+    2052,
+    7738,
+    30389,
+    31127,
+    27265
    ],
-   "sense": 0,
+   "sense": 1,
    "stale": true,
    "term": "harm"
   }

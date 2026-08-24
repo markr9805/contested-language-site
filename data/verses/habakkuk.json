@@ -1,6 +1,56 @@
 {
  "book": "Habakkuk",
  "verses": {
+  "Habakkuk 1:13": {
+   "citations": [
+    {
+     "confidence": 0.7632,
+     "context": "And I know it's easier said than done. I know it sounds like a lot of kumbaya, life is beautiful sort of speech, but I know that there's a lot of hardship in life. It's just that it makes more sense to see evil when there's no master pulling the strings than to see evil with a master that's supposed to prevent evil, or that it's all part of his non-evil somehow. Yeah. So like you said, it's it's a lot more cohesive this way. You can find peace, you can find you can find a sensible explanation, or even say, I don't know what the ultimate purpose or if there is an ultimate purpose to all of this existing, or if it's some cosmic coincidence, but I'm here, so might as well enjoy it.",
+     "creator": "apostate-aladdin",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-08-30T13:00:37Z",
+     "role": "host",
+     "t": 970.28,
+     "title": "Former Christian CULT Leader Finally \"Sees the Light\"",
+     "video_id": "VLHLyOgZG4o"
+    }
+   ],
+   "creators": {
+    "apostate-aladdin": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Thou art of purer eyes than to behold evil, and canst not look on iniquity: wherefore lookest thou upon them that deal treacherously, and holdest thy tongue when the wicked devoureth the man that is more righteous than he?",
+    "WEB": "You who have purer eyes than to see evil, and who cannot look on perversity, why do you tolerate those who deal treacherously and keep silent when the wicked swallows up the man who is more righteous than he,"
+   },
+   "truncated": false
+  },
+  "Habakkuk 1:2": {
+   "citations": [
+    {
+     "confidence": 0.8349,
+     "context": "And for someone that likes to highlight back to the Old Testament, you can look at almost any of our major players, any of the patriarchs, any of the prophets, and you're gonna see real moments of that same kind of tension between them and God. David himself cries out, How long, O Lord, have you forgot me forever? In Habakkuk we hear, O Lord, how long shall I cry for help? And you will not listen. Again, I could give you a hundred verses like this. Why not encourage someone who is struggling in this way that they're in good company of their biblical heroes?",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-04-07T14:00:28Z",
+     "role": "host",
+     "t": 749.68,
+     "title": "“Real Christian” According to Who? | Breaking Down This Cringe Skit",
+     "video_id": "JoxAUILAwTI"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "O LORD, how long shall I cry, and thou wilt not hear! even cry out unto thee of violence, and thou wilt not save!",
+    "WEB": "LORD, how long will I cry, and you will not hear? I cry out to you “Violence!” and will you not save?"
+   },
+   "truncated": false
+  },
   "Habakkuk 2:1": {
    "citations": [
     {
@@ -30,6 +80,18 @@
    "citations": [
     {
      "confidence": 0.5,
+     "context": "The lion shall eat straw like the ox. The sucking child shall play over the whole of the asp, and the weaned child shall put his hand on the adder's den. They shall not hurt or destroy in all my holy mountain, for the earth shall be full of the knowledge of the Lord, as the waters cover the sea. In that day, the root of Jesse shall stand as an ensign to the peoples.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2021-03-22T16:00:01Z",
+     "role": "host",
+     "t": 337.88,
+     "title": "Doctrine of the Last Things: Part 1 - The Second Coming of Christ",
+     "video_id": "2D8iocPgVmg"
+    },
+    {
+     "confidence": 0.5,
      "context": "The lion shall eat straw like the ox. The sucking child shall play over the whole of the asp, and the weaned child shall put his hand on the adder's den. They shall not hurt or destroy in all my holy mountain, for the earth shall be full of the knowledge of the Lord, as the waters cover the sea. In that day the root of Jesse shall stand as an ensign to the peoples.",
      "creator": "reasonable-faith-org",
      "detection_method": "shingle_match",
@@ -39,15 +101,141 @@
      "t": 331.88,
      "title": "NEW SECTION || Doctrine of The Last Things Part 1: The Return of Christ || Defenders LIVE!",
      "video_id": "C-jXn8puJDI"
+    },
+    {
+     "confidence": 0.8475,
+     "context": "For the Lord shall raise up from Levi, as it were, a priest, and from Judah, as it were, a king, God and man, so shall he save all the Gentiles and the race of Israel. We should also note that Isaiah 11 9 promises that through the Messiah, quote, the earth shall be full of the knowledge of the Lord as the waters cover the sea. In the first century, there were probably about eight million Jews and less than ten thousand Christians, out of a global population of about three hundred million people.",
+     "creator": "counsel-of-trent",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-04-10T16:07:06Z",
+     "role": "host",
+     "t": 1370.88,
+     "title": "REFUTING a Rabbi on the Resurrection (REUPLOAD)",
+     "video_id": "J_qZnkRoodg"
+    },
+    {
+     "confidence": 0.7849,
+     "context": "The sun and the moon and the stars are still shining above. The boat is floating on the surface of the waters. The waters are filled with marine life, and the boat is full of animals and men. The waters cover the mountains, which will eventually emerge from beneath the surface of the water and be seen as mountains. This is definitely not chaos. An ancient Israelite would probably have pictured the state described in Genesis 1 2 to be like a pitch black night out on the Mediterranean Sea when no moon and stars were visible.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-12-16T05:34:50Z",
+     "role": "host",
+     "t": 1152.72,
+     "title": "Evolution & Creation pt 12: Parallels Between Genesis and Egyptian Myths?  || Defenders LIVE!",
+     "video_id": "S3waU2Wi6w4"
     }
    ],
    "creators": {
-    "reasonable-faith-org": 1
+    "counsel-of-trent": 1,
+    "reasonable-faith-org": 3
    },
-   "n": 1,
+   "n": 4,
    "text": {
     "KJV": "For the earth shall be filled with the knowledge of the glory of the LORD, as the waters cover the sea.",
     "WEB": "For the earth will be filled with the knowledge of the LORD’s glory, as the waters cover the sea."
+   },
+   "truncated": false
+  },
+  "Habakkuk 2:3": {
+   "citations": [
+    {
+     "confidence": 0.7475,
+     "context": "Could not disagree. Ask your question, but what I tell you is the law, and you have to follow that law. So go through your moments, right? Like, go through your moments, get yourself together. But at the end, at the end of it, what I tell you is what the Lord said, because I am his prophet. I he the Lord speaks to me, right? Like the Lord speaks to me. And so that was um, I would say that's the biggest. You certainly can question, but you can't disagree.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2021-10-22T16:00:11Z",
+     "role": "host",
+     "t": 805.0,
+     "title": "Is Life Better Now That You've Left The Church? | Why I Don't Go (Season 2 Episode 2) #WIDG",
+     "video_id": "72qmu3qtG9U"
+    }
+   ],
+   "creators": {
+    "jude-3-project": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For the vision is yet for an appointed time, but at the end it shall speak, and not lie: though it tarry, wait for it; because it will surely come, it will not tarry.",
+    "WEB": "For the vision is yet for the appointed time, and it hurries toward the end, and won’t prove false. Though it takes time, wait for it, because it will surely come. It won’t delay."
+   },
+   "truncated": false
+  },
+  "Habakkuk 2:4": {
+   "citations": [
+    {
+     "confidence": 0.812,
+     "context": "Trust in the Lord with all your heart. Lean not on your own understanding, and all your ways acknowledge him, and he will direct your paths. The Bible says the just shall live by faith. So believe God has a plan for you, and that he's gonna show it to you in his time. Okay, I don't know about you, but I want to make sure that I'm in God's perfect will for my life because I know that is the place where I'm gonna experience favor and divine blessings from God.",
+     "creator": "belief-it-or-not",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2021-03-09T11:40:57Z",
+     "role": "unknown",
+     "t": 201.16,
+     "title": "You Are Not The Chosen One",
+     "video_id": "5HDlQUAhwjI"
+    },
+    {
+     "confidence": 0.8157,
+     "context": "Wounded for our transgressions, bruised for our iniquities. That's in the Dead Sea Scrolls applied to the teacher. And in fact, in the great commentary on the book of Habakkuk, the Dead Sea Scrolls tell you how you're going to be saved by faith. They actually quote, the just shall live by faith. Same as Paul. But they say it means those who have faith in the teacher of righteousness and suffer with him, so that they'll be glorified with him. Does that sound kind of familiar? Like Romans 8?",
+     "creator": "paulogia",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2023-10-31T13:30:09Z",
+     "role": "unattributed",
+     "t": 811.56,
+     "title": "No, Jesus WASN'T Special. (feat Dr James Tabor) (Jeremiah Johnston response)",
+     "video_id": "S5fwT8FtmTE"
+    }
+   ],
+   "creators": {
+    "belief-it-or-not": 1,
+    "paulogia": 1
+   },
+   "n": 2,
+   "text": {
+    "KJV": "Behold, his soul which is lifted up is not upright in him: but the just shall live by his faith.",
+    "WEB": "Behold, his soul is puffed up. It is not upright in him, but the righteous will live by his faith."
+   },
+   "truncated": false
+  },
+  "Habakkuk 3:18": {
+   "citations": [
+    {
+     "confidence": 0.7954,
+     "context": "Bill Craig is a dear brother. I have so learned through the years to appreciate you, Bill, and uh to see what a great intellect he is, but what a truly humble man he is as well. And his love for Christ is obvious as soon as he begins to speak, and his joy in the Lord becomes obvious in the midst of his intense intellectual rigor. And it's been a delight to get to know you and know your two kids, Charity and John, when they were students at Biola.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2020-08-18T15:58:31Z",
+     "role": "host",
+     "t": 14.8,
+     "title": "Panel Discussion @ Fulfilled Conference | Grace Evangelical Free Church - La Mirada, CA - 2020",
+     "video_id": "9yxUbuyL5QQ"
+    },
+    {
+     "confidence": 0.8136,
+     "context": "And for us, my side, who didn't grow up with any of it, lack of experience is an experience. And my lack of experience is also not the determiner of reality. So again, my encouragement for everyone is to have joy in the Lord, to know he's won, to walk in the power he's given. And I guess I'm gonna say this again, sorry, and to really have a robust conversation about spiritual gifts because it will actually show you what your expectations should be in the area of service and spiritual conflict in certain ways that actually maybe you should or should not be doing long term.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-09-02T13:00:06Z",
+     "role": "host",
+     "t": 2639.12,
+     "title": "Can Christians Be Oppressed By Demons? | Jon Thompson",
+     "video_id": "S2AAfwDmKpc"
+    }
+   ],
+   "creators": {
+    "jude-3-project": 1,
+    "reasonable-faith-org": 1
+   },
+   "n": 2,
+   "text": {
+    "KJV": "Yet I will rejoice in the LORD, I will joy in the God of my salvation.",
+    "WEB": "yet I will rejoice in the LORD. I will be joyful in the God of my salvation!"
    },
    "truncated": false
   },

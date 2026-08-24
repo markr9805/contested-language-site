@@ -1,15 +1,28 @@
 {
  "lines": {
-  "30309": {
-   "context": "If God brought us together, then God has to fix it. If you're just the one, if you're just the soulmate, then there is nothing to fix. We just got to deal with what we got, you know. So Bridge City is taking a different approach to that. Doing doing relationships beyond superstition means acknowledging that agency is the engine. It's not a mystery why a relationship works or fails.",
+  "17314": {
+   "context": "Uh I'm old school. I've I've been doing this for for a long time. Uh shoot, I done preached without the lights on at the church before, so let's keep rolling. So let's let's talk about the shift to shared values over shared beliefs. Bridge City does things differently. Instead of asking, do you believe what we believe? We ask, do you value what we value? And guess what we value? Because values are lived, not just recited. And when we align on values, even if our beliefs differ, we can still create powerful community.",
    "creator": "darante-lamar",
-   "occurrence_id": 30309,
-   "published_at": "2026-02-16T08:14:38Z",
+   "occurrence_id": 17314,
+   "published_at": "2025-09-15T06:17:14Z",
+   "quoted": false,
    "role": "host",
    "surface": "bridge city",
-   "t": 1523.76,
-   "title": "Sharing Is Caring // Falling In Love With Reason",
-   "video_id": "SUG8YIz6T9Q"
+   "t": 2807.84,
+   "title": "Did You Get My Message // HOMECOMING // Sunday Sessions",
+   "video_id": "6qgOdm-NxeE"
+  },
+  "25527": {
+   "context": "The beacon that provides space for this growing secular community which transcends the limitations of religious community. Become the substrate which helps cultivate an atmosphere of secular acceptance for those who are ready to build a new and better world. A watch party is one of the easiest ways to start creating local connection around the Bridge City experience. It can be small, simple, and meaningful, just a few people gathering in person to watch, reflect, and build together. If you're interested in becoming that spark in your area, visit the link on the screen and check out everything you need to start, host, and lead a watch party.",
+   "creator": "darante-lamar",
+   "occurrence_id": 25527,
+   "published_at": "2026-04-13T07:23:39Z",
+   "quoted": false,
+   "role": "unknown",
+   "surface": "bridge city",
+   "t": 461.2,
+   "title": "How You Livin' // LOUDER",
+   "video_id": "A8NF_9RlKHg"
   }
  },
  "profiles": [
@@ -18,15 +31,15 @@
    "cell": "creator=darante-lamar",
    "claims": [
     {
-     "aspect": "rhetorical-role",
+     "aspect": "valence",
      "evidence": [
-      30309
+      17314
      ],
-     "text": "It functions as a central concept or brand name for an expanding network of local chapters and global initiatives (L4, L15)."
+     "text": "It carries a positive valence, suggesting growth, improvement, and connection ('building better,' 'global campus') (L3, L6, L7, L8, L11)."
     }
    ],
    "composition": {
-    "darante-lamar": 1
+    "darante-lamar": 2
    },
    "data_hash": "3a1f1b37215a2fe93b106c8b",
    "dropped_claims": 0,
@@ -62,15 +75,24 @@
    "cell": "overall",
    "claims": [
     {
-     "aspect": "rhetorical-role",
+     "aspect": "function",
      "evidence": [
-      30309
+      17314,
+      25527
      ],
-     "text": "It serves as the central subject of discussion when promoting membership or participation in various local chapters and global initiatives (L4, L15). It is used to draw people into a structured learning environment through specific courses (L6, L7)."
+     "text": "The term is used to name a community or organization that provides resources for involvement and development (L1, L2, L5). It also functions as a descriptor for a growing global campus with various activities like events and clubs (L3, L4, L16)."
+    },
+    {
+     "aspect": "valence",
+     "evidence": [
+      17314,
+      25527
+     ],
+     "text": "The term carries positive valence, suggesting growth, improvement, and a sense of belonging (L16). It is associated with building something better and providing opportunities for connection (L3, L6)."
     }
    ],
    "composition": {
-    "darante-lamar": 1
+    "darante-lamar": 2
    },
    "data_hash": "3a1f1b37215a2fe93b106c8b",
    "dropped_claims": 0,

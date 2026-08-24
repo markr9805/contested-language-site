@@ -1,28 +1,28 @@
 {
  "lines": {
-  "30294": {
-   "context": "Moreover, if we believe as I do, that God's grace is extended to those who die in infancy or as small children, the death of these children was actually their salvation. We are so wedded to an earthly naturalistic perspective that we forget that those who die are happy to quit this earth for heaven's incomparable joy, therefore God does these children no wrong in taking their lives.",
-   "creator": "drcraigvideos",
-   "occurrence_id": 30294,
-   "published_at": "2012-01-18T21:24:20Z",
+  "8827": {
+   "context": "So, so yes, you may run into a wise person who who in their personal life are doing something crazy. You don't have to agree with everybody in order to still listen to them, right? So operate in grace. I encourage you. That's good to watch how you treat people. Watch how you treat people, and that's the ultimate lesson. So King's ability to wear the crown of leadership came from his unwavering dedication to his principles and his strategies.",
+   "creator": "darante-lamar",
+   "occurrence_id": 8827,
+   "published_at": "2025-01-20T08:02:32Z",
    "quoted": false,
    "role": "host",
    "surface": "grace",
-   "t": 1843.16,
-   "title": "Cambridge Union Society God Debate (Oct. 2011) - WL Craig, PS Williams vs. A Copson, A Ahmed",
-   "video_id": "DXB0o53FdVM"
+   "t": 3793.96,
+   "title": "Crown Me // Unf*ckwithable",
+   "video_id": "2lJvZK6mzbs"
   },
-  "33768": {
-   "context": "So I don't know if that answers the question, but probably the bodily exception. Okay, thank you. All right. So this question is for Steve, and this comes from Kevin, who's a local supporter. He says, This is a question for Steve. How do you understand Luke 128's title for Mary as full of grace, in the Greek, literally meaning something like having been made completely full in regards to the Immaculate Conception? Thanks. Sure. I addressed this a little bit during the debate.",
-   "creator": "counsel-of-trent",
-   "occurrence_id": 33768,
-   "published_at": "2022-05-02T13:00:14Z",
+  "8828": {
+   "context": "It is really hard to go through life without being contaminated. It is really hard to go through life without getting those scars. It is really hard to go through life without being corrupted. So, just like my wife was just talking, when I see people, I just see them in grace, man. That's all I got. That's all I got because I know what this life is fucking like, and I don't know what the fuck they're dealing with. You know what I'm saying? Yeah, oh yeah, and so we just wonderful at this getting good, y'all.",
+   "creator": "darante-lamar",
+   "occurrence_id": 8828,
+   "published_at": "2025-01-20T08:02:32Z",
    "quoted": false,
-   "role": "unknown",
+   "role": "host",
    "surface": "grace",
-   "t": 4855.92,
-   "title": "DEBATE: Do the Marian dogmas contradict scripture? (with Steve Christie)",
-   "video_id": "F6eN2WUoTk8"
+   "t": 4069.2,
+   "title": "Crown Me // Unf*ckwithable",
+   "video_id": "2lJvZK6mzbs"
   }
  },
  "profiles": [
@@ -31,88 +31,43 @@
    "cell": "creator=darante-lamar",
    "claims": [
     {
-     "aspect": "rhetorical-role",
-     "evidence": [
-      30294
-     ],
-     "text": "The speaker suggests that extending grace is essential for collective human development and coexistence in the modern world (L7, L16)."
-    }
-   ],
-   "composition": {
-    "counsel-of-trent": 1,
-    "drcraigvideos": 1
-   },
-   "data_hash": "dc79faf5465148c88377e03d",
-   "dropped_claims": 0,
-   "generated_at": "2026-07-19T14:20:21Z",
-   "k": 2,
-   "model": "ollama:gemma4:e4b:c6eb396dbd59",
-   "n": 148,
-   "prompt_version": "1",
-   "sampled": [
-    15599,
-    4444,
-    33768,
-    21726,
-    19772,
-    34130,
-    30294,
-    4445,
-    27379,
-    32316,
-    11121,
-    2434,
-    10327,
-    30013,
-    29752,
-    7438
-   ],
-   "sense": 1,
-   "stale": true,
-   "term": "grace"
-  },
-  {
-   "aspects_missing": [],
-   "cell": "overall",
-   "claims": [
-    {
      "aspect": "valence",
      "evidence": [
-      33768
+      8827,
+      8828
      ],
-     "text": "It functions as a means of self-correction or compassion, particularly when the speaker acknowledges being harder on themselves than others (L3)."
+     "text": "The concept of God's grace is described by some believers as sufficient for navigating difficult life circumstances, regardless of external hardship (L7, L8)."
     }
    ],
    "composition": {
-    "counsel-of-trent": 1,
-    "drcraigvideos": 1
+    "darante-lamar": 2
    },
-   "data_hash": "7100e5f413dbcbfb196537a2",
+   "data_hash": "8626ec706bb67a7535e4ded2",
    "dropped_claims": 0,
-   "generated_at": "2026-07-19T14:21:24Z",
+   "generated_at": "2026-07-19T14:19:52Z",
    "k": 2,
    "model": "ollama:gemma4:e4b:c6eb396dbd59",
-   "n": 149,
+   "n": 185,
    "prompt_version": "1",
    "sampled": [
-    15599,
-    4444,
-    33768,
-    21726,
-    19772,
-    34130,
-    30294,
-    4445,
-    27379,
-    32316,
-    11121,
-    2434,
-    10327,
-    30013,
-    29752,
-    7438
+    14590,
+    14589,
+    14591,
+    14592,
+    16965,
+    33032,
+    8827,
+    8828,
+    601,
+    4673,
+    1311,
+    2204,
+    35031,
+    10420,
+    9243,
+    19732
    ],
-   "sense": 1,
+   "sense": 0,
    "stale": true,
    "term": "grace"
   }

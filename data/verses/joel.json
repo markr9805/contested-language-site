@@ -1,6 +1,56 @@
 {
  "book": "Joel",
  "verses": {
+  "Joel 2:11": {
+   "citations": [
+    {
+     "confidence": 0.7725,
+     "context": "Again, Scripture describes the human condition startlingly well. Could it be that it's actually realistic, practical, even revelatory? Scripture reveals this God is great, and we are not. God is creator and Lord of glory. We are creatures, we are dust. And the simple reality is this. You know, we rebel against that after that pattern I just described, usually.",
+     "creator": "prophet-of-zod",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2020-10-15T17:30:09Z",
+     "role": "unknown",
+     "t": 2453.0,
+     "title": "Righteous Gossip: When Christians talk to Christians about Non-Believers (feat. Jon Steingard)",
+     "video_id": "QABbQP7R4Fk"
+    }
+   ],
+   "creators": {
+    "prophet-of-zod": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And the LORD shall utter his voice before his army: for his camp is very great: for he is strong that executeth his word: for the day of the LORD is great and very terrible; and who can abide it?",
+    "WEB": "The LORD thunders his voice before his army, for his forces are very great; for he is strong who obeys his command; for the day of the LORD is great and very awesome, and who can endure it?"
+   },
+   "truncated": false
+  },
+  "Joel 2:12": {
+   "citations": [
+    {
+     "confidence": 0.7409,
+     "context": "I prayed and told God that I needed to think about these questions freely, but that I thought if he was really there in Christianity was true, my honest inquiry would help me find him in every line of evidence I would explore. He said, if you'll seek me with all your heart, you'll find him. Here's another implication that Kent knows my mind and my life better than I do. I make it clear in this video that I have tried with all my might and all my heart to find God, especially the Christian God. Assuming superior knowledge of other people's thoughts may only be the second most common mistake I see evangelicals make in trying to convert atheists, but it's definitely the most annoying and near blasphemously arrogant if you think about it.",
+     "creator": "genetically-modified-skeptic",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2020-02-28T17:00:07Z",
+     "role": "unknown",
+     "t": 1078.32,
+     "title": "Creationist Kent Hovind Challenges Me, I Respond",
+     "video_id": "GdyjN_zCO_M"
+    }
+   ],
+   "creators": {
+    "genetically-modified-skeptic": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Therefore also now, saith the LORD, turn ye even to me with all your heart, and with fasting, and with weeping, and with mourning:",
+    "WEB": "“Yet even now,” says the LORD, “turn to me with all your heart, and with fasting, and with weeping, and with mourning.”"
+   },
+   "truncated": false
+  },
   "Joel 2:18": {
    "citations": [
     {
@@ -29,6 +79,18 @@
   "Joel 2:21": {
    "citations": [
     {
+     "confidence": 0.7744,
+     "context": "Because the Lord has done great things for you. The whole time we've been talking, we've still been making our little trip around the sun, and nobody needed you to make sure to press the gas pedal or fill the tank because God has done great things for you.",
+     "creator": "belief-it-or-not",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-05-09T18:53:35Z",
+     "role": "unknown",
+     "t": 1648.68,
+     "title": "Leave Toxic Positivity at Church  | Belief It Or Not",
+     "video_id": "FtEvhZD7qvQ"
+    },
+    {
      "confidence": 0.6667,
      "context": "And I will make no more, I will no more make you a reproach among the nations. I will remove the northerner from far from you and drive him into a parched and desolate land, his vanguard into the eastern sea, and his rear guard into the western sea. The stench and foul smell of him will rise, for he has done great things. The foreigner among them, right? They get invaded by foreign armies. God's going to drive them out, he's gonna bring bring them wine and oil, crops and well-being. And he says, Fear not, O land, be glad and rejoice, for the Lord has done great things.",
      "creator": "mike-winger",
@@ -42,9 +104,10 @@
     }
    ],
    "creators": {
+    "belief-it-or-not": 1,
     "mike-winger": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Fear not, O land; be glad and rejoice: for the LORD will do great things.",
     "WEB": "Land, don’t be afraid. Be glad and rejoice, for the LORD has done great things."
@@ -217,6 +280,54 @@
   "Joel 2:28": {
    "citations": [
     {
+     "confidence": 0.7796,
+     "context": "Now, when they began to do ministry in the upper room, and they asked the question, what does this mean? What does Peter do? Peter actually quotes Joel, and he says, In Joel, it says, In the last days I'll pour out my spirit upon all flesh, your sons and who your daughters shall prophesy. So as these men and women at the foundation of the church, the first sermon that leads to the miraculous expansion of the church, you have men and women out there declaring the glories of God, and they ask Peter, what does it mean?",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2021-06-16T15:00:11Z",
+     "role": "host",
+     "t": 1323.28,
+     "title": "What Should We Do When Bible Passages Bother Us? | Dr. Esau Mccaulley",
+     "video_id": "1MCztZNYDz8"
+    },
+    {
+     "confidence": 0.8416,
+     "context": "Yes, I will. So I agree that we have to look at the whole council of God pretty much. And remember, I brought up the point that it is dependent on the hermeneutical lens through which you are viewing and interpreting scripture. So for me personally, as I read those passages that were lifted up, one, I believe that it is true, God is gifted and poured out his spirit on all flesh. Your sons and daughters will prophesy. I believe that is absolutely true. I believe that women can be leaders.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-08-18T19:00:09Z",
+     "role": "host",
+     "t": 4391.08,
+     "title": "Patriarchy In The Church | Courageous Conversations '21",
+     "video_id": "1uEBhw6gfWY"
+    },
+    {
+     "confidence": 0.9273,
+     "context": "To limit that prophecy to private meetings that don't count as church gatherings, when the first time it happens, is in a 500 person gathering in a very public meeting. Your young young men shall she see visions, and your old men shall dream dreams. Even on my male servants and female servants, I will pour uh in those days I will pour out my spirit, and they shall prophesy, and I will show wonders in the heavens above and signs on earth below. And he goes on.",
+     "creator": "mike-winger",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2022-12-04T15:42:41Z",
+     "role": "host",
+     "t": 8534.52,
+     "title": "5 Views on “Women Keep Silent\" (1 Cor 14:35-36): Women in Ministry part 11",
+     "video_id": "3nPcu7RCVXY"
+    },
+    {
+     "confidence": 0.8652,
+     "context": "And then they ask the question, what does this mean? They said, Peter, what's going on here? And Peter explains, you know what, Peter, that's just an amazing thing that Peter does. He quotes the scripture. He says, In the last days, my spirit will fall upon all flesh, and your sons and daughters will prophesy. So the reason you see these men and women out here preaching at the beginning of the church is because God promised that when he acted to redeem his people, one sign of that redemption will be men and women proclaiming the word together.",
+     "creator": "jude-3-project",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-01-21T15:54:30Z",
+     "role": "unknown",
+     "t": 1478.12,
+     "title": "Problematic Passages | Dr. Jo Vitale & Dr. Esau Mccaulley",
+     "video_id": "6obcChEQef0"
+    },
+    {
      "confidence": 0.5161,
      "context": "We are told Jesus is the Son of God because of the prophecy that he fulfilled. And that's a lot of what I talked about in my prophecy section on the last video. In Acts 2 17, in the last days, God says, I will pour out my spirit on all people. Your sons and your daughters will prophesy. Your young men will see visions, your old men will dream dreams. Well, first of all, this is something that was happening all through the Bible. So it's funny to say in the end days there will be an even more outpouring of this.",
      "creator": "mindshift",
@@ -227,6 +338,18 @@
      "t": 1776.8,
      "title": "\"Christian Fundamentalism Isn't Biblical!\" | Wanna Bet?",
      "video_id": "LrDphn3KpEA"
+    },
+    {
+     "confidence": 0.8982,
+     "context": "You know, your sons and your daughters shall prophesy. Your old men and young men shall dream dreams and see visions and stuff, and you will raise the dead, you will take up snakes and all that stuff. And I, you know, I did try to raise the dead, but I've never tried to take up snakes.",
+     "creator": "darante-lamar",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-09-25T17:15:47Z",
+     "role": "host",
+     "t": 692.48,
+     "title": "Why Faith Healers Are Dangerous",
+     "video_id": "PyGVKvavSN4"
     },
     {
      "confidence": 0.5,
@@ -290,14 +413,141 @@
     }
    ],
    "creators": {
+    "darante-lamar": 1,
     "jackie-hill-perry": 1,
-    "mike-winger": 2,
+    "jude-3-project": 3,
+    "mike-winger": 3,
     "mindshift": 3
    },
-   "n": 6,
+   "n": 11,
    "text": {
     "KJV": "And it shall come to pass afterward, that I will pour out my spirit upon all flesh; and your sons and your daughters shall prophesy, your old men shall dream dreams, your young men shall see visions:",
     "WEB": "“It will happen afterward, that I will pour out my Spirit on all flesh; and your sons and your daughters will prophesy. Your old men will dream dreams. Your young men will see visions."
+   },
+   "truncated": false
+  },
+  "Joel 2:29": {
+   "citations": [
+    {
+     "confidence": 0.8715,
+     "context": "Your young young men shall she see visions, and your old men shall dream dreams. Even on my male servants and female servants, I will pour uh in those days I will pour out my spirit, and they shall prophesy, and I will show wonders in the heavens above and signs on earth below. And he goes on. So male and female, and the things that they were saying, because they were tongues with interpretation, it was effectively prophetic because it was known to the people.",
+     "creator": "mike-winger",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2022-12-04T15:42:41Z",
+     "role": "host",
+     "t": 8538.6,
+     "title": "5 Views on “Women Keep Silent\" (1 Cor 14:35-36): Women in Ministry part 11",
+     "video_id": "3nPcu7RCVXY"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And also upon the servants and upon the handmaids in those days will I pour out my spirit.",
+    "WEB": "And also on the servants and on the handmaids in those days, I will pour out my Spirit."
+   },
+   "truncated": false
+  },
+  "Joel 2:30": {
+   "citations": [
+    {
+     "confidence": 0.9126,
+     "context": "And then he quotes Joel's prophecy from the Old Testament. And I will show wonders in the heaven above and signs on the earth beneath, blood and fire and vapor of smoke, the sun shall be turned into darkness, and the moon into blood before the day of the Lord comes, the great and manifest day.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2021-04-19T17:00:03Z",
+     "role": "host",
+     "t": 443.12,
+     "title": "Doctrine of the Last Things: Part 5 - The Preterist Interpretation",
+     "video_id": "3qakxrs5NEI"
+    }
+   ],
+   "creators": {
+    "reasonable-faith-org": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And I will shew wonders in the heavens and in the earth, blood, and fire, and pillars of smoke.",
+    "WEB": "I will show wonders in the heavens and on the earth: blood, fire, and pillars of smoke."
+   },
+   "truncated": false
+  },
+  "Joel 2:31": {
+   "citations": [
+    {
+     "confidence": 0.6316,
+     "context": "And then he quotes Joel's prophecy from the Old Testament. And I will show wonders in the heaven above and signs on the earth beneath, blood and fire and vapor of smoke, the sun shall be turned into darkness, and the moon into blood before the day of the Lord comes, the great and manifest day.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2021-04-19T17:00:03Z",
+     "role": "host",
+     "t": 443.12,
+     "title": "Doctrine of the Last Things: Part 5 - The Preterist Interpretation",
+     "video_id": "3qakxrs5NEI"
+    },
+    {
+     "confidence": 0.6316,
+     "context": "And then he quotes Joel's prophecy from the Old Testament. And I will show wonders in the heaven above and signs on the earth beneath, blood and fire and vapor of smoke, the sun shall be turned into darkness, and the moon into blood, before the day of the Lord comes, the great and manifest day.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-08-16T16:06:18Z",
+     "role": "host",
+     "t": 437.12,
+     "title": "Doctrine of The Last Things Part 5: Has Jesus Already Returned?! || Defenders LIVE!",
+     "video_id": "UJ681vSyuWs"
+    },
+    {
+     "confidence": 0.8414,
+     "context": "And so, yes, it's not an eclipse, but it is a God utilizing the sun itself for divine purposes to create an outcome that was beneficial and willed by him. In Joel 231, we get prophecies that mention the sun being turned to darkness and the moon to blood before what? The great and terrible day of the Lord. This verse is probably on a hundred videos that are coming out right now. The sun being turned to darkness.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-03-31T14:00:19Z",
+     "role": "unknown",
+     "t": 1544.24,
+     "title": "Debunking Doomsday: The April 8th Solar Eclipse, Facts VS. Fiction",
+     "video_id": "V5XLdVr7QB0"
+    }
+   ],
+   "creators": {
+    "mindshift": 1,
+    "reasonable-faith-org": 2
+   },
+   "n": 3,
+   "text": {
+    "KJV": "The sun shall be turned into darkness, and the moon into blood, before the great and terrible day of the LORD come.",
+    "WEB": "The sun will be turned into darkness, and the moon into blood, before the great and terrible day of the LORD comes."
+   },
+   "truncated": false
+  },
+  "Joel 2:9": {
+   "citations": [
+    {
+     "confidence": 0.8213,
+     "context": "The wall is the thing that protects you. It makes it so there's only certain entry points into the city, and then you can guard those or even close the gates, so that um it's so powerful. Walls themselves are so powerful that many people who would be like, they would want to attack you, steal your stuff, kill kill people in the city, they see the walls and they go, I never mind. Let's go to a city without walls. A person without self-control, a person who's not able to resist his own desires and impulses, that person is like a city with no walls.",
+     "creator": "mike-winger",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-01-21T22:41:30Z",
+     "role": "host",
+     "t": 52.72,
+     "title": "Is Coffee Sinful? Maybe",
+     "video_id": "7bIYND1XedY"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "They shall run to and fro in the city; they shall run upon the wall, they shall climb up upon the houses; they shall enter in at the windows like a thief.",
+    "WEB": "They rush on the city. They run on the wall. They climb up into the houses. They enter in at the windows like thieves."
    },
    "truncated": false
   },
@@ -348,6 +598,144 @@
    "text": {
     "KJV": "Put ye in the sickle, for the harvest is ripe: come, get you down; for the press is full, the fats overflow; for their wickedness is great.",
     "WEB": "Put in the sickle; for the harvest is ripe. Come, tread, for the wine press is full, the vats overflow, for their wickedness is great.”"
+   },
+   "truncated": false
+  },
+  "Joel 3:15": {
+   "citations": [
+    {
+     "confidence": 0.8418,
+     "context": "So the description that we have in Mark 13, 24 to 27, is taken to be such an apocalyptic symbolic. There we read, but in those days after that tribulation, the sun will be darkened, and the moon will not give its light, and the stars will be falling from heaven, and the powers in the heavens will be shaken, and then they will see the Son of Man coming in clouds with great power and glory, and then he will send out the angels and gather his elect from the four winds from the ends of the earth to the ends of heaven.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2021-04-19T17:00:03Z",
+     "role": "host",
+     "t": 233.12,
+     "title": "Doctrine of the Last Things: Part 5 - The Preterist Interpretation",
+     "video_id": "3qakxrs5NEI"
+    },
+    {
+     "confidence": 0.8343,
+     "context": "There is no suggestion here that the elect are going to be snatched out of the world and spared from this great tribulation that Jesus here predicts. Then in verses 24 to 27 he says, but in those days, after that tribulation, the sun will be darkened, and the moon will not give its light, and the stars will be falling from heaven, and the powers in the heavens will be shaken, and then they will see the Son of Man coming in clouds with great power and glory.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2026-07-26T15:57:13Z",
+     "role": "host",
+     "t": 754.92,
+     "title": "Doctrine of The Last Things Part 2: Is The Rapture Biblical? || Defenders LIVE!",
+     "video_id": "DlbuFTGNNcg"
+    },
+    {
+     "confidence": 0.8597,
+     "context": "But it seems to be that that was the prediction because even in Matthew 24, the Olivet Discourse, the long drawn out signs of the ends of days, right? He gives the signs, and he says, Immediately after the suffering of those days, the sun will be darkened, and the moon will not give its light, and the stars will fall from heaven, and the powers of heaven will be shaken. Cool, that's you know, dramatic imagery, could mean a lot of things. But then he says, Then the sign of the Son of Man will appear in heaven, thinking Daniel chapter seven, and all the tribes of the earth will mourn, and they will see the Son of Man coming on the clouds of heaven.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-12-28T15:00:37Z",
+     "role": "host",
+     "t": 989.56,
+     "title": "Who Did Jesus Think He Was?",
+     "video_id": "I7qVrVCmBHE"
+    },
+    {
+     "confidence": 0.8772,
+     "context": "Woe to those who are pregnant and to those who are nursing infants in those days. Pray that it will may not be in winter, for in those days there will be great suffering, etc. etc. And then he says, it goes on to say, and then after that suffering. And the sun will be darkened, and the moon will not give its light, and the stars will be falling from heaven, and the powers of the heavens will be shaken. Then they will see the Son of Man coming in the clouds with great power and glory, and then he will send out the angels and gather his elect from the four winds, from the ends of the earth to the ends of the heaven.",
+     "creator": "paulogia",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-05-30T13:30:08Z",
+     "role": "unknown",
+     "t": 1016.6,
+     "title": "Yes, Jesus was a FAILED PROPHET (feat Tim O'Neill) (Mike Winger / InspiringPhilosophy response)",
+     "video_id": "LZ4nPw12B_c"
+    },
+    {
+     "confidence": 0.9033,
+     "context": "Or here he is in the inner rooms, do not believe it, for as lightning that comes from the east is visible even in the west, so it will be the coming of the Son of Man. Wherever there is a carcass, there the vultures were will will gather. Immediately after the distress of those days, the sun will be darkened, and the moon will not give its light, the stars will fall from the sky, and the heavenly bodies will be shaken. Then will appear the sign of the Son of Man in heaven, and all the peoples of the earth will mourn when they see the Son of Man coming on the clouds of heaven with power and great glory.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-07-02T01:00:06Z",
+     "role": "host",
+     "t": 424.2,
+     "title": "Are We In the End Times? Plus More Q&A",
+     "video_id": "P3mXOZy2syE"
+    },
+    {
+     "confidence": 0.8338,
+     "context": "But even in 70 AD, the sun wasn't darkened, the moon still gave its light, the stars didn't fall from the sky. So is Jesus a false prophet? Well, first of all, we need to realize that here in verse 29, when he quotes, the sun will be darkened and the moon will not give its light. What is that a quotation from? It's a quotation, actually, from Isaiah. This is Isaiah 13, 10.",
+     "creator": "cross-examined",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-07-20T15:30:23Z",
+     "role": "host",
+     "t": 45.52,
+     "title": "Jesus' End Times Prophecy | Frank Turek #Shorts",
+     "video_id": "SX2xC95OXGs"
+    }
+   ],
+   "creators": {
+    "cross-examined": 2,
+    "mindshift": 1,
+    "paulogia": 1,
+    "reasonable-faith-org": 2
+   },
+   "n": 6,
+   "text": {
+    "KJV": "The sun and the moon shall be darkened, and the stars shall withdraw their shining.",
+    "WEB": "The sun and the moon are darkened, and the stars withdraw their shining."
+   },
+   "truncated": false
+  },
+  "Joel 3:16": {
+   "citations": [
+    {
+     "confidence": 0.7418,
+     "context": "They're sort of like bubbles in an expanding foam. And God will be the transcendent, necessary creator of the multiverse. In fact, as I said last night in my talk, really, God is the best hope for the existence of a multiverse.",
+     "creator": "drcraigvideos",
+     "detection_method": "embedding_match",
+     "matched_translation": "KJV",
+     "published_at": "2018-01-05T22:33:41Z",
+     "role": "host",
+     "t": 38.0,
+     "title": "Would Multiple Universes Require Multiple Gods?",
+     "video_id": "VUfQUKIkU9Y"
+    }
+   ],
+   "creators": {
+    "drcraigvideos": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "The LORD also shall roar out of Zion, and utter his voice from Jerusalem; and the heavens and the earth shall shake: but the LORD will be the hope of his people, and the strength of the children of Israel.",
+    "WEB": "The LORD will roar from Zion, and thunder from Jerusalem; and the heavens and the earth will shake; but the LORD will be a refuge to his people, and a stronghold to the children of Israel."
+   },
+   "truncated": false
+  },
+  "Joel 3:4": {
+   "citations": [
+    {
+     "confidence": 0.7825,
+     "context": "So they pay your hundred thousand dollar debt. They say it's a free gift, enjoy. Oh, but now you owe me. And if you don't pay me back in the way I want to be paid, with giving your life to me, letting me control your life, submitting to me, obeying me, loving me. Jesus says to love me is to obey me. If you don't do that, things are gonna get worse.",
+     "creator": "mindshift",
+     "detection_method": "embedding_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-04-06T14:00:15Z",
+     "role": "unattributed",
+     "t": 580.84,
+     "title": "Who Wouldn’t Die to Save the Whole World?",
+     "video_id": "EMRfvfxq51g"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Yea, and what have ye to do with me, O Tyre, and Zidon, and all the coasts of Palestine? will ye render me a recompence? and if ye recompense me, swiftly and speedily will I return your recompence upon your own head;",
+    "WEB": "“Yes, and what are you to me, Tyre and Sidon, and all the regions of Philistia? Will you repay me? And if you repay me, I will swiftly and speedily return your repayment on your own head."
    },
    "truncated": false
   },

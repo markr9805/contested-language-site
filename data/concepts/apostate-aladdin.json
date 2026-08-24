@@ -9,30 +9,11 @@
    "surface": "wearing the hijab"
   },
   {
-   "creator_count": 56,
-   "distinctiveness": 10.07,
+   "creator_count": 142,
+   "distinctiveness": 9.82,
    "note": null,
    "quotes": [],
    "signal": 0,
-   "surface": "join islam"
-  },
-  {
-   "creator_count": 142,
-   "distinctiveness": 9.82,
-   "note": "ex-Muslim movement",
-   "quotes": [
-    {
-     "context": "...you know this is why i [left islam] or this is why islam is...",
-     "t": 4389.8,
-     "video_id": "1XBgheZ6jZ4"
-    },
-    {
-     "context": "...de facto representative of someone who [left islam] there are so many of us...",
-     "t": 764.84,
-     "video_id": "Aucm9Rcidjk"
-    }
-   ],
-   "signal": 1,
    "surface": "left islam"
   },
   {
@@ -54,9 +35,20 @@
   {
    "creator_count": 35,
    "distinctiveness": 9.4,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
+   "note": "criticism of Islam",
+   "quotes": [
+    {
+     "context": "...another level people can start taking [islamic criticism] more seriously so i don't want...",
+     "t": 6101.96,
+     "video_id": "psACFgdmYJ4"
+    },
+    {
+     "context": "...think about you know the seeing [islam critically] and what were your thoughts and...",
+     "t": 658.32,
+     "video_id": "mINYoisdf9o"
+    }
+   ],
+   "signal": 1,
    "surface": "islam critically"
   },
   {
@@ -65,14 +57,14 @@
    "note": "moral condemnation of slavery",
    "quotes": [
     {
-     "context": "...and we shouldn't do them and [slavery is bad] but spend enough time in islam...",
-     "t": 4061.68,
-     "video_id": "WlEuHX-0aFk"
+     "context": "...to arrive at the conclusion that [slavery is bad] before the muslim world somehow your...",
+     "t": 649.68,
+     "video_id": "PgAte_oCJ0E"
     },
     {
-     "context": "...that it's not considered the reason [slavery is bad] has nothing to do with 2025...",
-     "t": 9431.48,
-     "video_id": "oxQog1LYc4I"
+     "context": "...to us through the disbelievers that [slavery is bad] i'm sorry i've never paused to...",
+     "t": 925.76,
+     "video_id": "PgAte_oCJ0E"
     }
    ],
    "signal": 1,
@@ -120,11 +112,11 @@
   }
  ],
  "coverage": {
-  "added_since": 101,
-  "basis_videos": 99,
+  "added_since": 0,
+  "basis_videos": 244,
   "complete": false,
-  "coverage_pct": 0.7168,
-  "ingested_videos": 200,
+  "coverage_pct": 0.8746,
+  "ingested_videos": 244,
   "total_videos": 279
  },
  "display_name": "Apostate Aladdin",

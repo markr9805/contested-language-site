@@ -1,42 +1,31 @@
 {
  "concepts": [
   {
-   "creator_count": 60,
-   "distinctiveness": 11.09,
-   "note": "movement to recover truth",
-   "quotes": [
-    {
-     "context": "...preview this book it's called the [war on reality] how to recover truth in a...",
-     "t": 732.96,
-     "video_id": "QbnHsA-OCOo"
-    },
-    {
-     "context": "...hayes and i wrote called the [war on reality] recovering truth in a culture that...",
-     "t": 6246.12,
-     "video_id": "g1D-MdFqkxc"
-    }
-   ],
-   "signal": 1,
-   "surface": "war on reality"
-  },
-  {
    "creator_count": 33,
    "distinctiveness": 10.24,
-   "note": "protect innocent people from evil",
+   "note": "state authority to protect innocent people from evil",
    "quotes": [
     {
-     "context": "...essential primary purpose of government to [protect innocent people] from evil and punish wrongdoers biblically...",
-     "t": 3075.64,
-     "video_id": "CVNfTAbOxSI"
+     "context": "...has the sword of punishment to [protect innocent people] from evil and that's why by...",
+     "t": 2210.48,
+     "video_id": "5liSpUEEoAI"
     },
     {
-     "context": "...if for no other reason to [protect innocent people] and our ability to preach and...",
-     "t": 10466.28,
-     "video_id": "EVkcBsjso48"
+     "context": "...country we have police to help [protect innocent people] from evil inside the country and...",
+     "t": 47.92,
+     "video_id": "1B52iT8DFhY"
     }
    ],
    "signal": 1,
    "surface": "protect innocent people"
+  },
+  {
+   "creator_count": 30,
+   "distinctiveness": 10.1,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "people from evil"
   },
   {
    "creator_count": 30,
@@ -57,17 +46,17 @@
   {
    "creator_count": 118,
    "distinctiveness": 6.78,
-   "note": "opposition to sharia law",
+   "note": "Opposition to sharia law",
    "quotes": [
+    {
+     "context": "...the problem they want to implement [sharia law] which is against the united states...",
+     "t": 6516.52,
+     "video_id": "F5mUwWBybTg"
+    },
     {
      "context": "...here in america go away because [sharia law] is put into place that's not...",
      "t": 721.12,
      "video_id": "EW58E7gj4bI"
-    },
-    {
-     "context": "...when the ayatollah khomeini took over [sharia law] permits no women to leave their...",
-     "t": 15.52,
-     "video_id": "I3lgo9a3n5Q"
     }
    ],
    "signal": 1,
@@ -76,20 +65,9 @@
   {
    "creator_count": 59,
    "distinctiveness": 6.68,
-   "note": "accusing bias",
-   "quotes": [
-    {
-     "context": "...make yourself look bad well the [new testament writers] have filled the new testament this...",
-     "t": 1794.16,
-     "video_id": "78XsxPdjm-w"
-    },
-    {
-     "context": "...assumes illicitly you can't trust these [new testament writers] because they were biased you can...",
-     "t": 3552.04,
-     "video_id": "78XsxPdjm-w"
-    }
-   ],
-   "signal": 1,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
    "surface": "new testament writers"
   },
   {
@@ -110,15 +88,23 @@
   }
  ],
  "coverage": {
-  "added_since": 700,
-  "basis_videos": 556,
+  "added_since": 0,
+  "basis_videos": 1738,
   "complete": false,
-  "coverage_pct": 0.3471,
-  "ingested_videos": 1256,
-  "total_videos": 3619
+  "coverage_pct": 0.4775,
+  "ingested_videos": 1738,
+  "total_videos": 3640
  },
  "display_name": "Cross Examined",
  "entities": [
+  {
+   "creator_count": 60,
+   "distinctiveness": 11.09,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "war on reality"
+  },
   {
    "creator_count": 49,
    "distinctiveness": 10.8,

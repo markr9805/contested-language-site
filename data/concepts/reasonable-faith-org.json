@@ -49,25 +49,6 @@
    "surface": "saving faith"
   },
   {
-   "creator_count": 31,
-   "distinctiveness": 7.62,
-   "note": "New Perspective on Paul movement",
-   "quotes": [
-    {
-     "context": "...a result of the so called [new perspective] on paul some proponents of which...",
-     "t": 350.84,
-     "video_id": "FMEWMJXC2z0"
-    },
-    {
-     "context": "...not mean faithfulness proponents of the [new perspective] would have us believe that the...",
-     "t": 463.92,
-     "video_id": "FMEWMJXC2z0"
-    }
-   ],
-   "signal": 1,
-   "surface": "new perspective"
-  },
-  {
    "creator_count": 52,
    "distinctiveness": 7.59,
    "note": null,
@@ -125,15 +106,35 @@
   }
  ],
  "coverage": {
-  "added_since": 308,
-  "basis_videos": 270,
+  "added_since": 0,
+  "basis_videos": 712,
   "complete": false,
-  "coverage_pct": 0.3703,
-  "ingested_videos": 578,
-  "total_videos": 1561
+  "coverage_pct": 0.4552,
+  "ingested_videos": 712,
+  "total_videos": 1564
  },
  "display_name": "ReasonableFaithOrg",
- "entities": [],
+ "entities": [
+  {
+   "creator_count": 31,
+   "distinctiveness": 7.62,
+   "note": "New Perspective on Paul movement",
+   "quotes": [
+    {
+     "context": "...the claim of adherents of the [new perspective] is that the traditional reformers have...",
+     "t": 594.36,
+     "video_id": "GTW132Qoc00"
+    },
+    {
+     "context": "...alternative that is known as the [new perspective] on paul the claim of adherents...",
+     "t": 575.88,
+     "video_id": "GTW132Qoc00"
+    }
+   ],
+   "signal": 1,
+   "surface": "new perspective"
+  }
+ ],
  "side": "apologetics",
  "slug": "reasonable-faith-org"
 }
