@@ -27,15 +27,7 @@
 
 <div class="shell">
   <div class="sidebar">
-    <nav class="side-nav" aria-label="Views">
-      <a href="index.html">Terms</a>
-      <a href="map.html">Creator map</a>
-      <a href="galaxy.html" aria-current="page">Concept galaxy</a>
-      <a href="cloud.html">Occurrence cloud</a>
-      <a href="verses.html">Verse explorer</a>
-      <a href="contestation.html">Contestation</a>
-      <a href="concepts.html">Creator concepts</a>
-    </nav>
+    <nav class="side-nav" aria-label="Views"></nav>
     <div class="filter-area" style="border-top:0">
       <div style="padding:6px 4px;font-weight:600">Compare by</div>
       <div class="sky-controls" id="grouping-wrap"></div>
@@ -61,20 +53,21 @@
   </div>
 
   <main class="main" id="main">
-    <!-- Not linked from the site nav (DESIGN §3, 2026-07-29): the induced
-         clusters are near noise and largely track WHO is speaking rather than
-         what a word means. Anyone reaching this page by URL sees why first. -->
-    <p class="caveat"><strong>NOT A PUBLISHED FINDING.</strong> This view is
-    retained for development and possible future use; it is deliberately not
-    linked from the site navigation. The senses below come from k-means over
-    contextual embeddings, and on this corpus that clustering scores a
-    silhouette around 0.05 — near noise. Measured 2026-07-29: for
-    <em>community</em>, one creator supplies 93% of the largest cluster, and
-    that cluster's distinguishing vocabulary is one channel's recruitment
-    language (<em>bridge, city, channel, joining, sunday</em>). So a visible gap
-    between two points here is substantially a difference in who is talking, not
-    in what the word means. DESIGN §3 records Layer-3 sense divergence as tried
-    and set aside for exactly this reason, and §7 names the risk by name:
+    <!-- DESIGN §3, 2026-07-29: the induced clusters are near noise and largely
+         track WHO is speaking rather than what a word means. Intentionally
+         linked from the site nav because k-means fetches data, but visitors
+         should know what they are looking at before engaging. -->
+    <p class="caveat"><strong>RESEARCH PREVIEW.</strong> This view clusters
+    words by similarity of contextual embeddings. On this corpus, the k-means
+    clustering scores a silhouette coefficient around 0.05 — near noise. This
+    is not a measure of divergence: it tracks speaker identity more than word
+    meaning. Measured 2026-07-29: for <em>community</em>, one creator supplies
+    93% of the largest cluster, and that cluster's distinguishing vocabulary is
+    one channel's recruitment language (<em>bridge, city, channel, joining,
+    sunday</em>). So a visible gap between two points here is substantially a
+    difference in who is talking, not in what the word means. DESIGN §3 records
+    Layer-3 sense divergence as tried and set aside for exactly this reason, and
+    §7 names the risk by name:
     embeddings produce beautiful structure whether or not it is meaningful. The
     working measurement site for a community claim is Layer 2 collocation
     profiles — see the Contestation view.</p>
@@ -135,6 +128,8 @@
   stress is disclosed. Every star clicks through to its concordance exemplars;
   every nearness claim clicks through to a distance audit.</p>
 </footer>
+
+<script src="shell.js"></script>
 
 <script src="galaxy.js"></script>
 </body>

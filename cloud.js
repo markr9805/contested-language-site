@@ -33,21 +33,6 @@ const state = {
 
 const FILTER_DIMS = ["side", "creator", "term"];   // the decided surface
 
-const $ = (id) => document.getElementById(id);
-const el = (tag, cls, text) => {
-  const e = document.createElement(tag);
-  if (cls) e.className = cls;
-  if (text !== undefined) e.textContent = text;
-  return e;
-};
-const fmt = (x) => x.toLocaleString("en-US");
-
-async function fetchJSON(path) {
-  const r = await fetch(`${DATA}/${path}`);
-  if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
-  return r.json();
-}
-
 // ---- colors -------------------------------------------------------------------
 
 function hslToRgb(h, s, l) {

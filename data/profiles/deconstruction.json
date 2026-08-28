@@ -1,16 +1,16 @@
 {
  "lines": {
-  "24563": {
-   "context": "This guide also includes information on Mary, Martha, Lazarus, Susanna, Chusa, and even Steven, the deacon who was stoned. You're going to want this one in your deconstruction arsenal. Also, my patrons, YouTube members, Bridge City graduates, and window shoppers are invited to hang out with me in a free all excess webinar to ask me anything. If you want to be a part of that event and more like it, make sure to either join my Patreon, my YouTube, take the Bridge City 101 course, or purchase something from Windows Shop.",
+  "20138": {
+   "context": "And didn't know it. Like if I would have known I was surviving on charisma, I would have leaned into that shit. All right. So deconstructing these beliefs is like, what comes next? Even after religious, uh, even after religious deconstruction, people must also deconstruct their social, financial, and emotional programming inherited from these religious frameworks, you know. Uh, so how do we reframe success without guilt? How do you feel okay about achieving things?",
    "creator": "darante-lamar",
-   "occurrence_id": 24563,
-   "published_at": "2026-02-06T18:00:32Z",
+   "occurrence_id": 20138,
+   "published_at": "2025-03-09T19:20:13Z",
    "quoted": false,
    "role": "host",
    "surface": "deconstruction",
-   "t": 967.4,
-   "title": "Did The Apostles Even Exist?",
-   "video_id": "JEth1GITg2s"
+   "t": 4402.12,
+   "title": "The Shifting Sands: Are You Shaping Time or Just Surviving It? | Through The Looking Glass",
+   "video_id": "6zU7SkyyXlI"
   }
  },
  "profiles": [
@@ -19,22 +19,74 @@
    "cell": "creator=darante-lamar",
    "claims": [
     {
-     "aspect": "rhetorical-role",
+     "aspect": "valence",
      "evidence": [
-      24563
+      20138
      ],
-     "text": "The term is used to distinguish a genuine process from superficial actions, such as simply identifying what is wrong with religion versus improving oneself (L6). It serves as a marker for personal transformation, representing the end point of deconversion or a broader life change (L8, L9). The speaker also uses it to define a specific 'space' or phase of intellectual and spiritual development (L12, L13)."
+     "text": "The process is presented as a positive journey that leads to a well-informed worldview and a more robust consideration for others (L1, L2). It is framed not merely as an intellectual departure from belief but as a profound psychological, sociological, and existential upheaval (L14). Conversely, the speaker cautions that deconstruction itself does not guarantee wisdom or maturity (L16)."
     }
    ],
    "composition": {
     "darante-lamar": 1
    },
    "data_hash": "30d8d9b337f13e3f92c2cc80",
+   "date_range": {
+    "earliest": "2025-03-09T19:20:13Z",
+    "latest": "2025-03-09T19:20:13Z"
+   },
    "dropped_claims": 0,
    "generated_at": "2026-07-19T14:17:37Z",
    "k": 2,
    "model": "ollama:gemma4:e4b:c6eb396dbd59",
    "n": 401,
+   "prompt_version": "1",
+   "sampled": [
+    22247,
+    22246,
+    2149,
+    15390,
+    22223,
+    7352,
+    7349,
+    22252,
+    12728,
+    32313,
+    27327,
+    24563,
+    31254,
+    30438,
+    9473,
+    20138
+   ],
+   "sense": 0,
+   "stale": true,
+   "term": "deconstruction"
+  },
+  {
+   "aspects_missing": [],
+   "cell": "overall",
+   "claims": [
+    {
+     "aspect": "rhetorical-role",
+     "evidence": [
+      20138
+     ],
+     "text": "Speakers use 'deconstruction' to describe personal journeys away from established religious systems and cultural norms, such as deconversion or questioning one's identity (L3, L8, L9). It is also used in contrast to other concepts like atheism or anti-religion, suggesting it requires more nuance than simple rejection of belief (L16)."
+    }
+   ],
+   "composition": {
+    "darante-lamar": 1
+   },
+   "data_hash": "9c4123166396c08e37b3a45a",
+   "date_range": {
+    "earliest": "2025-03-09T19:20:13Z",
+    "latest": "2025-03-09T19:20:13Z"
+   },
+   "dropped_claims": 0,
+   "generated_at": "2026-07-19T14:18:49Z",
+   "k": 2,
+   "model": "ollama:gemma4:e4b:c6eb396dbd59",
+   "n": 404,
    "prompt_version": "1",
    "sampled": [
     22247,

@@ -7,14 +7,6 @@
    is displayed, not tucked away. All text lands via textContent. */
 "use strict";
 
-const $ = (id) => document.getElementById(id);
-const el = (tag, cls, text) => {
-  const e = document.createElement(tag);
-  if (cls) e.className = cls;
-  if (text !== undefined) e.textContent = text;
-  return e;
-};
-
 const FILTER_DIMS = ["term", "source", "target"];
 
 const state = {
@@ -159,13 +151,6 @@ $("clear-filters").addEventListener("click", () => {
 
 // ---- evidence tray ---------------------------------------------------------
 
-function tstamp(t) {
-  const s = Math.max(0, Math.floor(t));
-  const m = Math.floor(s / 60), h = Math.floor(m / 60);
-  const two = (x) => String(x).padStart(2, "0");
-  return h ? `${h}:${two(m % 60)}:${two(s % 60)}` : `${m}:${two(s % 60)}`;
-}
-
 function highlight(context, term) {
   // textContent-safe term highlighting: text nodes + <mark>, no innerHTML
   const wrap = el("div", "kwic-text");
@@ -198,7 +183,7 @@ function renderEvidence(e) {
     const meta = el("div", "kwic-meta");
     const date = p.published_at ? p.published_at.slice(0, 10) : "undated";
     meta.append(`${date} · ${p.title || p.video_id} · `);
-    const a = el("a", "", `watch @ ${tstamp(p.occ_s)} ↗`);
+    const a = el("a", "", `watch @ ${fmtTime(p.occ_s)} ↗`);
     a.href = `https://www.youtube.com/watch?v=${encodeURIComponent(p.video_id)}` +
              `&t=${Math.max(0, Math.floor(p.occ_s))}s`;
     a.target = "_blank";
@@ -209,7 +194,7 @@ function renderEvidence(e) {
     div.append(meta);
     div.append(highlight(p.context, e.term));
     div.append(el("p", "mention-quote",
-                  `mention: “${p.mention_text}” @ ${tstamp(p.mention_s)}`));
+                  `mention: “${p.mention_text}” @ ${fmtTime(p.mention_s)}`));
     wrap.append(div);
   }
 }

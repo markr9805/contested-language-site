@@ -2,19 +2,6 @@
    textContent; evidence renders into the tray (never scrollIntoView);
    discovered, not pinned (DESIGN.md §3/§8). */
 const DATA = "data/concepts";
-const $ = (id) => document.getElementById(id);
-
-function el(tag, cls, text) {
-  const e = document.createElement(tag);
-  if (cls) e.className = cls;
-  if (text !== undefined) e.textContent = text;
-  return e;
-}
-async function fetchJSON(path) {
-  const r = await fetch(`${DATA}/${path}`);
-  if (!r.ok) throw new Error(`${path}: ${r.status}`);
-  return r.json();
-}
 
 let CURRENT = null;   // loaded per-creator doc
 let selectSeq = 0;    // guards against out-of-order fetches
@@ -42,15 +29,6 @@ function rowNode(row) {
     div.appendChild(flag);
   }
   return div;
-}
-
-function fmtTime(t) {
-  // Rolls over past an hour: this corpus is long-form, and a two-hour video
-  // rendered "128:23" reads as a bug rather than a timestamp.
-  const s = Math.max(0, Math.floor(t));
-  const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60);
-  const ss = String(s % 60).padStart(2, "0");
-  return h ? `${h}:${String(m).padStart(2, "0")}:${ss}` : `${m}:${ss}`;
 }
 
 // Deep-link a cited quote to the second it was said (#139). Quotes were bare

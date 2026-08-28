@@ -5,7 +5,7 @@
     "cite_key": "8ed881b9d6c193cadf41604c00c12aa9e20c911eeb8c32d01afa5022d92b4f3b",
     "context": "Now look at what he says in Galatians 3, 27 and 28. For as many of you as were baptized into Christ, have put on Christ. There is neither Jew nor Greek, there is neither slave nor free, there is neither male nor female, for you are all one in Christ Jesus.",
     "creator": "reasonable-faith-org",
-    "dist": 0.2732,
+    "dist": 0.276,
     "published_at": "2021-01-12T17:47:51Z",
     "role": "host",
     "t": 990.12,
@@ -17,7 +17,7 @@
     "cite_key": "bd23f5b2d63e5a4b753ec9a5b564fd1feac171ebe4d02025483380a763715c5f",
     "context": "Now look at what he says in Galatians 3, 27 and 28. For as many of you as were baptized into Christ, have put on Christ. There is neither Jew nor Greek, there is neither slave nor free, there is neither male nor female, for you are all one in Christ Jesus.",
     "creator": "reasonable-faith-org",
-    "dist": 0.2732,
+    "dist": 0.276,
     "published_at": "2026-05-11T03:55:32Z",
     "role": "host",
     "t": 984.12,
@@ -29,7 +29,7 @@
     "cite_key": "97f770c2f05808007bb39aac3f8b13e8f3fad50e074d2e97e63b025fd6652dae",
     "context": "Galatians 3, verses 26 through 28 talks about this. Check it out. For in Christ Jesus, you are all sons. That's a masculine term of God through faith. For as many of you as were baptized into Christ, have put on Christ. That would be men and women, right? There is neither Jew nor Greek, there is neither slave nor free, there is no male and female. For you are all one in Christ Jesus. And if you are Christ, then you are Abraham's offspring, heirs according to the promise.",
     "creator": "mike-winger",
-    "dist": 0.2944,
+    "dist": 0.2877,
     "published_at": "2024-03-01T02:10:02Z",
     "role": "host",
     "t": 4874.24,
@@ -41,7 +41,7 @@
     "cite_key": "9a60f29395cbe90b329784e1da58097a91d75d7c54626a3dac061b312c0c6d38",
     "context": "So Paul can go on to say in Galatians 3, 26 and 27, for in Christ Jesus you are all sons of God through faith. For as many of you as were baptized into Christ have put on Christ. So they are sons of God, children of God through faith. They were then all baptized, of course. Therefore, all of them who were baptized into Christ have put on Christ.",
     "creator": "reasonable-faith-org",
-    "dist": 0.3038,
+    "dist": 0.3214,
     "published_at": "2026-05-18T03:55:52Z",
     "role": "host",
     "t": 457.92,
@@ -53,7 +53,7 @@
     "cite_key": "d2e26b3d83e8daacb00dd7466091b64076db3410344c1361e981d59e4d6e5e0e",
     "context": "So Paul can go on to say in Galatians 3, 26 and 27, for in Christ Jesus you are all sons of God through faith. For as many of you as were baptized into Christ have put on Christ. So they are sons of God, children of God through faith. They were then all baptized, of course. Therefore, all of them who were baptized into Christ have put on Christ.",
     "creator": "reasonable-faith-org",
-    "dist": 0.3038,
+    "dist": 0.3214,
     "published_at": "2021-01-18T19:19:28Z",
     "role": "host",
     "t": 463.92,
@@ -138,10 +138,10 @@
     },
     "mike-winger": {
      "counts": [
-      2,
+      5,
       0
      ],
-     "n": 2,
+     "n": 5,
      "status": "insufficient-data"
     },
     "reasonable-faith-org": {
@@ -163,14 +163,14 @@
    "cells": {
     "overall": {
      "counts": [
-      10,
+      13,
       6
      ],
      "dist": [
-      0.625,
-      0.375
+      0.6842,
+      0.3158
      ],
-     "n": 16,
+     "n": 19,
      "status": "ok"
     }
    },
@@ -180,14 +180,14 @@
    "cells": {
     "host": {
      "counts": [
-      10,
+      13,
       6
      ],
      "dist": [
-      0.625,
-      0.375
+      0.6842,
+      0.3158
      ],
-     "n": 16,
+     "n": 19,
      "status": "ok"
     }
    },
@@ -195,6 +195,22 @@
   },
   "year": {
    "cells": {
+    "2018": {
+     "counts": [
+      1,
+      0
+     ],
+     "n": 1,
+     "status": "insufficient-data"
+    },
+    "2019": {
+     "counts": [
+      2,
+      0
+     ],
+     "n": 2,
+     "status": "insufficient-data"
+    },
     "2020": {
      "counts": [
       2,
@@ -232,8 +248,8 @@
   }
  },
  "k": 2,
- "n": 16,
- "silhouette": 0.2519,
+ "n": 19,
+ "silhouette": 0.2313,
  "status": "ok",
  "verse_ref": "Galatians 3:27"
 }

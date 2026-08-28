@@ -26,14 +26,6 @@ const state = {
   lastEvidence: null,          // {title, note, lines, term, collocate}
 };
 
-const $ = (id) => document.getElementById(id);
-const el = (tag, cls, text) => {
-  const e = document.createElement(tag);
-  if (cls) e.className = cls;
-  if (text !== undefined) e.textContent = text;
-  return e;
-};
-const fmt = (x) => x.toLocaleString("en-US");
 const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 const GROUPING_LABELS = { overall: "whole corpus", year: "by year", role: "by role", creator: "by creator" };
@@ -86,12 +78,6 @@ function highlightContext(text, term, collocate) {
 
 // ---- data loading ------------------------------------------------------------
 
-async function fetchJSON(path) {
-  const r = await fetch(`${DATA}/${path}`);
-  if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
-  return r.json();
-}
-
 async function loadKwic(term) {
   if (!state.kwicCache[term]) {
     state.kwicCache[term] = await fetchJSON("kwic/" + state.kwicIndex[term]);
@@ -114,10 +100,12 @@ function renderNav() {
   const wrap = $("term-list");
   const q = $("term-search").value.trim().toLowerCase();
   wrap.replaceChildren();
+  let shown = 0;
   for (const [status, label] of [["active", "Curated lexicon"], ["watchlist", "Watchlist"]]) {
     const terms = state.meta.terms.filter((t) =>
       t.status === status && (!q || t.phrase.toLowerCase().includes(q)));
     if (!terms.length) continue;
+    shown += terms.length;
     wrap.append(el("div", "term-group-label", label.toUpperCase()));
     terms.sort((a, b) =>
       (b.dispersion?.weighted ?? 0) - (a.dispersion?.weighted ?? 0) ||
@@ -140,6 +128,12 @@ function renderNav() {
       b.addEventListener("click", () => selectTerm(t.phrase));
       wrap.append(b);
     }
+  }
+  // #254: a no-match search used to leave this panel blank, which reads as
+  // a loading failure rather than "nothing matched" -- every other empty
+  // state on the site discloses itself.
+  if (!shown && q) {
+    wrap.append(el("p", "term-empty-note", `No terms match "${q}".`));
   }
 }
 
@@ -612,7 +606,7 @@ function renderGroupingPills(term) {
     const b = el("button", "chip", groupingLabel(g));
     b.type = "button";
     b.setAttribute("role", "tab");
-    b.setAttribute("aria-pressed", String(g === state.grouping));
+    b.setAttribute("aria-selected", String(g === state.grouping));
     b.addEventListener("click", () => {
       state.grouping = g;
       const cells = Object.keys(state.collocs[term][g]);
@@ -747,7 +741,7 @@ function renderEvidence(title, note, lines, term, collocate) {
     const meta = el("div", "kwic-meta");
     const date = ln.published_at ? ln.published_at.slice(0, 10) : "undated";
     meta.append(`${date} · ${ln.title || ln.video_id} · `);
-    const a = el("a", "", `watch @ ${tstamp(ln.t)} ↗`);
+    const a = el("a", "", `watch @ ${fmtTime(ln.t)} ↗`);
     a.href = `https://www.youtube.com/watch?v=${encodeURIComponent(ln.video_id)}&t=${Math.max(0, Math.floor(ln.t))}s`;
     a.target = "_blank";
     a.rel = "noopener";
@@ -764,13 +758,6 @@ function renderEvidence(title, note, lines, term, collocate) {
     wrap.append(note2);
   }
   // The tray is persistent and visible — no scrolling, the page never moves.
-}
-
-function tstamp(t) {
-  const s = Math.max(0, Math.floor(t));
-  const m = Math.floor(s / 60), h = Math.floor(m / 60);
-  const two = (x) => String(x).padStart(2, "0");
-  return h ? `${h}:${two(m % 60)}:${two(s % 60)}` : `${m}:${two(s % 60)}`;
 }
 
 async function showSampleEvidence(term, grouping, cell) {

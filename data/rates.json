@@ -23,15 +23,15 @@
    "words": 1054792
   },
   {
-   "ci_high_pmw": 1039.193,
-   "ci_low_pmw": 891.72,
+   "ci_high_pmw": 1032.119,
+   "ci_low_pmw": 885.649,
    "group": "britt-hartley",
    "group_by": "creator",
    "n": 669,
-   "rate_pmw": 963.345,
+   "rate_pmw": 956.787,
    "status": "ok",
    "term": "community",
-   "words": 694455
+   "words": 699215
   },
   {
    "ci_high_pmw": 312.86,
@@ -65,6 +65,17 @@
    "status": "ok",
    "term": "community",
    "words": 2808254
+  },
+  {
+   "ci_high_pmw": 137.586,
+   "ci_low_pmw": 84.587,
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 69,
+   "rate_pmw": 108.715,
+   "status": "ok",
+   "term": "community",
+   "words": 634687
   },
   {
    "ci_high_pmw": 2388.557,
@@ -144,15 +155,15 @@
    "words": 120004
   },
   {
-   "ci_high_pmw": 113.86,
-   "ci_low_pmw": 94.135,
+   "ci_high_pmw": 98.722,
+   "ci_low_pmw": 85.777,
    "group": "mike-winger",
    "group_by": "creator",
-   "n": 435,
-   "rate_pmw": 103.647,
+   "n": 792,
+   "rate_pmw": 92.079,
    "status": "ok",
    "term": "community",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "ci_high_pmw": 282.574,
@@ -166,12 +177,15 @@
    "words": 1828071
   },
   {
+   "ci_high_pmw": 115.234,
+   "ci_low_pmw": 56.482,
    "group": "neverflamenevertilt",
    "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 33,
+   "rate_pmw": 82.054,
+   "status": "ok",
    "term": "community",
-   "words": 404092
+   "words": 402174
   },
   {
    "ci_high_pmw": 224.131,
@@ -218,15 +232,26 @@
    "words": 1218637
   },
   {
-   "ci_high_pmw": 658.492,
-   "ci_low_pmw": 171.705,
-   "group": "the-omnist-rone",
+   "ci_high_pmw": 519.539,
+   "ci_low_pmw": 396.572,
+   "group": "the-antibot",
    "group_by": "creator",
-   "n": 10,
-   "rate_pmw": 358.064,
+   "n": 218,
+   "rate_pmw": 454.967,
    "status": "ok",
    "term": "community",
-   "words": 27928
+   "words": 479156
+  },
+  {
+   "ci_high_pmw": 357.028,
+   "ci_low_pmw": 275.604,
+   "group": "the-omnist-rone",
+   "group_by": "creator",
+   "n": 237,
+   "rate_pmw": 314.354,
+   "status": "ok",
+   "term": "community",
+   "words": 753926
   },
   {
    "ci_high_pmw": 7.233,
@@ -251,15 +276,15 @@
    "words": 1054792
   },
   {
-   "ci_high_pmw": 78.434,
-   "ci_low_pmw": 41.15,
+   "ci_high_pmw": 77.9,
+   "ci_low_pmw": 40.87,
    "group": "britt-hartley",
    "group_by": "creator",
    "n": 40,
-   "rate_pmw": 57.599,
+   "rate_pmw": 57.207,
    "status": "ok",
    "term": "accountability",
-   "words": 694455
+   "words": 699215
   },
   {
    "ci_high_pmw": 7.253,
@@ -293,6 +318,14 @@
    "status": "ok",
    "term": "accountability",
    "words": 2808254
+  },
+  {
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 7,
+   "status": "insufficient-data",
+   "term": "accountability",
+   "words": 634687
   },
   {
    "ci_high_pmw": 75.987,
@@ -366,15 +399,15 @@
    "words": 120004
   },
   {
-   "ci_high_pmw": 108.869,
-   "ci_low_pmw": 89.596,
+   "ci_high_pmw": 70.366,
+   "ci_low_pmw": 59.491,
    "group": "mike-winger",
    "group_by": "creator",
-   "n": 415,
-   "rate_pmw": 98.882,
+   "n": 557,
+   "rate_pmw": 64.758,
    "status": "ok",
    "term": "accountability",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "ci_high_pmw": 61.118,
@@ -393,7 +426,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "accountability",
-   "words": 404092
+   "words": 402174
   },
   {
    "ci_high_pmw": 15.858,
@@ -440,12 +473,26 @@
    "words": 1218637
   },
   {
+   "ci_high_pmw": 96.721,
+   "ci_low_pmw": 47.408,
+   "group": "the-antibot",
+   "group_by": "creator",
+   "n": 33,
+   "rate_pmw": 68.871,
+   "status": "ok",
+   "term": "accountability",
+   "words": 479156
+  },
+  {
+   "ci_high_pmw": 40.97,
+   "ci_low_pmw": 16.204,
    "group": "the-omnist-rone",
    "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 20,
+   "rate_pmw": 26.528,
+   "status": "ok",
    "term": "accountability",
-   "words": 27928
+   "words": 753926
   },
   {
    "ci_high_pmw": 11.67,
@@ -470,15 +517,15 @@
    "words": 1054792
   },
   {
-   "ci_high_pmw": 295.315,
-   "ci_low_pmw": 218.71,
+   "ci_high_pmw": 293.305,
+   "ci_low_pmw": 217.221,
    "group": "britt-hartley",
    "group_by": "creator",
    "n": 177,
-   "rate_pmw": 254.876,
+   "rate_pmw": 253.141,
    "status": "ok",
    "term": "deconstruction",
-   "words": 694455
+   "words": 699215
   },
   {
    "ci_high_pmw": 7.763,
@@ -509,6 +556,14 @@
    "status": "ok",
    "term": "deconstruction",
    "words": 2808254
+  },
+  {
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 1,
+   "status": "insufficient-data",
+   "term": "deconstruction",
+   "words": 634687
   },
   {
    "ci_high_pmw": 115.037,
@@ -576,12 +631,15 @@
    "words": 120004
   },
   {
+   "ci_high_pmw": 4.842,
+   "ci_low_pmw": 2.258,
    "group": "mike-winger",
    "group_by": "creator",
-   "n": 8,
-   "status": "insufficient-data",
+   "n": 29,
+   "rate_pmw": 3.372,
+   "status": "ok",
    "term": "deconstruction",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "ci_high_pmw": 101.596,
@@ -597,10 +655,10 @@
   {
    "group": "neverflamenevertilt",
    "group_by": "creator",
-   "n": 0,
+   "n": 5,
    "status": "insufficient-data",
    "term": "deconstruction",
-   "words": 404092
+   "words": 402174
   },
   {
    "ci_high_pmw": 24.419,
@@ -647,15 +705,26 @@
    "words": 1218637
   },
   {
-   "ci_high_pmw": 704.742,
-   "ci_low_pmw": 196.618,
-   "group": "the-omnist-rone",
+   "ci_high_pmw": 256.126,
+   "ci_low_pmw": 171.69,
+   "group": "the-antibot",
    "group_by": "creator",
-   "n": 11,
-   "rate_pmw": 393.87,
+   "n": 101,
+   "rate_pmw": 210.787,
    "status": "ok",
    "term": "deconstruction",
-   "words": 27928
+   "words": 479156
+  },
+  {
+   "ci_high_pmw": 289.087,
+   "ci_low_pmw": 216.22,
+   "group": "the-omnist-rone",
+   "group_by": "creator",
+   "n": 189,
+   "rate_pmw": 250.688,
+   "status": "ok",
+   "term": "deconstruction",
+   "words": 753926
   },
   {
    "ci_high_pmw": 20.969,
@@ -680,15 +749,15 @@
    "words": 1054792
   },
   {
-   "ci_high_pmw": 49.696,
-   "ci_low_pmw": 20.995,
+   "ci_high_pmw": 49.357,
+   "ci_low_pmw": 20.852,
    "group": "britt-hartley",
    "group_by": "creator",
    "n": 23,
-   "rate_pmw": 33.119,
+   "rate_pmw": 32.894,
    "status": "ok",
    "term": "grace",
-   "words": 694455
+   "words": 699215
   },
   {
    "ci_high_pmw": 100.288,
@@ -722,6 +791,17 @@
    "status": "ok",
    "term": "grace",
    "words": 2808254
+  },
+  {
+   "ci_high_pmw": 58.147,
+   "ci_low_pmw": 25.491,
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 25,
+   "rate_pmw": 39.389,
+   "status": "ok",
+   "term": "grace",
+   "words": 634687
   },
   {
    "ci_high_pmw": 59.136,
@@ -798,15 +878,15 @@
    "words": 120004
   },
   {
-   "ci_high_pmw": 336.111,
-   "ci_low_pmw": 301.717,
+   "ci_high_pmw": 313.417,
+   "ci_low_pmw": 290.088,
    "group": "mike-winger",
    "group_by": "creator",
-   "n": 1337,
-   "rate_pmw": 318.566,
+   "n": 2594,
+   "rate_pmw": 301.583,
    "status": "ok",
    "term": "grace",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "ci_high_pmw": 143.752,
@@ -820,12 +900,15 @@
    "words": 1828071
   },
   {
+   "ci_high_pmw": 88.793,
+   "ci_low_pmw": 38.235,
    "group": "neverflamenevertilt",
    "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 24,
+   "rate_pmw": 59.676,
+   "status": "ok",
    "term": "grace",
-   "words": 404092
+   "words": 402174
   },
   {
    "ci_high_pmw": 25.18,
@@ -869,12 +952,26 @@
    "words": 1218637
   },
   {
+   "ci_high_pmw": 66.994,
+   "ci_low_pmw": 27.13,
+   "group": "the-antibot",
+   "group_by": "creator",
+   "n": 21,
+   "rate_pmw": 43.827,
+   "status": "ok",
+   "term": "grace",
+   "words": 479156
+  },
+  {
+   "ci_high_pmw": 100.946,
+   "ci_low_pmw": 59.573,
    "group": "the-omnist-rone",
    "group_by": "creator",
-   "n": 2,
-   "status": "insufficient-data",
+   "n": 59,
+   "rate_pmw": 78.257,
+   "status": "ok",
    "term": "grace",
-   "words": 27928
+   "words": 753926
   },
   {
    "group": "apostate-aladdin",
@@ -898,7 +995,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "purity test",
-   "words": 694455
+   "words": 699215
   },
   {
    "group": "capturing-christianity",
@@ -923,6 +1020,14 @@
    "status": "insufficient-data",
    "term": "purity test",
    "words": 2808254
+  },
+  {
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "purity test",
+   "words": 634687
   },
   {
    "ci_high_pmw": 8.916,
@@ -989,7 +1094,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "purity test",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "group": "mindshift",
@@ -1005,7 +1110,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "purity test",
-   "words": 404092
+   "words": 402174
   },
   {
    "group": "paulogia",
@@ -1040,12 +1145,20 @@
    "words": 1218637
   },
   {
+   "group": "the-antibot",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "purity test",
+   "words": 479156
+  },
+  {
    "group": "the-omnist-rone",
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
    "term": "purity test",
-   "words": 27928
+   "words": 753926
   },
   {
    "group": "apostate-aladdin",
@@ -1069,7 +1182,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "bridge city",
-   "words": 694455
+   "words": 699215
   },
   {
    "group": "capturing-christianity",
@@ -1094,6 +1207,14 @@
    "status": "insufficient-data",
    "term": "bridge city",
    "words": 2808254
+  },
+  {
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "bridge city",
+   "words": 634687
   },
   {
    "ci_high_pmw": 500.394,
@@ -1160,7 +1281,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "bridge city",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "group": "mindshift",
@@ -1176,7 +1297,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "bridge city",
-   "words": 404092
+   "words": 402174
   },
   {
    "group": "paulogia",
@@ -1211,12 +1332,20 @@
    "words": 1218637
   },
   {
+   "group": "the-antibot",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "bridge city",
+   "words": 479156
+  },
+  {
    "group": "the-omnist-rone",
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
    "term": "bridge city",
-   "words": 27928
+   "words": 753926
   },
   {
    "group": "apostate-aladdin",
@@ -1235,15 +1364,15 @@
    "words": 1054792
   },
   {
-   "ci_high_pmw": 33.825,
-   "ci_low_pmw": 11.021,
+   "ci_high_pmw": 33.594,
+   "ci_low_pmw": 10.946,
    "group": "britt-hartley",
    "group_by": "creator",
    "n": 14,
-   "rate_pmw": 20.16,
+   "rate_pmw": 20.022,
    "status": "ok",
    "term": "do the work",
-   "words": 694455
+   "words": 699215
   },
   {
    "ci_high_pmw": 9.265,
@@ -1277,6 +1406,14 @@
    "status": "ok",
    "term": "do the work",
    "words": 2808254
+  },
+  {
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 1,
+   "status": "insufficient-data",
+   "term": "do the work",
+   "words": 634687
   },
   {
    "ci_high_pmw": 99.983,
@@ -1344,15 +1481,15 @@
    "words": 120004
   },
   {
-   "ci_high_pmw": 7.36,
-   "ci_low_pmw": 2.911,
+   "ci_high_pmw": 7.134,
+   "ci_low_pmw": 3.915,
    "group": "mike-winger",
    "group_by": "creator",
-   "n": 20,
-   "rate_pmw": 4.765,
+   "n": 46,
+   "rate_pmw": 5.348,
    "status": "ok",
    "term": "do the work",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "ci_high_pmw": 12.161,
@@ -1368,10 +1505,10 @@
   {
    "group": "neverflamenevertilt",
    "group_by": "creator",
-   "n": 0,
+   "n": 4,
    "status": "insufficient-data",
    "term": "do the work",
-   "words": 404092
+   "words": 402174
   },
   {
    "ci_high_pmw": 14.249,
@@ -1409,12 +1546,23 @@
    "words": 1218637
   },
   {
-   "group": "the-omnist-rone",
+   "group": "the-antibot",
    "group_by": "creator",
-   "n": 0,
+   "n": 3,
    "status": "insufficient-data",
    "term": "do the work",
-   "words": 27928
+   "words": 479156
+  },
+  {
+   "ci_high_pmw": 36.103,
+   "ci_low_pmw": 13.135,
+   "group": "the-omnist-rone",
+   "group_by": "creator",
+   "n": 17,
+   "rate_pmw": 22.549,
+   "status": "ok",
+   "term": "do the work",
+   "words": 753926
   },
   {
    "group": "apostate-aladdin",
@@ -1438,7 +1586,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 694455
+   "words": 699215
   },
   {
    "group": "capturing-christianity",
@@ -1463,6 +1611,14 @@
    "status": "insufficient-data",
    "term": "moral supremism",
    "words": 2808254
+  },
+  {
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "moral supremism",
+   "words": 634687
   },
   {
    "group": "darante-lamar",
@@ -1526,7 +1682,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "group": "mindshift",
@@ -1542,7 +1698,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 404092
+   "words": 402174
   },
   {
    "group": "paulogia",
@@ -1577,12 +1733,20 @@
    "words": 1218637
   },
   {
+   "group": "the-antibot",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "moral supremism",
+   "words": 479156
+  },
+  {
    "group": "the-omnist-rone",
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 27928
+   "words": 753926
   },
   {
    "ci_high_pmw": 456.552,
@@ -1607,15 +1771,15 @@
    "words": 1054792
   },
   {
-   "ci_high_pmw": 855.029,
-   "ci_low_pmw": 721.655,
+   "ci_high_pmw": 855.169,
+   "ci_low_pmw": 722.223,
    "group": "britt-hartley",
    "group_by": "creator",
-   "n": 546,
-   "rate_pmw": 786.228,
+   "n": 550,
+   "rate_pmw": 786.596,
    "status": "ok",
    "term": "truth",
-   "words": 694455
+   "words": 699215
   },
   {
    "ci_high_pmw": 493.961,
@@ -1649,6 +1813,17 @@
    "status": "ok",
    "term": "truth",
    "words": 2808254
+  },
+  {
+   "ci_high_pmw": 125.229,
+   "ci_low_pmw": 74.895,
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 62,
+   "rate_pmw": 97.686,
+   "status": "ok",
+   "term": "truth",
+   "words": 634687
   },
   {
    "ci_high_pmw": 464.877,
@@ -1728,15 +1903,15 @@
    "words": 120004
   },
   {
-   "ci_high_pmw": 410.63,
-   "ci_low_pmw": 372.541,
+   "ci_high_pmw": 453.943,
+   "ci_low_pmw": 425.799,
    "group": "mike-winger",
    "group_by": "creator",
-   "n": 1642,
-   "rate_pmw": 391.238,
+   "n": 3782,
+   "rate_pmw": 439.702,
    "status": "ok",
    "term": "truth",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "ci_high_pmw": 746.933,
@@ -1750,12 +1925,15 @@
    "words": 1828071
   },
   {
+   "ci_high_pmw": 597.764,
+   "ci_low_pmw": 453.923,
    "group": "neverflamenevertilt",
    "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 210,
+   "rate_pmw": 522.162,
+   "status": "ok",
    "term": "truth",
-   "words": 404092
+   "words": 402174
   },
   {
    "ci_high_pmw": 512.425,
@@ -1802,15 +1980,26 @@
    "words": 1218637
   },
   {
-   "ci_high_pmw": 795.99,
-   "ci_low_pmw": 247.85,
-   "group": "the-omnist-rone",
+   "ci_high_pmw": 158.833,
+   "ci_low_pmw": 93.735,
+   "group": "the-antibot",
    "group_by": "creator",
-   "n": 13,
-   "rate_pmw": 465.483,
+   "n": 59,
+   "rate_pmw": 123.133,
    "status": "ok",
    "term": "truth",
-   "words": 27928
+   "words": 479156
+  },
+  {
+   "ci_high_pmw": 317.455,
+   "ci_low_pmw": 240.904,
+   "group": "the-omnist-rone",
+   "group_by": "creator",
+   "n": 209,
+   "rate_pmw": 277.216,
+   "status": "ok",
+   "term": "truth",
+   "words": 753926
   },
   {
    "ci_high_pmw": 242.96,
@@ -1835,15 +2024,15 @@
    "words": 1054792
   },
   {
-   "ci_high_pmw": 197.203,
-   "ci_low_pmw": 135.41,
+   "ci_high_pmw": 197.422,
+   "ci_low_pmw": 135.787,
    "group": "britt-hartley",
    "group_by": "creator",
-   "n": 114,
-   "rate_pmw": 164.158,
+   "n": 115,
+   "rate_pmw": 164.47,
    "status": "ok",
    "term": "evidence",
-   "words": 694455
+   "words": 699215
   },
   {
    "ci_high_pmw": 1026.274,
@@ -1877,6 +2066,17 @@
    "status": "ok",
    "term": "evidence",
    "words": 2808254
+  },
+  {
+   "ci_high_pmw": 667.015,
+   "ci_low_pmw": 544.518,
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 383,
+   "rate_pmw": 603.447,
+   "status": "ok",
+   "term": "evidence",
+   "words": 634687
   },
   {
    "ci_high_pmw": 372.512,
@@ -1953,15 +2153,15 @@
    "words": 120004
   },
   {
-   "ci_high_pmw": 396.473,
-   "ci_low_pmw": 359.059,
+   "ci_high_pmw": 480.867,
+   "ci_low_pmw": 451.89,
    "group": "mike-winger",
    "group_by": "creator",
-   "n": 1584,
-   "rate_pmw": 377.418,
+   "n": 4010,
+   "rate_pmw": 466.21,
    "status": "ok",
    "term": "evidence",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "ci_high_pmw": 472.987,
@@ -1975,12 +2175,15 @@
    "words": 1828071
   },
   {
+   "ci_high_pmw": 1297.424,
+   "ci_low_pmw": 1081.991,
    "group": "neverflamenevertilt",
    "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 477,
+   "rate_pmw": 1186.054,
+   "status": "ok",
    "term": "evidence",
-   "words": 404092
+   "words": 402174
   },
   {
    "ci_high_pmw": 1610.968,
@@ -2027,12 +2230,26 @@
    "words": 1218637
   },
   {
+   "ci_high_pmw": 184.576,
+   "ci_low_pmw": 113.884,
+   "group": "the-antibot",
+   "group_by": "creator",
+   "n": 70,
+   "rate_pmw": 146.09,
+   "status": "ok",
+   "term": "evidence",
+   "words": 479156
+  },
+  {
+   "ci_high_pmw": 76.825,
+   "ci_low_pmw": 41.276,
    "group": "the-omnist-rone",
    "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 43,
+   "rate_pmw": 57.035,
+   "status": "ok",
    "term": "evidence",
-   "words": 27928
+   "words": 753926
   },
   {
    "ci_high_pmw": 331.529,
@@ -2057,15 +2274,15 @@
    "words": 1054792
   },
   {
-   "ci_high_pmw": 1007.799,
-   "ci_low_pmw": 862.635,
+   "ci_high_pmw": 1003.909,
+   "ci_low_pmw": 859.513,
    "group": "britt-hartley",
    "group_by": "creator",
-   "n": 648,
-   "rate_pmw": 933.106,
+   "n": 650,
+   "rate_pmw": 929.614,
    "status": "ok",
    "term": "love",
-   "words": 694455
+   "words": 699215
   },
   {
    "ci_high_pmw": 512.616,
@@ -2099,6 +2316,17 @@
    "status": "ok",
    "term": "love",
    "words": 2808254
+  },
+  {
+   "ci_high_pmw": 214.054,
+   "ci_low_pmw": 146.731,
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 113,
+   "rate_pmw": 178.041,
+   "status": "ok",
+   "term": "love",
+   "words": 634687
   },
   {
    "ci_high_pmw": 1409.77,
@@ -2178,15 +2406,15 @@
    "words": 120004
   },
   {
-   "ci_high_pmw": 789.104,
-   "ci_low_pmw": 736.036,
+   "ci_high_pmw": 833.242,
+   "ci_low_pmw": 794.993,
    "group": "mike-winger",
    "group_by": "creator",
-   "n": 3199,
-   "rate_pmw": 762.223,
+   "n": 7001,
+   "rate_pmw": 813.949,
    "status": "ok",
    "term": "love",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "ci_high_pmw": 1090.512,
@@ -2200,12 +2428,15 @@
    "words": 1828071
   },
   {
+   "ci_high_pmw": 793.251,
+   "ci_low_pmw": 626.413,
    "group": "neverflamenevertilt",
    "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 284,
+   "rate_pmw": 706.162,
+   "status": "ok",
    "term": "love",
-   "words": 404092
+   "words": 402174
   },
   {
    "ci_high_pmw": 361.892,
@@ -2252,15 +2483,26 @@
    "words": 1218637
   },
   {
-   "ci_high_pmw": 2115.008,
-   "ci_low_pmw": 1144.746,
-   "group": "the-omnist-rone",
+   "ci_high_pmw": 676.844,
+   "ci_low_pmw": 535.604,
+   "group": "the-antibot",
    "group_by": "creator",
-   "n": 44,
-   "rate_pmw": 1575.48,
+   "n": 289,
+   "rate_pmw": 603.144,
    "status": "ok",
    "term": "love",
-   "words": 27928
+   "words": 479156
+  },
+  {
+   "ci_high_pmw": 1476.831,
+   "ci_low_pmw": 1307.161,
+   "group": "the-omnist-rone",
+   "group_by": "creator",
+   "n": 1048,
+   "rate_pmw": 1390.057,
+   "status": "ok",
+   "term": "love",
+   "words": 753926
   },
   {
    "ci_high_pmw": 271.589,
@@ -2285,15 +2527,15 @@
    "words": 1054792
   },
   {
-   "ci_high_pmw": 226.969,
-   "ci_low_pmw": 160.353,
+   "ci_high_pmw": 225.424,
+   "ci_low_pmw": 159.262,
    "group": "britt-hartley",
    "group_by": "creator",
    "n": 133,
-   "rate_pmw": 191.517,
+   "rate_pmw": 190.213,
    "status": "ok",
    "term": "harm",
-   "words": 694455
+   "words": 699215
   },
   {
    "ci_high_pmw": 30.905,
@@ -2327,6 +2569,17 @@
    "status": "ok",
    "term": "harm",
    "words": 2808254
+  },
+  {
+   "ci_high_pmw": 111.013,
+   "ci_low_pmw": 63.916,
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 54,
+   "rate_pmw": 85.081,
+   "status": "ok",
+   "term": "harm",
+   "words": 634687
   },
   {
    "ci_high_pmw": 231.243,
@@ -2400,15 +2653,15 @@
    "words": 120004
   },
   {
-   "ci_high_pmw": 98.868,
-   "ci_low_pmw": 80.535,
+   "ci_high_pmw": 77.382,
+   "ci_low_pmw": 65.961,
    "group": "mike-winger",
    "group_by": "creator",
-   "n": 375,
-   "rate_pmw": 89.351,
+   "n": 615,
+   "rate_pmw": 71.501,
    "status": "ok",
    "term": "harm",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "ci_high_pmw": 321.962,
@@ -2422,12 +2675,15 @@
    "words": 1828071
   },
   {
+   "ci_high_pmw": 149.72,
+   "ci_low_pmw": 81.615,
    "group": "neverflamenevertilt",
    "group_by": "creator",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 45,
+   "rate_pmw": 111.892,
+   "status": "ok",
    "term": "harm",
-   "words": 404092
+   "words": 402174
   },
   {
    "ci_high_pmw": 117.665,
@@ -2474,12 +2730,26 @@
    "words": 1218637
   },
   {
+   "ci_high_pmw": 165.878,
+   "ci_low_pmw": 99.206,
+   "group": "the-antibot",
+   "group_by": "creator",
+   "n": 62,
+   "rate_pmw": 129.394,
+   "status": "ok",
+   "term": "harm",
+   "words": 479156
+  },
+  {
+   "ci_high_pmw": 183.095,
+   "ci_low_pmw": 125.933,
    "group": "the-omnist-rone",
    "group_by": "creator",
-   "n": 2,
-   "status": "insufficient-data",
+   "n": 115,
+   "rate_pmw": 152.535,
+   "status": "ok",
    "term": "harm",
-   "words": 27928
+   "words": 753926
   },
   {
    "group": "apostate-aladdin",
@@ -2503,7 +2773,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "false teacher",
-   "words": 694455
+   "words": 699215
   },
   {
    "group": "capturing-christianity",
@@ -2531,6 +2801,14 @@
    "status": "ok",
    "term": "false teacher",
    "words": 2808254
+  },
+  {
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "false teacher",
+   "words": 634687
   },
   {
    "group": "darante-lamar",
@@ -2589,15 +2867,15 @@
    "words": 120004
   },
   {
-   "ci_high_pmw": 48.609,
-   "ci_low_pmw": 35.969,
+   "ci_high_pmw": 35.244,
+   "ci_low_pmw": 27.648,
    "group": "mike-winger",
    "group_by": "creator",
-   "n": 176,
-   "rate_pmw": 41.935,
+   "n": 269,
+   "rate_pmw": 31.274,
    "status": "ok",
    "term": "false teacher",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "ci_high_pmw": 18.879,
@@ -2616,7 +2894,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "false teacher",
-   "words": 404092
+   "words": 402174
   },
   {
    "group": "paulogia",
@@ -2651,12 +2929,20 @@
    "words": 1218637
   },
   {
-   "group": "the-omnist-rone",
+   "group": "the-antibot",
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
    "term": "false teacher",
-   "words": 27928
+   "words": 479156
+  },
+  {
+   "group": "the-omnist-rone",
+   "group_by": "creator",
+   "n": 3,
+   "status": "insufficient-data",
+   "term": "false teacher",
+   "words": 753926
   },
   {
    "ci_high_pmw": 11.189,
@@ -2683,7 +2969,7 @@
    "n": 1,
    "status": "insufficient-data",
    "term": "false prophet",
-   "words": 694455
+   "words": 699215
   },
   {
    "ci_high_pmw": 30.462,
@@ -2717,6 +3003,14 @@
    "status": "ok",
    "term": "false prophet",
    "words": 2808254
+  },
+  {
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "false prophet",
+   "words": 634687
   },
   {
    "group": "darante-lamar",
@@ -2775,15 +3069,15 @@
    "words": 120004
   },
   {
-   "ci_high_pmw": 47.841,
-   "ci_low_pmw": 35.307,
+   "ci_high_pmw": 35.121,
+   "ci_low_pmw": 27.539,
    "group": "mike-winger",
    "group_by": "creator",
-   "n": 173,
-   "rate_pmw": 41.221,
+   "n": 268,
+   "rate_pmw": 31.158,
    "status": "ok",
    "term": "false prophet",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "ci_high_pmw": 29.796,
@@ -2802,7 +3096,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "false prophet",
-   "words": 404092
+   "words": 402174
   },
   {
    "group": "paulogia",
@@ -2837,12 +3131,20 @@
    "words": 1218637
   },
   {
-   "group": "the-omnist-rone",
+   "group": "the-antibot",
    "group_by": "creator",
-   "n": 0,
+   "n": 3,
    "status": "insufficient-data",
    "term": "false prophet",
-   "words": 27928
+   "words": 479156
+  },
+  {
+   "group": "the-omnist-rone",
+   "group_by": "creator",
+   "n": 4,
+   "status": "insufficient-data",
+   "term": "false prophet",
+   "words": 753926
   },
   {
    "ci_high_pmw": 10.705,
@@ -2872,7 +3174,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "grifter",
-   "words": 694455
+   "words": 699215
   },
   {
    "group": "capturing-christianity",
@@ -2897,6 +3199,14 @@
    "status": "insufficient-data",
    "term": "grifter",
    "words": 2808254
+  },
+  {
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 1,
+   "status": "insufficient-data",
+   "term": "grifter",
+   "words": 634687
   },
   {
    "group": "darante-lamar",
@@ -2960,7 +3270,7 @@
    "n": 3,
    "status": "insufficient-data",
    "term": "grifter",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "group": "mindshift",
@@ -2976,7 +3286,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "grifter",
-   "words": 404092
+   "words": 402174
   },
   {
    "group": "paulogia",
@@ -3011,12 +3321,20 @@
    "words": 1218637
   },
   {
+   "group": "the-antibot",
+   "group_by": "creator",
+   "n": 8,
+   "status": "insufficient-data",
+   "term": "grifter",
+   "words": 479156
+  },
+  {
    "group": "the-omnist-rone",
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
    "term": "grifter",
-   "words": 27928
+   "words": 753926
   },
   {
    "group": "apostate-aladdin",
@@ -3035,15 +3353,15 @@
    "words": 1054792
   },
   {
-   "ci_high_pmw": 28.342,
-   "ci_low_pmw": 7.907,
+   "ci_high_pmw": 28.149,
+   "ci_low_pmw": 7.853,
    "group": "britt-hartley",
    "group_by": "creator",
    "n": 11,
-   "rate_pmw": 15.84,
+   "rate_pmw": 15.732,
    "status": "ok",
    "term": "heretic",
-   "words": 694455
+   "words": 699215
   },
   {
    "ci_high_pmw": 41.891,
@@ -3074,6 +3392,14 @@
    "status": "insufficient-data",
    "term": "heretic",
    "words": 2808254
+  },
+  {
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 8,
+   "status": "insufficient-data",
+   "term": "heretic",
+   "words": 634687
   },
   {
    "ci_high_pmw": 10.479,
@@ -3144,15 +3470,15 @@
    "words": 120004
   },
   {
-   "ci_high_pmw": 17.865,
-   "ci_low_pmw": 10.494,
+   "ci_high_pmw": 14.651,
+   "ci_low_pmw": 9.879,
    "group": "mike-winger",
    "group_by": "creator",
-   "n": 58,
-   "rate_pmw": 13.82,
+   "n": 104,
+   "rate_pmw": 12.091,
    "status": "ok",
    "term": "heretic",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "group": "mindshift",
@@ -3165,10 +3491,10 @@
   {
    "group": "neverflamenevertilt",
    "group_by": "creator",
-   "n": 0,
+   "n": 4,
    "status": "insufficient-data",
    "term": "heretic",
-   "words": 404092
+   "words": 402174
   },
   {
    "ci_high_pmw": 22.121,
@@ -3209,12 +3535,23 @@
    "words": 1218637
   },
   {
-   "group": "the-omnist-rone",
+   "group": "the-antibot",
    "group_by": "creator",
-   "n": 1,
+   "n": 4,
    "status": "insufficient-data",
    "term": "heretic",
-   "words": 27928
+   "words": 479156
+  },
+  {
+   "ci_high_pmw": 32.815,
+   "ci_low_pmw": 11.136,
+   "group": "the-omnist-rone",
+   "group_by": "creator",
+   "n": 15,
+   "rate_pmw": 19.896,
+   "status": "ok",
+   "term": "heretic",
+   "words": 753926
   },
   {
    "group": "apostate-aladdin",
@@ -3238,7 +3575,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "wolf in sheep's clothing",
-   "words": 694455
+   "words": 699215
   },
   {
    "group": "capturing-christianity",
@@ -3263,6 +3600,14 @@
    "status": "insufficient-data",
    "term": "wolf in sheep's clothing",
    "words": 2808254
+  },
+  {
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "wolf in sheep's clothing",
+   "words": 634687
   },
   {
    "group": "darante-lamar",
@@ -3321,12 +3666,15 @@
    "words": 120004
   },
   {
+   "ci_high_pmw": 2.731,
+   "ci_low_pmw": 0.89,
    "group": "mike-winger",
    "group_by": "creator",
-   "n": 6,
-   "status": "insufficient-data",
+   "n": 14,
+   "rate_pmw": 1.628,
+   "status": "ok",
    "term": "wolf in sheep's clothing",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "group": "mindshift",
@@ -3342,7 +3690,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "wolf in sheep's clothing",
-   "words": 404092
+   "words": 402174
   },
   {
    "group": "paulogia",
@@ -3377,12 +3725,20 @@
    "words": 1218637
   },
   {
+   "group": "the-antibot",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "wolf in sheep's clothing",
+   "words": 479156
+  },
+  {
    "group": "the-omnist-rone",
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
    "term": "wolf in sheep's clothing",
-   "words": 27928
+   "words": 753926
   },
   {
    "group": "apostate-aladdin",
@@ -3406,7 +3762,7 @@
    "n": 1,
    "status": "insufficient-data",
    "term": "discernment",
-   "words": 694455
+   "words": 699215
   },
   {
    "ci_high_pmw": 14.085,
@@ -3440,6 +3796,14 @@
    "status": "ok",
    "term": "discernment",
    "words": 2808254
+  },
+  {
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 8,
+   "status": "insufficient-data",
+   "term": "discernment",
+   "words": 634687
   },
   {
    "ci_high_pmw": 17.444,
@@ -3510,15 +3874,15 @@
    "words": 120004
   },
   {
-   "ci_high_pmw": 51.165,
-   "ci_low_pmw": 38.178,
+   "ci_high_pmw": 37.951,
+   "ci_low_pmw": 30.056,
    "group": "mike-winger",
    "group_by": "creator",
-   "n": 186,
-   "rate_pmw": 44.318,
+   "n": 291,
+   "rate_pmw": 33.832,
    "status": "ok",
    "term": "discernment",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "ci_high_pmw": 29.796,
@@ -3537,7 +3901,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "discernment",
-   "words": 404092
+   "words": 402174
   },
   {
    "group": "paulogia",
@@ -3572,12 +3936,20 @@
    "words": 1218637
   },
   {
-   "group": "the-omnist-rone",
+   "group": "the-antibot",
    "group_by": "creator",
-   "n": 0,
+   "n": 6,
    "status": "insufficient-data",
    "term": "discernment",
-   "words": 27928
+   "words": 479156
+  },
+  {
+   "group": "the-omnist-rone",
+   "group_by": "creator",
+   "n": 5,
+   "status": "insufficient-data",
+   "term": "discernment",
+   "words": 753926
   },
   {
    "ci_high_pmw": 138.357,
@@ -3604,7 +3976,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "apostate",
-   "words": 694455
+   "words": 699215
   },
   {
    "ci_high_pmw": 8.768,
@@ -3638,6 +4010,14 @@
    "status": "ok",
    "term": "apostate",
    "words": 2808254
+  },
+  {
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 3,
+   "status": "insufficient-data",
+   "term": "apostate",
+   "words": 634687
   },
   {
    "ci_high_pmw": 11.804,
@@ -3702,15 +4082,15 @@
    "words": 120004
   },
   {
-   "ci_high_pmw": 10.764,
-   "ci_low_pmw": 5.215,
+   "ci_high_pmw": 11.705,
+   "ci_low_pmw": 7.479,
    "group": "mike-winger",
    "group_by": "creator",
-   "n": 32,
-   "rate_pmw": 7.625,
+   "n": 81,
+   "rate_pmw": 9.417,
    "status": "ok",
    "term": "apostate",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "ci_high_pmw": 10.767,
@@ -3729,7 +4109,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "apostate",
-   "words": 404092
+   "words": 402174
   },
   {
    "ci_high_pmw": 13.436,
@@ -3773,12 +4153,20 @@
    "words": 1218637
   },
   {
+   "group": "the-antibot",
+   "group_by": "creator",
+   "n": 2,
+   "status": "insufficient-data",
+   "term": "apostate",
+   "words": 479156
+  },
+  {
    "group": "the-omnist-rone",
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
    "term": "apostate",
-   "words": 27928
+   "words": 753926
   },
   {
    "group": "apostate-aladdin",
@@ -3802,7 +4190,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "false teaching",
-   "words": 694455
+   "words": 699215
   },
   {
    "group": "capturing-christianity",
@@ -3833,6 +4221,14 @@
    "status": "ok",
    "term": "false teaching",
    "words": 2808254
+  },
+  {
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "false teaching",
+   "words": 634687
   },
   {
    "group": "darante-lamar",
@@ -3891,15 +4287,15 @@
    "words": 120004
   },
   {
-   "ci_high_pmw": 42.968,
-   "ci_low_pmw": 31.127,
+   "ci_high_pmw": 33.518,
+   "ci_low_pmw": 26.119,
    "group": "mike-winger",
    "group_by": "creator",
-   "n": 154,
-   "rate_pmw": 36.693,
+   "n": 255,
+   "rate_pmw": 29.647,
    "status": "ok",
    "term": "false teaching",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "group": "mindshift",
@@ -3915,7 +4311,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "false teaching",
-   "words": 404092
+   "words": 402174
   },
   {
    "group": "paulogia",
@@ -3950,12 +4346,20 @@
    "words": 1218637
   },
   {
+   "group": "the-antibot",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "false teaching",
+   "words": 479156
+  },
+  {
    "group": "the-omnist-rone",
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
    "term": "false teaching",
-   "words": 27928
+   "words": 753926
   },
   {
    "group": "apostate-aladdin",
@@ -3979,7 +4383,7 @@
    "n": 1,
    "status": "insufficient-data",
    "term": "grift",
-   "words": 694455
+   "words": 699215
   },
   {
    "group": "capturing-christianity",
@@ -4004,6 +4408,14 @@
    "status": "insufficient-data",
    "term": "grift",
    "words": 2808254
+  },
+  {
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 1,
+   "status": "insufficient-data",
+   "term": "grift",
+   "words": 634687
   },
   {
    "group": "darante-lamar",
@@ -4062,15 +4474,15 @@
    "words": 120004
   },
   {
-   "ci_high_pmw": 9.642,
-   "ci_low_pmw": 4.433,
+   "ci_high_pmw": 4.705,
+   "ci_low_pmw": 2.163,
    "group": "mike-winger",
    "group_by": "creator",
    "n": 28,
-   "rate_pmw": 6.672,
+   "rate_pmw": 3.255,
    "status": "ok",
    "term": "grift",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "ci_high_pmw": 12.849,
@@ -4086,10 +4498,10 @@
   {
    "group": "neverflamenevertilt",
    "group_by": "creator",
-   "n": 0,
+   "n": 1,
    "status": "insufficient-data",
    "term": "grift",
-   "words": 404092
+   "words": 402174
   },
   {
    "group": "paulogia",
@@ -4124,12 +4536,23 @@
    "words": 1218637
   },
   {
+   "ci_high_pmw": 64.464,
+   "ci_low_pmw": 25.496,
+   "group": "the-antibot",
+   "group_by": "creator",
+   "n": 20,
+   "rate_pmw": 41.74,
+   "status": "ok",
+   "term": "grift",
+   "words": 479156
+  },
+  {
    "group": "the-omnist-rone",
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
    "term": "grift",
-   "words": 27928
+   "words": 753926
   },
   {
    "group": "apostate-aladdin",
@@ -4153,7 +4576,7 @@
    "n": 1,
    "status": "insufficient-data",
    "term": "heresy",
-   "words": 694455
+   "words": 699215
   },
   {
    "ci_high_pmw": 52.292,
@@ -4187,6 +4610,14 @@
    "status": "ok",
    "term": "heresy",
    "words": 2808254
+  },
+  {
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 7,
+   "status": "insufficient-data",
+   "term": "heresy",
+   "words": 634687
   },
   {
    "ci_high_pmw": 16.585,
@@ -4257,15 +4688,15 @@
    "words": 120004
   },
   {
-   "ci_high_pmw": 36.263,
-   "ci_low_pmw": 25.444,
+   "ci_high_pmw": 28.818,
+   "ci_low_pmw": 21.984,
    "group": "mike-winger",
    "group_by": "creator",
-   "n": 128,
-   "rate_pmw": 30.498,
+   "n": 217,
+   "rate_pmw": 25.229,
    "status": "ok",
    "term": "heresy",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "ci_high_pmw": 14.889,
@@ -4281,10 +4712,10 @@
   {
    "group": "neverflamenevertilt",
    "group_by": "creator",
-   "n": 0,
+   "n": 1,
    "status": "insufficient-data",
    "term": "heresy",
-   "words": 404092
+   "words": 402174
   },
   {
    "ci_high_pmw": 31.946,
@@ -4328,12 +4759,23 @@
    "words": 1218637
   },
   {
-   "group": "the-omnist-rone",
+   "group": "the-antibot",
    "group_by": "creator",
-   "n": 0,
+   "n": 6,
    "status": "insufficient-data",
    "term": "heresy",
-   "words": 27928
+   "words": 479156
+  },
+  {
+   "ci_high_pmw": 31.156,
+   "ci_low_pmw": 10.152,
+   "group": "the-omnist-rone",
+   "group_by": "creator",
+   "n": 14,
+   "rate_pmw": 18.569,
+   "status": "ok",
+   "term": "heresy",
+   "words": 753926
   },
   {
    "ci_high_pmw": 49.993,
@@ -4360,7 +4802,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "apostasy",
-   "words": 694455
+   "words": 699215
   },
   {
    "ci_high_pmw": 82.581,
@@ -4394,6 +4836,14 @@
    "status": "ok",
    "term": "apostasy",
    "words": 2808254
+  },
+  {
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 3,
+   "status": "insufficient-data",
+   "term": "apostasy",
+   "words": 634687
   },
   {
    "ci_high_pmw": 5.943,
@@ -4458,15 +4908,15 @@
    "words": 120004
   },
   {
-   "ci_high_pmw": 11.598,
-   "ci_low_pmw": 5.809,
+   "ci_high_pmw": 10.801,
+   "ci_low_pmw": 6.755,
    "group": "mike-winger",
    "group_by": "creator",
-   "n": 35,
-   "rate_pmw": 8.339,
+   "n": 74,
+   "rate_pmw": 8.603,
    "status": "ok",
    "term": "apostasy",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "group": "mindshift",
@@ -4482,7 +4932,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "apostasy",
-   "words": 404092
+   "words": 402174
   },
   {
    "ci_high_pmw": 13.436,
@@ -4523,12 +4973,20 @@
    "words": 1218637
   },
   {
+   "group": "the-antibot",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "apostasy",
+   "words": 479156
+  },
+  {
    "group": "the-omnist-rone",
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
    "term": "apostasy",
-   "words": 27928
+   "words": 753926
   },
   {
    "ci_high_pmw": 7.741,
@@ -4555,7 +5013,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "clout",
-   "words": 694455
+   "words": 699215
   },
   {
    "group": "capturing-christianity",
@@ -4580,6 +5038,14 @@
    "status": "insufficient-data",
    "term": "clout",
    "words": 2808254
+  },
+  {
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 2,
+   "status": "insufficient-data",
+   "term": "clout",
+   "words": 634687
   },
   {
    "group": "darante-lamar",
@@ -4641,15 +5107,15 @@
    "words": 120004
   },
   {
-   "ci_high_pmw": 4.994,
-   "ci_low_pmw": 1.477,
+   "ci_high_pmw": 3.732,
+   "ci_low_pmw": 1.511,
    "group": "mike-winger",
    "group_by": "creator",
-   "n": 12,
-   "rate_pmw": 2.859,
+   "n": 21,
+   "rate_pmw": 2.441,
    "status": "ok",
    "term": "clout",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "group": "mindshift",
@@ -4665,7 +5131,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "clout",
-   "words": 404092
+   "words": 402174
   },
   {
    "group": "paulogia",
@@ -4700,12 +5166,20 @@
    "words": 1218637
   },
   {
+   "group": "the-antibot",
+   "group_by": "creator",
+   "n": 2,
+   "status": "insufficient-data",
+   "term": "clout",
+   "words": 479156
+  },
+  {
    "group": "the-omnist-rone",
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
    "term": "clout",
-   "words": 27928
+   "words": 753926
   },
   {
    "group": "apostate-aladdin",
@@ -4729,7 +5203,7 @@
    "n": 2,
    "status": "insufficient-data",
    "term": "watchdog",
-   "words": 694455
+   "words": 699215
   },
   {
    "group": "capturing-christianity",
@@ -4754,6 +5228,14 @@
    "status": "insufficient-data",
    "term": "watchdog",
    "words": 2808254
+  },
+  {
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "watchdog",
+   "words": 634687
   },
   {
    "group": "darante-lamar",
@@ -4812,15 +5294,15 @@
    "words": 120004
   },
   {
-   "ci_high_pmw": 12.703,
-   "ci_low_pmw": 6.608,
+   "ci_high_pmw": 6.198,
+   "ci_low_pmw": 3.224,
    "group": "mike-winger",
    "group_by": "creator",
    "n": 39,
-   "rate_pmw": 9.292,
+   "rate_pmw": 4.534,
    "status": "ok",
    "term": "watchdog",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "group": "mindshift",
@@ -4836,7 +5318,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "watchdog",
-   "words": 404092
+   "words": 402174
   },
   {
    "group": "paulogia",
@@ -4871,12 +5353,20 @@
    "words": 1218637
   },
   {
+   "group": "the-antibot",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "watchdog",
+   "words": 479156
+  },
+  {
    "group": "the-omnist-rone",
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
    "term": "watchdog",
-   "words": 27928
+   "words": 753926
   },
   {
    "group": "apostate-aladdin",
@@ -4900,7 +5390,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "discernment ministry",
-   "words": 694455
+   "words": 699215
   },
   {
    "group": "capturing-christianity",
@@ -4927,6 +5417,14 @@
    "words": 2808254
   },
   {
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "discernment ministry",
+   "words": 634687
+  },
+  {
    "group": "darante-lamar",
    "group_by": "creator",
    "n": 0,
@@ -4983,15 +5481,15 @@
    "words": 120004
   },
   {
-   "ci_high_pmw": 7.36,
-   "ci_low_pmw": 2.911,
+   "ci_high_pmw": 4.429,
+   "ci_low_pmw": 1.975,
    "group": "mike-winger",
    "group_by": "creator",
-   "n": 20,
-   "rate_pmw": 4.765,
+   "n": 26,
+   "rate_pmw": 3.023,
    "status": "ok",
    "term": "discernment ministry",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "group": "mindshift",
@@ -5007,7 +5505,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "discernment ministry",
-   "words": 404092
+   "words": 402174
   },
   {
    "group": "paulogia",
@@ -5042,12 +5540,20 @@
    "words": 1218637
   },
   {
+   "group": "the-antibot",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "discernment ministry",
+   "words": 479156
+  },
+  {
    "group": "the-omnist-rone",
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
    "term": "discernment ministry",
-   "words": 27928
+   "words": 753926
   },
   {
    "group": "apostate-aladdin",
@@ -5071,7 +5577,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "deconstruction influencer",
-   "words": 694455
+   "words": 699215
   },
   {
    "group": "capturing-christianity",
@@ -5098,6 +5604,14 @@
    "words": 2808254
   },
   {
+   "group": "dan-mcclellan",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "deconstruction influencer",
+   "words": 634687
+  },
+  {
    "group": "darante-lamar",
    "group_by": "creator",
    "n": 0,
@@ -5159,7 +5673,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "deconstruction influencer",
-   "words": 4196935
+   "words": 8601281
   },
   {
    "group": "mindshift",
@@ -5175,7 +5689,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "deconstruction influencer",
-   "words": 404092
+   "words": 402174
   },
   {
    "group": "paulogia",
@@ -5210,91 +5724,99 @@
    "words": 1218637
   },
   {
+   "group": "the-antibot",
+   "group_by": "creator",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "deconstruction influencer",
+   "words": 479156
+  },
+  {
    "group": "the-omnist-rone",
    "group_by": "creator",
    "n": 0,
    "status": "insufficient-data",
    "term": "deconstruction influencer",
-   "words": 27928
+   "words": 753926
   }
  ],
  "overall": [
   {
-   "ci_high_pmw": 594.894,
-   "ci_low_pmw": 578.663,
+   "ci_high_pmw": 525.768,
+   "ci_low_pmw": 511.731,
    "group": "overall",
    "group_by": "overall",
-   "n": 20153,
-   "rate_pmw": 586.736,
+   "n": 21057,
+   "rate_pmw": 518.714,
    "status": "ok",
    "term": "community",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 38.946,
-   "ci_low_pmw": 34.856,
+   "ci_high_pmw": 38.061,
+   "ci_low_pmw": 34.336,
    "group": "overall",
    "group_by": "overall",
-   "n": 1266,
-   "rate_pmw": 36.858,
+   "n": 1468,
+   "rate_pmw": 36.162,
    "status": "ok",
    "term": "accountability",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 36.372,
-   "ci_low_pmw": 32.422,
+   "ci_high_pmw": 38.515,
+   "ci_low_pmw": 34.768,
    "group": "overall",
    "group_by": "overall",
-   "n": 1180,
-   "rate_pmw": 34.355,
+   "n": 1486,
+   "rate_pmw": 36.606,
    "status": "ok",
    "term": "deconstruction",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 150.843,
-   "ci_low_pmw": 142.712,
+   "ci_high_pmw": 162.165,
+   "ci_low_pmw": 154.401,
    "group": "overall",
    "group_by": "overall",
-   "n": 5040,
-   "rate_pmw": 146.735,
+   "n": 6424,
+   "rate_pmw": 158.247,
    "status": "ok",
    "term": "grace",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 1.519,
-   "ci_low_pmw": 0.783,
+   "ci_high_pmw": 1.285,
+   "ci_low_pmw": 0.662,
    "group": "overall",
    "group_by": "overall",
    "n": 38,
-   "rate_pmw": 1.106,
+   "rate_pmw": 0.936,
    "status": "ok",
    "term": "purity test",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 75.725,
-   "ci_low_pmw": 69.988,
+   "ci_high_pmw": 64.072,
+   "ci_low_pmw": 59.218,
    "group": "overall",
    "group_by": "overall",
    "n": 2501,
-   "rate_pmw": 72.814,
+   "rate_pmw": 61.609,
    "status": "ok",
    "term": "bridge city",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 22.008,
-   "ci_low_pmw": 18.954,
+   "ci_high_pmw": 19.923,
+   "ci_low_pmw": 17.248,
    "group": "overall",
    "group_by": "overall",
-   "n": 702,
-   "rate_pmw": 20.438,
+   "n": 753,
+   "rate_pmw": 18.549,
    "status": "ok",
    "term": "do the work",
-   "words": 34347620
+   "words": 40594649
   },
   {
    "group": "overall",
@@ -5302,205 +5824,205 @@
    "n": 3,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 566.016,
-   "ci_low_pmw": 550.186,
+   "ci_high_pmw": 545.16,
+   "ci_low_pmw": 530.866,
    "group": "overall",
    "group_by": "overall",
-   "n": 19168,
-   "rate_pmw": 558.059,
+   "n": 21839,
+   "rate_pmw": 537.977,
    "status": "ok",
    "term": "truth",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 626.258,
-   "ci_low_pmw": 609.603,
+   "ci_high_pmw": 614.182,
+   "ci_low_pmw": 599.005,
    "group": "overall",
    "group_by": "overall",
-   "n": 21223,
-   "rate_pmw": 617.889,
+   "n": 24623,
+   "rate_pmw": 606.558,
    "status": "ok",
    "term": "evidence",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 805.589,
-   "ci_low_pmw": 786.688,
+   "ci_high_pmw": 817.722,
+   "ci_low_pmw": 800.199,
    "group": "overall",
    "group_by": "overall",
-   "n": 27344,
-   "rate_pmw": 796.096,
+   "n": 32838,
+   "rate_pmw": 808.924,
    "status": "ok",
    "term": "love",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 124.497,
-   "ci_low_pmw": 117.118,
+   "ci_high_pmw": 118.188,
+   "ci_low_pmw": 111.57,
    "group": "overall",
    "group_by": "overall",
-   "n": 4148,
-   "rate_pmw": 120.765,
+   "n": 4662,
+   "rate_pmw": 114.843,
    "status": "ok",
    "term": "harm",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 9.965,
-   "ci_low_pmw": 7.939,
+   "ci_high_pmw": 10.92,
+   "ci_low_pmw": 8.958,
    "group": "overall",
    "group_by": "overall",
-   "n": 306,
-   "rate_pmw": 8.909,
+   "n": 402,
+   "rate_pmw": 9.903,
    "status": "ok",
    "term": "false teacher",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 12.753,
-   "ci_low_pmw": 10.449,
+   "ci_high_pmw": 13.42,
+   "ci_low_pmw": 11.237,
    "group": "overall",
    "group_by": "overall",
-   "n": 397,
-   "rate_pmw": 11.558,
+   "n": 499,
+   "rate_pmw": 12.292,
    "status": "ok",
    "term": "false prophet",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 2.445,
-   "ci_low_pmw": 1.486,
+   "ci_high_pmw": 2.316,
+   "ci_low_pmw": 1.453,
    "group": "overall",
    "group_by": "overall",
-   "n": 66,
-   "rate_pmw": 1.922,
+   "n": 75,
+   "rate_pmw": 1.848,
    "status": "ok",
    "term": "grifter",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 19.771,
-   "ci_low_pmw": 16.881,
+   "ci_high_pmw": 18.672,
+   "ci_low_pmw": 16.085,
    "group": "overall",
    "group_by": "overall",
-   "n": 628,
-   "rate_pmw": 18.284,
+   "n": 704,
+   "rate_pmw": 17.342,
    "status": "ok",
    "term": "heretic",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 1.04,
-   "ci_low_pmw": 0.448,
+   "ci_high_pmw": 1.113,
+   "ci_low_pmw": 0.539,
    "group": "overall",
    "group_by": "overall",
-   "n": 24,
-   "rate_pmw": 0.699,
+   "n": 32,
+   "rate_pmw": 0.788,
    "status": "ok",
    "term": "wolf in sheep's clothing",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 14.522,
-   "ci_low_pmw": 12.058,
+   "ci_high_pmw": 15.474,
+   "ci_low_pmw": 13.125,
    "group": "overall",
    "group_by": "overall",
-   "n": 455,
-   "rate_pmw": 13.247,
+   "n": 579,
+   "rate_pmw": 14.263,
    "status": "ok",
    "term": "discernment",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 22.551,
-   "ci_low_pmw": 19.459,
+   "ci_high_pmw": 20.458,
+   "ci_low_pmw": 17.747,
    "group": "overall",
    "group_by": "overall",
-   "n": 720,
-   "rate_pmw": 20.962,
+   "n": 774,
+   "rate_pmw": 19.067,
    "status": "ok",
    "term": "apostate",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 7.341,
-   "ci_low_pmw": 5.614,
+   "ci_high_pmw": 8.848,
+   "ci_low_pmw": 7.089,
    "group": "overall",
    "group_by": "overall",
-   "n": 221,
-   "rate_pmw": 6.434,
+   "n": 322,
+   "rate_pmw": 7.932,
    "status": "ok",
    "term": "false teaching",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 3.124,
-   "ci_low_pmw": 2.029,
+   "ci_high_pmw": 3.239,
+   "ci_low_pmw": 2.205,
    "group": "overall",
    "group_by": "overall",
-   "n": 87,
-   "rate_pmw": 2.533,
+   "n": 109,
+   "rate_pmw": 2.685,
    "status": "ok",
    "term": "grift",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 31.246,
-   "ci_low_pmw": 27.591,
+   "ci_high_pmw": 29.406,
+   "ci_low_pmw": 26.141,
    "group": "overall",
    "group_by": "overall",
-   "n": 1009,
-   "rate_pmw": 29.376,
+   "n": 1126,
+   "rate_pmw": 27.738,
    "status": "ok",
    "term": "heresy",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 17.56,
-   "ci_low_pmw": 14.842,
+   "ci_high_pmw": 15.935,
+   "ci_low_pmw": 13.55,
    "group": "overall",
    "group_by": "overall",
-   "n": 555,
-   "rate_pmw": 16.158,
+   "n": 597,
+   "rate_pmw": 14.706,
    "status": "ok",
    "term": "apostasy",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 4.589,
-   "ci_low_pmw": 3.242,
+   "ci_high_pmw": 4.23,
+   "ci_low_pmw": 3.037,
    "group": "overall",
    "group_by": "overall",
-   "n": 133,
-   "rate_pmw": 3.872,
+   "n": 146,
+   "rate_pmw": 3.597,
    "status": "ok",
    "term": "clout",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 1.985,
-   "ci_low_pmw": 1.131,
+   "ci_high_pmw": 1.68,
+   "ci_low_pmw": 0.957,
    "group": "overall",
    "group_by": "overall",
    "n": 52,
-   "rate_pmw": 1.514,
+   "rate_pmw": 1.281,
    "status": "ok",
    "term": "watchdog",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 0.97,
-   "ci_low_pmw": 0.401,
+   "ci_high_pmw": 0.997,
+   "ci_low_pmw": 0.458,
    "group": "overall",
    "group_by": "overall",
-   "n": 22,
-   "rate_pmw": 0.641,
+   "n": 28,
+   "rate_pmw": 0.69,
    "status": "ok",
    "term": "discernment ministry",
-   "words": 34347620
+   "words": 40594649
   },
   {
    "group": "overall",
@@ -5508,152 +6030,152 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "deconstruction influencer",
-   "words": 34347620
+   "words": 40594649
   }
  ],
  "role": [
   {
-   "ci_high_pmw": 594.894,
-   "ci_low_pmw": 578.663,
+   "ci_high_pmw": 525.768,
+   "ci_low_pmw": 511.731,
    "group": "host",
    "group_by": "role",
-   "n": 20153,
-   "rate_pmw": 586.736,
+   "n": 21057,
+   "rate_pmw": 518.714,
    "status": "ok",
    "term": "community",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 536.827,
-   "ci_low_pmw": 476.938,
+   "ci_high_pmw": 520.629,
+   "ci_low_pmw": 463.298,
    "group": "unattributed",
    "group_by": "role",
-   "n": 1115,
-   "rate_pmw": 506.219,
+   "n": 1146,
+   "rate_pmw": 491.337,
    "status": "ok",
    "term": "community",
-   "words": 2202605
+   "words": 2332413
   },
   {
-   "ci_high_pmw": 429.105,
-   "ci_low_pmw": 406.117,
+   "ci_high_pmw": 417.524,
+   "ci_low_pmw": 395.681,
    "group": "unknown",
    "group_by": "role",
-   "n": 5105,
-   "rate_pmw": 417.492,
+   "n": 5359,
+   "rate_pmw": 406.492,
    "status": "ok",
    "term": "community",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 38.946,
-   "ci_low_pmw": 34.856,
+   "ci_high_pmw": 38.061,
+   "ci_low_pmw": 34.336,
    "group": "host",
    "group_by": "role",
-   "n": 1266,
-   "rate_pmw": 36.858,
+   "n": 1468,
+   "rate_pmw": 36.162,
    "status": "ok",
    "term": "accountability",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 53.224,
-   "ci_low_pmw": 35.304,
+   "ci_high_pmw": 53.087,
+   "ci_low_pmw": 35.658,
    "group": "unattributed",
    "group_by": "role",
-   "n": 96,
-   "rate_pmw": 43.585,
+   "n": 102,
+   "rate_pmw": 43.732,
    "status": "ok",
    "term": "accountability",
-   "words": 2202605
+   "words": 2332413
   },
   {
-   "ci_high_pmw": 23.924,
-   "ci_low_pmw": 18.68,
+   "ci_high_pmw": 25.001,
+   "ci_low_pmw": 19.824,
    "group": "unknown",
    "group_by": "role",
-   "n": 259,
-   "rate_pmw": 21.181,
+   "n": 294,
+   "rate_pmw": 22.301,
    "status": "ok",
    "term": "accountability",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 36.372,
-   "ci_low_pmw": 32.422,
+   "ci_high_pmw": 38.515,
+   "ci_low_pmw": 34.768,
    "group": "host",
    "group_by": "role",
-   "n": 1180,
-   "rate_pmw": 34.355,
+   "n": 1486,
+   "rate_pmw": 36.606,
    "status": "ok",
    "term": "deconstruction",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 59.696,
-   "ci_low_pmw": 40.634,
+   "ci_high_pmw": 60.119,
+   "ci_low_pmw": 41.486,
    "group": "unattributed",
    "group_by": "role",
-   "n": 109,
-   "rate_pmw": 49.487,
+   "n": 117,
+   "rate_pmw": 50.163,
    "status": "ok",
    "term": "deconstruction",
-   "words": 2202605
+   "words": 2332413
   },
   {
-   "ci_high_pmw": 21.056,
-   "ci_low_pmw": 16.151,
+   "ci_high_pmw": 27.403,
+   "ci_low_pmw": 21.973,
    "group": "unknown",
    "group_by": "role",
-   "n": 226,
-   "rate_pmw": 18.483,
+   "n": 324,
+   "rate_pmw": 24.576,
    "status": "ok",
    "term": "deconstruction",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 150.843,
-   "ci_low_pmw": 142.712,
+   "ci_high_pmw": 162.165,
+   "ci_low_pmw": 154.401,
    "group": "host",
    "group_by": "role",
-   "n": 5040,
-   "rate_pmw": 146.735,
+   "n": 6424,
+   "rate_pmw": 158.247,
    "status": "ok",
    "term": "grace",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 136.667,
-   "ci_low_pmw": 107.115,
+   "ci_high_pmw": 134.056,
+   "ci_low_pmw": 105.589,
    "group": "unattributed",
    "group_by": "role",
-   "n": 267,
-   "rate_pmw": 121.22,
+   "n": 278,
+   "rate_pmw": 119.19,
    "status": "ok",
    "term": "grace",
-   "words": 2202605
+   "words": 2332413
   },
   {
-   "ci_high_pmw": 113.18,
-   "ci_low_pmw": 101.489,
+   "ci_high_pmw": 116.885,
+   "ci_low_pmw": 105.432,
    "group": "unknown",
    "group_by": "role",
-   "n": 1311,
-   "rate_pmw": 107.215,
+   "n": 1464,
+   "rate_pmw": 111.048,
    "status": "ok",
    "term": "grace",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 1.519,
-   "ci_low_pmw": 0.783,
+   "ci_high_pmw": 1.285,
+   "ci_low_pmw": 0.662,
    "group": "host",
    "group_by": "role",
    "n": 38,
-   "rate_pmw": 1.106,
+   "rate_pmw": 0.936,
    "status": "ok",
    "term": "purity test",
-   "words": 34347620
+   "words": 40594649
   },
   {
    "group": "unattributed",
@@ -5661,81 +6183,81 @@
    "n": 1,
    "status": "insufficient-data",
    "term": "purity test",
-   "words": 2202605
+   "words": 2332413
   },
   {
    "group": "unknown",
    "group_by": "role",
-   "n": 4,
+   "n": 6,
    "status": "insufficient-data",
    "term": "purity test",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 75.725,
-   "ci_low_pmw": 69.988,
+   "ci_high_pmw": 64.072,
+   "ci_low_pmw": 59.218,
    "group": "host",
    "group_by": "role",
    "n": 2501,
-   "rate_pmw": 72.814,
+   "rate_pmw": 61.609,
    "status": "ok",
    "term": "bridge city",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 53.224,
-   "ci_low_pmw": 35.304,
+   "ci_high_pmw": 50.262,
+   "ci_low_pmw": 33.339,
    "group": "unattributed",
    "group_by": "role",
    "n": 96,
-   "rate_pmw": 43.585,
+   "rate_pmw": 41.159,
    "status": "ok",
    "term": "bridge city",
-   "words": 2202605
+   "words": 2332413
   },
   {
-   "ci_high_pmw": 51.285,
-   "ci_low_pmw": 43.494,
+   "ci_high_pmw": 47.567,
+   "ci_low_pmw": 40.341,
    "group": "unknown",
    "group_by": "role",
    "n": 578,
-   "rate_pmw": 47.269,
+   "rate_pmw": 43.843,
    "status": "ok",
    "term": "bridge city",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 22.008,
-   "ci_low_pmw": 18.954,
+   "ci_high_pmw": 19.923,
+   "ci_low_pmw": 17.248,
    "group": "host",
    "group_by": "role",
-   "n": 702,
-   "rate_pmw": 20.438,
+   "n": 753,
+   "rate_pmw": 18.549,
    "status": "ok",
    "term": "do the work",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 23.154,
-   "ci_low_pmw": 11.828,
+   "ci_high_pmw": 22.362,
+   "ci_low_pmw": 11.529,
    "group": "unattributed",
    "group_by": "role",
-   "n": 37,
-   "rate_pmw": 16.798,
+   "n": 38,
+   "rate_pmw": 16.292,
    "status": "ok",
    "term": "do the work",
-   "words": 2202605
+   "words": 2332413
   },
   {
-   "ci_high_pmw": 18.437,
-   "ci_low_pmw": 13.863,
+   "ci_high_pmw": 18.316,
+   "ci_low_pmw": 13.918,
    "group": "unknown",
    "group_by": "role",
-   "n": 196,
-   "rate_pmw": 16.029,
+   "n": 211,
+   "rate_pmw": 16.005,
    "status": "ok",
    "term": "do the work",
-   "words": 12227774
+   "words": 13183521
   },
   {
    "group": "host",
@@ -5743,7 +6265,7 @@
    "n": 3,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 34347620
+   "words": 40594649
   },
   {
    "group": "unattributed",
@@ -5751,7 +6273,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 2202605
+   "words": 2332413
   },
   {
    "group": "unknown",
@@ -5759,216 +6281,216 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 566.016,
-   "ci_low_pmw": 550.186,
+   "ci_high_pmw": 545.16,
+   "ci_low_pmw": 530.866,
    "group": "host",
    "group_by": "role",
-   "n": 19168,
-   "rate_pmw": 558.059,
+   "n": 21839,
+   "rate_pmw": 537.977,
    "status": "ok",
    "term": "truth",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 547.107,
-   "ci_low_pmw": 486.634,
+   "ci_high_pmw": 537.388,
+   "ci_low_pmw": 479.122,
    "group": "unattributed",
    "group_by": "role",
-   "n": 1137,
-   "rate_pmw": 516.207,
+   "n": 1184,
+   "rate_pmw": 507.629,
    "status": "ok",
    "term": "truth",
-   "words": 2202605
+   "words": 2332413
   },
   {
-   "ci_high_pmw": 486.614,
-   "ci_low_pmw": 462.12,
+   "ci_high_pmw": 499.186,
+   "ci_low_pmw": 475.281,
    "group": "unknown",
    "group_by": "role",
-   "n": 5799,
-   "rate_pmw": 474.248,
+   "n": 6422,
+   "rate_pmw": 487.123,
    "status": "ok",
    "term": "truth",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 626.258,
-   "ci_low_pmw": 609.603,
+   "ci_high_pmw": 614.182,
+   "ci_low_pmw": 599.005,
    "group": "host",
    "group_by": "role",
-   "n": 21223,
-   "rate_pmw": 617.889,
+   "n": 24623,
+   "rate_pmw": 606.558,
    "status": "ok",
    "term": "evidence",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 474.148,
-   "ci_low_pmw": 417.944,
+   "ci_high_pmw": 470.743,
+   "ci_low_pmw": 416.289,
    "group": "unattributed",
    "group_by": "role",
-   "n": 981,
-   "rate_pmw": 445.382,
+   "n": 1033,
+   "rate_pmw": 442.889,
    "status": "ok",
    "term": "evidence",
-   "words": 2202605
+   "words": 2332413
   },
   {
-   "ci_high_pmw": 598.613,
-   "ci_low_pmw": 571.42,
+   "ci_high_pmw": 607.84,
+   "ci_low_pmw": 581.44,
    "group": "unknown",
    "group_by": "role",
-   "n": 7152,
-   "rate_pmw": 584.898,
+   "n": 7838,
+   "rate_pmw": 594.53,
    "status": "ok",
    "term": "evidence",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 805.589,
-   "ci_low_pmw": 786.688,
+   "ci_high_pmw": 817.722,
+   "ci_low_pmw": 800.199,
    "group": "host",
    "group_by": "role",
-   "n": 27344,
-   "rate_pmw": 796.096,
+   "n": 32838,
+   "rate_pmw": 808.924,
    "status": "ok",
    "term": "love",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 852.143,
-   "ci_low_pmw": 776.345,
+   "ci_high_pmw": 860.407,
+   "ci_low_pmw": 786.35,
    "group": "unattributed",
    "group_by": "role",
-   "n": 1792,
-   "rate_pmw": 813.582,
+   "n": 1919,
+   "rate_pmw": 822.753,
    "status": "ok",
    "term": "love",
-   "words": 2202605
+   "words": 2332413
   },
   {
-   "ci_high_pmw": 782.707,
-   "ci_low_pmw": 751.579,
+   "ci_high_pmw": 818.799,
+   "ci_low_pmw": 788.124,
    "group": "unknown",
    "group_by": "role",
-   "n": 9379,
-   "rate_pmw": 767.024,
+   "n": 10591,
+   "rate_pmw": 803.351,
    "status": "ok",
    "term": "love",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 124.497,
-   "ci_low_pmw": 117.118,
+   "ci_high_pmw": 118.188,
+   "ci_low_pmw": 111.57,
    "group": "host",
    "group_by": "role",
-   "n": 4148,
-   "rate_pmw": 120.765,
+   "n": 4662,
+   "rate_pmw": 114.843,
    "status": "ok",
    "term": "harm",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 223.131,
-   "ci_low_pmw": 184.995,
+   "ci_high_pmw": 212.956,
+   "ci_low_pmw": 176.744,
    "group": "unattributed",
    "group_by": "role",
-   "n": 448,
-   "rate_pmw": 203.396,
+   "n": 453,
+   "rate_pmw": 194.219,
    "status": "ok",
    "term": "harm",
-   "words": 2202605
+   "words": 2332413
   },
   {
-   "ci_high_pmw": 67.157,
-   "ci_low_pmw": 58.207,
+   "ci_high_pmw": 70.918,
+   "ci_low_pmw": 62.045,
    "group": "unknown",
    "group_by": "role",
-   "n": 765,
-   "rate_pmw": 62.562,
+   "n": 875,
+   "rate_pmw": 66.371,
    "status": "ok",
    "term": "harm",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 9.965,
-   "ci_low_pmw": 7.939,
+   "ci_high_pmw": 10.92,
+   "ci_low_pmw": 8.958,
    "group": "host",
    "group_by": "role",
-   "n": 306,
-   "rate_pmw": 8.909,
+   "n": 402,
+   "rate_pmw": 9.903,
    "status": "ok",
    "term": "false teacher",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 13.471,
-   "ci_low_pmw": 5.194,
+   "ci_high_pmw": 12.721,
+   "ci_low_pmw": 4.904,
    "group": "unattributed",
    "group_by": "role",
    "n": 19,
-   "rate_pmw": 8.626,
+   "rate_pmw": 8.146,
    "status": "ok",
    "term": "false teacher",
-   "words": 2202605
+   "words": 2332413
   },
   {
-   "ci_high_pmw": 6.684,
-   "ci_low_pmw": 4.031,
+   "ci_high_pmw": 6.199,
+   "ci_low_pmw": 3.739,
    "group": "unknown",
    "group_by": "role",
    "n": 64,
-   "rate_pmw": 5.234,
+   "rate_pmw": 4.855,
    "status": "ok",
    "term": "false teacher",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 12.753,
-   "ci_low_pmw": 10.449,
+   "ci_high_pmw": 13.42,
+   "ci_low_pmw": 11.237,
    "group": "host",
    "group_by": "role",
-   "n": 397,
-   "rate_pmw": 11.558,
+   "n": 499,
+   "rate_pmw": 12.292,
    "status": "ok",
    "term": "false prophet",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 15.668,
-   "ci_low_pmw": 6.619,
+   "ci_high_pmw": 15.31,
+   "ci_low_pmw": 6.593,
    "group": "unattributed",
    "group_by": "role",
-   "n": 23,
-   "rate_pmw": 10.442,
+   "n": 24,
+   "rate_pmw": 10.29,
    "status": "ok",
    "term": "false prophet",
-   "words": 2202605
+   "words": 2332413
   },
   {
-   "ci_high_pmw": 10.932,
-   "ci_low_pmw": 7.468,
+   "ci_high_pmw": 10.967,
+   "ci_low_pmw": 7.616,
    "group": "unknown",
    "group_by": "role",
-   "n": 111,
-   "rate_pmw": 9.078,
+   "n": 121,
+   "rate_pmw": 9.178,
    "status": "ok",
    "term": "false prophet",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 2.445,
-   "ci_low_pmw": 1.486,
+   "ci_high_pmw": 2.316,
+   "ci_low_pmw": 1.453,
    "group": "host",
    "group_by": "role",
-   "n": 66,
-   "rate_pmw": 1.922,
+   "n": 75,
+   "rate_pmw": 1.848,
    "status": "ok",
    "term": "grifter",
-   "words": 34347620
+   "words": 40594649
   },
   {
    "group": "unattributed",
@@ -5976,62 +6498,62 @@
    "n": 6,
    "status": "insufficient-data",
    "term": "grifter",
-   "words": 2202605
+   "words": 2332413
   },
   {
-   "ci_high_pmw": 2.724,
-   "ci_low_pmw": 1.128,
+   "ci_high_pmw": 3.159,
+   "ci_low_pmw": 1.473,
    "group": "unknown",
    "group_by": "role",
-   "n": 22,
-   "rate_pmw": 1.799,
+   "n": 29,
+   "rate_pmw": 2.2,
    "status": "ok",
    "term": "grifter",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 19.771,
-   "ci_low_pmw": 16.881,
+   "ci_high_pmw": 18.672,
+   "ci_low_pmw": 16.085,
    "group": "host",
    "group_by": "role",
-   "n": 628,
-   "rate_pmw": 18.284,
+   "n": 704,
+   "rate_pmw": 17.342,
    "status": "ok",
    "term": "heretic",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 23.68,
-   "ci_low_pmw": 12.209,
+   "ci_high_pmw": 23.353,
+   "ci_low_pmw": 12.252,
    "group": "unattributed",
    "group_by": "role",
-   "n": 38,
-   "rate_pmw": 17.252,
+   "n": 40,
+   "rate_pmw": 17.15,
    "status": "ok",
    "term": "heretic",
-   "words": 2202605
+   "words": 2332413
   },
   {
-   "ci_high_pmw": 17.561,
-   "ci_low_pmw": 13.104,
+   "ci_high_pmw": 17.425,
+   "ci_low_pmw": 13.141,
    "group": "unknown",
    "group_by": "role",
-   "n": 186,
-   "rate_pmw": 15.211,
+   "n": 200,
+   "rate_pmw": 15.17,
    "status": "ok",
    "term": "heretic",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 1.04,
-   "ci_low_pmw": 0.448,
+   "ci_high_pmw": 1.113,
+   "ci_low_pmw": 0.539,
    "group": "host",
    "group_by": "role",
-   "n": 24,
-   "rate_pmw": 0.699,
+   "n": 32,
+   "rate_pmw": 0.788,
    "status": "ok",
    "term": "wolf in sheep's clothing",
-   "words": 34347620
+   "words": 40594649
   },
   {
    "group": "unattributed",
@@ -6039,125 +6561,125 @@
    "n": 1,
    "status": "insufficient-data",
    "term": "wolf in sheep's clothing",
-   "words": 2202605
+   "words": 2332413
   },
   {
-   "ci_high_pmw": 2.023,
-   "ci_low_pmw": 0.687,
+   "ci_high_pmw": 1.877,
+   "ci_low_pmw": 0.637,
    "group": "unknown",
    "group_by": "role",
    "n": 15,
-   "rate_pmw": 1.227,
+   "rate_pmw": 1.138,
    "status": "ok",
    "term": "wolf in sheep's clothing",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 14.522,
-   "ci_low_pmw": 12.058,
+   "ci_high_pmw": 15.474,
+   "ci_low_pmw": 13.125,
    "group": "host",
    "group_by": "role",
-   "n": 455,
-   "rate_pmw": 13.247,
+   "n": 579,
+   "rate_pmw": 14.263,
    "status": "ok",
    "term": "discernment",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 16.213,
-   "ci_low_pmw": 6.981,
+   "ci_high_pmw": 16.842,
+   "ci_low_pmw": 7.629,
    "group": "unattributed",
    "group_by": "role",
-   "n": 24,
-   "rate_pmw": 10.896,
+   "n": 27,
+   "rate_pmw": 11.576,
    "status": "ok",
    "term": "discernment",
-   "words": 2202605
+   "words": 2332413
   },
   {
-   "ci_high_pmw": 8.233,
-   "ci_low_pmw": 5.261,
+   "ci_high_pmw": 8.391,
+   "ci_low_pmw": 5.489,
    "group": "unknown",
    "group_by": "role",
-   "n": 81,
-   "rate_pmw": 6.624,
+   "n": 90,
+   "rate_pmw": 6.827,
    "status": "ok",
    "term": "discernment",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 22.551,
-   "ci_low_pmw": 19.459,
+   "ci_high_pmw": 20.458,
+   "ci_low_pmw": 17.747,
    "group": "host",
    "group_by": "role",
-   "n": 720,
-   "rate_pmw": 20.962,
+   "n": 774,
+   "rate_pmw": 19.067,
    "status": "ok",
    "term": "apostate",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 17.296,
-   "ci_low_pmw": 7.711,
+   "ci_high_pmw": 16.333,
+   "ci_low_pmw": 7.282,
    "group": "unattributed",
    "group_by": "role",
    "n": 26,
-   "rate_pmw": 11.804,
+   "rate_pmw": 11.147,
    "status": "ok",
    "term": "apostate",
-   "words": 2202605
+   "words": 2332413
   },
   {
-   "ci_high_pmw": 29.2,
-   "ci_low_pmw": 23.381,
+   "ci_high_pmw": 27.803,
+   "ci_low_pmw": 22.331,
    "group": "unknown",
    "group_by": "role",
-   "n": 320,
-   "rate_pmw": 26.17,
+   "n": 329,
+   "rate_pmw": 24.955,
    "status": "ok",
    "term": "apostate",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 7.341,
-   "ci_low_pmw": 5.614,
+   "ci_high_pmw": 8.848,
+   "ci_low_pmw": 7.089,
    "group": "host",
    "group_by": "role",
-   "n": 221,
-   "rate_pmw": 6.434,
+   "n": 322,
+   "rate_pmw": 7.932,
    "status": "ok",
    "term": "false teaching",
-   "words": 34347620
+   "words": 40594649
   },
   {
    "group": "unattributed",
    "group_by": "role",
-   "n": 4,
+   "n": 6,
    "status": "insufficient-data",
    "term": "false teaching",
-   "words": 2202605
+   "words": 2332413
   },
   {
-   "ci_high_pmw": 4.36,
-   "ci_low_pmw": 2.268,
+   "ci_high_pmw": 4.741,
+   "ci_low_pmw": 2.619,
    "group": "unknown",
    "group_by": "role",
-   "n": 39,
-   "rate_pmw": 3.189,
+   "n": 47,
+   "rate_pmw": 3.565,
    "status": "ok",
    "term": "false teaching",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 3.124,
-   "ci_low_pmw": 2.029,
+   "ci_high_pmw": 3.239,
+   "ci_low_pmw": 2.205,
    "group": "host",
    "group_by": "role",
-   "n": 87,
-   "rate_pmw": 2.533,
+   "n": 109,
+   "rate_pmw": 2.685,
    "status": "ok",
    "term": "grift",
-   "words": 34347620
+   "words": 40594649
   },
   {
    "group": "unattributed",
@@ -6165,95 +6687,95 @@
    "n": 6,
    "status": "insufficient-data",
    "term": "grift",
-   "words": 2202605
+   "words": 2332413
   },
   {
-   "ci_high_pmw": 2.92,
-   "ci_low_pmw": 1.258,
+   "ci_high_pmw": 3.956,
+   "ci_low_pmw": 2.04,
    "group": "unknown",
    "group_by": "role",
-   "n": 24,
-   "rate_pmw": 1.963,
+   "n": 38,
+   "rate_pmw": 2.882,
    "status": "ok",
    "term": "grift",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 31.246,
-   "ci_low_pmw": 27.591,
+   "ci_high_pmw": 29.406,
+   "ci_low_pmw": 26.141,
    "group": "host",
    "group_by": "role",
-   "n": 1009,
-   "rate_pmw": 29.376,
+   "n": 1126,
+   "rate_pmw": 27.738,
    "status": "ok",
    "term": "heresy",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 28.894,
-   "ci_low_pmw": 16.068,
+   "ci_high_pmw": 27.285,
+   "ci_low_pmw": 15.174,
    "group": "unattributed",
    "group_by": "role",
    "n": 48,
-   "rate_pmw": 21.792,
+   "rate_pmw": 20.58,
    "status": "ok",
    "term": "heresy",
-   "words": 2202605
+   "words": 2332413
   },
   {
-   "ci_high_pmw": 25.224,
-   "ci_low_pmw": 19.833,
+   "ci_high_pmw": 24.921,
+   "ci_low_pmw": 19.753,
    "group": "unknown",
    "group_by": "role",
-   "n": 274,
-   "rate_pmw": 22.408,
+   "n": 293,
+   "rate_pmw": 22.225,
    "status": "ok",
    "term": "heresy",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 17.56,
-   "ci_low_pmw": 14.842,
+   "ci_high_pmw": 15.935,
+   "ci_low_pmw": 13.55,
    "group": "host",
    "group_by": "role",
-   "n": 555,
-   "rate_pmw": 16.158,
+   "n": 597,
+   "rate_pmw": 14.706,
    "status": "ok",
    "term": "apostasy",
-   "words": 34347620
+   "words": 40594649
   },
   {
-   "ci_high_pmw": 20.51,
-   "ci_low_pmw": 9.937,
+   "ci_high_pmw": 19.368,
+   "ci_low_pmw": 9.384,
    "group": "unattributed",
    "group_by": "role",
    "n": 32,
-   "rate_pmw": 14.528,
+   "rate_pmw": 13.72,
    "status": "ok",
    "term": "apostasy",
-   "words": 2202605
+   "words": 2332413
   },
   {
-   "ci_high_pmw": 22.013,
-   "ci_low_pmw": 16.993,
+   "ci_high_pmw": 20.498,
+   "ci_low_pmw": 15.832,
    "group": "unknown",
    "group_by": "role",
-   "n": 237,
-   "rate_pmw": 19.382,
+   "n": 238,
+   "rate_pmw": 18.053,
    "status": "ok",
    "term": "apostasy",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 4.589,
-   "ci_low_pmw": 3.242,
+   "ci_high_pmw": 4.23,
+   "ci_low_pmw": 3.037,
    "group": "host",
    "group_by": "role",
-   "n": 133,
-   "rate_pmw": 3.872,
+   "n": 146,
+   "rate_pmw": 3.597,
    "status": "ok",
    "term": "clout",
-   "words": 34347620
+   "words": 40594649
   },
   {
    "group": "unattributed",
@@ -6261,29 +6783,29 @@
    "n": 4,
    "status": "insufficient-data",
    "term": "clout",
-   "words": 2202605
+   "words": 2332413
   },
   {
-   "ci_high_pmw": 2.125,
-   "ci_low_pmw": 0.748,
+   "ci_high_pmw": 2.251,
+   "ci_low_pmw": 0.868,
    "group": "unknown",
    "group_by": "role",
-   "n": 16,
-   "rate_pmw": 1.308,
+   "n": 19,
+   "rate_pmw": 1.441,
    "status": "ok",
    "term": "clout",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 1.985,
-   "ci_low_pmw": 1.131,
+   "ci_high_pmw": 1.68,
+   "ci_low_pmw": 0.957,
    "group": "host",
    "group_by": "role",
    "n": 52,
-   "rate_pmw": 1.514,
+   "rate_pmw": 1.281,
    "status": "ok",
    "term": "watchdog",
-   "words": 34347620
+   "words": 40594649
   },
   {
    "group": "unattributed",
@@ -6291,7 +6813,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "watchdog",
-   "words": 2202605
+   "words": 2332413
   },
   {
    "group": "unknown",
@@ -6299,34 +6821,34 @@
    "n": 5,
    "status": "insufficient-data",
    "term": "watchdog",
-   "words": 12227774
+   "words": 13183521
   },
   {
-   "ci_high_pmw": 0.97,
-   "ci_low_pmw": 0.401,
+   "ci_high_pmw": 0.997,
+   "ci_low_pmw": 0.458,
    "group": "host",
    "group_by": "role",
-   "n": 22,
-   "rate_pmw": 0.641,
+   "n": 28,
+   "rate_pmw": 0.69,
    "status": "ok",
    "term": "discernment ministry",
-   "words": 34347620
+   "words": 40594649
   },
   {
    "group": "unattributed",
-   "group_by": "role",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "discernment ministry",
-   "words": 2202605
-  },
-  {
-   "group": "unknown",
    "group_by": "role",
    "n": 1,
    "status": "insufficient-data",
    "term": "discernment ministry",
-   "words": 12227774
+   "words": 2332413
+  },
+  {
+   "group": "unknown",
+   "group_by": "role",
+   "n": 2,
+   "status": "insufficient-data",
+   "term": "discernment ministry",
+   "words": 13183521
   },
   {
    "group": "host",
@@ -6334,7 +6856,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "deconstruction influencer",
-   "words": 34347620
+   "words": 40594649
   },
   {
    "group": "unattributed",
@@ -6342,7 +6864,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "deconstruction influencer",
-   "words": 2202605
+   "words": 2332413
   },
   {
    "group": "unknown",
@@ -6350,7 +6872,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "deconstruction influencer",
-   "words": 12227774
+   "words": 13183521
   }
  ],
  "year": [
@@ -6458,103 +6980,103 @@
    "words": 879780
   },
   {
-   "ci_high_pmw": 546.152,
-   "ci_low_pmw": 438.963,
+   "ci_high_pmw": 278.354,
+   "ci_low_pmw": 226.486,
    "group": "2018",
    "group_by": "year",
-   "n": 331,
-   "rate_pmw": 490.374,
+   "n": 371,
+   "rate_pmw": 251.422,
    "status": "ok",
    "term": "community",
-   "words": 674995
+   "words": 1475607
   },
   {
-   "ci_high_pmw": 601.664,
-   "ci_low_pmw": 488.996,
+   "ci_high_pmw": 285.62,
+   "ci_low_pmw": 236.243,
    "group": "2019",
    "group_by": "year",
-   "n": 367,
-   "rate_pmw": 543.151,
+   "n": 437,
+   "rate_pmw": 260.057,
    "status": "ok",
    "term": "community",
-   "words": 675687
+   "words": 1680404
   },
   {
-   "ci_high_pmw": 339.309,
-   "ci_low_pmw": 280.276,
+   "ci_high_pmw": 236.058,
+   "ci_low_pmw": 198.983,
    "group": "2020",
    "group_by": "year",
-   "n": 431,
-   "rate_pmw": 308.739,
+   "n": 538,
+   "rate_pmw": 216.928,
    "status": "ok",
    "term": "community",
-   "words": 1396001
+   "words": 2480081
   },
   {
-   "ci_high_pmw": 364.779,
-   "ci_low_pmw": 305.729,
+   "ci_high_pmw": 240.563,
+   "ci_low_pmw": 205.634,
    "group": "2021",
    "group_by": "year",
-   "n": 504,
-   "rate_pmw": 334.28,
+   "n": 637,
+   "rate_pmw": 222.586,
    "status": "ok",
    "term": "community",
-   "words": 1507719
+   "words": 2861812
   },
   {
-   "ci_high_pmw": 260.996,
-   "ci_low_pmw": 229.678,
+   "ci_high_pmw": 252.442,
+   "ci_low_pmw": 222.255,
    "group": "2022",
    "group_by": "year",
-   "n": 956,
-   "rate_pmw": 244.962,
+   "n": 963,
+   "rate_pmw": 236.988,
    "status": "ok",
    "term": "community",
-   "words": 3902648
+   "words": 4063492
   },
   {
-   "ci_high_pmw": 258.484,
-   "ci_low_pmw": 228.652,
+   "ci_high_pmw": 259.142,
+   "ci_low_pmw": 229.342,
    "group": "2023",
    "group_by": "year",
-   "n": 1038,
-   "rate_pmw": 243.226,
+   "n": 1046,
+   "rate_pmw": 243.901,
    "status": "ok",
    "term": "community",
-   "words": 4267641
+   "words": 4288623
   },
   {
-   "ci_high_pmw": 863.546,
-   "ci_low_pmw": 820.911,
+   "ci_high_pmw": 853.382,
+   "ci_low_pmw": 811.401,
    "group": "2024",
    "group_by": "year",
-   "n": 6033,
-   "rate_pmw": 842.026,
+   "n": 6078,
+   "rate_pmw": 832.192,
    "status": "ok",
    "term": "community",
-   "words": 7164864
+   "words": 7303600
   },
   {
-   "ci_high_pmw": 906.945,
-   "ci_low_pmw": 863.14,
+   "ci_high_pmw": 862.473,
+   "ci_low_pmw": 821.404,
    "group": "2025",
    "group_by": "year",
-   "n": 6310,
-   "rate_pmw": 884.839,
+   "n": 6496,
+   "rate_pmw": 841.75,
    "status": "ok",
    "term": "community",
-   "words": 7131244
+   "words": 7717253
   },
   {
-   "ci_high_pmw": 734.083,
-   "ci_low_pmw": 688.281,
+   "ci_high_pmw": 656.513,
+   "ci_low_pmw": 617.1,
    "group": "2026",
    "group_by": "year",
-   "n": 3733,
-   "rate_pmw": 710.905,
+   "n": 4041,
+   "rate_pmw": 636.577,
    "status": "ok",
    "term": "community",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "ci_high_pmw": 3085.571,
@@ -6665,103 +7187,103 @@
    "words": 879780
   },
   {
-   "ci_high_pmw": 31.054,
-   "ci_low_pmw": 9.186,
+   "ci_high_pmw": 37.694,
+   "ci_low_pmw": 19.939,
    "group": "2018",
    "group_by": "year",
-   "n": 12,
-   "rate_pmw": 17.778,
+   "n": 41,
+   "rate_pmw": 27.785,
    "status": "ok",
    "term": "accountability",
-   "words": 674995
+   "words": 1475607
   },
   {
-   "ci_high_pmw": 38.454,
-   "ci_low_pmw": 13.535,
+   "ci_high_pmw": 32.414,
+   "ci_low_pmw": 17.006,
    "group": "2019",
    "group_by": "year",
-   "n": 16,
-   "rate_pmw": 23.68,
+   "n": 40,
+   "rate_pmw": 23.804,
    "status": "ok",
    "term": "accountability",
-   "words": 675687
+   "words": 1680404
   },
   {
-   "ci_high_pmw": 31.52,
-   "ci_low_pmw": 15.088,
+   "ci_high_pmw": 35.21,
+   "ci_low_pmw": 21.647,
    "group": "2020",
    "group_by": "year",
-   "n": 31,
-   "rate_pmw": 22.206,
+   "n": 69,
+   "rate_pmw": 27.822,
    "status": "ok",
    "term": "accountability",
-   "words": 1396001
+   "words": 2480081
   },
   {
-   "ci_high_pmw": 13.903,
-   "ci_low_pmw": 4.113,
+   "ci_high_pmw": 25.805,
+   "ci_low_pmw": 15.085,
    "group": "2021",
    "group_by": "year",
-   "n": 12,
-   "rate_pmw": 7.959,
+   "n": 57,
+   "rate_pmw": 19.917,
    "status": "ok",
    "term": "accountability",
-   "words": 1507719
+   "words": 2861812
   },
   {
-   "ci_high_pmw": 13.365,
-   "ci_low_pmw": 6.89,
+   "ci_high_pmw": 14.536,
+   "ci_low_pmw": 7.868,
    "group": "2022",
    "group_by": "year",
-   "n": 38,
-   "rate_pmw": 9.737,
+   "n": 44,
+   "rate_pmw": 10.828,
    "status": "ok",
    "term": "accountability",
-   "words": 3902648
+   "words": 4063492
   },
   {
-   "ci_high_pmw": 18.097,
-   "ci_low_pmw": 10.729,
+   "ci_high_pmw": 18.009,
+   "ci_low_pmw": 10.676,
    "group": "2023",
    "group_by": "year",
    "n": 60,
-   "rate_pmw": 14.059,
+   "rate_pmw": 13.991,
    "status": "ok",
    "term": "accountability",
-   "words": 4267641
+   "words": 4288623
   },
   {
-   "ci_high_pmw": 28.474,
-   "ci_low_pmw": 21.069,
+   "ci_high_pmw": 29.255,
+   "ci_low_pmw": 21.811,
    "group": "2024",
    "group_by": "year",
-   "n": 176,
-   "rate_pmw": 24.564,
+   "n": 185,
+   "rate_pmw": 25.33,
    "status": "ok",
    "term": "accountability",
-   "words": 7164864
+   "words": 7303600
   },
   {
-   "ci_high_pmw": 58.039,
-   "ci_low_pmw": 47.264,
+   "ci_high_pmw": 57.169,
+   "ci_low_pmw": 46.876,
    "group": "2025",
    "group_by": "year",
-   "n": 374,
-   "rate_pmw": 52.445,
+   "n": 400,
+   "rate_pmw": 51.832,
    "status": "ok",
    "term": "accountability",
-   "words": 7131244
+   "words": 7717253
   },
   {
-   "ci_high_pmw": 97.976,
-   "ci_low_pmw": 81.596,
+   "ci_high_pmw": 85.159,
+   "ci_low_pmw": 71.258,
    "group": "2026",
    "group_by": "year",
-   "n": 470,
-   "rate_pmw": 89.506,
+   "n": 495,
+   "rate_pmw": 77.977,
    "status": "ok",
    "term": "accountability",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,
@@ -6865,7 +7387,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "deconstruction",
-   "words": 674995
+   "words": 1475607
   },
   {
    "group": "2019",
@@ -6873,7 +7395,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "deconstruction",
-   "words": 675687
+   "words": 1680404
   },
   {
    "group": "2020",
@@ -6881,73 +7403,73 @@
    "n": 4,
    "status": "insufficient-data",
    "term": "deconstruction",
-   "words": 1396001
+   "words": 2480081
   },
   {
-   "ci_high_pmw": 20.487,
-   "ci_low_pmw": 8.103,
+   "ci_high_pmw": 13.727,
+   "ci_low_pmw": 6.217,
    "group": "2021",
    "group_by": "year",
-   "n": 20,
-   "rate_pmw": 13.265,
+   "n": 27,
+   "rate_pmw": 9.435,
    "status": "ok",
    "term": "deconstruction",
-   "words": 1507719
+   "words": 2861812
   },
   {
-   "ci_high_pmw": 19.501,
-   "ci_low_pmw": 11.508,
+   "ci_high_pmw": 22.588,
+   "ci_low_pmw": 14.082,
    "group": "2022",
    "group_by": "year",
-   "n": 59,
-   "rate_pmw": 15.118,
+   "n": 73,
+   "rate_pmw": 17.965,
    "status": "ok",
    "term": "deconstruction",
-   "words": 3902648
+   "words": 4063492
   },
   {
-   "ci_high_pmw": 10.311,
-   "ci_low_pmw": 4.936,
+   "ci_high_pmw": 11.621,
+   "ci_low_pmw": 5.879,
    "group": "2023",
    "group_by": "year",
-   "n": 31,
-   "rate_pmw": 7.264,
+   "n": 36,
+   "rate_pmw": 8.394,
    "status": "ok",
    "term": "deconstruction",
-   "words": 4267641
+   "words": 4288623
   },
   {
-   "ci_high_pmw": 54.098,
-   "ci_low_pmw": 43.733,
+   "ci_high_pmw": 65.429,
+   "ci_low_pmw": 54.093,
    "group": "2024",
    "group_by": "year",
-   "n": 349,
-   "rate_pmw": 48.71,
+   "n": 435,
+   "rate_pmw": 59.56,
    "status": "ok",
    "term": "deconstruction",
-   "words": 7164864
+   "words": 7303600
   },
   {
-   "ci_high_pmw": 49.921,
-   "ci_low_pmw": 39.958,
+   "ci_high_pmw": 53.087,
+   "ci_low_pmw": 43.183,
    "group": "2025",
    "group_by": "year",
-   "n": 319,
-   "rate_pmw": 44.733,
+   "n": 370,
+   "rate_pmw": 47.945,
    "status": "ok",
    "term": "deconstruction",
-   "words": 7131244
+   "words": 7717253
   },
   {
-   "ci_high_pmw": 83.419,
-   "ci_low_pmw": 68.349,
+   "ci_high_pmw": 92.553,
+   "ci_low_pmw": 78.042,
    "group": "2026",
    "group_by": "year",
-   "n": 397,
-   "rate_pmw": 75.604,
+   "n": 540,
+   "rate_pmw": 85.066,
    "status": "ok",
    "term": "deconstruction",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,
@@ -7061,103 +7583,103 @@
    "words": 879780
   },
   {
-   "ci_high_pmw": 89.206,
-   "ci_low_pmw": 48.627,
+   "ci_high_pmw": 196.812,
+   "ci_low_pmw": 153.521,
    "group": "2018",
    "group_by": "year",
-   "n": 45,
-   "rate_pmw": 66.667,
+   "n": 257,
+   "rate_pmw": 174.166,
    "status": "ok",
    "term": "grace",
-   "words": 674995
+   "words": 1475607
   },
   {
-   "ci_high_pmw": 94.187,
-   "ci_low_pmw": 52.378,
+   "ci_high_pmw": 172.826,
+   "ci_low_pmw": 134.811,
    "group": "2019",
    "group_by": "year",
-   "n": 48,
-   "rate_pmw": 71.039,
+   "n": 257,
+   "rate_pmw": 152.939,
    "status": "ok",
    "term": "grace",
-   "words": 675687
+   "words": 1680404
   },
   {
-   "ci_high_pmw": 275.392,
-   "ci_low_pmw": 222.42,
+   "ci_high_pmw": 288.058,
+   "ci_low_pmw": 246.978,
    "group": "2020",
    "group_by": "year",
-   "n": 346,
-   "rate_pmw": 247.851,
+   "n": 662,
+   "rate_pmw": 266.927,
    "status": "ok",
    "term": "grace",
-   "words": 1396001
+   "words": 2480081
   },
   {
-   "ci_high_pmw": 228.418,
-   "ci_low_pmw": 182.103,
+   "ci_high_pmw": 300.689,
+   "ci_low_pmw": 261.517,
    "group": "2021",
    "group_by": "year",
-   "n": 308,
-   "rate_pmw": 204.282,
+   "n": 803,
+   "rate_pmw": 280.591,
    "status": "ok",
    "term": "grace",
-   "words": 1507719
+   "words": 2861812
   },
   {
-   "ci_high_pmw": 126.2,
-   "ci_low_pmw": 104.653,
+   "ci_high_pmw": 127.638,
+   "ci_low_pmw": 106.382,
    "group": "2022",
    "group_by": "year",
-   "n": 449,
-   "rate_pmw": 115.05,
+   "n": 474,
+   "rate_pmw": 116.648,
    "status": "ok",
    "term": "grace",
-   "words": 3902648
+   "words": 4063492
   },
   {
-   "ci_high_pmw": 143.284,
-   "ci_low_pmw": 121.249,
+   "ci_high_pmw": 142.583,
+   "ci_low_pmw": 120.656,
    "group": "2023",
    "group_by": "year",
    "n": 563,
-   "rate_pmw": 131.923,
+   "rate_pmw": 131.278,
    "status": "ok",
    "term": "grace",
-   "words": 4267641
+   "words": 4288623
   },
   {
-   "ci_high_pmw": 124.433,
-   "ci_low_pmw": 108.5,
+   "ci_high_pmw": 122.494,
+   "ci_low_pmw": 106.835,
    "group": "2024",
    "group_by": "year",
-   "n": 833,
-   "rate_pmw": 116.262,
+   "n": 836,
+   "rate_pmw": 114.464,
    "status": "ok",
    "term": "grace",
-   "words": 7164864
+   "words": 7303600
   },
   {
-   "ci_high_pmw": 177.926,
-   "ci_low_pmw": 158.75,
+   "ci_high_pmw": 171.076,
+   "ci_low_pmw": 152.993,
    "group": "2025",
    "group_by": "year",
-   "n": 1199,
-   "rate_pmw": 168.133,
+   "n": 1249,
+   "rate_pmw": 161.845,
    "status": "ok",
    "term": "grace",
-   "words": 7131244
+   "words": 7717253
   },
   {
-   "ci_high_pmw": 143.558,
-   "ci_low_pmw": 123.613,
+   "ci_high_pmw": 130.829,
+   "ci_low_pmw": 113.488,
    "group": "2026",
    "group_by": "year",
-   "n": 700,
-   "rate_pmw": 133.307,
+   "n": 774,
+   "rate_pmw": 121.928,
    "status": "ok",
    "term": "grace",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,
@@ -7261,7 +7783,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "purity test",
-   "words": 674995
+   "words": 1475607
   },
   {
    "group": "2019",
@@ -7269,7 +7791,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "purity test",
-   "words": 675687
+   "words": 1680404
   },
   {
    "group": "2020",
@@ -7277,7 +7799,7 @@
    "n": 1,
    "status": "insufficient-data",
    "term": "purity test",
-   "words": 1396001
+   "words": 2480081
   },
   {
    "group": "2021",
@@ -7285,7 +7807,7 @@
    "n": 2,
    "status": "insufficient-data",
    "term": "purity test",
-   "words": 1507719
+   "words": 2861812
   },
   {
    "group": "2022",
@@ -7293,7 +7815,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "purity test",
-   "words": 3902648
+   "words": 4063492
   },
   {
    "group": "2023",
@@ -7301,7 +7823,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "purity test",
-   "words": 4267641
+   "words": 4288623
   },
   {
    "group": "2024",
@@ -7309,7 +7831,7 @@
    "n": 1,
    "status": "insufficient-data",
    "term": "purity test",
-   "words": 7164864
+   "words": 7303600
   },
   {
    "group": "2025",
@@ -7317,18 +7839,18 @@
    "n": 5,
    "status": "insufficient-data",
    "term": "purity test",
-   "words": 7131244
+   "words": 7717253
   },
   {
-   "ci_high_pmw": 7.932,
-   "ci_low_pmw": 3.699,
+   "ci_high_pmw": 6.561,
+   "ci_low_pmw": 3.06,
    "group": "2026",
    "group_by": "year",
    "n": 29,
-   "rate_pmw": 5.523,
+   "rate_pmw": 4.568,
    "status": "ok",
    "term": "purity test",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,
@@ -7432,7 +7954,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "bridge city",
-   "words": 674995
+   "words": 1475607
   },
   {
    "group": "2019",
@@ -7440,7 +7962,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "bridge city",
-   "words": 675687
+   "words": 1680404
   },
   {
    "group": "2020",
@@ -7448,7 +7970,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "bridge city",
-   "words": 1396001
+   "words": 2480081
   },
   {
    "group": "2021",
@@ -7456,7 +7978,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "bridge city",
-   "words": 1507719
+   "words": 2861812
   },
   {
    "group": "2022",
@@ -7464,7 +7986,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "bridge city",
-   "words": 3902648
+   "words": 4063492
   },
   {
    "group": "2023",
@@ -7472,40 +7994,40 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "bridge city",
-   "words": 4267641
+   "words": 4288623
   },
   {
-   "ci_high_pmw": 33.553,
-   "ci_low_pmw": 25.479,
+   "ci_high_pmw": 32.916,
+   "ci_low_pmw": 24.995,
    "group": "2024",
    "group_by": "year",
    "n": 210,
-   "rate_pmw": 29.31,
+   "rate_pmw": 28.753,
    "status": "ok",
    "term": "bridge city",
-   "words": 7164864
+   "words": 7303600
   },
   {
-   "ci_high_pmw": 191.186,
-   "ci_low_pmw": 171.293,
+   "ci_high_pmw": 176.668,
+   "ci_low_pmw": 158.286,
    "group": "2025",
    "group_by": "year",
    "n": 1291,
-   "rate_pmw": 181.034,
+   "rate_pmw": 167.288,
    "status": "ok",
    "term": "bridge city",
-   "words": 7131244
+   "words": 7717253
   },
   {
-   "ci_high_pmw": 194.368,
-   "ci_low_pmw": 171.068,
+   "ci_high_pmw": 160.781,
+   "ci_low_pmw": 141.507,
    "group": "2026",
    "group_by": "year",
    "n": 958,
-   "rate_pmw": 182.44,
+   "rate_pmw": 150.913,
    "status": "ok",
    "term": "bridge city",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "ci_high_pmw": 5903.889,
@@ -7610,91 +8132,103 @@
    "words": 879780
   },
   {
+   "ci_high_pmw": 12.463,
+   "ci_low_pmw": 3.25,
    "group": "2018",
    "group_by": "year",
-   "n": 8,
-   "status": "insufficient-data",
-   "term": "do the work",
-   "words": 674995
-  },
-  {
-   "group": "2019",
-   "group_by": "year",
-   "n": 8,
-   "status": "insufficient-data",
-   "term": "do the work",
-   "words": 675687
-  },
-  {
-   "group": "2020",
-   "group_by": "year",
-   "n": 7,
-   "status": "insufficient-data",
-   "term": "do the work",
-   "words": 1396001
-  },
-  {
-   "ci_high_pmw": 14.744,
-   "ci_low_pmw": 4.591,
-   "group": "2021",
-   "group_by": "year",
-   "n": 13,
-   "rate_pmw": 8.622,
+   "n": 10,
+   "rate_pmw": 6.777,
    "status": "ok",
    "term": "do the work",
-   "words": 1507719
+   "words": 1475607
   },
   {
+   "ci_high_pmw": 16.198,
+   "ci_low_pmw": 5.893,
+   "group": "2019",
+   "group_by": "year",
+   "n": 17,
+   "rate_pmw": 10.117,
+   "status": "ok",
+   "term": "do the work",
+   "words": 1680404
+  },
+  {
+   "ci_high_pmw": 8.964,
+   "ci_low_pmw": 2.791,
+   "group": "2020",
+   "group_by": "year",
+   "n": 13,
+   "rate_pmw": 5.242,
+   "status": "ok",
+   "term": "do the work",
+   "words": 2480081
+  },
+  {
+   "ci_high_pmw": 11.217,
+   "ci_low_pmw": 4.542,
+   "group": "2021",
+   "group_by": "year",
+   "n": 21,
+   "rate_pmw": 7.338,
+   "status": "ok",
+   "term": "do the work",
+   "words": 2861812
+  },
+  {
+   "ci_high_pmw": 4.526,
+   "ci_low_pmw": 1.18,
    "group": "2022",
    "group_by": "year",
-   "n": 9,
-   "status": "insufficient-data",
+   "n": 10,
+   "rate_pmw": 2.461,
+   "status": "ok",
    "term": "do the work",
-   "words": 3902648
+   "words": 4063492
   },
   {
-   "ci_high_pmw": 10.035,
-   "ci_low_pmw": 4.743,
+   "ci_high_pmw": 9.986,
+   "ci_low_pmw": 4.72,
    "group": "2023",
    "group_by": "year",
    "n": 30,
-   "rate_pmw": 7.03,
+   "rate_pmw": 6.995,
    "status": "ok",
    "term": "do the work",
-   "words": 4267641
+   "words": 4288623
   },
   {
-   "ci_high_pmw": 46.15,
-   "ci_low_pmw": 36.608,
+   "ci_high_pmw": 45.273,
+   "ci_low_pmw": 35.913,
    "group": "2024",
    "group_by": "year",
    "n": 295,
-   "rate_pmw": 41.173,
+   "rate_pmw": 40.391,
    "status": "ok",
    "term": "do the work",
-   "words": 7164864
+   "words": 7303600
   },
   {
-   "ci_high_pmw": 29.962,
-   "ci_low_pmw": 22.338,
+   "ci_high_pmw": 28.936,
+   "ci_low_pmw": 21.725,
    "group": "2025",
    "group_by": "year",
-   "n": 185,
-   "rate_pmw": 25.942,
-   "status": "ok",
-   "term": "do the work",
-   "words": 7131244
-  },
-  {
-   "ci_high_pmw": 29.81,
-   "ci_low_pmw": 21.033,
-   "group": "2026",
-   "group_by": "year",
-   "n": 132,
+   "n": 194,
    "rate_pmw": 25.138,
    "status": "ok",
    "term": "do the work",
-   "words": 5251054
+   "words": 7717253
+  },
+  {
+   "ci_high_pmw": 27.388,
+   "ci_low_pmw": 19.71,
+   "group": "2026",
+   "group_by": "year",
+   "n": 148,
+   "rate_pmw": 23.314,
+   "status": "ok",
+   "term": "do the work",
+   "words": 6348010
   },
   {
    "group": null,
@@ -7798,7 +8332,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 674995
+   "words": 1475607
   },
   {
    "group": "2019",
@@ -7806,7 +8340,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 675687
+   "words": 1680404
   },
   {
    "group": "2020",
@@ -7814,7 +8348,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 1396001
+   "words": 2480081
   },
   {
    "group": "2021",
@@ -7822,7 +8356,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 1507719
+   "words": 2861812
   },
   {
    "group": "2022",
@@ -7830,7 +8364,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 3902648
+   "words": 4063492
   },
   {
    "group": "2023",
@@ -7838,7 +8372,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 4267641
+   "words": 4288623
   },
   {
    "group": "2024",
@@ -7846,7 +8380,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 7164864
+   "words": 7303600
   },
   {
    "group": "2025",
@@ -7854,7 +8388,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 7131244
+   "words": 7717253
   },
   {
    "group": "2026",
@@ -7862,7 +8396,7 @@
    "n": 3,
    "status": "insufficient-data",
    "term": "moral supremism",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,
@@ -7991,103 +8525,103 @@
    "words": 879780
   },
   {
-   "ci_high_pmw": 412.95,
-   "ci_low_pmw": 320.324,
+   "ci_high_pmw": 542.47,
+   "ci_low_pmw": 469.269,
    "group": "2018",
    "group_by": "year",
-   "n": 246,
-   "rate_pmw": 364.447,
+   "n": 745,
+   "rate_pmw": 504.877,
    "status": "ok",
    "term": "truth",
-   "words": 674995
+   "words": 1475607
   },
   {
-   "ci_high_pmw": 542.473,
-   "ci_low_pmw": 435.713,
+   "ci_high_pmw": 528.707,
+   "ci_low_pmw": 460.893,
    "group": "2019",
    "group_by": "year",
-   "n": 329,
-   "rate_pmw": 486.912,
+   "n": 830,
+   "rate_pmw": 493.929,
    "status": "ok",
    "term": "truth",
-   "words": 675687
+   "words": 1680404
   },
   {
-   "ci_high_pmw": 495.388,
-   "ci_low_pmw": 423.617,
+   "ci_high_pmw": 481.746,
+   "ci_low_pmw": 428.274,
    "group": "2020",
    "group_by": "year",
-   "n": 640,
-   "rate_pmw": 458.452,
+   "n": 1127,
+   "rate_pmw": 454.421,
    "status": "ok",
    "term": "truth",
-   "words": 1396001
+   "words": 2480081
   },
   {
-   "ci_high_pmw": 482.094,
-   "ci_low_pmw": 413.917,
+   "ci_high_pmw": 467.793,
+   "ci_low_pmw": 418.681,
    "group": "2021",
    "group_by": "year",
-   "n": 674,
-   "rate_pmw": 447.033,
+   "n": 1267,
+   "rate_pmw": 442.726,
    "status": "ok",
    "term": "truth",
-   "words": 1507719
+   "words": 2861812
   },
   {
-   "ci_high_pmw": 464.681,
-   "ci_low_pmw": 422.644,
+   "ci_high_pmw": 461.399,
+   "ci_low_pmw": 420.335,
    "group": "2022",
    "group_by": "year",
-   "n": 1730,
-   "rate_pmw": 443.289,
+   "n": 1790,
+   "rate_pmw": 440.508,
    "status": "ok",
    "term": "truth",
-   "words": 3902648
+   "words": 4063492
   },
   {
-   "ci_high_pmw": 505.922,
-   "ci_low_pmw": 463.915,
+   "ci_high_pmw": 503.447,
+   "ci_low_pmw": 461.645,
    "group": "2023",
    "group_by": "year",
    "n": 2068,
-   "rate_pmw": 484.577,
+   "rate_pmw": 482.206,
    "status": "ok",
    "term": "truth",
-   "words": 4267641
+   "words": 4288623
   },
   {
-   "ci_high_pmw": 604.904,
-   "ci_low_pmw": 569.286,
+   "ci_high_pmw": 596.471,
+   "ci_low_pmw": 561.438,
    "group": "2024",
    "group_by": "year",
-   "n": 4205,
-   "rate_pmw": 586.892,
+   "n": 4227,
+   "rate_pmw": 578.756,
    "status": "ok",
    "term": "truth",
-   "words": 7164864
+   "words": 7303600
   },
   {
-   "ci_high_pmw": 632.805,
-   "ci_low_pmw": 596.28,
+   "ci_high_pmw": 601.846,
+   "ci_low_pmw": 567.6,
    "group": "2025",
    "group_by": "year",
-   "n": 4381,
-   "rate_pmw": 614.339,
+   "n": 4511,
+   "rate_pmw": 584.534,
    "status": "ok",
    "term": "truth",
-   "words": 7131244
+   "words": 7717253
   },
   {
-   "ci_high_pmw": 674.08,
-   "ci_low_pmw": 630.212,
+   "ci_high_pmw": 618.274,
+   "ci_low_pmw": 580.04,
    "group": "2026",
    "group_by": "year",
-   "n": 3423,
-   "rate_pmw": 651.869,
+   "n": 3802,
+   "rate_pmw": 598.928,
    "status": "ok",
    "term": "truth",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,
@@ -8219,103 +8753,103 @@
    "words": 879780
   },
   {
-   "ci_high_pmw": 521.157,
-   "ci_low_pmw": 416.552,
+   "ci_high_pmw": 535.45,
+   "ci_low_pmw": 462.736,
    "group": "2018",
    "group_by": "year",
-   "n": 315,
-   "rate_pmw": 466.67,
+   "n": 735,
+   "rate_pmw": 498.1,
    "status": "ok",
    "term": "evidence",
-   "words": 674995
+   "words": 1475607
   },
   {
-   "ci_high_pmw": 490.929,
-   "ci_low_pmw": 389.583,
+   "ci_high_pmw": 717.125,
+   "ci_low_pmw": 637.86,
    "group": "2019",
    "group_by": "year",
-   "n": 296,
-   "rate_pmw": 438.073,
+   "n": 1137,
+   "rate_pmw": 676.623,
    "status": "ok",
    "term": "evidence",
-   "words": 675687
+   "words": 1680404
   },
   {
-   "ci_high_pmw": 722.246,
-   "ci_low_pmw": 635.15,
+   "ci_high_pmw": 651.514,
+   "ci_low_pmw": 589.139,
    "group": "2020",
    "group_by": "year",
-   "n": 946,
-   "rate_pmw": 677.65,
+   "n": 1537,
+   "rate_pmw": 619.738,
    "status": "ok",
    "term": "evidence",
-   "words": 1396001
+   "words": 2480081
   },
   {
-   "ci_high_pmw": 655.724,
-   "ci_low_pmw": 575.889,
+   "ci_high_pmw": 529.854,
+   "ci_low_pmw": 477.521,
    "group": "2021",
    "group_by": "year",
-   "n": 927,
-   "rate_pmw": 614.836,
+   "n": 1440,
+   "rate_pmw": 503.178,
    "status": "ok",
    "term": "evidence",
-   "words": 1507719
+   "words": 2861812
   },
   {
-   "ci_high_pmw": 636.414,
-   "ci_low_pmw": 587.092,
+   "ci_high_pmw": 626.534,
+   "ci_low_pmw": 578.566,
    "group": "2022",
    "group_by": "year",
-   "n": 2386,
-   "rate_pmw": 611.38,
+   "n": 2447,
+   "rate_pmw": 602.191,
    "status": "ok",
    "term": "evidence",
-   "words": 3902648
+   "words": 4063492
   },
   {
-   "ci_high_pmw": 653.172,
-   "ci_low_pmw": 605.348,
+   "ci_high_pmw": 649.976,
+   "ci_low_pmw": 602.387,
    "group": "2023",
    "group_by": "year",
    "n": 2684,
-   "rate_pmw": 628.919,
+   "rate_pmw": 625.842,
    "status": "ok",
    "term": "evidence",
-   "words": 4267641
+   "words": 4288623
   },
   {
-   "ci_high_pmw": 546.935,
-   "ci_low_pmw": 513.086,
+   "ci_high_pmw": 539.745,
+   "ci_low_pmw": 506.439,
    "group": "2024",
    "group_by": "year",
-   "n": 3796,
-   "rate_pmw": 529.808,
+   "n": 3819,
+   "rate_pmw": 522.893,
    "status": "ok",
    "term": "evidence",
-   "words": 7164864
+   "words": 7303600
   },
   {
-   "ci_high_pmw": 586.828,
-   "ci_low_pmw": 551.67,
+   "ci_high_pmw": 550.556,
+   "ci_low_pmw": 517.818,
    "group": "2025",
    "group_by": "year",
-   "n": 4058,
-   "rate_pmw": 569.045,
+   "n": 4121,
+   "rate_pmw": 533.998,
    "status": "ok",
    "term": "evidence",
-   "words": 7131244
+   "words": 7717253
   },
   {
-   "ci_high_pmw": 632.827,
-   "ci_low_pmw": 590.34,
+   "ci_high_pmw": 665.63,
+   "ci_low_pmw": 625.941,
    "group": "2026",
    "group_by": "year",
-   "n": 3210,
-   "rate_pmw": 611.306,
+   "n": 4098,
+   "rate_pmw": 645.557,
    "status": "ok",
    "term": "evidence",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,
@@ -8444,103 +8978,103 @@
    "words": 879780
   },
   {
-   "ci_high_pmw": 734.308,
-   "ci_low_pmw": 609.317,
+   "ci_high_pmw": 853.603,
+   "ci_low_pmw": 761.273,
    "group": "2018",
    "group_by": "year",
-   "n": 452,
-   "rate_pmw": 669.635,
+   "n": 1190,
+   "rate_pmw": 806.448,
    "status": "ok",
    "term": "love",
-   "words": 674995
+   "words": 1475607
   },
   {
-   "ci_high_pmw": 838.667,
-   "ci_low_pmw": 704.854,
+   "ci_high_pmw": 772.21,
+   "ci_low_pmw": 689.892,
    "group": "2019",
    "group_by": "year",
-   "n": 520,
-   "rate_pmw": 769.587,
+   "n": 1227,
+   "rate_pmw": 730.182,
    "status": "ok",
    "term": "love",
-   "words": 675687
+   "words": 1680404
   },
   {
-   "ci_high_pmw": 564.499,
-   "ci_low_pmw": 487.743,
+   "ci_high_pmw": 712.646,
+   "ci_low_pmw": 647.357,
    "group": "2020",
    "group_by": "year",
-   "n": 733,
-   "rate_pmw": 525.071,
+   "n": 1685,
+   "rate_pmw": 679.413,
    "status": "ok",
    "term": "love",
-   "words": 1396001
+   "words": 2480081
   },
   {
-   "ci_high_pmw": 607.774,
-   "ci_low_pmw": 530.985,
+   "ci_high_pmw": 763.374,
+   "ci_low_pmw": 700.355,
    "group": "2021",
    "group_by": "year",
-   "n": 857,
-   "rate_pmw": 568.408,
+   "n": 2093,
+   "rate_pmw": 731.355,
    "status": "ok",
    "term": "love",
-   "words": 1507719
+   "words": 2861812
   },
   {
-   "ci_high_pmw": 577.576,
-   "ci_low_pmw": 530.624,
+   "ci_high_pmw": 597.164,
+   "ci_low_pmw": 550.35,
    "group": "2022",
    "group_by": "year",
-   "n": 2161,
-   "rate_pmw": 553.727,
+   "n": 2330,
+   "rate_pmw": 573.398,
    "status": "ok",
    "term": "love",
-   "words": 3902648
+   "words": 4063492
   },
   {
-   "ci_high_pmw": 737.165,
-   "ci_low_pmw": 686.317,
+   "ci_high_pmw": 737.593,
+   "ci_low_pmw": 686.853,
    "group": "2023",
    "group_by": "year",
-   "n": 3036,
-   "rate_pmw": 711.4,
+   "n": 3053,
+   "rate_pmw": 711.884,
    "status": "ok",
    "term": "love",
-   "words": 4267641
+   "words": 4288623
   },
   {
-   "ci_high_pmw": 847.999,
-   "ci_low_pmw": 805.753,
+   "ci_high_pmw": 843.399,
+   "ci_low_pmw": 801.667,
    "group": "2024",
    "group_by": "year",
-   "n": 5923,
-   "rate_pmw": 826.673,
+   "n": 6006,
+   "rate_pmw": 822.334,
    "status": "ok",
    "term": "love",
-   "words": 7164864
+   "words": 7303600
   },
   {
-   "ci_high_pmw": 1050.4,
-   "ci_low_pmw": 1003.226,
+   "ci_high_pmw": 1058.429,
+   "ci_low_pmw": 1012.892,
    "group": "2025",
    "group_by": "year",
-   "n": 7321,
-   "rate_pmw": 1026.609,
+   "n": 7991,
+   "rate_pmw": 1035.472,
    "status": "ok",
    "term": "love",
-   "words": 7131244
+   "words": 7717253
   },
   {
-   "ci_high_pmw": 942.073,
-   "ci_low_pmw": 890.113,
+   "ci_high_pmw": 926.485,
+   "ci_low_pmw": 879.579,
    "group": "2026",
    "group_by": "year",
-   "n": 4809,
-   "rate_pmw": 915.816,
+   "n": 5731,
+   "rate_pmw": 902.803,
    "status": "ok",
    "term": "love",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,
@@ -8642,103 +9176,103 @@
    "words": 879780
   },
   {
-   "ci_high_pmw": 70.388,
-   "ci_low_pmw": 34.883,
+   "ci_high_pmw": 50.812,
+   "ci_low_pmw": 29.847,
    "group": "2018",
    "group_by": "year",
-   "n": 34,
-   "rate_pmw": 50.371,
+   "n": 58,
+   "rate_pmw": 39.306,
    "status": "ok",
    "term": "harm",
-   "words": 674995
+   "words": 1475607
   },
   {
-   "ci_high_pmw": 92.499,
-   "ci_low_pmw": 51.109,
+   "ci_high_pmw": 69.764,
+   "ci_low_pmw": 46.275,
    "group": "2019",
    "group_by": "year",
-   "n": 47,
-   "rate_pmw": 69.559,
+   "n": 96,
+   "rate_pmw": 57.129,
    "status": "ok",
    "term": "harm",
-   "words": 675687
+   "words": 1680404
   },
   {
-   "ci_high_pmw": 105.906,
-   "ci_low_pmw": 73.88,
+   "ci_high_pmw": 96.934,
+   "ci_low_pmw": 73.609,
    "group": "2020",
    "group_by": "year",
-   "n": 124,
-   "rate_pmw": 88.825,
+   "n": 210,
+   "rate_pmw": 84.675,
    "status": "ok",
    "term": "harm",
-   "words": 1396001
+   "words": 2480081
   },
   {
-   "ci_high_pmw": 79.213,
-   "ci_low_pmw": 52.769,
+   "ci_high_pmw": 67.155,
+   "ci_low_pmw": 49.194,
    "group": "2021",
    "group_by": "year",
-   "n": 98,
-   "rate_pmw": 64.999,
+   "n": 165,
+   "rate_pmw": 57.656,
    "status": "ok",
    "term": "harm",
-   "words": 1507719
+   "words": 2861812
   },
   {
-   "ci_high_pmw": 127.809,
-   "ci_low_pmw": 106.12,
+   "ci_high_pmw": 126.352,
+   "ci_low_pmw": 105.207,
    "group": "2022",
    "group_by": "year",
-   "n": 455,
-   "rate_pmw": 116.588,
+   "n": 469,
+   "rate_pmw": 115.418,
    "status": "ok",
    "term": "harm",
-   "words": 3902648
+   "words": 4063492
   },
   {
-   "ci_high_pmw": 140.112,
-   "ci_low_pmw": 118.33,
+   "ci_high_pmw": 139.912,
+   "ci_low_pmw": 118.198,
    "group": "2023",
    "group_by": "year",
-   "n": 550,
-   "rate_pmw": 128.877,
+   "n": 552,
+   "rate_pmw": 128.713,
    "status": "ok",
    "term": "harm",
-   "words": 4267641
+   "words": 4288623
   },
   {
-   "ci_high_pmw": 122.989,
-   "ci_low_pmw": 107.151,
+   "ci_high_pmw": 123.626,
+   "ci_low_pmw": 107.894,
    "group": "2024",
    "group_by": "year",
-   "n": 823,
-   "rate_pmw": 114.866,
+   "n": 844,
+   "rate_pmw": 115.559,
    "status": "ok",
    "term": "harm",
-   "words": 7164864
+   "words": 7303600
   },
   {
-   "ci_high_pmw": 127.918,
-   "ci_low_pmw": 111.721,
+   "ci_high_pmw": 127.306,
+   "ci_low_pmw": 111.759,
    "group": "2025",
    "group_by": "year",
-   "n": 853,
-   "rate_pmw": 119.614,
+   "n": 921,
+   "rate_pmw": 119.343,
    "status": "ok",
    "term": "harm",
-   "words": 7131244
+   "words": 7717253
   },
   {
-   "ci_high_pmw": 222.237,
-   "ci_low_pmw": 197.284,
+   "ci_high_pmw": 213.48,
+   "ci_low_pmw": 191.201,
    "group": "2026",
    "group_by": "year",
-   "n": 1100,
-   "rate_pmw": 209.482,
+   "n": 1283,
+   "rate_pmw": 202.111,
    "status": "ok",
    "term": "harm",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,
@@ -8837,91 +9371,103 @@
    "words": 879780
   },
   {
+   "ci_high_pmw": 26.622,
+   "ci_low_pmw": 12.058,
    "group": "2018",
    "group_by": "year",
-   "n": 1,
-   "status": "insufficient-data",
-   "term": "false teacher",
-   "words": 674995
-  },
-  {
-   "group": "2019",
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "false teacher",
-   "words": 675687
-  },
-  {
-   "group": "2020",
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "false teacher",
-   "words": 1396001
-  },
-  {
-   "group": "2021",
-   "group_by": "year",
-   "n": 2,
-   "status": "insufficient-data",
-   "term": "false teacher",
-   "words": 1507719
-  },
-  {
-   "ci_high_pmw": 13.068,
-   "ci_low_pmw": 6.675,
-   "group": "2022",
-   "group_by": "year",
-   "n": 37,
-   "rate_pmw": 9.481,
+   "n": 27,
+   "rate_pmw": 18.298,
    "status": "ok",
    "term": "false teacher",
-   "words": 3902648
+   "words": 1475607
   },
   {
-   "ci_high_pmw": 26.955,
-   "ci_low_pmw": 17.799,
+   "ci_high_pmw": 14.723,
+   "ci_low_pmw": 4.996,
+   "group": "2019",
+   "group_by": "year",
+   "n": 15,
+   "rate_pmw": 8.926,
+   "status": "ok",
+   "term": "false teacher",
+   "words": 1680404
+  },
+  {
+   "ci_high_pmw": 13.43,
+   "ci_low_pmw": 5.559,
+   "group": "2020",
+   "group_by": "year",
+   "n": 22,
+   "rate_pmw": 8.871,
+   "status": "ok",
+   "term": "false teacher",
+   "words": 2480081
+  },
+  {
+   "ci_high_pmw": 12.896,
+   "ci_low_pmw": 5.653,
+   "group": "2021",
+   "group_by": "year",
+   "n": 25,
+   "rate_pmw": 8.736,
+   "status": "ok",
+   "term": "false teacher",
+   "words": 2861812
+  },
+  {
+   "ci_high_pmw": 14.536,
+   "ci_low_pmw": 7.868,
+   "group": "2022",
+   "group_by": "year",
+   "n": 44,
+   "rate_pmw": 10.828,
+   "status": "ok",
+   "term": "false teacher",
+   "words": 4063492
+  },
+  {
+   "ci_high_pmw": 26.823,
+   "ci_low_pmw": 17.712,
    "group": "2023",
    "group_by": "year",
    "n": 94,
-   "rate_pmw": 22.026,
+   "rate_pmw": 21.918,
    "status": "ok",
    "term": "false teacher",
-   "words": 4267641
+   "words": 4288623
   },
   {
-   "ci_high_pmw": 15.132,
-   "ci_low_pmw": 9.851,
+   "ci_high_pmw": 14.845,
+   "ci_low_pmw": 9.664,
    "group": "2024",
    "group_by": "year",
    "n": 88,
-   "rate_pmw": 12.282,
+   "rate_pmw": 12.049,
    "status": "ok",
    "term": "false teacher",
-   "words": 7164864
+   "words": 7303600
   },
   {
-   "ci_high_pmw": 8.604,
-   "ci_low_pmw": 4.723,
+   "ci_high_pmw": 7.951,
+   "ci_low_pmw": 4.364,
    "group": "2025",
    "group_by": "year",
    "n": 46,
-   "rate_pmw": 6.45,
+   "rate_pmw": 5.961,
    "status": "ok",
    "term": "false teacher",
-   "words": 7131244
+   "words": 7717253
   },
   {
-   "ci_high_pmw": 8.156,
-   "ci_low_pmw": 3.855,
+   "ci_high_pmw": 7.301,
+   "ci_low_pmw": 3.578,
    "group": "2026",
    "group_by": "year",
-   "n": 30,
-   "rate_pmw": 5.713,
+   "n": 33,
+   "rate_pmw": 5.198,
    "status": "ok",
    "term": "false teacher",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,
@@ -9023,91 +9569,103 @@
    "words": 879780
   },
   {
+   "ci_high_pmw": 25.01,
+   "ci_low_pmw": 10.964,
    "group": "2018",
    "group_by": "year",
-   "n": 5,
-   "status": "insufficient-data",
-   "term": "false prophet",
-   "words": 674995
-  },
-  {
-   "group": "2019",
-   "group_by": "year",
-   "n": 1,
-   "status": "insufficient-data",
-   "term": "false prophet",
-   "words": 675687
-  },
-  {
-   "group": "2020",
-   "group_by": "year",
-   "n": 1,
-   "status": "insufficient-data",
-   "term": "false prophet",
-   "words": 1396001
-  },
-  {
-   "group": "2021",
-   "group_by": "year",
-   "n": 5,
-   "status": "insufficient-data",
-   "term": "false prophet",
-   "words": 1507719
-  },
-  {
-   "ci_high_pmw": 11.575,
-   "ci_low_pmw": 5.608,
-   "group": "2022",
-   "group_by": "year",
-   "n": 32,
-   "rate_pmw": 8.2,
+   "n": 25,
+   "rate_pmw": 16.942,
    "status": "ok",
    "term": "false prophet",
-   "words": 3902648
+   "words": 1475607
   },
   {
-   "ci_high_pmw": 10.585,
-   "ci_low_pmw": 5.129,
+   "ci_high_pmw": 11.713,
+   "ci_low_pmw": 3.268,
+   "group": "2019",
+   "group_by": "year",
+   "n": 11,
+   "rate_pmw": 6.546,
+   "status": "ok",
+   "term": "false prophet",
+   "words": 1680404
+  },
+  {
+   "ci_high_pmw": 12.943,
+   "ci_low_pmw": 5.241,
+   "group": "2020",
+   "group_by": "year",
+   "n": 21,
+   "rate_pmw": 8.467,
+   "status": "ok",
+   "term": "false prophet",
+   "words": 2480081
+  },
+  {
+   "ci_high_pmw": 19.436,
+   "ci_low_pmw": 10.281,
+   "group": "2021",
+   "group_by": "year",
+   "n": 41,
+   "rate_pmw": 14.327,
+   "status": "ok",
+   "term": "false prophet",
+   "words": 2861812
+  },
+  {
+   "ci_high_pmw": 13.688,
+   "ci_low_pmw": 7.241,
+   "group": "2022",
+   "group_by": "year",
+   "n": 41,
+   "rate_pmw": 10.09,
+   "status": "ok",
+   "term": "false prophet",
+   "words": 4063492
+  },
+  {
+   "ci_high_pmw": 10.534,
+   "ci_low_pmw": 5.104,
    "group": "2023",
    "group_by": "year",
    "n": 32,
-   "rate_pmw": 7.498,
+   "rate_pmw": 7.462,
    "status": "ok",
    "term": "false prophet",
-   "words": 4267641
+   "words": 4288623
   },
   {
-   "ci_high_pmw": 19.875,
-   "ci_low_pmw": 13.759,
+   "ci_high_pmw": 19.497,
+   "ci_low_pmw": 13.498,
    "group": "2024",
    "group_by": "year",
    "n": 119,
-   "rate_pmw": 16.609,
+   "rate_pmw": 16.293,
    "status": "ok",
    "term": "false prophet",
-   "words": 7164864
+   "words": 7303600
   },
   {
-   "ci_high_pmw": 18.591,
-   "ci_low_pmw": 12.678,
+   "ci_high_pmw": 17.604,
+   "ci_low_pmw": 12.068,
    "group": "2025",
    "group_by": "year",
-   "n": 110,
-   "rate_pmw": 15.425,
+   "n": 113,
+   "rate_pmw": 14.643,
    "status": "ok",
    "term": "false prophet",
-   "words": 7131244
+   "words": 7717253
   },
   {
-   "ci_high_pmw": 16.842,
-   "ci_low_pmw": 10.392,
+   "ci_high_pmw": 14.635,
+   "ci_low_pmw": 9.153,
    "group": "2026",
    "group_by": "year",
-   "n": 70,
-   "rate_pmw": 13.331,
+   "n": 74,
+   "rate_pmw": 11.657,
    "status": "ok",
    "term": "false prophet",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,
@@ -9211,7 +9769,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "grifter",
-   "words": 674995
+   "words": 1475607
   },
   {
    "group": "2019",
@@ -9219,7 +9777,7 @@
    "n": 1,
    "status": "insufficient-data",
    "term": "grifter",
-   "words": 675687
+   "words": 1680404
   },
   {
    "group": "2020",
@@ -9227,7 +9785,7 @@
    "n": 2,
    "status": "insufficient-data",
    "term": "grifter",
-   "words": 1396001
+   "words": 2480081
   },
   {
    "group": "2021",
@@ -9235,7 +9793,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "grifter",
-   "words": 1507719
+   "words": 2861812
   },
   {
    "group": "2022",
@@ -9243,7 +9801,7 @@
    "n": 9,
    "status": "insufficient-data",
    "term": "grifter",
-   "words": 3902648
+   "words": 4063492
   },
   {
    "group": "2023",
@@ -9251,37 +9809,40 @@
    "n": 4,
    "status": "insufficient-data",
    "term": "grifter",
-   "words": 4267641
+   "words": 4288623
   },
   {
-   "ci_high_pmw": 3.103,
-   "ci_low_pmw": 0.966,
+   "ci_high_pmw": 3.216,
+   "ci_low_pmw": 1.048,
    "group": "2024",
    "group_by": "year",
-   "n": 13,
-   "rate_pmw": 1.814,
+   "n": 14,
+   "rate_pmw": 1.917,
    "status": "ok",
    "term": "grifter",
-   "words": 7164864
+   "words": 7303600
   },
   {
-   "ci_high_pmw": 5.675,
-   "ci_low_pmw": 2.609,
+   "ci_high_pmw": 6.157,
+   "ci_low_pmw": 3.051,
    "group": "2025",
    "group_by": "year",
-   "n": 28,
-   "rate_pmw": 3.926,
+   "n": 34,
+   "rate_pmw": 4.406,
    "status": "ok",
    "term": "grifter",
-   "words": 7131244
+   "words": 7717253
   },
   {
+   "ci_high_pmw": 3.101,
+   "ci_low_pmw": 0.865,
    "group": "2026",
    "group_by": "year",
-   "n": 9,
-   "status": "insufficient-data",
+   "n": 11,
+   "rate_pmw": 1.733,
+   "status": "ok",
    "term": "grifter",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,
@@ -9380,97 +9941,103 @@
    "words": 879780
   },
   {
+   "ci_high_pmw": 20.108,
+   "ci_low_pmw": 7.752,
    "group": "2018",
    "group_by": "year",
-   "n": 6,
-   "status": "insufficient-data",
+   "n": 19,
+   "rate_pmw": 12.876,
+   "status": "ok",
    "term": "heretic",
-   "words": 674995
+   "words": 1475607
   },
   {
+   "ci_high_pmw": 13.229,
+   "ci_low_pmw": 4.119,
    "group": "2019",
    "group_by": "year",
-   "n": 2,
-   "status": "insufficient-data",
+   "n": 13,
+   "rate_pmw": 7.736,
+   "status": "ok",
    "term": "heretic",
-   "words": 675687
+   "words": 1680404
   },
   {
-   "ci_high_pmw": 33.198,
-   "ci_low_pmw": 16.272,
+   "ci_high_pmw": 20.096,
+   "ci_low_pmw": 10.167,
    "group": "2020",
    "group_by": "year",
-   "n": 33,
-   "rate_pmw": 23.639,
+   "n": 36,
+   "rate_pmw": 14.516,
    "status": "ok",
    "term": "heretic",
-   "words": 1396001
+   "words": 2480081
   },
   {
-   "ci_high_pmw": 40.696,
-   "ci_low_pmw": 22.337,
+   "ci_high_pmw": 27.773,
+   "ci_low_pmw": 16.61,
    "group": "2021",
    "group_by": "year",
-   "n": 46,
-   "rate_pmw": 30.51,
+   "n": 62,
+   "rate_pmw": 21.665,
    "status": "ok",
    "term": "heretic",
-   "words": 1507719
+   "words": 2861812
   },
   {
-   "ci_high_pmw": 38.162,
-   "ci_low_pmw": 26.661,
+   "ci_high_pmw": 37.454,
+   "ci_low_pmw": 26.28,
    "group": "2022",
    "group_by": "year",
-   "n": 125,
-   "rate_pmw": 32.03,
+   "n": 128,
+   "rate_pmw": 31.5,
    "status": "ok",
    "term": "heretic",
-   "words": 3902648
+   "words": 4063492
   },
   {
-   "ci_high_pmw": 20.2,
-   "ci_low_pmw": 12.373,
+   "ci_high_pmw": 20.101,
+   "ci_low_pmw": 12.313,
    "group": "2023",
    "group_by": "year",
    "n": 68,
-   "rate_pmw": 15.934,
+   "rate_pmw": 15.856,
    "status": "ok",
    "term": "heretic",
-   "words": 4267641
+   "words": 4288623
   },
   {
-   "ci_high_pmw": 15.286,
-   "ci_low_pmw": 9.976,
+   "ci_high_pmw": 15.449,
+   "ci_low_pmw": 10.155,
    "group": "2024",
    "group_by": "year",
-   "n": 89,
-   "rate_pmw": 12.422,
+   "n": 92,
+   "rate_pmw": 12.597,
    "status": "ok",
    "term": "heretic",
-   "words": 7164864
+   "words": 7303600
   },
   {
-   "ci_high_pmw": 26.648,
-   "ci_low_pmw": 19.483,
+   "ci_high_pmw": 25.043,
+   "ci_low_pmw": 18.362,
    "group": "2025",
    "group_by": "year",
-   "n": 163,
-   "rate_pmw": 22.857,
+   "n": 166,
+   "rate_pmw": 21.51,
    "status": "ok",
    "term": "heretic",
-   "words": 7131244
+   "words": 7717253
   },
   {
-   "ci_high_pmw": 15.564,
-   "ci_low_pmw": 9.386,
+   "ci_high_pmw": 17.079,
+   "ci_low_pmw": 11.118,
    "group": "2026",
    "group_by": "year",
-   "n": 64,
-   "rate_pmw": 12.188,
+   "n": 88,
+   "rate_pmw": 13.863,
    "status": "ok",
    "term": "heretic",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,
@@ -9574,15 +10141,15 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "wolf in sheep's clothing",
-   "words": 674995
+   "words": 1475607
   },
   {
    "group": "2019",
    "group_by": "year",
-   "n": 0,
+   "n": 2,
    "status": "insufficient-data",
    "term": "wolf in sheep's clothing",
-   "words": 675687
+   "words": 1680404
   },
   {
    "group": "2020",
@@ -9590,15 +10157,15 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "wolf in sheep's clothing",
-   "words": 1396001
+   "words": 2480081
   },
   {
    "group": "2021",
    "group_by": "year",
-   "n": 1,
+   "n": 7,
    "status": "insufficient-data",
    "term": "wolf in sheep's clothing",
-   "words": 1507719
+   "words": 2861812
   },
   {
    "group": "2022",
@@ -9606,7 +10173,7 @@
    "n": 2,
    "status": "insufficient-data",
    "term": "wolf in sheep's clothing",
-   "words": 3902648
+   "words": 4063492
   },
   {
    "group": "2023",
@@ -9614,7 +10181,7 @@
    "n": 7,
    "status": "insufficient-data",
    "term": "wolf in sheep's clothing",
-   "words": 4267641
+   "words": 4288623
   },
   {
    "group": "2024",
@@ -9622,7 +10189,7 @@
    "n": 4,
    "status": "insufficient-data",
    "term": "wolf in sheep's clothing",
-   "words": 7164864
+   "words": 7303600
   },
   {
    "group": "2025",
@@ -9630,7 +10197,7 @@
    "n": 5,
    "status": "insufficient-data",
    "term": "wolf in sheep's clothing",
-   "words": 7131244
+   "words": 7717253
   },
   {
    "group": "2026",
@@ -9638,7 +10205,7 @@
    "n": 5,
    "status": "insufficient-data",
    "term": "wolf in sheep's clothing",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,
@@ -9740,283 +10307,298 @@
    "words": 879780
   },
   {
+   "ci_high_pmw": 36.913,
+   "ci_low_pmw": 19.366,
    "group": "2018",
    "group_by": "year",
-   "n": 1,
-   "status": "insufficient-data",
+   "n": 40,
+   "rate_pmw": 27.107,
+   "status": "ok",
    "term": "discernment",
-   "words": 674995
+   "words": 1475607
   },
   {
+   "ci_high_pmw": 19.822,
+   "ci_low_pmw": 8.205,
    "group": "2019",
-   "group_by": "year",
-   "n": 7,
-   "status": "insufficient-data",
-   "term": "discernment",
-   "words": 675687
-  },
-  {
-   "group": "2020",
-   "group_by": "year",
-   "n": 9,
-   "status": "insufficient-data",
-   "term": "discernment",
-   "words": 1396001
-  },
-  {
-   "group": "2021",
-   "group_by": "year",
-   "n": 8,
-   "status": "insufficient-data",
-   "term": "discernment",
-   "words": 1507719
-  },
-  {
-   "ci_high_pmw": 18.054,
-   "ci_low_pmw": 10.395,
-   "group": "2022",
-   "group_by": "year",
-   "n": 54,
-   "rate_pmw": 13.837,
-   "status": "ok",
-   "term": "discernment",
-   "words": 3902648
-  },
-  {
-   "ci_high_pmw": 12.222,
-   "ci_low_pmw": 6.301,
-   "group": "2023",
-   "group_by": "year",
-   "n": 38,
-   "rate_pmw": 8.904,
-   "status": "ok",
-   "term": "discernment",
-   "words": 4267641
-  },
-  {
-   "ci_high_pmw": 12.344,
-   "ci_low_pmw": 7.616,
-   "group": "2024",
-   "group_by": "year",
-   "n": 70,
-   "rate_pmw": 9.77,
-   "status": "ok",
-   "term": "discernment",
-   "words": 7164864
-  },
-  {
-   "ci_high_pmw": 20.427,
-   "ci_low_pmw": 14.207,
-   "group": "2025",
-   "group_by": "year",
-   "n": 122,
-   "rate_pmw": 17.108,
-   "status": "ok",
-   "term": "discernment",
-   "words": 7131244
-  },
-  {
-   "ci_high_pmw": 30.43,
-   "ci_low_pmw": 21.555,
-   "group": "2026",
-   "group_by": "year",
-   "n": 135,
-   "rate_pmw": 25.709,
-   "status": "ok",
-   "term": "discernment",
-   "words": 5251054
-  },
-  {
-   "group": null,
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "discernment",
-   "words": 9616
-  },
-  {
-   "group": "2007",
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "apostate",
-   "words": 14400
-  },
-  {
-   "group": "2008",
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "apostate",
-   "words": 39715
-  },
-  {
-   "group": "2009",
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "apostate",
-   "words": 75040
-  },
-  {
-   "group": "2010",
-   "group_by": "year",
-   "n": 1,
-   "status": "insufficient-data",
-   "term": "apostate",
-   "words": 277579
-  },
-  {
-   "group": "2011",
-   "group_by": "year",
-   "n": 1,
-   "status": "insufficient-data",
-   "term": "apostate",
-   "words": 607420
-  },
-  {
-   "group": "2012",
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "apostate",
-   "words": 98042
-  },
-  {
-   "group": "2013",
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "apostate",
-   "words": 47583
-  },
-  {
-   "group": "2014",
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "apostate",
-   "words": 22053
-  },
-  {
-   "group": "2015",
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "apostate",
-   "words": 34141
-  },
-  {
-   "group": "2016",
-   "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
-   "term": "apostate",
-   "words": 270398
-  },
-  {
-   "group": "2017",
-   "group_by": "year",
-   "n": 3,
-   "status": "insufficient-data",
-   "term": "apostate",
-   "words": 879780
-  },
-  {
-   "group": "2018",
-   "group_by": "year",
-   "n": 5,
-   "status": "insufficient-data",
-   "term": "apostate",
-   "words": 674995
-  },
-  {
-   "ci_high_pmw": 31.023,
-   "ci_low_pmw": 9.177,
-   "group": "2019",
-   "group_by": "year",
-   "n": 12,
-   "rate_pmw": 17.76,
-   "status": "ok",
-   "term": "apostate",
-   "words": 675687
-  },
-  {
-   "ci_high_pmw": 23.86,
-   "ci_low_pmw": 9.876,
-   "group": "2020",
    "group_by": "year",
    "n": 22,
-   "rate_pmw": 15.759,
+   "rate_pmw": 13.092,
    "status": "ok",
-   "term": "apostate",
-   "words": 1396001
+   "term": "discernment",
+   "words": 1680404
   },
   {
-   "ci_high_pmw": 27.624,
-   "ci_low_pmw": 12.882,
+   "ci_high_pmw": 18.215,
+   "ci_low_pmw": 8.826,
+   "group": "2020",
+   "group_by": "year",
+   "n": 32,
+   "rate_pmw": 12.903,
+   "status": "ok",
+   "term": "discernment",
+   "words": 2480081
+  },
+  {
+   "ci_high_pmw": 14.553,
+   "ci_low_pmw": 6.787,
    "group": "2021",
    "group_by": "year",
    "n": 29,
-   "rate_pmw": 19.234,
+   "rate_pmw": 10.133,
    "status": "ok",
-   "term": "apostate",
-   "words": 1507719
+   "term": "discernment",
+   "words": 2861812
   },
   {
-   "ci_high_pmw": 41.221,
-   "ci_low_pmw": 29.238,
+   "ci_high_pmw": 19.283,
+   "ci_low_pmw": 11.483,
    "group": "2022",
    "group_by": "year",
-   "n": 136,
-   "rate_pmw": 34.848,
+   "n": 61,
+   "rate_pmw": 15.012,
    "status": "ok",
-   "term": "apostate",
-   "words": 3902648
+   "term": "discernment",
+   "words": 4063492
   },
   {
-   "ci_high_pmw": 16.775,
-   "ci_low_pmw": 9.709,
+   "ci_high_pmw": 12.162,
+   "ci_low_pmw": 6.27,
+   "group": "2023",
+   "group_by": "year",
+   "n": 38,
+   "rate_pmw": 8.861,
+   "status": "ok",
+   "term": "discernment",
+   "words": 4288623
+  },
+  {
+   "ci_high_pmw": 12.109,
+   "ci_low_pmw": 7.471,
+   "group": "2024",
+   "group_by": "year",
+   "n": 70,
+   "rate_pmw": 9.584,
+   "status": "ok",
+   "term": "discernment",
+   "words": 7303600
+  },
+  {
+   "ci_high_pmw": 19.721,
+   "ci_low_pmw": 13.837,
+   "group": "2025",
+   "group_by": "year",
+   "n": 128,
+   "rate_pmw": 16.586,
+   "status": "ok",
+   "term": "discernment",
+   "words": 7717253
+  },
+  {
+   "ci_high_pmw": 27.388,
+   "ci_low_pmw": 19.71,
+   "group": "2026",
+   "group_by": "year",
+   "n": 148,
+   "rate_pmw": 23.314,
+   "status": "ok",
+   "term": "discernment",
+   "words": 6348010
+  },
+  {
+   "group": null,
+   "group_by": "year",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "discernment",
+   "words": 9616
+  },
+  {
+   "group": "2007",
+   "group_by": "year",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "apostate",
+   "words": 14400
+  },
+  {
+   "group": "2008",
+   "group_by": "year",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "apostate",
+   "words": 39715
+  },
+  {
+   "group": "2009",
+   "group_by": "year",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "apostate",
+   "words": 75040
+  },
+  {
+   "group": "2010",
+   "group_by": "year",
+   "n": 1,
+   "status": "insufficient-data",
+   "term": "apostate",
+   "words": 277579
+  },
+  {
+   "group": "2011",
+   "group_by": "year",
+   "n": 1,
+   "status": "insufficient-data",
+   "term": "apostate",
+   "words": 607420
+  },
+  {
+   "group": "2012",
+   "group_by": "year",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "apostate",
+   "words": 98042
+  },
+  {
+   "group": "2013",
+   "group_by": "year",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "apostate",
+   "words": 47583
+  },
+  {
+   "group": "2014",
+   "group_by": "year",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "apostate",
+   "words": 22053
+  },
+  {
+   "group": "2015",
+   "group_by": "year",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "apostate",
+   "words": 34141
+  },
+  {
+   "group": "2016",
+   "group_by": "year",
+   "n": 0,
+   "status": "insufficient-data",
+   "term": "apostate",
+   "words": 270398
+  },
+  {
+   "group": "2017",
+   "group_by": "year",
+   "n": 3,
+   "status": "insufficient-data",
+   "term": "apostate",
+   "words": 879780
+  },
+  {
+   "ci_high_pmw": 13.338,
+   "ci_low_pmw": 3.721,
+   "group": "2018",
+   "group_by": "year",
+   "n": 11,
+   "rate_pmw": 7.455,
+   "status": "ok",
+   "term": "apostate",
+   "words": 1475607
+  },
+  {
+   "ci_high_pmw": 19.822,
+   "ci_low_pmw": 8.205,
+   "group": "2019",
+   "group_by": "year",
+   "n": 22,
+   "rate_pmw": 13.092,
+   "status": "ok",
+   "term": "apostate",
+   "words": 1680404
+  },
+  {
+   "ci_high_pmw": 19.157,
+   "ci_low_pmw": 9.494,
+   "group": "2020",
+   "group_by": "year",
+   "n": 34,
+   "rate_pmw": 13.709,
+   "status": "ok",
+   "term": "apostate",
+   "words": 2480081
+  },
+  {
+   "ci_high_pmw": 22.238,
+   "ci_low_pmw": 12.367,
+   "group": "2021",
+   "group_by": "year",
+   "n": 48,
+   "rate_pmw": 16.773,
+   "status": "ok",
+   "term": "apostate",
+   "words": 2861812
+  },
+  {
+   "ci_high_pmw": 40.123,
+   "ci_low_pmw": 28.531,
+   "group": "2022",
+   "group_by": "year",
+   "n": 138,
+   "rate_pmw": 33.961,
+   "status": "ok",
+   "term": "apostate",
+   "words": 4063492
+  },
+  {
+   "ci_high_pmw": 16.693,
+   "ci_low_pmw": 9.661,
    "group": "2023",
    "group_by": "year",
    "n": 55,
-   "rate_pmw": 12.888,
+   "rate_pmw": 12.825,
    "status": "ok",
    "term": "apostate",
-   "words": 4267641
+   "words": 4288623
   },
   {
-   "ci_high_pmw": 30.419,
-   "ci_low_pmw": 22.752,
+   "ci_high_pmw": 29.988,
+   "ci_low_pmw": 22.447,
    "group": "2024",
    "group_by": "year",
-   "n": 189,
-   "rate_pmw": 26.379,
+   "n": 190,
+   "rate_pmw": 26.015,
    "status": "ok",
    "term": "apostate",
-   "words": 7164864
+   "words": 7303600
   },
   {
-   "ci_high_pmw": 30.863,
-   "ci_low_pmw": 23.12,
+   "ci_high_pmw": 28.658,
+   "ci_low_pmw": 21.484,
    "group": "2025",
    "group_by": "year",
-   "n": 191,
-   "rate_pmw": 26.784,
+   "n": 192,
+   "rate_pmw": 24.879,
    "status": "ok",
    "term": "apostate",
-   "words": 7131244
+   "words": 7717253
   },
   {
-   "ci_high_pmw": 18.115,
-   "ci_low_pmw": 11.403,
+   "ci_high_pmw": 15.51,
+   "ci_low_pmw": 9.853,
    "group": "2026",
    "group_by": "year",
-   "n": 76,
-   "rate_pmw": 14.473,
+   "n": 79,
+   "rate_pmw": 12.445,
    "status": "ok",
    "term": "apostate",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,
@@ -10115,94 +10697,103 @@
    "words": 879780
   },
   {
+   "ci_high_pmw": 34.562,
+   "ci_low_pmw": 17.655,
    "group": "2018",
    "group_by": "year",
-   "n": 0,
-   "status": "insufficient-data",
+   "n": 37,
+   "rate_pmw": 25.074,
+   "status": "ok",
    "term": "false teaching",
-   "words": 674995
+   "words": 1475607
   },
   {
+   "ci_high_pmw": 13.229,
+   "ci_low_pmw": 4.119,
    "group": "2019",
    "group_by": "year",
-   "n": 1,
-   "status": "insufficient-data",
+   "n": 13,
+   "rate_pmw": 7.736,
+   "status": "ok",
    "term": "false teaching",
-   "words": 675687
+   "words": 1680404
   },
   {
-   "ci_high_pmw": 13.174,
-   "ci_low_pmw": 3.435,
+   "ci_high_pmw": 21.031,
+   "ci_low_pmw": 10.843,
    "group": "2020",
    "group_by": "year",
-   "n": 10,
-   "rate_pmw": 7.163,
+   "n": 38,
+   "rate_pmw": 15.322,
    "status": "ok",
    "term": "false teaching",
-   "words": 1396001
+   "words": 2480081
   },
   {
+   "ci_high_pmw": 13.727,
+   "ci_low_pmw": 6.217,
    "group": "2021",
    "group_by": "year",
-   "n": 6,
-   "status": "insufficient-data",
-   "term": "false teaching",
-   "words": 1507719
-  },
-  {
-   "ci_high_pmw": 6.019,
-   "ci_low_pmw": 1.961,
-   "group": "2022",
-   "group_by": "year",
-   "n": 14,
-   "rate_pmw": 3.587,
+   "n": 27,
+   "rate_pmw": 9.435,
    "status": "ok",
    "term": "false teaching",
-   "words": 3902648
+   "words": 2861812
   },
   {
-   "ci_high_pmw": 27.985,
-   "ci_low_pmw": 18.643,
+   "ci_high_pmw": 6.698,
+   "ci_low_pmw": 2.437,
+   "group": "2022",
+   "group_by": "year",
+   "n": 17,
+   "rate_pmw": 4.184,
+   "status": "ok",
+   "term": "false teaching",
+   "words": 4063492
+  },
+  {
+   "ci_high_pmw": 27.848,
+   "ci_low_pmw": 18.552,
    "group": "2023",
    "group_by": "year",
    "n": 98,
-   "rate_pmw": 22.964,
+   "rate_pmw": 22.851,
    "status": "ok",
    "term": "false teaching",
-   "words": 4267641
+   "words": 4288623
   },
   {
-   "ci_high_pmw": 7.118,
-   "ci_low_pmw": 3.636,
+   "ci_high_pmw": 6.983,
+   "ci_low_pmw": 3.567,
    "group": "2024",
    "group_by": "year",
    "n": 37,
-   "rate_pmw": 5.164,
+   "rate_pmw": 5.066,
    "status": "ok",
    "term": "false teaching",
-   "words": 7164864
+   "words": 7303600
   },
   {
-   "ci_high_pmw": 7.152,
-   "ci_low_pmw": 3.653,
+   "ci_high_pmw": 6.609,
+   "ci_low_pmw": 3.376,
    "group": "2025",
    "group_by": "year",
    "n": 37,
-   "rate_pmw": 5.188,
+   "rate_pmw": 4.794,
    "status": "ok",
    "term": "false teaching",
-   "words": 7131244
+   "words": 7717253
   },
   {
-   "ci_high_pmw": 4.234,
-   "ci_low_pmw": 1.318,
+   "ci_high_pmw": 3.502,
+   "ci_low_pmw": 1.09,
    "group": "2026",
    "group_by": "year",
    "n": 13,
-   "rate_pmw": 2.476,
+   "rate_pmw": 2.048,
    "status": "ok",
    "term": "false teaching",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,
@@ -10306,7 +10897,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "grift",
-   "words": 674995
+   "words": 1475607
   },
   {
    "group": "2019",
@@ -10314,7 +10905,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "grift",
-   "words": 675687
+   "words": 1680404
   },
   {
    "group": "2020",
@@ -10322,7 +10913,7 @@
    "n": 2,
    "status": "insufficient-data",
    "term": "grift",
-   "words": 1396001
+   "words": 2480081
   },
   {
    "group": "2021",
@@ -10330,18 +10921,18 @@
    "n": 1,
    "status": "insufficient-data",
    "term": "grift",
-   "words": 1507719
+   "words": 2861812
   },
   {
-   "ci_high_pmw": 5.043,
-   "ci_low_pmw": 1.407,
+   "ci_high_pmw": 4.844,
+   "ci_low_pmw": 1.351,
    "group": "2022",
    "group_by": "year",
    "n": 11,
-   "rate_pmw": 2.819,
+   "rate_pmw": 2.707,
    "status": "ok",
    "term": "grift",
-   "words": 3902648
+   "words": 4063492
   },
   {
    "group": "2023",
@@ -10349,40 +10940,40 @@
    "n": 5,
    "status": "insufficient-data",
    "term": "grift",
-   "words": 4267641
+   "words": 4288623
   },
   {
-   "ci_high_pmw": 3.278,
-   "ci_low_pmw": 1.068,
+   "ci_high_pmw": 4.062,
+   "ci_low_pmw": 1.566,
    "group": "2024",
    "group_by": "year",
-   "n": 14,
-   "rate_pmw": 1.954,
+   "n": 19,
+   "rate_pmw": 2.601,
    "status": "ok",
    "term": "grift",
-   "words": 7164864
+   "words": 7303600
   },
   {
-   "ci_high_pmw": 5.675,
-   "ci_low_pmw": 2.609,
+   "ci_high_pmw": 6.609,
+   "ci_low_pmw": 3.376,
    "group": "2025",
    "group_by": "year",
-   "n": 28,
-   "rate_pmw": 3.926,
+   "n": 37,
+   "rate_pmw": 4.794,
    "status": "ok",
    "term": "grift",
-   "words": 7131244
+   "words": 7717253
   },
   {
-   "ci_high_pmw": 7.255,
-   "ci_low_pmw": 3.234,
+   "ci_high_pmw": 7.484,
+   "ci_low_pmw": 3.709,
    "group": "2026",
    "group_by": "year",
-   "n": 26,
-   "rate_pmw": 4.951,
+   "n": 34,
+   "rate_pmw": 5.356,
    "status": "ok",
    "term": "grift",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,
@@ -10487,100 +11078,103 @@
    "words": 879780
   },
   {
-   "ci_high_pmw": 29.159,
-   "ci_low_pmw": 8.135,
+   "ci_high_pmw": 20.933,
+   "ci_low_pmw": 8.279,
    "group": "2018",
    "group_by": "year",
-   "n": 11,
-   "rate_pmw": 16.296,
+   "n": 20,
+   "rate_pmw": 13.554,
    "status": "ok",
    "term": "heresy",
-   "words": 674995
+   "words": 1475607
   },
   {
+   "ci_high_pmw": 21.962,
+   "ci_low_pmw": 9.628,
    "group": "2019",
    "group_by": "year",
-   "n": 3,
-   "status": "insufficient-data",
+   "n": 25,
+   "rate_pmw": 14.877,
+   "status": "ok",
    "term": "heresy",
-   "words": 675687
+   "words": 1680404
   },
   {
-   "ci_high_pmw": 47.22,
-   "ci_low_pmw": 26.584,
+   "ci_high_pmw": 41.04,
+   "ci_low_pmw": 26.296,
    "group": "2020",
    "group_by": "year",
-   "n": 50,
-   "rate_pmw": 35.817,
+   "n": 82,
+   "rate_pmw": 33.063,
    "status": "ok",
    "term": "heresy",
-   "words": 1396001
+   "words": 2480081
   },
   {
-   "ci_high_pmw": 38.416,
-   "ci_low_pmw": 20.64,
+   "ci_high_pmw": 29.732,
+   "ci_low_pmw": 18.144,
    "group": "2021",
    "group_by": "year",
-   "n": 43,
-   "rate_pmw": 28.52,
+   "n": 67,
+   "rate_pmw": 23.412,
    "status": "ok",
    "term": "heresy",
-   "words": 1507719
+   "words": 2861812
   },
   {
-   "ci_high_pmw": 49.521,
-   "ci_low_pmw": 36.311,
+   "ci_high_pmw": 48.09,
+   "ci_low_pmw": 35.328,
    "group": "2022",
    "group_by": "year",
-   "n": 166,
-   "rate_pmw": 42.535,
+   "n": 168,
+   "rate_pmw": 41.344,
    "status": "ok",
    "term": "heresy",
-   "words": 3902648
+   "words": 4063492
   },
   {
-   "ci_high_pmw": 39.218,
-   "ci_low_pmw": 28.026,
+   "ci_high_pmw": 39.027,
+   "ci_low_pmw": 27.889,
    "group": "2023",
    "group_by": "year",
    "n": 142,
-   "rate_pmw": 33.274,
+   "rate_pmw": 33.111,
    "status": "ok",
    "term": "heresy",
-   "words": 4267641
+   "words": 4288623
   },
   {
-   "ci_high_pmw": 26.523,
-   "ci_low_pmw": 19.391,
+   "ci_high_pmw": 26.608,
+   "ci_low_pmw": 19.529,
    "group": "2024",
    "group_by": "year",
-   "n": 163,
-   "rate_pmw": 22.75,
+   "n": 167,
+   "rate_pmw": 22.865,
    "status": "ok",
    "term": "heresy",
-   "words": 7164864
+   "words": 7303600
   },
   {
-   "ci_high_pmw": 43.103,
-   "ci_low_pmw": 33.875,
+   "ci_high_pmw": 41.065,
+   "ci_low_pmw": 32.401,
    "group": "2025",
    "group_by": "year",
-   "n": 273,
-   "rate_pmw": 38.282,
+   "n": 282,
+   "rate_pmw": 36.541,
    "status": "ok",
    "term": "heresy",
-   "words": 7131244
+   "words": 7717253
   },
   {
-   "ci_high_pmw": 27.741,
-   "ci_low_pmw": 19.294,
+   "ci_high_pmw": 25.513,
+   "ci_low_pmw": 18.119,
    "group": "2026",
    "group_by": "year",
-   "n": 122,
-   "rate_pmw": 23.233,
+   "n": 137,
+   "rate_pmw": 21.582,
    "status": "ok",
    "term": "heresy",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,
@@ -10687,95 +11281,95 @@
   {
    "group": "2018",
    "group_by": "year",
+   "n": 7,
+   "status": "insufficient-data",
+   "term": "apostasy",
+   "words": 1475607
+  },
+  {
+   "group": "2019",
+   "group_by": "year",
    "n": 6,
    "status": "insufficient-data",
    "term": "apostasy",
-   "words": 674995
+   "words": 1680404
   },
   {
-   "group": "2019",
-   "group_by": "year",
-   "n": 3,
-   "status": "insufficient-data",
-   "term": "apostasy",
-   "words": 675687
-  },
-  {
-   "ci_high_pmw": 27.289,
-   "ci_low_pmw": 12.166,
+   "ci_high_pmw": 23.354,
+   "ci_low_pmw": 12.548,
    "group": "2020",
    "group_by": "year",
-   "n": 26,
-   "rate_pmw": 18.625,
+   "n": 43,
+   "rate_pmw": 17.338,
    "status": "ok",
    "term": "apostasy",
-   "words": 1396001
+   "words": 2480081
   },
   {
-   "ci_high_pmw": 18.868,
-   "ci_low_pmw": 7.076,
+   "ci_high_pmw": 17.415,
+   "ci_low_pmw": 8.81,
    "group": "2021",
    "group_by": "year",
-   "n": 18,
-   "rate_pmw": 11.939,
+   "n": 36,
+   "rate_pmw": 12.579,
    "status": "ok",
    "term": "apostasy",
-   "words": 1507719
+   "words": 2861812
   },
   {
-   "ci_high_pmw": 16.307,
-   "ci_low_pmw": 9.069,
+   "ci_high_pmw": 15.662,
+   "ci_low_pmw": 8.71,
    "group": "2022",
    "group_by": "year",
    "n": 48,
-   "rate_pmw": 12.299,
+   "rate_pmw": 11.813,
    "status": "ok",
    "term": "apostasy",
-   "words": 3902648
+   "words": 4063492
   },
   {
-   "ci_high_pmw": 18.887,
-   "ci_low_pmw": 11.344,
+   "ci_high_pmw": 18.795,
+   "ci_low_pmw": 11.288,
    "group": "2023",
    "group_by": "year",
    "n": 63,
-   "rate_pmw": 14.762,
+   "rate_pmw": 14.69,
    "status": "ok",
    "term": "apostasy",
-   "words": 4267641
+   "words": 4288623
   },
   {
-   "ci_high_pmw": 13.277,
-   "ci_low_pmw": 8.357,
+   "ci_high_pmw": 13.024,
+   "ci_low_pmw": 8.199,
    "group": "2024",
    "group_by": "year",
    "n": 76,
-   "rate_pmw": 10.607,
+   "rate_pmw": 10.406,
    "status": "ok",
    "term": "apostasy",
-   "words": 7164864
+   "words": 7303600
   },
   {
-   "ci_high_pmw": 35.207,
-   "ci_low_pmw": 26.908,
+   "ci_high_pmw": 32.534,
+   "ci_low_pmw": 24.865,
    "group": "2025",
    "group_by": "year",
    "n": 220,
-   "rate_pmw": 30.85,
+   "rate_pmw": 28.508,
    "status": "ok",
    "term": "apostasy",
-   "words": 7131244
+   "words": 7717253
   },
   {
-   "ci_high_pmw": 17.055,
-   "ci_low_pmw": 10.56,
+   "ci_high_pmw": 14.635,
+   "ci_low_pmw": 9.153,
    "group": "2026",
    "group_by": "year",
-   "n": 71,
-   "rate_pmw": 13.521,
+   "n": 74,
+   "rate_pmw": 11.657,
    "status": "ok",
    "term": "apostasy",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,
@@ -10876,18 +11470,18 @@
   {
    "group": "2018",
    "group_by": "year",
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data",
    "term": "clout",
-   "words": 674995
+   "words": 1475607
   },
   {
    "group": "2019",
    "group_by": "year",
-   "n": 1,
+   "n": 5,
    "status": "insufficient-data",
    "term": "clout",
-   "words": 675687
+   "words": 1680404
   },
   {
    "group": "2020",
@@ -10895,70 +11489,70 @@
    "n": 1,
    "status": "insufficient-data",
    "term": "clout",
-   "words": 1396001
+   "words": 2480081
   },
   {
    "group": "2021",
    "group_by": "year",
-   "n": 1,
+   "n": 4,
    "status": "insufficient-data",
    "term": "clout",
-   "words": 1507719
+   "words": 2861812
   },
   {
-   "ci_high_pmw": 6.974,
-   "ci_low_pmw": 2.538,
+   "ci_high_pmw": 7.001,
+   "ci_low_pmw": 2.625,
    "group": "2022",
    "group_by": "year",
-   "n": 17,
-   "rate_pmw": 4.356,
+   "n": 18,
+   "rate_pmw": 4.43,
    "status": "ok",
    "term": "clout",
-   "words": 3902648
+   "words": 4063492
   },
   {
-   "ci_high_pmw": 6.088,
-   "ci_low_pmw": 2.143,
+   "ci_high_pmw": 6.059,
+   "ci_low_pmw": 2.132,
    "group": "2023",
    "group_by": "year",
    "n": 16,
-   "rate_pmw": 3.749,
+   "rate_pmw": 3.731,
    "status": "ok",
    "term": "clout",
-   "words": 4267641
+   "words": 4288623
   },
   {
-   "ci_high_pmw": 4.649,
-   "ci_low_pmw": 1.924,
+   "ci_high_pmw": 4.561,
+   "ci_low_pmw": 1.888,
    "group": "2024",
    "group_by": "year",
    "n": 22,
-   "rate_pmw": 3.071,
+   "rate_pmw": 3.012,
    "status": "ok",
    "term": "clout",
-   "words": 7164864
+   "words": 7303600
   },
   {
-   "ci_high_pmw": 8.604,
-   "ci_low_pmw": 4.723,
+   "ci_high_pmw": 8.247,
+   "ci_low_pmw": 4.586,
    "group": "2025",
    "group_by": "year",
-   "n": 46,
-   "rate_pmw": 6.45,
+   "n": 48,
+   "rate_pmw": 6.22,
    "status": "ok",
    "term": "clout",
-   "words": 7131244
+   "words": 7717253
   },
   {
-   "ci_high_pmw": 7.028,
-   "ci_low_pmw": 3.081,
+   "ci_high_pmw": 6.188,
+   "ci_low_pmw": 2.803,
    "group": "2026",
    "group_by": "year",
-   "n": 25,
-   "rate_pmw": 4.761,
+   "n": 27,
+   "rate_pmw": 4.253,
    "status": "ok",
    "term": "clout",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,
@@ -11062,7 +11656,7 @@
    "n": 1,
    "status": "insufficient-data",
    "term": "watchdog",
-   "words": 674995
+   "words": 1475607
   },
   {
    "group": "2019",
@@ -11070,7 +11664,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "watchdog",
-   "words": 675687
+   "words": 1680404
   },
   {
    "group": "2020",
@@ -11078,7 +11672,7 @@
    "n": 1,
    "status": "insufficient-data",
    "term": "watchdog",
-   "words": 1396001
+   "words": 2480081
   },
   {
    "group": "2021",
@@ -11086,18 +11680,18 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "watchdog",
-   "words": 1507719
+   "words": 2861812
   },
   {
-   "ci_high_pmw": 13.957,
-   "ci_low_pmw": 7.322,
+   "ci_high_pmw": 13.404,
+   "ci_low_pmw": 7.033,
    "group": "2022",
    "group_by": "year",
    "n": 40,
-   "rate_pmw": 10.249,
+   "rate_pmw": 9.844,
    "status": "ok",
    "term": "watchdog",
-   "words": 3902648
+   "words": 4063492
   },
   {
    "group": "2023",
@@ -11105,7 +11699,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "watchdog",
-   "words": 4267641
+   "words": 4288623
   },
   {
    "group": "2024",
@@ -11113,7 +11707,7 @@
    "n": 2,
    "status": "insufficient-data",
    "term": "watchdog",
-   "words": 7164864
+   "words": 7303600
   },
   {
    "group": "2025",
@@ -11121,7 +11715,7 @@
    "n": 5,
    "status": "insufficient-data",
    "term": "watchdog",
-   "words": 7131244
+   "words": 7717253
   },
   {
    "group": "2026",
@@ -11129,7 +11723,7 @@
    "n": 3,
    "status": "insufficient-data",
    "term": "watchdog",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,
@@ -11230,34 +11824,34 @@
   {
    "group": "2018",
    "group_by": "year",
-   "n": 0,
+   "n": 3,
    "status": "insufficient-data",
    "term": "discernment ministry",
-   "words": 674995
+   "words": 1475607
   },
   {
    "group": "2019",
    "group_by": "year",
-   "n": 0,
+   "n": 1,
    "status": "insufficient-data",
    "term": "discernment ministry",
-   "words": 675687
+   "words": 1680404
   },
   {
    "group": "2020",
    "group_by": "year",
-   "n": 0,
+   "n": 1,
    "status": "insufficient-data",
    "term": "discernment ministry",
-   "words": 1396001
+   "words": 2480081
   },
   {
    "group": "2021",
    "group_by": "year",
-   "n": 0,
+   "n": 1,
    "status": "insufficient-data",
    "term": "discernment ministry",
-   "words": 1507719
+   "words": 2861812
   },
   {
    "group": "2022",
@@ -11265,7 +11859,7 @@
    "n": 6,
    "status": "insufficient-data",
    "term": "discernment ministry",
-   "words": 3902648
+   "words": 4063492
   },
   {
    "group": "2023",
@@ -11273,18 +11867,18 @@
    "n": 1,
    "status": "insufficient-data",
    "term": "discernment ministry",
-   "words": 4267641
+   "words": 4288623
   },
   {
-   "ci_high_pmw": 3.103,
-   "ci_low_pmw": 0.966,
+   "ci_high_pmw": 3.044,
+   "ci_low_pmw": 0.948,
    "group": "2024",
    "group_by": "year",
    "n": 13,
-   "rate_pmw": 1.814,
+   "rate_pmw": 1.78,
    "status": "ok",
    "term": "discernment ministry",
-   "words": 7164864
+   "words": 7303600
   },
   {
    "group": "2025",
@@ -11292,7 +11886,7 @@
    "n": 1,
    "status": "insufficient-data",
    "term": "discernment ministry",
-   "words": 7131244
+   "words": 7717253
   },
   {
    "group": "2026",
@@ -11300,7 +11894,7 @@
    "n": 1,
    "status": "insufficient-data",
    "term": "discernment ministry",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,
@@ -11404,7 +11998,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "deconstruction influencer",
-   "words": 674995
+   "words": 1475607
   },
   {
    "group": "2019",
@@ -11412,7 +12006,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "deconstruction influencer",
-   "words": 675687
+   "words": 1680404
   },
   {
    "group": "2020",
@@ -11420,7 +12014,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "deconstruction influencer",
-   "words": 1396001
+   "words": 2480081
   },
   {
    "group": "2021",
@@ -11428,7 +12022,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "deconstruction influencer",
-   "words": 1507719
+   "words": 2861812
   },
   {
    "group": "2022",
@@ -11436,7 +12030,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "deconstruction influencer",
-   "words": 3902648
+   "words": 4063492
   },
   {
    "group": "2023",
@@ -11444,7 +12038,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "deconstruction influencer",
-   "words": 4267641
+   "words": 4288623
   },
   {
    "group": "2024",
@@ -11452,7 +12046,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "deconstruction influencer",
-   "words": 7164864
+   "words": 7303600
   },
   {
    "group": "2025",
@@ -11460,7 +12054,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "deconstruction influencer",
-   "words": 7131244
+   "words": 7717253
   },
   {
    "group": "2026",
@@ -11468,7 +12062,7 @@
    "n": 0,
    "status": "insufficient-data",
    "term": "deconstruction influencer",
-   "words": 5251054
+   "words": 6348010
   },
   {
    "group": null,

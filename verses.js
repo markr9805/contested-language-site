@@ -26,28 +26,10 @@ const OT = new Set(["Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy",
 const filters = { creators: new Set(), methods: new Set() };
 let currentRef = null;
 
-function el(tag, cls, text) {
-  const n = document.createElement(tag);
-  if (cls) n.className = cls;
-  if (text !== undefined) n.textContent = text;
-  return n;
-}
-
 async function getJSON(path) {
   const r = await fetch(`${DATA}/${path}`);
   if (!r.ok) throw new Error(`${path}: ${r.status}`);
   return r.json();
-}
-
-function pct(x) { return `${(x * 100).toFixed(1)}%`; }
-
-function fmtTime(t) {
-  // Rolls over past an hour: this corpus is long-form, and a two-hour video
-  // rendered "128:23" reads as a bug rather than a timestamp.
-  const s = Math.max(0, Math.floor(t));
-  const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60);
-  const ss = String(s % 60).padStart(2, "0");
-  return h ? `${h}:${String(m).padStart(2, "0")}:${ss}` : `${m}:${ss}`;
 }
 
 // Must match verse_senses._slug exactly — it names the verse-senses files.
@@ -77,8 +59,25 @@ function renderBanner(cov) {
 
 // --- sidebar: testament groups > collapsed books > verses -----------------
 // Counts are shown but never sorted on.
+/* Sort key for a reference: [chapter, first verse].
+
+   The `(?:-\d+)?` is #277. This anchored to the verse number alone, so a
+   RANGE -- "Genesis 1:26-27" ends in "-27", not "27" -- missed the match and
+   fell through to the [0,0] sentinel. All 1,007 ranges (8.7% of the 11,637
+   published refs) then compared equal and kept the order Python emitted,
+   which is `sorted(by_ref)`: lexicographic. Because [0,0] sorts first they
+   clustered at the TOP of each book, so Genesis opened "10:1-32 · 14:18-20 ·
+   17:18-19 · 17:7-8 · 1:1-2". Partially correct, which is why it read as a
+   glitch rather than a dead sort.
+
+   A range sorts by where it STARTS, which is what a reader scanning a book
+   expects. The end anchor is kept rather than dropped: book ordinals ("1
+   Kings", "3 John") put digits before the chapter, and an unanchored match
+   would be free to find them. Verified against the published index, which
+   holds exactly two shapes -- "C:V" and "C:V-N" -- and no cross-chapter
+   range, so this covers 100% of them. */
 function verseSortKey(ref) {
-  const m = ref.match(/ (\d+):(\d+)$/);
+  const m = ref.match(/ (\d+):(\d+)(?:-\d+)?$/);
   return m ? [parseInt(m[1], 10), parseInt(m[2], 10)] : [0, 0];
 }
 

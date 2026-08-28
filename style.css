@@ -155,6 +155,9 @@ a:hover { color: var(--series-1-deep); text-decoration: underline; }
   font: 600 10px "IBM Plex Mono", ui-monospace, monospace;
   letter-spacing: 0.1em; color: var(--text-muted); margin: 10px 0 4px;
 }
+.term-empty-note {
+  font: 12px Archivo, sans-serif; color: var(--text-muted); margin: 10px 4px;
+}
 .term-btn {
   display: flex; justify-content: space-between; align-items: baseline; gap: 8px;
   width: 100%; text-align: left; border: 0; cursor: pointer; font: inherit;
@@ -186,8 +189,8 @@ a:hover { color: var(--series-1-deep); text-decoration: underline; }
   font: 11.5px Archivo, sans-serif; cursor: pointer;
 }
 .chip:hover { background: var(--accent-soft); }
-.chip[aria-pressed="true"] { background: var(--series-1); border-color: var(--series-1); color: #fff; }
-.chip.soft[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--series-1); color: var(--series-1-deep); }
+.chip[aria-pressed="true"], .chip[aria-selected="true"] { background: var(--series-1); border-color: var(--series-1); color: #fff; }
+.chip.soft[aria-pressed="true"], .chip.soft[aria-selected="true"] { background: var(--accent-soft); border-color: var(--series-1); color: var(--series-1-deep); }
 
 .side-foot {
   display: flex; justify-content: space-between; align-items: center;

@@ -23,21 +23,6 @@ const state = {
   candidate: null,  // selected candidate object, or null
 };
 
-const $ = (id) => document.getElementById(id);
-const el = (tag, cls, text) => {
-  const e = document.createElement(tag);
-  if (cls) e.className = cls;
-  if (text !== undefined) e.textContent = text;
-  return e;
-};
-const fmt = (x) => x.toLocaleString("en-US");
-
-async function fetchJSON(path) {
-  const r = await fetch(`${DATA}/${path}`);
-  if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
-  return r.json();
-}
-
 // ---- discovered concepts (Plan-2 LLM layer, not pinned) ------------------------
 //
 // discovered.json shape (export_concepts): {meta:{model,generated_at,note},
@@ -102,27 +87,23 @@ function renderDiscoveredSelection() {
   // why `rule` is rendered too: DESIGN §3 publishes a STATED selection rule in
   // place of the retracted FDR guarantee, and a stated rule nobody is shown is
   // not a disclosure either.
-  p.dataset.tip = [sel.rule, sel.note, state.discMeta.bar_specificity]
+  // #215: `pool` is the WIDEST funnel stage (the occurrence floor) by design
+  // (concepts.py), kept under its old name so an existing reader is not
+  // silently handed a different number -- but that means "N of M" alone
+  // UNDERSTATES the selection: two stricter gates (creator-breadth, the
+  // significance bar) sit between M and N. `funnel` carries every stage;
+  // rendering it here is what makes it a disclosure rather than exported
+  // JSON nothing reads (same principle as `rule` below).
+  const f = sel.funnel;
+  const funnelNote = f
+    ? `Selection funnel: ${fmt(f.occurrence_floor)} cleared the occurrence `
+      + `floor → ${fmt(f.creator_gated)} cleared creator-breadth → `
+      + `${fmt(f.bar_cleared)} cleared the significance bar → `
+      + `${fmt(f.published)} published.`
+    : null;
+  p.dataset.tip = [sel.rule, funnelNote, sel.note, state.discMeta.bar_specificity]
     .filter(Boolean).join(" — ");
   host.append(p);
-}
-
-// DESIGN §3's TWO-LEG bar, for both lanes (#112 pinned, #122 discovered).
-//
-// This read `bar.corrected ? FDR q=… : p=…` until 2026-07-30. Those fields
-// belonged to the superseded single-leg payload; `gate.two_leg_verdict`
-// carries `validity_p`, `percentile`, `pool_n`, `failed` and `thresholds`
-// instead, so the chip rendered `p=NaN` the moment either lane re-exported,
-// and its tooltip still asserted the single leg's 65–75%/88% figures as
-// though they described what the reader was looking at.
-//
-// Both legs are shown, because which one failed is the finding. Failing
-// validity means the gap is inside the spread among same-side creators;
-// failing specificity means the gap is real but ordinary for a word of this
-// frequency — a much more interesting thing to be told than "provisional".
-function pct(x) {
-  const v = Number(x) * 100;
-  return `${v < 1 ? v.toPrecision(2) : v.toFixed(1)}%`;
 }
 
 function barChip(bar) {
@@ -456,15 +437,6 @@ function renderFramingCol(colId, textId, side, term) {
     col.classList.add("empty");
     p.textContent = sideNote(term);
   }
-}
-
-function fmtTime(t) {
-  // Rolls over past an hour: this corpus is long-form, and a two-hour video
-  // rendered "128:23" reads as a bug rather than a timestamp.
-  const s = Math.max(0, Math.floor(t));
-  const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60);
-  const ss = String(s % 60).padStart(2, "0");
-  return h ? `${h}:${String(m).padStart(2, "0")}:${ss}` : `${m}:${ss}`;
 }
 
 // The citation line under a quote, deep-linked to the second it was said (#139)

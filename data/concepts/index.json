@@ -28,9 +28,9 @@
     "added_since": 0,
     "basis_videos": 331,
     "complete": true,
-    "coverage_pct": 0.997,
+    "coverage_pct": 0.994,
     "ingested_videos": 331,
-    "total_videos": 332
+    "total_videos": 333
    },
    "display_name": "Belief It Or Not",
    "side": "deconstruction",
@@ -43,11 +43,11 @@
     "signal": 2
    },
    "coverage": {
-    "added_since": 0,
+    "added_since": 1,
     "basis_videos": 207,
     "complete": true,
-    "coverage_pct": 0.9952,
-    "ingested_videos": 207,
+    "coverage_pct": 1.0,
+    "ingested_videos": 208,
     "total_videos": 208
    },
    "display_name": "No Nonsense Spirituality (Britt Hartley)",
@@ -82,9 +82,9 @@
     "added_since": 0,
     "basis_videos": 1156,
     "complete": true,
-    "coverage_pct": 0.9863,
+    "coverage_pct": 0.9847,
     "ingested_videos": 1156,
-    "total_videos": 1172
+    "total_videos": 1174
    },
    "display_name": "The Counsel of Trent",
    "side": "apologetics",
@@ -100,13 +100,31 @@
     "added_since": 0,
     "basis_videos": 1738,
     "complete": false,
-    "coverage_pct": 0.4775,
+    "coverage_pct": 0.4755,
     "ingested_videos": 1738,
-    "total_videos": 3640
+    "total_videos": 3655
    },
    "display_name": "Cross Examined",
    "side": "apologetics",
    "slug": "cross-examined"
+  },
+  {
+   "counts": {
+    "concept": 0,
+    "entity": 0,
+    "signal": 0
+   },
+   "coverage": {
+    "added_since": 403,
+    "basis_videos": 0,
+    "complete": false,
+    "coverage_pct": 0.1641,
+    "ingested_videos": 403,
+    "total_videos": 2456
+   },
+   "display_name": "Dan McClellan",
+   "side": null,
+   "slug": "dan-mcclellan"
   },
   {
    "counts": {
@@ -118,9 +136,9 @@
     "added_since": 0,
     "basis_videos": 1500,
     "complete": true,
-    "coverage_pct": 0.9476,
+    "coverage_pct": 0.9428,
     "ingested_videos": 1500,
-    "total_videos": 1583
+    "total_videos": 1591
    },
    "display_name": "Darante' LaMar",
    "side": "deconstruction",
@@ -136,9 +154,9 @@
     "added_since": 0,
     "basis_videos": 2272,
     "complete": true,
-    "coverage_pct": 0.9865,
+    "coverage_pct": 0.9861,
     "ingested_videos": 2272,
-    "total_videos": 2303
+    "total_videos": 2304
    },
    "display_name": "drcraigvideos (William Lane Craig)",
    "side": "apologetics",
@@ -190,9 +208,9 @@
     "added_since": 0,
     "basis_videos": 722,
     "complete": true,
-    "coverage_pct": 0.955,
+    "coverage_pct": 0.9513,
     "ingested_videos": 722,
-    "total_videos": 756
+    "total_videos": 759
    },
    "display_name": "Jude 3 Project",
    "side": "apologetics",
@@ -241,12 +259,12 @@
     "signal": 1
    },
    "coverage": {
-    "added_since": 0,
+    "added_since": 448,
     "basis_videos": 768,
-    "complete": false,
-    "coverage_pct": 0.5881,
-    "ingested_videos": 768,
-    "total_videos": 1306
+    "complete": true,
+    "coverage_pct": 0.9297,
+    "ingested_videos": 1216,
+    "total_videos": 1308
    },
    "display_name": "Mike Winger",
    "side": "apologetics",
@@ -262,13 +280,31 @@
     "added_since": 0,
     "basis_videos": 557,
     "complete": true,
-    "coverage_pct": 0.9964,
+    "coverage_pct": 0.9929,
     "ingested_videos": 557,
-    "total_videos": 559
+    "total_videos": 561
    },
    "display_name": "Mindshift (Brandon)",
    "side": "deconstruction",
    "slug": "mindshift"
+  },
+  {
+   "counts": {
+    "concept": 0,
+    "entity": 0,
+    "signal": 0
+   },
+   "coverage": {
+    "added_since": 0,
+    "basis_videos": 67,
+    "complete": false,
+    "coverage_pct": 0.1379,
+    "ingested_videos": 67,
+    "total_videos": 486
+   },
+   "display_name": "Jay (NeverFlameNeverTilt)",
+   "side": null,
+   "slug": "neverflamenevertilt"
   },
   {
    "counts": {
@@ -280,9 +316,9 @@
     "added_since": 0,
     "basis_videos": 721,
     "complete": true,
-    "coverage_pct": 0.9783,
+    "coverage_pct": 0.977,
     "ingested_videos": 721,
-    "total_videos": 737
+    "total_videos": 738
    },
    "display_name": "Paulogia",
    "side": "deconstruction",
@@ -316,9 +352,9 @@
     "added_since": 0,
     "basis_videos": 712,
     "complete": false,
-    "coverage_pct": 0.4552,
+    "coverage_pct": 0.455,
     "ingested_videos": 712,
-    "total_videos": 1564
+    "total_videos": 1565
    },
    "display_name": "ReasonableFaithOrg",
    "side": "apologetics",
@@ -341,6 +377,42 @@
    "display_name": "Shannon Q",
    "side": "deconstruction",
    "slug": "shannon-q"
+  },
+  {
+   "counts": {
+    "concept": 0,
+    "entity": 0,
+    "signal": 0
+   },
+   "coverage": {
+    "added_since": 112,
+    "basis_videos": 0,
+    "complete": false,
+    "coverage_pct": 0.5957,
+    "ingested_videos": 112,
+    "total_videos": 188
+   },
+   "display_name": "The Antibot",
+   "side": null,
+   "slug": "the-antibot"
+  },
+  {
+   "counts": {
+    "concept": 0,
+    "entity": 0,
+    "signal": 0
+   },
+   "coverage": {
+    "added_since": 752,
+    "basis_videos": 22,
+    "complete": false,
+    "coverage_pct": 0.2456,
+    "ingested_videos": 774,
+    "total_videos": 3151
+   },
+   "display_name": "The Omnist Rone",
+   "side": null,
+   "slug": "the-omnist-rone"
   }
  ],
  "meta": {
