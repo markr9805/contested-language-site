@@ -289,6 +289,18 @@
      "confidence": null,
      "context": "Oh man. Okay, so he said, and devote to destruction all that they have. Do not spare them, but kill both man and woman. Child and infant. 1 Samuel chapter 15, verse 3. Okay. But you know what? You can just probably Google time God told his people to kill everybody, and you're gonna find a bunch of these. These directives involve the deliberate killing of children, conflicting with the notion of a loving deity.",
      "creator": "darante-lamar",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2024-12-04T19:13:28Z",
+     "role": "host",
+     "t": 894.08,
+     "title": "Does God Love The Kids",
+     "video_id": "-T-pAnSk22E"
+    },
+    {
+     "confidence": null,
+     "context": "Oh man. Okay, so he said, and devote to destruction all that they have. Do not spare them, but kill both man and woman. Child and infant. 1 Samuel chapter 15, verse 3. Okay. But you know what? You can just probably Google time God told his people to kill everybody, and you're gonna find a bunch of these. These directives involve the deliberate killing of children, conflicting with the notion of a loving deity.",
+     "creator": "darante-lamar",
      "detection_method": "explicit_citation",
      "matched_translation": null,
      "published_at": "2024-12-04T19:13:28Z",
@@ -347,12 +359,12 @@
     }
    ],
    "creators": {
-    "darante-lamar": 1,
+    "darante-lamar": 2,
     "jude-3-project": 1,
     "mike-winger": 1,
     "mindshift": 2
    },
-   "n": 5,
+   "n": 6,
    "text": {
     "KJV": "Now go and smite Amalek, and utterly destroy all that they have, and spare them not; but slay both man and woman, infant and suckling, ox and sheep, camel and ass.",
     "WEB": "Now go and strike Amalek, and utterly destroy all that they have, and don’t spare them; but kill both man and woman, infant and nursing baby, ox and sheep, camel and donkey.’”"
@@ -422,8 +434,45 @@
    },
    "truncated": false
   },
+  "1 Samuel 16:11": {
+   "citations": [
+    {
+     "confidence": 0.5405,
+     "context": "Such younger sons within the household, having no prospects for inheritance, found status, wealth, and prestige in military, government, and priestly service. But let's take a look at that passage. 1 Samuel 16 11. Samuel said to Jesse, Are all your sons here? And he said, There remains yet the youngest, but he is keeping the sheep. And Samuel said to Jesse, send and bring him, for we will not sit down until he comes here. So this is referring to David as Hakaton.",
+     "creator": "dan-mcclellan",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-07-17T15:25:57Z",
+     "role": "host",
+     "t": 604.36,
+     "title": "Did Elisha curse little boys or young men?",
+     "video_id": "V0TohurmsC4"
+    }
+   ],
+   "creators": {
+    "dan-mcclellan": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And Samuel said unto Jesse, Are here all thy children? And he said, There remaineth yet the youngest, and, behold, he keepeth the sheep. And Samuel said unto Jesse, Send and fetch him: for we will not sit down till he come hither.",
+    "WEB": "Samuel said to Jesse, “Are all your children here?” He said, “There remains yet the youngest. Behold, he is keeping the sheep.” Samuel said to Jesse, “Send and get him, for we will not sit down until he comes here.”"
+   },
+   "truncated": false
+  },
   "1 Samuel 16:13": {
    "citations": [
+    {
+     "confidence": null,
+     "context": "So Samuel knew that much about David, but didn't know what it would look like. In fact, he got it wrong. He's like, surely this is the one. Oh no, not him. He does this over and over again with every one of the sons. Then he's finally anointed. In 1 Samuel chapter 16, verse 13. It says, Then Samuel took the horn of oil and anointed him in the midst of his brothers, and the Spirit of the Lord rushed upon David from that day forward. David is one of those rare Old Testament people who had the Holy Spirit rush upon him, you know, come into his life in some empowering way and stay with him.",
+     "creator": "mike-winger",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2018-10-16T00:00:00Z",
+     "role": "host",
+     "t": 1127.36,
+     "title": "How David is a Type of Christ: How to find Jesus in the OT pt 13",
+     "video_id": "KH4RaAbqlXw"
+    },
     {
      "confidence": null,
      "context": "So Samuel knew that much about David, but didn't know what it would look like. In fact, he got it wrong. He's like, surely this is the one. Oh no, not him. He does this over and over again with every one of the sons. Then he's finally anointed. In 1 Samuel chapter 16, verse 13. It says, Then Samuel took the horn of oil and anointed him in the midst of his brothers, and the Spirit of the Lord rushed upon David from that day forward. David is one of those rare Old Testament people who had the Holy Spirit rush upon him, you know, come into his life in some empowering way and stay with him.",
@@ -450,9 +499,9 @@
     }
    ],
    "creators": {
-    "mike-winger": 2
+    "mike-winger": 3
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "Then Samuel took the horn of oil, and anointed him in the midst of his brethren: and the Spirit of the LORD came upon David from that day forward. So Samuel rose up, and went to Ramah.",
     "WEB": "Then Samuel took the horn of oil and anointed him in the middle of his brothers. Then the LORD’s Spirit came mightily on David from that day forward. So Samuel rose up and went to Ramah."
@@ -1159,6 +1208,18 @@
      "confidence": null,
      "context": "Uh it's just like the Bible says amazing. All right, let's go back to the account now. First Samuel chapter 17, verse 4 says this a champion named Goliath, who was from Gath, came out from the Philistine camp. His height was six cubits and a span. Now, a cubit was about 18 inches.",
      "creator": "cross-examined",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2026-06-10T01:00:06Z",
+     "role": "host",
+     "t": 1011.48,
+     "title": "God the Artist: What You Never Knew About David & Goliath",
+     "video_id": "_rJZiLCwKz0"
+    },
+    {
+     "confidence": null,
+     "context": "Uh it's just like the Bible says amazing. All right, let's go back to the account now. First Samuel chapter 17, verse 4 says this a champion named Goliath, who was from Gath, came out from the Philistine camp. His height was six cubits and a span. Now, a cubit was about 18 inches.",
+     "creator": "cross-examined",
      "detection_method": "explicit_citation",
      "matched_translation": null,
      "published_at": "2026-06-10T01:00:06Z",
@@ -1169,9 +1230,9 @@
     }
    ],
    "creators": {
-    "cross-examined": 1
+    "cross-examined": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "And there went out a champion out of the camp of the Philistines, named Goliath, of Gath, whose height was six cubits and a span.",
     "WEB": "A champion out of the camp of the Philistines named Goliath of Gath, whose height was six cubits and a span went out."
@@ -1506,6 +1567,18 @@
      "confidence": null,
      "context": "If the Bible can't agree on whether anyone has seen God, how can it claim to be perfectly inspired? Who killed Goliath? First Samuel chapter 17, verse 50 says David kills Goliath. 2 Samuel chapter 21, verse 19 says Elhanan killed Goliath. The contradiction here is two different people are credited with killing the same giant. Now some translations try to smooth this out, but the Hebrew is absolutely clear.",
      "creator": "darante-lamar",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2025-05-05T19:40:43Z",
+     "role": "host",
+     "t": 268.88,
+     "title": "The Bible’s Biggest Contradictions — And Why They Matter More Than You Think",
+     "video_id": "j9ge1onMAFc"
+    },
+    {
+     "confidence": null,
+     "context": "If the Bible can't agree on whether anyone has seen God, how can it claim to be perfectly inspired? Who killed Goliath? First Samuel chapter 17, verse 50 says David kills Goliath. 2 Samuel chapter 21, verse 19 says Elhanan killed Goliath. The contradiction here is two different people are credited with killing the same giant. Now some translations try to smooth this out, but the Hebrew is absolutely clear.",
+     "creator": "darante-lamar",
      "detection_method": "explicit_citation",
      "matched_translation": null,
      "published_at": "2025-05-05T19:40:43Z",
@@ -1516,11 +1589,11 @@
     }
    ],
    "creators": {
-    "darante-lamar": 1,
+    "darante-lamar": 2,
     "jackie-hill-perry": 2,
     "mike-winger": 1
    },
-   "n": 4,
+   "n": 5,
    "text": {
     "KJV": "So David prevailed over the Philistine with a sling and with a stone, and smote the Philistine, and slew him; but there was no sword in the hand of David.",
     "WEB": "So David prevailed over the Philistine with a sling and with a stone, and struck the Philistine and killed him; but there was no sword in David’s hand."
@@ -2122,6 +2195,31 @@
    },
    "n": 1,
    "text": {},
+   "truncated": false
+  },
+  "1 Samuel 22:16": {
+   "citations": [
+    {
+     "confidence": 1.0,
+     "context": "This is a threat of immediate execution. And the only reason it doesn't happen is because the people stop Saul. So you'll note that we have threats from God and threats from people. But let's go on. 1 Samuel 22, 16, the king said, You shall surely die, Ahimelech, you and all your father's house. And this is Saul again confronting the priests and says to Ahimelech, you shall die, you and all your house. And the very next words in the Bible are Saul turning to his guards and saying, Kill them.",
+     "creator": "dan-mcclellan",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2026-08-26T19:07:56Z",
+     "role": "host",
+     "t": 688.24,
+     "title": "Responding to criticisms of a recent video",
+     "video_id": "hQweFLlpkP8"
+    }
+   ],
+   "creators": {
+    "dan-mcclellan": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And the king said, Thou shalt surely die, Ahimelech, thou, and all thy father's house.",
+    "WEB": "The king said, “You shall surely die, Ahimelech, you and all your father’s house.”"
+   },
    "truncated": false
   },
   "1 Samuel 23:1": {
@@ -2884,6 +2982,18 @@
      "confidence": null,
      "context": "Hannah got to the point when she was no longer worried about what she thought she needed, but became a person who was satisfied in the God that she already had. How do I know? Because in 1 Samuel chapter 2, verse 1, she prays again and she says this sentence. She says, My heart exalts in the Lord. What does it mean to exalt? To adult means to have joy, to be happy. That means that her heart was not happy in a child. Her heart was not happy in what she wanted, but her heart was happy in who she had, which was God.",
      "creator": "jackie-hill-perry",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2019-03-12T22:54:47Z",
+     "role": "host",
+     "t": 359.48,
+     "title": "The Secret to Surrender",
+     "video_id": "_c99IlwYWVs"
+    },
+    {
+     "confidence": null,
+     "context": "Hannah got to the point when she was no longer worried about what she thought she needed, but became a person who was satisfied in the God that she already had. How do I know? Because in 1 Samuel chapter 2, verse 1, she prays again and she says this sentence. She says, My heart exalts in the Lord. What does it mean to exalt? To adult means to have joy, to be happy. That means that her heart was not happy in a child. Her heart was not happy in what she wanted, but her heart was happy in who she had, which was God.",
+     "creator": "jackie-hill-perry",
      "detection_method": "explicit_citation",
      "matched_translation": null,
      "published_at": "2019-03-12T22:54:47Z",
@@ -2894,9 +3004,9 @@
     }
    ],
    "creators": {
-    "jackie-hill-perry": 1
+    "jackie-hill-perry": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "And Hannah prayed, and said, My heart rejoiceth in the LORD, mine horn is exalted in the LORD: my mouth is enlarged over mine enemies; because I rejoice in thy salvation.",
     "WEB": "Hannah prayed, and said, “My heart exults in the LORD! My horn is exalted in the LORD. My mouth is enlarged over my enemies, because I rejoice in your salvation."
@@ -2959,11 +3069,35 @@
      "confidence": null,
      "context": "I think that that's a beautiful thing, actually. I think that's really wonderful. Self focus is actually pretty contradictory in worship because worship is about who you're focusing on, right? And so I want to worship God and give it all to him. In 1 Samuel chapter 30, verse 6, we read about David encouraging himself in the Lord. This is the last one of these passages we'll go to, but if you would please turn there. 1 Samuel 30.",
      "creator": "mike-winger",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2016-08-07T07:47:14Z",
+     "role": "host",
+     "t": 1262.28,
+     "title": "HOW TO \"Encourage Yourself in the Lord\" - Psalm 33",
+     "video_id": "ERpEfcUxVYg"
+    },
+    {
+     "confidence": null,
+     "context": "I think that that's a beautiful thing, actually. I think that's really wonderful. Self focus is actually pretty contradictory in worship because worship is about who you're focusing on, right? And so I want to worship God and give it all to him. In 1 Samuel chapter 30, verse 6, we read about David encouraging himself in the Lord. This is the last one of these passages we'll go to, but if you would please turn there. 1 Samuel 30.",
+     "creator": "mike-winger",
      "detection_method": "explicit_citation",
      "matched_translation": null,
      "published_at": "2016-08-07T07:47:14Z",
      "role": "host",
      "t": 1262.28,
+     "title": "HOW TO \"Encourage Yourself in the Lord\" - Psalm 33",
+     "video_id": "ERpEfcUxVYg"
+    },
+    {
+     "confidence": null,
+     "context": "And David's people are not happy with guess who? David. Because when you're the leader, you get blamed or you get credit, whether you deserve it or not, right? So in 1 Samuel chapter 30, verse 6, here's the response. Now David was greatly distressed, for the people spoke of stoning him. They're like, let's kill David. Like my wife's gone, my kid's gone, let's kill David.",
+     "creator": "mike-winger",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2016-08-07T07:47:14Z",
+     "role": "host",
+     "t": 1330.08,
      "title": "HOW TO \"Encourage Yourself in the Lord\" - Psalm 33",
      "video_id": "ERpEfcUxVYg"
     },
@@ -2981,9 +3115,9 @@
     }
    ],
    "creators": {
-    "mike-winger": 2
+    "mike-winger": 4
    },
-   "n": 2,
+   "n": 4,
    "text": {
     "KJV": "And David was greatly distressed; for the people spake of stoning him, because the soul of all the people was grieved, every man for his sons and for his daughters: but David encouraged himself in the LORD his God.",
     "WEB": "David was greatly distressed, for the people spoke of stoning him, because the souls of all the people were grieved, every man for his sons and for his daughters; but David strengthened himself in the LORD his God."
@@ -3059,6 +3193,31 @@
    "text": {
     "KJV": "And when his armourbearer saw that Saul was dead, he fell likewise upon his sword, and died with him.",
     "WEB": "When his armor bearer saw that Saul was dead, he likewise fell on his sword, and died with him."
+   },
+   "truncated": false
+  },
+  "1 Samuel 3:13": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "This was you. And now David realizes how bad he he is, and it's a negative word. But Chris is saying the New Testament is different, okay? Because the Old Testament, you can't even argue about it. Um, the Old Testament, there's too many negative words to count. Let me give you another example. First Samuel chapter 13, sorry, chapter 3, verse 13. First Samuel, uh, this is where Samuel gets his first prophetic word from the Lord, and it's God telling Samuel to take a message to Eli, the priest, the current high priest, and he's like, I got a message for the the man of God, the high priest, and I declare to him that I'm about to punish his house forever for the iniquity that he knew because his sons were blaspheming God and he did not restrain them.",
+     "creator": "mike-winger",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2025-02-07T23:19:10Z",
+     "role": "host",
+     "t": 487.36,
+     "title": "Wrong about the gift of prophecy: 10 Qs with Mike Winger (Ep 44)",
+     "video_id": "eMlSaOwYO5w"
+    }
+   ],
+   "creators": {
+    "mike-winger": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "For I have told him that I will judge his house for ever for the iniquity which he knoweth; because his sons made themselves vile, and he restrained them not.",
+    "WEB": "For I have told him that I will judge his house forever for the iniquity which he knew, because his sons brought a curse on themselves, and he didn’t restrain them."
    },
    "truncated": false
   },

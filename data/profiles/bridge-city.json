@@ -1,16 +1,28 @@
 {
  "lines": {
-  "34222": {
-   "context": "Also, beginning in December, we're having office hours. Every Thursday will be a set time each week where anyone from anywhere can come in and ask questions, get clarity, or talk all things Bridge City. This is your direct line to leadership, a global touch point, a place to stay informed, aligned, and supported. Check the Global Campus Events calendar for the exact time.",
+  "17314": {
+   "context": "Uh I'm old school. I've I've been doing this for for a long time. Uh shoot, I done preached without the lights on at the church before, so let's keep rolling. So let's let's talk about the shift to shared values over shared beliefs. Bridge City does things differently. Instead of asking, do you believe what we believe? We ask, do you value what we value? And guess what we value? Because values are lived, not just recited. And when we align on values, even if our beliefs differ, we can still create powerful community.",
    "creator": "darante-lamar",
-   "occurrence_id": 34222,
-   "published_at": "2025-11-24T07:36:20Z",
+   "occurrence_id": 17314,
+   "published_at": "2025-09-15T06:17:14Z",
    "quoted": false,
    "role": "host",
    "surface": "bridge city",
-   "t": 412.2,
-   "title": "Humanism From the Heart w/ Steve Ghikadis // Sunday Sessions",
-   "video_id": "CRbjUBuLXzY"
+   "t": 2807.84,
+   "title": "Did You Get My Message // HOMECOMING // Sunday Sessions",
+   "video_id": "6qgOdm-NxeE"
+  },
+  "25527": {
+   "context": "The beacon that provides space for this growing secular community which transcends the limitations of religious community. Become the substrate which helps cultivate an atmosphere of secular acceptance for those who are ready to build a new and better world. A watch party is one of the easiest ways to start creating local connection around the Bridge City experience. It can be small, simple, and meaningful, just a few people gathering in person to watch, reflect, and build together. If you're interested in becoming that spark in your area, visit the link on the screen and check out everything you need to start, host, and lead a watch party.",
+   "creator": "darante-lamar",
+   "occurrence_id": 25527,
+   "published_at": "2026-04-13T07:23:39Z",
+   "quoted": false,
+   "role": "unknown",
+   "surface": "bridge city",
+   "t": 461.2,
+   "title": "How You Livin' // LOUDER",
+   "video_id": "A8NF_9RlKHg"
   }
  },
  "profiles": [
@@ -21,21 +33,70 @@
     {
      "aspect": "valence",
      "evidence": [
-      34222
+      17314
      ],
      "text": "It carries a positive valence, suggesting growth, improvement, and connection ('building better,' 'global campus') (L3, L6, L7, L8, L11)."
     }
    ],
    "composition": {
-    "darante-lamar": 1
+    "darante-lamar": 2
    },
    "data_hash": "3a1f1b37215a2fe93b106c8b",
-   "date_range": {
-    "earliest": "2025-11-24T07:36:20Z",
-    "latest": "2025-11-24T07:36:20Z"
-   },
    "dropped_claims": 0,
    "generated_at": "2026-07-19T14:23:34Z",
+   "k": 2,
+   "model": "ollama:gemma4:e4b:c6eb396dbd59",
+   "n": 1490,
+   "prompt_version": "1",
+   "sampled": [
+    16318,
+    16317,
+    17314,
+    18952,
+    2438,
+    29299,
+    29300,
+    34222,
+    17201,
+    25231,
+    16063,
+    23288,
+    21081,
+    17290,
+    30309,
+    25527
+   ],
+   "sense": 0,
+   "stale": true,
+   "term": "bridge city"
+  },
+  {
+   "aspects_missing": [],
+   "cell": "overall",
+   "claims": [
+    {
+     "aspect": "function",
+     "evidence": [
+      17314,
+      25527
+     ],
+     "text": "The term is used to name a community or organization that provides resources for involvement and development (L1, L2, L5). It also functions as a descriptor for a growing global campus with various activities like events and clubs (L3, L4, L16)."
+    },
+    {
+     "aspect": "valence",
+     "evidence": [
+      17314,
+      25527
+     ],
+     "text": "The term carries positive valence, suggesting growth, improvement, and a sense of belonging (L16). It is associated with building something better and providing opportunities for connection (L3, L6)."
+    }
+   ],
+   "composition": {
+    "darante-lamar": 2
+   },
+   "data_hash": "3a1f1b37215a2fe93b106c8b",
+   "dropped_claims": 0,
+   "generated_at": "2026-07-19T14:24:22Z",
    "k": 2,
    "model": "ollama:gemma4:e4b:c6eb396dbd59",
    "n": 1490,

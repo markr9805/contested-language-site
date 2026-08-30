@@ -192,6 +192,18 @@
      "confidence": null,
      "context": "And that brings us to reason number two. The Bible is the product of many eyewitness accounts. 2 Peter chapter 1, verse 16. For we did not follow cunningly devised fables when we made known to you the power and coming of our Lord Jesus Christ, but were eyewitnesses of his majesty. In this passage, Peter's telling believers that they don't follow fairy tales, and he tells them that he was an eyewitness of Jesus himself.",
      "creator": "paulogia",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2026-01-22T14:30:00Z",
+     "role": "host",
+     "t": 1215.64,
+     "title": "4 Reasons You Can TRUST the Bible (Impact response)",
+     "video_id": "whUhWnk1hQs"
+    },
+    {
+     "confidence": null,
+     "context": "And that brings us to reason number two. The Bible is the product of many eyewitness accounts. 2 Peter chapter 1, verse 16. For we did not follow cunningly devised fables when we made known to you the power and coming of our Lord Jesus Christ, but were eyewitnesses of his majesty. In this passage, Peter's telling believers that they don't follow fairy tales, and he tells them that he was an eyewitness of Jesus himself.",
+     "creator": "paulogia",
      "detection_method": "explicit_citation",
      "matched_translation": null,
      "published_at": "2026-01-22T14:30:00Z",
@@ -240,10 +252,10 @@
    "creators": {
     "counsel-of-trent": 1,
     "mike-winger": 4,
-    "paulogia": 3,
+    "paulogia": 4,
     "prophet-of-zod": 2
    },
-   "n": 10,
+   "n": 11,
    "text": {
     "KJV": "For we have not followed cunningly devised fables, when we made known unto you the power and coming of our Lord Jesus Christ, but were eyewitnesses of his majesty.",
     "WEB": "For we didn’t follow cunningly devised fables when we made known to you the power and coming of our Lord Jesus Christ, but we were eyewitnesses of his majesty."
@@ -363,6 +375,18 @@
   "2 Peter 1:3": {
    "citations": [
     {
+     "confidence": 0.75,
+     "context": "There, Peter says, His divine power has granted to us all things that pertain to life and godliness through the knowledge of him who called us to his own glory and excellence, by which he has granted to us his precious and very great promises, that through these you may escape the corruption that is in the world because of passion and become partakers of the divine nature.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2021-08-09T17:04:00Z",
+     "role": "host",
+     "t": 587.0,
+     "title": "Final Thoughts: The Purpose of Defenders",
+     "video_id": "Ctou_S_eWN8"
+    },
+    {
      "confidence": null,
      "context": "The secret things belong to the Lord our God, but the things revealed belong to us and to our children forever, that we may follow all the words of this law. In first Corinthians 14 33, for God is not a God of confusion, but of peace, as in the churches of the saints. Second Peter 1:3, His divine power has given us everything we need for a godly life through our knowledge of Him who called us by His own glory and goodness. And John 15, 15, no longer do I call you servants, for the servant does not know what his master is doing. But I have called you friends.",
      "creator": "mindshift",
@@ -389,9 +413,10 @@
    ],
    "creators": {
     "counsel-of-trent": 1,
-    "mindshift": 1
+    "mindshift": 1,
+    "reasonable-faith-org": 1
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "According as his divine power hath given unto us all things that pertain unto life and godliness, through the knowledge of him that hath called us to glory and virtue:",
     "WEB": "seeing that his divine power has granted to us all things that pertain to life and godliness, through the knowledge of him who called us by his own glory and virtue,"
@@ -400,6 +425,42 @@
   },
   "2 Peter 1:3-11": {
    "citations": [
+    {
+     "confidence": null,
+     "context": "What does a disciple of Christ look like? Turn to Second Peter chapter one, verses three to eleven, where we have a very interesting list of the character qualities that ought to describe a Christian disciple.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2021-08-09T17:04:00Z",
+     "role": "host",
+     "t": 571.08,
+     "title": "Final Thoughts: The Purpose of Defenders",
+     "video_id": "Ctou_S_eWN8"
+    },
+    {
+     "confidence": null,
+     "context": "What does a disciple of Christ look like? Turn to Second Peter chapter one, verses three to eleven, where we have a very interesting list of the character qualities that ought to describe a Christian disciple.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2021-08-09T17:04:00Z",
+     "role": "host",
+     "t": 571.08,
+     "title": "Final Thoughts: The Purpose of Defenders",
+     "video_id": "Ctou_S_eWN8"
+    },
+    {
+     "confidence": null,
+     "context": "Good morning. As we close out our Defender's class, we've been thinking about the character qualities of a disciple of Christ listed in 2 Peter chapter 1, verses 3 to 11. There is one quality that ought to be characteristic of our pursuit of all of these virtues.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2021-08-16T15:22:36Z",
+     "role": "host",
+     "t": 10.64,
+     "title": "Final Thoughts 2: The Diligence of a Disciple",
+     "video_id": "rVsmd1Gf9IU"
+    },
     {
      "confidence": null,
      "context": "Good morning. As we close out our Defender's class, we've been thinking about the character qualities of a disciple of Christ listed in 2 Peter chapter 1, verses 3 to 11. There is one quality that ought to be characteristic of our pursuit of all of these virtues.",
@@ -414,9 +475,9 @@
     }
    ],
    "creators": {
-    "reasonable-faith-org": 1
+    "reasonable-faith-org": 4
    },
-   "n": 1,
+   "n": 4,
    "text": {},
    "truncated": false
   },
@@ -445,13 +506,26 @@
      "t": 201.48,
      "title": "20 Questions with Pastor Mike (Episode 63)",
      "video_id": "9dOS4d8wU9U"
+    },
+    {
+     "confidence": 0.5455,
+     "context": "There, Peter says, His divine power has granted to us all things that pertain to life and godliness through the knowledge of him who called us to his own glory and excellence, by which he has granted to us his precious and very great promises, that through these you may escape the corruption that is in the world because of passion and become partakers of the divine nature.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2021-08-09T17:04:00Z",
+     "role": "host",
+     "t": 587.0,
+     "title": "Final Thoughts: The Purpose of Defenders",
+     "video_id": "Ctou_S_eWN8"
     }
    ],
    "creators": {
     "mike-winger": 1,
-    "mindshift": 1
+    "mindshift": 1,
+    "reasonable-faith-org": 1
    },
-   "n": 2,
+   "n": 3,
    "text": {
     "KJV": "Whereby are given unto us exceeding great and precious promises: that by these ye might be partakers of the divine nature, having escaped the corruption that is in the world through lust.",
     "WEB": "by which he has granted to us his precious and exceedingly great promises; that through these you may become partakers of the divine nature, having escaped from the corruption that is in the world by lust."
@@ -489,6 +563,18 @@
      "confidence": null,
      "context": "Let's talk about the biology of belief here. The language used in 2 Peter and Jude is intentionally visceral. It stops being about truth versus error and starts being about clean versus unclean. In 2 Peter chapter 2, verses 1 through 3 and verse 22, the author describes dissenting teachers as bringing in destructive heresies and famously compares them to dogs returning to their vomit or pigs returning to the mud. In Jude 12, Jude calls them hidden reefs, clouds without rain, and autumn trees without fruit and uprooted twice dead.",
      "creator": "darante-lamar",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2026-02-17T18:07:42Z",
+     "role": "host",
+     "t": 918.8,
+     "title": "Everything Wrong With the General Epistles: Damage Control Christianity",
+     "video_id": "Hs21vfPzbVE"
+    },
+    {
+     "confidence": null,
+     "context": "Let's talk about the biology of belief here. The language used in 2 Peter and Jude is intentionally visceral. It stops being about truth versus error and starts being about clean versus unclean. In 2 Peter chapter 2, verses 1 through 3 and verse 22, the author describes dissenting teachers as bringing in destructive heresies and famously compares them to dogs returning to their vomit or pigs returning to the mud. In Jude 12, Jude calls them hidden reefs, clouds without rain, and autumn trees without fruit and uprooted twice dead.",
+     "creator": "darante-lamar",
      "detection_method": "explicit_citation",
      "matched_translation": null,
      "published_at": "2026-02-17T18:07:42Z",
@@ -499,14 +585,26 @@
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "darante-lamar": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {},
    "truncated": false
   },
   "2 Peter 2:10-11": {
    "citations": [
+    {
+     "confidence": null,
+     "context": "And this would be an indication of the sort of authority structure that exists even among these demonic creatures. 2 Peter chapter 2, verses 10 to 11 says something very similar. Here, Peter also speaks of those who indulge in the lust of defiling passion and despise authority.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2024-09-16T04:07:56Z",
+     "role": "host",
+     "t": 866.72,
+     "title": "// Defenders LIVE! //",
+     "video_id": "cjGfMtIQC0A"
+    },
     {
      "confidence": null,
      "context": "And this would be an indication of the sort of authority structure that exists even among these demonic creatures. 2 Peter chapter 2, verses 10 to 11 says something very similar. Here, Peter also speaks of those who indulge in the lust of defiling passion and despise authority.",
@@ -521,14 +619,26 @@
     }
    ],
    "creators": {
-    "reasonable-faith-org": 1
+    "reasonable-faith-org": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {},
    "truncated": false
   },
   "2 Peter 2:14": {
    "citations": [
+    {
+     "confidence": null,
+     "context": "Um, how do I know this? Well, look at Second Peter. Second Peter tells us the same thing. I mean, do you catch this? The the details in scripture are so beautiful. They give us all these insights into our lives. Well, 2 Peter chapter 2, verse 14, it's going to tell us not only the wickedness of these false teachers, but some of the problems of the people who follow them. Now, here's the good news. If this is you, you can change. You just realize, wait a minute, something I was loving is something I should turn from.",
+     "creator": "mike-winger",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2020-11-22T22:43:31Z",
+     "role": "host",
+     "t": 1271.8,
+     "title": "Kenneth Copeland Cures Your Baldness and Ruins Your Faith",
+     "video_id": "HmSKp39U5Ng"
+    },
     {
      "confidence": null,
      "context": "Um, how do I know this? Well, look at Second Peter. Second Peter tells us the same thing. I mean, do you catch this? The the details in scripture are so beautiful. They give us all these insights into our lives. Well, 2 Peter chapter 2, verse 14, it's going to tell us not only the wickedness of these false teachers, but some of the problems of the people who follow them. Now, here's the good news. If this is you, you can change. You just realize, wait a minute, something I was loving is something I should turn from.",
@@ -543,9 +653,9 @@
     }
    ],
    "creators": {
-    "mike-winger": 1
+    "mike-winger": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Having eyes full of adultery, and that cannot cease from sin; beguiling unstable souls: an heart they have exercised with covetous practices; cursed children:",
     "WEB": "having eyes full of adultery, and who can’t cease from sin, enticing unsettled souls, having a heart trained in greed, accursed children!"
@@ -621,6 +731,18 @@
      "confidence": null,
      "context": "Maybe you never notice them because you never read them in this light. Look, for example, at 2 Peter chapter 2, verses 20 to 22. He writes, for if after they have escaped the defilements of the world through the knowledge of our Lord and Savior Jesus Christ, they are again entangled in them and overpowered.",
      "creator": "reasonable-faith-org",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2026-04-13T03:53:46Z",
+     "role": "host",
+     "t": 973.4,
+     "title": "Doctrine of Salvation Part 20: Warnings Against Apostasy || Defenders LIVE!",
+     "video_id": "LPpndqrD5hk"
+    },
+    {
+     "confidence": null,
+     "context": "Maybe you never notice them because you never read them in this light. Look, for example, at 2 Peter chapter 2, verses 20 to 22. He writes, for if after they have escaped the defilements of the world through the knowledge of our Lord and Savior Jesus Christ, they are again entangled in them and overpowered.",
+     "creator": "reasonable-faith-org",
      "detection_method": "explicit_citation",
      "matched_translation": null,
      "published_at": "2026-04-13T03:53:46Z",
@@ -628,6 +750,18 @@
      "t": 973.4,
      "title": "Doctrine of Salvation Part 20: Warnings Against Apostasy || Defenders LIVE!",
      "video_id": "LPpndqrD5hk"
+    },
+    {
+     "confidence": null,
+     "context": "Maybe you never notice them because you never read them in this light. Look, for example, at 2 Peter chapter 2, verses 20 to 22. He writes, for if after they have escaped the defilements of the world through the knowledge of our Lord and Savior Jesus Christ, they are again entangled in them and overpowered.",
+     "creator": "reasonable-faith-org",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2020-12-14T22:40:11Z",
+     "role": "host",
+     "t": 979.4,
+     "title": "Doctrine of Salvation Part 20: Warnings Against Apostasy",
+     "video_id": "u7nffiwbh-w"
     },
     {
      "confidence": null,
@@ -643,9 +777,9 @@
     }
    ],
    "creators": {
-    "reasonable-faith-org": 2
+    "reasonable-faith-org": 4
    },
-   "n": 2,
+   "n": 4,
    "text": {},
    "truncated": false
   },
@@ -780,6 +914,18 @@
      "confidence": null,
      "context": "However, because they're written decades after the resurrection, they have to pivot from anticipating the end to enforcing the end. In 1 Peter chapter 4, verse 7, the end of all things is near, he says. In 2 Peter chapter 3, verses 10 through 12, the author describes the heavens disappearing with aurora and the elements melting in the heat. These letters provide no roadmap for a long-term civilization. There is no plan B for what happens if the sun rises tomorrow, because they assume the clock is at 11 59 p.m.",
      "creator": "darante-lamar",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2026-02-17T18:07:42Z",
+     "role": "host",
+     "t": 1667.64,
+     "title": "Everything Wrong With the General Epistles: Damage Control Christianity",
+     "video_id": "Hs21vfPzbVE"
+    },
+    {
+     "confidence": null,
+     "context": "However, because they're written decades after the resurrection, they have to pivot from anticipating the end to enforcing the end. In 1 Peter chapter 4, verse 7, the end of all things is near, he says. In 2 Peter chapter 3, verses 10 through 12, the author describes the heavens disappearing with aurora and the elements melting in the heat. These letters provide no roadmap for a long-term civilization. There is no plan B for what happens if the sun rises tomorrow, because they assume the clock is at 11 59 p.m.",
+     "creator": "darante-lamar",
      "detection_method": "explicit_citation",
      "matched_translation": null,
      "published_at": "2026-02-17T18:07:42Z",
@@ -790,9 +936,9 @@
     }
    ],
    "creators": {
-    "darante-lamar": 1
+    "darante-lamar": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {},
    "truncated": false
   },
@@ -984,6 +1130,18 @@
      "confidence": null,
      "context": "Look at 2 Peter chapter 3, verses 3 and 4, talking about the second coming of Christ. First of all, you must understand this that scoffers will come in the last days with scoffing, following their own passions and saying, where is the promise of his coming?",
      "creator": "reasonable-faith-org",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2021-06-14T16:59:03Z",
+     "role": "host",
+     "t": 525.24,
+     "title": "Doctrine of the Last Things: Part 13 - Final Thoughts on the Time of the Second Coming",
+     "video_id": "Wi7Fa1HsM5s"
+    },
+    {
+     "confidence": null,
+     "context": "Look at 2 Peter chapter 3, verses 3 and 4, talking about the second coming of Christ. First of all, you must understand this that scoffers will come in the last days with scoffing, following their own passions and saying, where is the promise of his coming?",
+     "creator": "reasonable-faith-org",
      "detection_method": "explicit_citation",
      "matched_translation": null,
      "published_at": "2021-06-14T16:59:03Z",
@@ -1006,10 +1164,10 @@
     }
    ],
    "creators": {
-    "reasonable-faith-org": 1,
+    "reasonable-faith-org": 2,
     "the-antibot": 1
    },
-   "n": 2,
+   "n": 3,
    "text": {},
    "truncated": false
   },
@@ -1130,6 +1288,18 @@
      "confidence": null,
      "context": "God, who is eternal isn't bound by our human timescales. So in 2 Peter chapter 3, verses 8 to 10, Peter says, but do not ignore this one fact, beloved, that with the Lord one day is as a thousand years, and a thousand years as one day.",
      "creator": "reasonable-faith-org",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2021-06-14T16:59:03Z",
+     "role": "host",
+     "t": 244.64,
+     "title": "Doctrine of the Last Things: Part 13 - Final Thoughts on the Time of the Second Coming",
+     "video_id": "Wi7Fa1HsM5s"
+    },
+    {
+     "confidence": null,
+     "context": "God, who is eternal isn't bound by our human timescales. So in 2 Peter chapter 3, verses 8 to 10, Peter says, but do not ignore this one fact, beloved, that with the Lord one day is as a thousand years, and a thousand years as one day.",
+     "creator": "reasonable-faith-org",
      "detection_method": "explicit_citation",
      "matched_translation": null,
      "published_at": "2021-06-14T16:59:03Z",
@@ -1140,7 +1310,29 @@
     }
    ],
    "creators": {
-    "reasonable-faith-org": 1
+    "reasonable-faith-org": 2
+   },
+   "n": 2,
+   "text": {},
+   "truncated": false
+  },
+  "2 Peter 3:8-9": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "So let's get straight to point seven contradictions and problematic passages, starting with contradictions and going to our list. Let's talk about the delay of the second coming. So the claim from Second Peter in chapter 3, verse 8 through 9, the author explains that the delay in Christ's return is due to God's patience, and that a day is like a thousand years. That's where this comes from. But this is hands down a contradiction, a total different idea than everything else that we get about Jesus' second coming and it happening soon and soon meaning soon.",
+     "creator": "mindshift",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2024-09-19T14:00:48Z",
+     "role": "host",
+     "t": 692.24,
+     "title": "2 Peter: Apocalyptic Excuses! | Secular Bible Study (Episode 61)",
+     "video_id": "lWxwthRN_T0"
+    }
+   ],
+   "creators": {
+    "mindshift": 1
    },
    "n": 1,
    "text": {},
@@ -1148,6 +1340,18 @@
   },
   "2 Peter 3:9": {
    "citations": [
+    {
+     "confidence": null,
+     "context": "Why build a library? Why invest in the long-term emotional health of your children? You're taught to live in a state of spiritual bags packed, which leads to a profound disconnection from the present moment. In 2 Peter chapter 3, verse 9, it tries to explain the delay by saying God is patient. But for the believer, this delay feels like a never-ending exam. You're forced to maintain a peak level of spiritual intensity indefinitely, which inevitably leads to burnout and disassociation.",
+     "creator": "darante-lamar",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2026-02-17T18:07:42Z",
+     "role": "host",
+     "t": 1716.64,
+     "title": "Everything Wrong With the General Epistles: Damage Control Christianity",
+     "video_id": "Hs21vfPzbVE"
+    },
     {
      "confidence": null,
      "context": "Why build a library? Why invest in the long-term emotional health of your children? You're taught to live in a state of spiritual bags packed, which leads to a profound disconnection from the present moment. In 2 Peter chapter 3, verse 9, it tries to explain the delay by saying God is patient. But for the believer, this delay feels like a never-ending exam. You're forced to maintain a peak level of spiritual intensity indefinitely, which inevitably leads to burnout and disassociation.",
@@ -1185,6 +1389,18 @@
      "video_id": "UO92L11L9jc"
     },
     {
+     "confidence": null,
+     "context": "But Muslims and Hindus and Jews and people all over the planet, he loved them so much that he sent his son Jesus so that they would have everlasting life and that they wouldn't perish. And then 2 Peter 3:9 says, He is patient with you, not wanting anyone to perish, but he wants everyone to come to repentance. This is the heart of Jesus. And 1 Timothy uh chapter 2, 3 to 6 says, This is good and it is pleasing in the sight of God, our Savior, who desires all people to be saved and to come to know the knowledge of the truth.",
+     "creator": "the-omnist-rone",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-02-24T15:48:52Z",
+     "role": "unknown",
+     "t": 4928.24,
+     "title": "CHRISTIANS ARE LOSING THEIR MINDS OVER THIS! New Age, Witchcraft & The Great Deconstruction EXPOSED!",
+     "video_id": "kjvFs9vJMQ8"
+    },
+    {
      "confidence": 0.6207,
      "context": "It's like he can easily wait as long as it takes. So don't try to measure things based on your lifespan, which is exactly the problem people fall into predicting the end of the world. They always think it's gonna happen in their life. So um the scripture goes on. The Lord is not slack concerning his promise, as some count slackness, but is long suffering toward us, not willing that any should perish, but that all should come to repentance. Then he goes on. But the day of the Lord will come as a thief in the night, in which the heavens will pass away with a great noise and the elements will melt with fervent heat, both the earth and the works in it will be burned up.",
      "creator": "mike-winger",
@@ -1200,6 +1416,18 @@
      "confidence": null,
      "context": "And he for God. Shh, darling. Trust me. God's sake. It's for the best. God loves us. John chapter 3, verse 16 and wants us to be saved from hell. Second Peter chapter 3, verse 9. But because God is also just and righteous, he cannot allow our sin to go unpunished. Someone has to pay for it. In his great mercy and love, God provided his own payment for our sin.",
      "creator": "belief-it-or-not",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2022-10-02T09:00:33Z",
+     "role": "unknown",
+     "t": 2032.52,
+     "title": "Is God the Bad Guy? | Belief It Or Not",
+     "video_id": "vrcpthx7yO4"
+    },
+    {
+     "confidence": null,
+     "context": "And he for God. Shh, darling. Trust me. God's sake. It's for the best. God loves us. John chapter 3, verse 16 and wants us to be saved from hell. Second Peter chapter 3, verse 9. But because God is also just and righteous, he cannot allow our sin to go unpunished. Someone has to pay for it. In his great mercy and love, God provided his own payment for our sin.",
+     "creator": "belief-it-or-not",
      "detection_method": "explicit_citation",
      "matched_translation": null,
      "published_at": "2022-10-02T09:00:33Z",
@@ -1207,6 +1435,18 @@
      "t": 2032.52,
      "title": "Is God the Bad Guy? | Belief It Or Not",
      "video_id": "vrcpthx7yO4"
+    },
+    {
+     "confidence": null,
+     "context": "Sometimes he says he won't do it to the future generations, sometimes he says he will. Sometimes he says he won't curse parents for what their children do and children for what their parents do, but sometimes that's exactly what he does. He's supposed to be a God that is slow to anger and quick to be forgiving. So again, if we compare this with the New Testament, let's go to 2 Peter and we'll go to chapter 3, verse 9. The Lord is not slow to fulfill his promise as someone counts slowness, but is patient toward you, not wishing that any should perish, but that all should reach repentance. He wants everyone to be saved, everyone to have a chance to encounter him and reach repentance.",
+     "creator": "mindshift",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2023-10-19T14:00:41Z",
+     "role": "host",
+     "t": 1248.84,
+     "title": "Psalms: A Warlord's Dirty Little Diary | Secular Bible Study (Episode 19)",
+     "video_id": "w8sjyeBcH5E"
     },
     {
      "confidence": null,
@@ -1222,12 +1462,14 @@
     }
    ],
    "creators": {
-    "belief-it-or-not": 1,
-    "darante-lamar": 1,
+    "belief-it-or-not": 2,
+    "darante-lamar": 2,
     "drcraigvideos": 1,
-    "mike-winger": 3
+    "mike-winger": 3,
+    "mindshift": 1,
+    "the-omnist-rone": 1
    },
-   "n": 6,
+   "n": 10,
    "text": {
     "KJV": "The Lord is not slack concerning his promise, as some men count slackness; but is longsuffering to us-ward, not willing that any should perish, but that all should come to repentance.",
     "WEB": "The Lord is not slow concerning his promise, as some count slowness; but he is patient with us, not wishing that anyone should perish, but that all should come to repentance."

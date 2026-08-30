@@ -5,7 +5,7 @@
     "cite_key": "40b083cdeb028f038570bfec2c747d3c130a92b7249c217cf156dbc5c026811b",
     "context": "It says, Look at the fig tree and all the trees. As soon as they come out in leaf, you see for yourselves and know that summer is already near. So also when you see these things taking place, you know that the kingdom of God is near. Truly I say to you, this generation will not pass away until all has taken place. Heaven and earth will pass away, but my words will not pass away. What generation? The generation that is there when you see the fig tree budding and getting its leaf, right?",
     "creator": "mike-winger",
-    "dist": 0.2744,
+    "dist": 0.2691,
     "published_at": "2018-04-25T02:04:38Z",
     "role": "host",
     "t": 2722.84,
@@ -17,7 +17,7 @@
     "cite_key": "4b19ee9191be95436e9e9e802e27f7e849e3c469c6acda244cc0d5cfef4bd0ae",
     "context": "From the fig tree learn its lesson. As soon as the branch becomes tender and puts out its leaves, you know that summer is near also. So also when you see all these things, you know that it is that he is near at the very gates. Truly I say to you, this generation, the one who sees all these things, will not pass away until these all these things take place. Heaven and earth will pass away, but my words will not pass away. Um in Mark, the parallel passage, Jesus gives one particular sign to watch for, which is the um abomination of desolation.",
     "creator": "mike-winger",
-    "dist": 0.2859,
+    "dist": 0.2877,
     "published_at": "2020-10-23T21:26:06Z",
     "role": "host",
     "t": 780.68,
@@ -29,7 +29,7 @@
     "cite_key": "27db4f17c5c2355c12b8d613477506dd7c5aca669ee265a2d8675c0bc7522324",
     "context": "As soon as its branch becomes tender and puts forth its leaves, you know that summer is near. So also, when you see these things taking place, you know that he is near at the very gates. Truly, I say to you, this generation will not pass away before all these things take place. Heaven and earth will pass away, but my words will not pass away. But of that day or that hour, no one knows, not even the angels in heaven, nor the Son, but only the Father.",
     "creator": "reasonable-faith-org",
-    "dist": 0.3004,
+    "dist": 0.3048,
     "published_at": "2026-07-19T15:55:55Z",
     "role": "host",
     "t": 855.76,
@@ -41,7 +41,7 @@
     "cite_key": "535ae13e2e3f1bb532fcf03b702f7c3f879fe96fdbf0bb1c3c0da10e50c7bccd",
     "context": "As soon as its branch becomes tender and puts forth its leaves, you know that summer is near. So also, when you see these things taking place, you know that he is near at the very gates. Truly, I say to you, this generation will not pass away before all these things take place. Heaven and earth will pass away, but my words will not pass away. But of that day or that hour, no one knows, not even the angels in heaven, nor the Son, but only the Father.",
     "creator": "reasonable-faith-org",
-    "dist": 0.3004,
+    "dist": 0.3048,
     "published_at": "2021-03-22T16:00:01Z",
     "role": "host",
     "t": 861.76,
@@ -53,7 +53,7 @@
     "cite_key": "fe47431a83c0bdeec1e40751b948dd7a6702d76036a693641ff1185ba33e9e85",
     "context": "Now we have verses 32 through 35. From the fig tree learn its lesson. As soon as its branch becomes tender and puts forth its leaves, you know that summer is near. So also, when you see all these things, you know that he is near at the very gates. Truly I tell you, this generation will not pass away until all these things have taken place. Heaven and earth will pass away, but my words will not pass away. So here we have a prophecy that just as the prophecy in Matthew 16 predicts the coming of the Son of Man in glory with his angels, and predicts that some of the people standing there with Jesus would be around to see it.",
     "creator": "dan-mcclellan",
-    "dist": 0.3053,
+    "dist": 0.3165,
     "published_at": "2026-06-22T18:15:29Z",
     "role": "host",
     "t": 568.6,
@@ -156,6 +156,14 @@
      "n": 11,
      "status": "ok"
     },
+    "neverflamenevertilt": {
+     "counts": [
+      1,
+      0
+     ],
+     "n": 1,
+     "status": "insufficient-data"
+    },
     "reasonable-faith-org": {
      "counts": [
       2,
@@ -171,14 +179,14 @@
    "cells": {
     "overall": {
      "counts": [
-      8,
+      9,
       7
      ],
      "dist": [
-      0.5333,
-      0.4667
+      0.5625,
+      0.4375
      ],
-     "n": 15,
+     "n": 16,
      "status": "ok"
     }
    },
@@ -188,14 +196,14 @@
    "cells": {
     "host": {
      "counts": [
-      8,
+      9,
       6
      ],
      "dist": [
-      0.5714,
-      0.4286
+      0.6,
+      0.4
      ],
-     "n": 14,
+     "n": 15,
      "status": "ok"
     },
     "unknown": {
@@ -245,10 +253,10 @@
     },
     "2026": {
      "counts": [
-      2,
+      3,
       0
      ],
-     "n": 2,
+     "n": 3,
      "status": "insufficient-data"
     }
    },
@@ -256,8 +264,8 @@
   }
  },
  "k": 2,
- "n": 15,
- "silhouette": 0.1978,
+ "n": 16,
+ "silhouette": 0.205,
  "status": "ok",
  "verse_ref": "Matthew 24:35"
 }

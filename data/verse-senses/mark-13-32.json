@@ -5,7 +5,7 @@
     "cite_key": "2d567bfcfbe9f067a3eb6e67a0af0b255f53cee1cc18b11042a9dd98515da826",
     "context": "Finally, I want to consider one more saying. Jesus saying on the date of his second coming in Mark 13, 32. Jesus said, But of that day or that hour, no man knows, not even the angels in heaven, nor the Son, but only the Father. This is an authentic saying of the historical Jesus because the later church, which regarded Jesus as divine, would never have invented a saying ascribing ignorance or limited knowledge to Jesus.",
     "creator": "drcraigvideos",
-    "dist": 0.2829,
+    "dist": 0.2865,
     "published_at": "2008-01-27T08:01:45Z",
     "role": "host",
     "t": 244.64,
@@ -17,7 +17,7 @@
     "cite_key": "dc219266a51e493d8ac031d2e4d3dcc33b2209037e96865b3bee3982d996e266",
     "context": "Here's Mark 13 and verse 32. Mark 13, 32. Here's how it goes. But of that day or that hour, no man knows, not even the angels in heaven, nor the Son, but only the Father. Now, this is again highly likely to be an authentic saying of the historical Jesus, because the later church, which attributed divinity to Jesus, would never have invented a saying attributing ignorance to Jesus.",
     "creator": "drcraigvideos",
-    "dist": 0.292,
+    "dist": 0.2876,
     "published_at": "2010-12-20T10:04:14Z",
     "role": "host",
     "t": 806.12,
@@ -29,7 +29,7 @@
     "cite_key": "9b49048328a8e2f750b174a10ff54cbe80aa5287e43269ef62d423a65931b063",
     "context": "Finally, I want to consider one more saying. Jesus saying on the date of his second coming, as recorded in Mark 13, 32. He said, But of that day or that hour, no man knows, not even the angels in heaven, nor the Son, but only the Father. This is an authentic saying of the historical Jesus because the later church, which regarded Jesus as divine, would never have invented a saying attributing limited knowledge or ignorance to Jesus.",
     "creator": "drcraigvideos",
-    "dist": 0.2921,
+    "dist": 0.2965,
     "published_at": "2010-09-27T10:11:44Z",
     "role": "host",
     "t": 40.88,
@@ -41,7 +41,7 @@
     "cite_key": "83bc2044cb2014225020c2d6d0f86923af911c68af7040462c101a730ac16023",
     "context": "Jesus said, but of that day or that hour, no man knows, not even the angels in heaven, nor the Son, but only the Father. This is an authentic saying of the historical Jesus because the later church, which regarded Jesus as divine, would never have invented a saying ascribing ignorance or limited knowledge to Jesus.",
     "creator": "drcraigvideos",
-    "dist": 0.3275,
+    "dist": 0.3353,
     "published_at": "2025-09-12T19:01:02Z",
     "role": "host",
     "t": 0.16,
@@ -53,7 +53,7 @@
     "cite_key": "5535f6c6e03fab64d1e193a13b5836efe6cf8c779481effbb263199633542f69",
     "context": "Mark 13 and verse 32. Mental limitations as well as physical are indicated here. Part of his Olivet discourse on the end times. He says, But of that day or that hour, no one knows, not even the angels in heaven, nor the Son, but only the Father. Here Jesus says that he does not know the date of his return.",
     "creator": "reasonable-faith-org",
-    "dist": 0.348,
+    "dist": 0.3423,
     "published_at": "2023-04-02T16:25:43Z",
     "role": "host",
     "t": 610.92,
@@ -176,6 +176,14 @@
      "n": 2,
      "status": "insufficient-data"
     },
+    "neverflamenevertilt": {
+     "counts": [
+      1,
+      0
+     ],
+     "n": 1,
+     "status": "insufficient-data"
+    },
     "reasonable-faith-org": {
      "counts": [
       2,
@@ -191,14 +199,14 @@
    "cells": {
     "overall": {
      "counts": [
-      14,
+      15,
       6
      ],
      "dist": [
-      0.7,
-      0.3
+      0.7143,
+      0.2857
      ],
-     "n": 20,
+     "n": 21,
      "status": "ok"
     }
    },
@@ -208,14 +216,14 @@
    "cells": {
     "host": {
      "counts": [
-      13,
+      14,
       6
      ],
      "dist": [
-      0.6842,
-      0.3158
+      0.7,
+      0.3
      ],
-     "n": 19,
+     "n": 20,
      "status": "ok"
     },
     "unknown": {
@@ -297,10 +305,10 @@
     },
     "2026": {
      "counts": [
-      0,
+      1,
       1
      ],
-     "n": 1,
+     "n": 2,
      "status": "insufficient-data"
     }
    },
@@ -308,8 +316,8 @@
   }
  },
  "k": 2,
- "n": 20,
- "silhouette": 0.1617,
+ "n": 21,
+ "silhouette": 0.1579,
  "status": "ok",
  "verse_ref": "Mark 13:32"
 }

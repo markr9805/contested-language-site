@@ -35,7 +35,7 @@
   {
    "creator_count": 43,
    "distinctiveness": 10.44,
-   "note": "Critique of patriarchal religions",
+   "note": "Criticizing patriarchal religions as oppressive to women",
    "quotes": [
     {
      "context": "...caused by just being raised in [patriarchal religion] or society in patriarchal religions the...",
@@ -84,25 +84,6 @@
    "surface": "cheat death"
   },
   {
-   "creator_count": 140,
-   "distinctiveness": 9.32,
-   "note": "rejects nonsense spirituality",
-   "quotes": [
-    {
-     "context": "...tiktok i've published a book no [nonsense spirituality] it's a bestseller on amazon there's...",
-     "t": 481.68,
-     "video_id": "2vBz9dvdsRs"
-    },
-    {
-     "context": "...spiritual director who goes by no [nonsense spirituality] online i have a master's degree...",
-     "t": 5.52,
-     "video_id": "G2v80bINymA"
-    }
-   ],
-   "signal": 1,
-   "surface": "nonsense spirituality"
-  },
-  {
    "creator_count": 31,
    "distinctiveness": 9.24,
    "note": null,
@@ -144,15 +125,24 @@
   }
  ],
  "coverage": {
-  "added_since": 1,
-  "basis_videos": 207,
+  "added_since": 0,
+  "basis_videos": 209,
   "complete": true,
-  "coverage_pct": 1.0,
-  "ingested_videos": 208,
-  "total_videos": 208
+  "coverage_pct": 0.9952,
+  "ingested_videos": 209,
+  "total_videos": 210
  },
  "display_name": "No Nonsense Spirituality (Britt Hartley)",
- "entities": [],
+ "entities": [
+  {
+   "creator_count": 140,
+   "distinctiveness": 9.32,
+   "note": null,
+   "quotes": [],
+   "signal": 0,
+   "surface": "nonsense spirituality"
+  }
+ ],
  "side": "deconstruction",
  "slug": "britt-hartley"
 }

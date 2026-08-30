@@ -5,7 +5,7 @@
     "cite_key": "4047e9d5201312782ddf64f08d74cb64e13f9d6e53df8f84e1075579e29ad66f",
     "context": "What I am saying, brothers and sisters, is this flesh and blood cannot inherit the kingdom of God, nor does the perishable inherit the imperishable. Look, I will tell you a mystery. We will not all die, but we will all be changed in a moment, in the twinkling of an eye at the last trumpet. For the trumpet will sound, and the dead will be raised imperishable, and we will be changed. Jesus also spoke of both the dead and the living being given new bodies at the end of time.",
     "creator": "genetically-modified-skeptic",
-    "dist": 0.2409,
+    "dist": 0.2634,
     "published_at": "2023-10-28T14:48:54Z",
     "role": "host",
     "t": 940.8,
@@ -17,7 +17,7 @@
     "cite_key": "57cd106b46b8bf6b90fc578e1ecd3dbf6033b13587b0c367f399fdb526385632",
     "context": "I tell you this, brethren, flesh and blood cannot inherit the kingdom of God, nor does the perishable inherit the imperishable. Lo, I tell you a mystery. We shall not all sleep, but we shall all be changed in a moment, in the twinkling of an eye, at the last trumpet. For the trumpet will sound, and the dead will be raised imperishable, and we shall be changed.",
     "creator": "reasonable-faith-org",
-    "dist": 0.2572,
+    "dist": 0.2811,
     "published_at": "2023-10-02T04:07:19Z",
     "role": "host",
     "t": 256.4,
@@ -29,7 +29,7 @@
     "cite_key": "1e11bd87912d7b184d733077cf4a336b99afe633e5d31fda5585b9b86214a1c6",
     "context": "Behold, I tell you a mystery. We shall not all sleep, but we shall all be changed, right? We're going to be changed. Even those who don't die when Jesus returns, you'll go through a transformation from the old body into the new without having actually died. In a moment, in the twinkling of an eye, at the last trumpet, for the trumpet will sound, and here's what happens when Jesus returns, right? The dead will be raised imperishable. That's that's that means they got that new body. And we, whoever's alive, right, when Jesus shows up, we shall be changed.",
     "creator": "mike-winger",
-    "dist": 0.2858,
+    "dist": 0.2907,
     "published_at": "2022-07-29T22:05:36Z",
     "role": "host",
     "t": 573.56,
@@ -41,7 +41,7 @@
     "cite_key": "24eaa22622af4c1c33af1f1bb31811754ad9a7d54bf71c4e0ee7ffb00489cf2b",
     "context": "Behold, I tell you a mystery. We shall not all sleep, but we shall all be changed, right? We're going to be changed. Even those who don't die when Jesus returns, you'll go through a transformation from the old body into the new without having actually died. In a moment, in the twinkling of an eye, at the last trumpet, for the trumpet will sound, and here's what happens when Jesus returns, right? The dead will be raised imperishable. That's that's that means they got that new body. And we, whoever's alive, right, when Jesus shows up, we shall be changed.",
     "creator": "mike-winger",
-    "dist": 0.2858,
+    "dist": 0.2907,
     "published_at": "2023-02-14T00:19:01Z",
     "role": "host",
     "t": 555.88,
@@ -53,7 +53,7 @@
     "cite_key": "ca10cd3e1ced2cd253de149ca5a1bba2aa1ee893102640e11fde2c67a0fd9334",
     "context": "Flesh and blood cannot inherit the kingdom of God, nor does the perishable inherit the imperishable. Behold, I tell you a mystery, we shall not all sleep, but we shall all be changed. In a moment, in the twinkling of an eye, at the last trumpet, for the trumpet will sound, and the dead will be raised imperishable, and we shall be changed. For this perishable body must put on the imperishable, and this mortal body must put on immortality.",
     "creator": "mike-winger",
-    "dist": 0.3051,
+    "dist": 0.3214,
     "published_at": "2019-06-26T01:38:22Z",
     "role": "host",
     "t": 1842.12,
@@ -159,6 +159,14 @@
      ],
      "n": 5,
      "status": "insufficient-data"
+    },
+    "the-omnist-rone": {
+     "counts": [
+      1,
+      0
+     ],
+     "n": 1,
+     "status": "insufficient-data"
     }
    },
    "divergences": {}
@@ -167,14 +175,14 @@
    "cells": {
     "overall": {
      "counts": [
-      6,
+      7,
       5
      ],
      "dist": [
-      0.5455,
-      0.4545
+      0.5833,
+      0.4167
      ],
-     "n": 11,
+     "n": 12,
      "status": "ok"
     }
    },
@@ -193,6 +201,14 @@
      ],
      "n": 11,
      "status": "ok"
+    },
+    "unknown": {
+     "counts": [
+      1,
+      0
+     ],
+     "n": 1,
+     "status": "insufficient-data"
     }
    },
    "divergences": {}
@@ -239,6 +255,14 @@
      "n": 2,
      "status": "insufficient-data"
     },
+    "2025": {
+     "counts": [
+      1,
+      0
+     ],
+     "n": 1,
+     "status": "insufficient-data"
+    },
     "2026": {
      "counts": [
       0,
@@ -252,8 +276,8 @@
   }
  },
  "k": 2,
- "n": 11,
- "silhouette": 0.2519,
+ "n": 12,
+ "silhouette": 0.2297,
  "status": "ok",
  "verse_ref": "1 Corinthians 15:52"
 }

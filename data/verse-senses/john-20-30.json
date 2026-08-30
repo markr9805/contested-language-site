@@ -64,28 +64,40 @@
   ],
   "1": [
    {
-    "cite_key": "9aaf864fb69eb49685bc3073b02ef8fb4432f417472a99fed61542dd3f4f53a2",
-    "context": "Wait. Mike said part thirteen was the final part. Why is there a part fourteen? The Gospel of John ends with. Now Jesus did many other signs in the presence of the disciples, which were not written in this book, but these are written so that you may believe that Jesus is the Christ, the Son of God, and that by believing, you may have life in his name. But this is not really the ending of John. This is the last verse of chapter 20.",
-    "creator": "paulogia",
-    "dist": 0.2842,
-    "published_at": "2026-05-29T13:30:27Z",
-    "role": "host",
-    "t": 8341.8,
-    "title": "Are the Gospels Historically Reliable? (InspiringPhilosophy response)",
-    "verse_ref": "John 20:30",
-    "video_id": "kO1Z0MrsJmc"
-   },
-   {
     "cite_key": "3c251a317c194e444273ab85f2404de20bf77f02be3df766dd859950e17751a9",
     "context": "What is the relationship, we want to ask between chapter 21 and the rest of the Gospel? Well, in the 20th chapter, verses 30 and 31, the Gospel seems to come to a conclusion. In verses 30 and 31 of chapter 20, the author says, Now Jesus did many other signs in the presence of the disciples, which are not written in this book. But these are written that you may believe that Jesus is the Christ, the Son of God, and that believing you may have life in his name.",
     "creator": "drcraigvideos",
-    "dist": 0.2842,
+    "dist": 0.2602,
     "published_at": "2011-04-17T08:40:12Z",
     "role": "host",
     "t": 865.2,
     "title": "Easter - Part 3 - William Lane Craig",
     "verse_ref": "John 20:30",
     "video_id": "rCgjhchW7sE"
+   },
+   {
+    "cite_key": "9952a933ba9947a5553f4cf746cd508774c476cab595bc0fa662448d325d5138",
+    "context": "I'm a scholar of the Bible and religion, and there is good reason to think that chapter 21 might be in its entirety a secondary edition. Let's take a look at the end of John chapter 20. We have in verse 30 the statement. Now Jesus did many other signs in the presence of his disciples that are not written in this book. But these are written so that you may continue to believe that Jesus is the Messiah, the Son of God, and that through believing you may have life in his name.",
+    "creator": "dan-mcclellan",
+    "dist": 0.2658,
+    "published_at": "2025-08-12T13:35:00Z",
+    "role": "host",
+    "t": 26.64,
+    "title": "Did John’s Gospel originally have only 20 chapters?",
+    "verse_ref": "John 20:30",
+    "video_id": "-_5jbsPyqGo"
+   },
+   {
+    "cite_key": "9aaf864fb69eb49685bc3073b02ef8fb4432f417472a99fed61542dd3f4f53a2",
+    "context": "Wait. Mike said part thirteen was the final part. Why is there a part fourteen? The Gospel of John ends with. Now Jesus did many other signs in the presence of the disciples, which were not written in this book, but these are written so that you may believe that Jesus is the Christ, the Son of God, and that by believing, you may have life in his name. But this is not really the ending of John. This is the last verse of chapter 20.",
+    "creator": "paulogia",
+    "dist": 0.3595,
+    "published_at": "2026-05-29T13:30:27Z",
+    "role": "host",
+    "t": 8341.8,
+    "title": "Are the Gospels Historically Reliable? (InspiringPhilosophy response)",
+    "verse_ref": "John 20:30",
+    "video_id": "kO1Z0MrsJmc"
    }
   ]
  },
@@ -96,6 +108,14 @@
      "counts": [
       1,
       0
+     ],
+     "n": 1,
+     "status": "insufficient-data"
+    },
+    "dan-mcclellan": {
+     "counts": [
+      0,
+      1
      ],
      "n": 1,
      "status": "insufficient-data"
@@ -140,13 +160,13 @@
     "overall": {
      "counts": [
       9,
-      2
+      3
      ],
      "dist": [
-      0.8182,
-      0.1818
+      0.75,
+      0.25
      ],
-     "n": 11,
+     "n": 12,
      "status": "ok"
     }
    },
@@ -157,10 +177,14 @@
     "host": {
      "counts": [
       7,
-      2
+      3
      ],
-     "n": 9,
-     "status": "insufficient-data"
+     "dist": [
+      0.7,
+      0.3
+     ],
+     "n": 10,
+     "status": "ok"
     },
     "unknown": {
      "counts": [
@@ -218,9 +242,9 @@
     "2025": {
      "counts": [
       5,
-      0
+      1
      ],
-     "n": 5,
+     "n": 6,
      "status": "insufficient-data"
     },
     "2026": {
@@ -236,8 +260,8 @@
   }
  },
  "k": 2,
- "n": 11,
- "silhouette": 0.1762,
+ "n": 12,
+ "silhouette": 0.1632,
  "status": "ok",
  "verse_ref": "John 20:30"
 }

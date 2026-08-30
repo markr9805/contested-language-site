@@ -20,22 +20,29 @@
   "accountability": {
    "file": "accountability.json",
    "k": 2,
-   "n": 1869,
-   "silhouette": 0.0475,
+   "n": 1914,
+   "silhouette": 0.0501,
    "status": "ok"
   },
   "apostasy": {
    "file": "apostasy.json",
    "k": 2,
-   "n": 873,
-   "silhouette": 0.1015,
+   "n": 890,
+   "silhouette": 0.1008,
    "status": "ok"
   },
   "apostate": {
    "file": "apostate.json",
    "k": 3,
-   "n": 1131,
+   "n": 1138,
    "silhouette": 0.0766,
+   "status": "ok"
+  },
+  "atheist": {
+   "file": "atheist.json",
+   "k": 2,
+   "n": 24988,
+   "silhouette": 0.05,
    "status": "ok"
   },
   "bridge city": {
@@ -48,22 +55,22 @@
   "clout": {
    "file": "clout.json",
    "k": 2,
-   "n": 169,
-   "silhouette": 0.077,
+   "n": 178,
+   "silhouette": 0.0747,
    "status": "ok"
   },
   "community": {
    "file": "community.json",
    "k": 2,
-   "n": 27575,
-   "silhouette": 0.0641,
+   "n": 28000,
+   "silhouette": 0.0638,
    "status": "ok"
   },
   "deconstruction": {
    "file": "deconstruction.json",
    "k": 2,
-   "n": 1927,
-   "silhouette": 0.0482,
+   "n": 2031,
+   "silhouette": 0.048,
    "status": "ok"
   },
   "deconstruction influencer": {
@@ -71,11 +78,18 @@
    "n": 0,
    "status": "insufficient-data"
   },
+  "deconversion": {
+   "file": "deconversion.json",
+   "k": 2,
+   "n": 2323,
+   "silhouette": 0.0339,
+   "status": "ok"
+  },
   "discernment": {
    "file": "discernment.json",
    "k": 2,
-   "n": 699,
-   "silhouette": 0.0395,
+   "n": 713,
+   "silhouette": 0.0398,
    "status": "ok"
   },
   "discernment ministry": {
@@ -88,21 +102,21 @@
   "do the work": {
    "file": "do-the-work.json",
    "k": 2,
-   "n": 1004,
-   "silhouette": 0.0559,
+   "n": 1018,
+   "silhouette": 0.0563,
    "status": "ok"
   },
   "evidence": {
    "file": "evidence.json",
    "k": 2,
-   "n": 33574,
+   "n": 35185,
    "silhouette": 0.0459,
    "status": "ok"
   },
   "false prophet": {
    "file": "false-prophet.json",
    "k": 2,
-   "n": 686,
+   "n": 730,
    "silhouette": 0.0461,
    "status": "ok"
   },
@@ -123,50 +137,64 @@
   "grace": {
    "file": "grace.json",
    "k": 2,
-   "n": 8496,
-   "silhouette": 0.0621,
+   "n": 8614,
+   "silhouette": 0.0628,
    "status": "ok"
   },
   "grift": {
    "file": "grift.json",
    "k": 6,
-   "n": 153,
-   "silhouette": 0.0518,
+   "n": 161,
+   "silhouette": 0.0491,
    "status": "ok"
   },
   "grifter": {
    "file": "grifter.json",
    "k": 8,
-   "n": 110,
-   "silhouette": 0.0685,
+   "n": 114,
+   "silhouette": 0.068,
+   "status": "ok"
+  },
+  "haram": {
+   "file": "haram.json",
+   "k": 8,
+   "n": 502,
+   "silhouette": 0.0401,
    "status": "ok"
   },
   "harm": {
    "file": "harm.json",
    "k": 2,
-   "n": 6032,
-   "silhouette": 0.0488,
+   "n": 6240,
+   "silhouette": 0.0504,
    "status": "ok"
   },
   "heresy": {
    "file": "heresy.json",
    "k": 3,
-   "n": 1469,
-   "silhouette": 0.0336,
+   "n": 1496,
+   "silhouette": 0.0335,
    "status": "ok"
   },
   "heretic": {
    "file": "heretic.json",
    "k": 2,
-   "n": 946,
-   "silhouette": 0.0419,
+   "n": 968,
+   "silhouette": 0.0399,
+   "status": "ok"
+  },
+  "humanist": {
+   "file": "humanist.json",
+   "k": 2,
+   "n": 1577,
+   "silhouette": 0.1097,
    "status": "ok"
   },
   "love": {
    "file": "love.json",
    "k": 2,
-   "n": 46108,
-   "silhouette": 0.0675,
+   "n": 47904,
+   "silhouette": 0.0718,
    "status": "ok"
   },
   "moral supremism": {
@@ -174,32 +202,53 @@
    "n": 3,
    "status": "insufficient-data"
   },
+  "nihilism": {
+   "file": "nihilism.json",
+   "k": 2,
+   "n": 971,
+   "silhouette": 0.0509,
+   "status": "ok"
+  },
   "purity test": {
    "file": "purity-test.json",
+   "k": 4,
+   "n": 46,
+   "silhouette": 0.1188,
+   "status": "ok"
+  },
+  "sola scriptura": {
+   "file": "sola-scriptura.json",
+   "k": 2,
+   "n": 1215,
+   "silhouette": 0.0588,
+   "status": "ok"
+  },
+  "superstition": {
+   "file": "superstition.json",
    "k": 3,
-   "n": 45,
-   "silhouette": 0.1249,
+   "n": 2435,
+   "silhouette": 0.0893,
    "status": "ok"
   },
   "truth": {
    "file": "truth.json",
    "k": 2,
-   "n": 29851,
-   "silhouette": 0.0486,
+   "n": 30808,
+   "silhouette": 0.048,
    "status": "ok"
   },
   "watchdog": {
    "file": "watchdog.json",
    "k": 2,
-   "n": 57,
-   "silhouette": 0.1326,
+   "n": 59,
+   "silhouette": 0.1285,
    "status": "ok"
   },
   "wolf in sheep's clothing": {
    "file": "wolf-in-sheep-s-clothing.json",
-   "k": 2,
-   "n": 48,
-   "silhouette": 0.0481,
+   "k": 3,
+   "n": 54,
+   "silhouette": 0.0392,
    "status": "ok"
   }
  }

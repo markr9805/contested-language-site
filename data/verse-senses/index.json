@@ -17,6 +17,18 @@
   "seed": 0
  },
  "verses": {
+  "1 Chronicles 10:13": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "1 Chronicles 10:13-14": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "1 Chronicles 10:14": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "1 Chronicles 10:4": {
    "n": 1,
    "status": "insufficient-data"
@@ -54,11 +66,14 @@
    "status": "insufficient-data"
   },
   "1 Chronicles 20:5": {
-   "n": 1,
-   "status": "insufficient-data"
+   "file": "1-chronicles-20-5.json",
+   "k": 2,
+   "n": 13,
+   "silhouette": 0.1333,
+   "status": "ok"
   },
   "1 Chronicles 21:1": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "1 Chronicles 21:4": {
@@ -121,6 +136,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "1 Corinthians 10:1-4": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "1 Corinthians 10:13": {
    "n": 4,
    "status": "insufficient-data"
@@ -154,11 +173,11 @@
    "status": "insufficient-data"
   },
   "1 Corinthians 10:20-21": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "1 Corinthians 10:21": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "1 Corinthians 10:22": {
@@ -206,7 +225,7 @@
    "status": "insufficient-data"
   },
   "1 Corinthians 11:10": {
-   "n": 3,
+   "n": 6,
    "status": "insufficient-data"
   },
   "1 Corinthians 11:14": {
@@ -228,6 +247,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "1 Corinthians 11:17-34": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "1 Corinthians 11:18": {
    "n": 1,
    "status": "insufficient-data"
@@ -237,7 +260,7 @@
    "status": "insufficient-data"
   },
   "1 Corinthians 11:2-16": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "1 Corinthians 11:2-3": {
@@ -404,7 +427,7 @@
    "status": "insufficient-data"
   },
   "1 Corinthians 13:2": {
-   "n": 6,
+   "n": 7,
    "status": "insufficient-data"
   },
   "1 Corinthians 13:4-7": {
@@ -416,7 +439,7 @@
    "status": "insufficient-data"
   },
   "1 Corinthians 13:7": {
-   "n": 8,
+   "n": 9,
    "status": "insufficient-data"
   },
   "1 Corinthians 13:8-13": {
@@ -428,7 +451,7 @@
    "status": "insufficient-data"
   },
   "1 Corinthians 14:1": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "1 Corinthians 14:14": {
@@ -436,7 +459,7 @@
    "status": "insufficient-data"
   },
   "1 Corinthians 14:2": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "1 Corinthians 14:2-3": {
@@ -444,7 +467,7 @@
    "status": "insufficient-data"
   },
   "1 Corinthians 14:22": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "1 Corinthians 14:29-31": {
@@ -481,8 +504,8 @@
   "1 Corinthians 14:34-35": {
    "file": "1-corinthians-14-34-35.json",
    "k": 2,
-   "n": 11,
-   "silhouette": 0.1272,
+   "n": 15,
+   "silhouette": 0.1205,
    "status": "ok"
   },
   "1 Corinthians 14:35": {
@@ -510,7 +533,7 @@
    "status": "insufficient-data"
   },
   "1 Corinthians 15:12": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "1 Corinthians 15:13": {
@@ -606,9 +629,9 @@
   },
   "1 Corinthians 15:3-8": {
    "file": "1-corinthians-15-3-8.json",
-   "k": 3,
-   "n": 30,
-   "silhouette": 0.1991,
+   "k": 2,
+   "n": 32,
+   "silhouette": 0.1863,
    "status": "ok"
   },
   "1 Corinthians 15:31": {
@@ -638,8 +661,8 @@
   "1 Corinthians 15:4": {
    "file": "1-corinthians-15-4.json",
    "k": 3,
-   "n": 31,
-   "silhouette": 0.1106,
+   "n": 32,
+   "silhouette": 0.1143,
    "status": "ok"
   },
   "1 Corinthians 15:40": {
@@ -699,23 +722,27 @@
   "1 Corinthians 15:51": {
    "file": "1-corinthians-15-51.json",
    "k": 2,
-   "n": 14,
-   "silhouette": 0.2241,
+   "n": 15,
+   "silhouette": 0.2041,
    "status": "ok"
   },
+  "1 Corinthians 15:51-53": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "1 Corinthians 15:51-55": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "1 Corinthians 15:52": {
    "file": "1-corinthians-15-52.json",
    "k": 2,
-   "n": 11,
-   "silhouette": 0.2519,
+   "n": 12,
+   "silhouette": 0.2297,
    "status": "ok"
   },
   "1 Corinthians 15:53": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "1 Corinthians 15:56": {
@@ -727,7 +754,7 @@
    "status": "insufficient-data"
   },
   "1 Corinthians 15:6": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "1 Corinthians 15:7": {
@@ -913,6 +940,10 @@
    "n": 2,
    "status": "insufficient-data"
   },
+  "1 Corinthians 2:6-8": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "1 Corinthians 2:7": {
    "n": 1,
    "status": "insufficient-data"
@@ -950,7 +981,7 @@
    "status": "insufficient-data"
   },
   "1 Corinthians 3:12": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "1 Corinthians 3:14": {
@@ -1025,6 +1056,10 @@
    "n": 6,
    "status": "insufficient-data"
   },
+  "1 Corinthians 4:10": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "1 Corinthians 4:11-13": {
    "n": 2,
    "status": "insufficient-data"
@@ -1065,6 +1100,10 @@
    "n": 3,
    "status": "insufficient-data"
   },
+  "1 Corinthians 5:13": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "1 Corinthians 5:4": {
    "n": 1,
    "status": "insufficient-data"
@@ -1082,6 +1121,10 @@
    "status": "insufficient-data"
   },
   "1 Corinthians 5:8": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "1 Corinthians 5:9-11": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -1117,7 +1160,7 @@
    "status": "insufficient-data"
   },
   "1 Corinthians 6:14": {
-   "n": 1,
+   "n": 3,
    "status": "insufficient-data"
   },
   "1 Corinthians 6:15": {
@@ -1180,7 +1223,7 @@
    "status": "insufficient-data"
   },
   "1 Corinthians 6:9": {
-   "n": 5,
+   "n": 6,
    "status": "insufficient-data"
   },
   "1 Corinthians 6:9-10": {
@@ -1252,7 +1295,7 @@
    "status": "insufficient-data"
   },
   "1 Corinthians 7:3": {
-   "n": 1,
+   "n": 3,
    "status": "insufficient-data"
   },
   "1 Corinthians 7:32-38": {
@@ -1272,6 +1315,10 @@
    "status": "insufficient-data"
   },
   "1 Corinthians 7:36-38": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "1 Corinthians 7:38": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -1383,7 +1430,7 @@
    "status": "insufficient-data"
   },
   "1 John 1:5": {
-   "n": 4,
+   "n": 5,
    "status": "insufficient-data"
   },
   "1 John 1:7": {
@@ -1397,8 +1444,8 @@
   "1 John 1:8": {
    "file": "1-john-1-8.json",
    "k": 2,
-   "n": 12,
-   "silhouette": 0.1585,
+   "n": 14,
+   "silhouette": 0.2013,
    "status": "ok"
   },
   "1 John 1:9": {
@@ -1443,8 +1490,8 @@
   "1 John 2:2": {
    "file": "1-john-2-2.json",
    "k": 2,
-   "n": 24,
-   "silhouette": 0.1201,
+   "n": 26,
+   "silhouette": 0.122,
    "status": "ok"
   },
   "1 John 2:20": {
@@ -1460,11 +1507,11 @@
    "status": "insufficient-data"
   },
   "1 John 2:22": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "1 John 2:23": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "1 John 2:23-25": {
@@ -1507,8 +1554,16 @@
    "n": 7,
    "status": "insufficient-data"
   },
+  "1 John 3:16": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "1 John 3:16-20": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "1 John 3:18": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "1 John 3:2": {
@@ -1642,7 +1697,7 @@
    "status": "insufficient-data"
   },
   "1 John 4:7": {
-   "n": 4,
+   "n": 8,
    "status": "insufficient-data"
   },
   "1 John 4:7-8": {
@@ -1650,7 +1705,11 @@
    "status": "insufficient-data"
   },
   "1 John 4:8": {
-   "n": 3,
+   "n": 5,
+   "status": "insufficient-data"
+  },
+  "1 John 4:9": {
+   "n": 2,
    "status": "insufficient-data"
   },
   "1 John 5:1": {
@@ -1677,7 +1736,7 @@
    "status": "ok"
   },
   "1 John 5:20": {
-   "n": 2,
+   "n": 4,
    "status": "insufficient-data"
   },
   "1 John 5:21": {
@@ -1707,8 +1766,8 @@
   "1 John 5:7": {
    "file": "1-john-5-7.json",
    "k": 2,
-   "n": 10,
-   "silhouette": 0.0892,
+   "n": 11,
+   "silhouette": 0.0907,
    "status": "ok"
   },
   "1 John 5:7-8": {
@@ -1736,6 +1795,10 @@
    "status": "insufficient-data"
   },
   "1 Kings 10:24": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "1 Kings 11:16": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -1940,7 +2003,7 @@
    "status": "insufficient-data"
   },
   "1 Kings 19:1": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "1 Kings 19:10": {
@@ -2028,7 +2091,7 @@
    "status": "insufficient-data"
   },
   "1 Kings 22:20": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "1 Kings 22:21": {
@@ -2040,7 +2103,7 @@
    "status": "insufficient-data"
   },
   "1 Kings 22:23": {
-   "n": 6,
+   "n": 7,
    "status": "insufficient-data"
   },
   "1 Kings 22:37": {
@@ -2064,6 +2127,10 @@
    "status": "insufficient-data"
   },
   "1 Kings 2:36": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "1 Kings 2:37": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -2132,7 +2199,7 @@
    "status": "insufficient-data"
   },
   "1 Peter 1:10": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "1 Peter 1:10-11": {
@@ -2148,6 +2215,10 @@
    "status": "insufficient-data"
   },
   "1 Peter 1:17-18": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "1 Peter 1:18-19": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -2187,7 +2258,7 @@
    "status": "insufficient-data"
   },
   "1 Peter 1:6-7": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "1 Peter 1:7": {
@@ -2223,7 +2294,7 @@
    "status": "insufficient-data"
   },
   "1 Peter 2:18": {
-   "n": 1,
+   "n": 3,
    "status": "insufficient-data"
   },
   "1 Peter 2:18-21": {
@@ -2247,7 +2318,7 @@
    "status": "insufficient-data"
   },
   "1 Peter 2:24": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "1 Peter 2:4-5": {
@@ -2350,7 +2421,7 @@
    "status": "insufficient-data"
   },
   "1 Peter 3:4": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "1 Peter 3:5": {
@@ -2422,7 +2493,7 @@
    "status": "insufficient-data"
   },
   "1 Peter 5:7": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "1 Peter 5:8": {
@@ -2474,6 +2545,10 @@
    "status": "insufficient-data"
   },
   "1 Samuel 16:10": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "1 Samuel 16:11": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -2657,6 +2732,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "1 Samuel 22:16": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "1 Samuel 23:1": {
    "n": 1,
    "status": "insufficient-data"
@@ -2797,6 +2876,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "1 Samuel 3:13": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "1 Samuel 3:14": {
    "n": 1,
    "status": "insufficient-data"
@@ -2903,11 +2986,15 @@
    "n": 7,
    "status": "insufficient-data"
   },
+  "1 Thessalonians 4:16-17": {
+   "n": 2,
+   "status": "insufficient-data"
+  },
   "1 Thessalonians 4:17": {
    "file": "1-thessalonians-4-17.json",
    "k": 2,
-   "n": 18,
-   "silhouette": 0.2415,
+   "n": 20,
+   "silhouette": 0.2259,
    "status": "ok"
   },
   "1 Thessalonians 4:18": {
@@ -3021,6 +3108,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "1 Timothy 1:3": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "1 Timothy 1:3-11": {
    "n": 1,
    "status": "insufficient-data"
@@ -3062,11 +3153,11 @@
    "status": "insufficient-data"
   },
   "1 Timothy 2:11": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "1 Timothy 2:11-12": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "1 Timothy 2:11-14": {
@@ -3078,7 +3169,7 @@
    "status": "insufficient-data"
   },
   "1 Timothy 2:12": {
-   "n": 6,
+   "n": 7,
    "status": "insufficient-data"
   },
   "1 Timothy 2:12-13": {
@@ -3097,7 +3188,7 @@
    "status": "insufficient-data"
   },
   "1 Timothy 2:15": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "1 Timothy 2:18": {
@@ -3109,7 +3200,7 @@
    "status": "insufficient-data"
   },
   "1 Timothy 2:3": {
-   "n": 4,
+   "n": 6,
    "status": "insufficient-data"
   },
   "1 Timothy 2:3-6": {
@@ -3119,8 +3210,8 @@
   "1 Timothy 2:4": {
    "file": "1-timothy-2-4.json",
    "k": 2,
-   "n": 13,
-   "silhouette": 0.0965,
+   "n": 15,
+   "silhouette": 0.0817,
    "status": "ok"
   },
   "1 Timothy 2:4-6": {
@@ -3234,6 +3325,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "1 Timothy 4:7-10": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "1 Timothy 4:8": {
    "n": 1,
    "status": "insufficient-data"
@@ -3243,6 +3338,10 @@
    "status": "insufficient-data"
   },
   "1 Timothy 5:1-2": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "1 Timothy 5:10": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -3266,6 +3365,10 @@
    "n": 3,
    "status": "insufficient-data"
   },
+  "1 Timothy 5:19-20": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "1 Timothy 5:20": {
    "n": 1,
    "status": "insufficient-data"
@@ -3274,12 +3377,32 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "1 Timothy 5:3": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "1 Timothy 5:4": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "1 Timothy 5:5": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "1 Timothy 5:6": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "1 Timothy 5:7": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "1 Timothy 5:8": {
    "n": 2,
    "status": "insufficient-data"
   },
   "1 Timothy 5:9": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "1 Timothy 6:10": {
@@ -3287,7 +3410,7 @@
    "status": "insufficient-data"
   },
   "1 Timothy 6:16": {
-   "n": 2,
+   "n": 4,
    "status": "insufficient-data"
   },
   "1 Timothy 6:3-5": {
@@ -3310,8 +3433,12 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "1 Timothy 6:6-11": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "1 Timothy 6:7": {
-   "n": 6,
+   "n": 7,
    "status": "insufficient-data"
   },
   "1 Timothy 6:7-10": {
@@ -3324,6 +3451,10 @@
   },
   "1 Timothy 6:9": {
    "n": 3,
+   "status": "insufficient-data"
+  },
+  "2 Chronicles 15:13": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "2 Chronicles 15:17": {
@@ -3503,7 +3634,7 @@
    "status": "insufficient-data"
   },
   "2 Corinthians 10:5": {
-   "n": 5,
+   "n": 6,
    "status": "insufficient-data"
   },
   "2 Corinthians 10:6": {
@@ -3523,7 +3654,7 @@
    "status": "insufficient-data"
   },
   "2 Corinthians 11:14": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "2 Corinthians 11:2": {
@@ -3650,7 +3781,7 @@
    "status": "insufficient-data"
   },
   "2 Corinthians 2:5": {
-   "n": 1,
+   "n": 3,
    "status": "insufficient-data"
   },
   "2 Corinthians 3:14": {
@@ -3725,11 +3856,11 @@
    "status": "insufficient-data"
   },
   "2 Corinthians 5:1": {
-   "n": 4,
+   "n": 5,
    "status": "insufficient-data"
   },
   "2 Corinthians 5:1-10": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "2 Corinthians 5:1-3": {
@@ -3761,7 +3892,7 @@
    "status": "insufficient-data"
   },
   "2 Corinthians 5:19": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "2 Corinthians 5:21": {
@@ -3775,8 +3906,8 @@
   "2 Corinthians 5:7": {
    "file": "2-corinthians-5-7.json",
    "k": 2,
-   "n": 15,
-   "silhouette": 0.2732,
+   "n": 16,
+   "silhouette": 0.1801,
    "status": "ok"
   },
   "2 Corinthians 5:8": {
@@ -3796,7 +3927,7 @@
    "status": "insufficient-data"
   },
   "2 Corinthians 6:14": {
-   "n": 2,
+   "n": 4,
    "status": "insufficient-data"
   },
   "2 Corinthians 6:14-16": {
@@ -3943,8 +4074,12 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "2 Kings 2:23-24": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "2 Kings 2:23-25": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "2 Kings 2:25": {
@@ -4043,6 +4178,10 @@
    "n": 2,
    "status": "insufficient-data"
   },
+  "2 Kings 4:42-44": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "2 Kings 4:44": {
    "n": 1,
    "status": "insufficient-data"
@@ -4100,7 +4239,7 @@
    "status": "insufficient-data"
   },
   "2 Kings 9:28": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "2 Peter 1:1": {
@@ -4135,15 +4274,15 @@
    "status": "insufficient-data"
   },
   "2 Peter 1:3": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "2 Peter 1:3-11": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "2 Peter 1:4": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "2 Peter 1:8": {
@@ -4218,8 +4357,12 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "2 Peter 3:8-9": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "2 Peter 3:9": {
-   "n": 6,
+   "n": 8,
    "status": "insufficient-data"
   },
   "2 Samuel 11:22": {
@@ -4419,7 +4562,7 @@
    "status": "insufficient-data"
   },
   "2 Samuel 24:1": {
-   "n": 7,
+   "n": 8,
    "status": "insufficient-data"
   },
   "2 Samuel 24:13": {
@@ -4504,6 +4647,10 @@
   },
   "2 Samuel 7:3": {
    "n": 4,
+   "status": "insufficient-data"
+  },
+  "2 Samuel 7:8": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "2 Samuel 7:9": {
@@ -4611,7 +4758,7 @@
    "status": "insufficient-data"
   },
   "2 Thessalonians 2:9": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "2 Thessalonians 2:9-12": {
@@ -4675,7 +4822,7 @@
    "status": "insufficient-data"
   },
   "2 Timothy 2:12": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "2 Timothy 2:13": {
@@ -4715,7 +4862,7 @@
    "status": "insufficient-data"
   },
   "2 Timothy 2:24": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "2 Timothy 3:1-5": {
@@ -4760,8 +4907,8 @@
   "2 Timothy 3:7": {
    "file": "2-timothy-3-7.json",
    "k": 2,
-   "n": 12,
-   "silhouette": 0.2283,
+   "n": 13,
+   "silhouette": 0.2323,
    "status": "ok"
   },
   "2 Timothy 4:1": {
@@ -4798,6 +4945,10 @@
   },
   "2 Timothy 4:7": {
    "n": 3,
+   "status": "insufficient-data"
+  },
+  "3 John 1:1": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "3 John 1:2": {
@@ -4961,7 +5112,7 @@
    "status": "insufficient-data"
   },
   "Acts 12:2": {
-   "n": 6,
+   "n": 7,
    "status": "insufficient-data"
   },
   "Acts 12:21-23": {
@@ -5088,12 +5239,16 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Acts 15:16-17": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Acts 15:17": {
    "n": 1,
    "status": "insufficient-data"
   },
   "Acts 15:20": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Acts 15:25": {
@@ -5146,6 +5301,10 @@
   },
   "Acts 15:9": {
    "n": 2,
+   "status": "insufficient-data"
+  },
+  "Acts 16:1": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Acts 16:13-15": {
@@ -5240,7 +5399,7 @@
    "status": "insufficient-data"
   },
   "Acts 17:23": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Acts 17:24": {
@@ -5300,6 +5459,10 @@
   },
   "Acts 18:1": {
    "n": 2,
+   "status": "insufficient-data"
+  },
+  "Acts 18:12": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Acts 18:13": {
@@ -5425,7 +5588,7 @@
    "status": "insufficient-data"
   },
   "Acts 1:11": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Acts 1:12": {
@@ -5441,7 +5604,7 @@
    "status": "insufficient-data"
   },
   "Acts 1:18": {
-   "n": 4,
+   "n": 6,
    "status": "insufficient-data"
   },
   "Acts 1:21": {
@@ -5497,7 +5660,7 @@
    "status": "insufficient-data"
   },
   "Acts 1:8": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Acts 1:9-11": {
@@ -5529,7 +5692,7 @@
    "status": "insufficient-data"
   },
   "Acts 20:28": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Acts 20:29": {
@@ -5822,8 +5985,8 @@
   "Acts 2:38": {
    "file": "acts-2-38.json",
    "k": 2,
-   "n": 29,
-   "silhouette": 0.0994,
+   "n": 30,
+   "silhouette": 0.0924,
    "status": "ok"
   },
   "Acts 2:4": {
@@ -5843,7 +6006,7 @@
    "status": "insufficient-data"
   },
   "Acts 2:44": {
-   "n": 5,
+   "n": 6,
    "status": "insufficient-data"
   },
   "Acts 2:44-47": {
@@ -5862,12 +6025,16 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Acts 30:9": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Acts 3:1": {
    "n": 1,
    "status": "insufficient-data"
   },
   "Acts 3:17": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Acts 3:18": {
@@ -5883,7 +6050,7 @@
    "status": "insufficient-data"
   },
   "Acts 3:21": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Acts 3:22": {
@@ -5891,6 +6058,10 @@
    "status": "insufficient-data"
   },
   "Acts 3:26": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Acts 3:4": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -6071,7 +6242,7 @@
    "status": "insufficient-data"
   },
   "Acts 6:1": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Acts 6:1-7": {
@@ -6087,6 +6258,10 @@
    "status": "insufficient-data"
   },
   "Acts 6:15": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Acts 6:2": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -6111,6 +6286,10 @@
    "status": "insufficient-data"
   },
   "Acts 7:12": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Acts 7:127": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -6159,7 +6338,7 @@
    "status": "insufficient-data"
   },
   "Acts 7:55": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Acts 7:56": {
@@ -6379,10 +6558,14 @@
    "status": "insufficient-data"
   },
   "Amos 9:11-12": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Amos 9:7": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Amos 9:8": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -6395,6 +6578,10 @@
    "status": "insufficient-data"
   },
   "Colossians 1:12": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Colossians 1:13": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -6432,8 +6619,8 @@
   "Colossians 1:17": {
    "file": "colossians-1-17.json",
    "k": 2,
-   "n": 12,
-   "silhouette": 0.1188,
+   "n": 13,
+   "silhouette": 0.2409,
    "status": "ok"
   },
   "Colossians 1:18": {
@@ -6597,6 +6784,10 @@
   },
   "Colossians 3:21": {
    "n": 1,
+   "status": "insufficient-data"
+  },
+  "Colossians 3:22": {
+   "n": 4,
    "status": "insufficient-data"
   },
   "Colossians 3:23": {
@@ -6799,7 +6990,7 @@
    "status": "insufficient-data"
   },
   "Daniel 3:25": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Daniel 3:26": {
@@ -6867,7 +7058,7 @@
    "status": "insufficient-data"
   },
   "Daniel 7:13": {
-   "n": 5,
+   "n": 6,
    "status": "insufficient-data"
   },
   "Daniel 7:13-14": {
@@ -6919,6 +7110,10 @@
    "status": "insufficient-data"
   },
   "Daniel 9:24-27": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Daniel 9:6": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -7038,6 +7233,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Deuteronomy 16:21": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Deuteronomy 16:3": {
    "n": 1,
    "status": "insufficient-data"
@@ -7132,8 +7331,8 @@
   "Deuteronomy 19:21": {
    "file": "deuteronomy-19-21.json",
    "k": 2,
-   "n": 14,
-   "silhouette": 0.1275,
+   "n": 17,
+   "silhouette": 0.1801,
    "status": "ok"
   },
   "Deuteronomy 1:31": {
@@ -7192,6 +7391,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Deuteronomy 21:18": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Deuteronomy 21:22": {
    "n": 5,
    "status": "insufficient-data"
@@ -7221,6 +7424,10 @@
    "status": "insufficient-data"
   },
   "Deuteronomy 22:20": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Deuteronomy 22:20-21": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -7268,8 +7475,12 @@
    "n": 1,
    "status": "insufficient-data"
   },
-  "Deuteronomy 23:15-16": {
+  "Deuteronomy 22:8-11": {
    "n": 1,
+   "status": "insufficient-data"
+  },
+  "Deuteronomy 23:15-16": {
+   "n": 2,
    "status": "insufficient-data"
   },
   "Deuteronomy 23:16": {
@@ -7364,6 +7575,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Deuteronomy 27:9-10": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Deuteronomy 28:15": {
    "n": 1,
    "status": "insufficient-data"
@@ -7373,6 +7588,10 @@
    "status": "insufficient-data"
   },
   "Deuteronomy 28:27": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Deuteronomy 28:30": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -7401,7 +7620,7 @@
    "status": "insufficient-data"
   },
   "Deuteronomy 28:64": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Deuteronomy 28:65": {
@@ -7532,11 +7751,19 @@
    "n": 6,
    "status": "insufficient-data"
   },
+  "Deuteronomy 32:9": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Deuteronomy 34:10": {
    "n": 3,
    "status": "insufficient-data"
   },
   "Deuteronomy 34:11": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Deuteronomy 34:5": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -7553,10 +7780,14 @@
    "status": "insufficient-data"
   },
   "Deuteronomy 4:17": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Deuteronomy 4:18": {
+   "n": 2,
+   "status": "insufficient-data"
+  },
+  "Deuteronomy 4:19": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -7573,7 +7804,7 @@
    "status": "insufficient-data"
   },
   "Deuteronomy 4:24": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Deuteronomy 4:39": {
@@ -7652,9 +7883,9 @@
   },
   "Deuteronomy 5:7": {
    "file": "deuteronomy-5-7.json",
-   "k": 2,
-   "n": 42,
-   "silhouette": 0.0508,
+   "k": 3,
+   "n": 46,
+   "silhouette": 0.0896,
    "status": "ok"
   },
   "Deuteronomy 5:8": {
@@ -7662,7 +7893,7 @@
    "status": "insufficient-data"
   },
   "Deuteronomy 5:9": {
-   "n": 8,
+   "n": 9,
    "status": "insufficient-data"
   },
   "Deuteronomy 5:9-10": {
@@ -7677,6 +7908,10 @@
    "n": 2,
    "status": "insufficient-data"
   },
+  "Deuteronomy 6:15": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Deuteronomy 6:17": {
    "n": 1,
    "status": "insufficient-data"
@@ -7688,8 +7923,8 @@
   "Deuteronomy 6:4": {
    "file": "deuteronomy-6-4.json",
    "k": 2,
-   "n": 16,
-   "silhouette": 0.0587,
+   "n": 18,
+   "silhouette": 0.0791,
    "status": "ok"
   },
   "Deuteronomy 6:4-5": {
@@ -7699,12 +7934,16 @@
   "Deuteronomy 6:5": {
    "file": "deuteronomy-6-5.json",
    "k": 2,
-   "n": 18,
-   "silhouette": 0.1363,
+   "n": 19,
+   "silhouette": 0.1052,
    "status": "ok"
   },
   "Deuteronomy 6:6": {
    "n": 3,
+   "status": "insufficient-data"
+  },
+  "Deuteronomy 6:6-9": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Deuteronomy 6:7": {
@@ -7740,7 +7979,7 @@
    "status": "insufficient-data"
   },
   "Deuteronomy 8:3": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Deuteronomy 9:10": {
@@ -7840,7 +8079,7 @@
    "status": "insufficient-data"
   },
   "Ecclesiastes 7:2": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Ecclesiastes 7:20": {
@@ -7875,7 +8114,15 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Ecclesiastes 9:5": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Ecclesiastes 9:5-6": {
+   "n": 2,
+   "status": "insufficient-data"
+  },
+  "Ecclesiastes 9:6": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -7992,6 +8239,10 @@
    "silhouette": 0.2562,
    "status": "ok"
   },
+  "Ephesians 2:11-12": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Ephesians 2:12": {
    "n": 5,
    "status": "insufficient-data"
@@ -8027,8 +8278,8 @@
   "Ephesians 2:20": {
    "file": "ephesians-2-20.json",
    "k": 2,
-   "n": 13,
-   "silhouette": 0.17,
+   "n": 14,
+   "silhouette": 0.1795,
    "status": "ok"
   },
   "Ephesians 2:21": {
@@ -8117,7 +8368,7 @@
    "status": "insufficient-data"
   },
   "Ephesians 3:9": {
-   "n": 2,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Ephesians 4:1": {
@@ -8165,7 +8416,7 @@
    "status": "insufficient-data"
   },
   "Ephesians 4:18": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Ephesians 4:2": {
@@ -8173,7 +8424,7 @@
    "status": "insufficient-data"
   },
   "Ephesians 4:20": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Ephesians 4:21": {
@@ -8236,7 +8487,7 @@
    "status": "insufficient-data"
   },
   "Ephesians 4:6": {
-   "n": 4,
+   "n": 5,
    "status": "insufficient-data"
   },
   "Ephesians 4:7-16": {
@@ -8252,7 +8503,7 @@
    "status": "insufficient-data"
   },
   "Ephesians 5:11": {
-   "n": 5,
+   "n": 6,
    "status": "insufficient-data"
   },
   "Ephesians 5:12": {
@@ -8311,7 +8562,7 @@
    "status": "ok"
   },
   "Ephesians 5:22-24": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Ephesians 5:23": {
@@ -8448,7 +8699,7 @@
    "status": "insufficient-data"
   },
   "Ephesians 6:5": {
-   "n": 2,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Ephesians 6:5-8": {
@@ -8467,6 +8718,14 @@
    "n": 3,
    "status": "insufficient-data"
   },
+  "Ephesians 7:36": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Esther 11:2-12": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Esther 2:17": {
    "n": 1,
    "status": "insufficient-data"
@@ -8483,8 +8742,12 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Esther 7:22": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Exodus 10:1": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Exodus 10:13": {
@@ -8504,7 +8767,7 @@
    "status": "insufficient-data"
   },
   "Exodus 10:27": {
-   "n": 5,
+   "n": 6,
    "status": "insufficient-data"
   },
   "Exodus 10:28": {
@@ -8520,6 +8783,10 @@
    "status": "insufficient-data"
   },
   "Exodus 10:8": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Exodus 10:94": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -8539,6 +8806,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Exodus 11:9": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Exodus 12:1": {
    "n": 3,
    "status": "insufficient-data"
@@ -8548,7 +8819,7 @@
    "status": "insufficient-data"
   },
   "Exodus 12:1-28": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Exodus 12:11": {
@@ -8584,7 +8855,7 @@
    "status": "insufficient-data"
   },
   "Exodus 12:29": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Exodus 12:3": {
@@ -8919,6 +9190,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Exodus 1:11": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Exodus 1:18": {
    "n": 1,
    "status": "insufficient-data"
@@ -8962,8 +9237,8 @@
   "Exodus 20:11": {
    "file": "exodus-20-11.json",
    "k": 2,
-   "n": 11,
-   "silhouette": 0.2283,
+   "n": 14,
+   "silhouette": 0.2234,
    "status": "ok"
   },
   "Exodus 20:12": {
@@ -8971,7 +9246,7 @@
    "status": "insufficient-data"
   },
   "Exodus 20:13": {
-   "n": 6,
+   "n": 7,
    "status": "insufficient-data"
   },
   "Exodus 20:14": {
@@ -9008,22 +9283,22 @@
   "Exodus 20:3": {
    "file": "exodus-20-3.json",
    "k": 2,
-   "n": 45,
-   "silhouette": 0.0594,
+   "n": 50,
+   "silhouette": 0.0579,
    "status": "ok"
   },
   "Exodus 20:4": {
    "file": "exodus-20-4.json",
    "k": 2,
-   "n": 20,
-   "silhouette": 0.1066,
+   "n": 21,
+   "silhouette": 0.0955,
    "status": "ok"
   },
   "Exodus 20:5": {
    "file": "exodus-20-5.json",
    "k": 2,
-   "n": 25,
-   "silhouette": 0.1324,
+   "n": 28,
+   "silhouette": 0.1262,
    "status": "ok"
   },
   "Exodus 20:5-6": {
@@ -9038,8 +9313,11 @@
    "status": "ok"
   },
   "Exodus 20:7": {
-   "n": 8,
-   "status": "insufficient-data"
+   "file": "exodus-20-7.json",
+   "k": 2,
+   "n": 10,
+   "silhouette": 0.0961,
+   "status": "ok"
   },
   "Exodus 20:8": {
    "file": "exodus-20-8.json",
@@ -9049,7 +9327,7 @@
    "status": "ok"
   },
   "Exodus 21:10": {
-   "n": 5,
+   "n": 7,
    "status": "insufficient-data"
   },
   "Exodus 21:10-11": {
@@ -9058,6 +9336,10 @@
   },
   "Exodus 21:12": {
    "n": 1,
+   "status": "insufficient-data"
+  },
+  "Exodus 21:16": {
+   "n": 2,
    "status": "insufficient-data"
   },
   "Exodus 21:17": {
@@ -9081,11 +9363,11 @@
    "status": "insufficient-data"
   },
   "Exodus 21:20": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Exodus 21:20-21": {
-   "n": 4,
+   "n": 6,
    "status": "insufficient-data"
   },
   "Exodus 21:21": {
@@ -9097,7 +9379,7 @@
    "status": "insufficient-data"
   },
   "Exodus 21:22-23": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Exodus 21:22-24": {
@@ -9107,8 +9389,8 @@
   "Exodus 21:22-25": {
    "file": "exodus-21-22-25.json",
    "k": 2,
-   "n": 13,
-   "silhouette": 0.1997,
+   "n": 17,
+   "silhouette": 0.2218,
    "status": "ok"
   },
   "Exodus 21:23": {
@@ -9118,12 +9400,12 @@
   "Exodus 21:24": {
    "file": "exodus-21-24.json",
    "k": 2,
-   "n": 15,
-   "silhouette": 0.1306,
+   "n": 18,
+   "silhouette": 0.1425,
    "status": "ok"
   },
   "Exodus 21:25": {
-   "n": 6,
+   "n": 9,
    "status": "insufficient-data"
   },
   "Exodus 21:26-27": {
@@ -9135,7 +9417,7 @@
    "status": "insufficient-data"
   },
   "Exodus 21:4": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Exodus 21:5": {
@@ -9155,7 +9437,7 @@
    "status": "insufficient-data"
   },
   "Exodus 21:9": {
-   "n": 2,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Exodus 22:1": {
@@ -9179,7 +9461,7 @@
    "status": "insufficient-data"
   },
   "Exodus 22:18": {
-   "n": 8,
+   "n": 9,
    "status": "insufficient-data"
   },
   "Exodus 22:2": {
@@ -9190,12 +9472,20 @@
    "n": 2,
    "status": "insufficient-data"
   },
+  "Exodus 22:22": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Exodus 22:25": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Exodus 22:25-27": {
    "n": 1,
    "status": "insufficient-data"
   },
   "Exodus 22:29-30": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Exodus 22:4": {
@@ -9223,7 +9513,11 @@
    "status": "insufficient-data"
   },
   "Exodus 23:20-21": {
-   "n": 2,
+   "n": 4,
+   "status": "insufficient-data"
+  },
+  "Exodus 23:20-22": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Exodus 23:21": {
@@ -9731,7 +10025,7 @@
    "status": "insufficient-data"
   },
   "Exodus 32:5": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Exodus 32:6": {
@@ -9799,8 +10093,11 @@
    "status": "insufficient-data"
   },
   "Exodus 34:14": {
-   "n": 5,
-   "status": "insufficient-data"
+   "file": "exodus-34-14.json",
+   "k": 2,
+   "n": 10,
+   "silhouette": 0.0881,
+   "status": "ok"
   },
   "Exodus 34:18": {
    "n": 1,
@@ -9898,8 +10195,12 @@
    "n": 1,
    "status": "insufficient-data"
   },
-  "Exodus 35:30-35": {
+  "Exodus 35:30": {
    "n": 1,
+   "status": "insufficient-data"
+  },
+  "Exodus 35:30-35": {
+   "n": 2,
    "status": "insufficient-data"
   },
   "Exodus 35:8": {
@@ -10015,7 +10316,7 @@
    "status": "insufficient-data"
   },
   "Exodus 3:13": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Exodus 3:14": {
@@ -10159,7 +10460,7 @@
    "status": "insufficient-data"
   },
   "Exodus 4:22": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Exodus 4:23": {
@@ -10215,7 +10516,7 @@
    "status": "insufficient-data"
   },
   "Exodus 6:2": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Exodus 6:26": {
@@ -10227,7 +10528,7 @@
    "status": "insufficient-data"
   },
   "Exodus 6:3": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Exodus 6:4": {
@@ -10263,7 +10564,7 @@
    "status": "insufficient-data"
   },
   "Exodus 7:14": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Exodus 7:19": {
@@ -10278,8 +10579,12 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Exodus 7:28": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Exodus 7:3": {
-   "n": 5,
+   "n": 6,
    "status": "insufficient-data"
   },
   "Exodus 7:4": {
@@ -10287,7 +10592,7 @@
    "status": "insufficient-data"
   },
   "Exodus 7:5": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Exodus 7:6": {
@@ -10295,6 +10600,10 @@
    "status": "insufficient-data"
   },
   "Exodus 7:7": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Exodus 7:8-13": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -10371,7 +10680,7 @@
    "status": "insufficient-data"
   },
   "Exodus 9:12": {
-   "n": 7,
+   "n": 9,
    "status": "insufficient-data"
   },
   "Exodus 9:13": {
@@ -10382,8 +10691,12 @@
    "n": 1,
    "status": "insufficient-data"
   },
-  "Exodus 9:15": {
+  "Exodus 9:14": {
    "n": 1,
+   "status": "insufficient-data"
+  },
+  "Exodus 9:15": {
+   "n": 2,
    "status": "insufficient-data"
   },
   "Exodus 9:2": {
@@ -10423,7 +10736,7 @@
    "status": "insufficient-data"
   },
   "Exodus 9:34": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Exodus 9:35": {
@@ -10567,7 +10880,11 @@
    "status": "insufficient-data"
   },
   "Ezekiel 20:25": {
-   "n": 2,
+   "n": 3,
+   "status": "insufficient-data"
+  },
+  "Ezekiel 20:25-26": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Ezekiel 20:4": {
@@ -10655,7 +10972,7 @@
    "status": "insufficient-data"
   },
   "Ezekiel 33:11": {
-   "n": 7,
+   "n": 8,
    "status": "insufficient-data"
   },
   "Ezekiel 33:30-33": {
@@ -10671,6 +10988,10 @@
    "status": "insufficient-data"
   },
   "Ezekiel 33:6": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Ezekiel 33:8": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -10798,6 +11119,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Ezekiel 43:27": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Ezekiel 44:5": {
    "n": 1,
    "status": "insufficient-data"
@@ -10812,6 +11137,10 @@
   },
   "Ezekiel 47:5": {
    "n": 2,
+   "status": "insufficient-data"
+  },
+  "Ezekiel 4:4": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Ezekiel 4:6": {
@@ -10842,7 +11171,15 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Ezra 23:91": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Ezra 4:5-23": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Ezra 5:73": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -10874,6 +11211,10 @@
    "n": 2,
    "status": "insufficient-data"
   },
+  "Galatians 1:10": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Galatians 1:11-12": {
    "n": 3,
    "status": "insufficient-data"
@@ -10882,12 +11223,16 @@
    "n": 4,
    "status": "insufficient-data"
   },
+  "Galatians 1:13": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Galatians 1:15-17": {
    "n": 1,
    "status": "insufficient-data"
   },
   "Galatians 1:15-19": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Galatians 1:15-24": {
@@ -10903,7 +11248,7 @@
    "status": "insufficient-data"
   },
   "Galatians 1:18": {
-   "n": 4,
+   "n": 6,
    "status": "insufficient-data"
   },
   "Galatians 1:2": {
@@ -10950,6 +11295,10 @@
    "status": "insufficient-data"
   },
   "Galatians 1:8-9": {
+   "n": 2,
+   "status": "insufficient-data"
+  },
+  "Galatians 2:10": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -11103,7 +11452,7 @@
    "status": "insufficient-data"
   },
   "Galatians 3:5": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Galatians 3:5-6": {
@@ -11182,7 +11531,7 @@
    "status": "insufficient-data"
   },
   "Galatians 4:6": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Galatians 4:7": {
@@ -11494,7 +11843,7 @@
    "status": "insufficient-data"
   },
   "Genesis 14:22": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Genesis 15:1": {
@@ -11720,8 +12069,8 @@
   "Genesis 1:1": {
    "file": "genesis-1-1.json",
    "k": 2,
-   "n": 252,
-   "silhouette": 0.1276,
+   "n": 267,
+   "silhouette": 0.1217,
    "status": "ok"
   },
   "Genesis 1:1-2": {
@@ -11775,12 +12124,16 @@
   "Genesis 1:2": {
    "file": "genesis-1-2.json",
    "k": 2,
-   "n": 21,
-   "silhouette": 0.1674,
+   "n": 23,
+   "silhouette": 0.1765,
    "status": "ok"
   },
   "Genesis 1:2-3": {
    "n": 3,
+   "status": "insufficient-data"
+  },
+  "Genesis 1:21-26": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Genesis 1:22": {
@@ -11813,8 +12166,8 @@
   "Genesis 1:27": {
    "file": "genesis-1-27.json",
    "k": 2,
-   "n": 18,
-   "silhouette": 0.1463,
+   "n": 20,
+   "silhouette": 0.12,
    "status": "ok"
   },
   "Genesis 1:28": {
@@ -11832,8 +12185,8 @@
   "Genesis 1:3": {
    "file": "genesis-1-3.json",
    "k": 2,
-   "n": 32,
-   "silhouette": 0.0719,
+   "n": 34,
+   "silhouette": 0.073,
    "status": "ok"
   },
   "Genesis 1:3-5": {
@@ -11872,6 +12225,10 @@
    "n": 2,
    "status": "insufficient-data"
   },
+  "Genesis 20:13": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Genesis 20:15": {
    "n": 1,
    "status": "insufficient-data"
@@ -11897,7 +12254,7 @@
    "status": "insufficient-data"
   },
   "Genesis 20:7": {
-   "n": 1,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Genesis 20:8": {
@@ -11955,8 +12312,8 @@
   "Genesis 22:1": {
    "file": "genesis-22-1.json",
    "k": 2,
-   "n": 10,
-   "silhouette": 0.1758,
+   "n": 11,
+   "silhouette": 0.1499,
    "status": "ok"
   },
   "Genesis 22:1-19": {
@@ -12180,7 +12537,7 @@
    "status": "insufficient-data"
   },
   "Genesis 26:23": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Genesis 26:25": {
@@ -12395,6 +12752,10 @@
    "n": 8,
    "status": "insufficient-data"
   },
+  "Genesis 2:16-17": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Genesis 2:17": {
    "n": 8,
    "status": "insufficient-data"
@@ -12402,13 +12763,16 @@
   "Genesis 2:18": {
    "file": "genesis-2-18.json",
    "k": 2,
-   "n": 11,
-   "silhouette": 0.1427,
+   "n": 12,
+   "silhouette": 0.133,
    "status": "ok"
   },
   "Genesis 2:19": {
-   "n": 9,
-   "status": "insufficient-data"
+   "file": "genesis-2-19.json",
+   "k": 2,
+   "n": 10,
+   "silhouette": 0.1117,
+   "status": "ok"
   },
   "Genesis 2:2": {
    "n": 5,
@@ -12430,12 +12794,16 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Genesis 2:24-25": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Genesis 2:25": {
-   "n": 5,
+   "n": 6,
    "status": "insufficient-data"
   },
   "Genesis 2:3": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Genesis 2:4": {
@@ -12460,8 +12828,8 @@
   "Genesis 2:7": {
    "file": "genesis-2-7.json",
    "k": 2,
-   "n": 14,
-   "silhouette": 0.1563,
+   "n": 15,
+   "silhouette": 0.1494,
    "status": "ok"
   },
   "Genesis 2:7-25": {
@@ -12833,7 +13201,7 @@
    "status": "insufficient-data"
   },
   "Genesis 37:18-36": {
-   "n": 1,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Genesis 37:2": {
@@ -12841,15 +13209,15 @@
    "status": "insufficient-data"
   },
   "Genesis 37:22": {
-   "n": 1,
-   "status": "insufficient-data"
-  },
-  "Genesis 37:24": {
    "n": 2,
    "status": "insufficient-data"
   },
+  "Genesis 37:24": {
+   "n": 3,
+   "status": "insufficient-data"
+  },
   "Genesis 37:26": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Genesis 37:3": {
@@ -12932,6 +13300,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Genesis 39:1": {
+   "n": 3,
+   "status": "insufficient-data"
+  },
   "Genesis 39:1-6": {
    "n": 1,
    "status": "insufficient-data"
@@ -13004,7 +13376,7 @@
    "status": "insufficient-data"
   },
   "Genesis 3:18": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Genesis 3:19": {
@@ -13024,11 +13396,11 @@
    "status": "insufficient-data"
   },
   "Genesis 3:23": {
-   "n": 1,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Genesis 3:24": {
-   "n": 2,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Genesis 3:3": {
@@ -13037,6 +13409,10 @@
   },
   "Genesis 3:4": {
    "n": 9,
+   "status": "insufficient-data"
+  },
+  "Genesis 3:4-5": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Genesis 3:5": {
@@ -13055,8 +13431,11 @@
    "status": "insufficient-data"
   },
   "Genesis 3:8": {
-   "n": 9,
-   "status": "insufficient-data"
+   "file": "genesis-3-8.json",
+   "k": 2,
+   "n": 10,
+   "silhouette": 0.071,
+   "status": "ok"
   },
   "Genesis 3:9": {
    "n": 6,
@@ -13491,7 +13870,7 @@
    "status": "insufficient-data"
   },
   "Genesis 4:1": {
-   "n": 2,
+   "n": 5,
    "status": "insufficient-data"
   },
   "Genesis 4:10": {
@@ -13634,7 +14013,7 @@
    "status": "insufficient-data"
   },
   "Genesis 6:1": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Genesis 6:1-4": {
@@ -13674,7 +14053,7 @@
    "status": "insufficient-data"
   },
   "Genesis 6:6": {
-   "n": 6,
+   "n": 7,
    "status": "insufficient-data"
   },
   "Genesis 6:8": {
@@ -13722,6 +14101,10 @@
    "status": "insufficient-data"
   },
   "Genesis 7:7": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Genesis 7:9": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -13837,6 +14220,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Habakkuk 1:1-11": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Habakkuk 2:1": {
    "n": 1,
    "status": "insufficient-data"
@@ -13886,11 +14273,19 @@
    "status": "insufficient-data"
   },
   "Hebrews 10:1": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Hebrews 10:10": {
    "n": 7,
+   "status": "insufficient-data"
+  },
+  "Hebrews 10:11": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Hebrews 10:11-12": {
+   "n": 2,
    "status": "insufficient-data"
   },
   "Hebrews 10:11-14": {
@@ -13950,7 +14345,7 @@
    "status": "insufficient-data"
   },
   "Hebrews 10:26-31": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Hebrews 10:28": {
@@ -13958,6 +14353,10 @@
    "status": "insufficient-data"
   },
   "Hebrews 10:29": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Hebrews 10:30": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -13999,8 +14398,8 @@
   "Hebrews 11:1": {
    "file": "hebrews-11-1.json",
    "k": 2,
-   "n": 19,
-   "silhouette": 0.1139,
+   "n": 21,
+   "silhouette": 0.1201,
    "status": "ok"
   },
   "Hebrews 11:10": {
@@ -14073,6 +14472,10 @@
   },
   "Hebrews 12:1": {
    "n": 4,
+   "status": "insufficient-data"
+  },
+  "Hebrews 12:12-17": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Hebrews 12:13": {
@@ -14174,8 +14577,8 @@
   "Hebrews 13:8": {
    "file": "hebrews-13-8.json",
    "k": 2,
-   "n": 25,
-   "silhouette": 0.1216,
+   "n": 27,
+   "silhouette": 0.0965,
    "status": "ok"
   },
   "Hebrews 1:1": {
@@ -14226,7 +14629,7 @@
    "status": "insufficient-data"
   },
   "Hebrews 1:3": {
-   "n": 6,
+   "n": 8,
    "status": "insufficient-data"
   },
   "Hebrews 1:4": {
@@ -14234,7 +14637,7 @@
    "status": "insufficient-data"
   },
   "Hebrews 1:4-6": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Hebrews 1:5": {
@@ -14246,7 +14649,7 @@
    "status": "insufficient-data"
   },
   "Hebrews 1:6-7": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Hebrews 1:7": {
@@ -14268,8 +14671,19 @@
    "n": 2,
    "status": "insufficient-data"
   },
+  "Hebrews 1:8-9": {
+   "n": 3,
+   "status": "insufficient-data"
+  },
   "Hebrews 1:9": {
-   "n": 9,
+   "file": "hebrews-1-9.json",
+   "k": 2,
+   "n": 10,
+   "silhouette": 0.154,
+   "status": "ok"
+  },
+  "Hebrews 2:1": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Hebrews 2:10": {
@@ -14340,6 +14754,10 @@
    "n": 2,
    "status": "insufficient-data"
   },
+  "Hebrews 3:1": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Hebrews 3:12": {
    "n": 1,
    "status": "insufficient-data"
@@ -14376,6 +14794,10 @@
    "n": 2,
    "status": "insufficient-data"
   },
+  "Hebrews 3:52": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Hebrews 3:8": {
    "n": 1,
    "status": "insufficient-data"
@@ -14393,7 +14815,7 @@
    "status": "insufficient-data"
   },
   "Hebrews 4:14": {
-   "n": 4,
+   "n": 5,
    "status": "insufficient-data"
   },
   "Hebrews 4:15": {
@@ -14405,6 +14827,10 @@
    "status": "insufficient-data"
   },
   "Hebrews 4:4-5": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Hebrews 4:5": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -14421,7 +14847,7 @@
    "status": "insufficient-data"
   },
   "Hebrews 5:11": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Hebrews 5:14": {
@@ -14440,12 +14866,20 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Hebrews 5:9": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Hebrews 6:1-2": {
    "n": 1,
    "status": "insufficient-data"
   },
   "Hebrews 6:1-8": {
    "n": 4,
+   "status": "insufficient-data"
+  },
+  "Hebrews 6:13-20": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Hebrews 6:14": {
@@ -14465,6 +14899,10 @@
    "status": "insufficient-data"
   },
   "Hebrews 6:18": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Hebrews 6:18-20": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -14528,7 +14966,7 @@
    "status": "insufficient-data"
   },
   "Hebrews 7:27": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Hebrews 7:28": {
@@ -14560,7 +14998,7 @@
    "status": "insufficient-data"
   },
   "Hebrews 8:13": {
-   "n": 4,
+   "n": 5,
    "status": "insufficient-data"
   },
   "Hebrews 8:4": {
@@ -14608,6 +15046,10 @@
    "status": "insufficient-data"
   },
   "Hebrews 9:26": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Hebrews 9:26-28": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -14723,6 +15165,10 @@
    "n": 2,
    "status": "insufficient-data"
   },
+  "Hosea 6:6": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Hosea 9:11": {
    "n": 1,
    "status": "insufficient-data"
@@ -14752,8 +15198,11 @@
    "status": "insufficient-data"
   },
   "Isaiah 11:2": {
-   "n": 9,
-   "status": "insufficient-data"
+   "file": "isaiah-11-2.json",
+   "k": 2,
+   "n": 10,
+   "silhouette": 0.2691,
+   "status": "ok"
   },
   "Isaiah 11:4": {
    "n": 2,
@@ -14792,7 +15241,7 @@
    "status": "insufficient-data"
   },
   "Isaiah 14:12": {
-   "n": 1,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Isaiah 14:12-17": {
@@ -14804,7 +15253,7 @@
    "status": "insufficient-data"
   },
   "Isaiah 14:14": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Isaiah 14:15": {
@@ -14852,6 +15301,10 @@
    "status": "insufficient-data"
   },
   "Isaiah 1:16": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Isaiah 1:16-17": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -14920,7 +15373,7 @@
    "status": "insufficient-data"
   },
   "Isaiah 27:1": {
-   "n": 1,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Isaiah 27:9": {
@@ -15004,6 +15457,10 @@
    "status": "insufficient-data"
   },
   "Isaiah 38:9-10": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Isaiah 39:8": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -15181,12 +15638,20 @@
   "Isaiah 45:7": {
    "file": "isaiah-45-7.json",
    "k": 2,
-   "n": 23,
-   "silhouette": 0.1091,
+   "n": 26,
+   "silhouette": 0.0875,
    "status": "ok"
   },
+  "Isaiah 46:10": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Isaiah 46:9": {
-   "n": 7,
+   "n": 8,
+   "status": "insufficient-data"
+  },
+  "Isaiah 46:9-10": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Isaiah 47:3": {
@@ -15266,7 +15731,7 @@
    "status": "insufficient-data"
   },
   "Isaiah 52:12": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Isaiah 52:13": {
@@ -15415,6 +15880,10 @@
    "n": 8,
    "status": "insufficient-data"
   },
+  "Isaiah 5:21": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Isaiah 5:25": {
    "n": 1,
    "status": "insufficient-data"
@@ -15424,7 +15893,7 @@
    "status": "insufficient-data"
   },
   "Isaiah 60:12": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Isaiah 60:13": {
@@ -15527,6 +15996,10 @@
    "n": 3,
    "status": "insufficient-data"
   },
+  "Isaiah 6:19": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Isaiah 6:2": {
    "n": 3,
    "status": "insufficient-data"
@@ -15605,6 +16078,18 @@
    "n": 3,
    "status": "insufficient-data"
   },
+  "James 11:2": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "James 12:6": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "James 1:1": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "James 1:12": {
    "n": 2,
    "status": "insufficient-data"
@@ -15630,14 +16115,14 @@
    "status": "insufficient-data"
   },
   "James 1:18": {
-   "n": 1,
+   "n": 3,
    "status": "insufficient-data"
   },
   "James 1:2": {
    "file": "james-1-2.json",
    "k": 2,
-   "n": 18,
-   "silhouette": 0.1079,
+   "n": 19,
+   "silhouette": 0.0993,
    "status": "ok"
   },
   "James 1:2-4": {
@@ -15712,7 +16197,7 @@
    "status": "insufficient-data"
   },
   "James 2:11": {
-   "n": 6,
+   "n": 7,
    "status": "insufficient-data"
   },
   "James 2:13": {
@@ -15851,7 +16336,7 @@
    "status": "insufficient-data"
   },
   "James 4:13-17": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "James 4:15": {
@@ -15885,8 +16370,8 @@
   "James 4:7": {
    "file": "james-4-7.json",
    "k": 2,
-   "n": 17,
-   "silhouette": 0.0505,
+   "n": 18,
+   "silhouette": 0.204,
    "status": "ok"
   },
   "James 4:8": {
@@ -16080,7 +16565,7 @@
    "status": "insufficient-data"
   },
   "Jeremiah 20:7": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Jeremiah 22:30": {
@@ -16111,6 +16596,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Jeremiah 26:8": {
+   "n": 2,
+   "status": "insufficient-data"
+  },
   "Jeremiah 28:1": {
    "n": 1,
    "status": "insufficient-data"
@@ -16120,7 +16609,7 @@
    "status": "insufficient-data"
   },
   "Jeremiah 29:11": {
-   "n": 5,
+   "n": 6,
    "status": "insufficient-data"
   },
   "Jeremiah 29:12": {
@@ -16131,8 +16620,12 @@
    "n": 4,
    "status": "insufficient-data"
   },
-  "Jeremiah 29:7": {
+  "Jeremiah 29:6": {
    "n": 1,
+   "status": "insufficient-data"
+  },
+  "Jeremiah 29:7": {
+   "n": 5,
    "status": "insufficient-data"
   },
   "Jeremiah 2:13": {
@@ -16144,6 +16637,10 @@
    "status": "insufficient-data"
   },
   "Jeremiah 2:2-3": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Jeremiah 2:22-23": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -16239,6 +16736,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Jeremiah 4:9": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Jeremiah 50:15-51": {
    "n": 1,
    "status": "insufficient-data"
@@ -16259,7 +16760,15 @@
    "n": 2,
    "status": "insufficient-data"
   },
+  "Jeremiah 52:10-11": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Jeremiah 5:3": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Jeremiah 5:7": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -16311,6 +16820,18 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Jeremiah 8:5-6": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Job 10:13": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Job 11:7-9": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Job 14:13": {
    "n": 1,
    "status": "insufficient-data"
@@ -16328,6 +16849,10 @@
    "status": "insufficient-data"
   },
   "Job 19:25": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Job 19:26": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -16356,7 +16881,7 @@
    "status": "insufficient-data"
   },
   "Job 1:18": {
-   "n": 1,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Job 1:19": {
@@ -16372,7 +16897,7 @@
    "status": "insufficient-data"
   },
   "Job 1:6": {
-   "n": 8,
+   "n": 9,
    "status": "insufficient-data"
   },
   "Job 1:6-12": {
@@ -16439,8 +16964,12 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Job 33:14": {
+   "n": 3,
+   "status": "insufficient-data"
+  },
   "Job 33:4": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Job 33:7": {
@@ -16459,6 +16988,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Job 37:5": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Job 38:1": {
    "n": 1,
    "status": "insufficient-data"
@@ -16468,7 +17001,7 @@
    "status": "insufficient-data"
   },
   "Job 38:14": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Job 38:16": {
@@ -16532,7 +17065,7 @@
    "status": "insufficient-data"
   },
   "Job 40:3": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Job 40:4": {
@@ -16619,11 +17152,19 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Job 7:10": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Job 7:9-10": {
    "n": 2,
    "status": "insufficient-data"
   },
   "Job 9:10": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Job 9:23": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -16675,8 +17216,16 @@
    "n": 6,
    "status": "insufficient-data"
   },
+  "Joel 2:28-31": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Joel 2:31": {
    "n": 2,
+   "status": "insufficient-data"
+  },
+  "Joel 33:14": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Joel 3:1": {
@@ -16711,8 +17260,12 @@
    "n": 5,
    "status": "insufficient-data"
   },
+  "John 10:2": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "John 10:27": {
-   "n": 6,
+   "n": 7,
    "status": "insufficient-data"
   },
   "John 10:27-30": {
@@ -16729,9 +17282,9 @@
   },
   "John 10:30": {
    "file": "john-10-30.json",
-   "k": 2,
-   "n": 54,
-   "silhouette": 0.0687,
+   "k": 4,
+   "n": 65,
+   "silhouette": 0.064,
    "status": "ok"
   },
   "John 10:30-38": {
@@ -16747,15 +17300,18 @@
    "status": "insufficient-data"
   },
   "John 10:34": {
-   "n": 9,
-   "status": "insufficient-data"
+   "file": "john-10-34.json",
+   "k": 2,
+   "n": 12,
+   "silhouette": 0.0549,
+   "status": "ok"
   },
   "John 10:34-35": {
    "n": 1,
    "status": "insufficient-data"
   },
   "John 10:34-36": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "John 10:35": {
@@ -16859,7 +17415,7 @@
    "status": "insufficient-data"
   },
   "John 12:1-2": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "John 12:12": {
@@ -17034,7 +17590,7 @@
    "status": "insufficient-data"
   },
   "John 14:12-14": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "John 14:13": {
@@ -17108,8 +17664,8 @@
   "John 14:6": {
    "file": "john-14-6.json",
    "k": 2,
-   "n": 40,
-   "silhouette": 0.055,
+   "n": 41,
+   "silhouette": 0.0751,
    "status": "ok"
   },
   "John 14:7": {
@@ -17117,7 +17673,7 @@
    "status": "insufficient-data"
   },
   "John 14:8": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "John 14:9": {
@@ -17175,6 +17731,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "John 15:20": {
+   "n": 2,
+   "status": "insufficient-data"
+  },
   "John 15:22": {
    "n": 3,
    "status": "insufficient-data"
@@ -17196,6 +17756,10 @@
    "status": "insufficient-data"
   },
   "John 15:3": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "John 15:3-5": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -17306,7 +17870,7 @@
    "status": "insufficient-data"
   },
   "John 17:11": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "John 17:12": {
@@ -17346,7 +17910,7 @@
    "status": "insufficient-data"
   },
   "John 17:23": {
-   "n": 7,
+   "n": 8,
    "status": "insufficient-data"
   },
   "John 17:24": {
@@ -17439,6 +18003,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "John 19:21": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "John 19:22": {
    "n": 1,
    "status": "insufficient-data"
@@ -17513,9 +18081,9 @@
   },
   "John 1:1": {
    "file": "john-1-1.json",
-   "k": 2,
-   "n": 112,
-   "silhouette": 0.0428,
+   "k": 3,
+   "n": 119,
+   "silhouette": 0.0363,
    "status": "ok"
   },
   "John 1:1-13": {
@@ -17543,7 +18111,7 @@
    "status": "insufficient-data"
   },
   "John 1:12": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "John 1:12-13": {
@@ -17680,7 +18248,7 @@
    "status": "insufficient-data"
   },
   "John 1:42": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "John 1:44": {
@@ -17720,7 +18288,7 @@
    "status": "insufficient-data"
   },
   "John 1:8": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "John 1:9": {
@@ -17771,7 +18339,7 @@
    "status": "insufficient-data"
   },
   "John 20:2": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "John 20:2-10": {
@@ -17836,8 +18404,8 @@
   "John 20:30": {
    "file": "john-20-30.json",
    "k": 2,
-   "n": 11,
-   "silhouette": 0.1762,
+   "n": 12,
+   "silhouette": 0.1632,
    "status": "ok"
   },
   "John 20:30-31": {
@@ -17852,11 +18420,15 @@
    "status": "ok"
   },
   "John 20:6": {
-   "n": 2,
+   "n": 3,
+   "status": "insufficient-data"
+  },
+  "John 20:6-7": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "John 20:7": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "John 20:8": {
@@ -17903,6 +18475,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "John 21:20-24": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "John 21:21": {
    "n": 2,
    "status": "insufficient-data"
@@ -17916,7 +18492,7 @@
    "status": "insufficient-data"
   },
   "John 21:25": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "John 21:4": {
@@ -17935,8 +18511,16 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "John 24:19-21": {
+   "n": 2,
+   "status": "insufficient-data"
+  },
   "John 2:1": {
    "n": 5,
+   "status": "insufficient-data"
+  },
+  "John 2:1-11": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "John 2:10": {
@@ -17960,6 +18544,10 @@
    "status": "insufficient-data"
   },
   "John 2:18": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "John 2:18-19": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -18026,6 +18614,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "John 36:13": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "John 3:1": {
    "n": 7,
    "status": "insufficient-data"
@@ -18055,9 +18647,9 @@
   },
   "John 3:16": {
    "file": "john-3-16.json",
-   "k": 2,
-   "n": 58,
-   "silhouette": 0.0445,
+   "k": 3,
+   "n": 59,
+   "silhouette": 0.0637,
    "status": "ok"
   },
   "John 3:16-18": {
@@ -18078,6 +18670,10 @@
   },
   "John 3:2": {
    "n": 5,
+   "status": "insufficient-data"
+  },
+  "John 3:22-24": {
+   "n": 2,
    "status": "insufficient-data"
   },
   "John 3:28": {
@@ -18145,8 +18741,8 @@
   "John 3:7": {
    "file": "john-3-7.json",
    "k": 2,
-   "n": 11,
-   "silhouette": 0.37,
+   "n": 12,
+   "silhouette": 0.3357,
    "status": "ok"
   },
   "John 3:8": {
@@ -18186,6 +18782,10 @@
    "status": "insufficient-data"
   },
   "John 4:17-18": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "John 4:18": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -18451,7 +19051,7 @@
    "status": "insufficient-data"
   },
   "John 6:4": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "John 6:40": {
@@ -18487,6 +19087,10 @@
   },
   "John 6:49": {
    "n": 5,
+   "status": "insufficient-data"
+  },
+  "John 6:5": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "John 6:5-9": {
@@ -18580,7 +19184,7 @@
    "status": "insufficient-data"
   },
   "John 6:9": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "John 7:1": {
@@ -18720,11 +19324,11 @@
    "status": "insufficient-data"
   },
   "John 8:24": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "John 8:28": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "John 8:30": {
@@ -18799,7 +19403,7 @@
    "status": "insufficient-data"
   },
   "John 8:58": {
-   "n": 5,
+   "n": 6,
    "status": "insufficient-data"
   },
   "John 8:7": {
@@ -18893,6 +19497,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Jonah 3:9": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Jonah 4:10-11": {
    "n": 1,
    "status": "insufficient-data"
@@ -18902,6 +19510,10 @@
    "status": "insufficient-data"
   },
   "Jonah 4:2": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Jonah 4:3": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -18926,7 +19538,7 @@
    "status": "insufficient-data"
   },
   "Joshua 24:14": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Joshua 24:15": {
@@ -18969,11 +19581,19 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Joshua 4:34": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Joshua 5:13": {
    "n": 2,
    "status": "insufficient-data"
   },
   "Joshua 5:2": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Joshua 6:1": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -19022,7 +19642,7 @@
    "status": "insufficient-data"
   },
   "Jude 1:22": {
-   "n": 1,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Jude 1:23": {
@@ -19051,6 +19671,10 @@
   },
   "Jude 1:7": {
    "n": 1,
+   "status": "insufficient-data"
+  },
+  "Jude 1:9": {
+   "n": 3,
    "status": "insufficient-data"
   },
   "Jude 22:22": {
@@ -19182,7 +19806,7 @@
    "status": "insufficient-data"
   },
   "Judges 14:5-6": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Judges 17:6": {
@@ -19217,11 +19841,11 @@
    "status": "insufficient-data"
   },
   "Judges 1:1": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Judges 1:19": {
-   "n": 6,
+   "n": 7,
    "status": "insufficient-data"
   },
   "Judges 20:18": {
@@ -19307,12 +19931,20 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Judges 3:6": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Judges 3:7": {
    "n": 1,
    "status": "insufficient-data"
   },
   "Judges 3:9-10": {
    "n": 2,
+   "status": "insufficient-data"
+  },
+  "Judges 4:13": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Judges 4:5": {
@@ -19500,6 +20132,10 @@
    "status": "insufficient-data"
   },
   "Leviticus 13:12": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Leviticus 13:13": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -19732,6 +20368,10 @@
    "status": "insufficient-data"
   },
   "Leviticus 18:17": {
+   "n": 2,
+   "status": "insufficient-data"
+  },
+  "Leviticus 18:19": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -19746,8 +20386,8 @@
   "Leviticus 18:22": {
    "file": "leviticus-18-22.json",
    "k": 2,
-   "n": 10,
-   "silhouette": 0.202,
+   "n": 11,
+   "silhouette": 0.1133,
    "status": "ok"
   },
   "Leviticus 18:4": {
@@ -19888,12 +20528,16 @@
   "Leviticus 20:13": {
    "file": "leviticus-20-13.json",
    "k": 2,
-   "n": 13,
-   "silhouette": 0.2271,
+   "n": 16,
+   "silhouette": 0.2146,
    "status": "ok"
   },
   "Leviticus 20:17": {
    "n": 2,
+   "status": "insufficient-data"
+  },
+  "Leviticus 20:2": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Leviticus 20:6-27": {
@@ -20081,7 +20725,7 @@
    "status": "insufficient-data"
   },
   "Leviticus 25:44": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Leviticus 25:44-45": {
@@ -20089,11 +20733,14 @@
    "status": "insufficient-data"
   },
   "Leviticus 25:44-46": {
-   "n": 6,
-   "status": "insufficient-data"
+   "file": "leviticus-25-44-46.json",
+   "k": 2,
+   "n": 12,
+   "silhouette": 0.1001,
+   "status": "ok"
   },
   "Leviticus 25:45": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Leviticus 25:46": {
@@ -20145,7 +20792,7 @@
    "status": "insufficient-data"
   },
   "Leviticus 2:1": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Leviticus 2:8": {
@@ -20213,7 +20860,7 @@
    "status": "insufficient-data"
   },
   "Leviticus 4:4": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Leviticus 4:5": {
@@ -20597,12 +21244,12 @@
   "Luke 12:31": {
    "file": "luke-12-31.json",
    "k": 2,
-   "n": 15,
-   "silhouette": 0.1404,
+   "n": 16,
+   "silhouette": 0.1293,
    "status": "ok"
   },
   "Luke 12:32": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Luke 12:33": {
@@ -20702,7 +21349,7 @@
    "status": "insufficient-data"
   },
   "Luke 13:31-32": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Luke 13:32": {
@@ -20730,15 +21377,15 @@
    "status": "insufficient-data"
   },
   "Luke 14:26": {
-   "n": 7,
+   "n": 8,
    "status": "insufficient-data"
   },
   "Luke 14:27": {
-   "n": 4,
+   "n": 5,
    "status": "insufficient-data"
   },
   "Luke 14:28": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Luke 14:3": {
@@ -20746,6 +21393,14 @@
    "status": "insufficient-data"
   },
   "Luke 14:30": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Luke 14:32": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Luke 14:33": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -20829,12 +21484,16 @@
    "n": 6,
    "status": "insufficient-data"
   },
+  "Luke 16:17": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Luke 16:18": {
    "n": 2,
    "status": "insufficient-data"
   },
   "Luke 16:19": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Luke 16:19-23": {
@@ -20850,11 +21509,11 @@
    "status": "insufficient-data"
   },
   "Luke 16:21": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Luke 16:22": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Luke 16:24": {
@@ -20866,11 +21525,11 @@
    "status": "insufficient-data"
   },
   "Luke 16:29": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Luke 16:30": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Luke 16:30-31": {
@@ -20920,11 +21579,19 @@
   "Luke 17:25": {
    "file": "luke-17-25.json",
    "k": 2,
-   "n": 10,
-   "silhouette": 0.0845,
+   "n": 11,
+   "silhouette": 0.0961,
    "status": "ok"
   },
   "Luke 17:26": {
+   "n": 2,
+   "status": "insufficient-data"
+  },
+  "Luke 17:26-27": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Luke 17:27": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -20945,7 +21612,7 @@
    "status": "insufficient-data"
   },
   "Luke 17:34": {
-   "n": 2,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Luke 17:35": {
@@ -21131,6 +21798,10 @@
    "n": 2,
    "status": "insufficient-data"
   },
+  "Luke 1:1": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Luke 1:1-4": {
    "n": 2,
    "status": "insufficient-data"
@@ -21232,7 +21903,7 @@
    "status": "insufficient-data"
   },
   "Luke 1:41-44": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Luke 1:42": {
@@ -21446,8 +22117,8 @@
   "Luke 21:33": {
    "file": "luke-21-33.json",
    "k": 2,
-   "n": 14,
-   "silhouette": 0.153,
+   "n": 15,
+   "silhouette": 0.1564,
    "status": "ok"
   },
   "Luke 21:38": {
@@ -21459,6 +22130,10 @@
    "status": "insufficient-data"
   },
   "Luke 21:8": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Luke 22:10": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -21489,8 +22164,8 @@
   "Luke 22:20": {
    "file": "luke-22-20.json",
    "k": 2,
-   "n": 11,
-   "silhouette": 0.2778,
+   "n": 12,
+   "silhouette": 0.2164,
    "status": "ok"
   },
   "Luke 22:24": {
@@ -21604,12 +22279,12 @@
   "Luke 23:42": {
    "file": "luke-23-42.json",
    "k": 2,
-   "n": 18,
-   "silhouette": 0.0548,
+   "n": 19,
+   "silhouette": 0.0578,
    "status": "ok"
   },
   "Luke 23:43": {
-   "n": 2,
+   "n": 5,
    "status": "insufficient-data"
   },
   "Luke 23:44-45": {
@@ -21661,7 +22336,7 @@
    "status": "insufficient-data"
   },
   "Luke 24:2": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Luke 24:20": {
@@ -21748,7 +22423,7 @@
    "status": "insufficient-data"
   },
   "Luke 24:51": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Luke 24:53-54": {
@@ -21804,7 +22479,7 @@
    "status": "insufficient-data"
   },
   "Luke 2:2": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Luke 2:22": {
@@ -21867,7 +22542,7 @@
    "status": "insufficient-data"
   },
   "Luke 2:52": {
-   "n": 4,
+   "n": 5,
    "status": "insufficient-data"
   },
   "Luke 2:7": {
@@ -21887,7 +22562,7 @@
    "status": "insufficient-data"
   },
   "Luke 3:1": {
-   "n": 1,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Luke 3:1-6": {
@@ -21955,7 +22630,7 @@
    "status": "insufficient-data"
   },
   "Luke 4:1": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Luke 4:10": {
@@ -22242,7 +22917,7 @@
    "status": "insufficient-data"
   },
   "Luke 7:34": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Luke 7:35": {
@@ -22350,8 +23025,11 @@
    "status": "insufficient-data"
   },
   "Luke 9:22": {
-   "n": 9,
-   "status": "insufficient-data"
+   "file": "luke-9-22.json",
+   "k": 2,
+   "n": 10,
+   "silhouette": 0.0784,
+   "status": "ok"
   },
   "Luke 9:23": {
    "n": 8,
@@ -22518,7 +23196,7 @@
    "status": "insufficient-data"
   },
   "Malachi 4:5-6": {
-   "n": 1,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Malachi 4:6": {
@@ -22537,7 +23215,7 @@
    "status": "ok"
   },
   "Mark 10:11-12": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Mark 10:12": {
@@ -22567,12 +23245,20 @@
   "Mark 10:18": {
    "file": "mark-10-18.json",
    "k": 2,
-   "n": 15,
-   "silhouette": 0.386,
+   "n": 16,
+   "silhouette": 0.389,
    "status": "ok"
   },
   "Mark 10:19": {
    "n": 4,
+   "status": "insufficient-data"
+  },
+  "Mark 10:2": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Mark 10:2-12": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Mark 10:21": {
@@ -22652,9 +23338,9 @@
   },
   "Mark 10:45": {
    "file": "mark-10-45.json",
-   "k": 2,
-   "n": 31,
-   "silhouette": 0.0831,
+   "k": 3,
+   "n": 33,
+   "silhouette": 0.0476,
    "status": "ok"
   },
   "Mark 10:46": {
@@ -22688,8 +23374,8 @@
   "Mark 10:9": {
    "file": "mark-10-9.json",
    "k": 2,
-   "n": 14,
-   "silhouette": 0.1271,
+   "n": 15,
+   "silhouette": 0.1282,
    "status": "ok"
   },
   "Mark 11:1": {
@@ -22945,19 +23631,23 @@
    "n": 2,
    "status": "insufficient-data"
   },
+  "Mark 13:21": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Mark 13:22": {
    "n": 3,
    "status": "insufficient-data"
   },
   "Mark 13:23": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Mark 13:24": {
    "file": "mark-13-24.json",
    "k": 2,
-   "n": 12,
-   "silhouette": 0.1478,
+   "n": 13,
+   "silhouette": 0.1148,
    "status": "ok"
   },
   "Mark 13:24-25": {
@@ -22975,8 +23665,8 @@
   "Mark 13:26": {
    "file": "mark-13-26.json",
    "k": 2,
-   "n": 18,
-   "silhouette": 0.1202,
+   "n": 19,
+   "silhouette": 0.133,
    "status": "ok"
   },
   "Mark 13:27": {
@@ -22994,23 +23684,35 @@
   "Mark 13:30": {
    "file": "mark-13-30.json",
    "k": 3,
-   "n": 32,
-   "silhouette": 0.0936,
+   "n": 33,
+   "silhouette": 0.0952,
    "status": "ok"
   },
   "Mark 13:31": {
    "file": "mark-13-31.json",
    "k": 2,
-   "n": 15,
-   "silhouette": 0.1978,
+   "n": 16,
+   "silhouette": 0.205,
    "status": "ok"
   },
   "Mark 13:32": {
    "file": "mark-13-32.json",
    "k": 2,
-   "n": 20,
-   "silhouette": 0.1617,
+   "n": 21,
+   "silhouette": 0.1579,
    "status": "ok"
+  },
+  "Mark 13:33": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Mark 13:34": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Mark 13:35": {
+   "n": 1,
+   "status": "insufficient-data"
   },
   "Mark 13:6": {
    "file": "mark-13-6.json",
@@ -23130,6 +23832,10 @@
    "n": 2,
    "status": "insufficient-data"
   },
+  "Mark 14:33-34": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Mark 14:34": {
    "n": 2,
    "status": "insufficient-data"
@@ -23217,6 +23923,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Mark 14:66": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Mark 14:67": {
    "n": 2,
    "status": "insufficient-data"
@@ -23230,7 +23940,7 @@
    "status": "insufficient-data"
   },
   "Mark 14:9": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Mark 15:1-5": {
@@ -23262,11 +23972,15 @@
    "status": "insufficient-data"
   },
   "Mark 15:25": {
-   "n": 5,
+   "n": 6,
    "status": "insufficient-data"
   },
   "Mark 15:28": {
    "n": 3,
+   "status": "insufficient-data"
+  },
+  "Mark 15:29": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Mark 15:30": {
@@ -23275,6 +23989,10 @@
   },
   "Mark 15:32": {
    "n": 4,
+   "status": "insufficient-data"
+  },
+  "Mark 15:37": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Mark 15:38": {
@@ -23342,7 +24060,7 @@
    "status": "insufficient-data"
   },
   "Mark 16:15": {
-   "n": 5,
+   "n": 6,
    "status": "insufficient-data"
   },
   "Mark 16:15-16": {
@@ -23407,8 +24125,8 @@
   "Mark 16:8": {
    "file": "mark-16-8.json",
    "k": 2,
-   "n": 14,
-   "silhouette": 0.1065,
+   "n": 18,
+   "silhouette": 0.1032,
    "status": "ok"
   },
   "Mark 16:9": {
@@ -23416,7 +24134,7 @@
    "status": "insufficient-data"
   },
   "Mark 16:9-20": {
-   "n": 7,
+   "n": 9,
    "status": "insufficient-data"
   },
   "Mark 1:1": {
@@ -23436,6 +24154,10 @@
   },
   "Mark 1:10": {
    "n": 3,
+   "status": "insufficient-data"
+  },
+  "Mark 1:11": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Mark 1:12": {
@@ -23505,8 +24227,8 @@
   "Mark 1:3": {
    "file": "mark-1-3.json",
    "k": 2,
-   "n": 12,
-   "silhouette": 0.1127,
+   "n": 13,
+   "silhouette": 0.1202,
    "status": "ok"
   },
   "Mark 1:34": {
@@ -23644,6 +24366,10 @@
    "n": 2,
    "status": "insufficient-data"
   },
+  "Mark 3:20": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Mark 3:21": {
    "n": 5,
    "status": "insufficient-data"
@@ -23757,6 +24483,10 @@
    "status": "insufficient-data"
   },
   "Mark 4:34": {
+   "n": 2,
+   "status": "insufficient-data"
+  },
+  "Mark 4:35": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -23941,10 +24671,14 @@
    "status": "insufficient-data"
   },
   "Mark 6:32": {
-   "n": 1,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Mark 6:34": {
+   "n": 2,
+   "status": "insufficient-data"
+  },
+  "Mark 6:37": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -23957,11 +24691,15 @@
    "status": "insufficient-data"
   },
   "Mark 6:42": {
+   "n": 2,
+   "status": "insufficient-data"
+  },
+  "Mark 6:43": {
    "n": 1,
    "status": "insufficient-data"
   },
   "Mark 6:45": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Mark 6:47": {
@@ -24057,11 +24795,11 @@
    "status": "insufficient-data"
   },
   "Mark 7:24": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Mark 7:27": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Mark 7:27-28": {
@@ -24069,7 +24807,7 @@
    "status": "insufficient-data"
   },
   "Mark 7:28": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Mark 7:29": {
@@ -24177,14 +24915,14 @@
    "status": "insufficient-data"
   },
   "Mark 8:29": {
-   "n": 8,
+   "n": 9,
    "status": "insufficient-data"
   },
   "Mark 8:31": {
    "file": "mark-8-31.json",
    "k": 2,
-   "n": 12,
-   "silhouette": 0.1721,
+   "n": 13,
+   "silhouette": 0.1875,
    "status": "ok"
   },
   "Mark 8:36": {
@@ -24196,7 +24934,7 @@
    "status": "insufficient-data"
   },
   "Mark 8:38": {
-   "n": 3,
+   "n": 5,
    "status": "insufficient-data"
   },
   "Mark 9:1": {
@@ -24209,6 +24947,10 @@
   },
   "Mark 9:11": {
    "n": 2,
+   "status": "insufficient-data"
+  },
+  "Mark 9:12": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Mark 9:14": {
@@ -24276,7 +25018,7 @@
    "status": "insufficient-data"
   },
   "Mark 9:40": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Mark 9:42": {
@@ -24463,8 +25205,8 @@
   "Matthew 10:6": {
    "file": "matthew-10-6.json",
    "k": 2,
-   "n": 36,
-   "silhouette": 0.0481,
+   "n": 37,
+   "silhouette": 0.0419,
    "status": "ok"
   },
   "Matthew 10:7": {
@@ -24476,7 +25218,7 @@
    "status": "insufficient-data"
   },
   "Matthew 11:1": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Matthew 11:10": {
@@ -24492,6 +25234,14 @@
    "status": "insufficient-data"
   },
   "Matthew 11:14": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Matthew 11:18": {
+   "n": 2,
+   "status": "insufficient-data"
+  },
+  "Matthew 11:19": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -24530,12 +25280,12 @@
   "Matthew 11:28": {
    "file": "matthew-11-28.json",
    "k": 2,
-   "n": 12,
-   "silhouette": 0.2753,
+   "n": 13,
+   "silhouette": 0.2737,
    "status": "ok"
   },
   "Matthew 11:29": {
-   "n": 7,
+   "n": 8,
    "status": "insufficient-data"
   },
   "Matthew 11:30": {
@@ -24769,7 +25519,7 @@
    "status": "insufficient-data"
   },
   "Matthew 13:42": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Matthew 13:43": {
@@ -24797,7 +25547,7 @@
    "status": "insufficient-data"
   },
   "Matthew 13:50": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Matthew 13:54": {
@@ -24820,6 +25570,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Matthew 14:13": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Matthew 14:22": {
    "n": 2,
    "status": "insufficient-data"
@@ -24830,6 +25584,10 @@
   },
   "Matthew 14:3": {
    "n": 2,
+   "status": "insufficient-data"
+  },
+  "Matthew 14:31": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Matthew 14:34": {
@@ -24865,7 +25623,7 @@
    "status": "insufficient-data"
   },
   "Matthew 15:26": {
-   "n": 7,
+   "n": 8,
    "status": "insufficient-data"
   },
   "Matthew 15:29-31": {
@@ -24936,7 +25694,7 @@
    "status": "insufficient-data"
   },
   "Matthew 16:17": {
-   "n": 4,
+   "n": 5,
    "status": "insufficient-data"
   },
   "Matthew 16:17-23": {
@@ -24987,7 +25745,7 @@
    "status": "insufficient-data"
   },
   "Matthew 16:27": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Matthew 16:27-28": {
@@ -25034,6 +25792,10 @@
    "status": "insufficient-data"
   },
   "Matthew 17:2": {
+   "n": 2,
+   "status": "insufficient-data"
+  },
+  "Matthew 17:21": {
    "n": 2,
    "status": "insufficient-data"
   },
@@ -25129,7 +25891,7 @@
    "status": "insufficient-data"
   },
   "Matthew 18:6": {
-   "n": 5,
+   "n": 6,
    "status": "insufficient-data"
   },
   "Matthew 18:8": {
@@ -25149,7 +25911,7 @@
    "status": "insufficient-data"
   },
   "Matthew 19:10-12": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Matthew 19:11": {
@@ -25205,11 +25967,11 @@
    "status": "insufficient-data"
   },
   "Matthew 19:3": {
-   "n": 5,
+   "n": 6,
    "status": "insufficient-data"
   },
   "Matthew 19:3-9": {
-   "n": 1,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Matthew 19:30": {
@@ -25227,8 +25989,8 @@
   "Matthew 19:5": {
    "file": "matthew-19-5.json",
    "k": 2,
-   "n": 20,
-   "silhouette": 0.1983,
+   "n": 21,
+   "silhouette": 0.1918,
    "status": "ok"
   },
   "Matthew 19:6": {
@@ -25322,6 +26084,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Matthew 20:21": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Matthew 20:22": {
    "n": 2,
    "status": "insufficient-data"
@@ -25345,8 +26111,8 @@
   "Matthew 20:28": {
    "file": "matthew-20-28.json",
    "k": 2,
-   "n": 30,
-   "silhouette": 0.0938,
+   "n": 31,
+   "silhouette": 0.0991,
    "status": "ok"
   },
   "Matthew 20:3": {
@@ -25386,6 +26152,10 @@
    "status": "insufficient-data"
   },
   "Matthew 21:18-22": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Matthew 21:2": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -25430,6 +26200,14 @@
    "status": "insufficient-data"
   },
   "Matthew 21:5": {
+   "n": 2,
+   "status": "insufficient-data"
+  },
+  "Matthew 21:6": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Matthew 21:7": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -25742,11 +26520,15 @@
    "silhouette": 0.0703,
    "status": "ok"
   },
+  "Matthew 24:34-36": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Matthew 24:35": {
    "file": "matthew-24-35.json",
    "k": 2,
-   "n": 15,
-   "silhouette": 0.1978,
+   "n": 16,
+   "silhouette": 0.205,
    "status": "ok"
   },
   "Matthew 24:36": {
@@ -25774,11 +26556,11 @@
    "status": "insufficient-data"
   },
   "Matthew 24:40": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Matthew 24:41": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Matthew 24:42-44": {
@@ -25897,7 +26679,7 @@
    "status": "insufficient-data"
   },
   "Matthew 25:30": {
-   "n": 1,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Matthew 25:31": {
@@ -25909,11 +26691,11 @@
    "status": "insufficient-data"
   },
   "Matthew 25:31-46": {
-   "n": 2,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Matthew 25:32": {
-   "n": 4,
+   "n": 5,
    "status": "insufficient-data"
   },
   "Matthew 25:33": {
@@ -25925,7 +26707,7 @@
    "status": "insufficient-data"
   },
   "Matthew 25:35": {
-   "n": 7,
+   "n": 8,
    "status": "insufficient-data"
   },
   "Matthew 25:36": {
@@ -25941,7 +26723,7 @@
    "status": "insufficient-data"
   },
   "Matthew 25:40": {
-   "n": 5,
+   "n": 8,
    "status": "insufficient-data"
   },
   "Matthew 25:41": {
@@ -26020,7 +26802,7 @@
    "status": "insufficient-data"
   },
   "Matthew 26:31": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Matthew 26:35": {
@@ -26052,7 +26834,7 @@
    "status": "insufficient-data"
   },
   "Matthew 26:52": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Matthew 26:54": {
@@ -26096,7 +26878,7 @@
    "status": "insufficient-data"
   },
   "Matthew 27:10": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Matthew 27:11": {
@@ -26144,7 +26926,7 @@
    "status": "insufficient-data"
   },
   "Matthew 27:43": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Matthew 27:45": {
@@ -26152,7 +26934,7 @@
    "status": "insufficient-data"
   },
   "Matthew 27:46": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Matthew 27:5": {
@@ -26222,7 +27004,7 @@
    "status": "insufficient-data"
   },
   "Matthew 27:8": {
-   "n": 4,
+   "n": 6,
    "status": "insufficient-data"
   },
   "Matthew 27:9-10": {
@@ -26230,8 +27012,11 @@
    "status": "insufficient-data"
   },
   "Matthew 28:1": {
-   "n": 9,
-   "status": "insufficient-data"
+   "file": "matthew-28-1.json",
+   "k": 2,
+   "n": 10,
+   "silhouette": 0.1905,
+   "status": "ok"
   },
   "Matthew 28:11": {
    "n": 1,
@@ -26250,7 +27035,7 @@
    "status": "insufficient-data"
   },
   "Matthew 28:17": {
-   "n": 5,
+   "n": 7,
    "status": "insufficient-data"
   },
   "Matthew 28:18": {
@@ -26268,8 +27053,8 @@
   "Matthew 28:19": {
    "file": "matthew-28-19.json",
    "k": 3,
-   "n": 57,
-   "silhouette": 0.1401,
+   "n": 58,
+   "silhouette": 0.1515,
    "status": "ok"
   },
   "Matthew 28:19-20": {
@@ -26321,11 +27106,11 @@
    "status": "insufficient-data"
   },
   "Matthew 2:13": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Matthew 2:16": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Matthew 2:16-18": {
@@ -26410,8 +27195,8 @@
   "Matthew 3:2": {
    "file": "matthew-3-2.json",
    "k": 2,
-   "n": 27,
-   "silhouette": 0.0671,
+   "n": 29,
+   "silhouette": 0.1092,
    "status": "ok"
   },
   "Matthew 3:6": {
@@ -26527,7 +27312,7 @@
    "status": "insufficient-data"
   },
   "Matthew 5:17-19": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Matthew 5:18": {
@@ -26539,7 +27324,7 @@
    "status": "insufficient-data"
   },
   "Matthew 5:2": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Matthew 5:2-12": {
@@ -26608,7 +27393,7 @@
    "status": "insufficient-data"
   },
   "Matthew 5:39": {
-   "n": 5,
+   "n": 6,
    "status": "insufficient-data"
   },
   "Matthew 5:4": {
@@ -26690,15 +27475,15 @@
   "Matthew 6:10": {
    "file": "matthew-6-10.json",
    "k": 2,
-   "n": 23,
-   "silhouette": 0.0404,
+   "n": 26,
+   "silhouette": 0.0757,
    "status": "ok"
   },
   "Matthew 6:11": {
    "file": "matthew-6-11.json",
    "k": 2,
-   "n": 18,
-   "silhouette": 0.1558,
+   "n": 25,
+   "silhouette": 0.1387,
    "status": "ok"
   },
   "Matthew 6:12": {
@@ -26709,7 +27494,7 @@
    "status": "ok"
   },
   "Matthew 6:13": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Matthew 6:14": {
@@ -26758,8 +27543,8 @@
   "Matthew 6:21": {
    "file": "matthew-6-21.json",
    "k": 2,
-   "n": 15,
-   "silhouette": 0.123,
+   "n": 16,
+   "silhouette": 0.1106,
    "status": "ok"
   },
   "Matthew 6:23": {
@@ -26843,10 +27628,14 @@
   },
   "Matthew 7:1": {
    "file": "matthew-7-1.json",
-   "k": 4,
-   "n": 47,
-   "silhouette": 0.3555,
+   "k": 7,
+   "n": 72,
+   "silhouette": 0.441,
    "status": "ok"
+  },
+  "Matthew 7:1-2": {
+   "n": 1,
+   "status": "insufficient-data"
   },
   "Matthew 7:1-5": {
    "n": 1,
@@ -26893,8 +27682,8 @@
   "Matthew 7:21": {
    "file": "matthew-7-21.json",
    "k": 2,
-   "n": 21,
-   "silhouette": 0.068,
+   "n": 22,
+   "silhouette": 0.0637,
    "status": "ok"
   },
   "Matthew 7:21-23": {
@@ -26954,7 +27743,7 @@
    "status": "insufficient-data"
   },
   "Matthew 8:29": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Matthew 8:4": {
@@ -27094,6 +27883,10 @@
    "status": "insufficient-data"
   },
   "Nehemiah 8:10": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Nehemiah 8:12": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -27298,7 +28091,7 @@
    "status": "insufficient-data"
   },
   "Numbers 22:20": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Numbers 22:20-22": {
@@ -27310,11 +28103,11 @@
    "status": "insufficient-data"
   },
   "Numbers 22:26": {
-   "n": 4,
+   "n": 6,
    "status": "insufficient-data"
   },
   "Numbers 22:28": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Numbers 22:29": {
@@ -27322,15 +28115,15 @@
    "status": "insufficient-data"
   },
   "Numbers 22:31": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Numbers 22:32": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Numbers 23:19": {
-   "n": 4,
+   "n": 5,
    "status": "insufficient-data"
   },
   "Numbers 23:20": {
@@ -27338,7 +28131,7 @@
    "status": "insufficient-data"
   },
   "Numbers 23:22": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Numbers 24:1": {
@@ -27377,6 +28170,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Numbers 30:2": {
+   "n": 2,
+   "status": "insufficient-data"
+  },
   "Numbers 31:16": {
    "n": 1,
    "status": "insufficient-data"
@@ -27390,7 +28187,7 @@
    "status": "insufficient-data"
   },
   "Numbers 31:18": {
-   "n": 5,
+   "n": 7,
    "status": "insufficient-data"
   },
   "Numbers 31:32": {
@@ -27433,6 +28230,10 @@
    "n": 2,
    "status": "insufficient-data"
   },
+  "Numbers 35:33-34": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Numbers 3:11": {
    "n": 1,
    "status": "insufficient-data"
@@ -27463,10 +28264,14 @@
   },
   "Numbers 6:24": {
    "file": "numbers-6-24.json",
-   "k": 2,
-   "n": 29,
-   "silhouette": 0.066,
+   "k": 3,
+   "n": 30,
+   "silhouette": 0.0663,
    "status": "ok"
+  },
+  "Numbers 6:24-26": {
+   "n": 2,
+   "status": "insufficient-data"
   },
   "Numbers 6:25": {
    "n": 1,
@@ -27556,8 +28361,12 @@
    "n": 1,
    "status": "insufficient-data"
   },
-  "Philippians 1:20": {
+  "Philippians 1:2": {
    "n": 1,
+   "status": "insufficient-data"
+  },
+  "Philippians 1:20": {
+   "n": 2,
    "status": "insufficient-data"
   },
   "Philippians 1:20-21": {
@@ -27567,8 +28376,8 @@
   "Philippians 1:21": {
    "file": "philippians-1-21.json",
    "k": 2,
-   "n": 18,
-   "silhouette": 0.0813,
+   "n": 19,
+   "silhouette": 0.0784,
    "status": "ok"
   },
   "Philippians 1:23": {
@@ -27580,6 +28389,10 @@
    "status": "insufficient-data"
   },
   "Philippians 1:25": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Philippians 1:27": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -27729,6 +28542,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Philippians 3:12": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Philippians 3:14": {
    "n": 3,
    "status": "insufficient-data"
@@ -27758,6 +28575,10 @@
    "status": "insufficient-data"
   },
   "Philippians 3:3": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Philippians 3:4": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -27804,8 +28625,8 @@
   "Philippians 4:13": {
    "file": "philippians-4-13.json",
    "k": 2,
-   "n": 23,
-   "silhouette": 0.0444,
+   "n": 24,
+   "silhouette": 0.042,
    "status": "ok"
   },
   "Philippians 4:19": {
@@ -27829,8 +28650,11 @@
    "status": "insufficient-data"
   },
   "Philippians 4:7": {
-   "n": 9,
-   "status": "insufficient-data"
+   "file": "philippians-4-7.json",
+   "k": 2,
+   "n": 10,
+   "silhouette": 0.2524,
+   "status": "ok"
   },
   "Philippians 4:8": {
    "n": 2,
@@ -28024,7 +28848,7 @@
    "status": "ok"
   },
   "Proverbs 20:1": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Proverbs 20:10": {
@@ -28437,6 +29261,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Proverbs 5:19": {
+   "n": 2,
+   "status": "insufficient-data"
+  },
   "Proverbs 5:23": {
    "n": 1,
    "status": "insufficient-data"
@@ -28651,6 +29479,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Psalms 105:11": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Psalms 105:15": {
    "n": 2,
    "status": "insufficient-data"
@@ -28794,6 +29626,14 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Psalms 115:5": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Psalms 115:7": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Psalms 116:1": {
    "n": 1,
    "status": "insufficient-data"
@@ -28870,7 +29710,7 @@
    "status": "insufficient-data"
   },
   "Psalms 119:105": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Psalms 119:11": {
@@ -29117,6 +29957,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Psalms 135:16": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Psalms 135:19": {
    "n": 1,
    "status": "insufficient-data"
@@ -29126,6 +29970,10 @@
    "status": "insufficient-data"
   },
   "Psalms 135:7": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Psalms 136:15": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -29157,6 +30005,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Psalms 137:9": {
+   "n": 2,
+   "status": "insufficient-data"
+  },
   "Psalms 138:6": {
    "n": 1,
    "status": "insufficient-data"
@@ -29166,6 +30018,10 @@
    "status": "insufficient-data"
   },
   "Psalms 139:1-6": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Psalms 139:13": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -29473,7 +30329,7 @@
    "status": "insufficient-data"
   },
   "Psalms 22:14": {
-   "n": 4,
+   "n": 5,
    "status": "insufficient-data"
   },
   "Psalms 22:16": {
@@ -29539,12 +30395,12 @@
   "Psalms 23:1": {
    "file": "psalms-23-1.json",
    "k": 2,
-   "n": 14,
-   "silhouette": 0.1019,
+   "n": 15,
+   "silhouette": 0.1237,
    "status": "ok"
   },
   "Psalms 23:2": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Psalms 23:2-3": {
@@ -29552,11 +30408,11 @@
    "status": "insufficient-data"
   },
   "Psalms 23:4": {
-   "n": 4,
+   "n": 5,
    "status": "insufficient-data"
   },
   "Psalms 23:5": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Psalms 23:6": {
@@ -29620,7 +30476,7 @@
    "status": "insufficient-data"
   },
   "Psalms 2:7": {
-   "n": 4,
+   "n": 5,
    "status": "insufficient-data"
   },
   "Psalms 2:9": {
@@ -29868,7 +30724,7 @@
    "status": "insufficient-data"
   },
   "Psalms 40:6": {
-   "n": 4,
+   "n": 5,
    "status": "insufficient-data"
   },
   "Psalms 40:6-8": {
@@ -29980,8 +30836,11 @@
    "status": "insufficient-data"
   },
   "Psalms 45:7": {
-   "n": 9,
-   "status": "insufficient-data"
+   "file": "psalms-45-7.json",
+   "k": 2,
+   "n": 11,
+   "silhouette": 0.1391,
+   "status": "ok"
   },
   "Psalms 46:1": {
    "n": 1,
@@ -30040,6 +30899,10 @@
    "status": "insufficient-data"
   },
   "Psalms 49:7-15": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Psalms 4:1": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -30112,7 +30975,7 @@
    "status": "insufficient-data"
   },
   "Psalms 51:5": {
-   "n": 7,
+   "n": 8,
    "status": "insufficient-data"
   },
   "Psalms 51:7": {
@@ -30156,7 +31019,7 @@
    "status": "insufficient-data"
   },
   "Psalms 67:7": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Psalms 69:22": {
@@ -30164,6 +31027,10 @@
    "status": "insufficient-data"
   },
   "Psalms 69:22-23": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Psalms 69:22-28": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -30388,11 +31255,15 @@
    "status": "insufficient-data"
   },
   "Psalms 82:2": {
-   "n": 3,
+   "n": 4,
+   "status": "insufficient-data"
+  },
+  "Psalms 82:3": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Psalms 82:4": {
-   "n": 1,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Psalms 82:6": {
@@ -30400,7 +31271,7 @@
    "status": "insufficient-data"
   },
   "Psalms 82:7": {
-   "n": 1,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Psalms 82:8": {
@@ -30515,7 +31386,7 @@
    "status": "insufficient-data"
   },
   "Psalms 90:4": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Psalms 91:11": {
@@ -30606,6 +31477,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Revelation 10:94": {
+   "n": 2,
+   "status": "insufficient-data"
+  },
   "Revelation 11:10": {
    "n": 1,
    "status": "insufficient-data"
@@ -30624,6 +31499,10 @@
   },
   "Revelation 11:15": {
    "n": 4,
+   "status": "insufficient-data"
+  },
+  "Revelation 11:15-18": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Revelation 11:18": {
@@ -30674,7 +31553,7 @@
    "status": "insufficient-data"
   },
   "Revelation 12:1-6": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Revelation 12:10": {
@@ -30726,11 +31605,15 @@
    "status": "insufficient-data"
   },
   "Revelation 13:16": {
-   "n": 2,
+   "n": 3,
+   "status": "insufficient-data"
+  },
+  "Revelation 13:16-17": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Revelation 13:18": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Revelation 13:3-4": {
@@ -30742,7 +31625,7 @@
    "status": "insufficient-data"
   },
   "Revelation 13:6": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Revelation 13:8": {
@@ -30797,6 +31680,10 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Revelation 16:3-8": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Revelation 16:5-6": {
    "n": 1,
    "status": "insufficient-data"
@@ -30810,6 +31697,10 @@
    "status": "insufficient-data"
   },
   "Revelation 18:24": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Revelation 18:27": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -30893,6 +31784,10 @@
    "n": 2,
    "status": "insufficient-data"
   },
+  "Revelation 1:39": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Revelation 1:4": {
    "n": 2,
    "status": "insufficient-data"
@@ -30929,7 +31824,7 @@
    "status": "ok"
   },
   "Revelation 20:12": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Revelation 20:13": {
@@ -30937,7 +31832,7 @@
    "status": "insufficient-data"
   },
   "Revelation 20:14": {
-   "n": 5,
+   "n": 6,
    "status": "insufficient-data"
   },
   "Revelation 20:15": {
@@ -30953,23 +31848,30 @@
    "status": "insufficient-data"
   },
   "Revelation 20:4": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Revelation 20:4-6": {
    "n": 2,
    "status": "insufficient-data"
   },
-  "Revelation 20:6": {
-   "n": 9,
+  "Revelation 20:5-6": {
+   "n": 1,
    "status": "insufficient-data"
+  },
+  "Revelation 20:6": {
+   "file": "revelation-20-6.json",
+   "k": 2,
+   "n": 10,
+   "silhouette": 0.2381,
+   "status": "ok"
   },
   "Revelation 20:7-10": {
    "n": 1,
    "status": "insufficient-data"
   },
   "Revelation 20:7-9": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Revelation 20:8": {
@@ -30981,7 +31883,7 @@
    "status": "insufficient-data"
   },
   "Revelation 21:1": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Revelation 21:1-2": {
@@ -31009,11 +31911,11 @@
    "status": "insufficient-data"
   },
   "Revelation 21:2": {
-   "n": 4,
+   "n": 5,
    "status": "insufficient-data"
   },
   "Revelation 21:3": {
-   "n": 8,
+   "n": 9,
    "status": "insufficient-data"
   },
   "Revelation 21:4": {
@@ -31045,7 +31947,7 @@
    "status": "insufficient-data"
   },
   "Revelation 22:12": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Revelation 22:13": {
@@ -31065,6 +31967,10 @@
   },
   "Revelation 22:18": {
    "n": 5,
+   "status": "insufficient-data"
+  },
+  "Revelation 22:18-19": {
+   "n": 2,
    "status": "insufficient-data"
   },
   "Revelation 22:19": {
@@ -31112,7 +32018,7 @@
    "status": "insufficient-data"
   },
   "Revelation 2:21": {
-   "n": 4,
+   "n": 5,
    "status": "insufficient-data"
   },
   "Revelation 2:22-23": {
@@ -31160,7 +32066,7 @@
    "status": "insufficient-data"
   },
   "Revelation 3:19": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Revelation 3:2": {
@@ -31192,10 +32098,14 @@
    "status": "insufficient-data"
   },
   "Revelation 3:7": {
-   "n": 3,
+   "n": 5,
    "status": "insufficient-data"
   },
   "Revelation 3:7-8": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Revelation 3:85": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -31204,11 +32114,19 @@
    "status": "insufficient-data"
   },
   "Revelation 4:10": {
+   "n": 2,
+   "status": "insufficient-data"
+  },
+  "Revelation 4:11": {
    "n": 1,
    "status": "insufficient-data"
   },
   "Revelation 4:2": {
    "n": 1,
+   "status": "insufficient-data"
+  },
+  "Revelation 4:5": {
+   "n": 2,
    "status": "insufficient-data"
   },
   "Revelation 5:1": {
@@ -31239,15 +32157,35 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Revelation 5:21": {
+   "n": 2,
+   "status": "insufficient-data"
+  },
   "Revelation 5:3": {
    "n": 1,
+   "status": "insufficient-data"
+  },
+  "Revelation 5:32": {
+   "n": 2,
    "status": "insufficient-data"
   },
   "Revelation 5:4": {
    "n": 1,
    "status": "insufficient-data"
   },
+  "Revelation 5:43": {
+   "n": 3,
+   "status": "insufficient-data"
+  },
+  "Revelation 5:47": {
+   "n": 2,
+   "status": "insufficient-data"
+  },
   "Revelation 5:5": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Revelation 5:68": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -31257,6 +32195,14 @@
   },
   "Revelation 5:9-10": {
    "n": 3,
+   "status": "insufficient-data"
+  },
+  "Revelation 67:7": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Revelation 6:1": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Revelation 6:10": {
@@ -31341,6 +32287,10 @@
   },
   "Revelation 7:9": {
    "n": 2,
+   "status": "insufficient-data"
+  },
+  "Revelation 85:19-20": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Revelation 9:13": {
@@ -31595,8 +32545,11 @@
    "status": "ok"
   },
   "Romans 12:1-2": {
-   "n": 9,
-   "status": "insufficient-data"
+   "file": "romans-12-1-2.json",
+   "k": 2,
+   "n": 10,
+   "silhouette": 0.0968,
+   "status": "ok"
   },
   "Romans 12:11": {
    "n": 2,
@@ -31627,7 +32580,7 @@
    "status": "insufficient-data"
   },
   "Romans 12:2": {
-   "n": 4,
+   "n": 5,
    "status": "insufficient-data"
   },
   "Romans 12:20": {
@@ -31642,11 +32595,11 @@
    "status": "ok"
   },
   "Romans 12:3": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Romans 12:5": {
-   "n": 2,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Romans 12:6-18": {
@@ -31666,7 +32619,7 @@
    "status": "insufficient-data"
   },
   "Romans 13:1": {
-   "n": 5,
+   "n": 6,
    "status": "insufficient-data"
   },
   "Romans 13:1-5": {
@@ -31949,7 +32902,7 @@
    "status": "insufficient-data"
   },
   "Romans 16:7": {
-   "n": 8,
+   "n": 9,
    "status": "insufficient-data"
   },
   "Romans 16:8": {
@@ -31957,7 +32910,7 @@
    "status": "insufficient-data"
   },
   "Romans 1:1": {
-   "n": 6,
+   "n": 7,
    "status": "insufficient-data"
   },
   "Romans 1:1-16": {
@@ -32007,7 +32960,7 @@
    "status": "insufficient-data"
   },
   "Romans 1:18-20": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Romans 1:18-32": {
@@ -32041,8 +32994,8 @@
   "Romans 1:22": {
    "file": "romans-1-22.json",
    "k": 2,
-   "n": 21,
-   "silhouette": 0.3197,
+   "n": 22,
+   "silhouette": 0.2463,
    "status": "ok"
   },
   "Romans 1:25": {
@@ -32112,11 +33065,15 @@
    "n": 1,
    "status": "insufficient-data"
   },
+  "Romans 22:23-33": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Romans 2:1": {
    "file": "romans-2-1.json",
    "k": 2,
-   "n": 11,
-   "silhouette": 0.1569,
+   "n": 12,
+   "silhouette": 0.1895,
    "status": "ok"
   },
   "Romans 2:1-2": {
@@ -32148,7 +33105,7 @@
    "status": "insufficient-data"
   },
   "Romans 2:14-16": {
-   "n": 3,
+   "n": 4,
    "status": "insufficient-data"
   },
   "Romans 2:15": {
@@ -32184,7 +33141,7 @@
    "status": "insufficient-data"
   },
   "Romans 2:28-29": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Romans 2:29": {
@@ -32212,7 +33169,11 @@
    "status": "insufficient-data"
   },
   "Romans 2:8": {
-   "n": 2,
+   "n": 3,
+   "status": "insufficient-data"
+  },
+  "Romans 2:8-11": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Romans 2:9": {
@@ -32272,7 +33233,7 @@
    "status": "insufficient-data"
   },
   "Romans 3:19-20": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Romans 3:2": {
@@ -32317,6 +33278,10 @@
    "n": 6,
    "status": "insufficient-data"
   },
+  "Romans 3:24-26": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
   "Romans 3:26": {
    "n": 7,
    "status": "insufficient-data"
@@ -32337,6 +33302,10 @@
    "status": "insufficient-data"
   },
   "Romans 3:29-30": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Romans 3:3-6": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -32370,6 +33339,10 @@
   },
   "Romans 3:9": {
    "n": 4,
+   "status": "insufficient-data"
+  },
+  "Romans 3:9-11": {
+   "n": 1,
    "status": "insufficient-data"
   },
   "Romans 3:9-12": {
@@ -32458,8 +33431,8 @@
   "Romans 4:3": {
    "file": "romans-4-3.json",
    "k": 2,
-   "n": 16,
-   "silhouette": 0.2461,
+   "n": 17,
+   "silhouette": 0.343,
    "status": "ok"
   },
   "Romans 4:3-5": {
@@ -32468,6 +33441,10 @@
   },
   "Romans 4:4": {
    "n": 1,
+   "status": "insufficient-data"
+  },
+  "Romans 4:4-16": {
+   "n": 2,
    "status": "insufficient-data"
   },
   "Romans 4:4-5": {
@@ -32513,7 +33490,7 @@
    "status": "insufficient-data"
   },
   "Romans 5:12": {
-   "n": 7,
+   "n": 8,
    "status": "insufficient-data"
   },
   "Romans 5:12-13": {
@@ -32554,6 +33531,10 @@
   },
   "Romans 5:21": {
    "n": 8,
+   "status": "insufficient-data"
+  },
+  "Romans 5:3-5": {
+   "n": 2,
    "status": "insufficient-data"
   },
   "Romans 5:4-5": {
@@ -32658,8 +33639,8 @@
   "Romans 6:23": {
    "file": "romans-6-23.json",
    "k": 2,
-   "n": 16,
-   "silhouette": 0.1011,
+   "n": 20,
+   "silhouette": 0.1191,
    "status": "ok"
   },
   "Romans 6:3": {
@@ -32788,8 +33769,8 @@
   "Romans 8:1": {
    "file": "romans-8-1.json",
    "k": 2,
-   "n": 11,
-   "silhouette": 0.1723,
+   "n": 12,
+   "silhouette": 0.1536,
    "status": "ok"
   },
   "Romans 8:1-2": {
@@ -32907,7 +33888,7 @@
    "status": "ok"
   },
   "Romans 8:28-30": {
-   "n": 3,
+   "n": 5,
    "status": "insufficient-data"
   },
   "Romans 8:29": {
@@ -33158,7 +34139,7 @@
    "status": "insufficient-data"
   },
   "Song of Solomon 1:14": {
-   "n": 1,
+   "n": 2,
    "status": "insufficient-data"
   },
   "Song of Solomon 1:2": {
@@ -33166,10 +34147,14 @@
    "status": "insufficient-data"
   },
   "Song of Solomon 2:13": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Song of Solomon 2:5": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Song of Solomon 2:7": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -33190,6 +34175,14 @@
    "status": "insufficient-data"
   },
   "Song of Solomon 8:4": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Song of Solomon 8:6": {
+   "n": 1,
+   "status": "insufficient-data"
+  },
+  "Song of Solomon 8:7": {
    "n": 1,
    "status": "insufficient-data"
   },
@@ -33247,6 +34240,10 @@
   },
   "Titus 2:5": {
    "n": 1,
+   "status": "insufficient-data"
+  },
+  "Titus 2:9": {
+   "n": 2,
    "status": "insufficient-data"
   },
   "Titus 2:9-10": {
@@ -33374,7 +34371,7 @@
    "status": "insufficient-data"
   },
   "Zechariah 9:9": {
-   "n": 2,
+   "n": 3,
    "status": "insufficient-data"
   },
   "Zechariah 9:9-10": {

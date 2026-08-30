@@ -132,6 +132,18 @@
      "confidence": null,
      "context": "Maybe that that that is a possibility. So I think that is a very interesting, very interesting uh passage. And there's one more I'll add to this mix, uh, and that's Amos chapter 4, verse 11. This is specifically about the events we just read. So turn there if you would. Amos 4.11, if you'd like to, I'll just read it to you. Um so what we have we have is we have definitely a theophany type thing, but here's why I think Christophany, because this Yahweh who's speaking to Abraham, he speaks also of Yahweh in the third person, and then when the events finally take place of the fire and brimstone, Yahweh rains down fire and brimstone from Yahweh out of heaven, almost as though we've got two different persons going on in the story.",
      "creator": "mike-winger",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2018-07-23T16:30:00Z",
+     "role": "host",
+     "t": 1519.04,
+     "title": "Examples of Christophanies: How to find Jesus in the Old Testament pt 5",
+     "video_id": "1CDOSbzd6Uk"
+    },
+    {
+     "confidence": null,
+     "context": "Maybe that that that is a possibility. So I think that is a very interesting, very interesting uh passage. And there's one more I'll add to this mix, uh, and that's Amos chapter 4, verse 11. This is specifically about the events we just read. So turn there if you would. Amos 4.11, if you'd like to, I'll just read it to you. Um so what we have we have is we have definitely a theophany type thing, but here's why I think Christophany, because this Yahweh who's speaking to Abraham, he speaks also of Yahweh in the third person, and then when the events finally take place of the fire and brimstone, Yahweh rains down fire and brimstone from Yahweh out of heaven, almost as though we've got two different persons going on in the story.",
+     "creator": "mike-winger",
      "detection_method": "explicit_citation",
      "matched_translation": null,
      "published_at": "2018-07-23T16:30:00Z",
@@ -142,9 +154,9 @@
     }
    ],
    "creators": {
-    "mike-winger": 1
+    "mike-winger": 2
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "I have overthrown some of you, as God overthrew Sodom and Gomorrah, and ye were as a firebrand plucked out of the burning: yet have ye not returned unto me, saith the LORD.",
     "WEB": "“I have overthrown some of you, as when God overthrew Sodom and Gomorrah, and you were like a burning stick plucked out of the fire; yet you haven’t returned to me,” says the LORD."
@@ -423,12 +435,24 @@
      "t": 62.08,
      "title": "How we know the book of Acts isn’t historical ",
      "video_id": "EuVH6chfkzo"
+    },
+    {
+     "confidence": null,
+     "context": "So for instance, in Acts 15, verses 16 and 17, we have the Jerusalem Council drawing to a close. And James is ostensibly quoting from the prophets to seal the deal. And he's quoting from Amos 9, verses 11 through 12. Kinda. It's actually probably a mixture of a few different passages. However, he's definitely quoting from the Greek. And the Greek understood the Hebrew in a very different way, a way that doesn't result from going directly from the Hebrew, which means that the author of Acts 15 was not actually reporting what James actually would have said during the Jerusalem Council.",
+     "creator": "dan-mcclellan",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-06-27T14:25:43Z",
+     "role": "host",
+     "t": 126.28,
+     "title": "When the New Testament uses mistranslations",
+     "video_id": "dWH1Cf9-Nco"
     }
    ],
    "creators": {
-    "dan-mcclellan": 2
+    "dan-mcclellan": 3
    },
-   "n": 2,
+   "n": 3,
    "text": {},
    "truncated": false
   },
@@ -454,6 +478,31 @@
    "text": {
     "KJV": "Are ye not as children of the Ethiopians unto me, O children of Israel? saith the LORD. Have not I brought up Israel out of the land of Egypt? and the Philistines from Caphtor, and the Syrians from Kir?",
     "WEB": "Are you not like the children of the Ethiopians to me, children of Israel?” says the LORD. “Haven’t I brought up Israel out of the land of Egypt, and the Philistines from Caphtor, and the Syrians from Kir?"
+   },
+   "truncated": false
+  },
+  "Amos 9:8": {
+   "citations": [
+    {
+     "confidence": 0.6571,
+     "context": "This shows God's management of affairs elsewhere. In fact, in 9 8, Amos adds, quote, the eyes of the Lord Yahweh are upon the sinful kingdom, and I will destroy it from the face of the earth, except that I will not utterly destroy the house of Jacob, says Yahweh.",
+     "creator": "dan-mcclellan",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-07-24T20:36:42Z",
+     "role": "unknown",
+     "t": 2533.8,
+     "title": "Responding to claims about homosexuality & the Bible",
+     "video_id": "huB3_c37GhI"
+    }
+   ],
+   "creators": {
+    "dan-mcclellan": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Behold, the eyes of the Lord GOD are upon the sinful kingdom, and I will destroy it from off the face of the earth; saving that I will not utterly destroy the house of Jacob, saith the LORD.",
+    "WEB": "Behold, the eyes of the Lord GOD are on the sinful kingdom, and I will destroy it from off the surface of the earth, except that I will not utterly destroy the house of Jacob,” says the LORD."
    },
    "truncated": false
   }

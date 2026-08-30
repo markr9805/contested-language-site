@@ -5,7 +5,7 @@
     "cite_key": "c3f3ae918dac01ecc5dd712ac9e620417df10e0ae86b0cc747a40f9f4f6beb2d",
     "context": "Rather, I feel like I'm obeying rules of biblical interpretation, and I'm saying, let's look at how Adam and Eve represent Christ and the church. So Genesis 2, verse 18. It says, And the Lord God said, It is not good that the man should be alone. I will make a helper fit for him. The um the King James Version says, help me. I called Alison that one time, and she was like, What?",
     "creator": "mike-winger",
-    "dist": 0.326,
+    "dist": 0.3415,
     "published_at": "2018-06-05T00:00:05Z",
     "role": "host",
     "t": 1121.36,
@@ -17,7 +17,7 @@
     "cite_key": "7d2a11be00cc751d31f86cf7e01e7230501ec9743a7ed84656833fe1b1707750",
     "context": "And he declares everything in creation to be either good or very good, except for one thing. In Genesis 2, verse 18, God says, it is not good for the man to be alone. And yes, the suitable helper or partner that God makes for Adam is Eve, a woman.",
     "creator": "counsel-of-trent",
-    "dist": 0.3595,
+    "dist": 0.3622,
     "published_at": "2021-03-02T14:00:05Z",
     "role": "unknown",
     "t": 2291.08,
@@ -29,7 +29,7 @@
     "cite_key": "29248d60cc3d544ad599e6bed9b253386d4786f731c840370956b4fa828fcdf0",
     "context": "Yes, you can still say it out loud, even though you already know. Interesting. All right, so 218, uh, Genesis uh chapter 2, 18. Then the Lord God said, It is not good for the man to be alone. I will make him a helper suitable for him. Why let's just let's just say this is true. Why didn't God just do it in the first place?",
     "creator": "neverflamenevertilt",
-    "dist": 0.3681,
+    "dist": 0.3781,
     "published_at": "2026-07-15T02:38:26Z",
     "role": "host",
     "t": 3608.72,
@@ -41,7 +41,7 @@
     "cite_key": "7bcedd8031f1611f78a4c07a7d5827b65caba9b271cd7ec6f0633df8a4b57504",
     "context": "And now I'm gonna do something. I'm gonna take a little bit of I wouldn't call liberty like I'm breaking rules or something like that. Rather, I feel like I'm obeying rules of biblical interpretation, and I'm saying, let's look at how Adam and Eve represent Christ and the church. So Genesis 2, verse 18. It says, And the Lord God said, It is not good that the man should be alone. I will make a helper fit for him. The um the King James Version says, help me. I called Alison that one time, and she was like, What?",
     "creator": "mike-winger",
-    "dist": 0.38,
+    "dist": 0.3926,
     "published_at": "2018-06-05T00:00:05Z",
     "role": "host",
     "t": 1118.88,
@@ -50,16 +50,16 @@
     "video_id": "Xony-_BN5bQ"
    },
    {
-    "cite_key": "5f4e5ad1ef82576d2386f5297445f6ad446a01eaf701951f9ecc273b341c6ea5",
-    "context": "Shriner's third point is that God created Eve to be a helper for Adam. This is probably one of the bigger issues I've like shifted my view on. And it's in Genesis 2 18. Then the Lord God said, It is not good that man should be alone. I will make him a helper fit for him. And that word helper is there's a big debate here. There's also a debate on fit for him, that's connecto in in Hebrew. But the the debate on conegdo depends on how you interpret helper.",
-    "creator": "mike-winger",
-    "dist": 0.4057,
-    "published_at": "2022-03-14T22:21:22Z",
+    "cite_key": "ef7712bf8129aaf1a8a53ef90224941c6818c13977c68d71a6048a4fee26f87b",
+    "context": "There's a sense of equal dignity and worth and partnership in the work that God gives them to do in the garden. And so I would I would start there to have a conversation about what can women do. And sometimes people then go straight to chapter 2, verse 18, where it says, It's not good for the man to be alone. I will make a helper suitable for him and say, see, look, women are supposed to help men. They come underneath men's leadership. And so for that, I would just say it's fascinating if you actually look up all of the occurrences of that Hebrew word, which is azer in the Old Testament.",
+    "creator": "jude-3-project",
+    "dist": 0.4046,
+    "published_at": "2023-03-02T17:30:11Z",
     "role": "host",
-    "t": 3202.56,
-    "title": "Was Women's Submission Just a Curse to Be Overturned? Women in Ministry part 2",
+    "t": 2666.2,
+    "title": "Should Women Trust The Bible? | Dr. Carmen Imes",
     "verse_ref": "Genesis 2:18",
-    "video_id": "I1LO2THPzZI"
+    "video_id": "_ZSg8RpZzfM"
    }
   ],
   "1": [
@@ -152,6 +152,14 @@
      "n": 1,
      "status": "insufficient-data"
     },
+    "jude-3-project": {
+     "counts": [
+      1,
+      0
+     ],
+     "n": 1,
+     "status": "insufficient-data"
+    },
     "mike-winger": {
      "counts": [
       3,
@@ -183,14 +191,14 @@
    "cells": {
     "overall": {
      "counts": [
-      6,
+      7,
       5
      ],
      "dist": [
-      0.5455,
-      0.4545
+      0.5833,
+      0.4167
      ],
-     "n": 11,
+     "n": 12,
      "status": "ok"
     }
    },
@@ -200,11 +208,15 @@
    "cells": {
     "host": {
      "counts": [
-      5,
+      6,
       4
      ],
-     "n": 9,
-     "status": "insufficient-data"
+     "dist": [
+      0.6,
+      0.4
+     ],
+     "n": 10,
+     "status": "ok"
     },
     "unknown": {
      "counts": [
@@ -243,6 +255,14 @@
      "n": 2,
      "status": "insufficient-data"
     },
+    "2023": {
+     "counts": [
+      1,
+      0
+     ],
+     "n": 1,
+     "status": "insufficient-data"
+    },
     "2024": {
      "counts": [
       1,
@@ -272,8 +292,8 @@
   }
  },
  "k": 2,
- "n": 11,
- "silhouette": 0.1427,
+ "n": 12,
+ "silhouette": 0.133,
  "status": "ok",
  "verse_ref": "Genesis 2:18"
 }

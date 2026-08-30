@@ -13,7 +13,7 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.8718
+     "weight": 0.8886
     },
     "apologetics-critique": {
      "source": "seed",
@@ -21,29 +21,29 @@
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.906
+     "weight": 0.9142
     }
    },
    "contact_facing": "dialogue-facing",
    "corpus_status": "ok",
    "display_name": "Apostate Aladdin",
    "is_anchor": false,
-   "occurrences": 7830,
+   "occurrences": 9692,
    "organic": {
     "status": "ok",
     "xy": [
-     0.0282,
-     0.0102
+     0.0268,
+     0.0077
     ]
    },
    "polar": {
-    "anchor_agreement": 0.4828,
-    "ensembles_compared": 14700,
-    "reason": "only 48.3% of the 14,700 equally defensible anchor ensembles put this creator on this side — the published side is the MINORITY view",
+    "anchor_agreement": 0.1999,
+    "ensembles_compared": 17640,
+    "reason": "only 20.0% of the 17,640 equally defensible anchor ensembles put this creator on this side — the published side is the MINORITY view",
     "source": "computed",
     "status": "provisional",
-    "x": 0.0192,
-    "y": 0.0102
+    "x": 0.0142,
+    "y": 0.0077
    },
    "pole": null,
    "videos": 244,
@@ -53,33 +53,32 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9251
+     "weight": 0.9281
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.9122
+     "weight": 0.9193
     }
    },
-   "contact_facing": null,
+   "contact_facing": true,
    "corpus_status": "ok",
    "display_name": "Belief It Or Not",
    "is_anchor": false,
-   "occurrences": 4421,
+   "occurrences": 4777,
    "organic": {
     "status": "ok",
     "xy": [
-     0.0303,
-     0.0038
+     0.0305,
+     0.0063
     ]
    },
    "polar": {
-    "anchor_agreement": 0.8013,
-    "ensembles_compared": 14700,
-    "reason": "only 80.1% of the 14,700 equally defensible anchor ensembles put this creator on this side",
+    "anchor_agreement": 0.9779,
+    "ensembles_compared": 17640,
     "source": "computed",
-    "status": "provisional",
-    "x": -0.007,
-    "y": 0.0038
+    "status": "ok",
+    "x": -0.0048,
+    "y": 0.0063
    },
    "pole": null,
    "videos": 331,
@@ -100,12 +99,12 @@
    "corpus_status": "ok",
    "display_name": "No Nonsense Spirituality (Britt Hartley)",
    "is_anchor": true,
-   "occurrences": 2392,
+   "occurrences": 3723,
    "organic": {
     "status": "ok",
     "xy": [
-     -0.0292,
-     -0.0755
+     -0.0278,
+     -0.0561
     ]
    },
    "polar": {
@@ -115,8 +114,8 @@
     "y": 0.0
    },
    "pole": "deconstruction",
-   "videos": 208,
-   "words": 703650
+   "videos": 209,
+   "words": 703961
   },
   "capturing-christianity": {
    "affinities": {
@@ -133,12 +132,12 @@
    "corpus_status": "ok",
    "display_name": "Capturing Christianity",
    "is_anchor": true,
-   "occurrences": 9970,
+   "occurrences": 12027,
    "organic": {
     "status": "ok",
     "xy": [
-     -0.093,
-     -0.047
+     -0.083,
+     -0.0473
     ]
    },
    "polar": {
@@ -148,8 +147,8 @@
     "y": 0.0
    },
    "pole": "apologetics",
-   "videos": 446,
-   "words": 4328318
+   "videos": 448,
+   "words": 4359831
   },
   "counsel-of-trent": {
    "affinities": {
@@ -166,12 +165,12 @@
    "corpus_status": "ok",
    "display_name": "The Counsel of Trent",
    "is_anchor": true,
-   "occurrences": 10419,
+   "occurrences": 13504,
    "organic": {
     "status": "ok",
     "xy": [
-     -0.039,
-     0.0425
+     -0.033,
+     0.0297
     ]
    },
    "polar": {
@@ -181,8 +180,8 @@
     "y": 0.0
    },
    "pole": "apologetics",
-   "videos": 1156,
-   "words": 3969318
+   "videos": 1170,
+   "words": 4073246
   },
   "cross-examined": {
    "affinities": {
@@ -195,12 +194,12 @@
    "corpus_status": "ok",
    "display_name": "Cross Examined",
    "is_anchor": true,
-   "occurrences": 15573,
+   "occurrences": 18851,
    "organic": {
     "status": "ok",
     "xy": [
      -0.0222,
-     -0.0022
+     -0.001
     ]
    },
    "polar": {
@@ -210,14 +209,14 @@
     "y": 0.0
    },
    "pole": "apologetics",
-   "videos": 1738,
-   "words": 3847138
+   "videos": 1799,
+   "words": 4013611
   },
   "dan-mcclellan": {
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9352
+     "weight": 0.929
     },
     "apologetics-critique": {
      "source": "seed",
@@ -229,7 +228,7 @@
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.8701
+     "weight": 0.8627
     },
     "pending-placement": {
      "source": "seed",
@@ -240,25 +239,25 @@
    "corpus_status": "ok",
    "display_name": "Dan McClellan",
    "is_anchor": false,
-   "occurrences": 1015,
+   "occurrences": 1750,
    "organic": {
     "status": "ok",
     "xy": [
-     -0.0212,
-     0.0728
+     -0.0408,
+     0.0701
     ]
    },
    "polar": {
-    "anchor_agreement": 0.9995,
-    "ensembles_compared": 23100,
+    "anchor_agreement": 1.0,
+    "ensembles_compared": 31752,
     "source": "computed",
     "status": "ok",
-    "x": -0.0361,
-    "y": 0.0728
+    "x": -0.037,
+    "y": 0.0701
    },
    "pole": null,
-   "videos": 403,
-   "words": 778278
+   "videos": 779,
+   "words": 1320937
   },
   "darante-lamar": {
    "affinities": {
@@ -271,12 +270,12 @@
    "corpus_status": "ok",
    "display_name": "Darante' LaMar",
    "is_anchor": true,
-   "occurrences": 35306,
+   "occurrences": 41741,
    "organic": {
     "status": "ok",
     "xy": [
-     0.0954,
-     0.0222
+     0.0983,
+     0.0255
     ]
    },
    "polar": {
@@ -293,32 +292,32 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9478
+     "weight": 0.9449
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.8735
+     "weight": 0.8541
     }
    },
    "contact_facing": "dialogue-facing",
    "corpus_status": "ok",
    "display_name": "drcraigvideos (William Lane Craig)",
    "is_anchor": false,
-   "occurrences": 6547,
+   "occurrences": 8373,
    "organic": {
     "status": "ok",
     "xy": [
-     -0.2065,
-     -0.0486
+     -0.1862,
+     -0.0542
     ]
    },
    "polar": {
-    "anchor_agreement": 0.9613,
-    "ensembles_compared": 11550,
+    "anchor_agreement": 1.0,
+    "ensembles_compared": 15876,
     "source": "computed",
     "status": "ok",
-    "x": -0.0408,
-    "y": -0.0486
+    "x": -0.0505,
+    "y": -0.0542
    },
    "pole": null,
    "videos": 2272,
@@ -343,12 +342,12 @@
    "corpus_status": "ok",
    "display_name": "Genetically Modified Skeptic",
    "is_anchor": true,
-   "occurrences": 2632,
+   "occurrences": 4837,
    "organic": {
     "status": "ok",
     "xy": [
-     0.0122,
-     -0.0182
+     0.0141,
+     -0.0101
     ]
    },
    "polar": {
@@ -358,40 +357,40 @@
     "y": 0.0
    },
    "pole": "deconstruction",
-   "videos": 246,
-   "words": 969347
+   "videos": 247,
+   "words": 976205
   },
   "jackie-hill-perry": {
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9013
+     "weight": 0.9117
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.8943
+     "weight": 0.8983
     }
    },
    "contact_facing": "internal-facing",
    "corpus_status": "ok",
    "display_name": "Jackie Hill Perry",
    "is_anchor": false,
-   "occurrences": 1010,
+   "occurrences": 1014,
    "organic": {
     "status": "ok",
     "xy": [
-     -0.0705,
-     0.0632
+     -0.0713,
+     0.0712
     ]
    },
    "polar": {
-    "anchor_agreement": 0.8449,
-    "ensembles_compared": 11550,
-    "reason": "only 84.5% of the 11,550 equally defensible anchor ensembles put this creator on this side",
+    "anchor_agreement": 0.913,
+    "ensembles_compared": 15876,
+    "reason": "only 91.3% of the 15,876 equally defensible anchor ensembles put this creator on this side",
     "source": "computed",
     "status": "provisional",
-    "x": -0.0039,
-    "y": 0.0632
+    "x": -0.0074,
+    "y": 0.0712
    },
    "pole": null,
    "videos": 138,
@@ -401,33 +400,33 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9326
+     "weight": 0.9439
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.9417
+     "weight": 0.9358
     }
    },
    "contact_facing": "internal-facing",
    "corpus_status": "ok",
    "display_name": "Jude 3 Project",
    "is_anchor": false,
-   "occurrences": 8912,
+   "occurrences": 9142,
    "organic": {
     "status": "ok",
     "xy": [
-     0.0099,
-     0.0338
+     0.01,
+     0.0404
     ]
    },
    "polar": {
-    "anchor_agreement": 0.3538,
-    "ensembles_compared": 11550,
-    "reason": "only 35.4% of the 11,550 equally defensible anchor ensembles put this creator on this side — the published side is the MINORITY view",
+    "anchor_agreement": 0.8795,
+    "ensembles_compared": 15876,
+    "reason": "only 87.9% of the 15,876 equally defensible anchor ensembles put this creator on this side",
     "source": "computed",
     "status": "provisional",
-    "x": 0.0049,
-    "y": 0.0338
+    "x": -0.0043,
+    "y": 0.0404
    },
    "pole": null,
    "videos": 722,
@@ -437,7 +436,7 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.7818
+     "weight": 0.766
     },
     "apologetics-critique": {
      "source": "seed",
@@ -445,28 +444,28 @@
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.8363
+     "weight": 0.8373
     }
    },
    "contact_facing": "dialogue-facing",
    "corpus_status": "ok",
    "display_name": "lil bill",
    "is_anchor": false,
-   "occurrences": 884,
+   "occurrences": 899,
    "organic": {
     "status": "ok",
     "xy": [
-     0.1566,
-     -0.1509
+     0.1536,
+     -0.1536
     ]
    },
    "polar": {
-    "anchor_agreement": 0.9995,
-    "ensembles_compared": 14700,
+    "anchor_agreement": 0.9997,
+    "ensembles_compared": 17640,
     "source": "computed",
     "status": "ok",
-    "x": 0.0337,
-    "y": -0.1509
+    "x": 0.0445,
+    "y": -0.1536
    },
    "pole": null,
    "videos": 68,
@@ -476,14 +475,14 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.5679
+     "weight": 0.5607
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.6432
+     "weight": 0.6431
     }
    },
-   "contact_facing": null,
+   "contact_facing": true,
    "corpus_status": "ok",
    "display_name": "Marc Coley",
    "is_anchor": false,
@@ -491,17 +490,17 @@
    "organic": {
     "status": "ok",
     "xy": [
-     0.4175,
-     0.0406
+     0.4193,
+     0.0407
     ]
    },
    "polar": {
-    "anchor_agreement": 0.9834,
-    "ensembles_compared": 14700,
+    "anchor_agreement": 0.9983,
+    "ensembles_compared": 17640,
     "source": "computed",
     "status": "ok",
-    "x": 0.0622,
-    "y": 0.0406
+    "x": 0.0684,
+    "y": 0.0407
    },
    "pole": null,
    "videos": 56,
@@ -510,8 +509,8 @@
   "mike-winger": {
    "affinities": {
     "apologetics": {
-     "source": "computed",
-     "weight": 0.9469
+     "source": "seed",
+     "weight": 0.8
     },
     "deconstruction": {
      "source": "computed",
@@ -521,24 +520,22 @@
    "contact_facing": "internal-facing",
    "corpus_status": "ok",
    "display_name": "Mike Winger",
-   "is_anchor": false,
-   "occurrences": 23878,
+   "is_anchor": true,
+   "occurrences": 25558,
    "organic": {
     "status": "ok",
     "xy": [
-     -0.0981,
-     0.0859
+     -0.1075,
+     0.0871
     ]
    },
    "polar": {
-    "anchor_agreement": 0.9983,
-    "ensembles_compared": 11550,
-    "source": "computed",
+    "source": "seed-anchor",
     "status": "ok",
-    "x": -0.0315,
-    "y": 0.0859
+    "x": -1.0,
+    "y": 0.0
    },
-   "pole": null,
+   "pole": "apologetics",
    "videos": 1216,
    "words": 9684742
   },
@@ -561,12 +558,12 @@
    "corpus_status": "ok",
    "display_name": "Mindshift (Brandon)",
    "is_anchor": true,
-   "occurrences": 8867,
+   "occurrences": 11920,
    "organic": {
     "status": "ok",
     "xy": [
-     -0.1442,
-     -0.0066
+     -0.1413,
+     -0.0179
     ]
    },
    "polar": {
@@ -576,14 +573,14 @@
     "y": 0.0
    },
    "pole": "deconstruction",
-   "videos": 557,
-   "words": 2822804
+   "videos": 560,
+   "words": 2839819
   },
   "neverflamenevertilt": {
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9746
+     "weight": 0.9526
     },
     "apologetics-critique": {
      "source": "seed",
@@ -591,7 +588,7 @@
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.9523
+     "weight": 0.9457
     },
     "pending-placement": {
      "source": "seed",
@@ -602,32 +599,32 @@
    "corpus_status": "ok",
    "display_name": "Jay (NeverFlameNeverTilt)",
    "is_anchor": false,
-   "occurrences": 1979,
+   "occurrences": 3967,
    "organic": {
     "status": "ok",
     "xy": [
-     0.0262,
-     0.0051
+     0.0242,
+     -0.0055
     ]
    },
    "polar": {
-    "anchor_agreement": 0.6849,
-    "ensembles_compared": 23100,
-    "reason": "only 68.5% of the 23,100 equally defensible anchor ensembles put this creator on this side",
+    "anchor_agreement": 0.8356,
+    "ensembles_compared": 31752,
+    "reason": "only 83.6% of the 31,752 equally defensible anchor ensembles put this creator on this side",
     "source": "computed",
     "status": "provisional",
-    "x": -0.0116,
-    "y": 0.0051
+    "x": -0.0036,
+    "y": -0.0055
    },
    "pole": null,
-   "videos": 67,
-   "words": 724643
+   "videos": 128,
+   "words": 1376298
   },
   "paulogia": {
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9564
+     "weight": 0.9649
     },
     "apologetics-critique": {
      "source": "seed",
@@ -635,38 +632,38 @@
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.9335
+     "weight": 0.9268
     }
    },
    "contact_facing": "dialogue-facing",
    "corpus_status": "ok",
    "display_name": "Paulogia",
    "is_anchor": false,
-   "occurrences": 6976,
+   "occurrences": 8844,
    "organic": {
     "status": "ok",
     "xy": [
-     0.0048,
-     -0.008
+     -0.0016,
+     -0.0169
     ]
    },
    "polar": {
-    "anchor_agreement": 0.9557,
-    "ensembles_compared": 14700,
+    "anchor_agreement": 1.0,
+    "ensembles_compared": 15876,
     "source": "computed",
     "status": "ok",
-    "x": -0.0121,
-    "y": -0.008
+    "x": -0.0201,
+    "y": -0.0169
    },
    "pole": null,
-   "videos": 721,
-   "words": 2516861
+   "videos": 737,
+   "words": 2594480
   },
   "prophet-of-zod": {
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.977
+     "weight": 0.9737
     },
     "apologetics-critique": {
      "source": "seed",
@@ -674,29 +671,28 @@
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.9477
+     "weight": 0.9471
     }
    },
    "contact_facing": "dialogue-facing",
    "corpus_status": "ok",
    "display_name": "Prophet of Zod",
    "is_anchor": false,
-   "occurrences": 1528,
+   "occurrences": 2874,
    "organic": {
     "status": "ok",
     "xy": [
-     -0.0984,
-     -0.0274
+     -0.1173,
+     -0.028
     ]
    },
    "polar": {
-    "anchor_agreement": 0.9454,
-    "ensembles_compared": 14700,
-    "reason": "only 94.5% of the 14,700 equally defensible anchor ensembles put this creator on this side",
+    "anchor_agreement": 0.9745,
+    "ensembles_compared": 15876,
     "source": "computed",
-    "status": "provisional",
-    "x": -0.0152,
-    "y": -0.0274
+    "status": "ok",
+    "x": -0.0138,
+    "y": -0.028
    },
    "pole": null,
    "videos": 237,
@@ -717,12 +713,12 @@
    "corpus_status": "ok",
    "display_name": "ReasonableFaithOrg",
    "is_anchor": true,
-   "occurrences": 8257,
+   "occurrences": 9492,
    "organic": {
     "status": "ok",
     "xy": [
-     -0.1015,
-     -0.0094
+     -0.0872,
+     -0.0172
     ]
    },
    "polar": {
@@ -732,14 +728,14 @@
     "y": 0.0
    },
    "pole": "apologetics",
-   "videos": 712,
-   "words": 3080357
+   "videos": 721,
+   "words": 3120710
   },
   "shannon-q": {
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.825
+     "weight": 0.8579
     },
     "apologetics-critique": {
      "source": "seed",
@@ -747,28 +743,29 @@
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.8961
+     "weight": 0.8922
     }
    },
    "contact_facing": "dialogue-facing",
    "corpus_status": "ok",
    "display_name": "Shannon Q",
    "is_anchor": false,
-   "occurrences": 3703,
+   "occurrences": 5652,
    "organic": {
     "status": "ok",
     "xy": [
-     0.1074,
-     -0.0033
+     0.0987,
+     -0.0029
     ]
    },
    "polar": {
-    "anchor_agreement": 0.9938,
-    "ensembles_compared": 14700,
+    "anchor_agreement": 0.9414,
+    "ensembles_compared": 17640,
+    "reason": "only 94.1% of the 17,640 equally defensible anchor ensembles put this creator on this side",
     "source": "computed",
-    "status": "ok",
-    "x": 0.0413,
-    "y": -0.0033
+    "status": "provisional",
+    "x": 0.0196,
+    "y": -0.0029
    },
    "pole": null,
    "videos": 186,
@@ -778,7 +775,7 @@
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9115
+     "weight": 0.914
     },
     "apologetics-critique": {
      "source": "seed",
@@ -786,7 +783,7 @@
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.9117
+     "weight": 0.9199
     },
     "pending-placement": {
      "source": "seed",
@@ -797,36 +794,36 @@
    "corpus_status": "ok",
    "display_name": "The Antibot",
    "is_anchor": false,
-   "occurrences": 2000,
+   "occurrences": 3274,
    "organic": {
     "status": "ok",
     "xy": [
-     0.0417,
-     -0.0162
+     0.0519,
+     -0.0107
     ]
    },
    "polar": {
-    "anchor_agreement": 0.4249,
-    "ensembles_compared": 23100,
-    "reason": "only 42.5% of the 23,100 equally defensible anchor ensembles put this creator on this side — the published side is the MINORITY view",
+    "anchor_agreement": 0.4095,
+    "ensembles_compared": 31752,
+    "reason": "only 40.9% of the 31,752 equally defensible anchor ensembles put this creator on this side — the published side is the MINORITY view",
     "source": "computed",
     "status": "provisional",
-    "x": 0.0001,
-    "y": -0.0162
+    "x": 0.0032,
+    "y": -0.0107
    },
    "pole": null,
-   "videos": 112,
-   "words": 941044
+   "videos": 187,
+   "words": 1291044
   },
   "the-omnist-rone": {
    "affinities": {
     "apologetics": {
      "source": "computed",
-     "weight": 0.9301
+     "weight": 0.9357
     },
     "deconstruction": {
      "source": "computed",
-     "weight": 0.9392
+     "weight": 0.9415
     },
     "pending-placement": {
      "source": "seed",
@@ -837,842 +834,961 @@
    "corpus_status": "ok",
    "display_name": "The Omnist Rone",
    "is_anchor": false,
-   "occurrences": 2447,
+   "occurrences": 4085,
    "organic": {
     "status": "ok",
     "xy": [
-     -0.0065,
-     0.0333
+     -0.0079,
+     0.0428
     ]
    },
    "polar": {
-    "anchor_agreement": 0.2659,
-    "ensembles_compared": 23100,
-    "reason": "only 26.6% of the 23,100 equally defensible anchor ensembles put this creator on this side — the published side is the MINORITY view",
+    "anchor_agreement": 0.1672,
+    "ensembles_compared": 31752,
+    "reason": "only 16.7% of the 31,752 equally defensible anchor ensembles put this creator on this side — the published side is the MINORITY view",
     "source": "computed",
     "status": "provisional",
-    "x": 0.0049,
-    "y": 0.0333
+    "x": 0.0031,
+    "y": 0.0428
    },
    "pole": null,
-   "videos": 774,
-   "words": 884611
+   "videos": 1055,
+   "words": 1409065
   }
  },
  "distances": {
   "apostate-aladdin|belief-it-or-not": {
-   "js": 0.1273,
+   "js": 0.1117,
    "terms": {
-    "accountability": 0.1106,
-    "apostate": 0.5208,
-    "community": 0.0048,
-    "deconstruction": 0.0829,
+    "accountability": 0.0877,
+    "apostate": 0.5283,
+    "atheist": 0.0005,
+    "community": 0.0045,
+    "deconstruction": 0.0625,
     "do the work": 0.0185,
-    "evidence": 0.0006,
-    "false prophet": 0.0022,
-    "grace": 0.0161,
-    "grift": 0.5238,
-    "grifter": 0.4814,
-    "harm": 0.0037,
-    "heretic": 0.0026,
-    "love": 0.0044,
-    "truth": 0.0103
+    "evidence": 0.0008,
+    "false prophet": 0.0011,
+    "grace": 0.0212,
+    "grift": 0.3695,
+    "grifter": 0.5458,
+    "harm": 0.0057,
+    "heretic": 0.0143,
+    "love": 0.0042,
+    "truth": 0.0102
    }
   },
   "apostate-aladdin|britt-hartley": {
-   "js": 0.0284,
+   "js": 0.0201,
    "terms": {
     "accountability": 0.0171,
-    "community": 0.0052,
-    "deconstruction": 0.0002,
+    "atheist": 0.001,
+    "community": 0.0051,
+    "deconstruction": 0.0008,
     "do the work": 0.133,
-    "evidence": 0.042,
-    "grace": 0.061,
-    "harm": 0.0015,
-    "heretic": 0.0154,
-    "love": 0.0025,
-    "truth": 0.0058
+    "evidence": 0.0376,
+    "grace": 0.0521,
+    "harm": 0.0022,
+    "heretic": 0.001,
+    "humanist": 0.0,
+    "love": 0.0023,
+    "nihilism": 0.0111,
+    "superstition": 0.012,
+    "truth": 0.0056
    }
   },
   "apostate-aladdin|capturing-christianity": {
-   "js": 0.1066,
+   "js": 0.095,
    "terms": {
     "accountability": 0.0206,
     "apostasy": 0.7625,
-    "apostate": 0.1277,
-    "community": 0.0326,
-    "deconstruction": 0.1238,
-    "do the work": 0.1032,
-    "evidence": 0.0001,
-    "false prophet": 0.0,
-    "grace": 0.0428,
-    "harm": 0.0187,
-    "heretic": 0.1289,
-    "love": 0.0251,
-    "truth": 0.0003
+    "apostate": 0.1326,
+    "atheist": 0.0017,
+    "community": 0.0329,
+    "deconstruction": 0.1213,
+    "deconversion": 0.0019,
+    "do the work": 0.0778,
+    "evidence": 0.0,
+    "false prophet": 0.0002,
+    "grace": 0.0348,
+    "harm": 0.0229,
+    "heretic": 0.0915,
+    "love": 0.0242,
+    "nihilism": 0.2772,
+    "superstition": 0.012,
+    "truth": 0.0002
    }
   },
   "apostate-aladdin|counsel-of-trent": {
-   "js": 0.1614,
+   "js": 0.1365,
    "terms": {
     "accountability": 0.0208,
-    "apostasy": 0.7642,
-    "apostate": 0.5266,
-    "community": 0.0189,
+    "apostasy": 0.7678,
+    "apostate": 0.5676,
+    "atheist": 0.0224,
+    "community": 0.02,
+    "deconversion": 0.0118,
     "do the work": 0.0047,
-    "evidence": 0.0454,
-    "false prophet": 0.0024,
-    "grace": 0.1628,
-    "harm": 0.05,
-    "heretic": 0.3031,
-    "love": 0.0256,
-    "truth": 0.012
+    "evidence": 0.0428,
+    "false prophet": 0.0006,
+    "grace": 0.1472,
+    "harm": 0.0544,
+    "heretic": 0.2829,
+    "humanist": 0.0,
+    "love": 0.0244,
+    "nihilism": 0.3273,
+    "superstition": 0.012,
+    "truth": 0.0135
    }
   },
   "apostate-aladdin|cross-examined": {
-   "js": 0.0619,
+   "js": 0.0413,
    "terms": {
-    "accountability": 0.0285,
+    "accountability": 0.0234,
     "apostasy": 0.1484,
-    "apostate": 0.1087,
-    "community": 0.0011,
-    "deconstruction": 0.1442,
+    "apostate": 0.1128,
+    "atheist": 0.0043,
+    "community": 0.002,
+    "deconstruction": 0.1218,
     "do the work": 0.097,
-    "evidence": 0.0143,
-    "false prophet": 0.0645,
-    "grace": 0.0102,
-    "harm": 0.0039,
-    "heretic": 0.1201,
-    "love": 0.054,
-    "truth": 0.0095
+    "evidence": 0.0131,
+    "false prophet": 0.0398,
+    "grace": 0.0065,
+    "harm": 0.0045,
+    "heretic": 0.014,
+    "humanist": 0.0,
+    "love": 0.0526,
+    "superstition": 0.012,
+    "truth": 0.0089
    }
   },
   "apostate-aladdin|dan-mcclellan": {
-   "js": 0.1084,
+   "js": 0.182,
    "terms": {
-    "accountability": 0.2677,
-    "community": 0.0493,
-    "evidence": 0.0645,
-    "grace": 0.1377,
-    "harm": 0.0172,
-    "heretic": 0.2964,
-    "love": 0.0176,
-    "truth": 0.0171
+    "accountability": 0.2539,
+    "apostasy": 0.8383,
+    "atheist": 0.0156,
+    "community": 0.0472,
+    "evidence": 0.0599,
+    "grace": 0.077,
+    "harm": 0.005,
+    "heretic": 0.4537,
+    "love": 0.0232,
+    "truth": 0.0457
    }
   },
   "apostate-aladdin|darante-lamar": {
-   "js": 0.0744,
+   "js": 0.0653,
    "terms": {
-    "accountability": 0.0697,
+    "accountability": 0.0791,
     "apostasy": 0.1313,
-    "apostate": 0.414,
+    "apostate": 0.4182,
+    "atheist": 0.0449,
     "clout": 0.0,
-    "community": 0.1644,
-    "deconstruction": 0.0001,
+    "community": 0.1645,
+    "deconstruction": 0.001,
+    "deconversion": 0.0401,
     "do the work": 0.07,
     "evidence": 0.0009,
-    "grace": 0.0546,
-    "harm": 0.006,
-    "heretic": 0.0229,
-    "love": 0.0307,
-    "truth": 0.0025
+    "grace": 0.0589,
+    "harm": 0.0079,
+    "heretic": 0.0169,
+    "humanist": 0.003,
+    "love": 0.0309,
+    "nihilism": 0.0032,
+    "superstition": 0.1023,
+    "truth": 0.0026
    }
   },
   "apostate-aladdin|drcraigvideos": {
-   "js": 0.1798,
+   "js": 0.1631,
    "terms": {
-    "accountability": 0.1142,
+    "accountability": 0.077,
     "apostasy": 0.7321,
-    "community": 0.0715,
-    "evidence": 0.0061,
-    "grace": 0.1788,
-    "harm": 0.01,
+    "atheist": 0.0714,
+    "community": 0.0718,
+    "evidence": 0.0067,
+    "grace": 0.1606,
+    "harm": 0.0073,
     "heretic": 0.344,
-    "love": 0.1599,
-    "truth": 0.0013
-   }
-  },
-  "apostate-aladdin|genetically-modified-skeptic": {
-   "js": 0.0794,
-   "terms": {
-    "accountability": 0.0138,
-    "apostasy": 0.1946,
-    "apostate": 0.3248,
-    "community": 0.0003,
-    "deconstruction": 0.0784,
-    "evidence": 0.0058,
-    "grace": 0.0005,
-    "harm": 0.0011,
-    "heretic": 0.2519,
-    "love": 0.001,
-    "truth": 0.0014
-   }
-  },
-  "apostate-aladdin|jackie-hill-perry": {
-   "js": 0.0936,
-   "terms": {
-    "community": 0.0032,
-    "do the work": 0.106,
-    "evidence": 0.2423,
-    "grace": 0.0423,
-    "love": 0.0483,
-    "truth": 0.1195
-   }
-  },
-  "apostate-aladdin|jude-3-project": {
-   "js": 0.0409,
-   "terms": {
-    "accountability": 0.0843,
-    "community": 0.0015,
-    "deconstruction": 0.0577,
-    "do the work": 0.0013,
-    "evidence": 0.0953,
-    "grace": 0.0342,
-    "harm": 0.0053,
-    "heretic": 0.1021,
-    "love": 0.016,
-    "truth": 0.0113
-   }
-  },
-  "apostate-aladdin|lil-bill": {
-   "js": 0.1936,
-   "terms": {
-    "clout": 0.5307,
-    "community": 0.0046,
-    "evidence": 0.1035,
-    "grace": 0.2177,
-    "harm": 0.2292,
-    "love": 0.0937,
-    "truth": 0.1757
-   }
-  },
-  "apostate-aladdin|marc-coley": {
-   "js": 0.3175,
-   "terms": {
-    "accountability": 0.5965,
-    "community": 0.3645,
-    "do the work": 0.1818,
-    "love": 0.1833,
-    "truth": 0.2614
-   }
-  },
-  "apostate-aladdin|mike-winger": {
-   "js": 0.1518,
-   "terms": {
-    "accountability": 0.0926,
-    "apostasy": 0.5013,
-    "apostate": 0.4297,
-    "clout": 0.0,
-    "community": 0.0197,
-    "deconstruction": 0.249,
-    "do the work": 0.1043,
-    "evidence": 0.0552,
-    "false prophet": 0.0469,
-    "grace": 0.0148,
-    "grift": 0.5509,
-    "harm": 0.02,
-    "heretic": 0.0126,
-    "love": 0.1044,
-    "truth": 0.0759
-   }
-  },
-  "apostate-aladdin|mindshift": {
-   "js": 0.194,
-   "terms": {
-    "accountability": 0.0029,
-    "apostasy": 0.8383,
-    "apostate": 0.3428,
-    "community": 0.0036,
-    "deconstruction": 0.0374,
-    "do the work": 0.257,
-    "evidence": 0.0358,
-    "false prophet": 0.0046,
-    "grace": 0.007,
-    "grift": 0.3113,
-    "grifter": 0.7203,
-    "harm": 0.0523,
-    "heretic": 0.1775,
-    "love": 0.0988,
-    "truth": 0.0209
-   }
-  },
-  "apostate-aladdin|neverflamenevertilt": {
-   "js": 0.0215,
-   "terms": {
-    "community": 0.0061,
-    "deconstruction": 0.022,
-    "evidence": 0.0035,
-    "grace": 0.0594,
-    "harm": 0.0087,
-    "love": 0.0318,
-    "truth": 0.0187
-   }
-  },
-  "apostate-aladdin|paulogia": {
-   "js": 0.1212,
-   "terms": {
-    "accountability": 0.0674,
-    "apostasy": 0.5963,
-    "apostate": 0.5231,
-    "community": 0.0284,
-    "deconstruction": 0.0845,
-    "do the work": 0.022,
-    "evidence": 0.0057,
-    "grace": 0.0002,
-    "harm": 0.0117,
-    "heretic": 0.1112,
-    "love": 0.0016,
-    "truth": 0.0022
-   }
-  },
-  "apostate-aladdin|prophet-of-zod": {
-   "js": 0.0331,
-   "terms": {
-    "accountability": 0.0153,
-    "community": 0.0165,
-    "deconstruction": 0.1247,
-    "evidence": 0.0,
-    "grace": 0.0148,
-    "harm": 0.0108,
-    "love": 0.0824,
-    "truth": 0.0004
-   }
-  },
-  "apostate-aladdin|reasonable-faith-org": {
-   "js": 0.1828,
-   "terms": {
-    "accountability": 0.0045,
-    "apostasy": 0.8383,
-    "apostate": 0.4889,
-    "community": 0.0108,
-    "deconstruction": 0.1748,
-    "do the work": 0.114,
-    "evidence": 0.001,
-    "grace": 0.1783,
-    "harm": 0.0011,
-    "heretic": 0.278,
-    "love": 0.1028,
-    "truth": 0.0011
-   }
-  },
-  "apostate-aladdin|shannon-q": {
-   "js": 0.0843,
-   "terms": {
-    "accountability": 0.2359,
-    "apostate": 0.2764,
-    "community": 0.0155,
-    "deconstruction": 0.0209,
-    "evidence": 0.0002,
-    "grace": 0.1136,
-    "harm": 0.0515,
-    "heretic": 0.0816,
-    "love": 0.0164,
-    "truth": 0.0313
-   }
-  },
-  "apostate-aladdin|the-antibot": {
-   "js": 0.1355,
-   "terms": {
-    "accountability": 0.1049,
-    "community": 0.0002,
-    "deconstruction": 0.1149,
-    "do the work": 0.0445,
-    "evidence": 0.0002,
-    "grace": 0.2611,
-    "grift": 0.5711,
-    "grifter": 0.3827,
-    "harm": 0.0065,
-    "love": 0.0027,
-    "truth": 0.0016
-   }
-  },
-  "apostate-aladdin|the-omnist-rone": {
-   "js": 0.0322,
-   "terms": {
-    "accountability": 0.0737,
-    "community": 0.0043,
-    "deconstruction": 0.0064,
-    "do the work": 0.0069,
-    "evidence": 0.0562,
-    "grace": 0.0374,
-    "harm": 0.0314,
-    "heretic": 0.0517,
-    "love": 0.0459,
-    "truth": 0.0078
-   }
-  },
-  "belief-it-or-not|britt-hartley": {
-   "js": 0.0635,
-   "terms": {
-    "accountability": 0.2055,
-    "community": 0.0,
-    "deconstruction": 0.0908,
-    "do the work": 0.2404,
-    "evidence": 0.0327,
-    "grace": 0.0148,
-    "harm": 0.0005,
-    "heretic": 0.0053,
-    "love": 0.0135,
-    "truth": 0.0312
-   }
-  },
-  "belief-it-or-not|capturing-christianity": {
-   "js": 0.0651,
-   "terms": {
-    "accountability": 0.216,
-    "apostate": 0.197,
-    "community": 0.0128,
-    "deconstruction": 0.0045,
-    "discernment": 0.0047,
-    "do the work": 0.2017,
-    "evidence": 0.0013,
-    "false prophet": 0.0028,
-    "grace": 0.1093,
-    "harm": 0.0058,
-    "heresy": 0.0436,
-    "heretic": 0.0964,
-    "love": 0.0086,
-    "truth": 0.0068
-   }
-  },
-  "belief-it-or-not|counsel-of-trent": {
-   "js": 0.0734,
-   "terms": {
-    "accountability": 0.0368,
-    "apostate": 0.0857,
-    "community": 0.0047,
-    "discernment": 0.1035,
-    "do the work": 0.0415,
-    "evidence": 0.0562,
-    "false prophet": 0.0091,
-    "grace": 0.2706,
-    "harm": 0.0268,
-    "heresy": 0.0554,
-    "heretic": 0.255,
-    "love": 0.0089,
-    "truth": 0.0001
-   }
-  },
-  "belief-it-or-not|cross-examined": {
-   "js": 0.0633,
-   "terms": {
-    "accountability": 0.028,
-    "apostate": 0.1973,
-    "community": 0.0013,
-    "deconstruction": 0.0093,
-    "discernment": 0.1471,
-    "do the work": 0.1934,
-    "evidence": 0.0207,
-    "false prophet": 0.0434,
-    "false teacher": 0.0,
-    "grace": 0.0515,
-    "harm": 0.0,
-    "heresy": 0.1021,
-    "heretic": 0.0887,
-    "love": 0.028,
-    "truth": 0.0393
-   }
-  },
-  "belief-it-or-not|dan-mcclellan": {
-   "js": 0.0831,
-   "terms": {
-    "accountability": 0.0387,
-    "community": 0.0244,
-    "evidence": 0.0771,
-    "grace": 0.2394,
-    "harm": 0.005,
-    "heresy": 0.1092,
-    "heretic": 0.2487,
-    "love": 0.0045,
+    "humanist": 0.0,
+    "love": 0.1583,
+    "nihilism": 0.3273,
     "truth": 0.0009
    }
   },
-  "belief-it-or-not|darante-lamar": {
-   "js": 0.0921,
+  "apostate-aladdin|genetically-modified-skeptic": {
+   "js": 0.0577,
    "terms": {
-    "accountability": 0.005,
-    "apostate": 0.2391,
-    "community": 0.2197,
+    "accountability": 0.0138,
+    "apostasy": 0.1946,
+    "apostate": 0.3254,
+    "atheist": 0.003,
+    "community": 0.0001,
+    "deconstruction": 0.0585,
+    "deconversion": 0.0091,
+    "evidence": 0.0051,
+    "grace": 0.0035,
+    "haram": 0.1026,
+    "harm": 0.0002,
+    "heretic": 0.1795,
+    "humanist": 0.0138,
+    "love": 0.001,
+    "superstition": 0.012,
+    "truth": 0.0016
+   }
+  },
+  "apostate-aladdin|jackie-hill-perry": {
+   "js": 0.0926,
+   "terms": {
+    "community": 0.0031,
+    "do the work": 0.106,
+    "evidence": 0.2364,
+    "grace": 0.0471,
+    "love": 0.048,
+    "truth": 0.1153
+   }
+  },
+  "apostate-aladdin|jude-3-project": {
+   "js": 0.0313,
+   "terms": {
+    "accountability": 0.0843,
+    "atheist": 0.0,
+    "community": 0.0014,
+    "deconstruction": 0.0298,
+    "do the work": 0.0013,
+    "evidence": 0.093,
+    "grace": 0.0393,
+    "harm": 0.0034,
+    "heretic": 0.1148,
+    "humanist": 0.0,
+    "love": 0.016,
+    "superstition": 0.012,
+    "truth": 0.0116
+   }
+  },
+  "apostate-aladdin|lil-bill": {
+   "js": 0.1895,
+   "terms": {
+    "clout": 0.5307,
+    "community": 0.0045,
+    "evidence": 0.1077,
+    "grace": 0.2382,
+    "harm": 0.2728,
+    "love": 0.094,
+    "nihilism": 0.0934,
+    "truth": 0.1746
+   }
+  },
+  "apostate-aladdin|marc-coley": {
+   "js": 0.3172,
+   "terms": {
+    "accountability": 0.5965,
+    "community": 0.3638,
+    "do the work": 0.1818,
+    "love": 0.1838,
+    "truth": 0.2601
+   }
+  },
+  "apostate-aladdin|mike-winger": {
+   "js": 0.1308,
+   "terms": {
+    "accountability": 0.0642,
+    "apostasy": 0.5013,
+    "apostate": 0.4012,
+    "atheist": 0.0041,
+    "clout": 0.0,
+    "community": 0.0198,
+    "deconstruction": 0.2149,
+    "deconversion": 0.2417,
+    "do the work": 0.1043,
+    "evidence": 0.0529,
+    "false prophet": 0.035,
+    "grace": 0.0118,
+    "grift": 0.482,
+    "harm": 0.0165,
+    "heretic": 0.0126,
+    "love": 0.104,
+    "superstition": 0.012,
+    "truth": 0.0761
+   }
+  },
+  "apostate-aladdin|mindshift": {
+   "js": 0.2002,
+   "terms": {
+    "accountability": 0.0061,
+    "apostasy": 0.8383,
+    "apostate": 0.3486,
+    "atheist": 0.0074,
+    "community": 0.0037,
+    "deconstruction": 0.0223,
+    "deconversion": 0.0,
+    "do the work": 0.257,
+    "evidence": 0.035,
+    "false prophet": 0.0007,
+    "grace": 0.0055,
+    "grift": 0.4216,
+    "grifter": 0.8554,
+    "harm": 0.0484,
+    "heretic": 0.0719,
+    "humanist": 0.9195,
+    "love": 0.098,
+    "nihilism": 0.0421,
+    "superstition": 0.0014,
+    "truth": 0.0212
+   }
+  },
+  "apostate-aladdin|neverflamenevertilt": {
+   "js": 0.023,
+   "terms": {
+    "atheist": 0.0212,
+    "community": 0.0021,
+    "deconstruction": 0.0332,
+    "deconversion": 0.0138,
+    "evidence": 0.0048,
+    "false prophet": 0.1338,
+    "grace": 0.0022,
+    "harm": 0.0132,
+    "humanist": 0.0,
+    "love": 0.0325,
+    "superstition": 0.012,
+    "truth": 0.0072
+   }
+  },
+  "apostate-aladdin|paulogia": {
+   "js": 0.0939,
+   "terms": {
+    "accountability": 0.0277,
+    "apostasy": 0.5963,
+    "apostate": 0.5306,
+    "atheist": 0.0007,
+    "community": 0.0292,
+    "deconstruction": 0.08,
+    "deconversion": 0.0252,
+    "do the work": 0.0259,
+    "evidence": 0.0031,
+    "grace": 0.0001,
+    "harm": 0.0161,
+    "heretic": 0.0768,
+    "humanist": 0.0,
+    "love": 0.0014,
+    "nihilism": 0.1687,
+    "superstition": 0.012,
+    "truth": 0.0026
+   }
+  },
+  "apostate-aladdin|prophet-of-zod": {
+   "js": 0.0296,
+   "terms": {
+    "accountability": 0.0418,
+    "atheist": 0.0086,
+    "community": 0.0166,
+    "deconstruction": 0.1127,
+    "deconversion": 0.0296,
+    "evidence": 0.0001,
+    "grace": 0.0095,
+    "harm": 0.0123,
+    "love": 0.0821,
+    "superstition": 0.012,
+    "truth": 0.0005
+   }
+  },
+  "apostate-aladdin|reasonable-faith-org": {
+   "js": 0.1535,
+   "terms": {
+    "accountability": 0.0005,
+    "apostasy": 0.8383,
+    "apostate": 0.4972,
+    "atheist": 0.0228,
+    "community": 0.0105,
+    "deconstruction": 0.1455,
+    "deconversion": 0.0653,
+    "do the work": 0.114,
+    "evidence": 0.0012,
+    "grace": 0.1652,
+    "harm": 0.0022,
+    "heretic": 0.2435,
+    "humanist": 0.0,
+    "love": 0.1008,
+    "nihilism": 0.2479,
+    "truth": 0.0006
+   }
+  },
+  "apostate-aladdin|shannon-q": {
+   "js": 0.0867,
+   "terms": {
+    "accountability": 0.2554,
+    "apostate": 0.2296,
+    "atheist": 0.0199,
+    "community": 0.0154,
+    "deconstruction": 0.0229,
+    "deconversion": 0.0071,
+    "evidence": 0.0004,
+    "grace": 0.1295,
+    "harm": 0.06,
+    "heretic": 0.0816,
+    "humanist": 0.0172,
+    "love": 0.0166,
+    "nihilism": 0.3273,
+    "truth": 0.0308
+   }
+  },
+  "apostate-aladdin|the-antibot": {
+   "js": 0.1073,
+   "terms": {
+    "accountability": 0.1051,
+    "atheist": 0.0378,
+    "community": 0.0001,
+    "deconstruction": 0.0911,
+    "deconversion": 0.0013,
+    "do the work": 0.0323,
+    "evidence": 0.0096,
+    "false prophet": 0.0517,
+    "grace": 0.2576,
+    "grift": 0.505,
+    "grifter": 0.4416,
+    "harm": 0.0159,
+    "humanist": 0.0538,
+    "love": 0.0034,
+    "truth": 0.0028
+   }
+  },
+  "apostate-aladdin|the-omnist-rone": {
+   "js": 0.0351,
+   "terms": {
+    "accountability": 0.0554,
+    "atheist": 0.0137,
+    "community": 0.0046,
+    "deconstruction": 0.0084,
+    "deconversion": 0.0247,
+    "do the work": 0.0052,
+    "evidence": 0.0718,
+    "false prophet": 0.1568,
+    "grace": 0.0415,
+    "harm": 0.0243,
+    "heretic": 0.0017,
+    "love": 0.037,
+    "truth": 0.0108
+   }
+  },
+  "belief-it-or-not|britt-hartley": {
+   "js": 0.0543,
+   "terms": {
+    "accountability": 0.1749,
+    "atheist": 0.003,
+    "community": 0.0,
+    "deconstruction": 0.0771,
+    "do the work": 0.2404,
+    "evidence": 0.0276,
+    "grace": 0.007,
+    "harm": 0.0008,
+    "heretic": 0.0227,
+    "love": 0.0128,
+    "truth": 0.0307
+   }
+  },
+  "belief-it-or-not|capturing-christianity": {
+   "js": 0.0616,
+   "terms": {
+    "accountability": 0.1847,
+    "apostate": 0.197,
+    "atheist": 0.0004,
+    "community": 0.0134,
+    "deconstruction": 0.0105,
+    "discernment": 0.002,
+    "do the work": 0.1671,
+    "evidence": 0.0011,
+    "false prophet": 0.0004,
+    "grace": 0.1084,
+    "harm": 0.0058,
+    "heresy": 0.0483,
+    "heretic": 0.1696,
+    "love": 0.0082,
+    "truth": 0.0073
+   }
+  },
+  "belief-it-or-not|counsel-of-trent": {
+   "js": 0.0747,
+   "terms": {
+    "accountability": 0.0238,
+    "apostate": 0.0782,
+    "atheist": 0.0296,
+    "community": 0.0056,
+    "discernment": 0.0456,
+    "do the work": 0.0415,
+    "evidence": 0.0551,
+    "false prophet": 0.0001,
+    "grace": 0.2686,
+    "harm": 0.0252,
+    "heresy": 0.0651,
+    "heretic": 0.3989,
+    "love": 0.0083,
+    "truth": 0.0002
+   }
+  },
+  "belief-it-or-not|cross-examined": {
+   "js": 0.0535,
+   "terms": {
+    "accountability": 0.0213,
+    "apostate": 0.1973,
+    "atheist": 0.0018,
+    "community": 0.0005,
+    "deconstruction": 0.0106,
+    "discernment": 0.077,
+    "do the work": 0.1934,
+    "evidence": 0.0203,
+    "false prophet": 0.0538,
+    "false teacher": 0.0,
+    "grace": 0.0509,
+    "harm": 0.0001,
+    "heresy": 0.1082,
+    "heretic": 0.055,
+    "love": 0.0273,
+    "truth": 0.038
+   }
+  },
+  "belief-it-or-not|dan-mcclellan": {
+   "js": 0.1063,
+   "terms": {
+    "accountability": 0.0481,
+    "atheist": 0.0217,
+    "community": 0.0234,
+    "evidence": 0.0741,
+    "grace": 0.174,
+    "harm": 0.0,
+    "heresy": 0.1132,
+    "heretic": 0.588,
+    "love": 0.0077,
+    "truth": 0.013
+   }
+  },
+  "belief-it-or-not|darante-lamar": {
+   "js": 0.0835,
+   "terms": {
+    "accountability": 0.0002,
+    "apostate": 0.2512,
+    "atheist": 0.0359,
+    "community": 0.218,
     "deconstruction": 0.0787,
-    "discernment": 0.4398,
+    "discernment": 0.3227,
     "do the work": 0.017,
     "evidence": 0.0,
-    "grace": 0.0117,
-    "harm": 0.0003,
+    "grace": 0.0097,
+    "harm": 0.0002,
     "heresy": 0.0951,
-    "heretic": 0.0101,
-    "love": 0.0578,
-    "truth": 0.0227
+    "heretic": 0.0605,
+    "love": 0.0575,
+    "truth": 0.0229
    }
   },
   "belief-it-or-not|drcraigvideos": {
-   "js": 0.1356,
+   "js": 0.1382,
    "terms": {
-    "accountability": 0.3853,
-    "community": 0.0415,
+    "accountability": 0.2957,
+    "atheist": 0.0835,
+    "community": 0.0425,
     "evidence": 0.0029,
-    "grace": 0.2901,
+    "grace": 0.2854,
     "harm": 0.0257,
     "heresy": 0.0487,
-    "heretic": 0.2932,
-    "love": 0.114,
-    "truth": 0.0189
+    "heretic": 0.4675,
+    "love": 0.1133,
+    "truth": 0.017
    }
   },
   "belief-it-or-not|genetically-modified-skeptic": {
-   "js": 0.0874,
+   "js": 0.0811,
    "terms": {
-    "accountability": 0.0477,
-    "apostate": 0.4457,
-    "community": 0.0028,
+    "accountability": 0.0328,
+    "apostate": 0.4465,
+    "atheist": 0.001,
+    "community": 0.0034,
     "deconstruction": 0.0001,
-    "discernment": 0.2038,
-    "evidence": 0.0027,
-    "grace": 0.0109,
-    "harm": 0.0088,
-    "heresy": 0.1052,
-    "heretic": 0.2074,
-    "love": 0.0095,
-    "truth": 0.0041
+    "discernment": 0.1655,
+    "evidence": 0.0019,
+    "grace": 0.0076,
+    "harm": 0.008,
+    "heresy": 0.0954,
+    "heretic": 0.2788,
+    "love": 0.0094,
+    "truth": 0.0037
    }
   },
   "belief-it-or-not|jackie-hill-perry": {
-   "js": 0.1045,
+   "js": 0.092,
    "terms": {
-    "community": 0.0157,
-    "discernment": 0.2584,
+    "community": 0.015,
+    "discernment": 0.1655,
     "do the work": 0.2055,
-    "evidence": 0.2644,
+    "evidence": 0.2617,
     "false teacher": 0.0,
-    "grace": 0.0064,
-    "love": 0.0239,
-    "truth": 0.0619
+    "grace": 0.0052,
+    "love": 0.024,
+    "truth": 0.0589
    }
   },
   "belief-it-or-not|jude-3-project": {
-   "js": 0.0318,
+   "js": 0.0354,
    "terms": {
-    "accountability": 0.0019,
-    "community": 0.001,
-    "deconstruction": 0.0024,
-    "discernment": 0.1189,
+    "accountability": 0.0,
+    "atheist": 0.0007,
+    "community": 0.0009,
+    "deconstruction": 0.0062,
+    "discernment": 0.0694,
     "do the work": 0.0294,
-    "evidence": 0.1104,
-    "grace": 0.0034,
+    "evidence": 0.1103,
+    "grace": 0.0028,
     "harm": 0.0179,
     "heresy": 0.0197,
-    "heretic": 0.0731,
-    "love": 0.0037,
+    "heretic": 0.1995,
+    "love": 0.0038,
     "truth": 0.0
    }
   },
   "belief-it-or-not|lil-bill": {
-   "js": 0.1348,
+   "js": 0.1397,
    "terms": {
-    "community": 0.0186,
-    "evidence": 0.0891,
-    "grace": 0.1233,
-    "harm": 0.1786,
-    "love": 0.1364,
-    "truth": 0.2627
+    "community": 0.0179,
+    "evidence": 0.0908,
+    "grace": 0.1264,
+    "harm": 0.2059,
+    "love": 0.1361,
+    "truth": 0.2611
    }
   },
   "belief-it-or-not|marc-coley": {
-   "js": 0.2743,
+   "js": 0.2797,
    "terms": {
-    "accountability": 0.2448,
-    "community": 0.4387,
+    "accountability": 0.2772,
+    "community": 0.4358,
     "do the work": 0.0886,
-    "love": 0.2386,
-    "truth": 0.3606
+    "love": 0.2382,
+    "truth": 0.3589
    }
   },
   "belief-it-or-not|mike-winger": {
-   "js": 0.0716,
+   "js": 0.0712,
    "terms": {
-    "accountability": 0.0009,
-    "apostate": 0.0539,
-    "community": 0.0052,
+    "accountability": 0.0019,
+    "apostate": 0.0512,
+    "atheist": 0.0075,
+    "community": 0.0056,
     "deconstruction": 0.0519,
-    "discernment": 0.1028,
+    "discernment": 0.0475,
     "do the work": 0.2032,
-    "evidence": 0.067,
-    "false prophet": 0.0291,
+    "evidence": 0.0664,
+    "false prophet": 0.0483,
     "false teacher": 0.1672,
-    "grace": 0.0611,
-    "grift": 0.1904,
-    "harm": 0.0406,
-    "heresy": 0.0697,
-    "heretic": 0.0037,
-    "love": 0.0672,
-    "truth": 0.0312
+    "grace": 0.0641,
+    "grift": 0.2314,
+    "harm": 0.0412,
+    "heresy": 0.0714,
+    "heretic": 0.0524,
+    "love": 0.0674,
+    "truth": 0.0314
    }
   },
   "belief-it-or-not|mindshift": {
-   "js": 0.1082,
+   "js": 0.1039,
    "terms": {
-    "accountability": 0.147,
+    "accountability": 0.1367,
     "apostate": 0.0549,
-    "community": 0.0001,
-    "deconstruction": 0.0093,
-    "discernment": 0.0018,
+    "atheist": 0.004,
+    "community": 0.0,
+    "deconstruction": 0.0104,
+    "discernment": 0.0012,
     "do the work": 0.3853,
-    "evidence": 0.0455,
-    "false prophet": 0.0005,
+    "evidence": 0.0461,
+    "false prophet": 0.0035,
     "false teacher": 0.0,
-    "grace": 0.044,
-    "grift": 0.1758,
-    "grifter": 0.5708,
-    "harm": 0.0828,
-    "heresy": 0.1173,
-    "heretic": 0.1396,
-    "love": 0.0626,
-    "truth": 0.0019
+    "grace": 0.048,
+    "grift": 0.0531,
+    "grifter": 0.697,
+    "harm": 0.086,
+    "heresy": 0.1364,
+    "heretic": 0.1435,
+    "love": 0.0625,
+    "truth": 0.002
    }
   },
   "belief-it-or-not|neverflamenevertilt": {
-   "js": 0.0353,
+   "js": 0.0275,
    "terms": {
-    "community": 0.0214,
-    "deconstruction": 0.0201,
-    "evidence": 0.0012,
-    "grace": 0.1343,
-    "harm": 0.0011,
-    "love": 0.0127,
-    "truth": 0.0561
+    "atheist": 0.0282,
+    "community": 0.0126,
+    "deconstruction": 0.0048,
+    "evidence": 0.0017,
+    "false prophet": 0.1142,
+    "grace": 0.0368,
+    "harm": 0.0016,
+    "love": 0.0134,
+    "truth": 0.0344
    }
   },
   "belief-it-or-not|paulogia": {
-   "js": 0.0348,
+   "js": 0.0396,
    "terms": {
-    "accountability": 0.0057,
+    "accountability": 0.0175,
     "apostate": 0.0,
-    "community": 0.0102,
-    "deconstruction": 0.0,
-    "do the work": 0.0796,
-    "evidence": 0.0099,
-    "grace": 0.0129,
-    "harm": 0.0023,
-    "heresy": 0.1933,
-    "heretic": 0.081,
+    "atheist": 0.0,
+    "community": 0.0111,
+    "deconstruction": 0.0012,
+    "do the work": 0.0867,
+    "evidence": 0.007,
+    "grace": 0.0189,
+    "harm": 0.0027,
+    "heresy": 0.1963,
+    "heretic": 0.1501,
     "love": 0.0007,
-    "truth": 0.0219
+    "truth": 0.0232
    }
   },
   "belief-it-or-not|prophet-of-zod": {
-   "js": 0.0441,
+   "js": 0.0455,
    "terms": {
-    "accountability": 0.1997,
-    "community": 0.0036,
-    "deconstruction": 0.0046,
-    "evidence": 0.001,
-    "grace": 0.061,
-    "harm": 0.0269,
-    "love": 0.0496,
-    "truth": 0.0065
+    "accountability": 0.2334,
+    "atheist": 0.0133,
+    "community": 0.0039,
+    "deconstruction": 0.0079,
+    "evidence": 0.0014,
+    "grace": 0.0587,
+    "harm": 0.0346,
+    "love": 0.0497,
+    "truth": 0.0062
    }
   },
   "belief-it-or-not|reasonable-faith-org": {
-   "js": 0.098,
+   "js": 0.0986,
    "terms": {
-    "accountability": 0.1564,
+    "accountability": 0.1002,
     "apostate": 0.0556,
-    "community": 0.0012,
+    "atheist": 0.03,
+    "community": 0.0013,
     "deconstruction": 0.019,
     "do the work": 0.216,
-    "evidence": 0.0,
-    "grace": 0.2894,
+    "evidence": 0.0001,
+    "grace": 0.2912,
     "harm": 0.0008,
-    "heresy": 0.1223,
-    "heretic": 0.2316,
-    "love": 0.066,
-    "truth": 0.018
+    "heresy": 0.1339,
+    "heretic": 0.3538,
+    "love": 0.0648,
+    "truth": 0.0157
    }
   },
   "belief-it-or-not|shannon-q": {
-   "js": 0.101,
+   "js": 0.0833,
    "terms": {
-    "accountability": 0.0263,
-    "apostate": 0.2449,
-    "community": 0.0371,
-    "deconstruction": 0.0212,
-    "discernment": 0.5733,
+    "accountability": 0.0487,
+    "apostate": 0.2925,
+    "atheist": 0.014,
+    "community": 0.0361,
+    "deconstruction": 0.01,
+    "discernment": 0.4441,
     "evidence": 0.0001,
-    "grace": 0.046,
-    "harm": 0.0279,
+    "grace": 0.048,
+    "harm": 0.0291,
     "heresy": 0.0132,
-    "heretic": 0.108,
-    "love": 0.0375,
-    "truth": 0.0764
+    "heretic": 0.0342,
+    "love": 0.0374,
+    "truth": 0.0755
    }
   },
   "belief-it-or-not|the-antibot": {
-   "js": 0.1047,
+   "js": 0.0752,
    "terms": {
-    "accountability": 0.0001,
-    "community": 0.0032,
-    "deconstruction": 0.0028,
-    "discernment": 0.1559,
-    "do the work": 0.1177,
-    "evidence": 0.0001,
-    "grace": 0.1594,
-    "grift": 0.4253,
-    "grifter": 0.4773,
-    "harm": 0.0004,
+    "accountability": 0.0008,
+    "atheist": 0.0296,
+    "community": 0.0059,
+    "deconstruction": 0.0029,
+    "discernment": 0.0663,
+    "do the work": 0.0979,
+    "evidence": 0.0049,
+    "false prophet": 0.0674,
+    "grace": 0.1419,
+    "grift": 0.3554,
+    "grifter": 0.3136,
+    "harm": 0.0026,
     "heresy": 0.0005,
-    "love": 0.014,
-    "truth": 0.0038
+    "love": 0.0153,
+    "truth": 0.0235
    }
   },
   "belief-it-or-not|the-omnist-rone": {
-   "js": 0.038,
+   "js": 0.0462,
    "terms": {
-    "accountability": 0.004,
+    "accountability": 0.0039,
+    "atheist": 0.0089,
     "community": 0.0,
-    "deconstruction": 0.1332,
-    "do the work": 0.0477,
-    "evidence": 0.0681,
-    "grace": 0.0045,
-    "harm": 0.0561,
-    "heresy": 0.0504,
-    "heretic": 0.0314,
-    "love": 0.0222,
-    "truth": 0.0002
+    "deconstruction": 0.115,
+    "discernment": 0.0484,
+    "do the work": 0.0429,
+    "evidence": 0.0872,
+    "false prophet": 0.1823,
+    "grace": 0.0034,
+    "harm": 0.053,
+    "heresy": 0.0596,
+    "heretic": 0.0256,
+    "love": 0.0163,
+    "truth": 0.0
    }
   },
   "britt-hartley|capturing-christianity": {
-   "js": 0.0513,
+   "js": 0.0684,
    "terms": {
     "accountability": 0.0002,
-    "community": 0.0121,
-    "deconstruction": 0.1332,
-    "do the work": 0.0023,
-    "evidence": 0.0466,
-    "grace": 0.1987,
-    "harm": 0.0096,
-    "heretic": 0.0576,
-    "love": 0.0433,
-    "truth": 0.009
+    "atheist": 0.0054,
+    "community": 0.0125,
+    "deconstruction": 0.1409,
+    "do the work": 0.0086,
+    "evidence": 0.0397,
+    "grace": 0.1671,
+    "harm": 0.0108,
+    "heretic": 0.074,
+    "love": 0.0413,
+    "nihilism": 0.3812,
+    "superstition": 0.0,
+    "truth": 0.0081
    }
   },
   "britt-hartley|counsel-of-trent": {
-   "js": 0.1152,
+   "js": 0.1148,
    "terms": {
     "accountability": 0.0738,
-    "community": 0.0043,
+    "atheist": 0.0139,
+    "community": 0.0051,
     "do the work": 0.0902,
-    "evidence": 0.1694,
-    "grace": 0.3945,
-    "harm": 0.0343,
-    "heretic": 0.192,
-    "love": 0.044,
-    "truth": 0.0342
+    "evidence": 0.1563,
+    "grace": 0.3514,
+    "harm": 0.0348,
+    "heretic": 0.2537,
+    "humanist": 0.0,
+    "love": 0.0415,
+    "nihilism": 0.435,
+    "superstition": 0.0,
+    "truth": 0.0361
    }
   },
   "britt-hartley|cross-examined": {
-   "js": 0.0601,
+   "js": 0.0389,
    "terms": {
-    "accountability": 0.0873,
-    "community": 0.0015,
-    "deconstruction": 0.1542,
+    "accountability": 0.0784,
+    "atheist": 0.0094,
+    "community": 0.0007,
+    "deconstruction": 0.1414,
     "do the work": 0.0034,
-    "evidence": 0.1034,
-    "grace": 0.119,
-    "harm": 0.0005,
-    "heretic": 0.0516,
-    "love": 0.0793,
-    "truth": 0.0005
+    "evidence": 0.0936,
+    "grace": 0.0942,
+    "harm": 0.0004,
+    "heretic": 0.0075,
+    "humanist": 0.0,
+    "love": 0.0764,
+    "superstition": 0.0,
+    "truth": 0.0004
    }
   },
   "britt-hartley|dan-mcclellan": {
-   "js": 0.1566,
+   "js": 0.1538,
    "terms": {
-    "accountability": 0.3973,
-    "community": 0.0234,
-    "evidence": 0.203,
-    "grace": 0.3583,
-    "harm": 0.0085,
-    "heretic": 0.1864,
-    "love": 0.0334,
-    "truth": 0.0424
+    "accountability": 0.3813,
+    "atheist": 0.0087,
+    "community": 0.0222,
+    "evidence": 0.1862,
+    "grace": 0.2447,
+    "harm": 0.0006,
+    "heretic": 0.4186,
+    "love": 0.0401,
+    "truth": 0.0821
    }
   },
   "britt-hartley|darante-lamar": {
-   "js": 0.0791,
+   "js": 0.073,
    "terms": {
-    "accountability": 0.15,
-    "community": 0.2225,
-    "deconstruction": 0.0005,
+    "accountability": 0.1631,
+    "atheist": 0.0591,
+    "community": 0.2215,
+    "deconstruction": 0.0,
     "do the work": 0.3683,
-    "evidence": 0.0309,
+    "evidence": 0.0271,
     "grace": 0.0002,
-    "harm": 0.0015,
-    "heretic": 0.0008,
-    "love": 0.0157,
-    "truth": 0.0007
+    "harm": 0.0017,
+    "heretic": 0.0097,
+    "humanist": 0.003,
+    "love": 0.0163,
+    "nihilism": 0.0024,
+    "superstition": 0.1494,
+    "truth": 0.0006
    }
   },
   "britt-hartley|drcraigvideos": {
-   "js": 0.1215,
+   "js": 0.1333,
    "terms": {
-    "accountability": 0.0519,
-    "community": 0.0403,
-    "evidence": 0.0164,
-    "grace": 0.4167,
-    "harm": 0.0192,
-    "heretic": 0.2261,
-    "love": 0.1995,
-    "truth": 0.0016
+    "accountability": 0.0243,
+    "atheist": 0.0558,
+    "community": 0.0409,
+    "evidence": 0.0128,
+    "grace": 0.3699,
+    "harm": 0.0175,
+    "heretic": 0.3123,
+    "humanist": 0.0,
+    "love": 0.1961,
+    "nihilism": 0.435,
+    "truth": 0.002
    }
   },
   "britt-hartley|genetically-modified-skeptic": {
-   "js": 0.0428,
+   "js": 0.0312,
    "terms": {
     "accountability": 0.0604,
-    "community": 0.0031,
-    "deconstruction": 0.086,
-    "evidence": 0.0167,
-    "grace": 0.0507,
-    "harm": 0.0052,
-    "heretic": 0.1502,
-    "love": 0.0004,
-    "truth": 0.0128
+    "atheist": 0.0074,
+    "community": 0.0038,
+    "deconstruction": 0.0727,
+    "evidence": 0.0152,
+    "grace": 0.0289,
+    "harm": 0.0037,
+    "heretic": 0.1556,
+    "humanist": 0.0138,
+    "love": 0.0003,
+    "superstition": 0.0,
+    "truth": 0.0132
    }
   },
   "britt-hartley|jackie-hill-perry": {
-   "js": 0.1199,
+   "js": 0.115,
    "terms": {
-    "community": 0.0165,
+    "community": 0.016,
     "do the work": 0.0019,
-    "evidence": 0.4529,
-    "grace": 0.0018,
-    "love": 0.0724,
-    "truth": 0.174
+    "evidence": 0.4328,
+    "grace": 0.0001,
+    "love": 0.071,
+    "truth": 0.168
    }
   },
   "britt-hartley|jude-3-project": {
-   "js": 0.0718,
+   "js": 0.0563,
    "terms": {
     "accountability": 0.1703,
-    "community": 0.0012,
-    "deconstruction": 0.0643,
+    "atheist": 0.0008,
+    "community": 0.0011,
+    "deconstruction": 0.0403,
     "do the work": 0.1097,
-    "evidence": 0.2525,
-    "grace": 0.004,
-    "harm": 0.0126,
-    "heretic": 0.0397,
-    "love": 0.0312,
+    "evidence": 0.239,
+    "grace": 0.0009,
+    "harm": 0.0112,
+    "heretic": 0.0954,
+    "humanist": 0.0,
+    "love": 0.0304,
+    "superstition": 0.0,
     "truth": 0.033
    }
   },
   "britt-hartley|lil-bill": {
-   "js": 0.079,
+   "js": 0.0999,
    "terms": {
-    "community": 0.0195,
-    "evidence": 0.0148,
-    "grace": 0.0564,
-    "harm": 0.196,
-    "love": 0.0662,
+    "community": 0.019,
+    "evidence": 0.0194,
+    "grace": 0.0774,
+    "harm": 0.2299,
+    "love": 0.0675,
+    "nihilism": 0.165,
     "truth": 0.121
    }
   },
@@ -1680,2098 +1796,2421 @@
    "js": 0.4208,
    "terms": {
     "accountability": 0.7583,
-    "community": 0.4422,
+    "community": 0.4402,
     "do the work": 0.5616,
-    "love": 0.1457,
+    "love": 0.1476,
     "truth": 0.1964
    }
   },
   "britt-hartley|mike-winger": {
-   "js": 0.1062,
+   "js": 0.0808,
    "terms": {
-    "accountability": 0.1816,
-    "community": 0.0047,
-    "deconstruction": 0.2615,
+    "accountability": 0.1421,
+    "atheist": 0.001,
+    "community": 0.005,
+    "deconstruction": 0.2395,
     "do the work": 0.0021,
-    "evidence": 0.1871,
-    "grace": 0.1331,
-    "harm": 0.0324,
-    "heretic": 0.0001,
-    "love": 0.1378,
-    "truth": 0.1215
+    "evidence": 0.1743,
+    "grace": 0.1116,
+    "harm": 0.0307,
+    "heretic": 0.0065,
+    "love": 0.1359,
+    "superstition": 0.0,
+    "truth": 0.1208
    }
   },
   "britt-hartley|mindshift": {
-   "js": 0.0688,
+   "js": 0.1172,
    "terms": {
-    "accountability": 0.006,
-    "community": 0.0002,
-    "deconstruction": 0.0428,
+    "accountability": 0.0029,
+    "atheist": 0.0139,
+    "community": 0.0001,
+    "deconstruction": 0.0315,
     "do the work": 0.0367,
-    "evidence": 0.1512,
-    "grace": 0.1078,
-    "harm": 0.0711,
-    "heretic": 0.0925,
-    "love": 0.1314,
-    "truth": 0.0482
+    "evidence": 0.1414,
+    "grace": 0.0903,
+    "harm": 0.0708,
+    "heretic": 0.0564,
+    "humanist": 0.9195,
+    "love": 0.1291,
+    "nihilism": 0.0948,
+    "superstition": 0.0061,
+    "truth": 0.048
    }
   },
   "britt-hartley|neverflamenevertilt": {
-   "js": 0.0514,
+   "js": 0.0218,
    "terms": {
-    "community": 0.0224,
-    "deconstruction": 0.0262,
-    "evidence": 0.0214,
-    "grace": 0.2309,
-    "harm": 0.003,
-    "love": 0.052,
-    "truth": 0.0037
+    "atheist": 0.013,
+    "community": 0.0135,
+    "deconstruction": 0.0442,
+    "evidence": 0.0157,
+    "grace": 0.0749,
+    "harm": 0.0046,
+    "humanist": 0.0,
+    "love": 0.0519,
+    "superstition": 0.0,
+    "truth": 0.0001
    }
   },
   "britt-hartley|paulogia": {
-   "js": 0.0491,
+   "js": 0.0488,
    "terms": {
-    "accountability": 0.1468,
-    "community": 0.0095,
-    "deconstruction": 0.0924,
-    "do the work": 0.0501,
-    "evidence": 0.0776,
-    "grace": 0.0547,
-    "harm": 0.0048,
-    "heretic": 0.0457,
-    "love": 0.0082,
-    "truth": 0.0008
+    "accountability": 0.0858,
+    "atheist": 0.0035,
+    "community": 0.0102,
+    "deconstruction": 0.0964,
+    "do the work": 0.0448,
+    "evidence": 0.0616,
+    "grace": 0.0483,
+    "harm": 0.0063,
+    "heretic": 0.0608,
+    "humanist": 0.0,
+    "love": 0.0074,
+    "nihilism": 0.2577,
+    "superstition": 0.0,
+    "truth": 0.0005
    }
   },
   "britt-hartley|prophet-of-zod": {
-   "js": 0.0572,
+   "js": 0.0436,
    "terms": {
-    "accountability": 0.0001,
-    "community": 0.0032,
-    "deconstruction": 0.1341,
-    "evidence": 0.0448,
-    "grace": 0.1329,
-    "harm": 0.0203,
-    "love": 0.1126,
+    "accountability": 0.0058,
+    "atheist": 0.0037,
+    "community": 0.0034,
+    "deconstruction": 0.1317,
+    "evidence": 0.0414,
+    "grace": 0.1045,
+    "harm": 0.025,
+    "love": 0.1109,
+    "superstition": 0.0,
     "truth": 0.0093
    }
   },
   "britt-hartley|reasonable-faith-org": {
-   "js": 0.0947,
+   "js": 0.0997,
    "terms": {
-    "accountability": 0.0041,
+    "accountability": 0.0121,
+    "atheist": 0.0142,
     "community": 0.001,
-    "deconstruction": 0.1857,
+    "deconstruction": 0.1666,
     "do the work": 0.0009,
-    "evidence": 0.0303,
-    "grace": 0.4159,
+    "evidence": 0.0254,
+    "grace": 0.3762,
     "harm": 0.0,
-    "heretic": 0.1713,
-    "love": 0.136,
-    "truth": 0.0018
+    "heretic": 0.2161,
+    "humanist": 0.0,
+    "love": 0.1323,
+    "nihilism": 0.3487,
+    "truth": 0.0025
    }
   },
   "britt-hartley|shannon-q": {
-   "js": 0.0748,
+   "js": 0.0948,
    "terms": {
-    "accountability": 0.36,
-    "community": 0.0383,
-    "deconstruction": 0.025,
-    "evidence": 0.0368,
-    "grace": 0.0089,
-    "harm": 0.0355,
-    "heretic": 0.152,
-    "love": 0.0061,
+    "accountability": 0.3829,
+    "atheist": 0.0298,
+    "community": 0.0376,
+    "deconstruction": 0.0322,
+    "evidence": 0.0308,
+    "grace": 0.0188,
+    "harm": 0.0393,
+    "heretic": 0.0975,
+    "humanist": 0.0172,
+    "love": 0.0065,
+    "nihilism": 0.435,
     "truth": 0.0103
    }
   },
   "britt-hartley|the-antibot": {
-   "js": 0.0541,
+   "js": 0.0511,
    "terms": {
-    "accountability": 0.198,
-    "community": 0.0036,
-    "deconstruction": 0.124,
-    "do the work": 0.0263,
-    "evidence": 0.0361,
-    "grace": 0.0842,
-    "harm": 0.0017,
-    "love": 0.0,
-    "truth": 0.0133
+    "accountability": 0.1983,
+    "atheist": 0.051,
+    "community": 0.0065,
+    "deconstruction": 0.1084,
+    "do the work": 0.0373,
+    "evidence": 0.0094,
+    "grace": 0.0904,
+    "harm": 0.0063,
+    "humanist": 0.0538,
+    "love": 0.0001,
+    "truth": 0.0005
    }
   },
   "britt-hartley|the-omnist-rone": {
-   "js": 0.0588,
+   "js": 0.0528,
    "terms": {
-    "accountability": 0.1556,
+    "accountability": 0.1293,
+    "atheist": 0.0221,
     "community": 0.0,
-    "deconstruction": 0.0044,
-    "do the work": 0.0819,
-    "evidence": 0.1887,
-    "grace": 0.003,
-    "harm": 0.0465,
-    "heretic": 0.011,
-    "love": 0.0695,
-    "truth": 0.0269
+    "deconstruction": 0.004,
+    "do the work": 0.0883,
+    "evidence": 0.2058,
+    "grace": 0.0006,
+    "harm": 0.041,
+    "heretic": 0.0001,
+    "love": 0.0575,
+    "truth": 0.0316
    }
   },
   "capturing-christianity|counsel-of-trent": {
-   "js": 0.0396,
+   "js": 0.0334,
    "terms": {
     "accountability": 0.0806,
     "apostasy": 0.0,
-    "apostate": 0.1661,
-    "community": 0.002,
+    "apostate": 0.1876,
+    "atheist": 0.0363,
+    "community": 0.0017,
+    "deconversion": 0.0042,
     "discernment": 0.0661,
-    "do the work": 0.0653,
-    "evidence": 0.0408,
-    "false prophet": 0.0018,
-    "grace": 0.0423,
-    "harm": 0.0077,
-    "heresy": 0.0306,
-    "heretic": 0.0423,
+    "do the work": 0.0451,
+    "evidence": 0.0407,
+    "false prophet": 0.0001,
+    "grace": 0.0421,
+    "harm": 0.0069,
+    "heresy": 0.0349,
+    "heretic": 0.0592,
     "love": 0.0,
-    "truth": 0.0083
+    "nihilism": 0.0087,
+    "sola scriptura": 0.0097,
+    "superstition": 0.0,
+    "truth": 0.0101
    }
   },
   "capturing-christianity|cross-examined": {
-   "js": 0.0447,
+   "js": 0.038,
    "terms": {
-    "accountability": 0.0946,
+    "accountability": 0.0853,
     "apostasy": 0.3076,
     "apostate": 0.0138,
-    "community": 0.022,
-    "deconstruction": 0.0009,
+    "atheist": 0.0006,
+    "community": 0.0191,
+    "deconstruction": 0.0,
     "discernment": 0.1025,
-    "do the work": 0.0001,
-    "evidence": 0.0117,
-    "false prophet": 0.0677,
+    "do the work": 0.0012,
+    "evidence": 0.0119,
+    "false prophet": 0.0452,
     "grace": 0.0113,
-    "harm": 0.0056,
-    "heresy": 0.0139,
-    "heretic": 0.0002,
+    "harm": 0.0071,
+    "heresy": 0.0131,
+    "heretic": 0.0352,
     "love": 0.0056,
-    "truth": 0.0135
+    "sola scriptura": 0.0128,
+    "superstition": 0.0,
+    "truth": 0.0121
    }
   },
   "capturing-christianity|dan-mcclellan": {
-   "js": 0.0769,
+   "js": 0.0766,
    "terms": {
-    "accountability": 0.4107,
-    "community": 0.002,
-    "evidence": 0.059,
-    "grace": 0.0292,
-    "harm": 0.0,
-    "heresy": 0.1382,
-    "heretic": 0.0396,
-    "love": 0.0007,
-    "truth": 0.0126
+    "accountability": 0.3944,
+    "apostasy": 0.0113,
+    "atheist": 0.0276,
+    "community": 0.0015,
+    "evidence": 0.0574,
+    "grace": 0.0087,
+    "harm": 0.0065,
+    "heresy": 0.1362,
+    "heretic": 0.1598,
+    "love": 0.0,
+    "truth": 0.0393
    }
   },
   "capturing-christianity|darante-lamar": {
-   "js": 0.1697,
+   "js": 0.1626,
    "terms": {
-    "accountability": 0.1592,
+    "accountability": 0.1726,
     "apostasy": 0.3318,
-    "apostate": 0.3299,
-    "community": 0.3192,
-    "deconstruction": 0.1187,
+    "apostate": 0.3394,
+    "atheist": 0.0292,
+    "community": 0.3201,
+    "deconstruction": 0.143,
+    "deconversion": 0.0592,
     "discernment": 0.3681,
-    "do the work": 0.3223,
-    "evidence": 0.0017,
-    "grace": 0.1877,
-    "harm": 0.0035,
-    "heresy": 0.0747,
-    "heretic": 0.0453,
-    "love": 0.1092,
-    "truth": 0.0047
+    "do the work": 0.2802,
+    "evidence": 0.0012,
+    "grace": 0.1787,
+    "harm": 0.0039,
+    "heresy": 0.0765,
+    "heretic": 0.031,
+    "love": 0.1077,
+    "nihilism": 0.3313,
+    "superstition": 0.1494,
+    "truth": 0.0044
    }
   },
   "capturing-christianity|drcraigvideos": {
-   "js": 0.0335,
+   "js": 0.0368,
    "terms": {
-    "accountability": 0.047,
+    "accountability": 0.0206,
     "apostasy": 0.001,
-    "community": 0.0092,
-    "evidence": 0.0079,
-    "grace": 0.0515,
+    "atheist": 0.0943,
+    "community": 0.0091,
+    "evidence": 0.0076,
+    "grace": 0.0499,
     "harm": 0.0553,
-    "heresy": 0.0375,
-    "heretic": 0.0603,
-    "love": 0.062,
-    "truth": 0.003
+    "heresy": 0.0388,
+    "heretic": 0.0917,
+    "love": 0.0624,
+    "nihilism": 0.0087,
+    "truth": 0.0021
    }
   },
   "capturing-christianity|genetically-modified-skeptic": {
-   "js": 0.0865,
+   "js": 0.0737,
    "terms": {
     "accountability": 0.0666,
     "apostasy": 0.2513,
-    "apostate": 0.3792,
-    "community": 0.0271,
-    "deconstruction": 0.0056,
-    "discernment": 0.1518,
-    "evidence": 0.0077,
-    "grace": 0.0523,
-    "harm": 0.0288,
-    "heresy": 0.094,
-    "heretic": 0.0233,
-    "love": 0.0359,
-    "truth": 0.0003
+    "apostate": 0.3807,
+    "atheist": 0.0002,
+    "community": 0.0297,
+    "deconstruction": 0.0123,
+    "deconversion": 0.0027,
+    "discernment": 0.2006,
+    "evidence": 0.0059,
+    "grace": 0.0599,
+    "harm": 0.0272,
+    "heresy": 0.0908,
+    "heretic": 0.0162,
+    "love": 0.0351,
+    "superstition": 0.0,
+    "truth": 0.0006
    }
   },
   "capturing-christianity|jackie-hill-perry": {
-   "js": 0.1093,
+   "js": 0.1083,
    "terms": {
-    "community": 0.0552,
+    "community": 0.0553,
     "discernment": 0.2006,
-    "do the work": 0.0,
-    "evidence": 0.2324,
-    "grace": 0.1652,
-    "love": 0.0039,
-    "truth": 0.1076
+    "do the work": 0.0025,
+    "evidence": 0.2317,
+    "grace": 0.1585,
+    "love": 0.0042,
+    "truth": 0.1054
    }
   },
   "capturing-christianity|jude-3-project": {
-   "js": 0.0614,
+   "js": 0.0538,
    "terms": {
     "accountability": 0.18,
-    "community": 0.0206,
-    "deconstruction": 0.0134,
-    "discernment": 0.0788,
-    "do the work": 0.0823,
-    "evidence": 0.0887,
-    "grace": 0.1494,
+    "atheist": 0.0021,
+    "community": 0.0209,
+    "deconstruction": 0.0325,
+    "discernment": 0.0938,
+    "do the work": 0.0597,
+    "evidence": 0.0899,
+    "grace": 0.1444,
     "harm": 0.0437,
-    "heresy": 0.0699,
-    "heretic": 0.0017,
-    "love": 0.001,
-    "truth": 0.0076
+    "heresy": 0.0752,
+    "heretic": 0.0014,
+    "love": 0.0009,
+    "superstition": 0.0,
+    "truth": 0.0084
    }
   },
   "capturing-christianity|lil-bill": {
-   "js": 0.1858,
+   "js": 0.1714,
    "terms": {
-    "community": 0.0604,
-    "evidence": 0.1105,
-    "grace": 0.4215,
-    "harm": 0.1234,
-    "love": 0.2084,
-    "truth": 0.1906
+    "community": 0.0605,
+    "evidence": 0.111,
+    "grace": 0.4254,
+    "harm": 0.147,
+    "love": 0.2064,
+    "nihilism": 0.0627,
+    "truth": 0.187
    }
   },
   "capturing-christianity|marc-coley": {
-   "js": 0.4902,
+   "js": 0.479,
    "terms": {
     "accountability": 0.7743,
-    "community": 0.5631,
-    "do the work": 0.5084,
-    "love": 0.3266,
-    "truth": 0.2787
+    "community": 0.5634,
+    "do the work": 0.4585,
+    "love": 0.3242,
+    "truth": 0.2745
    }
   },
   "capturing-christianity|mike-winger": {
-   "js": 0.0542,
+   "js": 0.0499,
    "terms": {
-    "accountability": 0.1915,
+    "accountability": 0.1511,
     "apostasy": 0.0512,
-    "apostate": 0.1071,
-    "community": 0.0017,
-    "deconstruction": 0.0266,
-    "discernment": 0.0655,
-    "do the work": 0.0,
-    "evidence": 0.0502,
-    "false prophet": 0.0497,
-    "grace": 0.0074,
-    "harm": 0.0762,
-    "heresy": 0.0278,
-    "heretic": 0.0632,
-    "love": 0.0284,
-    "truth": 0.0662
+    "apostate": 0.0887,
+    "atheist": 0.011,
+    "community": 0.0018,
+    "deconstruction": 0.0164,
+    "deconversion": 0.2068,
+    "discernment": 0.0683,
+    "do the work": 0.0022,
+    "evidence": 0.0506,
+    "false prophet": 0.0401,
+    "grace": 0.0062,
+    "harm": 0.077,
+    "heresy": 0.0276,
+    "heretic": 0.0374,
+    "love": 0.0291,
+    "sola scriptura": 0.0151,
+    "superstition": 0.0,
+    "truth": 0.0679
    }
   },
   "capturing-christianity|mindshift": {
-   "js": 0.0336,
+   "js": 0.0349,
    "terms": {
-    "accountability": 0.0082,
+    "accountability": 0.0044,
     "apostasy": 0.0113,
     "apostate": 0.1178,
-    "community": 0.0149,
-    "deconstruction": 0.0265,
-    "discernment": 0.0007,
-    "do the work": 0.0538,
-    "evidence": 0.0318,
-    "false prophet": 0.0056,
-    "grace": 0.0153,
-    "harm": 0.1301,
-    "heresy": 0.0426,
-    "heretic": 0.0043,
-    "love": 0.0254,
-    "truth": 0.0159
+    "atheist": 0.002,
+    "community": 0.015,
+    "deconstruction": 0.0413,
+    "deconversion": 0.0022,
+    "discernment": 0.0001,
+    "do the work": 0.0727,
+    "evidence": 0.033,
+    "false prophet": 0.0015,
+    "grace": 0.0128,
+    "harm": 0.1341,
+    "heresy": 0.0466,
+    "heretic": 0.0013,
+    "love": 0.0259,
+    "nihilism": 0.1185,
+    "superstition": 0.0061,
+    "truth": 0.0169
    }
   },
   "capturing-christianity|neverflamenevertilt": {
-   "js": 0.0202,
+   "js": 0.0276,
    "terms": {
-    "community": 0.0652,
-    "deconstruction": 0.0431,
-    "evidence": 0.005,
-    "grace": 0.0014,
-    "harm": 0.0019,
-    "love": 0.0004,
-    "truth": 0.0242
+    "atheist": 0.0348,
+    "community": 0.0506,
+    "deconstruction": 0.0291,
+    "deconversion": 0.026,
+    "evidence": 0.0056,
+    "false prophet": 0.1258,
+    "grace": 0.0197,
+    "harm": 0.0013,
+    "love": 0.0006,
+    "superstition": 0.0,
+    "truth": 0.0101
    }
   },
   "capturing-christianity|paulogia": {
-   "js": 0.042,
+   "js": 0.0286,
    "terms": {
-    "accountability": 0.1559,
+    "accountability": 0.0931,
     "apostasy": 0.0224,
     "apostate": 0.1972,
-    "community": 0.0002,
-    "deconstruction": 0.0041,
-    "do the work": 0.0316,
-    "evidence": 0.0041,
-    "grace": 0.0484,
-    "harm": 0.0008,
-    "heresy": 0.0629,
+    "atheist": 0.0002,
+    "community": 0.0001,
+    "deconstruction": 0.0047,
+    "deconversion": 0.0133,
+    "do the work": 0.0147,
+    "evidence": 0.0025,
+    "grace": 0.038,
+    "harm": 0.0006,
+    "heresy": 0.0595,
     "heretic": 0.0007,
-    "love": 0.014,
-    "truth": 0.0043
+    "love": 0.0139,
+    "nihilism": 0.0209,
+    "superstition": 0.0,
+    "truth": 0.0045
    }
   },
   "capturing-christianity|prophet-of-zod": {
-   "js": 0.0106,
+   "js": 0.0123,
    "terms": {
-    "accountability": 0.0004,
+    "accountability": 0.004,
+    "atheist": 0.018,
     "community": 0.0029,
-    "deconstruction": 0.0,
+    "deconstruction": 0.0002,
+    "deconversion": 0.0165,
     "evidence": 0.0,
-    "grace": 0.0074,
-    "harm": 0.0572,
-    "love": 0.0172,
+    "grace": 0.008,
+    "harm": 0.0679,
+    "love": 0.0178,
+    "superstition": 0.0,
     "truth": 0.0
    }
   },
   "capturing-christianity|reasonable-faith-org": {
-   "js": 0.0249,
+   "js": 0.0253,
    "terms": {
-    "accountability": 0.006,
+    "accountability": 0.0151,
     "apostasy": 0.0113,
     "apostate": 0.1418,
-    "community": 0.0061,
-    "deconstruction": 0.0051,
-    "do the work": 0.0003,
-    "evidence": 0.0018,
-    "grace": 0.0511,
+    "atheist": 0.0368,
+    "community": 0.0065,
+    "deconstruction": 0.0013,
+    "deconversion": 0.0453,
+    "do the work": 0.004,
+    "evidence": 0.0016,
+    "grace": 0.0528,
     "harm": 0.0108,
-    "heresy": 0.0272,
-    "heretic": 0.0325,
-    "love": 0.0275,
-    "truth": 0.0027
+    "heresy": 0.0288,
+    "heretic": 0.0407,
+    "love": 0.0274,
+    "nihilism": 0.0017,
+    "sola scriptura": 0.0023,
+    "truth": 0.0016
    }
   },
   "capturing-christianity|shannon-q": {
-   "js": 0.1731,
+   "js": 0.1383,
    "terms": {
-    "accountability": 0.3729,
-    "apostate": 0.2158,
-    "community": 0.0899,
-    "deconstruction": 0.0446,
+    "accountability": 0.3961,
+    "apostate": 0.2072,
+    "atheist": 0.0099,
+    "community": 0.09,
+    "deconstruction": 0.0406,
+    "deconversion": 0.0163,
     "discernment": 0.4947,
     "evidence": 0.0006,
-    "grace": 0.2815,
-    "harm": 0.0083,
-    "heresy": 0.0987,
-    "heretic": 0.351,
-    "love": 0.081,
-    "truth": 0.0381
+    "grace": 0.2849,
+    "harm": 0.009,
+    "heresy": 0.1052,
+    "heretic": 0.295,
+    "love": 0.0797,
+    "nihilism": 0.0087,
+    "truth": 0.0365
    }
   },
   "capturing-christianity|the-antibot": {
-   "js": 0.0835,
+   "js": 0.07,
    "terms": {
-    "accountability": 0.2083,
-    "community": 0.0285,
-    "deconstruction": 0.0002,
-    "discernment": 0.1101,
-    "do the work": 0.0133,
-    "evidence": 0.0007,
-    "grace": 0.4741,
-    "harm": 0.0031,
-    "heresy": 0.0359,
-    "love": 0.0442,
-    "truth": 0.0004
+    "accountability": 0.2086,
+    "atheist": 0.0235,
+    "community": 0.0364,
+    "deconstruction": 0.0024,
+    "deconversion": 0.0001,
+    "discernment": 0.0903,
+    "do the work": 0.0104,
+    "evidence": 0.0107,
+    "false prophet": 0.0577,
+    "grace": 0.4486,
+    "harm": 0.0006,
+    "heresy": 0.0402,
+    "love": 0.0456,
+    "truth": 0.0046
    }
   },
   "capturing-christianity|the-omnist-rone": {
-   "js": 0.0689,
+   "js": 0.069,
    "terms": {
-    "accountability": 0.165,
-    "community": 0.0136,
-    "deconstruction": 0.1828,
-    "do the work": 0.0582,
-    "evidence": 0.0511,
-    "grace": 0.1558,
-    "harm": 0.0966,
-    "heresy": 0.0081,
-    "heretic": 0.0186,
-    "love": 0.0032,
-    "truth": 0.0049
+    "accountability": 0.138,
+    "atheist": 0.0057,
+    "community": 0.0132,
+    "deconstruction": 0.1894,
+    "deconversion": 0.0129,
+    "discernment": 0.0694,
+    "do the work": 0.0437,
+    "evidence": 0.0691,
+    "false prophet": 0.1668,
+    "grace": 0.1485,
+    "harm": 0.0926,
+    "heresy": 0.0069,
+    "heretic": 0.0692,
+    "love": 0.0014,
+    "truth": 0.0078
    }
   },
   "counsel-of-trent|cross-examined": {
-   "js": 0.0649,
+   "js": 0.0624,
    "terms": {
-    "accountability": 0.0006,
-    "apostasy": 0.3089,
-    "apostate": 0.2207,
-    "community": 0.011,
+    "accountability": 0.0001,
+    "apostasy": 0.3118,
+    "apostate": 0.2418,
+    "atheist": 0.0458,
+    "community": 0.0095,
     "discernment": 0.0043,
     "do the work": 0.0603,
-    "evidence": 0.0089,
-    "false prophet": 0.0906,
+    "evidence": 0.0087,
+    "false prophet": 0.0497,
     "false teaching": 0.0111,
-    "grace": 0.095,
-    "harm": 0.0264,
-    "heresy": 0.0403,
-    "heretic": 0.0478,
-    "love": 0.0054,
-    "truth": 0.0426
+    "grace": 0.0945,
+    "harm": 0.0279,
+    "heresy": 0.0462,
+    "heretic": 0.1799,
+    "humanist": 0.0,
+    "love": 0.0055,
+    "sola scriptura": 0.0445,
+    "superstition": 0.0,
+    "truth": 0.044
    }
   },
   "counsel-of-trent|dan-mcclellan": {
-   "js": 0.0451,
+   "js": 0.0438,
    "terms": {
-    "accountability": 0.1468,
-    "community": 0.0079,
-    "evidence": 0.0017,
-    "grace": 0.0013,
-    "harm": 0.0088,
-    "heresy": 0.2383,
-    "heretic": 0.0,
-    "love": 0.0008,
-    "truth": 0.0004
+    "accountability": 0.1362,
+    "apostasy": 0.0103,
+    "atheist": 0.0006,
+    "community": 0.0063,
+    "evidence": 0.0015,
+    "grace": 0.013,
+    "harm": 0.0267,
+    "heresy": 0.2502,
+    "heretic": 0.0272,
+    "love": 0.0,
+    "truth": 0.0098
    }
   },
   "counsel-of-trent|darante-lamar": {
-   "js": 0.1625,
+   "js": 0.16,
    "terms": {
-    "accountability": 0.0148,
-    "apostasy": 0.3332,
-    "apostate": 0.4629,
-    "community": 0.2794,
+    "accountability": 0.0194,
+    "apostasy": 0.3361,
+    "apostate": 0.4787,
+    "atheist": 0.1276,
+    "community": 0.2832,
+    "deconversion": 0.094,
     "discernment": 0.1371,
     "do the work": 0.1096,
-    "evidence": 0.0586,
-    "grace": 0.3799,
-    "harm": 0.0216,
-    "heresy": 0.0103,
-    "heretic": 0.1699,
-    "love": 0.1102,
-    "truth": 0.0253
+    "evidence": 0.0559,
+    "grace": 0.367,
+    "harm": 0.0211,
+    "heresy": 0.0085,
+    "heretic": 0.1707,
+    "humanist": 0.003,
+    "love": 0.108,
+    "nihilism": 0.3835,
+    "superstition": 0.1494,
+    "truth": 0.0277
    }
   },
   "counsel-of-trent|drcraigvideos": {
-   "js": 0.062,
+   "js": 0.0459,
    "terms": {
-    "accountability": 0.2112,
-    "apostasy": 0.0011,
-    "community": 0.0193,
-    "evidence": 0.0837,
-    "grace": 0.0005,
-    "harm": 0.103,
-    "heresy": 0.117,
-    "heretic": 0.0017,
-    "love": 0.0613,
+    "accountability": 0.1662,
+    "apostasy": 0.0014,
+    "atheist": 0.0145,
+    "community": 0.0183,
+    "evidence": 0.0823,
+    "grace": 0.0004,
+    "harm": 0.0999,
+    "heresy": 0.1262,
+    "heretic": 0.0038,
+    "humanist": 0.0,
+    "love": 0.0622,
+    "nihilism": 0.0,
     "truth": 0.0212
    }
   },
   "counsel-of-trent|genetically-modified-skeptic": {
-   "js": 0.1111,
+   "js": 0.0898,
    "terms": {
     "accountability": 0.0007,
-    "apostasy": 0.2525,
-    "apostate": 0.6548,
-    "community": 0.0146,
-    "discernment": 0.0191,
-    "evidence": 0.0829,
-    "grace": 0.18,
-    "harm": 0.0657,
-    "heresy": 0.0182,
-    "heretic": 0.0029,
-    "love": 0.0365,
-    "truth": 0.0053
+    "apostasy": 0.2552,
+    "apostate": 0.6689,
+    "atheist": 0.0413,
+    "community": 0.0175,
+    "deconversion": 0.0002,
+    "discernment": 0.0399,
+    "evidence": 0.0767,
+    "grace": 0.1925,
+    "harm": 0.0608,
+    "heresy": 0.0145,
+    "heretic": 0.0138,
+    "humanist": 0.0138,
+    "love": 0.0353,
+    "superstition": 0.0,
+    "truth": 0.0057
    }
   },
   "counsel-of-trent|jackie-hill-perry": {
-   "js": 0.0918,
+   "js": 0.0897,
    "terms": {
-    "community": 0.0371,
+    "community": 0.0384,
     "discernment": 0.0399,
     "do the work": 0.0677,
-    "evidence": 0.0867,
-    "grace": 0.3497,
-    "love": 0.0037,
-    "truth": 0.058
+    "evidence": 0.0864,
+    "grace": 0.3396,
+    "love": 0.0041,
+    "truth": 0.0521
    }
   },
   "counsel-of-trent|jude-3-project": {
-   "js": 0.0621,
+   "js": 0.0499,
    "terms": {
     "accountability": 0.0221,
-    "community": 0.0099,
-    "discernment": 0.0006,
+    "atheist": 0.0211,
+    "community": 0.0109,
+    "discernment": 0.0026,
     "do the work": 0.0011,
-    "evidence": 0.0097,
+    "evidence": 0.0101,
     "false teaching": 0.1909,
-    "grace": 0.328,
-    "harm": 0.0871,
-    "heresy": 0.0343,
-    "heretic": 0.0607,
-    "love": 0.0011,
-    "truth": 0.0
+    "grace": 0.3201,
+    "harm": 0.0842,
+    "heresy": 0.0412,
+    "heretic": 0.0425,
+    "humanist": 0.0,
+    "love": 0.0009,
+    "superstition": 0.0,
+    "truth": 0.0001
    }
   },
   "counsel-of-trent|lil-bill": {
-   "js": 0.2549,
+   "js": 0.2366,
    "terms": {
-    "community": 0.0414,
-    "evidence": 0.2716,
-    "grace": 0.6648,
-    "harm": 0.0716,
-    "love": 0.2097,
-    "truth": 0.2705
+    "community": 0.0429,
+    "evidence": 0.2721,
+    "grace": 0.6681,
+    "harm": 0.0934,
+    "love": 0.2068,
+    "nihilism": 0.0975,
+    "truth": 0.2753
    }
   },
   "counsel-of-trent|marc-coley": {
-   "js": 0.3763,
+   "js": 0.3775,
    "terms": {
     "accountability": 0.4296,
-    "community": 0.5145,
+    "community": 0.5185,
     "do the work": 0.2398,
-    "love": 0.3282,
-    "truth": 0.3694
+    "love": 0.3247,
+    "truth": 0.3747
    }
   },
   "counsel-of-trent|mike-winger": {
-   "js": 0.0542,
+   "js": 0.0521,
    "terms": {
-    "accountability": 0.0265,
-    "apostasy": 0.0519,
-    "apostate": 0.0149,
+    "accountability": 0.0122,
+    "apostasy": 0.0534,
+    "apostate": 0.0318,
+    "atheist": 0.0074,
     "community": 0.0,
+    "deconversion": 0.1601,
     "discernment": 0.0,
     "do the work": 0.0663,
-    "evidence": 0.0005,
-    "false prophet": 0.0697,
+    "evidence": 0.0006,
+    "false prophet": 0.0444,
     "false teaching": 0.0008,
-    "grace": 0.0832,
-    "harm": 0.1303,
-    "heresy": 0.1109,
-    "heretic": 0.2016,
-    "love": 0.0279,
-    "truth": 0.0283
+    "grace": 0.0788,
+    "harm": 0.1279,
+    "heresy": 0.1181,
+    "heretic": 0.1847,
+    "love": 0.029,
+    "sola scriptura": 0.0486,
+    "superstition": 0.0,
+    "truth": 0.0263
    }
   },
   "counsel-of-trent|mindshift": {
-   "js": 0.058,
+   "js": 0.1031,
    "terms": {
-    "accountability": 0.039,
-    "apostasy": 0.011,
-    "apostate": 0.1512,
-    "community": 0.0061,
-    "discernment": 0.08,
+    "accountability": 0.0487,
+    "apostasy": 0.0103,
+    "apostate": 0.1554,
+    "atheist": 0.0549,
+    "community": 0.0067,
+    "deconversion": 0.0124,
+    "discernment": 0.061,
     "do the work": 0.202,
-    "evidence": 0.0006,
-    "false prophet": 0.0137,
+    "evidence": 0.0004,
+    "false prophet": 0.0025,
     "false teaching": 0.0031,
-    "grace": 0.1054,
-    "harm": 0.1968,
-    "heresy": 0.0157,
-    "heretic": 0.0198,
-    "love": 0.0249,
-    "truth": 0.0012
+    "grace": 0.0985,
+    "harm": 0.1974,
+    "heresy": 0.02,
+    "heretic": 0.0773,
+    "humanist": 0.9195,
+    "love": 0.0257,
+    "nihilism": 0.1594,
+    "superstition": 0.0061,
+    "truth": 0.0009
    }
   },
   "counsel-of-trent|neverflamenevertilt": {
-   "js": 0.0376,
+   "js": 0.041,
    "terms": {
-    "community": 0.0455,
-    "evidence": 0.0736,
-    "grace": 0.0286,
-    "harm": 0.0172,
-    "love": 0.0003,
-    "truth": 0.0601
+    "atheist": 0.0,
+    "community": 0.0345,
+    "deconversion": 0.0508,
+    "evidence": 0.0756,
+    "false prophet": 0.1195,
+    "grace": 0.1155,
+    "harm": 0.0143,
+    "humanist": 0.0,
+    "love": 0.0006,
+    "superstition": 0.0,
+    "truth": 0.0402
    }
   },
   "counsel-of-trent|paulogia": {
-   "js": 0.0417,
+   "js": 0.0332,
    "terms": {
-    "accountability": 0.0137,
-    "apostasy": 0.0229,
-    "apostate": 0.0831,
-    "community": 0.001,
-    "do the work": 0.0064,
-    "evidence": 0.0192,
-    "grace": 0.173,
-    "harm": 0.0136,
-    "heresy": 0.0749,
-    "heretic": 0.0538,
-    "love": 0.0144,
-    "truth": 0.0244
+    "accountability": 0.0005,
+    "apostasy": 0.024,
+    "apostate": 0.0755,
+    "atheist": 0.0311,
+    "community": 0.0009,
+    "deconversion": 0.0025,
+    "do the work": 0.0086,
+    "evidence": 0.0232,
+    "grace": 0.1534,
+    "harm": 0.0115,
+    "heresy": 0.0715,
+    "heretic": 0.0724,
+    "humanist": 0.0,
+    "love": 0.014,
+    "nihilism": 0.047,
+    "superstition": 0.0,
+    "truth": 0.0279
    }
   },
   "counsel-of-trent|prophet-of-zod": {
-   "js": 0.0466,
+   "js": 0.0391,
    "terms": {
-    "accountability": 0.0701,
-    "community": 0.0001,
-    "evidence": 0.0426,
-    "grace": 0.0833,
-    "harm": 0.1054,
-    "love": 0.0168,
-    "truth": 0.0079
-   }
-  },
-  "counsel-of-trent|reasonable-faith-org": {
-   "js": 0.0318,
-   "terms": {
-    "accountability": 0.0442,
-    "apostasy": 0.011,
-    "apostate": 0.0058,
-    "community": 0.0011,
-    "do the work": 0.0742,
-    "evidence": 0.0595,
-    "grace": 0.0005,
-    "harm": 0.0367,
-    "heresy": 0.1007,
-    "heretic": 0.0007,
-    "love": 0.027,
-    "truth": 0.0203
-   }
-  },
-  "counsel-of-trent|shannon-q": {
-   "js": 0.2036,
-   "terms": {
-    "accountability": 0.1225,
-    "apostate": 0.4129,
-    "community": 0.0669,
-    "discernment": 0.2271,
-    "evidence": 0.0512,
-    "grace": 0.4995,
-    "harm": 0.0,
-    "heresy": 0.1163,
-    "heretic": 0.5799,
-    "love": 0.0819,
-    "truth": 0.081
-   }
-  },
-  "counsel-of-trent|the-antibot": {
-   "js": 0.0968,
-   "terms": {
-    "accountability": 0.0335,
-    "community": 0.0157,
-    "discernment": 0.006,
-    "do the work": 0.0206,
-    "evidence": 0.052,
-    "grace": 0.7236,
-    "harm": 0.0207,
-    "heresy": 0.0466,
-    "love": 0.0448,
-    "truth": 0.0049
-   }
-  },
-  "counsel-of-trent|the-omnist-rone": {
-   "js": 0.0702,
-   "terms": {
-    "accountability": 0.0167,
-    "community": 0.0052,
-    "do the work": 0.0002,
-    "evidence": 0.0006,
-    "grace": 0.3369,
-    "harm": 0.156,
-    "heresy": 0.0678,
-    "heretic": 0.1146,
-    "love": 0.003,
-    "truth": 0.0005
-   }
-  },
-  "cross-examined|dan-mcclellan": {
-   "js": 0.0644,
-   "terms": {
-    "accountability": 0.1293,
-    "community": 0.0364,
-    "evidence": 0.0185,
-    "grace": 0.0753,
-    "harm": 0.0048,
-    "heresy": 0.2085,
-    "heretic": 0.0448,
-    "love": 0.0102,
-    "truth": 0.0517
-   }
-  },
-  "cross-examined|darante-lamar": {
-   "js": 0.0994,
-   "terms": {
-    "accountability": 0.0094,
-    "apostasy": 0.0006,
-    "apostate": 0.2315,
-    "community": 0.1902,
-    "deconstruction": 0.1387,
-    "discernment": 0.0945,
-    "do the work": 0.3124,
-    "evidence": 0.0222,
-    "grace": 0.1103,
-    "harm": 0.0002,
-    "heresy": 0.0775,
-    "heretic": 0.04,
-    "love": 0.1615,
-    "truth": 0.0023
-   }
-  },
-  "cross-examined|drcraigvideos": {
-   "js": 0.0926,
-   "terms": {
-    "accountability": 0.2307,
-    "apostasy": 0.2841,
-    "community": 0.0562,
-    "evidence": 0.0387,
-    "grace": 0.1078,
-    "harm": 0.0261,
-    "heresy": 0.081,
-    "heretic": 0.0667,
-    "love": 0.0311,
-    "truth": 0.0038
-   }
-  },
-  "cross-examined|genetically-modified-skeptic": {
-   "js": 0.0432,
-   "terms": {
-    "accountability": 0.0027,
-    "apostasy": 0.0037,
-    "apostate": 0.2632,
-    "community": 0.0003,
-    "deconstruction": 0.0109,
-    "discernment": 0.0053,
-    "evidence": 0.0382,
-    "grace": 0.0152,
-    "harm": 0.0091,
-    "heresy": 0.0988,
-    "heretic": 0.0274,
-    "love": 0.0692,
-    "truth": 0.0181
-   }
-  },
-  "cross-examined|jackie-hill-perry": {
-   "js": 0.0571,
-   "terms": {
-    "community": 0.008,
-    "discernment": 0.0182,
-    "do the work": 0.0002,
-    "evidence": 0.1464,
-    "false teacher": 0.0,
-    "grace": 0.0928,
-    "love": 0.0002,
-    "truth": 0.1913
-   }
-  },
-  "cross-examined|jude-3-project": {
-   "js": 0.0539,
-   "terms": {
-    "accountability": 0.0154,
-    "community": 0.0,
-    "deconstruction": 0.021,
-    "discernment": 0.0017,
-    "do the work": 0.0768,
-    "evidence": 0.0368,
-    "false teaching": 0.2762,
-    "grace": 0.0807,
-    "harm": 0.0182,
-    "heresy": 0.1201,
-    "heretic": 0.0008,
-    "love": 0.0115,
-    "truth": 0.0412
-   }
-  },
-  "cross-examined|lil-bill": {
-   "js": 0.1782,
-   "terms": {
-    "community": 0.0102,
-    "evidence": 0.1887,
-    "grace": 0.31,
-    "harm": 0.1776,
-    "love": 0.2758,
-    "truth": 0.107
-   }
-  },
-  "cross-examined|marc-coley": {
-   "js": 0.3769,
-   "terms": {
-    "accountability": 0.4032,
-    "community": 0.3996,
-    "do the work": 0.4967,
-    "love": 0.4056,
-    "truth": 0.1793
-   }
-  },
-  "cross-examined|mike-winger": {
-   "js": 0.0477,
-   "terms": {
-    "accountability": 0.0191,
-    "apostasy": 0.129,
-    "apostate": 0.1416,
-    "community": 0.0116,
-    "deconstruction": 0.018,
-    "discernment": 0.0044,
-    "do the work": 0.0002,
-    "evidence": 0.0136,
-    "false prophet": 0.0015,
-    "false teacher": 0.1672,
-    "false teaching": 0.0059,
-    "grace": 0.0004,
-    "harm": 0.0411,
-    "heresy": 0.0545,
-    "heretic": 0.057,
-    "love": 0.0089,
-    "truth": 0.1364
-   }
-  },
-  "cross-examined|mindshift": {
-   "js": 0.0568,
-   "terms": {
-    "accountability": 0.0492,
-    "apostasy": 0.3705,
-    "apostate": 0.0855,
-    "community": 0.0007,
-    "deconstruction": 0.0368,
-    "discernment": 0.1194,
-    "do the work": 0.0579,
-    "evidence": 0.0049,
-    "false prophet": 0.0351,
-    "false teacher": 0.0,
-    "false teaching": 0.026,
-    "grace": 0.0003,
-    "harm": 0.0835,
-    "heresy": 0.0235,
-    "heretic": 0.0062,
-    "love": 0.0072,
-    "truth": 0.0581
-   }
-  },
-  "cross-examined|neverflamenevertilt": {
-   "js": 0.018,
-   "terms": {
-    "community": 0.0123,
-    "deconstruction": 0.0559,
-    "evidence": 0.0318,
-    "grace": 0.0207,
-    "harm": 0.001,
-    "love": 0.003,
-    "truth": 0.0015
-   }
-  },
-  "cross-examined|paulogia": {
-   "js": 0.0405,
-   "terms": {
-    "accountability": 0.0085,
-    "apostasy": 0.1879,
-    "apostate": 0.1989,
-    "community": 0.0186,
-    "deconstruction": 0.0088,
-    "do the work": 0.0281,
-    "evidence": 0.002,
-    "grace": 0.0131,
-    "harm": 0.0021,
-    "heresy": 0.0186,
-    "heretic": 0.0002,
-    "love": 0.0372,
-    "truth": 0.0026
-   }
-  },
-  "cross-examined|prophet-of-zod": {
-   "js": 0.0189,
-   "terms": {
-    "accountability": 0.0833,
-    "community": 0.0092,
-    "deconstruction": 0.0008,
-    "evidence": 0.0127,
-    "grace": 0.0004,
-    "harm": 0.0274,
-    "love": 0.0032,
-    "truth": 0.014
-   }
-  },
-  "cross-examined|reasonable-faith-org": {
-   "js": 0.0629,
-   "terms": {
-    "accountability": 0.0549,
-    "apostasy": 0.3705,
-    "apostate": 0.1839,
-    "community": 0.0051,
-    "deconstruction": 0.0018,
-    "do the work": 0.0008,
-    "evidence": 0.0227,
-    "grace": 0.1074,
-    "harm": 0.0009,
-    "heresy": 0.0198,
-    "heretic": 0.0373,
-    "love": 0.0084,
-    "truth": 0.0042
-   }
-  },
-  "cross-examined|shannon-q": {
-   "js": 0.1148,
-   "terms": {
-    "accountability": 0.1065,
-    "apostate": 0.1301,
-    "community": 0.0247,
-    "deconstruction": 0.0577,
-    "discernment": 0.1732,
-    "evidence": 0.0177,
-    "grace": 0.1872,
-    "harm": 0.0275,
-    "heresy": 0.1807,
-    "heretic": 0.3382,
-    "love": 0.1273,
-    "truth": 0.0063
-   }
-  },
-  "cross-examined|the-antibot": {
-   "js": 0.0549,
-   "terms": {
-    "accountability": 0.0251,
-    "community": 0.0004,
-    "deconstruction": 0.0019,
-    "discernment": 0.0001,
-    "do the work": 0.011,
-    "evidence": 0.0181,
-    "grace": 0.3582,
-    "harm": 0.0004,
-    "heresy": 0.0897,
-    "love": 0.0803,
-    "truth": 0.0188
-   }
-  },
-  "cross-examined|the-omnist-rone": {
-   "js": 0.0462,
-   "terms": {
-    "accountability": 0.0109,
-    "community": 0.0011,
-    "deconstruction": 0.2068,
-    "do the work": 0.0534,
-    "evidence": 0.0141,
-    "grace": 0.0856,
-    "harm": 0.0567,
-    "heresy": 0.0294,
-    "heretic": 0.0152,
-    "love": 0.0003,
-    "truth": 0.0344
-   }
-  },
-  "dan-mcclellan|darante-lamar": {
-   "js": 0.1633,
-   "terms": {
-    "accountability": 0.0708,
-    "community": 0.3584,
-    "evidence": 0.0799,
-    "grace": 0.3442,
-    "harm": 0.0029,
-    "heresy": 0.3229,
-    "heretic": 0.1646,
-    "love": 0.0934,
-    "truth": 0.0324
-   }
-  },
-  "dan-mcclellan|drcraigvideos": {
-   "js": 0.1028,
-   "terms": {
-    "accountability": 0.61,
-    "community": 0.0027,
-    "evidence": 0.1086,
-    "grace": 0.0034,
-    "harm": 0.0528,
-    "heresy": 0.0426,
-    "heretic": 0.0023,
-    "love": 0.075,
-    "truth": 0.0278
-   }
-  },
-  "dan-mcclellan|genetically-modified-skeptic": {
-   "js": 0.0981,
-   "terms": {
-    "accountability": 0.167,
-    "community": 0.0426,
-    "evidence": 0.1077,
-    "grace": 0.1537,
-    "harm": 0.0269,
-    "heresy": 0.3473,
-    "heretic": 0.0022,
-    "love": 0.0269,
+    "accountability": 0.1163,
+    "atheist": 0.0033,
+    "community": 0.0002,
+    "deconversion": 0.0041,
+    "evidence": 0.039,
+    "grace": 0.0849,
+    "harm": 0.1163,
+    "love": 0.0177,
+    "superstition": 0.0,
     "truth": 0.0088
    }
   },
-  "dan-mcclellan|jackie-hill-perry": {
-   "js": 0.1025,
+  "counsel-of-trent|reasonable-faith-org": {
+   "js": 0.0242,
    "terms": {
-    "community": 0.0758,
-    "evidence": 0.065,
-    "grace": 0.3152,
-    "love": 0.0077,
-    "truth": 0.0486
+    "accountability": 0.0273,
+    "apostasy": 0.0103,
+    "apostate": 0.0069,
+    "atheist": 0.0,
+    "community": 0.0016,
+    "deconversion": 0.0222,
+    "do the work": 0.0742,
+    "evidence": 0.0584,
+    "grace": 0.0007,
+    "harm": 0.0348,
+    "heresy": 0.1077,
+    "heretic": 0.0018,
+    "humanist": 0.0,
+    "love": 0.0273,
+    "nihilism": 0.0163,
+    "sola scriptura": 0.0026,
+    "truth": 0.0197
    }
   },
-  "dan-mcclellan|jude-3-project": {
-   "js": 0.0767,
+  "counsel-of-trent|shannon-q": {
+   "js": 0.1626,
    "terms": {
-    "accountability": 0.0574,
-    "community": 0.0345,
-    "evidence": 0.0032,
-    "grace": 0.2942,
-    "harm": 0.0414,
-    "heresy": 0.202,
-    "heretic": 0.0574,
-    "love": 0.0,
-    "truth": 0.0006
+    "accountability": 0.1373,
+    "apostate": 0.4667,
+    "atheist": 0.083,
+    "community": 0.0686,
+    "deconversion": 0.0369,
+    "discernment": 0.2271,
+    "evidence": 0.0509,
+    "grace": 0.5026,
+    "harm": 0.0001,
+    "heresy": 0.1299,
+    "heretic": 0.555,
+    "humanist": 0.0172,
+    "love": 0.08,
+    "nihilism": 0.0,
+    "truth": 0.0838
    }
   },
-  "dan-mcclellan|lil-bill": {
-   "js": 0.2701,
+  "counsel-of-trent|the-antibot": {
+   "js": 0.0883,
    "terms": {
-    "community": 0.0817,
-    "evidence": 0.312,
-    "grace": 0.6219,
-    "harm": 0.1272,
-    "love": 0.187,
-    "truth": 0.2907
+    "accountability": 0.0336,
+    "atheist": 0.1158,
+    "community": 0.0228,
+    "deconversion": 0.0054,
+    "discernment": 0.002,
+    "do the work": 0.0125,
+    "evidence": 0.0917,
+    "false prophet": 0.0628,
+    "grace": 0.6943,
+    "harm": 0.0117,
+    "heresy": 0.0554,
+    "humanist": 0.0538,
+    "love": 0.0458,
+    "truth": 0.0283
    }
   },
-  "dan-mcclellan|marc-coley": {
-   "js": 0.3526,
+  "counsel-of-trent|the-omnist-rone": {
+   "js": 0.0755,
    "terms": {
-    "accountability": 0.108,
-    "community": 0.6096,
-    "love": 0.3009,
-    "truth": 0.3919
-   }
-  },
-  "dan-mcclellan|mike-winger": {
-   "js": 0.0576,
-   "terms": {
-    "accountability": 0.0509,
-    "community": 0.0074,
-    "evidence": 0.0004,
-    "grace": 0.0648,
-    "harm": 0.0732,
-    "heresy": 0.0665,
-    "heretic": 0.1959,
-    "love": 0.0376,
-    "truth": 0.0217
-   }
-  },
-  "dan-mcclellan|mindshift": {
-   "js": 0.1014,
-   "terms": {
-    "accountability": 0.3195,
-    "community": 0.0272,
-    "evidence": 0.0043,
-    "grace": 0.0847,
-    "harm": 0.1263,
-    "heresy": 0.2982,
-    "heretic": 0.0179,
-    "love": 0.0341,
+    "accountability": 0.0085,
+    "atheist": 0.0701,
+    "community": 0.0055,
+    "deconversion": 0.0024,
+    "discernment": 0.0,
+    "do the work": 0.0,
+    "evidence": 0.0039,
+    "false prophet": 0.175,
+    "grace": 0.3259,
+    "harm": 0.1474,
+    "heresy": 0.0717,
+    "heretic": 0.2452,
+    "love": 0.0013,
     "truth": 0.0002
    }
   },
-  "dan-mcclellan|neverflamenevertilt": {
-   "js": 0.0461,
+  "cross-examined|dan-mcclellan": {
+   "js": 0.1134,
    "terms": {
-    "community": 0.0872,
-    "evidence": 0.0971,
-    "grace": 0.0179,
-    "harm": 0.0014,
-    "love": 0.0021,
-    "truth": 0.0706
+    "accountability": 0.1303,
+    "apostasy": 0.3705,
+    "atheist": 0.0359,
+    "community": 0.0305,
+    "evidence": 0.0173,
+    "grace": 0.0395,
+    "harm": 0.0,
+    "heresy": 0.197,
+    "heretic": 0.3271,
+    "love": 0.0061,
+    "truth": 0.0936
    }
   },
-  "dan-mcclellan|paulogia": {
-   "js": 0.0745,
+  "cross-examined|darante-lamar": {
+   "js": 0.0914,
    "terms": {
-    "accountability": 0.0731,
-    "community": 0.0033,
-    "evidence": 0.0323,
-    "grace": 0.1471,
+    "accountability": 0.0171,
+    "apostasy": 0.0006,
+    "apostate": 0.2388,
+    "atheist": 0.0217,
+    "community": 0.1994,
+    "deconstruction": 0.1435,
+    "discernment": 0.0945,
+    "do the work": 0.3124,
+    "evidence": 0.0208,
+    "grace": 0.1033,
     "harm": 0.0005,
-    "heresy": 0.3233,
-    "heretic": 0.0507,
-    "love": 0.0086,
-    "truth": 0.0314
+    "heresy": 0.0876,
+    "heretic": 0.0001,
+    "humanist": 0.003,
+    "love": 0.1595,
+    "superstition": 0.1494,
+    "truth": 0.0019
    }
   },
-  "dan-mcclellan|prophet-of-zod": {
-   "js": 0.0881,
+  "cross-examined|drcraigvideos": {
+   "js": 0.0942,
    "terms": {
-    "accountability": 0.3898,
-    "community": 0.0096,
-    "evidence": 0.0612,
-    "grace": 0.0649,
-    "harm": 0.0546,
-    "love": 0.0245,
-    "truth": 0.0121
+    "accountability": 0.1724,
+    "apostasy": 0.2841,
+    "atheist": 0.1089,
+    "community": 0.0515,
+    "evidence": 0.0382,
+    "grace": 0.1057,
+    "harm": 0.0231,
+    "heresy": 0.0795,
+    "heretic": 0.2312,
+    "humanist": 0.0,
+    "love": 0.0314,
+    "truth": 0.0042
    }
   },
-  "dan-mcclellan|reasonable-faith-org": {
-   "js": 0.0729,
+  "cross-examined|genetically-modified-skeptic": {
+   "js": 0.0417,
    "terms": {
-    "accountability": 0.3323,
-    "community": 0.0149,
-    "evidence": 0.0809,
-    "grace": 0.0033,
-    "harm": 0.0097,
-    "heresy": 0.1508,
-    "heretic": 0.0004,
-    "love": 0.0366,
-    "truth": 0.0268
+    "accountability": 0.0013,
+    "apostasy": 0.0037,
+    "apostate": 0.2644,
+    "atheist": 0.0001,
+    "community": 0.0013,
+    "deconstruction": 0.0124,
+    "discernment": 0.0182,
+    "evidence": 0.0343,
+    "grace": 0.0195,
+    "harm": 0.0065,
+    "heresy": 0.1075,
+    "heretic": 0.0975,
+    "humanist": 0.0138,
+    "love": 0.068,
+    "superstition": 0.0,
+    "truth": 0.0182
    }
   },
-  "dan-mcclellan|shannon-q": {
-   "js": 0.1654,
+  "cross-examined|jackie-hill-perry": {
+   "js": 0.0556,
    "terms": {
-    "accountability": 0.0012,
-    "community": 0.1147,
-    "evidence": 0.0713,
-    "grace": 0.4601,
-    "harm": 0.0094,
-    "heresy": 0.0997,
-    "heretic": 0.5716,
-    "love": 0.0673,
-    "truth": 0.093
+    "community": 0.01,
+    "discernment": 0.0182,
+    "do the work": 0.0002,
+    "evidence": 0.1453,
+    "false teacher": 0.0,
+    "grace": 0.0876,
+    "love": 0.0001,
+    "truth": 0.1836
    }
   },
-  "dan-mcclellan|the-antibot": {
-   "js": 0.1246,
+  "cross-examined|jude-3-project": {
+   "js": 0.0483,
    "terms": {
-    "accountability": 0.0423,
-    "community": 0.0443,
-    "evidence": 0.0722,
-    "grace": 0.6799,
-    "harm": 0.0025,
-    "heresy": 0.1134,
-    "love": 0.0341,
-    "truth": 0.0083
+    "accountability": 0.0196,
+    "atheist": 0.0049,
+    "community": 0.0,
+    "deconstruction": 0.0328,
+    "discernment": 0.0002,
+    "do the work": 0.0768,
+    "evidence": 0.0373,
+    "false teaching": 0.2762,
+    "grace": 0.077,
+    "harm": 0.0157,
+    "heresy": 0.1302,
+    "heretic": 0.0506,
+    "humanist": 0.0,
+    "love": 0.0109,
+    "superstition": 0.0,
+    "truth": 0.0405
    }
   },
-  "dan-mcclellan|the-omnist-rone": {
-   "js": 0.078,
+  "cross-examined|lil-bill": {
+   "js": 0.1851,
    "terms": {
-    "accountability": 0.0669,
-    "community": 0.0254,
-    "evidence": 0.0003,
-    "grace": 0.3028,
-    "harm": 0.0933,
-    "heresy": 0.0946,
-    "heretic": 0.1102,
-    "love": 0.0068,
+    "community": 0.0124,
+    "evidence": 0.19,
+    "grace": 0.3135,
+    "harm": 0.213,
+    "love": 0.2734,
+    "truth": 0.1081
+   }
+  },
+  "cross-examined|marc-coley": {
+   "js": 0.3824,
+   "terms": {
+    "accountability": 0.4204,
+    "community": 0.4113,
+    "do the work": 0.4967,
+    "love": 0.4028,
+    "truth": 0.1807
+   }
+  },
+  "cross-examined|mike-winger": {
+   "js": 0.0361,
+   "terms": {
+    "accountability": 0.0104,
+    "apostasy": 0.129,
+    "apostate": 0.1157,
+    "atheist": 0.0166,
+    "community": 0.0094,
+    "deconstruction": 0.0163,
+    "discernment": 0.0037,
+    "do the work": 0.0002,
+    "evidence": 0.0136,
+    "false prophet": 0.0002,
+    "false teacher": 0.1672,
+    "false teaching": 0.0059,
+    "grace": 0.0008,
+    "harm": 0.0379,
+    "heresy": 0.0508,
+    "heretic": 0.0,
+    "love": 0.0093,
+    "sola scriptura": 0.0001,
+    "superstition": 0.0,
+    "truth": 0.1345
+   }
+  },
+  "cross-examined|mindshift": {
+   "js": 0.0944,
+   "terms": {
+    "accountability": 0.0524,
+    "apostasy": 0.3705,
+    "apostate": 0.0855,
+    "atheist": 0.0004,
+    "community": 0.0003,
+    "deconstruction": 0.0416,
+    "discernment": 0.0964,
+    "do the work": 0.0579,
+    "evidence": 0.0053,
+    "false prophet": 0.0303,
+    "false teacher": 0.0,
+    "false teaching": 0.026,
+    "grace": 0.0,
+    "harm": 0.0813,
+    "heresy": 0.0264,
+    "heretic": 0.0232,
+    "humanist": 0.9195,
+    "love": 0.0075,
+    "superstition": 0.0061,
+    "truth": 0.057
+   }
+  },
+  "cross-examined|neverflamenevertilt": {
+   "js": 0.037,
+   "terms": {
+    "atheist": 0.0442,
+    "community": 0.008,
+    "deconstruction": 0.0294,
+    "evidence": 0.0336,
+    "false prophet": 0.2854,
+    "grace": 0.0012,
+    "harm": 0.0023,
+    "humanist": 0.0,
+    "love": 0.0025,
+    "superstition": 0.0,
+    "truth": 0.0001
+   }
+  },
+  "cross-examined|paulogia": {
+   "js": 0.0333,
+   "terms": {
+    "accountability": 0.0002,
+    "apostasy": 0.1879,
+    "apostate": 0.1989,
+    "atheist": 0.0015,
+    "community": 0.0162,
+    "deconstruction": 0.0048,
+    "do the work": 0.024,
+    "evidence": 0.0035,
+    "grace": 0.008,
+    "harm": 0.0036,
+    "heresy": 0.0185,
+    "heretic": 0.0261,
+    "humanist": 0.0,
+    "love": 0.0369,
+    "superstition": 0.0,
+    "truth": 0.0019
+   }
+  },
+  "cross-examined|prophet-of-zod": {
+   "js": 0.0214,
+   "terms": {
+    "accountability": 0.1218,
+    "atheist": 0.0249,
+    "community": 0.0072,
+    "deconstruction": 0.0002,
+    "evidence": 0.011,
+    "grace": 0.0003,
+    "harm": 0.0315,
+    "love": 0.0035,
+    "superstition": 0.0,
+    "truth": 0.0136
+   }
+  },
+  "cross-examined|reasonable-faith-org": {
+   "js": 0.0607,
+   "terms": {
+    "accountability": 0.0302,
+    "apostasy": 0.3705,
+    "apostate": 0.1839,
+    "atheist": 0.0464,
+    "community": 0.0034,
+    "deconstruction": 0.0012,
+    "do the work": 0.0008,
+    "evidence": 0.0223,
+    "grace": 0.1095,
+    "harm": 0.0004,
+    "heresy": 0.0165,
+    "heretic": 0.1477,
+    "humanist": 0.0,
+    "love": 0.0084,
+    "sola scriptura": 0.0259,
+    "truth": 0.0049
+   }
+  },
+  "cross-examined|shannon-q": {
+   "js": 0.0875,
+   "terms": {
+    "accountability": 0.1314,
+    "apostate": 0.1205,
+    "atheist": 0.0058,
+    "community": 0.0282,
+    "deconstruction": 0.0408,
+    "discernment": 0.1732,
+    "evidence": 0.0177,
+    "grace": 0.19,
+    "harm": 0.032,
+    "heresy": 0.1872,
+    "heretic": 0.1482,
+    "humanist": 0.0172,
+    "love": 0.1256,
+    "truth": 0.0066
+   }
+  },
+  "cross-examined|the-antibot": {
+   "js": 0.0492,
+   "terms": {
+    "accountability": 0.0305,
+    "atheist": 0.0168,
+    "community": 0.0029,
+    "deconstruction": 0.0025,
+    "discernment": 0.0004,
+    "do the work": 0.0185,
+    "evidence": 0.0448,
+    "false prophet": 0.0008,
+    "grace": 0.3346,
+    "harm": 0.0035,
+    "heresy": 0.0956,
+    "humanist": 0.0538,
+    "love": 0.0822,
     "truth": 0.0018
    }
   },
-  "darante-lamar|drcraigvideos": {
-   "js": 0.2166,
+  "cross-examined|the-omnist-rone": {
+   "js": 0.0375,
    "terms": {
-    "accountability": 0.3154,
+    "accountability": 0.007,
+    "atheist": 0.0027,
+    "community": 0.0006,
+    "deconstruction": 0.19,
+    "discernment": 0.0035,
+    "do the work": 0.0587,
+    "evidence": 0.0241,
+    "false prophet": 0.0408,
+    "grace": 0.0801,
+    "harm": 0.0493,
+    "heresy": 0.0219,
+    "heretic": 0.006,
+    "love": 0.0014,
+    "truth": 0.039
+   }
+  },
+  "dan-mcclellan|darante-lamar": {
+   "js": 0.1875,
+   "terms": {
+    "accountability": 0.0549,
+    "apostasy": 0.3958,
+    "atheist": 0.1112,
+    "community": 0.3537,
+    "evidence": 0.0751,
+    "grace": 0.2583,
+    "harm": 0.0003,
+    "heresy": 0.3227,
+    "heretic": 0.3152,
+    "love": 0.1057,
+    "truth": 0.0694
+   }
+  },
+  "dan-mcclellan|drcraigvideos": {
+   "js": 0.0814,
+   "terms": {
+    "accountability": 0.5334,
+    "apostasy": 0.0175,
+    "atheist": 0.0211,
+    "community": 0.0034,
+    "evidence": 0.1051,
+    "grace": 0.0176,
+    "harm": 0.0242,
+    "heresy": 0.0398,
+    "heretic": 0.0108,
+    "love": 0.0639,
+    "truth": 0.0589
+   }
+  },
+  "dan-mcclellan|genetically-modified-skeptic": {
+   "js": 0.1124,
+   "terms": {
+    "accountability": 0.1558,
+    "apostasy": 0.3113,
+    "atheist": 0.032,
+    "community": 0.0434,
+    "evidence": 0.0987,
+    "grace": 0.1119,
+    "harm": 0.0071,
+    "heresy": 0.3344,
+    "heretic": 0.0778,
+    "love": 0.034,
+    "truth": 0.0302
+   }
+  },
+  "dan-mcclellan|jackie-hill-perry": {
+   "js": 0.0791,
+   "terms": {
+    "community": 0.0728,
+    "evidence": 0.0663,
+    "grace": 0.2345,
+    "love": 0.0046,
+    "truth": 0.0173
+   }
+  },
+  "dan-mcclellan|jude-3-project": {
+   "js": 0.0689,
+   "terms": {
+    "accountability": 0.0506,
+    "atheist": 0.0145,
+    "community": 0.0328,
+    "evidence": 0.0039,
+    "grace": 0.2177,
+    "harm": 0.0166,
+    "heresy": 0.2077,
+    "heretic": 0.1326,
+    "love": 0.0007,
+    "truth": 0.0115
+   }
+  },
+  "dan-mcclellan|lil-bill": {
+   "js": 0.2849,
+   "terms": {
+    "community": 0.0787,
+    "evidence": 0.3094,
+    "grace": 0.5325,
+    "harm": 0.2098,
+    "love": 0.2038,
+    "truth": 0.375
+   }
+  },
+  "dan-mcclellan|marc-coley": {
+   "js": 0.3814,
+   "terms": {
+    "accountability": 0.1164,
+    "community": 0.6034,
+    "love": 0.3211,
+    "truth": 0.4845
+   }
+  },
+  "dan-mcclellan|mike-winger": {
+   "js": 0.0608,
+   "terms": {
+    "accountability": 0.0688,
+    "apostasy": 0.0913,
+    "atheist": 0.0038,
+    "community": 0.0064,
+    "evidence": 0.0002,
+    "grace": 0.0293,
+    "harm": 0.0394,
+    "heresy": 0.0618,
+    "heretic": 0.3331,
+    "love": 0.0302,
+    "truth": 0.0041
+   }
+  },
+  "dan-mcclellan|mindshift": {
+   "js": 0.0956,
+   "terms": {
+    "accountability": 0.328,
+    "apostasy": 0.0,
+    "atheist": 0.0441,
+    "community": 0.0253,
+    "evidence": 0.0035,
+    "grace": 0.0421,
+    "harm": 0.0834,
+    "heresy": 0.3058,
+    "heretic": 0.1874,
+    "love": 0.0269,
+    "truth": 0.0048
+   }
+  },
+  "dan-mcclellan|neverflamenevertilt": {
+   "js": 0.0443,
+   "terms": {
+    "atheist": 0.0004,
+    "community": 0.0676,
+    "evidence": 0.0975,
+    "grace": 0.0539,
+    "harm": 0.002,
+    "love": 0.0008,
+    "truth": 0.0881
+   }
+  },
+  "dan-mcclellan|paulogia": {
+   "js": 0.0815,
+   "terms": {
+    "accountability": 0.1211,
+    "apostasy": 0.0547,
+    "atheist": 0.023,
+    "community": 0.0024,
+    "evidence": 0.0363,
+    "grace": 0.0817,
+    "harm": 0.0032,
+    "heresy": 0.3108,
+    "heretic": 0.18,
+    "love": 0.0132,
+    "truth": 0.0698
+   }
+  },
+  "dan-mcclellan|prophet-of-zod": {
+   "js": 0.0805,
+   "terms": {
+    "accountability": 0.4575,
+    "atheist": 0.001,
+    "community": 0.0084,
+    "evidence": 0.0554,
+    "grace": 0.0331,
+    "harm": 0.0329,
+    "love": 0.0186,
+    "truth": 0.0369
+   }
+  },
+  "dan-mcclellan|reasonable-faith-org": {
+   "js": 0.0603,
+   "terms": {
+    "accountability": 0.2736,
+    "apostasy": 0.0,
+    "atheist": 0.0007,
+    "community": 0.014,
+    "evidence": 0.0779,
+    "grace": 0.0194,
+    "harm": 0.0006,
+    "heresy": 0.1496,
+    "heretic": 0.0425,
+    "love": 0.0284,
+    "truth": 0.0565
+   }
+  },
+  "dan-mcclellan|shannon-q": {
+   "js": 0.1752,
+   "terms": {
+    "accountability": 0.0,
+    "atheist": 0.0697,
+    "community": 0.1113,
+    "evidence": 0.0693,
+    "grace": 0.3793,
+    "harm": 0.0307,
+    "heresy": 0.1075,
+    "heretic": 0.7583,
+    "love": 0.078,
+    "truth": 0.1475
+   }
+  },
+  "dan-mcclellan|the-antibot": {
+   "js": 0.1217,
+   "terms": {
+    "accountability": 0.0363,
+    "atheist": 0.1002,
+    "community": 0.0513,
+    "evidence": 0.1156,
+    "grace": 0.5572,
+    "harm": 0.0031,
+    "heresy": 0.1167,
+    "love": 0.0443,
+    "truth": 0.0703
+   }
+  },
+  "dan-mcclellan|the-omnist-rone": {
+   "js": 0.0955,
+   "terms": {
+    "accountability": 0.0785,
+    "atheist": 0.0578,
+    "community": 0.0231,
+    "evidence": 0.0006,
+    "grace": 0.2227,
+    "harm": 0.0509,
+    "heresy": 0.0994,
+    "heretic": 0.4084,
+    "love": 0.0016,
+    "truth": 0.0123
+   }
+  },
+  "darante-lamar|drcraigvideos": {
+   "js": 0.2107,
+   "terms": {
+    "accountability": 0.2813,
     "apostasy": 0.3077,
-    "community": 0.4013,
-    "evidence": 0.0023,
-    "grace": 0.4018,
-    "harm": 0.0313,
+    "atheist": 0.2196,
+    "community": 0.402,
+    "evidence": 0.0027,
+    "grace": 0.3858,
+    "harm": 0.0301,
     "heresy": 0.1894,
-    "heretic": 0.2024,
-    "love": 0.3145,
-    "truth": 0.0002
+    "heretic": 0.2209,
+    "humanist": 0.003,
+    "love": 0.3129,
+    "nihilism": 0.3835,
+    "truth": 0.0004
    }
   },
   "darante-lamar|genetically-modified-skeptic": {
-   "js": 0.0472,
+   "js": 0.0469,
    "terms": {
-    "accountability": 0.022,
+    "accountability": 0.0275,
     "apostasy": 0.0073,
-    "apostate": 0.0569,
-    "community": 0.1771,
+    "apostate": 0.0524,
+    "atheist": 0.025,
+    "community": 0.1715,
     "deconstruction": 0.0743,
-    "discernment": 0.056,
-    "evidence": 0.0022,
-    "grace": 0.0448,
-    "harm": 0.0123,
+    "deconversion": 0.0863,
+    "discernment": 0.0309,
+    "evidence": 0.0017,
+    "grace": 0.0341,
+    "harm": 0.0105,
     "heresy": 0.0014,
-    "heretic": 0.1305,
-    "love": 0.0208,
-    "truth": 0.0076
+    "heretic": 0.0905,
+    "humanist": 0.0054,
+    "love": 0.0207,
+    "superstition": 0.1494,
+    "truth": 0.0083
    }
   },
   "darante-lamar|jackie-hill-perry": {
-   "js": 0.1511,
+   "js": 0.1497,
    "terms": {
-    "community": 0.1241,
+    "community": 0.1245,
     "discernment": 0.0309,
     "do the work": 0.3269,
-    "evidence": 0.2691,
-    "grace": 0.0008,
-    "love": 0.1519,
-    "truth": 0.1542
+    "evidence": 0.2633,
+    "grace": 0.0007,
+    "love": 0.1518,
+    "truth": 0.1501
    }
   },
   "darante-lamar|jude-3-project": {
-   "js": 0.0657,
+   "js": 0.0647,
    "terms": {
-    "accountability": 0.0007,
-    "community": 0.1942,
-    "deconstruction": 0.0541,
-    "discernment": 0.1204,
+    "accountability": 0.0001,
+    "atheist": 0.0468,
+    "community": 0.194,
+    "deconstruction": 0.0414,
+    "discernment": 0.1033,
     "do the work": 0.0897,
-    "evidence": 0.1137,
-    "grace": 0.0025,
-    "harm": 0.0227,
+    "evidence": 0.1114,
+    "grace": 0.0021,
+    "harm": 0.0216,
     "heresy": 0.0468,
-    "heretic": 0.0296,
-    "love": 0.0897,
-    "truth": 0.0242
+    "heretic": 0.0455,
+    "humanist": 0.003,
+    "love": 0.0898,
+    "superstition": 0.1494,
+    "truth": 0.0249
    }
   },
   "darante-lamar|lil-bill": {
-   "js": 0.1598,
+   "js": 0.1609,
    "terms": {
     "clout": 0.5307,
-    "community": 0.1166,
-    "evidence": 0.0862,
-    "grace": 0.0627,
-    "harm": 0.1655,
+    "community": 0.117,
+    "evidence": 0.0898,
+    "grace": 0.0698,
+    "harm": 0.1948,
     "love": 0.018,
-    "truth": 0.1388
+    "nihilism": 0.1296,
+    "truth": 0.1372
    }
   },
   "darante-lamar|marc-coley": {
-   "js": 0.1343,
+   "js": 0.1307,
    "terms": {
-    "accountability": 0.3072,
-    "community": 0.0477,
+    "accountability": 0.291,
+    "community": 0.0474,
     "do the work": 0.0292,
-    "love": 0.0697,
-    "truth": 0.2178
+    "love": 0.0698,
+    "truth": 0.2159
    }
   },
   "darante-lamar|mike-winger": {
-   "js": 0.1509,
+   "js": 0.1608,
    "terms": {
-    "accountability": 0.0017,
+    "accountability": 0.0008,
     "apostasy": 0.1463,
-    "apostate": 0.3606,
+    "apostate": 0.3408,
+    "atheist": 0.0752,
     "clout": 0.0,
-    "community": 0.2821,
+    "community": 0.2827,
     "deconstruction": 0.2421,
-    "discernment": 0.1379,
+    "deconversion": 0.4347,
+    "discernment": 0.1339,
     "do the work": 0.3242,
-    "evidence": 0.0696,
-    "grace": 0.1239,
-    "harm": 0.0476,
-    "heresy": 0.183,
-    "heretic": 0.0016,
-    "love": 0.2387,
-    "truth": 0.1047
+    "evidence": 0.0673,
+    "grace": 0.1213,
+    "harm": 0.0468,
+    "heresy": 0.1837,
+    "heretic": 0.0003,
+    "love": 0.2385,
+    "superstition": 0.1494,
+    "truth": 0.1055
    }
   },
   "darante-lamar|mindshift": {
-   "js": 0.1707,
+   "js": 0.1828,
    "terms": {
-    "accountability": 0.0997,
+    "accountability": 0.1261,
     "apostasy": 0.3958,
-    "apostate": 0.1137,
-    "community": 0.212,
-    "deconstruction": 0.0346,
-    "discernment": 0.3962,
+    "apostate": 0.1221,
+    "atheist": 0.0161,
+    "community": 0.2126,
+    "deconstruction": 0.0326,
+    "deconversion": 0.0391,
+    "discernment": 0.3575,
     "do the work": 0.5296,
-    "evidence": 0.0477,
-    "grace": 0.0994,
-    "harm": 0.0925,
-    "heresy": 0.0233,
-    "heretic": 0.0769,
-    "love": 0.2306,
-    "truth": 0.0376
+    "evidence": 0.0469,
+    "grace": 0.0992,
+    "harm": 0.0938,
+    "heresy": 0.0334,
+    "heretic": 0.0198,
+    "humanist": 0.8932,
+    "love": 0.2299,
+    "nihilism": 0.0679,
+    "superstition": 0.1198,
+    "truth": 0.0383
    }
   },
   "darante-lamar|neverflamenevertilt": {
-   "js": 0.0686,
+   "js": 0.0611,
    "terms": {
-    "community": 0.1101,
-    "deconstruction": 0.0198,
-    "evidence": 0.0009,
-    "grace": 0.2191,
-    "harm": 0.0002,
-    "love": 0.1224,
-    "truth": 0.0076
+    "atheist": 0.125,
+    "community": 0.1317,
+    "deconstruction": 0.0454,
+    "deconversion": 0.0069,
+    "evidence": 0.0016,
+    "grace": 0.0831,
+    "harm": 0.0007,
+    "humanist": 0.003,
+    "love": 0.1239,
+    "superstition": 0.1494,
+    "truth": 0.0012
    }
   },
   "darante-lamar|paulogia": {
-   "js": 0.0959,
+   "js": 0.1013,
    "terms": {
-    "accountability": 0.0,
+    "accountability": 0.0137,
     "apostasy": 0.2082,
-    "apostate": 0.2442,
-    "community": 0.3081,
-    "deconstruction": 0.0802,
-    "do the work": 0.1658,
-    "evidence": 0.011,
-    "grace": 0.0487,
-    "harm": 0.0009,
-    "heresy": 0.0989,
-    "heretic": 0.0348,
-    "love": 0.0462,
+    "apostate": 0.2564,
+    "atheist": 0.0343,
+    "community": 0.3103,
+    "deconstruction": 0.0981,
+    "deconversion": 0.1259,
+    "do the work": 0.1758,
+    "evidence": 0.0072,
+    "grace": 0.055,
+    "harm": 0.0014,
+    "heresy": 0.1032,
+    "heretic": 0.0225,
+    "humanist": 0.003,
+    "love": 0.0454,
+    "nihilism": 0.2145,
+    "superstition": 0.1494,
     "truth": 0.0
    }
   },
   "darante-lamar|prophet-of-zod": {
-   "js": 0.1131,
+   "js": 0.1244,
    "terms": {
-    "accountability": 0.1449,
-    "community": 0.2714,
-    "deconstruction": 0.1196,
-    "evidence": 0.0013,
-    "grace": 0.1237,
-    "harm": 0.0327,
-    "love": 0.2064,
-    "truth": 0.005
+    "accountability": 0.2201,
+    "atheist": 0.0915,
+    "community": 0.272,
+    "deconstruction": 0.1337,
+    "deconversion": 0.135,
+    "evidence": 0.0016,
+    "grace": 0.114,
+    "harm": 0.0397,
+    "love": 0.2063,
+    "superstition": 0.1494,
+    "truth": 0.0053
    }
   },
   "darante-lamar|reasonable-faith-org": {
-   "js": 0.2009,
+   "js": 0.1897,
    "terms": {
-    "accountability": 0.1076,
+    "accountability": 0.091,
     "apostasy": 0.3958,
-    "apostate": 0.3971,
-    "community": 0.2498,
+    "apostate": 0.4116,
+    "atheist": 0.1286,
+    "community": 0.2485,
     "deconstruction": 0.1689,
+    "deconversion": 0.1998,
     "do the work": 0.3394,
     "evidence": 0.0,
-    "grace": 0.401,
-    "harm": 0.002,
-    "heresy": 0.1628,
-    "heretic": 0.1503,
-    "love": 0.2365,
-    "truth": 0.0003
+    "grace": 0.3923,
+    "harm": 0.0017,
+    "heresy": 0.1693,
+    "heretic": 0.1392,
+    "humanist": 0.003,
+    "love": 0.234,
+    "nihilism": 0.3003,
+    "truth": 0.0007
    }
   },
   "darante-lamar|shannon-q": {
-   "js": 0.0481,
+   "js": 0.0634,
    "terms": {
-    "accountability": 0.0538,
-    "apostate": 0.0248,
-    "community": 0.0821,
-    "deconstruction": 0.0188,
+    "accountability": 0.0556,
+    "apostate": 0.0447,
+    "atheist": 0.0051,
+    "community": 0.0824,
+    "deconstruction": 0.0333,
+    "deconversion": 0.0137,
     "discernment": 0.0139,
-    "evidence": 0.0003,
-    "grace": 0.0116,
-    "harm": 0.0225,
+    "evidence": 0.0001,
+    "grace": 0.015,
+    "harm": 0.0247,
     "heresy": 0.1607,
-    "heretic": 0.1707,
-    "love": 0.0023,
-    "truth": 0.0162
+    "heretic": 0.1559,
+    "humanist": 0.0079,
+    "love": 0.0022,
+    "nihilism": 0.3835,
+    "truth": 0.0157
    }
   },
   "darante-lamar|the-antibot": {
-   "js": 0.0721,
+   "js": 0.0607,
    "terms": {
-    "accountability": 0.0038,
-    "community": 0.1738,
-    "deconstruction": 0.11,
-    "discernment": 0.0875,
-    "do the work": 0.2174,
-    "evidence": 0.0002,
-    "grace": 0.0915,
-    "harm": 0.0,
+    "accountability": 0.002,
+    "atheist": 0.0003,
+    "community": 0.1571,
+    "deconstruction": 0.1103,
+    "deconversion": 0.0553,
+    "discernment": 0.1071,
+    "do the work": 0.191,
+    "evidence": 0.0046,
+    "grace": 0.0823,
+    "harm": 0.0014,
     "heresy": 0.0852,
-    "love": 0.0152,
-    "truth": 0.008
+    "humanist": 0.0398,
+    "love": 0.0138,
+    "truth": 0.0
    }
   },
   "darante-lamar|the-omnist-rone": {
-   "js": 0.071,
+   "js": 0.0745,
    "terms": {
-    "accountability": 0.0001,
-    "community": 0.2167,
-    "deconstruction": 0.0077,
-    "do the work": 0.1192,
-    "evidence": 0.0707,
-    "grace": 0.0017,
-    "harm": 0.0642,
-    "heresy": 0.1278,
-    "heretic": 0.006,
-    "love": 0.1478,
-    "truth": 0.0191
+    "accountability": 0.0022,
+    "atheist": 0.0092,
+    "community": 0.2188,
+    "deconstruction": 0.0037,
+    "deconversion": 0.1249,
+    "discernment": 0.1325,
+    "do the work": 0.1118,
+    "evidence": 0.0882,
+    "grace": 0.0016,
+    "harm": 0.0593,
+    "heresy": 0.1266,
+    "heretic": 0.0079,
+    "love": 0.1323,
+    "truth": 0.0238
    }
   },
   "drcraigvideos|genetically-modified-skeptic": {
-   "js": 0.1097,
+   "js": 0.0996,
    "terms": {
-    "accountability": 0.1909,
+    "accountability": 0.1471,
     "apostasy": 0.2293,
-    "community": 0.0636,
-    "evidence": 0.0,
-    "grace": 0.1967,
-    "harm": 0.0044,
-    "heresy": 0.2139,
-    "heretic": 0.009,
-    "love": 0.1841,
-    "truth": 0.0054
+    "atheist": 0.1021,
+    "community": 0.0674,
+    "evidence": 0.0001,
+    "grace": 0.2073,
+    "harm": 0.0051,
+    "heresy": 0.2032,
+    "heretic": 0.0318,
+    "humanist": 0.0138,
+    "love": 0.1831,
+    "truth": 0.0049
    }
   },
   "drcraigvideos|jackie-hill-perry": {
-   "js": 0.1937,
+   "js": 0.1885,
    "terms": {
     "community": 0.1016,
-    "evidence": 0.3159,
-    "grace": 0.3711,
-    "love": 0.0357,
-    "truth": 0.1444
+    "evidence": 0.313,
+    "grace": 0.3579,
+    "love": 0.0351,
+    "truth": 0.1351
    }
   },
   "drcraigvideos|jude-3-project": {
-   "js": 0.1323,
+   "js": 0.1077,
    "terms": {
-    "accountability": 0.3414,
-    "community": 0.054,
-    "evidence": 0.147,
-    "grace": 0.3488,
+    "accountability": 0.2901,
+    "atheist": 0.0691,
+    "community": 0.0544,
+    "evidence": 0.1469,
+    "grace": 0.3381,
     "harm": 0.0007,
     "heresy": 0.1189,
-    "heretic": 0.0816,
-    "love": 0.0783,
-    "truth": 0.0202
+    "heretic": 0.0708,
+    "humanist": 0.0,
+    "love": 0.0773,
+    "truth": 0.0188
    }
   },
   "drcraigvideos|lil-bill": {
-   "js": 0.2984,
+   "js": 0.275,
    "terms": {
     "community": 0.1083,
-    "evidence": 0.061,
+    "evidence": 0.0624,
     "grace": 0.6907,
-    "harm": 0.3237,
-    "love": 0.458,
-    "truth": 0.1484
+    "harm": 0.3576,
+    "love": 0.4563,
+    "nihilism": 0.0975,
+    "truth": 0.1522
    }
   },
   "drcraigvideos|marc-coley": {
-   "js": 0.6245,
+   "js": 0.6092,
    "terms": {
-    "accountability": 1.0,
+    "accountability": 0.9361,
     "community": 0.6591,
-    "love": 0.6095,
-    "truth": 0.2293
+    "love": 0.6076,
+    "truth": 0.2339
    }
   },
   "drcraigvideos|mike-winger": {
-   "js": 0.0953,
+   "js": 0.0804,
    "terms": {
-    "accountability": 0.3556,
+    "accountability": 0.2554,
     "apostasy": 0.0395,
+    "atheist": 0.0422,
     "community": 0.0185,
-    "evidence": 0.0967,
-    "grace": 0.0954,
-    "harm": 0.0018,
-    "heresy": 0.0057,
+    "evidence": 0.0959,
+    "grace": 0.0891,
+    "harm": 0.0019,
+    "heresy": 0.0063,
     "heretic": 0.2365,
-    "love": 0.0069,
-    "truth": 0.0964
+    "love": 0.0067,
+    "truth": 0.0927
    }
   },
   "drcraigvideos|mindshift": {
-   "js": 0.0581,
+   "js": 0.1401,
    "terms": {
-    "accountability": 0.0856,
+    "accountability": 0.0424,
     "apostasy": 0.0175,
+    "atheist": 0.1222,
     "community": 0.045,
-    "evidence": 0.0707,
-    "grace": 0.1188,
-    "harm": 0.017,
-    "heresy": 0.1528,
-    "heretic": 0.0327,
-    "love": 0.0086,
-    "truth": 0.0326
+    "evidence": 0.0714,
+    "grace": 0.1098,
+    "harm": 0.0186,
+    "heresy": 0.1626,
+    "heretic": 0.1136,
+    "humanist": 0.9195,
+    "love": 0.0084,
+    "nihilism": 0.1594,
+    "truth": 0.0305
    }
   },
   "drcraigvideos|neverflamenevertilt": {
-   "js": 0.0418,
+   "js": 0.0416,
    "terms": {
-    "community": 0.1143,
-    "evidence": 0.0003,
-    "grace": 0.0363,
-    "harm": 0.0371,
-    "love": 0.0527,
-    "truth": 0.0101
+    "atheist": 0.0155,
+    "community": 0.0956,
+    "evidence": 0.0002,
+    "grace": 0.1276,
+    "harm": 0.0397,
+    "humanist": 0.0,
+    "love": 0.051,
+    "truth": 0.0031
    }
   },
   "drcraigvideos|paulogia": {
-   "js": 0.0965,
+   "js": 0.0753,
    "terms": {
-    "accountability": 0.3113,
+    "accountability": 0.1826,
     "apostasy": 0.0145,
-    "community": 0.0116,
-    "evidence": 0.0234,
-    "grace": 0.1894,
-    "harm": 0.0429,
-    "heresy": 0.167,
-    "heretic": 0.0737,
-    "love": 0.1311,
-    "truth": 0.0001
+    "atheist": 0.086,
+    "community": 0.0113,
+    "evidence": 0.0187,
+    "grace": 0.167,
+    "harm": 0.0446,
+    "heresy": 0.1671,
+    "heretic": 0.1077,
+    "humanist": 0.0,
+    "love": 0.1313,
+    "nihilism": 0.047,
+    "truth": 0.0005
    }
   },
   "drcraigvideos|prophet-of-zod": {
-   "js": 0.0281,
+   "js": 0.0227,
    "terms": {
-    "accountability": 0.0547,
+    "accountability": 0.0069,
+    "atheist": 0.0313,
     "community": 0.0217,
-    "evidence": 0.0072,
+    "evidence": 0.0083,
     "grace": 0.0955,
-    "harm": 0.0,
-    "love": 0.0146,
-    "truth": 0.0032
+    "harm": 0.0007,
+    "love": 0.0142,
+    "truth": 0.0027
    }
   },
   "drcraigvideos|reasonable-faith-org": {
-   "js": 0.0206,
+   "js": 0.0183,
    "terms": {
-    "accountability": 0.0794,
+    "accountability": 0.0666,
     "apostasy": 0.0175,
-    "community": 0.0292,
+    "atheist": 0.0142,
+    "community": 0.0298,
     "evidence": 0.0022,
     "grace": 0.0,
     "harm": 0.0175,
-    "heresy": 0.0486,
-    "heretic": 0.0045,
-    "love": 0.0074,
+    "heresy": 0.0558,
+    "heretic": 0.0108,
+    "humanist": 0.0,
+    "love": 0.0076,
+    "nihilism": 0.0163,
     "truth": 0.0
    }
   },
   "drcraigvideos|shannon-q": {
-   "js": 0.2593,
+   "js": 0.2068,
    "terms": {
-    "accountability": 0.5676,
+    "accountability": 0.5353,
+    "atheist": 0.1615,
     "community": 0.1446,
-    "evidence": 0.0042,
+    "evidence": 0.004,
     "grace": 0.5234,
-    "harm": 0.1051,
+    "harm": 0.1073,
     "heresy": 0.0708,
     "heretic": 0.6295,
-    "love": 0.2685,
-    "truth": 0.0198
+    "humanist": 0.0172,
+    "love": 0.2671,
+    "nihilism": 0.0,
+    "truth": 0.0213
    }
   },
   "drcraigvideos|the-antibot": {
-   "js": 0.1852,
+   "js": 0.1673,
    "terms": {
-    "accountability": 0.376,
-    "community": 0.0656,
-    "evidence": 0.0039,
-    "grace": 0.75,
-    "harm": 0.0324,
+    "accountability": 0.3238,
+    "atheist": 0.2045,
+    "community": 0.0767,
+    "evidence": 0.0003,
+    "grace": 0.717,
+    "harm": 0.0443,
     "heresy": 0.0472,
-    "love": 0.2011,
-    "truth": 0.0058
+    "humanist": 0.0538,
+    "love": 0.2048,
+    "truth": 0.0005
    }
   },
   "drcraigvideos|the-omnist-rone": {
-   "js": 0.1152,
+   "js": 0.128,
    "terms": {
-    "accountability": 0.3227,
-    "community": 0.0428,
-    "evidence": 0.0979,
-    "grace": 0.3579,
-    "harm": 0.0061,
-    "heresy": 0.0136,
-    "heretic": 0.1422,
-    "love": 0.0377,
-    "truth": 0.0155
+    "accountability": 0.2393,
+    "atheist": 0.1437,
+    "community": 0.0421,
+    "evidence": 0.1204,
+    "grace": 0.3439,
+    "harm": 0.0051,
+    "heresy": 0.0188,
+    "heretic": 0.3031,
+    "love": 0.0457,
+    "truth": 0.0177
    }
   },
   "genetically-modified-skeptic|jackie-hill-perry": {
-   "js": 0.0861,
+   "js": 0.0809,
    "terms": {
-    "community": 0.0053,
-    "discernment": 0.0039,
-    "evidence": 0.3144,
-    "grace": 0.0337,
-    "love": 0.0627,
-    "truth": 0.0963
+    "community": 0.0042,
+    "discernment": 0.0,
+    "evidence": 0.3027,
+    "grace": 0.0252,
+    "love": 0.0628,
+    "truth": 0.0906
    }
   },
   "genetically-modified-skeptic|jude-3-project": {
-   "js": 0.0305,
+   "js": 0.0226,
    "terms": {
     "accountability": 0.0307,
-    "community": 0.0005,
-    "deconstruction": 0.0017,
-    "discernment": 0.013,
-    "evidence": 0.146,
-    "grace": 0.0265,
-    "harm": 0.0016,
-    "heresy": 0.0481,
-    "heretic": 0.0374,
-    "love": 0.0249,
-    "truth": 0.0048
+    "atheist": 0.0035,
+    "community": 0.0008,
+    "deconstruction": 0.005,
+    "discernment": 0.0223,
+    "evidence": 0.1395,
+    "grace": 0.0195,
+    "harm": 0.002,
+    "heresy": 0.0412,
+    "heretic": 0.008,
+    "humanist": 0.0138,
+    "love": 0.025,
+    "superstition": 0.0,
+    "truth": 0.0045
    }
   },
   "genetically-modified-skeptic|lil-bill": {
-   "js": 0.1349,
+   "js": 0.1386,
    "terms": {
-    "community": 0.0071,
-    "evidence": 0.0617,
-    "grace": 0.1993,
-    "harm": 0.2591,
-    "love": 0.0761,
-    "truth": 0.2059
+    "community": 0.0058,
+    "evidence": 0.0675,
+    "grace": 0.1891,
+    "harm": 0.2859,
+    "love": 0.0759,
+    "truth": 0.2074
    }
   },
   "genetically-modified-skeptic|marc-coley": {
-   "js": 0.3242,
+   "js": 0.3225,
    "terms": {
     "accountability": 0.4591,
-    "community": 0.3819,
-    "love": 0.1595,
-    "truth": 0.2962
+    "community": 0.3735,
+    "love": 0.1593,
+    "truth": 0.298
    }
   },
   "genetically-modified-skeptic|mike-winger": {
-   "js": 0.1096,
+   "js": 0.094,
    "terms": {
-    "accountability": 0.0359,
+    "accountability": 0.0189,
     "apostasy": 0.0904,
-    "apostate": 0.5293,
-    "community": 0.0154,
+    "apostate": 0.4861,
+    "atheist": 0.0139,
+    "community": 0.0174,
     "deconstruction": 0.0555,
-    "discernment": 0.0194,
-    "evidence": 0.0958,
-    "grace": 0.0207,
-    "harm": 0.0118,
-    "heresy": 0.21,
-    "heretic": 0.1589,
+    "deconversion": 0.1692,
+    "discernment": 0.0382,
+    "evidence": 0.0898,
+    "grace": 0.028,
+    "harm": 0.0132,
+    "heresy": 0.2018,
+    "heretic": 0.1011,
     "love": 0.1247,
-    "truth": 0.0573
+    "superstition": 0.0,
+    "truth": 0.056
    }
   },
   "genetically-modified-skeptic|mindshift": {
-   "js": 0.0808,
+   "js": 0.1156,
    "terms": {
-    "accountability": 0.0292,
+    "accountability": 0.0378,
     "apostasy": 0.3113,
-    "apostate": 0.2358,
-    "community": 0.0019,
-    "deconstruction": 0.0078,
-    "discernment": 0.1717,
-    "evidence": 0.0699,
-    "grace": 0.0113,
-    "harm": 0.0385,
-    "heresy": 0.0349,
-    "heretic": 0.0076,
-    "love": 0.1185,
-    "truth": 0.0116
+    "apostate": 0.2366,
+    "atheist": 0.001,
+    "community": 0.0026,
+    "deconstruction": 0.0088,
+    "deconversion": 0.0096,
+    "discernment": 0.1923,
+    "evidence": 0.0661,
+    "grace": 0.0177,
+    "harm": 0.0427,
+    "heresy": 0.0478,
+    "heretic": 0.0264,
+    "humanist": 0.8296,
+    "love": 0.1182,
+    "superstition": 0.0061,
+    "truth": 0.0111
    }
   },
   "genetically-modified-skeptic|neverflamenevertilt": {
-   "js": 0.0268,
+   "js": 0.0176,
    "terms": {
-    "community": 0.0089,
-    "deconstruction": 0.0178,
-    "evidence": 0.0003,
-    "grace": 0.0705,
-    "harm": 0.016,
-    "love": 0.0438,
-    "truth": 0.0302
+    "atheist": 0.0398,
+    "community": 0.003,
+    "deconstruction": 0.0037,
+    "deconversion": 0.045,
+    "evidence": 0.0,
+    "grace": 0.0112,
+    "harm": 0.0165,
+    "humanist": 0.0138,
+    "love": 0.0449,
+    "superstition": 0.0,
+    "truth": 0.0157
    }
   },
   "genetically-modified-skeptic|paulogia": {
-   "js": 0.0704,
+   "js": 0.0528,
    "terms": {
-    "accountability": 0.0207,
+    "accountability": 0.0024,
     "apostasy": 0.1418,
-    "apostate": 0.4519,
-    "community": 0.0233,
-    "deconstruction": 0.0001,
-    "evidence": 0.0229,
-    "grace": 0.0001,
-    "harm": 0.0199,
-    "heresy": 0.1202,
-    "heretic": 0.032,
-    "love": 0.0051,
-    "truth": 0.0071
+    "apostate": 0.4528,
+    "atheist": 0.0007,
+    "community": 0.0262,
+    "deconstruction": 0.0018,
+    "deconversion": 0.0041,
+    "evidence": 0.016,
+    "grace": 0.0026,
+    "harm": 0.0197,
+    "heresy": 0.1267,
+    "heretic": 0.0235,
+    "humanist": 0.0138,
+    "love": 0.0049,
+    "superstition": 0.0,
+    "truth": 0.0084
    }
   },
   "genetically-modified-skeptic|prophet-of-zod": {
-   "js": 0.0261,
+   "js": 0.0266,
    "terms": {
-    "accountability": 0.057,
-    "community": 0.0126,
-    "deconstruction": 0.0058,
-    "evidence": 0.0069,
-    "grace": 0.0207,
-    "harm": 0.005,
-    "love": 0.1007,
+    "accountability": 0.0998,
+    "atheist": 0.0216,
+    "community": 0.0144,
+    "deconstruction": 0.0095,
+    "deconversion": 0.0059,
+    "evidence": 0.0065,
+    "grace": 0.0245,
+    "harm": 0.0095,
+    "love": 0.1008,
+    "superstition": 0.0,
     "truth": 0.0003
    }
   },
   "genetically-modified-skeptic|reasonable-faith-org": {
-   "js": 0.1234,
+   "js": 0.1047,
    "terms": {
-    "accountability": 0.0337,
+    "accountability": 0.0192,
     "apostasy": 0.3113,
-    "apostate": 0.5845,
-    "community": 0.0077,
+    "apostate": 0.5857,
+    "atheist": 0.0419,
+    "community": 0.0087,
     "deconstruction": 0.0213,
-    "evidence": 0.002,
-    "grace": 0.1961,
-    "harm": 0.0043,
-    "heresy": 0.1916,
-    "heretic": 0.0008,
-    "love": 0.123,
-    "truth": 0.005
+    "deconversion": 0.0263,
+    "evidence": 0.0013,
+    "grace": 0.2124,
+    "harm": 0.0037,
+    "heresy": 0.194,
+    "heretic": 0.0057,
+    "humanist": 0.0138,
+    "love": 0.1213,
+    "truth": 0.0042
    }
   },
   "genetically-modified-skeptic|shannon-q": {
-   "js": 0.1045,
+   "js": 0.0757,
    "terms": {
-    "accountability": 0.1412,
-    "apostate": 0.043,
-    "community": 0.0198,
-    "deconstruction": 0.0189,
-    "discernment": 0.1211,
-    "evidence": 0.004,
-    "grace": 0.0996,
-    "harm": 0.0674,
-    "heresy": 0.168,
-    "heretic": 0.516,
+    "accountability": 0.157,
+    "apostate": 0.0342,
+    "atheist": 0.0075,
+    "community": 0.0177,
+    "deconstruction": 0.0084,
+    "deconversion": 0.032,
+    "discernment": 0.0836,
+    "evidence": 0.0028,
+    "grace": 0.092,
+    "harm": 0.0667,
+    "heresy": 0.1556,
+    "heretic": 0.4216,
+    "humanist": 0.0003,
     "love": 0.0094,
-    "truth": 0.0456
+    "truth": 0.0464
    }
   },
   "genetically-modified-skeptic|the-antibot": {
-   "js": 0.0406,
+   "js": 0.0336,
    "terms": {
-    "accountability": 0.0439,
-    "community": 0.0,
+    "accountability": 0.044,
+    "atheist": 0.0197,
+    "community": 0.0004,
     "deconstruction": 0.0038,
-    "discernment": 0.0037,
-    "evidence": 0.0038,
-    "grace": 0.2415,
-    "harm": 0.013,
-    "heresy": 0.0957,
-    "love": 0.0004,
-    "truth": 0.0
+    "deconversion": 0.0036,
+    "discernment": 0.0241,
+    "evidence": 0.0007,
+    "grace": 0.207,
+    "harm": 0.0196,
+    "heresy": 0.0865,
+    "humanist": 0.0182,
+    "love": 0.0007,
+    "truth": 0.0086
    }
   },
   "genetically-modified-skeptic|the-omnist-rone": {
-   "js": 0.0598,
+   "js": 0.0519,
    "terms": {
-    "accountability": 0.0243,
-    "community": 0.0024,
-    "deconstruction": 0.1275,
-    "evidence": 0.097,
-    "grace": 0.0294,
-    "harm": 0.0208,
-    "heresy": 0.1514,
-    "heretic": 0.0822,
-    "love": 0.06,
-    "truth": 0.0026
+    "accountability": 0.0142,
+    "atheist": 0.0039,
+    "community": 0.0035,
+    "deconstruction": 0.1097,
+    "deconversion": 0.0039,
+    "discernment": 0.0374,
+    "evidence": 0.1136,
+    "grace": 0.0211,
+    "harm": 0.0202,
+    "heresy": 0.1438,
+    "heretic": 0.1487,
+    "love": 0.0501,
+    "truth": 0.004
    }
   },
   "jackie-hill-perry|jude-3-project": {
-   "js": 0.0334,
+   "js": 0.0315,
    "terms": {
-    "community": 0.0089,
-    "discernment": 0.0308,
+    "community": 0.0087,
+    "discernment": 0.0223,
     "do the work": 0.0849,
-    "evidence": 0.0403,
-    "grace": 0.0005,
-    "love": 0.0089,
-    "truth": 0.0596
+    "evidence": 0.0392,
+    "grace": 0.0004,
+    "love": 0.0088,
+    "truth": 0.0559
    }
   },
   "jackie-hill-perry|lil-bill": {
-   "js": 0.2929,
+   "js": 0.2924,
    "terms": {
     "community": 0.0001,
     "evidence": 0.5943,
-    "grace": 0.0768,
+    "grace": 0.0834,
     "love": 0.2637,
-    "truth": 0.5296
+    "truth": 0.5205
    }
   },
   "jackie-hill-perry|marc-coley": {
-   "js": 0.4657,
+   "js": 0.4632,
    "terms": {
     "community": 0.3069,
     "do the work": 0.5138,
     "love": 0.3916,
-    "truth": 0.6503
+    "truth": 0.6406
    }
   },
   "jackie-hill-perry|mike-winger": {
-   "js": 0.0554,
+   "js": 0.0547,
    "terms": {
     "community": 0.0382,
-    "discernment": 0.0404,
+    "discernment": 0.0382,
     "do the work": 0.0,
-    "evidence": 0.0747,
+    "evidence": 0.0738,
     "false teacher": 0.1672,
-    "grace": 0.1054,
-    "love": 0.0115,
-    "truth": 0.0056
+    "grace": 0.1044,
+    "love": 0.0114,
+    "truth": 0.0046
    }
   },
   "jackie-hill-perry|mindshift": {
-   "js": 0.0655,
+   "js": 0.0611,
    "terms": {
     "community": 0.0135,
-    "discernment": 0.2229,
+    "discernment": 0.1923,
     "do the work": 0.0519,
-    "evidence": 0.1005,
+    "evidence": 0.098,
     "false teacher": 0.0,
-    "grace": 0.0828,
-    "love": 0.0095,
-    "truth": 0.0427
+    "grace": 0.0838,
+    "love": 0.0094,
+    "truth": 0.0398
    }
   },
   "jackie-hill-perry|neverflamenevertilt": {
-   "js": 0.1439,
+   "js": 0.1095,
    "terms": {
-    "community": 0.0005,
-    "evidence": 0.2976,
-    "grace": 0.1951,
-    "love": 0.0018,
-    "truth": 0.2243
+    "community": 0.0001,
+    "evidence": 0.3007,
+    "grace": 0.069,
+    "love": 0.0016,
+    "truth": 0.1762
    }
   },
   "jackie-hill-perry|paulogia": {
-   "js": 0.0807,
+   "js": 0.0828,
    "terms": {
-    "community": 0.0498,
-    "do the work": 0.0333,
-    "evidence": 0.1794,
-    "grace": 0.0371,
-    "love": 0.0324,
-    "truth": 0.1521
+    "community": 0.0506,
+    "do the work": 0.0289,
+    "evidence": 0.1899,
+    "grace": 0.0435,
+    "love": 0.0331,
+    "truth": 0.1507
    }
   },
   "jackie-hill-perry|prophet-of-zod": {
-   "js": 0.0973,
+   "js": 0.0931,
    "terms": {
     "community": 0.0338,
-    "evidence": 0.2363,
-    "grace": 0.1052,
+    "evidence": 0.228,
+    "grace": 0.0976,
     "love": 0.0048,
-    "truth": 0.1063
+    "truth": 0.1015
    }
   },
   "jackie-hill-perry|reasonable-faith-org": {
-   "js": 0.1367,
+   "js": 0.1332,
    "terms": {
-    "community": 0.0255,
+    "community": 0.0249,
     "do the work": 0.0002,
-    "evidence": 0.271,
-    "grace": 0.3703,
-    "love": 0.0109,
-    "truth": 0.1422
+    "evidence": 0.2682,
+    "grace": 0.3642,
+    "love": 0.0103,
+    "truth": 0.1316
    }
   },
   "jackie-hill-perry|shannon-q": {
-   "js": 0.1234,
+   "js": 0.1226,
    "terms": {
     "community": 0.0047,
     "discernment": 0.0836,
-    "evidence": 0.2543,
-    "grace": 0.0185,
+    "evidence": 0.2532,
+    "grace": 0.022,
     "love": 0.1187,
-    "truth": 0.2606
+    "truth": 0.2535
    }
   },
   "jackie-hill-perry|the-antibot": {
-   "js": 0.0809,
+   "js": 0.1004,
    "terms": {
-    "community": 0.0047,
-    "discernment": 0.0151,
-    "do the work": 0.0144,
-    "evidence": 0.256,
-    "grace": 0.1077,
-    "love": 0.0734,
-    "truth": 0.0949
+    "community": 0.0021,
+    "discernment": 0.0241,
+    "do the work": 0.0229,
+    "evidence": 0.3294,
+    "grace": 0.0967,
+    "love": 0.0765,
+    "truth": 0.1514
    }
   },
   "jackie-hill-perry|the-omnist-rone": {
-   "js": 0.0362,
+   "js": 0.0332,
    "terms": {
-    "community": 0.0148,
-    "do the work": 0.0604,
-    "evidence": 0.0736,
+    "community": 0.0153,
+    "discernment": 0.0374,
+    "do the work": 0.066,
+    "evidence": 0.0551,
     "grace": 0.0002,
-    "love": 0.0,
-    "truth": 0.0683
+    "love": 0.0007,
+    "truth": 0.0577
    }
   },
   "jude-3-project|lil-bill": {
-   "js": 0.2026,
+   "js": 0.2096,
    "terms": {
-    "community": 0.0112,
-    "evidence": 0.3702,
-    "grace": 0.0882,
-    "harm": 0.2971,
-    "love": 0.182,
+    "community": 0.011,
+    "evidence": 0.3732,
+    "grace": 0.094,
+    "harm": 0.33,
+    "love": 0.1822,
     "truth": 0.2672
    }
   },
   "jude-3-project|marc-coley": {
-   "js": 0.3118,
+   "js": 0.3117,
    "terms": {
     "accountability": 0.2824,
-    "community": 0.405,
+    "community": 0.404,
     "do the work": 0.2113,
-    "love": 0.2948,
+    "love": 0.2951,
     "truth": 0.3657
    }
   },
   "jude-3-project|mike-winger": {
-   "js": 0.0568,
+   "js": 0.0515,
    "terms": {
-    "accountability": 0.0002,
-    "community": 0.0105,
-    "deconstruction": 0.0754,
-    "discernment": 0.0007,
+    "accountability": 0.0015,
+    "atheist": 0.0035,
+    "community": 0.0107,
+    "deconstruction": 0.0916,
+    "discernment": 0.0022,
     "do the work": 0.0834,
-    "evidence": 0.0058,
+    "evidence": 0.0059,
     "false teaching": 0.2124,
-    "grace": 0.0926,
-    "harm": 0.0047,
-    "heresy": 0.139,
-    "heretic": 0.0445,
-    "love": 0.04,
-    "truth": 0.0295
+    "grace": 0.0928,
+    "harm": 0.0049,
+    "heresy": 0.1409,
+    "heretic": 0.0532,
+    "love": 0.0399,
+    "superstition": 0.0,
+    "truth": 0.0291
    }
   },
   "jude-3-project|mindshift": {
-   "js": 0.0652,
+   "js": 0.113,
    "terms": {
-    "accountability": 0.1169,
+    "accountability": 0.1326,
+    "atheist": 0.0082,
     "community": 0.0005,
-    "deconstruction": 0.0023,
-    "discernment": 0.0938,
+    "deconstruction": 0.0005,
+    "discernment": 0.0879,
     "do the work": 0.2274,
-    "evidence": 0.0149,
+    "evidence": 0.0146,
     "false teaching": 0.152,
-    "grace": 0.0714,
-    "harm": 0.0246,
-    "heresy": 0.0945,
-    "heretic": 0.0115,
-    "love": 0.0364,
+    "grace": 0.0734,
+    "harm": 0.0265,
+    "heresy": 0.1152,
+    "heretic": 0.0054,
+    "humanist": 0.9195,
+    "love": 0.0361,
+    "superstition": 0.0061,
     "truth": 0.0015
    }
   },
   "jude-3-project|neverflamenevertilt": {
-   "js": 0.0604,
+   "js": 0.0294,
    "terms": {
-    "community": 0.0134,
-    "deconstruction": 0.0086,
-    "evidence": 0.1338,
-    "grace": 0.178,
-    "harm": 0.0276,
-    "love": 0.0027,
-    "truth": 0.0584
+    "atheist": 0.0199,
+    "community": 0.0069,
+    "deconstruction": 0.0001,
+    "evidence": 0.138,
+    "grace": 0.0595,
+    "harm": 0.0299,
+    "humanist": 0.0,
+    "love": 0.003,
+    "superstition": 0.0,
+    "truth": 0.0369
    }
   },
   "jude-3-project|paulogia": {
-   "js": 0.0344,
+   "js": 0.031,
    "terms": {
-    "accountability": 0.001,
-    "community": 0.0173,
-    "deconstruction": 0.0027,
-    "do the work": 0.0127,
-    "evidence": 0.0554,
-    "grace": 0.0295,
-    "harm": 0.0327,
-    "heresy": 0.1956,
-    "heretic": 0.0002,
-    "love": 0.0075,
-    "truth": 0.0233
+    "accountability": 0.016,
+    "atheist": 0.001,
+    "community": 0.018,
+    "deconstruction": 0.0127,
+    "do the work": 0.0157,
+    "evidence": 0.0631,
+    "grace": 0.036,
+    "harm": 0.0341,
+    "heresy": 0.2,
+    "heretic": 0.0041,
+    "humanist": 0.0,
+    "love": 0.0079,
+    "superstition": 0.0,
+    "truth": 0.0252
    }
   },
   "jude-3-project|prophet-of-zod": {
-   "js": 0.0507,
+   "js": 0.0483,
    "terms": {
-    "accountability": 0.165,
-    "community": 0.0082,
-    "deconstruction": 0.0137,
-    "evidence": 0.0913,
-    "grace": 0.0924,
-    "harm": 0.0009,
-    "love": 0.0265,
+    "accountability": 0.2282,
+    "atheist": 0.0078,
+    "community": 0.0084,
+    "deconstruction": 0.028,
+    "evidence": 0.0875,
+    "grace": 0.0864,
+    "harm": 0.0028,
+    "love": 0.0264,
+    "superstition": 0.0,
     "truth": 0.0073
    }
   },
   "jude-3-project|reasonable-faith-org": {
-   "js": 0.0923,
+   "js": 0.0771,
    "terms": {
-    "accountability": 0.1253,
-    "community": 0.0044,
-    "deconstruction": 0.0346,
+    "accountability": 0.0966,
+    "atheist": 0.0215,
+    "community": 0.0042,
+    "deconstruction": 0.0463,
     "do the work": 0.0922,
     "evidence": 0.1149,
-    "grace": 0.3481,
+    "grace": 0.3442,
     "harm": 0.0112,
-    "heresy": 0.1772,
-    "heretic": 0.0488,
-    "love": 0.039,
-    "truth": 0.0194
+    "heresy": 0.1892,
+    "heretic": 0.027,
+    "humanist": 0.0,
+    "love": 0.0379,
+    "truth": 0.0174
    }
   },
   "jude-3-project|shannon-q": {
-   "js": 0.0906,
+   "js": 0.0799,
    "terms": {
-    "accountability": 0.0422,
-    "community": 0.0263,
-    "deconstruction": 0.0094,
-    "discernment": 0.2063,
-    "evidence": 0.1035,
-    "grace": 0.0246,
-    "harm": 0.089,
+    "accountability": 0.0513,
+    "atheist": 0.0211,
+    "community": 0.026,
+    "deconstruction": 0.0005,
+    "discernment": 0.1845,
+    "evidence": 0.1044,
+    "grace": 0.028,
+    "harm": 0.0911,
     "heresy": 0.0411,
-    "heretic": 0.3113,
-    "love": 0.0642,
+    "heretic": 0.3304,
+    "humanist": 0.0172,
+    "love": 0.0643,
     "truth": 0.079
    }
   },
   "jude-3-project|the-antibot": {
-   "js": 0.0318,
+   "js": 0.0395,
    "terms": {
     "accountability": 0.0012,
-    "community": 0.0007,
-    "deconstruction": 0.0104,
-    "discernment": 0.0028,
-    "do the work": 0.0308,
-    "evidence": 0.1046,
-    "grace": 0.1205,
-    "harm": 0.0236,
+    "atheist": 0.0395,
+    "community": 0.0023,
+    "deconstruction": 0.0175,
+    "discernment": 0.0,
+    "do the work": 0.0208,
+    "evidence": 0.1591,
+    "grace": 0.1079,
+    "harm": 0.0339,
     "heresy": 0.0184,
-    "love": 0.0319,
-    "truth": 0.0044
+    "humanist": 0.0538,
+    "love": 0.0341,
+    "truth": 0.0255
    }
   },
   "jude-3-project|the-omnist-rone": {
-   "js": 0.0217,
+   "js": 0.0235,
    "terms": {
-    "accountability": 0.0004,
-    "community": 0.0008,
-    "deconstruction": 0.1011,
-    "do the work": 0.0023,
-    "evidence": 0.0055,
-    "grace": 0.0001,
-    "harm": 0.0109,
-    "heresy": 0.1005,
-    "heretic": 0.009,
-    "love": 0.0079,
-    "truth": 0.0003
+    "accountability": 0.0032,
+    "atheist": 0.0147,
+    "community": 0.0009,
+    "deconstruction": 0.0692,
+    "discernment": 0.002,
+    "do the work": 0.0013,
+    "evidence": 0.0015,
+    "grace": 0.0,
+    "harm": 0.0096,
+    "heresy": 0.1086,
+    "heretic": 0.0899,
+    "love": 0.0044,
+    "truth": 0.0
    }
   },
   "lil-bill|marc-coley": {
@@ -3783,729 +4222,850 @@
    }
   },
   "lil-bill|mike-winger": {
-   "js": 0.3399,
+   "js": 0.3468,
    "terms": {
     "clout": 0.5307,
     "community": 0.0426,
-    "evidence": 0.293,
-    "grace": 0.3306,
-    "harm": 0.367,
-    "love": 0.3699,
-    "truth": 0.4458
+    "evidence": 0.2946,
+    "grace": 0.3416,
+    "harm": 0.4041,
+    "love": 0.3697,
+    "truth": 0.4446
    }
   },
   "lil-bill|mindshift": {
-   "js": 0.2812,
+   "js": 0.2513,
    "terms": {
     "community": 0.0162,
-    "evidence": 0.2492,
-    "grace": 0.2932,
-    "harm": 0.4641,
-    "love": 0.3601,
-    "truth": 0.3044
+    "evidence": 0.2532,
+    "grace": 0.3069,
+    "harm": 0.5091,
+    "love": 0.3594,
+    "nihilism": 0.0107,
+    "truth": 0.3039
    }
   },
   "lil-bill|neverflamenevertilt": {
-   "js": 0.1662,
+   "js": 0.1443,
    "terms": {
-    "community": 0.0001,
-    "evidence": 0.0702,
-    "grace": 0.4638,
-    "harm": 0.1537,
-    "love": 0.2257,
-    "truth": 0.0839
+    "community": 0.0005,
+    "evidence": 0.0685,
+    "grace": 0.2805,
+    "harm": 0.1742,
+    "love": 0.2278,
+    "truth": 0.1141
    }
   },
   "lil-bill|paulogia": {
-   "js": 0.1364,
+   "js": 0.1233,
    "terms": {
-    "community": 0.0548,
-    "evidence": 0.1544,
-    "grace": 0.2067,
-    "harm": 0.1431,
-    "love": 0.1188,
-    "truth": 0.1408
+    "community": 0.0556,
+    "evidence": 0.1447,
+    "grace": 0.2308,
+    "harm": 0.165,
+    "love": 0.1175,
+    "nihilism": 0.0129,
+    "truth": 0.1366
    }
   },
   "lil-bill|prophet-of-zod": {
-   "js": 0.2211,
+   "js": 0.2317,
    "terms": {
     "community": 0.038,
-    "evidence": 0.1077,
+    "evidence": 0.1137,
     "grace": 0.3303,
-    "harm": 0.3276,
+    "harm": 0.3852,
     "love": 0.331,
     "truth": 0.1922
    }
   },
   "lil-bill|reasonable-faith-org": {
-   "js": 0.2539,
+   "js": 0.23,
    "terms": {
-    "community": 0.0292,
-    "evidence": 0.0851,
-    "grace": 0.6898,
-    "harm": 0.2013,
-    "love": 0.3672,
-    "truth": 0.1506
+    "community": 0.0285,
+    "evidence": 0.0867,
+    "grace": 0.6983,
+    "harm": 0.2299,
+    "love": 0.3643,
+    "nihilism": 0.0461,
+    "truth": 0.156
    }
   },
   "lil-bill|shannon-q": {
-   "js": 0.0477,
+   "js": 0.0573,
    "terms": {
     "community": 0.0032,
-    "evidence": 0.0955,
+    "evidence": 0.0962,
     "grace": 0.0218,
-    "harm": 0.0698,
+    "harm": 0.0866,
     "love": 0.0328,
+    "nihilism": 0.0975,
     "truth": 0.0629
    }
   },
   "lil-bill|the-antibot": {
-   "js": 0.0902,
+   "js": 0.0704,
    "terms": {
-    "community": 0.0064,
-    "evidence": 0.0944,
-    "grace": 0.0039,
-    "harm": 0.1631,
-    "love": 0.0652,
-    "truth": 0.208
+    "community": 0.0033,
+    "evidence": 0.0547,
+    "grace": 0.0007,
+    "harm": 0.1655,
+    "love": 0.0624,
+    "truth": 0.1359
    }
   },
   "lil-bill|the-omnist-rone": {
-   "js": 0.2185,
+   "js": 0.2299,
    "terms": {
-    "community": 0.0177,
-    "evidence": 0.295,
-    "grace": 0.0834,
-    "harm": 0.4057,
-    "love": 0.2585,
-    "truth": 0.2508
+    "community": 0.0182,
+    "evidence": 0.3334,
+    "grace": 0.0908,
+    "harm": 0.4348,
+    "love": 0.2387,
+    "truth": 0.2637
    }
   },
   "marc-coley|mike-winger": {
-   "js": 0.4743,
+   "js": 0.4835,
    "terms": {
-    "accountability": 0.2698,
+    "accountability": 0.3174,
     "community": 0.5178,
     "do the work": 0.5106,
-    "love": 0.5122,
-    "truth": 0.561
+    "love": 0.5121,
+    "truth": 0.5597
    }
   },
   "marc-coley|mindshift": {
-   "js": 0.5478,
+   "js": 0.5535,
    "terms": {
-    "accountability": 0.6628,
+    "accountability": 0.6923,
     "community": 0.4286,
     "do the work": 0.7394,
-    "love": 0.5013,
-    "truth": 0.4071
+    "love": 0.5006,
+    "truth": 0.4065
    }
   },
   "marc-coley|neverflamenevertilt": {
-   "js": 0.2612,
+   "js": 0.2851,
    "terms": {
-    "community": 0.286,
-    "love": 0.3472,
-    "truth": 0.1503
+    "community": 0.3175,
+    "love": 0.3497,
+    "truth": 0.188
    }
   },
   "marc-coley|paulogia": {
-   "js": 0.3227,
+   "js": 0.3432,
    "terms": {
-    "accountability": 0.3113,
-    "community": 0.5497,
-    "do the work": 0.3159,
-    "love": 0.2162,
-    "truth": 0.2202
+    "accountability": 0.4059,
+    "community": 0.5516,
+    "do the work": 0.3288,
+    "love": 0.2146,
+    "truth": 0.2153
    }
   },
   "marc-coley|prophet-of-zod": {
-   "js": 0.5008,
+   "js": 0.5258,
    "terms": {
-    "accountability": 0.7493,
+    "accountability": 0.8493,
     "community": 0.5045,
     "love": 0.4686,
     "truth": 0.2806
    }
   },
   "marc-coley|reasonable-faith-org": {
-   "js": 0.4851,
+   "js": 0.474,
    "terms": {
-    "accountability": 0.6788,
-    "community": 0.4773,
+    "accountability": 0.6224,
+    "community": 0.475,
     "do the work": 0.5283,
-    "love": 0.5092,
-    "truth": 0.232
+    "love": 0.506,
+    "truth": 0.2383
    }
   },
   "marc-coley|shannon-q": {
-   "js": 0.1472,
+   "js": 0.1441,
    "terms": {
-    "accountability": 0.1282,
+    "accountability": 0.1155,
     "community": 0.2423,
     "love": 0.0954,
     "truth": 0.123
    }
   },
   "marc-coley|the-antibot": {
-   "js": 0.2909,
+   "js": 0.2617,
    "terms": {
-    "accountability": 0.2524,
-    "community": 0.3774,
-    "do the work": 0.3817,
-    "love": 0.1443,
-    "truth": 0.2986
+    "accountability": 0.2521,
+    "community": 0.3537,
+    "do the work": 0.3483,
+    "love": 0.1402,
+    "truth": 0.2144
    }
   },
   "marc-coley|the-omnist-rone": {
-   "js": 0.3442,
+   "js": 0.3478,
    "terms": {
-    "accountability": 0.3001,
-    "community": 0.4348,
-    "do the work": 0.2533,
-    "love": 0.3856,
-    "truth": 0.3473
+    "accountability": 0.335,
+    "community": 0.4368,
+    "do the work": 0.2429,
+    "love": 0.3625,
+    "truth": 0.3617
    }
   },
   "mike-winger|mindshift": {
-   "js": 0.0772,
+   "js": 0.0719,
    "terms": {
-    "accountability": 0.1264,
+    "accountability": 0.1074,
     "apostasy": 0.0913,
-    "apostate": 0.0835,
+    "apostate": 0.0652,
+    "atheist": 0.0223,
     "community": 0.0066,
-    "deconstruction": 0.1021,
-    "discernment": 0.0794,
+    "deconstruction": 0.1054,
+    "deconversion": 0.2438,
+    "discernment": 0.0632,
     "do the work": 0.053,
-    "evidence": 0.0022,
-    "false prophet": 0.0223,
+    "evidence": 0.0019,
+    "false prophet": 0.0261,
     "false teacher": 0.1672,
     "false teaching": 0.0071,
-    "grace": 0.0014,
-    "grift": 0.3928,
-    "harm": 0.0079,
-    "heresy": 0.1288,
-    "heretic": 0.0996,
+    "grace": 0.0012,
+    "grift": 0.3574,
+    "harm": 0.0087,
+    "heresy": 0.1333,
+    "heretic": 0.0251,
     "love": 0.0001,
-    "truth": 0.0178
+    "superstition": 0.0061,
+    "truth": 0.0177
    }
   },
   "mike-winger|neverflamenevertilt": {
-   "js": 0.0744,
+   "js": 0.0954,
    "terms": {
-    "community": 0.0468,
-    "deconstruction": 0.1312,
-    "evidence": 0.0858,
-    "grace": 0.0152,
-    "harm": 0.0546,
-    "love": 0.0221,
-    "truth": 0.1653
+    "atheist": 0.0068,
+    "community": 0.0343,
+    "deconstruction": 0.0861,
+    "deconversion": 0.3483,
+    "evidence": 0.0886,
+    "false prophet": 0.2742,
+    "grace": 0.0039,
+    "harm": 0.0585,
+    "love": 0.0213,
+    "superstition": 0.0,
+    "truth": 0.1279
    }
   },
   "mike-winger|paulogia": {
-   "js": 0.0469,
+   "js": 0.0446,
    "terms": {
-    "accountability": 0.0021,
+    "accountability": 0.0078,
     "apostasy": 0.0066,
-    "apostate": 0.0524,
-    "community": 0.0009,
-    "deconstruction": 0.0507,
-    "do the work": 0.0323,
-    "evidence": 0.0258,
-    "grace": 0.0182,
-    "harm": 0.0616,
-    "heresy": 0.124,
-    "heretic": 0.0507,
-    "love": 0.0809,
-    "truth": 0.1029
+    "apostate": 0.0502,
+    "atheist": 0.0082,
+    "community": 0.001,
+    "deconstruction": 0.038,
+    "deconversion": 0.1281,
+    "do the work": 0.0279,
+    "evidence": 0.0308,
+    "grace": 0.0137,
+    "harm": 0.0643,
+    "heresy": 0.122,
+    "heretic": 0.028,
+    "love": 0.0818,
+    "superstition": 0.0,
+    "truth": 0.1059
    }
   },
   "mike-winger|prophet-of-zod": {
-   "js": 0.0403,
+   "js": 0.0411,
    "terms": {
-    "accountability": 0.176,
+    "accountability": 0.1963,
+    "atheist": 0.0008,
     "community": 0.0001,
-    "deconstruction": 0.0262,
-    "evidence": 0.0522,
-    "grace": 0.0,
-    "harm": 0.0014,
+    "deconstruction": 0.02,
+    "deconversion": 0.1202,
+    "evidence": 0.0487,
+    "grace": 0.0001,
+    "harm": 0.0003,
     "love": 0.0014,
-    "truth": 0.0652
+    "superstition": 0.0,
+    "truth": 0.0647
    }
   },
   "mike-winger|reasonable-faith-org": {
-   "js": 0.0564,
+   "js": 0.0475,
    "terms": {
-    "accountability": 0.1351,
+    "accountability": 0.075,
     "apostasy": 0.0913,
-    "apostate": 0.0034,
-    "community": 0.0014,
+    "apostate": 0.0099,
+    "atheist": 0.0077,
+    "community": 0.0015,
     "deconstruction": 0.0087,
+    "deconversion": 0.0754,
     "do the work": 0.0003,
-    "evidence": 0.0706,
-    "grace": 0.0949,
-    "harm": 0.0302,
-    "heresy": 0.0219,
-    "heretic": 0.1805,
+    "evidence": 0.07,
+    "grace": 0.0927,
+    "harm": 0.0307,
+    "heresy": 0.0256,
+    "heretic": 0.152,
     "love": 0.0,
-    "truth": 0.0946
+    "sola scriptura": 0.0291,
+    "truth": 0.0897
    }
   },
   "mike-winger|shannon-q": {
-   "js": 0.1514,
+   "js": 0.1558,
    "terms": {
-    "accountability": 0.0366,
-    "apostate": 0.3053,
+    "accountability": 0.0696,
+    "apostate": 0.2992,
+    "atheist": 0.0416,
     "community": 0.0684,
-    "deconstruction": 0.1337,
-    "discernment": 0.2281,
-    "evidence": 0.0616,
-    "grace": 0.2042,
-    "harm": 0.1326,
-    "heresy": 0.107,
+    "deconstruction": 0.1043,
+    "deconversion": 0.316,
+    "discernment": 0.2233,
+    "evidence": 0.0618,
+    "grace": 0.2134,
+    "harm": 0.1362,
+    "heresy": 0.1093,
     "heretic": 0.1444,
-    "love": 0.1978,
-    "truth": 0.1974
+    "love": 0.1977,
+    "truth": 0.1966
    }
   },
   "mike-winger|the-antibot": {
-   "js": 0.1147,
+   "js": 0.1162,
    "terms": {
-    "accountability": 0.0004,
-    "community": 0.0164,
-    "deconstruction": 0.0311,
-    "discernment": 0.0062,
-    "do the work": 0.0137,
-    "evidence": 0.0624,
-    "grace": 0.3797,
-    "grift": 0.5573,
-    "harm": 0.049,
-    "heresy": 0.0652,
-    "love": 0.1392,
-    "truth": 0.0561
+    "accountability": 0.0053,
+    "atheist": 0.0661,
+    "community": 0.0226,
+    "deconstruction": 0.0309,
+    "deconversion": 0.2133,
+    "discernment": 0.0016,
+    "do the work": 0.022,
+    "evidence": 0.106,
+    "false prophet": 0.0017,
+    "grace": 0.3633,
+    "grift": 0.5292,
+    "harm": 0.064,
+    "heresy": 0.0667,
+    "love": 0.1433,
+    "truth": 0.1066
    }
   },
   "mike-winger|the-omnist-rone": {
-   "js": 0.0508,
+   "js": 0.0491,
    "terms": {
-    "accountability": 0.0011,
-    "community": 0.0057,
-    "deconstruction": 0.3256,
-    "do the work": 0.0591,
-    "evidence": 0.0,
-    "grace": 0.0977,
-    "harm": 0.0013,
-    "heresy": 0.0061,
-    "heretic": 0.0136,
-    "love": 0.0127,
-    "truth": 0.0358
+    "accountability": 0.0003,
+    "atheist": 0.0325,
+    "community": 0.0054,
+    "deconstruction": 0.2988,
+    "deconversion": 0.129,
+    "discernment": 0.0,
+    "do the work": 0.0646,
+    "evidence": 0.0015,
+    "false prophet": 0.046,
+    "grace": 0.0962,
+    "harm": 0.0008,
+    "heresy": 0.0075,
+    "heretic": 0.0051,
+    "love": 0.018,
+    "truth": 0.0304
    }
   },
   "mindshift|neverflamenevertilt": {
-   "js": 0.044,
+   "js": 0.1168,
    "terms": {
-    "community": 0.0189,
-    "deconstruction": 0.0021,
-    "evidence": 0.0614,
-    "grace": 0.0259,
-    "harm": 0.1019,
-    "love": 0.0194,
-    "truth": 0.0781
+    "atheist": 0.0531,
+    "community": 0.0112,
+    "deconstruction": 0.0011,
+    "deconversion": 0.0132,
+    "evidence": 0.0651,
+    "false prophet": 0.1502,
+    "grace": 0.0008,
+    "harm": 0.1098,
+    "humanist": 0.9195,
+    "love": 0.0186,
+    "superstition": 0.0061,
+    "truth": 0.0527
    }
   },
   "mindshift|paulogia": {
-   "js": 0.0507,
+   "js": 0.0899,
    "terms": {
-    "accountability": 0.097,
+    "accountability": 0.0587,
     "apostasy": 0.0547,
     "apostate": 0.0569,
-    "community": 0.0121,
-    "deconstruction": 0.0099,
-    "do the work": 0.146,
-    "evidence": 0.0131,
-    "grace": 0.0094,
-    "harm": 0.1111,
-    "heresy": 0.0275,
-    "heretic": 0.0086,
-    "love": 0.0758,
-    "truth": 0.0365
+    "atheist": 0.0035,
+    "community": 0.0125,
+    "deconstruction": 0.0184,
+    "deconversion": 0.026,
+    "do the work": 0.1379,
+    "evidence": 0.0175,
+    "grace": 0.0068,
+    "harm": 0.1175,
+    "heresy": 0.0204,
+    "heretic": 0.0001,
+    "humanist": 0.9195,
+    "love": 0.0765,
+    "nihilism": 0.0462,
+    "superstition": 0.0061,
+    "truth": 0.0386
    }
   },
   "mindshift|prophet-of-zod": {
-   "js": 0.0129,
+   "js": 0.0169,
    "terms": {
-    "accountability": 0.0049,
+    "accountability": 0.0166,
+    "atheist": 0.0317,
     "community": 0.0048,
-    "deconstruction": 0.0269,
-    "evidence": 0.0334,
-    "grace": 0.0014,
-    "harm": 0.016,
+    "deconstruction": 0.0362,
+    "deconversion": 0.0304,
+    "evidence": 0.0315,
+    "grace": 0.0006,
+    "harm": 0.0122,
     "love": 0.0008,
-    "truth": 0.0154
+    "superstition": 0.0061,
+    "truth": 0.0152
    }
   },
   "mindshift|reasonable-faith-org": {
-   "js": 0.0442,
+   "js": 0.1033,
    "terms": {
-    "accountability": 0.0002,
+    "accountability": 0.0032,
     "apostasy": 0.0,
     "apostate": 0.1078,
-    "community": 0.002,
-    "deconstruction": 0.054,
+    "atheist": 0.0555,
+    "community": 0.0018,
+    "deconstruction": 0.0566,
+    "deconversion": 0.0666,
     "do the work": 0.047,
-    "evidence": 0.0485,
-    "grace": 0.1183,
-    "harm": 0.0678,
-    "heresy": 0.0845,
-    "heretic": 0.0132,
+    "evidence": 0.0491,
+    "grace": 0.1137,
+    "harm": 0.0708,
+    "heresy": 0.0822,
+    "heretic": 0.056,
+    "humanist": 0.9195,
     "love": 0.0,
-    "truth": 0.0315
+    "nihilism": 0.0969,
+    "truth": 0.0288
    }
   },
   "mindshift|shannon-q": {
-   "js": 0.1883,
+   "js": 0.1973,
    "terms": {
-    "accountability": 0.2852,
-    "apostate": 0.0858,
+    "accountability": 0.3296,
+    "apostate": 0.1132,
+    "atheist": 0.0031,
     "community": 0.0337,
-    "deconstruction": 0.0024,
-    "discernment": 0.5256,
-    "evidence": 0.041,
-    "grace": 0.1734,
-    "harm": 0.1996,
-    "heresy": 0.2023,
-    "heretic": 0.4188,
-    "love": 0.1902,
-    "truth": 0.1015
+    "deconstruction": 0.0,
+    "deconversion": 0.0066,
+    "discernment": 0.4829,
+    "evidence": 0.0422,
+    "grace": 0.1846,
+    "harm": 0.2074,
+    "heresy": 0.227,
+    "heretic": 0.2635,
+    "humanist": 0.813,
+    "love": 0.1897,
+    "nihilism": 0.1594,
+    "truth": 0.1011
    }
   },
   "mindshift|the-antibot": {
-   "js": 0.1865,
+   "js": 0.1752,
    "terms": {
-    "accountability": 0.1406,
-    "community": 0.0023,
-    "deconstruction": 0.0223,
-    "discernment": 0.1275,
-    "do the work": 0.108,
-    "evidence": 0.0417,
-    "grace": 0.3406,
-    "grift": 0.4174,
-    "grifter": 0.882,
-    "harm": 0.0943,
-    "heresy": 0.1036,
-    "love": 0.1327,
-    "truth": 0.011
+    "accountability": 0.1578,
+    "atheist": 0.0119,
+    "community": 0.0049,
+    "deconstruction": 0.0241,
+    "deconversion": 0.0014,
+    "discernment": 0.0845,
+    "do the work": 0.1263,
+    "evidence": 0.0802,
+    "false prophet": 0.0408,
+    "grace": 0.3279,
+    "grift": 0.392,
+    "grifter": 0.6365,
+    "harm": 0.1171,
+    "heresy": 0.1216,
+    "humanist": 0.6753,
+    "love": 0.1364,
+    "truth": 0.039
    }
   },
   "mindshift|the-omnist-rone": {
-   "js": 0.0535,
+   "js": 0.0547,
    "terms": {
-    "accountability": 0.1044,
-    "community": 0.0,
-    "deconstruction": 0.0739,
-    "do the work": 0.1909,
-    "evidence": 0.0024,
-    "grace": 0.076,
-    "harm": 0.0028,
-    "heresy": 0.0835,
-    "heretic": 0.0406,
-    "love": 0.0107,
-    "truth": 0.0032
+    "accountability": 0.0961,
+    "atheist": 0.001,
+    "community": 0.0001,
+    "deconstruction": 0.0577,
+    "deconversion": 0.0255,
+    "discernment": 0.0642,
+    "do the work": 0.1994,
+    "evidence": 0.0068,
+    "false prophet": 0.1381,
+    "grace": 0.0764,
+    "harm": 0.0043,
+    "heresy": 0.0811,
+    "heretic": 0.0521,
+    "love": 0.0154,
+    "truth": 0.0018
    }
   },
   "neverflamenevertilt|paulogia": {
-   "js": 0.0274,
+   "js": 0.0184,
    "terms": {
-    "community": 0.0594,
-    "deconstruction": 0.0209,
-    "evidence": 0.0181,
-    "grace": 0.0659,
-    "harm": 0.0002,
-    "love": 0.0192,
-    "truth": 0.0081
+    "atheist": 0.0298,
+    "community": 0.0461,
+    "deconstruction": 0.0106,
+    "deconversion": 0.0753,
+    "evidence": 0.0155,
+    "grace": 0.003,
+    "harm": 0.0001,
+    "humanist": 0.0,
+    "love": 0.0204,
+    "superstition": 0.0,
+    "truth": 0.0011
    }
   },
   "neverflamenevertilt|prophet-of-zod": {
-   "js": 0.0258,
+   "js": 0.0223,
    "terms": {
-    "community": 0.0419,
-    "deconstruction": 0.0436,
-    "evidence": 0.0044,
-    "grace": 0.0153,
-    "harm": 0.0386,
-    "love": 0.0123,
-    "truth": 0.0248
+    "atheist": 0.0028,
+    "community": 0.0301,
+    "deconstruction": 0.0248,
+    "deconversion": 0.0825,
+    "evidence": 0.0062,
+    "grace": 0.0026,
+    "harm": 0.0506,
+    "love": 0.0118,
+    "superstition": 0.0,
+    "truth": 0.0115
    }
   },
   "neverflamenevertilt|reasonable-faith-org": {
-   "js": 0.026,
+   "js": 0.0361,
    "terms": {
-    "community": 0.0327,
-    "deconstruction": 0.0765,
-    "evidence": 0.0008,
-    "grace": 0.036,
-    "harm": 0.0037,
-    "love": 0.0213,
-    "truth": 0.0108
+    "atheist": 0.0,
+    "community": 0.0217,
+    "deconstruction": 0.0422,
+    "deconversion": 0.1359,
+    "evidence": 0.0012,
+    "grace": 0.1318,
+    "harm": 0.0046,
+    "humanist": 0.0,
+    "love": 0.0199,
+    "truth": 0.0037
    }
   },
   "neverflamenevertilt|shannon-q": {
-   "js": 0.0621,
+   "js": 0.0391,
    "terms": {
-    "community": 0.0022,
-    "deconstruction": 0.0,
-    "evidence": 0.0021,
-    "grace": 0.3184,
-    "harm": 0.0181,
-    "love": 0.0925,
-    "truth": 0.0016
+    "atheist": 0.0809,
+    "community": 0.0062,
+    "deconstruction": 0.001,
+    "deconversion": 0.0011,
+    "evidence": 0.0025,
+    "grace": 0.1631,
+    "harm": 0.0172,
+    "humanist": 0.0172,
+    "love": 0.0939,
+    "truth": 0.0082
    }
   },
   "neverflamenevertilt|the-antibot": {
-   "js": 0.0928,
+   "js": 0.0798,
    "terms": {
-    "community": 0.0081,
-    "deconstruction": 0.0377,
-    "evidence": 0.002,
-    "grace": 0.5178,
-    "harm": 0.0002,
-    "love": 0.0529,
-    "truth": 0.031
+    "atheist": 0.1133,
+    "community": 0.0013,
+    "deconstruction": 0.015,
+    "deconversion": 0.0234,
+    "evidence": 0.0008,
+    "false prophet": 0.3113,
+    "grace": 0.3009,
+    "harm": 0.0001,
+    "humanist": 0.0538,
+    "love": 0.0567,
+    "truth": 0.0011
    }
   },
   "neverflamenevertilt|the-omnist-rone": {
-   "js": 0.0668,
+   "js": 0.1006,
    "terms": {
-    "community": 0.0204,
-    "deconstruction": 0.0517,
-    "evidence": 0.087,
-    "grace": 0.1849,
-    "harm": 0.0722,
-    "love": 0.0013,
-    "truth": 0.0503
+    "atheist": 0.0681,
+    "community": 0.0128,
+    "deconstruction": 0.0743,
+    "deconversion": 0.0745,
+    "evidence": 0.1123,
+    "false prophet": 0.4934,
+    "grace": 0.0623,
+    "harm": 0.0723,
+    "love": 0.0002,
+    "truth": 0.0354
    }
   },
   "paulogia|prophet-of-zod": {
-   "js": 0.0352,
+   "js": 0.0261,
    "terms": {
-    "accountability": 0.1418,
-    "community": 0.0017,
-    "deconstruction": 0.0043,
-    "evidence": 0.0047,
-    "grace": 0.0182,
-    "harm": 0.0445,
-    "love": 0.0615,
-    "truth": 0.0046
+    "accountability": 0.1308,
+    "atheist": 0.0143,
+    "community": 0.0019,
+    "deconstruction": 0.0031,
+    "deconversion": 0.0002,
+    "evidence": 0.0021,
+    "grace": 0.0113,
+    "harm": 0.056,
+    "love": 0.0623,
+    "superstition": 0.0,
+    "truth": 0.0054
    }
   },
   "paulogia|reasonable-faith-org": {
-   "js": 0.0503,
+   "js": 0.0359,
    "terms": {
-    "accountability": 0.1048,
+    "accountability": 0.035,
     "apostasy": 0.0547,
     "apostate": 0.0536,
-    "community": 0.0044,
-    "deconstruction": 0.0182,
-    "do the work": 0.0381,
-    "evidence": 0.0114,
-    "grace": 0.1888,
-    "harm": 0.0057,
-    "heresy": 0.0522,
-    "heretic": 0.0426,
-    "love": 0.0795,
-    "truth": 0.0002
+    "atheist": 0.0316,
+    "community": 0.0049,
+    "deconstruction": 0.0108,
+    "deconversion": 0.0098,
+    "do the work": 0.0334,
+    "evidence": 0.0082,
+    "grace": 0.1717,
+    "harm": 0.0063,
+    "heresy": 0.0481,
+    "heretic": 0.0518,
+    "humanist": 0.0,
+    "love": 0.079,
+    "nihilism": 0.0112,
+    "truth": 0.0007
    }
   },
   "paulogia|shannon-q": {
-   "js": 0.1095,
+   "js": 0.0943,
    "terms": {
-    "accountability": 0.0559,
-    "apostate": 0.2496,
-    "community": 0.0832,
-    "deconstruction": 0.022,
-    "evidence": 0.0079,
-    "grace": 0.1052,
-    "harm": 0.0144,
-    "heresy": 0.2955,
-    "heretic": 0.3251,
-    "love": 0.0283,
-    "truth": 0.017
+    "accountability": 0.1221,
+    "apostate": 0.2974,
+    "atheist": 0.013,
+    "community": 0.0842,
+    "deconstruction": 0.0179,
+    "deconversion": 0.0583,
+    "evidence": 0.0055,
+    "grace": 0.1237,
+    "harm": 0.0142,
+    "heresy": 0.2987,
+    "heretic": 0.2715,
+    "humanist": 0.0172,
+    "love": 0.0277,
+    "nihilism": 0.047,
+    "truth": 0.0155
    }
   },
   "paulogia|the-antibot": {
-   "js": 0.0486,
+   "js": 0.0476,
    "terms": {
-    "accountability": 0.0044,
-    "community": 0.0246,
-    "deconstruction": 0.0025,
-    "do the work": 0.0041,
-    "evidence": 0.0082,
-    "grace": 0.2493,
-    "harm": 0.0008,
-    "heresy": 0.1761,
-    "love": 0.0085,
-    "truth": 0.0075
+    "accountability": 0.026,
+    "atheist": 0.0281,
+    "community": 0.0325,
+    "deconstruction": 0.0004,
+    "deconversion": 0.0153,
+    "do the work": 0.0004,
+    "evidence": 0.0234,
+    "grace": 0.25,
+    "harm": 0.0,
+    "heresy": 0.179,
+    "humanist": 0.0538,
+    "love": 0.0093,
+    "truth": 0.0
    }
   },
   "paulogia|the-omnist-rone": {
-   "js": 0.0401,
+   "js": 0.0396,
    "terms": {
-    "accountability": 0.0001,
+    "accountability": 0.0049,
+    "atheist": 0.0081,
     "community": 0.0109,
-    "deconstruction": 0.1351,
-    "do the work": 0.0043,
-    "evidence": 0.0265,
-    "grace": 0.0325,
-    "harm": 0.0801,
-    "heresy": 0.0903,
-    "heretic": 0.012,
-    "love": 0.0305,
-    "truth": 0.0183
+    "deconstruction": 0.138,
+    "deconversion": 0.0,
+    "do the work": 0.008,
+    "evidence": 0.0457,
+    "grace": 0.0382,
+    "harm": 0.0787,
+    "heresy": 0.0782,
+    "heretic": 0.0563,
+    "love": 0.024,
+    "truth": 0.024
    }
   },
   "prophet-of-zod|reasonable-faith-org": {
-   "js": 0.016,
+   "js": 0.0177,
    "terms": {
-    "accountability": 0.0033,
-    "community": 0.0006,
-    "deconstruction": 0.0049,
-    "evidence": 0.0015,
-    "grace": 0.0951,
-    "harm": 0.0185,
-    "love": 0.0012,
-    "truth": 0.0029
+    "accountability": 0.0338,
+    "atheist": 0.0034,
+    "community": 0.0007,
+    "deconstruction": 0.0024,
+    "deconversion": 0.0074,
+    "evidence": 0.002,
+    "grace": 0.0992,
+    "harm": 0.025,
+    "love": 0.0011,
+    "truth": 0.0022
    }
   },
   "prophet-of-zod|shannon-q": {
-   "js": 0.1224,
+   "js": 0.1212,
    "terms": {
-    "accountability": 0.3528,
+    "accountability": 0.4593,
+    "atheist": 0.0541,
     "community": 0.0625,
-    "deconstruction": 0.0452,
-    "evidence": 0.0004,
+    "deconstruction": 0.0355,
+    "deconversion": 0.0648,
+    "evidence": 0.0008,
     "grace": 0.204,
-    "harm": 0.1075,
+    "harm": 0.1243,
     "love": 0.168,
     "truth": 0.0389
    }
   },
   "prophet-of-zod|the-antibot": {
-   "js": 0.0917,
+   "js": 0.0922,
    "terms": {
-    "accountability": 0.1923,
-    "community": 0.0135,
-    "deconstruction": 0.0002,
-    "evidence": 0.0005,
-    "grace": 0.3794,
-    "harm": 0.0338,
-    "love": 0.1139,
-    "truth": 0.0004
+    "accountability": 0.2594,
+    "atheist": 0.0814,
+    "community": 0.0192,
+    "deconstruction": 0.0013,
+    "deconversion": 0.0187,
+    "evidence": 0.0116,
+    "grace": 0.3518,
+    "harm": 0.0557,
+    "love": 0.1177,
+    "truth": 0.0056
    }
   },
   "prophet-of-zod|the-omnist-rone": {
-   "js": 0.0631,
+   "js": 0.0583,
    "terms": {
-    "accountability": 0.1505,
-    "community": 0.004,
-    "deconstruction": 0.1839,
-    "evidence": 0.0531,
-    "grace": 0.0976,
-    "harm": 0.0055,
-    "love": 0.0056,
-    "truth": 0.0046
+    "accountability": 0.1817,
+    "atheist": 0.0436,
+    "community": 0.0038,
+    "deconstruction": 0.1789,
+    "deconversion": 0.0002,
+    "evidence": 0.0669,
+    "grace": 0.0896,
+    "harm": 0.002,
+    "love": 0.0093,
+    "truth": 0.0067
    }
   },
   "reasonable-faith-org|shannon-q": {
-   "js": 0.2086,
+   "js": 0.1665,
    "terms": {
-    "accountability": 0.2975,
-    "apostate": 0.3513,
-    "community": 0.0513,
-    "deconstruction": 0.0785,
+    "accountability": 0.275,
+    "apostate": 0.39,
+    "atheist": 0.0838,
+    "community": 0.0504,
+    "deconstruction": 0.0557,
+    "deconversion": 0.1133,
     "evidence": 0.0003,
-    "grace": 0.5226,
-    "harm": 0.038,
-    "heresy": 0.19,
-    "heretic": 0.5488,
-    "love": 0.1957,
-    "truth": 0.0207
+    "grace": 0.5305,
+    "harm": 0.0393,
+    "heresy": 0.2044,
+    "heretic": 0.5053,
+    "humanist": 0.0172,
+    "love": 0.1935,
+    "nihilism": 0.0163,
+    "truth": 0.0229
    }
   },
   "reasonable-faith-org|the-antibot": {
-   "js": 0.1189,
+   "js": 0.1064,
    "terms": {
-    "accountability": 0.1497,
-    "community": 0.0085,
-    "deconstruction": 0.0072,
-    "do the work": 0.0176,
-    "evidence": 0.0003,
-    "grace": 0.7491,
-    "harm": 0.0023,
-    "heresy": 0.1118,
-    "love": 0.1374,
-    "truth": 0.0053
+    "accountability": 0.1186,
+    "atheist": 0.1167,
+    "community": 0.0126,
+    "deconstruction": 0.0071,
+    "deconversion": 0.0489,
+    "do the work": 0.0269,
+    "evidence": 0.004,
+    "grace": 0.7247,
+    "harm": 0.0063,
+    "heresy": 0.1229,
+    "humanist": 0.0538,
+    "love": 0.1397,
+    "truth": 0.0008
    }
   },
   "reasonable-faith-org|the-omnist-rone": {
-   "js": 0.0944,
+   "js": 0.0906,
    "terms": {
-    "accountability": 0.1125,
-    "community": 0.0015,
-    "deconstruction": 0.2423,
-    "do the work": 0.0666,
-    "evidence": 0.0717,
-    "grace": 0.3572,
-    "harm": 0.0438,
-    "heresy": 0.0178,
-    "heretic": 0.0984,
-    "love": 0.0121,
-    "truth": 0.0148
+    "accountability": 0.0655,
+    "atheist": 0.0708,
+    "community": 0.0012,
+    "deconstruction": 0.2185,
+    "deconversion": 0.0101,
+    "do the work": 0.0724,
+    "evidence": 0.0913,
+    "grace": 0.3501,
+    "harm": 0.041,
+    "heresy": 0.0163,
+    "heretic": 0.2081,
+    "love": 0.0166,
+    "truth": 0.0164
    }
   },
   "shannon-q|the-antibot": {
-   "js": 0.0386,
+   "js": 0.0295,
    "terms": {
-    "accountability": 0.0293,
-    "community": 0.0187,
-    "deconstruction": 0.0392,
-    "discernment": 0.164,
-    "evidence": 0.0,
-    "grace": 0.0417,
-    "harm": 0.0216,
+    "accountability": 0.0369,
+    "atheist": 0.0029,
+    "community": 0.0131,
+    "deconstruction": 0.0235,
+    "deconversion": 0.0143,
+    "discernment": 0.1894,
+    "evidence": 0.0063,
+    "grace": 0.0296,
+    "harm": 0.0144,
     "heresy": 0.0186,
-    "love": 0.0058,
-    "truth": 0.0467
+    "humanist": 0.0142,
+    "love": 0.0049,
+    "truth": 0.0152
    }
   },
   "shannon-q|the-omnist-rone": {
-   "js": 0.0888,
+   "js": 0.0853,
    "terms": {
-    "accountability": 0.0504,
-    "community": 0.0357,
-    "deconstruction": 0.05,
-    "evidence": 0.0626,
-    "grace": 0.022,
-    "harm": 0.1585,
-    "heresy": 0.0959,
-    "heretic": 0.2286,
-    "love": 0.1151,
-    "truth": 0.0696
+    "accountability": 0.0794,
+    "atheist": 0.0006,
+    "community": 0.0364,
+    "deconstruction": 0.0586,
+    "deconversion": 0.0576,
+    "discernment": 0.2215,
+    "evidence": 0.082,
+    "grace": 0.0261,
+    "harm": 0.1562,
+    "heresy": 0.1102,
+    "heretic": 0.1025,
+    "love": 0.1013,
+    "truth": 0.077
    }
   },
   "the-antibot|the-omnist-rone": {
-   "js": 0.0556,
+   "js": 0.0489,
    "terms": {
-    "accountability": 0.0029,
-    "community": 0.0028,
-    "deconstruction": 0.1722,
-    "do the work": 0.0165,
-    "evidence": 0.0634,
-    "grace": 0.1152,
-    "harm": 0.0658,
-    "heresy": 0.0445,
-    "love": 0.0705,
-    "truth": 0.0024
+    "accountability": 0.0084,
+    "atheist": 0.0061,
+    "community": 0.006,
+    "deconstruction": 0.1521,
+    "deconversion": 0.0149,
+    "discernment": 0.0015,
+    "do the work": 0.0118,
+    "evidence": 0.1315,
+    "false prophet": 0.0303,
+    "grace": 0.1046,
+    "harm": 0.0784,
+    "heresy": 0.0527,
+    "love": 0.0625,
+    "truth": 0.0243
    }
   }
  },
@@ -4519,13 +5079,13 @@
   "anchors_per_pole": 4,
   "axis_occupancy": {
    "axis_span": 2.0,
-   "fraction_of_axis": 0.0515,
-   "hi": 0.0622,
-   "lo": -0.0408,
-   "median_abs_x": 0.0361,
+   "fraction_of_axis": 0.0595,
+   "hi": 0.0684,
+   "lo": -0.0505,
+   "median_abs_x": 0.037,
    "positioned": 7,
-   "span": 0.103,
-   "within_0_05_of_midline": 6
+   "span": 0.1189,
+   "within_0_05_of_midline": 5
   },
   "mean_rank_agreement": 0.834,
   "measured_at": "2026-07-27",
@@ -4543,9 +5103,10 @@
     "capturing-christianity",
     "counsel-of-trent",
     "cross-examined",
+    "mike-winger",
     "reasonable-faith-org"
    ],
-   "n_anchors": 4
+   "n_anchors": 5
   },
   "deconstruction": {
    "anchors": [
