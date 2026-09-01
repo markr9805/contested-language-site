@@ -2007,6 +2007,31 @@
    },
    "truncated": false
   },
+  "Job 38:8": {
+   "citations": [
+    {
+     "confidence": 0.5833,
+     "context": "Or who shut up the sea with doors when it break forth? Oh who can open the doors of his face? Job forty one six the doors of his face who can open I think the the face there it probably has a a reference to probably means the mouth so it's like who could pry open his jaws something like that.",
+     "creator": "dan-mcclellan",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-03-31T03:21:50Z",
+     "role": "host",
+     "t": 3174.4,
+     "title": "Maklelan Livestream",
+     "video_id": "BERXyUsm7Xc"
+    }
+   ],
+   "creators": {
+    "dan-mcclellan": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Or who shut up the sea with doors, when it brake forth, as if it had issued out of the womb?",
+    "WEB": "“Or who shut up the sea with doors, when it broke out of the womb,"
+   },
+   "truncated": false
+  },
   "Job 38:9": {
    "citations": [
     {
@@ -2449,6 +2474,18 @@
    "citations": [
     {
      "confidence": 0.5,
+     "context": "Or who shut up the sea with doors when it break forth? Oh who can open the doors of his face? Job forty one six the doors of his face who can open I think the the face there it probably has a a reference to probably means the mouth so it's like who could pry open his jaws something like that.",
+     "creator": "dan-mcclellan",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2025-03-31T03:21:50Z",
+     "role": "host",
+     "t": 3180.96,
+     "title": "Maklelan Livestream",
+     "video_id": "BERXyUsm7Xc"
+    },
+    {
+     "confidence": 0.5,
      "context": "You certainly can't handle me. Um let's read more. Uh I will not conceal his limbs, his m his mighty power or his graceful proportions. Who can remove his outer coat? He has an outer coat that's very tough. Who can approach him with a double bridle, and he can't be contained. Who can open the doors of his face with his terrible teeth all around? So then you're looking okay, he's got he's got really tough skin, he's got a really big mouth with giant terrible teeth. His rows of scales are his pride. Okay, so he's he's scaled. It could be a fish type creature, it could be um something else that was scales.",
      "creator": "mike-winger",
      "detection_method": "shingle_match",
@@ -2461,9 +2498,10 @@
     }
    ],
    "creators": {
+    "dan-mcclellan": 1,
     "mike-winger": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Who can open the doors of his face? his teeth are terrible round about.",
     "WEB": "Who can open the doors of his face? Around his teeth is terror."
@@ -2794,12 +2832,25 @@
      "t": 1740.16,
      "title": "Job: No More Excuses For This Story! | Secular Bible Study (Episode 18)",
      "video_id": "R38h5sTUYKA"
+    },
+    {
+     "confidence": 0.5714,
+     "context": "Is that what that is? Call unperfect. No, oh yeah. I reject, I despise, and I repent upon dust and ashes. The NRSV UE says, therefore I despise myself and repent in dust and ashes. Seems to be pretty um, yeah. The verb has no object. Yeah. It just says I despise or I reject.",
+     "creator": "dan-mcclellan",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-04-13T03:43:55Z",
+     "role": "host",
+     "t": 4123.08,
+     "title": "Maklelan Livestream",
+     "video_id": "hcaLWLMdhZg"
     }
    ],
    "creators": {
+    "dan-mcclellan": 1,
     "mindshift": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "Wherefore I abhor myself, and repent in dust and ashes.",
     "WEB": "Therefore I abhor myself, and repent in dust and ashes.”"

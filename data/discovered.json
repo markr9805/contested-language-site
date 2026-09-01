@@ -1,72 +1,6 @@
 {
  "concepts": [
   {
-   "apol": 248,
-   "apologetics": {
-    "quotes": [
-     {
-      "context": "...to debate such an eminent christian [apologist] tonight i'm going to defend the...",
-      "creator": "drcraigvideos",
-      "t": 215.96,
-      "video_id": "d1Vp781Yn4Q"
-     },
-     {
-      "context": "...founded with somewhere around 100 trained [apologists] around the world who will carry...",
-      "creator": "reasonable-faith-org",
-      "t": 1850.52,
-      "video_id": "ogGGdF1pL5o"
-     }
-    ],
-    "text": "Apologetics speakers refer to 'apologists' as individuals or groups who defend Christian doctrine, often highlighting their training or role in addressing objections."
-   },
-   "bar": {
-    "diagnostic": {
-     "assignments": 75582,
-     "is_the_gate": false,
-     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.0033605884999073853,
-     "perm_q": 0.11897169490179933,
-     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
-    },
-    "failed": [],
-    "observed": 0.23596036190315903,
-    "passes": true,
-    "percentile": 0.0,
-    "pool_n": 40,
-    "reason": null,
-    "reduced_resolution": false,
-    "statistic": "permanova_pseudo_f + band_percentile",
-    "status": "ok",
-    "thresholds": {
-     "specificity": 0.05,
-     "validity": 0.05
-    },
-    "validity_p": 0.00030851501439736734
-   },
-   "decon": 831,
-   "deconstruction": {
-    "quotes": [
-     {
-      "context": "...and and then and then the [apologists] are like no that's just been...",
-      "creator": "belief-it-or-not",
-      "t": 1026.28,
-      "video_id": "2eMJnoR_eIw"
-     },
-     {
-      "context": "...question than trying to watch mormon [apologists] find increasingly absurd ways to make...",
-      "creator": "britt-hartley",
-      "t": 1083.76,
-      "video_id": "k0nNIJbcDlA"
-     }
-    ],
-    "text": "Deconstruction commenters use 'apologists' to denote those who defend religion, but they frequently criticize or question their arguments, portraying them as evasive or hypocritical."
-   },
-   "keyness": 8.067871798903688,
-   "surface": "apologists",
-   "verdict": "contested"
-  },
-  {
    "apol": 1001,
    "apologetics": {
     "quotes": [
@@ -77,26 +11,26 @@
       "video_id": "A5lOSc_S2Go"
      },
      {
-      "context": "...like they have other beliefs agnostic [atheist] or they believe in sort of...",
-      "creator": "mike-winger",
-      "t": 1043.96,
-      "video_id": "D2cc_WHVfTg"
+      "context": "...the origin of the universe the [atheist] could try to escape the argument...",
+      "creator": "drcraigvideos",
+      "t": 136.44,
+      "video_id": "e2KzHMKFeNY"
      }
     ],
-    "text": "Apologetics uses \"atheist\" to label individuals who lack belief in God, often as a target of argument or critique, and sometimes to describe a group or community."
+    "text": "The term is used to refer to people who reject belief in God, often as a target of apologetic arguments and as a category of intellectual opponents."
    },
    "bar": {
     "diagnostic": {
-     "assignments": 75582,
+     "assignments": 92378,
      "is_the_gate": false,
      "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
      "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.005120266730173851,
-     "perm_q": 0.1276301780535982,
+     "perm_p": 0.0005196042347745134,
+     "perm_q": 0.011399350281753977,
      "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
     },
     "failed": [],
-    "observed": 0.16584655783825714,
+    "observed": 0.1590486153785775,
     "passes": true,
     "percentile": 0.0,
     "pool_n": 40,
@@ -108,7 +42,7 @@
      "specificity": 0.05,
      "validity": 0.05
     },
-    "validity_p": 0.000777000777000777
+    "validity_p": 0.0005027652086475615
    },
    "decon": 5183,
    "deconstruction": {
@@ -120,49 +54,49 @@
       "video_id": "2p0OrbHHNUU"
      },
      {
-      "context": "...nick jenkel the author of spiritual [atheist] jim palmer who runs the center...",
-      "creator": "britt-hartley",
-      "t": 489.12,
-      "video_id": "2vBz9dvdsRs"
+      "context": "...former baptist preacher who's now an [atheist] but he just goes through and...",
+      "creator": "belief-it-or-not",
+      "t": 381.72,
+      "video_id": "bcL5MRkYPHg"
      }
     ],
-    "text": "Deconstruction uses \"atheist\" similarly to refer to people who lack belief in God, often as a self‑identification or community label, and sometimes to discuss broader social or cultural contexts."
+    "text": "The term is used as a self‑identifying label by individuals who have left faith, often in a neutral or reflective context."
    },
    "keyness": 7.83501435414283,
    "surface": "atheist",
-   "verdict": "convergent"
+   "verdict": "contested"
   },
   {
    "apol": 204,
    "apologetics": {
     "quotes": [
      {
-      "context": "...first before it was ever a [secular] concept when jesus goes around and...",
-      "creator": "jude-3-project",
-      "t": 78.32,
-      "video_id": "22uhXAsq2uI"
+      "context": "...the profane and the holy the [secular] and the sacred it can be...",
+      "creator": "jackie-hill-perry",
+      "t": 876.24,
+      "video_id": "5ALRUMILjZ8"
      },
      {
-      "context": "...a little bit more like a [secularized] person so when i talk about...",
-      "creator": "prophet-of-zod",
-      "t": 361.32,
-      "video_id": "4wPQKjRfGIk"
+      "context": "...the culture to drift into complete [secularism] then what you will have is...",
+      "creator": "drcraigvideos",
+      "t": 36.72,
+      "video_id": "Gvoct02nJ6g"
      }
     ],
-    "text": "Apologetics uses \"secular\" to describe non‑religious contexts, institutions, and people, framing them as arenas where faith must defend itself."
+    "text": "Apologetics uses \"secular\" to label non‑religious, worldly contexts and to contrast them with sacred or religious elements."
    },
    "bar": {
     "diagnostic": {
-     "assignments": 75582,
+     "assignments": 92378,
      "is_the_gate": false,
      "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
      "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.5333280410679792,
-     "perm_q": 0.6324564106414818,
+     "perm_p": 0.5350732858472796,
+     "perm_q": 0.6026188300316617,
      "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
     },
     "failed": [],
-    "observed": 0.19664151656241718,
+    "observed": 0.19602899251493208,
     "passes": true,
     "percentile": 0.0,
     "pool_n": 40,
@@ -174,7 +108,7 @@
      "specificity": 0.05,
      "validity": 0.05
     },
-    "validity_p": 0.008970389775343335
+    "validity_p": 0.0027387473207906646
    },
    "decon": 3582,
    "deconstruction": {
@@ -192,11 +126,77 @@
       "video_id": "4j1nFH4vNkg"
      }
     ],
-    "text": "Deconstruction uses \"secular\" to refer to non‑religious contexts and communities, often highlighting how faith is challenged or misunderstood within them."
+    "text": "Deconstruction uses \"secular\" to describe non‑religious or worldly contexts, such as secular friends, places, and approaches, often juxtaposed with spiritual or religious frameworks."
    },
    "keyness": 6.543040327563181,
    "surface": "secular",
    "verdict": "convergent"
+  },
+  {
+   "apol": 97,
+   "apologetics": {
+    "quotes": [
+     {
+      "context": "...appeal to a world ensemble or [multiverse] of worlds uh in which all...",
+      "creator": "drcraigvideos",
+      "t": 215.56,
+      "video_id": "-J5D7R3pyro"
+     },
+     {
+      "context": "...you've made for years against the [multiverse] as a rival to design yeah...",
+      "creator": "reasonable-faith-org",
+      "t": 417.64,
+      "video_id": "-saZeBAug7k"
+     }
+    ],
+    "text": "Apologetics treats the multiverse as a testable scientific hypothesis that is often invoked to undermine the design argument, portraying it as a fallacious inference lacking empirical support."
+   },
+   "bar": {
+    "diagnostic": {
+     "assignments": 92378,
+     "is_the_gate": false,
+     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+     "perm_p": 0.010424559960163676,
+     "perm_q": 0.044535250971074344,
+     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+    },
+    "failed": [],
+    "observed": 0.41351831642001746,
+    "passes": true,
+    "percentile": 0.025,
+    "pool_n": 40,
+    "reason": null,
+    "reduced_resolution": false,
+    "statistic": "permanova_pseudo_f + band_percentile",
+    "status": "ok",
+    "thresholds": {
+     "specificity": 0.05,
+     "validity": 0.05
+    },
+    "validity_p": 0.0017094017094017094
+   },
+   "decon": 59,
+   "deconstruction": {
+    "quotes": [
+     {
+      "context": "...need a god or um the [multiverse] theory that if you trace back...",
+      "creator": "belief-it-or-not",
+      "t": 2946.52,
+      "video_id": "5NS6YikMwjI"
+     },
+     {
+      "context": "...let alone all the theories of [multiverse] or time travel and even there...",
+      "creator": "mindshift",
+      "t": 261.36,
+      "video_id": "UpMYEP7CUSA"
+     }
+    ],
+    "text": "Deconstruction employs the multiverse as a broad, sometimes metaphorical or conspiratorial idea, presenting it as a widely accepted scientific notion, a philosophical topic, and a source of meaning, often without rigorous scientific backing."
+   },
+   "keyness": 6.139360001946131,
+   "surface": "multiverse",
+   "verdict": "contested"
   },
   {
    "apol": 19826,
@@ -209,29 +209,29 @@
       "video_id": "011pIRgcrvg"
      },
      {
-      "context": "...conceptualize it so what caused this [god] was it you that caused it...",
-      "creator": "jude-3-project",
-      "t": 470.64,
-      "video_id": "0JJZpYEfYzc"
+      "context": "...the resurrection of the son of [god] wright does a study of how...",
+      "creator": "drcraigvideos",
+      "t": 230.72,
+      "video_id": "Vmp3DZKyOD8"
      }
     ],
-    "text": "Apologetics uses \"god\" as a personal, worshipable deity central to faith, invoking prayer, salvation, and divine authority."
+    "text": "Apologetics frames \"god\" as a benevolent, personal deity central to faith, invoking worship, prayer, and divine authority."
    },
    "bar": {
     "diagnostic": {
-     "assignments": 75582,
+     "assignments": 92378,
      "is_the_gate": false,
      "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
      "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.009975920192638458,
-     "perm_q": 0.13783769654795858,
+     "perm_p": 0.010413734871939206,
+     "perm_q": 0.044524538953267224,
      "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
     },
     "failed": [],
-    "observed": 0.03734788808353347,
+    "observed": 0.03764536210172099,
     "passes": true,
     "percentile": 0.0,
-    "pool_n": 3,
+    "pool_n": 5,
     "reason": null,
     "reduced_resolution": true,
     "statistic": "permanova_pseudo_f + band_percentile",
@@ -240,7 +240,7 @@
      "specificity": 0.05,
      "validity": 0.05
     },
-    "validity_p": 0.00033076658463655366
+    "validity_p": 0.0004871289701011063
    },
    "decon": 28591,
    "deconstruction": {
@@ -258,43 +258,43 @@
       "video_id": "13TxJNlux0M"
      }
     ],
-    "text": "Deconstruction uses \"god\" as a concept that is questioned or reinterpreted, often highlighting doubt, critique of religious claims, or alternative meanings."
+    "text": "Deconstruction frames \"god\" as a contested or rhetorical figure, sometimes questioning divine existence or using it to critique religious claims."
    },
    "keyness": 5.697801404044477,
    "surface": "god",
    "verdict": "contested"
   },
   {
-   "apol": 255,
+   "apol": 183,
    "apologetics": {
     "quotes": [
      {
-      "context": "...it's for the bible criticism criticism [skepticism] denial unbelief prove it prove every...",
-      "creator": "mike-winger",
-      "t": 452.48,
-      "video_id": "5hItK8IY-Us"
+      "context": "...a reasonable indicator that the immortal [immaterial] and rational soul is no longer...",
+      "creator": "counsel-of-trent",
+      "t": 315.84,
+      "video_id": "7K5tzDd4xq4"
      },
      {
-      "context": "...missing from what we call the [skeptic] community so the skeptic community is...",
-      "creator": "capturing-christianity",
-      "t": 1262.68,
-      "video_id": "7A74K7P2FvA"
+      "context": "...impossibility of demonstrating that an invisible [immaterial] being doesn't exist at any point...",
+      "creator": "prophet-of-zod",
+      "t": 187.96,
+      "video_id": "NIH9Czf2MHQ"
      }
     ],
-    "text": "Apologetics uses \"skeptical\" to describe a stance of questioning or a community of scholars who doubt claims, often framed as a neutral or slightly negative position."
+    "text": "Apologetics uses \"immaterial\" to describe divine or spiritual entities as timeless, spaceless, and non-physical."
    },
    "bar": {
     "diagnostic": {
-     "assignments": 75582,
+     "assignments": 92378,
      "is_the_gate": false,
      "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
      "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.05967029186843428,
-     "perm_q": 0.22779537098422548,
+     "perm_p": 0.000725280911039425,
+     "perm_q": 0.012116127610076386,
      "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
     },
     "failed": [],
-    "observed": 0.2150205609119571,
+    "observed": 0.43742522155165275,
     "passes": true,
     "percentile": 0.025,
     "pool_n": 40,
@@ -306,7 +306,139 @@
      "specificity": 0.05,
      "validity": 0.05
     },
-    "validity_p": 0.002628090863384981
+    "validity_p": 0.004195804195804196
+   },
+   "decon": 42,
+   "deconstruction": {
+    "quotes": [
+     {
+      "context": "...of uh both a material and [immaterial] relationship uh a bond that is...",
+      "creator": "lil-bill",
+      "t": 472.56,
+      "video_id": "0M-kjKVt88A"
+     },
+     {
+      "context": "...their belief in the in the [immaterial] things in the metaphysical in the...",
+      "creator": "apostate-aladdin",
+      "t": 1582.16,
+      "video_id": "3374Ays_sRA"
+     }
+    ],
+    "text": "Deconstruction uses \"immaterial\" to refer to abstract, non-physical concepts such as universals, mind, and spiritual aspects."
+   },
+   "keyness": 5.593790969716008,
+   "surface": "immaterial",
+   "verdict": "convergent"
+  },
+  {
+   "apol": 279,
+   "apologetics": {
+    "quotes": [
+     {
+      "context": "...i like the way uh one [theologian] john meyer put it this way...",
+      "creator": "mike-winger",
+      "t": 2528.84,
+      "video_id": "5hItK8IY-Us"
+     },
+     {
+      "context": "...basically what we're saying is processed [theologians] use their um way to solve...",
+      "creator": "jude-3-project",
+      "t": 959.2,
+      "video_id": "6EqH_JcC530"
+     }
+    ],
+    "text": "Apologetics portrays theologians as respected scholars who clarify scripture and provide theological insight."
+   },
+   "bar": {
+    "diagnostic": {
+     "assignments": 92378,
+     "is_the_gate": false,
+     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+     "perm_p": 0.0006603303816926108,
+     "perm_q": 0.011982198417628967,
+     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+    },
+    "failed": [],
+    "observed": 0.26460655238232267,
+    "passes": true,
+    "percentile": 0.025,
+    "pool_n": 40,
+    "reason": null,
+    "reduced_resolution": false,
+    "statistic": "permanova_pseudo_f + band_percentile",
+    "status": "ok",
+    "thresholds": {
+     "specificity": 0.05,
+     "validity": 0.05
+    },
+    "validity_p": 0.014808720691073632
+   },
+   "decon": 155,
+   "deconstruction": {
+    "quotes": [
+     {
+      "context": "...to find out is that christian [theologians] have taken a lot of liberty...",
+      "creator": "darante-lamar",
+      "t": 1185.64,
+      "video_id": "HJX9cynu5BU"
+     },
+     {
+      "context": "...of latin liberation theology thus liberation [theologians] broke away from the centuries long...",
+      "creator": "lil-bill",
+      "t": 866.24,
+      "video_id": "Hi6fkxIqCAE"
+     }
+    ],
+    "text": "Deconstruction depicts theologians as a diverse group, sometimes critiqued for their positions or labeled with ideological terms."
+   },
+   "keyness": 5.401287771219938,
+   "surface": "theologians",
+   "verdict": "contested"
+  },
+  {
+   "apol": 255,
+   "apologetics": {
+    "quotes": [
+     {
+      "context": "...we should also be [skeptical] of the formal sufficiency of scripture...",
+      "creator": "counsel-of-trent",
+      "t": 0.0,
+      "video_id": "QGqf8VVG3uo"
+     },
+     {
+      "context": "...it's not a question of healthy [skepticism] no people are becoming atheists because...",
+      "creator": "prophet-of-zod",
+      "t": 92.48,
+      "video_id": "YxH3WVQmfYo"
+     }
+    ],
+    "text": "Apologetics uses \"skeptical\" to describe individuals or attitudes that question biblical claims, often framing skepticism as a challenge to faith while also acknowledging a healthy form of doubt."
+   },
+   "bar": {
+    "diagnostic": {
+     "assignments": 92378,
+     "is_the_gate": false,
+     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+     "perm_p": 0.0015804628807724783,
+     "perm_q": 0.01675290653618827,
+     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+    },
+    "failed": [],
+    "observed": 0.2514350685576645,
+    "passes": true,
+    "percentile": 0.0,
+    "pool_n": 40,
+    "reason": null,
+    "reduced_resolution": false,
+    "statistic": "permanova_pseudo_f + band_percentile",
+    "status": "ok",
+    "thresholds": {
+     "specificity": 0.05,
+     "validity": 0.05
+    },
+    "validity_p": 0.0003885003885003885
    },
    "decon": 1422,
    "deconstruction": {
@@ -324,109 +456,43 @@
       "video_id": "2vBz9dvdsRs"
      }
     ],
-    "text": "Deconstruction uses \"skeptical\" similarly to denote a mindset of questioning and epistemic humility, framing it as a positive or neutral stance."
+    "text": "Deconstruction employs \"skeptical\" to encourage epistemic humility and critical inquiry, presenting skepticism as a constructive mindset that can be applied to religious and cultural claims."
    },
    "keyness": 5.315541902894522,
    "surface": "skeptical",
    "verdict": "convergent"
   },
   {
-   "apol": 2277,
+   "apol": 190,
    "apologetics": {
     "quotes": [
      {
-      "context": "...news is that because of our [moral] wrongdoing we have alienated ourselves from...",
-      "creator": "drcraigvideos",
-      "t": 9.92,
-      "video_id": "011pIRgcrvg"
+      "context": "...is he is not questioning the [deity] and the sonship of jesus this...",
+      "creator": "jackie-hill-perry",
+      "t": 765.32,
+      "video_id": "13LpgaZlNos"
      },
      {
-      "context": "...objective [moral] values are plausibly grounded in god...",
-      "creator": "drcraigvideos",
-      "t": 0.32,
-      "video_id": "38lLaudF5io"
+      "context": "...speaking to a pantheon of fellow [deities] removed adam and eve from eden...",
+      "creator": "prophet-of-zod",
+      "t": 96.56,
+      "video_id": "7nh-jPRF0Z0"
      }
     ],
-    "text": "The term 'moral' is used to denote objective, divinely grounded standards of right and wrong, framing moral values as inherent and universal."
+    "text": "Apologetics uses \"deity\" to refer to the monotheistic, personal God of Christianity, emphasizing his role as creator, sonship, and divine nature."
    },
    "bar": {
     "diagnostic": {
-     "assignments": 75582,
+     "assignments": 92378,
      "is_the_gate": false,
      "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
      "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.03136990288693075,
-     "perm_q": 0.1837741430645655,
+     "perm_p": 0.00145056182207885,
+     "perm_q": 0.015977072908617457,
      "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
     },
     "failed": [],
-    "observed": 0.11728319542437184,
-    "passes": true,
-    "percentile": 0.025,
-    "pool_n": 40,
-    "reason": null,
-    "reduced_resolution": false,
-    "statistic": "permanova_pseudo_f + band_percentile",
-    "status": "ok",
-    "thresholds": {
-     "specificity": 0.05,
-     "validity": 0.05
-    },
-    "validity_p": 0.0020639834881320948
-   },
-   "decon": 5292,
-   "deconstruction": {
-    "quotes": [
-     {
-      "context": "...to appease their indoctrinated ideas about [morality] i just wish that i could...",
-      "creator": "apostate-aladdin",
-      "t": 573.32,
-      "video_id": "13TxJNlux0M"
-     },
-     {
-      "context": "...sense of any kind of grounded [morality] i had lost god i had...",
-      "creator": "britt-hartley",
-      "t": 134.44,
-      "video_id": "2vBz9dvdsRs"
-     }
-    ],
-    "text": "In this community, 'moral' refers to socially or personally constructed codes of conduct, often questioning their divine origin and highlighting individual or cultural variability."
-   },
-   "keyness": 5.257662049032881,
-   "surface": "moral",
-   "verdict": "contested"
-  },
-  {
-   "apol": 1354,
-   "apologetics": {
-    "quotes": [
-     {
-      "context": "...another fun guy he does mainly [muslim] apologetics he does a lot of...",
-      "creator": "capturing-christianity",
-      "t": 2001.68,
-      "video_id": "M8ps-skE7KU"
-     },
-     {
-      "context": "...say iran or any of the [muslim] countries this barbaric procedure is allowed...",
-      "creator": "cross-examined",
-      "t": 1389.72,
-      "video_id": "O-TUCbWYjEE"
-     }
-    ],
-    "text": "In apologetics, the term is used to identify the Muslim demographic and to frame apologetic efforts directed at or concerning Muslims, often in a neutral or descriptive manner."
-   },
-   "bar": {
-    "diagnostic": {
-     "assignments": 75582,
-     "is_the_gate": false,
-     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.04084305787092165,
-     "perm_q": 0.2012470438698029,
-     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
-    },
-    "failed": [],
-    "observed": 0.14617223046660208,
+    "observed": 0.29141933042617824,
     "passes": true,
     "percentile": 0.0,
     "pool_n": 40,
@@ -438,29 +504,227 @@
      "specificity": 0.05,
      "validity": 0.05
     },
-    "validity_p": 0.00025709584533113944
+    "validity_p": 0.0029823118058412176
    },
-   "decon": 5300,
+   "decon": 564,
    "deconstruction": {
     "quotes": [
      {
-      "context": "...family as my relationship with my [muslim] family continues to evolve we're getting...",
-      "creator": "apostate-aladdin",
-      "t": 247.68,
-      "video_id": "13TxJNlux0M"
+      "context": "...an all powerful all knowing benevolent [deity] yeah i can't remember the guy's...",
+      "creator": "belief-it-or-not",
+      "t": 2464.6,
+      "video_id": "2eMJnoR_eIw"
      },
      {
-      "context": "...people gold teeth no like a [muslim] like they don't ask um and...",
-      "creator": "belief-it-or-not",
-      "t": 1198.36,
-      "video_id": "1ROzhkshrYE"
+      "context": "...less personal god a less anthropomorphic [deity] more kind of abstract awe more...",
+      "creator": "britt-hartley",
+      "t": 809.4,
+      "video_id": "8hbRcU1K70A"
      }
     ],
-    "text": "In deconstruction, the term is employed to refer to Muslims in contexts of critique, apostasy, or personal transformation, frequently carrying a negative or cautionary tone."
+    "text": "Deconstruction uses \"deity\" to refer to a broader range of supernatural beings, including generic, abstract, or plural deities, and often critiques or questions their nature."
    },
-   "keyness": 5.228862904573728,
-   "surface": "muslim",
+   "keyness": 5.219987005871276,
+   "surface": "deity",
    "verdict": "contested"
+  },
+  {
+   "apol": 86,
+   "apologetics": {
+    "quotes": [
+     {
+      "context": "...ways of thinking not just about [eschatology] but about the church about salvation...",
+      "creator": "counsel-of-trent",
+      "t": 34.48,
+      "video_id": "-I8YttlYqVg"
+     },
+     {
+      "context": "...god's judgment is what theologians call [eschatological] it comes at the end of...",
+      "creator": "drcraigvideos",
+      "t": 76.96,
+      "video_id": "11E__-EnsJE"
+     }
+    ],
+    "text": "Apologetics frames eschatology as a hopeful, doctrinally grounded vision of divine judgment, resurrection, and ultimate glory that underpins Christian theology."
+   },
+   "bar": {
+    "diagnostic": {
+     "assignments": 92378,
+     "is_the_gate": false,
+     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+     "perm_p": 0.003983632466604603,
+     "perm_q": 0.025785229254817944,
+     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+    },
+    "failed": [],
+    "observed": 0.4560553421537067,
+    "passes": true,
+    "percentile": 0.025,
+    "pool_n": 40,
+    "reason": null,
+    "reduced_resolution": false,
+    "statistic": "permanova_pseudo_f + band_percentile",
+    "status": "ok",
+    "thresholds": {
+     "specificity": 0.05,
+     "validity": 0.05
+    },
+    "validity_p": 0.0032634032634032634
+   },
+   "decon": 44,
+   "deconstruction": {
+    "quotes": [
+     {
+      "context": "...believe that that he was god's [eschatological] agent they like to use these...",
+      "creator": "belief-it-or-not",
+      "t": 939.04,
+      "video_id": "5NS6YikMwjI"
+     },
+     {
+      "context": "...singular creation or even a linear [eschatology] but who cares if it's all...",
+      "creator": "mindshift",
+      "t": 1962.56,
+      "video_id": "70ik0WSo-OM"
+     }
+    ],
+    "text": "Deconstruction treats eschatology as a contested, often overemphasized cultural narrative that can be critiqued, reinterpreted, or linked to contemporary social and political contexts."
+   },
+   "keyness": 5.16119489027923,
+   "surface": "eschatology",
+   "verdict": "mixed"
+  },
+  {
+   "apol": 1467,
+   "apologetics": {
+    "quotes": [
+     {
+      "context": "...father who debated and defended the [doctrine] of the natures of christ that...",
+      "creator": "jackie-hill-perry",
+      "t": 4601.24,
+      "video_id": "3Htdc6QXT_Y"
+     },
+     {
+      "context": "...these rivals a text could settle [doctrinal] dispute only if it could be...",
+      "creator": "paulogia",
+      "t": 4930.0,
+      "video_id": "AUXNe9KxI7g"
+     }
+    ],
+    "text": "The term is used to denote foundational theological beliefs that define Christian identity, often presented as authoritative truths, though occasionally critiqued when describing negative doctrines."
+   },
+   "bar": {
+    "diagnostic": {
+     "assignments": 92378,
+     "is_the_gate": false,
+     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+     "perm_p": 0.0009201324990798675,
+     "perm_q": 0.013240508783802504,
+     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+    },
+    "failed": [],
+    "observed": 0.15901303621105145,
+    "passes": true,
+    "percentile": 0.025,
+    "pool_n": 40,
+    "reason": null,
+    "reduced_resolution": false,
+    "statistic": "permanova_pseudo_f + band_percentile",
+    "status": "ok",
+    "thresholds": {
+     "specificity": 0.05,
+     "validity": 0.05
+    },
+    "validity_p": 0.004867681338269573
+   },
+   "decon": 1228,
+   "deconstruction": {
+    "quotes": [
+     {
+      "context": "...excuse and it also justifies the [doctrine] of hell it's not just about...",
+      "creator": "belief-it-or-not",
+      "t": 650.64,
+      "video_id": "5NS6YikMwjI"
+     },
+     {
+      "context": "...group is everyone who follows the [doctrine] that's being taught and the out...",
+      "creator": "genetically-modified-skeptic",
+      "t": 54.8,
+      "video_id": "9XmrU6wly8g"
+     }
+    ],
+    "text": "The term is employed to describe sets of beliefs that are being taught or held, frequently framed as ideological or dogmatic, and is often the target of critique or reevaluation."
+   },
+   "keyness": 5.069749239595487,
+   "surface": "doctrine",
+   "verdict": "contested"
+  },
+  {
+   "apol": 62,
+   "apologetics": {
+    "quotes": [
+     {
+      "context": "...think that's that's well it's really [idolatry] in a sense well if you're...",
+      "creator": "drcraigvideos",
+      "t": 1368.0,
+      "video_id": "LXuK7CMtrRg"
+     },
+     {
+      "context": "...to understand who god is it's [idolatry] it's putting lesser goods in the...",
+      "creator": "reasonable-faith-org",
+      "t": 2765.2,
+      "video_id": "PJZi3NxbKSE"
+     }
+    ],
+    "text": "Apologetics uses idolatry as a theological sin, describing the worship of false gods or placing value on things other than God, often citing scripture and condemning cultural practices."
+   },
+   "bar": {
+    "diagnostic": {
+     "assignments": 92378,
+     "is_the_gate": false,
+     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+     "perm_p": 0.001980991145077832,
+     "perm_q": 0.018868764412102557,
+     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+    },
+    "failed": [],
+    "observed": 0.4494408720508314,
+    "passes": true,
+    "percentile": 0.025,
+    "pool_n": 40,
+    "reason": null,
+    "reduced_resolution": false,
+    "statistic": "permanova_pseudo_f + band_percentile",
+    "status": "ok",
+    "thresholds": {
+     "specificity": 0.05,
+     "validity": 0.05
+    },
+    "validity_p": 0.010643767996709174
+   },
+   "decon": 52,
+   "deconstruction": {
+    "quotes": [
+     {
+      "context": "...religion of abraham and or rejected [idolatry] and polytheism some scholars say that...",
+      "creator": "apostate-aladdin",
+      "t": 1030.68,
+      "video_id": "2oEh2BUK3rA"
+     },
+     {
+      "context": "...they're making is that atheism needs [idolatry] now i think the definition of...",
+      "creator": "mindshift",
+      "t": 81.84,
+      "video_id": "6W4bR37FONw"
+     }
+    ],
+    "text": "Deconstruction uses idolatry as a critique of modern cultural practices, including technology and politics, framing it as a dangerous or pervasive influence beyond traditional religious contexts."
+   },
+   "keyness": 4.897370727497733,
+   "surface": "idolatry",
+   "verdict": "mixed"
   },
   {
    "apol": 58,
@@ -479,20 +743,20 @@
       "video_id": "23hl_fkhiCQ"
      }
     ],
-    "text": "In apologetics, 'dogma' is used to denote an authoritative, often institutionalized doctrine that is presented as true and is central to faith teachings."
+    "text": "Apologetics uses \"dogma\" to refer to established doctrines that can be affirmed or questioned, often as a neutral or positive concept of church teaching."
    },
    "bar": {
     "diagnostic": {
-     "assignments": 75582,
+     "assignments": 92378,
      "is_the_gate": false,
      "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
      "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.014196501812600884,
-     "perm_q": 0.14984628374721254,
+     "perm_p": 0.009645153608001906,
+     "perm_q": 0.04270513421309694,
      "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
     },
     "failed": [],
-    "observed": 0.435161426569037,
+    "observed": 0.42186456005790685,
     "passes": true,
     "percentile": 0.025,
     "pool_n": 40,
@@ -504,61 +768,61 @@
      "specificity": 0.05,
      "validity": 0.05
     },
-    "validity_p": 0.004422048539695599
+    "validity_p": 0.01423282599753188
    },
    "decon": 294,
    "deconstruction": {
     "quotes": [
      {
+      "context": "...good for you were wrapped around [dogmas] and truth claims that i couldn't...",
+      "creator": "britt-hartley",
+      "t": 184.12,
+      "video_id": "2vBz9dvdsRs"
+     },
+     {
       "context": "...very forcibly against that evangelical um [dogma] and that fundamentalism because it does...",
       "creator": "shannon-q",
       "t": 2315.4,
       "video_id": "BO2tb2vLxyw"
-     },
-     {
-      "context": "...god direct action i've learned that [dogma] is a luxury only afforded to...",
-      "creator": "lil-bill",
-      "t": 2594.24,
-      "video_id": "CxhX27nbbsQ"
      }
     ],
-    "text": "In deconstruction, 'dogma' is framed as a restrictive or oppressive belief that is critiqued, resisted, or rejected."
+    "text": "Deconstruction uses \"dogma\" to describe restrictive, oppressive beliefs that are challenged or rejected."
    },
    "keyness": 4.855388876227121,
    "surface": "dogma",
    "verdict": "contested"
   },
   {
-   "apol": 74,
+   "apol": 471,
    "apologetics": {
     "quotes": [
      {
-      "context": "...saved and the reprobation of the [damned] in order to have something to...",
-      "creator": "reasonable-faith-org",
-      "t": 751.64,
-      "video_id": "1yuCmJ-bXhU"
+      "context": "...with the facts of jesus' empty [tomb] postmortem appearances and the origin of...",
+      "creator": "drcraigvideos",
+      "t": 3.2,
+      "video_id": "Vmp3DZKyOD8"
      },
      {
-      "context": "...lucifer not created then to be [damned] it's you could say the same...",
+      "context": "...went down and discovered the empty [tomb] would any man in here invent...",
       "creator": "cross-examined",
-      "t": 5.36,
-      "video_id": "3wdjqBahdnA"
+      "t": 5692.8,
+      "video_id": "grEdq5FbC8k"
      }
     ],
-    "text": "The term is used to describe people condemned to hell, emphasizing judgment."
+    "text": "Apologetics frames the tomb as a concrete, historically verifiable site whose emptiness is presented as proof of Jesus’ resurrection."
    },
    "bar": {
     "diagnostic": {
-     "assignments": 75582,
+     "assignments": 92378,
      "is_the_gate": false,
      "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
      "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.004088274986107803,
-     "perm_q": 0.11897169490179933,
+     "perm_p": 0.0038753815843599127,
+     "perm_q": 0.02548515678265186,
      "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
     },
     "failed": [],
-    "observed": 0.33528005575716757,
+    "observed": 0.27775922126119634,
     "passes": true,
     "percentile": 0.0,
     "pool_n": 40,
@@ -570,193 +834,61 @@
      "specificity": 0.05,
      "validity": 0.05
     },
-    "validity_p": 0.03139636421370168
+    "validity_p": 0.002559531971296677
    },
-   "decon": 3201,
+   "decon": 413,
    "deconstruction": {
     "quotes": [
      {
-      "context": "...i would even say that's pretty [damn] cool give yourself a round of...",
-      "creator": "belief-it-or-not",
-      "t": 3326.28,
-      "video_id": "5NS6YikMwjI"
+      "context": "...did jesus come out of the [tomb] resurrected or whatever it happens to...",
+      "creator": "apostate-aladdin",
+      "t": 7472.84,
+      "video_id": "33GMKO-8zhA"
      },
      {
-      "context": "...that tattooed in an inappropriate plane [damn] right i'm hardcore agnosticism um but...",
+      "context": "...already established women were in the [tomb] but what you do see when...",
       "creator": "shannon-q",
-      "t": 3289.4,
-      "video_id": "7HB7Ij8jkwg"
+      "t": 6364.88,
+      "video_id": "33gZYZk72OA"
      }
     ],
-    "text": "The term is used both to describe condemnation and as a mild profanity, reflecting frustration or casual speech."
+    "text": "Deconstruction uses the tomb both literally and metaphorically, often to question its authenticity, critique the resurrection narrative, or explore symbolic meanings of death and rebirth."
    },
-   "keyness": 4.52313168529679,
-   "surface": "damn",
-   "verdict": "mixed"
-  },
-  {
-   "apol": 111,
-   "apologetics": {
-    "quotes": [
-     {
-      "context": "...christians they're all a pack of [hypocrites] because i knew how empty i...",
-      "creator": "reasonable-faith-org",
-      "t": 75.6,
-      "video_id": "2iIgK2T3XJ8"
-     },
-     {
-      "context": "...contradictions that human beings can be [hypocrites] and commit crimes in the name...",
-      "creator": "drcraigvideos",
-      "t": 262.08,
-      "video_id": "JmTPSjAIFwI"
-     }
-    ],
-    "text": "Apologetics speakers use \"hypocrite\" to label Christian leaders or believers who they perceive as acting inconsistently with their professed faith, emphasizing moral failure."
-   },
-   "bar": {
-    "diagnostic": {
-     "assignments": 75582,
-     "is_the_gate": false,
-     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.15626736524569343,
-     "perm_q": 0.3376185675959988,
-     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
-    },
-    "failed": [],
-    "observed": 0.3897265267867592,
-    "passes": true,
-    "percentile": 0.0,
-    "pool_n": 40,
-    "reason": null,
-    "reduced_resolution": false,
-    "statistic": "permanova_pseudo_f + band_percentile",
-    "status": "ok",
-    "thresholds": {
-     "specificity": 0.05,
-     "validity": 0.05
-    },
-    "validity_p": 0.022081977190336322
-   },
-   "decon": 184,
-   "deconstruction": {
-    "quotes": [
-     {
-      "context": "...when atreus rightfully points out how [hypocritical] it is for kradles to demand...",
-      "creator": "lil-bill",
-      "t": 2714.44,
-      "video_id": "6YPADyrcJYM"
-     },
-     {
-      "context": "...in advance and uh it's pretty [hypocritical] i mean no one's offered me...",
-      "creator": "belief-it-or-not",
-      "t": 2748.32,
-      "video_id": "N012FuydIUg"
-     }
-    ],
-    "text": "Deconstruction writers use \"hypocrite\" to critique religious or political figures and sometimes to reflect on their own inconsistencies, highlighting perceived double standards."
-   },
-   "keyness": 4.3803649637589475,
-   "surface": "hypocrite",
-   "verdict": "convergent"
-  },
-  {
-   "apol": 870,
-   "apologetics": {
-    "quotes": [
-     {
-      "context": "...the teaching that there is an [eternal] unchangeable god with no shadow or...",
-      "creator": "capturing-christianity",
-      "t": 4753.48,
-      "video_id": "FkDS9IeyBf0"
-     },
-     {
-      "context": "...key that unlocks the door to [eternal] life jesus said i am the...",
-      "creator": "drcraigvideos",
-      "t": 110.4,
-      "video_id": "T4bPn8SpZCY"
-     }
-    ],
-    "text": "They employ 'eternal' to describe God's unchanging, infinite nature and the everlasting life promised to believers, framing it as a positive, divine attribute."
-   },
-   "bar": {
-    "diagnostic": {
-     "assignments": 75582,
-     "is_the_gate": false,
-     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 9.261464369823503e-05,
-     "perm_q": 0.08073350797809002,
-     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
-    },
-    "failed": [],
-    "observed": 0.17733948009727957,
-    "passes": true,
-    "percentile": 0.025,
-    "pool_n": 40,
-    "reason": null,
-    "reduced_resolution": false,
-    "statistic": "permanova_pseudo_f + band_percentile",
-    "status": "ok",
-    "thresholds": {
-     "specificity": 0.05,
-     "validity": 0.05
-    },
-    "validity_p": 2.2852964029434616e-05
-   },
-   "decon": 1049,
-   "deconstruction": {
-    "quotes": [
-     {
-      "context": "...is so good people say an [eternity] in hell um that that's an...",
-      "creator": "shannon-q",
-      "t": 4195.48,
-      "video_id": "MlYVCU9Jb2Y"
-     },
-     {
-      "context": "...the flames of tartarus for all [eternity] imagine if you will if president...",
-      "creator": "lil-bill",
-      "t": 60.56,
-      "video_id": "R7HogUbnF6c"
-     }
-    ],
-    "text": "They use 'eternal' to describe unending punishment or suffering, portraying it as a negative, fear‑inducing consequence of divine judgment."
-   },
-   "keyness": 4.361875005576369,
-   "surface": "eternal",
+   "keyness": 4.563399994724181,
+   "surface": "tomb",
    "verdict": "contested"
   },
   {
-   "apol": 677,
+   "apol": 180,
    "apologetics": {
     "quotes": [
      {
-      "context": "...are doing evil are therefore then [punishing] the innocent people who they are...",
-      "creator": "cross-examined",
-      "t": 1147.76,
-      "video_id": "E7bioS8cjPM"
+      "context": "...naked i came from my mother's [womb] and naked i shall shall i...",
+      "creator": "mike-winger",
+      "t": 628.44,
+      "video_id": "ERpEfcUxVYg"
      },
      {
-      "context": "...deserves death deserves eternal condemnation deserves [punishment] and do you know why it's...",
-      "creator": "jackie-hill-perry",
-      "t": 270.4,
-      "video_id": "Gq0oXeDT10M"
+      "context": "...quran jesus comes out of mary's [womb] talking and expounding islamic theology here's...",
+      "creator": "drcraigvideos",
+      "t": 166.28,
+      "video_id": "fmk2RlO89H0"
      }
     ],
-    "text": "Apologetics frames punishment as a divinely ordained, morally justified consequence—often eternal or capital—that serves to correct sin and uphold justice."
+    "text": "Apologetics frames the womb as a literal, sacred space of divine creation and birth, emphasizing its role in God's plan."
    },
    "bar": {
     "diagnostic": {
-     "assignments": 75582,
+     "assignments": 92378,
      "is_the_gate": false,
      "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
      "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.004022121669180492,
-     "perm_q": 0.11897169490179933,
+     "perm_p": 0.0005087791465500443,
+     "perm_q": 0.011300808180424844,
      "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
     },
     "failed": [],
-    "observed": 0.1686062580190727,
+    "observed": 0.4219395832577302,
     "passes": true,
     "percentile": 0.025,
     "pool_n": 40,
@@ -768,61 +900,193 @@
      "specificity": 0.05,
      "validity": 0.05
     },
-    "validity_p": 0.001005530417295123
+    "validity_p": 0.006170300287947347
    },
-   "decon": 1599,
+   "decon": 65,
    "deconstruction": {
     "quotes": [
      {
-      "context": "...were made either through debt relief [punishment] for crime or apprenticeship or just...",
+      "context": "...we keep people trapped in their [womb] we keep people trapped in their...",
+      "creator": "darante-lamar",
+      "t": 6475.24,
+      "video_id": "4j1nFH4vNkg"
+     },
+     {
+      "context": "...is dead and so is her [womb] and watch the looks on the...",
+      "creator": "shannon-q",
+      "t": 3625.12,
+      "video_id": "NA5GLk-2Uu4"
+     }
+    ],
+    "text": "Deconstruction uses the womb metaphorically to critique socialization, gender identity, and oppression, portraying it as a site of confinement or trauma."
+   },
+   "keyness": 4.29091428049199,
+   "surface": "womb",
+   "verdict": "contested"
+  },
+  {
+   "apol": 643,
+   "apologetics": {
+    "quotes": [
+     {
+      "context": "...father in his divinity new testament [scholars] seem to have reached something of...",
+      "creator": "drcraigvideos",
+      "t": 39.76,
+      "video_id": "1op3QM5RUKk"
+     },
+     {
+      "context": "...he's trying to weaponize all these [scholars] the guys i tried to weaponize...",
+      "creator": "capturing-christianity",
+      "t": 2496.04,
+      "video_id": "FkDS9IeyBf0"
+     }
+    ],
+    "text": "Apologetics frames scholars as authoritative, credible experts whose consensus supports biblical claims."
+   },
+   "bar": {
+    "diagnostic": {
+     "assignments": 92378,
+     "is_the_gate": false,
+     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+     "perm_p": 0.0005087791465500443,
+     "perm_q": 0.011300808180424844,
+     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+    },
+    "failed": [],
+    "observed": 0.2721507735456788,
+    "passes": true,
+    "percentile": 0.0,
+    "pool_n": 40,
+    "reason": null,
+    "reduced_resolution": false,
+    "statistic": "permanova_pseudo_f + band_percentile",
+    "status": "ok",
+    "thresholds": {
+     "specificity": 0.05,
+     "validity": 0.05
+    },
+    "validity_p": 0.0006993006993006993
+   },
+   "decon": 1199,
+   "deconstruction": {
+    "quotes": [
+     {
+      "context": "...revolutionary for the time by many [scholars] that being said slavery in a...",
       "creator": "lil-bill",
-      "t": 577.48,
+      "t": 276.16,
       "video_id": "07bcjW-01wg"
      },
      {
-      "context": "...that it's not just accountability and [punishment] but it's also like some path...",
+      "context": "...gender essentialist um i'm not a [scholar] on gender and biology versus culture...",
       "creator": "britt-hartley",
-      "t": 1189.64,
+      "t": 76.24,
       "video_id": "2HPvoIMzX0k"
      }
     ],
-    "text": "Deconstruction portrays punishment as a socially constructed, often oppressive mechanism that can be arbitrary, unjust, and used to maintain power, highlighting its role in systemic control rather than moral retribution."
+    "text": "Deconstruction references scholars as a scholarly community, often highlighting their methodological limits or using them to question traditional narratives."
    },
-   "keyness": 4.084489782677392,
-   "surface": "punishment",
+   "keyness": 4.080682175147958,
+   "surface": "scholars",
    "verdict": "contested"
   },
   {
-   "apol": 356,
+   "apol": 567,
    "apologetics": {
     "quotes": [
      {
-      "context": "...free gift following many trespasses brings [justification] if because of one man's trespass...",
-      "creator": "reasonable-faith-org",
-      "t": 223.24,
-      "video_id": "1yuCmJ-bXhU"
+      "context": "...evil exists and we can only [affirm] that i believe in the christian...",
+      "creator": "jude-3-project",
+      "t": 666.32,
+      "video_id": "HoruMwT2k6w"
      },
      {
-      "context": "...to anchor your sanctification and your [justification] since you have been justified you...",
-      "creator": "jackie-hill-perry",
-      "t": 393.64,
-      "video_id": "3Htdc6QXT_Y"
+      "context": "...domination in order to acknowledge and [affirm] the true genius of women in...",
+      "creator": "counsel-of-trent",
+      "t": 713.28,
+      "video_id": "PgwKJ9wm9oM"
      }
     ],
-    "text": "In apologetics, 'justification' is employed as a theological concept that affirms the grounds for salvation, faith, and church authority, presenting it as a positive doctrinal rationale."
+    "text": "The apologetics community uses \"affirming\" mainly as a positive act of endorsing or supporting religious truth, belief, or life, often to reassure or strengthen faith."
    },
    "bar": {
     "diagnostic": {
-     "assignments": 75582,
+     "assignments": 92378,
      "is_the_gate": false,
      "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
      "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.005980259850228891,
-     "perm_q": 0.12866902834008098,
+     "perm_p": 0.0002165017644893806,
+     "perm_q": 0.009893338557538512,
      "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
     },
     "failed": [],
-    "observed": 0.23489785193357804,
+    "observed": 0.2639129999036302,
+    "passes": true,
+    "percentile": 0.0,
+    "pool_n": 40,
+    "reason": null,
+    "reduced_resolution": false,
+    "statistic": "permanova_pseudo_f + band_percentile",
+    "status": "ok",
+    "thresholds": {
+     "specificity": 0.05,
+     "validity": 0.05
+    },
+    "validity_p": 0.0013206607633852215
+   },
+   "decon": 945,
+   "deconstruction": {
+    "quotes": [
+     {
+      "context": "...one time because they're also lgbtq [affirming] and they will uh ordain gay...",
+      "creator": "belief-it-or-not",
+      "t": 1367.52,
+      "video_id": "9g8ip2cPdZo"
+     },
+     {
+      "context": "...be nice if you could actually [affirm] the doctrine of the trinity or...",
+      "creator": "mindshift",
+      "t": 5275.2,
+      "video_id": "Ru7gzPPSsa8"
+     }
+    ],
+    "text": "In the deconstruction community, \"affirming\" appears in a range of contexts—from legal affirmation and personal belief to describing inclusive attitudes and even endorsing controversial claims—showing a more varied and sometimes neutral or critical use."
+   },
+   "keyness": 3.7608381229496475,
+   "surface": "affirming",
+   "verdict": "contested"
+  },
+  {
+   "apol": 58,
+   "apologetics": {
+    "quotes": [
+     {
+      "context": "...and this is an enlightenment era [thinker] who was dealing with some things...",
+      "creator": "paulogia",
+      "t": 2292.52,
+      "video_id": "B9ciYnZeLGM"
+     },
+     {
+      "context": "...of the best african american christian [thinkers] are worried about addressing white evangelical...",
+      "creator": "jude-3-project",
+      "t": 491.6,
+      "video_id": "MAjboHYQvMI"
+     }
+    ],
+    "text": "In apologetics, \"thinkers\" is used to denote Christian intellectuals or scholars who engage in theological or philosophical reflection within a Christian context."
+   },
+   "bar": {
+    "diagnostic": {
+     "assignments": 92378,
+     "is_the_gate": false,
+     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+     "perm_p": 0.047348935893827535,
+     "perm_q": 0.11448006045151707,
+     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+    },
+    "failed": [],
+    "observed": 0.3768871290448123,
     "passes": true,
     "percentile": 0.025,
     "pool_n": 40,
@@ -834,28 +1098,28 @@
      "specificity": 0.05,
      "validity": 0.05
     },
-    "validity_p": 0.0006398829928241693
+    "validity_p": 0.005018510900863842
    },
-   "decon": 361,
+   "decon": 299,
    "deconstruction": {
     "quotes": [
      {
-      "context": "...it race was literally the only [justification] european colonizers have for subjugating an...",
-      "creator": "lil-bill",
-      "t": 657.04,
-      "video_id": "07bcjW-01wg"
+      "context": "...that attend camp quest are free [thinkers] religious kids are totally welcome too...",
+      "creator": "genetically-modified-skeptic",
+      "t": 151.48,
+      "video_id": "9XmrU6wly8g"
      },
      {
-      "context": "...instead they create spiritual and moral [justification] for the system of imperialism itself...",
-      "creator": "genetically-modified-skeptic",
-      "t": 1347.52,
-      "video_id": "5NPU6cBUWGU"
+      "context": "...muslim uh a skeptic a critical [thinker] a thousand years ago using the...",
+      "creator": "apostate-aladdin",
+      "t": 1676.44,
+      "video_id": "KTSyJy0zE0k"
      }
     ],
-    "text": "In deconstruction, 'justification' is used to critique the rationales behind harmful or oppressive actions, portraying it as a negative justification that supports violence, colonization, or systemic injustice."
+    "text": "In deconstruction, \"thinkers\" refers to free or critical thinkers who question established beliefs and explore alternative perspectives, often outside a strictly Christian framework."
    },
-   "keyness": 3.8080663256011857,
-   "surface": "justification",
+   "keyness": 3.7358005927745426,
+   "surface": "thinkers",
    "verdict": "mixed"
   },
   {
@@ -863,32 +1127,296 @@
    "apologetics": {
     "quotes": [
      {
-      "context": "...scheme of things that the holy [transcendent] omnipotent high and lifted up god...",
-      "creator": "jackie-hill-perry",
-      "t": 1244.04,
-      "video_id": "5ALRUMILjZ8"
+      "context": "...moral truths that are that are [transcendent] of time place and matter okay...",
+      "creator": "counsel-of-trent",
+      "t": 0.08,
+      "video_id": "QcVjw-KUChg"
      },
      {
-      "context": "...genesis were actually about a perfect [transcendent] god concerned over deep spiritual problems...",
-      "creator": "prophet-of-zod",
-      "t": 192.12,
-      "video_id": "7nh-jPRF0Z0"
+      "context": "...1 god is described as the [transcendent] creator of all physical reality he...",
+      "creator": "reasonable-faith-org",
+      "t": 1078.24,
+      "video_id": "ScCSXoD8gJ0"
      }
     ],
-    "text": "Apologetics employs 'transcendent' to characterize God as a supernatural, eternal, and beyond‑physical cause that surpasses all material limits."
+    "text": "Apologetics uses 'transcendent' to describe God as a being that surpasses physical reality, time, and moral limits, framing it as a positive, divine attribute."
    },
    "bar": {
     "diagnostic": {
-     "assignments": 75582,
+     "assignments": 92378,
      "is_the_gate": false,
      "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
      "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.005768569236061496,
-     "perm_q": 0.12866902834008098,
+     "perm_p": 4.330035289787612e-05,
+     "perm_q": 0.009657782877597118,
      "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
     },
     "failed": [],
-    "observed": 0.35985740761561635,
+    "observed": 0.3743277545699646,
+    "passes": true,
+    "percentile": 0.0,
+    "pool_n": 40,
+    "reason": null,
+    "reduced_resolution": false,
+    "statistic": "permanova_pseudo_f + band_percentile",
+    "status": "ok",
+    "thresholds": {
+     "specificity": 0.05,
+     "validity": 0.05
+    },
+    "validity_p": 0.0010969422734128616
+   },
+   "decon": 270,
+   "deconstruction": {
+    "quotes": [
+     {
+      "context": "...is no meaning to existence that [transcends] all of us in other words...",
+      "creator": "apostate-aladdin",
+      "t": 833.16,
+      "video_id": "OUTVOB6aqAY"
+     },
+     {
+      "context": "...would recognize that as an objective [transcendent] moral truth claim do you think...",
+      "creator": "belief-it-or-not",
+      "t": 652.0,
+      "video_id": "Yl--T2xjJRU"
+     }
+    ],
+    "text": "Deconstruction employs 'transcendent' to refer to experiences, social phenomena, or moral claims that go beyond ordinary limits, often in a neutral or critical context."
+   },
+   "keyness": 3.6735952223250266,
+   "surface": "transcendent",
+   "verdict": "contested"
+  },
+  {
+   "apol": 89,
+   "apologetics": {
+    "quotes": [
+     {
+      "context": "...i think it's not at all [improbable] that only in a world pervaded...",
+      "creator": "drcraigvideos",
+      "t": 126.36,
+      "video_id": "4WkHPbzLifM"
+     },
+     {
+      "context": "...idea that life is so astronomically [improbable] that we believe that it was...",
+      "creator": "mike-winger",
+      "t": 2435.56,
+      "video_id": "4ZBiNSa-FYo"
+     }
+    ],
+    "text": "Apologetics speakers use \"improbable\" to describe events or phenomena that seem unlikely under naturalistic explanations, then argue that this improbability actually supports the existence of God or a divine purpose."
+   },
+   "bar": {
+    "diagnostic": {
+     "assignments": 92378,
+     "is_the_gate": false,
+     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+     "perm_p": 0.001472211998527788,
+     "perm_q": 0.016017786236014735,
+     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+    },
+    "failed": [],
+    "observed": 0.49311172033588196,
+    "passes": true,
+    "percentile": 0.0,
+    "pool_n": 40,
+    "reason": null,
+    "reduced_resolution": false,
+    "statistic": "permanova_pseudo_f + band_percentile",
+    "status": "ok",
+    "thresholds": {
+     "specificity": 0.05,
+     "validity": 0.05
+    },
+    "validity_p": 0.0033730974907445494
+   },
+   "decon": 47,
+   "deconstruction": {
+    "quotes": [
+     {
+      "context": "...riddled with senseless suffering isn't just [improbable] it's incoherent the idea of all...",
+      "creator": "darante-lamar",
+      "t": 62.56,
+      "video_id": "-VPDkGpKEmM"
+     },
+     {
+      "context": "...mean things that are just too [improbable] i mean i think that there's...",
+      "creator": "shannon-q",
+      "t": 1258.84,
+      "video_id": "2UiCTybyIfM"
+     }
+    ],
+    "text": "Deconstruction speakers use \"improbable\" to highlight the unlikely nature of miracles, afterlife claims, and other faith-based assertions, often to critique or question their plausibility, while occasionally noting awe at improbable events."
+   },
+   "keyness": 3.646881483771008,
+   "surface": "improbable",
+   "verdict": "contested"
+  },
+  {
+   "apol": 70,
+   "apologetics": {
+    "quotes": [
+     {
+      "context": "...of nazareth from the dead thereby [vindicating] his person and work and that...",
+      "creator": "reasonable-faith-org",
+      "t": 2972.8,
+      "video_id": "3AAr-khbGTs"
+     },
+     {
+      "context": "...discards all discussion and considers christianity [vindicated] this is a telling example of...",
+      "creator": "prophet-of-zod",
+      "t": 550.52,
+      "video_id": "GqyP7XwntRE"
+     }
+    ],
+    "text": "Apologetics uses \"vindicated\" to affirm divine claims, justify actions, and validate religious narratives."
+   },
+   "bar": {
+    "diagnostic": {
+     "assignments": 92378,
+     "is_the_gate": false,
+     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+     "perm_p": 0.0006386802052436727,
+     "perm_q": 0.01194777263207891,
+     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+    },
+    "failed": [],
+    "observed": 0.6152235944858525,
+    "passes": true,
+    "percentile": 0.0,
+    "pool_n": 40,
+    "reason": null,
+    "reduced_resolution": false,
+    "statistic": "permanova_pseudo_f + band_percentile",
+    "status": "ok",
+    "thresholds": {
+     "specificity": 0.05,
+     "validity": 0.05
+    },
+    "validity_p": 0.04684286301933361
+   },
+   "decon": 41,
+   "deconstruction": {
+    "quotes": [
+     {
+      "context": "...each other as enemies and feel [vindicated] in pointing to the bad person...",
+      "creator": "shannon-q",
+      "t": 2678.6,
+      "video_id": "-XP26OKoT8I"
+     },
+     {
+      "context": "...feel well pleased will he feel [vindicated] he proved his point blessed is...",
+      "creator": "apostate-aladdin",
+      "t": 149.64,
+      "video_id": "9xnbyIQWeLo"
+     }
+    ],
+    "text": "Deconstruction uses \"vindicated\" to express moral justification, validate victims’ positions, and reinforce personal or collective claims of righteousness."
+   },
+   "keyness": 3.6307967534993457,
+   "surface": "vindicated",
+   "verdict": "convergent"
+  },
+  {
+   "apol": 197,
+   "apologetics": {
+    "quotes": [
+     {
+      "context": "...moral god exists he's transcendent he's [timeless] he's powerful he's intelligent he's personal...",
+      "creator": "mike-winger",
+      "t": 100.4,
+      "video_id": "3n8fBNhNEHM"
+     },
+     {
+      "context": "...that it contains is a transcendent [timeless] truth so it's true but you...",
+      "creator": "paulogia",
+      "t": 825.48,
+      "video_id": "ArFBmZCJVPc"
+     }
+    ],
+    "text": "Apologetics employs \"timeless\" to characterize God and divine truths as eternal, transcendent, and unchanging."
+   },
+   "bar": {
+    "diagnostic": {
+     "assignments": 92378,
+     "is_the_gate": false,
+     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+     "perm_p": 0.0004763038818766373,
+     "perm_q": 0.011085455129067997,
+     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+    },
+    "failed": [],
+    "observed": 0.4547654012990686,
+    "passes": true,
+    "percentile": 0.0,
+    "pool_n": 40,
+    "reason": null,
+    "reduced_resolution": false,
+    "statistic": "permanova_pseudo_f + band_percentile",
+    "status": "ok",
+    "thresholds": {
+     "specificity": 0.05,
+     "validity": 0.05
+    },
+    "validity_p": 0.002097902097902098
+   },
+   "decon": 92,
+   "deconstruction": {
+    "quotes": [
+     {
+      "context": "...like the scripture and advice is [timeless] and that's not really a concern...",
+      "creator": "britt-hartley",
+      "t": 1009.24,
+      "video_id": "JeBzZUdQvI8"
+     },
+     {
+      "context": "...oh my god yeah the material's [timeless] too cognition um yeah so uh...",
+      "creator": "shannon-q",
+      "t": 347.8,
+      "video_id": "YjeARdY-Wjw"
+     }
+    ],
+    "text": "Deconstruction uses \"timeless\" in a variety of contexts—ranging from cultural artifacts to philosophical critiques—often as a neutral or even skeptical descriptor."
+   },
+   "keyness": 3.403980885623618,
+   "surface": "timeless",
+   "verdict": "contested"
+  },
+  {
+   "apol": 826,
+   "apologetics": {
+    "quotes": [
+     {
+      "context": "...verses 1 to 7 the principal [passage] in the new testament which reflects...",
+      "creator": "reasonable-faith-org",
+      "t": 151.0,
+      "video_id": "1yuCmJ-bXhU"
+     },
+     {
+      "context": "...either way because this is the [passage] where jesus says you know feed...",
+      "creator": "capturing-christianity",
+      "t": 1062.2,
+      "video_id": "FbmQQDkM8Bk"
+     }
+    ],
+    "text": "Apologetics uses \"passage\" to refer to specific biblical texts that support doctrinal points and are cited as evidence for faith."
+   },
+   "bar": {
+    "diagnostic": {
+     "assignments": 92378,
+     "is_the_gate": false,
+     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+     "perm_p": 0.00012990105869362836,
+     "perm_q": 0.009893338557538512,
+     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+    },
+    "failed": [],
+    "observed": 0.15634801415134886,
     "passes": true,
     "percentile": 0.025,
     "pool_n": 40,
@@ -900,29 +1428,95 @@
      "specificity": 0.05,
      "validity": 0.05
     },
-    "validity_p": 2.2852964029434616e-05
+    "validity_p": 0.00020567667626491157
    },
-   "decon": 270,
+   "decon": 558,
    "deconstruction": {
     "quotes": [
      {
-      "context": "...spirituality meaning purpose morality community awe [transcendence] contemplation ritual things that we know...",
-      "creator": "britt-hartley",
-      "t": 184.12,
-      "video_id": "2vBz9dvdsRs"
+      "context": "...and over again they're obsessing over [passages] they're quoting passages to each other...",
+      "creator": "belief-it-or-not",
+      "t": 2582.8,
+      "video_id": "319krS9d7d4"
      },
      {
-      "context": "...to attract buyers he claims a [transcendently] superior moral system while profiting off...",
+      "context": "...power of wealth has made those [passages] all but irrelevant in many christian...",
       "creator": "genetically-modified-skeptic",
-      "t": 231.6,
+      "t": 756.28,
       "video_id": "5NPU6cBUWGU"
      }
     ],
-    "text": "Deconstruction uses 'transcendent' to refer to experiences, moral claims, or social phenomena that exceed ordinary boundaries, often in a reflective or critical context."
+    "text": "Deconstruction uses \"passage\" to refer to biblical texts that are scrutinized, critiqued, or highlighted as problematic, often to challenge traditional interpretations."
    },
-   "keyness": 3.6735952223250266,
-   "surface": "transcendent",
+   "keyness": 3.2788979010826202,
+   "surface": "passage",
    "verdict": "contested"
+  },
+  {
+   "apol": 3370,
+   "apologetics": {
+    "quotes": [
+     {
+      "context": "...even define evil for evil to [exist] an absolute truth must exist so...",
+      "creator": "jude-3-project",
+      "t": 568.28,
+      "video_id": "0JJZpYEfYzc"
+     },
+     {
+      "context": "...truth claim that the person still [exists] after pressing me with this line...",
+      "creator": "prophet-of-zod",
+      "t": 41.76,
+      "video_id": "Wa12j_CCot0"
+     }
+    ],
+    "text": "Apologetics uses \"exist\" to affirm the reality of divine and moral entities, asserting that God, evil, and other concepts have actual presence."
+   },
+   "bar": {
+    "diagnostic": {
+     "assignments": 92378,
+     "is_the_gate": false,
+     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+     "perm_p": 0.0004871289701011063,
+     "perm_q": 0.011143595627996675,
+     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+    },
+    "failed": [],
+    "observed": 0.10064717141424775,
+    "passes": true,
+    "percentile": 0.025,
+    "pool_n": 40,
+    "reason": null,
+    "reduced_resolution": false,
+    "statistic": "permanova_pseudo_f + band_percentile",
+    "status": "ok",
+    "thresholds": {
+     "specificity": 0.05,
+     "validity": 0.05
+    },
+    "validity_p": 0.0009093074108553985
+   },
+   "decon": 6240,
+   "deconstruction": {
+    "quotes": [
+     {
+      "context": "...same thing while the practice did [exist] in the american south the scale...",
+      "creator": "lil-bill",
+      "t": 418.6,
+      "video_id": "07bcjW-01wg"
+     },
+     {
+      "context": "...all the anti slavery societies that [existed] were in the south but slavery...",
+      "creator": "belief-it-or-not",
+      "t": 3752.2,
+      "video_id": "0I3fIHhshBY"
+     }
+    ],
+    "text": "Deconstruction uses \"exist\" to describe or question the presence of various phenomena, often highlighting social or cultural realities."
+   },
+   "keyness": 3.2332446775342296,
+   "surface": "exist",
+   "verdict": "convergent"
   },
   {
    "apol": 420,
@@ -941,20 +1535,20 @@
       "video_id": "IK_6-QJfSTY"
      }
     ],
-    "text": "In apologetics, 'creator' is used to denote the divine being who fashioned the universe, framing it as a reverential, theological concept."
+    "text": "In apologetics, the term \"creator\" is used to refer to God as the divine originator of the universe, expressed with reverence and authority."
    },
    "bar": {
     "diagnostic": {
-     "assignments": 75582,
+     "assignments": 92378,
      "is_the_gate": false,
      "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
      "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.0008467624566695774,
-     "perm_q": 0.09785879754920002,
+     "perm_p": 0.00017320141159150447,
+     "perm_q": 0.009893338557538512,
      "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
     },
     "failed": [],
-    "observed": 0.23696675088105695,
+    "observed": 0.2287920364965097,
     "passes": true,
     "percentile": 0.0,
     "pool_n": 40,
@@ -966,61 +1560,61 @@
      "specificity": 0.05,
      "validity": 0.05
     },
-    "validity_p": 3.9691990156386444e-05
+    "validity_p": 2.165017644893806e-05
    },
    "decon": 839,
    "deconstruction": {
     "quotes": [
      {
-      "context": "...we know that we are a [creator] of that realm and we know...",
-      "creator": "shannon-q",
-      "t": 2249.48,
-      "video_id": "9j-fp_dHCcQ"
-     },
-     {
       "context": "...to try and to platform black [creators] that somehow manage to be smaller...",
       "creator": "lil-bill",
       "t": 2475.24,
       "video_id": "NuxPuCOuY1M"
+     },
+     {
+      "context": "...revelation i don't claim that the [creator] of the universe the wisest and...",
+      "creator": "genetically-modified-skeptic",
+      "t": 107.36,
+      "video_id": "YaKwahbX9hM"
      }
     ],
-    "text": "In deconstruction, 'creator' is primarily used to refer to individuals who produce content, though it occasionally denotes a deity, reflecting a broader, more secular or mixed usage."
+    "text": "In deconstruction, \"creator\" is employed both to denote God and to describe human content creators, reflecting a broader, more secular or pluralistic usage."
    },
    "keyness": 3.223586696656324,
    "surface": "creator",
    "verdict": "contested"
   },
   {
-   "apol": 178,
+   "apol": 86,
    "apologetics": {
     "quotes": [
      {
-      "context": "...i don't mean this negatively a [myth] that is to say it is...",
-      "creator": "reasonable-faith-org",
-      "t": 870.8,
-      "video_id": "1yuCmJ-bXhU"
+      "context": "...and that's the massive textual evidence [attesting] to the life and death of...",
+      "creator": "prophet-of-zod",
+      "t": 429.4,
+      "video_id": "6ibcKbvlx3I"
      },
      {
-      "context": "...very unfortunate they also have a [myth] of neutrality this has not helped...",
-      "creator": "mike-winger",
-      "t": 469.84,
-      "video_id": "5hItK8IY-Us"
+      "context": "...the contrary we have multiple independent [attestation] of physical appearances indeed our sources...",
+      "creator": "drcraigvideos",
+      "t": 42.8,
+      "video_id": "7Egyhp2cOIw"
      }
     ],
-    "text": "They use 'myth' to label narratives that are not literally true, often critiquing them as misleading or false."
+    "text": "Apologetics uses \"attested\" to affirm the historical veracity of biblical events, citing multiple independent attestations as evidence."
    },
    "bar": {
     "diagnostic": {
-     "assignments": 75582,
+     "assignments": 92378,
      "is_the_gate": false,
      "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
      "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.015149109576354158,
-     "perm_q": 0.15220469041891727,
+     "perm_p": 0.002197492909567213,
+     "perm_q": 0.019836727731725616,
      "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
     },
     "failed": [],
-    "observed": 0.23769239208667103,
+    "observed": 0.42292261466823455,
     "passes": true,
     "percentile": 0.025,
     "pool_n": 40,
@@ -1032,7 +1626,73 @@
      "specificity": 0.05,
      "validity": 0.05
     },
-    "validity_p": 0.0021710315827962886
+    "validity_p": 0.025574425574425574
+   },
+   "decon": 86,
+   "deconstruction": {
+    "quotes": [
+     {
+      "context": "...possibly didn't happen or it's not [attested] outside of the bible so you...",
+      "creator": "shannon-q",
+      "t": 5496.08,
+      "video_id": "2RXRI0kuy1g"
+     },
+     {
+      "context": "...these words this jesus a man [attested] to you by miracles and wonders...",
+      "creator": "shannon-q",
+      "t": 3308.36,
+      "video_id": "33gZYZk72OA"
+     }
+    ],
+    "text": "Deconstruction uses \"attested\" to question the historical reliability of biblical claims, pointing out the lack of attestation outside scripture or using it to challenge the authenticity of events."
+   },
+   "keyness": 3.189986919281082,
+   "surface": "attested",
+   "verdict": "mixed"
+  },
+  {
+   "apol": 178,
+   "apologetics": {
+    "quotes": [
+     {
+      "context": "...very unfortunate they also have a [myth] of neutrality this has not helped...",
+      "creator": "mike-winger",
+      "t": 469.84,
+      "video_id": "5hItK8IY-Us"
+     },
+     {
+      "context": "...being at all it's an origin [myth] about why snakes don't have legs...",
+      "creator": "prophet-of-zod",
+      "t": 224.6,
+      "video_id": "GJOETBYoMHI"
+     }
+    ],
+    "text": "Apologetics speakers use \"myth\" to label narratives that are not literally true but serve symbolic or metaphorical purposes, framing them as non‑literal stories rather than factual claims."
+   },
+   "bar": {
+    "diagnostic": {
+     "assignments": 92378,
+     "is_the_gate": false,
+     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
+     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
+     "perm_p": 0.0020892420273225226,
+     "perm_q": 0.019315565755194237,
+     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
+    },
+    "failed": [],
+    "observed": 0.23636018011003346,
+    "passes": true,
+    "percentile": 0.025,
+    "pool_n": 40,
+    "reason": null,
+    "reduced_resolution": false,
+    "statistic": "permanova_pseudo_f + band_percentile",
+    "status": "ok",
+    "thresholds": {
+     "specificity": 0.05,
+     "validity": 0.05
+    },
+    "validity_p": 0.0030622971799442386
    },
    "decon": 780,
    "deconstruction": {
@@ -1044,17 +1704,17 @@
       "video_id": "07bcjW-01wg"
      },
      {
-      "context": "...a helpful illusion that uses collective [myth] to create communities that improve well...",
-      "creator": "britt-hartley",
-      "t": 83.76,
-      "video_id": "0YlRaKPNVmI"
+      "context": "...said all of this was a [myth] and that the atlantis truthers were...",
+      "creator": "genetically-modified-skeptic",
+      "t": 3312.04,
+      "video_id": "LS6CNpSwpEs"
      }
     ],
-    "text": "They use 'myth' to refer to widely held but false or harmful beliefs, often challenging them."
+    "text": "Deconstruction speakers use \"myth\" to denote false or harmful narratives that mislead or perpetuate injustice, positioning them as dangerous myths that need to be dispelled."
    },
    "keyness": 3.1812247391841604,
    "surface": "myth",
-   "verdict": "convergent"
+   "verdict": "contested"
   },
   {
    "apol": 2942,
@@ -1073,20 +1733,20 @@
       "video_id": "IK_6-QJfSTY"
      }
     ],
-    "text": "The apologetics community uses \"man\" as a generic reference to a human being, often in contexts discussing identity, moral responsibility, or theological arguments."
+    "text": "In apologetics, \"man\" is used as a generic reference to a person, often in conversational or illustrative contexts to discuss human nature or identity."
    },
    "bar": {
     "diagnostic": {
-     "assignments": 75582,
+     "assignments": 92378,
      "is_the_gate": false,
      "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
      "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.014249424466142732,
-     "perm_q": 0.14984628374721254,
+     "perm_p": 0.002922773820606638,
+     "perm_q": 0.02225548828123376,
      "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
     },
     "failed": [],
-    "observed": 0.10604536394757916,
+    "observed": 0.11113048678813438,
     "passes": true,
     "percentile": 0.025,
     "pool_n": 40,
@@ -1098,7 +1758,7 @@
      "specificity": 0.05,
      "validity": 0.05
     },
-    "validity_p": 0.0006350718425021831
+    "validity_p": 0.0008227067050596463
    },
    "decon": 12097,
    "deconstruction": {
@@ -1116,701 +1776,42 @@
       "video_id": "1ROzhkshrYE"
      }
     ],
-    "text": "The deconstruction community uses \"man\" as a generic reference to a human being, frequently specifying gender or social role, and sometimes as a target of critique."
+    "text": "In deconstruction, \"man\" similarly functions as a generic term for a person, frequently employed to examine social roles, identity, or critique, but without a distinct shift in valence compared to apologetics."
    },
    "keyness": 3.0691852331787763,
    "surface": "man",
-   "verdict": "convergent"
-  },
-  {
-   "apol": 17,
-   "apologetics": {
-    "quotes": [
-     {
-      "context": "...say that is that paul had [egalitarian] communities at least the beginnings of...",
-      "creator": "jude-3-project",
-      "t": 1917.68,
-      "video_id": "6T7aIWBWjGs"
-     },
-     {
-      "context": "...tension indulgent fever pitch and soul [egalitarianism] odd to think he must be...",
-      "creator": "prophet-of-zod",
-      "t": 53.92,
-      "video_id": "HGqzM9tXSZA"
-     }
-    ],
-    "text": "The term is used to describe a theological stance that promotes gender equality within church leadership, often framed as a critique of complementarianism and as part of a broader social justice agenda."
-   },
-   "bar": {
-    "diagnostic": {
-     "assignments": 75582,
-     "is_the_gate": false,
-     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.31055013098356754,
-     "perm_q": 0.4654133262751079,
-     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
-    },
-    "failed": [],
-    "observed": 0.5865075303801697,
-    "passes": true,
-    "percentile": 0.0,
-    "pool_n": 40,
-    "reason": null,
-    "reduced_resolution": false,
-    "statistic": "permanova_pseudo_f + band_percentile",
-    "status": "ok",
-    "thresholds": {
-     "specificity": 0.05,
-     "validity": 0.05
-    },
-    "validity_p": 0.03263403263403263
-   },
-   "decon": 23,
-   "deconstruction": {
-    "quotes": [
-     {
-      "context": "...white supremacy and bring about an [egalitarian] world but because they're concerned about...",
-      "creator": "lil-bill",
-      "t": 4728.72,
-      "video_id": "0M-kjKVt88A"
-     },
-     {
-      "context": "...of people overtaking a society that's [egalitarian] and we're we are one minute...",
-      "creator": "shannon-q",
-      "t": 469.68,
-      "video_id": "4merboVPXgQ"
-     }
-    ],
-    "text": "The term is used to characterize societies or movements that aim for equal opportunity and anti‑hierarchical structures, often critiqued as a form of social justice or anti‑colonialism."
-   },
-   "keyness": 3.060114229884503,
-   "surface": "egalitarian",
-   "verdict": "contested"
-  },
-  {
-   "apol": 496,
-   "apologetics": {
-    "quotes": [
-     {
-      "context": "...narrative which establishes the foundations and [identity] of the culture which embraces it...",
-      "creator": "reasonable-faith-org",
-      "t": 772.04,
-      "video_id": "ScCSXoD8gJ0"
-     },
-     {
-      "context": "...and really developing my own personal [identity] as a christian aside from my...",
-      "creator": "prophet-of-zod",
-      "t": 1903.0,
-      "video_id": "e9wf8udbnnI"
-     }
-    ],
-    "text": "In apologetics, 'identity' is framed as a stable, faith- or culture-based sense of self or group belonging that informs personal and communal values."
-   },
-   "bar": {
-    "diagnostic": {
-     "assignments": 75582,
-     "is_the_gate": false,
-     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.0069460982773676275,
-     "perm_q": 0.13033546029673204,
-     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
-    },
-    "failed": [],
-    "observed": 0.1998099139428548,
-    "passes": true,
-    "percentile": 0.0,
-    "pool_n": 40,
-    "reason": null,
-    "reduced_resolution": false,
-    "statistic": "permanova_pseudo_f + band_percentile",
-    "status": "ok",
-    "thresholds": {
-     "specificity": 0.05,
-     "validity": 0.05
-    },
-    "validity_p": 0.0008599931200550396
-   },
-   "decon": 2552,
-   "deconstruction": {
-    "quotes": [
-     {
-      "context": "...losing my sense of self my [identity] my belonging i certainly was losing...",
-      "creator": "britt-hartley",
-      "t": 104.32,
-      "video_id": "2vBz9dvdsRs"
-     },
-     {
-      "context": "...all along was to ditch your [identity] in your community and go somewhere...",
-      "creator": "apostate-aladdin",
-      "t": 4040.72,
-      "video_id": "GLlPWA1ewu4"
-     }
-    ],
-    "text": "In deconstruction, 'identity' is portrayed as a fluid, contested sense of self that can be challenged, lost, or redefined, often highlighting its role in social conflict or personal crisis."
-   },
-   "keyness": 2.839621552159634,
-   "surface": "identity",
-   "verdict": "contested"
-  },
-  {
-   "apol": 33,
-   "apologetics": {
-    "quotes": [
-     {
-      "context": "...reference to church or synagogue or [mosque] a pew research study was done...",
-      "creator": "jude-3-project",
-      "t": 2140.56,
-      "video_id": "5jSe1o4GEcA"
-     },
-     {
-      "context": "...structurally unsound well you got two [mosques] up there on the temple mount...",
-      "creator": "capturing-christianity",
-      "t": 4458.96,
-      "video_id": "6GwIv_WeUIo"
-     }
-    ],
-    "text": "The term is used to refer to a place of Muslim worship, sometimes in neutral or descriptive contexts and occasionally in negative contexts involving violence or terrorism."
-   },
-   "bar": {
-    "diagnostic": {
-     "assignments": 75582,
-     "is_the_gate": false,
-     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.4950649625572226,
-     "perm_q": 0.6061655031551835,
-     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
-    },
-    "failed": [],
-    "observed": 0.6212196200381965,
-    "passes": true,
-    "percentile": 0.0,
-    "pool_n": 40,
-    "reason": null,
-    "reduced_resolution": false,
-    "statistic": "permanova_pseudo_f + band_percentile",
-    "status": "ok",
-    "thresholds": {
-     "specificity": 0.05,
-     "validity": 0.05
-    },
-    "validity_p": 0.04353146853146853
-   },
-   "decon": 169,
-   "deconstruction": {
-    "quotes": [
-     {
-      "context": "...when i step foot in the [mosque] so when i joined for prayer...",
-      "creator": "apostate-aladdin",
-      "t": 280.72,
-      "video_id": "13TxJNlux0M"
-     },
-     {
-      "context": "...well i've studied it i visited [mosques] i read the quran you know...",
-      "creator": "genetically-modified-skeptic",
-      "t": 2369.04,
-      "video_id": "4pkWGvTFfSY"
-     }
-    ],
-    "text": "The term is used similarly to refer to a Muslim place of worship, often in neutral or descriptive contexts, with occasional negative references to violence or oppressive aspects."
-   },
-   "keyness": 2.818691624946905,
-   "surface": "mosque",
-   "verdict": "convergent"
-  },
-  {
-   "apol": 379,
-   "apologetics": {
-    "quotes": [
-     {
-      "context": "...can we assume the bible is [innocent] until proven guilty on this area...",
-      "creator": "mike-winger",
-      "t": 3936.6,
-      "video_id": "7zS4VgFDf8s"
-     },
-     {
-      "context": "...die and because he was totally [innocent] this somehow wipes out this inherited...",
-      "creator": "drcraigvideos",
-      "t": 203.88,
-      "video_id": "FnKjtHOYm14"
-     }
-    ],
-    "text": "Apologetics uses \"innocent\" to describe people or moral states, often emphasizing the principle of innocence until proven guilty and the protection of blameless individuals."
-   },
-   "bar": {
-    "diagnostic": {
-     "assignments": 75582,
-     "is_the_gate": false,
-     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.3000979069090524,
-     "perm_q": 0.45715933392226826,
-     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
-    },
-    "failed": [],
-    "observed": 0.22638132591017204,
-    "passes": true,
-    "percentile": 0.025,
-    "pool_n": 40,
-    "reason": null,
-    "reduced_resolution": false,
-    "statistic": "permanova_pseudo_f + band_percentile",
-    "status": "ok",
-    "thresholds": {
-     "specificity": 0.05,
-     "validity": 0.05
-    },
-    "validity_p": 0.007221536633301339
-   },
-   "decon": 302,
-   "deconstruction": {
-    "quotes": [
-     {
-      "context": "...can continue seeing myself as completely [innocent] that doesn't mean the harm was...",
-      "creator": "darante-lamar",
-      "t": 6933.64,
-      "video_id": "4j1nFH4vNkg"
-     },
-     {
-      "context": "...and though i do believe in [innocence] until guilt is proven in the...",
-      "creator": "lil-bill",
-      "t": 1397.16,
-      "video_id": "BUk4vtNXpM4"
-     }
-    ],
-    "text": "Deconstruction also uses \"innocent\" to refer to people harmed or morally blameless, frequently invoking the idea of innocence until proven guilty while sometimes critiquing the naivety of such innocence."
-   },
-   "keyness": 2.7947217582658848,
-   "surface": "innocent",
-   "verdict": "convergent"
-  },
-  {
-   "apol": 233,
-   "apologetics": {
-    "quotes": [
-     {
-      "context": "...wife i mean your body doesn't [belong] to you husband wife your body...",
-      "creator": "cross-examined",
-      "t": 205.24,
-      "video_id": "98KIPTyYU7I"
-     },
-     {
-      "context": "...not in that sense um love [belongs] to the very essence and nature...",
-      "creator": "drcraigvideos",
-      "t": 21.76,
-      "video_id": "H46o84Mxe_I"
-     }
-    ],
-    "text": "Apologetics frames belonging as a theological claim of possession or membership in a divine or ecclesial reality, emphasizing that individuals or objects are owned or united to God, the body, or the church."
-   },
-   "bar": {
-    "diagnostic": {
-     "assignments": 75582,
-     "is_the_gate": false,
-     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.000542457198803948,
-     "perm_q": 0.0902940549754954,
-     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
-    },
-    "failed": [],
-    "observed": 0.2820806374419249,
-    "passes": true,
-    "percentile": 0.025,
-    "pool_n": 40,
-    "reason": null,
-    "reduced_resolution": false,
-    "statistic": "permanova_pseudo_f + band_percentile",
-    "status": "ok",
-    "thresholds": {
-     "specificity": 0.05,
-     "validity": 0.05
-    },
-    "validity_p": 7.938398031277289e-05
-   },
-   "decon": 1195,
-   "deconstruction": {
-    "quotes": [
-     {
-      "context": "...attribute any personality trait to somebody [belonging] to any group almost unilaterally so...",
-      "creator": "shannon-q",
-      "t": 4000.52,
-      "video_id": "1ciPUcmQ-Zc"
-     },
-     {
-      "context": "...sense of self my identity my [belonging] i certainly was losing my community...",
-      "creator": "britt-hartley",
-      "t": 104.32,
-      "video_id": "2vBz9dvdsRs"
-     }
-    ],
-    "text": "Deconstruction discusses belonging as a social or personal identity marker, focusing on group membership, community ties, and the psychological sense of inclusion or exclusion."
-   },
-   "keyness": 2.636246085204497,
-   "surface": "belonging",
-   "verdict": "contested"
-  },
-  {
-   "apol": 12,
-   "apologetics": {
-    "quotes": [
-     {
-      "context": "...zarathustra uh there's the parable the [madman] and he says god is dead...",
-      "creator": "counsel-of-trent",
-      "t": 2026.52,
-      "video_id": "Wa26kGdPcV0"
-     },
-     {
-      "context": "...because as scripture says only a [madman] would make such heinous threats and...",
-      "creator": "counsel-of-trent",
-      "t": 501.36,
-      "video_id": "beymS-BBr28"
-     }
-    ],
-    "text": "The term is used to label a figure who claims divine status but is deemed insane, underscoring a negative judgment."
-   },
-   "bar": {
-    "diagnostic": {
-     "assignments": 75582,
-     "is_the_gate": false,
-     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.07757137942896457,
-     "perm_q": 0.2515627961711,
-     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
-    },
-    "failed": [],
-    "observed": 0.949290329878159,
-    "passes": true,
-    "percentile": 0.025,
-    "pool_n": 40,
-    "reason": null,
-    "reduced_resolution": false,
-    "statistic": "permanova_pseudo_f + band_percentile",
-    "status": "ok",
-    "thresholds": {
-     "specificity": 0.05,
-     "validity": 0.05
-    },
-    "validity_p": 0.02857142857142857
-   },
-   "decon": 34,
-   "deconstruction": {
-    "quotes": [
-     {
-      "context": "...but as a literal demon infested [madman] with deplorable moral failings and a...",
-      "creator": "genetically-modified-skeptic",
-      "t": 775.72,
-      "video_id": "78NQtotfdJI"
-     },
-     {
-      "context": "...amongst you he is not a [madman] he is a messenger from allah...",
-      "creator": "apostate-aladdin",
-      "t": 320.96,
-      "video_id": "IXrXz4E4Kpo"
-     }
-    ],
-    "text": "The term is employed both as a metaphor for extreme or erratic behavior and as a self-descriptor of intense work, reflecting a more varied, sometimes neutral or self-affirming usage."
-   },
-   "keyness": 2.6080159909918823,
-   "surface": "madman",
-   "verdict": "contested"
-  },
-  {
-   "apol": 352,
-   "apologetics": {
-    "quotes": [
-     {
-      "context": "...videos over to my uh youtube [channel] uh which is uh damon richardson...",
-      "creator": "jude-3-project",
-      "t": 1705.44,
-      "video_id": "A7T5m9kq7b4"
-     },
-     {
-      "context": "...yeah there's a playlist on my [channel] i haven't seen that one i'm...",
-      "creator": "counsel-of-trent",
-      "t": 1834.76,
-      "video_id": "NJ9DgLfgJD4"
-     }
-    ],
-    "text": "In apologetics, \"channel\" is primarily used to denote a YouTube or online platform for sharing videos and content, functioning as a medium for disseminating apologetic material."
-   },
-   "bar": {
-    "diagnostic": {
-     "assignments": 75582,
-     "is_the_gate": false,
-     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.22582096266306792,
-     "perm_q": 0.3971980612735041,
-     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
-    },
-    "failed": [],
-    "observed": 0.191145373642995,
-    "passes": true,
-    "percentile": 0.0,
-    "pool_n": 40,
-    "reason": null,
-    "reduced_resolution": false,
-    "statistic": "permanova_pseudo_f + band_percentile",
-    "status": "ok",
-    "thresholds": {
-     "specificity": 0.05,
-     "validity": 0.05
-    },
-    "validity_p": 0.01078299065915165
-   },
-   "decon": 3920,
-   "deconstruction": {
-    "quotes": [
-     {
-      "context": "...this test for natural versus supernatural [channels] can you show me the exact...",
-      "creator": "darante-lamar",
-      "t": 139.56,
-      "video_id": "3mKNtVKL-zU"
-     },
-     {
-      "context": "...and that getting into like uh [channeling] the spirit during that as well...",
-      "creator": "belief-it-or-not",
-      "t": 1085.28,
-      "video_id": "GZclOWQNUJs"
-     }
-    ],
-    "text": "In deconstruction, \"channel\" is used both as an online platform and as a spiritual conduit for supernatural communication, often framed within occult or cult contexts."
-   },
-   "keyness": 2.4816710650399547,
-   "surface": "channel",
-   "verdict": "contested"
-  },
-  {
-   "apol": 37,
-   "apologetics": {
-    "quotes": [
-     {
-      "context": "...heterogeneous multiverse is the one multiverse [theorists] always go for where the the...",
-      "creator": "reasonable-faith-org",
-      "t": 308.88,
-      "video_id": "-saZeBAug7k"
-     },
-     {
-      "context": "...thing applies today we have literary [theorists] say you know 20 years ago...",
-      "creator": "paulogia",
-      "t": 862.0,
-      "video_id": "3cEsIuFvtGY"
-     }
-    ],
-    "text": "Apologetics uses \"theorists\" to label individuals who hold various theories—especially epistemological, moral, or conspiratorial—emphasizing their perceived error or unreliability and framing them as problematic."
-   },
-   "bar": {
-    "diagnostic": {
-     "assignments": 75582,
-     "is_the_gate": false,
-     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.09015374030853907,
-     "perm_q": 0.2675416133696332,
-     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
-    },
-    "failed": [],
-    "observed": 0.5976451498699475,
-    "passes": true,
-    "percentile": 0.0,
-    "pool_n": 40,
-    "reason": null,
-    "reduced_resolution": false,
-    "statistic": "permanova_pseudo_f + band_percentile",
-    "status": "ok",
-    "thresholds": {
-     "specificity": 0.05,
-     "validity": 0.05
-    },
-    "validity_p": 0.048164335664335665
-   },
-   "decon": 35,
-   "deconstruction": {
-    "quotes": [
-     {
-      "context": "...just be honest you know conspiracy [theorists] and i mean they have some...",
-      "creator": "darante-lamar",
-      "t": 5892.84,
-      "video_id": "09Y9uDUzvuA"
-     },
-     {
-      "context": "...i'm some sort of a conspiracy [theorist] no he um i mean you...",
-      "creator": "apostate-aladdin",
-      "t": 2386.96,
-      "video_id": "2AZB_TXBfQQ"
-     }
-    ],
-    "text": "Deconstruction uses \"theorists\" similarly to refer to people who hold theories—particularly conspiratorial or decision‑theoretic—often critiquing or self‑identifying, framing them as fringe or problematic."
-   },
-   "keyness": 2.4237234152425846,
-   "surface": "theorists",
-   "verdict": "convergent"
-  },
-  {
-   "apol": 248,
-   "apologetics": {
-    "quotes": [
-     {
-      "context": "...accumulate teachers to suit our own [passion] we as humans are prone to...",
-      "creator": "jackie-hill-perry",
-      "t": 1828.12,
-      "video_id": "13LpgaZlNos"
-     },
-     {
-      "context": "...i'm just glad to be here [passionate] about our lord and savior jesus...",
-      "creator": "jude-3-project",
-      "t": 52.96,
-      "video_id": "HoruMwT2k6w"
-     }
-    ],
-    "text": "The term is used both as a theological reference to Jesus’ suffering and as a descriptor of personal devotion or emotional intensity toward faith and apologetic work."
-   },
-   "bar": {
-    "diagnostic": {
-     "assignments": 75582,
-     "is_the_gate": false,
-     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.07442248154322458,
-     "perm_q": 0.24783124993274194,
-     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
-    },
-    "failed": [],
-    "observed": 0.31592362123664386,
-    "passes": true,
-    "percentile": 0.025,
-    "pool_n": 40,
-    "reason": null,
-    "reduced_resolution": false,
-    "statistic": "permanova_pseudo_f + band_percentile",
-    "status": "ok",
-    "thresholds": {
-     "specificity": 0.05,
-     "validity": 0.05
-    },
-    "validity_p": 0.013918657881506178
-   },
-   "decon": 791,
-   "deconstruction": {
-    "quotes": [
-     {
-      "context": "...said he felt healed that his [passion] had been reignited and that the...",
-      "creator": "britt-hartley",
-      "t": 718.16,
-      "video_id": "2HPvoIMzX0k"
-     },
-     {
-      "context": "...other sermons like that were just [passionate] like crying from the pulpit punching...",
-      "creator": "belief-it-or-not",
-      "t": 678.4,
-      "video_id": "GZclOWQNUJs"
-     }
-    ],
-    "text": "The term is used to denote personal interests, hobbies, or emotional enthusiasm, often in secular or self‑reflective contexts, without explicit religious framing."
-   },
-   "keyness": 2.360650334618609,
-   "surface": "passion",
-   "verdict": "mixed"
-  },
-  {
-   "apol": 110,
-   "apologetics": {
-    "quotes": [
-     {
-      "context": "...solution that i would want to [advocate] however it succeeded in showing the...",
-      "creator": "reasonable-faith-org",
-      "t": 388.04,
-      "video_id": "9JZIgEZmRnU"
-     },
-     {
-      "context": "...bloom who is himself an id [advocate] about for professor ayala's comment that...",
-      "creator": "drcraigvideos",
-      "t": 220.68,
-      "video_id": "Ls7rtV2qjuY"
-     }
-    ],
-    "text": "In apologetics, \"advocate\" is used to describe people or actions that support a particular theological or moral stance, often presented in a neutral or positive light."
-   },
-   "bar": {
-    "diagnostic": {
-     "assignments": 75582,
-     "is_the_gate": false,
-     "method": "exhaustive permutation of pooled collocate divergence over all side assignments, Benjamini-Hochberg FDR across the run's terms",
-     "null": "no side-linked structure in the POOLED cross-side collocate divergence — a different question from either leg of the gate, and one whose answer is 'false' for most words at these frequencies",
-     "perm_p": 0.23628641740096848,
-     "perm_q": 0.40646699339780945,
-     "why_not_the_gate": "BH controls false discovery against the null above, not against the published claim. Measured on the 435-term benchmark it certifies 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016. It is also moot: the specificity leg is far more restrictive, so BH-then-filter, filter-then-BH and no-BH select the identical set."
-    },
-    "failed": [],
-    "observed": 0.5059641432359788,
-    "passes": true,
-    "percentile": 0.0,
-    "pool_n": 40,
-    "reason": null,
-    "reduced_resolution": false,
-    "statistic": "permanova_pseudo_f + band_percentile",
-    "status": "ok",
-    "thresholds": {
-     "specificity": 0.05,
-     "validity": 0.05
-    },
-    "validity_p": 0.02409303802492657
-   },
-   "decon": 674,
-   "deconstruction": {
-    "quotes": [
-     {
-      "context": "...is red teaming convene a devil's [advocate] group whose sole job is to...",
-      "creator": "darante-lamar",
-      "t": 118.96,
-      "video_id": "3mKNtVKL-zU"
-     },
-     {
-      "context": "...hijab which is not something we [advocate] for at all so i feel...",
-      "creator": "apostate-aladdin",
-      "t": 2835.44,
-      "video_id": "F6qTQKpKZS0"
-     }
-    ],
-    "text": "In deconstruction, \"advocate\" similarly denotes support for various positions, but the context can be more critical or neutral, reflecting a broader range of viewpoints."
-   },
-   "keyness": 2.329403032865136,
-   "surface": "advocate",
    "verdict": "convergent"
   }
  ],
  "meta": {
   "bar_corpus": {
    "corpus": {
-    "covers": "ids+content@source",
-    "fingerprint": "sha256:2dfad83711785dd1a2f68fbface1b080",
-    "videos": 12314
+    "covers": "ids+content+attribution@source",
+    "fingerprint": "sha256:47b20da90e43141e21d2e079070b26a4",
+    "videos": 15991
    },
    "floor_run": 7,
    "frozen": true,
-   "measured_at": "2026-08-24T02:13:01Z",
+   "measured_at": "2026-09-01T12:01:31Z",
    "note": "the per-creator collocate profiles the bar was computed from are stored with the floor run, so re-running the permutation pass reproduces these p and q values exactly even after the corpus has grown",
    "params": {
     "asr_source": "parakeet",
     "exclude_quoted": true,
     "include_duplicates": false,
     "max_vocab": 200,
-    "min_balance": 0.25,
+    "min_balance": 0.1,
     "min_cooc": 1,
     "min_side": 8,
-    "min_side_creators": 2,
+    "min_side_creators": 3,
     "pool": 6000,
+    "vintage_fingerprint": null,
     "window": 5
    }
   },
   "bar_note": "Each concept carries the DESIGN §3 two-leg significance bar: a cross-side difference in how a term is USED counts as a community difference only if it exceeds both the spread among same-side creators AND the divergence of same-frequency arbitrary words. Every concept here cleared both legs — the lane annotates only terms that do, because reading thousands of candidates with an LLM is not feasible. Terms that did not clear the bar are not deleted: they remain in the candidate pool with their statistics, unannotated.",
   "bar_specificity": "Composite false-positive rate 3.1%, MEASURED on 225 frequency-matched arbitrary words (2026-07-29). Admission is still NECESSARY, NOT SUFFICIENT evidence of contestation: the gate detects side-linked structure that survives a same-frequency topic floor, which is a much stronger filter than the single-leg bar it replaced — that one ran at 74.7% on the same words, cleared information-free profiles at 88%, and cleared all five discourse-marker controls (`whatever`, `literally`, `maybe`, `honestly`, `basically`), which the specificity leg rejects. See docs/research/2026-07-29-bar-specificity-*.md.",
   "diagnostic_note": "Each concept also carries `bar.diagnostic` — the pooled permutation p and its Benjamini-Hochberg q. That is a REPORTED DIAGNOSTIC and is NOT THE GATE. Its null is 'no side-linked structure in the pooled cross-side divergence', which at these frequencies is false for most words, so it certifies far too much: on the 435-term benchmark it admits 176 terms at 97.2% false-discovery proportion, including the preposition `through` at q=0.0016 — a stronger q than `community`. Read it as a second opinion on one leg, never as the confidence in the published claim.",
-  "generated_at": "2026-08-30T13:02:29Z",
+  "generated_at": "2026-09-01T15:58:27Z",
   "model": "openai:mlx-community/gpt-oss-20b-MXFP4-Q8:v2",
   "note": "machine-DISCOVERED framings — proposed, not pinned",
   "selection": {
@@ -1822,7 +1823,7 @@
     "validity_leg_alone": 0.747
    },
    "funnel": {
-    "bar_cleared": 96,
+    "bar_cleared": 122,
     "creator_gated": 5568,
     "occurrence_floor": 5602,
     "published": 27

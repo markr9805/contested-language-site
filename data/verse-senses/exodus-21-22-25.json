@@ -5,7 +5,7 @@
     "cite_key": "3ff70faf765af095609d7a97059cb9038cc69ba94e49b31ada96ddf6db8bdbff",
     "context": "And you can look at other places in the Hebrew Bible that demonstrate that they did not think of a fetus as a full moral and legal person, that it was something different. For instance, you can go to Exodus 21, verse 22 to 25, where we have this law about what's to be done if two men who are fighting accidentally injure a pregnant woman. And there are two outcomes that are addressed. The first outcome is that the injury causes the pregnant woman to miscarry, in which case the penalty is a fine that is chosen by the husband and is arbitrated so as to not be exorbitant.",
     "creator": "dan-mcclellan",
-    "dist": 0.2667,
+    "dist": 0.283,
     "published_at": "2025-08-27T14:43:18Z",
     "role": "host",
     "t": 230.72,
@@ -14,10 +14,22 @@
     "video_id": "dN6LMCqEg9o"
    },
    {
+    "cite_key": "56c23100ead3b65667f3a3d0c9fef94cb39a886ebb72385e800d86776f64a389",
+    "context": "The Bible, to the degree it addresses the question, treats personhood as something achieved at birth, and treats breath as fundamentally constitutive of life. It treats a fetus as more property than person. And the most explicit engagement with that issue is Exodus 21, verses 22 through 25, where we have laws regarding what is to be done if two men who are fighting accidentally injure a pregnant woman. And there are two outcomes that are described.",
+    "creator": "dan-mcclellan",
+    "dist": 0.2858,
+    "published_at": "2026-01-02T16:52:48Z",
+    "role": "host",
+    "t": 121.64,
+    "title": "MAGA versus Jesus on abortion",
+    "verse_ref": "Exodus 21:22-25",
+    "video_id": "6eowRLkaD2c"
+   },
+   {
     "cite_key": "69fded0d6e84002d48de4ac8101e8cc1e5a977bc2f13b1073a04c110aab8f66e",
     "context": "The Bible takes no such position because when we look throughout the Hebrew Bible, we see that a fetus is treated as property and not a full legal and moral person. And in fact, in Exodus 21, verses 22 through 25, we explicitly see that the unintentional destruction of a fetus results only in a fine that is paid to the father and is arbitrated so as not to be exorbitant.",
     "creator": "dan-mcclellan",
-    "dist": 0.3014,
+    "dist": 0.2994,
     "published_at": "2026-05-21T16:48:22Z",
     "role": "host",
     "t": 333.0,
@@ -29,7 +41,7 @@
     "cite_key": "7ff2b1a059aa2ba5a0409769fce140ec37eab866cc9b36e75ca1edf9a54cf346",
     "context": "And we have a very clear legal text that makes it clear that the accidental killing of a fetus was not considered the killing of a person. It was considered the destruction of property. In Exodus 21, verses 22 through 25, we have this law about what to do should two men who are fighting accidentally injure a pregnant woman. And there are two different outcomes that are addressed. If the injury causes the woman to miscarry, and you can see these videos for the demonstration of the fact that this text is referring to miscarriage, and any attempt to read it as referring to premature but otherwise healthy birth is incorrect.",
     "creator": "dan-mcclellan",
-    "dist": 0.3048,
+    "dist": 0.3266,
     "published_at": "2026-08-18T16:00:12Z",
     "role": "host",
     "t": 585.0,
@@ -41,25 +53,13 @@
     "cite_key": "55b518ce9e12936cf1962149fed861d79288c4dedde9f8bc9c98f21411d33ae0",
     "context": "And at least the Hebrew Bible doesn't. It quite explicitly. Because we can go to Exodus 21, verses 22 through 25, where we have the law about what happens if two men who are fighting accidentally injure a pregnant woman, and there are two outcomes that are discussed. If the injury causes her to miscarry, there's a fine that is imposed by her husband and is arbitrated so that it's not exorbitance.",
     "creator": "dan-mcclellan",
-    "dist": 0.3097,
+    "dist": 0.336,
     "published_at": "2025-10-14T14:12:41Z",
     "role": "host",
     "t": 227.36,
     "title": "Responding to Brooks Phillips ",
     "verse_ref": "Exodus 21:22-25",
     "video_id": "R8ZN5uYDuNA"
-   },
-   {
-    "cite_key": "56c23100ead3b65667f3a3d0c9fef94cb39a886ebb72385e800d86776f64a389",
-    "context": "The Bible, to the degree it addresses the question, treats personhood as something achieved at birth, and treats breath as fundamentally constitutive of life. It treats a fetus as more property than person. And the most explicit engagement with that issue is Exodus 21, verses 22 through 25, where we have laws regarding what is to be done if two men who are fighting accidentally injure a pregnant woman. And there are two outcomes that are described.",
-    "creator": "dan-mcclellan",
-    "dist": 0.3109,
-    "published_at": "2026-01-02T16:52:48Z",
-    "role": "host",
-    "t": 121.64,
-    "title": "MAGA versus Jesus on abortion",
-    "verse_ref": "Exodus 21:22-25",
-    "video_id": "6eowRLkaD2c"
    }
   ],
   "1": [
@@ -118,14 +118,14 @@
    "cells": {
     "dan-mcclellan": {
      "counts": [
-      12,
+      19,
       4
      ],
      "dist": [
-      0.75,
-      0.25
+      0.8261,
+      0.1739
      ],
-     "n": 16,
+     "n": 23,
      "status": "ok"
     },
     "darante-lamar": {
@@ -143,14 +143,14 @@
    "cells": {
     "overall": {
      "counts": [
-      13,
+      20,
       4
      ],
      "dist": [
-      0.7647,
-      0.2353
+      0.8333,
+      0.1667
      ],
-     "n": 17,
+     "n": 24,
      "status": "ok"
     }
    },
@@ -160,14 +160,14 @@
    "cells": {
     "host": {
      "counts": [
-      13,
+      20,
       4
      ],
      "dist": [
-      0.7647,
-      0.2353
+      0.8333,
+      0.1667
      ],
-     "n": 17,
+     "n": 24,
      "status": "ok"
     }
    },
@@ -177,10 +177,10 @@
    "cells": {
     "2024": {
      "counts": [
-      1,
+      8,
       0
      ],
-     "n": 1,
+     "n": 8,
      "status": "insufficient-data"
     },
     "2025": {
@@ -208,8 +208,8 @@
   }
  },
  "k": 2,
- "n": 17,
- "silhouette": 0.2218,
+ "n": 24,
+ "silhouette": 0.2211,
  "status": "ok",
  "verse_ref": "Exodus 21:22-25"
 }

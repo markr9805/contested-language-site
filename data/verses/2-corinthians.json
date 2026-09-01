@@ -1456,6 +1456,30 @@
     },
     {
      "confidence": 1.0,
+     "context": "It's not about reproducing the words, it's about reproducing the effect and the reception and the response. So, one example from NIDA is Paul's statement, greet one another with a holy kiss. That was a convention in the source culture that made that statement easily understandable within that cultural context. Most target cultures today are not going to have that same convention, and so you've got to alter it to try to match the convention that comes closest to what that source convention was.",
+     "creator": "dan-mcclellan",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-06-22T17:02:56Z",
+     "role": "host",
+     "t": 128.44,
+     "title": "Can the Bible be trusted?",
+     "video_id": "T9qctTS6nLw"
+    },
+    {
+     "confidence": 1.0,
+     "context": "Most target cultures today are not going to have that same convention, and so you've got to alter it to try to match the convention that comes closest to what that source convention was. So for NIDA, for a 1960s English-speaking target audience, it's not going to be greet one another with a holy kiss, it's going to be hearty handshakes all around or something like that. So it's a very different translation because the theory is that we want the target audience to receive and respond to the text in a way that closely matches how the source audience would have received and responded to the text.",
+     "creator": "dan-mcclellan",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-06-22T17:02:56Z",
+     "role": "host",
+     "t": 155.32,
+     "title": "Can the Bible be trusted?",
+     "video_id": "T9qctTS6nLw"
+    },
+    {
+     "confidence": 1.0,
      "context": "I'm not gonna be part of that. I hope, as I always say, hope that that's helpful to you. Uh, last question for today, Sarah Titano says, or Titano, hi Brother Mike. I've heard some churches teach the holy kiss, 1 Corinthians 16 20. That's where Paul says, greet one another with a holy kiss, is a commandment. I'm curious about your thoughts on the matter. Thank you for all you do. Love your work. This is actually a really great passage for illustrating an issue we have to ask as we read the New Testament or the old.",
      "creator": "mike-winger",
      "detection_method": "shingle_match",
@@ -1541,10 +1565,11 @@
    ],
    "creators": {
     "cross-examined": 1,
+    "dan-mcclellan": 2,
     "mike-winger": 10,
     "paulogia": 1
    },
-   "n": 12,
+   "n": 14,
    "text": {
     "KJV": "Greet one another with an holy kiss.",
     "WEB": "Greet one another with a holy kiss."
@@ -1747,12 +1772,48 @@
      "t": 287.84,
      "title": "Why the King James Version likely isn’t for you",
      "video_id": "UhX4qVKUgFQ"
+    },
+    {
+     "confidence": null,
+     "context": "I've already shared the academic consensus regarding literalness and accessibility, but I want to share an example of this just so you can see how inaccessible it is because of literalness. This is 2 Corinthians chapter 2, verse 5 from the 1611 authorized version.",
+     "creator": "dan-mcclellan",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2024-04-15T17:26:38Z",
+     "role": "host",
+     "t": 462.16,
+     "title": "Part 2 of a response to criticisms of my video on the KJV",
+     "video_id": "aSqGVqxuL3Q"
+    },
+    {
+     "confidence": null,
+     "context": "I've already shared the academic consensus regarding literalness and accessibility, but I want to share an example of this just so you can see how inaccessible it is because of literalness. This is 2 Corinthians chapter 2, verse 5 from the 1611 authorized version.",
+     "creator": "dan-mcclellan",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-04-15T17:26:38Z",
+     "role": "host",
+     "t": 462.16,
+     "title": "Part 2 of a response to criticisms of my video on the KJV",
+     "video_id": "aSqGVqxuL3Q"
+    },
+    {
+     "confidence": 1.0,
+     "context": "Here we go. But if any have caused grief, he hath not grieved me, but in part, that I may not overcharge you all. Now, what on earth does this mean? It is absolutely impenetrable English because it is trying to reproduce the syntax of the Greek without concern for how accessible it is.",
+     "creator": "dan-mcclellan",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-04-15T17:26:38Z",
+     "role": "host",
+     "t": 497.84,
+     "title": "Part 2 of a response to criticisms of my video on the KJV",
+     "video_id": "aSqGVqxuL3Q"
     }
    ],
    "creators": {
-    "dan-mcclellan": 4
+    "dan-mcclellan": 7
    },
-   "n": 4,
+   "n": 7,
    "text": {
     "KJV": "But if any have caused grief, he hath not grieved me, but in part: that I may not overcharge you all.",
     "WEB": "But if any has caused sorrow, he has caused sorrow not to me, but in part (that I not press too heavily) to you all."

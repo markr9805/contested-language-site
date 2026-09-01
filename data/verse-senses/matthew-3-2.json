@@ -5,7 +5,7 @@
     "cite_key": "52b6d981fd46e3aedf3336f382f4a89c28dcc89e7273c22464f312ca4081e0d4",
     "context": "That's John the Baptist. Then we have Jesus in Mark 1 15, we just read this. He preaches, repent and believe in the gospel. In Matthew 4 17, Jesus, it says, um, he began to preach, and this is again the beginning of Jesus' ministry. Matthew summarizes Jesus' gospel message with an even shorter summary than Mark, and he says, Um, from that time Jesus began to preach and say, Repent, for the kingdom of heaven is at hand. He just says repent for the kingdom of heaven. He didn't even mention believe.",
     "creator": "mike-winger",
-    "dist": 0.363,
+    "dist": 0.3648,
     "published_at": "2019-06-03T15:00:04Z",
     "role": "host",
     "t": 1296.64,
@@ -17,7 +17,7 @@
     "cite_key": "f53711afc2856d6975926dd127237dfe87db1dc037d3d09b0002fcb568b16af2",
     "context": "Again, after Jesus' resurrection, he's like, go into the whole world. This is specifically Israel related. And he says, Go to them and proclaim as you go, saying the kingdom of heaven is at hand. So step one with somebody, you proclaim the actual gospel. Like this is the reality. Like Jesus is the Savior of the world. You really have sinned. You really need to have faith and trust in Christ, his death and resurrection, that you might be forgiven, that you can know God, that you can experience God, that you can be indwelt by the Holy Spirit.",
     "creator": "mike-winger",
-    "dist": 0.3877,
+    "dist": 0.3878,
     "published_at": "2026-02-20T23:36:54Z",
     "role": "host",
     "t": 2992.08,
@@ -29,7 +29,7 @@
     "cite_key": "3db92b3b6b979c87b944612b937a3f27d65f3308caede2128c70b6adf093d5e4",
     "context": "This is not Jesus' whole ministry command for them. This is literally one mission, mission trip, you might call it, where he goes, right now, at this moment, I want you to go out just to Jewish towns, to the lost sheep of the house of Israel, uh, not to those other towns. And proclaim as you go, saying, The kingdom of heaven is at hand. Heal the sick. Now Jesus was proclaiming the kingdom. John the Baptist was, then Jesus did as well, and now they're going to echo those same messages. Heal the sick, raise the dead, cleanse lepers, cast out demons. You've received without paying, give without pay.",
     "creator": "mike-winger",
-    "dist": 0.3931,
+    "dist": 0.3935,
     "published_at": "2021-05-07T21:51:37Z",
     "role": "host",
     "t": 2231.48,
@@ -41,7 +41,7 @@
     "cite_key": "2987af0d0c3167da90af0b3ff0d804a129a70d20f27eeb055f479471adefd13b",
     "context": "That's the two sides of the coin here. Let's look at some other examples from scripture. Matthew chapter 4, verse 17. Does the Jesus hang out with sinners, Jesus? Does that meme Jesus pass this test? From that time, Jesus began to preach, saying, Repent, for the kingdom of heaven is at hand. Do you catch this? From that time, meaning just after the baptism of Jesus, just after his time in the in the 40 days in the wilderness, from that time, meaning continually then and there on out, wherever Jesus went for the next three years, he's telling people, repent.",
     "creator": "mike-winger",
-    "dist": 0.4042,
+    "dist": 0.4056,
     "published_at": "2022-06-27T21:40:27Z",
     "role": "host",
     "t": 2517.08,
@@ -50,16 +50,16 @@
     "video_id": "LHq_Bje5ycs"
    },
    {
-    "cite_key": "86eb63721a7a515bcf60256ff252f8edda15028613d83e01479712f3d45e7a88",
-    "context": "And for that, we will survey a bunch of scriptures. Um, and we'll start with John the Baptist. In Matthew 3 2, we have John the Baptist who proclaims repentance. We've read about this before, but this is uh I'm gonna put three different gospels together here. In Matthew 3 2, he says, Repent, for the kingdom of heaven is at hand. Our response to the kingdom of heaven to this opportunity to be saved is to repent. In in Mark 1 4, John the Baptist appeared in the wilderness preaching a baptism of repentance for the forgiveness of sins.",
-    "creator": "mike-winger",
-    "dist": 0.4093,
-    "published_at": "2019-06-03T15:00:04Z",
-    "role": "host",
-    "t": 1249.0,
-    "title": "Repentance is Part of the Gospel: The Mark Series part 5 (1:14-15)",
+    "cite_key": "d76b9495fb0f1b0bd1519bbc4214cb318a363b43226dfc523a5321365cd6d16f",
+    "context": "That's just be ready. So a lot of the other stuff he says, he tries to really sort of read in this idea to some of the other the references that I've mentioned before. Right. When Jesus started preaching, Matthew 4 17, his first thing he says in Matthew, public preaching is repent for the kingdom of heaven is at hand. It's here now. So he's sort of saying there was a there was in a sense the kingdom had already come, and that's how we get around the stuff in uh in Mark 9 1.",
+    "creator": "paulogia",
+    "dist": 0.4091,
+    "published_at": "2024-05-30T13:30:08Z",
+    "role": "unknown",
+    "t": 2143.52,
+    "title": "Yes, Jesus was a FAILED PROPHET (feat Tim O'Neill) (Mike Winger / InspiringPhilosophy response)",
     "verse_ref": "Matthew 3:2",
-    "video_id": "U_Iz1UYqCfA"
+    "video_id": "LZ4nPw12B_c"
    }
   ],
   "1": [
@@ -182,27 +182,33 @@
     },
     "the-omnist-rone": {
      "counts": [
-      5,
+      6,
       4
      ],
-     "n": 9,
-     "status": "insufficient-data"
+     "dist": [
+      0.6,
+      0.4
+     ],
+     "n": 10,
+     "status": "ok"
     }
    },
-   "divergences": {}
+   "divergences": {
+    "mike-winger|the-omnist-rone": 0.2365
+   }
   },
   "overall": {
    "cells": {
     "overall": {
      "counts": [
-      24,
+      25,
       5
      ],
      "dist": [
-      0.8276,
-      0.1724
+      0.8333,
+      0.1667
      ],
-     "n": 29,
+     "n": 30,
      "status": "ok"
     }
    },
@@ -212,14 +218,14 @@
    "cells": {
     "host": {
      "counts": [
-      22,
+      23,
       2
      ],
      "dist": [
-      0.9167,
-      0.0833
+      0.92,
+      0.08
      ],
-     "n": 24,
+     "n": 25,
      "status": "ok"
     },
     "unattributed": {
@@ -293,10 +299,10 @@
     },
     "2024": {
      "counts": [
-      2,
+      3,
       0
      ],
-     "n": 2,
+     "n": 3,
      "status": "insufficient-data"
     },
     "2025": {
@@ -320,8 +326,8 @@
   }
  },
  "k": 2,
- "n": 29,
- "silhouette": 0.1092,
+ "n": 30,
+ "silhouette": 0.1071,
  "status": "ok",
  "verse_ref": "Matthew 3:2"
 }

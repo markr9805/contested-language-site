@@ -1301,6 +1301,18 @@
    "citations": [
     {
      "confidence": null,
+     "context": "And when we look in 1 Samuel 17, we get the famous story of David killing Goliath. And I want to focus on the way they describe Goliath. In verse 7, it says the shaft of his spear was like a weaver's beam. But something interesting happens in the book of 2 Samuel in chapter 21, verse 19. We have a story about certain individuals defeating certain giants. And there's this reference to somebody named Elchanon, a Bethlehemite, killing Goliath, the shaft of whose spear was like a weaver's beam.",
+     "creator": "dan-mcclellan",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2025-02-10T16:30:50Z",
+     "role": "host",
+     "t": 22.96,
+     "title": "David didn’t kill Goliath",
+     "video_id": "fEBPkavnLGE"
+    },
+    {
+     "confidence": null,
      "context": "If the Bible can't agree on whether anyone has seen God, how can it claim to be perfectly inspired? Who killed Goliath? First Samuel chapter 17, verse 50 says David kills Goliath. 2 Samuel chapter 21, verse 19 says Elhanan killed Goliath. The contradiction here is two different people are credited with killing the same giant. Now some translations try to smooth this out, but the Hebrew is absolutely clear. Let's read this text as it's written.",
      "creator": "darante-lamar",
      "detection_method": "explicit_carried",
@@ -1385,9 +1397,10 @@
     }
    ],
    "creators": {
+    "dan-mcclellan": 1,
     "darante-lamar": 7
    },
-   "n": 7,
+   "n": 8,
    "text": {
     "KJV": "And there was again a battle in Gob with the Philistines, where Elhanan the son of Jaareoregim, a Bethlehemite, slew the brother of Goliath the Gittite, the staff of whose spear was like a weaver's beam.",
     "WEB": "There was again war with the Philistines at Gob, and Elhanan the son of Jaare-Oregim the Bethlehemite killed Goliath the Gittite’s brother, the staff of whose spear was like a weaver’s beam."
@@ -1504,6 +1517,43 @@
    "text": {
     "KJV": "And he delivered them into the hands of the Gibeonites, and they hanged them in the hill before the LORD: and they fell all seven together, and were put to death in the days of harvest, in the first days, in the beginning of barley harvest.",
     "WEB": "He delivered them into the hands of the Gibeonites; and they hanged them on the mountain before the LORD, and all seven of them fell together. They were put to death in the days of harvest, in the first days, at the beginning of barley harvest."
+   },
+   "truncated": false
+  },
+  "2 Samuel 22:19": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "When we look at Bayom that way, here it has to mean roughly a 24 hour period. Starting off with 2 Samuel chapter 22, verse 19, David says they confronted me in the day of my calamity. Now, did David have a 24 hour period of chaos or calamity? Of course not. He had multiple years of calamity.",
+     "creator": "dan-mcclellan",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2024-04-13T18:50:33Z",
+     "role": "unknown",
+     "t": 226.64,
+     "title": "Responding to criticisms of my video on Genesis 2:17",
+     "video_id": "3D7af4bYpaQ"
+    },
+    {
+     "confidence": null,
+     "context": "When we look at Bayom that way, here it has to mean roughly a 24 hour period. Starting off with 2 Samuel chapter 22, verse 19, David says they confronted me in the day of my calamity. Now, did David have a 24 hour period of chaos or calamity? Of course not. He had multiple years of calamity.",
+     "creator": "dan-mcclellan",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-04-13T18:50:33Z",
+     "role": "unknown",
+     "t": 226.64,
+     "title": "Responding to criticisms of my video on Genesis 2:17",
+     "video_id": "3D7af4bYpaQ"
+    }
+   ],
+   "creators": {
+    "dan-mcclellan": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "They prevented me in the day of my calamity: but the LORD was my stay.",
+    "WEB": "They came on me in the day of my calamity, but the LORD was my support."
    },
    "truncated": false
   },

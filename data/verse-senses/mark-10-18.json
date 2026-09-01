@@ -5,7 +5,7 @@
     "cite_key": "c3d133b41dc72760f64332e61651e56232b52ee54712c32279e30a780ff72a51",
     "context": "In the book of Mark, he says, Why do you call me good? Jesus answered, No one is good except God alone. That's chapter 10, verse 18, reading from the New International Standard Version. Now let that sit for a moment. Jesus, the central figure of Christianity, the supposed moral exemplar, the one Christians are supposed to imitate, refuse to accept the label good.",
     "creator": "darante-lamar",
-    "dist": 0.2851,
+    "dist": 0.2879,
     "published_at": "2025-08-05T18:00:10Z",
     "role": "host",
     "t": 100.48,
@@ -14,22 +14,10 @@
     "video_id": "FAqKQsPNxTg"
    },
    {
-    "cite_key": "d60db362e5256b283848f8858539b8c318dbe50f2be6c253e4e49881c4b38d85",
-    "context": "First, he's like, Why do you call me good? He's already bringing into question the rule, this rich person, this ruler, his standard of what is good and what is evil. His standard was based upon comparing humans to humans instead of comparing humans to God. So Jesus is saying, Hey, why do you call me good? No one is good except God alone. Now, Jesus himself, he's not saying he's not good. He actually is good. He's and he's God, so he's he's good and he's God. But the the question isn't, is Jesus good? The question is, is this ruler's understanding of goodness? Is that proper?",
-    "creator": "mike-winger",
-    "dist": 0.288,
-    "published_at": "2018-12-19T02:07:05Z",
-    "role": "host",
-    "t": 1471.96,
-    "title": "Ben Shapiro, a Catholic Bishop and the Gospel.",
-    "verse_ref": "Mark 10:18",
-    "video_id": "MSVYetPq1_U"
-   },
-   {
     "cite_key": "e5a14bf75157fec4bcce2258ae01f34e53d9dfc68a379a39d7061b40c5e93364",
     "context": "I don't, it just doesn't stick. At any rate, um, the uh the rich young ruler comes to Jesus and he seems like a really good guy, you know, at least by human standards. But Jesus, when he goes, 'Hey, you know, Jesus, what must I do? Teacher, tell me what must I do to inherit the kingdom of heaven to get salvation.' And Jesus says, 'Why do you call me good? No one is good but God.' Jesus confronts him with this idea of he was not making the distinction. He was thinking, 'You're good, I'm good, let's be good, and then we'll be good before God.' He didn't realize there's this unbridgeable chasm between human goodness and the goodness of God.",
     "creator": "mike-winger",
-    "dist": 0.294,
+    "dist": 0.2971,
     "published_at": "2023-05-05T22:34:02Z",
     "role": "host",
     "t": 3431.68,
@@ -38,10 +26,22 @@
     "video_id": "GI5zzoYyl0c"
    },
    {
+    "cite_key": "d60db362e5256b283848f8858539b8c318dbe50f2be6c253e4e49881c4b38d85",
+    "context": "First, he's like, Why do you call me good? He's already bringing into question the rule, this rich person, this ruler, his standard of what is good and what is evil. His standard was based upon comparing humans to humans instead of comparing humans to God. So Jesus is saying, Hey, why do you call me good? No one is good except God alone. Now, Jesus himself, he's not saying he's not good. He actually is good. He's and he's God, so he's he's good and he's God. But the the question isn't, is Jesus good? The question is, is this ruler's understanding of goodness? Is that proper?",
+    "creator": "mike-winger",
+    "dist": 0.299,
+    "published_at": "2018-12-19T02:07:05Z",
+    "role": "host",
+    "t": 1471.96,
+    "title": "Ben Shapiro, a Catholic Bishop and the Gospel.",
+    "verse_ref": "Mark 10:18",
+    "video_id": "MSVYetPq1_U"
+   },
+   {
     "cite_key": "0fc1bfd73e2290ea1672db2e960d9c39f89a0c1764b03347c33b4612402f1686",
     "context": "It's not good enough. Here in uh Luke 18, Jesus has another situation where someone perhaps kind of like Ben comes to him, and there's rich young ruler, and um a ruler asked him, Good teacher, what must I do to inherit eternal life? And Jesus said to him, Why do you call me good? No one is good except God alone. You know the commandments. Do not commit adultery, do not murder, do not steal, do not bear false false witness. Honor your father and mother. So these are two things Jesus says. First, he's like, Why do you call me good? He's already bringing into question the rule, this rich person, this ruler, his standard of what is good and what is evil.",
     "creator": "mike-winger",
-    "dist": 0.3038,
+    "dist": 0.3007,
     "published_at": "2018-12-19T02:07:05Z",
     "role": "host",
     "t": 1445.88,
@@ -53,7 +53,7 @@
     "cite_key": "b0c2f315d3b6640543c80462f75beaff77a023a83f000db80dc6a0bc497b1079",
     "context": "Okay, um uh the rich young man or the rich young ruler, as some some headings would say. Uh, and as he was setting out on his journey, a man ran up and knelt before him and asked, Good teacher, what must I do to inherit eternal life? And Jesus said to him, Why do you call me good? No one is good except God alone. So, um this passage comes up partially, but probably I'm assuming um it's because you're thinking, is Jesus implying that Jesus is not good?",
     "creator": "mike-winger",
-    "dist": 0.3152,
+    "dist": 0.3181,
     "published_at": "2018-09-26T02:18:44Z",
     "role": "host",
     "t": 1099.44,
@@ -100,6 +100,14 @@
      "n": 1,
      "status": "insufficient-data"
     },
+    "dan-mcclellan": {
+     "counts": [
+      2,
+      0
+     ],
+     "n": 2,
+     "status": "insufficient-data"
+    },
     "darante-lamar": {
      "counts": [
       3,
@@ -127,14 +135,14 @@
    "cells": {
     "overall": {
      "counts": [
-      14,
+      16,
       2
      ],
      "dist": [
-      0.875,
-      0.125
+      0.8889,
+      0.1111
      ],
-     "n": 16,
+     "n": 18,
      "status": "ok"
     }
    },
@@ -144,14 +152,14 @@
    "cells": {
     "host": {
      "counts": [
-      14,
+      16,
       2
      ],
      "dist": [
-      0.875,
-      0.125
+      0.8889,
+      0.1111
      ],
-     "n": 16,
+     "n": 18,
      "status": "ok"
     }
    },
@@ -201,18 +209,18 @@
     },
     "2024": {
      "counts": [
-      2,
+      3,
       0
      ],
-     "n": 2,
+     "n": 3,
      "status": "insufficient-data"
     },
     "2025": {
      "counts": [
-      2,
+      3,
       0
      ],
-     "n": 2,
+     "n": 3,
      "status": "insufficient-data"
     }
    },
@@ -220,8 +228,8 @@
   }
  },
  "k": 2,
- "n": 16,
- "silhouette": 0.389,
+ "n": 18,
+ "silhouette": 0.367,
  "status": "ok",
  "verse_ref": "Mark 10:18"
 }

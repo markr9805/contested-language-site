@@ -38,14 +38,39 @@
      "t": 76.56,
      "title": "A Scholar Reviews The Passion Translation: Song of Songs",
      "video_id": "SBC2z0URxYE"
+    },
+    {
+     "confidence": 0.75,
+     "context": "It was absolutely there. I don't think much of it has uh bubbled to the surface of of biblical scholarship. Uh an awful lot of it has to do with sexual politics more than with um romanticism. I think the best glimpse that we have into it is uh what we see in the Song of Songs, which is erotic poetry. And there are other um texts from Egypt and Mesopotamia and elsewhere that are that use erotic poetry as well.",
+     "creator": "dan-mcclellan",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-12-03T21:09:27Z",
+     "role": "host",
+     "t": 1607.24,
+     "title": "Come say hi!",
+     "video_id": "TC1YyAXL_oA"
+    },
+    {
+     "confidence": 0.75,
+     "context": "Uh so there's there's definitely some borrowing going on. It did not happen because uh a historical Moses uh used his five-finger discount on the way out the door. Uh it's definitely not that, but you do have engagement with Egyptian tradition, Egyptian gods, Egyptian literary motifs, and and even you know, something like the Song of Songs, which is erotic poetry, that was a pretty popular mo uh genre in ancient Egyptian.",
+     "creator": "dan-mcclellan",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-04-13T03:43:55Z",
+     "role": "unattributed",
+     "t": 3088.92,
+     "title": "Maklelan Livestream",
+     "video_id": "hcaLWLMdhZg"
     }
    ],
    "creators": {
+    "dan-mcclellan": 2,
     "darante-lamar": 1,
     "mike-winger": 1,
     "mindshift": 1
    },
-   "n": 3,
+   "n": 5,
    "text": {
     "KJV": "The song of songs, which is Solomon's.",
     "WEB": "The Song of songs, which is Solomon’s."
@@ -65,12 +90,25 @@
      "t": 849.24,
      "title": "A Scholar Reviews The Passion Translation: Song of Songs",
      "video_id": "SBC2z0URxYE"
+    },
+    {
+     "confidence": 1.0,
+     "context": "A bundle of myrrh is my well beloved unto me. He shall lie all night betwixt my breasts. Okay. And then here's here's the one I'm thinking of. Thy two breasts are like two young rows that are twins, which feed among the lilies.",
+     "creator": "dan-mcclellan",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-03-24T02:47:07Z",
+     "role": "host",
+     "t": 4213.36,
+     "title": "Data Over Dogma Livestream",
+     "video_id": "hZOOEvaTPKY"
     }
    ],
    "creators": {
+    "dan-mcclellan": 1,
     "mike-winger": 1
    },
-   "n": 1,
+   "n": 2,
    "text": {
     "KJV": "A bundle of myrrh is my well-beloved unto me; he shall lie all night betwixt my breasts.",
     "WEB": "My beloved is to me a sachet of myrrh, that lies between my breasts."
@@ -275,6 +313,31 @@
    },
    "truncated": false
   },
+  "Song of Solomon 4:5": {
+   "citations": [
+    {
+     "confidence": 0.6923,
+     "context": "A bundle of myrrh is my well beloved unto me. He shall lie all night betwixt my breasts. Okay. And then here's here's the one I'm thinking of. Thy two breasts are like two young rows that are twins, which feed among the lilies. Two young rose? Rose, which I think uh fawns. Oh. So does. So doe a deer, a female deer.",
+     "creator": "dan-mcclellan",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-03-24T02:47:07Z",
+     "role": "host",
+     "t": 4223.28,
+     "title": "Data Over Dogma Livestream",
+     "video_id": "hZOOEvaTPKY"
+    }
+   ],
+   "creators": {
+    "dan-mcclellan": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "Thy two breasts are like two young roes that are twins, which feed among the lilies.",
+    "WEB": "Your two breasts are like two fawns that are twins of a roe, which feed among the lilies."
+   },
+   "truncated": false
+  },
   "Song of Solomon 5:2-5": {
    "citations": [
     {
@@ -334,6 +397,28 @@
    },
    "truncated": false
   },
+  "Song of Solomon 6:8-9": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "So this phrase already presupposes the existence of many other gods. Adonai Echad. Adonai is one. What precisely does that mean? Well, the closest analog would probably be Song of Songs 6, verses 8 and 9, where the singer talks about how there are all these other women around, all these other concubines, all these other maidens. But then they say, My dove, my perfect one, achat he.",
+     "creator": "dan-mcclellan",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2025-03-30T14:00:31Z",
+     "role": "host",
+     "t": 2309.72,
+     "title": "Engaging Gavin Ortlund on monotheism",
+     "video_id": "LhL86fKYeAc"
+    }
+   ],
+   "creators": {
+    "dan-mcclellan": 1
+   },
+   "n": 1,
+   "text": {},
+   "truncated": false
+  },
   "Song of Solomon 7:10": {
    "citations": [
     {
@@ -356,6 +441,118 @@
    "text": {
     "KJV": "I am my beloved's, and his desire is toward me.",
     "WEB": "I am my beloved’s. His desire is toward me."
+   },
+   "truncated": false
+  },
+  "Song of Solomon 7:3": {
+   "citations": [
+    {
+     "confidence": 0.5,
+     "context": "A bundle of myrrh is my well beloved unto me. He shall lie all night betwixt my breasts. Okay. And then here's here's the one I'm thinking of. Thy two breasts are like two young rows that are twins, which feed among the lilies. Two young rose? Rose, which I think uh fawns. Oh. So does. So doe a deer, a female deer.",
+     "creator": "dan-mcclellan",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-03-24T02:47:07Z",
+     "role": "host",
+     "t": 4223.28,
+     "title": "Data Over Dogma Livestream",
+     "video_id": "hZOOEvaTPKY"
+    },
+    {
+     "confidence": 0.5,
+     "context": "Uh I know heart and and uh and as a heart, if a heart should like a hind, hind is a is a deer word, but I don't know roe. Um thy two breasts are like two young rows that are twins. So that's that's a couple chapters later. This thy stature is like to a palm tree, and thy breasts to clusters of grapes. So I guess they're hanging low.",
+     "creator": "dan-mcclellan",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-03-24T02:47:07Z",
+     "role": "host",
+     "t": 4273.28,
+     "title": "Data Over Dogma Livestream",
+     "video_id": "hZOOEvaTPKY"
+    }
+   ],
+   "creators": {
+    "dan-mcclellan": 2
+   },
+   "n": 2,
+   "text": {
+    "KJV": "Thy two breasts are like two young roes that are twins.",
+    "WEB": "Your two breasts are like two fawns, that are twins of a roe."
+   },
+   "truncated": false
+  },
+  "Song of Solomon 7:7": {
+   "citations": [
+    {
+     "confidence": 1.0,
+     "context": "Um thy two breasts are like two young rows that are twins. So that's that's a couple chapters later. This thy stature is like to a palm tree, and thy breasts to clusters of grapes. So I guess they're hanging low. Don't use these at home, kids. These are bad pickup lines. These are this is advanced. Um I said I will go up to the palm tree, I will take hold of the boughs thereof.",
+     "creator": "dan-mcclellan",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-03-24T02:47:07Z",
+     "role": "unknown",
+     "t": 4280.56,
+     "title": "Data Over Dogma Livestream",
+     "video_id": "hZOOEvaTPKY"
+    }
+   ],
+   "creators": {
+    "dan-mcclellan": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "This thy stature is like to a palm tree, and thy breasts to clusters of grapes.",
+    "WEB": "This, your stature, is like a palm tree, your breasts like its fruit."
+   },
+   "truncated": false
+  },
+  "Song of Solomon 7:8": {
+   "citations": [
+    {
+     "confidence": 0.7941,
+     "context": "This thy stature is like to a palm tree, and thy breasts to clusters of grapes. So I guess they're hanging low. Don't use these at home, kids. These are bad pickup lines. These are this is advanced. Um I said I will go up to the palm tree, I will take hold of the boughs thereof. Um now also thy breast shall be as clusters of the vine, and the smell of thy nose like apples.",
+     "creator": "dan-mcclellan",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-03-24T02:47:07Z",
+     "role": "unknown",
+     "t": 4294.64,
+     "title": "Data Over Dogma Livestream",
+     "video_id": "hZOOEvaTPKY"
+    }
+   ],
+   "creators": {
+    "dan-mcclellan": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "I said, I will go up to the palm tree, I will take hold of the boughs thereof: now also thy breasts shall be as clusters of the vine, and the smell of thy nose like apples;",
+    "WEB": "I said, “I will climb up into the palm tree. I will take hold of its fruit.” Let your breasts be like clusters of the vine, the smell of your breath like apples."
+   },
+   "truncated": false
+  },
+  "Song of Solomon 8:10": {
+   "citations": [
+    {
+     "confidence": 0.8235,
+     "context": "Our sister hath no breasts one. Quoted. She was on a uh a committee. Is that what you're saying? Yeah. Um so I was wrong. Song uh Song of Solomon 810. I am a wall, and my breasts like towers. Then what then was I in his eyes as one that found favor. Okay. So I was like, now he's looking. Yeah, that's some that's some perky uh towers he's got there.",
+     "creator": "dan-mcclellan",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-03-24T02:47:07Z",
+     "role": "unattributed",
+     "t": 4340.36,
+     "title": "Data Over Dogma Livestream",
+     "video_id": "hZOOEvaTPKY"
+    }
+   ],
+   "creators": {
+    "dan-mcclellan": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "I am a wall, and my breasts like towers: then was I in his eyes as one that found favour.",
+    "WEB": "I am a wall, and my breasts like towers, then I was in his eyes like one who found peace."
    },
    "truncated": false
   },
@@ -443,6 +640,31 @@
    "text": {
     "KJV": "Many waters cannot quench love, neither can the floods drown it: if a man would give all the substance of his house for love, it would utterly be contemned.",
     "WEB": "Many waters can’t quench love, neither can floods drown it. If a man would give all the wealth of his house for love, he would be utterly scorned."
+   },
+   "truncated": false
+  },
+  "Song of Solomon 8:8": {
+   "citations": [
+    {
+     "confidence": 0.8696,
+     "context": "Um now also thy breast shall be as clusters of the vine, and the smell of thy nose like apples. We've got a reference to uh suckled the breast of my mother. Uh we have a little sister, and she hath no breasts. What shall we do for our sister in the day when she b shall be spoken for? I remember in high school. Oh, there we go. Our sister hath no breasts one.",
+     "creator": "dan-mcclellan",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2025-03-24T02:47:07Z",
+     "role": "host",
+     "t": 4316.24,
+     "title": "Data Over Dogma Livestream",
+     "video_id": "hZOOEvaTPKY"
+    }
+   ],
+   "creators": {
+    "dan-mcclellan": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "We have a little sister, and she hath no breasts: what shall we do for our sister in the day when she shall be spoken for?",
+    "WEB": "We have a little sister. She has no breasts. What shall we do for our sister in the day when she is to be spoken for?"
    },
    "truncated": false
   }

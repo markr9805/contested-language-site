@@ -5,7 +5,7 @@
     "cite_key": "391381d24df3e54d927d6c0f7c16b6d2d5df6e31d784765c23331cfb2197eb9e",
     "context": "So let's read Colossians 1, 15 to 19. He says of Christ, he is the image of the invisible God, the firstborn of all creation. For in him all things were created in heaven and on earth, visible and invisible, whether thrones or dominions or principalities or authorities, all things were created through him and for him.",
     "creator": "reasonable-faith-org",
-    "dist": 0.219,
+    "dist": 0.2247,
     "published_at": "2022-12-11T17:15:23Z",
     "role": "host",
     "t": 2005.36,
@@ -17,7 +17,7 @@
     "cite_key": "fe2aed221c9eb59aef8c0e35560f20ffa77f5bef545f7f087177ee9f58365a44",
     "context": "To give just one scripture on this, consider Colossians chapter 1, verses 15 and 16. Colossians 1, 15 and 16. Speaking of Christ, it says, He is the image of the invisible God, the firstborn of all creation, for in him all things were created, things in heaven and things on earth.",
     "creator": "reasonable-faith-org",
-    "dist": 0.2249,
+    "dist": 0.228,
     "published_at": "2024-09-09T04:07:10Z",
     "role": "host",
     "t": 109.76,
@@ -29,7 +29,7 @@
     "cite_key": "d653152b4e1d69d858d1e0166801e891f2c4b3c39a87faa8bf53804248a58d9b",
     "context": "And that's the context, and that's all you got to do with Colossians is keep reading. So often with uh false religious groups, they just quote one verse out of context. Well, let's look at Colossians 1.15 and we'll keep reading. He's the image of the invisible God, the firstborn of all creation, for by him all things were created. In heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities, all things were created through him and for him. And he's before all things, and in him all things hold together.",
     "creator": "mike-winger",
-    "dist": 0.2922,
+    "dist": 0.2941,
     "published_at": "2019-01-09T02:37:01Z",
     "role": "host",
     "t": 3732.52,
@@ -41,7 +41,7 @@
     "cite_key": "a737fdf4a082714269cf0e0c43e5637d7f855f391ca629efe3ebc196e25471f8",
     "context": "But you can go on and ask the question does that mean he's created? If he's the first of creation, does that make him part of creation? But Colossians itself refutes this. Let me just read it in context. Um Colossians 1 15 through 19. He is the image of the invisible God, the firstborn of all creation, for by him all things were created in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities, all things were created through him and for him. So wait, if everything's made by Jesus, then he's not made.",
     "creator": "mike-winger",
-    "dist": 0.3111,
+    "dist": 0.3124,
     "published_at": "2021-10-18T16:35:26Z",
     "role": "host",
     "t": 8441.2,
@@ -53,7 +53,7 @@
     "cite_key": "059f01c92d9fd59acdb721ad0941c05fefec6524018a6023a66d94ef9c504eef",
     "context": "But you can go on and ask the question does that mean he's created? If he's the first of creation, does that make him part of creation? But Colossians itself refutes this. Let me just read it in context. Colossians 1 15 through 19. He is the image of the invisible God, the firstborn of all creation, for by him all things were created in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities, all things were created through him and for him. So wait, if everything's made by Jesus, then he's not made.",
     "creator": "mike-winger",
-    "dist": 0.3124,
+    "dist": 0.3137,
     "published_at": "2021-06-30T17:15:01Z",
     "role": "host",
     "t": 192.04,
@@ -112,6 +112,14 @@
      "n": 2,
      "status": "insufficient-data"
     },
+    "dan-mcclellan": {
+     "counts": [
+      1,
+      0
+     ],
+     "n": 1,
+     "status": "insufficient-data"
+    },
     "jackie-hill-perry": {
      "counts": [
       1,
@@ -163,14 +171,14 @@
    "cells": {
     "overall": {
      "counts": [
-      22,
+      23,
       3
      ],
      "dist": [
-      0.88,
-      0.12
+      0.8846,
+      0.1154
      ],
-     "n": 25,
+     "n": 26,
      "status": "ok"
     }
    },
@@ -180,14 +188,14 @@
    "cells": {
     "host": {
      "counts": [
-      17,
+      18,
       3
      ],
      "dist": [
-      0.85,
-      0.15
+      0.8571,
+      0.1429
      ],
-     "n": 20,
+     "n": 21,
      "status": "ok"
     },
     "unattributed": {
@@ -253,10 +261,10 @@
     },
     "2024": {
      "counts": [
-      6,
+      7,
       1
      ],
-     "n": 7,
+     "n": 8,
      "status": "insufficient-data"
     },
     "2025": {
@@ -280,8 +288,8 @@
   }
  },
  "k": 2,
- "n": 25,
- "silhouette": 0.1414,
+ "n": 26,
+ "silhouette": 0.1347,
  "status": "ok",
  "verse_ref": "Colossians 1:15"
 }

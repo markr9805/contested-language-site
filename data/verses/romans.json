@@ -4979,6 +4979,42 @@
      "video_id": "n1V0ZXFzFDI"
     },
     {
+     "confidence": null,
+     "context": "Everything has to do, and everything has to start back with doing the rearrangement of your mind. You know, as the good in the good book, the Holy Bible. In the good book, it says in Romans chapter 12, and this is actually one of my favorite scriptures in there, believe it or not, and I'm not religious, but in Romans chapter 12, verse 2, it tells you to be not conformed to this world, but be ye transformed by the renewing of your mind so that you may prove the good and acceptable and perfect will of God.",
+     "creator": "the-omnist-rone",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2024-02-05T01:31:51Z",
+     "role": "host",
+     "t": 232.88,
+     "title": "Success will come in your life IF you LISTEN to this…",
+     "video_id": "tp_kgCCzAbI"
+    },
+    {
+     "confidence": null,
+     "context": "Everything has to do, and everything has to start back with doing the rearrangement of your mind. You know, as the good in the good book, the Holy Bible. In the good book, it says in Romans chapter 12, and this is actually one of my favorite scriptures in there, believe it or not, and I'm not religious, but in Romans chapter 12, verse 2, it tells you to be not conformed to this world, but be ye transformed by the renewing of your mind so that you may prove the good and acceptable and perfect will of God.",
+     "creator": "the-omnist-rone",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-02-05T01:31:51Z",
+     "role": "host",
+     "t": 232.88,
+     "title": "Success will come in your life IF you LISTEN to this…",
+     "video_id": "tp_kgCCzAbI"
+    },
+    {
+     "confidence": 0.6552,
+     "context": "Everything has to do, and everything has to start back with doing the rearrangement of your mind. You know, as the good in the good book, the Holy Bible. In the good book, it says in Romans chapter 12, and this is actually one of my favorite scriptures in there, believe it or not, and I'm not religious, but in Romans chapter 12, verse 2, it tells you to be not conformed to this world, but be ye transformed by the renewing of your mind so that you may prove the good and acceptable and perfect will of God.",
+     "creator": "the-omnist-rone",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-02-05T01:31:51Z",
+     "role": "host",
+     "t": 232.88,
+     "title": "Success will come in your life IF you LISTEN to this…",
+     "video_id": "tp_kgCCzAbI"
+    },
+    {
      "confidence": 0.6071,
      "context": "And then that carries forward, that connects to the verse 2. It's kind of the result of verse 1. And do not be conformed to this world, but be transformed by the renewing of your mind, that you may prove what is that good and acceptable and perfect will of God. So let's pull verse 2 apart, kind of piece by piece. Uh, first thing it says is do not be what?",
      "creator": "mike-winger",
@@ -4993,9 +5029,10 @@
    ],
    "creators": {
     "genetically-modified-skeptic": 1,
-    "mike-winger": 4
+    "mike-winger": 4,
+    "the-omnist-rone": 3
    },
-   "n": 5,
+   "n": 8,
    "text": {
     "KJV": "And be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God.",
     "WEB": "Don’t be conformed to this world, but be transformed by the renewing of your mind, so that you may prove what is the good, well-pleasing, and perfect will of God."
@@ -5518,6 +5555,30 @@
     },
     {
      "confidence": null,
+     "context": "Uh many Christians know only a bit of this, and the result is that they don't fully understand their role as a citizen. But this is Romans chapter 13, verses one through seven. Romans 13, verse 1 says, Let every person uh that would be both sides of the political aisle be subject to the governing authorities, for there is no authority except from God, and those that exist have been instituted by God. Let me just give you a few principles. Number one, we are citizens of God's kingdom first and residents of our nation second.",
+     "creator": "dan-mcclellan",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-10-27T20:14:56Z",
+     "role": "unknown",
+     "t": 4499.76,
+     "title": "Diablocritics Livestream",
+     "video_id": "nPoNG1xov_k"
+    },
+    {
+     "confidence": null,
+     "context": "No, it's just they threw a great party. Can I say something places? Can I say Jesus Catholic? Can I say something about Romans 13:1 though? Um, like it of all the examples of wrenching scripture out of context to remake it in your own image. Paul expected the world to end within his lifetime. The Roman Empire was not going anywhere.",
+     "creator": "dan-mcclellan",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-10-27T20:14:56Z",
+     "role": "host",
+     "t": 4607.08,
+     "title": "Diablocritics Livestream",
+     "video_id": "nPoNG1xov_k"
+    },
+    {
+     "confidence": null,
      "context": "Over time, this framing produces learn moral dependence, a posture in which individuals are trained to distrust their own inner life and to rely on external authority to tell them what is good, right, or permissible. Then there's Romans chapter 13, verse 1. Let everyone be subject to governing authorities, for there is no authority except that which God has established. By framing governing authorities as divinely established, Paul removes authority from the realm of negotiation and places it within the realm of the sacred.",
      "creator": "darante-lamar",
      "detection_method": "explicit_carried",
@@ -5554,11 +5615,11 @@
     }
    ],
    "creators": {
-    "dan-mcclellan": 1,
+    "dan-mcclellan": 3,
     "darante-lamar": 4,
     "mike-winger": 3
    },
-   "n": 8,
+   "n": 10,
    "text": {
     "KJV": "Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God.",
     "WEB": "Let every soul be in subjection to the higher authorities, for there is no authority except from God, and those who exist are ordained by God."
@@ -5600,12 +5661,37 @@
      "t": 174.76,
      "title": "A Biblical View of the Separation of Church and State: Romans 13:1-7",
      "video_id": "Dar9X0H5VWM"
+    },
+    {
+     "confidence": null,
+     "context": "On God's declaration regarding Christian interaction with government, with secular civil order. Uh many Christians know only a bit of this, and the result is that they don't fully understand their role as a citizen. But this is Romans chapter 13, verses one through seven. Romans 13, verse 1 says, Let every person uh that would be both sides of the political aisle be subject to the governing authorities, for there is no authority except from God, and those that exist have been instituted by God.",
+     "creator": "dan-mcclellan",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2024-10-27T20:14:56Z",
+     "role": "unknown",
+     "t": 4495.68,
+     "title": "Diablocritics Livestream",
+     "video_id": "nPoNG1xov_k"
+    },
+    {
+     "confidence": null,
+     "context": "On God's declaration regarding Christian interaction with government, with secular civil order. Uh many Christians know only a bit of this, and the result is that they don't fully understand their role as a citizen. But this is Romans chapter 13, verses one through seven. Romans 13, verse 1 says, Let every person uh that would be both sides of the political aisle be subject to the governing authorities, for there is no authority except from God, and those that exist have been instituted by God.",
+     "creator": "dan-mcclellan",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-10-27T20:14:56Z",
+     "role": "unknown",
+     "t": 4495.68,
+     "title": "Diablocritics Livestream",
+     "video_id": "nPoNG1xov_k"
     }
    ],
    "creators": {
+    "dan-mcclellan": 2,
     "mike-winger": 1
    },
-   "n": 1,
+   "n": 3,
    "text": {},
    "truncated": false
   },
@@ -9522,6 +9608,30 @@
      "video_id": "JuSl-dcS4tw"
     },
     {
+     "confidence": null,
+     "context": "Like that is the most pathetic cheerleading for the Bible I've heard in a long, long time. We'll get into more videos on that. But Romans chapter 1, verse 18. It tells us that every single person knows that God exists, but we suppress the truth in unrighteousness. Meaning And in Romans 1, Paul's natural theology rhetoric is just his own rationalization for why he should be able to condemn the Greco Roman world for not appropriately worshipping a God they don't believe in.",
+     "creator": "dan-mcclellan",
+     "detection_method": "explicit_carried",
+     "matched_translation": null,
+     "published_at": "2024-12-23T18:13:56Z",
+     "role": "unknown",
+     "t": 314.16,
+     "title": "Is atheism the most foolish religion?",
+     "video_id": "KRL3-V5dwa8"
+    },
+    {
+     "confidence": null,
+     "context": "Like that is the most pathetic cheerleading for the Bible I've heard in a long, long time. We'll get into more videos on that. But Romans chapter 1, verse 18. It tells us that every single person knows that God exists, but we suppress the truth in unrighteousness. Meaning And in Romans 1, Paul's natural theology rhetoric is just his own rationalization for why he should be able to condemn the Greco Roman world for not appropriately worshipping a God they don't believe in.",
+     "creator": "dan-mcclellan",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-12-23T18:13:56Z",
+     "role": "unknown",
+     "t": 314.16,
+     "title": "Is atheism the most foolish religion?",
+     "video_id": "KRL3-V5dwa8"
+    },
+    {
      "confidence": 1.0,
      "context": "Um, we're gonna talk about um what everyone knows about God and evidence for God and common sense and um are there really atheists and that sort of thing. So, but let's just read a little preview here, verse 18. It says, For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men who suppress the truth in unrighteousness, because what may be known of God is manifest in them, for God has shown it to them. And then it'll go on and it'll talk about how creation declares God's glory and and those types of things.",
      "creator": "mike-winger",
@@ -9766,12 +9876,13 @@
     "belief-it-or-not": 1,
     "capturing-christianity": 1,
     "counsel-of-trent": 1,
+    "dan-mcclellan": 2,
     "mike-winger": 21,
     "neverflamenevertilt": 2,
     "paulogia": 1,
     "reasonable-faith-org": 2
    },
-   "n": 29,
+   "n": 31,
    "text": {
     "KJV": "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness;",
     "WEB": "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men who suppress the truth in unrighteousness,"

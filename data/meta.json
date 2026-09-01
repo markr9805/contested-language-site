@@ -1,8 +1,8 @@
 {
  "corpus_fingerprint": {
   "covers": "ids+content+attribution@source",
-  "fingerprint": "sha256:456c077b2c6223bd5cb0f513232a14a5",
-  "videos": 14997
+  "fingerprint": "sha256:47b20da90e43141e21d2e079070b26a4",
+  "videos": 15991
  },
  "duplicates_excluded": 13,
  "groupings": [
@@ -43,9 +43,9 @@
    "non_host_words": 1092691
   },
   "dan-mcclellan": {
-   "host_words": 1096927,
-   "non_host_fraction": 0.1696,
-   "non_host_words": 224010
+   "host_words": 2309385,
+   "non_host_fraction": 0.1619,
+   "non_host_words": 446234
   },
   "darante-lamar": {
    "host_words": 5230892,
@@ -73,9 +73,9 @@
    "non_host_words": 1104833
   },
   "lil-bill": {
-   "host_words": 568119,
-   "non_host_fraction": 0.0068,
-   "non_host_words": 3902
+   "host_words": 586147,
+   "non_host_fraction": 0.0121,
+   "non_host_words": 7177
   },
   "marc-coley": {
    "host_words": 120004,
@@ -88,9 +88,9 @@
    "non_host_words": 748161
   },
   "mindshift": {
-   "host_words": 1867544,
-   "non_host_fraction": 0.3424,
-   "non_host_words": 972275
+   "host_words": 1879021,
+   "non_host_fraction": 0.3432,
+   "non_host_words": 982049
   },
   "neverflamenevertilt": {
    "host_words": 739990,
@@ -123,9 +123,9 @@
    "non_host_words": 605349
   },
   "the-omnist-rone": {
-   "host_words": 1174318,
-   "non_host_fraction": 0.1666,
-   "non_host_words": 234747
+   "host_words": 1385059,
+   "non_host_fraction": 0.153,
+   "non_host_words": 250183
   }
  },
  "parameters": {
@@ -140,10 +140,10 @@
   {
    "dispersion": {
     "creator_range": 23,
-    "dp": 0.5055,
+    "dp": 0.5042,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 249.8884
+    "weighted": 245.0697
    },
    "phrase": "community",
    "status": "active",
@@ -154,10 +154,10 @@
   {
    "dispersion": {
     "creator_range": 23,
-    "dp": 0.3419,
+    "dp": 0.3473,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 23.2874
+    "weighted": 22.7799
    },
    "phrase": "accountability",
    "status": "active",
@@ -166,10 +166,10 @@
   {
    "dispersion": {
     "creator_range": 22,
-    "dp": 0.6072,
+    "dp": 0.6002,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 13.8268
+    "weighted": 13.8896
    },
    "phrase": "deconstruction",
    "status": "active",
@@ -180,10 +180,10 @@
   {
    "dispersion": {
     "creator_range": 23,
-    "dp": 0.3629,
+    "dp": 0.3702,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 97.76
+    "weighted": 94.2912
    },
    "phrase": "grace",
    "status": "active",
@@ -192,10 +192,10 @@
   {
    "dispersion": {
     "creator_range": 5,
-    "dp": 0.7823,
+    "dp": 0.7873,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 0.0425
+    "weighted": 0.0402
    },
    "phrase": "purity test",
    "status": "active",
@@ -219,10 +219,10 @@
   {
    "dispersion": {
     "creator_range": 23,
-    "dp": 0.5631,
+    "dp": 0.566,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 7.8896
+    "weighted": 7.6475
    },
    "phrase": "do the work",
    "status": "active",
@@ -245,10 +245,10 @@
   {
    "dispersion": {
     "creator_range": 23,
-    "dp": 0.1898,
+    "dp": 0.1934,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 429.3476
+    "weighted": 417.1125
    },
    "phrase": "truth",
    "status": "watchlist",
@@ -259,10 +259,10 @@
   {
    "dispersion": {
     "creator_range": 23,
-    "dp": 0.2768,
+    "dp": 0.2784,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 438.6912
+    "weighted": 429.8302
    },
    "phrase": "evidence",
    "status": "watchlist",
@@ -271,10 +271,10 @@
   {
    "dispersion": {
     "creator_range": 23,
-    "dp": 0.18,
+    "dp": 0.1856,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 657.539
+    "weighted": 646.3783
    },
    "phrase": "love",
    "status": "watchlist",
@@ -283,10 +283,10 @@
   {
    "dispersion": {
     "creator_range": 23,
-    "dp": 0.294,
+    "dp": 0.2983,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 80.2557
+    "weighted": 77.9989
    },
    "phrase": "harm",
    "status": "watchlist",
@@ -297,10 +297,10 @@
   {
    "dispersion": {
     "creator_range": 14,
-    "dp": 0.592,
+    "dp": 0.6023,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 2.3601
+    "weighted": 2.2243
    },
    "phrase": "false teacher",
    "status": "active",
@@ -311,10 +311,10 @@
   {
    "dispersion": {
     "creator_range": 22,
-    "dp": 0.4138,
+    "dp": 0.4046,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 7.0115
+    "weighted": 7.0297
    },
    "phrase": "false prophet",
    "status": "active",
@@ -325,10 +325,10 @@
   {
    "dispersion": {
     "creator_range": 13,
-    "dp": 0.6033,
+    "dp": 0.6094,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 0.4135
+    "weighted": 0.3937
    },
    "phrase": "grifter",
    "status": "active",
@@ -339,10 +339,10 @@
   {
    "dispersion": {
     "creator_range": 20,
-    "dp": 0.3821,
+    "dp": 0.3699,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 9.1315
+    "weighted": 9.3053
    },
    "phrase": "heretic",
    "status": "active",
@@ -353,10 +353,10 @@
   {
    "dispersion": {
     "creator_range": 11,
-    "dp": 0.443,
+    "dp": 0.4519,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 0.2331
+    "weighted": 0.2218
    },
    "phrase": "wolf in sheep's clothing",
    "status": "active",
@@ -369,10 +369,10 @@
   {
    "dispersion": {
     "creator_range": 19,
-    "dp": 0.3657,
+    "dp": 0.3767,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 7.2824
+    "weighted": 6.9435
    },
    "phrase": "discernment",
    "status": "active",
@@ -381,10 +381,10 @@
   {
    "dispersion": {
     "creator_range": 18,
-    "dp": 0.5169,
+    "dp": 0.5192,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 6.9522
+    "weighted": 6.7169
    },
    "phrase": "apostate",
    "status": "active",
@@ -395,10 +395,10 @@
   {
    "dispersion": {
     "creator_range": 12,
-    "dp": 0.6014,
+    "dp": 0.6105,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 1.5829
+    "weighted": 1.4955
    },
    "phrase": "false teaching",
    "status": "active",
@@ -409,10 +409,10 @@
   {
    "dispersion": {
     "creator_range": 15,
-    "dp": 0.4489,
+    "dp": 0.4465,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 0.9854
+    "weighted": 0.9736
    },
    "phrase": "grift",
    "status": "active",
@@ -423,10 +423,10 @@
   {
    "dispersion": {
     "creator_range": 21,
-    "dp": 0.3389,
+    "dp": 0.3382,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 16.3932
+    "weighted": 16.1189
    },
    "phrase": "heresy",
    "status": "active",
@@ -437,10 +437,10 @@
   {
    "dispersion": {
     "creator_range": 18,
-    "dp": 0.4646,
+    "dp": 0.471,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 5.972
+    "weighted": 5.7243
    },
    "phrase": "apostasy",
    "status": "active",
@@ -451,10 +451,10 @@
   {
    "dispersion": {
     "creator_range": 16,
-    "dp": 0.5419,
+    "dp": 0.5329,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 1.145
+    "weighted": 1.1733
    },
    "phrase": "clout",
    "status": "active",
@@ -463,10 +463,10 @@
   {
    "dispersion": {
     "creator_range": 9,
-    "dp": 0.6354,
+    "dp": 0.6437,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 0.1821
+    "weighted": 0.172
    },
    "phrase": "watchdog",
    "status": "watchlist",
@@ -477,10 +477,10 @@
   {
    "dispersion": {
     "creator_range": 2,
-    "dp": 0.7279,
+    "dp": 0.7369,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 0.0157
+    "weighted": 0.0146
    },
    "phrase": "discernment ministry",
    "status": "watchlist",
@@ -505,10 +505,10 @@
   {
    "dispersion": {
     "creator_range": 19,
-    "dp": 0.7351,
+    "dp": 0.7388,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 10.7963
+    "weighted": 10.3016
    },
    "phrase": "superstition",
    "status": "watchlist",
@@ -519,10 +519,10 @@
   {
    "dispersion": {
     "creator_range": 20,
-    "dp": 0.6355,
+    "dp": 0.6404,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 9.4011
+    "weighted": 9.0053
    },
    "phrase": "humanist",
    "status": "watchlist",
@@ -532,11 +532,11 @@
   },
   {
    "dispersion": {
-    "creator_range": 18,
-    "dp": 0.6534,
+    "creator_range": 19,
+    "dp": 0.6606,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 11.2186
+    "weighted": 11.2547
    },
    "phrase": "deconversion",
    "status": "watchlist",
@@ -551,10 +551,10 @@
   {
    "dispersion": {
     "creator_range": 18,
-    "dp": 0.7274,
+    "dp": 0.7302,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 4.2461
+    "weighted": 4.0629
    },
    "phrase": "nihilism",
    "status": "watchlist",
@@ -565,10 +565,10 @@
   {
    "dispersion": {
     "creator_range": 22,
-    "dp": 0.2987,
+    "dp": 0.3085,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 274.5962
+    "weighted": 262.8659
    },
    "phrase": "atheist",
    "status": "watchlist",
@@ -578,11 +578,11 @@
   },
   {
    "dispersion": {
-    "creator_range": 12,
-    "dp": 0.7066,
+    "creator_range": 13,
+    "dp": 0.7068,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 3.0504
+    "weighted": 3.2082
    },
    "phrase": "sola scriptura",
    "status": "watchlist",
@@ -593,16 +593,16 @@
   {
    "dispersion": {
     "creator_range": 11,
-    "dp": 0.862,
+    "dp": 0.8646,
     "n_creators": 23,
     "status": "ok",
-    "weighted": 0.5164
+    "weighted": 0.4901
    },
    "phrase": "haram",
    "status": "watchlist",
    "variants": []
   }
  ],
- "videos": 14997,
- "words": 42307233
+ "videos": 15991,
+ "words": 43750972
 }

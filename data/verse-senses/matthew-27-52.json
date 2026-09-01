@@ -2,22 +2,10 @@
  "exemplars": {
   "0": [
    {
-    "cite_key": "a8facd74c5ffef0132a37c38e54c4e5870ce2ba1cd7a53cbb810b6f0c52c6381",
-    "context": "Now, Matthew reports that at the moment of Jesus' death and in connection with his resurrection, a cascade of extraordinary events occurred simultaneously. The temple veil was torn in two, an earthquake split rocks, tombs were opened, and many bodies of the saints who had fallen asleep were raised. These resurrected individuals are said to have entered Jerusalem and appeared to many people.",
-    "creator": "darante-lamar",
-    "dist": 0.2645,
-    "published_at": "2026-01-02T00:30:27Z",
-    "role": "host",
-    "t": 24.4,
-    "title": "Jesus' Resurrection: The UNDENIABLE Public Event? #shorts",
-    "verse_ref": "Matthew 27:52",
-    "video_id": "j_8oc5KyFcs"
-   },
-   {
     "cite_key": "88da297e4db43f9b16528252d7903b1592d9fd32520f7cb1936575f90134d8d3",
     "context": "Let's talk about the silence around the supernatural. The Gospels don't just claim Jesus rose from the dead, they claim the earth shook, the sky went dark, and the tombs opened with dead saints walking through Jerusalem for everyone to see. Matthew chapter 27, verse 52 through 53 reads, The tombs were open and many bodies of the saints who had fallen asleep were raised. And coming out of the tombs after his resurrection, they went into the holy city and appeared to many. That's not a private vision, that's not an inner conviction, that's a mass resurrection in a major capital during Passover in front of thousands.",
     "creator": "darante-lamar",
-    "dist": 0.27,
+    "dist": 0.2689,
     "published_at": "2026-05-14T17:06:22Z",
     "role": "host",
     "t": 146.76,
@@ -26,10 +14,22 @@
     "video_id": "xJV1j6Eoj-c"
    },
    {
+    "cite_key": "a8facd74c5ffef0132a37c38e54c4e5870ce2ba1cd7a53cbb810b6f0c52c6381",
+    "context": "Now, Matthew reports that at the moment of Jesus' death and in connection with his resurrection, a cascade of extraordinary events occurred simultaneously. The temple veil was torn in two, an earthquake split rocks, tombs were opened, and many bodies of the saints who had fallen asleep were raised. These resurrected individuals are said to have entered Jerusalem and appeared to many people.",
+    "creator": "darante-lamar",
+    "dist": 0.2727,
+    "published_at": "2026-01-02T00:30:27Z",
+    "role": "host",
+    "t": 24.4,
+    "title": "Jesus' Resurrection: The UNDENIABLE Public Event? #shorts",
+    "verse_ref": "Matthew 27:52",
+    "video_id": "j_8oc5KyFcs"
+   },
+   {
     "cite_key": "db1f9c62375ca8dcab9939c5454cd55bb6bbcec9e08c8bcc415b623e33dda1d6",
     "context": "The tombs were opened, and many bodies of the saints who had fallen asleep were raised. And coming out of the tombs after his resurrection, they entered the holy city and appeared to many. Now, Matthew reports that at the moment of Jesus' death and in connection with his resurrection, a cascade of extraordinary events occurred simultaneously.",
     "creator": "darante-lamar",
-    "dist": 0.2742,
+    "dist": 0.278,
     "published_at": "2026-01-02T00:30:27Z",
     "role": "host",
     "t": 0.16,
@@ -41,7 +41,7 @@
     "cite_key": "425fabb24d47bf19f17372904ef3868d8af551f796f2d9fe0484b7a63695a4f1",
     "context": "Let's talk about the silence around the supernatural. The Gospels don't just claim Jesus rose from the dead. They claim the earth shook, the sky went dark, and the tombs opened with dead saints walking through Jerusalem for everyone to see. Matthew chapter 27, verse 52 through 53 reads, The tombs were open and many bodies of the saints who had fallen asleep were raised. And coming out of the tombs after his resurrection, they went into the holy city and appeared to many. That's not a private vision.",
     "creator": "darante-lamar",
-    "dist": 0.2871,
+    "dist": 0.2862,
     "published_at": "2025-05-19T17:56:22Z",
     "role": "host",
     "t": 146.76,
@@ -53,7 +53,7 @@
     "cite_key": "62f2f21ed159268ff4f42994896ad5d66789f27cc29b47e898b48b72e0194979",
     "context": "Let's talk about the silence around the supernatural. The Gospels don't just claim Jesus rose from the dead. They claim the earth shook, the sky went dark, and the tombs opened with dead saints walking through Jerusalem for everyone to see. Matthew chapter 27, verse 52 through 53 reads, The tombs were open, and many bodies of the saints who had fallen asleep were raised. And coming out of the tombs after his resurrection, they went into the holy city and appeared to many. That's not a private vision.",
     "creator": "darante-lamar",
-    "dist": 0.2874,
+    "dist": 0.2866,
     "published_at": "2025-05-21T13:12:32Z",
     "role": "host",
     "t": 13.2,
@@ -120,6 +120,14 @@
      "n": 1,
      "status": "insufficient-data"
     },
+    "dan-mcclellan": {
+     "counts": [
+      1,
+      0
+     ],
+     "n": 1,
+     "status": "insufficient-data"
+    },
     "darante-lamar": {
      "counts": [
       7,
@@ -159,14 +167,14 @@
    "cells": {
     "overall": {
      "counts": [
-      14,
+      15,
       3
      ],
      "dist": [
-      0.8235,
-      0.1765
+      0.8333,
+      0.1667
      ],
-     "n": 17,
+     "n": 18,
      "status": "ok"
     }
    },
@@ -176,14 +184,14 @@
    "cells": {
     "host": {
      "counts": [
-      9,
+      10,
       1
      ],
      "dist": [
-      0.9,
-      0.1
+      0.9091,
+      0.0909
      ],
-     "n": 10,
+     "n": 11,
      "status": "ok"
     },
     "unknown": {
@@ -233,10 +241,10 @@
     },
     "2025": {
      "counts": [
-      6,
+      7,
       1
      ],
-     "n": 7,
+     "n": 8,
      "status": "insufficient-data"
     },
     "2026": {
@@ -252,8 +260,8 @@
   }
  },
  "k": 2,
- "n": 17,
- "silhouette": 0.2041,
+ "n": 18,
+ "silhouette": 0.1845,
  "status": "ok",
  "verse_ref": "Matthew 27:52"
 }

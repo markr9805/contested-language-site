@@ -6,25 +6,40 @@
  ],
  "prompt_version": "2",
  "terms": {
+  "accountability": {
+   "file": "accountability.json",
+   "profiles": 1,
+   "stale": 1
+  },
   "community": {
    "file": "community.json",
-   "profiles": 4,
-   "stale": 4
+   "profiles": 2,
+   "stale": 2
+  },
+  "deconstruction": {
+   "file": "deconstruction.json",
+   "profiles": 2,
+   "stale": 2
   },
   "evidence": {
    "file": "evidence.json",
-   "profiles": 3,
-   "stale": 3
+   "profiles": 2,
+   "stale": 2
+  },
+  "harm": {
+   "file": "harm.json",
+   "profiles": 2,
+   "stale": 2
   },
   "love": {
    "file": "love.json",
-   "profiles": 5,
-   "stale": 5
+   "profiles": 4,
+   "stale": 4
   },
   "truth": {
    "file": "truth.json",
-   "profiles": 2,
-   "stale": 2
+   "profiles": 4,
+   "stale": 4
   }
  }
 }

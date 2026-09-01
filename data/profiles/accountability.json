@@ -1,15 +1,16 @@
 {
  "lines": {
-  "32538": {
-   "context": "It can almost kind of feel like a country club sort of vibe. There is actually the last few years, there's been the start of a bit of uh reformation, a call to greater action, a call to greater accountability within humanist circles. Most humanist groups are led by a bunch of cis straight white old men, okay.",
-   "creator": "darante-lamar",
-   "occurrence_id": 32538,
-   "published_at": "2025-06-09T07:03:34Z",
+  "32541": {
+   "context": "So if you're into stuff to like like that, subscribe. One, two, hit that link and uh register, and uh, yeah, let's go. I'm also working on bringing back my accountability group because it's just really powerful. I'm debating if I want to do it um wait for next year. Um, I've had a few people like, yo, bring it back, let's go. I just know that um we're going into the holidays, Thanksgiving, then we're gonna go into Christmas, and then uh me and my partner we're going to Bangkok, Thailand, which I'm extremely excited about.",
+   "creator": "marc-coley",
+   "occurrence_id": 32541,
+   "published_at": "2025-11-19T00:57:43Z",
+   "quoted": false,
    "role": "host",
    "surface": "accountability",
-   "t": 6036.6,
-   "title": "Your Next Life Now with X-Pastor Drew Bekius // Sunday Sessions",
-   "video_id": "WimtUwTD-8U"
+   "t": 400.68,
+   "title": "If you are in your late 20s or early 30s watch this",
+   "video_id": "90c74zOE6Rk"
   }
  },
  "profiles": [
@@ -18,63 +19,23 @@
    "cell": "creator=darante-lamar",
    "claims": [
     {
-     "aspect": "rhetorical-role",
+     "aspect": "function",
      "evidence": [
-      32538
+      32541
      ],
-     "text": "Accountability is positioned as a core value that the speaker's community prioritizes over traditional structures of authority (L6)."
+     "text": "The concept suggests that accountability should focus on what needs to be accomplished, rather than being centered on the individual person (L11)."
     }
    ],
    "composition": {
-    "darante-lamar": 1
+    "marc-coley": 1
    },
    "data_hash": "4fc432e4c951749a88de1c33",
+   "date_range": {
+    "earliest": "2025-11-19T00:57:43Z",
+    "latest": "2025-11-19T00:57:43Z"
+   },
    "dropped_claims": 0,
    "generated_at": "2026-07-19T14:16:07Z",
-   "k": 2,
-   "model": "ollama:gemma4:e4b:c6eb396dbd59",
-   "n": 169,
-   "prompt_version": "1",
-   "sampled": [
-    5443,
-    5444,
-    5447,
-    32546,
-    16637,
-    32538,
-    26193,
-    21360,
-    2883,
-    31072,
-    32541,
-    7073,
-    10705,
-    33235,
-    16401,
-    19300
-   ],
-   "sense": 1,
-   "stale": true,
-   "term": "accountability"
-  },
-  {
-   "aspects_missing": [],
-   "cell": "overall",
-   "claims": [
-    {
-     "aspect": "rhetorical-role",
-     "evidence": [
-      32538
-     ],
-     "text": "Accountability is positioned as a core value that should supersede authority in community structures (L6)."
-    }
-   ],
-   "composition": {
-    "darante-lamar": 1
-   },
-   "data_hash": "4fc432e4c951749a88de1c33",
-   "dropped_claims": 0,
-   "generated_at": "2026-07-19T14:17:06Z",
    "k": 2,
    "model": "ollama:gemma4:e4b:c6eb396dbd59",
    "n": 169,

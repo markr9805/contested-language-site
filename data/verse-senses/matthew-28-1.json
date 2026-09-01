@@ -5,7 +5,7 @@
     "cite_key": "a6546c74e8722f5a995d6fc10965e4b30cee0c4cf96fbfb21d1706d1c0de2c2e",
     "context": "It says, When the Sabbath was passed, Mary Magdalene, Mary, the mother of James and Salome, bought spices so they might go and anoint him. Um, if we look at um Matthew uh 28, verse 1, it says three women, right? Three different women exactly. Matthew 28, verse 1. Now, after the Sabbath, toward the dawn of the first day of the week, Mary Magdalene and the other Mary went to see the tomb. Uh so there's uh multiple women going to the tomb.",
     "creator": "mike-winger",
-    "dist": 0.3146,
+    "dist": 0.318,
     "published_at": "2019-05-16T19:39:28Z",
     "role": "host",
     "t": 6719.16,
@@ -17,7 +17,7 @@
     "cite_key": "bcb94efc7f3cd06c3e47c55002bec92837ff92760191b4674c6206ad8cd3e75c",
     "context": "Um, if we look at um Matthew uh 28, verse 1, it says three women, right? Three different women exactly. Matthew 28, verse 1. Now, after the Sabbath, toward the dawn of the first day of the week, Mary Magdalene and the other Mary went to see the tomb. Uh so there's uh multiple women going to the tomb. Luke 24, verse 10. Now it was Mary Magdalene and Joanna, and Mary the mother of James, and the other woman with them who told these things to the apostles.",
     "creator": "mike-winger",
-    "dist": 0.3311,
+    "dist": 0.341,
     "published_at": "2019-05-16T19:39:28Z",
     "role": "host",
     "t": 6726.92,
@@ -29,7 +29,7 @@
     "cite_key": "d99b94ec96026b1d4ce20b5719328f4bd0743fbe3004bb10bbc92a4acf405c7b",
     "context": "So let's just say that Mr. But successfully dealt with number two, and we can flush this one away and move on to his final example. Many times skeptics accuse the New Testament books of contradicting themselves, especially in the resurrection accounts. When we look at Matthew chapter 28, verse 1, the text says, Now after the Sabbath, as the first day of the week began to dawn, Mary Magdalene and the other Mary came to see the tomb. Who does this text say came to see the tomb? Mary, Magdalene and the other Mary. But then Mark 16, 1 says, Now when the Sabbath was passed, Mary Magdalene married the mother of James, and Solome bought spices that they might come and anoint him. So which is it?",
     "creator": "prophet-of-zod",
-    "dist": 0.3459,
+    "dist": 0.3436,
     "published_at": "2018-10-11T17:14:46Z",
     "role": "unknown",
     "t": 736.24,
@@ -41,7 +41,7 @@
     "cite_key": "2bd1864a3559df0dceda800fb4764be895535b3bc5818c6e50a1b0ba698ff009",
     "context": "Um, a contradiction would be if John said, Mary Magdalene never went to the tomb, and the other ones say she did go to the tomb. That would be an actual contradiction. Number nine, when did they visit the tomb? Was it toward dawn, Matthew uh 28? Toward the dawn, on the first day of the week, Mary Magdalene and the other Mary came. Was it after sunrise? And very early on the first day of the week, when the sun had risen, they went to the tomb. Was it at early dawn, according to Luke 24? But on the first day of the week, at early dawn, they went to the tomb taking the spices they had prepared. Or was it still dark?",
     "creator": "mike-winger",
-    "dist": 0.3558,
+    "dist": 0.3635,
     "published_at": "2016-11-22T01:37:51Z",
     "role": "host",
     "t": 2206.16,
@@ -53,7 +53,7 @@
     "cite_key": "28d398d1485adfa776d6de2ce7c92d57d7a3b6fcbdc23ef27fb3b286abc869fc",
     "context": "So is that a probable solution that at one point they reviled and then at one point one of them received? Absolutely. Number eight, who visited the tomb first? Was it Mary Magdalene and the other Mary? Just two people, according to Matthew 28. Now, after the Sabbath, as the first day of the week began to dawn, Mary Magdalene and the other Mary came to see the tomb. Or was it both of them and Salome? And then we have three people.",
     "creator": "mike-winger",
-    "dist": 0.3754,
+    "dist": 0.385,
     "published_at": "2016-11-22T01:37:51Z",
     "role": "host",
     "t": 2034.84,
@@ -80,6 +80,14 @@
  "groupings": {
   "creator": {
    "cells": {
+    "dan-mcclellan": {
+     "counts": [
+      1,
+      0
+     ],
+     "n": 1,
+     "status": "insufficient-data"
+    },
     "mike-winger": {
      "counts": [
       7,
@@ -111,14 +119,14 @@
    "cells": {
     "overall": {
      "counts": [
-      9,
+      10,
       1
      ],
      "dist": [
-      0.9,
-      0.1
+      0.9091,
+      0.0909
      ],
-     "n": 10,
+     "n": 11,
      "status": "ok"
     }
    },
@@ -136,10 +144,10 @@
     },
     "unknown": {
      "counts": [
-      2,
+      3,
       0
      ],
-     "n": 2,
+     "n": 3,
      "status": "insufficient-data"
     }
    },
@@ -179,6 +187,14 @@
      "n": 2,
      "status": "insufficient-data"
     },
+    "2024": {
+     "counts": [
+      1,
+      0
+     ],
+     "n": 1,
+     "status": "insufficient-data"
+    },
     "2026": {
      "counts": [
       1,
@@ -192,8 +208,8 @@
   }
  },
  "k": 2,
- "n": 10,
- "silhouette": 0.1905,
+ "n": 11,
+ "silhouette": 0.1724,
  "status": "ok",
  "verse_ref": "Matthew 28:1"
 }

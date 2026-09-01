@@ -176,6 +176,18 @@
     },
     {
      "confidence": null,
+     "context": "And with this stem and with this syntactical arrangement, it can only mean that God felt bad, God regretted having created humanity. Another good example is Jonah 3, verse 10. The prophecy that Jonah was to deliver to Nineveh was not a conditional prophecy. It was not repent or else. The prophecy was 40 days, Nineveh is overthrown. And then the people decide to repent anyway.",
+     "creator": "dan-mcclellan",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-04-24T16:48:11Z",
+     "role": "host",
+     "t": 43.12,
+     "title": "The Bible says God has regrets",
+     "video_id": "dhTbF0G0vtM"
+    },
+    {
+     "confidence": null,
      "context": "Now, this third one that I want to highlight is can God change his mind? According to Numbers chapter 23, verse 19, God is not a man that he should lie or change his mind. But according to Jonah chapter 3, verse 10, God changed his mind and did not destroy Nineveh. Now, Exodus chapter 32, verse 14 says, So the Lord changed his mind. Now this is a clear contradiction, and the question is, is this immutable or reactive?",
      "creator": "darante-lamar",
      "detection_method": "explicit_carried",
@@ -236,14 +248,40 @@
     }
    ],
    "creators": {
+    "dan-mcclellan": 1,
     "darante-lamar": 4,
     "mindshift": 1,
     "neverflamenevertilt": 1
    },
-   "n": 6,
+   "n": 7,
    "text": {
     "KJV": "And God saw their works, that they turned from their evil way; and God repented of the evil, that he had said that he would do unto them; and he did it not.",
     "WEB": "God saw their works, that they turned from their evil way. God relented of the disaster which he said he would do to them, and he didn’t do it."
+   },
+   "truncated": false
+  },
+  "Jonah 3:4": {
+   "citations": [
+    {
+     "confidence": null,
+     "context": "God changes their mind frequently in the Bible. It was so central to their ancient understanding of God, in fact, that it is the main theme and the climax of the book of Jonah. Hey everybody, I'm Dan McClellan. I'm a scholar of the Bible and religion. And if you look in Jonah 3:4, you see the message that God gives Jonah to deliver to the Ninevites. The message that Jonah spent the last two and a half chapters trying not to deliver. And this is the tension of the book. Why would this Israelite prophet not want to go cry against the Assyrians, the most wicked people they could think of at the time?",
+     "creator": "dan-mcclellan",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-08-11T17:45:20Z",
+     "role": "host",
+     "t": 14.16,
+     "title": "God’s mind changes in the Bible",
+     "video_id": "H4hxQNkIPL4"
+    }
+   ],
+   "creators": {
+    "dan-mcclellan": 1
+   },
+   "n": 1,
+   "text": {
+    "KJV": "And Jonah began to enter into the city a day's journey, and he cried, and said, Yet forty days, and Nineveh shall be overthrown.",
+    "WEB": "Jonah began to enter into the city a day’s journey, and he cried out, and said, “In forty days, Nineveh will be overthrown!”"
    },
    "truncated": false
   },

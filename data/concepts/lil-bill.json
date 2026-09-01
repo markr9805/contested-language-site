@@ -2,7 +2,7 @@
  "concepts": [
   {
    "creator_count": 39,
-   "distinctiveness": 10.59,
+   "distinctiveness": 10.74,
    "note": null,
    "quotes": [],
    "signal": 0,
@@ -10,7 +10,7 @@
   },
   {
    "creator_count": 35,
-   "distinctiveness": 10.44,
+   "distinctiveness": 10.58,
    "note": null,
    "quotes": [],
    "signal": 0,
@@ -18,7 +18,7 @@
   },
   {
    "creator_count": 37,
-   "distinctiveness": 8.2,
+   "distinctiveness": 8.34,
    "note": "new black movement",
    "quotes": [
     {
@@ -36,32 +36,54 @@
    "surface": "new black"
   },
   {
+   "creator_count": 89,
+   "distinctiveness": 8.29,
+   "note": "anti‑black racism",
+   "quotes": [
+    {
+     "context": "...sick to death of this same [anti black] gender war boy being grifted by...",
+     "t": 2560.08,
+     "video_id": "Uu-X_E8cwaA"
+    },
+    {
+     "context": "...like doja cat's music it's the [anti black] shit on the low that fucks...",
+     "t": 2854.04,
+     "video_id": "GP7cvGckD2Y"
+    }
+   ],
+   "signal": 1,
+   "surface": "anti blackness"
+  },
+  {
+   "creator_count": 31,
+   "distinctiveness": 8.09,
+   "note": "negative framing of rap music",
+   "quotes": [
+    {
+     "context": "...and the gangbanger this is the [rap music] that fox news warned your parents...",
+     "t": 783.4,
+     "video_id": "yan8PzQHXQI"
+    },
+    {
+     "context": "...white people's favorite scapegoat the devil's [rap music] of course which while i'm on...",
+     "t": 1051.24,
+     "video_id": "9Q-YWaHM_r0"
+    }
+   ],
+   "signal": 1,
+   "surface": "rap music"
+  },
+  {
    "creator_count": 39,
-   "distinctiveness": 7.93,
+   "distinctiveness": 8.08,
    "note": null,
    "quotes": [],
    "signal": 0,
    "surface": "black boys"
   },
   {
-   "creator_count": 75,
-   "distinctiveness": 7.9,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "anti blackness"
-  },
-  {
-   "creator_count": 29,
-   "distinctiveness": 7.85,
-   "note": null,
-   "quotes": [],
-   "signal": 0,
-   "surface": "rap music"
-  },
-  {
-   "creator_count": 34,
-   "distinctiveness": 7.46,
+   "creator_count": 39,
+   "distinctiveness": 7.68,
    "note": null,
    "quotes": [],
    "signal": 0,
@@ -69,7 +91,7 @@
   },
   {
    "creator_count": 51,
-   "distinctiveness": 7.35,
+   "distinctiveness": 7.5,
    "note": null,
    "quotes": [],
    "signal": 0,
@@ -78,17 +100,17 @@
  ],
  "coverage": {
   "added_since": 0,
-  "basis_videos": 68,
+  "basis_videos": 69,
   "complete": true,
-  "coverage_pct": 0.9714,
-  "ingested_videos": 68,
-  "total_videos": 70
+  "coverage_pct": 0.9718,
+  "ingested_videos": 69,
+  "total_videos": 71
  },
  "display_name": "lil bill",
  "entities": [
   {
    "creator_count": 31,
-   "distinctiveness": 10.27,
+   "distinctiveness": 10.41,
    "note": null,
    "quotes": [],
    "signal": 0,

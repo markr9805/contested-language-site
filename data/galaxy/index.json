@@ -3,28 +3,28 @@
   "community": {
    "apologetics": {
     "file": "community/apologetics.json",
-    "nodes_ghost": 35,
-    "nodes_ok": 52,
-    "occurrences": 70973
+    "nodes_ghost": 37,
+    "nodes_ok": 50,
+    "occurrences": 69355
    },
    "deconstruction": {
     "file": "community/deconstruction.json",
     "nodes_ghost": 29,
     "nodes_ok": 58,
-    "occurrences": 68549
+    "occurrences": 68564
    }
   },
   "creator": {
    "apostate-aladdin": {
     "file": "creator/apostate-aladdin.json",
-    "nodes_ghost": 46,
-    "nodes_ok": 41,
+    "nodes_ghost": 45,
+    "nodes_ok": 42,
     "occurrences": 9692
    },
    "belief-it-or-not": {
     "file": "creator/belief-it-or-not.json",
-    "nodes_ghost": 65,
-    "nodes_ok": 22,
+    "nodes_ghost": 64,
+    "nodes_ok": 23,
     "occurrences": 4777
    },
    "britt-hartley": {
@@ -47,15 +47,15 @@
    },
    "cross-examined": {
     "file": "creator/cross-examined.json",
-    "nodes_ghost": 52,
-    "nodes_ok": 35,
+    "nodes_ghost": 53,
+    "nodes_ok": 34,
     "occurrences": 18851
    },
    "dan-mcclellan": {
     "file": "creator/dan-mcclellan.json",
-    "nodes_ghost": 72,
-    "nodes_ok": 15,
-    "occurrences": 1750
+    "nodes_ghost": 60,
+    "nodes_ok": 27,
+    "occurrences": 3498
    },
    "darante-lamar": {
     "file": "creator/darante-lamar.json",
@@ -91,7 +91,7 @@
     "file": "creator/lil-bill.json",
     "nodes_ghost": 76,
     "nodes_ok": 11,
-    "occurrences": 899
+    "occurrences": 914
    },
    "marc-coley": {
     "file": "creator/marc-coley.json",
@@ -109,7 +109,7 @@
     "file": "creator/mindshift.json",
     "nodes_ghost": 51,
     "nodes_ok": 36,
-    "occurrences": 11920
+    "occurrences": 12052
    },
    "neverflamenevertilt": {
     "file": "creator/neverflamenevertilt.json",
@@ -125,8 +125,8 @@
    },
    "prophet-of-zod": {
     "file": "creator/prophet-of-zod.json",
-    "nodes_ghost": 68,
-    "nodes_ok": 19,
+    "nodes_ghost": 67,
+    "nodes_ok": 20,
     "occurrences": 2874
    },
    "reasonable-faith-org": {
@@ -149,17 +149,17 @@
    },
    "the-omnist-rone": {
     "file": "creator/the-omnist-rone.json",
-    "nodes_ghost": 64,
-    "nodes_ok": 23,
-    "occurrences": 4085
+    "nodes_ghost": 62,
+    "nodes_ok": 25,
+    "occurrences": 4670
    }
   },
   "overall": {
    "overall": {
     "file": "overall/overall.json",
-    "nodes_ghost": 5,
-    "nodes_ok": 82,
-    "occurrences": 206347
+    "nodes_ghost": 4,
+    "nodes_ok": 83,
+    "occurrences": 208827
    }
   },
   "role": {
@@ -167,19 +167,19 @@
     "file": "role/host.json",
     "nodes_ghost": 11,
     "nodes_ok": 76,
-    "occurrences": 152553
+    "occurrences": 154550
    },
    "unattributed": {
     "file": "role/unattributed.json",
     "nodes_ghost": 46,
     "nodes_ok": 41,
-    "occurrences": 8418
+    "occurrences": 8508
    },
    "unknown": {
     "file": "role/unknown.json",
-    "nodes_ghost": 26,
-    "nodes_ok": 61,
-    "occurrences": 45376
+    "nodes_ghost": 28,
+    "nodes_ok": 59,
+    "occurrences": 45769
    }
   },
   "year": {
@@ -275,33 +275,33 @@
    },
    "2022": {
     "file": "year/2022.json",
-    "nodes_ghost": 37,
-    "nodes_ok": 50,
+    "nodes_ghost": 38,
+    "nodes_ok": 49,
     "occurrences": 17184
    },
    "2023": {
     "file": "year/2023.json",
-    "nodes_ghost": 34,
-    "nodes_ok": 53,
-    "occurrences": 18983
+    "nodes_ghost": 35,
+    "nodes_ok": 52,
+    "occurrences": 19167
    },
    "2024": {
     "file": "year/2024.json",
     "nodes_ghost": 32,
     "nodes_ok": 55,
-    "occurrences": 40010
+    "occurrences": 41451
    },
    "2025": {
     "file": "year/2025.json",
     "nodes_ghost": 26,
     "nodes_ok": 61,
-    "occurrences": 47593
+    "occurrences": 48282
    },
    "2026": {
     "file": "year/2026.json",
-    "nodes_ghost": 35,
-    "nodes_ok": 52,
-    "occurrences": 35312
+    "nodes_ghost": 36,
+    "nodes_ok": 51,
+    "occurrences": 35478
    }
   }
  },
@@ -311,7 +311,6 @@
     "britt-hartley",
     "capturing-christianity",
     "cross-examined",
-    "dan-mcclellan",
     "drcraigvideos",
     "genetically-modified-skeptic",
     "mindshift",
@@ -368,7 +367,6 @@
     "britt-hartley",
     "capturing-christianity",
     "cross-examined",
-    "dan-mcclellan",
     "drcraigvideos",
     "genetically-modified-skeptic",
     "mindshift",
@@ -393,17 +391,17 @@
  "suggestions_file": "suggestions.json",
  "unsided": {
   "apostate-aladdin": {
-   "reason": "top pole weight leads by 0.0256 < margin 0.05",
+   "reason": "top pole weight leads by 0.0234 < margin 0.05",
    "weights": {
-    "apologetics": 0.8886,
-    "deconstruction": 0.9142
+    "apologetics": 0.8854,
+    "deconstruction": 0.9088
    }
   },
   "belief-it-or-not": {
-   "reason": "top pole weight leads by 0.0088 < margin 0.05",
+   "reason": "top pole weight leads by 0.0150 < margin 0.05",
    "weights": {
-    "apologetics": 0.9281,
-    "deconstruction": 0.9193
+    "apologetics": 0.9347,
+    "deconstruction": 0.9197
    }
   },
   "counsel-of-trent": {
@@ -413,60 +411,67 @@
     "deconstruction": 0.8501
    }
   },
-  "jackie-hill-perry": {
-   "reason": "top pole weight leads by 0.0134 < margin 0.05",
+  "dan-mcclellan": {
+   "reason": "top pole weight leads by 0.0371 < margin 0.05",
    "weights": {
-    "apologetics": 0.9117,
-    "deconstruction": 0.8983
+    "apologetics": 0.9436,
+    "deconstruction": 0.9065
+   }
+  },
+  "jackie-hill-perry": {
+   "reason": "top pole weight leads by 0.0218 < margin 0.05",
+   "weights": {
+    "apologetics": 0.9189,
+    "deconstruction": 0.8971
    }
   },
   "jude-3-project": {
-   "reason": "top pole weight leads by 0.0081 < margin 0.05",
+   "reason": "top pole weight leads by 0.0112 < margin 0.05",
    "weights": {
-    "apologetics": 0.9439,
+    "apologetics": 0.947,
     "deconstruction": 0.9358
    }
   },
   "neverflamenevertilt": {
-   "reason": "top pole weight leads by 0.0069 < margin 0.05",
+   "reason": "top pole weight leads by 0.0056 < margin 0.05",
    "weights": {
-    "apologetics": 0.9526,
-    "deconstruction": 0.9457
+    "apologetics": 0.9509,
+    "deconstruction": 0.9453
    }
   },
   "paulogia": {
-   "reason": "top pole weight leads by 0.0381 < margin 0.05",
+   "reason": "top pole weight leads by 0.0401 < margin 0.05",
    "weights": {
-    "apologetics": 0.9649,
-    "deconstruction": 0.9268
+    "apologetics": 0.9668,
+    "deconstruction": 0.9267
    }
   },
   "prophet-of-zod": {
-   "reason": "top pole weight leads by 0.0266 < margin 0.05",
+   "reason": "top pole weight leads by 0.0255 < margin 0.05",
    "weights": {
-    "apologetics": 0.9737,
-    "deconstruction": 0.9471
+    "apologetics": 0.9733,
+    "deconstruction": 0.9478
    }
   },
   "shannon-q": {
-   "reason": "top pole weight leads by 0.0343 < margin 0.05",
+   "reason": "top pole weight leads by 0.0327 < margin 0.05",
    "weights": {
-    "apologetics": 0.8579,
-    "deconstruction": 0.8922
+    "apologetics": 0.8527,
+    "deconstruction": 0.8854
    }
   },
   "the-antibot": {
-   "reason": "top pole weight leads by 0.0059 < margin 0.05",
+   "reason": "top pole weight leads by 0.0043 < margin 0.05",
    "weights": {
-    "apologetics": 0.914,
-    "deconstruction": 0.9199
+    "apologetics": 0.9149,
+    "deconstruction": 0.9192
    }
   },
   "the-omnist-rone": {
-   "reason": "top pole weight leads by 0.0058 < margin 0.05",
+   "reason": "top pole weight leads by 0.0073 < margin 0.05",
    "weights": {
-    "apologetics": 0.9357,
-    "deconstruction": 0.9415
+    "apologetics": 0.9312,
+    "deconstruction": 0.9385
    }
   }
  }

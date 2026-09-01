@@ -67,7 +67,7 @@
     "cite_key": "f7734bdbb4ad3bd06e08bbb5948d250bcfedf48d72417f27d0712006ffc03eca",
     "context": "They say unto him, the son of David. He saith unto them, How then doth David in spirit call him Lord, saying, The Lord said unto my Lord, sit thou in the right hand until I make thine enemies thy footstool. So even in David's prophecy about Christ, which is his root, he still saw the Father or the Most High, and then he saw another Lord, which is Christ.",
     "creator": "capturing-christianity",
-    "dist": 0.3479,
+    "dist": 0.3464,
     "published_at": "2026-01-15T22:12:46Z",
     "role": "unknown",
     "t": 2113.64,
@@ -76,28 +76,28 @@
     "video_id": "wpZH7ebqi6k"
    },
    {
-    "cite_key": "0adc8d2fab31f1424a0477eca71f85ed423b96a75f5ced5037db13ad7c607fd1",
-    "context": "That was the uh Passion Translation version. Um Jesus said, Riddle me this Batman. If uh if if the Messiah, right, is David's Lord, well, then who is the Messiah? That's kind of what he comes out with, Psalm 110. And it says, The Lord said to my Lord, sit at my right hand until I make your enemies your footstool. And so it's like, well, who's David's Lord? He's the king of Israel. Who is his Lord? The Lord Jehovah, Yahweh, right? He says to David's Lord, Well, who's that? So he's trying to say he's greater than David, as Jesus said, greater than David, greater than Abraham, greater than the tabernacle.",
-    "creator": "mike-winger",
-    "dist": 0.3514,
-    "published_at": "2019-02-11T15:00:05Z",
-    "role": "host",
-    "t": 1733.76,
-    "title": "Who Is The Son of Man? How to Find Jesus In The OT pt 20",
-    "verse_ref": "Psalms 110:1",
-    "video_id": "JSgYpW89DQw"
-   },
-   {
     "cite_key": "807243caa9cbc079b63839374022bde70ed2e1b0f8357cb27349fb67f7f966b3",
     "context": "Philippians talked about. Being therefore exalted at the right hand of God, and having received from the Father the promise of the Holy Spirit, he has poured out this that you yourselves are seeing and hearing. For David did not ascend to the heavens, but he says himself, or he himself says, The Lord said to my Lord, sit at my right hand until I make your enemies your footstool. This is a verse Jesus used to talk about himself, where he's like, How is David's son the Lord of David?",
     "creator": "mike-winger",
-    "dist": 0.3553,
+    "dist": 0.3546,
     "published_at": "2023-09-15T23:30:57Z",
     "role": "host",
     "t": 4877.36,
     "title": "20 Questions with Pastor Mike (Episode 107)",
     "verse_ref": "Psalms 110:1",
     "video_id": "Y4qfQHQriY4"
+   },
+   {
+    "cite_key": "0adc8d2fab31f1424a0477eca71f85ed423b96a75f5ced5037db13ad7c607fd1",
+    "context": "That was the uh Passion Translation version. Um Jesus said, Riddle me this Batman. If uh if if the Messiah, right, is David's Lord, well, then who is the Messiah? That's kind of what he comes out with, Psalm 110. And it says, The Lord said to my Lord, sit at my right hand until I make your enemies your footstool. And so it's like, well, who's David's Lord? He's the king of Israel. Who is his Lord? The Lord Jehovah, Yahweh, right? He says to David's Lord, Well, who's that? So he's trying to say he's greater than David, as Jesus said, greater than David, greater than Abraham, greater than the tabernacle.",
+    "creator": "mike-winger",
+    "dist": 0.3553,
+    "published_at": "2019-02-11T15:00:05Z",
+    "role": "host",
+    "t": 1733.76,
+    "title": "Who Is The Son of Man? How to Find Jesus In The OT pt 20",
+    "verse_ref": "Psalms 110:1",
+    "video_id": "JSgYpW89DQw"
    },
    {
     "cite_key": "d1d5f1c3116035e4d7d9f7d475cec3f4ee4c73bfce702ddc14063911222efc82",
@@ -115,7 +115,7 @@
     "cite_key": "d1be6e63e0a6600feeda1c3633e953d337c8b4fb076ffb818f225c24241f14bf",
     "context": "What he's challenging is that Christ is only the Son of David. He's defeating the idea that Jesus is merely a human, merely a genealogical human being. He's greater than that. He's more than a man, he's more than a human, although he is a human. Then he uses this Psalm 110, verse 1 to build his case. David himself said, in the Holy Spirit, the Lord said to my Lord, sit at my right hand until I put your enemies beneath your feet. So here, Psalm 110, one, David's writing, and he he mentions two Lords.",
     "creator": "mike-winger",
-    "dist": 0.3685,
+    "dist": 0.3702,
     "published_at": "2021-01-04T22:06:06Z",
     "role": "host",
     "t": 572.28,
@@ -147,9 +147,9 @@
     "dan-mcclellan": {
      "counts": [
       0,
-      1
+      2
      ],
-     "n": 1,
+     "n": 2,
      "status": "insufficient-data"
     },
     "mike-winger": {
@@ -180,13 +180,13 @@
     "overall": {
      "counts": [
       20,
-      14
+      15
      ],
      "dist": [
-      0.5882,
-      0.4118
+      0.5714,
+      0.4286
      ],
-     "n": 34,
+     "n": 35,
      "status": "ok"
     }
    },
@@ -209,9 +209,9 @@
     "unknown": {
      "counts": [
       0,
-      3
+      4
      ],
-     "n": 3,
+     "n": 4,
      "status": "insufficient-data"
     }
    },
@@ -270,10 +270,14 @@
     "2025": {
      "counts": [
       6,
-      3
+      4
      ],
-     "n": 9,
-     "status": "insufficient-data"
+     "dist": [
+      0.6,
+      0.4
+     ],
+     "n": 10,
+     "status": "ok"
     },
     "2026": {
      "counts": [
@@ -288,8 +292,8 @@
   }
  },
  "k": 2,
- "n": 34,
- "silhouette": 0.0744,
+ "n": 35,
+ "silhouette": 0.074,
  "status": "ok",
  "verse_ref": "Psalms 110:1"
 }

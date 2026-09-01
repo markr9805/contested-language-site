@@ -5,7 +5,7 @@
     "cite_key": "dcdc05a892fe0209cc4d0ada54574d7b1f5e1fa52f7db2e58f964fea5a0a714a",
     "context": "And then early Christians actually expected an immediate return. Jesus explicitly predicts the end within this generation. So in the Gospel of Matthew, chapter 24, verse 34, it says, Truly I tell you, this generation will not pass away until all these things have taken place. Now to give you context on the these things, that would be the cosmic signs, Son of Man coming on the clouds, angels gathering the elect, and the ultimate collapse of the age.",
     "creator": "darante-lamar",
-    "dist": 0.3396,
+    "dist": 0.34,
     "published_at": "2026-01-27T20:02:14Z",
     "role": "host",
     "t": 676.0,
@@ -17,7 +17,7 @@
     "cite_key": "1856ddac378f36d89d606dc2a61c9d740ec533728ec904259eaec586059722e4",
     "context": "He said he was coming and he didn't he didn't come. So let me read to you some of those statements. Uh here in Mark 13 30, Jesus says, Truly I say to you, this generation will not pass away until all these things take place. Then in Luke 21, 32, he says, Truly I say to you, this generation will not pass away until all has taken place.",
     "creator": "mike-winger",
-    "dist": 0.3566,
+    "dist": 0.3582,
     "published_at": "2018-04-25T02:04:38Z",
     "role": "host",
     "t": 89.36,
@@ -29,7 +29,7 @@
     "cite_key": "66bf609d8d63b95c7a6032de21194dfc3fe77c1deca0beb9fc6d66187a6b178c",
     "context": "This one's a little different than what we've been doing, but let's see how it goes. You know what would have cleared up a bunch of confusion if Jesus said, some events will remain unseen, and their timing shall be known to no man, neither within this generation nor the next. But instead, in Matthew 24 34, we get truly, I tell you, this generation will certainly not pass away until all these things have happened. Yeah, this verse is beyond clear. We get truly, we get certainly, we get no mincing of words. This generation meant the same thing it does now, and yet there's been 81 of them since Jesus.",
     "creator": "mindshift",
-    "dist": 0.362,
+    "dist": 0.3624,
     "published_at": "2024-10-06T14:00:02Z",
     "role": "host",
     "t": 649.2,
@@ -41,7 +41,7 @@
     "cite_key": "f04e42c8eedcd3511c28d92374f2625db21e686f42956c67d1bdabf6b13426a7",
     "context": "Truly I say to you, these signs that he gives, uh, this generation will not pass away until all these things take place. And I kind of want to know if you had any input on that. When Jesus says all these things will occur before before this event takes place, when did he say that? He said that about 30, 33 AD.",
     "creator": "cross-examined",
-    "dist": 0.3762,
+    "dist": 0.3761,
     "published_at": "2024-07-06T16:00:11Z",
     "role": "unknown",
     "t": 0.08,
@@ -53,7 +53,7 @@
     "cite_key": "fbf31dfcdef4d4bad9f52a49eb347752e3b5d60792bae02eb780ad8d0192e6e6",
     "context": "Let's do a case study on two of the most popular prophets in the Western world, Jesus and Muhammad. There is a prophecy in the New Testament about Jesus' imminent return, the parugia. In the text it says, Truly I tell you, this generation will not pass away until all these things have happened. The text begins with, Truly, I tell you, which means what I am saying is the truth, and this does have a predictive context.",
     "creator": "darante-lamar",
-    "dist": 0.3956,
+    "dist": 0.3966,
     "published_at": "2025-07-02T19:49:19Z",
     "role": "host",
     "t": 551.08,
@@ -138,10 +138,10 @@
     },
     "dan-mcclellan": {
      "counts": [
-      0,
+      1,
       1
      ],
-     "n": 1,
+     "n": 2,
      "status": "insufficient-data"
     },
     "darante-lamar": {
@@ -191,14 +191,14 @@
    "cells": {
     "overall": {
      "counts": [
-      21,
+      22,
       5
      ],
      "dist": [
-      0.8077,
-      0.1923
+      0.8148,
+      0.1852
      ],
-     "n": 26,
+     "n": 27,
      "status": "ok"
     }
    },
@@ -208,14 +208,14 @@
    "cells": {
     "host": {
      "counts": [
-      16,
+      17,
       5
      ],
      "dist": [
-      0.7619,
-      0.2381
+      0.7727,
+      0.2273
      ],
-     "n": 21,
+     "n": 22,
      "status": "ok"
     },
     "unknown": {
@@ -257,10 +257,10 @@
     },
     "2024": {
      "counts": [
-      6,
+      7,
       0
      ],
-     "n": 6,
+     "n": 7,
      "status": "insufficient-data"
     },
     "2025": {
@@ -288,8 +288,8 @@
   }
  },
  "k": 2,
- "n": 26,
- "silhouette": 0.0703,
+ "n": 27,
+ "silhouette": 0.0692,
  "status": "ok",
  "verse_ref": "Matthew 24:34"
 }

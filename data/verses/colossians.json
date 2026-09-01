@@ -267,6 +267,18 @@
      "video_id": "A4r3dC-kr5E"
     },
     {
+     "confidence": null,
+     "context": "Uh and so the uncreated view is probably the minority view until you get um into the second and third centuries, and then it probably takes over as the as the consensus view. Uh, but I personally think Colossians 1:15 is is calling Jesus created, uh, but that's unpopular among the Trinitarians, so don't tell anybody. Uh Hannah Omega, does data say John of the gospel and letters are all the same? No. Can you give me some examples of the bad Greek of Revelation?",
+     "creator": "dan-mcclellan",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-11-04T04:13:09Z",
+     "role": "host",
+     "t": 4967.96,
+     "title": "Come say hi!",
+     "video_id": "Gm5fNDmf_6M"
+    },
+    {
      "confidence": 1.0,
      "context": "So let's read Colossians 1, 15 to 19. He says of Christ, he is the image of the invisible God, the firstborn of all creation. For in him all things were created in heaven and on earth, visible and invisible, whether thrones or dominions or principalities or authorities, all things were created through him and for him.",
      "creator": "reasonable-faith-org",
@@ -485,13 +497,14 @@
    ],
    "creators": {
     "capturing-christianity": 2,
+    "dan-mcclellan": 1,
     "jackie-hill-perry": 1,
     "jude-3-project": 2,
     "mike-winger": 13,
     "mindshift": 2,
     "reasonable-faith-org": 6
    },
-   "n": 26,
+   "n": 27,
    "text": {
     "KJV": "Who is the image of the invisible God, the firstborn of every creature:",
     "WEB": "He is the image of the invisible God, the firstborn of all creation."
@@ -867,6 +880,18 @@
      "video_id": "K9rrNRr7WfA"
     },
     {
+     "confidence": 0.7,
+     "context": "So if you look up laminin, you'll find out that this is the name of a family of proteins that evidently form an integral part of the scaffolding of basement membranes in animal tissues, including in the human body. And based on what I can find, over a decade ago, a pastor named Louis Giglio started telling a story about a molecular biologist telling him that Colossians 117 is about laminan because Colossians 117 says he is before all things and in him all things hold together.",
+     "creator": "dan-mcclellan",
+     "detection_method": "shingle_match",
+     "matched_translation": "WEB",
+     "published_at": "2024-09-07T15:26:14Z",
+     "role": "host",
+     "t": 40.96,
+     "title": "Is laminin proof God is real?",
+     "video_id": "ZFr9a9CpbKo"
+    },
+    {
      "confidence": 0.5,
      "context": "For by him all things were created in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities, all things were created through him and for him. Right? And he's before all things, and in him all things hold together. So Jesus is given credit for for being the one who ordered all things mightily. That's that's the idea there. So there's another aspect. So he's wisdom from Proverbs, he's he's uh wisdom because it's how God created all things, how God established the existence of all things is is through wisdom according to Proverbs, but also through Christ according to the New Testament.",
      "creator": "mike-winger",
@@ -928,12 +953,12 @@
     }
    ],
    "creators": {
-    "dan-mcclellan": 1,
+    "dan-mcclellan": 2,
     "mike-winger": 8,
     "mindshift": 2,
     "reasonable-faith-org": 2
    },
-   "n": 13,
+   "n": 14,
    "text": {
     "KJV": "And he is before all things, and by him all things consist.",
     "WEB": "He is before all things, and in him all things are held together."

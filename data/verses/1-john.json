@@ -5263,6 +5263,18 @@
     },
     {
      "confidence": 1.0,
+     "context": "What is the Johannine comma and why is it important? Hey everybody, I'm Dan McClellan. I'm a scholar of the Bible and religion. And if you look in the King James Version at 1 John 5, verses 7 and 8, you see this. For there are three that bear record in heaven, the Father, the Word, and the Holy Ghost, and these three are one. And there are three that bear witness in earth, the Spirit and the Water and the Blood. And these three agree in one. But if you look in most modern translations of 1 John, you don't see all of that.",
+     "creator": "dan-mcclellan",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-08-25T17:54:32Z",
+     "role": "host",
+     "t": 12.96,
+     "title": "What is the Johannine Comma?",
+     "video_id": "n8iexLWVJCk"
+    },
+    {
+     "confidence": 1.0,
      "context": "And that doctrine does not depend in any way on the part of 1 John 5 7 called the Johannine Kama, that nearly all scholars agree, was not a part of the original manuscript of 1 John. One of the few verses in the New Testament that outright state the doctrine of the Trinity appears in chapter 5, verse 7 and 8 of the first epistle of John, reading in the King James Bible as there are three that bear record in heaven, the Father, the Word, and the Holy Ghost, and these three are one, and there are three that bear witness in earth, the Spirit and the water, and the blood, and these three agree in one.",
      "creator": "counsel-of-trent",
      "detection_method": "shingle_match",
@@ -5314,11 +5326,11 @@
     "capturing-christianity": 1,
     "counsel-of-trent": 1,
     "cross-examined": 3,
-    "dan-mcclellan": 1,
+    "dan-mcclellan": 2,
     "mike-winger": 5,
     "mindshift": 1
    },
-   "n": 12,
+   "n": 13,
    "text": {
     "KJV": "For there are three that bear record in heaven, the Father, the Word, and the Holy Ghost: and these three are one.",
     "WEB": "For there are three who testify:"
@@ -5377,6 +5389,18 @@
     },
     {
      "confidence": null,
+     "context": "What is the Johannine comma and why is it important? Hey everybody, I'm Dan McClellan. I'm a scholar of the Bible and religion. And if you look in the King James Version at 1 John 5, verses 7 and 8, you see this. For there are three that bear record in heaven, the Father, the Word, and the Holy Ghost, and these three are one. And there are three that bear witness in earth, the Spirit and the Water and the Blood.",
+     "creator": "dan-mcclellan",
+     "detection_method": "explicit_citation",
+     "matched_translation": null,
+     "published_at": "2024-08-25T17:54:32Z",
+     "role": "host",
+     "t": 7.04,
+     "title": "What is the Johannine Comma?",
+     "video_id": "n8iexLWVJCk"
+    },
+    {
+     "confidence": null,
      "context": "We happen to know about these, but we can never know about the ones that we don't know about. But if these snuck in, how many will we never find out about because we don't have the originals? He put Latin on screen, and that is a bad example. Because it was Latin translators who inserted the phrase the Father, the Word, and the Holy Ghost into 1 John 5, verses 7 and 8. This is the only explicitly Trinity affirming phrase in the New Testament. And it exists in none of the early Greek manuscripts, but only in the Latin texts.",
      "creator": "paulogia",
      "detection_method": "explicit_citation",
@@ -5389,10 +5413,11 @@
     }
    ],
    "creators": {
+    "dan-mcclellan": 1,
     "mike-winger": 1,
     "paulogia": 4
    },
-   "n": 5,
+   "n": 6,
    "text": {},
    "truncated": false
   },
@@ -5472,6 +5497,18 @@
     },
     {
      "confidence": 1.0,
+     "context": "What is the Johannine comma and why is it important? Hey everybody, I'm Dan McClellan. I'm a scholar of the Bible and religion. And if you look in the King James Version at 1 John 5, verses 7 and 8, you see this. For there are three that bear record in heaven, the Father, the Word, and the Holy Ghost, and these three are one. And there are three that bear witness in earth, the Spirit and the Water and the Blood. And these three agree in one. But if you look in most modern translations of 1 John, you don't see all of that.",
+     "creator": "dan-mcclellan",
+     "detection_method": "shingle_match",
+     "matched_translation": "KJV",
+     "published_at": "2024-08-25T17:54:32Z",
+     "role": "host",
+     "t": 12.96,
+     "title": "What is the Johannine Comma?",
+     "video_id": "n8iexLWVJCk"
+    },
+    {
+     "confidence": 1.0,
      "context": "And that doctrine does not depend in any way on the part of 1 John 5 7 called the Johannine Kama, that nearly all scholars agree, was not a part of the original manuscript of 1 John. One of the few verses in the New Testament that outright state the doctrine of the Trinity appears in chapter 5, verse 7 and 8 of the first epistle of John, reading in the King James Bible as there are three that bear record in heaven, the Father, the Word, and the Holy Ghost, and these three are one, and there are three that bear witness in earth, the Spirit and the water, and the blood, and these three agree in one.",
      "creator": "counsel-of-trent",
      "detection_method": "shingle_match",
@@ -5509,11 +5546,12 @@
    ],
    "creators": {
     "counsel-of-trent": 2,
+    "dan-mcclellan": 1,
     "drcraigvideos": 3,
     "mike-winger": 3,
     "mindshift": 1
    },
-   "n": 9,
+   "n": 10,
    "text": {
     "KJV": "And there are three that bear witness in earth, the Spirit, and the water, and the blood: and these three agree in one.",
     "WEB": "the Spirit, the water, and the blood; and the three agree as one."
